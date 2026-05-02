@@ -5,15 +5,46 @@ interface Props {
   title?: string;
   description?: string;
   image?: string;
+  schema?: Record<string, unknown>;
 }
 
 const {
-  title = 'Learn Hebrew – Read & Speak | HebrewEdu',
-  description = 'Learn the Hebrew alphabet step by step. Structured lessons, native audio, and reading trainer — from Aleph Bet to confident reading.',
+  title = 'Hebrew Alphabet App – Learn the Hebrew Alphabet | HebrewEdu',
+  description = 'Learn the Hebrew alphabet step by step with the #1 Hebrew alphabet app. Master Aleph Bet with audio lessons, reading practice & vocabulary. Free on Android.',
   image = '/og-image.png',
+  schema,
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+
+// Default JSON-LD — MobileApplication schema
+const defaultSchema = {
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "Learn Hebrew – Read & Speak",
+  "description": "Learn the Hebrew alphabet step by step. Master Aleph Bet with structured lessons, native audio, reading trainer and vocabulary exercises.",
+  "applicationCategory": "EducationApplication",
+  "operatingSystem": "Android",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "ratingCount": "4"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Viktor Sokoliuk"
+  },
+  "url": "https://hebrewedu.com",
+  "downloadUrl": "https://play.google.com/store/apps/details?id=com.vicsothemes.hebrewforbeginners",
+  "inLanguage": "en"
+};
+
+const jsonLd = JSON.stringify(schema ?? defaultSchema);
 ---
 
 <!doctype html>
@@ -23,9 +54,12 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="canonical" href={canonicalURL} />
 
-    <!-- Primary -->
+    <!-- Primary SEO -->
     <title>{title}</title>
     <meta name="description" content={description} />
+    <meta name="keywords" content="hebrew alphabet, learn hebrew alphabet, hebrew alphabet app, aleph bet, learn hebrew, hebrew letters, hebrew reading, aleph bet app, hebrew for beginners, learn hebrew android" />
+    <meta name="author" content="Viktor Sokoliuk" />
+    <meta name="robots" content="index, follow" />
 
     <!-- Open Graph -->
     <meta property="og:type"        content="website" />
@@ -33,6 +67,10 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <meta property="og:title"       content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:image"       content={new URL(image, Astro.site)} />
+    <meta property="og:image:width"  content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name"   content="HebrewEdu" />
+    <meta property="og:locale"      content="en_US" />
 
     <!-- Twitter -->
     <meta name="twitter:card"        content="summary_large_image" />
@@ -47,6 +85,9 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <!-- Preconnect fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json" set:html={jsonLd} />
   </head>
   <body>
     <slot />

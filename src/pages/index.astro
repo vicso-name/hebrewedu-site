@@ -7,9 +7,89 @@ import HowItWorks from '../components/HowItWorks.astro';
 import Testimonials from '../components/Testimonials.astro';
 import DownloadCTA from '../components/DownloadCTA.astro';
 import Footer from '../components/Footer.astro';
+
+const pageSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://hebrewedu.com/#website",
+      "url": "https://hebrewedu.com",
+      "name": "HebrewEdu",
+      "description": "Learn the Hebrew alphabet with the best Hebrew alphabet app for Android.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "MobileApplication",
+      "@id": "https://hebrewedu.com/#app",
+      "name": "Learn Hebrew – Read & Speak",
+      "description": "Learn the Hebrew alphabet step by step. Master all 22 Aleph Bet letters with native audio, structured lessons, reading trainer and vocabulary exercises.",
+      "applicationCategory": "EducationApplication",
+      "operatingSystem": "Android",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "4"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Viktor Sokoliuk"
+      },
+      "downloadUrl": "https://play.google.com/store/apps/details?id=com.vicsothemes.hebrewforbeginners",
+      "url": "https://hebrewedu.com",
+      "screenshot": "https://hebrewedu.com/screenshots/screen-alphabet.png",
+      "featureList": [
+        "Hebrew alphabet lessons (Aleph Bet)",
+        "22 Hebrew letters with native audio",
+        "Hebrew reading trainer with real stories",
+        "Hebrew vocabulary and word review",
+        "Offline mode",
+        "Progress tracking"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is this Hebrew alphabet app free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, Learn Hebrew – Read & Speak is free to download on Android. A Premium subscription unlocks additional lessons and reading stories."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many Hebrew letters does the app cover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The app covers all 22 letters of the Hebrew alphabet (Aleph Bet), including vowel markings (Nikud) and native audio pronunciation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can beginners learn the Hebrew alphabet with this app?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. The app is designed specifically for beginners, starting from the very first Hebrew letter and progressing step by step to reading full Hebrew texts."
+          }
+        }
+      ]
+    }
+  ]
+};
 ---
 
-<Layout>
+<Layout
+  title="Hebrew Alphabet App – Learn the Hebrew Alphabet | HebrewEdu"
+  description="Learn the Hebrew alphabet step by step with the best Hebrew alphabet app for Android. Master all 22 Aleph Bet letters with audio, reading practice & vocabulary. Free download."
+  schema={pageSchema}
+>
   <Nav />
   <main>
     <Hero />
