@@ -1,0 +1,105 @@
+---
+const reviews = [
+  {
+    name:    'Sarah M.',
+    avatar:  'SM',
+    color:   '#6366F1',
+    rating:  5,
+    text:    'Finally an app that explains Hebrew letters properly. The audio is so clear and the structured lessons make it easy to track my progress.',
+  },
+  {
+    name:    'David K.',
+    avatar:  'DK',
+    color:   '#10B981',
+    rating:  5,
+    text:    'I love the Reading Trainer feature. Being able to read actual Hebrew stories, even as a beginner, is incredibly motivating!',
+  },
+  {
+    name:    'Miriam L.',
+    avatar:  'ML',
+    color:   '#F59E0B',
+    rating:  5,
+    text:    'The Alphabet Explorer is brilliant. I can see all 22 letters at a glance and the color coding between consonants and special forms is very helpful.',
+  },
+];
+---
+
+<section class="testimonials-section">
+  <div class="container">
+    <div class="testimonials-inner">
+      <!-- Left headline -->
+      <div class="testimonials-header">
+        <p class="eyebrow">Reviews</p>
+        <h2 class="display-lg mt-xs">Loved by Hebrew<br/>learners worldwide</h2>
+        <div class="rating-summary mt-md">
+          <div class="stars">{'★'.repeat(5)}</div>
+          <p class="rating-text">Rated 5 stars on Google Play</p>
+        </div>
+      </div>
+
+      <!-- Right: review cards -->
+      <div class="reviews-list">
+        {reviews.map(r => (
+          <div class="review-card">
+            <div class="review-top">
+              <div class="reviewer-avatar" style={`background: ${r.color}20; color: ${r.color};`}>
+                {r.avatar}
+              </div>
+              <div>
+                <p class="reviewer-name">{r.name}</p>
+                <div class="review-stars">{'★'.repeat(r.rating)}</div>
+              </div>
+            </div>
+            <p class="review-text">"{r.text}"</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+.testimonials-section { background: white; }
+
+.testimonials-inner {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr;
+  gap: clamp(2rem, 6vw, 5rem);
+  align-items: start;
+}
+
+.rating-summary { display: flex; flex-direction: column; gap: 0.25rem; }
+.stars { font-size: 1.5rem; color: var(--amber); letter-spacing: 2px; }
+.rating-text { font-size: 0.875rem; color: var(--ink-light); }
+
+.reviews-list { display: flex; flex-direction: column; gap: 1rem; }
+
+.review-card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--r-lg);
+  padding: 1.25rem 1.5rem;
+  transition: box-shadow 0.2s;
+}
+.review-card:hover { box-shadow: var(--shadow-md); }
+
+.review-top { display: flex; align-items: center; gap: 0.875rem; margin-bottom: 0.75rem; }
+
+.reviewer-avatar {
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.875rem;
+  flex-shrink: 0;
+}
+
+.reviewer-name { font-weight: 500; font-size: 0.9375rem; color: var(--ink); }
+.review-stars { font-size: 0.875rem; color: var(--amber); letter-spacing: 1px; }
+.review-text { font-size: 0.9rem; color: var(--ink-light); line-height: 1.65; font-style: italic; }
+
+@media (max-width: 900px) {
+  .testimonials-inner { grid-template-columns: 1fr; }
+}
+</style>

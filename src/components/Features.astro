@@ -1,0 +1,134 @@
+---
+const features = [
+  {
+    badge:       'Alphabet',
+    badgeCls:    'badge-brand',
+    title:       '22 Hebrew letters to master',
+    description: 'Explore every letter of the Hebrew alphabet with clear pronunciation, audio, and interactive exercises. Purple for consonants, green for special forms.',
+    screenshot:  '/screenshots/screen-alphabet.jpg',
+    alt:         'Alphabet Explorer screen showing Hebrew letters grid',
+    accent:      '#6366F1',
+    accentBg:    '#EEF2FF',
+  },
+  {
+    badge:       'Lessons',
+    badgeCls:    'badge-emerald',
+    title:       'Structured progress from day one',
+    description: 'Step-by-step lessons with Energy, Points, and Levels to keep you motivated. Track your learning progress across all 22 lessons.',
+    screenshot:  '/screenshots/screen-lessons.jpg',
+    alt:         'Alphabet Lessons screen showing progress bar and lesson list',
+    accent:      '#10B981',
+    accentBg:    '#ECFDF5',
+  },
+  {
+    badge:       'Reading',
+    badgeCls:    'badge-amber',
+    title:       'Read real Hebrew stories',
+    description: 'Practice with beginner-friendly illustrated stories — in Hebrew and English. From "The Olive Tree\'s Gift" to everyday vocabulary.',
+    screenshot:  '/screenshots/screen-reading.jpg',
+    alt:         'Reading Trainer screen showing Hebrew stories with illustrations',
+    accent:      '#F59E0B',
+    accentBg:    '#FFFBEB',
+  },
+];
+---
+
+<section id="features" class="features-section">
+  <div class="container">
+    <div class="section-header text-center">
+      <p class="eyebrow">Features</p>
+      <h2 class="display-lg mt-xs">Everything you need<br/>to read Hebrew</h2>
+      <p class="lead mt-sm" style="max-width: 520px; margin-inline: auto;">
+        Three tools, one goal — from learning the alphabet to reading your first real Hebrew text.
+      </p>
+    </div>
+
+    <div class="features-grid mt-lg">
+      {features.map((f, i) => (
+        <div class="feature-card" style={`--accent: ${f.accent}; --accent-bg: ${f.accentBg};`}>
+          <div class="feature-card-top">
+            <span class={`badge ${f.badgeCls}`}>{f.badge}</span>
+            <h3 class="feature-title">{f.title}</h3>
+            <p class="feature-desc">{f.description}</p>
+          </div>
+          <div class="feature-card-screen">
+            <img
+              src={f.screenshot}
+              alt={f.alt}
+              class="feature-screenshot"
+              loading="lazy"
+              width="240"
+              height="420"
+            />
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+.features-section { background: white; }
+
+.section-header { margin-bottom: var(--space-lg); }
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+
+.feature-card {
+  background: var(--accent-bg);
+  border: 1px solid color-mix(in srgb, var(--accent) 20%, transparent);
+  border-radius: var(--r-xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.feature-card-top {
+  padding: 1.75rem 1.5rem 1rem;
+  flex: 1;
+}
+
+.feature-title {
+  font-family: var(--font-display);
+  font-size: 1.1875rem;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.25;
+  margin-top: 0.75rem;
+}
+
+.feature-desc {
+  font-size: 0.9rem;
+  color: var(--ink-light);
+  margin-top: 0.5rem;
+  line-height: 1.6;
+}
+
+.feature-card-screen {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 1.5rem 0;
+  margin-top: auto;
+}
+
+.feature-screenshot {
+  width: 70%;
+  max-width: 220px;
+  border-radius: 24px 24px 0 0;
+  object-fit: cover;
+  box-shadow: 0 -4px 24px rgba(0,0,0,.12);
+}
+
+@media (max-width: 900px) {
+  .features-grid { grid-template-columns: 1fr; max-width: 480px; margin-inline: auto; }
+}
+</style>

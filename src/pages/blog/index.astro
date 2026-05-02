@@ -1,0 +1,96 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Nav from '../../components/Nav.astro';
+import Footer from '../../components/Footer.astro';
+
+// Future: replace with getCollection('blog') from Astro Content Collections
+const posts: { slug: string; title: string; date: string; excerpt: string; badge: string }[] = [];
+---
+
+<Layout
+  title="Blog — HebrewEdu"
+  description="Tips, guides, and updates for Hebrew learners."
+>
+  <Nav />
+  <main class="blog-page">
+    <div class="container">
+      <div class="blog-header">
+        <p class="eyebrow">Blog</p>
+        <h1 class="display-lg mt-xs">Hebrew learning resources</h1>
+        <p class="lead mt-sm" style="max-width: 500px;">
+          Tips, guides, and updates to help you on your Hebrew learning journey.
+        </p>
+      </div>
+
+      {posts.length === 0 ? (
+        <div class="empty-state">
+          <div class="empty-icon" aria-hidden="true">📖</div>
+          <h2 class="display-md">Coming soon</h2>
+          <p class="lead mt-xs">
+            We're working on our first articles. Check back soon!
+          </p>
+        </div>
+      ) : (
+        <ul class="posts-grid" role="list">
+          {posts.map(post => (
+            <li>
+              <a href={`/blog/${post.slug}`} class="post-card">
+                <span class="badge badge-brand">{post.badge}</span>
+                <h2 class="post-title">{post.title}</h2>
+                <p class="post-excerpt">{post.excerpt}</p>
+                <time class="post-date" datetime={post.date}>{post.date}</time>
+              </a>
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
+  </main>
+  <Footer />
+</Layout>
+
+<style>
+.blog-page { background: var(--bg); min-height: 80vh; }
+
+.blog-header {
+  padding-block: var(--space-xl) var(--space-lg);
+  border-bottom: 1px solid var(--border);
+  margin-bottom: var(--space-lg);
+}
+
+.empty-state {
+  text-align: center;
+  padding-block: var(--space-2xl);
+}
+.empty-icon { font-size: 3rem; margin-bottom: 1rem; }
+
+.posts-grid {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.25rem;
+  padding-bottom: var(--space-2xl);
+}
+
+.post-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: var(--r-lg);
+  padding: 1.5rem;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.post-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
+
+.post-title {
+  font-family: var(--font-display);
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin-top: 0.25rem;
+}
+.post-excerpt { font-size: 0.9rem; color: var(--ink-light); line-height: 1.6; flex: 1; }
+.post-date { font-size: 0.8125rem; color: var(--ink-subtle); margin-top: 0.5rem; }
+</style>

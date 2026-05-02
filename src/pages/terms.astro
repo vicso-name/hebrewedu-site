@@ -1,0 +1,112 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+
+const lastUpdated = '2 May 2025';
+---
+
+<Layout
+  title="Terms of Service — HebrewEdu"
+  description="Terms of Service for the HebrewEdu app and website."
+>
+  <Nav />
+  <main class="legal-page">
+    <div class="container legal-container">
+      <div class="legal-header">
+        <p class="eyebrow">Legal</p>
+        <h1 class="display-lg mt-xs">Terms of Service</h1>
+        <p class="lead mt-sm">Last updated: {lastUpdated}</p>
+      </div>
+
+      <article class="legal-content">
+        <section>
+          <h2>1. Acceptance of terms</h2>
+          <p>By downloading or using the HebrewEdu app ("App"), you agree to be bound by these Terms of Service. If you do not agree, please do not use the App.</p>
+        </section>
+
+        <section>
+          <h2>2. Use of the app</h2>
+          <p>HebrewEdu is provided for personal, non-commercial educational use. You agree not to:</p>
+          <ul>
+            <li>Reverse engineer or decompile any part of the App</li>
+            <li>Use the App for any unlawful purpose</li>
+            <li>Attempt to gain unauthorized access to any part of the App</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>3. Premium subscription</h2>
+          <p>Some features require a Premium subscription purchased through Google Play. Subscriptions auto-renew unless cancelled at least 24 hours before the renewal date. Manage subscriptions in your Google Play account settings.</p>
+        </section>
+
+        <section>
+          <h2>4. Intellectual property</h2>
+          <p>All content within the App — including text, audio, illustrations, and lesson materials — is owned by or licensed to HebrewEdu. You may not reproduce or distribute this content without prior written permission.</p>
+        </section>
+
+        <section>
+          <h2>5. Disclaimer of warranties</h2>
+          <p>The App is provided "as is" without warranties of any kind. We do not guarantee that the App will be error-free or uninterrupted.</p>
+        </section>
+
+        <section>
+          <h2>6. Limitation of liability</h2>
+          <p>To the maximum extent permitted by law, HebrewEdu shall not be liable for any indirect, incidental, or consequential damages arising from your use of the App.</p>
+        </section>
+
+        <section>
+          <h2>7. Changes to these terms</h2>
+          <p>We may update these Terms from time to time. Continued use of the App after changes constitutes acceptance of the new Terms.</p>
+        </section>
+
+        <section>
+          <h2>8. Contact</h2>
+          <p>Questions about these Terms? Contact us at <a href="mailto:hello@hebrewedu.com">hello@hebrewedu.com</a>.</p>
+        </section>
+      </article>
+    </div>
+  </main>
+  <Footer />
+</Layout>
+
+<style>
+.legal-page { background: var(--bg); }
+
+.legal-container {
+  max-width: var(--w-narrow);
+  padding-block: var(--space-xl) var(--space-2xl);
+}
+
+.legal-header {
+  padding-bottom: var(--space-lg);
+  border-bottom: 1px solid var(--border);
+  margin-bottom: var(--space-lg);
+}
+
+.legal-content { display: flex; flex-direction: column; gap: 2rem; }
+
+.legal-content section h2 {
+  font-family: var(--font-display);
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 0.625rem;
+}
+
+.legal-content p, .legal-content li {
+  font-size: 0.9375rem;
+  color: var(--ink-light);
+  line-height: 1.75;
+}
+
+.legal-content ul {
+  padding-left: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+  margin-top: 0.5rem;
+}
+
+.legal-content a { color: var(--brand); text-decoration: underline; }
+</style>
