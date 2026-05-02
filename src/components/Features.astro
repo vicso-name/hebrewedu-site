@@ -1,134 +1,218 @@
 ---
-const features = [
+const cards = [
   {
-    badge:       'Alphabet',
-    badgeCls:    'badge-brand',
-    title:       '22 Hebrew letters to master',
-    description: 'Explore every letter of the Hebrew alphabet with clear pronunciation, audio, and interactive exercises. Purple for consonants, green for special forms.',
-    screenshot:  '/screenshots/screen-alphabet.jpg',
-    alt:         'Alphabet Explorer screen showing Hebrew letters grid',
-    accent:      '#6366F1',
-    accentBg:    '#EEF2FF',
+    title: 'Alphabet\nExplorer',
+    bg:    '#EDEDF5',
+    screenshot: '/screenshots/screen-alphabet.png',
+    alt:   'Alphabet Explorer — Hebrew letters grid',
+    icon:  '◎',
   },
   {
-    badge:       'Lessons',
-    badgeCls:    'badge-emerald',
-    title:       'Structured progress from day one',
-    description: 'Step-by-step lessons with Energy, Points, and Levels to keep you motivated. Track your learning progress across all 22 lessons.',
-    screenshot:  '/screenshots/screen-lessons.jpg',
-    alt:         'Alphabet Lessons screen showing progress bar and lesson list',
-    accent:      '#10B981',
-    accentBg:    '#ECFDF5',
+    title: 'Structured\nLessons',
+    bg:    '#E8E4F5',
+    screenshot: '/screenshots/screen-lessons.png',
+    alt:   'Alphabet Lessons — progress and lesson list',
+    icon:  '▣',
   },
   {
-    badge:       'Reading',
-    badgeCls:    'badge-amber',
-    title:       'Read real Hebrew stories',
-    description: 'Practice with beginner-friendly illustrated stories — in Hebrew and English. From "The Olive Tree\'s Gift" to everyday vocabulary.',
-    screenshot:  '/screenshots/screen-reading.jpg',
-    alt:         'Reading Trainer screen showing Hebrew stories with illustrations',
-    accent:      '#F59E0B',
-    accentBg:    '#FFFBEB',
+    title: 'Reading\nTrainer',
+    bg:    '#1F2937',
+    screenshot: '/screenshots/screen-reading.png',
+    alt:   'Reading Trainer — Hebrew stories',
+    icon:  '◈',
+    dark:  true,
   },
 ];
 ---
 
 <section id="features" class="features-section">
   <div class="container">
-    <div class="section-header text-center">
-      <p class="eyebrow">Features</p>
-      <h2 class="display-lg mt-xs">Everything you need<br/>to read Hebrew</h2>
-      <p class="lead mt-sm" style="max-width: 520px; margin-inline: auto;">
-        Three tools, one goal — from learning the alphabet to reading your first real Hebrew text.
+
+    <!-- Intro row — как в референсе -->
+    <div class="features-intro">
+      <p class="intro-left">
+        HebrewEdu offers structured alphabet learning, step-by-step lessons,
+        and real Hebrew reading practice — all in one app.
       </p>
+      <div class="intro-right">
+        <a href="#how-it-works" class="intro-arrow" aria-label="How it works">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 5v14M5 12l7 7 7-7"/>
+          </svg>
+        </a>
+        <h2 class="intro-heading">
+          Structured learning,<br/>real results
+        </h2>
+      </div>
     </div>
 
-    <div class="features-grid mt-lg">
-      {features.map((f, i) => (
-        <div class="feature-card" style={`--accent: ${f.accent}; --accent-bg: ${f.accentBg};`}>
-          <div class="feature-card-top">
-            <span class={`badge ${f.badgeCls}`}>{f.badge}</span>
-            <h3 class="feature-title">{f.title}</h3>
-            <p class="feature-desc">{f.description}</p>
+    <!-- Three cards -->
+    <div class="features-grid">
+      {cards.map(c => (
+        <div class="fcard" style={`background: ${c.bg};`}>
+          <!-- Icon top-right -->
+          <div class={`fcard-icon ${c.dark ? 'fcard-icon--dark' : ''}`}>
+            <span>{c.icon}</span>
           </div>
-          <div class="feature-card-screen">
+
+          <!-- Title bottom-right -->
+          <div class={`fcard-title ${c.dark ? 'fcard-title--dark' : ''}`}>
+            {c.title.split('\n').map((line: string) => <span>{line}<br/></span>)}
+          </div>
+
+          <!-- Screenshot bottom-left, peeks from bottom -->
+          <div class="fcard-screen">
             <img
-              src={f.screenshot}
-              alt={f.alt}
-              class="feature-screenshot"
+              src={c.screenshot}
+              alt={c.alt}
+              class="fcard-img"
               loading="lazy"
-              width="240"
-              height="420"
             />
           </div>
         </div>
       ))}
     </div>
+
   </div>
 </section>
 
 <style>
-.features-section { background: white; }
+.features-section {
+  background: #f8f8f6;
+  padding-block: var(--space-2xl);
+}
 
-.section-header { margin-bottom: var(--space-lg); }
+/* ── Intro row ── */
+.features-intro {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 2rem;
+  align-items: end;
+  margin-bottom: 4rem;
+}
 
+.intro-left {
+  font-size: 0.9375rem;
+  color: var(--ink-light);
+  line-height: 1.7;
+  max-width: 320px;
+}
+
+.intro-right {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.intro-arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--ink);
+  color: white;
+  flex-shrink: 0;
+  margin-top: 6px;
+  transition: transform 0.2s, background 0.2s;
+}
+.intro-arrow:hover { background: var(--brand); transform: translateY(2px); }
+
+.intro-heading {
+  font-family: var(--font-display);
+  font-size: clamp(1.75rem, 3.5vw, 2.625rem);
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  line-height: 1.1;
+  color: var(--ink);
+}
+
+/* ── Cards grid ── */
 .features-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.25rem;
+  gap: 1rem;
+  align-items: stretch;
 }
 
-.feature-card {
-  background: var(--accent-bg);
-  border: 1px solid color-mix(in srgb, var(--accent) 20%, transparent);
-  border-radius: var(--r-xl);
+/* ── Single card ── */
+.fcard {
+  border-radius: 24px;
   overflow: hidden;
+  position: relative;
+  min-height: 380px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   transition: transform 0.2s, box-shadow 0.2s;
 }
-.feature-card:hover {
+.fcard:hover {
   transform: translateY(-4px);
-  box-shadow: var(--shadow-lg);
+  box-shadow: 0 16px 48px rgba(0,0,0,0.10);
 }
 
-.feature-card-top {
-  padding: 1.75rem 1.5rem 1rem;
-  flex: 1;
-}
-
-.feature-title {
-  font-family: var(--font-display);
-  font-size: 1.1875rem;
-  font-weight: 700;
-  color: var(--ink);
-  line-height: 1.25;
-  margin-top: 0.75rem;
-}
-
-.feature-desc {
-  font-size: 0.9rem;
-  color: var(--ink-light);
-  margin-top: 0.5rem;
-  line-height: 1.6;
-}
-
-.feature-card-screen {
+/* Icon — top right */
+.fcard-icon {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  z-index: 2;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: white;
   display: flex;
+  align-items: center;
   justify-content: center;
-  padding: 1rem 1.5rem 0;
-  margin-top: auto;
+  font-size: 1.125rem;
+  color: var(--ink);
+  box-shadow: 0 2px 8px rgba(0,0,0,.08);
+}
+.fcard-icon--dark {
+  background: rgba(255,255,255,0.15);
+  color: white;
+  box-shadow: none;
 }
 
-.feature-screenshot {
-  width: 70%;
-  max-width: 220px;
-  border-radius: 24px 24px 0 0;
+/* Title — bottom right */
+.fcard-title {
+  position: absolute;
+  bottom: 1.375rem;
+  right: 1.375rem;
+  z-index: 2;
+  font-family: var(--font-display);
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--ink);
+  text-align: right;
+}
+.fcard-title--dark { color: white; }
+
+/* Screenshot — bottom left, peeks up */
+.fcard-screen {
+  position: absolute;
+  bottom: 0;
+  left: 1.25rem;
+  z-index: 1;
+  width: 55%;
+}
+.fcard-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 16px 16px 0 0;
   object-fit: cover;
-  box-shadow: 0 -4px 24px rgba(0,0,0,.12);
+  box-shadow: 0 -4px 20px rgba(0,0,0,0.10);
 }
 
+/* ── Responsive ── */
 @media (max-width: 900px) {
-  .features-grid { grid-template-columns: 1fr; max-width: 480px; margin-inline: auto; }
+  .features-intro { grid-template-columns: 1fr; }
+  .intro-left { max-width: 100%; }
+  .features-grid { grid-template-columns: 1fr; max-width: 420px; margin-inline: auto; }
+  .fcard { min-height: 320px; }
 }
 </style>

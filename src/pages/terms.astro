@@ -71,7 +71,7 @@ const lastUpdated = '2 May 2025';
 </Layout>
 
 <style>
-.legal-page { background: var(--bg); }
+.legal-page { background: #f8f8f6; }
 
 .legal-container {
   max-width: var(--w-narrow);
@@ -79,19 +79,19 @@ const lastUpdated = '2 May 2025';
 }
 
 .legal-header {
-  padding-bottom: var(--space-lg);
+  padding-bottom: var(--space-md);
   border-bottom: 1px solid var(--border);
-  margin-bottom: var(--space-lg);
+  margin-bottom: var(--space-md);
 }
 
-.legal-content { display: flex; flex-direction: column; gap: 2rem; }
+.legal-content { display: flex; flex-direction: column; gap: 1.75rem; }
 
 .legal-content section h2 {
   font-family: var(--font-display);
-  font-size: 1.125rem;
+  font-size: 1.0625rem;
   font-weight: 700;
   color: var(--ink);
-  margin-bottom: 0.625rem;
+  margin-bottom: 0.5rem;
 }
 
 .legal-content p, .legal-content li {
@@ -109,4 +109,7 @@ const lastUpdated = '2 May 2025';
 }
 
 .legal-content a { color: var(--brand); text-decoration: underline; }
+
+/* Сброс глобального section { padding-block } */
+.legal-content section { padding-block: 0; }
 </style>

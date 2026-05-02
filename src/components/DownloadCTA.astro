@@ -3,121 +3,163 @@ const PLAY_URL = 'https://play.google.com/store/apps/details?id=com.vicsothemes.
 ---
 
 <section class="cta-section">
-  <!-- Decorative letters -->
-  <div class="cta-bg-letters" aria-hidden="true">
-    <span>א</span><span>ב</span><span>ג</span><span>ד</span><span>ה</span><span>ו</span>
-  </div>
+  <div class="container">
+    <div class="cta-card">
 
-  <div class="container cta-inner">
-    <div class="cta-text">
-      <p class="cta-eyebrow">Start today — it's free</p>
-      <h2 class="display-lg cta-heading">
-        Start reading Hebrew<br/>in your first session
-      </h2>
-      <p class="cta-desc">
-        Download now and begin your first Aleph Bet lesson in minutes.
-        No account required. Works offline.
-      </p>
-      <a href={PLAY_URL} class="btn btn-white mt-md" target="_blank" rel="noopener">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-          <path d="M3.18 23.76a2 2 0 0 1-1.18-1.9V2.14A2 2 0 0 1 3.18.24L14.9 12 3.18 23.76zm2.18-.48 11.36-6.56-2.68-2.68-8.68 9.24zm12.54-7.24L20.78 14a1.5 1.5 0 0 0 0-2.6l-2.88-1.64L14.9 12l3 4.04zM5.36.72l8.68 9.24 2.68-2.68L5.36.72z"/>
-        </svg>
-        Get it on Google Play
-      </a>
-    </div>
+      <!-- Left: text content -->
+      <div class="cta-left">
+        <p class="cta-pretitle">Ready to start learning Hebrew?</p>
 
-    <div class="cta-phone">
-      <div class="cta-phone-frame">
-        <div class="phone-notch-sm"></div>
+        <h2 class="cta-title">
+          Download
+          Hebrew App
+        </h2>
+
+        <div class="cta-bottom">
+          <a href={PLAY_URL} class="badge-link" target="_blank" rel="noopener" aria-label="Get it on Google Play">
+            <img
+              src="/googleplay-badge.svg"
+              alt="Get it on Google Play"
+              class="badge-img"
+              width="180"
+              height="53"
+            />
+          </a>
+          <p class="cta-desc">
+            Download HebrewEdu & start reading<br/>Hebrew from your very first lesson.
+          </p>
+        </div>
+      </div>
+
+      <!-- Right: phone screenshot -->
+      <div class="cta-right">
         <img
-          src="/screenshots/screen-alphabet.jpg"
-          alt="Alphabet Explorer showing Hebrew letters grid"
-          class="cta-screen"
+          src="/screenshots/screen-alphabet.png"
+          alt="Alphabet Explorer — Hebrew letters grid"
+          class="cta-phone-img"
           loading="lazy"
-          width="240"
-          height="480"
         />
       </div>
+
     </div>
   </div>
 </section>
 
 <style>
 .cta-section {
-  background: var(--brand);
-  position: relative;
-  overflow: hidden;
+  background: #f8f8f6;
+  padding-block: var(--space-xl) var(--space-2xl);
 }
 
-.cta-bg-letters {
-  position: absolute;
-  inset: 0;
+/* ── Rounded card ── */
+.cta-card {
+  background: #F1F0F5;
+  border-radius: 32px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: end;
+  min-height: 460px;
+  position: relative;
+}
+
+/* ── Left ── */
+.cta-left {
+  padding: 3rem 2.5rem 3rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.cta-pretitle {
+  font-family: var(--font-display);
+  font-size: 0.9375rem;
+  color: var(--ink-light);
+  margin-bottom: 1.25rem;
+}
+
+.cta-title {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 5vw, 3.75rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.08;
+  color: var(--ink);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: auto;
+  max-width: 350px;
+}
+
+.cta-icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: var(--ink);
+  color: white;
+  flex-shrink: 0;
+  transition: background 0.15s, transform 0.15s;
+  align-self: center;
+}
+.cta-icon-btn:hover {
+  background: var(--brand);
+  transform: translateY(2px);
+}
+
+.cta-bottom {
+  margin-top: 2.5rem;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  font-family: var(--font-display);
-  font-size: clamp(5rem, 14vw, 11rem);
-  font-weight: 800;
-  color: white;
-  opacity: 0.06;
-  pointer-events: none;
-  user-select: none;
-  direction: rtl;
+  gap: 1.5rem;
+  flex-wrap: wrap;
 }
 
-.cta-inner {
-  position: relative;
-  z-index: 1;
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: clamp(2rem, 6vw, 5rem);
-  align-items: center;
+.badge-link {
+  display: inline-block;
+  transition: transform 0.15s, opacity 0.15s;
+  flex-shrink: 0;
 }
-
-.cta-eyebrow {
-  font-size: 0.75rem;
-  font-weight: 500;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: rgba(255,255,255,0.7);
-  margin-bottom: 0.75rem;
-}
-
-.cta-heading { color: white; }
+.badge-link:hover { transform: translateY(-2px); opacity: 0.9; }
+.badge-img { height: 50px; width: auto; display: block; }
 
 .cta-desc {
-  color: rgba(255,255,255,0.8);
-  font-size: 1.0625rem;
-  line-height: 1.7;
-  margin-top: 0.75rem;
-  max-width: 440px;
+  font-size: 0.9375rem;
+  color: var(--ink-light);
+  line-height: 1.6;
 }
 
-/* Phone */
-.cta-phone { display: flex; align-items: flex-end; padding-bottom: 0; }
+/* ── Right: phone ── */
+.cta-right {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 100%;
+  padding-top: 2rem;
+}
 
-.cta-phone-frame {
-  width: 240px;
-  background: var(--ink);
-  border-radius: 36px 36px 0 0;
-  padding: 12px 10px 0;
-  box-shadow: 0 -8px 40px rgba(0,0,0,.3), 0 0 0 6px #374151, 0 0 0 8px #1F2937;
-}
-.phone-notch-sm {
-  width: 64px; height: 20px;
-  background: var(--ink);
-  border-radius: 0 0 14px 14px;
-  margin: 0 auto 4px;
-}
-.cta-screen {
-  width: 100%;
-  border-radius: 24px 24px 0 0;
-  object-fit: cover;
+.cta-phone-img {
+  width: 75%;
+  max-width: 340px;
+  height: auto;
   display: block;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+  /* Slight tilt like in the reference */
+  transform: perspective(800px) rotateY(-6deg) rotateX(2deg);
+  transform-origin: bottom center;
+  box-shadow: -12px 0 40px rgba(0,0,0,0.08);
 }
 
+/* ── Responsive ── */
 @media (max-width: 768px) {
-  .cta-inner { grid-template-columns: 1fr; }
-  .cta-phone { display: none; }
+  .cta-card { grid-template-columns: 1fr; min-height: auto; }
+  .cta-right { display: none; }
+  .cta-left { padding: 2rem; }
 }
 </style>

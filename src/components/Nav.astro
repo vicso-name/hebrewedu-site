@@ -1,8 +1,8 @@
 ---
 const links = [
-  { label: 'Features',    href: '/#features'    },
-  { label: 'How it works',href: '/#how-it-works' },
-  { label: 'Blog',        href: '/blog'          },
+  { label: 'Features',     href: '/#features'     },
+  { label: 'How it works', href: '/#how-it-works'  },
+  { label: 'Blog',         href: '/blog'           },
 ];
 
 const PLAY_URL = 'https://play.google.com/store/apps/details?id=com.vicsothemes.hebrewforbeginners';
@@ -24,10 +24,7 @@ const PLAY_URL = 'https://play.google.com/store/apps/details?id=com.vicsothemes.
     </ul>
 
     <!-- CTA -->
-    <a href={PLAY_URL} class="btn btn-primary nav-cta" target="_blank" rel="noopener">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-        <path d="M3.18 23.76a2 2 0 0 1-1.18-1.9V2.14A2 2 0 0 1 3.18.24L14.9 12 3.18 23.76zm2.18-.48 11.36-6.56-2.68-2.68-8.68 9.24zm12.54-7.24L20.78 14a1.5 1.5 0 0 0 0-2.6l-2.88-1.64L14.9 12l3 4.04zM5.36.72l8.68 9.24 2.68-2.68L5.36.72z"/>
-      </svg>
+    <a href={PLAY_URL} class="nav-cta" target="_blank" rel="noopener">
       Download App
     </a>
 
@@ -51,9 +48,9 @@ const PLAY_URL = 'https://play.google.com/store/apps/details?id=com.vicsothemes.
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(248, 248, 255, 0.85);
-  backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--border);
+  background: rgba(248, 248, 246, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
 }
 
 .nav-inner {
@@ -90,15 +87,29 @@ const PLAY_URL = 'https://play.google.com/store/apps/details?id=com.vicsothemes.
   margin-inline-start: auto;
 }
 .nav-link {
-  padding: 0.4rem 0.75rem;
-  border-radius: var(--r-sm);
+  padding: 0.4rem 0.875rem;
+  border-radius: var(--r-full);
   font-size: 0.9375rem;
   color: var(--ink-light);
   transition: color 0.15s, background 0.15s;
 }
 .nav-link:hover { color: var(--ink); background: var(--brand-light); }
 
-.nav-cta { padding: 0.55rem 1.25rem; font-size: 0.875rem; margin-inline-start: 0.5rem; }
+/* Black pill CTA — как в референсе */
+.nav-cta {
+  display: inline-flex;
+  align-items: center;
+  margin-inline-start: 0.5rem;
+  padding: 0.55rem 1.375rem;
+  background: var(--ink);
+  color: white;
+  border-radius: var(--r-full);
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: background 0.15s, transform 0.15s;
+  white-space: nowrap;
+}
+.nav-cta:hover { background: #111827; transform: translateY(-1px); }
 
 .nav-burger {
   display: none;

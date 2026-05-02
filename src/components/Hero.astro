@@ -1,265 +1,175 @@
 ---
 const PLAY_URL = 'https://play.google.com/store/apps/details?id=com.vicsothemes.hebrewforbeginners';
-
-const floatingCards = [
-  { he: 'א', name: 'Aleph', sound: '/æ/',   cls: 'card-1' },
-  { he: 'ב', name: 'Bet',   sound: '/b/',   cls: 'card-2' },
-  { he: 'ש', name: 'Shin',  sound: '/ʃ/',   cls: 'card-3' },
-  { he: 'ל', name: 'Lamed', sound: '/l/',   cls: 'card-4' },
-  { he: 'מ', name: 'Mem',   sound: '/m/',   cls: 'card-5' },
-];
 ---
 
+<style is:global>
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+  :root {
+    --font-display: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-body:    'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+</style>
+
 <section class="hero">
-  <!-- Decorative background letter -->
-  <div class="hero-bg-letter" aria-hidden="true">שָׁלוֹם</div>
+  <div class="hero-inner container">
 
-  <div class="container hero-grid">
-    <!-- Left: text -->
-    <div class="hero-text animate-in">
-      <p class="eyebrow animate-in delay-1">Learn Hebrew — Read & Speak</p>
 
-      <h1 class="display-xl mt-sm animate-in delay-1">
-        From Aleph Bet<br/>
-        to <em class="hero-accent">confident</em><br/>
-        reading
-      </h1>
 
-      <p class="lead mt-md animate-in delay-2">
-        Step-by-step Hebrew lessons with native audio, interactive exercises,
-        and real stories. Learn at your own pace — anytime, anywhere.
-      </p>
-
-      <div class="hero-actions mt-lg animate-in delay-3">
-        <a href={PLAY_URL} class="btn btn-primary" target="_blank" rel="noopener">
-          <!-- Google Play icon -->
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-            <path d="M3.18 23.76a2 2 0 0 1-1.18-1.9V2.14A2 2 0 0 1 3.18.24L14.9 12 3.18 23.76zm2.18-.48 11.36-6.56-2.68-2.68-8.68 9.24zm12.54-7.24L20.78 14a1.5 1.5 0 0 0 0-2.6l-2.88-1.64L14.9 12l3 4.04zM5.36.72l8.68 9.24 2.68-2.68L5.36.72z"/>
-          </svg>
-          Get it on Google Play
-        </a>
-        <a href="#features" class="btn btn-outline">See features</a>
-      </div>
-
-      <div class="hero-stats animate-in delay-4">
-        <div class="stat">
-          <span class="stat-num">22</span>
-          <span class="stat-label">Hebrew letters</span>
-        </div>
-        <div class="stat-divider"></div>
-        <div class="stat">
-          <span class="stat-num">22+</span>
-          <span class="stat-label">Structured lessons</span>
-        </div>
-        <div class="stat-divider"></div>
-        <div class="stat">
-          <span class="stat-num">100%</span>
-          <span class="stat-label">Offline support</span>
-        </div>
-      </div>
+    <!-- Pre-title pill -->
+    <div class="pretitle animate-in">
+      Transform Your Experience
     </div>
 
-    <!-- Right: phone mockup + floating cards -->
-    <div class="hero-visual animate-in delay-2">
-      <div class="phone-wrap">
-        <!-- Floating letter cards -->
-        {floatingCards.map(c => (
-          <div class={`letter-card ${c.cls}`} aria-hidden="true">
-            <span class="letter-he">{c.he}</span>
-            <span class="letter-name">{c.name}</span>
-            <span class="letter-sound">{c.sound}</span>
-          </div>
-        ))}
+    <!-- Headline -->
+    <h1 class="hero-title animate-in delay-1">
+      Learn Hebrew
+      from <em class="hero-accent">Aleph Bet</em>
+      to confident reading
+    </h1>
 
-        <!-- Phone frame -->
-        <div class="phone-frame">
-          <div class="phone-notch"></div>
-          <img
-            src="/screenshots/screen-main.jpg"
-            alt="Learn Hebrew app main screen showing Alphabet Explorer, Lessons, and Practice sections"
-            class="phone-screen"
-            width="280"
-            height="560"
-            loading="eager"
-          />
-        </div>
-      </div>
+    <!-- Subtitle -->
+    <p class="hero-subtitle animate-in delay-2">
+      Step-by-step lessons, native audio, and real Hebrew stories.
+      Learn at your own pace — anytime, anywhere.
+    </p>
+
+    <!-- Google Play official badge -->
+    <div class="hero-actions animate-in delay-3">
+      <a href={PLAY_URL} target="_blank" rel="noopener" class="badge-link" aria-label="Get it on Google Play">
+        <img
+          src="/googleplay-badge.svg"
+          alt="Get it on Google Play"
+          class="badge-img"
+          width="200"
+          height="59"
+        />
+      </a>
     </div>
+
+    
   </div>
+
 </section>
 
 <style>
+/* ── Section ── */
 .hero {
   position: relative;
   overflow: hidden;
-  padding-block: var(--space-2xl) var(--space-xl);
-  min-height: 90vh;
-  display: flex;
-  align-items: center;
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+  background: #f8f8f6;
 }
 
-.hero-bg-letter {
+/* ── Blobs ── */
+.hero-blob {
   position: absolute;
-  right: -4rem;
-  top: 50%;
-  transform: translateY(-50%);
-  font-family: var(--font-display);
-  font-size: clamp(12rem, 28vw, 22rem);
-  font-weight: 800;
-  color: var(--brand);
-  opacity: 0.04;
-  line-height: 1;
-  user-select: none;
+  border-radius: 50%;
+  filter: blur(90px);
   pointer-events: none;
-  letter-spacing: -0.05em;
-  white-space: nowrap;
+  z-index: 0;
+}
+.hero-blob-1 {
+  width: 640px; height: 640px;
+  background: radial-gradient(circle, rgba(99,102,241,0.11) 0%, transparent 70%);
+  top: -120px; left: -180px;
+}
+.hero-blob-2 {
+  width: 520px; height: 520px;
+  background: radial-gradient(circle, rgba(16,185,129,0.07) 0%, transparent 70%);
+  top: 80px; right: -120px;
 }
 
-.hero-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: clamp(2rem, 6vw, 5rem);
-  align-items: center;
+/* ── Inner — flex column, centered ── */
+.hero-inner {
   position: relative;
   z-index: 1;
-}
-
-/* ── Text side ── */
-.hero-text { max-width: 560px; }
-
-.hero-accent {
-  font-style: normal;
-  color: var(--brand);
-  position: relative;
-}
-.hero-accent::after {
-  content: '';
-  position: absolute;
-  bottom: 4px;
-  left: 0;
-  right: 0;
-  height: 4px;
-  background: var(--brand);
-  border-radius: 2px;
-  opacity: 0.25;
-}
-
-.hero-actions {
-  display: flex;
-  gap: 0.75rem;
-  flex-wrap: wrap;
-}
-
-.hero-stats {
-  display: flex;
-  align-items: center;
-  gap: 1.25rem;
-  margin-top: var(--space-lg);
-  padding: 1rem 1.25rem;
-  background: white;
-  border: 1px solid var(--border);
-  border-radius: var(--r-lg);
-  width: fit-content;
-}
-.stat { text-align: center; }
-.stat-num {
-  display: block;
-  font-family: var(--font-display);
-  font-size: 1.5rem;
-  font-weight: 800;
-  color: var(--brand);
-  line-height: 1;
-}
-.stat-label {
-  display: block;
-  font-size: 0.75rem;
-  color: var(--ink-light);
-  margin-top: 2px;
-}
-.stat-divider {
-  width: 1px;
-  height: 36px;
-  background: var(--border);
-  flex-shrink: 0;
-}
-
-/* ── Phone mockup ── */
-.hero-visual {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.phone-wrap {
-  position: relative;
-  width: 300px;
-  height: 620px;
-}
-
-.phone-frame {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 280px;
-  background: var(--ink);
-  border-radius: 42px;
-  padding: 14px 12px;
-  box-shadow: var(--shadow-lg), 0 0 0 8px #374151, 0 0 0 10px #1F2937;
-}
-.phone-notch {
-  width: 80px;
-  height: 24px;
-  background: var(--ink);
-  border-radius: 0 0 18px 18px;
-  margin: 0 auto 6px;
-}
-.phone-screen {
-  width: 100%;
-  border-radius: 28px;
-  object-fit: cover;
-  display: block;
-}
-
-/* ── Floating letter cards ── */
-.letter-card {
-  position: absolute;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: white;
-  border: 1px solid var(--border);
-  border-radius: var(--r-md);
-  padding: 0.625rem 0.875rem;
-  box-shadow: var(--shadow-md);
-  min-width: 70px;
   text-align: center;
-  animation: float-card 4s ease-in-out infinite;
 }
-.letter-he {
-  font-family: var(--font-display);
-  font-size: 1.75rem;
-  font-weight: 700;
-  color: var(--brand);
-  line-height: 1;
-  direction: rtl;
-}
-.letter-name { font-size: 0.6875rem; font-weight: 500; color: var(--ink-mid); margin-top: 2px; }
-.letter-sound { font-size: 0.625rem; color: var(--ink-subtle); font-family: monospace; }
 
-.card-1 { top: 8%;  left: -10%; animation-delay: 0s;    }
-.card-2 { top: 30%; left: -15%; animation-delay: 0.8s;  }
-.card-3 { top: 62%; left: -8%;  animation-delay: 1.6s;  }
-.card-4 { top: 12%; right: -8%; animation-delay: 0.4s;  }
-.card-5 { top: 55%; right: -12%; animation-delay: 1.2s; }
+
+
+/* ── Pre-title pill ── */
+.pretitle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 1.125rem;
+  border: 1px solid var(--border-dark);
+  border-radius: var(--r-full);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--ink-light);
+  background: white;
+  margin-bottom: 1.75rem;
+  letter-spacing: 0.01em;
+  z-index: 3;
+}
+
+
+/* ── Title ── */
+.hero-title {
+  font-family: var(--font-display);
+  font-size: clamp(2.75rem, 6vw, 4.375rem);
+  font-weight: 800;
+  line-height: 1.07;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+  max-width: 860px;
+  margin-bottom: 1.375rem;
+  z-index: 3;
+}
+.hero-accent {
+  font-style: normal;
+  color: #F59E0B;
+}
+
+/* ── Subtitle ── */
+.hero-subtitle {
+  font-size: clamp(1rem, 2vw, 1.125rem);
+  font-weight: 400;
+  color: var(--ink-light);
+  line-height: 1.7;
+  max-width: 540px;
+  margin-bottom: 2rem;
+  z-index: 3;
+}
+
+/* ── Badge ── */
+.hero-actions {
+  margin-bottom: 3rem;
+  z-index: 3;
+}
+.badge-link {
+  display: inline-block;
+  transition: transform 0.15s, opacity 0.15s;
+}
+.badge-link:hover { transform: translateY(-2px); opacity: 0.9; }
+.badge-img {
+  height: 56px;
+  width: auto;
+  display: block;
+}
+
+/* ── Phone screenshot ── */
+.phone-wrap {
+  position: relative;
+  z-index: 3;
+}
+.phone-screen {
+  display: block;
+  width: 300px;
+  height: auto;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
 
 /* ── Responsive ── */
-@media (max-width: 900px) {
-  .hero-grid { grid-template-columns: 1fr; text-align: center; }
-  .hero-text { max-width: 100%; }
-  .hero-actions { justify-content: center; }
-  .hero-stats { margin-inline: auto; }
-  .hero-visual { display: none; }
-  .hero-bg-letter { font-size: 12rem; right: -2rem; }
+@media (max-width: 768px) {
+  .letter-bubble { display: none; }
+  .phone-frame   { width: 220px; }
 }
 </style>

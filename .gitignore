@@ -2,20 +2,4 @@
 node_modules/
 
 # Build output
-dist/
-.astro/
-
-# Environment
-.env
-.env.*
-!.env.example
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Editor
-.vscode/
-.idea/
-*.suo
-*.ntvs*
+dis
