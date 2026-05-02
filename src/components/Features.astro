@@ -212,7 +212,12 @@ const cards = [
 @media (max-width: 900px) {
   .features-intro { grid-template-columns: 1fr; }
   .intro-left { max-width: 100%; }
-  .features-grid { grid-template-columns: 1fr; max-width: 420px; margin-inline: auto; }
+  .intro-right{ justify-content: flex-start; }
+  .features-grid { grid-template-columns: 1fr; max-width: 420px; margin-inline: auto; row-gap: 32px; }
   .fcard { min-height: 320px; }
+}
+
+@media (max-width: 768px) {
+  .features-section { padding-block: var(--space-lg); }
 }
 </style>
