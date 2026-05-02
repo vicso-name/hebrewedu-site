@@ -1,0 +1,289 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import Nav from '../../components/Nav.astro';
+import Footer from '../../components/Footer.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map(post => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+const { title, description, pubDate, author, category, readingTime } = post.data;
+
+const formattedDate = pubDate.toLocaleDateString('en-US', {
+  year: 'numeric', month: 'long', day: 'numeric'
+});
+---
+
+<Layout title={`${title} | HebrewEdu Blog`} description={description}>
+  <Nav />
+
+  <main class="post-page">
+    <div class="container post-container">
+
+      <!-- Back link -->
+      <a href="/blog" class="post-back">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M19 12H5M12 5l-7 7 7 7"/>
+        </svg>
+        All articles
+      </a>
+
+      <!-- Header -->
+      <header class="post-header">
+        <div class="post-meta">
+          <span class="post-category">{category}</span>
+          <span class="post-dot">·</span>
+          <span class="post-reading">{readingTime}</span>
+        </div>
+        <h1 class="post-title">{title}</h1>
+        <p class="post-description">{description}</p>
+        <div class="post-byline">
+          <div class="post-author-avatar">{author.charAt(0)}</div>
+          <div>
+            <p class="post-author-name">{author}</p>
+            <time class="post-date" datetime={pubDate.toISOString()}>{formattedDate}</time>
+          </div>
+        </div>
+      </header>
+
+      <!-- Article body -->
+      <article class="post-content prose">
+        <Content />
+      </article>
+
+      <!-- CTA at bottom -->
+      <div class="post-cta">
+        <p class="post-cta-text">Ready to start learning the Hebrew alphabet?</p>
+        <a
+          href="https://play.google.com/store/apps/details?id=com.vicsothemes.hebrewforbeginners"
+          class="post-cta-btn"
+          target="_blank"
+          rel="noopener"
+        >
+          <img src="/googleplay-badge.svg" alt="Get it on Google Play" height="48" />
+        </a>
+      </div>
+
+    </div>
+  </main>
+
+  <Footer />
+</Layout>
+
+<style>
+.post-page { background: #f8f8f6; min-height: 100vh; }
+
+.post-container {
+  max-width: 720px;
+  padding-block: var(--space-lg) var(--space-2xl);
+}
+
+/* Back link */
+.post-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--ink-light);
+  margin-bottom: 2rem;
+  transition: color 0.15s;
+}
+.post-back:hover { color: var(--ink); }
+
+/* Header */
+.post-header {
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.post-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.post-category {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--brand);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.post-dot { color: var(--ink-subtle); font-size: 0.75rem; }
+.post-reading { font-size: 0.8125rem; color: var(--ink-subtle); }
+
+.post-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.875rem, 4vw, 2.75rem);
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  line-height: 1.1;
+  color: var(--ink);
+  margin-bottom: 1rem;
+}
+
+.post-description {
+  font-size: 1.0625rem;
+  color: var(--ink-light);
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.post-byline {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.post-author-avatar {
+  width: 38px; height: 38px;
+  border-radius: 50%;
+  background: var(--brand-light);
+  color: var(--brand);
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.9375rem;
+  flex-shrink: 0;
+}
+.post-author-name {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--ink);
+  line-height: 1;
+  margin-bottom: 3px;
+}
+.post-date { font-size: 0.8125rem; color: var(--ink-subtle); }
+
+/* ── Prose styles ── */
+.prose { color: var(--ink-mid); }
+
+.prose :global(h2) {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  margin-top: 2.5rem;
+  margin-bottom: 0.875rem;
+  line-height: 1.2;
+}
+
+.prose :global(h3) {
+  font-family: var(--font-display);
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin-top: 1.75rem;
+  margin-bottom: 0.625rem;
+}
+
+.prose :global(p) {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 1.25rem;
+  color: var(--ink-mid);
+}
+
+.prose :global(ul), .prose :global(ol) {
+  padding-left: 1.5rem;
+  margin-bottom: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.prose :global(li) {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--ink-mid);
+}
+
+.prose :global(strong) { font-weight: 600; color: var(--ink); }
+
+.prose :global(em) { color: var(--ink); }
+
+.prose :global(blockquote) {
+  border-left: 3px solid var(--brand);
+  padding: 0.75rem 1.25rem;
+  margin: 1.75rem 0;
+  background: var(--brand-light);
+  border-radius: 0 var(--r-md) var(--r-md) 0;
+}
+.prose :global(blockquote p) {
+  color: var(--brand-dark);
+  font-style: italic;
+  margin: 0;
+}
+
+.prose :global(table) {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.75rem 0;
+  font-size: 0.9375rem;
+}
+.prose :global(th) {
+  background: var(--ink);
+  color: white;
+  font-family: var(--font-display);
+  font-weight: 600;
+  padding: 0.625rem 1rem;
+  text-align: left;
+  font-size: 0.875rem;
+}
+.prose :global(td) {
+  padding: 0.625rem 1rem;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+.prose :global(tr:last-child td) { border-bottom: none; }
+.prose :global(tr:nth-child(even) td) { background: rgba(99,102,241,0.04); }
+
+.prose :global(hr) {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 2.5rem 0;
+}
+
+.prose :global(a) {
+  color: var(--brand);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+/* ── Bottom CTA ── */
+.post-cta {
+  margin-top: 3.5rem;
+  padding: 2rem 2.5rem;
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: var(--r-xl);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.post-cta-text {
+  font-family: var(--font-display);
+  font-size: 1.0625rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+.post-cta-btn img {
+  height: 48px; width: auto; display: block;
+  transition: transform 0.15s, opacity 0.15s;
+}
+.post-cta-btn:hover img { transform: translateY(-2px); opacity: 0.9; }
+
+/* Sброс глобального section padding */
+.post-content section { padding-block: 0; }
+</style>

@@ -1,15 +1,17 @@
 ---
+import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
 import Nav from '../../components/Nav.astro';
 import Footer from '../../components/Footer.astro';
 
-// Future: replace with getCollection('blog') from Astro Content Collections
-const posts: { slug: string; title: string; date: string; excerpt: string; badge: string }[] = [];
+const posts = (await getCollection('blog')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
 ---
 
 <Layout
-  title="Blog — HebrewEdu"
-  description="Tips, guides, and updates for Hebrew learners."
+  title="Hebrew Learning Blog — Alphabet Guides & Study Tips | HebrewEdu"
+  description="Practical guides for learning the Hebrew alphabet. From Aleph Bet basics to reading Hebrew confidently — articles for every level."
 >
   <Nav />
   <main class="blog-page">
@@ -32,16 +34,24 @@ const posts: { slug: string; title: string; date: string; excerpt: string; badge
         </div>
       ) : (
         <ul class="posts-grid" role="list">
-          {posts.map(post => (
-            <li>
-              <a href={`/blog/${post.slug}`} class="post-card">
-                <span class="badge badge-brand">{post.badge}</span>
-                <h2 class="post-title">{post.title}</h2>
-                <p class="post-excerpt">{post.excerpt}</p>
-                <time class="post-date" datetime={post.date}>{post.date}</time>
-              </a>
-            </li>
-          ))}
+          {posts.map(post => {
+            const date = post.data.pubDate.toLocaleDateString('en-US', {
+              year: 'numeric', month: 'long', day: 'numeric'
+            });
+            return (
+              <li>
+                <a href={`/blog/${post.slug}`} class="post-card">
+                  <div class="post-card-top">
+                    <span class="badge badge-brand">{post.data.category}</span>
+                    <span class="post-reading">{post.data.readingTime}</span>
+                  </div>
+                  <h2 class="post-title">{post.data.title}</h2>
+                  <p class="post-excerpt">{post.data.description}</p>
+                  <time class="post-date" datetime={post.data.pubDate.toISOString()}>{date}</time>
+                </a>
+              </li>
+            );
+          })}
         </ul>
       )}
     </div>
@@ -83,6 +93,14 @@ const posts: { slug: string; title: string; date: string; excerpt: string; badge
   transition: transform 0.15s, box-shadow 0.15s;
 }
 .post-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
+
+.post-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.25rem;
+}
+.post-reading { font-size: 0.75rem; color: var(--ink-subtle); }
 
 .post-title {
   font-family: var(--font-display);
