@@ -34,7 +34,7 @@ const PLAY_URL = 'https://play.google.com/store/apps/details?id=com.vicsothemes.
       <!-- Right: phone screenshot -->
       <div class="cta-right">
         <img
-          src="/screenshots/screen-alphabet.png"
+          src="/screenshots/screen-main.png"
           alt="Alphabet Explorer — Hebrew letters grid"
           class="cta-phone-img"
           loading="lazy"
@@ -61,14 +61,14 @@ const PLAY_URL = 'https://play.google.com/store/apps/details?id=com.vicsothemes.
   align-items: end;
   min-height: 460px;
   position: relative;
+  padding: 3rem 2.5rem 3rem 3rem;
 }
 
 /* ── Left ── */
 .cta-left {
-  padding: 3rem 2.5rem 3rem 3rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   height: 100%;
 }
 
@@ -89,8 +89,6 @@ const PLAY_URL = 'https://play.google.com/store/apps/details?id=com.vicsothemes.
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 0.75rem;
-  margin-bottom: auto;
   max-width: 350px;
 }
 
@@ -144,15 +142,11 @@ const PLAY_URL = 'https://play.google.com/store/apps/details?id=com.vicsothemes.
 }
 
 .cta-phone-img {
-  width: 75%;
-  max-width: 340px;
+  width: 213px;
   height: auto;
   display: block;
   border-radius: 20px 20px 0 0;
-  object-fit: cover;
-  /* Slight tilt like in the reference */
-  transform: perspective(800px) rotateY(-6deg) rotateX(2deg);
-  transform-origin: bottom center;
+  object-fit: contain;
   box-shadow: -12px 0 40px rgba(0,0,0,0.08);
 }
 
@@ -160,6 +154,6 @@ const PLAY_URL = 'https://play.google.com/store/apps/details?id=com.vicsothemes.
 @media (max-width: 768px) {
   .cta-card { grid-template-columns: 1fr; min-height: auto; }
   .cta-right { display: none; }
-  .cta-left { padding: 2rem; }
+  .fcard-screen { bottom: -60%; }
 }
 </style>

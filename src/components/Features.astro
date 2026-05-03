@@ -2,25 +2,28 @@
 const cards = [
   {
     title: 'Alphabet\nExplorer',
-    bg:    '#EDEDF5',
+    bg: '#EEF1FF',
+    phoneBorder: '#C9D2FF',
     screenshot: '/screenshots/screen-alphabet.png',
-    alt:   'Alphabet Explorer — Hebrew letters grid',
-    icon:  '◎',
+    alt: 'Alphabet Explorer — Hebrew letters grid',
+    icon: '◎',
   },
   {
     title: 'Structured\nLessons',
-    bg:    '#E8E4F5',
+    bg: '#F1ECFF',
+    phoneBorder: '#D8CCFF',
     screenshot: '/screenshots/screen-lessons.png',
-    alt:   'Alphabet Lessons — progress and lesson list',
-    icon:  '▣',
+    alt: 'Alphabet Lessons — progress and lesson list',
+    icon: '▣',
   },
   {
     title: 'Reading\nTrainer',
-    bg:    '#1F2937',
+    bg: '#172033',
+    phoneBorder: '#3B4A67',
     screenshot: '/screenshots/screen-reading.png',
-    alt:   'Reading Trainer — Hebrew stories',
-    icon:  '◈',
-    dark:  true,
+    alt: 'Reading Trainer — Hebrew stories',
+    icon: '◈',
+    dark: true,
   },
 ];
 ---
@@ -194,17 +197,20 @@ const cards = [
 /* Screenshot — bottom left, peeks up */
 .fcard-screen {
   position: absolute;
-  bottom: 0;
+  bottom: -40%;
+  left: 10%;
   left: 1.25rem;
   z-index: 1;
-  width: 55%;
+  width: 213px;
+  overflow: hidden;
 }
 .fcard-img {
   display: block;
   width: 100%;
   height: auto;
-  border-radius: 16px 16px 0 0;
-  object-fit: cover;
+  object-fit: contain;
+  image-rendering: auto;
+  transform: translateZ(0);
   box-shadow: 0 -4px 20px rgba(0,0,0,0.10);
 }
 
@@ -219,5 +225,6 @@ const cards = [
 
 @media (max-width: 768px) {
   .features-section { padding-block: var(--space-lg); }
+  .fcard-screen { bottom: -60%; }
 }
 </style>
