@@ -1,7 +1,7 @@
 ---
 title: "How to Read Hebrew Nikud: A Complete Beginner's Guide"
 description: "Hebrew nikud (vowel marks) is the training system that makes reading possible for beginners — here's how every mark works and why most Hebrew later drops them."
-pubDate: 2026-05-25
+pubDate: 2026-05-18
 author: "HebrewEdu Team"
 category: "Hebrew Reading"
 readingTime: "8 min read"

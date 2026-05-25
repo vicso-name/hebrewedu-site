@@ -1,7 +1,7 @@
 ---
 title: "How Hard Is Hebrew to Learn? What No One Tells You"
 description: "How hard is Hebrew to learn? A beginner's honest breakdown of every real challenge — and why the language is more approachable than it first appears."
-pubDate: 2026-05-25
+pubDate: 2026-05-21
 author: "HebrewEdu Team"
 category: "Hebrew Learning"
 readingTime: "9 min read"

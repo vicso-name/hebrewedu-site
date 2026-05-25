@@ -1,7 +1,7 @@
 ---
 title: "Alef-Bet Tutor Verb Directory: 334 Essential Hebrew Verbs"
 description: "The new Alef-Bet Tutor Verb Directory organizes 334 essential Hebrew verbs by Binyan, with full nikud and all conjugation forms — finally clear and searchable."
-pubDate: 2026-05-25
+pubDate: 2026-05-17
 author: "HebrewEdu Team"
 category: "Product Updates"
 readingTime: "6 min read"

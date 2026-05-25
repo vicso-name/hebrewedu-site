@@ -1,7 +1,7 @@
 ---
 title: "What Are Hebrew Binyanim? A Practical Beginner's Guide"
 description: "Hebrew Binyanim are the 7 verb pattern groups that shape how Hebrew verbs work. Here's a practical breakdown for beginners — no grammar textbook required."
-pubDate: 2026-05-25
+pubDate: 2026-05-23
 author: "HebrewEdu Team"
 category: "Hebrew Learning"
 readingTime: "9 min read"

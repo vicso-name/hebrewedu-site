@@ -1,7 +1,7 @@
 ---
 title: "How the Hebrew Root System Works: Shorashim Explained"
 description: "Once you understand Hebrew roots (shorashim), vocabulary stops feeling random and starts multiplying. Here's how the Hebrew root system actually works."
-pubDate: 2026-05-25
+pubDate: 2026-05-19
 author: "HebrewEdu Team"
 category: "Hebrew Learning"
 readingTime: "8 min read"
