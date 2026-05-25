@@ -1,11 +1,12 @@
 ---
-title: "How to Learn the Hebrew Alphabet in 7 Days (A Realistic Plan)"
-description: "A practical, day-by-day study plan for learning all 22 Hebrew letters in one week. No prior experience needed — just 20 minutes a day."
+title: "Learn the Hebrew Alphabet in 7 Days: A Realistic Plan"
+description: "A practical, day-by-day plan for learning all 22 Hebrew letters in one week — no prior experience required, just 20 minutes of daily Hebrew alphabet practice."
 pubDate: 2025-07-08
 author: "HebrewEdu Team"
 category: "Study Guide"
 readingTime: "7 min read"
 featured: false
+tags: ["Hebrew alphabet", "learn Hebrew", "Hebrew study plan", "Aleph Bet", "Hebrew for beginners"]
 ---
 
 Seven days is a bold claim. Let's be honest about what it means.
@@ -22,7 +23,7 @@ Here's exactly how to do it.
 
 **20 minutes a day, every day.** Not 2 hours on Sunday. Daily repetition is how your brain builds the pattern recognition needed for reading. Even if Monday's session feels like nothing stuck, Tuesday's will surprise you.
 
-**Learn with audio from the first day.** Hebrew has sounds that don't exist in English. If you learn the letters silently, you'll build habits that need to be unlearned later. Find native audio recordings — every letter session in the Hebrew Aleph Bet app includes them.
+**Learn with audio from the first day.** Hebrew has sounds that don't exist in English. If you learn the letters silently, you'll build habits that need to be unlearned later. Find native audio recordings — every letter session in the Hebrew Aleph Bet app includes them. For a detailed reference covering every letter's shape, name, and sound, the [complete Hebrew alphabet guide](/blog/hebrew-alphabet-complete-guide) is worth reading through before you begin.
 
 **Don't skip ahead.** The plan is sequenced deliberately. If you learn ש before you've drilled א, ב, ג, you'll be working against yourself.
 
@@ -164,11 +165,11 @@ Maybe it's reading a full paragraph with Nikud. Maybe it's learning your first 2
 
 Learning to read Hebrew is a two-phase process. Phase one — the alphabet — you've just completed in seven days. Phase two is learning to read **without vowel markings**, which is how most real-world Hebrew appears.
 
-This takes longer, and it happens through vocabulary. The more Hebrew words you recognize, the faster you can read unvocalized text, because you fill in the vowels from memory rather than relying on the Nikud system.
+This takes longer, and it happens through vocabulary. The more Hebrew words you recognize, the faster you can read unvocalized text, because you fill in the vowels from memory rather than relying on the Nikud system. If you want to understand the mechanics behind this, [why Hebrew without vowels still makes sense to native readers](/blog/why-hebrew-without-vowels-looks-impossible-until-your-brain-adapts) is a useful read at this stage.
 
 The Hebrew Aleph Bet app continues from exactly where this plan leaves off — with vocabulary building, reading trainer stories, and structured review sessions that keep the letters sharp while you build your word knowledge.
 
-Seven days to the alphabet. That was the goal. You made it.
+Seven days to the alphabet. That was the goal. You made it. Two things that often surprise learners at this stage: [sounding out words and actually understanding them are different skills](/blog/why-you-can-read-hebrew-but-still-understand-absolutely-nothing), and [Hebrew handwriting looks almost nothing like the printed forms you just learned](/blog/why-hebrew-handwriting-looks-completely-different-from-printed-hebrew) — both are worth knowing before you move forward.
 
 ---
 

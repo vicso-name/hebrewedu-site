@@ -6,6 +6,7 @@ author: "HebrewEdu Team"
 category: "Hebrew Learning"
 readingTime: "11 min read"
 featured: true
+tags: ["Hebrew vocabulary", "modern Hebrew", "learn Hebrew", "Hebrew words", "Hebrew fluency"]
 ---
 
 There’s a strange obsession language learners have with numbers.
@@ -128,10 +129,9 @@ Very repetitive.
 
 Reading is a different beast.
 
-Modern Hebrew newspapers, blogs, novels, and news apps often omit vowel markings (*nikud*), which means vocabulary matters much more than pronunciation rules.
+Modern Hebrew newspapers, blogs, novels, and news apps often omit vowel markings (*nikud*), which means vocabulary matters much more than pronunciation rules. This creates a disorienting experience for many learners — [reading Hebrew fluently while understanding almost none of it](/blog/why-you-can-read-hebrew-but-still-understand-absolutely-nothing) — because decoding letters and grasping meaning are genuinely separate skills.
 
-If speaking Hebrew is like recognizing faces,
-reading Hebrew without nikud is like recognizing faces in fog.
+If speaking Hebrew is like recognizing faces, reading Hebrew without nikud is like recognizing faces in fog. The mechanics behind [reading unvoweled Hebrew](/blog/why-hebrew-without-vowels-looks-impossible-until-your-brain-adapts) are actually more logical than they first appear — the root system and pattern recognition do most of the heavy lifting.
 
 You need enough vocabulary to predict missing vowels automatically.
 
@@ -172,7 +172,7 @@ Exactly the way English readers stop spelling out words letter by letter.
 
 Here’s the uncomfortable truth nobody wants to hear:
 
-Learning rare vocabulary too early is mostly procrastination disguised as productivity.
+Learning rare vocabulary too early is mostly procrastination disguised as productivity. If you’re unsure what good Hebrew learning habits look like, [a guide to every common Hebrew learning mistake](/blog/how-not-to-learn-hebrew-a-complete-guide-to-failing-efficiently) covers this territory in unusual and useful detail.
 
 You do not need words like:
 - “photosynthesis,”
@@ -229,7 +229,7 @@ A realistic roadmap looks something like this:
 
 And here’s the important part:
 
-You do **not** learn these in a straight line.
+You do **not** learn these in a straight line. Verbs represent a significant portion of core vocabulary, and if you’re ready to approach them systematically, the [Alef-Bet Tutor Verb Directory](/blog/meet-the-new-verb-directory) organizes 334 high-frequency Hebrew verbs by root, Binyan, and full conjugation.
 
 Vocabulary grows in layers.
 You forget words.
