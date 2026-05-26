@@ -231,6 +231,8 @@ And here’s the important part:
 
 You do **not** learn these in a straight line. Verbs represent a significant portion of core vocabulary, and if you’re ready to approach them systematically, the [Alef-Bet Tutor Verb Directory](/blog/meet-the-new-verb-directory) organizes 334 high-frequency Hebrew verbs by root, Binyan, and full conjugation.
 
+The question of *how* to build toward those milestones — which techniques produce durable vocabulary and which mostly produce the feeling of studying — is covered in detail in a [practical guide to learning Hebrew vocabulary](/blog/how-to-learn-hebrew-vocabulary).
+
 Vocabulary grows in layers.
 You forget words.
 You relearn them.

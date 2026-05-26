@@ -260,7 +260,7 @@ If you truly want to avoid learning Hebrew:
 But if you accidentally:
 - practice a little every day,
 - tolerate sounding stupid sometimes,
-- learn high-frequency words (when it's time to tackle verbs specifically, the [Alef-Bet Tutor Verb Directory](/blog/meet-the-new-verb-directory) makes that considerably less chaotic),
+- learn high-frequency words in a structured way — [how to build Hebrew vocabulary that actually sticks](/blog/how-to-learn-hebrew-vocabulary) covers the techniques that work (when it's time for verbs specifically, the [Alef-Bet Tutor Verb Directory](/blog/meet-the-new-verb-directory) is also useful),
 - and keep going despite imperfect progress...
 
 you may eventually discover something unsettling:

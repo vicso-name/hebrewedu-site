@@ -58,7 +58,7 @@ You already know כ-ת-ב means writing-related things. When you encounter הִ�
 
 The new word costs less to learn.
 
-This is one reason [how many words you actually need](/blog/how-many-words-are-in-the-modern-hebrew-language) in Hebrew is lower than most learners expect. Root knowledge means vocabulary scales faster than isolated memorization ever could — you learn one root and gain several words at once.
+This is one reason [how many words you actually need](/blog/how-many-words-are-in-the-modern-hebrew-language) in Hebrew is lower than most learners expect. Root knowledge means vocabulary scales faster than isolated memorization ever could — you learn one root and gain several words at once. For a complete framework on frequency selection, active recall, and the study rhythm that turns this advantage into lasting results, [how to learn Hebrew vocabulary effectively](/blog/how-to-learn-hebrew-vocabulary) covers the practical side.
 
 ---
 
