@@ -27,19 +27,19 @@ export const GET: APIRoute = async () => {
       lastmod: latestPostDate,
     },
     {
-      url: '/blog',
+      url: '/blog/',
       priority: '0.8',
       changefreq: 'weekly',
       lastmod: latestPostDate,
     },
     {
-      url: '/privacy',
+      url: '/privacy/',
       priority: '0.3',
       changefreq: 'yearly',
       lastmod: '2025-07-01',
     },
     {
-      url: '/terms',
+      url: '/terms/',
       priority: '0.3',
       changefreq: 'yearly',
       lastmod: '2025-07-01',
@@ -47,7 +47,7 @@ export const GET: APIRoute = async () => {
   ];
 
   const blogPages = sorted.map((post) => ({
-    url: `/blog/${post.slug}`,
+    url: `/blog/${post.slug}/`,
     priority: '0.7',
     changefreq: 'monthly',
     lastmod: toDateString(post.data.pubDate),
