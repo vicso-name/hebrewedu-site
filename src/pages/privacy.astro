@@ -3,7 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
 
-const lastUpdated = 'September 25, 2026';
+const lastUpdated = 'September 30, 2026';
 ---
 
 <Layout
@@ -29,8 +29,8 @@ const lastUpdated = 'September 25, 2026';
           <h2>1. Information We Handle</h2>
           <p>The App does not require an account, login, or social login. We do not intentionally ask you to provide your name, email address, or other profile information in the current app. Local app preferences and learning state may be stored on your device where applicable and are not shared with other users by us.</p>
           <p>The App communicates with the HebrewEdu backend to retrieve educational and app data. When these services are used, technical and network information necessary to provide, secure, and troubleshoot the service may be processed by the relevant service providers.</p>
-          <p>Both the Android and iOS apps use Firebase, a third-party service provided by Google. On Android, Firebase may be used for functions such as crash reporting or remote configuration. On iOS, the App uses Firebase Core and Cloud Functions. Firebase may process information in accordance with <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase's Privacy Policy</a>.</p>
-          <p>Where the word-explanation feature is available, when you request an explanation, the word or text you submit and technical request data (such as IP address and request identifiers) are sent to a Firebase Cloud Function, which uses the OpenAI API to generate the explanation. OpenAI processes the request text as a service provider under its API terms and policies. We do not send account data or anything that identifies you by name. Please do not include personal information in text you submit.</p>
+          <p>Both the Android and iOS apps use Firebase, a third-party service provided by Google. On Android, Firebase may be used for functions such as crash reporting or remote configuration. On Android, word explanations may be processed via Firebase Cloud Functions. On iOS, the App includes Firebase Core. Firebase may process information in accordance with <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase's Privacy Policy</a>.</p>
+          <p>Where the word-explanation feature is available, when you request an explanation, the word or text you submit and technical request data (such as IP address) are sent to our HebrewEdu backend (api.hebrewedu.com), which uses the OpenAI API to generate the explanation. Explanations may be cached on our server, so repeated requests for the same word do not reach OpenAI. OpenAI processes the request text as a service provider under its API terms and policies. We do not send account data or anything that identifies you by name. Please do not include personal information in text you submit.</p>
           <p>For Premium subscriptions, RevenueCat is used as a third-party subscription-management service to support entitlement status and restoration. Depending on the platform and transaction, RevenueCat may process purchase or subscription status, app-specific identifiers and technical information, and related transaction information necessary for these functions. RevenueCat does not receive payment-card details from us. Apple or Google Play handles payment credentials and store billing for purchases made through its store.</p>
           <p>The current iOS app does not request access to location, camera, microphone, contacts, calendar, Bluetooth, motion, speech recognition, or pasteboard data.</p>
         </section>
