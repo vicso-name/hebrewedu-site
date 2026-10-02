@@ -1,5 +1,9 @@
 ---
 import { testimonials } from '../../data/testimonials';
+
+// "2026-01-15" -> "Jan 2026". Formatted in UTC so the build machine's timezone can't shift the month.
+const monthYear = (iso: string) =>
+  new Date(`${iso}T00:00:00Z`).toLocaleDateString('en-US', { month: 'short', year: 'numeric', timeZone: 'UTC' });
 ---
 
 <section id="reviews" class="reviews-section">
@@ -26,7 +30,7 @@ import { testimonials } from '../../data/testimonials';
               <p>{t.text}</p>
             </blockquote>
             <figcaption class="review-author">
-              <cite>{t.name}</cite>
+              <cite>{t.source}</cite> · <time datetime={t.date.slice(0, 7)}>{monthYear(t.date)}</time>
             </figcaption>
           </figure>
         </li>
@@ -65,6 +69,21 @@ import { testimonials } from '../../data/testimonials';
 }
 .reviews-viewport::-webkit-scrollbar { display: none; }
 .reviews-viewport:focus-visible { outline-offset: -2px; }
+
+/* Mouse drag-to-scroll (see script). Grab cursor only where there is a real mouse. */
+@media (hover: hover) and (pointer: fine) {
+  .reviews-viewport { cursor: grab; }
+}
+/* While dragging: snapping is paused so the row follows the pointer 1:1, and text
+   can't be selected. Selection comes back the moment the drag ends; snapping stays
+   paused a little longer (is-settling) while the row glides to its snap point. */
+.reviews-viewport.is-dragging,
+.reviews-viewport.is-settling { scroll-snap-type: none; }
+.reviews-viewport.is-dragging {
+  cursor: grabbing;
+  user-select: none;
+  -webkit-user-select: none;
+}
 
 .reviews-track {
   list-style: none;
@@ -171,4 +190,81 @@ viewport.addEventListener('scroll', move, { passive: true });
 
 window.addEventListener('resize', measure);
 measure();
+
+// Mouse drag-to-scroll. Touch and trackpad keep native scrolling; a mouse drag only
+// writes scrollLeft, so the scroll listener above stays the one source for the progress line.
+const DRAG_THRESHOLD = 5; // px of horizontal travel before a press becomes a drag
+
+let pointerId: number | null = null;
+let startX      = 0;
+let startScroll = 0;
+let dragging    = false;
+
+function swallowClick(e: MouseEvent) {
+  e.preventDefault();
+  e.stopPropagation();
+}
+
+let settleTimer = 0;
+
+function settled() {
+  clearTimeout(settleTimer);
+  viewport.removeEventListener('scrollend', settled);
+  viewport.classList.remove('is-settling');
+}
+
+// With the class gone, CSS snapping is back and the browser re-snaps the row at once.
+// That jump is its own choice of snap point; we only replay it as a glide, unless
+// the user prefers reduced motion. Nothing is painted in between.
+function settle() {
+  const from = viewport.scrollLeft;
+  viewport.classList.remove('is-dragging');
+  const to = viewport.scrollLeft; // forces layout, so this is the snapped position
+  if (to === from || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  viewport.classList.add('is-settling');
+  viewport.scrollLeft = from;
+  viewport.scrollTo({ left: to, behavior: 'smooth' });
+  viewport.addEventListener('scrollend', settled);
+  settleTimer = window.setTimeout(settled, 800); // browsers without scrollend
+}
+
+function endDrag() {
+  if (pointerId === null) return;
+  const id = pointerId;
+  pointerId = null;
+  if (viewport.hasPointerCapture(id)) viewport.releasePointerCapture(id);
+  if (!dragging) return;
+  dragging = false;
+  settle();
+  // The click that follows a real drag is not a click; a plain click never gets here
+  viewport.addEventListener('click', swallowClick, { capture: true, once: true });
+  setTimeout(() => viewport.removeEventListener('click', swallowClick, { capture: true }));
+}
+
+viewport.addEventListener('pointerdown', e => {
+  if (e.pointerType !== 'mouse' || e.button !== 0) return;
+  settled(); // a new press takes over from any glide still running
+  pointerId   = e.pointerId;
+  startX      = e.clientX;
+  startScroll = viewport.scrollLeft;
+});
+
+viewport.addEventListener('pointermove', e => {
+  if (e.pointerId !== pointerId) return;
+  // Button let go outside the row before a drag began: no pointerup reached us
+  if (!(e.buttons & 1)) { endDrag(); return; }
+  const dx = e.clientX - startX;
+  if (!dragging) {
+    if (Math.abs(dx) < DRAG_THRESHOLD) return;
+    dragging = true;
+    viewport.setPointerCapture(e.pointerId);
+    viewport.classList.add('is-dragging');
+    window.getSelection()?.removeAllRanges();
+  }
+  viewport.scrollLeft = startScroll - dx;
+});
+
+viewport.addEventListener('pointerup', endDrag);
+viewport.addEventListener('pointercancel', endDrag);
+viewport.addEventListener('lostpointercapture', endDrag);
 </script>
