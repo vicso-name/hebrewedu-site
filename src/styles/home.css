@@ -1,0 +1,121 @@
+/* ─── Homepage design language ───────────────────────────────────
+   Everything here is scoped to .home-page (set in src/pages/index.astro)
+   and is only bundled into the homepage. Shared foundation stays in
+   global.css; blog / privacy / terms are not affected by this file.   */
+
+.home-page {
+  /* Brand */
+  --home-brand:        #6366F1;
+  --home-brand-hover:  #5457E8;
+  --home-brand-soft:   #EEF0FF;
+  --home-brand-text:   #4F46E5; /* indigo for small text: 6:1 on white */
+
+  /* Text */
+  --home-text-primary:   #17171A;
+  --home-text-secondary: #64646D;
+  --home-text-tertiary:  #70707A; /* darkened from #8A8A93 to pass 4.5:1 */
+
+  /* Borders */
+  --home-border-subtle: #E8E8EC;
+  --home-border-strong: #D9D9DF;
+
+  /* Surfaces */
+  --home-surface-white: #FFFFFF;
+  --home-surface-soft:  #F9F9FB;
+
+  /* Radius */
+  --home-radius-sm: 12px;
+  --home-radius-md: 18px;
+  --home-radius-lg: 28px;
+
+  /* Rhythm */
+  --home-section-y: clamp(4.5rem, 9vw, 8rem);
+  --home-gap:       clamp(2.5rem, 6vw, 5.5rem);
+  --home-stack:     1.5rem;
+
+  /* Typography — Manrope is loaded from index.astro via Layout's head slot */
+  --font-display: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body:    'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Nav theming hooks (see Nav.astro) */
+  --nav-bg:            rgba(255, 255, 255, 0.9);
+  --nav-border:        var(--home-border-subtle);
+  --nav-link-hover-bg: transparent;
+
+  font-family: var(--font-body);
+  color: var(--home-text-primary);
+  background: var(--home-surface-white);
+}
+
+/* Anchor targets clear the sticky nav */
+.home-page [id] { scroll-margin-top: 68px; }
+
+.home-page :focus-visible {
+  outline: 2px solid var(--home-brand);
+  outline-offset: 3px;
+}
+
+/* ─── Type scale ─────────────────────────────────────────────── */
+.home-h1,
+.home-h2,
+.home-h3 {
+  font-family: var(--font-display);
+  color: var(--home-text-primary);
+  text-wrap: balance;
+}
+
+.home-h1 {
+  font-size: clamp(2.5rem, 1.5rem + 3.4vw, 3.75rem);
+  font-weight: 800;
+  line-height: 1.06;
+  letter-spacing: -0.03em;
+}
+
+.home-h2 {
+  font-size: clamp(2.25rem, 4vw, 3rem);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.025em;
+}
+
+.home-h3 {
+  font-size: clamp(1.5rem, 2.5vw, 1.875rem);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.home-lead {
+  font-size: clamp(1.125rem, 1.5vw, 1.25rem);
+  line-height: 1.65;
+  color: var(--home-text-secondary);
+}
+
+.home-body {
+  font-size: clamp(1rem, 1.3vw, 1.125rem);
+  line-height: 1.65;
+  color: var(--home-text-secondary);
+}
+
+.home-eyebrow,
+.home-num {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--home-brand-text);
+}
+
+.home-num { font-variant-numeric: tabular-nums; }
+
+/* ─── Motion ─────────────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+
+  .home-page *,
+  .home-page *::before,
+  .home-page *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

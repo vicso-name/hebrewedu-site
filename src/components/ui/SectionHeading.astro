@@ -1,0 +1,21 @@
+---
+interface Props {
+  title: string;
+  lede?: string;
+}
+
+const { title, lede } = Astro.props;
+---
+
+<header class="section-heading">
+  <h2 class="home-h2">{title}</h2>
+  {lede && <p class="home-lead">{lede}</p>}
+</header>
+
+<style>
+.section-heading {
+  max-width: 44rem;
+  margin-bottom: var(--home-gap);
+}
+.section-heading p { margin-top: var(--home-stack); }
+</style>

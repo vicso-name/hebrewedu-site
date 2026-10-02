@@ -1,0 +1,51 @@
+---
+import Section from '../ui/Section.astro';
+import SectionHeading from '../ui/SectionHeading.astro';
+
+const pillars = [
+  { num: '01', title: 'Learn',    desc: 'Alphabet, sounds, Nikud and core reading rules.' },
+  { num: '02', title: 'Practice', desc: 'Exercises that help turn new material into a skill.' },
+  { num: '03', title: 'Remember', desc: 'Build vocabulary and return to difficult words.' },
+  { num: '04', title: 'Read',     desc: 'Move from individual words to beginner Hebrew texts.' },
+];
+---
+
+<Section id="features" surface="soft">
+  <SectionHeading
+    title="Everything you need to start reading Hebrew"
+    lede="Learn the foundations, practise what you know, build useful vocabulary and gradually move into real Hebrew texts."
+  />
+
+  <ol class="pillars" role="list">
+    {pillars.map(p => (
+      <li class="pillar">
+        <span class="home-num" aria-hidden="true">{p.num}</span>
+        <h3 class="home-h3">{p.title}</h3>
+        <p class="home-body">{p.desc}</p>
+      </li>
+    ))}
+  </ol>
+</Section>
+
+<style>
+.pillars {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 3rem clamp(1.5rem, 3vw, 3rem);
+}
+
+.pillar {
+  padding-top: var(--home-stack);
+  border-top: 1px solid var(--home-border-strong);
+}
+.pillar h3 { margin-block: 1rem 0.625rem; }
+
+@media (max-width: 1000px) {
+  .pillars { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 560px) {
+  .pillars { grid-template-columns: 1fr; gap: 2.25rem; }
+}
+</style>

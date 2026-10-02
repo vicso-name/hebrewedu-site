@@ -88,6 +88,9 @@ const jsonLd = JSON.stringify(schema ?? defaultSchema);
 
     <!-- JSON-LD Structured Data -->
     <script type="application/ld+json" set:html={jsonLd} />
+
+    <!-- Page-specific head content (e.g. fonts) -->
+    <slot name="head" />
   </head>
   <body>
     <slot />

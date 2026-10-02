@@ -1,0 +1,29 @@
+---
+import { site } from '../../data/site';
+
+// Only stores with a live URL are rendered.
+const stores = [site.stores.googlePlay, site.stores.appStore].filter(s => s.url);
+---
+
+<div class="store-buttons">
+  {stores.map(s => (
+    <a href={s.url} class="store-link" target="_blank" rel="noopener">
+      <img src={s.badge} alt={s.label} width={s.width} height={s.height} />
+    </a>
+  ))}
+</div>
+
+<style>
+.store-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+.store-link {
+  display: block;
+  border-radius: var(--home-radius-sm);
+  transition: opacity 0.15s;
+}
+.store-link:hover { opacity: 0.85; }
+.store-link img { height: 56px; width: auto; }
+</style>

@@ -1,0 +1,21 @@
+---
+interface Props {
+  surface?: 'white' | 'soft';
+  id?: string;
+  class?: string;
+}
+
+const { surface = 'white', id, class: className } = Astro.props;
+---
+
+<section id={id} class:list={['home-section', `home-section--${surface}`, className]}>
+  <div class="container">
+    <slot />
+  </div>
+</section>
+
+<style>
+.home-section { padding-block: var(--home-section-y); }
+.home-section--white { background: var(--home-surface-white); }
+.home-section--soft  { background: var(--home-surface-soft); }
+</style>

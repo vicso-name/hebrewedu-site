@@ -1,0 +1,116 @@
+---
+import Section from '../ui/Section.astro';
+import SectionHeading from '../ui/SectionHeading.astro';
+import ProductPlaceholder from '../ui/ProductPlaceholder.astro';
+
+const rows = [
+  {
+    num: '01',
+    title: 'Start with the foundations',
+    body: 'Learn Hebrew letters, their sounds and the reading patterns you need before moving on.',
+    meta: ['Alphabet', 'Pronunciation', 'Nikud'],
+    visual: 'Alphabet',
+  },
+  {
+    num: '02',
+    title: 'Turn knowledge into skill',
+    body: 'Practise what you learn with focused exercises instead of simply rereading explanations.',
+    meta: ['Lessons', 'Exercises', 'Review'],
+    visual: 'Practice',
+  },
+  {
+    num: '03',
+    title: 'Build vocabulary that stays with you',
+    body: 'Learn useful words, return to difficult ones and reinforce what needs more practice.',
+    meta: ['Vocabulary', 'Review', 'Difficult words'],
+    visual: 'Vocabulary',
+  },
+];
+---
+
+<Section id="how-it-works" surface="white">
+  <SectionHeading
+    title="A clear path from letters to reading"
+    lede="Hebrew can feel difficult when everything is introduced at once. HebrewEdu breaks the process into manageable stages."
+  />
+
+  <div class="journey">
+    {rows.map((r, i) => (
+      <div class:list={['journey-row', { 'journey-row--flip': i % 2 === 1 }]}>
+        <div class="journey-copy">
+          <span class="home-num" aria-hidden="true">{r.num}</span>
+          <h3 class="home-h3">{r.title}</h3>
+          <p class="home-lead">{r.body}</p>
+          <ul class="journey-meta" role="list">
+            {r.meta.map(m => <li>{m}</li>)}
+          </ul>
+        </div>
+        <div class="journey-visual">
+          <div class="journey-device">
+            <ProductPlaceholder label={r.visual} />
+          </div>
+        </div>
+      </div>
+    ))}
+  </div>
+</Section>
+
+<style>
+.journey {
+  display: grid;
+  gap: clamp(4rem, 7vw, 6rem);
+}
+
+/* DOM order is always copy → visual. Desktop alternates by grid placement. */
+.journey-row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--home-gap);
+  align-items: center;
+}
+.journey-row--flip .journey-copy   { grid-column: 2; grid-row: 1; }
+.journey-row--flip .journey-visual { grid-column: 1; grid-row: 1; }
+
+.journey-copy { max-width: 30rem; }
+.journey-copy h3 { margin-block: 1rem; }
+
+.journey-meta {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.75rem;
+  margin-top: var(--home-stack);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--home-text-tertiary);
+}
+.journey-meta li + li::before {
+  content: '•';
+  margin-right: 0.75rem;
+  color: var(--home-border-strong);
+}
+
+/* Quiet presentation surface: fixed height, the device rises from the top
+   and its lower edge runs off the stage instead of stretching the row. */
+.journey-visual {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 520px;
+  padding: 3rem 1.5rem 0;
+  overflow: hidden;
+  background: var(--home-surface-soft);
+  border-radius: var(--home-radius-lg);
+}
+.journey-device { flex: none; width: clamp(220px, 20vw, 260px); }
+
+@media (max-width: 900px) {
+  .journey { gap: 4rem; }
+  .journey-visual { height: 460px; padding-top: 2.5rem; }
+  .journey-row { grid-template-columns: 1fr; gap: 2.5rem; }
+  .journey-row--flip .journey-copy,
+  .journey-row--flip .journey-visual { grid-column: auto; grid-row: auto; }
+  .journey-copy { max-width: 36rem; }
+  .journey-device { width: min(58vw, 240px); }
+}
+</style>

@@ -1,0 +1,87 @@
+---
+import StoreButtons from '../ui/StoreButtons.astro';
+import ProductPlaceholder from '../ui/ProductPlaceholder.astro';
+---
+
+<section class="hero">
+  <div class="container hero-inner">
+
+    <div class="hero-copy">
+      <p class="home-eyebrow">Hebrew for beginners</p>
+      <h1 class="home-h1 hero-title">
+        <span>Learn to read Hebrew.</span>
+        <span class="hero-title-quiet">One clear step at a time.</span>
+      </h1>
+      <p class="home-lead hero-lead">
+        Start with the Aleph Bet, build vocabulary, practise with structured lessons,
+        and move toward reading real Hebrew.
+      </p>
+      <StoreButtons />
+    </div>
+
+    <div class="hero-visual">
+      <div class="hero-device hero-device--main">
+        <ProductPlaceholder label="Home" />
+      </div>
+      <div class="hero-device hero-device--back">
+        <ProductPlaceholder label="Lessons" variant="secondary" />
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<style>
+.hero {
+  padding-block: clamp(3rem, 6vw, 5.5rem) var(--home-section-y);
+  background: var(--home-surface-white);
+}
+
+.hero-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1.62fr) minmax(0, 1fr);
+  gap: clamp(2rem, 4vw, 4rem);
+  align-items: center;
+}
+
+.hero-title {
+  margin-top: 1rem;
+}
+.hero-title span { display: block; }
+.hero-title-quiet { color: var(--home-text-secondary); }
+
+.hero-lead {
+  max-width: 34rem;
+  margin-block: var(--home-stack) 2.25rem;
+}
+
+/* Main device in front, second one peeking out lower right behind it */
+.hero-visual {
+  --device: clamp(230px, 23vw, 320px);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.hero-device--main {
+  position: relative;
+  z-index: 1;
+  flex: none;
+  width: var(--device);
+}
+.hero-device--back {
+  flex: none;
+  width: calc(var(--device) * 0.8);
+  margin-left: calc(var(--device) * -0.45);
+  margin-top: calc(var(--device) * 0.36);
+}
+
+@media (max-width: 900px) {
+  .hero-inner { grid-template-columns: 1fr; }
+  .hero-visual { --device: min(64vw, 300px); }
+}
+
+@media (max-width: 560px) {
+  .hero-device--back { display: none; }
+  .hero-visual { --device: min(72vw, 300px); }
+}
+</style>
