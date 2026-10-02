@@ -48,7 +48,7 @@ export const GET: APIRoute = async () => {
   ];
 
   const blogPages = sorted.map((post) => ({
-    url: `/blog/${post.slug}/`,
+    url: `/blog/${post.id}/`,
     priority: '0.7',
     changefreq: 'monthly',
     lastmod: toDateString(post.data.pubDate),

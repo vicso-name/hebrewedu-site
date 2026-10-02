@@ -1,12 +1,17 @@
-import { defineCollection, z } from 'astro:content';
+import { defineCollection } from 'astro:content';
+import { glob } from 'astro/loaders';
+import { z } from 'astro/zod';
 
 const blog = defineCollection({
-  type: 'content',
+  loader: glob({
+    pattern: '**/*.md',
+    base: './src/content/blog',
+  }),
   schema: z.object({
     title:       z.string(),
     description: z.string(),
-    pubDate:     z.date(),
-    updatedDate: z.date().optional(),
+    pubDate:     z.coerce.date(),
+    updatedDate: z.coerce.date().optional(),
     author:      z.string().default('HebrewEdu Team'),
     category:    z.string(),
     readingTime: z.string(),

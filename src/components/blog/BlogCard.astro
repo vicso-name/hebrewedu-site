@@ -17,7 +17,7 @@ const { title, description, pubDate, category, readingTime } = post.data;
     <span class="blog-card-reading">{readingTime}</span>
   </div>
   <h3 class="blog-card-title">
-    <a href={`/blog/${post.slug}/`} class="blog-card-link">{title}</a>
+    <a href={`/blog/${post.id}/`} class="blog-card-link">{title}</a>
   </h3>
   <p class="blog-card-excerpt">{description}</p>
   <time class="blog-card-date" datetime={pubDate.toISOString()}>{formatPostDate(pubDate)}</time>
