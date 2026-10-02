@@ -35,7 +35,12 @@ const articleSchema = {
   "url": pageUrl,
   "mainEntityOfPage": { "@type": "WebPage", "@id": pageUrl },
   "author": { "@type": "Organization", "name": author },
-  "publisher": { "@type": "Organization", "name": site.name, "url": `${site.url}/` },
+  "publisher": {
+    "@type": "Organization",
+    "name": site.name,
+    "url": `${site.url}/`,
+    "logo": { "@type": "ImageObject", "url": `${site.url}/apple-touch-icon.png` }
+  },
   "inLanguage": "en"
 };
 
@@ -47,6 +52,7 @@ const related = (await getSortedPosts())
 
 <Layout
   title={`${title} | HebrewEdu Blog`}
+  seoTitle={post.data.seoTitle}
   description={description}
   ogType="article"
   schema={articleSchema}

@@ -4,6 +4,8 @@ import { site } from '../data/site';
 
 interface Props {
   title?: string;
+  /** Optional HTML title override; social metadata continues to use title. */
+  seoTitle?: string;
   description?: string;
   image?: string;
   /** og:type — 'article' for blog posts */
@@ -14,6 +16,7 @@ interface Props {
 
 const {
   title = site.title,
+  seoTitle,
   description = site.description,
   image = '/og-image.png',
   ogType = 'website',
@@ -32,7 +35,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <link rel="canonical" href={canonicalURL} />
 
     <!-- Primary SEO -->
-    <title>{title}</title>
+    <title>{seoTitle ?? title}</title>
     <meta name="description" content={description} />
     <meta name="author" content="Viktor Sokoliuk" />
     <meta name="robots" content="index, follow" />
