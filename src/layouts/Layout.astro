@@ -1,7 +1,6 @@
 ---
 import '../styles/global.css';
 import { site } from '../data/site';
-import AnalyticsConsent from '../components/AnalyticsConsent.astro';
 
 interface Props {
   title?: string;
@@ -74,6 +73,5 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   </head>
   <body>
     <slot />
-    <AnalyticsConsent />
   </body>
 </html>
