@@ -1,0 +1,42 @@
+---
+import LegalPage from '../components/legal/LegalPage.astro';
+
+import { formatLegalDate } from '../data/legal';
+import { websitePrivacyUpdated } from '../data/website-privacy';
+
+const lastUpdated = formatLegalDate(websitePrivacyUpdated);
+---
+
+<LegalPage
+  metaTitle="Website Privacy Policy — HebrewEdu"
+  description="How the HebrewEdu website (hebrewedu.com) uses Google Analytics, and how to change your choice."
+  title="Website Privacy Policy"
+  lastUpdated={lastUpdated}
+>
+    <section>
+      <h2>Scope</h2>
+      <p>This page covers only the HebrewEdu website at hebrewedu.com. For the HebrewEdu mobile apps, see the <a href="/privacy/">app Privacy Policy</a>.</p>
+    </section>
+
+    <section>
+      <h2>Google Analytics</h2>
+      <p>The website uses Google Analytics (GA4), provided by Google, only after you grant analytics consent. No analytics script is loaded before you do. If you reject, it is never loaded.</p>
+      <p>If you accept, Google Analytics may process technical and usage data such as pages viewed, browser and device information, approximate location derived from your IP address, and interactions with the website (for example clicks on links to our app's store page). It may set cookies or similar identifiers in your browser. Google Analytics is not anonymous.</p>
+      <p>We use this data to understand how the website is used and to improve HebrewEdu. We do not intentionally send your name, email address, or any text you type to Google Analytics.</p>
+    </section>
+
+    <section>
+      <h2>Your choice</h2>
+      <p>You can reject analytics when the consent notice first appears; the website works the same either way. Your choice is stored in your browser's local storage on your device. You can change it at any time using the "Privacy choices" link at the bottom of every page. If you withdraw consent, analytics stops and we try to remove Google Analytics cookies; you can also clear them in your browser settings.</p>
+    </section>
+
+    <section>
+      <h2>Google's processing</h2>
+      <p>Google processes data according to its own policies: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a> and <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">How Google uses information from sites or apps that use its services</a>.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Questions about this page: <a href="mailto:vicsothemes@gmail.com">vicsothemes@gmail.com</a></p>
+    </section>
+</LegalPage>

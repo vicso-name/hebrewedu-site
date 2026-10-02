@@ -1,6 +1,7 @@
 import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
 import { legalUpdated } from '../data/legal';
+import { websitePrivacyUpdated } from '../data/website-privacy';
 
 const SITE = 'https://hebrewedu.com';
 
@@ -38,6 +39,12 @@ export const GET: APIRoute = async () => {
       priority: '0.3',
       changefreq: 'yearly',
       lastmod: legalUpdated.privacy,
+    },
+    {
+      url: '/website-privacy/',
+      priority: '0.3',
+      changefreq: 'yearly',
+      lastmod: websitePrivacyUpdated,
     },
     {
       url: '/terms/',

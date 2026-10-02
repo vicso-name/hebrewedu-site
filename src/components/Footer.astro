@@ -6,10 +6,8 @@ const links = [
   { label: 'How it works', href: '/#how-it-works' },
   { label: 'Blog',         href: '/blog/'         },
   { label: 'Terms',        href: '/terms/'        },
-  { label: 'Privacy',      href: '/privacy/'      },
+  { label: 'Privacy',      href: '/website-privacy/' },
 ];
-
-const PLAY_URL = 'https://play.google.com/store/apps/details?id=com.vicsothemes.hebrewforbeginners';
 ---
 
 <footer class="footer">
@@ -20,17 +18,12 @@ const PLAY_URL = 'https://play.google.com/store/apps/details?id=com.vicsothemes.
       HEBREWEDU
     </a>
 
-    <!-- Nav links — center -->
+    <!-- Nav links -->
     <nav class="footer-nav" aria-label="Footer">
       {links.map(l => (
         <a href={l.href} class="footer-link">{l.label}</a>
       ))}
     </nav>
-
-    <!-- Right: Google Play badge -->
-    <a href={PLAY_URL} class="footer-badge" target="_blank" rel="noopener" aria-label="Get it on Google Play">
-      <img src="/googleplay-badge.svg" alt="Get it on Google Play" height="36" width="auto" />
-    </a>
 
   </div>
 
@@ -38,6 +31,7 @@ const PLAY_URL = 'https://play.google.com/store/apps/details?id=com.vicsothemes.
   <div class="footer-bottom">
     <div class="container footer-bottom-inner">
       <p class="footer-copy">© {year} HebrewEdu. All rights reserved.</p>
+      <button type="button" class="footer-privacy" data-privacy-choices>Privacy choices</button>
     </div>
   </div>
 </footer>
@@ -89,7 +83,7 @@ const PLAY_URL = 'https://play.google.com/store/apps/details?id=com.vicsothemes.
   align-items: center;
   gap: 0.25rem;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-end;
 }
 .footer-link {
   padding: 0.3rem 0.75rem;
@@ -100,22 +94,29 @@ const PLAY_URL = 'https://play.google.com/store/apps/details?id=com.vicsothemes.
 }
 .footer-link:hover { color: var(--ink); background: var(--border); }
 
-/* Badge */
-.footer-badge {
-  display: inline-block;
-  flex-shrink: 0;
-  transition: opacity 0.15s, transform 0.15s;
-}
-.footer-badge:hover { opacity: 0.8; transform: translateY(-1px); }
-.footer-badge img { height: 36px; width: auto; display: block; }
-
 /* Bottom */
 .footer-bottom { border-top: 1px solid var(--border); }
 .footer-bottom-inner {
   padding-block: 1rem;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.25rem;
 }
+.footer-privacy {
+  font: inherit;
+  font-size: 0.8125rem;
+  color: var(--ink-subtle);
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color 0.15s;
+}
+.footer-privacy:hover { color: var(--ink); }
 .footer-copy {
   font-size: 0.8125rem;
   color: var(--ink-subtle);
