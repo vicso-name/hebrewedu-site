@@ -1,0 +1,185 @@
+---
+import { site } from '../data/site';
+---
+
+<!-- Website analytics consent (GA4). Separate from the mobile app's UMP ad consent.
+     Hidden until the script decides it is needed; GA is not loaded before "Accept". -->
+<div
+  id="analytics-consent"
+  class="consent"
+  role="region"
+  aria-label="Analytics consent"
+  data-ga-id={site.analyticsId}
+  hidden
+>
+  <p class="consent-text">
+    We'd like to use Google Analytics to understand how the site is used. It only runs if you accept.
+    <a href="/website-privacy/">Privacy policy</a>
+  </p>
+  <div class="consent-actions">
+    <button type="button" class="consent-btn" data-consent="denied">Reject</button>
+    <button type="button" class="consent-btn consent-btn-primary" data-consent="granted">Accept analytics</button>
+  </div>
+</div>
+
+<style is:global>
+.consent {
+  position: fixed;
+  left: 1rem;
+  bottom: 1rem;
+  z-index: 300;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1rem;
+  max-width: 34rem;
+  padding: 0.875rem 1rem;
+  background: #fff;
+  color: #374151;
+  border: 1px solid #E5E7EB;
+  border-radius: 12px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.12);
+  font: 400 0.875rem/1.45 system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+.consent[hidden] { display: none; }
+.consent-text { margin: 0; flex: 1 1 16rem; }
+.consent-text a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+.consent-actions { display: flex; gap: 0.5rem; }
+.consent-btn {
+  font: inherit;
+  font-weight: 600;
+  padding: 0.45rem 0.9rem;
+  color: #1F2937;
+  background: #fff;
+  border: 1px solid #D1D5DB;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+.consent-btn:hover { background: #F3F4F6; }
+.consent-btn-primary { color: #fff; background: #1F2937; border-color: #1F2937; }
+.consent-btn-primary:hover { background: #111827; }
+@media (max-width: 480px) {
+  .consent { left: 0.5rem; right: 0.5rem; bottom: 0.5rem; }
+  .consent-actions { width: 100%; }
+  .consent-btn { flex: 1; }
+}
+</style>
+
+<script>
+const KEY = 'hebrewedu-analytics-consent'; // 'granted' | 'denied'
+const banner = document.getElementById('analytics-consent') as HTMLElement;
+const gaId = banner.dataset.gaId as string;
+
+// Click → event name. Add a store here (and an `id` in site.ts) to track it.
+const STORE_EVENTS: Record<string, string> = {
+  google_play: 'google_play_click',
+  app_store: 'app_store_click', // emitted once site.stores.appStore.url is set
+};
+
+type W = Window & { dataLayer?: unknown[]; gtag?: (...a: unknown[]) => void; [k: string]: unknown };
+const w = window as W;
+let enabled = false; // consent currently granted
+let loaded = false;  // gtag.js injected and configured (only ever once per page)
+
+function readChoice(): string | null {
+  try { return localStorage.getItem(KEY); } catch { return null; }
+}
+function saveChoice(v: string) {
+  try { localStorage.setItem(KEY, v); } catch { /* choice just won't persist */ }
+}
+
+// gtag.js can't be unloaded, and its Enhanced Measurement events (click, scroll, ...)
+// ignore ga-disable once running. So after a withdrawal, drop its hits at the transport.
+const GA_HOSTS = /(^|\.)(google-analytics\.com|analytics\.google\.com)$/;
+function isGaHit(input: unknown): boolean {
+  try {
+    const u = new URL(input instanceof Request ? input.url : String(input), location.href);
+    return GA_HOSTS.test(u.hostname) && /\/g\/collect$/.test(u.pathname);
+  } catch { return false; }
+}
+function guardTransport() {
+  const beacon = navigator.sendBeacon?.bind(navigator);
+  if (beacon) navigator.sendBeacon = (url, data) => (!enabled && isGaHit(url)) || beacon(url, data);
+  const nativeFetch = window.fetch.bind(window);
+  window.fetch = (input, init) =>
+    !enabled && isGaHit(input) ? Promise.resolve(new Response(null, { status: 204 })) : nativeFetch(input, init);
+}
+
+function enableGA() {
+  enabled = true;
+  w[`ga-disable-${gaId}`] = false;
+  if (loaded) return; // re-granting after a withdrawal: just lift the disable flag
+  loaded = true;
+  guardTransport();
+  w.dataLayer = w.dataLayer || [];
+  w.gtag = function () { w.dataLayer!.push(arguments); };
+  w.gtag('js', new Date());
+  w.gtag('config', gaId);
+  const s = document.createElement('script');
+  s.async = true;
+  s.src = `https://www.googletagmanager.com/gtag/js?id=${gaId}`;
+  document.head.appendChild(s);
+}
+
+function disableGA() {
+  enabled = false;
+  w[`ga-disable-${gaId}`] = true; // stops an already-loaded gtag.js
+  // Best-effort removal of GA cookies (_ga, _ga_<id>) set while consent was granted.
+  const parts = location.hostname.split('.');
+  const domains = ['', location.hostname];
+  for (let i = 1; i < parts.length - 1; i++) domains.push('.' + parts.slice(i).join('.'));
+  for (const name of document.cookie.split(';').map(c => c.split('=')[0].trim())) {
+    if (name === '_ga' || name.startsWith('_ga_')) {
+      for (const d of domains) {
+        document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/` + (d ? `; domain=${d}` : '');
+      }
+    }
+  }
+}
+
+function apply(choice: string | null) {
+  if (choice === 'granted') enableGA();
+  else if (choice === 'denied') disableGA();
+}
+
+function show() { banner.hidden = false; }
+function hide() { banner.hidden = true; }
+
+banner.addEventListener('click', (e) => {
+  const btn = (e.target as Element).closest<HTMLElement>('[data-consent]');
+  if (!btn) return;
+  const choice = btn.dataset.consent as string;
+  saveChoice(choice);
+  apply(choice);
+  hide();
+});
+
+// "Privacy choices" control (footer) reopens the banner.
+document.addEventListener('click', (e) => {
+  const el = (e.target as Element).closest('[data-privacy-choices]');
+  if (!el) return;
+  show();
+  banner.querySelector<HTMLElement>('[data-consent="granted"]')?.focus();
+});
+
+// Delegated store/CTA tracking: one listener, one event per click, only when GA is enabled.
+document.addEventListener('click', (e) => {
+  if (!enabled || !w.gtag) return;
+  const el = (e.target as Element).closest<HTMLElement>('[data-store]');
+  if (!el) return;
+  const eventName = STORE_EVENTS[el.dataset.store as string];
+  if (!eventName) return;
+  const params = {
+    source_path: location.pathname,
+    cta_location: el.dataset.ctaLocation ?? 'unknown',
+    destination: el.dataset.store,
+  };
+  w.gtag('event', eventName, params);
+  const also = el.dataset.trackAlso;
+  if (also) w.gtag('event', also, { source_path: params.source_path, destination: params.destination });
+});
+
+const stored = readChoice();
+if (stored === 'granted' || stored === 'denied') apply(stored);
+else show();
+</script>

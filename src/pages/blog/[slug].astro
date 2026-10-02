@@ -98,10 +98,13 @@ const related = (await getSortedPosts())
           <div class="article-cta">
             <p class="article-cta-text">Ready to start reading Hebrew?</p>
             <a
-              href="https://play.google.com/store/apps/details?id=com.vicsothemes.hebrewforbeginners"
+              href={site.stores.googlePlay.url}
               class="article-cta-btn"
               target="_blank"
               rel="noopener"
+              data-store="google_play"
+              data-cta-location="blog_article"
+              data-track-also="blog_cta_click"
             >
               <img src="/googleplay-badge.svg" alt="Get it on Google Play" height="48" />
             </a>

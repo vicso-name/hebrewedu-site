@@ -21,7 +21,7 @@ const links = [
       ))}
     </ul>
 
-    <a href={site.primaryStoreUrl} class="nav-cta" target="_blank" rel="noopener">
+    <a href={site.primaryStoreUrl} class="nav-cta" target="_blank" rel="noopener" data-store="google_play" data-cta-location="nav">
       Get the app
     </a>
 
@@ -45,7 +45,7 @@ const links = [
     {links.map(l => (
       <a href={l.href} class="nav-mobile-link">{l.label}</a>
     ))}
-    <a href={site.primaryStoreUrl} class="nav-mobile-cta" target="_blank" rel="noopener">
+    <a href={site.primaryStoreUrl} class="nav-mobile-cta" target="_blank" rel="noopener" data-store="google_play" data-cta-location="nav_mobile">
       Get the app
     </a>
   </div>

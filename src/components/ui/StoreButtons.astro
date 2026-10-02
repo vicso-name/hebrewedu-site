@@ -1,13 +1,19 @@
 ---
 import { site } from '../../data/site';
 
+interface Props {
+  /** Where the buttons sit, reported as cta_location on click events. */
+  location: string;
+}
+const { location } = Astro.props;
+
 // Only stores with a live URL are rendered.
 const stores = [site.stores.googlePlay, site.stores.appStore].filter(s => s.url);
 ---
 
 <div class="store-buttons">
   {stores.map(s => (
-    <a href={s.url} class="store-link" target="_blank" rel="noopener">
+    <a href={s.url} class="store-link" target="_blank" rel="noopener" data-store={s.id} data-cta-location={location}>
       <img src={s.badge} alt={s.label} width={s.width} height={s.height} />
     </a>
   ))}
