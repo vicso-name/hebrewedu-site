@@ -1,0 +1,33 @@
+---
+import { formatPostDate, type BlogPost } from '../../lib/blog';
+
+interface Props {
+  post: BlogPost;
+}
+
+const { post } = Astro.props;
+const { title, description, pubDate, readingTime } = post.data;
+---
+
+<!-- Styles live in src/styles/blog.css. The "Read article" link is stretched
+     over the whole surface, so there is a single link and no nesting. -->
+<article class="blog-featured">
+  <div class="blog-featured-main">
+    <p class="blog-featured-kicker">
+      <span class="blog-featured-flag">Featured article</span>
+    </p>
+    <h2 class="blog-featured-title">{title}</h2>
+  </div>
+  <div class="blog-featured-side">
+    <p class="blog-featured-excerpt">{description}</p>
+    <p class="blog-meta">
+      <time datetime={pubDate.toISOString()}>{formatPostDate(pubDate)}</time>
+      <span aria-hidden="true">·</span>
+      <span>{readingTime}</span>
+    </p>
+    <a href={`/blog/${post.slug}/`} class="blog-featured-link">
+      Read article<span class="blog-sr-only">: {title}</span>
+      <span class="blog-featured-arrow" aria-hidden="true">→</span>
+    </a>
+  </div>
+</article>

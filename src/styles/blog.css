@@ -1,0 +1,519 @@
+/* ─── Blog design language ───────────────────────────────────────
+   Scoped to .blog-page (src/pages/blog/index.astro) and .article-page
+   (src/pages/blog/[slug].astro) and only bundled into those pages.
+   Values follow the homepage (src/styles/home.css); privacy / terms
+   are not affected by this file.                                     */
+
+.blog-page,
+.article-page {
+  --blog-brand:        #6366F1;
+  --blog-brand-text:   #4F46E5; /* indigo for small text: 6:1 on white */
+  --blog-brand-soft:   #EEF0FF;
+  --blog-tint:         #F6F6FE; /* featured surface */
+
+  --blog-text:           #17171A;
+  --blog-text-secondary: #64646D;
+  --blog-gray-600:       hsl(210 10% 60%); /* category metadata */
+
+  --blog-border:        #E8E8EC;
+  --blog-border-strong: #D9D9DF;
+
+  --blog-surface:      #FFFFFF;
+  --blog-surface-soft: #F9F9FB;
+
+  --blog-reading: 760px;  /* article body line length */
+  --blog-header:  920px;  /* article header / title */
+
+  /* Typography — Manrope is loaded by each blog page via Layout's head slot */
+  --font-display: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body:    'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Nav theming hooks (see Nav.astro) */
+  --nav-bg:            rgba(255, 255, 255, 0.9);
+  --nav-border:        var(--blog-border);
+  --nav-link-hover-bg: transparent;
+
+  font-family: var(--font-body);
+  color: var(--blog-text);
+  background: var(--blog-surface);
+}
+
+.blog-page :focus-visible,
+.article-page :focus-visible {
+  outline: 2px solid var(--blog-brand);
+  outline-offset: 3px;
+}
+
+.blog-sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* ─── Shared pieces ──────────────────────────────────────────── */
+/* Category: quiet editorial metadata, not a badge */
+.blog-label {
+  display: inline-block;
+  color: var(--blog-gray-600);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.blog-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.625rem;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  color: var(--blog-text-secondary);
+}
+
+.blog-section-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.625rem, 2.6vw, 2rem);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: var(--blog-text);
+}
+
+.blog-lead {
+  font-size: clamp(1.125rem, 1.5vw, 1.25rem);
+  line-height: 1.65;
+  color: var(--blog-text-secondary);
+}
+
+/* ─── Index: header ──────────────────────────────────────────── */
+.blog-main { padding-bottom: clamp(4.5rem, 9vw, 8rem); }
+
+.blog-header { padding-block: clamp(3.5rem, 7vw, 6rem) clamp(2.5rem, 5vw, 4rem); }
+
+.blog-eyebrow {
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--blog-brand-text);
+}
+
+.blog-h1 {
+  margin-top: 0.75rem;
+  font-family: var(--font-display);
+  font-size: clamp(2.375rem, 1.5rem + 3vw, 3.5rem);
+  font-weight: 800;
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+  color: var(--blog-text);
+  text-wrap: balance;
+}
+
+.blog-header .blog-lead { margin-top: 1.25rem; max-width: 44rem; }
+
+.blog-empty { padding-block: 3rem; }
+.blog-empty .blog-lead { margin-top: 0.75rem; }
+
+/* ─── Index: featured article ────────────────────────────────── */
+.blog-featured {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+  gap: 2rem clamp(2.5rem, 5vw, 5rem);
+  align-items: end;
+  padding: clamp(1.75rem, 4.5vw, 3.5rem);
+  background: var(--blog-tint);
+  border: 1px solid var(--blog-border);
+  border-radius: 24px;
+  transition: border-color 0.15s;
+}
+.blog-featured:hover { border-color: var(--blog-border-strong); }
+
+.blog-featured-kicker {
+  display: flex;
+  align-items: center;
+  min-height: 1.75rem;
+}
+
+.blog-featured-flag {
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--blog-text-secondary);
+}
+
+.blog-featured-title {
+  margin-top: 1.5rem;
+  font-family: var(--font-display);
+  font-size: clamp(1.875rem, 1rem + 2.6vw, 2.875rem);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  color: var(--blog-text);
+  text-wrap: balance;
+}
+
+.blog-featured-excerpt {
+  font-size: clamp(1.0625rem, 1.4vw, 1.1875rem);
+  line-height: 1.65;
+  color: var(--blog-text-secondary);
+}
+
+.blog-featured .blog-meta { margin-top: 1.25rem; }
+
+.blog-featured-link {
+  display: inline-flex;
+  gap: 0.5rem;
+  margin-top: 1.75rem;
+  font-size: 1.0625rem;
+  font-weight: 700;
+  color: var(--blog-brand-text);
+  text-decoration: none;
+  transition: opacity 180ms ease, color 180ms ease;
+}
+.blog-featured-link::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+}
+.blog-featured-link:hover { opacity: 0.82; }
+
+.blog-featured-arrow { transition: transform 180ms ease; }
+.blog-featured-link:hover .blog-featured-arrow { transform: translateX(2px); }
+
+/* ─── Index: latest grid (also used by related posts) ────────── */
+.blog-latest { padding-block: clamp(3.5rem, 7vw, 5.5rem) 0; }
+
+.blog-grid {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.blog-grid > li { display: flex; }
+
+/* ─── Card ───────────────────────────────────────────────────── */
+.blog-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1.75rem;
+  background: var(--blog-surface);
+  border: 1px solid var(--blog-border);
+  border-radius: 20px;
+  transition: border-color 0.15s;
+}
+.blog-card:hover { border-color: var(--blog-border-strong); }
+
+.blog-card-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem 0.75rem;
+  min-height: 1.75rem;
+}
+
+.blog-card-reading,
+.blog-card-date {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--blog-text-secondary);
+}
+
+.blog-card-title {
+  margin-top: 1.25rem;
+  font-family: var(--font-display);
+  font-size: 1.3125rem;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.015em;
+  color: var(--blog-text);
+}
+
+.blog-card-link { transition: color 0.15s; }
+.blog-card-link::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+}
+.blog-card:hover .blog-card-link { color: var(--blog-brand-text); }
+
+/* Ring the whole card (or featured surface), not just the link text */
+.blog-card-link:focus-visible,
+.blog-featured-link:focus-visible { outline: none; }
+.blog-card-link:focus-visible::after,
+.blog-featured-link:focus-visible::after {
+  outline: 2px solid var(--blog-brand);
+  outline-offset: 3px;
+}
+
+.blog-card-excerpt {
+  flex: 1;
+  margin-top: 0.75rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--blog-text-secondary);
+}
+
+.blog-card-date { margin-top: 1.5rem; }
+
+/* ─── Article: frame ─────────────────────────────────────────── */
+.article { padding-block: clamp(2rem, 4vw, 3.5rem) clamp(4rem, 8vw, 7rem); }
+
+/* Header and body share a left edge; the body is narrower for line length */
+.article-inner {
+  max-width: var(--blog-header);
+  margin-inline: auto;
+}
+
+.article-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--blog-text-secondary);
+  transition: color 0.15s;
+}
+.article-back:hover { color: var(--blog-brand-text); }
+
+/* ─── Article: header ────────────────────────────────────────── */
+.article-header {
+  margin-top: clamp(2rem, 4vw, 3rem);
+  padding-bottom: clamp(2rem, 4vw, 3rem);
+  border-bottom: 1px solid var(--blog-border);
+}
+
+.article-title {
+  margin-top: 1.25rem;
+  font-family: var(--font-display);
+  font-size: clamp(2.125rem, 1.25rem + 3.4vw, 3.5rem);
+  font-weight: 800;
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+  color: var(--blog-text);
+  text-wrap: balance;
+  overflow-wrap: break-word;
+}
+
+.article-description {
+  max-width: var(--blog-reading);
+  margin-top: 1.5rem;
+  font-size: clamp(1.125rem, 1.6vw, 1.3125rem);
+  line-height: 1.6;
+  color: var(--blog-text-secondary);
+}
+
+.article-header .blog-meta { margin-top: 1.75rem; }
+
+/* ─── Article: body (rendered Markdown) ──────────────────────── */
+.article-body {
+  max-width: var(--blog-reading);
+  margin-top: clamp(2rem, 4vw, 3rem);
+  font-size: clamp(1.125rem, 1.5vw, 1.1875rem);
+  line-height: 1.75;
+  color: #2E2E35;
+  overflow-wrap: break-word;
+}
+
+.article-body > :first-child { margin-top: 0; }
+
+.article-body p { margin-top: 1.4em; }
+
+/* A few posts use "#" for section headings; they render as body h1s.
+   Match h2 so they don't compete with the page title. */
+.article-body h1,
+.article-body h2,
+.article-body h3,
+.article-body h4 {
+  font-family: var(--font-display);
+  color: var(--blog-text);
+  text-wrap: balance;
+}
+
+.article-body h1,
+.article-body h2 {
+  margin-top: 2em;
+  font-size: clamp(1.625rem, 1.2rem + 1.6vw, 2.125rem);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.025em;
+}
+
+.article-body h3 {
+  margin-top: 1.8em;
+  font-size: clamp(1.3125rem, 1.1rem + 0.8vw, 1.625rem);
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+}
+
+.article-body h4 {
+  margin-top: 1.8em;
+  font-size: 1.1875rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+/* Tighten the gap between a heading and what it introduces */
+.article-body :is(h1, h2, h3, h4) + * { margin-top: 0.75em; }
+.article-body hr + :is(h1, h2, h3, h4) { margin-top: 0; }
+
+.article-body ul,
+.article-body ol {
+  margin-top: 1.4em;
+  padding-inline-start: 1.5em;
+}
+.article-body li { margin-top: 0.5em; padding-inline-start: 0.25em; }
+.article-body li::marker { color: var(--blog-text-secondary); }
+.article-body li > :is(ul, ol) { margin-top: 0.5em; }
+.article-body li > p { margin-top: 0.5em; }
+
+.article-body strong { font-weight: 700; color: var(--blog-text); }
+
+.article-body a {
+  color: var(--blog-brand-text);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+.article-body a:hover { text-decoration-thickness: 2px; }
+
+.article-body blockquote {
+  margin-top: 1.75em;
+  margin-bottom: 1.75em;
+  padding: 0.25em 0 0.25em 1.25em;
+  border-inline-start: 3px solid var(--blog-brand);
+  font-size: 1.1em;
+  font-weight: 500;
+  line-height: 1.6;
+  color: var(--blog-text);
+}
+.article-body blockquote > :first-child { margin-top: 0; }
+
+.article-body hr {
+  margin-block: 2.75em;
+  border: none;
+  border-top: 1px solid var(--blog-border);
+}
+
+.article-body code {
+  padding: 0.15em 0.4em;
+  background: var(--blog-surface-soft);
+  border: 1px solid var(--blog-border);
+  border-radius: 6px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.875em;
+}
+
+.article-body pre {
+  margin-top: 1.75em;
+  padding: 1.25rem 1.5rem;
+  overflow-x: auto;
+  border: 1px solid var(--blog-border);
+  border-radius: 12px;
+  line-height: 1.6;
+}
+.article-body pre code { padding: 0; background: none; border: none; }
+
+.article-body img { margin-top: 1.75em; height: auto; border-radius: 12px; }
+
+.article-body table {
+  width: 100%;
+  margin-top: 1.75em;
+  border-collapse: collapse;
+  font-size: 1rem;
+  line-height: 1.55;
+}
+.article-body th,
+.article-body td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--blog-border);
+  text-align: start;
+  vertical-align: top;
+}
+.article-body th {
+  background: var(--blog-surface-soft);
+  border-bottom-color: var(--blog-border-strong);
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: var(--blog-text);
+}
+.article-body th:first-child,
+.article-body td:first-child { padding-inline-start: 0.75rem; }
+
+/* ─── Article: app prompt ────────────────────────────────────── */
+.article-cta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem 1.5rem;
+  max-width: var(--blog-reading);
+  margin-top: clamp(3rem, 6vw, 4.5rem);
+  padding: 1.75rem 2rem;
+  border: 1px solid var(--blog-border);
+  border-radius: 20px;
+}
+.article-cta-text {
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--blog-text);
+}
+.article-cta-btn { transition: opacity 0.15s; }
+.article-cta-btn:hover { opacity: 0.85; }
+.article-cta-btn img { height: 48px; width: auto; }
+
+/* ─── Article: related posts ─────────────────────────────────── */
+.blog-related {
+  padding-block: clamp(3.5rem, 7vw, 6rem);
+  background: var(--blog-surface-soft);
+  border-top: 1px solid var(--blog-border);
+}
+
+/* ─── Responsive ─────────────────────────────────────────────── */
+@media (max-width: 1080px) {
+  .blog-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+  /* Three related posts: let the odd one span rather than leave a hole */
+  .blog-related .blog-grid > li:last-child:nth-child(odd) { grid-column: 1 / -1; }
+}
+
+@media (max-width: 860px) {
+  .blog-featured { grid-template-columns: minmax(0, 1fr); }
+  .blog-featured-title { margin-top: 1.25rem; }
+}
+
+@media (max-width: 640px) {
+  .blog-grid { grid-template-columns: minmax(0, 1fr); gap: 1rem; }
+  .blog-card { padding: 1.5rem; }
+  .blog-card-title { font-size: 1.25rem; }
+
+  .article-cta { padding: 1.5rem; }
+
+  /* Wide tables scroll inside themselves instead of stretching the page */
+  .article-body table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .article-body th,
+  .article-body td { padding: 0.625rem 0.75rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .blog-page *,
+  .article-page * { transition-duration: 0.01ms !important; }
+}

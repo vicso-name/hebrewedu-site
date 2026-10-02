@@ -1,114 +1,62 @@
 ---
-import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
 import Nav from '../../components/Nav.astro';
 import Footer from '../../components/Footer.astro';
+import FeaturedPost from '../../components/blog/FeaturedPost.astro';
+import BlogCard from '../../components/blog/BlogCard.astro';
+import { getSortedPosts } from '../../lib/blog';
+import '../../styles/blog.css';
 
-const posts = (await getCollection('blog')).sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
-);
+// Newest post is featured; the rest fill the grid, so nothing renders twice.
+const [featured, ...rest] = await getSortedPosts();
 ---
 
 <Layout
   title="Hebrew Learning Blog — Alphabet Guides & Study Tips | HebrewEdu"
   description="Practical guides for learning the Hebrew alphabet. From Aleph Bet basics to reading Hebrew confidently — articles for every level."
 >
-  <Nav />
-  <main class="blog-page">
-    <div class="container">
-      <div class="blog-header">
-        <p class="eyebrow">Blog</p>
-        <h1 class="display-lg mt-xs">Hebrew learning resources</h1>
-        <p class="lead mt-sm" style="max-width: 500px;">
-          Tips, guides, and updates to help you on your Hebrew learning journey.
-        </p>
-      </div>
+  <link
+    slot="head"
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+  />
 
-      {posts.length === 0 ? (
-        <div class="empty-state">
-          <div class="empty-icon" aria-hidden="true">📖</div>
-          <h2 class="display-md">Coming soon</h2>
-          <p class="lead mt-xs">
-            We're working on our first articles. Check back soon!
+  <!-- .blog-page scopes the blog tokens and Nav theming (src/styles/blog.css) -->
+  <div class="blog-page">
+    <Nav />
+    <main class="blog-main">
+      <div class="container">
+        <header class="blog-header">
+          <p class="blog-eyebrow">Blog</p>
+          <h1 class="blog-h1">Hebrew learning resources</h1>
+          <p class="blog-lead">
+            Tips, guides, and updates to help you on your Hebrew learning journey.
           </p>
-        </div>
-      ) : (
-        <ul class="posts-grid" role="list">
-          {posts.map(post => {
-            const date = post.data.pubDate.toLocaleDateString('en-US', {
-              year: 'numeric', month: 'long', day: 'numeric'
-            });
-            return (
-              <li>
-                <a href={`/blog/${post.slug}/`} class="post-card">
-                  <div class="post-card-top">
-                    <span class="badge badge-brand">{post.data.category}</span>
-                    <span class="post-reading">{post.data.readingTime}</span>
-                  </div>
-                  <h2 class="post-title">{post.data.title}</h2>
-                  <p class="post-excerpt">{post.data.description}</p>
-                  <time class="post-date" datetime={post.data.pubDate.toISOString()}>{date}</time>
-                </a>
-              </li>
-            );
-          })}
-        </ul>
-      )}
-    </div>
-  </main>
-  <Footer />
+        </header>
+
+        {!featured ? (
+          <div class="blog-empty">
+            <h2 class="blog-section-title">Coming soon</h2>
+            <p class="blog-lead">
+              We're working on our first articles. Check back soon!
+            </p>
+          </div>
+        ) : (
+          <FeaturedPost post={featured} />
+        )}
+
+        {rest.length > 0 && (
+          <section class="blog-latest" aria-labelledby="latest-heading">
+            <h2 class="blog-section-title" id="latest-heading">Latest articles</h2>
+            <ul class="blog-grid" role="list">
+              {rest.map(post => (
+                <li><BlogCard post={post} /></li>
+              ))}
+            </ul>
+          </section>
+        )}
+      </div>
+    </main>
+    <Footer />
+  </div>
 </Layout>
-
-<style>
-.blog-page { background: #f8f8f6; min-height: 80vh; }
-
-.blog-header {
-  padding-block: var(--space-xl) var(--space-lg);
-  border-bottom: 1px solid var(--border);
-  margin-bottom: var(--space-lg);
-}
-
-.empty-state {
-  text-align: center;
-  padding-block: var(--space-2xl);
-}
-.empty-icon { font-size: 3rem; margin-bottom: 1rem; }
-
-.posts-grid {
-  list-style: none;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 1.25rem;
-  padding-bottom: var(--space-2xl);
-}
-
-.post-card {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  background: white;
-  border: 1px solid var(--border);
-  border-radius: var(--r-lg);
-  padding: 1.5rem;
-  transition: transform 0.15s, box-shadow 0.15s;
-}
-.post-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
-
-.post-card-top {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 0.25rem;
-}
-.post-reading { font-size: 0.75rem; color: var(--ink-subtle); }
-
-.post-title {
-  font-family: var(--font-display);
-  font-size: 1.125rem;
-  font-weight: 700;
-  color: var(--ink);
-  margin-top: 0.25rem;
-}
-.post-excerpt { font-size: 0.9rem; color: var(--ink-light); line-height: 1.6; flex: 1; }
-.post-date { font-size: 0.8125rem; color: var(--ink-subtle); margin-top: 0.5rem; }
-</style>

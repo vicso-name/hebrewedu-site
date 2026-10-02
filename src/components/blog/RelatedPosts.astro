@@ -1,0 +1,23 @@
+---
+import BlogCard from './BlogCard.astro';
+import type { BlogPost } from '../../lib/blog';
+
+interface Props {
+  posts: BlogPost[];
+}
+
+const { posts } = Astro.props;
+---
+
+{posts.length > 0 && (
+  <aside class="blog-related" aria-labelledby="related-heading">
+    <div class="container">
+      <h2 class="blog-section-title" id="related-heading">Continue learning</h2>
+      <ul class="blog-grid" role="list">
+        {posts.map(post => (
+          <li><BlogCard post={post} /></li>
+        ))}
+      </ul>
+    </div>
+  </aside>
+)}
