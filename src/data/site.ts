@@ -26,6 +26,10 @@ const appStore: Store = {
 
 export const site = {
   name: 'HebrewEdu',
+  url: 'https://hebrewedu.com',
+  // Default <title> / meta description, and the homepage's own.
+  title: 'Learn the Hebrew Alphabet & Read Hebrew | HebrewEdu',
+  description: 'Learn the Hebrew alphabet step by step, practise vocabulary and verbs, and start reading beginner Hebrew with audio and translation.',
   stores: { googlePlay, appStore },
   // Where single-button CTAs (e.g. the nav) send people.
   primaryStoreUrl: googlePlay.url as string,

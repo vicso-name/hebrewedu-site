@@ -1,7 +1,9 @@
 ---
 import LegalPage from '../components/legal/LegalPage.astro';
 
-const lastUpdated = 'September 25, 2026';
+import { legalUpdated, formatLegalDate } from '../data/legal';
+
+const lastUpdated = formatLegalDate(legalUpdated.terms);
 ---
 
 <LegalPage

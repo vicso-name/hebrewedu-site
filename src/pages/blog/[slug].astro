@@ -5,6 +5,7 @@ import Nav from '../../components/Nav.astro';
 import Footer from '../../components/Footer.astro';
 import RelatedPosts from '../../components/blog/RelatedPosts.astro';
 import { getSortedPosts, formatPostDate } from '../../lib/blog';
+import { site } from '../../data/site';
 import '../../styles/blog.css';
 
 export async function getStaticPaths() {
@@ -17,9 +18,26 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content } = await post.render();
-const { title, description, pubDate, author, category, readingTime } = post.data;
+const { title, description, pubDate, updatedDate, author, category, readingTime } = post.data;
 
 const formattedDate = formatPostDate(pubDate);
+
+// BlogPosting JSON-LD, from frontmatter only. dateModified is included only
+// when the post has a real updatedDate; there are no article images.
+const pageUrl = new URL(Astro.url.pathname, Astro.site).href;
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": title,
+  "description": description,
+  "datePublished": pubDate.toISOString(),
+  ...(updatedDate && { "dateModified": updatedDate.toISOString() }),
+  "url": pageUrl,
+  "mainEntityOfPage": { "@type": "WebPage", "@id": pageUrl },
+  "author": { "@type": "Organization", "name": author },
+  "publisher": { "@type": "Organization", "name": site.name, "url": `${site.url}/` },
+  "inLanguage": "en"
+};
 
 // Latest three posts, excluding the one being read.
 const related = (await getSortedPosts())
@@ -27,7 +45,12 @@ const related = (await getSortedPosts())
   .slice(0, 3);
 ---
 
-<Layout title={`${title} | HebrewEdu Blog`} description={description}>
+<Layout
+  title={`${title} | HebrewEdu Blog`}
+  description={description}
+  ogType="article"
+  schema={articleSchema}
+>
   <link
     slot="head"
     rel="stylesheet"
@@ -67,7 +90,7 @@ const related = (await getSortedPosts())
           </div>
 
           <div class="article-cta">
-            <p class="article-cta-text">Ready to start learning the Hebrew alphabet?</p>
+            <p class="article-cta-text">Ready to start reading Hebrew?</p>
             <a
               href="https://play.google.com/store/apps/details?id=com.vicsothemes.hebrewforbeginners"
               class="article-cta-btn"
