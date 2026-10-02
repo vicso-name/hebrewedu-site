@@ -86,7 +86,7 @@ and mentally process each letter one by one like a Victorian cryptographer.
 
 You recognize the whole pattern instantly.
 
-That automatic recognition simply takes time to build in Hebrew. If you haven't yet worked through [all 22 letters and the Nikud vowel system](/blog/hebrew-alphabet-complete-guide), that foundation is worth building correctly before focusing on comprehension.
+That automatic recognition simply takes time to build in Hebrew. If you haven't yet worked through [all 22 letters and the Nikud vowel system](/blog/hebrew-alphabet-complete-guide/), that foundation is worth building correctly before focusing on comprehension.
 
 ---
 
@@ -94,7 +94,7 @@ That automatic recognition simply takes time to build in Hebrew. If you haven't 
 
 Because apparently the language enjoys drama.
 
-Modern Hebrew usually removes vowel markings (*nikud*) from everyday text — a quirk that [looks impossible to beginners but makes complete sense once you understand how native readers compensate](/blog/why-hebrew-without-vowels-looks-impossible-until-your-brain-adapts).
+Modern Hebrew usually removes vowel markings (*nikud*) from everyday text — a quirk that [looks impossible to beginners but makes complete sense once you understand how native readers compensate](/blog/why-hebrew-without-vowels-looks-impossible-until-your-brain-adapts/).
 
 So learners often face a sentence like:
 > אני הולך לבית
@@ -157,7 +157,7 @@ perfectly…
 while internally thinking:
 > “Great sentence. No idea what happened there.”
 
-Because sounding out Hebrew words and understanding Hebrew vocabulary are completely different processes. [How many Hebrew words you actually need](/blog/how-many-words-are-in-the-modern-hebrew-language) for different levels of comprehension is a more concrete and encouraging question than it sounds.
+Because sounding out Hebrew words and understanding Hebrew vocabulary are completely different processes. [How many Hebrew words you actually need](/blog/how-many-words-are-in-the-modern-hebrew-language/) for different levels of comprehension is a more concrete and encouraging question than it sounds.
 
 The good news:
 once vocabulary reaches a certain critical mass, comprehension accelerates dramatically.
@@ -224,7 +224,7 @@ Usually the most effective things are surprisingly simple:
 - reading slightly easy material,
 - rereading familiar texts,
 - learning high-frequency vocabulary,
-- listening while reading ([why Hebrew sounds so fast to beginners](/blog/why-hebrew-sounds-so-fast) explains why the listening side is its own challenge),
+- listening while reading ([why Hebrew sounds so fast to beginners](/blog/why-hebrew-sounds-so-fast/) explains why the listening side is its own challenge),
 - and tolerating partial understanding.
 
 That last one matters a lot.

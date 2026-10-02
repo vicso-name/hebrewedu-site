@@ -90,7 +90,7 @@ It contains the most frequent verbs in spoken and written Hebrew. The most commo
 - לראות (*lirot*) — to see
 - לשמוע (*lishmoa*) — to hear
 
-If you're at the beginning, Pa'al verbs are the primary [verb vocabulary you need](/blog/how-many-words-are-in-the-modern-hebrew-language) at every level. Most everyday sentences function entirely within Pa'al.
+If you're at the beginning, Pa'al verbs are the primary [verb vocabulary you need](/blog/how-many-words-are-in-the-modern-hebrew-language/) at every level. Most everyday sentences function entirely within Pa'al.
 
 Learn Pa'al first. Get comfortable with it. Let the other six emerge in due course.
 
@@ -117,7 +117,7 @@ The Pa'al / Pi'el relationship often follows this pattern: Pa'al is the simpler 
 
 Binyanim don't make sense in isolation.
 
-They are inseparable from [the Hebrew root system](/blog/how-the-hebrew-root-system-works). Each Binyan is a pattern applied to a root. Understanding roots lets you:
+They are inseparable from [the Hebrew root system](/blog/how-the-hebrew-root-system-works/). Each Binyan is a pattern applied to a root. Understanding roots lets you:
 
 - Recognize which Binyan a verb belongs to
 - Predict the meaning shift when a root appears in a different Binyan
@@ -135,7 +135,7 @@ Binyanim are a useful framework. They are not what creates fluency.
 
 Real facility with Hebrew verbs comes from encountering them repeatedly in context — reading, listening, speaking — until the patterns become intuitive rather than analytical.
 
-This is one of the [grammar mistakes that consistently slow beginners down](/blog/how-not-to-learn-hebrew-a-complete-guide-to-failing-efficiently): treating Binyanim as something to master from a table before actually using verbs in real sentences.
+This is one of the [grammar mistakes that consistently slow beginners down](/blog/how-not-to-learn-hebrew-a-complete-guide-to-failing-efficiently/): treating Binyanim as something to master from a table before actually using verbs in real sentences.
 
 Tables are reference material. They describe a system.
 
@@ -153,7 +153,7 @@ Rather than drilling all seven patterns from the start, a more effective approac
 4. **Add Pi'el awareness** once Pa'al feels automatic
 5. **Let Hif'il, Hitpa'el, and the passives emerge** through exposure over months — not weeks
 
-This is the approach behind the [334 Hebrew verbs organized by Binyan](/blog/meet-the-new-verb-directory) in the Alef-Bet Tutor Verb Directory — structured so you can see roots and patterns side by side, rather than encountering verbs as isolated vocabulary items.
+This is the approach behind the [334 Hebrew verbs organized by Binyan](/blog/meet-the-new-verb-directory/) in the Alef-Bet Tutor Verb Directory — structured so you can see roots and patterns side by side, rather than encountering verbs as isolated vocabulary items.
 
 ---
 

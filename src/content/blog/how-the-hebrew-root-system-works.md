@@ -58,7 +58,7 @@ You already know כ-ת-ב means writing-related things. When you encounter הִ�
 
 The new word costs less to learn.
 
-This is one reason [how many words you actually need](/blog/how-many-words-are-in-the-modern-hebrew-language) in Hebrew is lower than most learners expect. Root knowledge means vocabulary scales faster than isolated memorization ever could — you learn one root and gain several words at once. For a complete framework on frequency selection, active recall, and the study rhythm that turns this advantage into lasting results, [how to learn Hebrew vocabulary effectively](/blog/how-to-learn-hebrew-vocabulary) covers the practical side.
+This is one reason [how many words you actually need](/blog/how-many-words-are-in-the-modern-hebrew-language/) in Hebrew is lower than most learners expect. Root knowledge means vocabulary scales faster than isolated memorization ever could — you learn one root and gain several words at once. For a complete framework on frequency selection, active recall, and the study rhythm that turns this advantage into lasting results, [how to learn Hebrew vocabulary effectively](/blog/how-to-learn-hebrew-vocabulary/) covers the practical side.
 
 ---
 
@@ -93,7 +93,7 @@ Notice the pattern across all three. Every root generates verbs, nouns, and agen
 
 Here's a practical consequence most beginners don't anticipate.
 
-[Reading unvoweled Hebrew](/blog/why-hebrew-without-vowels-looks-impossible-until-your-brain-adapts) — which is how almost all real-world text appears — depends heavily on root recognition.
+[Reading unvoweled Hebrew](/blog/why-hebrew-without-vowels-looks-impossible-until-your-brain-adapts/) — which is how almost all real-world text appears — depends heavily on root recognition.
 
 You see the consonants כ-ת-ב in a sentence. Your brain immediately narrows the domain: writing-related. You use the surrounding words to narrow down which writing-related word this probably is. Your brain reconstructs the missing vowels from that prediction.
 
@@ -119,7 +119,7 @@ Learning the exceptions is easy once the rule is established.
 
 This matters for more than just reading.
 
-Root recognition is a significant factor in [moving from mechanically decoding Hebrew to actually understanding it](/blog/why-you-can-read-hebrew-but-still-understand-absolutely-nothing). When your brain begins automatically connecting consonant patterns to meaning families, the processing load drops. Words stop being puzzles. Comprehension becomes possible at speed.
+Root recognition is a significant factor in [moving from mechanically decoding Hebrew to actually understanding it](/blog/why-you-can-read-hebrew-but-still-understand-absolutely-nothing/). When your brain begins automatically connecting consonant patterns to meaning families, the processing load drops. Words stop being puzzles. Comprehension becomes possible at speed.
 
 The same three consonants that slow you down as a beginner become automatic shortcuts later.
 
@@ -140,7 +140,7 @@ The root כ-ת-ב across four patterns:
 
 Four verbs. One root. Systematic meaning shifts.
 
-If you want to explore this practically, the [Alef-Bet Tutor Verb Directory organizes Hebrew verbs by root and Binyan](/blog/meet-the-new-verb-directory) — 334 high-frequency verbs structured so you can see the full word family attached to each root in one place.
+If you want to explore this practically, the [Alef-Bet Tutor Verb Directory organizes Hebrew verbs by root and Binyan](/blog/meet-the-new-verb-directory/) — 334 high-frequency verbs structured so you can see the full word family attached to each root in one place.
 
 ---
 

@@ -1,0 +1,135 @@
+---
+import Section from '../ui/Section.astro';
+import DeviceFrame from '../ui/DeviceFrame.astro';
+import ProductScreenshot from '../ui/ProductScreenshot.astro';
+import storyShot from '../../assets/screenshots/story.jpg';
+import readingShot from '../../assets/screenshots/reading.jpg';
+
+const capabilities = ['Reading', 'Translation', 'Audio'];
+---
+
+<Section surface="soft">
+  <header class="reading-heading">
+    <p class="home-eyebrow">Start reading</p>
+    <h2 class="home-h2">When you're ready, start reading real Hebrew.</h2>
+    <p class="home-lead">
+      Reading is where letters, vocabulary and grammar finally come together.
+      Beginner-friendly texts help you move from recognising words to understanding
+      Hebrew in context.
+    </p>
+  </header>
+
+  <div class="reading-stage">
+    <div class="reading-value">
+      <h3 class="home-h3">Read with support, not guesswork</h3>
+      <p class="home-body">
+        Follow beginner-friendly Hebrew stories with built-in translation, audio and
+        vocabulary help. Instead of decoding every line on your own, you can understand
+        the text, hear how it sounds and keep moving forward with confidence.
+      </p>
+    </div>
+    <div class="reading-visual">
+      <div class="reading-device reading-device--back">
+        <DeviceFrame variant="secondary">
+          <ProductScreenshot src={readingShot} alt="HebrewEdu Reading Trainer story library" sizes="200px" />
+        </DeviceFrame>
+      </div>
+      <div class="reading-device reading-device--main">
+        <DeviceFrame>
+          <ProductScreenshot
+            src={storyShot}
+            alt="Beginner Hebrew story with reading tools in HebrewEdu"
+            sizes="(max-width: 900px) 232px, 250px"
+          />
+        </DeviceFrame>
+      </div>
+    </div>
+  </div>
+
+  <ul class="reading-capabilities" role="list">
+    {capabilities.map(c => <li>{c}</li>)}
+  </ul>
+</Section>
+
+<style>
+.reading-heading {
+  max-width: 46rem;
+  margin: 0 auto var(--home-gap);
+  text-align: center;
+}
+.reading-heading h2 { margin-block: 1rem var(--home-stack); }
+
+/* One wide, quiet presentation surface: what reading gives you, beside the product */
+.reading-stage {
+  display: grid;
+  grid-template-columns: minmax(0, 0.44fr) minmax(0, 0.56fr);
+  align-items: center;
+  max-width: 980px;
+  height: 540px;
+  margin-inline: auto;
+  overflow: hidden;
+  background: var(--home-surface-white);
+  border: 1px solid var(--home-border-subtle);
+  border-radius: var(--home-radius-lg);
+}
+
+.reading-value {
+  padding: 2rem 0 2rem clamp(1.75rem, 4.5vw, 3.5rem);
+}
+.reading-value h3 { margin-bottom: 1rem; }
+
+/* The opened story leads; the story library sits behind it, lower and smaller.
+   Both framed devices run off the stage just above the app's tab bar. */
+.reading-visual {
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 4rem;
+}
+.reading-device { flex: none; }
+.reading-device--main {
+  position: relative;
+  z-index: 1;
+  width: 268px;
+}
+.reading-device--back {
+  width: 214px;
+  margin-top: 6.125rem;
+  margin-right: -70px;
+}
+
+.reading-capabilities {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.25rem 0.75rem;
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--home-text-tertiary);
+}
+.reading-capabilities li + li::before {
+  content: '•';
+  margin-right: 0.75rem;
+  color: var(--home-border-strong);
+}
+
+/* Below this the two devices no longer fit beside the copy: stack copy over product */
+@media (max-width: 900px) {
+  .reading-stage { grid-template-columns: 1fr; height: auto; }
+  .reading-value { max-width: 38rem; padding: 2.25rem 1.5rem 0; }
+  .reading-visual { height: 480px; padding-top: 2.5rem; overflow: hidden; }
+  .reading-device--main { width: min(64vw, 250px); }
+}
+
+@media (max-width: 760px) {
+  .reading-heading { text-align: left; margin-inline: 0; }
+  .reading-capabilities { justify-content: flex-start; }
+}
+
+@media (max-width: 560px) {
+  .reading-device--back { display: none; }
+}
+</style>

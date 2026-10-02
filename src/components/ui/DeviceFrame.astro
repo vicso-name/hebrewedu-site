@@ -1,0 +1,38 @@
+---
+// Minimal device shell for a product screenshot: a white bezel, a hairline and a
+// soft shadow around a rounded screen. No hardware details. Put a
+// ProductScreenshot (or a stack of them) in the slot; sizing is the parent's job.
+interface Props {
+  /** `secondary` is the lighter treatment for a device sitting behind another. */
+  variant?: 'primary' | 'secondary';
+}
+
+const { variant = 'primary' } = Astro.props;
+---
+
+<div class:list={['device-frame', `device-frame--${variant}`]}>
+  <slot />
+</div>
+
+<style>
+.device-frame {
+  padding: 8px;
+  background: var(--home-surface-white);
+  border: 1px solid var(--home-border-strong);
+  border-radius: 34px;
+  box-shadow: 0 28px 56px -32px rgba(23, 23, 26, 0.28);
+}
+.device-frame--secondary {
+  padding: 7px;
+  border-radius: 30px;
+  box-shadow: 0 20px 40px -32px rgba(23, 23, 26, 0.18);
+}
+
+/* Inside the shell the screenshot is just the screen */
+.device-frame :global(.shot) {
+  border-color: var(--home-border-subtle);
+  border-radius: 26px;
+  box-shadow: none;
+}
+.device-frame--secondary :global(.shot) { border-radius: 23px; }
+</style>

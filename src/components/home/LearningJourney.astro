@@ -1,29 +1,76 @@
 ---
 import Section from '../ui/Section.astro';
 import SectionHeading from '../ui/SectionHeading.astro';
-import ProductPlaceholder from '../ui/ProductPlaceholder.astro';
+import DeviceFrame from '../ui/DeviceFrame.astro';
+import ProductScreenshot from '../ui/ProductScreenshot.astro';
+import alphabetShot from '../../assets/screenshots/alphabet.jpg';
+import practiceShot from '../../assets/screenshots/practice.jpg';
+import verbsShot from '../../assets/screenshots/verbs.jpg';
+import vocabularyShot from '../../assets/screenshots/vocabulary.jpg';
 
-const rows = [
+// Small outline icons for the meta line (24px grid, drawn with currentColor)
+const icons: Record<string, string> = {
+  grid:     '<rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/>',
+  sound:    '<path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/>',
+  nikud:    '<path d="M6 5h12"/><path d="M12 5v7"/><path d="M8 17h.01"/><path d="M16 17h.01"/><path d="M12 20.5h.01"/>',
+  book:     '<path d="M12 7v13"/><path d="M3 5h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5v13h-6a3 3 0 0 0-3 2 3 3 0 0 0-3-2H3z"/>',
+  check:    '<circle cx="12" cy="12" r="9"/><path d="m8.5 12.5 2.5 2.5 4.5-5.5"/>',
+  repeat:   '<path d="m17 2 4 4-4 4"/><path d="M3 11v-1a4 4 0 0 1 4-4h14"/><path d="m7 22-4-4 4-4"/><path d="M21 13v1a4 4 0 0 1-4 4H3"/>',
+  text:     '<path d="M4 7V5h16v2"/><path d="M12 5v14"/><path d="M9 19h6"/>',
+  layers:   '<path d="m12 3 10 5-10 5L2 8z"/><path d="m2 12 10 5 10-5"/><path d="m2 16 10 5 10-5"/>',
+  search:   '<circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>',
+  tag:      '<path d="M3 12V4h8l10 10-8 8z"/><path d="M7.5 8.5h.01"/>',
+  bookmark: '<path d="M6 3h12v18l-6-4-6 4z"/>',
+};
+
+const steps = [
   {
     num: '01',
     title: 'Start with the foundations',
     body: 'Learn Hebrew letters, their sounds and the reading patterns you need before moving on.',
-    meta: ['Alphabet', 'Pronunciation', 'Nikud'],
-    visual: 'Alphabet',
+    meta: [
+      { label: 'Alphabet', icon: 'grid' },
+      { label: 'Pronunciation', icon: 'sound' },
+      { label: 'Nikud', icon: 'nikud' },
+    ],
+    image: alphabetShot,
+    alt: 'Hebrew alphabet learning screen in HebrewEdu',
   },
   {
     num: '02',
     title: 'Turn knowledge into skill',
     body: 'Practise what you learn with focused exercises instead of simply rereading explanations.',
-    meta: ['Lessons', 'Exercises', 'Review'],
-    visual: 'Practice',
+    meta: [
+      { label: 'Lessons', icon: 'book' },
+      { label: 'Exercises', icon: 'check' },
+      { label: 'Review', icon: 'repeat' },
+    ],
+    image: practiceShot,
+    alt: 'Alphabet practice hub in HebrewEdu',
   },
   {
     num: '03',
+    title: 'Master verbs and binyanim',
+    body: 'Understand how Hebrew verbs are built, compare binyanim and explore real verb forms in one clear dictionary.',
+    meta: [
+      { label: 'Verbs', icon: 'text' },
+      { label: 'Binyanim', icon: 'layers' },
+      { label: 'Dictionary', icon: 'search' },
+    ],
+    image: verbsShot,
+    alt: 'Hebrew verb dictionary with binyanim filters in HebrewEdu',
+  },
+  {
+    num: '04',
     title: 'Build vocabulary that stays with you',
     body: 'Learn useful words, return to difficult ones and reinforce what needs more practice.',
-    meta: ['Vocabulary', 'Review', 'Difficult words'],
-    visual: 'Vocabulary',
+    meta: [
+      { label: 'Vocabulary', icon: 'tag' },
+      { label: 'Review', icon: 'repeat' },
+      { label: 'Difficult words', icon: 'bookmark' },
+    ],
+    image: vocabularyShot,
+    alt: 'Hebrew vocabulary word card in HebrewEdu',
   },
 ];
 ---
@@ -34,83 +81,268 @@ const rows = [
     lede="Hebrew can feel difficult when everything is introduced at once. HebrewEdu breaks the process into manageable stages."
   />
 
-  <div class="journey">
-    {rows.map((r, i) => (
-      <div class:list={['journey-row', { 'journey-row--flip': i % 2 === 1 }]}>
-        <div class="journey-copy">
-          <span class="home-num" aria-hidden="true">{r.num}</span>
-          <h3 class="home-h3">{r.title}</h3>
-          <p class="home-lead">{r.body}</p>
-          <ul class="journey-meta" role="list">
-            {r.meta.map(m => <li>{m}</li>)}
-          </ul>
-        </div>
-        <div class="journey-visual">
-          <div class="journey-device">
-            <ProductPlaceholder label={r.visual} />
-          </div>
-        </div>
+  <!-- Product tour: one step is active at a time. Tabs pick the step; the copy and
+       the screen inside the one fixed device crossfade. Inactive copy and screens
+       are visibility:hidden, so they are out of the tab order and the a11y tree. -->
+  <div class="tour" id="journey-tour">
+    <div class="tour-main">
+      <div class="tour-tabs" role="tablist" aria-label="Learning path steps">
+        {steps.map((s, i) => (
+          <button
+            type="button"
+            role="tab"
+            class="tour-tab"
+            id={`tour-tab-${i}`}
+            aria-controls={`tour-panel-${i}`}
+            aria-selected={i === 0 ? 'true' : 'false'}
+            tabindex={i === 0 ? 0 : -1}
+          >
+            <span class="tour-tab-num">{s.num}</span>
+            <span class="tour-tab-title">{s.title}</span>
+          </button>
+        ))}
       </div>
-    ))}
+
+      <div class="tour-panels">
+        {steps.map((s, i) => (
+          <div
+            role="tabpanel"
+            class:list={['tour-panel', { 'is-active': i === 0 }]}
+            id={`tour-panel-${i}`}
+            aria-labelledby={`tour-tab-${i}`}
+          >
+            <h3 class="home-h3">{s.title}</h3>
+            <p class="home-lead">{s.body}</p>
+            <ul class="tour-meta" role="list">
+              {s.meta.map(m => (
+                <li>
+                  <svg
+                    aria-hidden="true"
+                    width="15"
+                    height="15"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    set:html={icons[m.icon]}
+                  />
+                  {m.label}
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <div class="tour-device">
+      <DeviceFrame>
+        <div class="tour-screens">
+          {steps.map((s, i) => (
+            <div class:list={['tour-screen', { 'is-active': i === 0 }]}>
+              <ProductScreenshot src={s.image} alt={s.alt} sizes="(max-width: 760px) 264px, 284px" />
+            </div>
+          ))}
+        </div>
+      </DeviceFrame>
+    </div>
   </div>
 </Section>
 
 <style>
-.journey {
+.tour {
   display: grid;
-  gap: clamp(4rem, 7vw, 6rem);
-}
-
-/* DOM order is always copy → visual. Desktop alternates by grid placement. */
-.journey-row {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, 0.7fr);
   gap: var(--home-gap);
   align-items: center;
 }
-.journey-row--flip .journey-copy   { grid-column: 2; grid-row: 1; }
-.journey-row--flip .journey-visual { grid-column: 1; grid-row: 1; }
 
-.journey-copy { max-width: 30rem; }
-.journey-copy h3 { margin-block: 1rem; }
+.tour-main {
+  display: grid;
+  grid-template-columns: 16.5rem minmax(0, 1fr);
+  gap: clamp(2rem, 4vw, 3.5rem);
+  align-items: center;
+}
 
-.journey-meta {
+/* ── Step navigation: an editorial list on a hairline rail; the rail segment
+      of the active step turns indigo, which doubles as the progress line ── */
+.tour-tabs {
+  display: flex;
+  flex-direction: column;
+}
+
+.tour-tab {
+  display: flex;
+  align-items: baseline;
+  gap: 0.875rem;
+  padding: 0.875rem 0 0.875rem 1.25rem;
+  background: none;
+  border: 0;
+  border-left: 2px solid var(--home-border-subtle);
+  font: inherit;
+  font-size: 1.0625rem;
+  font-weight: 600;
+  line-height: 1.35;
+  text-align: left;
+  color: var(--home-text-tertiary);
+  cursor: pointer;
+  transition: color 0.2s, border-color 0.2s;
+}
+.tour-tab:hover { color: var(--home-text-primary); }
+.tour-tab[aria-selected='true'] {
+  color: var(--home-text-primary);
+  border-color: var(--home-brand);
+}
+
+.tour-tab-num { font-variant-numeric: tabular-nums; }
+.tour-tab[aria-selected='true'] .tour-tab-num { color: var(--home-brand-text); }
+
+/* ── Copy: all panels share one grid cell, so the height never changes ── */
+.tour-panels { display: grid; }
+
+.tour-panel {
+  grid-area: 1 / 1;
+  align-self: center;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(5px);
+  transition: opacity 0.8s ease, transform 0.8s ease, visibility 0s 0.8s;
+}
+.tour-panel.is-active {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  transition-delay: 0s;
+}
+.tour-panel h3 { margin-bottom: 1rem; }
+
+.tour-meta {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 0.25rem 0.75rem;
+  gap: 0.5rem 1.25rem;
   margin-top: var(--home-stack);
   font-size: 1rem;
   font-weight: 500;
   color: var(--home-text-tertiary);
 }
-.journey-meta li + li::before {
-  content: '•';
-  margin-right: 0.75rem;
-  color: var(--home-border-strong);
+.tour-meta li {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.tour-meta svg { flex: none; }
+
+/* ── Device: one fixed frame, screens crossfade inside it ── */
+.tour-device {
+  width: 302px;
+  max-width: 100%;
+  justify-self: center;
 }
 
-/* Quiet presentation surface: fixed height, the device rises from the top
-   and its lower edge runs off the stage instead of stretching the row. */
-.journey-visual {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  height: 520px;
-  padding: 3rem 1.5rem 0;
-  overflow: hidden;
-  background: var(--home-surface-soft);
-  border-radius: var(--home-radius-lg);
+.tour-screens { display: grid; }
+.tour-screen {
+  grid-area: 1 / 1;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.8s ease, visibility 0s 0.8s;
 }
-.journey-device { flex: none; width: clamp(220px, 20vw, 260px); }
+.tour-screen.is-active {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0s;
+}
 
-@media (max-width: 900px) {
-  .journey { gap: 4rem; }
-  .journey-visual { height: 460px; padding-top: 2.5rem; }
-  .journey-row { grid-template-columns: 1fr; gap: 2.5rem; }
-  .journey-row--flip .journey-copy,
-  .journey-row--flip .journey-visual { grid-column: auto; grid-row: auto; }
-  .journey-copy { max-width: 36rem; }
-  .journey-device { width: min(58vw, 240px); }
+@media (max-width: 1100px) {
+  .tour { grid-template-columns: minmax(0, 1fr) auto; }
+  .tour-main { grid-template-columns: 1fr; }
+  .tour-device { width: 280px; }
+}
+
+/* Tablet / mobile: compact 01–04 selector, active copy, then the phone */
+@media (max-width: 760px) {
+  .tour { grid-template-columns: 1fr; gap: 2.5rem; }
+  .tour-main { gap: 1.75rem; }
+
+  .tour-tabs { flex-direction: row; gap: 0.5rem; }
+  .tour-tab {
+    flex: 1;
+    padding: 0.875rem 0 0.75rem;
+    border-left: 0;
+    border-top: 2px solid var(--home-border-subtle);
+  }
+  /* Titles stay available to assistive tech; only the numbers show */
+  .tour-tab-title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  .tour-panel { align-self: start; }
+  .tour-device { width: min(72vw, 282px); }
 }
 </style>
+
+<script>
+const root   = document.getElementById('journey-tour') as HTMLElement;
+const tabs   = Array.from(root.querySelectorAll<HTMLButtonElement>('[role="tab"]'));
+const panels = Array.from(root.querySelectorAll<HTMLElement>('.tour-panel'));
+const shots  = Array.from(root.querySelectorAll<HTMLElement>('.tour-screen'));
+const calm   = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+const INTERVAL = 6000;
+let current = 0;
+let paused  = false;
+let timer: number | undefined;
+
+function select(index: number) {
+  current = (index + tabs.length) % tabs.length;
+  tabs.forEach((tab, i) => {
+    tab.setAttribute('aria-selected', String(i === current));
+    tab.tabIndex = i === current ? 0 : -1;
+  });
+  panels.forEach((p, i) => p.classList.toggle('is-active', i === current));
+  shots.forEach((s, i) => s.classList.toggle('is-active', i === current));
+}
+
+// Auto-advance; restarted after any manual choice so the next change is a full interval away
+function restart() {
+  window.clearInterval(timer);
+  timer = window.setInterval(() => {
+    if (paused || document.hidden || calm.matches) return;
+    select(current + 1);
+  }, INTERVAL);
+}
+
+tabs.forEach((tab, i) => {
+  tab.addEventListener('click', () => { select(i); restart(); });
+});
+
+root.querySelector('[role="tablist"]')!.addEventListener('keydown', (event) => {
+  const key = (event as KeyboardEvent).key;
+  const next =
+    key === 'ArrowDown' || key === 'ArrowRight' ? current + 1 :
+    key === 'ArrowUp'   || key === 'ArrowLeft'  ? current - 1 :
+    key === 'Home' ? 0 :
+    key === 'End'  ? tabs.length - 1 : null;
+  if (next === null) return;
+  event.preventDefault();
+  select(next);
+  tabs[current].focus();
+  restart();
+});
+
+// Hold still while someone is pointing at or focused inside the tour
+root.addEventListener('mouseenter', () => { paused = true; });
+root.addEventListener('mouseleave', () => { paused = false; });
+root.addEventListener('focusin',    () => { paused = true; });
+root.addEventListener('focusout',   () => { paused = false; });
+
+restart();
+</script>

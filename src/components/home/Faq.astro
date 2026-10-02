@@ -1,0 +1,78 @@
+---
+import Section from '../ui/Section.astro';
+
+const faqs = [
+  {
+    q: 'Do I need to know Hebrew before using the app?',
+    a: 'No. HebrewEdu is designed for beginners and starts with the foundations.',
+  },
+  {
+    q: 'Does the app only teach the Hebrew alphabet?',
+    a: 'No. The alphabet is the starting point. HebrewEdu also includes structured lessons, practice, vocabulary and beginner reading material.',
+  },
+  {
+    q: 'Can I learn at my own pace?',
+    a: 'Yes. Lessons and exercises are designed for short, repeatable study sessions.',
+  },
+];
+---
+
+<Section surface="soft">
+  <div class="faq">
+    <h2 class="home-h2">Frequently asked questions</h2>
+
+    <div class="faq-list">
+      {faqs.map(f => (
+        <details class="faq-item">
+          <summary>{f.q}</summary>
+          <p class="home-lead">{f.a}</p>
+        </details>
+      ))}
+    </div>
+  </div>
+</Section>
+
+<style>
+.faq {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr);
+  gap: var(--home-gap);
+  align-items: start;
+}
+
+.faq-list { border-bottom: 1px solid var(--home-border-subtle); }
+.faq-item { border-top: 1px solid var(--home-border-subtle); }
+
+.faq-item summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1.5rem;
+  padding-block: 1.5rem;
+  font-family: var(--font-display);
+  font-size: clamp(1.125rem, 1.6vw, 1.3125rem);
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--home-text-primary);
+  cursor: pointer;
+  list-style: none;
+}
+.faq-item summary::-webkit-details-marker { display: none; }
+
+.faq-item summary::after {
+  content: '+';
+  flex: none;
+  font-weight: 400;
+  color: var(--home-text-tertiary);
+}
+.faq-item[open] summary::after { content: '–'; }
+
+.faq-item p {
+  max-width: 40rem;
+  padding-bottom: 1.75rem;
+}
+
+@media (max-width: 900px) {
+  .faq { grid-template-columns: 1fr; }
+}
+</style>

@@ -35,7 +35,7 @@ Native Israeli content is often interesting, authentic, and almost completely in
 
 That's not immersion. It's confusion with a soundtrack.
 
-Understanding [why Hebrew sounds so fast at first](/blog/why-hebrew-sounds-so-fast) helps explain what's happening: your brain cannot process what it hasn't yet learned to recognize. Exposing it to sounds it can't parse doesn't accelerate learning — it just creates ambient noise you gradually tune out.
+Understanding [why Hebrew sounds so fast at first](/blog/why-hebrew-sounds-so-fast/) helps explain what's happening: your brain cannot process what it hasn't yet learned to recognize. Exposing it to sounds it can't parse doesn't accelerate learning — it just creates ambient noise you gradually tune out.
 
 The solution is not to listen less.
 
@@ -104,7 +104,7 @@ Now native content becomes usable — in small doses, with the right approach.
 
 You can hold basic conversations. Reading with Nikud is comfortable. You can follow some native content with effort.
 
-This is often where [the gap between reading Hebrew and understanding it at speed](/blog/why-you-can-read-hebrew-but-still-understand-absolutely-nothing) feels most noticeable — your reading skills may have outpaced your listening, or vice versa.
+This is often where [the gap between reading Hebrew and understanding it at speed](/blog/why-you-can-read-hebrew-but-still-understand-absolutely-nothing/) feels most noticeable — your reading skills may have outpaced your listening, or vice versa.
 
 **What works:**
 
@@ -125,7 +125,7 @@ This is often where [the gap between reading Hebrew and understanding it at spee
 
 There is a hard practical limit to how much listening comprehension can improve without more vocabulary.
 
-[The vocabulary threshold for comfortable comprehension](/blog/how-many-words-are-in-the-modern-hebrew-language) in Hebrew sits around 3,000 high-frequency words. Below that level, too many words in a sentence are unknown for context to rescue meaning reliably.
+[The vocabulary threshold for comfortable comprehension](/blog/how-many-words-are-in-the-modern-hebrew-language/) in Hebrew sits around 3,000 high-frequency words. Below that level, too many words in a sentence are unknown for context to rescue meaning reliably.
 
 Listening practice and vocabulary study are not separate activities.
 
@@ -160,7 +160,7 @@ Twenty minutes of genuinely active listening produces more progress than two hou
 
 Honestly — longer than most learners hope.
 
-[How long learning Hebrew actually takes](/blog/how-hard-is-hebrew-to-learn) depends heavily on prior language experience, daily consistency, and how much real Hebrew you encounter outside of deliberate study.
+[How long learning Hebrew actually takes](/blog/how-hard-is-hebrew-to-learn/) depends heavily on prior language experience, daily consistency, and how much real Hebrew you encounter outside of deliberate study.
 
 That said, the general trajectory:
 

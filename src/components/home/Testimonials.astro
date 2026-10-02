@@ -1,0 +1,174 @@
+---
+import { testimonials } from '../../data/testimonials';
+---
+
+<section id="reviews" class="reviews-section">
+  <div class="container">
+    <header class="reviews-heading">
+      <h2 class="home-h2">What learners say</h2>
+      <p class="home-lead">
+        Learning Hebrew looks different for everyone. Here’s what our learners say.
+      </p>
+    </header>
+  </div>
+
+  <!-- Full-bleed, natively scrollable row. Scrolling and snapping are pure CSS;
+       the script below only mirrors the scroll position into the progress line. -->
+  <div class="reviews-viewport" id="reviews-viewport" role="region" aria-label="Learner reviews" tabindex="0">
+    <ul class="reviews-track" role="list">
+      {testimonials.map(t => (
+        <li class="reviews-item">
+          <figure class="review">
+            <p class="review-stars" role="img" aria-label={`${t.rating} out of 5 stars`}>
+              <span aria-hidden="true">{'★'.repeat(t.rating)}</span>
+            </p>
+            <blockquote class="review-quote">
+              <p>{t.text}</p>
+            </blockquote>
+            <figcaption class="review-author">
+              <cite>{t.name}</cite>
+            </figcaption>
+          </figure>
+        </li>
+      ))}
+    </ul>
+  </div>
+
+  <div class="reviews-progress" id="reviews-progress" aria-hidden="true" hidden>
+    <div class="reviews-progress-thumb"></div>
+  </div>
+</section>
+
+<style>
+.reviews-section {
+  padding-block: var(--home-section-y);
+  background: var(--home-surface-white);
+}
+
+.reviews-heading {
+  max-width: 40rem;
+  margin: 0 auto clamp(3.5rem, 8vw, 5.5rem);
+  text-align: center;
+}
+.reviews-heading p { margin-top: var(--home-stack); }
+
+/* The first card lines up with the page container's left edge (same max-width
+   and gutter as .container); the row then runs on past the viewport edge. */
+.reviews-viewport {
+  --gutter: clamp(1.25rem, 5vw, 2.5rem);
+  --edge: calc(max(0px, (100% - 1280px) / 2) + var(--gutter));
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: var(--edge) var(--gutter);
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.reviews-viewport::-webkit-scrollbar { display: none; }
+.reviews-viewport:focus-visible { outline-offset: -2px; }
+
+.reviews-track {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  width: max-content;
+  padding-inline: var(--edge) var(--gutter);
+}
+
+.reviews-item {
+  display: flex;
+  flex: none;
+  width: min(390px, 84vw);
+  scroll-snap-align: start;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+  min-height: 320px;
+  padding: 2rem;
+  border: 1px solid var(--home-border-subtle);
+  border-radius: var(--home-radius-md);
+}
+
+/* Presentation-only tints by position; the colours carry no meaning.
+   The four variants repeat, so any number of reviews is covered. */
+.reviews-item:nth-child(4n + 1) .review { background: linear-gradient(135deg, rgba(99, 102, 241, 0.075), rgba(99, 102, 241, 0.015)); }
+.reviews-item:nth-child(4n + 2) .review { background: linear-gradient(135deg, rgba(236, 122, 110, 0.07), rgba(236, 122, 110, 0.015)); }
+.reviews-item:nth-child(4n + 3) .review { background: linear-gradient(135deg, rgba(52, 168, 130, 0.07), rgba(52, 168, 130, 0.015)); }
+.reviews-item:nth-child(4n + 4) .review { background: linear-gradient(135deg, rgba(84, 140, 235, 0.075), rgba(150, 110, 235, 0.02)); }
+
+.review-stars {
+  font-size: 0.875rem;
+  letter-spacing: 0.06em;
+  color: #E6A23C;
+}
+
+.review-quote {
+  font-size: clamp(1.125rem, 1.4vw, 1.25rem);
+  font-weight: 500;
+  line-height: 1.55;
+  color: var(--home-text-primary);
+}
+
+.review-author {
+  margin-top: auto;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--home-text-secondary);
+}
+.review-author cite { font-style: normal; }
+
+/* Thin progress line: a miniature scrollbar driven by the row's scroll position */
+.reviews-progress {
+  width: min(300px, 60vw);
+  height: 2px;
+  margin: 3rem auto 0;
+  background: var(--home-border-subtle);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.reviews-progress[hidden] { display: none; }
+.reviews-progress-thumb {
+  height: 100%;
+  background: var(--home-text-primary);
+  border-radius: 2px;
+  will-change: transform;
+}
+
+@media (max-width: 560px) {
+  .reviews-track { gap: 1rem; }
+  .review { padding: 1.5rem; min-height: 300px; }
+}
+</style>
+
+<script>
+const viewport = document.getElementById('reviews-viewport') as HTMLElement;
+const progress = document.getElementById('reviews-progress') as HTMLElement;
+const thumb    = progress.firstElementChild as HTMLElement;
+
+let visible = 1; // fraction of the row that fits in the viewport
+
+function move() {
+  const max = viewport.scrollWidth - viewport.clientWidth;
+  const p   = max > 0 ? Math.min(1, Math.max(0, viewport.scrollLeft / max)) : 0;
+  // translateX % is relative to the thumb's own width, so no pixel maths is needed
+  thumb.style.transform = `translateX(${p * (1 / visible - 1) * 100}%)`;
+}
+
+function measure() {
+  const overflow = viewport.scrollWidth - viewport.clientWidth;
+  progress.hidden = overflow <= 1;
+  if (progress.hidden) return;
+  visible = Math.max(0.2, viewport.clientWidth / viewport.scrollWidth);
+  thumb.style.width = `${visible * 100}%`;
+  move();
+}
+
+// Scroll events are already delivered once per frame; move() is one read + one write
+viewport.addEventListener('scroll', move, { passive: true });
+
+window.addEventListener('resize', measure);
+measure();
+</script>

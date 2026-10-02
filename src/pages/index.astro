@@ -4,8 +4,11 @@ import Nav from '../components/Nav.astro';
 import Hero from '../components/home/Hero.astro';
 import ProductPillars from '../components/home/ProductPillars.astro';
 import LearningJourney from '../components/home/LearningJourney.astro';
-import Testimonials from '../components/Testimonials.astro';
-import DownloadCTA from '../components/DownloadCTA.astro';
+import ReadingShowcase from '../components/home/ReadingShowcase.astro';
+import SupportingFeatures from '../components/home/SupportingFeatures.astro';
+import Testimonials from '../components/home/Testimonials.astro';
+import Faq from '../components/home/Faq.astro';
+import DownloadCTA from '../components/home/DownloadCTA.astro';
 import Footer from '../components/Footer.astro';
 import '../styles/home.css';
 
@@ -104,10 +107,10 @@ const pageSchema = {
       <Hero />
       <ProductPillars />
       <LearningJourney />
-      <!-- Anchor for the nav's Reviews link until Testimonials is redesigned -->
-      <div id="reviews">
-        <Testimonials />
-      </div>
+      <ReadingShowcase />
+      <SupportingFeatures />
+      <Testimonials />
+      <Faq />
       <DownloadCTA />
     </main>
     <Footer />

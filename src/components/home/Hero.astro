@@ -1,6 +1,14 @@
 ---
 import StoreButtons from '../ui/StoreButtons.astro';
-import ProductPlaceholder from '../ui/ProductPlaceholder.astro';
+import DeviceFrame from '../ui/DeviceFrame.astro';
+import ProductScreenshot from '../ui/ProductScreenshot.astro';
+import homeShot from '../../assets/screenshots/home.jpg';
+import lessonsShot from '../../assets/screenshots/lessons.jpg';
+import readingShot from '../../assets/screenshots/reading.jpg';
+import practiceShot from '../../assets/screenshots/practice.jpg';
+
+// The rear phone quietly rotates through these; the front phone never changes.
+const rearShots = [lessonsShot, readingShot, practiceShot];
 ---
 
 <section class="hero">
@@ -21,10 +29,27 @@ import ProductPlaceholder from '../ui/ProductPlaceholder.astro';
 
     <div class="hero-visual">
       <div class="hero-device hero-device--main">
-        <ProductPlaceholder label="Home" />
+        <DeviceFrame>
+          <ProductScreenshot
+            src={homeShot}
+            alt="HebrewEdu home screen"
+            sizes="(max-width: 560px) 72vw, (max-width: 900px) 300px, 320px"
+            loading="eager"
+          />
+        </DeviceFrame>
       </div>
-      <div class="hero-device hero-device--back">
-        <ProductPlaceholder label="Lessons" variant="secondary" />
+
+      <!-- Decorative: the rotating screens repeat what the sections below describe -->
+      <div class="hero-device hero-device--back" aria-hidden="true">
+        <DeviceFrame variant="secondary">
+          <div class="hero-slides" id="hero-slides">
+            {rearShots.map((shot, i) => (
+              <div class:list={['hero-slide', { 'is-active': i === 0 }]}>
+                <ProductScreenshot src={shot} alt="" sizes="256px" />
+              </div>
+            ))}
+          </div>
+        </DeviceFrame>
       </div>
     </div>
 
@@ -75,6 +100,19 @@ import ProductPlaceholder from '../ui/ProductPlaceholder.astro';
   margin-top: calc(var(--device) * 0.36);
 }
 
+/* Rear screens share one grid cell and crossfade */
+.hero-slides { display: grid; }
+.hero-slide {
+  grid-area: 1 / 1;
+  opacity: 0;
+  transform: translateY(6px) scale(0.99);
+  transition: opacity 1s ease, transform 1s ease;
+}
+.hero-slide.is-active {
+  opacity: 1;
+  transform: none;
+}
+
 @media (max-width: 900px) {
   .hero-inner { grid-template-columns: 1fr; }
   .hero-visual { --device: min(64vw, 300px); }
@@ -85,3 +123,22 @@ import ProductPlaceholder from '../ui/ProductPlaceholder.astro';
   .hero-visual { --device: min(72vw, 300px); }
 }
 </style>
+
+<script>
+// Rotates the rear phone's screen. Skipped on small screens (the rear phone is
+// hidden there) and for reduced motion, where the first screen simply stays.
+const slides = Array.from(document.querySelectorAll('#hero-slides .hero-slide'));
+const wide   = window.matchMedia('(min-width: 561px)');
+const calm   = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+let current = 0;
+
+if (slides.length > 1) {
+  setInterval(() => {
+    if (!wide.matches || calm.matches || document.hidden) return;
+    slides[current].classList.remove('is-active');
+    current = (current + 1) % slides.length;
+    slides[current].classList.add('is-active');
+  }, 5000);
+}
+</script>

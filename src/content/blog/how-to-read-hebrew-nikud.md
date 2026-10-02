@@ -55,7 +55,7 @@ Modern Hebrew carried that tradition forward into a living language.
 
 Newspapers don't use Nikud. Websites don't. Text messages certainly don't.
 
-The full story of [why printed Hebrew drops the vowels](/blog/why-hebrew-without-vowels-looks-impossible-until-your-brain-adapts) — and how fluent readers compensate using vocabulary knowledge and pattern recognition — is worth understanding before you transition away from beginner materials.
+The full story of [why printed Hebrew drops the vowels](/blog/why-hebrew-without-vowels-looks-impossible-until-your-brain-adapts/) — and how fluent readers compensate using vocabulary knowledge and pattern recognition — is worth understanding before you transition away from beginner materials.
 
 For now: Nikud is your training system. It gives you information that native readers already carry in their heads.
 
@@ -121,7 +121,7 @@ Let's apply this to שָׁלוֹם:
 
 Result: *sha-lom*.
 
-Once this pattern clicks, most learners are surprised by how quickly they can sound out Hebrew words. The [22 Hebrew letters](/blog/hebrew-alphabet-complete-guide) are genuinely learnable in a short time, and Nikud fills in the remaining information with complete clarity.
+Once this pattern clicks, most learners are surprised by how quickly they can sound out Hebrew words. The [22 Hebrew letters](/blog/hebrew-alphabet-complete-guide/) are genuinely learnable in a short time, and Nikud fills in the remaining information with complete clarity.
 
 ---
 
@@ -157,7 +157,7 @@ This is normal.
 
 It is also an important distinction: **pronunciation and comprehension are separate skills**.
 
-The experience of [reading Hebrew fluently while understanding almost nothing](/blog/why-you-can-read-hebrew-but-still-understand-absolutely-nothing) is frustrating, but it means the decoding layer is working correctly. That layer is exactly the foundation on which comprehension gets built.
+The experience of [reading Hebrew fluently while understanding almost nothing](/blog/why-you-can-read-hebrew-but-still-understand-absolutely-nothing/) is frustrating, but it means the decoding layer is working correctly. That layer is exactly the foundation on which comprehension gets built.
 
 The reading skill and the vocabulary knowledge are developed somewhat in parallel. Both matter. Neither alone is enough.
 
@@ -178,7 +178,7 @@ A sensible progression:
 5. **Begin exposing yourself to partially-voweled text** — common words unvoweled, rarer words still marked
 6. **Transition toward authentic modern Hebrew**
 
-[Learning the alphabet systematically](/blog/learn-hebrew-alphabet-7-days) before diving into Nikud gives you the clearest foundation. Consonants first, vowel system second — in that order, each layer building on the previous one.
+[Learning the alphabet systematically](/blog/learn-hebrew-alphabet-7-days/) before diving into Nikud gives you the clearest foundation. Consonants first, vowel system second — in that order, each layer building on the previous one.
 
 ---
 

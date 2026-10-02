@@ -65,7 +65,7 @@ Absolutely not. That would be reckless.
 The ideal Hebrew learner spends half a year saying:
 > “I’m still mastering the alphabet.”
 
-Meanwhile small children in Israel learn it accidentally while eating yogurt. When you're actually ready to approach the alphabet with purpose, the [complete guide to all 22 Hebrew letters](/blog/hebrew-alphabet-complete-guide) covers every shape, sound, and quirk of the printed Aleph Bet.
+Meanwhile small children in Israel learn it accidentally while eating yogurt. When you're actually ready to approach the alphabet with purpose, the [complete guide to all 22 Hebrew letters](/blog/hebrew-alphabet-complete-guide/) covers every shape, sound, and quirk of the printed Aleph Bet.
 
 ---
 
@@ -107,7 +107,7 @@ focus on truly essential vocabulary such as:
 - “existential despair,”
 - and “tax optimization strategy.”
 
-This creates the ideal situation where you can discuss abstract philosophy but cannot order coffee. If you're not sure which words actually matter, [a realistic look at Hebrew vocabulary numbers](/blog/how-many-words-are-in-the-modern-hebrew-language) explains exactly how many words you need at each stage of fluency.
+This creates the ideal situation where you can discuss abstract philosophy but cannot order coffee. If you're not sure which words actually matter, [a realistic look at Hebrew vocabulary numbers](/blog/how-many-words-are-in-the-modern-hebrew-language/) explains exactly how many words you need at each stage of fluency.
 
 A sign of real progress.
 
@@ -144,7 +144,7 @@ This is normal.
 But instead of gradually adapting your listening skills, the correct strategy is to immediately conclude:
 > “I’ll never understand anything.”
 
-Bonus points if you replay the same 4-second audio clip 37 times while growing spiritually weaker. There's actually a logical explanation for [why Hebrew sounds so fast to learners](/blog/why-hebrew-sounds-so-fast) — and understanding it makes the early listening phase considerably less distressing.
+Bonus points if you replay the same 4-second audio clip 37 times while growing spiritually weaker. There's actually a logical explanation for [why Hebrew sounds so fast to learners](/blog/why-hebrew-sounds-so-fast/) — and understanding it makes the early listening phase considerably less distressing.
 
 ---
 
@@ -260,7 +260,7 @@ If you truly want to avoid learning Hebrew:
 But if you accidentally:
 - practice a little every day,
 - tolerate sounding stupid sometimes,
-- learn high-frequency words in a structured way — [how to build Hebrew vocabulary that actually sticks](/blog/how-to-learn-hebrew-vocabulary) covers the techniques that work (when it's time for verbs specifically, the [Alef-Bet Tutor Verb Directory](/blog/meet-the-new-verb-directory) is also useful),
+- learn high-frequency words in a structured way — [how to build Hebrew vocabulary that actually sticks](/blog/how-to-learn-hebrew-vocabulary/) covers the techniques that work (when it's time for verbs specifically, the [Alef-Bet Tutor Verb Directory](/blog/meet-the-new-verb-directory/) is also useful),
 - and keep going despite imperfect progress...
 
 you may eventually discover something unsettling:

@@ -1,0 +1,48 @@
+---
+// A real app screenshot, rendered through Astro's image pipeline (AVIF/WebP with
+// a JPG fallback, responsive srcset, intrinsic dimensions). The source files are
+// clean rectangular captures, so the frame here is only a radius, a hairline and
+// a soft shadow. Sizing and placement belong to the section that uses it.
+import { Picture } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+
+interface Props {
+  src: ImageMetadata;
+  alt: string;
+  /** How wide the screenshot is displayed, as a `sizes` attribute value. */
+  sizes: string;
+  loading?: 'lazy' | 'eager';
+}
+
+const { src, alt, sizes, loading = 'lazy' } = Astro.props;
+---
+
+<div class="shot">
+  <Picture
+    src={src}
+    alt={alt}
+    formats={['avif', 'webp']}
+    fallbackFormat="jpg"
+    width={640}
+    widths={[320, 480, 640, 960]}
+    sizes={sizes}
+    loading={loading}
+    fetchpriority={loading === 'eager' ? 'high' : undefined}
+    decoding="async"
+  />
+</div>
+
+<style>
+.shot {
+  overflow: hidden;
+  background: var(--home-surface-soft);
+  border: 1px solid var(--home-border-strong);
+  border-radius: calc(var(--home-radius-md) + 4px);
+  box-shadow: 0 28px 56px -32px rgba(23, 23, 26, 0.22);
+}
+.shot :global(img) {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+</style>

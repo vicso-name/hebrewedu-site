@@ -41,7 +41,7 @@ The most valuable thing you can do before learning a single Hebrew word is ask:
 
 Not all vocabulary is equal. The top 500 most frequent Hebrew words account for a disproportionate share of everything you'll read and hear. Learning them first creates a foundation that makes every subsequent word easier to acquire in context.
 
-The vocabulary milestones [you're actually working toward at each stage of Hebrew fluency](/blog/how-many-words-are-in-the-modern-hebrew-language) start with frequency, not comprehensiveness.
+The vocabulary milestones [you're actually working toward at each stage of Hebrew fluency](/blog/how-many-words-are-in-the-modern-hebrew-language/) start with frequency, not comprehensiveness.
 
 Learning obscure vocabulary before common vocabulary is one of the most effective ways to make Hebrew feel harder than it is.
 
@@ -75,7 +75,7 @@ If you're using a spaced repetition app: grade yourself honestly. A card that fe
 
 This is where Hebrew vocabulary diverges from most other languages.
 
-[Learning root families instead of isolated words](/blog/how-the-hebrew-root-system-works) multiplies the return on every word you acquire.
+[Learning root families instead of isolated words](/blog/how-the-hebrew-root-system-works/) multiplies the return on every word you acquire.
 
 When you learn the root ש-מ-ר (sh-m-r — guarding, keeping), you're not just learning one word. You're acquiring the scaffolding for שמר (*shamar* — he guarded), שומר (*shomer* — guard), לשמור (*lishmor* — to keep), and משמר (*mishmar* — patrol) in a single pass.
 
@@ -111,7 +111,7 @@ Verbs are the hardest vocabulary category in Hebrew — not because there are mo
 
 Knowing the infinitive לדבר (*ledaber* — to speak) is a start. Knowing the present tense מדבר (*medaber*), the future אדבר (*adaber*), and the past דיברתי (*dibarti*) is what makes the word usable in real sentences.
 
-This is why verb vocabulary benefits from structured, form-aware learning rather than generic flashcards. The [Alef-Bet Tutor Verb Directory organizes 334 high-frequency verbs by root and Binyan](/blog/meet-the-new-verb-directory) — with all 28 conjugation forms — so you can see the full picture of a verb at once rather than learning its forms piecemeal over months.
+This is why verb vocabulary benefits from structured, form-aware learning rather than generic flashcards. The [Alef-Bet Tutor Verb Directory organizes 334 high-frequency verbs by root and Binyan](/blog/meet-the-new-verb-directory/) — with all 28 conjugation forms — so you can see the full picture of a verb at once rather than learning its forms piecemeal over months.
 
 Not something to memorize all at once. Something to use as a reference while you build exposure.
 
@@ -127,7 +127,7 @@ Spaced repetition schedules reviews at the optimal forgetting interval: just bef
 
 Miss several days, and reviews pile up. The pile becomes intimidating. The app gets ignored.
 
-A ten-minute daily session is worth significantly more than a two-hour session once a week. The math isn't close. [The study habits that consistently delay Hebrew progress](/blog/how-not-to-learn-hebrew-a-complete-guide-to-failing-efficiently) almost always include inconsistency near the top of the list.
+A ten-minute daily session is worth significantly more than a two-hour session once a week. The math isn't close. [The study habits that consistently delay Hebrew progress](/blog/how-not-to-learn-hebrew-a-complete-guide-to-failing-efficiently/) almost always include inconsistency near the top of the list.
 
 Ten minutes. Every day. Even when it doesn't feel productive.
 

@@ -41,7 +41,7 @@ Hebrew uses a completely different script — 22 letters, written right to left,
 
 It is also the fastest one to cross.
 
-[Learning the Hebrew alphabet](/blog/hebrew-alphabet-complete-guide) — the letters, their sounds, and the basic vowel system — is achievable in a few weeks of consistent daily practice. It is not like learning thousands of Chinese characters. Twenty-two letters. No uppercase, no lowercase. Once you know them, the script barrier is gone.
+[Learning the Hebrew alphabet](/blog/hebrew-alphabet-complete-guide/) — the letters, their sounds, and the basic vowel system — is achievable in a few weeks of consistent daily practice. It is not like learning thousands of Chinese characters. Twenty-two letters. No uppercase, no lowercase. Once you know them, the script barrier is gone.
 
 The alphabet is designed to look formidable from the outside.
 
@@ -59,7 +59,7 @@ Beginners spend weeks learning to read Hebrew with vowel marks. Then they encoun
 
 Native speakers fill them in automatically, from vocabulary knowledge and context.
 
-Understanding [reading without vowel markings](/blog/why-hebrew-without-vowels-looks-impossible-until-your-brain-adapts) is worth doing before you encounter it in the wild — because it looks considerably more impossible than it is once you understand how native readers compensate.
+Understanding [reading without vowel markings](/blog/why-hebrew-without-vowels-looks-impossible-until-your-brain-adapts/) is worth doing before you encounter it in the wild — because it looks considerably more impossible than it is once you understand how native readers compensate.
 
 The short version: vocabulary is the solution. The more words you recognize on sight, the easier vowel-free text becomes.
 
@@ -91,7 +91,7 @@ Native speakers merge sounds, shorten syllables, and use contractions that bear 
 
 They usually don't lack aptitude.
 
-Understanding [why Hebrew sounds so fast to learners](/blog/why-hebrew-sounds-so-fast) — and why the experience of not understanding native speech is a normal phase of acquisition rather than a permanent ceiling — makes this stage considerably less demoralizing.
+Understanding [why Hebrew sounds so fast to learners](/blog/why-hebrew-sounds-so-fast/) — and why the experience of not understanding native speech is a normal phase of acquisition rather than a permanent ceiling — makes this stage considerably less demoralizing.
 
 The listening comprehension comes. It just takes longer than learners expect, and it arrives somewhat suddenly.
 
@@ -103,7 +103,7 @@ Several things work in learners' favor.
 
 **Hebrew spelling is phonetic.** Once you know the letters and their sounds, you can pronounce almost any word you encounter with vowel markings. There are none of English's notorious "though / through / thought" situations.
 
-**The vocabulary has surprising reach.** Because of the root system, learning one root unlocks multiple words simultaneously. [The vocabulary you actually need](/blog/how-many-words-are-in-the-modern-hebrew-language) at conversational level is lower than most learners expect — around 3,000 words for comfortable everyday use.
+**The vocabulary has surprising reach.** Because of the root system, learning one root unlocks multiple words simultaneously. [The vocabulary you actually need](/blog/how-many-words-are-in-the-modern-hebrew-language/) at conversational level is lower than most learners expect — around 3,000 words for comfortable everyday use.
 
 **Israelis are patient with learners.** Israel has a long history of adult immigrants learning Hebrew from scratch. Attempting Hebrew — imperfectly, with mistakes — tends to be received warmly rather than critically.
 
@@ -117,7 +117,7 @@ Some of the difficulty learners experience is inherent to the language.
 
 Some of it is self-inflicted.
 
-The habits that consistently delay progress — studying in bursts then disappearing for weeks, refusing to speak until grammar is perfect, learning obscure vocabulary before common vocabulary, avoiding listening practice because it's uncomfortable — are all covered in detail in a guide to [common mistakes that slow progress](/blog/how-not-to-learn-hebrew-a-complete-guide-to-failing-efficiently).
+The habits that consistently delay progress — studying in bursts then disappearing for weeks, refusing to speak until grammar is perfect, learning obscure vocabulary before common vocabulary, avoiding listening practice because it's uncomfortable — are all covered in detail in a guide to [common mistakes that slow progress](/blog/how-not-to-learn-hebrew-a-complete-guide-to-failing-efficiently/).
 
 The honest observation is that most learners who describe Hebrew as impossibly hard were also doing several of these things consistently.
 

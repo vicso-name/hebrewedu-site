@@ -11,7 +11,7 @@ tags: ["Hebrew verbs", "Binyanim", "Hebrew grammar", "Alef-Bet Tutor", "learn He
 
 # Hebrew Verbs Are Hard. We Decided to Fix That.
 
-If you’ve ever tried learning Hebrew seriously, you probably know the exact moment things get intimidating. It usually arrives after the alphabet and core vocabulary phases — and [how many Hebrew words you actually need](/blog/how-many-words-are-in-the-modern-hebrew-language) before verbs become the real bottleneck is a more manageable number than most learners expect.
+If you’ve ever tried learning Hebrew seriously, you probably know the exact moment things get intimidating. It usually arrives after the alphabet and core vocabulary phases — and [how many Hebrew words you actually need](/blog/how-many-words-are-in-the-modern-hebrew-language/) before verbs become the real bottleneck is a more manageable number than most learners expect.
 
 Not the alphabet.  
 Not reading right to left.  
@@ -126,7 +126,7 @@ Each verb includes its full conjugation system so learners can finally understan
 
 This turns the directory into more than a vocabulary list.
 
-It becomes a real Hebrew verb reference system you can rely on daily. Understanding verb conjugations is also a major factor in [moving past the stage where you can read Hebrew but still understand very little](/blog/why-you-can-read-hebrew-but-still-understand-absolutely-nothing) — verb recognition alone unlocks a significant portion of everyday text.
+It becomes a real Hebrew verb reference system you can rely on daily. Understanding verb conjugations is also a major factor in [moving past the stage where you can read Hebrew but still understand very little](/blog/why-you-can-read-hebrew-but-still-understand-absolutely-nothing/) — verb recognition alone unlocks a significant portion of everyday text.
 
 ---
 
@@ -155,7 +155,7 @@ At Alef-Bet Tutor, we believe language learning tools should feel:
 - visually modern,
 - and genuinely enjoyable to use.
 
-That’s why the new Verb Directory was designed with a premium, distraction-free interface that helps learners focus on understanding patterns instead of fighting messy layouts. If you’re curious about the broader landscape of Hebrew learning habits, [a guide to every common mistake beginners make](/blog/how-not-to-learn-hebrew-a-complete-guide-to-failing-efficiently) is a useful companion read.
+That’s why the new Verb Directory was designed with a premium, distraction-free interface that helps learners focus on understanding patterns instead of fighting messy layouts. If you’re curious about the broader landscape of Hebrew learning habits, [a guide to every common mistake beginners make](/blog/how-not-to-learn-hebrew-a-complete-guide-to-failing-efficiently/) is a useful companion read.
 
 Whether you’re:
 - just starting Hebrew,
@@ -170,7 +170,7 @@ this update was built for you.
 
 The new Hebrew Verb Directory is now available in **Alef-Bet Tutor** on Google Play.
 
-Update the app — or start learning today — and discover a calmer, clearer way to master one of the hardest parts of Hebrew. If you’re just beginning the journey, [the Hebrew alphabet guide](/blog/hebrew-alphabet-complete-guide) is the right place to start before tackling verbs.
+Update the app — or start learning today — and discover a calmer, clearer way to master one of the hardest parts of Hebrew. If you’re just beginning the journey, [the Hebrew alphabet guide](/blog/hebrew-alphabet-complete-guide/) is the right place to start before tackling verbs.
 
 Because Hebrew verbs don’t have to feel terrifying.
 

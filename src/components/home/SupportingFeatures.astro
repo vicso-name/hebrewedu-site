@@ -1,0 +1,59 @@
+---
+import Section from '../ui/Section.astro';
+import SectionHeading from '../ui/SectionHeading.astro';
+
+const features = [
+  {
+    num: '01',
+    title: 'Structured lessons',
+    desc: 'Learn concepts in an intentional order rather than randomly.',
+  },
+  {
+    num: '02',
+    title: 'Review difficult material',
+    desc: 'Come back to words and exercises that need more attention.',
+  },
+  {
+    num: '03',
+    title: 'Learn at your own pace',
+    desc: 'Short, repeatable study sessions make consistent practice easier.',
+  },
+];
+---
+
+<Section surface="white">
+  <SectionHeading
+    title="Built for consistent progress"
+    lede="A little Hebrew, often, goes further than a lot at once."
+  />
+
+  <ul class="support-list" role="list">
+    {features.map(f => (
+      <li class="support-row">
+        <span class="home-num" aria-hidden="true">{f.num}</span>
+        <h3 class="home-h3">{f.title}</h3>
+        <p class="home-lead">{f.desc}</p>
+      </li>
+    ))}
+  </ul>
+</Section>
+
+<style>
+.support-list {
+  list-style: none;
+  border-bottom: 1px solid var(--home-border-subtle);
+}
+
+.support-row {
+  display: grid;
+  grid-template-columns: 5rem minmax(0, 1fr) minmax(0, 1.25fr);
+  gap: 1rem clamp(1.5rem, 4vw, 4rem);
+  align-items: baseline;
+  padding-block: clamp(1.75rem, 3vw, 2.5rem);
+  border-top: 1px solid var(--home-border-subtle);
+}
+
+@media (max-width: 760px) {
+  .support-row { grid-template-columns: 1fr; gap: 0.5rem; }
+}
+</style>

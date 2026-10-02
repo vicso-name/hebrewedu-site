@@ -47,7 +47,7 @@ Technically, the vowels exist.
 
 They’re just usually not written.
 
-Modern Hebrew relies heavily on context and pattern recognition rather than fully marking every sound visually. If you're still building familiarity with the letters themselves, [the complete Hebrew alphabet guide](/blog/hebrew-alphabet-complete-guide) covers every letter, its sound, and how the Nikud system works before vowels disappear.
+Modern Hebrew relies heavily on context and pattern recognition rather than fully marking every sound visually. If you're still building familiarity with the letters themselves, [the complete Hebrew alphabet guide](/blog/hebrew-alphabet-complete-guide/) covers every letter, its sound, and how the Nikud system works before vowels disappear.
 
 So instead of:
 > שָׁלוֹם
@@ -114,7 +114,7 @@ For example:
 
 all connect to the same root related to writing.
 
-Once your brain starts recognizing these recurring patterns, reading without vowels becomes dramatically easier. [Understanding how large Modern Hebrew vocabulary actually is](/blog/how-many-words-are-in-the-modern-hebrew-language) — and how the root system makes it grow faster than expected — gives useful context for what you're building toward.
+Once your brain starts recognizing these recurring patterns, reading without vowels becomes dramatically easier. [Understanding how large Modern Hebrew vocabulary actually is](/blog/how-many-words-are-in-the-modern-hebrew-language/) — and how the root system makes it grow faster than expected — gives useful context for what you're building toward.
 
 Not easy.
 
@@ -261,7 +261,7 @@ Nikud is essential early because it teaches:
 
 But eventually learners must transition toward real-world Hebrew without full vowel markings.
 
-Otherwise you become someone who can only read educational materials designed for children and language apps. There's a related experience many learners go through: [being able to read Hebrew perfectly aloud while understanding almost nothing](/blog/why-you-can-read-hebrew-but-still-understand-absolutely-nothing) — which turns out to be a normal and temporary stage, not a sign of failure.
+Otherwise you become someone who can only read educational materials designed for children and language apps. There's a related experience many learners go through: [being able to read Hebrew perfectly aloud while understanding almost nothing](/blog/why-you-can-read-hebrew-but-still-understand-absolutely-nothing/) — which turns out to be a normal and temporary stage, not a sign of failure.
 
 Which, while emotionally safe, is somewhat limiting.
 
@@ -288,6 +288,6 @@ Not because the language changed.
 
 Because your brain did.
 
-A similar adaptation happens with [Hebrew handwriting](/blog/why-hebrew-handwriting-looks-completely-different-from-printed-hebrew), which can feel like a second alphabet the first time you encounter it — but also becomes surprisingly familiar with enough exposure.
+A similar adaptation happens with [Hebrew handwriting](/blog/why-hebrew-handwriting-looks-completely-different-from-printed-hebrew/), which can feel like a second alphabet the first time you encounter it — but also becomes surprisingly familiar with enough exposure.
 
 Which is honestly one of the coolest parts of learning Hebrew.

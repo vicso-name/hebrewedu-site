@@ -40,7 +40,7 @@ const posts = (await getCollection('blog')).sort(
             });
             return (
               <li>
-                <a href={`/blog/${post.slug}`} class="post-card">
+                <a href={`/blog/${post.slug}/`} class="post-card">
                   <div class="post-card-top">
                     <span class="badge badge-brand">{post.data.category}</span>
                     <span class="post-reading">{post.data.readingTime}</span>
