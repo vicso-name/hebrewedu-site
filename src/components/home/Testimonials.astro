@@ -31,6 +31,7 @@ const monthYear = (iso: string) =>
             </blockquote>
             <figcaption class="review-author">
               <cite>{t.source}</cite> · <time datetime={t.date.slice(0, 7)}>{monthYear(t.date)}</time>
+              {t.translatedFrom && <span class="review-translated">Translated from {t.translatedFrom}</span>}
             </figcaption>
           </figure>
         </li>
@@ -138,6 +139,13 @@ const monthYear = (iso: string) =>
   color: var(--home-text-secondary);
 }
 .review-author cite { font-style: normal; }
+.review-translated {
+  display: block;
+  margin-top: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--home-text-tertiary);
+}
 
 /* Thin progress line: a miniature scrollbar driven by the row's scroll position */
 .reviews-progress {
