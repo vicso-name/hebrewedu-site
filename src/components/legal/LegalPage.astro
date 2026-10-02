@@ -1,0 +1,50 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Nav from '../Nav.astro';
+import Footer from '../Footer.astro';
+import '../../styles/legal.css';
+
+interface Props {
+  /** <title> and meta description, passed straight to Layout */
+  metaTitle: string;
+  description: string;
+  /** Page H1 */
+  title: string;
+  lastUpdated: string;
+}
+
+const { metaTitle, description, title, lastUpdated } = Astro.props;
+---
+
+<Layout title={metaTitle} description={description}>
+  <link
+    slot="head"
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+  />
+
+  <!-- .legal-page scopes the legal tokens and Nav theming (src/styles/legal.css) -->
+  <div class="legal-page">
+    <Nav />
+    <main>
+      <article>
+        <header class="legal-intro">
+          <div class="container">
+            <div class="legal-inner">
+              <p class="legal-eyebrow">Legal</p>
+              <h1 class="legal-title">{title}</h1>
+              <p class="legal-updated">Last updated: {lastUpdated}</p>
+            </div>
+          </div>
+        </header>
+
+        <div class="container">
+          <div class="legal-inner legal-content">
+            <slot />
+          </div>
+        </div>
+      </article>
+    </main>
+    <Footer />
+  </div>
+</Layout>
