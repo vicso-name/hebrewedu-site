@@ -1,0 +1,77 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Nav from '../../../components/Nav.astro';
+import Footer from '../../../components/Footer.astro';
+import Section from '../../../components/ui/Section.astro';
+import StoreButtons from '../../../components/ui/StoreButtons.astro';
+import GameMount from '../../../components/play/GameMount.astro';
+import '../../../styles/home.css';
+import '../../../styles/play.css';
+const url = 'https://hebrewedu.com/play/alef-bet-rush/';
+const schema = {
+  '@context': 'https://schema.org', '@graph': [
+    { '@type': 'WebPage', '@id': url, url, name: 'Alef Bet Rush: Free Hebrew Alphabet Game' },
+    { '@type': ['VideoGame', 'WebApplication'], name: 'Alef Bet Rush', url, applicationCategory: 'EducationalApplication', operatingSystem: 'Web', isAccessibleForFree: true, educationalLevel: 'Beginner', inLanguage: 'en', offers: { '@type': 'Offer', price: 0, priceCurrency: 'USD' } },
+    { '@type': 'BreadcrumbList', itemListElement: ['Home', 'Play', 'Alef Bet Rush'].map((name, i) => ({ '@type': 'ListItem', position: i + 1, name, item: ['https://hebrewedu.com/', 'https://hebrewedu.com/play/', url][i] })) },
+  ],
+};
+---
+<Layout title="Hebrew Alphabet Game: Learn the Alef Bet | HebrewEdu" description="Play Alef Bet Rush, a free Hebrew alphabet game for beginners. Learn all 22 Hebrew letters with native audio, recognition practice and spaced review." schema={schema}>
+  <link slot="head" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" />
+  <div class="home-page play-page">
+    <Nav />
+    <main>
+      <section class="play-hero">
+        <div class="container">
+          <nav class="play-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/play/">Play</a> / Alef Bet Rush</nav>
+          <div class="play-copy">
+            <p class="home-eyebrow">Hebrew alphabet game</p>
+            <h1 class="home-h1">Alef Bet Rush: Free Hebrew Alphabet Game</h1>
+            <p class="home-lead">Learn all 22 Hebrew letters through a space adventure with native Hebrew letter-name audio.</p>
+            <p>22 letters · 8 planets · 24 missions</p>
+            <p>Start with the first letters, practise recognising their shapes, and return to the ones that need another look. Play free in your browser, with no account required.</p>
+          </div>
+        </div>
+      </section>
+      <Section id="game" surface="white"><GameMount /></Section>
+      <Section surface="soft">
+        <div class="play-section">
+          <h2 class="home-h2">Learn All 22 Hebrew Letters by Playing</h2>
+          <p>The Alef Bet is the foundation of Hebrew reading. Alef Bet Rush introduces the 22 standard letters in short missions, with repeated practice to help their shapes and names become familiar.</p>
+          <p>You do not need to know Hebrew to begin. Start with a small group of letters and build from there. For a reference alongside the game, read our <a href="/blog/hebrew-alphabet-complete-guide/">Hebrew alphabet guide</a>.</p>
+        </div>
+        <div class="play-section"><h2 class="home-h2">How Alef Bet Rush Teaches the Alef Bet</h2></div>
+        <div class="play-grid">
+          {[
+            ['Learn', 'Meet the letters and listen to their Hebrew names before answering questions. Take time to notice the shape of each letter.'],
+            ['Recognize', 'Choose the letter that matches the prompt. Recalling a shape yourself helps it stick more than simply looking at a chart.'],
+            ['Rush', 'Put familiar letters into practice in a faster round. Keep recognising what you have learned while the pace changes.'],
+            ['Review', 'Revisit letters through spaced recall and corrective feedback. Mistakes show you what to practise next; mastery builds with each answer.'],
+          ].map(([title, copy]) => <article class="play-card"><h3 class="home-h3">{title}</h3><p>{copy}</p></article>)}
+        </div>
+      </Section>
+      <Section>
+        <div class="play-section"><h2 class="home-h2">Practice Hebrew Letter Recognition</h2><p>Recognising a letter means recalling it when you need it. Repeated exposure, active recall and spaced review help turn an unfamiliar shape into a letter you can identify with confidence. The Galaxy Map lets you follow your mission progression.</p></div>
+        <div class="play-section"><h2 class="home-h2">Learn Hebrew Letter Names and Pronunciation</h2><p>Hear native Hebrew letter-name audio as you learn. Letter names help you talk about the alphabet, but a letter name is not always the sound that letter makes in a word. Reading practice comes next.</p></div>
+        <div class="play-section"><h2 class="home-h2">Hebrew Letters Beginners Often Confuse</h2><p>Some Hebrew letters have similar shapes. Slow down and notice the details before choosing. The game includes similar-letter practice and review so you can work on distinctions that still feel uncertain.</p></div>
+        <div class="play-section"><h2 class="home-h2">What You'll Learn</h2><p>Practise identifying the standard Hebrew letters, connect their shapes with their names, and build confidence before moving on to vowels and reading. This game focuses on the alphabet; it is a starting point for a longer learning journey.</p></div>
+      </Section>
+      <Section surface="soft">
+        <div class="play-section"><h2 class="home-h2">What Comes After the Hebrew Alphabet?</h2><p>Next, learn the final forms used at the ends of words, explore Nikud vowel marks, and practise reading real words. Our <a href="/blog/how-to-read-hebrew-nikud/">guide to reading Hebrew with Nikud</a> explains the next step.</p></div>
+        <div class="play-section"><h2 class="home-h2">Continue Learning Hebrew</h2><p>Build on your alphabet practice with structured lessons, vocabulary and beginner reading in the HebrewEdu app.</p><StoreButtons location="alef_bet_rush_continue" /></div>
+      </Section>
+      <Section>
+        <div class="play-section"><h2 class="home-h2">Frequently Asked Questions</h2></div>
+        <div class="play-faq">
+          <details><summary>Is Alef Bet Rush free?</summary><p>Yes. You can play the browser game for free without creating an account.</p></details>
+          <details><summary>Can beginners play?</summary><p>Yes. The game introduces letters before recognition practice and includes native letter-name audio.</p></details>
+          <details><summary>How many letters are in the Hebrew alphabet?</summary><p>There are 22 standard letters. Five also have final forms used at the ends of words. Alef Bet Rush focuses on the 22 standard letters.</p></details>
+          <details><summary>What is the difference between Alef Bet and Aleph Bet?</summary><p>They are different English spellings for the same Hebrew alphabet name, taken from its first two letters.</p></details>
+          <details><summary>Does the game save my progress?</summary><p>Progress is saved locally in your browser. Use the same browser to return to it. Clearing site data or using private browsing can remove your saved progress.</p></details>
+          <details><summary>Where can I find more Hebrew learning resources?</summary><p>Visit <a href="/play/">Hebrew learning games</a> or follow our <a href="/blog/learn-hebrew-alphabet-7-days/">seven-day alphabet learning plan</a>.</p></details>
+        </div>
+      </Section>
+    </main>
+    <Footer />
+  </div>
+</Layout>

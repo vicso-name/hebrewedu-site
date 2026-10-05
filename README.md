@@ -77,3 +77,5 @@ All design decisions live in `src/styles/global.css`:
 - `--ink: #1F2937` — body text
 - Font display: Bricolage Grotesque
 - Font body: DM Sans
+
+Alef Bet Rush production artifact releases: see [the release workflow](docs/alef-bet-rush-release.md).

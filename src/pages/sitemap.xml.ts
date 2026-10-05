@@ -22,6 +22,8 @@ export const GET: APIRoute = async () => {
     : toDateString(new Date());
 
   const staticPages = [
+    { url: '/play/', priority: '0.8', changefreq: 'monthly', lastmod: '2026-10-05' },
+    { url: '/play/alef-bet-rush/', priority: '0.9', changefreq: 'monthly', lastmod: '2026-10-05' },
     {
       url: '/',
       priority: '1.0',
