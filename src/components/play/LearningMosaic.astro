@@ -1,7 +1,9 @@
 ---
+export type LearningTextPart = string | { text: string; href: string };
+
 export interface LearningItem {
   title: string;
-  description: string;
+  description: readonly LearningTextPart[];
 }
 
 interface Props {
@@ -41,7 +43,7 @@ for (let row = 1; row <= 8; row++) {
       <div class={`mosaic-module mosaic-module--${itemIndex + 1}`} style={`--module-column: ${column}; --module-row: ${row};`}>
         <span class="mosaic-number" aria-hidden="true">{String(itemIndex + 1).padStart(2, '0')}</span>
         <h2 class="mosaic-title">{items[itemIndex].title}</h2>
-        <p class="mosaic-copy">{items[itemIndex].description}</p>
+        <p class="mosaic-copy">{items[itemIndex].description.map((part) => typeof part === 'string' ? part : <a href={part.href}>{part.text}</a>)}</p>
       </div>
     ))}
   </div>
@@ -117,6 +119,12 @@ for (let row = 1; row <= 8; row++) {
   line-height: 1.6;
   color: var(--home-text-secondary);
   overflow-wrap: anywhere;
+}
+
+.mosaic-copy a {
+  color: var(--home-brand-text);
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
 }
 
 @media (min-width: 1200px) {
