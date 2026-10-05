@@ -1,0 +1,40 @@
+---
+interface Props {
+  compact?: boolean;
+}
+
+const { compact = false } = Astro.props;
+---
+
+<section class="cta">
+  <div class="container">
+    <div class:list={['cta-panel', { 'cta-panel--compact': compact }]}>
+      <slot />
+    </div>
+  </div>
+</section>
+
+<style>
+.cta {
+  padding-block: var(--home-section-y);
+  background: var(--home-surface-white);
+}
+
+.cta-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: clamp(3rem, 8vw, 6rem) clamp(1.5rem, 5vw, 4rem);
+  background: var(--home-surface-soft);
+  border-radius: var(--home-radius-lg);
+  text-align: center;
+}
+.cta-panel :global(p) {
+  max-width: 34rem;
+  margin-block: var(--home-stack) 2.25rem;
+}
+
+.cta-panel--compact {
+  padding-block: clamp(2.5rem, 5vw, 4rem);
+}
+</style>

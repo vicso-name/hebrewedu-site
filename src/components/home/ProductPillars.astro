@@ -1,28 +1,29 @@
 ---
 import Section from '../ui/Section.astro';
+import FeatureGrid, { type FeatureItem } from '../ui/FeatureGrid.astro';
 
 const features = [
   {
     icon: 'layers',
     title: 'Learn the foundations',
-    desc: 'Alphabet, sounds and Nikud made clear from the start.',
+    description: 'Alphabet, sounds and Nikud made clear from the start.',
   },
   {
     icon: 'target',
     title: 'Practice what you learn',
-    desc: 'Focused exercises help turn each lesson into a real skill.',
+    description: 'Focused exercises help turn each lesson into a real skill.',
   },
   {
     icon: 'repeat',
     title: 'Remember what matters',
-    desc: 'Return to words and material that need more practice.',
+    description: 'Return to words and material that need more practice.',
   },
   {
     icon: 'book',
     title: 'Read real Hebrew',
-    desc: 'Move into beginner texts with translation and audio support.',
+    description: 'Move into beginner texts with translation and audio support.',
   },
-];
+] satisfies FeatureItem[];
 ---
 
 <Section id="features" surface="soft">
@@ -34,43 +35,7 @@ const features = [
     </p>
   </header>
 
-  <ul class="features" role="list">
-    {features.map(f => (
-      <li class="feature">
-        <span class="feature-icon" aria-hidden="true">
-          {f.icon === 'layers' && (
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-              <path d="m12 3 10 5-10 5L2 8z" />
-              <path d="m2 12 10 5 10-5" />
-              <path d="m2 16 10 5 10-5" />
-            </svg>
-          )}
-          {f.icon === 'target' && (
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="12" cy="12" r="9" />
-              <path d="m8.5 12.5 2.5 2.5 4.5-5.5" />
-            </svg>
-          )}
-          {f.icon === 'repeat' && (
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-              <path d="m17 2 4 4-4 4" />
-              <path d="M3 11v-1a4 4 0 0 1 4-4h14" />
-              <path d="m7 22-4-4 4-4" />
-              <path d="M21 13v1a4 4 0 0 1-4 4H3" />
-            </svg>
-          )}
-          {f.icon === 'book' && (
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M12 7v13" />
-              <path d="M3 5h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5v13h-6a3 3 0 0 0-3 2 3 3 0 0 0-3-2H3z" />
-            </svg>
-          )}
-        </span>
-        <h3 class="feature-title">{f.title}</h3>
-        <p class="feature-desc">{f.desc}</p>
-      </li>
-    ))}
-  </ul>
+  <FeatureGrid items={features} />
 </Section>
 
 <style>
@@ -84,63 +49,8 @@ const features = [
   margin: var(--home-stack) auto 0;
 }
 
-.features {
-  list-style: none;
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 1.25rem;
-}
-
-/* Quiet white tile: lifted by contrast with the soft section, not by shadow */
-.feature {
-  padding: 1.75rem 1.5rem 1.875rem;
-  background: var(--home-surface-white);
-  border: 1px solid var(--home-border-subtle);
-  border-radius: 20px;
-}
-
-/* Same four quiet hues as the testimonial cards; presentation only */
-.feature-icon {
-  --hue: 99, 102, 241;
-  --ink: #4F46E5;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 52px;
-  height: 52px;
-  margin-bottom: 1.5rem;
-  color: var(--ink);
-  background: rgba(var(--hue), 0.08);
-  border: 1px solid rgba(var(--hue), 0.12);
-  border-radius: 14px;
-}
-.feature:nth-child(4n + 2) .feature-icon { --hue: 236, 122, 110; --ink: #C0554A; }
-.feature:nth-child(4n + 3) .feature-icon { --hue: 52, 168, 130;  --ink: #1F8566; }
-.feature:nth-child(4n + 4) .feature-icon { --hue: 84, 140, 235;  --ink: #3A6BCB; }
-
-.feature-title {
-  font-family: var(--font-display);
-  font-size: 1.3125rem;
-  font-weight: 700;
-  line-height: 1.3;
-  letter-spacing: -0.015em;
-  color: var(--home-text-primary);
-}
-
-.feature-desc {
-  margin-top: 0.75rem;
-  font-size: 1.0625rem;
-  line-height: 1.6;
-  color: var(--home-text-secondary);
-}
-
-@media (max-width: 1000px) {
-  .features { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-}
-
 @media (max-width: 560px) {
   .features-heading { text-align: left; margin-inline: 0; }
   .features-heading p { margin-inline: 0; }
-  .features { grid-template-columns: 1fr; gap: 1rem; }
 }
 </style>

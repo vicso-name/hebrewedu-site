@@ -6,7 +6,6 @@
 .play-page .play-hub-games { padding-top: clamp(2rem, 4vw, 3rem); }
 .play-page .play-game-section { padding-top: 0; }
 .play-page .play-copy > * + * { margin-top: 1.5rem; }
-.play-page .play-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; }
 .play-page .play-card { padding: clamp(1.5rem, 4vw, 2.5rem); border: 1px solid var(--home-border-subtle); border-radius: var(--home-radius-md); background: var(--home-surface-white); }
 .play-page .play-card > * + *, .play-page .play-section > * + * { margin-top: 1rem; }
 .play-page .play-section { max-width: 52rem; margin-bottom: 2.5rem; }
@@ -14,7 +13,6 @@
 .play-page .play-section p, .play-page .play-card p { color: var(--home-text-secondary); }
 .play-page .play-section a, .play-page .play-breadcrumb a { color: var(--home-brand-text); text-decoration: underline; text-underline-offset: .2em; }
 .play-page .play-breadcrumb { margin-bottom: 2rem; font-size: .875rem; }
-@media (max-width: 768px) { .play-page .play-grid { grid-template-columns: 1fr; } }
 
 .play-page .play-hero-grid { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); gap: var(--home-gap); align-items: center; }
 .play-page .play-hero-art { width: 100%; max-width: 640px; margin-inline: auto; }

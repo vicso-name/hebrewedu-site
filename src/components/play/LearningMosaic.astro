@@ -1,0 +1,143 @@
+---
+export interface LearningItem {
+  title: string;
+  description: string;
+}
+
+interface Props {
+  items: readonly [LearningItem, LearningItem, LearningItem, LearningItem];
+}
+
+const { items } = Astro.props;
+const placements = [
+  { column: 2, row: 1 },
+  { column: 8, row: 1 },
+  { column: 4, row: 5 },
+  { column: 10, row: 5 },
+];
+const origins = new Map(placements.map((p, index) => [`${p.row}-${p.column}`, index]));
+const occupied = new Set<string>();
+for (const { column, row } of placements) {
+  for (let r = row; r < row + 4; r++) {
+    for (let c = column; c < column + 4; c++) occupied.add(`${r}-${c}`);
+  }
+}
+
+const cells: { row: number; column: number; itemIndex?: number }[] = [];
+for (let row = 1; row <= 8; row++) {
+  for (let column = 1; column <= 14; column++) {
+    const key = `${row}-${column}`;
+    const itemIndex = origins.get(key);
+    if (itemIndex !== undefined || !occupied.has(key)) cells.push({ row, column, itemIndex });
+  }
+}
+---
+
+<div class="learning-mosaic-frame">
+  <div class="learning-mosaic">
+    {cells.map(({ row, column, itemIndex }) => itemIndex === undefined ? (
+      <div class="mosaic-cell" style={`grid-column: ${column}; grid-row: ${row};`} aria-hidden="true" />
+    ) : (
+      <div class={`mosaic-module mosaic-module--${itemIndex + 1}`} style={`--module-column: ${column}; --module-row: ${row};`}>
+        <span class="mosaic-number" aria-hidden="true">{String(itemIndex + 1).padStart(2, '0')}</span>
+        <h2 class="mosaic-title">{items[itemIndex].title}</h2>
+        <p class="mosaic-copy">{items[itemIndex].description}</p>
+      </div>
+    ))}
+  </div>
+</div>
+
+<style>
+.learning-mosaic-frame { container-type: inline-size; }
+
+.learning-mosaic {
+  --grid-gap: 6px;
+  --cell-size: calc((100cqw - 13 * var(--grid-gap)) / 14);
+  display: grid;
+  grid-template-columns: repeat(14, var(--cell-size));
+  grid-template-rows: repeat(8, var(--cell-size));
+  gap: var(--grid-gap);
+}
+
+.mosaic-cell {
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--home-border-subtle);
+  border-radius: 11px;
+  background: var(--home-surface-white);
+}
+
+.mosaic-module {
+  --marker-color: var(--home-brand-text);
+  grid-column: var(--module-column) / span 4;
+  grid-row: var(--module-row) / span 4;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  padding: 1.5rem;
+  border: 1px solid var(--home-border-subtle);
+  border-radius: 18px;
+  background: var(--home-surface-soft);
+}
+
+.mosaic-module--2 { --marker-color: #C0554A; }
+.mosaic-module--3 { --marker-color: #1F8566; }
+.mosaic-module--4 { --marker-color: #3A6BCB; }
+
+.mosaic-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  margin-bottom: 1.75rem;
+  border-radius: 50%;
+  background: var(--marker-color);
+  color: var(--home-surface-white);
+  font-size: 0.9375rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+
+.mosaic-title {
+  font-family: var(--font-display);
+  font-size: 1.3125rem;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.015em;
+  color: var(--home-text-primary);
+  overflow-wrap: anywhere;
+}
+
+.mosaic-copy {
+  margin-top: 0.75rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--home-text-secondary);
+  overflow-wrap: anywhere;
+}
+
+@media (min-width: 1200px) {
+  .mosaic-number { width: 42px; height: 42px; margin-bottom: 1.5rem; }
+  .mosaic-title { font-size: 1.25rem; line-height: 1.25; }
+  .mosaic-copy { margin-top: 0.625rem; line-height: 1.45; }
+}
+
+@media (min-width: 1200px) and (max-width: 1279px) {
+  .mosaic-module { padding: 1.25rem; }
+  .mosaic-copy { font-size: 0.9375rem; line-height: 1.4; }
+}
+
+@media (max-width: 1199px) {
+  .learning-mosaic { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-rows: none; gap: 1.5rem; }
+  .mosaic-cell { display: none; }
+  .mosaic-module { grid-column: auto; grid-row: auto; height: auto; }
+}
+
+@media (max-width: 767px) {
+  .learning-mosaic { grid-template-columns: 1fr; gap: 1rem; }
+  .mosaic-module { padding: 1.25rem; }
+}
+</style>

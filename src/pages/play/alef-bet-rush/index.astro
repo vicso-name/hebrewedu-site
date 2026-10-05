@@ -4,10 +4,37 @@ import Layout from '../../../layouts/Layout.astro';
 import Nav from '../../../components/Nav.astro';
 import Footer from '../../../components/Footer.astro';
 import Section from '../../../components/ui/Section.astro';
+import FeatureGrid, { type FeatureItem } from '../../../components/ui/FeatureGrid.astro';
+import LearningMosaic, { type LearningItem } from '../../../components/play/LearningMosaic.astro';
+import CtaPanel from '../../../components/ui/CtaPanel.astro';
 import StoreButtons from '../../../components/ui/StoreButtons.astro';
 import GameMount from '../../../components/play/GameMount.astro';
 import '../../../styles/home.css';
 import '../../../styles/play.css';
+const learningStages = [
+  { icon: 'layers', title: 'Learn', description: 'Meet the letters and listen to their Hebrew names before answering questions. Take time to notice the shape of each letter.' },
+  { icon: 'target', title: 'Recognize', description: 'Choose the letter that matches the prompt. Recalling a shape yourself helps it stick more than simply looking at a chart.' },
+  { icon: 'bolt', title: 'Rush', description: 'Put familiar letters into practice in a faster round. Keep recognising what you have learned while the pace changes.' },
+  { icon: 'repeat', title: 'Review', description: 'Revisit letters through spaced recall and corrective feedback. Mistakes show you what to practise next; mastery builds with each answer.' },
+] satisfies FeatureItem[];
+const learningTopics = [
+  {
+    "title": "Practice Hebrew Letter Recognition",
+    "description": "Recognising a letter means recalling it when you need it. Repeated exposure, active recall and spaced review help turn an unfamiliar shape into a letter you can identify with confidence. The Galaxy Map lets you follow your mission progression."
+  },
+  {
+    "title": "Learn Hebrew Letter Names and Pronunciation",
+    "description": "Hear native Hebrew letter-name audio as you learn. Letter names help you talk about the alphabet, but a letter name is not always the sound that letter makes in a word. Reading practice comes next."
+  },
+  {
+    "title": "Hebrew Letters Beginners Often Confuse",
+    "description": "Some Hebrew letters have similar shapes. Slow down and notice the details before choosing. The game includes similar-letter practice and review so you can work on distinctions that still feel uncertain."
+  },
+  {
+    "title": "What You'll Learn",
+    "description": "Practise identifying the standard Hebrew letters, connect their shapes with their names, and build confidence before moving on to vowels and reading. This game focuses on the alphabet; it is a starting point for a longer learning journey."
+  }
+] satisfies [LearningItem, LearningItem, LearningItem, LearningItem];
 const url = 'https://hebrewedu.com/play/alef-bet-rush/';
 const schema = {
   '@context': 'https://schema.org', '@graph': [
@@ -39,25 +66,11 @@ const schema = {
           <p>The Alef Bet is the foundation of Hebrew reading. Alef Bet Rush introduces the 22 standard letters in short missions, with repeated practice to help their shapes and names become familiar.</p>
           <p>You do not need to know Hebrew to begin. Start with a small group of letters and build from there. For a reference alongside the game, read our <a href="/blog/hebrew-alphabet-complete-guide/">Hebrew alphabet guide</a>.</p>
         </div>
-        <div class="play-section"><h2 class="home-h2">How Alef Bet Rush Teaches the Alef Bet</h2></div>
-        <div class="play-grid">
-          {[
-            ['Learn', 'Meet the letters and listen to their Hebrew names before answering questions. Take time to notice the shape of each letter.'],
-            ['Recognize', 'Choose the letter that matches the prompt. Recalling a shape yourself helps it stick more than simply looking at a chart.'],
-            ['Rush', 'Put familiar letters into practice in a faster round. Keep recognising what you have learned while the pace changes.'],
-            ['Review', 'Revisit letters through spaced recall and corrective feedback. Mistakes show you what to practise next; mastery builds with each answer.'],
-          ].map(([title, copy]) => <article class="play-card"><h3 class="home-h3">{title}</h3><p>{copy}</p></article>)}
-        </div>
+        <h3 class="play-subsection-title">How Alef Bet Rush Teaches the Alef Bet</h3>
+        <FeatureGrid items={learningStages} headingLevel="h4" />
       </Section>
       <Section>
-        <div class="play-section"><h2 class="home-h2">Practice Hebrew Letter Recognition</h2><p>Recognising a letter means recalling it when you need it. Repeated exposure, active recall and spaced review help turn an unfamiliar shape into a letter you can identify with confidence. The Galaxy Map lets you follow your mission progression.</p></div>
-        <div class="play-section"><h2 class="home-h2">Learn Hebrew Letter Names and Pronunciation</h2><p>Hear native Hebrew letter-name audio as you learn. Letter names help you talk about the alphabet, but a letter name is not always the sound that letter makes in a word. Reading practice comes next.</p></div>
-        <div class="play-section"><h2 class="home-h2">Hebrew Letters Beginners Often Confuse</h2><p>Some Hebrew letters have similar shapes. Slow down and notice the details before choosing. The game includes similar-letter practice and review so you can work on distinctions that still feel uncertain.</p></div>
-        <div class="play-section"><h2 class="home-h2">What You'll Learn</h2><p>Practise identifying the standard Hebrew letters, connect their shapes with their names, and build confidence before moving on to vowels and reading. This game focuses on the alphabet; it is a starting point for a longer learning journey.</p></div>
-      </Section>
-      <Section surface="soft">
-        <div class="play-section"><h2 class="home-h2">What Comes After the Hebrew Alphabet?</h2><p>Next, learn the final forms used at the ends of words, explore Nikud vowel marks, and practise reading real words. Our <a href="/blog/how-to-read-hebrew-nikud/">guide to reading Hebrew with Nikud</a> explains the next step.</p></div>
-        <div class="play-section"><h2 class="home-h2">Continue Learning Hebrew</h2><p>Build on your alphabet practice with structured lessons, vocabulary and beginner reading in the HebrewEdu app.</p><StoreButtons location="alef_bet_rush_continue" /></div>
+        <LearningMosaic items={learningTopics} />
       </Section>
       <Faq title="Frequently Asked Questions" items={[
         { q: 'Is Alef Bet Rush free?', a: 'Yes. You can play the browser game for free without creating an account.' },
@@ -69,7 +82,29 @@ const schema = {
       ]}>
         <Fragment slot="answer-5">Visit <a href="/play/">Hebrew learning games</a> or follow our <a href="/blog/learn-hebrew-alphabet-7-days/">seven-day alphabet learning plan</a>.</Fragment>
       </Faq>
+      <CtaPanel compact>
+        <h2 class="home-h2">Continue Learning Hebrew</h2>
+        <p class="home-lead">Build on your alphabet practice with structured lessons, vocabulary and beginner reading in the HebrewEdu app.</p>
+        <StoreButtons location="alef_bet_rush_continue" />
+      </CtaPanel>
     </main>
     <Footer />
   </div>
 </Layout>
+
+<style>
+  .play-subsection-title {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-family: var(--font-display);
+    font-size: clamp(1.75rem, 2.2vw, 2rem);
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: var(--home-text-primary);
+  }
+
+  @media (max-width: 560px) {
+    .play-subsection-title { margin-bottom: 1.5rem; }
+  }
+</style>

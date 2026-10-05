@@ -1,36 +1,12 @@
 ---
 import StoreButtons from '../ui/StoreButtons.astro';
+import CtaPanel from '../ui/CtaPanel.astro';
 ---
 
-<section class="cta">
-  <div class="container">
-    <div class="cta-panel">
+<CtaPanel>
       <h2 class="home-h2">Ready to start reading Hebrew?</h2>
       <p class="home-lead">
         Begin with the alphabet and build from there.
       </p>
       <StoreButtons location="download_cta" />
-    </div>
-  </div>
-</section>
-
-<style>
-.cta {
-  padding-block: var(--home-section-y);
-  background: var(--home-surface-white);
-}
-
-.cta-panel {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: clamp(3rem, 8vw, 6rem) clamp(1.5rem, 5vw, 4rem);
-  background: var(--home-surface-soft);
-  border-radius: var(--home-radius-lg);
-  text-align: center;
-}
-.cta-panel p {
-  max-width: 34rem;
-  margin-block: var(--home-stack) 2.25rem;
-}
-</style>
+</CtaPanel>
