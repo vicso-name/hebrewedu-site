@@ -1,8 +1,12 @@
+---
+import KeyArt from './KeyArt.astro';
+---
 <div class="game-mount" id="alef-bet-rush" data-game-mount>
   <div class="game-preview" data-game-preview>
     <p class="home-eyebrow">Free browser practice</p>
     <h2 class="home-h3">Alef Bet Rush</h2>
     <p>Learn the Hebrew alphabet, one mission at a time.</p>
+    <div class="game-preview-art"><KeyArt alt="" fit="contain" sizes="(max-width: 1280px) 90vw, 960px" /></div>
     <button class="btn btn-primary" type="button" data-game-play aria-controls="alef-bet-rush-player" aria-describedby="game-instructions">Play free</button>
     <p id="game-instructions">Use your keyboard or touch controls. Audio starts with interaction inside the game.</p>
     <noscript><p>Enable JavaScript to play. You can still read the alphabet guide below.</p></noscript>
@@ -16,7 +20,9 @@
 
 <style>
   .game-mount { position: relative; width: 100%; height: min(760px, calc(100svh - 92px)); min-height: 360px; border: 1px solid var(--home-border-subtle); border-radius: var(--home-radius-md); background: var(--home-surface-soft); }
-  .game-preview { height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1rem; padding: 1.5rem; text-align: center; }
+  .game-preview { height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .75rem; padding: clamp(1rem, 3vw, 1.5rem); text-align: center; }
+  .game-preview > :not(.game-preview-art) { flex-shrink: 0; }
+  .game-preview-art { flex: 1; min-height: 0; width: 100%; max-width: 960px; }
   .game-preview p { max-width: 36rem; }
   .game-preview [id] { font-size: .875rem; color: var(--home-text-secondary); }
   iframe { display: block; width: 100%; height: 100%; border: 0; border-radius: inherit; }

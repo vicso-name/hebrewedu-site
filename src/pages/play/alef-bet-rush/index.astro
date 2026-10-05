@@ -1,4 +1,5 @@
 ---
+import KeyArt from '../../../components/play/KeyArt.astro';
 import Layout from '../../../layouts/Layout.astro';
 import Nav from '../../../components/Nav.astro';
 import Footer from '../../../components/Footer.astro';
@@ -16,7 +17,7 @@ const schema = {
   ],
 };
 ---
-<Layout title="Hebrew Alphabet Game: Learn the Alef Bet | HebrewEdu" description="Play Alef Bet Rush, a free Hebrew alphabet game for beginners. Learn all 22 Hebrew letters with native audio, recognition practice and spaced review." schema={schema}>
+<Layout title="Hebrew Alphabet Game: Learn the Alef Bet | HebrewEdu" description="Play Alef Bet Rush, a free Hebrew alphabet game for beginners. Learn all 22 Hebrew letters with native audio, recognition practice and spaced review." schema={schema} image="/images/play/alef-bet-rush-og.jpg">
   <link slot="head" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" />
   <div class="home-page play-page">
     <Nav />
@@ -24,13 +25,13 @@ const schema = {
       <section class="play-hero">
         <div class="container">
           <nav class="play-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/play/">Play</a> / Alef Bet Rush</nav>
-          <div class="play-copy">
+          <div class="play-hero-grid"><div class="play-copy">
             <p class="home-eyebrow">Hebrew alphabet game</p>
             <h1 class="home-h1">Alef Bet Rush: Free Hebrew Alphabet Game</h1>
             <p class="home-lead">Learn all 22 Hebrew letters through a space adventure with native Hebrew letter-name audio.</p>
             <p>22 letters · 8 planets · 24 missions</p>
             <p>Start with the first letters, practise recognising their shapes, and return to the ones that need another look. Play free in your browser, with no account required.</p>
-          </div>
+          </div><div class="play-hero-art"><KeyArt loading="eager" sizes="(max-width: 900px) min(640px, 90vw), (max-width: 1280px) 43vw, 540px" /></div></div>
         </div>
       </section>
       <Section id="game" surface="white"><GameMount /></Section>

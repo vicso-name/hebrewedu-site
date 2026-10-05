@@ -32,7 +32,7 @@ Every copied HTML document gets `<meta name="robots" content="noindex, follow" /
 
 Only landing routes appear in navigation, SEO links, structured data and sitemap. Do not disallow the runtime in robots.txt: crawlers must be able to fetch its noindex directive. Static artifact HTML bypasses the Astro layout and its default index metadata.
 
-`GameMount.astro` renders a static text preview and a native Play free button. The iframe has no `src` and stays hidden until the button is explicitly activated, including by keyboard. There is no intersection observer, preload, eager fetch or autoplay delegation. Activating assigns the same-origin runtime URL, reveals the iframe and moves focus into it. The existing runtime requires another interaction to start the mission audio.
+`GameMount.astro` renders a static preview with the approved key art and a native Play free button. The iframe has no `src` and stays hidden until the button is explicitly activated, including by keyboard. There is no intersection observer, preload, eager fetch or autoplay delegation. Activating assigns the same-origin runtime URL, reveals the iframe and moves focus into it. The existing runtime requires another interaction to start the mission audio.
 
 The player reserves its height before activation, scales to the page width, and fits beneath the sticky header. No sandbox is applied to the trusted same-origin artifact: localStorage, audio, visibility lifecycle and user-triggered store popups retain normal browser behavior. No extra iframe permissions are granted. Iframe isolation separates the game document and styles; it is not a security boundary against trusted same-origin code.
 
@@ -56,6 +56,6 @@ QA screenshots and detailed measurements are available locally under `/tmp/alef-
 
 ## Limitations
 
-No approved product key art or game OG image was supplied in this Astro repository. The preview uses static text, and social metadata retains the existing HebrewEdu OG image. Add approved art in a later release without loading runtime assets eagerly.
+Approved artwork lives in `src/assets/play/alef-bet-rush-key-art.png`. The shared `KeyArt.astro` component uses Astro Picture to produce AVIF/WebP with a JPEG fallback at 320, 480, 640, 960 and 1280 pixels wide. Heroes load eagerly; the featured card and game preview load lazily. All placements preserve the full composition. Only the product page uses the derived 1200×630 JPEG social image at `/images/play/alef-bet-rush-og.jpg`; the hub retains the existing site social image. The approved PNG is the single source asset; do not replace or regenerate it.
 
 Browser QA is Chromium emulation, not physical iOS/Android device testing. Progress is browser-local, not cross-device. The game's own canvas accessibility and lifecycle behavior remain owned by the upstream project. Sync checks known production asset references and the complete audio manifest; browser boot/network QA remains part of every release to catch dynamically constructed references.

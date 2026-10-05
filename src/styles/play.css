@@ -14,3 +14,12 @@
 .play-page .play-faq summary { cursor: pointer; font-weight: 600; }
 .play-page .play-faq p { margin-top: .75rem; color: var(--home-text-secondary); }
 @media (max-width: 768px) { .play-page .play-grid { grid-template-columns: 1fr; } }
+
+.play-page .play-hero-grid { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); gap: var(--home-gap); align-items: center; }
+.play-page .play-hero-art { width: 100%; max-width: 640px; margin-inline: auto; }
+.play-page .play-featured { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: clamp(1.5rem, 4vw, 3rem); align-items: center; }
+.play-page .play-featured-copy > * + * { margin-top: 1rem; }
+.play-page .play-featured > .play-featured-art { margin-top: 0; width: 100%; max-width: 640px; margin-inline: auto; }
+@media (max-width: 900px) {
+  .play-page .play-hero-grid, .play-page .play-featured { grid-template-columns: 1fr; }
+}
