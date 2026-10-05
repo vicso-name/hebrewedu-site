@@ -1,17 +1,24 @@
 ---
 import Section from '../ui/Section.astro';
-import { faqs } from '../../data/faq';
+import { faqs, type Faq } from '../../data/faq';
+
+interface Props {
+  items?: Faq[];
+  title?: string;
+}
+
+const { items = faqs, title = 'Frequently asked questions' } = Astro.props;
 ---
 
 <Section surface="soft">
   <div class="faq">
-    <h2 class="home-h2">Frequently asked questions</h2>
+    <h2 class="home-h2">{title}</h2>
 
     <div class="faq-list">
-      {faqs.map(f => (
+      {items.map((f, index) => (
         <details class="faq-item">
           <summary>{f.q}</summary>
-          <p class="home-lead">{f.a}</p>
+          <p class="home-lead"><slot name={`answer-${index}`}>{f.a}</slot></p>
         </details>
       ))}
     </div>

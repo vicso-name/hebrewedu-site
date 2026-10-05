@@ -1,4 +1,5 @@
 ---
+import Faq from '../../components/home/Faq.astro';
 import KeyArt from '../../components/play/KeyArt.astro';
 import Layout from '../../layouts/Layout.astro';
 import Nav from '../../components/Nav.astro';
@@ -13,12 +14,11 @@ const schema = { '@context': 'https://schema.org', '@type': 'WebPage', url, name
 <Layout title="Free Hebrew Learning Games Online | HebrewEdu" description="Play free Hebrew learning games for beginners. Start with the Alef Bet and Hebrew letter recognition, then continue learning with HebrewEdu." schema={schema}>
   <link slot="head" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" />
   <div class="home-page play-page"><Nav /><main>
-    <section class="play-hero"><div class="container play-hero-grid"><div class="play-copy">
+    <section class="play-hero"><div class="container"><div class="play-copy play-hub-copy">
       <p class="home-eyebrow">Learn Hebrew by playing</p><h1 class="home-h1">Free Hebrew Learning Games for Beginners</h1>
       <p class="home-lead">Build Hebrew skills through short interactive games. Start with the Alef Bet, practise recognition, and move step by step toward reading.</p>
-      <a class="btn btn-primary" href="/play/alef-bet-rush/">Play Alef Bet Rush</a>
-    </div><div class="play-hero-art"><KeyArt loading="eager" sizes="(max-width: 900px) min(640px, 90vw), (max-width: 1280px) 43vw, 540px" /></div></div></section>
-    <Section surface="soft"><article class="play-card play-featured"><div class="play-featured-copy">
+    </div></div></section>
+    <Section surface="soft" class="play-hub-games"><article class="play-card play-featured"><div class="play-featured-copy">
       <p class="home-eyebrow">Hebrew alphabet · Free browser game</p><h2 class="home-h2">Alef Bet Rush</h2>
       <p>Learn and recognise all 22 Hebrew letters through 24 missions across 8 planets, with native Hebrew letter-name audio.</p>
       <p>Learn, Recognize, Rush and Review: meet the letters, recall their shapes, and revisit what needs more practice.</p>
@@ -30,13 +30,17 @@ const schema = { '@context': 'https://schema.org', '@type': 'WebPage', url, name
       <div class="play-section"><h2 class="home-h2">Start with the Hebrew Alphabet</h2><p>New to Hebrew? Pair Alef Bet Rush with our <a href="/blog/hebrew-alphabet-complete-guide/">complete Hebrew alphabet guide</a>. Use the guide as a reference, then practise recalling the letters in the game.</p></div>
     </Section>
     <Section surface="soft">
-      <div class="play-section"><h2 class="home-h2">What Comes After the Alef Bet?</h2><p>Learn final forms and <a href="/blog/how-to-read-hebrew-nikud/">Nikud vowel marks</a>, then read real words and beginner stories. Alphabet recognition is the first step toward reading with confidence.</p></div>
       <div class="play-section"><h2 class="home-h2">Learn Beyond the Games</h2><p>Continue with structured Hebrew lessons, vocabulary and reading practice in HebrewEdu.</p><StoreButtons location="play_continue" /></div>
     </Section>
-    <Section><div class="play-section"><h2 class="home-h2">Frequently Asked Questions</h2></div><div class="play-faq">
-      <details><summary>Are these Hebrew games free?</summary><p>Alef Bet Rush is free to play in your browser, with no account required.</p></details>
-      <details><summary>Which game should beginners start with?</summary><p>Start with <a href="/play/alef-bet-rush/">Alef Bet Rush</a> to learn the standard Hebrew letters and their names.</p></details>
-      <details><summary>Do games replace a Hebrew course?</summary><p>Games help you practise a specific skill. Combine them with structured lessons and reading for a broader learning path.</p></details>
-    </div></Section>
+    <Section surface="white">
+      <div class="play-section"><h2 class="home-h2">What Comes After the Alef Bet?</h2><p>Learn final forms and <a href="/blog/how-to-read-hebrew-nikud/">Nikud vowel marks</a>, then read real words and beginner stories. Alphabet recognition is the first step toward reading with confidence.</p></div>
+    </Section>
+    <Faq title="Frequently Asked Questions" items={[
+      { q: 'Are these Hebrew games free?', a: 'Alef Bet Rush is free to play in your browser, with no account required.' },
+      { q: 'Which game should beginners start with?', a: '' },
+      { q: 'Do games replace a Hebrew course?', a: 'Games help you practise a specific skill. Combine them with structured lessons and reading for a broader learning path.' },
+    ]}>
+      <Fragment slot="answer-1">Start with <a href="/play/alef-bet-rush/">Alef Bet Rush</a> to learn the standard Hebrew letters and their names.</Fragment>
+    </Faq>
   </main><Footer /></div>
 </Layout>
