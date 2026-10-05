@@ -4,7 +4,6 @@
 .play-page .play-copy { max-width: 52rem; }
 .play-page .play-hub-copy { max-width: 50rem; }
 .play-page .play-hub-games { padding-top: clamp(2rem, 4vw, 3rem); }
-.play-page .play-game-section { padding-top: 0; }
 .play-page .play-copy > * + * { margin-top: 1.5rem; }
 .play-page .play-card { padding: clamp(1.5rem, 4vw, 2.5rem); border: 1px solid var(--home-border-subtle); border-radius: var(--home-radius-md); background: var(--home-surface-white); }
 .play-page .play-card > * + *, .play-page .play-section > * + * { margin-top: 1rem; }

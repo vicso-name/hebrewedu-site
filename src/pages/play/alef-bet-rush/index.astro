@@ -8,7 +8,6 @@ import FeatureGrid, { type FeatureItem } from '../../../components/ui/FeatureGri
 import LearningMosaic, { type LearningItem } from '../../../components/play/LearningMosaic.astro';
 import CtaPanel from '../../../components/ui/CtaPanel.astro';
 import StoreButtons from '../../../components/ui/StoreButtons.astro';
-import GameMount from '../../../components/play/GameMount.astro';
 import '../../../styles/home.css';
 import '../../../styles/play.css';
 const learningStages = [
@@ -56,10 +55,10 @@ const schema = {
             <p class="home-eyebrow">Hebrew alphabet game</p>
             <h1 class="home-h1">Alef Bet Rush: Free Hebrew Alphabet Game</h1>
             <p class="home-lead">Learn all 22 Hebrew letters through a space adventure with native Hebrew letter-name audio. Start with the first letters, practise recognising their shapes, and return to the ones that need another look. Play free in your browser, with no account required.</p>
+            <a class="btn btn-primary play-launch" href="/play/alef-bet-rush/game/">Play Now</a>
           </div>
         </div>
       </section>
-      <Section id="game" surface="white" class="play-game-section"><GameMount /></Section>
       <Section surface="soft">
         <div class="play-section">
           <h2 class="home-h2">Learn All 22 Hebrew Letters by Playing</h2>
@@ -106,5 +105,11 @@ const schema = {
 
   @media (max-width: 560px) {
     .play-subsection-title { margin-bottom: 1.5rem; }
+  }
+
+  .play-launch {
+    min-height: 56px;
+    padding-inline: 2rem;
+    justify-content: center;
   }
 </style>
