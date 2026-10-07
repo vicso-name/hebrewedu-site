@@ -149,6 +149,8 @@ No “where did I see that verb again?” moments.
 
 # Built for Modern Hebrew Learners
 
+The verb directory is part of a longer teaching story. Read [how Learn Hebrew – Read & Speak grew from an alphabet trainer into a broader learning system](/blog/story-behind-learn-hebrew-read-speak/) for the creator’s perspective.
+
 At Alef-Bet Tutor, we believe language learning tools should feel:
 - clean,
 - motivating,

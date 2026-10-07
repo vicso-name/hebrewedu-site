@@ -428,6 +428,19 @@
 
 .article-body img { margin-top: 1.75em; height: auto; border-radius: 12px; }
 
+/* A portrait app capture alongside an editorial caption. */
+.article-body .article-screenshot {
+  max-width: 320px;
+  margin: 2em auto;
+}
+.article-screenshot img { width: 100%; }
+.article-screenshot figcaption {
+  margin-top: 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: var(--blog-text-secondary);
+}
+
 .article-body table {
   width: 100%;
   margin-top: 1.75em;

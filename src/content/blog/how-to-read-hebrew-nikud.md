@@ -61,6 +61,8 @@ For now: Nikud is your training system. It gives you information that native rea
 
 Use it fully.
 
+For a product perspective on this transition, [the app’s creator explains how Nikud and supported reading grew out of an alphabet trainer](/blog/story-behind-learn-hebrew-read-speak/).
+
 ---
 
 ## The Core Nikud Marks

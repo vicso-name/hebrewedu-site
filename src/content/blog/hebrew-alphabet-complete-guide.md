@@ -153,6 +153,8 @@ The second phase — understanding what you're reading — takes longer. But it 
 
 ## Where to Start Today
 
+For the teaching idea behind this sequence, read [why the app was built around a progression from letters to understanding](/blog/story-behind-learn-hebrew-read-speak/).
+
 The most effective approach for learning the Hebrew alphabet is:
 
 1. **Learn the letter names and basic shapes** — just recognition, no writing yet
