@@ -1,0 +1,178 @@
+---
+import Faq from '../../../components/home/Faq.astro';
+import Layout from '../../../layouts/Layout.astro';
+import Nav from '../../../components/Nav.astro';
+import Footer from '../../../components/Footer.astro';
+import Section from '../../../components/ui/Section.astro';
+import FeatureGrid, { type FeatureItem } from '../../../components/ui/FeatureGrid.astro';
+import LearningMosaic, { type LearningItem } from '../../../components/play/LearningMosaic.astro';
+import CtaPanel from '../../../components/ui/CtaPanel.astro';
+import StoreButtons from '../../../components/ui/StoreButtons.astro';
+import '../../../styles/home.css';
+import '../../../styles/play.css';
+
+const howItWorks = [
+  { icon: 'target', title: 'Find a pair', description: 'Tap a free tile with a Hebrew letter, then the tile with its name — for example ש and Shin. Only free tiles can be selected; a tile is free when nothing covers it and one side is open.' },
+  { icon: 'book', title: 'Hear it', description: 'New letters are introduced with recorded audio. If you pick the wrong pair, the board shows and speaks the correct answer so you learn from the mistake.' },
+  { icon: 'repeat', title: 'Clear the board', description: 'Each board takes about 1–2 minutes to clear. Letters you miss come back more often until they become familiar.' },
+] satisfies FeatureItem[];
+
+const whyItWorks = [
+  {
+    title: 'Every Match Is a Memory Test',
+    description: ['Instead of matching two identical pictures, you recall a letter name from memory each time you choose a pair. That small act of recall is what makes a letter stick.'],
+  },
+  {
+    title: 'Built for Look-Alike Letters',
+    description: ['Dalet and Resh, Bet and Kaf, Vav and Yod, and other easily confused letters are introduced carefully and revisited, so the differences that matter become familiar.'],
+  },
+  {
+    title: 'It Adapts as You Play',
+    description: ['Letters you find difficult appear more often, while letters you already know fade into lighter review. The game keeps adjusting to where your practice is actually needed.'],
+  },
+  {
+    title: 'No Pressure, Ear and Eye Together',
+    description: ['There is no timer, no lives and no game-over screen, so you can take the time a letter needs. Recorded letter-name audio reinforces the written form as you play.'],
+  },
+] satisfies [LearningItem, LearningItem, LearningItem, LearningItem];
+
+const url = 'https://hebrewedu.com/play/hebrew-mahjong/';
+const alefBetRushUrl = 'https://hebrewedu.com/play/alef-bet-rush/';
+const playUrl = 'https://hebrewedu.com/play/';
+
+const faqItems = [
+  { q: 'Is Hebrew Mahjong free?', a: 'Yes. It runs in your browser with no account, download or payment.' },
+  { q: 'Do I need to know Mahjong?', a: 'No. Tap two free tiles that belong together. A tile is free when nothing covers it and one side is open.' },
+  { q: 'How many Hebrew letters does it teach?', a: 'All 22 standard Hebrew letters, introduced gradually in 7 sets.' },
+  { q: 'Does it teach Hebrew vowels (niqqud)?', a: 'Not yet. This game focuses on the alphabet and letter names. Niqqud and reading practice are the next step in HebrewEdu.' },
+  { q: 'Does it work on my phone?', a: 'Yes. It works on modern phones, tablets and computers, and progress is saved locally in the browser.' },
+  { q: 'What is the aleph-bet?', a: 'It is the Hebrew name for the Hebrew alphabet, from its first two letters, Alef and Bet.' },
+];
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    { '@type': 'WebPage', '@id': url, url, name: 'Hebrew Mahjong: Learn the Hebrew Alphabet by Playing' },
+    {
+      '@type': ['VideoGame', 'WebApplication'],
+      name: 'Hebrew Mahjong',
+      url,
+      applicationCategory: 'EducationalApplication',
+      operatingSystem: 'Web',
+      isAccessibleForFree: true,
+      educationalLevel: 'Beginner',
+      inLanguage: 'en',
+      offers: { '@type': 'Offer', price: 0, priceCurrency: 'USD' },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: ['Home', 'Play', 'Hebrew Mahjong'].map((name, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name,
+        item: ['https://hebrewedu.com/', playUrl, url][i],
+      })),
+    },
+    {
+      '@type': 'FAQPage',
+      mainEntity: faqItems.map(({ q, a }) => ({
+        '@type': 'Question',
+        name: q,
+        acceptedAnswer: { '@type': 'Answer', text: a },
+      })),
+    },
+  ],
+};
+---
+<Layout title="Hebrew Mahjong – Free Hebrew Alphabet Game Online" description="Learn all 22 Hebrew letters by playing Mahjong solitaire. Match each letter to its name, hear it spoken and watch your aleph-bet grow. Free, no sign-up." schema={schema}>
+  <link slot="head" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" />
+  <div class="home-page play-page">
+    <Nav />
+    <main>
+      <section class="play-hero">
+        <div class="container">
+          <nav class="play-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/play/">Play</a> / Hebrew Mahjong</nav>
+          <div class="play-copy">
+            <p class="home-eyebrow">Hebrew alphabet game</p>
+            <h1 class="home-h1">Hebrew Mahjong: Learn the Hebrew Alphabet by Playing</h1>
+            <p class="home-lead">A calm Mahjong solitaire where every pair is a Hebrew letter and its name. Master all 22 letters of the aleph-bet in short, relaxing games.</p>
+            <a class="btn btn-primary play-launch" href="/play/hebrew-mahjong/game/">Play Free Now</a>
+            <p class="play-hero-note">No download, no account. Works on phone and computer.</p>
+          </div>
+        </div>
+      </section>
+
+      <Section surface="soft">
+        <div class="play-section">
+          <h2 class="home-h2">A Real Mahjong Solitaire That Teaches Hebrew Letters</h2>
+          <p>Hebrew Mahjong is a free hebrew alphabet game built around a real Mahjong solitaire board: 24 tiles stacked in 2–3 layers, across three layouts — Pyramid, Tower and Lantern. Only free tiles can be selected, and each valid pair joins a Hebrew letter with its letter name.</p>
+          <p>Unlike classic Mahjong, identical tiles never match here — you always have to recall a name, not just spot a duplicate. It's a hebrew letter matching game for anyone who wants to learn the hebrew alphabet for adults without a childish wrapper. For background reading alongside the game, see our <a href="/blog/hebrew-alphabet-complete-guide/">Hebrew alphabet guide</a>.</p>
+        </div>
+        <h3 class="play-subsection-title">How Hebrew Mahjong Works</h3>
+        <FeatureGrid items={howItWorks} headingLevel="h4" />
+      </Section>
+
+      <Section>
+        <h2 class="home-h2 play-why-heading">Why It Works</h2>
+        <LearningMosaic items={whyItWorks} />
+      </Section>
+
+      <Section surface="soft">
+        <div class="play-section">
+          <h2 class="home-h2">What You'll Learn</h2>
+          <p>Hebrew Mahjong covers all 22 standard Hebrew letters and their names, staged across 7 sets so you are never faced with the whole aleph-bet at once. Letters that look alike — such as Dalet/Resh, Bet/Kaf and Vav/Yod — are introduced carefully and brought back for review until they are easy to tell apart.</p>
+          <p><strong>Final forms, niqqud and reading words are not the focus of this game.</strong> Once you know the aleph-bet, continue with niqqud, vocabulary and beginner reading in the HebrewEdu app.</p>
+        </div>
+      </Section>
+
+      <Section>
+        <div class="play-section">
+          <h2 class="home-h2">Who It's For</h2>
+          <p>Hebrew Mahjong is for adults and teens starting Hebrew from zero who want something less childish than a kids' alphabet app, for bar and bat mitzvah students, and for anyone learning modern or Biblical Hebrew. It also works well for parents learning alongside their kids, and for Mahjong players who want a familiar game that teaches something real — including <a href={alefBetRushUrl}>another Hebrew alphabet game</a>, Alef Bet Rush, if you'd like a faster-paced way to practise the same letters.</p>
+        </div>
+      </Section>
+
+      <Faq title="Frequently Asked Questions" items={faqItems} />
+
+      <CtaPanel compact>
+        <h2 class="home-h2">Continue Learning Hebrew</h2>
+        <p class="home-lead">After mastering the alphabet, continue with niqqud, vocabulary and beginner reading in the HebrewEdu app.</p>
+        <StoreButtons location="hebrew_mahjong_continue" />
+      </CtaPanel>
+    </main>
+    <Footer />
+  </div>
+</Layout>
+
+<style>
+  .play-subsection-title {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-family: var(--font-display);
+    font-size: clamp(1.75rem, 2.2vw, 2rem);
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: var(--home-text-primary);
+  }
+
+  .play-why-heading {
+    margin-bottom: 2rem;
+  }
+
+  @media (max-width: 560px) {
+    .play-subsection-title { margin-bottom: 1.5rem; }
+  }
+
+  .play-launch {
+    min-height: 56px;
+    padding-inline: 2rem;
+    justify-content: center;
+  }
+
+  .play-hero-note {
+    margin-top: 0.75rem;
+    font-size: 0.9375rem;
+    color: var(--home-text-tertiary);
+  }
+</style>

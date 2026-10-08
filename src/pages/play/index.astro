@@ -46,21 +46,39 @@ const learningTopics = [
       <p class="home-eyebrow">Learn Hebrew by playing</p><h1 class="home-h1">Free Hebrew Learning Games for Beginners</h1>
       <p class="home-lead">Build Hebrew skills through short interactive games. Start with the Alef Bet, practise recognition, and move step by step toward reading.</p>
     </div></div></section>
-    <Section surface="soft" class="play-hub-games"><article class="play-card play-featured"><div class="play-featured-copy">
-      <p class="home-eyebrow">Hebrew alphabet · Free browser game</p><h2 class="home-h2">Alef Bet Rush</h2>
-      <p>Learn and recognise all 22 Hebrew letters through 24 missions across 8 planets, with native Hebrew letter-name audio.</p>
-      <p>Learn, Recognize, Rush and Review: meet the letters, recall their shapes, and revisit what needs more practice.</p>
-      <a class="btn btn-primary" href="/play/alef-bet-rush/">Play free</a>
-    </div><div class="play-featured-art"><KeyArt alt="" sizes="(max-width: 900px) min(640px, 80vw), (max-width: 1280px) 38vw, 480px" /></div></article></Section>
+    <Section surface="soft" class="play-hub-games"><div class="play-catalog">
+      <article class="play-card play-catalog-card">
+        <div class="play-catalog-art"><KeyArt alt="" fit="cover" sizes="(max-width: 900px) min(640px, 90vw), (max-width: 1280px) 42vw, 420px" /></div>
+        <p class="home-eyebrow">Hebrew alphabet · Free browser game</p><h2 class="home-h2">Alef Bet Rush</h2>
+        <p>Learn and recognise all 22 Hebrew letters through 24 missions across 8 planets, with native Hebrew letter-name audio.</p>
+        <p>Learn, Recognize, Rush and Review: meet the letters, recall their shapes, and revisit what needs more practice.</p>
+        <div class="play-catalog-cta">
+          <a class="btn btn-outline" href="/play/alef-bet-rush/">Read More</a>
+          <a class="btn btn-primary" href="/play/alef-bet-rush/game/">Play Now</a>
+        </div>
+      </article>
+      <article class="play-card play-catalog-card">
+        <div class="play-catalog-art">
+          <img src="/images/play/hebrew-mahjong-key-art.jpg" alt="Hebrew Mahjong game board with Hebrew letter tiles" width="1200" height="675" loading="lazy" decoding="async" />
+        </div>
+        <p class="home-eyebrow">Hebrew alphabet · Mahjong puzzle</p><h2 class="home-h2">Hebrew Mahjong</h2>
+        <p>Match Hebrew letters with their names in a real Mahjong-style puzzle. Clear layered boards, hear recorded letter names, and practise all 22 letters at your own pace.</p>
+        <p>Letters unlock gradually, look-alike letters are introduced carefully, and the game brings difficult letters back more often.</p>
+        <div class="play-catalog-cta">
+          <a class="btn btn-outline" href="/play/hebrew-mahjong/">Read More</a>
+          <a class="btn btn-primary" href="/play/hebrew-mahjong/game/">Play Now</a>
+        </div>
+      </article>
+    </div></Section>
     <Section>
       <LearningMosaic items={learningTopics} />
     </Section>
     <Faq title="Frequently Asked Questions" items={[
-      { q: 'Are these Hebrew games free?', a: 'Alef Bet Rush is free to play in your browser, with no account required.' },
+      { q: 'Are these Hebrew games free?', a: 'Yes. Both Alef Bet Rush and Hebrew Mahjong are free to play in your browser, with no account required.' },
       { q: 'Which game should beginners start with?', a: '' },
       { q: 'Do games replace a Hebrew course?', a: 'Games help you practise a specific skill. Combine them with structured lessons and reading for a broader learning path.' },
     ]}>
-      <Fragment slot="answer-1">Start with <a href="/play/alef-bet-rush/">Alef Bet Rush</a> to learn the standard Hebrew letters and their names.</Fragment>
+      <Fragment slot="answer-1"><a href="/play/alef-bet-rush/">Alef Bet Rush</a> gives you a guided introduction to each letter before practice, while <a href="/play/hebrew-mahjong/">Hebrew Mahjong</a> leans on matching and recognition across a broader board. Either is a reasonable starting point; try both and see which style you enjoy more.</Fragment>
     </Faq>
     <CtaPanel compact>
       <h2 class="home-h2">Learn Beyond the Games</h2>
@@ -69,3 +87,66 @@ const learningTopics = [
     </CtaPanel>
   </main><Footer /></div>
 </Layout>
+
+<style>
+  .play-catalog {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--home-gap);
+    align-items: stretch;
+  }
+
+  .play-catalog-card { display: flex; flex-direction: column; }
+
+  .play-catalog-art {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border-radius: var(--home-radius-md);
+  }
+
+  .play-catalog-art > img,
+  .play-catalog-art :global(img) {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .play-catalog-cta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: auto;
+    padding-top: 1rem;
+  }
+
+  .play-catalog-cta .btn {
+    flex: 1 1 auto;
+    justify-content: center;
+    white-space: nowrap;
+  }
+
+  @media (max-width: 900px) {
+    .play-catalog { grid-template-columns: 1fr; }
+
+    .play-catalog-cta {
+      flex-wrap: nowrap;
+    }
+
+    .play-catalog-cta .btn {
+      flex: 1 1 0;
+      padding-inline: 1rem;
+    }
+  }
+
+  @media (max-width: 420px) {
+    .play-catalog-cta {
+      flex-direction: column;
+    }
+
+    .play-catalog-cta .btn {
+      width: 100%;
+    }
+  }
+</style>
