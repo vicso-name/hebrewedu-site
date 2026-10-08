@@ -6,7 +6,7 @@ interface Props {
   sizes: string;
   alt?: string;
   loading?: 'lazy' | 'eager';
-  fit?: 'natural' | 'contain';
+  fit?: 'natural' | 'contain' | 'cover';
 }
 const {
   sizes,
@@ -15,7 +15,7 @@ const {
   fit = 'natural',
 } = Astro.props;
 ---
-<div class:list={['key-art', { 'key-art--contain': fit === 'contain' }]}>
+<div class:list={['key-art', { 'key-art--contain': fit === 'contain', 'key-art--cover': fit === 'cover' }]}>
   <Picture
     src={keyArt}
     alt={alt}
@@ -35,4 +35,5 @@ const {
   .key-art :global(img) { display: block; width: 100%; height: auto; border-radius: var(--home-radius-md); }
   .key-art--contain, .key-art--contain :global(picture) { display: block; height: 100%; }
   .key-art--contain :global(img) { height: 100%; object-fit: contain; }
+  .key-art--cover :global(img) { aspect-ratio: 16 / 9; height: auto; object-fit: cover; }
 </style>

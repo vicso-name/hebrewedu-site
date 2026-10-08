@@ -95,7 +95,7 @@ const related = (await getSortedPosts())
             <Content />
           </div>
 
-          <div class="article-cta">
+          {post.data.showAppCta && <div class="article-cta">
             <p class="article-cta-text">Ready to start reading Hebrew?</p>
             <a
               href={site.stores.googlePlay.url}
@@ -108,7 +108,7 @@ const related = (await getSortedPosts())
             >
               <img src="/googleplay-badge.svg" alt="Get it on Google Play" height="48" />
             </a>
-          </div>
+          </div>}
 
         </div>
       </article>

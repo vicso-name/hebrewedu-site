@@ -17,6 +17,7 @@ const blog = defineCollection({
     category:    z.string(),
     readingTime: z.string(),
     featured:    z.boolean().default(false),
+    showAppCta:  z.boolean().default(true),
     tags:        z.array(z.string()).optional(),
   }),
 });

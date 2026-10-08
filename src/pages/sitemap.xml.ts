@@ -24,6 +24,7 @@ export const GET: APIRoute = async () => {
   const staticPages = [
     { url: '/play/', priority: '0.8', changefreq: 'monthly', lastmod: '2026-10-05' },
     { url: '/play/alef-bet-rush/', priority: '0.9', changefreq: 'monthly', lastmod: '2026-10-05' },
+    { url: '/play/hebrew-mahjong/', priority: '0.9', changefreq: 'monthly', lastmod: '2026-10-08' },
     {
       url: '/',
       priority: '1.0',

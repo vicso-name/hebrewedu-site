@@ -146,6 +146,8 @@ This is one place where the founder's three roles have to negotiate. The teacher
 
 His compromise is to use gameplay to practice knowledge. Rewards should encourage the activity rather than become its entire purpose. For browser-based practice, the website's [Play section](/play/) offers a separate place to try Hebrew learning games; it is not the app's Trainer Hub.
 
+The separate founder interview on [what makes a language-learning game educational](/blog/what-makes-a-language-learning-game-educational/) examines that tension through Alef Bet Rush and Hebrew Mahjong: where attention goes, how support can fade, and what learners can recognize after leaving the game.
+
 ## What the app leaves to people, paper, and other resources
 
 The product name includes “Speak,” but its creator does not believe an app can fully replace human communication. To develop spoken language, you have to speak with people.
