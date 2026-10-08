@@ -78,4 +78,4 @@ All design decisions live in `src/styles/global.css`:
 - Font display: Bricolage Grotesque
 - Font body: DM Sans
 
-Alef Bet Rush production artifact releases: see [the release workflow](docs/alef-bet-rush-release.md).
+Game publishing and updates: follow the canonical [Game Publishing Runbook](docs/GAME_PUBLISHING_RUNBOOK.md).

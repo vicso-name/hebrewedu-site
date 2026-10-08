@@ -1,5 +1,7 @@
 # Alef Bet Rush release workflow
 
+> Historical/reference material: this documents the original Alef Bet Rush release and its player migration. All future game publishing and updates should follow [docs/GAME_PUBLISHING_RUNBOOK.md](GAME_PUBLISHING_RUNBOOK.md).
+
 Alef Bet Rush is owned, verified and built by the separate `hebrewedu-playables` / `playable-debug` project. This Astro repository consumes only its production web artifact. Do not copy game source, import Phaser into Astro, or add workspace dependencies between the repositories.
 
 ## Release
