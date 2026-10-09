@@ -1,12 +1,13 @@
 ---
 interface Props {
   compact?: boolean;
+  id?: string;
 }
 
-const { compact = false } = Astro.props;
+const { compact = false, id } = Astro.props;
 ---
 
-<section class="cta">
+<section id={id} class="cta">
   <div class="container">
     <div class:list={['cta-panel', { 'cta-panel--compact': compact }]}>
       <slot />

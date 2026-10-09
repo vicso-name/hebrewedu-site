@@ -17,11 +17,9 @@ const googlePlay: Store = {
   height: 56,
 };
 
-// The iOS app is awaiting approval. Once it is live, set `url` and add the
-// official badge to public/ — StoreButtons will pick it up automatically.
 const appStore: Store = {
   id: 'app_store',
-  url: null,
+  url: 'https://apps.apple.com/app/learn-hebrew-read-speak/id6813120842',
   label: 'Download on the App Store',
   badge: '/appstore-badge.svg',
   width: 168,
@@ -35,6 +33,6 @@ export const site = {
   title: 'Learn the Hebrew Alphabet & Read Hebrew | HebrewEdu',
   description: 'Learn the Hebrew alphabet step by step, practise vocabulary and verbs, and start reading beginner Hebrew with audio and translation.',
   stores: { googlePlay, appStore },
-  // Where single-button CTAs (e.g. the nav) send people.
-  primaryStoreUrl: googlePlay.url as string,
+  // Let visitors choose the store for their device.
+  appDownloadUrl: '/#download',
 };

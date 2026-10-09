@@ -484,9 +484,6 @@
   line-height: 1.4;
   color: var(--blog-text);
 }
-.article-cta-btn { transition: opacity 0.15s; }
-.article-cta-btn:hover { opacity: 0.85; }
-.article-cta-btn img { height: 48px; width: auto; }
 
 /* ─── Article: related posts ─────────────────────────────────── */
 .blog-related {

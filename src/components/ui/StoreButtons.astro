@@ -4,17 +4,20 @@ import { site } from '../../data/site';
 interface Props {
   /** Where the buttons sit, reported as cta_location on click events. */
   location: string;
+  /** Optional additional click event used by the blog CTA. */
+  trackAlso?: string;
+  height?: number;
 }
-const { location } = Astro.props;
+const { location, trackAlso, height = 56 } = Astro.props;
 
 // Only stores with a live URL are rendered.
-const stores = [site.stores.googlePlay, site.stores.appStore].filter(s => s.url);
+const stores = [site.stores.appStore, site.stores.googlePlay].filter(s => s.url);
 ---
 
-<div class="store-buttons">
+<div class="store-buttons" style={`--store-badge-height: ${height}px`}>
   {stores.map(s => (
-    <a href={s.url} class="store-link" target="_blank" rel="noopener" data-store={s.id} data-cta-location={location}>
-      <img src={s.badge} alt={s.label} width={s.width} height={s.height} />
+    <a href={s.url} class="store-link" target="_blank" rel="noopener" data-store={s.id} data-cta-location={location} data-track-also={trackAlso}>
+      <img src={s.badge} alt={s.label} width={Math.round(s.width * height / s.height)} height={height} />
     </a>
   ))}
 </div>
@@ -23,7 +26,7 @@ const stores = [site.stores.googlePlay, site.stores.appStore].filter(s => s.url)
 .store-buttons {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.75rem;
+  gap: 0.875rem;
 }
 .store-link {
   display: block;
@@ -31,5 +34,9 @@ const stores = [site.stores.googlePlay, site.stores.appStore].filter(s => s.url)
   transition: opacity 0.15s;
 }
 .store-link:hover { opacity: 0.85; }
-.store-link img { height: 56px; width: auto; }
+.store-link:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 3px;
+}
+.store-link img { height: var(--store-badge-height); width: auto; }
 </style>

@@ -4,6 +4,7 @@ import Layout from '../../layouts/Layout.astro';
 import Nav from '../../components/Nav.astro';
 import Footer from '../../components/Footer.astro';
 import RelatedPosts from '../../components/blog/RelatedPosts.astro';
+import StoreButtons from '../../components/ui/StoreButtons.astro';
 import { getSortedPosts, formatPostDate } from '../../lib/blog';
 import { site } from '../../data/site';
 import '../../styles/blog.css';
@@ -97,17 +98,7 @@ const related = (await getSortedPosts())
 
           {post.data.showAppCta && <div class="article-cta">
             <p class="article-cta-text">Ready to start reading Hebrew?</p>
-            <a
-              href={site.stores.googlePlay.url}
-              class="article-cta-btn"
-              target="_blank"
-              rel="noopener"
-              data-store="google_play"
-              data-cta-location="blog_article"
-              data-track-also="blog_cta_click"
-            >
-              <img src="/googleplay-badge.svg" alt="Get it on Google Play" height="48" />
-            </a>
+            <StoreButtons location="blog_article" trackAlso="blog_cta_click" height={48} />
           </div>}
 
         </div>
