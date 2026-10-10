@@ -3,6 +3,7 @@ title: "From Letters to Understanding: The Story Behind Learn Hebrew – Read & 
 seoTitle: "Learn Hebrew – Read & Speak: The Story Behind the App"
 description: "How Alef-Bet Tutor grew from an alphabet trainer into a broader Hebrew learning app built around one idea: understanding matters more than memorization."
 pubDate: 2026-10-07
+updatedDate: 2026-10-10
 author: "HebrewEdu Team"
 category: "Founder Story"
 readingTime: "12 min read"
@@ -18,6 +19,8 @@ So far, the teacher generally wins.
 That tension explains a lot about **Learn Hebrew – Read & Speak**, the app behind HebrewEdu. It began almost five years before the founder interview as a tool for learning the Hebrew alphabet. It has since grown into a broader learning system, but the original question still guides it: how do you help someone understand Hebrew well enough to begin working without your help?
 
 *This article draws on a founder interview conducted in Russian. Short quotations below are editorial English translations; the rest is paraphrased from the interview.*
+
+The next chapter is about taking that established learning product to another platform. In [the founder’s account of bringing the Android app to iOS](/blog/porting-android-app-to-ios-with-ai/), he explains how years of infrastructure and product decisions shaped the native Swift client, what AI accelerated, and how the port improved Android too.
 
 ## A phrase you remember, or a word you can recognize?
 
