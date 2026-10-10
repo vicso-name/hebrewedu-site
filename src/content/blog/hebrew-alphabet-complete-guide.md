@@ -2,6 +2,7 @@
 title: "The Hebrew Alphabet: A Complete Guide to All 22 Letters"
 description: "Everything you need to know about the Hebrew alphabet — letter shapes, names, sounds, and practical tips for learning Aleph Bet from scratch."
 pubDate: 2025-07-01
+updatedDate: 2026-10-10
 author: "HebrewEdu Team"
 category: "Alphabet Guide"
 readingTime: "9 min read"
@@ -110,12 +111,12 @@ In modern spoken Hebrew, both Tet (ט) and Tav (ת) are pronounced the same — 
 
 Once you know the letters and the vowel system, Hebrew reading follows a simple pattern:
 
-Each syllable is typically **one consonant + one vowel**. You read left to right within each word (even though the words themselves run right to left on the page).
+Read the Hebrew letters from right to left, using the vowel marks to work out the sounds.
 
 So the word שָׁלוֹם (shalom — peace) breaks down as:
 - שׁ (sh) + ָ (a) = sha
 - ל (l) + וֹ (o) = lo
-- מ (m) = m (silent final)
+- ם (final Mem) = /m/ — pronounced at the end of the word, with no following vowel
 
 Read together: **sha-lom**.
 

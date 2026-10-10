@@ -2,6 +2,7 @@
 title: "How to Read Hebrew Nikud: A Complete Beginner's Guide"
 description: "Hebrew nikud (vowel marks) is the training system that makes reading possible for beginners — here's how every mark works and why most Hebrew later drops them."
 pubDate: 2026-05-18
+updatedDate: 2026-10-10
 author: "HebrewEdu Team"
 category: "Hebrew Reading"
 readingTime: "8 min read"
@@ -113,13 +114,13 @@ The process for reading a Nikud-marked word is:
 3. Combine them into a syllable: consonant + vowel sound
 4. Move to the next letter and repeat
 
-Hebrew syllables are almost always **consonant + vowel**. You read through a word left to right within the word — even though the words themselves appear right to left on the page.
+Read the Hebrew letters from right to left, using the vowel marks to work out the sounds.
 
 Let's apply this to שָׁלוֹם:
 
 - **שׁ** + ָ (Kamatz) = **sha**
 - **ל** + וֹ (Cholam, written with Vav) = **lo**
-- **מ** (no Nikud, final letter) = **m**
+- **ם** (final Mem) = **/m/** — pronounced at the end of the word, with no following vowel
 
 Result: *sha-lom*.
 
