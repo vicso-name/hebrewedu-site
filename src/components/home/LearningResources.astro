@@ -1,0 +1,106 @@
+---
+import Section from '../ui/Section.astro';
+import SectionHeading from '../ui/SectionHeading.astro';
+
+const resources = [
+  {
+    href: '/blog/hebrew-alphabet-complete-guide/',
+    title: 'Learn the Hebrew alphabet',
+    description: 'Keep letter shapes, names, sounds and final forms close at hand.',
+  },
+  {
+    href: '/blog/learn-hebrew-alphabet-7-days/',
+    title: 'A seven-day alphabet plan',
+    description: 'Give each day a focus, with time to practise and review the letters.',
+  },
+  {
+    href: '/blog/how-to-read-hebrew-nikud/',
+    title: 'Read Hebrew vowel marks',
+    description: 'See how Nikud helps you sound out your first Hebrew words.',
+  },
+  {
+    href: '/play/',
+    title: 'Free Hebrew learning games',
+    description: 'Practise recognising letters and recalling their names in your browser.',
+  },
+];
+---
+
+<Section id="learning-resources" surface="white" class="learning-resources-section">
+  <div class="resources-layout">
+    <div class="resources-intro">
+      <SectionHeading
+        title="A guide for your next step"
+        lede="Look up a letter, plan your practice, or try a short game."
+      />
+    </div>
+
+    <ul class="resources-list" role="list">
+      {resources.map(resource => (
+        <li class="resource">
+          <h3 class="resource-title"><a href={resource.href}>{resource.title}</a></h3>
+          <p class="home-body">{resource.description}</p>
+        </li>
+      ))}
+    </ul>
+  </div>
+</Section>
+
+<style>
+:global(.home-page .home-section.learning-resources-section) {
+  padding-block: clamp(2.5rem, 5vw, 4rem);
+}
+
+.resources-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.4fr) minmax(0, 0.6fr);
+  gap: var(--home-gap);
+  align-items: start;
+}
+
+.resources-intro :global(.section-heading) { margin-bottom: 0; }
+
+.resources-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem 1.25rem;
+}
+
+.resource {
+  min-width: 0;
+  padding-top: 1rem;
+  border-top: 1px solid var(--home-border-subtle);
+}
+
+.resource-title {
+  font-family: var(--font-display);
+  font-size: 1.3125rem;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.015em;
+}
+
+.resource-title a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  max-width: 100%;
+  padding-block: 0.3125rem;
+  color: var(--home-brand-text);
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.resource-title a:hover { color: var(--home-brand-hover); }
+.resource p { margin-top: 0.5rem; }
+
+@media (max-width: 1000px) {
+  .resources-layout { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 560px) {
+  .resources-layout { gap: var(--home-stack); }
+  .resources-list { grid-template-columns: 1fr; gap: 1rem; }
+}
+</style>
