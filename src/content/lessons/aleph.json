@@ -1,0 +1,479 @@
+{
+  "id": "aleph",
+  "sourceId": 1,
+  "order": 1,
+  "glyph": "א",
+  "title": "Aleph: three vowel marks",
+  "description": "Exploring Aleph: The Foundation of the Hebrew Alphabet",
+  "status": "local-review-only",
+  "normalizationVersion": 1,
+  "provenance": {
+    "source": "https://api.hebrewedu.com/api/lessons/1/?lang=en",
+    "responseDate": "2026-10-11T19:30:43.064573Z",
+    "sha256": "97351799e0a4bc45718cf082486c6584b7acb55bc412aeaea43b81e3cab7bb6a"
+  },
+  "editorialIssues": [
+    {
+      "id": "provisional-media",
+      "summary": "Illustration pending approval",
+      "detail": "The original image is withheld until accuracy and reuse are approved. The Unicode form and written description provide a provisional textual equivalent."
+    },
+    {
+      "id": "unintroduced-letters",
+      "summary": "Optional practice refinement",
+      "detail": "Some mark-recognition distractors use letters not introduced in this lesson. Beginner scaffolding can be improved separately from the approved source synchronization."
+    },
+    {
+      "id": "true-false-balance",
+      "summary": "Optional question balance refinement",
+      "detail": "All five source true/false statements are marked true. The owner explicitly retains Q4 True; this is not an answer-integrity or release failure."
+    }
+  ],
+  "blocks": [
+    {
+      "id": "aleph-block-1",
+      "sourceIndex": 0,
+      "text": "Exploring Aleph (א) and Hebrew Diacritical Marks",
+      "reviewFlags": [],
+      "type": "MAIN_TITLE"
+    },
+    {
+      "id": "aleph-block-2",
+      "sourceIndex": 1,
+      "text": "Hebrew is usually written with consonant letters, and some letters can also help indicate vowels. When precise vowel pronunciation is needed, Hebrew uses marks called niqqud. These marks appear above, below, or inside letters. In this lesson, you will learn three marks that can represent an [a] vowel with the letter Aleph (א).",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "aleph-block-3",
+      "sourceIndex": 2,
+      "text": "A Patah is a small horizontal line placed beneath a consonant. Thanks to its clean, minimalist design, it is one of the easiest niqqud marks to recognize.",
+      "reviewFlags": [
+        "provisional-media"
+      ],
+      "type": "TEXT_IMAGE",
+      "illustration": {
+        "glyph": "אַ",
+        "label": "Patah",
+        "equivalent": "Aleph with a single horizontal vowel mark beneath it.",
+        "mediaStatus": "withheld-pending-review"
+      }
+    },
+    {
+      "id": "aleph-block-4",
+      "sourceIndex": 3,
+      "text": "When Aleph is paired with a Patah, it takes on an [a] sound—just like the \"a\" in \"father.\" As a reminder, this sign appears as a single horizontal line underneath the letter.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "aleph-block-5",
+      "sourceIndex": 4,
+      "text": "The Kamatz Gadol resembles a small T-shaped symbol: a horizontal line with a short vertical stroke extending downward. Like other niqqud marks, it is positioned directly beneath the consonant.",
+      "reviewFlags": [
+        "provisional-media"
+      ],
+      "type": "TEXT_IMAGE",
+      "illustration": {
+        "glyph": "אָ",
+        "label": "Kamatz Gadol",
+        "equivalent": "Aleph with a small T-shaped vowel mark beneath it.",
+        "mediaStatus": "withheld-pending-review"
+      }
+    },
+    {
+      "id": "aleph-block-6",
+      "sourceIndex": 5,
+      "text": "When Aleph is paired with a Kamatz Gadol, it shares the exact same [a] sound—like the \"a\" in \"father.\"",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "aleph-block-7",
+      "sourceIndex": 6,
+      "text": "The Hataf Patah is a combination of the Patah and a Sheva (two vertical dots). Hataf Patah appears below the letter. Its shape combines a horizontal line with two vertically arranged dots beside it, as shown in אֲ. Like other niqqud marks, it sits directly beneath a consonant.",
+      "reviewFlags": [
+        "provisional-media"
+      ],
+      "type": "TEXT_IMAGE",
+      "illustration": {
+        "glyph": "אֲ",
+        "label": "Hataf Patah",
+        "equivalent": "Aleph with a horizontal vowel mark and two vertical dots beneath it.",
+        "mediaStatus": "withheld-pending-review"
+      }
+    },
+    {
+      "id": "aleph-block-8",
+      "sourceIndex": 7,
+      "text": "In most cases, the Hataf Patah is used with the letters Aleph (אֲ), Chet (חֲ), Hey (הֲ), and Ayin (עֲ). On rare occasions, it may appear under other consonants as well.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "aleph-block-9",
+      "sourceIndex": 8,
+      "text": "With Hataf Patah (אֲ), Aleph is read with a reduced [a] vowel. The mark is traditionally described as a very brief vowel, but you do not need to distinguish vowel lengths to read beginner Modern Hebrew.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "aleph-block-10",
+      "sourceIndex": 9,
+      "text": "Conclusions",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "aleph-block-11",
+      "sourceIndex": 10,
+      "text": "You have learned to recognize three niqqud marks used with Aleph (א): Patah (אַ), Kamatz Gadol (אָ), and Hataf Patah (אֲ). In beginner Modern Hebrew, all three can represent an [a] vowel; Hataf Patah is a reduced vowel sign. Practice recognizing their shapes and reading them in context.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "aleph-exercise-1",
+      "sourceId": "1742106507817",
+      "type": "TRUE_FALSE",
+      "prompt": "In Hebrew, vowel sounds are indicated by symbols that appear above, below, or inside the letters. These marks help determine how each letter is pronounced.",
+      "explanation": "Niqqud marks indicate vowel pronunciation, but Hebrew can also use letters such as ו and י to help represent vowels. These marks may appear above, below, or inside letters.",
+      "options": [
+        {
+          "id": "aleph-exercise-1-option-1",
+          "label": "True"
+        },
+        {
+          "id": "aleph-exercise-1-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "aleph-exercise-1-option-1",
+      "reviewFlags": [
+        "true-false-balance"
+      ]
+    },
+    {
+      "id": "aleph-exercise-2",
+      "sourceId": "1742106507818",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Which Hebrew vowel sign looks like a small \"T\" and adds an [a] sound to a consonant?",
+      "explanation": "That's the Kamatz Gadol! It features a horizontal line with a short vertical stroke extending downward. Like most niqqud marks, it sits directly beneath the consonant.",
+      "options": [
+        {
+          "id": "aleph-exercise-2-option-1",
+          "label": "Kamatz Gadol"
+        },
+        {
+          "id": "aleph-exercise-2-option-2",
+          "label": "Patah"
+        },
+        {
+          "id": "aleph-exercise-2-option-3",
+          "label": "Segol"
+        }
+      ],
+      "correctOptionId": "aleph-exercise-2-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "aleph-exercise-3",
+      "sourceId": "1742106507819",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Which of the following Hebrew letters is marked with Kamatz Gadol?",
+      "explanation": "Kamatz Gadol is shaped like a small T beneath a letter. Under Aleph, אָ is read with an [a] vowel, as in the vowel of “father.” Modern Hebrew does not require a long-versus-short [a] distinction here.",
+      "options": [
+        {
+          "id": "aleph-exercise-3-option-1",
+          "label": "צֵ"
+        },
+        {
+          "id": "aleph-exercise-3-option-2",
+          "label": "גַ"
+        },
+        {
+          "id": "aleph-exercise-3-option-3",
+          "label": "מֻ"
+        },
+        {
+          "id": "aleph-exercise-3-option-4",
+          "label": "אָ"
+        }
+      ],
+      "correctOptionId": "aleph-exercise-3-option-4",
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    },
+    {
+      "id": "aleph-exercise-4",
+      "sourceId": "1742106507820",
+      "type": "TRUE_FALSE",
+      "prompt": "In everyday Modern Hebrew, the letter Aleph (א) is usually silent, while niqqud marks can indicate its vowel sound.",
+      "explanation": "That’s right! Aleph usually has no audible consonant sound in everyday speech. Niqqud marks can show which vowel to pronounce with it, as in אַ, אָ or אֲ.",
+      "options": [
+        {
+          "id": "aleph-exercise-4-option-1",
+          "label": "True"
+        },
+        {
+          "id": "aleph-exercise-4-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "aleph-exercise-4-option-1",
+      "reviewFlags": [
+        "true-false-balance"
+      ]
+    },
+    {
+      "id": "aleph-exercise-5",
+      "sourceId": "1742106507821",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "What sound does the letter Alef (אָ) make when paired with a Kamatz Gadol?",
+      "explanation": "It makes an [a] sound, just like the \"a\" in the English word \"father.\"",
+      "options": [
+        {
+          "id": "aleph-exercise-5-option-1",
+          "label": "[a]"
+        },
+        {
+          "id": "aleph-exercise-5-option-2",
+          "label": "[o]"
+        },
+        {
+          "id": "aleph-exercise-5-option-3",
+          "label": "[u]"
+        },
+        {
+          "id": "aleph-exercise-5-option-4",
+          "label": "[e]"
+        }
+      ],
+      "correctOptionId": "aleph-exercise-5-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "aleph-exercise-6",
+      "sourceId": "1742106507822",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Which Hebrew vowel sign looks like a small horizontal line and adds an [a] sound to a consonant?",
+      "explanation": "That would be the Patah! This single horizontal line sits directly underneath the consonant to create the [a] sound.",
+      "options": [
+        {
+          "id": "aleph-exercise-6-option-1",
+          "label": "Kamatz Gadol"
+        },
+        {
+          "id": "aleph-exercise-6-option-2",
+          "label": "Segol"
+        },
+        {
+          "id": "aleph-exercise-6-option-3",
+          "label": "Patah"
+        }
+      ],
+      "correctOptionId": "aleph-exercise-6-option-3",
+      "reviewFlags": []
+    },
+    {
+      "id": "aleph-exercise-7",
+      "sourceId": "1742106507823",
+      "type": "TRUE_FALSE",
+      "prompt": "The Patah niqqud appears as a horizontal line beneath a letter and represents an [a] sound, similar to the \"a\" in \"father.\"",
+      "explanation": "That's true! The Patah is a simple horizontal line that creates a clean [a] sound, just like the \"a\" in \"father\" or \"spa.\"",
+      "options": [
+        {
+          "id": "aleph-exercise-7-option-1",
+          "label": "True"
+        },
+        {
+          "id": "aleph-exercise-7-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "aleph-exercise-7-option-1",
+      "reviewFlags": [
+        "true-false-balance"
+      ]
+    },
+    {
+      "id": "aleph-exercise-8",
+      "sourceId": "1742106507824",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Which of the following Hebrew letters is paired with a Patah?",
+      "explanation": "Find the horizontal Patah mark beneath the letter. The correct choice shows פַּ (pa): the letter פּ with a dagesh and a Patah.",
+      "options": [
+        {
+          "id": "aleph-exercise-8-option-1",
+          "label": "פַּ"
+        },
+        {
+          "id": "aleph-exercise-8-option-2",
+          "label": "שׂ"
+        },
+        {
+          "id": "aleph-exercise-8-option-3",
+          "label": "מֻ"
+        },
+        {
+          "id": "aleph-exercise-8-option-4",
+          "label": "טָ"
+        }
+      ],
+      "correctOptionId": "aleph-exercise-8-option-1",
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    },
+    {
+      "id": "aleph-exercise-9",
+      "sourceId": "1742106507825",
+      "type": "TRUE_FALSE",
+      "prompt": "When the letter Alef (אַ) is marked with a Patah, its sound is similar to the \"a\" in the English word \"father.\"",
+      "explanation": "That's true! The Patah niqqud represents a clean [a] sound, just like the \"a\" in \"father\" or \"spa.\"",
+      "options": [
+        {
+          "id": "aleph-exercise-9-option-1",
+          "label": "True"
+        },
+        {
+          "id": "aleph-exercise-9-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "aleph-exercise-9-option-1",
+      "reviewFlags": [
+        "true-false-balance"
+      ]
+    },
+    {
+      "id": "aleph-exercise-10",
+      "sourceId": "1742106507826",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "What sound does the letter Alef (אַ) make when paired with a Patah?",
+      "explanation": "With Patah, אַ is read with an [a] vowel, like the vowel in “father” or “spa.” There is no required short-versus-long [a] contrast in Modern Hebrew.",
+      "options": [
+        {
+          "id": "aleph-exercise-10-option-1",
+          "label": "[e]"
+        },
+        {
+          "id": "aleph-exercise-10-option-2",
+          "label": "[o]"
+        },
+        {
+          "id": "aleph-exercise-10-option-3",
+          "label": "[u]"
+        },
+        {
+          "id": "aleph-exercise-10-option-4",
+          "label": "[a]"
+        }
+      ],
+      "correctOptionId": "aleph-exercise-10-option-4",
+      "reviewFlags": []
+    },
+    {
+      "id": "aleph-exercise-11",
+      "sourceId": "1742106507827",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "What is the name of the niqqud mark that represents a reduced [a] vowel and looks like a horizontal line beside two vertical dots?",
+      "explanation": "Hataf Patah combines a Patah-like line with the two dots of Sheva. It marks a reduced [a] vowel, especially under guttural letters.",
+      "options": [
+        {
+          "id": "aleph-exercise-11-option-1",
+          "label": "Holam Male"
+        },
+        {
+          "id": "aleph-exercise-11-option-2",
+          "label": "Suruk"
+        },
+        {
+          "id": "aleph-exercise-11-option-3",
+          "label": "Hataf Patah"
+        }
+      ],
+      "correctOptionId": "aleph-exercise-11-option-3",
+      "reviewFlags": []
+    },
+    {
+      "id": "aleph-exercise-12",
+      "sourceId": "1742106507828",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Which of the following Hebrew letters is paired with a Hataf Patah?",
+      "explanation": "Look for the horizontal line combined with two vertical dots! This mark is almost exclusively used with guttural letters: Alef (אֲ), Chet (חֲ), Hey (הֲ), and Ayin (עֲ).",
+      "options": [
+        {
+          "id": "aleph-exercise-12-option-1",
+          "label": "הָ"
+        },
+        {
+          "id": "aleph-exercise-12-option-2",
+          "label": "סַ"
+        },
+        {
+          "id": "aleph-exercise-12-option-3",
+          "label": "טְ"
+        },
+        {
+          "id": "aleph-exercise-12-option-4",
+          "label": "עֲ"
+        }
+      ],
+      "correctOptionId": "aleph-exercise-12-option-4",
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    },
+    {
+      "id": "aleph-exercise-13",
+      "sourceId": "1742106507829",
+      "type": "TRUE_FALSE",
+      "prompt": "The Hataf Patah niqqud is primarily used with the four guttural letters: Alef (אֲ), Chet (חֲ), Hey (הֲ), and Ayin (עֲ).",
+      "explanation": "That's true! It almost always appears with these specific guttural letters, though in very rare cases, you might spot it under other consonants as well.",
+      "options": [
+        {
+          "id": "aleph-exercise-13-option-1",
+          "label": "True"
+        },
+        {
+          "id": "aleph-exercise-13-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "aleph-exercise-13-option-1",
+      "reviewFlags": [
+        "true-false-balance"
+      ]
+    },
+    {
+      "id": "aleph-exercise-14",
+      "sourceId": "1742106507830",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "What sound does the letter Alef (אֲ) make when paired with a Hataf Patah?",
+      "explanation": "Hataf Patah (אֲ) indicates a reduced [a] vowel. At this stage, recognize the sign and its [a] sound; Modern Hebrew does not require you to distinguish it by exact vowel length.",
+      "options": [
+        {
+          "id": "aleph-exercise-14-option-1",
+          "label": "[a]"
+        },
+        {
+          "id": "aleph-exercise-14-option-2",
+          "label": "[o]"
+        },
+        {
+          "id": "aleph-exercise-14-option-3",
+          "label": "[u]"
+        },
+        {
+          "id": "aleph-exercise-14-option-4",
+          "label": "[e]"
+        }
+      ],
+      "correctOptionId": "aleph-exercise-14-option-1",
+      "reviewFlags": []
+    }
+  ]
+}

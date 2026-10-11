@@ -1,0 +1,6 @@
+---
+import { hebrewRuns } from '../../lib/lessons/grading.mjs';
+interface Props { text: string }
+const runs = hebrewRuns(Astro.props.text);
+---
+{runs.map(run => run.hebrew ? <bdi lang="he" dir="rtl" class="hebrew">{run.text}</bdi> : run.text)}

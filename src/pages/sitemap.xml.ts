@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import { legalUpdated } from '../data/legal';
 import { websitePrivacyUpdated } from '../data/website-privacy';
 import { pageUpdatedDates } from '../data/page-updates';
+import { courseSitemapEntries } from '../lib/alphabet-course.mjs';
 
 const SITE = 'https://hebrewedu.com';
 
@@ -83,7 +84,8 @@ export const GET: APIRoute = async () => {
     lastmod: toDateString(post.data.updatedDate ?? post.data.pubDate),
   }));
 
-  const allPages = [...staticPages, ...blogPages];
+  // Preview flags never affect indexing; only the explicit approved release manifest does.
+  const allPages = [...staticPages, ...blogPages, ...courseSitemapEntries()];
   for (const page of allPages) {
     if (page.lastmod !== undefined) validateLastmod(page.lastmod);
   }

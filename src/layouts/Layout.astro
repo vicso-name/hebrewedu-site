@@ -12,6 +12,8 @@ interface Props {
   ogType?: 'website' | 'article';
   /** Page-specific JSON-LD. Nothing is emitted when omitted. */
   schema?: Record<string, unknown>;
+  /** Draft course previews opt out of indexing; existing pages keep their default. */
+  robots?: string;
 }
 
 const {
@@ -21,6 +23,7 @@ const {
   image = '/og-image.png',
   ogType = 'website',
   schema,
+  robots = 'index, follow',
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
@@ -38,7 +41,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <title>{seoTitle ?? title}</title>
     <meta name="description" content={description} />
     <meta name="author" content="Viktor Sokoliuk" />
-    <meta name="robots" content="index, follow" />
+    <meta name="robots" content={robots} />
 
     <!-- Open Graph -->
     <meta property="og:type"        content={ogType} />

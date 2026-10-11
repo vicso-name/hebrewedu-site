@@ -1,6 +1,7 @@
 import { defineCollection } from 'astro:content';
 import { glob } from 'astro/loaders';
 import { z } from 'astro/zod';
+import { lessonSchema } from './lib/lessons/schema.mjs';
 
 const blog = defineCollection({
   loader: glob({
@@ -22,4 +23,10 @@ const blog = defineCollection({
   }),
 });
 
-export const collections = { blog };
+// A separate local-review collection; publication is controlled by the lesson route.
+const lessons = defineCollection({
+  loader: glob({ pattern: '*.json', base: './src/content/lessons' }),
+  schema: lessonSchema,
+});
+
+export const collections = { blog, lessons };

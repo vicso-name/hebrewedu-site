@@ -17,5 +17,9 @@ Thumbs.db
 # Editor
 .vscode/
 .idea/
+
+# Local lesson sources and review artifacts (never deployment assets)
+.local/
+artifacts/lesson-1-poc/
 *.suo
 *.ntvs*

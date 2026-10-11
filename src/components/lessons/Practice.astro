@@ -1,0 +1,38 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import HebrewText from './HebrewText.astro';
+import { unavailableQuestions, exerciseExplanation } from '../../lib/lessons/presentation.mjs';
+type Lesson = CollectionEntry<'lessons'>['data'];
+interface Props { exercises: Lesson['exercises']; blocks: Lesson['blocks'] }
+const { exercises, blocks } = Astro.props;
+const grading = exercises.filter(exercise => !unavailableQuestions.has(exercise.id)).map(({ id, correctOptionId, options }) => ({ id, correctOptionId, options: options.map(({ id }) => ({ id })) }));
+const gradingJson = JSON.stringify(grading).replace(/</g, '\\u003c');
+---
+<section id="stage-practice" data-stage="practice" class="stage-panel" aria-labelledby="practice-title">
+  <div class="stage-heading"><span class="eyebrow">Step 3 of 4</span><h2 id="practice-title" data-stage-heading tabindex="-1">Put it into practice</h2><p>Choose an answer, check it, then read the explanation.</p></div>
+  <div class="practice-meter" data-enhanced hidden><p data-progress aria-live="polite" aria-atomic="true">0 of 14 answered · 0 correct</p><progress data-practice-progress max="14" value="0" aria-label="Questions answered">0 of 14 answered</progress></div>
+  <noscript><p class="no-script">Interactive checking needs JavaScript. All questions remain readable; open “Source answer and explanation” to check your work.</p></noscript>
+  <div data-practice>
+    {exercises.map((exercise, index) => <form class="question-card learning-card" id={exercise.id} data-exercise-id={exercise.id} data-exercise-type={exercise.type} data-unavailable={unavailableQuestions.has(exercise.id) ? 'true' : undefined}>
+      <p class="question-count">Question {index + 1} of {exercises.length} <span>{exercise.type === 'TRUE_FALSE' ? 'True or false' : 'Choose one answer'}</span></p>
+      {unavailableQuestions.has(exercise.id) ? <div class="unavailable-question"><p>This question is not available in this preview.</p><p>Continue to the next question.</p></div> : <>
+      <fieldset><legend><HebrewText text={exercise.prompt} /></legend>
+        <div class:list={['answer-options', { 'answer-grid': exercise.type === 'MULTIPLE_CHOICE_GRID', 'answer-boolean': exercise.type === 'TRUE_FALSE' }]}>
+          {exercise.options.map(option => <label class="answer-option" for={option.id}><input type="radio" name={exercise.id} id={option.id} value={option.id} required aria-describedby={`${exercise.id}-feedback`} /><span class:list={{ 'glyph-option': /^[\u0590-\u05FF]+$/u.test(option.label) }}><HebrewText text={option.label} /></span></label>)}
+        </div>
+      </fieldset>
+      <div class="answer-actions" data-enhanced hidden><button type="submit" class="btn lesson-primary">Check answer</button><button type="button" class="btn lesson-secondary" data-retry hidden>Retry this question</button></div>
+      <p id={`${exercise.id}-feedback`} class="answer-feedback" role="status" aria-live="polite" aria-atomic="true" tabindex="-1"></p>
+      <div class="answer-explanation" data-explanation hidden><p><strong>Explanation</strong></p><p><HebrewText text={exerciseExplanation(exercise, blocks)} /></p></div>
+      <details class="fallback-answer" data-fallback-answer><summary>Source answer and explanation</summary><p><strong>Source answer: </strong><HebrewText text={exercise.options.find(option => option.id === exercise.correctOptionId)!.label} /></p><p><HebrewText text={exerciseExplanation(exercise, blocks)} /></p></details>
+      </>}
+    </form>)}
+  </div>
+  <div class="practice-navigation" data-enhanced hidden><button type="button" class="btn lesson-secondary" data-previous>Back: Examples</button><p data-question-position>Question 1 of 14</p><button type="button" class="btn lesson-secondary" data-next>Skip question <span aria-hidden="true">→</span></button></div>
+  <div class="practice-tools" data-enhanced hidden><button type="button" class="text-button" data-stage-target="examples">Revisit examples</button><button type="button" class="text-button" data-stage-target="results">See results</button></div>
+  <script type="application/json" id="lesson-grading" set:html={gradingJson} />
+</section>
+<script>
+import { initPractice } from '../../lib/lessons/practice-client';
+initPractice();
+</script>

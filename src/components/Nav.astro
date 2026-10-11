@@ -1,8 +1,11 @@
 ---
 import { site } from '../data/site';
+import { coursePath, hubEnabled, localCoursePreview } from '../lib/alphabet-course.mjs';
 
+const showCourse = hubEnabled(localCoursePreview(import.meta.env.DEV));
 const links = [
   { label: 'Play', href: '/play/' },
+  ...(showCourse ? [{ label: 'Alphabet Course', href: coursePath }] : []),
   { label: 'Features',     href: '/#features'     },
   { label: 'How it works', href: '/#how-it-works'  },
   { label: 'Reviews',      href: '/#reviews'       },
@@ -10,7 +13,7 @@ const links = [
 ];
 ---
 
-<header class="nav-wrap">
+<header class:list={['nav-wrap', { 'course-nav': showCourse }]}>
   <nav class="container nav-inner" aria-label="Primary">
     <a href="/" class="nav-logo" aria-label="HebrewEdu home">
       HEBREWEDU
@@ -18,7 +21,7 @@ const links = [
 
     <ul class="nav-links" role="list">
       {links.map(l => (
-        <li><a href={l.href} class="nav-link">{l.label}</a></li>
+        <li><a href={l.href} class="nav-link" aria-current={l.href === coursePath && Astro.url.pathname.startsWith(coursePath) ? (Astro.url.pathname === coursePath ? 'page' : 'location') : undefined}>{l.label}</a></li>
       ))}
     </ul>
 
@@ -33,6 +36,7 @@ const links = [
       aria-label="Open menu"
       aria-expanded="false"
       aria-controls="nav-mobile"
+      data-desktop-breakpoint={showCourse ? '1101' : '769'}
     >
       <span></span><span></span><span></span>
     </button>
@@ -41,10 +45,10 @@ const links = [
 
 <!-- Fixed over the page content, so it lives outside the header. `hidden` keeps
      its links out of the tab order while the menu is closed. -->
-<div class="nav-mobile" id="nav-mobile" hidden>
+<div class:list={['nav-mobile', { 'course-nav': showCourse }]} id="nav-mobile" hidden>
   <div class="nav-mobile-inner">
     {links.map(l => (
-      <a href={l.href} class="nav-mobile-link">{l.label}</a>
+      <a href={l.href} class="nav-mobile-link" aria-current={l.href === coursePath && Astro.url.pathname.startsWith(coursePath) ? (Astro.url.pathname === coursePath ? 'page' : 'location') : undefined}>{l.label}</a>
     ))}
     <a href={site.appDownloadUrl} class="nav-mobile-cta" data-cta-location="nav_mobile">
       Get the app
@@ -110,6 +114,7 @@ const links = [
   transition: color 0.15s, background 0.15s;
 }
 .nav-link:hover { color: var(--ink); background: var(--nav-link-hover-bg, var(--brand-light)); }
+.nav-link[aria-current], .nav-mobile-link[aria-current] { color: var(--ink); text-decoration: underline; text-underline-offset: .3em; }
 
 .nav-cta {
   display: inline-flex;
@@ -218,6 +223,13 @@ const links = [
 @media (min-width: 769px) {
   .nav-mobile { display: none; }
 }
+
+/* Allow space for the extra course entry without compressing tablet navigation. */
+@media (min-width: 769px) and (max-width: 1100px) {
+  .course-nav .nav-links, .course-nav .nav-cta { display: none; }
+  .course-nav .nav-burger { display: flex; }
+  .nav-mobile.course-nav:not([hidden]) { display: block; }
+}
 </style>
 
 <script>
@@ -254,7 +266,7 @@ document.addEventListener('keydown', (e) => {
 });
 
 // Reset when the viewport grows past the mobile breakpoint
-window.matchMedia('(min-width: 769px)').addEventListener('change', (e) => {
+window.matchMedia(`(min-width: ${burger.dataset.desktopBreakpoint ?? '769'}px)`).addEventListener('change', (e) => {
   if (e.matches) setOpen(false);
 });
 </script>

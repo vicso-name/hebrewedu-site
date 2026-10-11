@@ -1,0 +1,71 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Nav from '../../../components/Nav.astro';
+import Footer from '../../../components/Footer.astro';
+import StoreButtons from '../../../components/ui/StoreButtons.astro';
+import { courseManifest, courseTitle, courseDescription, courseSchema, curriculum, hubEnabled, localCoursePreview } from '../../../lib/alphabet-course.mjs';
+import '../../../styles/alphabet-course.css';
+
+// A rest parameter can omit even this index route from an ordinary draft build.
+export function getStaticPaths() {
+  return hubEnabled(localCoursePreview(import.meta.env.DEV)) ? [{ params: { hub: undefined } }] : [];
+}
+const preview = localCoursePreview(import.meta.env.DEV);
+const letters = curriculum(preview);
+const first = letters.find(letter => letter.available);
+if (!first) throw new Error('Course hub needs an available lesson, not a broken Start link.');
+const stages = [
+  { name: 'Theory', text: 'Meet the letter and understand what you’re learning.' },
+  { name: 'Examples', text: 'Look closely at Hebrew letters and their vowel marks.' },
+  { name: 'Practice', text: 'Work through questions one at a time, with feedback.' },
+  { name: 'Results', text: 'See how you did and revisit questions you missed.' },
+];
+const resources = [
+  { href: '/blog/hebrew-alphabet-complete-guide/', label: 'Hebrew Alphabet Guide', tag: 'Letter reference', text: 'Keep a full alphabet chart, letter names and final forms close at hand.' },
+  { href: '/blog/how-to-read-hebrew-nikud/', label: 'Hebrew Vowels & Nikud Guide', tag: 'Vowel reference', text: 'Explore the marks that help you read Hebrew vowel sounds.' },
+  { href: '/play/alef-bet-rush/', label: 'Alef Bet Rush', tag: 'Recognition game', text: 'Review Hebrew letter recognition with a browser game.' },
+  { href: '/play/hebrew-mahjong/', label: 'Hebrew Mahjong', tag: 'Matching game', text: 'Get more familiar with letter shapes through matching.' },
+];
+---
+<Layout title={courseTitle} description={courseDescription} robots={courseManifest.hub.published ? 'index, follow' : 'noindex, nofollow, noarchive'} schema={courseSchema()}>
+  <div class="course-hub">
+    <a class="course-skip" href="#course-content">Skip to course</a>
+    <Nav />
+    <main id="course-content" class="course-container">
+      <section class="course-hero" aria-labelledby="course-title">
+        <div class="course-hero-copy">
+          <p class="course-eyebrow">Hebrew alphabet course · For beginners</p>
+          <h1 id="course-title">Learn the Hebrew Alphabet Step by Step</h1>
+          <p class="course-lead">Start with one letter. Build your understanding through clear explanations, examples and practice, at your own pace.</p>
+          <div class="course-start"><a class="btn course-primary" href={first.href}>Start Learning <span aria-hidden="true">→</span></a><a class="course-secondary" href="#curriculum">Explore the curriculum</a></div>
+          <p class="course-availability">Start with Aleph today. More letter lessons are coming soon.</p>
+        </div>
+        <aside class="course-first-card" aria-labelledby="first-lesson-title">
+          <p class="course-eyebrow">Your first lesson</p>
+          <div class="course-letter-surface"><bdi class="course-hebrew" lang="he" dir="rtl">א</bdi></div>
+          <h2 id="first-lesson-title">Meet Aleph</h2>
+          <p>Recognize the letter, explore vowel marks and check your understanding.</p>
+          <p class="course-first-meta">Lesson 1 of 22</p>
+        </aside>
+      </section>
+      <section id="curriculum" class="course-section" aria-labelledby="curriculum-title">
+        <div class="course-section-heading"><p class="course-eyebrow">Your learning path</p><h2 id="curriculum-title">One letter at a time</h2><p>Follow the Hebrew alphabet in order. Aleph is ready to explore; the remaining lessons are coming soon.</p></div>
+        <ol class="course-curriculum" aria-label="Hebrew alphabet curriculum">
+          {letters.map(letter => <li class:list={['course-letter-card', { 'course-letter-available': letter.available }]} data-course-order={letter.order}>
+            {letter.available ? <a href={letter.href} aria-label={`Start lesson ${letter.order}: ${letter.name}`}><span class="course-letter-order">Lesson {letter.order}</span><bdi class="course-hebrew" lang="he" dir="rtl">{letter.letter}</bdi><h3>{letter.name}</h3><span class="course-letter-status">Start lesson <span aria-hidden="true">→</span></span></a> : <div><span class="course-letter-order">Lesson {letter.order}</span><bdi class="course-hebrew" lang="he" dir="rtl">{letter.letter}</bdi><h3>{letter.name}</h3><span class="course-letter-status">Coming Soon</span></div>}
+          </li>)}
+        </ol>
+      </section>
+      <section class="course-section" aria-labelledby="how-title">
+        <div class="course-section-heading"><p class="course-eyebrow">A guided learning experience</p><h2 id="how-title">How lessons work</h2><p>A clear next step, from your first explanation to your practice results.</p></div>
+        <ol class="course-stages">{stages.map((stage, i) => <li><span class="course-stage-number" aria-hidden="true">{i + 1}</span><h3>{stage.name}</h3><p>{stage.text}</p></li>)}</ol>
+      </section>
+      <section class="course-section" aria-labelledby="resources-title">
+        <div class="course-section-heading"><p class="course-eyebrow">Keep exploring</p><h2 id="resources-title">Additional learning resources</h2><p>Use a reference when you need it, or try a game for a change of pace.</p></div>
+        <div class="course-resources">{resources.map(resource => <a class="course-resource" href={resource.href}><span class="course-eyebrow">{resource.tag}</span><h3>{resource.label} <span aria-hidden="true">↗</span></h3><p>{resource.text}</p></a>)}</div>
+      </section>
+      <section class="course-app course-section" aria-labelledby="app-title"><div><p class="course-eyebrow">Keep learning</p><h2 id="app-title">Continue learning in the app</h2><p>Explore HebrewEdu on your phone for more Hebrew learning and practice.</p></div><StoreButtons location="alphabet_course_hub" height={48} /></section>
+    </main>
+    <Footer />
+  </div>
+</Layout>

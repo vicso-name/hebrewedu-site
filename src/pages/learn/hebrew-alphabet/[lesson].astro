@@ -1,0 +1,79 @@
+---
+import { getEntry } from 'astro:content';
+import Nav from '../../../components/Nav.astro';
+import Footer from '../../../components/Footer.astro';
+import StudyBlock from '../../../components/lessons/StudyBlock.astro';
+import Practice from '../../../components/lessons/Practice.astro';
+import '../../../styles/global.css';
+import '../../../styles/lesson-poc.css';
+import { courseManifest, lessonEnabled, localCoursePreview } from '../../../lib/alphabet-course.mjs';
+
+export async function getStaticPaths() {
+  if (!lessonEnabled('aleph', localCoursePreview(import.meta.env.DEV))) return [];
+  const lesson = await getEntry('lessons', 'aleph');
+  if (!lesson) throw new Error('The validated Aleph content is missing.');
+  return [{ params: { lesson: 'aleph' }, props: { lesson: lesson.data } }];
+}
+const { lesson } = Astro.props;
+const published = courseManifest.lessons[0].published;
+const stages = ['Theory', 'Examples', 'Practice', 'Results'];
+// Every source block occurs once. The examples retain their original relative order.
+const theoryIndices = [0, 1, 7];
+const exampleIndices = [2, 3, 4, 5, 6, 8, 9, 10];
+---
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{published ? 'Aleph Hebrew Letter Lesson | HebrewEdu' : 'Aleph lesson · Local preview | HebrewEdu'}</title>
+    <meta name="description" content="Learn the Hebrew letter Aleph (א) with Patah, Kamatz Gadol and Hataf Patah through beginner explanations, examples and 14 interactive practice questions." />
+    <meta name="robots" content={published ? 'index, follow' : 'noindex, nofollow, noarchive'} />
+    {published && <link rel="canonical" href="https://hebrewedu.com/learn/hebrew-alphabet/aleph/" />}
+    <link rel="icon" type="image/png" href="/favicon.png" />
+  </head>
+  <body class="lesson-page">
+    <a class="lesson-skip" href="#lesson-content">Skip to lesson</a>
+    <Nav />
+    <main class="lesson-container" id="lesson-content">
+      <header class="lesson-header">
+        <div class="lesson-identity"><div class="letter-token" aria-hidden="true"><bdi class="hebrew" lang="he" dir="rtl">א</bdi></div><div><p class="eyebrow">Hebrew alphabet · Lesson 1 of 22</p><p class="lesson-name">Aleph <bdi class="hebrew" lang="he" dir="rtl">א</bdi></p></div></div>
+        {!published && <span class="local-preview-label">Local preview</span>}
+      </header>
+      <nav class="stage-navigation" aria-label="Lesson stages">
+        <ol>{stages.map((stage, index) => <li><button type="button" data-stage-target={stage.toLowerCase()} aria-controls={`stage-${stage.toLowerCase()}`} disabled><span class="stage-number" aria-hidden="true">{index + 1}</span><span>{stage}</span></button></li>)}</ol>
+      </nav>
+      <p class="sr-only" data-stage-announcement role="status" aria-live="polite" aria-atomic="true"></p>
+      <section id="stage-theory" data-stage="theory" class="stage-panel" aria-labelledby="theory-title">
+        <div class="stage-heading"><span class="eyebrow">Step 1 of 4</span><h2 id="theory-title" data-stage-heading tabindex="-1">Meet Aleph</h2><p>The first letter of the Hebrew alphabet. Start with the letter, then look at the marks around it.</p></div>
+        <div class="learning-card">
+          <StudyBlock block={lesson.blocks[theoryIndices[0]]} />
+          <div class="learning-objectives"><h2>What you’ll learn</h2><ul><li>Recognize Aleph: <bdi class="hebrew" lang="he" dir="rtl">א</bdi>.</li><li>Distinguish Patah, Kamatz Gadol and Hataf Patah by their shapes.</li><li>Identify these vowel marks in beginner practice questions.</li></ul></div>
+          <div class="theory-section"><h2>How vowel marks work</h2><StudyBlock block={lesson.blocks[theoryIndices[1]]} /></div>
+          <div class="theory-section"><h2>Where you’ll see Hataf Patah</h2><StudyBlock block={lesson.blocks[theoryIndices[2]]} /></div>
+        </div>
+        <div class="stage-actions" data-enhanced hidden><span>Next, compare the three marks.</span><button type="button" class="btn lesson-primary" data-stage-target="examples">Next: Examples <span aria-hidden="true">→</span></button></div>
+      </section>
+      <section id="stage-examples" data-stage="examples" class="stage-panel" aria-labelledby="examples-title">
+        <div class="stage-heading"><span class="eyebrow">Step 2 of 4</span><h2 id="examples-title" data-stage-heading tabindex="-1">One letter, three vowel marks</h2><p>Look beneath Aleph. Notice the line, the T-shaped mark, and the line with two dots.</p></div>
+        <div class="learning-card example-materials">{exampleIndices.map(index => <StudyBlock block={lesson.blocks[index]} />)}</div>
+        <div class="stage-actions" data-enhanced hidden><button type="button" class="btn lesson-secondary" data-stage-target="theory">Back: Theory</button><button type="button" class="btn lesson-primary" data-stage-target="practice">Next: Practice <span aria-hidden="true">→</span></button></div>
+      </section>
+      <Practice exercises={lesson.exercises} blocks={lesson.blocks} />
+      <section id="stage-results" data-stage="results" class="stage-panel" aria-labelledby="results-title">
+        <div class="stage-heading"><span class="eyebrow">Step 4 of 4</span><h2 id="results-title" data-stage-heading tabindex="-1">Your practice results</h2><p>Use your results to decide what to revisit.</p></div>
+        <div class="learning-card results-card" data-enhanced hidden>
+          <p class="result-percentage" data-result-percentage>0%</p><p class="percentage-label" data-percentage-label>Overall score · correct answers out of available questions</p>
+          <dl class="result-stats"><div><dt>Correct</dt><dd data-result-correct>0</dd></div><div><dt>Attempted</dt><dd data-result-attempted>0</dd></div><div><dt>Incorrect</dt><dd data-result-incorrect>0</dd></div><div><dt>Unanswered</dt><dd data-result-unanswered>14</dd></div></dl>
+          <p data-results-summary role="status" aria-live="polite" aria-atomic="true"></p>
+          <p data-unanswered-list></p>
+          <div class="results-actions"><button type="button" class="btn lesson-primary" data-review-mistakes>Review mistakes</button><button type="button" class="btn lesson-secondary" data-answer-unanswered>Answer unanswered</button><button type="button" class="btn lesson-secondary" data-retry-practice>Retry practice</button></div>
+          <p class="session-note">Results are saved for this page visit only. They are not synced to the mobile app.</p>
+        </div>
+        <noscript><p class="no-script">Interactive results need JavaScript. Read the questions above and expand their source answers to check your work.</p></noscript>
+        <div class="stage-actions" data-enhanced hidden><button type="button" class="btn lesson-secondary" data-stage-target="practice">Back: Practice</button><button type="button" class="text-button" data-stage-target="theory">Revisit theory</button></div>
+      </section>
+    </main>
+    <Footer />
+  </body>
+</html>

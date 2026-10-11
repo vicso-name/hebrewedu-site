@@ -1,0 +1,23 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import HebrewText from './HebrewText.astro';
+import { studyText } from '../../lib/lessons/presentation.mjs';
+type Lesson = CollectionEntry<'lessons'>['data'];
+interface Props { block: Lesson['blocks'][number] }
+const { block } = Astro.props;
+const text = studyText(block);
+---
+<div class:list={['study-block', `study-${block.type.toLowerCase()}`]} data-study-type={block.type} id={block.id}>
+  {block.type === 'MAIN_TITLE' && <h1><HebrewText text={block.text} /></h1>}
+  {block.type === 'SUBTITLE' && <h2><HebrewText text={block.text} /></h2>}
+  {block.type === 'SIMPLE_TEXT' && <p><HebrewText text={block.text} /></p>}
+  {block.type === 'BOLD_TEXT' && <p class="sound-note"><strong><HebrewText text={text} /></strong></p>}
+  {block.type === 'TEXT_IMAGE' && 'illustration' in block && <figure class="mark-card">
+    <div class="mark-glyph" aria-hidden="true"><bdi class="hebrew" lang="he" dir="rtl">{block.illustration.glyph}</bdi></div>
+    <figcaption>
+      <h2>{block.illustration.label}</h2>
+      <p><HebrewText text={text} /></p>
+      <p class="text-equivalent"><bdi class="hebrew" lang="he" dir="rtl">{block.illustration.glyph}</bdi> · {block.illustration.equivalent}</p>
+    </figcaption>
+  </figure>}
+</div>
