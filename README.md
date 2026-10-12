@@ -2,6 +2,34 @@
 
 Astro static site for the **Learn Hebrew – Read & Speak** app.
 
+**Start here:** [Project knowledge index](docs/PROJECT-KNOWLEDGE-INDEX.md) for current
+state, approved decisions and documentation authority.
+
+## Current course state and validation
+
+As of 2026-10-12, the Course Hub and Aleph are published. Aleph has **14 active
+exercises**, 11 study blocks and Q4's correct answer **True**; lessons 2–22 remain
+unpublished. The homepage title is **Hebrew Alphabet App & Reading Practice**.
+Current SEO research is Semantic Core v2 with **309 keyword rows**.
+
+Follow the [current release procedure](docs/hebrew-alphabet-release.md). From the
+repository root, the portable publication checks are:
+
+```sh
+node --test tests/alphabet-course-hub.test.mjs tests/lesson-1.test.mjs
+npm run build
+node scripts/check-alphabet-release.mjs
+```
+
+[check-alphabet-release.mjs](scripts/check-alphabet-release.mjs) validates the built
+first-release state. [check-lesson-1-artifacts.mjs](scripts/check-lesson-1-artifacts.mjs)
+is **obsolete for current publication validation**: it requires an unpublished,
+noindex POC and no course sitemap entries. Historical POC, editorial and readiness
+reports are reference-only; their earlier unpublished state, 11 available exercises
+and Q4 False requirements do not override the released state. See the
+[import workflow](scripts/alphabet-course/README.md) for the separate preserved
+import checkpoint and checker prerequisites.
+
 ## Stack
 - [Astro](https://astro.build) — static site generator
 - Vanilla CSS with custom properties (no Tailwind)
