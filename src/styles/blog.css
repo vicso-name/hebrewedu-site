@@ -511,17 +511,24 @@
   font-size: 0.9375rem;
 }
 .hebrew-alphabet-guide .guide-alphabet-chart th,
-.hebrew-alphabet-guide .guide-alphabet-chart td { padding: 0.7rem 0.85rem; }
-.hebrew-alphabet-guide .guide-alphabet-chart td:nth-child(2) {
+.hebrew-alphabet-guide .guide-alphabet-chart td {
+  padding: 0.7rem 0.85rem;
+  vertical-align: middle;
+}
+.hebrew-alphabet-guide .guide-alphabet-chart thead th { background: #f0f0f3; }
+.hebrew-alphabet-guide .guide-alphabet-chart tbody tr:nth-child(odd) { background: #FFFFFF; }
+.hebrew-alphabet-guide .guide-alphabet-chart tbody tr:nth-child(even) { background: #FAFAFC; }
+.hebrew-alphabet-guide .guide-alphabet-chart td:first-child {
   min-width: 5.5rem;
   color: var(--blog-text);
   font-size: 1.2rem;
   font-weight: 700;
   white-space: nowrap;
 }
-.hebrew-alphabet-guide .guide-alphabet-chart td:nth-child(2) bdi {
-  font-family: "Times New Roman", serif;
-  font-size: 1.45em;
+.hebrew-alphabet-guide .guide-alphabet-chart td:first-child bdi {
+  font-family: "Guide Rubik", "Arial Hebrew", Arial, sans-serif;
+  font-size: 1.3em;
+  font-weight: 400;
   line-height: 1.25;
 }
 .hebrew-alphabet-guide .guide-alphabet-chart td:last-child { min-width: 15rem; }

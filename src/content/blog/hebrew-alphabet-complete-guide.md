@@ -52,8 +52,6 @@ That click is what this guide is about. By the end, you'll understand not just w
   </div>
 </section>
 
----
-
 ## Why the Hebrew Alphabet Is Easier Than It Looks
 
 Most people assume Hebrew will be hard before they've even tried. The script looks ancient, exotic, impenetrable. Hebrew has 22 letters and no upper or lower case. In standard Modern Hebrew, some letters may have little or no consonant sound in particular words, while vowel marks help show how to read a word.
@@ -85,36 +83,34 @@ Sound notes describe common Modern Israeli Hebrew; historical and traditional pr
 <div class="guide-chart-scroll" role="region" tabindex="0" aria-label="Hebrew alphabet chart, scroll horizontally on small screens">
 <table class="guide-alphabet-chart">
 <caption>Twenty-two Hebrew base letters, with five final forms shown alongside their base forms.</caption>
-<thead><tr><th scope="col">#</th><th scope="col">Letter</th><th scope="col">Name</th><th scope="col">Sound</th><th scope="col">Notes</th></tr></thead>
+<thead><tr><th scope="col">Letter</th><th scope="col">Name</th><th scope="col">Sound</th><th scope="col">Notes</th></tr></thead>
 <tbody>
-<tr><th scope="row">1</th><td><bdi lang="he" dir="rtl">א</bdi></td><td>Aleph</td><td>Usually no distinct consonant sound</td><td>Historically represents /ʔ/</td></tr>
-<tr><th scope="row">2</th><td><bdi lang="he" dir="rtl">ב</bdi></td><td>Bet / Vet</td><td>b / v</td><td>Two sounds, one letter</td></tr>
-<tr><th scope="row">3</th><td><bdi lang="he" dir="rtl">ג</bdi></td><td>Gimel</td><td>g</td><td>As in “go”</td></tr>
-<tr><th scope="row">4</th><td><bdi lang="he" dir="rtl">ד</bdi></td><td>Dalet</td><td>d</td><td>As in “dog”</td></tr>
-<tr><th scope="row">5</th><td><bdi lang="he" dir="rtl">ה</bdi></td><td>Hey</td><td>h</td><td>Mostly silent at end of words</td></tr>
-<tr><th scope="row">6</th><td><bdi lang="he" dir="rtl">ו</bdi></td><td>Vav</td><td>/v/</td><td>Also writes the vowels /o/ and /u/</td></tr>
-<tr><th scope="row">7</th><td><bdi lang="he" dir="rtl">ז</bdi></td><td>Zayin</td><td>z</td><td>As in “zero”</td></tr>
-<tr><th scope="row">8</th><td><bdi lang="he" dir="rtl">ח</bdi></td><td>Chet</td><td>/χ/</td><td>Roughly like German <i>Bach</i>; not English “ch”</td></tr>
-<tr><th scope="row">9</th><td><bdi lang="he" dir="rtl">ט</bdi></td><td>Tet</td><td>t</td><td>Same as Tav in standard Modern Hebrew</td></tr>
-<tr><th scope="row">10</th><td><bdi lang="he" dir="rtl">י</bdi></td><td>Yod</td><td>/j/</td><td>Also helps write /i/ and other vowel spellings</td></tr>
-<tr><th scope="row">11</th><td><bdi lang="he" dir="rtl">כ / ך</bdi></td><td>Kaf / Chaf</td><td>k / kh</td><td>Sound depends on the form and dagesh; final form: <bdi lang="he" dir="rtl">ך</bdi></td></tr>
-<tr><th scope="row">12</th><td><bdi lang="he" dir="rtl">ל</bdi></td><td>Lamed</td><td>l</td><td>Tallest letter in the alphabet</td></tr>
-<tr><th scope="row">13</th><td><bdi lang="he" dir="rtl">מ / ם</bdi></td><td>Mem</td><td>m</td><td>Final form: <bdi lang="he" dir="rtl">ם</bdi></td></tr>
-<tr><th scope="row">14</th><td><bdi lang="he" dir="rtl">נ / ן</bdi></td><td>Nun</td><td>n</td><td>Final form: <bdi lang="he" dir="rtl">ן</bdi></td></tr>
-<tr><th scope="row">15</th><td><bdi lang="he" dir="rtl">ס</bdi></td><td>Samech</td><td>s</td><td>Circle shape</td></tr>
-<tr><th scope="row">16</th><td><bdi lang="he" dir="rtl">ע</bdi></td><td>Ayin</td><td>Usually no distinct consonant sound</td><td>/ʕ/ in historical and some traditional pronunciations</td></tr>
-<tr><th scope="row">17</th><td><bdi lang="he" dir="rtl">פ / ף</bdi></td><td>Pe / Fe</td><td>p / f</td><td>Final form: <bdi lang="he" dir="rtl">ף</bdi></td></tr>
-<tr><th scope="row">18</th><td><bdi lang="he" dir="rtl">צ / ץ</bdi></td><td>Tzadi</td><td>ts</td><td>Like “ts” in “cats”; final form: <bdi lang="he" dir="rtl">ץ</bdi></td></tr>
-<tr><th scope="row">19</th><td><bdi lang="he" dir="rtl">ק</bdi></td><td>Kuf</td><td>k</td><td>Same consonant sound as Kaf with dagesh in standard Modern Hebrew</td></tr>
-<tr><th scope="row">20</th><td><bdi lang="he" dir="rtl">ר</bdi></td><td>Resh</td><td>r</td><td>Commonly pronounced at the back of the mouth; varies by speaker</td></tr>
-<tr><th scope="row">21</th><td><bdi lang="he" dir="rtl">שׁ / שׂ</bdi></td><td>Shin / Sin</td><td>sh / s</td><td>Two sounds, distinguished by dot position</td></tr>
-<tr><th scope="row">22</th><td><bdi lang="he" dir="rtl">ת</bdi></td><td>Tav</td><td>t</td><td>Same as Tet in standard Modern Hebrew</td></tr>
+<tr><td><bdi lang="he" dir="rtl">א</bdi></td><td>Aleph</td><td>Usually no distinct consonant sound</td><td>Historically represents /ʔ/</td></tr>
+<tr><td><bdi lang="he" dir="rtl">ב</bdi></td><td>Bet / Vet</td><td>b / v</td><td>Two sounds, one letter</td></tr>
+<tr><td><bdi lang="he" dir="rtl">ג</bdi></td><td>Gimel</td><td>g</td><td>As in “go”</td></tr>
+<tr><td><bdi lang="he" dir="rtl">ד</bdi></td><td>Dalet</td><td>d</td><td>As in “dog”</td></tr>
+<tr><td><bdi lang="he" dir="rtl">ה</bdi></td><td>Hey</td><td>h</td><td>Mostly silent at end of words</td></tr>
+<tr><td><bdi lang="he" dir="rtl">ו</bdi></td><td>Vav</td><td>/v/</td><td>Also writes the vowels /o/ and /u/</td></tr>
+<tr><td><bdi lang="he" dir="rtl">ז</bdi></td><td>Zayin</td><td>z</td><td>As in “zero”</td></tr>
+<tr><td><bdi lang="he" dir="rtl">ח</bdi></td><td>Chet</td><td>/χ/</td><td>Roughly like German <i>Bach</i>; not English “ch”</td></tr>
+<tr><td><bdi lang="he" dir="rtl">ט</bdi></td><td>Tet</td><td>t</td><td>Same as Tav in standard Modern Hebrew</td></tr>
+<tr><td><bdi lang="he" dir="rtl">י</bdi></td><td>Yod</td><td>/j/</td><td>Also helps write /i/ and other vowel spellings</td></tr>
+<tr><td><bdi lang="he" dir="rtl">כ / ך</bdi></td><td>Kaf / Chaf</td><td>k / kh</td><td>Sound depends on the form and dagesh; final form: <bdi lang="he" dir="rtl">ך</bdi></td></tr>
+<tr><td><bdi lang="he" dir="rtl">ל</bdi></td><td>Lamed</td><td>l</td><td>Tallest letter in the alphabet</td></tr>
+<tr><td><bdi lang="he" dir="rtl">מ / ם</bdi></td><td>Mem</td><td>m</td><td>Final form: <bdi lang="he" dir="rtl">ם</bdi></td></tr>
+<tr><td><bdi lang="he" dir="rtl">נ / ן</bdi></td><td>Nun</td><td>n</td><td>Final form: <bdi lang="he" dir="rtl">ן</bdi></td></tr>
+<tr><td><bdi lang="he" dir="rtl">ס</bdi></td><td>Samech</td><td>s</td><td>Circle shape</td></tr>
+<tr><td><bdi lang="he" dir="rtl">ע</bdi></td><td>Ayin</td><td>Usually no distinct consonant sound</td><td>/ʕ/ in historical and some traditional pronunciations</td></tr>
+<tr><td><bdi lang="he" dir="rtl">פ / ף</bdi></td><td>Pe / Fe</td><td>p / f</td><td>Final form: <bdi lang="he" dir="rtl">ף</bdi></td></tr>
+<tr><td><bdi lang="he" dir="rtl">צ / ץ</bdi></td><td>Tzadi</td><td>ts</td><td>Like “ts” in “cats”; final form: <bdi lang="he" dir="rtl">ץ</bdi></td></tr>
+<tr><td><bdi lang="he" dir="rtl">ק</bdi></td><td>Kuf</td><td>k</td><td>Same consonant sound as Kaf with dagesh in standard Modern Hebrew</td></tr>
+<tr><td><bdi lang="he" dir="rtl">ר</bdi></td><td>Resh</td><td>r</td><td>Commonly pronounced at the back of the mouth; varies by speaker</td></tr>
+<tr><td><bdi lang="he" dir="rtl">שׁ / שׂ</bdi></td><td>Shin / Sin</td><td>sh / s</td><td>Two sounds, distinguished by dot position</td></tr>
+<tr><td><bdi lang="he" dir="rtl">ת</bdi></td><td>Tav</td><td>t</td><td>Same as Tet in standard Modern Hebrew</td></tr>
 </tbody></table>
 </div>
 
 The chart lists 22 base letters. Five of those letters also have a distinct form used at the end of a word; these are variants, not five additional base letters.
-
----
 
 ## The Five Final Letters
 
