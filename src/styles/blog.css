@@ -586,11 +586,14 @@
   scroll-padding-inline: 0.25rem;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: auto;
-  scrollbar-color: #96939b #ebe9e5;
+  scrollbar-color: #a0a0a0 #f1f0ed;
 }
 .hebrew-alphabet-guide .guide-letter-slider-viewport::-webkit-scrollbar { height: 0.65rem; }
-.hebrew-alphabet-guide .guide-letter-slider-viewport::-webkit-scrollbar-track { background: #ebe9e5; border-radius: 1rem; }
-.hebrew-alphabet-guide .guide-letter-slider-viewport::-webkit-scrollbar-thumb { background: #96939b; border: 2px solid #ebe9e5; border-radius: 1rem; }
+.hebrew-alphabet-guide .guide-letter-slider-viewport::-webkit-scrollbar-track { background: #f1f0ed; border-radius: 1rem; }
+.hebrew-alphabet-guide .guide-letter-slider-viewport::-webkit-scrollbar-thumb { background: #a0a0a0; border: 2px solid #f1f0ed; border-radius: 999px; }
+@supports selector(::-webkit-scrollbar) {
+  .hebrew-alphabet-guide .guide-letter-slider-viewport { scrollbar-color: auto; }
+}
 .hebrew-alphabet-guide .guide-letter-slider-viewport:focus-visible {
   outline: 3px solid #777481;
   outline-offset: 3px;
@@ -620,7 +623,7 @@
 }
 .hebrew-alphabet-guide .guide-letter-slide:hover {
   border-color: #d8d4cf;
-  box-shadow: 0 8px 22px rgba(46, 43, 38, 0.09);
+  box-shadow: none;
   transform: translateY(-2px);
 }
 .hebrew-alphabet-guide .guide-letter-glyph {
@@ -629,9 +632,9 @@
   justify-content: center;
   min-height: 7rem;
   margin-bottom: 0.95rem;
-  border: 1px solid #e9e7ec;
+  border: 1px solid #fcfcfc;
   border-radius: 12px;
-  background: linear-gradient(145deg, #f1f0f4, #f7f6f2 75%);
+  background: #fcfcfc;
   color: #343440;
   font-family: "Guide Rubik", "Arial Hebrew", Arial, sans-serif;
   font-size: clamp(4.5rem, 18vw, 5rem);
@@ -641,6 +644,8 @@
 }
 .hebrew-alphabet-guide .guide-letter-slide h3 {
   margin: 0.15rem 0 0;
+  padding-bottom: 10px;
+  box-shadow: 0 1px 0 #e9e7e3;
   color: #24242b;
   font-size: 1.4rem;
   line-height: 1.25;
@@ -649,12 +654,11 @@
   flex: 1 1 auto;
   min-height: 5.5rem;
   margin: 0.75rem 0 0;
-  padding: 0.65rem 0.75rem;
-  border: 1px solid #eeece8;
-  border-radius: 10px;
-  background: #f7f6f3;
+  padding: calc(0.65rem + 1px) calc(0.75rem + 1px);
+  border: 0;
+  background: none;
   color: #55535a;
-  font-size: 1rem;
+  font-size: 1.2em;
   line-height: 1.45;
 }
 .hebrew-alphabet-guide .guide-letter-final {
