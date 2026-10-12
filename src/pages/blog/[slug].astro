@@ -92,7 +92,7 @@ const related = (await getSortedPosts())
             </p>
           </header>
 
-          <div class="article-body">
+          <div class:list={["article-body", { "hebrew-alphabet-guide": post.id === "hebrew-alphabet-complete-guide" }]}>
             <Content />
           </div>
 
