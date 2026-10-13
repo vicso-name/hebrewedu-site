@@ -1,0 +1,107 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Nav from '../../../components/Nav.astro';
+import Footer from '../../../components/Footer.astro';
+import Section from '../../../components/ui/Section.astro';
+import CtaPanel from '../../../components/ui/CtaPanel.astro';
+import StoreButtons from '../../../components/ui/StoreButtons.astro';
+import PhraseCard from '../../../components/phrases/PhraseCard.astro';
+import PhrasePractice from '../../../components/phrases/PhrasePractice.astro';
+import { phraseGroups, phraseDialogues, phraseQuestions, phraseVariant, phraseReview } from '../../../data/hebrew-phrases';
+import { phrasesTitle, phrasesDescription, phrasesSchema, phrasesEnabled, phrasesPublished, localPhrasesPreview } from '../../../lib/hebrew-phrases.mjs';
+import '../../../styles/hebrew-phrases.css';
+
+// Like the existing course hub, an optional rest route keeps drafts out of production.
+export function getStaticPaths() {
+  return phrasesEnabled(localPhrasesPreview(import.meta.env.DEV)) ? [{ params: { landing: undefined } }] : [];
+}
+const published = phrasesPublished();
+const resources = [
+  { href: '/blog/how-to-learn-hebrew-vocabulary/', title: 'Remember the phrases you learn', description: 'Build a manageable vocabulary and review habit.' },
+  { href: '/blog/hebrew-alphabet-complete-guide/', title: 'Look up Hebrew letters', description: 'Keep letter shapes, names and final forms close at hand.' },
+  { href: '/learn/hebrew-alphabet/', title: 'Start with the alphabet', description: 'Meet Aleph in the published first alphabet lesson.' },
+];
+---
+<Layout title={phrasesTitle} description={phrasesDescription} schema={phrasesSchema()} robots={published ? 'index, follow' : 'noindex, nofollow, noarchive'}>
+  <div class="phrases-page">
+    <a class="phrases-skip" href="#phrases-content">Skip to phrases</a>
+    <Nav />
+    <main id="phrases-content">
+      {!published && <div class="phrases-preview container" role="note">Local editorial preview · Native Hebrew review is pending. This page is excluded from the normal production build.</div>}
+      <div class="container phrases-hero">
+        <nav class="phrases-breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li aria-current="page">Hebrew Phrases</li></ol></nav>
+        <div class="phrases-hero-layout">
+          <header>
+            <p class="phrases-eyebrow">A little Hebrew for everyday life</p>
+            <h1>Useful Hebrew Phrases for Beginners</h1>
+            <p class="phrases-lead">Say hello. Order a coffee. Ask for a little help. Start with 30 practical Modern Hebrew expressions, with English meanings and pronunciation support.</p>
+            <div class="phrases-hero-actions"><a href="#phrases" class="btn phrases-primary">Explore the phrases <span aria-hidden="true">↓</span></a><a href="#practice" class="phrases-text-link">Try a quick practice</a></div>
+            <p class="phrases-hero-meta">5 everyday situations <span aria-hidden="true">·</span> Free to use here <span aria-hidden="true">·</span> No installation needed</p>
+          </header>
+          <aside class="phrases-first-card" aria-label="Your first greeting">
+            <p class="phrases-eyebrow">Start with a greeting</p>
+            <bdi class="phrases-hebrew" lang="he" dir="rtl">{phraseVariant('hello').hebrew}</bdi>
+            <p class="phrase-transliteration">{phraseVariant('hello').transliteration}</p>
+            <p class="phrases-first-meaning">Hello. A small word, a useful start.</p>
+            <a class="phrases-text-link" href="#greetings">More ways to begin <span aria-hidden="true">→</span></a>
+          </aside>
+        </div>
+      </div>
+
+      <Section surface="soft" id="how-to-use">
+        <div class="phrases-section-heading"><p class="phrases-eyebrow">Read it. Understand it. Use it.</p><h2 class="display-md">How to use this phrase guide</h2></div>
+        <div class="phrases-guide-notes">
+          <p><strong>Follow the meaning.</strong> Each card gives you a situation and an English meaning, so you know when the expression fits.</p>
+          <p><strong>Use the pronunciation help.</strong> Transliteration is an approximation: <em>sh</em> as in “shoe”, <em>ts</em> as in “cats”, and <em>kh</em> for a sound like the ending of Scottish “loch”. An apostrophe separates vowel sounds.</p>
+          <p><strong>Check the form label.</strong> “Speaker” refers to the person saying the phrase; “addressee” is the person you are speaking to. These examples address one person.</p>
+        </div>
+        <p class="phrases-guide-link">The dots and marks around the Hebrew letters are nikud, which help show vowel sounds. <a href="/blog/how-to-read-hebrew-nikud/">Understand Hebrew vowel marks</a>.</p>
+      </Section>
+
+      <Section id="phrases">
+        <div class="phrases-section-heading"><p class="phrases-eyebrow">30 expressions. Plenty of small beginnings.</p><h2 class="display-md">Everyday Hebrew phrases</h2><p>Choose a situation and learn a few phrases you can put to use.</p></div>
+        <nav class="phrases-jump-links" aria-label="Phrase situations"><ul>{phraseGroups.map((group, index) => <li><a href={`#${group.id}`}><span aria-hidden="true">0{index + 1}</span>{group.title}</a></li>)}</ul></nav>
+        {phraseGroups.map((group, groupIndex) => <>
+          <div class="phrase-group" id={group.id} role="region" aria-labelledby={`${group.id}-title`}>
+            <header class="phrase-group-heading"><span class="phrase-group-number" aria-hidden="true">0{groupIndex + 1}</span><div><h3 id={`${group.id}-title`}>{group.title}</h3><p>{group.description}</p></div></header>
+            <ul class="phrase-grid" role="list">{group.phrases.map((phrase, index) => <PhraseCard phrase={phrase} number={groupIndex * 6 + index + 1} />)}</ul>
+          </div>
+          {groupIndex === 1 && <aside class="phrases-inline-app" aria-labelledby="phrases-mid-title"><div><p id="phrases-mid-title" class="phrases-app-label">Build a regular Hebrew practice habit</p><p>Keep building with vocabulary review and structured lessons in HebrewEdu.</p></div><StoreButtons location="hebrew_phrases_mid" height={48} /></aside>}
+        </>)}
+      </Section>
+
+      <Section surface="soft" id="examples">
+        <div class="phrases-section-heading"><p class="phrases-eyebrow">Put the words together</p><h2 class="display-md">Two small conversations</h2><p>See how phrases you have just learned can work in an exchange.</p></div>
+        <div class="phrase-dialogues">{phraseDialogues.map(dialogue => <div class="phrase-dialogue" data-phrase-dialogue={dialogue.id}>
+          <h3>{dialogue.title}</h3><p class="phrase-dialogue-setting">{dialogue.setting}</p>
+          <ol>{dialogue.turns.map(turn => {
+            const variant = phraseVariant(turn.phraseId, turn.variantId);
+            return <li><p class="phrase-form-label">{turn.role}</p><p class="phrase-hebrew-line"><bdi class="phrases-hebrew" lang="he" dir="rtl">{variant.hebrew}</bdi></p><p class="phrase-transliteration" dir="ltr">{variant.transliteration}</p><p>{turn.translation}</p></li>;
+          })}</ol>
+        </div>)}</div>
+      </Section>
+
+      <Section id="practice">
+        <div class="phrases-section-heading"><p class="phrases-eyebrow">Your turn</p><h2 class="display-md">Try a quick phrase practice</h2><p>Three everyday situations. No timer, no pressure.</p></div>
+        <PhrasePractice />
+      </Section>
+
+      <CtaPanel id="phrases-app" compact>
+        <p class="phrases-eyebrow">Keep the habit going</p><h2 class="display-md">Continue learning with HebrewEdu</h2>
+        <p>Build on these phrases with vocabulary review, structured lessons and beginner reading with audio and translation.</p>
+        <StoreButtons location="hebrew_phrases_after_practice" height={48} />
+      </CtaPanel>
+
+      <Section surface="soft" id="questions">
+        <div class="phrases-section-heading"><h2 class="display-md">Beginner questions</h2></div>
+        <div class="phrases-questions">{phraseQuestions.map(item => <div><h3>{item.question}</h3><p>{item.answer}</p></div>)}</div>
+      </Section>
+      <Section id="keep-learning">
+        <div class="phrases-section-heading"><h2 class="display-md">Keep learning Hebrew</h2><p>Use a reference when you need it, or give your practice a little structure.</p></div>
+        <ul class="phrases-resources" role="list">{resources.map(resource => <li><h3><a href={resource.href}>{resource.title} <span aria-hidden="true">→</span></a></h3><p>{resource.description}</p></li>)}</ul>
+        <p class="phrases-editorial">Created by HebrewEdu.{published && phraseReview.reviewedAt && <> Editorially reviewed <time datetime={phraseReview.reviewedAt}>{phraseReview.reviewedAt}</time>.</>}</p>
+      </Section>
+    </main>
+    <Footer />
+  </div>
+</Layout>

@@ -1,0 +1,17 @@
+---
+import type { Phrase } from '../../data/hebrew-phrases';
+interface Props { phrase: Phrase; number: number }
+const { phrase, number } = Astro.props;
+---
+<li class="phrase-card" id={`phrase-${phrase.id}`} data-phrase-id={phrase.id}>
+  <div class="phrase-card-top"><span class="phrase-number">{String(number).padStart(2, '0')}</span><p class="phrase-meaning">{phrase.meaning}</p></div>
+  <div class="phrase-variants">
+    {phrase.variants.map(variant => <div class="phrase-variant">
+      {phrase.variants.length > 1 && <p class="phrase-form-label">{variant.label}</p>}
+      <p class="phrase-hebrew-line"><bdi class="phrases-hebrew" lang="he" dir="rtl">{variant.hebrew}</bdi></p>
+      <p class="phrase-transliteration" dir="ltr">{variant.transliteration}</p>
+    </div>)}
+  </div>
+  <p class="phrase-usage">{phrase.usage}</p>
+  {phrase.variants.length > 1 && <p class="phrase-gender-note"><strong>Form note:</strong> {phrase.genderNote}</p>}
+</li>
