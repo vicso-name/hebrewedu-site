@@ -137,7 +137,6 @@ Real spoken Hebrew is messier.
 
 People shorten things constantly:
 - אני לא יודע → אנלא יודע
-- מה אתה עושה → מה אתה עושההה
 - בסדר → סבבה → טוב → יאללה somehow all mean different emotional things depending on tone
 
 At first this feels unfair.

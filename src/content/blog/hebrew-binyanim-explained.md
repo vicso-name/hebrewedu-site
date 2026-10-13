@@ -47,8 +47,8 @@ Take the root כ-ת-ב (k-t-v), which carries the meaning of writing. Here's how
 |---|---|---|---|
 | Pa'al | כָּתַב | katav | he wrote |
 | Nif'al | נִכְתַּב | nikhtav | was written |
-| Hif'il | הִכְתִּיב | hikhtiv | to dictate |
-| Hitpa'el | הִתְכַּתֵּב | hitkhatev | to correspond |
+| Hif'il | הִכְתִּיב | hikhtiv | he dictated |
+| Hitpa'el | הִתְכַּתֵּב | hitkatev | he corresponded |
 
 The root stays constant: כ-ת-ב.
 
@@ -83,7 +83,6 @@ Pa'al is the foundation.
 It contains the most frequent verbs in spoken and written Hebrew. The most common everyday words live here:
 
 - לכתוב (*likhtov*) — to write
-- לדבר (*ledaber*) — to speak
 - לאכול (*le'ekhol*) — to eat
 - ללכת (*lalechet*) — to go/walk
 - לקרוא (*likro*) — to read
@@ -107,7 +106,7 @@ With the root ל-מ-ד (l-m-d — relating to learning):
 - Pi'el: לִמֵּד (*limed*) — he taught (causing someone to learn)
 
 With the root ד-ב-ר (d-b-r — speaking):
-- This root actually primarily lives in Pi'el: דִּבֵּר (*diber*) — he spoke
+- Pi'el: לדבר (*ledaber*) — to speak; דִּבֵּר (*diber*) — he spoke
 
 The Pa'al / Pi'el relationship often follows this pattern: Pa'al is the simpler action, Pi'el introduces a more deliberate or intensive version. Learning to recognize both doubles the verbs you can understand for every root you know.
 

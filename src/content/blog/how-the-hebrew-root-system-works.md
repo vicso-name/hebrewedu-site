@@ -36,13 +36,14 @@ For the root כ-ת-ב (k-t-v), that meaning is: **writing**.
 | Hebrew | Transliteration | Meaning |
 |---|---|---|
 | לכתוב | likhtov | to write |
-| כָּתַב | katav | he wrote / reporter |
+| כָּתַב | katav | he wrote (verb) |
+| כַּתָּב | katav | reporter (noun) |
 | מכתב | michtav | letter (mail) |
 | כתיבה | ktivah | the act of writing |
 | כותב | kotev | writer |
-| הִתְכַּתֵּב | hitkhatev | to correspond |
+| הִתְכַּתֵּב | hitkatev | he corresponded |
 
-Same three letters at the core. Six completely usable words.
+Same three letters at the core. Seven completely usable words.
 
 ---
 
@@ -54,7 +55,7 @@ A new word is just another thing to memorize.
 
 After they understand roots, new words arrive with context attached.
 
-You already know כ-ת-ב means writing-related things. When you encounter הִכְתִּיב (*hikhtiv* — to dictate) for the first time, your brain doesn't start from zero. It starts from: "this is a writing word, in a pattern that usually implies causing something."
+You already know כ-ת-ב means writing-related things. When you encounter הִכְתִּיב (*hikhtiv* — he dictated) for the first time, your brain doesn't start from zero. It starts from: "this is a writing word, in a pattern that usually implies causing something."
 
 The new word costs less to learn.
 
@@ -75,7 +76,7 @@ This is one reason [how many words you actually need](/blog/how-many-words-are-i
 
 - ללמוד (*lilmod*) — to study/learn
 - למד (*lamad*) — he learned
-- מלמד (*melaamed*) — teacher
+- מְלַמֵּד (*melamed*) — teaches/is teaching (masculine singular participle); as a noun, a teacher in traditional Jewish education
 - תלמיד (*talmid*) — student
 
 **ש-מ-ר (sh-m-r) — guarding, keeping, protecting**
@@ -135,8 +136,8 @@ The root כ-ת-ב across four patterns:
 
 - Pa'al: כָּתַב (*katav*) — he wrote
 - Nif'al: נִכְתַּב (*nikhtav*) — was written
-- Hif'il: הִכְתִּיב (*hikhtiv*) — to dictate
-- Hitpa'el: הִתְכַּתֵּב (*hitkhatev*) — to correspond
+- Hif'il: הִכְתִּיב (*hikhtiv*) — he dictated
+- Hitpa'el: הִתְכַּתֵּב (*hitkatev*) — he corresponded
 
 Four verbs. One root. Systematic meaning shifts.
 
