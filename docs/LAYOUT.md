@@ -59,6 +59,46 @@ One container, one section rhythm, one spacing scale — applied to every page's
 | `/play/` games section top padding | one-off `padding-top: var(--home-section-y)` | removed (redundant with `Section.astro`'s own padding) |
 | global `--section-y` | didn't exist; `--home-section-y` defined separately in `home.css` and `alphabet-course.css` | one `--section-y` in `global.css`; `--home-section-y` is an alias |
 
+## Automated guardrails
+
+`npm run check:layout` (`scripts/check-layout.mjs`) enforces the rules above on
+every commit — it runs in `prebuild` and as its own step before `Build` in
+`.github/workflows/deploy.yml`. It checks:
+
+1. Every page in `src/pages` imports `Layout.astro`, directly or through a
+   documented wrapper (`LegalPage.astro`). Non-HTML routes and pages that
+   legitimately need their own shell are named in a `PAGE_ALLOWLIST` in the
+   script, each with a reason.
+2. `.container` is never redeclared outside `global.css`.
+3. No literal `max-width` in px/rem at page-container scale (>= 900px / 56rem)
+   outside `global.css` — use `var(--w-content|--w-medium|--w-narrow)`.
+   Smaller, component-internal sizes (cards, panels, stage art) are not
+   flagged.
+4. No `padding`/`padding-block: 0` on a selector containing the word
+   `section` — that resets the shared section rhythm.
+5. No `!important` anywhere in `src/`.
+6. No file outside `Nav.astro`/`Footer.astro`/`global.css` redeclares a
+   Nav/Footer selector (`.nav-inner`, `.nav-links`, …), and no `html`/`body`
+   rule outside `global.css` sets a `background`.
+
+**Allowlist policy:** each rule has its own `ALLOWLIST` (a `Set`/`Map`) at the
+top of its section in `scripts/check-layout.mjs`. A real violation gets
+fixed in the code. A genuine, narrow exception gets a one-line-reason entry
+in the allowlist instead — never a change to the rule's regex to make the
+violation invisible. If a rule itself turns out to be too strict for a
+legitimate pattern, change the rule (and say so, with reasoning, in the
+allowlist's comment) rather than quietly disabling the check.
+
+Known, intentional exceptions already allowlisted: the `course-hub`'s mobile
+`.nav-inner` height/gutter adjustments and the `hebrew-phrases` page's
+`.nav-inner` wrapping (both pages add nav content that needs more room, and
+neither touches background/border/link styling) — tracked as debt to fold
+into `Nav.astro`'s own responsive rules rather than per-page overrides; the
+`legal.css` and `lesson-poc.css` `section`-padding resets (prose subsections
+inside one `Section.astro` block, not page-rhythm sections of their own);
+and the `[hidden]`/`prefers-reduced-motion` `!important` blocks (functional,
+not layout, overrides).
+
 ## Lesson pages
 
 `/learn/hebrew-alphabet/[lesson]` (`[lesson].astro`, `lesson-poc.css`) now follows these rules too:

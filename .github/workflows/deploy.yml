@@ -30,6 +30,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Check layout guardrails
+        run: npm run check:layout
+
       - name: Build
         run: npm run build
 

@@ -16,7 +16,6 @@
   color: var(--ink);
   background: var(--white);
 }
-.phrases-page .container { max-width: 1120px; padding-inline: clamp(1rem, 4vw, 2rem); }
 .phrases-page [id] { scroll-margin-top: 88px; }
 .phrases-page :focus-visible { outline: 3px solid var(--brand-dark); outline-offset: 4px; }
 .phrases-page .phrases-hebrew { font-family: 'Phrases Rubik', 'Arial Hebrew', Arial, sans-serif; font-size: 1.6rem; line-height: 1.75; letter-spacing: normal; unicode-bidi: isolate; color: var(--ink); }

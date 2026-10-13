@@ -4,8 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
+    "prebuild": "npm run check:layout",
     "build": "astro build",
     "preview": "astro preview",
+    "check:layout": "node scripts/check-layout.mjs",
     "sync:alef-bet-rush": "node scripts/sync-alef-bet-rush.mjs",
     "sync:hebrew-mahjong": "node scripts/sync-hebrew-mahjong.mjs",
     "sync:hebrew-word-search": "node scripts/sync-hebrew-word-search.mjs"
