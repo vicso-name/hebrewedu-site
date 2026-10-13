@@ -1,0 +1,1318 @@
+{
+  "schemaVersion": 1,
+  "sourceRun": "2026-10-11T12-04-00-552Z-a1dbcc",
+  "findings": [
+    {
+      "lessonId": 1,
+      "sourceSha256": "0306e249dc168efd7d49e886553f7aa61733cb6ca26307c7cc0a07215b5999a7",
+      "code": "existing-aleph-holds",
+      "summary": "The existing POC holds on Q4/Q11/Q14, vowel-length, silence and Hataf examples remain. Import adds no approval.",
+      "evidence": [
+        {
+          "position": "Q4",
+          "path": "$.exercises[3]",
+          "source": {
+            "type": "TRUE_FALSE",
+            "content": "The letter Alef has no inherent sound of its own; its pronunciation depends entirely on the surrounding niqqud marks.",
+            "tip": "That's true! Alef is completely silent on its own. Its actual sound comes from the vowel marks, though it can sometimes vary depending on the dialect or its position within a word.",
+            "additionalData": {
+              "correctAnswer": "true"
+            }
+          }
+        },
+        {
+          "position": "Q11",
+          "path": "$.exercises[10]",
+          "source": {
+            "type": "MULTIPLE_CHOICE_COLUMN",
+            "content": "What is the name of the niqqud mark that makes an ultra-short [a] sound and looks like a horizontal line with two vertical dots beside it?",
+            "tip": "That's the Hataf Patah! Think of it as a combination of a Patah (the line) and a Sheva (the two dots). It creates a super-quick, reduced [a] sound.",
+            "additionalData": {
+              "choices": [
+                "Holam Male",
+                "Suruk",
+                "Hataf Patah"
+              ],
+              "correctAnswer": "Hataf Patah"
+            }
+          }
+        },
+        {
+          "position": "Q14",
+          "path": "$.exercises[13]",
+          "source": {
+            "type": "MULTIPLE_CHOICE_GRID",
+            "content": "What sound does the letter Alef (אֲ) make when paired with a Hataf Patah?",
+            "tip": "It makes an ultra-short [a] sound. This is a \"reduced\" vowel, meaning it's pronounced much quicker than a regular Patah.",
+            "additionalData": {
+              "choices": [
+                "[a]",
+                "[o]",
+                "[u]",
+                "[e]"
+              ],
+              "correctAnswer": "[a]"
+            }
+          }
+        },
+        {
+          "position": "B6",
+          "path": "$.studyMaterials[5]",
+          "source": {
+            "type": "BOLD_TEXT",
+            "content": "When Aleph is paired with a Kamatz Gadol, it shares the exact same [a] sound—like the \"a\" in \"father.\""
+          }
+        },
+        {
+          "position": "B7",
+          "path": "$.studyMaterials[6]",
+          "source": {
+            "type": "TEXT_IMAGE",
+            "content": "The Hataf Patah is a combination of the Patah and a Sheva (two vertical dots). It appears as two vertical dots placed to the left of the horizontal line. Like other niqqud marks, it sits directly beneath a consonant.",
+            "description": ""
+          }
+        },
+        {
+          "position": "B9",
+          "path": "$.studyMaterials[8]",
+          "source": {
+            "type": "BOLD_TEXT",
+            "content": "When Aleph is paired with a Hataf Patah, it is pronounced with a short [a] sound—just like the \"a\" in the English word \"sofa.\""
+          }
+        }
+      ],
+      "status": "requires-editorial-approval",
+      "notACorrection": true
+    },
+    {
+      "lessonId": 2,
+      "sourceSha256": "292346e3d7efbd119ddd85102ec527e6545427979802764b85a7b459f5728309",
+      "code": "internal-vowel-name-conflict",
+      "summary": "B7 calls the vowel in בָּא Kamatz, while B16 calls the same printed vowel Patah. The Bet-at-word-start/end absolute rules and Q7/Q9 need exception review.",
+      "evidence": [
+        {
+          "position": "B7",
+          "path": "$.studyMaterials[6]",
+          "source": {
+            "type": "SIMPLE_TEXT",
+            "content": "The Hebrew word 'בָּא' [ba] means 'comes' in English. The first letter, Bet (בּ), has a dagesh and a kamatz gadol (ָ) underneath, resulting in the [ba] sound. Aleph (א) is silent in this case, so the correct pronunciation of 'בָּא' is [ba]."
+          }
+        },
+        {
+          "position": "B8",
+          "path": "$.studyMaterials[7]",
+          "source": {
+            "type": "BOLD_TEXT",
+            "content": "Important Note: When Bet appears at the beginning of a word, it is always written with a dagesh and pronounced as [b]."
+          }
+        },
+        {
+          "position": "B16",
+          "path": "$.studyMaterials[15]",
+          "source": {
+            "type": "BOLD_TEXT",
+            "content": "The Hebrew word 'בָּא' [ba] consists of Bet (בּ) and Aleph (א). The Bet has a dagesh, indicating a strong [b] sound. A patach (ַ) beneath it gives the [ba] sound. The Aleph does not have a vowel and remains silent."
+          }
+        },
+        {
+          "position": "Q7",
+          "path": "$.exercises[6]",
+          "source": {
+            "type": "TRUE_FALSE",
+            "content": "When the letter Bet (ב) appears at the beginning of a word, does it always have a dot (Dagesh) and sound like [b]?",
+            "tip": "In most cases, Bet at the beginning of a word has a Dagesh inside and is pronounced like [b]. However, exceptions exist in certain grammatical contexts.",
+            "additionalData": {
+              "correctAnswer": "true"
+            }
+          }
+        },
+        {
+          "position": "Q9",
+          "path": "$.exercises[8]",
+          "source": {
+            "type": "TRUE_FALSE",
+            "content": "Does the letter Bet at the end of a word lose its Dagesh and make the [v] sound, like in 'vase'?",
+            "tip": "In traditional Hebrew, Bet (ב) does not have a Dagesh at the end of a word, so it is pronounced as [v].",
+            "additionalData": {
+              "correctAnswer": "true"
+            }
+          }
+        }
+      ],
+      "status": "requires-editorial-approval",
+      "notACorrection": true
+    },
+    {
+      "lessonId": 3,
+      "sourceSha256": "0aec1f586b0b7ea2e08570532ccfafd93a1dbede4d1358bb81831339f74112d6",
+      "code": "pronunciation-tradition",
+      "summary": "Q12 pairs Patah with short [a] and Kamatz Gadol with long [a:]; approve one course-wide pronunciation tradition and prerequisite scope.",
+      "evidence": [
+        {
+          "position": "Q12",
+          "path": "$.exercises[11]",
+          "source": {
+            "type": "MATCH_PAIRS",
+            "content": "Match each Hebrew vowel sign with its correct description.",
+            "tip": "Patah is a short [a] sound and looks like a horizontal line, Kamatz Gadol is a long [a:] sound and resembles a small 'T', and Segol consists of three dots.",
+            "additionalData": {
+              "pairs": {
+                "Patah": "Short [a]",
+                "Segol": "Produces [e]",
+                "Kamatz Gadol": "Long [a:]"
+              }
+            }
+          }
+        }
+      ],
+      "status": "requires-editorial-approval",
+      "notACorrection": true
+    },
+    {
+      "lessonId": 4,
+      "sourceSha256": "dbf0b37de9f41a16684da47296963451f0d9fef590df6a8832339a049edbb7cf",
+      "code": "unattributed-symbolism",
+      "summary": "B3 presents four-dimensional symbolism as Jewish tradition without attribution. B10 promises progress tracking; future web copy must not imply mobile/cloud synchronization. Identity is confirmed Dalet and is not re-investigated.",
+      "evidence": [
+        {
+          "position": "B3",
+          "path": "$.studyMaterials[2]",
+          "source": {
+            "type": "SIMPLE_TEXT",
+            "content": "In Jewish tradition, Dalet symbolizes the concept of four dimensions—length, width, height, and time—representing completeness and wholeness."
+          }
+        },
+        {
+          "position": "B10",
+          "path": "$.studyMaterials[9]",
+          "source": {
+            "type": "SIMPLE_TEXT",
+            "content": "Today, you were introduced to Dalet (ד), the fourth letter of the Hebrew alphabet, and learned two new words. Keep up the great work! Your Hebrew learning journey is just beginning. To make the most of it, take your time reviewing the theoretical concepts in each lesson. Our exercise system will help reinforce your knowledge and track your progress."
+          }
+        }
+      ],
+      "status": "requires-editorial-approval",
+      "notACorrection": true
+    },
+    {
+      "lessonId": 5,
+      "sourceSha256": "3ccd553dde38c225dd7c476bc0f6489910e219902656de62aba72ca5933240db",
+      "code": "tsere-segol-analogy",
+      "summary": "Tsere is compared with English they and described as longer/more emphasized than Segol; review dialect/notation scope. Q14 final-He silence needs qualification.",
+      "evidence": [
+        {
+          "position": "B7",
+          "path": "$.studyMaterials[6]",
+          "source": {
+            "type": "SIMPLE_TEXT",
+            "content": "Tsere consists of two horizontal dots (צֵ) placed beneath a letter. It produces an [e] sound, often slightly longer or more emphasized than Segol. Its pronunciation is similar to the [e] in 'they.'"
+          }
+        },
+        {
+          "position": "B9",
+          "path": "$.studyMaterials[8]",
+          "source": {
+            "type": "SIMPLE_TEXT",
+            "content": "Segol consists of three dots arranged in a downward-pointing triangle (סֶ). It appears beneath a consonant and produces an [e] sound, similar to the [e] in 'bed.'"
+          }
+        },
+        {
+          "position": "Q14",
+          "path": "$.exercises[13]",
+          "source": {
+            "type": "TRUE_FALSE",
+            "content": "Is the letter Hey (ה) at the end of a word usually silent?",
+            "tip": "Hey (ה) is often silent when it appears at the end of a word.",
+            "additionalData": {
+              "correctAnswer": "true"
+            }
+          }
+        }
+      ],
+      "status": "requires-editorial-approval",
+      "notACorrection": true
+    },
+    {
+      "lessonId": 6,
+      "sourceSha256": "db69b04a2407039a503d599b2301f8d417a7c62ec92694fac1b64d0f4694b68f",
+      "code": "absolute-rules-and-proofreading",
+      "summary": "Review the Vav-only Holam Male/Shuruk rule against the distinction from Holam Haser, the always-final-Bet-[v] key in Q4, the unmatched opening quote in B2 and word/audio variants.",
+      "evidence": [
+        {
+          "position": "B2",
+          "path": "$.studyMaterials[1]",
+          "source": {
+            "type": "SIMPLE_TEXT",
+            "content": "\"Vav (ו) is the sixth letter of the Hebrew alphabet. It typically sounds like the [v] in 'vase' in English, but in certain cases, it can also represent the [u] or [o] sound, functioning as a vowel."
+          }
+        },
+        {
+          "position": "B4",
+          "path": "$.studyMaterials[3]",
+          "source": {
+            "type": "SIMPLE_TEXT",
+            "content": "Holam Male is a dot placed above Vav (וֹ) and produces a sound similar to the [o] in the English word 'no.' It is used exclusively with Vav, and when you see it, remember that Vav functions as a vowel, meaning its usual consonant sound is not pronounced."
+          }
+        },
+        {
+          "position": "B7",
+          "path": "$.studyMaterials[6]",
+          "source": {
+            "type": "STRIPED_BLOCK",
+            "content": "Listen up! Shuruk and Holam Male are unique because they are used exclusively with the Hebrew letter Vav—they do not appear with any other letter."
+          }
+        },
+        {
+          "position": "Q4",
+          "path": "$.exercises[3]",
+          "source": {
+            "type": "TRUE_FALSE",
+            "content": "The letter Bet (ב) at the end of a word is always pronounced as [v], like in the English word 'vase.'",
+            "tip": "In Hebrew, Bet (ב) at the end of a word usually does not have a Dagesh and is pronounced as [v].",
+            "additionalData": {
+              "correctAnswer": "true"
+            }
+          }
+        }
+      ],
+      "status": "requires-editorial-approval",
+      "notACorrection": true
+    },
+    {
+      "lessonId": 7,
+      "sourceSha256": "21408b27b2b8f30eb3e490725627aa8beb7cd2620ec9fd4820c7b80fdc068e40",
+      "code": "unsupported-historical-pronunciation",
+      "summary": "B2 claims ancient Zayin was closer to ts or dz and Q11 tests it as fact; require a source/reviewer decision. Word block B8 and Q14 spell father differently from the explanatory B9.",
+      "evidence": [
+        {
+          "position": "B2",
+          "path": "$.studyMaterials[1]",
+          "source": {
+            "type": "SIMPLE_TEXT",
+            "content": "Zayin (ז) is the seventh letter of the Hebrew alphabet. In modern Hebrew, it is pronounced 'zayin' and transliterated as [z], like the 'z' in the English word 'zoo.' Historically, its pronunciation may have been closer to 'ts' or 'dz.'"
+          }
+        },
+        {
+          "position": "B8",
+          "path": "$.studyMaterials[7]",
+          "source": {
+            "type": "WORD_EXAMPLE",
+            "word": "זֶה אַבַּא",
+            "transcription": "ze aba",
+            "translation": "this is father"
+          }
+        },
+        {
+          "position": "B9",
+          "path": "$.studyMaterials[8]",
+          "source": {
+            "type": "BOLD_TEXT",
+            "content": "The Hebrew phrase (זֶה אַבָּא) consists of two familiar words. The first, (זֶה), means 'this' or 'this is.' The second, (אַבָּא), means 'father.' Together, (זֶה אַבָּא) [ze a-ba] translates to 'this is father' or 'this is dad' in English."
+          }
+        },
+        {
+          "position": "Q11",
+          "path": "$.exercises[10]",
+          "source": {
+            "type": "TRUE_FALSE",
+            "content": "Was the ancient pronunciation of Zayin identical to its modern [z] sound?",
+            "tip": "Ancient pronunciation of Zayin may have been closer to [dz] or [ts] rather than [z].",
+            "additionalData": {
+              "correctAnswer": "false"
+            }
+          }
+        },
+        {
+          "position": "Q14",
+          "path": "$.exercises[13]",
+          "source": {
+            "type": "MULTIPLE_CHOICE_COLUMN",
+            "content": "Which phrase translates to 'this is father' in English?",
+            "tip": "The Hebrew phrase 'זֶה אַבַּא' translates to 'this is father.'",
+            "additionalData": {
+              "choices": [
+                "זֶה",
+                "זֶה אַבַּא",
+                "אַבָּא"
+              ],
+              "correctAnswer": "זֶה אַבַּא"
+            }
+          }
+        }
+      ],
+      "status": "requires-editorial-approval",
+      "notACorrection": true
+    },
+    {
+      "lessonId": 8,
+      "sourceSha256": "58d4aaf22f0c6fa761a475698bec59779e6b125adc468713db71c5ebfb90110b",
+      "code": "furtive-patah-scope",
+      "summary": "B3/Q2/Q15 teach final-Chet Patah reversal as a broad rule; approve phonetic notation, exceptions and teaching sequence.",
+      "evidence": [
+        {
+          "position": "B3",
+          "path": "$.studyMaterials[2]",
+          "source": {
+            "type": "STRIPED_BLOCK",
+            "content": "Pay attention! You've learned that when a consonant has a Patah vowel, it adds an [a] vowel sound, like (חַ) sounding like [cha]. But, if the letter Chet is at the end of a word with a Patach vowel, it sounds like [ach] for example in the word (כּוֹחַ) [ko-ach]. This is one of the rules in Hebrew pronunciation."
+          }
+        },
+        {
+          "position": "Q2",
+          "path": "$.exercises[1]",
+          "source": {
+            "type": "MULTIPLE_CHOICE_GRID",
+            "content": "How is Chet pronounced when it appears at the end of a word with a Patah vowel?",
+            "tip": "When Chet (ח) appears at the end of a word with a Patah, it is pronounced as [ach], like in the word 'אָח' (ach - brother).",
+            "additionalData": {
+              "choices": [
+                "[cha]",
+                "[ach]",
+                "[chah]",
+                "[hcha]"
+              ],
+              "correctAnswer": "[ach]"
+            }
+          }
+        },
+        {
+          "position": "Q15",
+          "path": "$.exercises[14]",
+          "source": {
+            "type": "MULTIPLE_CHOICE_COLUMN",
+            "content": "How is Chet (ח) pronounced at the end of a word when marked with Patah?",
+            "tip": "When Chet (ח) appears at the end of a word with Patah, it is pronounced as [ach], like in כּוֹחַ (koach, meaning 'strength').",
+            "additionalData": {
+              "choices": [
+                "[cha]",
+                "[ah]",
+                "[ach]"
+              ],
+              "correctAnswer": "[ach]"
+            }
+          }
+        }
+      ],
+      "status": "requires-editorial-approval",
+      "notACorrection": true
+    },
+    {
+      "lessonId": 9,
+      "sourceSha256": "6781dc4eeb5bb5b9717c1005e642baff4bec4771084c341e2fb3e95cafa3bcb6",
+      "code": "cultural-attribution-and-transcription",
+      "summary": "Approve the Tet/tikkun-olam association, probably gloss for בֶּטַח and h/ch transcription consistency; Q10 includes an unpointed Tet label followed by + Kamatz.",
+      "evidence": [
+        {
+          "position": "B3",
+          "path": "$.studyMaterials[2]",
+          "source": {
+            "type": "SIMPLE_TEXT",
+            "content": "The letter Tet is linked to the Hebrew word 'טוֹב' (tov), meaning 'good.' In Jewish tradition, Tet is also connected to the concept of (תִּיקּוּן עוֹלָם) [ tikkun olam ], which translates to 'repairing the world.' This notion of mending the world is a cornerstone of Jewish ethics and is frequently viewed as a collective duty shared by all individuals."
+          }
+        },
+        {
+          "position": "B7",
+          "path": "$.studyMaterials[6]",
+          "source": {
+            "type": "WORD_EXAMPLE",
+            "word": "בֶּטַח",
+            "transcription": "betah",
+            "translation": "probably"
+          }
+        },
+        {
+          "position": "B8",
+          "path": "$.studyMaterials[7]",
+          "source": {
+            "type": "BOLD_TEXT",
+            "content": "The Hebrew word 'בֶּטַח' [be-ta-ch] consists of three letters: Bet (ב), Tet (ט), and Chet (ח). The Bet, marked with a Dagesh, produces a distinct [b] sound. A Segol beneath the Bet adds the [e] sound. The Tet, with a Patah, creates the [ta] sound by adding the [a] vowel. Finally, the Chet contributes a guttural [ch] sound."
+          }
+        },
+        {
+          "position": "Q10",
+          "path": "$.exercises[9]",
+          "source": {
+            "type": "MATCH_PAIRS",
+            "content": "Match each letter with its correct pronunciation.",
+            "tip": "Pay attention to the vowel markings. Kamatz (ָ) adds an [a] sound.",
+            "additionalData": {
+              "pairs": {
+                "(ט) + Kamatz": "[ta]",
+                "(גָ) + Kamatz": "[ga]",
+                "(בָּ) + Kamatz": "[ba]"
+              }
+            }
+          }
+        }
+      ],
+      "status": "requires-editorial-approval",
+      "notACorrection": true
+    },
+    {
+      "lessonId": 10,
+      "sourceSha256": "855381031faa3ee7fcc1049bc44ddf661e108a5a22bcda81d003019819a3038a",
+      "code": "english-localization-and-unsourced-statistic",
+      "summary": "B3 claims Yud is approximately 11% of all Hebrew texts without a corpus/source. Q3 has Cyrillic values and assigns unpointed Bet a b-like value, conflicting with prior teaching. Word חַי is glossed live but Q10 expects life; approve context.",
+      "evidence": [
+        {
+          "position": "B3",
+          "path": "$.studyMaterials[2]",
+          "source": {
+            "type": "SIMPLE_TEXT",
+            "content": "The letter Yud (י) is the most frequently used character in the Hebrew alphabet, appearing in approximately 11% of all Hebrew texts. Despite its prevalence, Yud is the smallest letter in the Aleph-Bet. Its modest size is often associated with qualities of humility and simplicity."
+          }
+        },
+        {
+          "position": "B7",
+          "path": "$.studyMaterials[6]",
+          "source": {
+            "type": "WORD_EXAMPLE",
+            "word": "חַי",
+            "transcription": "chay",
+            "translation": "live"
+          }
+        },
+        {
+          "position": "Q3",
+          "path": "$.exercises[2]",
+          "source": {
+            "type": "MATCH_PAIRS",
+            "content": "Match the Hebrew letters to their corresponding sounds.",
+            "tip": "Each Hebrew letter has a distinct sound.",
+            "additionalData": {
+              "pairs": {
+                "ב": "[б]",
+                "ד": "[д]",
+                "י": "[й]"
+              }
+            }
+          }
+        },
+        {
+          "position": "Q10",
+          "path": "$.exercises[9]",
+          "source": {
+            "type": "MULTIPLE_CHOICE_COLUMN",
+            "content": "How do you translate the word 'חַי' [cha-y] into English?",
+            "tip": "חַי means 'life' in Hebrew and represents vitality.",
+            "additionalData": {
+              "choices": [
+                "life",
+                "death",
+                "love"
+              ],
+              "correctAnswer": "life"
+            }
+          }
+        },
+        {
+          "position": "Q15",
+          "path": "$.exercises[14]",
+          "source": {
+            "type": "MATCH_PAIRS",
+            "content": "Match each Hebrew letter with its pronunciation when combined with Kamatz.",
+            "tip": "Kamatz (ָ) adds a long [a] sound to the letter it accompanies.",
+            "additionalData": {
+              "pairs": {
+                "(זָ) + Kamatz": "[за]",
+                "(יָ) + Kamatz": "[йа]",
+                "(בָּ) + Kamatz": "[ба]"
+              }
+            }
+          }
+        }
+      ],
+      "status": "requires-editorial-approval",
+      "notACorrection": true
+    },
+    {
+      "lessonId": 11,
+      "sourceSha256": "c03ab9857ce7b2ac376a8a0d4e51f555885a26c2601db3956fcd6251cf3192f3",
+      "code": "internal-word-and-mark-conflicts",
+      "summary": "B10 says כּוֹכָב has three letters and renders kohav, while Q4 selects ko-khav; count/spelling/transcription need reconciliation. Q16 labels pointed Yud with Patah as + Segol and uses Cyrillic targets. Review final-Kaf sound conditions.",
+      "evidence": [
+        {
+          "position": "B10",
+          "path": "$.studyMaterials[9]",
+          "source": {
+            "type": "BOLD_TEXT",
+            "content": "The Hebrew word 'כּוֹכָב' [kohav] translates to 'star' in English. This simple yet elegant word consists of three letters: Kaf (כ), Vav (ו), and Bet (ב). Pronounced [ko-ha-v], it is commonly used in both everyday language and poetic expressions to describe the celestial bodies that illuminate the night sky."
+          }
+        },
+        {
+          "position": "B12",
+          "path": "$.studyMaterials[11]",
+          "source": {
+            "type": "BOLD_TEXT",
+            "content": "The Hebrew word 'כֹּחַ' [koah] means 'force' or 'power.' It consists of two letters: Kaf (כ) and Chet (ח). The Kaf contributes a [k] sound, and when Chet appears at the end of a word with a Patah beneath it, it produces an [ah] sound. Together, these letters form a word that symbolizes both physical and inner strength."
+          }
+        },
+        {
+          "position": "B14",
+          "path": "$.studyMaterials[13]",
+          "source": {
+            "type": "BOLD_TEXT",
+            "content": "The Hebrew word 'כָּךְ' [kah] means 'in this way' or 'so.' It consists of two letters: Kaf (כ) and Final Kaf (ך). The first Kaf has a Kamatz Gadol beneath it, producing a longer [a] sound, resulting in the [ka] pronunciation. The Final Kaf (ך) at the end of the word softens to a slight [kh] sound."
+          }
+        },
+        {
+          "position": "Q4",
+          "path": "$.exercises[3]",
+          "source": {
+            "type": "MULTIPLE_CHOICE_GRID",
+            "content": "How is the word 'כּוֹכָב' pronounced?",
+            "tip": "The word כּוֹכָב is pronounced as [ko-khav] and means 'star'.",
+            "additionalData": {
+              "choices": [
+                "[ko-khav]",
+                "[sa-pa-h]",
+                "[ko-chu-v]",
+                "[ka-vo-h]"
+              ],
+              "correctAnswer": "[ko-khav]"
+            }
+          }
+        },
+        {
+          "position": "Q6",
+          "path": "$.exercises[5]",
+          "source": {
+            "type": "MULTIPLE_CHOICE_COLUMN",
+            "content": "How is the final form of Kaf-Sofit (ך) pronounced?",
+            "tip": "Kaf-Sofit (ך) is pronounced as [kh], a softer version of Kaf.",
+            "additionalData": {
+              "choices": [
+                "[g]",
+                "[kh]",
+                "[k]"
+              ],
+              "correctAnswer": "[kh]"
+            }
+          }
+        },
+        {
+          "position": "Q16",
+          "path": "$.exercises[15]",
+          "source": {
+            "type": "MATCH_PAIRS",
+            "content": "Match each Hebrew letter with its pronunciation when combined with Segol.",
+            "tip": "Segol adds an [e] sound to the letter it accompanies.",
+            "additionalData": {
+              "pairs": {
+                "(יַ) + Segol": "[йэ]",
+                "(בֶּ) + Segol": "[бэ]",
+                "(כֶּ) + Segol": "[кэ]"
+              }
+            }
+          }
+        }
+      ],
+      "status": "requires-editorial-approval",
+      "notACorrection": true
+    },
+    {
+      "lessonId": 12,
+      "sourceSha256": "8eb3b450176527abf6ab651bfa7a758898d7d10099b6e087a5d6cc19e16ab068",
+      "code": "internal-sound-and-vowel-conflicts",
+      "summary": "B6 says final Bet in לֵב makes [b], while the same paragraph and Q13 use [v]. Q6 calls the printed Tsere in לֵב Segol. Q12 selects lu-la for לוּלָאָה while the word block uses lula'a. Q3 assigns unpointed Bet [b].",
+      "evidence": [
+        {
+          "position": "B6",
+          "path": "$.studyMaterials[5]",
+          "source": {
+            "type": "BOLD_TEXT",
+            "content": "The Hebrew word 'לֵב' [lev] translates to 'heart' in English. It consists of two letters: Lamed (ל) and Bet (ב). Lamed produces an [l] sound, and Bet produces a [b] sound. A Tzere beneath the Lamed adds the [e] sound, resulting in the pronunciation [lev]."
+          }
+        },
+        {
+          "position": "B11",
+          "path": "$.studyMaterials[10]",
+          "source": {
+            "type": "WORD_EXAMPLE",
+            "word": "לוּלָאָה",
+            "transcription": "lula'a",
+            "translation": "loop"
+          }
+        },
+        {
+          "position": "Q3",
+          "path": "$.exercises[2]",
+          "source": {
+            "type": "MATCH_PAIRS",
+            "content": "Match the Hebrew letters to their corresponding sounds.",
+            "tip": "Each Hebrew letter has a distinct sound.",
+            "additionalData": {
+              "pairs": {
+                "ב": "[b]",
+                "ל": "[l]",
+                "נ": "[n]"
+              }
+            }
+          }
+        },
+        {
+          "position": "Q6",
+          "path": "$.exercises[5]",
+          "source": {
+            "type": "MULTIPLE_CHOICE_COLUMN",
+            "content": "What sound does the Segol under the Lamed in (לֵב) contribute to its pronunciation?",
+            "tip": "Segol under ל makes it sound like [le].",
+            "additionalData": {
+              "choices": [
+                "[e]",
+                "[i]",
+                "[o]"
+              ],
+              "correctAnswer": "[e]"
+            }
+          }
+        },
+        {
+          "position": "Q12",
+          "path": "$.exercises[11]",
+          "source": {
+            "type": "MULTIPLE_CHOICE_GRID",
+            "content": "How is the word 'לוּלָאָה' pronounced?",
+            "tip": "לוּלָאָה is pronounced as [lu-la-a] and means 'loop'.",
+            "additionalData": {
+              "choices": [
+                "[lu-la]",
+                "[la-y-la]",
+                "[li-ya]",
+                "[ma-y-la]"
+              ],
+              "correctAnswer": "[lu-la]"
+            }
+          }
+        },
+        {
+          "position": "Q13",
+          "path": "$.exercises[12]",
+          "source": {
+            "type": "TRUE_FALSE",
+            "content": "Does the letter Bet (ב) in (לֵב) have a [v] sound?",
+            "tip": "Bet (ב) without a dagesh is pronounced as [v].",
+            "additionalData": {
+              "correctAnswer": "true"
+            }
+          }
+        }
+      ],
+      "status": "requires-editorial-approval",
+      "notACorrection": true
+    },
+    {
+      "lessonId": 13,
+      "sourceSha256": "3633dc5247d32d7766b717e881147e863cbdb8fd0e4ea9b5f451e83700ab596a",
+      "code": "bet-key-and-pronunciation-review",
+      "summary": "Q3 assigns unpointed Bet [b], contrary to the prior Dagesh teaching. Q16 has Cyrillic phonetic values. Review the short/unstressed Hiriq explanation in B6 and progression of final forms.",
+      "evidence": [
+        {
+          "position": "B6",
+          "path": "$.studyMaterials[5]",
+          "source": {
+            "type": "BOLD_TEXT",
+            "content": "The Hebrew word 'מַיִם' [mayim] means 'water' in English. It consists of three letters: Mem (מ), Yud (י), and Mem Sofit (ם). The first Mem, with a Patah vowel, is pronounced [ma]. The Yud has a Hirik Haser vowel, producing a short, unstressed [i] sound. Together, these elements form the pronunciation [ma-yi-m]."
+          }
+        },
+        {
+          "position": "Q3",
+          "path": "$.exercises[2]",
+          "source": {
+            "type": "MATCH_PAIRS",
+            "content": "Match the Hebrew letters to their corresponding sounds.",
+            "tip": "Each Hebrew letter has a unique sound.",
+            "additionalData": {
+              "pairs": {
+                "ב": "[b]",
+                "מ": "[m]",
+                "נ": "[n]"
+              }
+            }
+          }
+        },
+        {
+          "position": "Q16",
+          "path": "$.exercises[15]",
+          "source": {
+            "type": "MATCH_PAIRS",
+            "content": "Match each Hebrew letter with its pronunciation when combined with Patah.",
+            "tip": "Patah (ַ) adds a short [a] sound to the letter it accompanies.",
+            "additionalData": {
+              "pairs": {
+                "(זַ) + Patah": "[за]",
+                "(יַ) + Patah": "[йа]",
+                "(מַ) + Patah": "[ма]"
+              }
+            }
+          }
+        }
+      ],
+      "status": "requires-editorial-approval",
+      "notACorrection": true
+    },
+    {
+      "lessonId": 14,
+      "sourceSha256": "45b290640139e1a5458b1093d09f875d39d5fa8dd1ff13ed3b52a82a466b329b",
+      "code": "articulation-and-gloss-review",
+      "summary": "B2 asks learners to avoid a strong nasal quality for Nun; require articulation review. The source varies between handsome and pleasant/beautiful for נָאֶה; approve an English gloss and transcription.",
+      "evidence": [
+        {
+          "position": "B2",
+          "path": "$.studyMaterials[1]",
+          "source": {
+            "type": "SIMPLE_TEXT",
+            "content": "Nun (נ) is the fourteenth letter of the Hebrew alphabet. It is pronounced with a soft [n] sound, similar to the 'n' in the English word 'never.' When practicing pronunciation, focus on making the sound gentle and avoiding a strong nasal quality. Nun is one of five Hebrew letters that have a final form, known as Nun Sofit (ן)."
+          }
+        },
+        {
+          "position": "B16",
+          "path": "$.studyMaterials[15]",
+          "source": {
+            "type": "WORD_EXAMPLE",
+            "word": "נָאֶה",
+            "transcription": "nae",
+            "translation": "handsome"
+          }
+        },
+        {
+          "position": "B17",
+          "path": "$.studyMaterials[16]",
+          "source": {
+            "type": "BOLD_TEXT",
+            "content": "The Hebrew word 'נָאֶה' [na-eh] means 'pleasant' or 'beautiful' in English. It consists of three letters: Nun (נ), Alef (א), and Hey (ה). The Nun, with a Kamatz Gadol vowel, is pronounced [na]. The Alef, marked with a Segol, produces the [e] sound. The letter Hey is silent at the end of this word. Therefore, 'נָאֶה' is pronounced [na-eh]."
+          }
+        },
+        {
+          "position": "Q8",
+          "path": "$.exercises[7]",
+          "source": {
+            "type": "MULTIPLE_CHOICE_GRID",
+            "content": "How do you translate the word 'נָאֶה' into English?",
+            "tip": "נָאֶה means 'handsome' in English.",
+            "additionalData": {
+              "choices": [
+                "handsome",
+                "when",
+                "why",
+                "good"
+              ],
+              "correctAnswer": "handsome"
+            }
+          }
+        }
+      ],
+      "status": "requires-editorial-approval",
+      "notACorrection": true
+    },
+    {
+      "lessonId": 15,
+      "sourceSha256": "5045141203e848b7f66c01eff349ec9b3beaaccefe85bd4ab67dbc962889de1c",
+      "code": "internal-final-bet-conflict",
+      "summary": "B13 says final Bet in סָבִיב is [b] while its own transcription ends [v]. Q3 uses Cyrillic values. Review Hiriq Male/Haser terminology and depiction, especially what changes spelling versus sound.",
+      "evidence": [
+        {
+          "position": "B4",
+          "path": "$.studyMaterials[3]",
+          "source": {
+            "type": "SIMPLE_TEXT",
+            "content": "Unlock the secrets of the Hiriq — the tiny dot that shapes the sound of Hebrew’s [i] vowel. In this lesson, you’ll dissect the differences between Hiriq Male (full) and Hiriq Haser (defective), two variations that impact pronunciation, spelling, and even meaning in Hebrew."
+          }
+        },
+        {
+          "position": "B13",
+          "path": "$.studyMaterials[12]",
+          "source": {
+            "type": "BOLD_TEXT",
+            "content": "The Hebrew word 'סָבִיב' [saviv] means 'around' in English. It consists of four letters: Samekh (ס), Bet (ב), Yud (י), and Bet (ב) again. The Samekh, with a Kamatz Gadol vowel, is pronounced [sa]. The first Bet, with a Hiriq Male, produces the [vi] sound. The letter Yud in this context serves as a 'mater lectionis' (a helper for reading) and is part of the Hiriq Male. The final Bet has no vowel marks and is pronounced [b]. Therefore, the word 'סָבִיב' is pronounced [sa-vi-v]."
+          }
+        },
+        {
+          "position": "Q3",
+          "path": "$.exercises[2]",
+          "source": {
+            "type": "MATCH_PAIRS",
+            "content": "Match the Hebrew letters to their corresponding sounds.",
+            "tip": "Each Hebrew letter has a unique sound.",
+            "additionalData": {
+              "pairs": {
+                "מ": "[м]",
+                "ס": "[с]",
+                "ת": "[т]"
+              }
+            }
+          }
+        }
+      ],
+      "status": "requires-editorial-approval",
+      "notACorrection": true
+    },
+    {
+      "lessonId": 16,
+      "sourceSha256": "15207bf7d69939f11526895ce90ba62a567f52f9f1c51e540902e414416f73ca",
+      "code": "dialect-and-mark-conflict",
+      "summary": "Ayin is taught/tested as silent while Q14 recognizes guttural dialects; approve target tradition. B6 calls the mark on Ayin in כּוֹעֵס Segol but the printed mark is Tsere. Q4 uses Cyrillic vowel targets.",
+      "evidence": [
+        {
+          "position": "B2",
+          "path": "$.studyMaterials[1]",
+          "source": {
+            "type": "SIMPLE_TEXT",
+            "content": "Ayin (ע) is the sixteenth letter of the Hebrew alphabet. It is unique among Hebrew letters because it is silent in modern Hebrew pronunciation. In ancient Hebrew, Ayin likely represented a guttural or pharyngeal sound. However, over time, its pronunciation evolved, and today it is mostly silent."
+          }
+        },
+        {
+          "position": "B6",
+          "path": "$.studyMaterials[5]",
+          "source": {
+            "type": "BOLD_TEXT",
+            "content": "The Hebrew word 'כּוֹעֵס' [koes] means 'angry' in English. It consists of four letters: Kaf (כּ), Vav (ו), Ayin (ע), and Samekh (ס). The first letter, Kaf, produces the [k] sound. Vav, with a Holam Male, gives the [o] sound. Ayin itself does not produce a distinct sound but carries the Segol vowel, resulting in [e]. The final letter, Samekh, contributes the [s] sound. Therefore, the word 'כּוֹעֵס' is pronounced [ko-es]."
+          }
+        },
+        {
+          "position": "Q1",
+          "path": "$.exercises[0]",
+          "source": {
+            "type": "MULTIPLE_CHOICE_COLUMN",
+            "content": "What is unique about the pronunciation of Ayin (ע) in modern Hebrew?",
+            "tip": "In modern Hebrew, Ayin (ע) is silent or takes the vowel sound.",
+            "additionalData": {
+              "choices": [
+                "It has a guttural sound",
+                "It is silent",
+                "It is pronounced like [a]"
+              ],
+              "correctAnswer": "It is silent"
+            }
+          }
+        },
+        {
+          "position": "Q4",
+          "path": "$.exercises[3]",
+          "source": {
+            "type": "MATCH_PAIRS",
+            "content": "Match the Hebrew letters to their sounds.",
+            "tip": "Ayin takes the sound of the vowel it carries.",
+            "additionalData": {
+              "pairs": {
+                "עִ": "[ и ]",
+                "עֶ": "[ э ]",
+                "עַ": "[ а ]"
+              }
+            }
+          }
+        },
+        {
+          "position": "Q8",
+          "path": "$.exercises[7]",
+          "source": {
+            "type": "TRUE_FALSE",
+            "content": "The letter Ayin (ע) has its own distinct sound in modern Hebrew.",
+            "tip": "Ayin is silent but takes on the sound of the vowel it carries.",
+            "additionalData": {
+              "correctAnswer": "false"
+            }
+          }
+        },
+        {
+          "position": "Q14",
+          "path": "$.exercises[13]",
+          "source": {
+            "type": "TRUE_FALSE",
+            "content": "In some Hebrew dialects, the letter Ayin (ע) is pronounced as a deep guttural sound.",
+            "tip": "In some older Hebrew dialects and in languages like Arabic, Ayin retains a guttural pronunciation.",
+            "additionalData": {
+              "correctAnswer": "true"
+            }
+          }
+        }
+      ],
+      "status": "requires-editorial-approval",
+      "notACorrection": true
+    },
+    {
+      "lessonId": 17,
+      "sourceSha256": "be59635196c81b22ea55525d6852816b52d45aad932c98714d4df969554b5c65",
+      "code": "pointed-word-and-gloss-conflict",
+      "summary": "The striped example B7 contains שָֹפָה, while B8 discusses שָׂפָה; marks differ and must not be silently replaced. B11 glosses פּוֹעַל as verb, while later lesson 18 B19/Q9 use worker. Approve regular/final Pey sound and Dagesh scope in Q2/Q16.",
+      "evidence": [
+        {
+          "position": "B7",
+          "path": "$.studyMaterials[6]",
+          "source": {
+            "type": "STRIPED_BLOCK",
+            "content": "שָֹפָה"
+          }
+        },
+        {
+          "position": "B8",
+          "path": "$.studyMaterials[7]",
+          "source": {
+            "type": "SIMPLE_TEXT",
+            "content": "The Hebrew word 'שָׂפָה' [safa] means 'language' in English. The first letter, Shin (שׂ), has a Kamatz Gadol, producing the [sa] sound. Next, Pey (פ), without a Dagesh and also marked with a Kamatz Gadol, produces the [fa] sound. The final letter, Hey (ה), is silent in this word. Therefore, 'שָׂפָה' is pronounced [sa-fa]."
+          }
+        },
+        {
+          "position": "B11",
+          "path": "$.studyMaterials[10]",
+          "source": {
+            "type": "SIMPLE_TEXT",
+            "content": "The Hebrew word 'פּוֹעַל' [po-al] means 'verb' in English. The first letter, Pey (פּ), has a Dagesh, producing the [p] sound. The second letter, Vav (וֹ), with a Holam Male, creates the [o] sound. The letter Ayin (ע) does not have its own sound but takes the [a] sound due to the Patah vowel. The final letter, Lamed (ל), contributes the [l] sound. Therefore, the word 'פּוֹעַל' is pronounced [po-al]."
+          }
+        },
+        {
+          "position": "Q2",
+          "path": "$.exercises[1]",
+          "source": {
+            "type": "TRUE_FALSE",
+            "content": "Pey has two written forms: regular (פ) and final (ף), but both are pronounced the same.",
+            "tip": "Yes, Fey-Sofit (ף) is used at the end of words.",
+            "additionalData": {
+              "correctAnswer": "true"
+            }
+          }
+        },
+        {
+          "position": "Q16",
+          "path": "$.exercises[15]",
+          "source": {
+            "type": "TRUE_FALSE",
+            "content": "The final form of Pey (ף) is pronounced differently from the regular form (פ).",
+            "tip": "No, both Fey (פ) and Fey-Sofit (ף) are pronounced the same – as [ f ].",
+            "additionalData": {
+              "correctAnswer": "false"
+            }
+          }
+        }
+      ],
+      "status": "requires-editorial-approval",
+      "notACorrection": true
+    },
+    {
+      "lessonId": 18,
+      "sourceSha256": "f1cc5263d83db06368769f1a2281fe023683b297effbe9a568a725b62714d0e8",
+      "code": "cross-lesson-vocabulary-and-transcription",
+      "summary": "B19/Q9 call פּוֹעַל worker, but lesson 17 B11 calls the same form verb. Q6 offers tsa-yi-d and tza-yi-d: choose and explain the transliteration convention rather than grade equivalent spellings arbitrarily. Approve Tsadi historical/doubling claims.",
+      "evidence": [
+        {
+          "position": "B3",
+          "path": "$.studyMaterials[2]",
+          "source": {
+            "type": "STRIPED_BLOCK",
+            "content": "Note: In the past, Tsadi was occasionally transliterated as [z], leading to spellings like 'Zion.' In some academic contexts, it may also appear as an [s] with a dot beneath it."
+          }
+        },
+        {
+          "position": "B19",
+          "path": "$.studyMaterials[18]",
+          "source": {
+            "type": "WORD_EXAMPLE",
+            "word": "פּוֹעַל",
+            "transcription": "poal",
+            "translation": "worker"
+          }
+        },
+        {
+          "position": "Q6",
+          "path": "$.exercises[5]",
+          "source": {
+            "type": "MULTIPLE_CHOICE_GRID",
+            "content": "How is the word 'צַיִד' pronounced?",
+            "tip": "The word צַיִד is pronounced as [ tsa-yi-d ] and means 'hunting'.",
+            "additionalData": {
+              "choices": [
+                "[ tsa-yi-d ]",
+                "[ tsi-yi-d ]",
+                "[ tza-yi-d ]"
+              ],
+              "correctAnswer": "[ tsa-yi-d ]"
+            }
+          }
+        },
+        {
+          "position": "Q9",
+          "path": "$.exercises[8]",
+          "source": {
+            "type": "MATCH_PAIRS",
+            "content": "Match the English words with their Hebrew equivalents.",
+            "tip": "Each Hebrew word represents a specific meaning.",
+            "additionalData": {
+              "pairs": {
+                "rope": "חֶבֶל",
+                "shadow": "צֵל",
+                "worker": "פּוֹעַל"
+              }
+            }
+          }
+        },
+        {
+          "position": "Q15",
+          "path": "$.exercises[14]",
+          "source": {
+            "type": "TRUE_FALSE",
+            "content": "In some Hebrew words, the letter Tsadi (צ) can be doubled when pronounced.",
+            "tip": "Yes, in certain cases, Tsadi can be pronounced with slight doubling, especially in traditional pronunciation.",
+            "additionalData": {
+              "correctAnswer": "true"
+            }
+          }
+        }
+      ],
+      "status": "requires-editorial-approval",
+      "notACorrection": true
+    },
+    {
+      "lessonId": 19,
+      "sourceSha256": "ecc942c53a49575c7a7f841f3e654aadde24dcc1b0bec30f8ca99ba982bb366a",
+      "code": "word-transcription-conflict",
+      "summary": "B8 spells the guinea-pig word differently from word block B7 and describes dageshed Bet as [b] while the result says ka-vya. Word block B15 has a stray apostrophe after הֶגֶה. Q13 tests speculative pictographic origin as fact.",
+      "evidence": [
+        {
+          "position": "B3",
+          "path": "$.studyMaterials[2]",
+          "source": {
+            "type": "SIMPLE_TEXT",
+            "content": "Qof’s name means 'monkey' or 'eye of a needle' in Hebrew, reflecting its ancient pictographic origins, which some scholars link to a shape resembling a needle’s eye or a monkey’s head."
+          }
+        },
+        {
+          "position": "B7",
+          "path": "$.studyMaterials[6]",
+          "source": {
+            "type": "WORD_EXAMPLE",
+            "word": "קַביַה",
+            "transcription": "kavya",
+            "translation": "guinea pig"
+          }
+        },
+        {
+          "position": "B8",
+          "path": "$.studyMaterials[7]",
+          "source": {
+            "type": "BOLD_TEXT",
+            "content": "The Hebrew word 'קָבִּיָּה' [kavya] translates to 'guinea pig' in English. It consists of four letters: Kuf (ק), Bet (בּ), Yud (י), and Hey (ה). The Kuf, with a Kamatz Gadol, produces the [ka] sound. Bet, with a Dagesh, gives the [b] sound. The Yud, with a Hiriq, produces the [i] sound, and the following Yud with Patah creates the [ya] sound. The final Hey (ה) is typically silent in this context. When combined, the word is pronounced [ka-vya]."
+          }
+        },
+        {
+          "position": "B15",
+          "path": "$.studyMaterials[14]",
+          "source": {
+            "type": "WORD_EXAMPLE",
+            "word": "הֶגֶה'",
+            "transcription": "hege",
+            "translation": "steering wheel"
+          }
+        },
+        {
+          "position": "Q13",
+          "path": "$.exercises[12]",
+          "source": {
+            "type": "TRUE_FALSE",
+            "content": "The Hebrew letter Kuf (ק) originates from an ancient pictogram representing a monkey.",
+            "tip": "Historically, Kuf (ק) is believed to have evolved from a pictogram resembling a monkey or a needle eye.",
+            "additionalData": {
+              "correctAnswer": "true"
+            }
+          }
+        }
+      ],
+      "status": "requires-editorial-approval",
+      "notACorrection": true
+    },
+    {
+      "lessonId": 20,
+      "sourceSha256": "0171ed26f52f619bc8b76eb65ef2b100e022a75d2c34cb0c20dffc8b430e30d6",
+      "code": "resh-pronunciation-tradition",
+      "summary": "B2/B3 and Q12 present rolling/trilling and historical-versus-modern assertions; approve the pronunciation tradition and evidence. Q7 includes Cyrillic targets.",
+      "evidence": [
+        {
+          "position": "B2",
+          "path": "$.studyMaterials[1]",
+          "source": {
+            "type": "SIMPLE_TEXT",
+            "content": "The Hebrew letter Resh (ר) is the twentieth letter of the Hebrew alphabet. It represents a sound similar to the English [r], often with a distinctive rolling or trilling quality. In modern Hebrew, this sound is typically produced by lightly vibrating the tongue near the roof of the mouth, though historically, it may have had a guttural tone from the throat."
+          }
+        },
+        {
+          "position": "B3",
+          "path": "$.studyMaterials[2]",
+          "source": {
+            "type": "SIMPLE_TEXT",
+            "content": "It’s worth noting that the pronunciation of Resh (ר) in Hebrew varies across dialects and speakers. Still, its trilling or rolling quality remains a distinctive feature."
+          }
+        },
+        {
+          "position": "Q7",
+          "path": "$.exercises[6]",
+          "source": {
+            "type": "MATCH_PAIRS",
+            "content": "Match the Hebrew vowels with their corresponding sounds.",
+            "tip": "Each vowel modifies the pronunciation of Resh (ר).",
+            "additionalData": {
+              "pairs": {
+                "רִ": "[ ри ]",
+                "רֶ": "[ рэ ]",
+                "רַ": "[ ра ]"
+              }
+            }
+          }
+        },
+        {
+          "position": "Q12",
+          "path": "$.exercises[11]",
+          "source": {
+            "type": "TRUE_FALSE",
+            "content": "In biblical Hebrew, Resh (ר) was pronounced differently than in modern Hebrew.",
+            "tip": "Some linguists suggest that ancient Hebrew Resh (ר) may have been pronounced with a more guttural or trilled sound.",
+            "additionalData": {
+              "correctAnswer": "true"
+            }
+          }
+        }
+      ],
+      "status": "requires-editorial-approval",
+      "notACorrection": true
+    },
+    {
+      "lessonId": 21,
+      "sourceSha256": "8fc0e03e7bfb969584470c6c6e98dc3cf583999863b96bb99cd438962d7d7e95",
+      "code": "ambiguous-negative-question",
+      "summary": "Q9 asks which letter is NOT in שֵׁם. Both Lamed and Alef are absent; the single source key chooses Lamed. This is a definite source-internal grading ambiguity requiring an approved replacement.",
+      "evidence": [
+        {
+          "position": "Q9",
+          "path": "$.exercises[8]",
+          "source": {
+            "type": "MULTIPLE_CHOICE_GRID",
+            "content": "Which letter is NOT in the word (שֵׁם)?",
+            "tip": "The word (שֵׁם) consists of Shin (שׁ) and Mem (ם).",
+            "additionalData": {
+              "choices": [
+                "Mem",
+                "Shin",
+                "Lamed",
+                "Alef"
+              ],
+              "correctAnswer": "Lamed"
+            }
+          }
+        }
+      ],
+      "status": "requires-editorial-approval",
+      "notACorrection": true
+    },
+    {
+      "lessonId": 21,
+      "sourceSha256": "8fc0e03e7bfb969584470c6c6e98dc3cf583999863b96bb99cd438962d7d7e95",
+      "code": "dot-terminology-and-absolute-rule",
+      "summary": "B2/B3/B5/B15 call the Shin/Sin placement dot dagesh. Unicode encodes Shin Dot/Sin Dot separately from Dagesh. Q12 repeats the always-final-Bet-[v] assertion; approve wording and exceptions.",
+      "evidence": [
+        {
+          "position": "B2",
+          "path": "$.studyMaterials[1]",
+          "source": {
+            "type": "SIMPLE_TEXT",
+            "content": "Shin (שׁ) is the twenty-first letter of the Hebrew alphabet, representing a unique and distinct sound. It is important to note that its pronunciation can vary. There are two variants: the [sh] sound and the [s] sound. This difference is determined by the placement of a diacritic called a dagesh within the letter."
+          }
+        },
+        {
+          "position": "B3",
+          "path": "$.studyMaterials[2]",
+          "source": {
+            "type": "TEXT_IMAGE",
+            "content": "",
+            "description": "When Shin has a dot (dagesh) on its right branch, it represents the [sh] sound, similar to the English \"sh\" in \"she\" or \"shoe.\" This sound is classified as a voiceless postalveolar fricative."
+          }
+        },
+        {
+          "position": "B5",
+          "path": "$.studyMaterials[4]",
+          "source": {
+            "type": "SIMPLE_TEXT",
+            "content": "The Hebrew word 'אִישׁ' ([ish]) translates to \"man\" in English. The first letter, Alef (א), has a Hirik Male (ִ) underneath, giving it the [i] sound. Next, the letter Shin (שׁ) has a dagesh above its right branch, producing the [sh] sound. As a result, the correct pronunciation of 'אִישׁ' is [i-sh]."
+          }
+        },
+        {
+          "position": "B15",
+          "path": "$.studyMaterials[14]",
+          "source": {
+            "type": "BOLD_TEXT",
+            "content": "The Hebrew word 'אִישׁ' [ish] translates to \"man\" in English. The first letter, Alef (א), has a Hirik Male (ִ) underneath, giving it the [i] sound. The second letter, Shin (שׁ), has a dagesh above its right branch, producing the [sh] sound. When combined, the correct pronunciation of 'אִישׁ' is [i-sh]."
+          }
+        },
+        {
+          "position": "Q12",
+          "path": "$.exercises[11]",
+          "source": {
+            "type": "TRUE_FALSE",
+            "content": "The letter Bet (ב) at the end of a word is always pronounced as [ v ].",
+            "tip": "Bet (ב) without a dagesh is pronounced as [ v ] at the end of words.",
+            "additionalData": {
+              "correctAnswer": "true"
+            }
+          }
+        }
+      ],
+      "status": "requires-editorial-approval",
+      "notACorrection": true
+    },
+    {
+      "lessonId": 22,
+      "sourceSha256": "7d7c0c274c2e37512ec4dab970abf36daf1d5f9ed22fc2587a5193ff820a3196",
+      "code": "hiriq-pair-and-course-boundary",
+      "summary": "Q12 labels אִ Hiriq Male despite no following Yud, conflicting with prior course teaching. Q4 uses Cyrillic values; word תִיק omits the Dagesh present in B7. B20 promises Lesson 23 basic Hebrew, outside this 22-lesson course scope.",
+      "evidence": [
+        {
+          "position": "B7",
+          "path": "$.studyMaterials[6]",
+          "source": {
+            "type": "BOLD_TEXT",
+            "content": "The Hebrew word 'תִּיק' ([tik]) translates to \"bag\" in English. It consists of three letters: Tav (ת), Yud (י), and Kuf (ק)."
+          }
+        },
+        {
+          "position": "B20",
+          "path": "$.studyMaterials[19]",
+          "source": {
+            "type": "SIMPLE_TEXT",
+            "content": "Starting from Lesson 23, we’ll embark on a new journey—learning basic Hebrew! Get ready for engaging lessons that will expand your understanding and take your Hebrew skills to the next level. Let’s keep going!"
+          }
+        },
+        {
+          "position": "Q4",
+          "path": "$.exercises[3]",
+          "source": {
+            "type": "MATCH_PAIRS",
+            "content": "Match the Hebrew letters with their corresponding sounds.",
+            "tip": "Each Hebrew letter has a distinct phonetic value.",
+            "additionalData": {
+              "pairs": {
+                "פ": "[ ф ]",
+                "ת": "[ т ]",
+                "שׁ": "[ ш ]"
+              }
+            }
+          }
+        },
+        {
+          "position": "Q12",
+          "path": "$.exercises[11]",
+          "source": {
+            "type": "MATCH_PAIRS",
+            "content": "Match Hebrew letters with their vowel signs.",
+            "tip": "Each letter is paired with a specific vowel symbol.",
+            "additionalData": {
+              "pairs": {
+                "וֹ": "Holam Male",
+                "אִ": "Hiriq Male",
+                "בָּ": "Kamatz"
+              }
+            }
+          }
+        }
+      ],
+      "status": "requires-editorial-approval",
+      "notACorrection": true
+    }
+  ]
+}
