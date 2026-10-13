@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="robots" content="noindex, follow" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#101827" />
+    <title>Hebrew Word Search</title>
+    <style>:root{--boot-bg:#101827;--boot-text:#f8fafc;--boot-text-muted:#94a3b8;--boot-surface:#0f172a;--boot-disabled:#475569;--boot-accent:#67e8f9;--boot-accent-text:#082f49}html,body,#game-root{background:var(--boot-bg);width:100%;height:100%;margin:0;overflow:hidden}html,body{overscroll-behavior:none;touch-action:manipulation}body{color:var(--boot-text);font-family:Arial,Helvetica,sans-serif}canvas{display:block}#boot-loader{z-index:10;background:var(--boot-bg);opacity:1;flex-direction:column;justify-content:center;align-items:center;transition:opacity .25s;display:flex;position:fixed;inset:0}#boot-loader[data-state=ready]{opacity:0;pointer-events:none}#boot-progress{flex-direction:column;align-items:center;gap:28px;display:flex}.boot-dots{gap:10px;display:flex}.boot-dot{background:var(--boot-accent);border-radius:50%;width:14px;height:14px;animation:1.05s ease-in-out infinite boot-dot-bounce}.boot-dot:nth-child(2){animation-delay:.15s}.boot-dot:nth-child(3){animation-delay:.3s}@keyframes boot-dot-bounce{0%,60%,to{transform:translateY(0)}30%{transform:translateY(-10px)}}.boot-title{color:var(--boot-text);text-align:center;margin:0;font-size:20px}#boot-error{flex-direction:column;align-items:center;gap:14px;display:none}#boot-error p{color:var(--boot-text);text-align:center;margin:0}#boot-retry{border:1px solid var(--boot-accent);background:var(--boot-accent);min-height:44px;color:var(--boot-accent-text);cursor:pointer;border-radius:10px;padding:10px 22px;font:700 16px Arial,Helvetica,sans-serif}#boot-loader[data-state=error] #boot-progress{display:none}#boot-loader[data-state=error] #boot-error{display:flex}@media (prefers-reduced-motion:reduce){.boot-dot{animation:none}}</style>
+    <script type="module" crossorigin src="./assets/index-CBX3KYA5.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DwLlBDsx.css">
+  </head>
+  <body>
+    <main id="game-root" aria-label="HebrewEdu learning game"></main>
+    <div id="boot-loader" role="status" aria-live="polite" data-state="loading">
+      <div id="boot-progress">
+        <div class="boot-dots" aria-hidden="true">
+          <span class="boot-dot"></span>
+          <span class="boot-dot"></span>
+          <span class="boot-dot"></span>
+        </div>
+        <p class="boot-title">Hebrew Word Search</p>
+      </div>
+      <div id="boot-error">
+        <p>Couldn't load the game</p>
+        <button id="boot-retry" type="button">Try again</button>
+      </div>
+    </div>
+  </body>
+</html>

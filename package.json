@@ -7,7 +7,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "sync:alef-bet-rush": "node scripts/sync-alef-bet-rush.mjs",
-    "sync:hebrew-mahjong": "node scripts/sync-hebrew-mahjong.mjs"
+    "sync:hebrew-mahjong": "node scripts/sync-hebrew-mahjong.mjs",
+    "sync:hebrew-word-search": "node scripts/sync-hebrew-word-search.mjs"
   },
   "dependencies": {
     "astro": "^7.3.5"

@@ -5,7 +5,8 @@
 export const pageUpdatedDates: Record<string, string | undefined> = {
   '/': '2026-10-10',
   '/blog/': undefined,
-  '/play/': '2026-10-10',
+  '/play/': '2026-10-13',
   '/play/alef-bet-rush/': undefined,
   '/play/hebrew-mahjong/': undefined,
+  '/play/hebrew-word-search/': '2026-10-13',
 };

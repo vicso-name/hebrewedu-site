@@ -1,0 +1,178 @@
+---
+import Faq from '../../../components/home/Faq.astro';
+import Layout from '../../../layouts/Layout.astro';
+import Nav from '../../../components/Nav.astro';
+import Footer from '../../../components/Footer.astro';
+import Section from '../../../components/ui/Section.astro';
+import FeatureGrid, { type FeatureItem } from '../../../components/ui/FeatureGrid.astro';
+import LearningMosaic, { type LearningItem } from '../../../components/play/LearningMosaic.astro';
+import CtaPanel from '../../../components/ui/CtaPanel.astro';
+import StoreButtons from '../../../components/ui/StoreButtons.astro';
+import '../../../styles/home.css';
+import '../../../styles/play.css';
+
+const howItWorks = [
+  { icon: 'target', title: 'Preview the words', description: 'Before each round, new words get a quick preview card — Hebrew with niqqud, the English meaning and audio. Then drag across the grid to find each word, right to left or top to bottom.' },
+  { icon: 'book', title: 'Hear it', description: 'Tap any word in the list to hear it spoken, any time. Find it correctly and the audio plays again as the Hebrew locks in with a highlighter stroke.' },
+  { icon: 'repeat', title: 'Clear the board', description: 'Each board takes about 1–2 minutes. Stuck? A hint flashes the first letter. Words you miss come back more often until they stick.' },
+] satisfies FeatureItem[];
+
+const whyItWorks = [
+  {
+    title: 'Reading, Not Just Recognising',
+    description: ['You read every letter of a word in order, right to left, exactly as Hebrew is written — not an isolated letter name, but a whole word.'],
+  },
+  {
+    title: 'From Meaning to Shape',
+    description: ['Preview cards show the English meaning and audio before you search, so you connect the sound and sense of a word to its written form as you hunt for it in the grid.'],
+  },
+  {
+    title: 'First-Letter Hints When You Need Them',
+    description: ['Stuck on a word? A hint flashes its first letter. The word still counts as found, so you keep moving without getting stuck on one board.'],
+  },
+  {
+    title: 'No Pressure, Just Practice',
+    description: ['There is no timer. Three hearts give you room to make mistakes, and the game keeps bringing back words you find difficult until they feel familiar.'],
+  },
+] satisfies [LearningItem, LearningItem, LearningItem, LearningItem];
+
+const url = 'https://hebrewedu.com/play/hebrew-word-search/';
+const hebrewMahjongUrl = 'https://hebrewedu.com/play/hebrew-mahjong/';
+const playUrl = 'https://hebrewedu.com/play/';
+
+const faqItems = [
+  { q: 'Is Hebrew Word Search free?', a: 'Yes. It runs in your browser with no account, download or payment.' },
+  { q: 'Do I need to already read Hebrew?', a: 'You should know the Hebrew letters first. If you are just starting out, try Hebrew Mahjong or Alef Bet Rush for the aleph-bet, then come back for real words.' },
+  { q: 'How many words does it teach?', a: '185 everyday Hebrew words across 13 themes, each with native-speaker audio and niqqud.' },
+  { q: 'Does it show niqqud (vowel marks)?', a: 'Yes. Every word in the preview and word list is shown with full niqqud, so you learn the correct vowels alongside the spelling.' },
+  { q: 'Does it work on my phone?', a: 'Yes. It works on modern phones, tablets and computers, and progress is saved locally in the browser.' },
+  { q: 'What happens if I run out of hearts?', a: 'You get 3 hearts per round. If you lose them all, the same 5 words come back in a freshly generated grid, so you can try again right away.' },
+];
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    { '@type': 'WebPage', '@id': url, url, name: 'Hebrew Word Search: Find Hebrew Words in a Letter Grid' },
+    {
+      '@type': ['VideoGame', 'WebApplication'],
+      name: 'Hebrew Word Search',
+      url,
+      applicationCategory: 'EducationalApplication',
+      operatingSystem: 'Web',
+      isAccessibleForFree: true,
+      educationalLevel: 'Beginner',
+      inLanguage: 'en',
+      offers: { '@type': 'Offer', price: 0, priceCurrency: 'USD' },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: ['Home', 'Play', 'Hebrew Word Search'].map((name, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name,
+        item: ['https://hebrewedu.com/', playUrl, url][i],
+      })),
+    },
+    {
+      '@type': 'FAQPage',
+      mainEntity: faqItems.map(({ q, a }) => ({
+        '@type': 'Question',
+        name: q,
+        acceptedAnswer: { '@type': 'Answer', text: a },
+      })),
+    },
+  ],
+};
+---
+<Layout title="Hebrew Word Search – Free Hebrew Vocabulary Game Online" description="Find hidden Hebrew words in a letter grid. Learn 185 everyday words across 13 themes with native-speaker audio and niqqud. Free, no sign-up." schema={schema}>
+  <link slot="head" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" />
+  <div class="home-page play-page">
+    <Nav />
+    <main>
+      <section class="play-hero">
+        <div class="container">
+          <nav class="play-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/play/">Play</a> / Hebrew Word Search</nav>
+          <div class="play-copy">
+            <p class="home-eyebrow">Hebrew vocabulary game</p>
+            <h1 class="home-h1">Hebrew Word Search: Find Hidden Hebrew Words</h1>
+            <p class="home-lead">A calm word search where every hidden word is real Hebrew vocabulary. Learn 185 everyday words across 13 themes, with native-speaker audio and niqqud.</p>
+            <a class="btn btn-primary play-launch" href="/play/hebrew-word-search/game/">Play Free Now</a>
+            <p class="play-hero-note">No download, no account. Works on phone and computer.</p>
+          </div>
+        </div>
+      </section>
+
+      <Section surface="soft">
+        <div class="play-section">
+          <h2 class="home-h2">A Real Word Search That Teaches Hebrew Vocabulary</h2>
+          <p>Hebrew Word Search is a free hebrew vocabulary game built around a real letter grid: find each hidden word by dragging across the letters, right to left or top to bottom, exactly as Hebrew is read. Filler letters never accidentally spell another word, so every find is a real one.</p>
+          <p>Before each round, new words get a preview card with the Hebrew spelling, full niqqud, English translation and audio, so you know what you're looking for before you search. It's a hebrew word game for anyone who already knows the aleph-bet and wants their first real words. For background reading alongside the game, see our <a href="/blog/hebrew-alphabet-complete-guide/">Hebrew alphabet guide</a>.</p>
+        </div>
+        <h3 class="play-subsection-title">How Hebrew Word Search Works</h3>
+        <FeatureGrid items={howItWorks} headingLevel="h4" />
+      </Section>
+
+      <Section>
+        <h2 class="home-h2 play-why-heading">Why It Works</h2>
+        <LearningMosaic items={whyItWorks} />
+      </Section>
+
+      <Section surface="soft">
+        <div class="play-section">
+          <h2 class="home-h2">What You'll Learn</h2>
+          <p>Hebrew Word Search covers 185 everyday Hebrew words staged across 13 themes — such as food, family and animals — so you build vocabulary one familiar topic at a time. Every word comes with native-speaker audio and full niqqud, and first-letter hints are there if you get stuck.</p>
+          <p><strong>This game assumes you already know the Hebrew alphabet.</strong> If you're still learning the letters, start with Hebrew Mahjong or Alef Bet Rush, then continue with grammar and sentence-level reading in the HebrewEdu app.</p>
+        </div>
+      </Section>
+
+      <Section>
+        <div class="play-section">
+          <h2 class="home-h2">Who It's For</h2>
+          <p>Hebrew Word Search is for adults and teens who already recognise the Hebrew letters and want their first real vocabulary, for bar and bat mitzvah students, and for anyone learning modern or Biblical Hebrew. It also works well for parents learning alongside their kids, and pairs naturally with <a href={hebrewMahjongUrl}>Hebrew Mahjong</a> if you want to review the aleph-bet first.</p>
+        </div>
+      </Section>
+
+      <Faq title="Frequently Asked Questions" items={faqItems} />
+
+      <CtaPanel compact>
+        <h2 class="home-h2">Continue Learning Hebrew</h2>
+        <p class="home-lead">After building your first vocabulary, continue with grammar, sentences and beginner reading in the HebrewEdu app.</p>
+        <StoreButtons location="hebrew_word_search_continue" />
+      </CtaPanel>
+    </main>
+    <Footer />
+  </div>
+</Layout>
+
+<style>
+  .play-subsection-title {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-family: var(--font-display);
+    font-size: clamp(1.75rem, 2.2vw, 2rem);
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: var(--home-text-primary);
+  }
+
+  .play-why-heading {
+    margin-bottom: 2rem;
+  }
+
+  @media (max-width: 560px) {
+    .play-subsection-title { margin-bottom: 1.5rem; }
+  }
+
+  .play-launch {
+    min-height: 56px;
+    padding-inline: 2rem;
+    justify-content: center;
+  }
+
+  .play-hero-note {
+    margin-top: 0.75rem;
+    font-size: 0.9375rem;
+    color: var(--home-text-tertiary);
+  }
+</style>
