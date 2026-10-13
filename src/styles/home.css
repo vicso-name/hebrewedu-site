@@ -28,8 +28,7 @@
   --home-radius-md: 18px;
   --home-radius-lg: 28px;
 
-  /* Rhythm */
-  --home-section-y: clamp(4.5rem, 9vw, 8rem);
+  /* Rhythm — --home-section-y comes from the global alias in global.css */
   --home-gap:       clamp(2.5rem, 6vw, 5.5rem);
   --home-stack:     1.5rem;
 

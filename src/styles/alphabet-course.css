@@ -9,20 +9,17 @@
 }
 .course-hub {
   --course-soft: color-mix(in srgb, var(--border) 25%, var(--white));
-  --home-section-y: clamp(4.5rem, 9vw, 8rem);
   --home-surface-white: var(--white);
   --nav-bg: rgba(255, 255, 255, 0.9);
   --nav-border: var(--border);
   background: var(--white);
 }
-.course-hub .container { max-width: 1120px; padding-inline: clamp(1rem, 4vw, 2rem); }
 /* Let enlarged header text reflow; retain the usual 68px height when it fits. */
 .course-hub .nav-inner { height: auto; min-height: 68px; }
 .course-hub .nav-links { flex-wrap: wrap; min-width: 0; }
 .course-hub :focus-visible { outline: 3px solid var(--brand-dark); outline-offset: 4px; }
 .course-hub .course-hebrew { font-family: 'Lesson Rubik', 'Arial Hebrew', Arial, sans-serif; letter-spacing: normal; unicode-bidi: isolate; color: var(--ink); line-height: 1.65; }
-.course-hub .course-container { max-width: 1120px; margin-inline: auto; padding: 2.5rem clamp(1rem, 4vw, 2rem) 4rem; }
-.course-hub section { padding: 0; scroll-margin-top: 88px; }
+.course-hub .home-section { scroll-margin-top: 88px; }
 .course-skip { position: fixed; top: -100px; left: 1rem; z-index: 500; background: var(--white); padding: .75rem 1rem; border-radius: var(--r-sm); }
 .course-skip:focus { top: 1rem; }
 .course-eyebrow { font-size: .75rem; font-weight: 500; letter-spacing: .07em; color: var(--ink-light); line-height: 1.5; }
@@ -43,8 +40,7 @@
 .course-first-card > p:not(.course-eyebrow) { font-size: .875rem; color: var(--ink-mid); margin-block-start: .5rem; }
 .course-first-card p { overflow-wrap: anywhere; }
 .course-first-card .course-first-meta { color: var(--ink-light); margin-block-start: .75rem; }
-.course-hub .course-section { margin-block-start: 3.5rem; }
-.course-section-heading { margin-block-end: 1.5rem; max-width: 640px; }
+.course-section-heading { margin-block-end: var(--space-md); max-width: 640px; }
 .course-section-heading h2 { margin-block: .5rem .65rem; }
 .course-section-heading > p:last-child { color: var(--ink-mid); font-size: .9375rem; }
 .course-curriculum { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: .75rem; list-style: none; }
@@ -63,14 +59,13 @@
 .course-resource h3 { margin-block-start: .5rem; }
 .course-resource h3 span { font-size: .875rem; color: var(--ink-light); margin-inline-start: .25rem; }
 .course-resource:hover { border-color: var(--border-dark); }
-.course-app { background: var(--white); border: 1px solid var(--border); border-radius: var(--r-lg); padding: 1.75rem !important; display: flex; align-items: center; justify-content: space-between; gap: 2rem; flex-wrap: wrap; }
+.course-app { background: var(--white); border: 1px solid var(--border); border-radius: var(--r-lg); padding: var(--space-lg); display: flex; align-items: center; justify-content: space-between; gap: var(--space-lg); flex-wrap: wrap; }
 .course-app h2 { font-size: 1.5rem; margin-block: .5rem .75rem; }
 .course-app p:last-child { font-size: .9375rem; color: var(--ink-mid); }
 @media (max-width: 900px) {
   .course-curriculum { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 }
 @media (max-width: 600px) {
-  .course-hub .course-container { padding-block-start: 1.5rem; }
   .course-hero { grid-template-columns: minmax(0, 1fr); gap: 1.75rem; }
   .course-hero h1 { font-size: 2.125rem; max-width: 17ch; }
   .course-lead { font-size: 1rem; }
@@ -81,12 +76,11 @@
   .course-letter-surface { grid-column: 1; grid-row: 1 / 5; margin: 0; align-self: center; }
   .course-letter-surface .course-hebrew { font-size: 3.5rem; }
   .course-first-card h2, .course-first-card > p { grid-column: 2; }
-  .course-hub .course-section { margin-block-start: 2.5rem; }
   .course-hub h2 { font-size: 1.5rem; }
   .course-first-card h2 { font-size: 1.2rem; }
   .course-curriculum { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .course-resources { grid-template-columns: minmax(0, 1fr); }
-  .course-app { padding: 1.25rem !important; }
+  .course-app { padding: var(--space-md); gap: var(--space-md); }
 }
 @media (max-width: 768px) {
   /* Bound gutters by viewport width so the enlarged wordmark and menu both fit. */

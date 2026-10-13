@@ -5,17 +5,23 @@ interface Props {
   class?: string;
 }
 
-const { surface = 'white', id, class: className } = Astro.props;
+const { surface = 'white', id, class: className, ...rest } = Astro.props;
 ---
 
-<section id={id} class:list={['home-section', `home-section--${surface}`, className]}>
+<section id={id} class:list={['home-section', `home-section--${surface}`, className]} {...rest}>
   <div class="container">
     <slot />
   </div>
 </section>
 
 <style>
-.home-section { padding-block: var(--home-section-y); }
+.home-section { padding-block: var(--section-y); }
 .home-section--white { background: var(--home-surface-white); }
 .home-section--soft  { background: var(--home-surface-soft); }
+
+/* Two sections with the same background shouldn't stack their full gap twice. */
+.home-section--white + .home-section--white,
+.home-section--soft + .home-section--soft {
+  padding-top: 0;
+}
 </style>

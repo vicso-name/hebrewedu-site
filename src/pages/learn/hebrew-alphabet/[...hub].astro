@@ -33,24 +33,26 @@ const resources = [
   <div class="course-hub">
     <a class="course-skip" href="#course-content">Skip to course</a>
     <Nav />
-    <main id="course-content" class="course-container">
-      <section class="course-hero" aria-labelledby="course-title">
-        <div class="course-hero-copy">
-          <p class="course-eyebrow">Hebrew alphabet course · For beginners</p>
-          <h1 id="course-title">Learn the Hebrew Alphabet Step by Step</h1>
-          <p class="course-lead">Start with one letter. Build your understanding through clear explanations, examples and practice, at your own pace.</p>
-          <div class="course-start"><a class="btn course-primary" href={first.href}>Start Learning <span aria-hidden="true">→</span></a><a class="course-secondary" href="#curriculum">Explore the curriculum</a></div>
-          <p class="course-availability">Start with Aleph today. More letter lessons are coming soon.</p>
+    <main id="course-content">
+      <Section aria-labelledby="course-title">
+        <div class="course-hero">
+          <div class="course-hero-copy">
+            <p class="course-eyebrow">Hebrew alphabet course · For beginners</p>
+            <h1 id="course-title">Learn the Hebrew Alphabet Step by Step</h1>
+            <p class="course-lead">Start with one letter. Build your understanding through clear explanations, examples and practice, at your own pace.</p>
+            <div class="course-start"><a class="btn course-primary" href={first.href}>Start Learning <span aria-hidden="true">→</span></a><a class="course-secondary" href="#curriculum">Explore the curriculum</a></div>
+            <p class="course-availability">Start with Aleph today. More letter lessons are coming soon.</p>
+          </div>
+          <aside class="course-first-card" aria-labelledby="first-lesson-title">
+            <p class="course-eyebrow">Your first lesson</p>
+            <div class="course-letter-surface"><bdi class="course-hebrew" lang="he" dir="rtl">א</bdi></div>
+            <h2 id="first-lesson-title">Meet Aleph</h2>
+            <p>Recognize the letter, explore vowel marks and check your understanding.</p>
+            <p class="course-first-meta">Lesson 1 of 22</p>
+          </aside>
         </div>
-        <aside class="course-first-card" aria-labelledby="first-lesson-title">
-          <p class="course-eyebrow">Your first lesson</p>
-          <div class="course-letter-surface"><bdi class="course-hebrew" lang="he" dir="rtl">א</bdi></div>
-          <h2 id="first-lesson-title">Meet Aleph</h2>
-          <p>Recognize the letter, explore vowel marks and check your understanding.</p>
-          <p class="course-first-meta">Lesson 1 of 22</p>
-        </aside>
-      </section>
-      <Section surface="white" id="curriculum">
+      </Section>
+      <Section id="curriculum">
         <div class="course-section-heading"><p class="course-eyebrow">Your learning path</p><h2 id="curriculum-title">One letter at a time</h2><p>Follow the Hebrew alphabet in order. Aleph is ready to explore; the remaining lessons are coming soon.</p></div>
         <ol class="course-curriculum" aria-label="Hebrew alphabet curriculum">
           {letters.map(letter => <li class:list={['course-letter-card', { 'course-letter-available': letter.available }]} data-course-order={letter.order}>
@@ -66,7 +68,9 @@ const resources = [
         <div class="course-section-heading"><p class="course-eyebrow">Keep exploring</p><h2 id="resources-title">Additional learning resources</h2><p>Use a reference when you need it, or try a game for a change of pace.</p></div>
         <div class="course-resources">{resources.map(resource => <a class="course-resource" href={resource.href}><span class="course-eyebrow">{resource.tag}</span><h3>{resource.label} <span aria-hidden="true">↗</span></h3><p>{resource.text}</p></a>)}</div>
       </Section>
-      <section class="course-app course-section" aria-labelledby="app-title"><div><p class="course-eyebrow">Keep learning</p><h2 id="app-title">Continue learning in the app</h2><p>Explore HebrewEdu on your phone for more Hebrew learning and practice.</p></div><StoreButtons location="alphabet_course_hub" height={48} /></section>
+      <Section aria-labelledby="app-title">
+        <div class="course-app"><div><p class="course-eyebrow">Keep learning</p><h2 id="app-title">Continue learning in the app</h2><p>Explore HebrewEdu on your phone for more Hebrew learning and practice.</p></div><StoreButtons location="alphabet_course_hub" height={48} /></div>
+      </Section>
     </main>
     <Footer />
   </div>
