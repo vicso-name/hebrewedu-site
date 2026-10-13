@@ -50,37 +50,46 @@ for (let row = 1; row <= 8; row++) {
 </div>
 
 <style>
-.learning-mosaic-frame { container-type: inline-size; }
+.learning-mosaic-frame {
+  /* Self-contained defaults: this component must render identically on any
+     page, with or without page-level CSS, so nothing here reads page tokens. */
+  --mosaic-font: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+  --mosaic-border: #E8E8EC;
+  --mosaic-surface: #FFFFFF;
+  --mosaic-surface-soft: #F9F9FB;
+  --mosaic-text-primary: #17171A;
+  --mosaic-text-secondary: #64646D;
+  --mosaic-accent: #4F46E5;
+  container-type: inline-size;
+}
 
 .learning-mosaic {
   --grid-gap: 6px;
   --cell-size: calc((100cqw - 13 * var(--grid-gap)) / 14);
   display: grid;
   grid-template-columns: repeat(14, var(--cell-size));
-  grid-template-rows: repeat(8, var(--cell-size));
+  grid-template-rows: repeat(8, minmax(var(--cell-size), auto));
   gap: var(--grid-gap);
 }
 
 .mosaic-cell {
   width: 100%;
   height: 100%;
-  border: 1px solid var(--home-border-subtle);
+  border: 1px solid var(--mosaic-border);
   border-radius: 11px;
-  background: var(--home-surface-white);
+  background: var(--mosaic-surface);
 }
 
 .mosaic-module {
-  --marker-color: var(--home-brand-text);
+  --marker-color: var(--mosaic-accent);
   grid-column: var(--module-column) / span 4;
   grid-row: var(--module-row) / span 4;
   width: 100%;
-  height: 100%;
   min-width: 0;
-  min-height: 0;
   padding: 1.5rem;
-  border: 1px solid var(--home-border-subtle);
+  border: 1px solid var(--mosaic-border);
   border-radius: 18px;
-  background: var(--home-surface-soft);
+  background: var(--mosaic-surface-soft);
 }
 
 .mosaic-module--2 { --marker-color: #C0554A; }
@@ -96,7 +105,7 @@ for (let row = 1; row <= 8; row++) {
   margin-bottom: 1.75rem;
   border-radius: 50%;
   background: var(--marker-color);
-  color: var(--home-surface-white);
+  color: var(--mosaic-surface);
   font-size: 0.9375rem;
   font-weight: 700;
   font-variant-numeric: tabular-nums;
@@ -104,12 +113,12 @@ for (let row = 1; row <= 8; row++) {
 }
 
 .mosaic-title {
-  font-family: var(--font-display);
+  font-family: var(--mosaic-font);
   font-size: 1.3125rem;
   font-weight: 700;
   line-height: 1.3;
   letter-spacing: -0.015em;
-  color: var(--home-text-primary);
+  color: var(--mosaic-text-primary);
   overflow-wrap: anywhere;
 }
 
@@ -117,12 +126,12 @@ for (let row = 1; row <= 8; row++) {
   margin-top: 0.75rem;
   font-size: 1rem;
   line-height: 1.6;
-  color: var(--home-text-secondary);
+  color: var(--mosaic-text-secondary);
   overflow-wrap: anywhere;
 }
 
 .mosaic-copy a {
-  color: var(--home-brand-text);
+  color: var(--mosaic-accent);
   text-decoration: underline;
   text-underline-offset: 0.2em;
 }
