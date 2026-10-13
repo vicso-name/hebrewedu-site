@@ -82,12 +82,9 @@ every commit — it runs in `prebuild` and as its own step before `Build` in
    rule outside `global.css` sets a `background`.
 
 **Allowlist policy:** each rule has its own `ALLOWLIST` (a `Set`/`Map`) at the
-top of its section in `scripts/check-layout.mjs`. A real violation gets
-fixed in the code. A genuine, narrow exception gets a one-line-reason entry
-in the allowlist instead — never a change to the rule's regex to make the
-violation invisible. If a rule itself turns out to be too strict for a
-legitimate pattern, change the rule (and say so, with reasoning, in the
-allowlist's comment) rather than quietly disabling the check.
+top of its section in `scripts/check-layout.mjs`. Never add or widen a
+check-layout ALLOWLIST entry yourself. Fix the code. If you believe an
+exception is truly needed, stop and ask the user first.
 
 Known, intentional exceptions already allowlisted: the `course-hub`'s mobile
 `.nav-inner` height/gutter adjustments and the `hebrew-phrases` page's

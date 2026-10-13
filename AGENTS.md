@@ -22,10 +22,8 @@ Read `docs/LAYOUT.md` before any UI work.
 - Run `npm run check:layout` before reporting any UI task done. It also
   runs in `prebuild` and in the deploy workflow.
 
-If `scripts/check-layout.mjs` flags something that's a real, intentional
-exception, add a one-line-reason entry to its ALLOWLIST rather than
-disabling the rule. If a rule itself is wrong, fix the rule and say so —
-don't quietly work around it.
+Never add or widen a check-layout ALLOWLIST entry yourself. Fix the code.
+If you believe an exception is truly needed, stop and ask the user first.
 
 If this file or `AGENTS.md` already has other rules when you go to edit
 either one, merge with those rules — don't drop them.
