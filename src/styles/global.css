@@ -48,6 +48,7 @@
 
   /* Max widths */
   --w-content: 1280px;
+  --w-medium:  920px;
   --w-narrow:  720px;
 
   /* Section rhythm — the one vertical spacing scale for every page's sections */

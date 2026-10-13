@@ -6,7 +6,8 @@ One container, one section rhythm, one spacing scale — applied to every page's
 
 - `.container` (`src/styles/global.css`) is the only layout container: `max-width: var(--w-content)` (1280px), with its own `padding-inline`.
 - Header, footer and every section on every page use `.container`. No page may redefine `.container` or declare a second max-width container.
-- A page that needs a narrower reading column (prose, a lesson body) uses an inner max-width with `--w-narrow` (720px) *inside* `.container` — it never replaces `.container` itself.
+- A page that needs a narrower reading column (prose) uses an inner max-width with `--w-narrow` (720px) *inside* `.container` — it never replaces `.container` itself.
+- `--w-medium` (920px) is the interactive reading column: wider than `--w-narrow`, for content that mixes prose with interactive UI (stage tabs, cards, forms) rather than plain text — e.g. the alphabet lesson body (`.lesson-container` in `lesson-poc.css`). Like `--w-narrow`, it's an inner wrapper *inside* `.container`, never a replacement for it.
 
 ## Section rhythm
 
@@ -18,6 +19,11 @@ One container, one section rhythm, one spacing scale — applied to every page's
 ## Spacing inside a section
 
 - Heading-to-content spacing, card padding, and similar in-section spacing use the `--space-*` scale from `global.css` (`--space-xs` 0.5rem … `--space-2xl` 6rem) — never a bare `rem`/`px` value and never `!important`.
+
+## Shared header, footer and page background
+
+- `Nav.astro` and `Footer.astro` are rendered as-is on every page. A page may set the documented theming hooks (`--nav-bg`, `--nav-border`, `--nav-link-hover-bg`) to the site's standard values — `--nav-bg: rgba(255, 255, 255, 0.9)` and `--nav-border` pointing at that page's border token — the same way `home.css`, `blog.css`, `legal.css` and `alphabet-course.css` already do. A page must never redeclare `Nav`'s own selectors (`.nav-inner`, `.nav-links`, `.nav-logo`, …) to change their background, border, height or padding — that makes one page's header a different shape from every other page's.
+- The page background is the one white surface shared by every page (e.g. `background: var(--white)` on the page's root class). A page must not leave its root background unset and rely on `body`'s `--bg` token, and must not pick a different background color than the rest of the site.
 
 ## What changed in this pass
 
@@ -53,11 +59,12 @@ One container, one section rhythm, one spacing scale — applied to every page's
 | `/play/` games section top padding | one-off `padding-top: var(--home-section-y)` | removed (redundant with `Section.astro`'s own padding) |
 | global `--section-y` | didn't exist; `--home-section-y` defined separately in `home.css` and `alphabet-course.css` | one `--section-y` in `global.css`; `--home-section-y` is an alias |
 
-## Follow-up: lesson pages (not touched in this pass)
+## Lesson pages
 
-`[lesson].astro` and `lesson-poc.css` were left alone, per instruction. To bring them in line with these rules:
+`/learn/hebrew-alphabet/[lesson]` (`[lesson].astro`, `lesson-poc.css`) now follows these rules too:
 
-- `[lesson].astro` doesn't use `Layout.astro` at all (hand-rolled `<html>`/`<head>`) — it should adopt `Layout.astro` so it inherits the shared SEO/meta wiring and tokens like every other page.
-- `.lesson-container` has its own third max-width (920px) and its own padding scale, independent of `.container`/`--w-content` and `--w-narrow`. Since a lesson body is a reading column, it should become an inner `--w-narrow`-based wrapper *inside* the shared `.container`, not a standalone container.
-- `.lesson-page section { padding-block: 0 }` reimplements the same "stages shouldn't double their gap" problem the hub had. Once lesson stages render through `Section.astro` (or a lesson-specific equivalent that reuses the same same-surface rule), this reset and the various hardcoded `margin-block-start` values between stages (`.stage-panel + .stage-panel`, etc.) can go.
-- Several hardcoded rem values for card/section spacing (`.learning-card` padding, `.stage-heading` margins, `.results-card` paddings) should move to `--space-*` tokens where they line up with an existing step in the scale.
+- The page uses `Layout.astro` (no more hand-rolled `<html>`/`<head>`). Title and description come from the lesson's own content-collection data (`lesson.title`, `lesson.description`); `robots` still switches on the publication flag (`index, follow` once published, `noindex, nofollow, noarchive` in local preview); OG uses `Layout`'s default image; a `LearningResource` JSON-LD block is passed via `schema`.
+- The whole lesson body renders as one `Section.astro`, so it gets the shared `.container` (1280px) and the standard `--section-y` rhythm. `.lesson-container` is now an inner `--w-medium` (920px) reading column *inside* that `.container`, with no max-width or padding of its own.
+- `.lesson-page section { padding-block: 0 }` is gone. The remaining nested `<section>`s (the four stage panels) get a scoped `.stage-panel { padding-block: 0 }` instead, so they don't pick up the global `section` default; the gap between them comes from the `.stage-panel + .stage-panel` margin, now expressed as a `--space-*` multiple.
+- All inner spacing (header, stage tabs, stage panels, cards, objectives, question cards, results) is expressed as `--space-*` tokens, usually via `calc(var(--space-xs) * n)` so the exact original values are preserved while removing every bare `rem` spacing literal. The one surviving `!important` is `.lesson-page [hidden] { display: none !important }`, which is a functional override (not spacing) that `practice-client.ts` depends on for showing/hiding already-classed elements; the reduced-motion `!important` block is unchanged for the same reason it exists elsewhere in the site.
+- `.lesson-page` no longer redeclares `.nav-inner`/`.nav-links`/`.nav-logo` background, border, height or padding — those were making the lesson header a different height/shape from every other page's. It now only sets the standard `--nav-bg`/`--nav-border` theming hooks and a `background: var(--white)` page background, same as `home.css`/`blog.css`/`legal.css`/`alphabet-course.css`. The only rule `lesson-poc.css` keeps for anything outside its own `.lesson-*`/stage/practice classes is the skip-link (`.lesson-skip`).
