@@ -1,6 +1,8 @@
 ---
 import '../styles/global.css';
 import { site } from '../data/site';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
 
 interface Props {
   title?: string;
@@ -14,6 +16,9 @@ interface Props {
   schema?: Record<string, unknown>;
   /** Draft course previews opt out of indexing; existing pages keep their default. */
   robots?: string;
+  /** Opt into shared page chrome; legacy pages retain their existing slotted shell. */
+  pageClass?: string;
+  mainId?: string;
 }
 
 const {
@@ -24,6 +29,8 @@ const {
   ogType = 'website',
   schema,
   robots = 'index, follow',
+  pageClass,
+  mainId = 'main-content',
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
@@ -75,6 +82,16 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <slot name="head" />
   </head>
   <body>
-    <slot />
+    {pageClass ? <div class={pageClass}>
+      <a class="layout-skip" href={`#${mainId}`}>Skip to content</a>
+      <Nav />
+      <main id={mainId}><slot /></main>
+      <Footer />
+    </div> : <slot />}
   </body>
 </html>
+
+<style>
+.layout-skip { position: fixed; top: -120px; left: var(--space-sm); z-index: 500; padding: var(--space-sm); background: var(--white); border: 2px solid var(--brand-dark); border-radius: var(--r-sm); }
+.layout-skip:focus { top: var(--space-sm); }
+</style>

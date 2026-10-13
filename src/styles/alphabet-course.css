@@ -1,12 +1,4 @@
 /* Scoped hub styles; the approved Aleph typography and layout are untouched. */
-@font-face {
-  font-family: 'Lesson Rubik';
-  font-style: normal;
-  font-weight: 400 700;
-  font-display: swap;
-  src: url('../assets/fonts/rubik-hebrew-variable.woff2') format('woff2');
-  unicode-range: U+0307-0308, U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
-}
 .course-hub {
   --course-soft: color-mix(in srgb, var(--border) 25%, var(--white));
   --home-surface-white: var(--white);
@@ -18,7 +10,7 @@
 .course-hub .nav-inner { height: auto; min-height: 68px; }
 .course-hub .nav-links { flex-wrap: wrap; min-width: 0; }
 .course-hub :focus-visible { outline: 3px solid var(--brand-dark); outline-offset: 4px; }
-.course-hub .course-hebrew { font-family: 'Lesson Rubik', 'Arial Hebrew', Arial, sans-serif; letter-spacing: normal; unicode-bidi: isolate; color: var(--ink); line-height: 1.65; }
+.course-hub .course-hebrew { font-family: var(--font-hebrew); letter-spacing: normal; unicode-bidi: isolate; color: var(--ink); line-height: 1.65; }
 .course-hub .home-section { scroll-margin-top: 88px; }
 .course-skip { position: fixed; top: -100px; left: 1rem; z-index: 500; background: var(--white); padding: .75rem 1rem; border-radius: var(--r-sm); }
 .course-skip:focus { top: 1rem; }

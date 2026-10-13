@@ -99,7 +99,7 @@ for (const source of cssSources) source.text = stripComments(source.text);
 // ───────────────────────────────────────────────────────────────────────────
 
 const CONTAINER_ALLOWLIST = new Set([
-  'src/styles/alphabet-course.css:87',
+  'src/styles/alphabet-course.css:79',
 ]);
 // src/styles/alphabet-course.css:87 — `.course-hub .nav-inner.container` at a single
 // mobile breakpoint only tightens gap/padding-inline so the enlarged course-hub
@@ -154,7 +154,7 @@ for (const { file, text, lineOffset } of cssSources) {
 // ───────────────────────────────────────────────────────────────────────────
 
 const SECTION_PADDING_ALLOWLIST = new Set([
-  'src/styles/legal.css:92',
+  'src/styles/legal.css:88',
 ]);
 // src/styles/legal.css:92 — `.legal-content section` resets the global bare
 // `section { padding-block }` default because these are prose subsections
@@ -179,18 +179,16 @@ for (const { file, text, lineOffset } of cssSources) {
 // ───────────────────────────────────────────────────────────────────────────
 
 const IMPORTANT_ALLOWLIST = new Set([
-  'src/styles/home.css:116',
-  'src/styles/home.css:117',
-  'src/styles/home.css:118',
-  'src/styles/hebrew-phrases.css:100',
-  'src/styles/hebrew-phrases.css:132',
-  'src/styles/lesson-poc.css:13',
-  'src/styles/lesson-poc.css:159',
-  'src/styles/blog.css:735',
+  'src/styles/home.css:112',
+  'src/styles/home.css:113',
+  'src/styles/home.css:114',
+  'src/styles/lesson-poc.css:5',
+  'src/styles/lesson-poc.css:151',
+  'src/styles/blog.css:722',
 ]);
-// [hidden] display overrides (home.css, hebrew-phrases.css, lesson-poc.css) and the
-// prefers-reduced-motion blocks (home.css, hebrew-phrases.css, lesson-poc.css,
-// blog.css) are functional overrides, not layout/spacing escapes — see LAYOUT.md.
+// [hidden] display overrides (home.css, lesson-poc.css) and the
+// prefers-reduced-motion blocks (home.css, lesson-poc.css, blog.css) are
+// functional overrides, not layout/spacing escapes — see LAYOUT.md.
 
 for (const file of allFiles.filter(cssLike)) {
   const text = await readFile(file, 'utf8');
@@ -211,17 +209,15 @@ for (const file of allFiles.filter(cssLike)) {
 
 const NAV_FOOTER_SELECTORS = ['nav-inner', 'nav-links', 'nav-link', 'nav-logo', 'nav-cta', 'nav-burger', 'nav-mobile', 'footer-inner', 'footer-links', 'footer-logo'];
 const NAV_FOOTER_ALLOWLIST = new Set([
-  'src/styles/alphabet-course.css:18',
-  'src/styles/alphabet-course.css:19',
-  'src/styles/alphabet-course.css:87',
-  'src/styles/hebrew-phrases.css:118',
-  'src/styles/hebrew-phrases.css:119',
+  'src/styles/alphabet-course.css:10',
+  'src/styles/alphabet-course.css:11',
+  'src/styles/alphabet-course.css:79',
 ]);
-// These pages add an extra nav entry (course hub) or longer labels (phrases), so
-// `.nav-inner`/`.nav-links` are allowed to grow (height: auto / flex-wrap) instead
-// of clipping at the fixed 68px row; none of them touch background, border, or
-// the link/logo/cta styling itself. Tracked as debt to fold into Nav.astro's own
-// responsive rules instead of per-page overrides.
+// The course hub adds an extra nav entry, so `.nav-inner`/`.nav-links` are
+// allowed to grow (height: auto / flex-wrap) instead of clipping at the
+// fixed 68px row; it does not touch background, border, or the link/logo/cta
+// styling itself. Tracked as debt to fold into Nav.astro's own responsive
+// rules instead of a per-page override.
 
 const NAV_OWN = resolve(srcDir, 'components/Nav.astro');
 const FOOTER_OWN = resolve(srcDir, 'components/Footer.astro');
@@ -244,6 +240,20 @@ for (const { file, text, lineOffset } of cssSources) {
     if (!/background/.test(m[2])) continue;
     const line = lineOffset + lineAt(text, m.index);
     report('body-background-override', file, line, `"${m[1]}" selector sets background outside global.css`);
+  }
+}
+
+// ───────────────────────────────────────────────────────────────────────────
+// Rule 7: font tokens (--font-*) and @font-face may only be defined in
+// global.css (or the shared font file it imports).
+// ───────────────────────────────────────────────────────────────────────────
+
+for (const { file, text, lineOffset } of cssSources) {
+  const re = /(@font-face\s*\{|--font-[a-z-]+\s*:)/g;
+  let m;
+  while ((m = re.exec(text))) {
+    const line = lineOffset + lineAt(text, m.index);
+    report('font-definition-outside-global', file, line, `"${m[1].trim()}" defines a font token/face outside global.css — fonts must be defined once in global.css and referenced via var(--font-*)`);
   }
 }
 

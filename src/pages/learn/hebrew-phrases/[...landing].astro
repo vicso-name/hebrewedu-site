@@ -1,12 +1,11 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
-import Nav from '../../../components/Nav.astro';
-import Footer from '../../../components/Footer.astro';
 import Section from '../../../components/ui/Section.astro';
 import CtaPanel from '../../../components/ui/CtaPanel.astro';
 import StoreButtons from '../../../components/ui/StoreButtons.astro';
 import PhraseCard from '../../../components/phrases/PhraseCard.astro';
 import PhrasePractice from '../../../components/phrases/PhrasePractice.astro';
+import HebrewText from '../../../components/lessons/HebrewText.astro';
 import { phraseGroups, phraseDialogues, phraseQuestions, phraseVariant, phraseReview } from '../../../data/hebrew-phrases';
 import { phrasesTitle, phrasesDescription, phrasesSchema, phrasesEnabled, phrasesPublished, localPhrasesPreview } from '../../../lib/hebrew-phrases.mjs';
 import '../../../styles/hebrew-phrases.css';
@@ -22,31 +21,27 @@ const resources = [
   { href: '/learn/hebrew-alphabet/', title: 'Start with the alphabet', description: 'Meet Aleph in the published first alphabet lesson.' },
 ];
 ---
-<Layout title={phrasesTitle} description={phrasesDescription} schema={phrasesSchema()} robots={published ? 'index, follow' : 'noindex, nofollow, noarchive'}>
-  <div class="phrases-page">
-    <a class="phrases-skip" href="#phrases-content">Skip to phrases</a>
-    <Nav />
-    <main id="phrases-content">
-      {!published && <div class="phrases-preview container" role="note">Local editorial preview · Native Hebrew review is pending. This page is excluded from the normal production build.</div>}
-      <div class="container phrases-hero">
+<Layout pageClass="phrases-page" mainId="phrases-content" title={phrasesTitle} description={phrasesDescription} schema={phrasesSchema()} robots={published ? 'index, follow' : 'noindex, nofollow, noarchive'}>
+      <Section class="phrases-hero" aria-labelledby="phrases-title">
+        {!published && <p class="phrases-preview" role="note">Local editorial preview · Native Hebrew review is pending. This page is excluded from the production build.</p>}
         <nav class="phrases-breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li aria-current="page">Hebrew Phrases</li></ol></nav>
         <div class="phrases-hero-layout">
           <header>
             <p class="phrases-eyebrow">A little Hebrew for everyday life</p>
-            <h1>Useful Hebrew Phrases for Beginners</h1>
+            <h1 id="phrases-title">Useful Hebrew Phrases for Beginners</h1>
             <p class="phrases-lead">Say hello. Order a coffee. Ask for a little help. Start with 30 practical Modern Hebrew expressions, with English meanings and pronunciation support.</p>
             <div class="phrases-hero-actions"><a href="#phrases" class="btn phrases-primary">Explore the phrases <span aria-hidden="true">↓</span></a><a href="#practice" class="phrases-text-link">Try a quick practice</a></div>
             <p class="phrases-hero-meta">5 everyday situations <span aria-hidden="true">·</span> Free to use here <span aria-hidden="true">·</span> No installation needed</p>
           </header>
           <aside class="phrases-first-card" aria-label="Your first greeting">
             <p class="phrases-eyebrow">Start with a greeting</p>
-            <bdi class="phrases-hebrew" lang="he" dir="rtl">{phraseVariant('hello').hebrew}</bdi>
+            <bdi class="phrases-hebrew" lang="he" dir="rtl"><HebrewText text={phraseVariant('hello').hebrew} /></bdi>
             <p class="phrase-transliteration">{phraseVariant('hello').transliteration}</p>
             <p class="phrases-first-meaning">Hello. A small word, a useful start.</p>
             <a class="phrases-text-link" href="#greetings">More ways to begin <span aria-hidden="true">→</span></a>
           </aside>
         </div>
-      </div>
+      </Section>
 
       <Section surface="soft" id="how-to-use">
         <div class="phrases-section-heading"><p class="phrases-eyebrow">Read it. Understand it. Use it.</p><h2 class="display-md">How to use this phrase guide</h2></div>
@@ -76,7 +71,7 @@ const resources = [
           <h3>{dialogue.title}</h3><p class="phrase-dialogue-setting">{dialogue.setting}</p>
           <ol>{dialogue.turns.map(turn => {
             const variant = phraseVariant(turn.phraseId, turn.variantId);
-            return <li><p class="phrase-form-label">{turn.role}</p><p class="phrase-hebrew-line"><bdi class="phrases-hebrew" lang="he" dir="rtl">{variant.hebrew}</bdi></p><p class="phrase-transliteration" dir="ltr">{variant.transliteration}</p><p>{turn.translation}</p></li>;
+            return <li><p class="phrase-form-label">{turn.role}</p><p class="phrase-hebrew-line"><bdi class="phrases-hebrew" lang="he" dir="rtl"><HebrewText text={variant.hebrew} /></bdi></p><p class="phrase-transliteration" dir="ltr">{variant.transliteration}</p><p>{turn.translation}</p></li>;
           })}</ol>
         </div>)}</div>
       </Section>
@@ -101,7 +96,4 @@ const resources = [
         <ul class="phrases-resources" role="list">{resources.map(resource => <li><h3><a href={resource.href}>{resource.title} <span aria-hidden="true">→</span></a></h3><p>{resource.description}</p></li>)}</ul>
         <p class="phrases-editorial">Created by HebrewEdu.{published && phraseReview.reviewedAt && <> Editorially reviewed <time datetime={phraseReview.reviewedAt}>{phraseReview.reviewedAt}</time>.</>}</p>
       </Section>
-    </main>
-    <Footer />
-  </div>
 </Layout>

@@ -2,8 +2,13 @@
 // Leave unknown dates undefined: the sitemap omits lastmod rather than guessing.
 // Set a date when changing page content, links, or the blog listing/cards.
 // Article body edits belong in that article's updatedDate, not /blog/ here.
+import { phrasesPublished } from '../lib/hebrew-phrases.mjs';
+import { phraseReview } from './hebrew-phrases';
+
+const phrasesReleaseDate = phrasesPublished() ? phraseReview.publishedAt! : undefined;
 export const pageUpdatedDates: Record<string, string | undefined> = {
-  '/': '2026-10-10',
+  '/': ['2026-10-10', ...(phrasesReleaseDate ? [phrasesReleaseDate] : [])].sort().at(-1),
+  '/learn/hebrew-phrases/': phrasesReleaseDate,
   '/blog/': undefined,
   '/play/': '2026-10-13',
   '/play/alef-bet-rush/': undefined,

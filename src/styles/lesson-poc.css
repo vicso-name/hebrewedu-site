@@ -1,13 +1,5 @@
 /* Scoped to the unpublished, progressively enhanced Aleph lesson. */
 /* Rubik v31, Hebrew subset only; licensed under SIL OFL (src/assets/fonts/Rubik-OFL.txt). */
-@font-face {
-  font-family: 'Lesson Rubik';
-  font-style: normal;
-  font-weight: 400 700;
-  font-display: swap;
-  src: url('../assets/fonts/rubik-hebrew-variable.woff2') format('woff2');
-  unicode-range: U+0307-0308, U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
-}
 /* [hidden] must win over any display set by a class on the same element (e.g. .stage-actions),
    since practice-client.ts toggles the attribute to show/hide already-classed elements. */
 .lesson-page [hidden] { display: none !important; }
@@ -18,7 +10,7 @@
   --nav-border: var(--border);
   background: var(--white);
 }
-.lesson-page .hebrew { font-family: 'Lesson Rubik', 'Arial Hebrew', Arial, sans-serif; letter-spacing: normal; unicode-bidi: isolate; line-height: 1.65; color: var(--ink); }
+.lesson-page .hebrew { font-family: var(--font-hebrew); letter-spacing: normal; unicode-bidi: isolate; line-height: 1.65; color: var(--ink); }
 .lesson-page :focus-visible { outline: 3px solid var(--brand-dark); outline-offset: 4px; }
 .lesson-page button { font: inherit; }
 .lesson-page button:disabled { cursor: default; opacity: .5; }

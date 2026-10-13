@@ -1,4 +1,5 @@
 ---
+import { phrasesPath, phrasesPublished } from '../lib/hebrew-phrases.mjs';
 const year = new Date().getFullYear();
 
 const links = [
@@ -6,6 +7,7 @@ const links = [
   { label: 'Features',     href: '/#features'    },
   { label: 'How it works', href: '/#how-it-works' },
   { label: 'Blog',         href: '/blog/'         },
+  ...(phrasesPublished() ? [{ label: 'Hebrew Phrases', href: phrasesPath }] : []),
   { label: 'Terms',        href: '/terms/'        },
   { label: 'Privacy',      href: '/website-privacy/' },
 ];

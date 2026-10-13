@@ -1,4 +1,5 @@
 ---
+import Section from './Section.astro';
 interface Props {
   compact?: boolean;
   id?: string;
@@ -7,35 +8,31 @@ interface Props {
 const { compact = false, id } = Astro.props;
 ---
 
-<section id={id} class="cta">
-  <div class="container">
+<Section id={id} surface="white">
     <div class:list={['cta-panel', { 'cta-panel--compact': compact }]}>
       <slot />
     </div>
-  </div>
-</section>
+</Section>
 
 <style>
-.cta {
-  padding-block: var(--home-section-y);
-  background: var(--home-surface-white);
-}
-
 .cta-panel {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: clamp(3rem, 8vw, 6rem) clamp(1.5rem, 5vw, 4rem);
+  padding: var(--space-2xl) var(--space-xl);
   background: var(--home-surface-soft);
   border-radius: var(--home-radius-lg);
   text-align: center;
 }
 .cta-panel :global(p) {
-  max-width: 34rem;
-  margin-block: var(--home-stack) 2.25rem;
+  max-width: var(--w-narrow);
+  margin-block: var(--space-sm) var(--space-lg);
 }
 
 .cta-panel--compact {
-  padding-block: clamp(2.5rem, 5vw, 4rem);
+  padding-block: var(--space-xl);
+}
+@media (max-width: 767px) {
+  .cta-panel { padding: var(--space-lg) var(--space-md); }
 }
 </style>

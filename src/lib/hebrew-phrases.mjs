@@ -17,8 +17,9 @@ export function phrasesPublished(review = phraseReview, contentSha256 = phraseCo
   return review.published === true && approved;
 }
 
-export function localPhrasesPreview(dev = false, env = process.env) {
-  return dev || env.HEBREWEDU_LOCAL_PHRASES_PREVIEW === '1';
+export function localPhrasesPreview(dev = false) {
+  // Only the dev server can expose a draft; no environment flag bypasses a production build.
+  return dev === true;
 }
 export function phrasesEnabled(preview = false) { return phrasesPublished() || preview; }
 export function phrasesSitemapEntries(review = phraseReview, contentSha256 = phraseContentSha256) {

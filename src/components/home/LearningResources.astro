@@ -1,6 +1,7 @@
 ---
 import Section from '../ui/Section.astro';
 import SectionHeading from '../ui/SectionHeading.astro';
+import { phrasesPath, phrasesPublished } from '../../lib/hebrew-phrases.mjs';
 
 const resources = [
   {
@@ -23,6 +24,11 @@ const resources = [
     title: 'Free Hebrew learning games',
     description: 'Practise recognising letters and recalling their names in your browser.',
   },
+  ...(phrasesPublished() ? [{
+    href: phrasesPath,
+    title: 'Useful Hebrew phrases',
+    description: 'Try everyday expressions, with meanings, pronunciation support and a quick practice.',
+  }] : []),
 ];
 ---
 

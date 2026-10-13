@@ -1,5 +1,6 @@
 ---
 import type { Phrase } from '../../data/hebrew-phrases';
+import HebrewText from '../lessons/HebrewText.astro';
 interface Props { phrase: Phrase; number: number }
 const { phrase, number } = Astro.props;
 ---
@@ -8,7 +9,7 @@ const { phrase, number } = Astro.props;
   <div class="phrase-variants">
     {phrase.variants.map(variant => <div class="phrase-variant">
       {phrase.variants.length > 1 && <p class="phrase-form-label">{variant.label}</p>}
-      <p class="phrase-hebrew-line"><bdi class="phrases-hebrew" lang="he" dir="rtl">{variant.hebrew}</bdi></p>
+      <p class="phrase-hebrew-line"><bdi class="phrases-hebrew" lang="he" dir="rtl"><HebrewText text={variant.hebrew} /></bdi></p>
       <p class="phrase-transliteration" dir="ltr">{variant.transliteration}</p>
     </div>)}
   </div>

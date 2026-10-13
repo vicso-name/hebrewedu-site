@@ -18,10 +18,6 @@
   --legal-reading: 760px;  /* body line length */
   --legal-header:  880px;  /* intro / title */
 
-  /* Typography — Manrope is loaded by LegalPage via Layout's head slot */
-  --font-display: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-body:    'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
-
   /* Nav theming hooks (see Nav.astro) */
   --nav-bg:            rgba(255, 255, 255, 0.9);
   --nav-border:        var(--legal-border);

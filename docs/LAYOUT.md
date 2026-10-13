@@ -80,6 +80,9 @@ every commit — it runs in `prebuild` and as its own step before `Build` in
 6. No file outside `Nav.astro`/`Footer.astro`/`global.css` redeclares a
    Nav/Footer selector (`.nav-inner`, `.nav-links`, …), and no `html`/`body`
    rule outside `global.css` sets a `background`.
+7. Font tokens (`--font-*`) and `@font-face` are only defined in
+   `global.css` (or the shared font file it imports) — never redefined or
+   redeclared in a page- or component-level stylesheet.
 
 **Allowlist policy:** each rule has its own `ALLOWLIST` (a `Set`/`Map`) at the
 top of its section in `scripts/check-layout.mjs`. Never add or widen a

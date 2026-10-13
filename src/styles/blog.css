@@ -24,10 +24,6 @@
   --blog-reading: 760px;  /* article body line length */
   --blog-header:  920px;  /* article header / title */
 
-  /* Typography — Manrope is loaded by each blog page via Layout's head slot */
-  --font-display: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-body:    'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
-
   /* Nav theming hooks (see Nav.astro) */
   --nav-bg:            rgba(255, 255, 255, 0.9);
   --nav-border:        var(--blog-border);
@@ -526,22 +522,13 @@
   white-space: nowrap;
 }
 .hebrew-alphabet-guide .guide-alphabet-chart td:first-child bdi {
-  font-family: "Guide Rubik", "Arial Hebrew", Arial, sans-serif;
+  font-family: var(--font-hebrew);
   font-size: 1.3em;
   font-weight: 400;
   line-height: 1.25;
 }
 .hebrew-alphabet-guide .guide-alphabet-chart td:last-child { min-width: 15rem; }
 .hebrew-alphabet-guide :is(h2, h3) { scroll-margin-top: 6rem; }
-
-@font-face {
-  font-family: "Guide Rubik";
-  font-style: normal;
-  font-weight: 400 700;
-  font-display: swap;
-  src: url("../assets/fonts/rubik-hebrew-variable.woff2") format("woff2");
-  unicode-range: U+0307-0308, U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
-}
 
 .hebrew-alphabet-guide .guide-letter-slider {
   margin-block: 2rem 2.5rem;
@@ -636,7 +623,7 @@
   border-radius: 12px;
   background: #fcfcfc;
   color: #343440;
-  font-family: "Guide Rubik", "Arial Hebrew", Arial, sans-serif;
+  font-family: var(--font-hebrew);
   font-size: clamp(4.5rem, 18vw, 5rem);
   font-weight: 500;
   line-height: 1;

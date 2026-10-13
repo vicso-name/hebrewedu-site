@@ -1,5 +1,14 @@
 /* ─── Design Tokens ─────────────────────────────────────────── */
-@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,700;12..96,800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;1,9..40,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;1,9..40,400&display=swap');
+
+@font-face {
+  font-family: 'Hebrew Rubik';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('../assets/fonts/rubik-hebrew-variable.woff2') format('woff2');
+  unicode-range: U+0307-0308, U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
 
 :root {
   /* Brand */
@@ -23,8 +32,9 @@
   --surface:     #F1F0FF;
 
   /* Typography */
-  --font-display: 'Bricolage Grotesque', sans-serif;
+  --font-display: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-body:    'DM Sans', sans-serif;
+  --font-hebrew:  'Hebrew Rubik', 'Arial Hebrew', Arial, sans-serif;
 
   /* Spacing scale */
   --space-xs:  0.5rem;

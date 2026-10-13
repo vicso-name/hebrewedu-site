@@ -4,6 +4,7 @@ import { legalUpdated } from '../data/legal';
 import { websitePrivacyUpdated } from '../data/website-privacy';
 import { pageUpdatedDates } from '../data/page-updates';
 import { courseSitemapEntries } from '../lib/alphabet-course.mjs';
+import { phrasesSitemapEntries } from '../lib/hebrew-phrases.mjs';
 
 const SITE = 'https://hebrewedu.com';
 
@@ -82,11 +83,11 @@ export const GET: APIRoute = async () => {
     url: `/blog/${post.id}/`,
     priority: '0.7',
     changefreq: 'monthly',
-    lastmod: toDateString(post.data.updatedDate ?? post.data.pubDate),
+    lastmod: [toDateString(post.data.updatedDate ?? post.data.pubDate), ...(post.id === 'how-to-learn-hebrew-vocabulary' && pageUpdatedDates['/learn/hebrew-phrases/'] ? [pageUpdatedDates['/learn/hebrew-phrases/']!] : [])].sort().at(-1),
   }));
 
   // Preview flags never affect indexing; only the explicit approved release manifest does.
-  const allPages = [...staticPages, ...blogPages, ...courseSitemapEntries()];
+  const allPages = [...staticPages, ...blogPages, ...courseSitemapEntries(), ...phrasesSitemapEntries()];
   for (const page of allPages) {
     if (page.lastmod !== undefined) validateLastmod(page.lastmod);
   }
