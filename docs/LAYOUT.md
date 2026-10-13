@@ -18,7 +18,7 @@ One container, one section rhythm, one spacing scale — applied to every page's
 
 ## Spacing inside a section
 
-- Heading-to-content spacing, card padding, and similar in-section spacing use the `--space-*` scale from `global.css` (`--space-xs` 0.5rem … `--space-2xl` 6rem) — never a bare `rem`/`px` value and never `!important`.
+- Heading-to-content spacing, card padding, and similar in-section spacing use the `--space-*` scale from `global.css` (`--space-xs` 0.5rem … `--space-2xl` 6rem) — never a bare `rem`/`px` value and never `!important`. Three finer steps fill gaps in that scale: `--space-2xs` (0.25rem), `--space-xs-plus` (0.75rem) and `--space-sm-plus` (1.25rem) — added for PhraseCard's panel/padding rhythm, reusable wherever a step between the named sizes is needed.
 
 ## Shared header, footer and page background
 

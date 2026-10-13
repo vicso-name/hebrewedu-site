@@ -28,6 +28,7 @@ test('five groups contain six distinct phrase entries each, with readable forms 
         assert.ok(variant.label && variant.transliteration);
         assert.match(variant.hebrew, /[\u05B0-\u05BB\u05C7]/u, 'Nikud must remain in Hebrew text');
         assert.doesNotMatch(variant.transliteration, /[\u0590-\u05FF]/u);
+        assert.doesNotMatch(variant.transliteration, /[[\]?.!,]/u, 'Transliteration must not contain brackets or sentence punctuation (apostrophes are allowed)');
         assert.deepEqual(phraseVariant(phrase.id, variant.id), variant);
       }
       const key = phrase.variants[0].hebrew.normalize('NFD').replace(/[\u0591-\u05C7\s.,?!…]/gu, '');

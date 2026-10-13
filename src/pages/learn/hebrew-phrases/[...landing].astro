@@ -6,6 +6,7 @@ import StoreButtons from '../../../components/ui/StoreButtons.astro';
 import PhraseCard from '../../../components/phrases/PhraseCard.astro';
 import PhrasePractice from '../../../components/phrases/PhrasePractice.astro';
 import HebrewText from '../../../components/lessons/HebrewText.astro';
+import Transliteration from '../../../components/phrases/Transliteration.astro';
 import { phraseGroups, phraseDialogues, phraseQuestions, phraseVariant, phraseReview } from '../../../data/hebrew-phrases';
 import { phrasesTitle, phrasesDescription, phrasesSchema, phrasesEnabled, phrasesPublished, localPhrasesPreview } from '../../../lib/hebrew-phrases.mjs';
 import '../../../styles/hebrew-phrases.css';
@@ -36,7 +37,7 @@ const resources = [
           <aside class="phrases-first-card" aria-label="Your first greeting">
             <p class="phrases-eyebrow">Start with a greeting</p>
             <bdi class="phrases-hebrew" lang="he" dir="rtl"><HebrewText text={phraseVariant('hello').hebrew} /></bdi>
-            <p class="phrase-transliteration">{phraseVariant('hello').transliteration}</p>
+            <p class="phrase-transliteration" lang="he-Latn" dir="ltr"><Transliteration text={phraseVariant('hello').transliteration} /></p>
             <p class="phrases-first-meaning">Hello. A small word, a useful start.</p>
             <a class="phrases-text-link" href="#greetings">More ways to begin <span aria-hidden="true">→</span></a>
           </aside>
@@ -59,7 +60,7 @@ const resources = [
         {phraseGroups.map((group, groupIndex) => <>
           <div class="phrase-group" id={group.id} role="region" aria-labelledby={`${group.id}-title`}>
             <header class="phrase-group-heading"><span class="phrase-group-number" aria-hidden="true">0{groupIndex + 1}</span><div><h3 id={`${group.id}-title`}>{group.title}</h3><p>{group.description}</p></div></header>
-            <ul class="phrase-grid" role="list">{group.phrases.map((phrase, index) => <PhraseCard phrase={phrase} number={groupIndex * 6 + index + 1} />)}</ul>
+            <div class="phrase-grid" role="list">{group.phrases.map((phrase) => <PhraseCard phrase={phrase} />)}</div>
           </div>
           {groupIndex === 1 && <aside class="phrases-inline-app" aria-labelledby="phrases-mid-title"><div><p id="phrases-mid-title" class="phrases-app-label">Build a regular Hebrew practice habit</p><p>Keep building with vocabulary review and structured lessons in HebrewEdu.</p></div><StoreButtons location="hebrew_phrases_mid" height={48} /></aside>}
         </>)}
@@ -71,7 +72,7 @@ const resources = [
           <h3>{dialogue.title}</h3><p class="phrase-dialogue-setting">{dialogue.setting}</p>
           <ol>{dialogue.turns.map(turn => {
             const variant = phraseVariant(turn.phraseId, turn.variantId);
-            return <li><p class="phrase-form-label">{turn.role}</p><p class="phrase-hebrew-line"><bdi class="phrases-hebrew" lang="he" dir="rtl"><HebrewText text={variant.hebrew} /></bdi></p><p class="phrase-transliteration" dir="ltr">{variant.transliteration}</p><p>{turn.translation}</p></li>;
+            return <li><p class="phrase-form-label">{turn.role}</p><p class="phrase-hebrew-line"><bdi class="phrases-hebrew" lang="he" dir="rtl"><HebrewText text={variant.hebrew} /></bdi></p><p class="phrase-transliteration" lang="he-Latn" dir="ltr"><Transliteration text={variant.transliteration} /></p><p>{turn.translation}</p></li>;
           })}</ol>
         </div>)}</div>
       </Section>

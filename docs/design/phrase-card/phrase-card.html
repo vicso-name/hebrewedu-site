@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PhraseCard reference</title>
+<!-- Standalone: no external requests. Fonts resolve to installed Manrope / DM Sans / Rubik, else system fallbacks.
+     On the site, these come from the existing font loading. -->
+<style>
+/* ===== Tokens (see PHRASECARD_SPEC.md §2 for which are existing vs proposed) ===== */
+:root{
+  --surface:#ffffff;
+  --surface-sunken:#f5f6fb;
+  --ink:#1c2030;
+  --ink-muted:#525a6b;
+  --border:#e3e6ee;
+  --border-hover:#c5cad6;
+  --border-control:#7a8396;
+  --brand:#4f46e5;
+  --brand-tint:#eef0fd;
+  --on-brand:#ffffff;
+  --focus:var(--brand);
+  --space-1:4px;
+  --space-2:8px;
+  --space-3:12px;
+  --space-4:16px;
+  --space-5:20px;
+  --space-6:24px;
+  --space-8:32px;
+  --radius-md:12px;
+  --radius-lg:16px;
+  --radius-pill:999px;
+  --shadow-card-hover:0 4px 16px rgba(28, 32, 48, 0.08);
+  --font-heading:Manrope, system-ui, sans-serif;
+  --font-body:"DM Sans", Manrope, system-ui, sans-serif;
+  --font-hebrew:Rubik, "Arial Hebrew", "Noto Sans Hebrew", sans-serif;
+}
+
+/* ===== Component: copy this block into the site stylesheet ===== */
+/* HebrewEdu — PhraseCard (option B "Hebrew panel"). Uses tokens.css variables only. */
+.pc-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--space-6);align-items:start}
+@media (max-width:1023px){.pc-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:639px){.pc-grid{grid-template-columns:1fr;gap:var(--space-4)}}
+
+.pc{position:relative;display:flex;flex-direction:column;gap:var(--space-4);
+  padding:var(--space-5);background:var(--surface);color:var(--ink);
+  border:1px solid var(--border);border-radius:var(--radius-lg);
+  font-family:var(--font-body);transition:border-color .15s ease,box-shadow .15s ease}
+.pc:hover,.pc.is-hover{border-color:var(--border-hover);box-shadow:var(--shadow-card-hover)}
+.pc.is-playing{border-color:var(--brand)}
+
+/* Hebrew panel: the hero */
+.pc-panel{position:relative;display:grid;grid-template-columns:1fr;align-items:center;gap:var(--space-3);
+  min-height:96px;padding:var(--space-4);background:var(--surface-sunken);border-radius:var(--radius-md);overflow:hidden}
+.pc.has-audio .pc-panel{grid-template-columns:44px 1fr}
+.pc-heb{min-width:0;text-align:right}
+.pc-he{margin:0;font-family:var(--font-hebrew);font-size:32px;line-height:48px;font-weight:500;color:var(--ink);text-wrap:balance;overflow-wrap:anywhere}
+.pc--long .pc-he{font-size:26px;line-height:40px}
+.pc-tr{margin:var(--space-1) 0 0;font-family:var(--font-body);font-size:15px;line-height:22px;font-weight:600;color:var(--brand);letter-spacing:.01em}
+.pc-tr .b{color:var(--ink-muted);font-weight:500}
+
+/* Audio */
+.pc-play{grid-column:1;grid-row:1;width:44px;height:44px;border-radius:var(--radius-pill);display:grid;place-items:center;
+  border:1px solid var(--border-control);background:var(--surface);color:var(--ink);cursor:pointer;padding:0;transition:background .15s,border-color .15s,color .15s}
+.pc-play svg{width:20px;height:20px;fill:currentColor}
+.pc-play .i-pause{display:none}
+.pc-play:hover,.pc-play.is-hover{background:var(--brand-tint);border-color:var(--brand);color:var(--brand)}
+.pc.is-playing .pc-play{background:var(--brand);border-color:var(--brand);color:var(--on-brand)}
+.pc.is-playing .pc-play .i-play{display:none}
+.pc.is-playing .pc-play .i-pause{display:block}
+.pc-heb{grid-column:-2/-1;grid-row:1}
+.pc-progress{position:absolute;left:0;right:0;bottom:0;height:3px;background:transparent}
+.pc-progress span{display:block;height:100%;width:0;background:var(--brand)}
+.pc.is-playing .pc-progress span{width:var(--pc-p,0%)}
+
+/* English */
+.pc-body{display:flex;flex-direction:column;gap:var(--space-2)}
+.pc-en{margin:0;font-family:var(--font-heading);font-size:18px;line-height:24px;font-weight:700;color:var(--ink)}
+.pc-note{margin:0;font-size:15px;line-height:22px;color:var(--ink-muted)}
+
+/* Gender variants */
+.pc-vars{display:flex;flex-direction:column;gap:var(--space-2);padding-top:var(--space-4);border-top:1px solid var(--border)}
+.pc-var{display:flex;align-items:center;justify-content:space-between;gap:var(--space-3)}
+.pc-var-l{font-size:13px;line-height:16px;font-weight:600;color:var(--ink-muted)}
+.pc-seg{display:inline-flex;border:1px solid var(--border-control);border-radius:var(--radius-pill);padding:0;background:var(--surface)}
+.pc-seg button{min-height:44px;min-width:80px;padding:0 var(--space-4);border:0;border-radius:var(--radius-pill);background:transparent;
+  font:600 14px/20px var(--font-body);color:var(--ink-muted);cursor:pointer;margin:-1px}
+.pc-seg button:hover{color:var(--ink);background:var(--surface-sunken)}
+.pc-seg button[aria-checked="true"]{background:var(--brand);color:var(--on-brand)}
+
+.pc :focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+@media (max-width:639px){.pc{padding:var(--space-4)}.pc-he{font-size:28px;line-height:42px}.pc--long .pc-he{font-size:24px;line-height:36px}}
+@media (prefers-reduced-motion:reduce){.pc,.pc-play{transition:none}}
+
+/* Group header (replaces the 01/02 index numbers) */
+.pc-group{margin:0 0 var(--space-5)}
+.pc-group h2{margin:0;font:700 28px/36px var(--font-heading);color:var(--ink)}
+.pc-group p{margin:var(--space-1) 0 0;font-size:16px;line-height:24px;color:var(--ink-muted)}
+.pc-group .n{color:var(--ink-muted);font-weight:500}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* ===== Reference page only ===== */
+
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--surface);color:var(--ink);font-family:var(--font-body)}
+.doc{max-width:1200px;margin:0 auto;padding:40px 40px 80px}
+.doc>header h1{margin:0;font:800 32px/40px var(--font-heading)}
+.doc>header p{margin:8px 0 0;max-width:720px;font-size:15px;line-height:22px;color:var(--ink-muted)}
+.sec{margin-top:56px}
+.sec>h2.sh{margin:0 0 4px;font:800 20px/28px var(--font-heading)}
+.sec>p.sd{margin:0 0 24px;font-size:14px;line-height:21px;color:var(--ink-muted)}
+.states{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px 24px;align-items:start}
+.st{display:flex;flex-direction:column;gap:8px}
+.cap{font:700 12px/16px var(--font-heading);letter-spacing:.06em;text-transform:uppercase;color:var(--ink-muted)}
+.pc-seg button.is-focus,.pc-play.is-focus{outline:2px solid var(--focus);outline-offset:2px}
+.frame{width:360px;border:1px dashed var(--border-hover);border-radius:8px;padding:24px 16px}
+.frame-l{font:600 12px/16px var(--font-body);color:var(--ink-muted);margin-bottom:8px}
+.page{max-width:1120px}
+/* 360px frame: mobile rules forced regardless of viewport */
+.m360 .pc-grid{grid-template-columns:1fr;gap:var(--space-4)}
+.m360 .pc{padding:var(--space-4)}
+.m360 .pc-he{font-size:28px;line-height:42px}
+.m360 .pc--long .pc-he{font-size:24px;line-height:36px}
+.m360 .pc-group h2{font-size:22px;line-height:28px}
+.m360 .pc-group p{font-size:15px;line-height:22px}
+@media (max-width:1023px){.states{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:639px){.doc{padding:24px 16px 56px}.states{grid-template-columns:1fr}.frame{width:100%}}
+
+</style></head>
+<body><div class="doc">
+<header><h1>PhraseCard · option B “Hebrew panel”</h1>
+<p>Reference implementation for hebrewedu.com/learn/hebrew-phrases/. Everything here is live: play buttons simulate a 1.8s clip (only one plays at a time), and the Man / Woman switches work by mouse and keyboard (Tab to the switch, then arrow keys). Spec: PHRASECARD_SPEC.md.</p></header>
+
+<section class="sec"><h2 class="sh">States</h2><p class="sd">Hover and focus are forced with helper classes (.is-hover, .is-focus) for display. In production they come from :hover and :focus-visible.</p>
+<div class="states"><div class="st"><div class="cap">1 · Basic, no audio</div><article class="pc"><div class="pc-panel"><div class="pc-heb" aria-live="polite"><p class="pc-he" lang="he" dir="rtl">שָׁלוֹם</p><p class="pc-tr" lang="he-Latn"><span class="b" aria-hidden="true">[</span><span class="pc-tr-t">shalom</span><span class="b" aria-hidden="true">]</span></p></div></div><div class="pc-body"><h3 class="pc-en">Hello / goodbye</h3><p class="pc-note">A simple greeting when you meet someone. The same word is used when leaving.</p></div></article></div><div class="st"><div class="cap">2 · Audio, idle</div><article class="pc has-audio"><div class="pc-panel"><button class="pc-play" type="button" aria-label="Play pronunciation"><svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></svg><svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/></svg></button><div class="pc-progress" aria-hidden="true"><span></span></div><div class="pc-heb" aria-live="polite"><p class="pc-he" lang="he" dir="rtl">בֹּקֶר טוֹב</p><p class="pc-tr" lang="he-Latn"><span class="b" aria-hidden="true">[</span><span class="pc-tr-t">boker tov</span><span class="b" aria-hidden="true">]</span></p></div></div><div class="pc-body"><h3 class="pc-en">Good morning</h3><p class="pc-note">Greet someone in the morning, at a café or at work.</p></div></article></div><div class="st"><div class="cap">3 · Audio, playing (frozen at 45%)</div><article data-static="1" class="pc has-audio is-playing" style="--pc-p:45%"><div class="pc-panel"><button class="pc-play" type="button" aria-label="Pause pronunciation"><svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></svg><svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/></svg></button><div class="pc-progress" aria-hidden="true"><span></span></div><div class="pc-heb" aria-live="polite"><p class="pc-he" lang="he" dir="rtl">לְהִתְרָאוֹת</p><p class="pc-tr" lang="he-Latn"><span class="b" aria-hidden="true">[</span><span class="pc-tr-t">lehitra&#x27;ot</span><span class="b" aria-hidden="true">]</span></p></div></div><div class="pc-body"><h3 class="pc-en">Goodbye / see you</h3><p class="pc-note">Say it when leaving. It is a farewell, not a greeting.</p></div></article></div><div class="st"><div class="cap">4 · Gender variants · Said by</div><article class="pc has-audio" data-forms="{&quot;m&quot;: [&quot;אֲנִי רוֹצֶה&quot;, &quot;ani rotse&quot;], &quot;f&quot;: [&quot;אֲנִי רוֹצָה&quot;, &quot;ani rotsa&quot;]}"><div class="pc-panel"><button class="pc-play" type="button" aria-label="Play pronunciation"><svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></svg><svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/></svg></button><div class="pc-progress" aria-hidden="true"><span></span></div><div class="pc-heb" aria-live="polite"><p class="pc-he" lang="he" dir="rtl">אֲנִי רוֹצֶה</p><p class="pc-tr" lang="he-Latn"><span class="b" aria-hidden="true">[</span><span class="pc-tr-t">ani rotse</span><span class="b" aria-hidden="true">]</span></p></div></div><div class="pc-body"><h3 class="pc-en">I want</h3><p class="pc-note">Start a request with it, then name the thing you want.</p></div><div class="pc-vars"><div class="pc-var"><span class="pc-var-l" id="v22-0">Said by</span><div class="pc-seg" role="radiogroup" aria-labelledby="v22-0"><button type="button" role="radio" data-v="m" aria-checked="true" tabindex="0">Man</button><button type="button" role="radio" data-v="f" aria-checked="false" tabindex="-1">Woman</button></div></div></div></article></div><div class="st"><div class="cap">5 · Gender variants · Said to</div><article class="pc has-audio" data-forms="{&quot;m&quot;: [&quot;מָה שְׁלוֹמְךָ?&quot;, &quot;ma shlomkha&quot;], &quot;f&quot;: [&quot;מָה שְׁלוֹמֵךְ?&quot;, &quot;ma shlomekh&quot;]}"><div class="pc-panel"><button class="pc-play" type="button" aria-label="Play pronunciation"><svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></svg><svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/></svg></button><div class="pc-progress" aria-hidden="true"><span></span></div><div class="pc-heb" aria-live="polite"><p class="pc-he" lang="he" dir="rtl">מָה שְׁלוֹמְךָ?</p><p class="pc-tr" lang="he-Latn"><span class="b" aria-hidden="true">[</span><span class="pc-tr-t">ma shlomkha</span><span class="b" aria-hidden="true">]</span></p></div></div><div class="pc-body"><h3 class="pc-en">How are you?</h3><p class="pc-note">A polite way to ask. The ending changes with the person you ask.</p></div><div class="pc-vars"><div class="pc-var"><span class="pc-var-l" id="v23-0">Said to</span><div class="pc-seg" role="radiogroup" aria-labelledby="v23-0"><button type="button" role="radio" data-v="m" aria-checked="true" tabindex="0">Man</button><button type="button" role="radio" data-v="f" aria-checked="false" tabindex="-1">Woman</button></div></div></div></article></div><div class="st"><div class="cap">6 · Four forms · Said by + Said to</div><article class="pc has-audio pc--long" data-forms="{&quot;mm&quot;: [&quot;אֲנִי שָׂמֵחַ לִרְאוֹת אוֹתְךָ&quot;, &quot;ani sameakh lirot otkha&quot;], &quot;mf&quot;: [&quot;אֲנִי שָׂמֵחַ לִרְאוֹת אוֹתָךְ&quot;, &quot;ani sameakh lirot otakh&quot;], &quot;fm&quot;: [&quot;אֲנִי שְׂמֵחָה לִרְאוֹת אוֹתְךָ&quot;, &quot;ani smekha lirot otkha&quot;], &quot;ff&quot;: [&quot;אֲנִי שְׂמֵחָה לִרְאוֹת אוֹתָךְ&quot;, &quot;ani smekha lirot otakh&quot;]}"><div class="pc-panel"><button class="pc-play" type="button" aria-label="Play pronunciation"><svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></svg><svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/></svg></button><div class="pc-progress" aria-hidden="true"><span></span></div><div class="pc-heb" aria-live="polite"><p class="pc-he" lang="he" dir="rtl">אֲנִי שָׂמֵחַ לִרְאוֹת אוֹתְךָ</p><p class="pc-tr" lang="he-Latn"><span class="b" aria-hidden="true">[</span><span class="pc-tr-t">ani sameakh lirot otkha</span><span class="b" aria-hidden="true">]</span></p></div></div><div class="pc-body"><h3 class="pc-en">I’m glad to see you</h3><p class="pc-note">Two words change: one follows the speaker, one follows the listener.</p></div><div class="pc-vars"><div class="pc-var"><span class="pc-var-l" id="v24-0">Said by</span><div class="pc-seg" role="radiogroup" aria-labelledby="v24-0"><button type="button" role="radio" data-v="m" aria-checked="true" tabindex="0">Man</button><button type="button" role="radio" data-v="f" aria-checked="false" tabindex="-1">Woman</button></div></div><div class="pc-var"><span class="pc-var-l" id="v24-1">Said to</span><div class="pc-seg" role="radiogroup" aria-labelledby="v24-1"><button type="button" role="radio" data-v="m" aria-checked="true" tabindex="0">Man</button><button type="button" role="radio" data-v="f" aria-checked="false" tabindex="-1">Woman</button></div></div></div></article></div><div class="st"><div class="cap">7 · Hover (card + play button)</div><article class="pc has-audio is-hover"><div class="pc-panel"><button class="pc-play is-hover" type="button" aria-label="Play pronunciation"><svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></svg><svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/></svg></button><div class="pc-progress" aria-hidden="true"><span></span></div><div class="pc-heb" aria-live="polite"><p class="pc-he" lang="he" dir="rtl">שָׁלוֹם</p><p class="pc-tr" lang="he-Latn"><span class="b" aria-hidden="true">[</span><span class="pc-tr-t">shalom</span><span class="b" aria-hidden="true">]</span></p></div></div><div class="pc-body"><h3 class="pc-en">Hello / goodbye</h3><p class="pc-note">A simple greeting when you meet someone. The same word is used when leaving.</p></div></article></div><div class="st"><div class="cap">8 · Focus-visible · play button</div><article class="pc has-audio"><div class="pc-panel"><button class="pc-play is-focus" type="button" aria-label="Play pronunciation"><svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></svg><svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/></svg></button><div class="pc-progress" aria-hidden="true"><span></span></div><div class="pc-heb" aria-live="polite"><p class="pc-he" lang="he" dir="rtl">בֹּקֶר טוֹב</p><p class="pc-tr" lang="he-Latn"><span class="b" aria-hidden="true">[</span><span class="pc-tr-t">boker tov</span><span class="b" aria-hidden="true">]</span></p></div></div><div class="pc-body"><h3 class="pc-en">Good morning</h3><p class="pc-note">Greet someone in the morning, at a café or at work.</p></div></article></div><div class="st"><div class="cap">9 · Focus-visible · variant switch</div><article class="pc" data-forms="{&quot;m&quot;: [&quot;אֲנִי רוֹצֶה&quot;, &quot;ani rotse&quot;], &quot;f&quot;: [&quot;אֲנִי רוֹצָה&quot;, &quot;ani rotsa&quot;]}"><div class="pc-panel"><div class="pc-heb" aria-live="polite"><p class="pc-he" lang="he" dir="rtl">אֲנִי רוֹצֶה</p><p class="pc-tr" lang="he-Latn"><span class="b" aria-hidden="true">[</span><span class="pc-tr-t">ani rotse</span><span class="b" aria-hidden="true">]</span></p></div></div><div class="pc-body"><h3 class="pc-en">I want</h3><p class="pc-note">Start a request with it, then name the thing you want.</p></div><div class="pc-vars"><div class="pc-var"><span class="pc-var-l" id="v27-0">Said by</span><div class="pc-seg" role="radiogroup" aria-labelledby="v27-0"><button type="button" role="radio" data-v="m" aria-checked="true" tabindex="0" class="is-focus">Man</button><button type="button" role="radio" data-v="f" aria-checked="false" tabindex="-1">Woman</button></div></div></div></article></div></div></section>
+
+<section class="sec"><h2 class="sh">Mobile · 360px</h2><p class="sd">One column, 16px gutters, 16px card padding, Hebrew 28/42 (long 24/36), group title 22/28.</p>
+<div class="frame-l">360 × auto</div><div class="frame m360"><header class="pc-group"><h2>Greetings and introductions</h2><p>Start a conversation, introduce yourself, or say goodbye.</p></header><div class="pc-grid"><article class="pc has-audio"><div class="pc-panel"><button class="pc-play" type="button" aria-label="Play pronunciation"><svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></svg><svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/></svg></button><div class="pc-progress" aria-hidden="true"><span></span></div><div class="pc-heb" aria-live="polite"><p class="pc-he" lang="he" dir="rtl">שָׁלוֹם</p><p class="pc-tr" lang="he-Latn"><span class="b" aria-hidden="true">[</span><span class="pc-tr-t">shalom</span><span class="b" aria-hidden="true">]</span></p></div></div><div class="pc-body"><h3 class="pc-en">Hello / goodbye</h3><p class="pc-note">A simple greeting when you meet someone. The same word is used when leaving.</p></div></article><article class="pc has-audio" data-forms="{&quot;m&quot;: [&quot;אֲנִי רוֹצֶה&quot;, &quot;ani rotse&quot;], &quot;f&quot;: [&quot;אֲנִי רוֹצָה&quot;, &quot;ani rotsa&quot;]}"><div class="pc-panel"><button class="pc-play" type="button" aria-label="Play pronunciation"><svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></svg><svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/></svg></button><div class="pc-progress" aria-hidden="true"><span></span></div><div class="pc-heb" aria-live="polite"><p class="pc-he" lang="he" dir="rtl">אֲנִי רוֹצֶה</p><p class="pc-tr" lang="he-Latn"><span class="b" aria-hidden="true">[</span><span class="pc-tr-t">ani rotse</span><span class="b" aria-hidden="true">]</span></p></div></div><div class="pc-body"><h3 class="pc-en">I want</h3><p class="pc-note">Start a request with it, then name the thing you want.</p></div><div class="pc-vars"><div class="pc-var"><span class="pc-var-l" id="v36-0">Said by</span><div class="pc-seg" role="radiogroup" aria-labelledby="v36-0"><button type="button" role="radio" data-v="m" aria-checked="true" tabindex="0">Man</button><button type="button" role="radio" data-v="f" aria-checked="false" tabindex="-1">Woman</button></div></div></div></article><article class="pc pc--long" data-forms="{&quot;mm&quot;: [&quot;אֲנִי שָׂמֵחַ לִרְאוֹת אוֹתְךָ&quot;, &quot;ani sameakh lirot otkha&quot;], &quot;mf&quot;: [&quot;אֲנִי שָׂמֵחַ לִרְאוֹת אוֹתָךְ&quot;, &quot;ani sameakh lirot otakh&quot;], &quot;fm&quot;: [&quot;אֲנִי שְׂמֵחָה לִרְאוֹת אוֹתְךָ&quot;, &quot;ani smekha lirot otkha&quot;], &quot;ff&quot;: [&quot;אֲנִי שְׂמֵחָה לִרְאוֹת אוֹתָךְ&quot;, &quot;ani smekha lirot otakh&quot;]}"><div class="pc-panel"><div class="pc-heb" aria-live="polite"><p class="pc-he" lang="he" dir="rtl">אֲנִי שָׂמֵחַ לִרְאוֹת אוֹתְךָ</p><p class="pc-tr" lang="he-Latn"><span class="b" aria-hidden="true">[</span><span class="pc-tr-t">ani sameakh lirot otkha</span><span class="b" aria-hidden="true">]</span></p></div></div><div class="pc-body"><h3 class="pc-en">I’m glad to see you</h3><p class="pc-note">Two words change: one follows the speaker, one follows the listener.</p></div><div class="pc-vars"><div class="pc-var"><span class="pc-var-l" id="v37-0">Said by</span><div class="pc-seg" role="radiogroup" aria-labelledby="v37-0"><button type="button" role="radio" data-v="m" aria-checked="true" tabindex="0">Man</button><button type="button" role="radio" data-v="f" aria-checked="false" tabindex="-1">Woman</button></div></div><div class="pc-var"><span class="pc-var-l" id="v37-1">Said to</span><div class="pc-seg" role="radiogroup" aria-labelledby="v37-1"><button type="button" role="radio" data-v="m" aria-checked="true" tabindex="0">Man</button><button type="button" role="radio" data-v="f" aria-checked="false" tabindex="-1">Woman</button></div></div></div></article></div></div></section>
+
+<section class="sec"><h2 class="sh">Desktop grid · 3 columns</h2><p class="sd">Container max 1120px, 24px gaps, cards top-aligned. Two columns at 640–1023px, one below 640px. Resize the window to check.</p>
+<div class="page"><header class="pc-group"><h2>Greetings and introductions <span class="n">· 7 phrases</span></h2><p>Start a conversation, introduce yourself, or say goodbye.</p></header><div class="pc-grid"><article class="pc has-audio"><div class="pc-panel"><button class="pc-play" type="button" aria-label="Play pronunciation"><svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></svg><svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/></svg></button><div class="pc-progress" aria-hidden="true"><span></span></div><div class="pc-heb" aria-live="polite"><p class="pc-he" lang="he" dir="rtl">שָׁלוֹם</p><p class="pc-tr" lang="he-Latn"><span class="b" aria-hidden="true">[</span><span class="pc-tr-t">shalom</span><span class="b" aria-hidden="true">]</span></p></div></div><div class="pc-body"><h3 class="pc-en">Hello / goodbye</h3><p class="pc-note">A simple greeting when you meet someone. The same word is used when leaving.</p></div></article><article class="pc has-audio"><div class="pc-panel"><button class="pc-play" type="button" aria-label="Play pronunciation"><svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></svg><svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/></svg></button><div class="pc-progress" aria-hidden="true"><span></span></div><div class="pc-heb" aria-live="polite"><p class="pc-he" lang="he" dir="rtl">בֹּקֶר טוֹב</p><p class="pc-tr" lang="he-Latn"><span class="b" aria-hidden="true">[</span><span class="pc-tr-t">boker tov</span><span class="b" aria-hidden="true">]</span></p></div></div><div class="pc-body"><h3 class="pc-en">Good morning</h3><p class="pc-note">Greet someone in the morning, at a café or at work.</p></div></article><article class="pc has-audio"><div class="pc-panel"><button class="pc-play" type="button" aria-label="Play pronunciation"><svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></svg><svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/></svg></button><div class="pc-progress" aria-hidden="true"><span></span></div><div class="pc-heb" aria-live="polite"><p class="pc-he" lang="he" dir="rtl">עֶרֶב טוֹב</p><p class="pc-tr" lang="he-Latn"><span class="b" aria-hidden="true">[</span><span class="pc-tr-t">erev tov</span><span class="b" aria-hidden="true">]</span></p></div></div><div class="pc-body"><h3 class="pc-en">Good evening</h3><p class="pc-note">Use it as an evening greeting, not as a good-night farewell.</p></div></article><article class="pc has-audio" data-forms="{&quot;m&quot;: [&quot;מָה שְׁלוֹמְךָ?&quot;, &quot;ma shlomkha&quot;], &quot;f&quot;: [&quot;מָה שְׁלוֹמֵךְ?&quot;, &quot;ma shlomekh&quot;]}"><div class="pc-panel"><button class="pc-play" type="button" aria-label="Play pronunciation"><svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></svg><svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/></svg></button><div class="pc-progress" aria-hidden="true"><span></span></div><div class="pc-heb" aria-live="polite"><p class="pc-he" lang="he" dir="rtl">מָה שְׁלוֹמְךָ?</p><p class="pc-tr" lang="he-Latn"><span class="b" aria-hidden="true">[</span><span class="pc-tr-t">ma shlomkha</span><span class="b" aria-hidden="true">]</span></p></div></div><div class="pc-body"><h3 class="pc-en">How are you?</h3><p class="pc-note">A polite way to ask. The ending changes with the person you ask.</p></div><div class="pc-vars"><div class="pc-var"><span class="pc-var-l" id="v31-0">Said to</span><div class="pc-seg" role="radiogroup" aria-labelledby="v31-0"><button type="button" role="radio" data-v="m" aria-checked="true" tabindex="0">Man</button><button type="button" role="radio" data-v="f" aria-checked="false" tabindex="-1">Woman</button></div></div></div></article><article class="pc has-audio"><div class="pc-panel"><button class="pc-play" type="button" aria-label="Play pronunciation"><svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></svg><svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/></svg></button><div class="pc-progress" aria-hidden="true"><span></span></div><div class="pc-heb" aria-live="polite"><p class="pc-he" lang="he" dir="rtl">נָעִים מְאוֹד</p><p class="pc-tr" lang="he-Latn"><span class="b" aria-hidden="true">[</span><span class="pc-tr-t">naim meod</span><span class="b" aria-hidden="true">]</span></p></div></div><div class="pc-body"><h3 class="pc-en">Nice to meet you</h3><p class="pc-note">Say it when you meet someone for the first time. One form fits everyone.</p></div></article><article class="pc has-audio"><div class="pc-panel"><button class="pc-play" type="button" aria-label="Play pronunciation"><svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></svg><svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/></svg></button><div class="pc-progress" aria-hidden="true"><span></span></div><div class="pc-heb" aria-live="polite"><p class="pc-he" lang="he" dir="rtl">לְהִתְרָאוֹת</p><p class="pc-tr" lang="he-Latn"><span class="b" aria-hidden="true">[</span><span class="pc-tr-t">lehitra&#x27;ot</span><span class="b" aria-hidden="true">]</span></p></div></div><div class="pc-body"><h3 class="pc-en">Goodbye / see you</h3><p class="pc-note">Say it when leaving. It is a farewell, not a greeting.</p></div></article><article class="pc pc--long" data-forms="{&quot;mm&quot;: [&quot;אֲנִי שָׂמֵחַ לִרְאוֹת אוֹתְךָ&quot;, &quot;ani sameakh lirot otkha&quot;], &quot;mf&quot;: [&quot;אֲנִי שָׂמֵחַ לִרְאוֹת אוֹתָךְ&quot;, &quot;ani sameakh lirot otakh&quot;], &quot;fm&quot;: [&quot;אֲנִי שְׂמֵחָה לִרְאוֹת אוֹתְךָ&quot;, &quot;ani smekha lirot otkha&quot;], &quot;ff&quot;: [&quot;אֲנִי שְׂמֵחָה לִרְאוֹת אוֹתָךְ&quot;, &quot;ani smekha lirot otakh&quot;]}"><div class="pc-panel"><div class="pc-heb" aria-live="polite"><p class="pc-he" lang="he" dir="rtl">אֲנִי שָׂמֵחַ לִרְאוֹת אוֹתְךָ</p><p class="pc-tr" lang="he-Latn"><span class="b" aria-hidden="true">[</span><span class="pc-tr-t">ani sameakh lirot otkha</span><span class="b" aria-hidden="true">]</span></p></div></div><div class="pc-body"><h3 class="pc-en">I’m glad to see you</h3><p class="pc-note">Two words change: one follows the speaker, one follows the listener.</p></div><div class="pc-vars"><div class="pc-var"><span class="pc-var-l" id="v34-0">Said by</span><div class="pc-seg" role="radiogroup" aria-labelledby="v34-0"><button type="button" role="radio" data-v="m" aria-checked="true" tabindex="0">Man</button><button type="button" role="radio" data-v="f" aria-checked="false" tabindex="-1">Woman</button></div></div><div class="pc-var"><span class="pc-var-l" id="v34-1">Said to</span><div class="pc-seg" role="radiogroup" aria-labelledby="v34-1"><button type="button" role="radio" data-v="m" aria-checked="true" tabindex="0">Man</button><button type="button" role="radio" data-v="f" aria-checked="false" tabindex="-1">Woman</button></div></div></div></article></div></div></section>
+</div>
+<script>
+/* PhraseCard reference behaviour. Production: replace the simulated playback with one shared HTMLAudioElement
+   (audio.src = card's current form src; play(); progress = currentTime/duration; on 'ended' -> stop). */
+(function(){
+var current=null;
+document.querySelectorAll('.pc').forEach(function(card){
+  var forms=card.dataset.forms?JSON.parse(card.dataset.forms):null;
+  var he=card.querySelector('.pc-he'),tr=card.querySelector('.pc-tr-t'),play=card.querySelector('.pc-play');
+  var groups=[].slice.call(card.querySelectorAll('[role=radiogroup]')),raf=null,t0=0,DUR=1800;
+  function stop(){if(!play||card.dataset.static)return;cancelAnimationFrame(raf);card.classList.remove('is-playing');
+    play.setAttribute('aria-label','Play pronunciation');card.style.removeProperty('--pc-p');if(current===api)current=null;}
+  var api={stop:stop};
+  function tick(t){var p=Math.min(1,(t-t0)/DUR);card.style.setProperty('--pc-p',(p*100)+'%');if(p<1)raf=requestAnimationFrame(tick);else stop();}
+  if(play)play.addEventListener('click',function(){if(card.dataset.static)return;
+    if(card.classList.contains('is-playing')){stop();return;}
+    if(current)current.stop();current=api;
+    card.classList.add('is-playing');play.setAttribute('aria-label','Pause pronunciation');t0=performance.now();raf=requestAnimationFrame(tick);});
+  function update(){if(!forms)return;var key=groups.map(function(g){return g.querySelector('[aria-checked=true]').dataset.v}).join('');
+    var f=forms[key];if(f){he.textContent=f[0];tr.textContent=f[1];}stop();}
+  groups.forEach(function(g){var opts=[].slice.call(g.querySelectorAll('[role=radio]'));
+    function select(b,focus){opts.forEach(function(o){var on=o===b;o.setAttribute('aria-checked',on);o.tabIndex=on?0:-1;});if(focus)b.focus();update();}
+    g.addEventListener('click',function(e){var b=e.target.closest('[role=radio]');if(b)select(b);});
+    g.addEventListener('keydown',function(e){var i=opts.indexOf(document.activeElement),n=null,L=opts.length;if(i<0)return;
+      if(e.key==='ArrowRight'||e.key==='ArrowDown')n=(i+1)%L;else if(e.key==='ArrowLeft'||e.key==='ArrowUp')n=(i-1+L)%L;
+      else if(e.key==='Home')n=0;else if(e.key==='End')n=L-1;else if(e.key===' '||e.key==='Enter'){e.preventDefault();select(opts[i]);return;}
+      if(n!==null){e.preventDefault();select(opts[n],true);}});
+  });
+});
+})();
+</script>
+</body></html>

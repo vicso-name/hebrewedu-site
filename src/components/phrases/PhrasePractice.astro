@@ -1,6 +1,7 @@
 ---
 import { phraseExercises, phraseVariant } from '../../data/hebrew-phrases';
 import HebrewText from '../lessons/HebrewText.astro';
+import Transliteration from './Transliteration.astro';
 const keys = phraseExercises.map(({ id, correctOptionId, options, explanation }) => ({ id, correctOptionId, options: options.map(({ id }) => ({ id })), explanation }));
 const gradingJson = JSON.stringify(keys).replace(/</g, '\\u003c');
 ---
@@ -17,7 +18,7 @@ const gradingJson = JSON.stringify(keys).replace(/</g, '\\u003c');
             const variant = phraseVariant(option.phraseId, option.variantId);
             return <label class="phrase-answer-option" for={option.id}>
               <input type="radio" id={option.id} name={exercise.id} value={option.id} aria-describedby={`${exercise.id}-feedback`} />
-              <span><bdi class="phrases-hebrew" lang="he" dir="rtl"><HebrewText text={variant.hebrew} /></bdi><span class="phrase-option-transliteration" dir="ltr">{variant.transliteration}</span></span>
+              <span><bdi class="phrases-hebrew" lang="he" dir="rtl"><HebrewText text={variant.hebrew} /></bdi><span class="phrase-option-transliteration" lang="he-Latn" dir="ltr"><Transliteration text={variant.transliteration} /></span></span>
             </label>;
           })}
         </div>
