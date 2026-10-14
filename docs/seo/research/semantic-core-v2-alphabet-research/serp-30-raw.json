@@ -1,0 +1,859 @@
+{
+  "keyword": "learn hebrew alphabet",
+  "retrieved_at_utc": "2026-10-11T05:28:22.061Z",
+  "raw": {
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "3.2491 sec.",
+    "cost": 0.002,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "10110527-2762-0139-0000-916329984c2d",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "3.1030 sec.",
+        "cost": 0.002,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "serp",
+          "google",
+          "organic",
+          "live",
+          "advanced"
+        ],
+        "data": {
+          "api": "serp",
+          "function": "live",
+          "se": "google",
+          "se_type": "organic",
+          "keyword": "learn hebrew alphabet",
+          "location_code": 2840,
+          "language_code": "en",
+          "device": "mobile",
+          "os": "android",
+          "depth": 10
+        },
+        "result": [
+          {
+            "keyword": "learn hebrew alphabet",
+            "type": "organic",
+            "se_domain": "google.com",
+            "location_code": 2840,
+            "language_code": "en",
+            "check_url": "https://www.google.com/search?q=learn%20hebrew%20alphabet&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+            "datetime": "2026-10-11 05:27:59 +00:00",
+            "spell": null,
+            "refinement_chips": null,
+            "item_types": [
+              "ai_overview",
+              "video",
+              "images",
+              "people_also_ask",
+              "organic",
+              "people_also_search"
+            ],
+            "se_results_count": 0,
+            "pages_count": 1,
+            "items_count": 12,
+            "items": [
+              {
+                "type": "ai_overview",
+                "rank_group": 1,
+                "rank_absolute": 1,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]",
+                "asynchronous_ai_overview": false,
+                "markdown": "To learn the Hebrew alphabet (*Aleph-Bet*), master 22 consonant letters written from **right to left** , using resources like [My Jewish Learning](https://www.myjewishlearning.com/article/how-to-read-the-hebrew-alphabet/) and [Northwestern University](https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html).[[1]](https://www.myjewishlearning.com/article/how-to-read-the-hebrew-alphabet/)[[2]](https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html)\n\n### Core Basics to Know\n\n- **22 Letters:** The alphabet has 22 base consonants and no uppercase or lowercase letters.[[1]](https://www.youtube.com/watch?v=Ekc3lIVdHEU)[[2]](https://www.myjewishlearning.com/article/how-to-read-the-hebrew-alphabet/)\n- **Direction:** You read and write Hebrew from right to left.[[1]](https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html)[[2]](https://www.youtube.com/watch?v=Ekc3lIVdHEU)\n- **Two Main Styles:** \n\t- **Block script (*Dfoos*):** Used in printed books, newspapers, and digital text.\n\t- **Cursive script (*Ktav*):** Used for handwriting in daily life.[[1]](https://www.youtube.com/watch?v=hVcKV2QJ6dY)[[2]](https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html)\n- **Final Forms (*Sofit*):** Five letters change their shape when they appear at the very end of a word (*Kaf, Mem, Nun, Peh, Tzadeh*).[[1]](https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html)\n- **Vowels (*Nikud*):** Hebrew is written mostly without vowels. A system of dots and dashes called *nikkudot* is placed around letters to help beginners learn pronunciation.[[1]](https://www.myjewishlearning.com/article/how-to-read-the-hebrew-alphabet/)[[2]](https://www.youtube.com/watch?v=axIbfwEe1t8&t=11)\n\n\n\n---\n\n### Step-by-Step Learning Plan\n\n1. **Learn a Few Letters at a Time** \n\t- Do not try to memorize all 22 letters in one day.\n\t- Study 3 to 4 letters per week, learning their name, sound, and shape.\n\t- Pay attention to letters that look similar or share sounds (such as silent *Aleph* and *Ayin* , or dual-sound letters modified by a dot or *dagesh*).[[1]](https://zondervanacademic.com/blog/introduction-hebrew-alphabet)[[2]](https://www.hebrewpod101.com/hebrew-alphabet/)[[3]](https://www.youtube.com/watch?v=Ekc3lIVdHEU)[[4]](https://www.myjewishlearning.com/article/how-to-read-the-hebrew-alphabet/)\n2. **Practice Hand-Writing** \n\t- Write out each new character by hand repeatedly (about 20 times per letter) to build muscle memory.\n\t- Always start drawing Hebrew letters from the top down.\n\t- Free printable worksheets and tracking guides are available through platforms like [HebrewPod101](https://www.hebrewpod101.com/hebrew-alphabet/).[[1]](https://www.hebrewpod101.com/hebrew-alphabet/)[[2]](https://www.youtube.com/watch?v=1D9sN0ENRp4)[[3]](https://www.youtube.com/watch?v=_UU6Fe7lqIo&t=1176)\n3. **Incorporate Vowels (*Nikud*)** \n\t- Practice reading simple syllables by combining consonants with vowel dots.\n\t- Transition quickly to reading basic children's books or prayer/bible texts that include vowel markings.[[1]](https://www.reddit.com/r/hebrew/comments/182ttgu/how_do_you_memorize_the_hebrew_alphabet/)[[2]](https://www.youtube.com/watch?v=BubU0qL9y8o)[[3]](https://www.myjewishlearning.com/article/how-to-read-the-hebrew-alphabet/)[[4]](https://zondervanacademic.com/blog/introduction-hebrew-alphabet)\n4. **Use Multi-Sensory Tools** \n\t- Listen to traditional Hebrew alphabet songs to lock in the letter sequence (*Aleph, Bet, Gimel...*).\n\t- Try mobile apps built for character recognition and writing (such as *Write It! Hebrew* or *Hebrew Touch and Write*).\n\t- Use structured beginner classes or workbooks from local synagogues, Jewish Community Centers (JCCs), or online programs.[[1]](https://www.hebrewpod101.com/hebrew-alphabet/)[[2]](https://www.reddit.com/r/hebrew/comments/182ttgu/how_do_you_memorize_the_hebrew_alphabet/)[[3]](https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html)\n\nIf you'd like, let me know:\n\n- Are you learning for **conversational Hebrew** or **Biblical/Liturgical study**?\n- Would you like me to list the **first few letters** with their sounds and pronunciations to get you started?",
+                "items": [
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "To learn the Hebrew alphabet (Aleph-Bet), master 22 consonant letters written from right to left, using resources like My Jewish Learning and Northwestern University.",
+                    "markdown": "To learn the Hebrew alphabet (*Aleph-Bet*), master 22 consonant letters written from **right to left** , using resources like [My Jewish Learning](https://www.myjewishlearning.com/article/how-to-read-the-hebrew-alphabet/) and [Northwestern University](https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html).[[1]](https://www.myjewishlearning.com/article/how-to-read-the-hebrew-alphabet/)[[2]](https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html)",
+                    "links": [
+                      {
+                        "type": "link_element",
+                        "title": "My Jewish Learning",
+                        "description": null,
+                        "url": "https://www.myjewishlearning.com/article/how-to-read-the-hebrew-alphabet/",
+                        "domain": "www.myjewishlearning.com"
+                      },
+                      {
+                        "type": "link_element",
+                        "title": "Northwestern University",
+                        "description": null,
+                        "url": "https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html",
+                        "domain": "mena-languages.northwestern.edu"
+                      }
+                    ],
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "My Jewish Learning",
+                        "domain": "www.myjewishlearning.com",
+                        "url": "https://www.myjewishlearning.com/article/how-to-read-the-hebrew-alphabet/",
+                        "title": "How To Read the Hebrew Alphabet | My Jewish Learning",
+                        "text": "Overview: The Hebrew alphabet (Aleph Bet) contains 22 consonant-only letters (numerical values 1 to 400), lacking uppercase/lowercase, and is used for Hebrew an..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Northwestern University",
+                        "domain": "mena-languages.northwestern.edu",
+                        "url": "https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html",
+                        "title": "The Hebrew Alphabet: Middle East and North African Languages Program - Northwestern University",
+                        "text": "Alphabet: Right-to-left writing; 22 consonant letters (*alef-bet*, ranging from *Alef* to *Tav*); final-form variants for *Kaf*, *Mem*, *Nun*, *Peh*, *Tzadeh*; ..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Core Basics to Know",
+                    "markdown": "### Core Basics to Know",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "22 Letters: The alphabet has 22 base consonants and no uppercase or lowercase letters. Direction: You read and write Hebrew from right to left. Two Main Styles:Block script (Dfoos): Used in printed books, newspapers, and digital text.\nCursive script (Ktav): Used for handwriting in daily life. Block script (Dfoos): Used in printed books, newspapers, and digital text. Cursive script (Ktav): Used for handwriting in daily life. Final Forms (Sofit): Five letters change their shape when they appear at the very end of a word (Kaf, Mem, Nun, Peh, Tzadeh). Vowels (Nikud): Hebrew is written mostly without vowels. A system of dots and dashes called nikkudot is placed around letters to help beginners learn pronunciation.",
+                    "markdown": "- **22 Letters:** The alphabet has 22 base consonants and no uppercase or lowercase letters.[[1]](https://www.youtube.com/watch?v=Ekc3lIVdHEU)[[2]](https://www.myjewishlearning.com/article/how-to-read-the-hebrew-alphabet/)\n- **Direction:** You read and write Hebrew from right to left.[[1]](https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html)[[2]](https://www.youtube.com/watch?v=Ekc3lIVdHEU)\n- **Two Main Styles:** \n\t- **Block script (*Dfoos*):** Used in printed books, newspapers, and digital text.\n\t- **Cursive script (*Ktav*):** Used for handwriting in daily life.[[1]](https://www.youtube.com/watch?v=hVcKV2QJ6dY)[[2]](https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html)\n- **Final Forms (*Sofit*):** Five letters change their shape when they appear at the very end of a word (*Kaf, Mem, Nun, Peh, Tzadeh*).[[1]](https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html)\n- **Vowels (*Nikud*):** Hebrew is written mostly without vowels. A system of dots and dashes called *nikkudot* is placed around letters to help beginners learn pronunciation.[[1]](https://www.myjewishlearning.com/article/how-to-read-the-hebrew-alphabet/)[[2]](https://www.youtube.com/watch?v=axIbfwEe1t8&t=11)",
+                    "links": null,
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=Ekc3lIVdHEU",
+                        "title": "The Hebrew Alphabet | Crash Course in Hebrew Reading & Pronunciation",
+                        "text": "Lesson 1: The Hebrew Alphabet | Crash Course in Hebrew Reading & Pronunciation shalom this is Ayellet with the word in Hebrew. in this lesson. we will learn the..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "My Jewish Learning",
+                        "domain": "www.myjewishlearning.com",
+                        "url": "https://www.myjewishlearning.com/article/how-to-read-the-hebrew-alphabet/",
+                        "title": "How To Read the Hebrew Alphabet | My Jewish Learning",
+                        "text": "Overview: The Hebrew alphabet (Aleph Bet) contains 22 consonant-only letters (numerical values 1 to 400), lacking uppercase/lowercase, and is used for Hebrew an..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Northwestern University",
+                        "domain": "mena-languages.northwestern.edu",
+                        "url": "https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html",
+                        "title": "The Hebrew Alphabet: Middle East and North African Languages Program - Northwestern University",
+                        "text": "Alphabet: Right-to-left writing; 22 consonant letters (*alef-bet*, ranging from *Alef* to *Tav*); final-form variants for *Kaf*, *Mem*, *Nun*, *Peh*, *Tzadeh*; ..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=hVcKV2QJ6dY",
+                        "title": "Learn All Hebrew Alphabet in 20 Minutes - Read and Write Hebrew",
+                        "text": "in this video we are going to master the Hebrew alphabet. i will give you the four essentials that you need to know about the Hebrew letters. my best tips. for ..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=axIbfwEe1t8&t=11",
+                        "title": "One Morning to Learn How to Write and Read Hebrew",
+                        "text": "One Morning to Learn How to Write and Read Hebrew today click the link in the description below to download your free Hebrew ebook before it's. gone. hi welcome..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Step-by-Step Learning Plan",
+                    "markdown": "### Step-by-Step Learning Plan",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Learn a Few Letters at a Time Do not try to memorize all 22 letters in one day. Study 3 to 4 letters per week, learning their name, sound, and shape. Pay attention to letters that look similar or share sounds (such as silent Aleph and Ayin, or dual-sound letters modified by a dot or dagesh). Practice Hand-Writing Write out each new character by hand repeatedly (about 20 times per letter) to build muscle memory. Always start drawing Hebrew letters from the top down. Free printable worksheets and tracking guides are available through platforms like HebrewPod101. Incorporate Vowels (Nikud) Practice reading simple syllables by combining consonants with vowel dots. Transition quickly to reading basic children's books or prayer/bible texts that include vowel markings. Use Multi-Sensory Tools Listen to traditional Hebrew alphabet songs to lock in the letter sequence (Aleph, Bet, Gimel...). Try mobile apps built for character recognition and writing (such as Write It! Hebrew or Hebrew Touch and Write). Use structured beginner classes or workbooks from local synagogues, Jewish Community Centers (JCCs), or online programs.",
+                    "markdown": "1. **Learn a Few Letters at a Time** \n\t- Do not try to memorize all 22 letters in one day.\n\t- Study 3 to 4 letters per week, learning their name, sound, and shape.\n\t- Pay attention to letters that look similar or share sounds (such as silent *Aleph* and *Ayin* , or dual-sound letters modified by a dot or *dagesh*).[[1]](https://zondervanacademic.com/blog/introduction-hebrew-alphabet)[[2]](https://www.hebrewpod101.com/hebrew-alphabet/)[[3]](https://www.youtube.com/watch?v=Ekc3lIVdHEU)[[4]](https://www.myjewishlearning.com/article/how-to-read-the-hebrew-alphabet/)\n2. **Practice Hand-Writing** \n\t- Write out each new character by hand repeatedly (about 20 times per letter) to build muscle memory.\n\t- Always start drawing Hebrew letters from the top down.\n\t- Free printable worksheets and tracking guides are available through platforms like [HebrewPod101](https://www.hebrewpod101.com/hebrew-alphabet/).[[1]](https://www.hebrewpod101.com/hebrew-alphabet/)[[2]](https://www.youtube.com/watch?v=1D9sN0ENRp4)[[3]](https://www.youtube.com/watch?v=_UU6Fe7lqIo&t=1176)\n3. **Incorporate Vowels (*Nikud*)** \n\t- Practice reading simple syllables by combining consonants with vowel dots.\n\t- Transition quickly to reading basic children's books or prayer/bible texts that include vowel markings.[[1]](https://www.reddit.com/r/hebrew/comments/182ttgu/how_do_you_memorize_the_hebrew_alphabet/)[[2]](https://www.youtube.com/watch?v=BubU0qL9y8o)[[3]](https://www.myjewishlearning.com/article/how-to-read-the-hebrew-alphabet/)[[4]](https://zondervanacademic.com/blog/introduction-hebrew-alphabet)\n4. **Use Multi-Sensory Tools** \n\t- Listen to traditional Hebrew alphabet songs to lock in the letter sequence (*Aleph, Bet, Gimel...*).\n\t- Try mobile apps built for character recognition and writing (such as *Write It! Hebrew* or *Hebrew Touch and Write*).\n\t- Use structured beginner classes or workbooks from local synagogues, Jewish Community Centers (JCCs), or online programs.[[1]](https://www.hebrewpod101.com/hebrew-alphabet/)[[2]](https://www.reddit.com/r/hebrew/comments/182ttgu/how_do_you_memorize_the_hebrew_alphabet/)[[3]](https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html)",
+                    "links": [
+                      {
+                        "type": "link_element",
+                        "title": "HebrewPod101",
+                        "description": null,
+                        "url": "https://www.hebrewpod101.com/hebrew-alphabet/",
+                        "domain": "www.hebrewpod101.com"
+                      }
+                    ],
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Zondervan Academic",
+                        "domain": "zondervanacademic.com",
+                        "url": "https://zondervanacademic.com/blog/introduction-hebrew-alphabet",
+                        "title": "An Introduction to the Hebrew Alphabet | Zondervan Academic",
+                        "text": "Learn to read the Bible in Hebrew Sign up for the Basics of Biblical Hebrew online course * An introduction to the Hebrew alphabet As mentioned above, the Hebre..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "HebrewPod101",
+                        "domain": "www.hebrewpod101.com",
+                        "url": "https://www.hebrewpod101.com/hebrew-alphabet/",
+                        "title": "Learn the Hebrew Alphabet with the Free eBook - HebrewPod101",
+                        "text": "Alphabet Characteristics: 22 consonants; written right to left; no uppercase/lowercase distinction; functions as an abjad with 5 end-word letter forms. History ..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=Ekc3lIVdHEU",
+                        "title": "The Hebrew Alphabet | Crash Course in Hebrew Reading & Pronunciation",
+                        "text": "Lesson 1: The Hebrew Alphabet | Crash Course in Hebrew Reading & Pronunciation shalom this is Ayellet with the word in Hebrew. in this lesson. we will learn the..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "My Jewish Learning",
+                        "domain": "www.myjewishlearning.com",
+                        "url": "https://www.myjewishlearning.com/article/how-to-read-the-hebrew-alphabet/",
+                        "title": "How To Read the Hebrew Alphabet | My Jewish Learning",
+                        "text": "Overview: The Hebrew alphabet (Aleph Bet) contains 22 consonant-only letters (numerical values 1 to 400), lacking uppercase/lowercase, and is used for Hebrew an..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=1D9sN0ENRp4",
+                        "title": "Learn the Hebrew Alphabet in 1 Hour or Less! (free printable worksheets)",
+                        "text": "if you're new to the language and haven't learned the alphabet. yet there's one best way to help you master it in an hour or less and it's not an app or some vi..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=_UU6Fe7lqIo&t=1176",
+                        "title": "Learn ALL Hebrew Alphabet in 40 Minutes - How to Write and Read ...",
+                        "text": "so let's move on with the seventh letter Z the sound is Z let's write it in handwriting. first. does it look familiar you might be reminded of the third letter ..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Reddit",
+                        "domain": "www.reddit.com",
+                        "url": "https://www.reddit.com/r/hebrew/comments/182ttgu/how_do_you_memorize_the_hebrew_alphabet/",
+                        "title": "How do you memorize the Hebrew Alphabet - Reddit",
+                        "text": "Alternative Memorization Techniques: Besides songs, effective methods for memorizing the Hebrew alphabet include consistent practice and exposure, utilizing wor..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=BubU0qL9y8o",
+                        "title": "Learn to write and read Hebrew in only 6 lessons!",
+                        "text": "Hebrew Alphabet - Lesson 1 - Learn to write and read Hebrew in only 6 lessons! - YouTube This content isn't available. In this lesson you will learn 3 letters: ..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Northwestern University",
+                        "domain": "mena-languages.northwestern.edu",
+                        "url": "https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html",
+                        "title": "The Hebrew Alphabet: Middle East and North African Languages Program - Northwestern University",
+                        "text": "Alphabet: Right-to-left writing; 22 consonant letters (*alef-bet*, ranging from *Alef* to *Tav*); final-form variants for *Kaf*, *Mem*, *Nun*, *Peh*, *Tzadeh*; ..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "If you'd like, let me know:Are you learning for conversational Hebrew or Biblical/Liturgical study ?\nWould you like me to list the first few letters with their sounds and pronunciations to get you started?",
+                    "markdown": "If you'd like, let me know:\n\n- Are you learning for **conversational Hebrew** or **Biblical/Liturgical study**?\n- Would you like me to list the **first few letters** with their sounds and pronunciations to get you started?",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  }
+                ],
+                "references": [
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/watch?v=hVcKV2QJ6dY",
+                    "title": "Learn All Hebrew Alphabet in 20 Minutes - Read and Write Hebrew",
+                    "text": "in this video we are going to master the Hebrew alphabet. i will give you the four essentials that you need to know about the Hebrew letters. my best tips. for ..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/watch?v=Ekc3lIVdHEU",
+                    "title": "The Hebrew Alphabet | Crash Course in Hebrew Reading & Pronunciation",
+                    "text": "Lesson 1: The Hebrew Alphabet | Crash Course in Hebrew Reading & Pronunciation shalom this is Ayellet with the word in Hebrew. in this lesson. we will learn the..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Reddit",
+                    "domain": "www.reddit.com",
+                    "url": "https://www.reddit.com/r/hebrew/comments/182ttgu/how_do_you_memorize_the_hebrew_alphabet/",
+                    "title": "How do you memorize the Hebrew Alphabet - Reddit",
+                    "text": "Alternative Memorization Techniques: Besides songs, effective methods for memorizing the Hebrew alphabet include consistent practice and exposure, utilizing wor..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "My Jewish Learning",
+                    "domain": "www.myjewishlearning.com",
+                    "url": "https://www.myjewishlearning.com/article/how-to-read-the-hebrew-alphabet/",
+                    "title": "How To Read the Hebrew Alphabet | My Jewish Learning",
+                    "text": "Overview: The Hebrew alphabet (Aleph Bet) contains 22 consonant-only letters (numerical values 1 to 400), lacking uppercase/lowercase, and is used for Hebrew an..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/watch?v=_UU6Fe7lqIo&t=1176",
+                    "title": "Learn ALL Hebrew Alphabet in 40 Minutes - How to Write and Read ...",
+                    "text": "so let's move on with the seventh letter Z the sound is Z let's write it in handwriting. first. does it look familiar you might be reminded of the third letter ..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Northwestern University",
+                    "domain": "mena-languages.northwestern.edu",
+                    "url": "https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html",
+                    "title": "The Hebrew Alphabet: Middle East and North African Languages Program - Northwestern University",
+                    "text": "Alphabet: Right-to-left writing; 22 consonant letters (*alef-bet*, ranging from *Alef* to *Tav*); final-form variants for *Kaf*, *Mem*, *Nun*, *Peh*, *Tzadeh*; ..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/watch?v=1D9sN0ENRp4",
+                    "title": "Learn the Hebrew Alphabet in 1 Hour or Less! (free printable worksheets)",
+                    "text": "if you're new to the language and haven't learned the alphabet. yet there's one best way to help you master it in an hour or less and it's not an app or some vi..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/watch?v=BubU0qL9y8o",
+                    "title": "Learn to write and read Hebrew in only 6 lessons!",
+                    "text": "Hebrew Alphabet - Lesson 1 - Learn to write and read Hebrew in only 6 lessons! - YouTube This content isn't available. In this lesson you will learn 3 letters: ..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Zondervan Academic",
+                    "domain": "zondervanacademic.com",
+                    "url": "https://zondervanacademic.com/blog/introduction-hebrew-alphabet",
+                    "title": "An Introduction to the Hebrew Alphabet | Zondervan Academic",
+                    "text": "Learn to read the Bible in Hebrew Sign up for the Basics of Biblical Hebrew online course * An introduction to the Hebrew alphabet As mentioned above, the Hebre..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "HebrewPod101",
+                    "domain": "www.hebrewpod101.com",
+                    "url": "https://www.hebrewpod101.com/hebrew-alphabet/",
+                    "title": "Learn the Hebrew Alphabet with the Free eBook - HebrewPod101",
+                    "text": "Alphabet Characteristics: 22 consonants; written right to left; no uppercase/lowercase distinction; functions as an abjad with 5 end-word letter forms. History ..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/watch?v=axIbfwEe1t8&t=11",
+                    "title": "One Morning to Learn How to Write and Read Hebrew",
+                    "text": "One Morning to Learn How to Write and Read Hebrew today click the link in the description below to download your free Hebrew ebook before it's. gone. hi welcome..."
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "video",
+                "rank_group": 1,
+                "rank_absolute": 2,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[4]",
+                "items": [
+                  {
+                    "type": "video_element",
+                    "source": "The WORD in HEBREW",
+                    "title": "The Hebrew Alphabet | Crash Course in Hebrew Reading & Pronunciation",
+                    "timestamp": "2023-02-23 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=Ekc3lIVdHEU"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Learn Hebrew with HebrewPod101.com",
+                    "title": "Learn ALL Hebrew Alphabet in 40 Minutes - How to Write and Read ...",
+                    "timestamp": "2018-01-23 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=_UU6Fe7lqIo"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Hebrew by Inbal",
+                    "title": "Learn All Hebrew Alphabet in 20 Minutes - Read and Write Hebrew",
+                    "timestamp": "2022-08-07 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=hVcKV2QJ6dY"
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "images",
+                "rank_group": 1,
+                "rank_absolute": 3,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]",
+                "title": "Images",
+                "url": null,
+                "items": [
+                  {
+                    "type": "images_element",
+                    "alt": "Hebrew Alphabet - Judaism 101 (JewFAQ)",
+                    "url": "https://www.jewfaq.org/hebrew_alphabet",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110527-2762-0139-0000-916329984c2d:0"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "The Hebrew Alphabet - Chabad.org",
+                    "url": "https://www.chabad.org/library/article_cdo/aid/4069287/jewish/The-Hebrew-Alphabet.htm",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110527-2762-0139-0000-916329984c2d:1"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "hebrew alphabet pronunciation - learn hebrew",
+                    "url": "https://www.youtube.com/watch?v=XMJZf2Szlao",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110527-2762-0139-0000-916329984c2d:2"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "How To Learn The Hebrew Alphabet in Under 1 Hour",
+                    "url": "https://www.linguajunkie.com/hebrew/learn-modern-hebrew-alphabet",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110527-2762-0139-0000-916329984c2d:3"
+                  }
+                ],
+                "related_image_searches": null,
+                "rectangle": null
+              },
+              {
+                "type": "people_also_ask",
+                "rank_group": 1,
+                "rank_absolute": 4,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[8]/div[1]",
+                "items": [
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "How easy is it to learn the Hebrew alphabet?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[8]/div[1]/div[2]/div[2]/div[1]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "How do Jews say \"I love you\"?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[8]/div[1]/div[2]/div[2]/div[2]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "How do Hebrews say \"hi\"?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[8]/div[1]/div[2]/div[2]/div[3]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "Which is harder, Greek or Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[8]/div[1]/div[2]/div[2]/div[4]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 1,
+                "rank_absolute": 5,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.myjewishlearning.com",
+                "title": "How To Read the Hebrew Alphabet",
+                "url": "https://www.myjewishlearning.com/article/how-to-read-the-hebrew-alphabet/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.myjewishlearning.com",
+                "website_name": "My Jewish Learning",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Known as the Aleph Bet, the Hebrew alphabet contains 22 letters. In Hebrew, the letters are all consonants and the language is comprehensible when written ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "the Hebrew alphabet contains 22 letters"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": [
+                  "hebrew alphabet",
+                  "learn hebrew",
+                  "hebrew alphabet",
+                  "learn hebrew",
+                  "learn hebrew",
+                  "learn hebrew",
+                  "hebrew alphabet",
+                  "hebrew alphabet"
+                ],
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 2,
+                "rank_absolute": 6,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[12]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "mena-languages.northwestern.edu",
+                "title": "The Hebrew Alphabet",
+                "url": "https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://mena-languages.northwestern.edu",
+                "website_name": "Northwestern University",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "There are plenty of videos and apps to help you learn the Hebrew alphabet. They are good options since they frequently combine both audio and written learning ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "There are plenty of videos and apps to help you learn the Hebrew alphabet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": [
+                  "hebrew alphabet",
+                  "learn hebrew",
+                  "hebrew alphabet",
+                  "learn hebrew",
+                  "learn hebrew",
+                  "learn hebrew",
+                  "hebrew alphabet",
+                  "hebrew alphabet"
+                ],
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 3,
+                "rank_absolute": 7,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.hebrewpod101.com",
+                "title": "Learn the Hebrew Alphabet with the Free eBook",
+                "url": "https://www.hebrewpod101.com/hebrew-alphabet/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.hebrewpod101.com",
+                "website_name": "HebrewPod101",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Learn the Hebrew Alphabet from A to Z ! The Hebrew alphabet consists of twenty-two characters, all of which were originally consonants.",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Learn the Hebrew Alphabet from A to Z"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 4,
+                "rank_absolute": 8,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[15]/div[1]/div[1]",
+                "domain": "www.youtube.com",
+                "title": "Learn Hebrew Alphabet #1 - א (alef)",
+                "url": "https://www.youtube.com/shorts/7uOHf3sIv3Y",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "9.7K+ views",
+                "website_name": "YouTube · Learn Hebrew with HebrewPod101.com",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "Written Hebrew is not complicated to learn. With this series, you'll learn all about how to write the Hebrew alphabet. You'll be writing in ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2026-03-11 05:27:58 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 5,
+                "rank_absolute": 9,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[17]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.youtube.com",
+                "title": "Hebrew Alphabet - Learn to write and read Hebrew in only 6 Lessons!",
+                "url": "https://www.youtube.com/playlist?list=PLtp44KdGs0bUDCbBkt2A5JMwyxlBvQ_oq",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "27.6K+ followers",
+                "website_name": "YouTube · Learn Hebrew with Daniel",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Hebrew Alphabet - Learn to write and read Hebrew in only 6 Lessons ! Learn Hebrew with Daniel Course•40 hour Learn all you need to know to write in Hebrew in ...",
+                "pre_snippet": "Hebrew Alphabet - Learn to write and read Hebrew in only 6 Lessons! Learn Hebrew with Daniel Course•40 hour Learn all you need to know to write in Hebrew in ...",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Learn to write and read Hebrew in only 6 Lessons"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 6,
+                "rank_absolute": 10,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.teachmehebrew.com",
+                "title": "Step 0: Hebrew Alphabet",
+                "url": "https://www.teachmehebrew.com/step-0-hebrew-alphabet.html",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.teachmehebrew.com",
+                "website_name": "Teach Me Hebrew",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Transliteration of letter, Transliteration of name, Hebrew. -vowel-, a-lef, א. b, bet, ב. v. g, gi-mel, ג. d, da-let, ד. h (often silent), he, ה. v, vav, ו.",
+                "pre_snippet": "Transliteration of letter, Transliteration of name, Hebrew. -vowel-, a-lef, א. b, bet, ב. v. g, gi-mel, ג. d, da-let, ד. h (often silent), he, ה. v, vav, ו.",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Transliteration of letter, Transliteration of name, Hebrew"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 7,
+                "rank_absolute": 11,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[21]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "zondervanacademic.com",
+                "title": "An Introduction to the Hebrew Alphabet",
+                "url": "https://zondervanacademic.com/blog/introduction-hebrew-alphabet",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://zondervanacademic.com",
+                "website_name": "Zondervan Academic",
+                "is_image": true,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_image"
+                ],
+                "description": "Jan 1, 2018 — Hebrew alphabet consists of twenty-three consonants or letters, and it's written from right to left.",
+                "pre_snippet": "01/01/2018 00:00:00",
+                "extended_snippet": null,
+                "images": [
+                  {
+                    "type": "images_element",
+                    "alt": "learn hebrew alphabet from zondervanacademic.com",
+                    "url": "https://zondervanacademic.com/blog/introduction-hebrew-alphabet",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1B452GiUjgP2uwf63qrUCRWyx0kfO3OkdRTd0zxEY1OKMGUrKr2eg8Q8&usqp=CAE&s"
+                  }
+                ],
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2018-01-01 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "people_also_search",
+                "rank_group": 1,
+                "rank_absolute": 12,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[23]",
+                "title": "People also search for",
+                "items": [
+                  "Learn hebrew alphabet pdf",
+                  "Learn hebrew alphabet for free",
+                  "Learn hebrew alphabet for beginners",
+                  "Hebrew alphabet a to z",
+                  "Hebrew alphabet to English",
+                  "Learn Hebrew alphabet app"
+                ],
+                "rectangle": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

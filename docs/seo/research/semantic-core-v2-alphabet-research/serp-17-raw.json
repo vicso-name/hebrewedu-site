@@ -1,0 +1,816 @@
+{
+  "keyword": "pe hebrew letter",
+  "retrieved_at_utc": "2026-10-11T05:26:24.165Z",
+  "raw": {
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "3.5175 sec.",
+    "cost": 0.002,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "10110525-2762-0139-0000-be37e01a643c",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "3.4574 sec.",
+        "cost": 0.002,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "serp",
+          "google",
+          "organic",
+          "live",
+          "advanced"
+        ],
+        "data": {
+          "api": "serp",
+          "function": "live",
+          "se": "google",
+          "se_type": "organic",
+          "keyword": "pe hebrew letter",
+          "location_code": 2840,
+          "language_code": "en",
+          "device": "mobile",
+          "os": "android",
+          "depth": 10
+        },
+        "result": [
+          {
+            "keyword": "pe hebrew letter",
+            "type": "organic",
+            "se_domain": "google.com",
+            "location_code": 2840,
+            "language_code": "en",
+            "check_url": "https://www.google.com/search?q=pe%20hebrew%20letter&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+            "datetime": "2026-10-11 05:25:37 +00:00",
+            "spell": null,
+            "refinement_chips": null,
+            "item_types": [
+              "ai_overview",
+              "organic",
+              "people_also_ask",
+              "video",
+              "images",
+              "people_also_search"
+            ],
+            "se_results_count": 0,
+            "pages_count": 1,
+            "items_count": 12,
+            "items": [
+              {
+                "type": "ai_overview",
+                "rank_group": 1,
+                "rank_absolute": 1,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]",
+                "asynchronous_ai_overview": false,
+                "markdown": "The Hebrew letter Pe (also spelled Peh, Pei, or Pey, Hebrew: **פ** ) is the 17th letter of the Hebrew alphabet and has a numerical value (Gematria) of **80** . You can explore more about its background on [Wikipedia's Pe (Semitic letter) page](https://en.wikipedia.org/wiki/Pe_(Semitic_letter)) or read deep insights via [Chabad's Peh-Feh Guide](https://www.chabad.org/library/article_cdo/aid/137089/jewish/Peh-Feh.htm).[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Pey/pey.html)[[2]](https://www.youtube.com/watch?v=KDDr4JBbZqw&t=127)[[3]](https://www.jewishencyclopedia.com/articles/11963-pe)[[4]](https://www.chabad.org/library/article_cdo/aid/137089/jewish/Peh-Feh.htm)[[5]](https://en.wikipedia.org/wiki/Pe_(Semitic_letter))\n\n### Core Meaning and Symbolism\n\n- **Mouth and Speech:** The name *Pe* literally means **\"mouth\"** in Hebrew (*peh* ). It symbolizes communication, the spoken word, and expression.\n- **Placement after Ayin:** It follows *Ayin* (which means \"eye\"), signifying that speech should naturally follow what one sees and understands.\n- **Power of Words:** Tradition views the mouth as a vessel of immense spiritual power capable of creating, blessing, or causing harm.[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Pey/pey.html)[[2]](https://www.chabad.org/library/article_cdo/aid/137089/jewish/Peh-Feh.htm)[[3]](https://biblehub.com/topical/p/pe.htm)[[4]](https://www.facebook.com/thejerusalemscribe/posts/the-holy-letter-pei-%D7%A4the-mouth-of-the-universein-hebrew-the-word-peh-%D7%A4%D7%94-means-mo/1402585885207974/)[[5]](https://dinahoverlien.com/2020/07/29/pe/)[[6]](https://gabrielelevy.com/pages/the-letter-pe)\n\n### Forms and Pronunciation\n\n- **Two Sounds:** \n\t- With a center dot (called a *dagesh* ), it makes a hard **\"P\"** sound (as in \"pay\").\n\t- Without the dot, it makes a soft **\"F\"** sound (as in \"fun\").[[1]](https://www.youtube.com/watch?v=7wChdHBw9_s&t=32)[[2]](https://www.youtube.com/watch?v=KDDr4JBbZqw&t=127)[[3]](https://dinahoverlien.com/2020/07/29/pe/)\n- **Standard and Final Forms:** \n\t- **פ** is used at the beginning or in the middle of a word.\n\t- **ף** (*Sofit* / Final Pe) is used exclusively at the very end of a word and features a descending tail.[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Pey/pey.html)[[2]](https://www.jewishencyclopedia.com/articles/11963-pe)[[3]](https://www.youtube.com/watch?v=7wChdHBw9_s&t=32)\n\nIf you'd like, I can:\n\n- Provide **Hebrew vocabulary words** that start with Pe\n- Explain how Pe is used in **Gematria calculations** \n- Show how it appears in **Psalm 119** \n\nLet me know what you want to focus on next!",
+                "items": [
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "The Hebrew letter Pe (also spelled Peh, Pei, or Pey, Hebrew: פ ) is the 17th letter of the Hebrew alphabet and has a numerical value (Gematria) of 80. You can explore more about its background on Wikipedia's Pe (Semitic letter) page or read deep insights via Chabad's Peh-Feh Guide.",
+                    "markdown": "The Hebrew letter Pe (also spelled Peh, Pei, or Pey, Hebrew: **פ** ) is the 17th letter of the Hebrew alphabet and has a numerical value (Gematria) of **80** . You can explore more about its background on [Wikipedia's Pe (Semitic letter) page](https://en.wikipedia.org/wiki/Pe_(Semitic_letter)) or read deep insights via [Chabad's Peh-Feh Guide](https://www.chabad.org/library/article_cdo/aid/137089/jewish/Peh-Feh.htm).[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Pey/pey.html)[[2]](https://www.youtube.com/watch?v=KDDr4JBbZqw&t=127)[[3]](https://www.jewishencyclopedia.com/articles/11963-pe)[[4]](https://www.chabad.org/library/article_cdo/aid/137089/jewish/Peh-Feh.htm)[[5]](https://en.wikipedia.org/wiki/Pe_(Semitic_letter))",
+                    "links": [
+                      {
+                        "type": "link_element",
+                        "title": "Wikipedia's Pe (Semitic letter) page",
+                        "description": null,
+                        "url": "https://en.wikipedia.org/wiki/Pe_(Semitic_letter)",
+                        "domain": "en.wikipedia.org"
+                      },
+                      {
+                        "type": "link_element",
+                        "title": "Chabad's Peh-Feh Guide",
+                        "description": null,
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137089/jewish/Peh-Feh.htm",
+                        "domain": "www.chabad.org"
+                      }
+                    ],
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew for Christians",
+                        "domain": "www.hebrew4christians.com",
+                        "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Pey/pey.html",
+                        "title": "The Letter Pey / Fey",
+                        "text": "Letter Pey/Fey: 17th Hebrew alphabet letter, value 80, sounds \"p\" (with dagesh) or \"ph/f\" (without). Forms: Block/script medial and sofit (descending tail/ascen..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=KDDr4JBbZqw&t=127",
+                        "title": "The Hebrew letter: Pey",
+                        "text": "The Hebrew letter: Pey so when you're learning Hebrew letters. you're learning every one of them are a sign that points to the Messiah. wow what a whole another..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "JewishEncyclopedia.com",
+                        "domain": "www.jewishencyclopedia.com",
+                        "url": "https://www.jewishencyclopedia.com/articles/11963-pe",
+                        "title": "PE",
+                        "text": "By: Crawford Howell Toy, Isaac Broydé Seventeenth letter of the Hebrew alphabet. Its name appears to be connected with \"peh\" = \"mouth\" (see Alphabet). \"Pe\" has ..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137089/jewish/Peh-Feh.htm",
+                        "title": "Peh (Feh) - The seventeenth letter of the Hebrew alphabet - Chabad.org",
+                        "text": "Letter: Peh/Feh (seventeenth Hebrew letter, numerical value 80, sound P with dagesh or F without dagesh, meaning mouth). Design: Mouth with a tooth; changing Ph..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Wikipedia",
+                        "domain": "en.wikipedia.org",
+                        "url": "https://en.wikipedia.org/wiki/Pe_(Semitic_letter)",
+                        "title": "Pe (Semitic letter) - Wikipedia",
+                        "text": "Overview: Pe is the 17th letter of Semitic abjads (numerical value 80), originating from a \"mouth\" pictogram and giving rise to Greek Pi, Latin P, and Cyrillic ..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Core Meaning and Symbolism",
+                    "markdown": "### Core Meaning and Symbolism",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Mouth and Speech: The name Pe literally means \"mouth\" in Hebrew (peh). It symbolizes communication, the spoken word, and expression. Placement after Ayin: It follows Ayin (which means \"eye\"), signifying that speech should naturally follow what one sees and understands. Power of Words: Tradition views the mouth as a vessel of immense spiritual power capable of creating, blessing, or causing harm.",
+                    "markdown": "- **Mouth and Speech:** The name *Pe* literally means **\"mouth\"** in Hebrew (*peh* ). It symbolizes communication, the spoken word, and expression.\n- **Placement after Ayin:** It follows *Ayin* (which means \"eye\"), signifying that speech should naturally follow what one sees and understands.\n- **Power of Words:** Tradition views the mouth as a vessel of immense spiritual power capable of creating, blessing, or causing harm.[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Pey/pey.html)[[2]](https://www.chabad.org/library/article_cdo/aid/137089/jewish/Peh-Feh.htm)[[3]](https://biblehub.com/topical/p/pe.htm)[[4]](https://www.facebook.com/thejerusalemscribe/posts/the-holy-letter-pei-%D7%A4the-mouth-of-the-universein-hebrew-the-word-peh-%D7%A4%D7%94-means-mo/1402585885207974/)[[5]](https://dinahoverlien.com/2020/07/29/pe/)[[6]](https://gabrielelevy.com/pages/the-letter-pe)",
+                    "links": null,
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew for Christians",
+                        "domain": "www.hebrew4christians.com",
+                        "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Pey/pey.html",
+                        "title": "The Letter Pey / Fey",
+                        "text": "Letter Pey/Fey: 17th Hebrew alphabet letter, value 80, sounds \"p\" (with dagesh) or \"ph/f\" (without). Forms: Block/script medial and sofit (descending tail/ascen..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137089/jewish/Peh-Feh.htm",
+                        "title": "Peh (Feh) - The seventeenth letter of the Hebrew alphabet - Chabad.org",
+                        "text": "Letter: Peh/Feh (seventeenth Hebrew letter, numerical value 80, sound P with dagesh or F without dagesh, meaning mouth). Design: Mouth with a tooth; changing Ph..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Bible Hub",
+                        "domain": "biblehub.com",
+                        "url": "https://biblehub.com/topical/p/pe.htm",
+                        "title": "Topical Bible: Pe",
+                        "text": "Definition: Pe (פ) is the 17th Hebrew alphabet letter with a numerical value of 80, transliterated as \"p\" or \"ph,\" pictographically associated with the mouth, s..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Facebook",
+                        "domain": "www.facebook.com",
+                        "url": "https://www.facebook.com/thejerusalemscribe/posts/the-holy-letter-pei-%D7%A4the-mouth-of-the-universein-hebrew-the-word-peh-%D7%A4%D7%94-means-mo/1402585885207974/",
+                        "title": "The holy letter Pei “פ” The mouth of the universe! In Hebrew the word ...",
+                        "text": "The holy letter Pei “פ” The mouth of the universe! In Hebrew the word Peh פה means mouth It is said as well that the shape of Pei resembles the profile of a fac..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "a small drop of ink",
+                        "domain": "dinahoverlien.com",
+                        "url": "https://dinahoverlien.com/2020/07/29/pe/",
+                        "title": "Pe - a small drop of ink",
+                        "text": "Pe is the seventeenth letter in the Hebrew alphabet. Pe (also written as Pey or Pei or Peh) sounds like “p” as in “pay”. Every line in Psalm 119:129-136 starts ..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "ALEFBET - The hebrew letters art gallery",
+                        "domain": "gabrielelevy.com",
+                        "url": "https://gabrielelevy.com/pages/the-letter-pe",
+                        "title": "The letter PE – ALEFBET - THE HEBREW LETTERS ART GALLERY",
+                        "text": "Meaning: Mouth, representing the spiritual power of speech for good or evil. Shape: Kaf containing a Yod, symbolizing the Neshama soul spark within the physical..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Forms and Pronunciation",
+                    "markdown": "### Forms and Pronunciation",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Two Sounds:With a center dot (called a dagesh), it makes a hard \"P\" sound (as in \"pay\").\nWithout the dot, it makes a soft \"F\" sound (as in \"fun\"). With a center dot (called a dagesh), it makes a hard \"P\" sound (as in \"pay\"). Without the dot, it makes a soft \"F\" sound (as in \"fun\"). Standard and Final Forms:פ is used at the beginning or in the middle of a word.\nף (Sofit / Final Pe) is used exclusively at the very end of a word and features a descending tail. פ is used at the beginning or in the middle of a word. ף (Sofit / Final Pe) is used exclusively at the very end of a word and features a descending tail.",
+                    "markdown": "- **Two Sounds:** \n\t- With a center dot (called a *dagesh* ), it makes a hard **\"P\"** sound (as in \"pay\").\n\t- Without the dot, it makes a soft **\"F\"** sound (as in \"fun\").[[1]](https://www.youtube.com/watch?v=7wChdHBw9_s&t=32)[[2]](https://www.youtube.com/watch?v=KDDr4JBbZqw&t=127)[[3]](https://dinahoverlien.com/2020/07/29/pe/)\n- **Standard and Final Forms:** \n\t- **פ** is used at the beginning or in the middle of a word.\n\t- **ף** (*Sofit* / Final Pe) is used exclusively at the very end of a word and features a descending tail.[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Pey/pey.html)[[2]](https://www.jewishencyclopedia.com/articles/11963-pe)[[3]](https://www.youtube.com/watch?v=7wChdHBw9_s&t=32)",
+                    "links": null,
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=7wChdHBw9_s&t=32",
+                        "title": "Power of Hebrew Letters: Pei",
+                        "text": "Power of Hebrew Letters: Pei but I have added a substantial. amount also because just just working on this I I I see incredible ideas and I'm I'm sharing them w..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=KDDr4JBbZqw&t=127",
+                        "title": "The Hebrew letter: Pey",
+                        "text": "The Hebrew letter: Pey so when you're learning Hebrew letters. you're learning every one of them are a sign that points to the Messiah. wow what a whole another..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "a small drop of ink",
+                        "domain": "dinahoverlien.com",
+                        "url": "https://dinahoverlien.com/2020/07/29/pe/",
+                        "title": "Pe - a small drop of ink",
+                        "text": "Pe is the seventeenth letter in the Hebrew alphabet. Pe (also written as Pey or Pei or Peh) sounds like “p” as in “pay”. Every line in Psalm 119:129-136 starts ..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew for Christians",
+                        "domain": "www.hebrew4christians.com",
+                        "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Pey/pey.html",
+                        "title": "The Letter Pey / Fey",
+                        "text": "Letter Pey/Fey: 17th Hebrew alphabet letter, value 80, sounds \"p\" (with dagesh) or \"ph/f\" (without). Forms: Block/script medial and sofit (descending tail/ascen..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "JewishEncyclopedia.com",
+                        "domain": "www.jewishencyclopedia.com",
+                        "url": "https://www.jewishencyclopedia.com/articles/11963-pe",
+                        "title": "PE",
+                        "text": "By: Crawford Howell Toy, Isaac Broydé Seventeenth letter of the Hebrew alphabet. Its name appears to be connected with \"peh\" = \"mouth\" (see Alphabet). \"Pe\" has ..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "If you'd like, I can:Provide Hebrew vocabulary words that start with Pe\nExplain how Pe is used in Gematria calculations\nShow how it appears in Psalm 119\nLet me know what you want to focus on next!",
+                    "markdown": "If you'd like, I can:\n\n- Provide **Hebrew vocabulary words** that start with Pe\n- Explain how Pe is used in **Gematria calculations** \n- Show how it appears in **Psalm 119** \n\nLet me know what you want to focus on next!",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  }
+                ],
+                "references": [
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Hebrew for Christians",
+                    "domain": "www.hebrew4christians.com",
+                    "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Pey/pey.html",
+                    "title": "The Letter Pey / Fey",
+                    "text": "Letter Pey/Fey: 17th Hebrew alphabet letter, value 80, sounds \"p\" (with dagesh) or \"ph/f\" (without). Forms: Block/script medial and sofit (descending tail/ascen..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Wikipedia",
+                    "domain": "en.wikipedia.org",
+                    "url": "https://en.wikipedia.org/wiki/Pe_(Semitic_letter)",
+                    "title": "Pe (Semitic letter) - Wikipedia",
+                    "text": "Overview: Pe is the 17th letter of Semitic abjads (numerical value 80), originating from a \"mouth\" pictogram and giving rise to Greek Pi, Latin P, and Cyrillic ..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Chabad",
+                    "domain": "www.chabad.org",
+                    "url": "https://www.chabad.org/library/article_cdo/aid/137089/jewish/Peh-Feh.htm",
+                    "title": "Peh (Feh) - The seventeenth letter of the Hebrew alphabet - Chabad.org",
+                    "text": "Letter: Peh/Feh (seventeenth Hebrew letter, numerical value 80, sound P with dagesh or F without dagesh, meaning mouth). Design: Mouth with a tooth; changing Ph..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "ALEFBET - The hebrew letters art gallery",
+                    "domain": "gabrielelevy.com",
+                    "url": "https://gabrielelevy.com/pages/the-letter-pe",
+                    "title": "The letter PE – ALEFBET - THE HEBREW LETTERS ART GALLERY",
+                    "text": "Meaning: Mouth, representing the spiritual power of speech for good or evil. Shape: Kaf containing a Yod, symbolizing the Neshama soul spark within the physical..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/watch?v=7wChdHBw9_s&t=32",
+                    "title": "Power of Hebrew Letters: Pei",
+                    "text": "Power of Hebrew Letters: Pei but I have added a substantial. amount also because just just working on this I I I see incredible ideas and I'm I'm sharing them w..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Facebook",
+                    "domain": "www.facebook.com",
+                    "url": "https://www.facebook.com/thejerusalemscribe/posts/the-holy-letter-pei-%D7%A4the-mouth-of-the-universein-hebrew-the-word-peh-%D7%A4%D7%94-means-mo/1402585885207974/",
+                    "title": "The holy letter Pei “פ” The mouth of the universe! In Hebrew the word ...",
+                    "text": "The holy letter Pei “פ” The mouth of the universe! In Hebrew the word Peh פה means mouth It is said as well that the shape of Pei resembles the profile of a fac..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Bible Hub",
+                    "domain": "biblehub.com",
+                    "url": "https://biblehub.com/topical/p/pe.htm",
+                    "title": "Topical Bible: Pe",
+                    "text": "Definition: Pe (פ) is the 17th Hebrew alphabet letter with a numerical value of 80, transliterated as \"p\" or \"ph,\" pictographically associated with the mouth, s..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "a small drop of ink",
+                    "domain": "dinahoverlien.com",
+                    "url": "https://dinahoverlien.com/2020/07/29/pe/",
+                    "title": "Pe - a small drop of ink",
+                    "text": "Pe is the seventeenth letter in the Hebrew alphabet. Pe (also written as Pey or Pei or Peh) sounds like “p” as in “pay”. Every line in Psalm 119:129-136 starts ..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/watch?v=KDDr4JBbZqw&t=127",
+                    "title": "The Hebrew letter: Pey",
+                    "text": "The Hebrew letter: Pey so when you're learning Hebrew letters. you're learning every one of them are a sign that points to the Messiah. wow what a whole another..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "JewishEncyclopedia.com",
+                    "domain": "www.jewishencyclopedia.com",
+                    "url": "https://www.jewishencyclopedia.com/articles/11963-pe",
+                    "title": "PE",
+                    "text": "By: Crawford Howell Toy, Isaac Broydé Seventeenth letter of the Hebrew alphabet. Its name appears to be connected with \"peh\" = \"mouth\" (see Alphabet). \"Pe\" has ..."
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 1,
+                "rank_absolute": 2,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]",
+                "domain": "www.youtube.com",
+                "title": "Learn the Hebrew letter PEY",
+                "url": "https://www.youtube.com/watch?v=BK6kOipwljw",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "2.9M+ views",
+                "website_name": "YouTube · Shalom Sesame",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "The Hebrew word PARPAR means BUTTERFLY and begins with the letter PEY. Petty's Compound Word",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2014-10-11 05:25:36 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "people_also_ask",
+                "rank_group": 1,
+                "rank_absolute": 3,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]",
+                "items": [
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does the word letter mean in Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[1]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does PE in Psalm 119 mean?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[2]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What letter is ה?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[3]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What is the Hebrew letter for peace?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[4]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 2,
+                "rank_absolute": 4,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.chabad.org",
+                "title": "Pey - Jewish Knowledge Base",
+                "url": "https://www.chabad.org/search/keyword_cdo/kid/7389/jewish/Pey.htm",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.chabad.org",
+                "website_name": "Chabad",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Peh (Pei) (Pey) (פ) is the seventeenth letter of the Hebrew alphabet Numerical value: 80 Sound: \"P\" with a dagesh (dot) and \"F\" without a dagesh Meaning: Mouth ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "video",
+                "rank_group": 1,
+                "rank_absolute": 5,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]",
+                "items": [
+                  {
+                    "type": "video_element",
+                    "source": "Andrew McClurg",
+                    "title": "Pe: Writing Hebrew Letters",
+                    "timestamp": "2020-05-01 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=aEqFvlsUgqg"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "El Shaddai Ministries",
+                    "title": "The Hebrew letter: Pey",
+                    "timestamp": "2023-07-22 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=KDDr4JBbZqw"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "BibleInteract",
+                    "title": "Power of Hebrew Letters: Pei",
+                    "timestamp": "2024-08-09 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=7wChdHBw9_s"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Ancient Hebrew Research Center",
+                    "title": "The Ancient Hebrew Alphabet - Lesson 17 – Pey",
+                    "timestamp": "2017-04-20 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=tZEUuV0f1Ec"
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 3,
+                "rank_absolute": 6,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "commons.wikimedia.org",
+                "title": "File:Hebrew letter pe.svg",
+                "url": "https://commons.wikimedia.org/wiki/File:Hebrew_letter_pe.svg",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://commons.wikimedia.org",
+                "website_name": "Wikimedia Commons",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Oct 20, 2008 — Hebrew letter pe Deutsch: Hebräischer Buchstabe Pe Date 20 October 2008 Source Own work Author Akbo0001 Licensing",
+                "pre_snippet": "10/20/2008 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Hebrew letter pe"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2008-10-20 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 4,
+                "rank_absolute": 7,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[13]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.etz-hayim.com",
+                "title": "The Hebrew letter Pey/Fey",
+                "url": "https://www.etz-hayim.com/hebrew/letters_and_vowels/pey.php",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.etz-hayim.com",
+                "website_name": "Etz Hayim—\"Tree of Life\"",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "PEY is the seventeenth letter of the Hebrew alphabet Pey has two pronunciations. Pey, with a dagesh kal. Fey without a dagesh. is pronounced as ...",
+                "pre_snippet": "11/04/2018 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2018-11-04 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 5,
+                "rank_absolute": 8,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "stock.adobe.com",
+                "title": "Hebrew letter pe, seventeenth letter of hebrew alphabet, meaning is mouth ...",
+                "url": "https://stock.adobe.com/images/hebrew-letter-pe-seventeenth-letter-of-hebrew-alphabet-meaning-is-mouth-gold-design-on-black-background-vector-alefbet/329434818",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://stock.adobe.com",
+                "website_name": "Adobe Stock",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Download Hebrew letter pe, seventeenth letter of hebrew alphabet, meaning is mouth, gold design on black background,",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Hebrew letter pe"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "images",
+                "rank_group": 1,
+                "rank_absolute": 9,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[17]",
+                "title": "Images",
+                "url": null,
+                "items": [
+                  {
+                    "type": "images_element",
+                    "alt": "Hebrew Letter Pe Stock Illustration - Download Image Now - Alphabet, Book,  Calligraphy",
+                    "url": "https://www.istockphoto.com/vector/hebrew-letter-pe-gm1268263118-372234075",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHm_5r77zIXo7pVe_nO8IQEydOq2Xa7_lsoqu3nLORZA&s"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "WORD STUDY - THE LETTER PEI – פ - Chaim Bentorah",
+                    "url": "https://www.chaimbentorah.com/2015/04/word-study-the-letter-pei-%D7%A4/",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSiqUWeEofcfhNMa1nHEIr7REna-_eVqJCkfABxEn0OQ&s"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "Hebrew Letter Pe Seventeenth Letter Hebrew",
+                    "url": "https://www.shutterstock.com/image-vector/hebrew-letter-pe-seventeenth-alphabet-meaning-1670372611",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRinPhbZbeHHvfECLDZFC8WCnC7MsZgCy8RTKZBcypSBx7EbklboROAkIc&s"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "The Letter Pey / Fey",
+                    "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Pey/pey.html",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuvx8QPk-gwd708B9JOEbdLswXI14sIsQPdnZ-6uPKeAYnYURvwGRwh0c&s"
+                  }
+                ],
+                "related_image_searches": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 6,
+                "rank_absolute": 10,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "inner.org",
+                "title": "The Hebrew Letters: Pei",
+                "url": "https://inner.org/hebleter/pei.htm",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://inner.org",
+                "website_name": "Gal Einai",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Jan 28, 2014 — The pei is the seventeenth letter of the alef-beit, the numerical value of the Hebrew word tov, \"good,\" as discussed at length in the letter ...",
+                "pre_snippet": "01/28/2014 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "The pei is the seventeenth letter of the alef-beit"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2014-01-28 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "people_also_search",
+                "rank_group": 1,
+                "rank_absolute": 11,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[21]",
+                "title": "People also search for",
+                "items": [
+                  "Pe hebrew letter meaning",
+                  "Pe hebrew letter pronunciation"
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 7,
+                "rank_absolute": 12,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[22]/div[1]/div[1]",
+                "domain": "www.youtube.com",
+                "title": "Hebrew Letter 17 Pey:Fey",
+                "url": "https://www.youtube.com/watch?v=y9SvzMt7Nws",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "230+ views",
+                "website_name": "YouTube · Jewish Roots 101",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "From the Jim Becka introductory Hebrew class. The lesson is from page 72 of the textbook \"Hebrew Alphabet in 30 Days\". Hebrew Letter 17 Pey:Fey",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2026-03-11 05:25:36 +00:00",
+                "rectangle": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

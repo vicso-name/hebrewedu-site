@@ -1,0 +1,828 @@
+{
+  "keyword": "vav hebrew letter",
+  "retrieved_at_utc": "2026-10-11T05:22:47.636Z",
+  "raw": {
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "2.7579 sec.",
+    "cost": 0.002,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "10110522-2762-0139-0000-1eaa2dcbceb7",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "2.6483 sec.",
+        "cost": 0.002,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "serp",
+          "google",
+          "organic",
+          "live",
+          "advanced"
+        ],
+        "data": {
+          "api": "serp",
+          "function": "live",
+          "se": "google",
+          "se_type": "organic",
+          "keyword": "vav hebrew letter",
+          "location_code": 2840,
+          "language_code": "en",
+          "device": "mobile",
+          "os": "android",
+          "depth": 10
+        },
+        "result": [
+          {
+            "keyword": "vav hebrew letter",
+            "type": "organic",
+            "se_domain": "google.com",
+            "location_code": 2840,
+            "language_code": "en",
+            "check_url": "https://www.google.com/search?q=vav%20hebrew%20letter&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+            "datetime": "2026-10-11 05:22:47 +00:00",
+            "spell": null,
+            "refinement_chips": null,
+            "item_types": [
+              "ai_overview",
+              "images",
+              "people_also_ask",
+              "organic",
+              "video",
+              "people_also_search"
+            ],
+            "se_results_count": 0,
+            "pages_count": 1,
+            "items_count": 12,
+            "items": [
+              {
+                "type": "ai_overview",
+                "rank_group": 1,
+                "rank_absolute": 1,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]",
+                "asynchronous_ai_overview": false,
+                "markdown": "![Hebrew Letter Vav. Shabby Gold Font Stock Vector ...](https://api.dataforseo.com/cdn/i/10110522-2762-0139-0000-1eaa2dcbceb7:4)\nThe Hebrew letter **vav** (**ו** ) is the sixth letter of the [Hebrew alphabet](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Vav/vav.html) and carries a numerical value of **6**.[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Vav/vav.html)[[2]](https://www.chabad.org/library/article_cdo/aid/137078/jewish/Vav.htm)\n\n### Basic Features\n\n- **Shape and Meaning:** It looks like a single vertical line or peg, and its literal meaning is a **\"hook,\" \"nail,\" or \"tent peg\"**.\n- **Pronunciation:** In Modern Hebrew, it is usually pronounced as a **\"v\"** sound. Historically, it sounded like a **\"w\"**.\n- **As a Vowel:** With dots added above or inside, it can function as a vowel sound for **\"o\"** (ḥolam male) or **\"u\"** (shuruk).[[1]](https://en.wikipedia.org/wiki/Waw)[[2]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Vav/vav.html)[[3]](https://gabrielelevy.com/pages/the-letter-vav)[[4]](https://ephraimintheland.wordpress.com/2018/01/20/vav/)[[5]](https://www.youtube.com/watch?v=DE6FXz8Qo9w&t=5)[[6]](https://hebrewtoday.com/alphabet/the-letter-vav-%D7%95/)\n\n### Grammatical Uses\n\n- **Conjunction (\"And\"):** Placed as a prefix at the start of a word (*vav conjunctive* ), it means \"and\" (e.g., connecting ideas, people, or events).\n- **Tense Changer:** Known as the *vav consecutive* , it can flip the tense of a verb from past to future or future to past in biblical Hebrew.[[1]](https://www.chabad.org/library/article_cdo/aid/137078/jewish/Vav.htm)[[2]](https://ephraimintheland.wordpress.com/2018/01/20/vav/)[[3]](https://inner.org/hebleter/vav.htm)\n\n### Symbolism\n\n- **Connection:** As a hook, it physically and spiritually connects heaven and earth, or joins separate parts of creation together.\n- **Man and Creation:** Because it represents the number 6, it symbolizes man (created on the sixth day) and the six physical spatial directions (up, down, left, right, front, back).[[1]](https://gabrielelevy.com/pages/the-letter-vav)[[2]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Vav/vav.html)[[3]](https://www.chabad.org/library/article_cdo/aid/137078/jewish/Vav.htm)[[4]](https://inner.org/hebleter/vav.htm)[[5]](https://ephraimintheland.wordpress.com/2018/01/20/vav/)",
+                "items": [
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "The Hebrew letter vav ( ו ) is the sixth letter of the Hebrew alphabet and carries a numerical value of 6.",
+                    "markdown": "![Hebrew Letter Vav. Shabby Gold Font Stock Vector ...](https://api.dataforseo.com/cdn/i/10110522-2762-0139-0000-1eaa2dcbceb7:2)\nThe Hebrew letter **vav** (**ו** ) is the sixth letter of the [Hebrew alphabet](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Vav/vav.html) and carries a numerical value of **6**.[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Vav/vav.html)[[2]](https://www.chabad.org/library/article_cdo/aid/137078/jewish/Vav.htm)",
+                    "links": [
+                      {
+                        "type": "link_element",
+                        "title": "Hebrew alphabet",
+                        "description": null,
+                        "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Vav/vav.html",
+                        "domain": "www.hebrew4christians.com"
+                      }
+                    ],
+                    "images": [
+                      {
+                        "type": "images_element",
+                        "alt": "Hebrew Letter Vav. Shabby Gold Font Stock Vector ...",
+                        "url": null,
+                        "image_url": "https://api.dataforseo.com/cdn/i/10110522-2762-0139-0000-1eaa2dcbceb7:3"
+                      }
+                    ],
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew for Christians",
+                        "domain": "www.hebrew4christians.com",
+                        "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Vav/vav.html",
+                        "title": "The Letter Vav",
+                        "text": "Letter Vav: Sixth Hebrew letter (numeric value 6), pronounced \"v\" in modern Hebrew, historically \"w\" in ancient Hebrew; functions as \"ooh\" (וּ) or \"oh\" (וֹ) vow..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137078/jewish/Vav.htm",
+                        "title": "Vav - The sixth letter of the Hebrew alphabet - Chabad.org",
+                        "text": "Letter: Vav (ו) is the sixth Hebrew letter; numerical value 6; sounds \"V,\" \"OH,\" \"OO.\" Meaning: Hook, word \"and,\" and verb tense transformer (past to future, fu..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Basic Features",
+                    "markdown": "### Basic Features",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Shape and Meaning: It looks like a single vertical line or peg, and its literal meaning is a \"hook,\" \"nail,\" or \"tent peg\". Pronunciation: In Modern Hebrew, it is usually pronounced as a \"v\" sound. Historically, it sounded like a \"w\". As a Vowel: With dots added above or inside, it can function as a vowel sound for \"o\" (ḥolam male) or \"u\" (shuruk).",
+                    "markdown": "- **Shape and Meaning:** It looks like a single vertical line or peg, and its literal meaning is a **\"hook,\" \"nail,\" or \"tent peg\"**.\n- **Pronunciation:** In Modern Hebrew, it is usually pronounced as a **\"v\"** sound. Historically, it sounded like a **\"w\"**.\n- **As a Vowel:** With dots added above or inside, it can function as a vowel sound for **\"o\"** (ḥolam male) or **\"u\"** (shuruk).[[1]](https://en.wikipedia.org/wiki/Waw)[[2]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Vav/vav.html)[[3]](https://gabrielelevy.com/pages/the-letter-vav)[[4]](https://ephraimintheland.wordpress.com/2018/01/20/vav/)[[5]](https://www.youtube.com/watch?v=DE6FXz8Qo9w&t=5)[[6]](https://hebrewtoday.com/alphabet/the-letter-vav-%D7%95/)",
+                    "links": null,
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Wikipedia",
+                        "domain": "en.wikipedia.org",
+                        "url": "https://en.wikipedia.org/wiki/Waw",
+                        "title": "Waw - Wikipedia",
+                        "text": "Identity: Waw (meaning \"hook\"), sixth letter of Semitic abjads (Phoenician, Aramaic, Hebrew, Syriac, Arabic), 27th in modern Arabic order; numerical value 6. Ph..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew for Christians",
+                        "domain": "www.hebrew4christians.com",
+                        "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Vav/vav.html",
+                        "title": "The Letter Vav",
+                        "text": "Letter Vav: Sixth Hebrew letter (numeric value 6), pronounced \"v\" in modern Hebrew, historically \"w\" in ancient Hebrew; functions as \"ooh\" (וּ) or \"oh\" (וֹ) vow..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "ALEFBET - The hebrew letters art gallery",
+                        "domain": "gabrielelevy.com",
+                        "url": "https://gabrielelevy.com/pages/the-letter-vav",
+                        "title": "The letter VAV – ALEFBET - THE HEBREW LETTERS ART GALLERY",
+                        "text": "Vav represents the number 6 and represents the six days of the creation of the world, as well as the six physical dimensions (right left, front and back, up and..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "WordPress.com",
+                        "domain": "ephraimintheland.wordpress.com",
+                        "url": "https://ephraimintheland.wordpress.com/2018/01/20/vav/",
+                        "title": "Vav – Ephraim in the Land",
+                        "text": "Letter Vav: Sixth Hebrew letter (value 6); means hook, nail, or tent peg; used as a prefix meaning \"and\"; sounds /v/ or /w/, functions as a consonant or vowel ("
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=DE6FXz8Qo9w&t=5",
+                        "title": "Hebrew Letters; Vav ו: The Ultimate Connection",
+                        "text": "Hebrew Letters; Vav ו: The Ultimate Connection the letter VV is the sixth letter of the olive base. it has the sound like a V a V. and again depending on which ..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew Today",
+                        "domain": "hebrewtoday.com",
+                        "url": "https://hebrewtoday.com/alphabet/the-letter-vav-%D7%95/",
+                        "title": "The Letter Vav (ו) In the Hebrew Alphabet",
+                        "text": "The Letter Vav (ו) In the Hebrew Alphabet The letter Vav is the sixth letter in the Hebrew alphabet. Through the ancient Phoenician language, the letter Vav act..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Grammatical Uses",
+                    "markdown": "### Grammatical Uses",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Conjunction (\"And\"): Placed as a prefix at the start of a word (vav conjunctive), it means \"and\" (e.g., connecting ideas, people, or events). Tense Changer: Known as the vav consecutive, it can flip the tense of a verb from past to future or future to past in biblical Hebrew.",
+                    "markdown": "- **Conjunction (\"And\"):** Placed as a prefix at the start of a word (*vav conjunctive* ), it means \"and\" (e.g., connecting ideas, people, or events).\n- **Tense Changer:** Known as the *vav consecutive* , it can flip the tense of a verb from past to future or future to past in biblical Hebrew.[[1]](https://www.chabad.org/library/article_cdo/aid/137078/jewish/Vav.htm)[[2]](https://ephraimintheland.wordpress.com/2018/01/20/vav/)[[3]](https://inner.org/hebleter/vav.htm)",
+                    "links": null,
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137078/jewish/Vav.htm",
+                        "title": "Vav - The sixth letter of the Hebrew alphabet - Chabad.org",
+                        "text": "Letter: Vav (ו) is the sixth Hebrew letter; numerical value 6; sounds \"V,\" \"OH,\" \"OO.\" Meaning: Hook, word \"and,\" and verb tense transformer (past to future, fu..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "WordPress.com",
+                        "domain": "ephraimintheland.wordpress.com",
+                        "url": "https://ephraimintheland.wordpress.com/2018/01/20/vav/",
+                        "title": "Vav – Ephraim in the Land",
+                        "text": "Letter Vav: Sixth Hebrew letter (value 6); means hook, nail, or tent peg; used as a prefix meaning \"and\"; sounds /v/ or /w/, functions as a consonant or vowel ("
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Gal Einai",
+                        "domain": "inner.org",
+                        "url": "https://inner.org/hebleter/vav.htm",
+                        "title": "The Hebrew Letters: Vav",
+                        "text": "Vav: Connection The external force of the line is the power to differentiate and separate the various aspects of reality, thereby establishing hierarchical orde..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Symbolism",
+                    "markdown": "### Symbolism",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Connection: As a hook, it physically and spiritually connects heaven and earth, or joins separate parts of creation together. Man and Creation: Because it represents the number 6, it symbolizes man (created on the sixth day) and the six physical spatial directions (up, down, left, right, front, back).",
+                    "markdown": "- **Connection:** As a hook, it physically and spiritually connects heaven and earth, or joins separate parts of creation together.\n- **Man and Creation:** Because it represents the number 6, it symbolizes man (created on the sixth day) and the six physical spatial directions (up, down, left, right, front, back).[[1]](https://gabrielelevy.com/pages/the-letter-vav)[[2]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Vav/vav.html)[[3]](https://www.chabad.org/library/article_cdo/aid/137078/jewish/Vav.htm)[[4]](https://inner.org/hebleter/vav.htm)[[5]](https://ephraimintheland.wordpress.com/2018/01/20/vav/)",
+                    "links": null,
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "ALEFBET - The hebrew letters art gallery",
+                        "domain": "gabrielelevy.com",
+                        "url": "https://gabrielelevy.com/pages/the-letter-vav",
+                        "title": "The letter VAV – ALEFBET - THE HEBREW LETTERS ART GALLERY",
+                        "text": "Vav represents the number 6 and represents the six days of the creation of the world, as well as the six physical dimensions (right left, front and back, up and..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew for Christians",
+                        "domain": "www.hebrew4christians.com",
+                        "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Vav/vav.html",
+                        "title": "The Letter Vav",
+                        "text": "Letter Vav: Sixth Hebrew letter (numeric value 6), pronounced \"v\" in modern Hebrew, historically \"w\" in ancient Hebrew; functions as \"ooh\" (וּ) or \"oh\" (וֹ) vow..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137078/jewish/Vav.htm",
+                        "title": "Vav - The sixth letter of the Hebrew alphabet - Chabad.org",
+                        "text": "Letter: Vav (ו) is the sixth Hebrew letter; numerical value 6; sounds \"V,\" \"OH,\" \"OO.\" Meaning: Hook, word \"and,\" and verb tense transformer (past to future, fu..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Gal Einai",
+                        "domain": "inner.org",
+                        "url": "https://inner.org/hebleter/vav.htm",
+                        "title": "The Hebrew Letters: Vav",
+                        "text": "Vav: Connection The external force of the line is the power to differentiate and separate the various aspects of reality, thereby establishing hierarchical orde..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "WordPress.com",
+                        "domain": "ephraimintheland.wordpress.com",
+                        "url": "https://ephraimintheland.wordpress.com/2018/01/20/vav/",
+                        "title": "Vav – Ephraim in the Land",
+                        "text": "Letter Vav: Sixth Hebrew letter (value 6); means hook, nail, or tent peg; used as a prefix meaning \"and\"; sounds /v/ or /w/, functions as a consonant or vowel ("
+                      }
+                    ]
+                  }
+                ],
+                "references": [
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Hebrew for Christians",
+                    "domain": "www.hebrew4christians.com",
+                    "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Vav/vav.html",
+                    "title": "The Letter Vav",
+                    "text": "Letter Vav: Sixth Hebrew letter (numeric value 6), pronounced \"v\" in modern Hebrew, historically \"w\" in ancient Hebrew; functions as \"ooh\" (וּ) or \"oh\" (וֹ) vow..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Chabad",
+                    "domain": "www.chabad.org",
+                    "url": "https://www.chabad.org/library/article_cdo/aid/137078/jewish/Vav.htm",
+                    "title": "Vav - The sixth letter of the Hebrew alphabet - Chabad.org",
+                    "text": "Letter: Vav (ו) is the sixth Hebrew letter; numerical value 6; sounds \"V,\" \"OH,\" \"OO.\" Meaning: Hook, word \"and,\" and verb tense transformer (past to future, fu..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Wikipedia",
+                    "domain": "en.wikipedia.org",
+                    "url": "https://en.wikipedia.org/wiki/Waw",
+                    "title": "Waw - Wikipedia",
+                    "text": "Identity: Waw (meaning \"hook\"), sixth letter of Semitic abjads (Phoenician, Aramaic, Hebrew, Syriac, Arabic), 27th in modern Arabic order; numerical value 6. Ph..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "ALEFBET - The hebrew letters art gallery",
+                    "domain": "gabrielelevy.com",
+                    "url": "https://gabrielelevy.com/pages/the-letter-vav",
+                    "title": "The letter VAV – ALEFBET - THE HEBREW LETTERS ART GALLERY",
+                    "text": "Vav represents the number 6 and represents the six days of the creation of the world, as well as the six physical dimensions (right left, front and back, up and..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/watch?v=DE6FXz8Qo9w&t=5",
+                    "title": "Hebrew Letters; Vav ו: The Ultimate Connection",
+                    "text": "Hebrew Letters; Vav ו: The Ultimate Connection the letter VV is the sixth letter of the olive base. it has the sound like a V a V. and again depending on which ..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "WordPress.com",
+                    "domain": "ephraimintheland.wordpress.com",
+                    "url": "https://ephraimintheland.wordpress.com/2018/01/20/vav/",
+                    "title": "Vav – Ephraim in the Land",
+                    "text": "Letter Vav: Sixth Hebrew letter (value 6); means hook, nail, or tent peg; used as a prefix meaning \"and\"; sounds /v/ or /w/, functions as a consonant or vowel ("
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Gal Einai",
+                    "domain": "inner.org",
+                    "url": "https://inner.org/hebleter/vav.htm",
+                    "title": "The Hebrew Letters: Vav",
+                    "text": "Vav: Connection The external force of the line is the power to differentiate and separate the various aspects of reality, thereby establishing hierarchical orde..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Hebrew Today",
+                    "domain": "hebrewtoday.com",
+                    "url": "https://hebrewtoday.com/alphabet/the-letter-vav-%D7%95/",
+                    "title": "The Letter Vav (ו) In the Hebrew Alphabet",
+                    "text": "The Letter Vav (ו) In the Hebrew Alphabet The letter Vav is the sixth letter in the Hebrew alphabet. Through the ancient Phoenician language, the letter Vav act..."
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "images",
+                "rank_group": 1,
+                "rank_absolute": 2,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]",
+                "title": "Images",
+                "url": null,
+                "items": [
+                  {
+                    "type": "images_element",
+                    "alt": "The Letter Vav",
+                    "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Vav/vav.html",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110522-2762-0139-0000-1eaa2dcbceb7:5"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "Debra Chapoton, Author: Today is Brought to You by the Hebrew ...",
+                    "url": "http://www.debrachapoton.com/2012/11/today-is-brought-to-you-by-hebrew.html",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110522-2762-0139-0000-1eaa2dcbceb7:6"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "Vav — the sixth letter in the Hebrew alphabet., More than just a symbol,  each letter carries deep spiritual meaning and divine significance.,  #GodofIsrael, #doubleportion | Jesus My Rock Church ...",
+                    "url": "https://www.facebook.com/JMRCKL/videos/vav-the-sixth-letter-in-the-hebrew-alphabetmore-than-just-a-symbol-each-letter-c/1749257202430614/",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110522-2762-0139-0000-1eaa2dcbceb7:7"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "Vav - The sixth letter of the Hebrew alphabet - Chabad.org",
+                    "url": "https://www.chabad.org/library/article_cdo/aid/137078/jewish/Vav.htm",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110522-2762-0139-0000-1eaa2dcbceb7:8"
+                  }
+                ],
+                "related_image_searches": null,
+                "rectangle": null
+              },
+              {
+                "type": "people_also_ask",
+                "rank_group": 1,
+                "rank_absolute": 3,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]",
+                "items": [
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What is the meaning of v in Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[1]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does \"את\" mean in Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[2]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What letter is aleph in Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[3]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "How do you pronounce the Hebrew letter vav?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[4]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 1,
+                "rank_absolute": 4,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[1]",
+                "domain": "www.chabad.org",
+                "title": "Letters of Light: Vav",
+                "url": "https://www.chabad.org/multimedia/video_cdo/aid/1953205/jewish/Letters-of-Light-Vav.htm",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.chabad.org",
+                "website_name": "Chabad.org",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "This class explains the mystical meanings of the Hebrew letters including the significance of the letters' names, their phonetic sounds, their graphic design,",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": [
+                  {
+                    "type": "link_element",
+                    "title": null,
+                    "description": null,
+                    "url": "https://www.chabad.org/multimedia/video_cdo/aid/1953205/jewish/Letters-of-Light-Vav.htm",
+                    "domain": "www.chabad.org"
+                  }
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2024-01-26 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 2,
+                "rank_absolute": 5,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.chabad.org",
+                "title": "Vav - Jewish Knowledge Base",
+                "url": "https://www.chabad.org/search/keyword_cdo/kid/7379/jewish/Vav.htm",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.chabad.org",
+                "website_name": "Chabad",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Vav (ו) is the sixth letter of the Hebrew alphabet Numerical value: 6 Sound: \"V,\" \"OH\" and \"OO\" Meaning: 1. hook 2. the word “and” 3. in front of a word, ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": [
+                  "vav chabad",
+                  "hebrew six",
+                  "year of",
+                  "what does o",
+                  "hebrew number",
+                  "the number six"
+                ],
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "video",
+                "rank_group": 1,
+                "rank_absolute": 6,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[10]",
+                "items": [
+                  {
+                    "type": "video_element",
+                    "source": "Rabbi Aaron L. Raskin | הרב אהרן ראסקין",
+                    "title": "Hebrew Letters; Vav ו: The Ultimate Connection",
+                    "timestamp": "2014-05-20 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=DE6FXz8Qo9w"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "The Local Dreamer Podcast",
+                    "title": "The Hebrew Letter Vav (ו) – Connection, Man, and Securing",
+                    "timestamp": "2026-04-24 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=Yjq3qldY7ww"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "BibleInteract",
+                    "title": "Power of Hebrew Letters: Vav",
+                    "timestamp": "2023-07-14 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=Ak9siRajq0o"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Ancient Hebrew Research Center",
+                    "title": "Ancient Hebrew Alphabet - Lesson 6 - Vav",
+                    "timestamp": "2013-08-30 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=Ota0EAf2iQM"
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 3,
+                "rank_absolute": 7,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[12]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.sefaria.org",
+                "title": "Vav | Texts from the Sefaria Library",
+                "url": "https://www.sefaria.org/topics/vav",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.sefaria.org",
+                "website_name": "Sefaria",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Vav is the sixth letter of the Hebrew alphabet. The letter vav in the name “Vaizatha” is a lengthened vav and must be elongated as a pole...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Vav is the sixth letter of the Hebrew alphabet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 4,
+                "rank_absolute": 8,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.facebook.com",
+                "title": "VAV ו Connection. Flow. Unity. Vav is the sixth letter of the Hebrew alphabet ...",
+                "url": "https://www.facebook.com/RabbiMatthewPonak/posts/vav-%D7%95connection-flow-unityvav-is-the-sixth-letter-of-the-hebrew-alphabetin-hebre/1566018195537790/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "540+ reactions",
+                "website_name": "Facebook · Rabbi Matthew Ponak",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Vav is the sixth letter of the Hebrew alphabet. In Hebrew, when Vav is placed before a word, it means “and.” It connects one thing to another.",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Vav is the sixth letter of the Hebrew alphabet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2026-10-04 05:22:46 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 5,
+                "rank_absolute": 9,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[16]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "lp.israelbiblicalstudies.com",
+                "title": "Connecting Heaven and Earth - IsraelBiblicalStudies.com",
+                "url": "https://lp.israelbiblicalstudies.com/lp_iibs_biblical_hebrew_sixth_day_eml-en.html?cid=76438&adGroupId=-1&utm_source=Web+Campaign&utm_medium=UnitedWithIsrael_Account_Budget&utm_campaign=BIB_EN_WEB_UWI_eBlast_Sixth_Day_2019-12-19_76438&commChannel=1",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://lp.israelbiblicalstudies.com",
+                "website_name": "Israel Institute of Biblical Studies",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Number 6 corresponds to the letter “vav”. “Vav” is shaped like a hook holding two things together (ו); normally, “Vav” is translated as “and”. This letter is ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 6,
+                "rank_absolute": 10,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[17]/div[1]/div[1]",
+                "domain": "www.youtube.com",
+                "title": "Hebrew Alphabet Series - Ladder, Man, Nail | GT Church Unlimited",
+                "url": "https://www.youtube.com/watch?v=s7ajl6A9JzE",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "140+ views",
+                "website_name": "YouTube · GT Church FL",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "Vav is the 6th letter in Hebrew and Man was made on the 6th day. It can act as the word “and” and serve as a connector. It can mean ladder, and ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2021-10-11 05:22:46 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 7,
+                "rank_absolute": 11,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.restingonhisword.com",
+                "title": "Hebrew Letter Vav",
+                "url": "https://www.restingonhisword.com/hebrew-alphabet/hebrew-letter-vav",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.restingonhisword.com",
+                "website_name": "Resting on His Word",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Nov 11, 2025 — The placement of the first Vav in scripture is between the words heaven and earth, implying a connection between the spiritual and physical, ...",
+                "pre_snippet": "11/11/2025 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "between the words heaven and earth"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2025-11-11 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "people_also_search",
+                "rank_group": 1,
+                "rank_absolute": 12,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[21]",
+                "title": "People also search for",
+                "items": [
+                  "Vav Chabad",
+                  "Hebrew six symbol",
+                  "Year of the Vav",
+                  "What does o mean in Hebrew",
+                  "Hebrew number 6 meaning",
+                  "The number six in Hebrew"
+                ],
+                "rectangle": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

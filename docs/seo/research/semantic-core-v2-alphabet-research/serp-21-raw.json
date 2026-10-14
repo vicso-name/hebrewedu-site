@@ -1,0 +1,762 @@
+{
+  "keyword": "shin hebrew letter",
+  "retrieved_at_utc": "2026-10-11T05:26:32.406Z",
+  "raw": {
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "2.7341 sec.",
+    "cost": 0.002,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "10110525-2762-0139-0000-221c981cbe4a",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "2.6725 sec.",
+        "cost": 0.002,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "serp",
+          "google",
+          "organic",
+          "live",
+          "advanced"
+        ],
+        "data": {
+          "api": "serp",
+          "function": "live",
+          "se": "google",
+          "se_type": "organic",
+          "keyword": "shin hebrew letter",
+          "location_code": 2840,
+          "language_code": "en",
+          "device": "mobile",
+          "os": "android",
+          "depth": 10
+        },
+        "result": [
+          {
+            "keyword": "shin hebrew letter",
+            "type": "organic",
+            "se_domain": "google.com",
+            "location_code": 2840,
+            "language_code": "en",
+            "check_url": "https://www.google.com/search?q=shin%20hebrew%20letter&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+            "datetime": "2026-10-11 05:25:58 +00:00",
+            "spell": null,
+            "refinement_chips": null,
+            "item_types": [
+              "ai_overview",
+              "video",
+              "people_also_ask",
+              "organic",
+              "short_videos",
+              "images"
+            ],
+            "se_results_count": 0,
+            "pages_count": 1,
+            "items_count": 11,
+            "items": [
+              {
+                "type": "ai_overview",
+                "rank_group": 1,
+                "rank_absolute": 1,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]",
+                "asynchronous_ai_overview": false,
+                "markdown": "![Shin Letter Symbol vinyl decal Hebrew Judaism Sticker | eBay](https://api.dataforseo.com/cdn/i/10110525-2762-0139-0000-221c981cbe4a:4)\nShin (ש) is the `twenty-first letter of the Hebrew alphabet` , detailed on [Chabad.org](https://www.chabad.org/library/article_cdo/aid/137093/jewish/Shin-Sin.htm) and [Wikipedia](https://en.wikipedia.org/wiki/Shin_(letter)).[[1]](https://www.chabad.org/library/article_cdo/aid/137093/jewish/Shin-Sin.htm)[[2]](https://en.wikipedia.org/wiki/Shin_(letter))\n\n### Key Facts\n\n- **Numerical Value:** 300 (in gematria)[[1]](https://www.chabad.org/library/article_cdo/aid/137093/jewish/Shin-Sin.htm)\n- **Sounds:** \n\t- \"Sh\" (/ʃ/) when the dot is on the upper-right\n\t- \"S\" (/s/) when the dot is on the upper-left (often called *Sin*)[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Shin/shin.html)[[2]](https://www.chabad.org/library/article_cdo/aid/137093/jewish/Shin-Sin.htm)\n- **Ancient Meaning:** Means \"tooth\" or \"teeth\" from its original pictographic shape[[1]](https://www.youtube.com/watch?v=8ceIbnqSStU&t=16)[[2]](https://www.chabad.org/library/article_cdo/aid/137093/jewish/Shin-Sin.htm)\n- **Symbolism:** Represents a rising flame or crown, symbolizing transformation, fire, and the three pillars of the world (prayer, good deeds, and Torah study)[[1]](https://gabrielelevy.com/pages/the-letter-shin)[[2]](https://www.chabad.org/library/article_cdo/aid/137093/jewish/Shin-Sin.htm)[[3]](https://dinahoverlien.com/2020/08/26/shin/)\n- **Ritual Usage:** Inscribed on the outside of [Tefillin](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Shin/shin.html) and [Mezuzahs](https://dinahoverlien.com/2020/08/26/shin/) to represent God's name (*El Shaddai*)[[1]](https://dinahoverlien.com/2020/08/26/shin/)[[2]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Shin/shin.html)[[3]](https://www.youtube.com/watch?v=gX24yJR6DY8&t=6)\n\nWould you like to explore **words that start with Shin** , or learn more about its **Kabbalistic meanings**?",
+                "items": [
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Shin (ש) is the twenty-first letter of the Hebrew alphabet, detailed on Chabad.org and Wikipedia.",
+                    "markdown": "![Shin Letter Symbol vinyl decal Hebrew Judaism Sticker | eBay](https://api.dataforseo.com/cdn/i/10110525-2762-0139-0000-221c981cbe4a:2)\nShin (ש) is the `twenty-first letter of the Hebrew alphabet` , detailed on [Chabad.org](https://www.chabad.org/library/article_cdo/aid/137093/jewish/Shin-Sin.htm) and [Wikipedia](https://en.wikipedia.org/wiki/Shin_(letter)).[[1]](https://www.chabad.org/library/article_cdo/aid/137093/jewish/Shin-Sin.htm)[[2]](https://en.wikipedia.org/wiki/Shin_(letter))",
+                    "links": [
+                      {
+                        "type": "link_element",
+                        "title": "Chabad.org",
+                        "description": null,
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137093/jewish/Shin-Sin.htm",
+                        "domain": "www.chabad.org"
+                      },
+                      {
+                        "type": "link_element",
+                        "title": "Wikipedia",
+                        "description": null,
+                        "url": "https://en.wikipedia.org/wiki/Shin_(letter)",
+                        "domain": "en.wikipedia.org"
+                      }
+                    ],
+                    "images": [
+                      {
+                        "type": "images_element",
+                        "alt": "Shin Letter Symbol vinyl decal Hebrew Judaism Sticker | eBay",
+                        "url": null,
+                        "image_url": "https://api.dataforseo.com/cdn/i/10110525-2762-0139-0000-221c981cbe4a:3"
+                      }
+                    ],
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137093/jewish/Shin-Sin.htm",
+                        "title": "Shin (Sin) - The twenty-first letter of the Hebrew alphabet - Chabad.org",
+                        "text": "The twenty-first letter of the Hebrew alphabet * Shin (שׁ) is the twenty-first letter of the Hebrew alphabet. * Numerical value: 300. * Sound: \"SH\" with a dot o..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Wikipedia",
+                        "domain": "en.wikipedia.org",
+                        "url": "https://en.wikipedia.org/wiki/Shin_(letter)",
+                        "title": "Shin (letter) - Wikipedia",
+                        "text": "* Shin (Šīn/Sheen): 21st letter of Semitic abjads (Phoenician/Hebrew/Aramaic/Syriac), Arabic 28th/21st. * Phonemes: /ʃ/, /s/ (IPA). * Gematria value: 300 (Arabi..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Key Facts",
+                    "markdown": "### Key Facts",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Numerical Value: 300 (in gematria) Sounds:\"Sh\" (/ʃ/) when the dot is on the upper-right\n\"S\" (/s/) when the dot is on the upper-left (often called Sin) \"Sh\" (/ʃ/) when the dot is on the upper-right \"S\" (/s/) when the dot is on the upper-left (often called Sin) Ancient Meaning: Means \"tooth\" or \"teeth\" from its original pictographic shape Symbolism: Represents a rising flame or crown, symbolizing transformation, fire, and the three pillars of the world (prayer, good deeds, and Torah study) Ritual Usage: Inscribed on the outside of Tefillin and Mezuzahs to represent God's name (El Shaddai)",
+                    "markdown": "- **Numerical Value:** 300 (in gematria)[[1]](https://www.chabad.org/library/article_cdo/aid/137093/jewish/Shin-Sin.htm)\n- **Sounds:** \n\t- \"Sh\" (/ʃ/) when the dot is on the upper-right\n\t- \"S\" (/s/) when the dot is on the upper-left (often called *Sin*)[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Shin/shin.html)[[2]](https://www.chabad.org/library/article_cdo/aid/137093/jewish/Shin-Sin.htm)\n- **Ancient Meaning:** Means \"tooth\" or \"teeth\" from its original pictographic shape[[1]](https://www.youtube.com/watch?v=8ceIbnqSStU&t=16)[[2]](https://www.chabad.org/library/article_cdo/aid/137093/jewish/Shin-Sin.htm)\n- **Symbolism:** Represents a rising flame or crown, symbolizing transformation, fire, and the three pillars of the world (prayer, good deeds, and Torah study)[[1]](https://gabrielelevy.com/pages/the-letter-shin)[[2]](https://www.chabad.org/library/article_cdo/aid/137093/jewish/Shin-Sin.htm)[[3]](https://dinahoverlien.com/2020/08/26/shin/)\n- **Ritual Usage:** Inscribed on the outside of [Tefillin](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Shin/shin.html) and [Mezuzahs](https://dinahoverlien.com/2020/08/26/shin/) to represent God's name (*El Shaddai*)[[1]](https://dinahoverlien.com/2020/08/26/shin/)[[2]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Shin/shin.html)[[3]](https://www.youtube.com/watch?v=gX24yJR6DY8&t=6)",
+                    "links": [
+                      {
+                        "type": "link_element",
+                        "title": "Tefillin",
+                        "description": null,
+                        "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Shin/shin.html",
+                        "domain": "www.hebrew4christians.com"
+                      },
+                      {
+                        "type": "link_element",
+                        "title": "Mezuzahs",
+                        "description": null,
+                        "url": "https://dinahoverlien.com/2020/08/26/shin/",
+                        "domain": "dinahoverlien.com"
+                      }
+                    ],
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137093/jewish/Shin-Sin.htm",
+                        "title": "Shin (Sin) - The twenty-first letter of the Hebrew alphabet - Chabad.org",
+                        "text": "The twenty-first letter of the Hebrew alphabet * Shin (שׁ) is the twenty-first letter of the Hebrew alphabet. * Numerical value: 300. * Sound: \"SH\" with a dot o..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew for Christians",
+                        "domain": "www.hebrew4christians.com",
+                        "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Shin/shin.html",
+                        "title": "The Letters Shin / Sin",
+                        "text": "Phonetics: Shin (שִׁין) sounds like \"sh\" (shy); Sin sounds like \"s\" (seen). Forms: 2-stroke manual block print; cursive resembles English lowercase \"e\". Dot Rul..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=8ceIbnqSStU&t=16",
+                        "title": "The Ancient Hebrew Alphabet - Lesson 21 – Shin",
+                        "text": "The Ancient Hebrew Alphabet - Lesson 21 – Shin if the dot is on the right side then this letter is pronounced sh. and is called the shin. if the dot is on the l..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "ALEFBET - The hebrew letters art gallery",
+                        "domain": "gabrielelevy.com",
+                        "url": "https://gabrielelevy.com/pages/the-letter-shin",
+                        "title": "The letter SHIN – ALEFBET",
+                        "text": "Shin, the 21st Hebrew letter is the letter of fire and transformation. Shin literally means tooth and its shape is 3 branches of flame. These are the 3 pillars ..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "a small drop of ink",
+                        "domain": "dinahoverlien.com",
+                        "url": "https://dinahoverlien.com/2020/08/26/shin/",
+                        "title": "Shin | a small drop of ink",
+                        "text": "Letter: Shin is the 21st Hebrew letter (\"sh\" sound); Psalm 119:161-168 lines start with it; resembles a flame. Mezuzah: Engraved with Shin representing El Shadd..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=gX24yJR6DY8&t=6",
+                        "title": "Secret of the Hebrew letter Shin",
+                        "text": "Secret of the Hebrew letter Shin the 21st letter of the Hebrew alphabet is shin the numeric value of shin is 300 the pictogram or symbol behind the shape of the..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Would you like to explore words that start with Shin, or learn more about its Kabbalistic meanings ?",
+                    "markdown": "Would you like to explore **words that start with Shin** , or learn more about its **Kabbalistic meanings**?",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  }
+                ],
+                "references": [
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Chabad",
+                    "domain": "www.chabad.org",
+                    "url": "https://www.chabad.org/library/article_cdo/aid/137093/jewish/Shin-Sin.htm",
+                    "title": "Shin (Sin) - The twenty-first letter of the Hebrew alphabet - Chabad.org",
+                    "text": "The twenty-first letter of the Hebrew alphabet * Shin (שׁ) is the twenty-first letter of the Hebrew alphabet. * Numerical value: 300. * Sound: \"SH\" with a dot o..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Wikipedia",
+                    "domain": "en.wikipedia.org",
+                    "url": "https://en.wikipedia.org/wiki/Shin_(letter)",
+                    "title": "Shin (letter) - Wikipedia",
+                    "text": "* Shin (Šīn/Sheen): 21st letter of Semitic abjads (Phoenician/Hebrew/Aramaic/Syriac), Arabic 28th/21st. * Phonemes: /ʃ/, /s/ (IPA). * Gematria value: 300 (Arabi..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Hebrew for Christians",
+                    "domain": "www.hebrew4christians.com",
+                    "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Shin/shin.html",
+                    "title": "The Letters Shin / Sin",
+                    "text": "Phonetics: Shin (שִׁין) sounds like \"sh\" (shy); Sin sounds like \"s\" (seen). Forms: 2-stroke manual block print; cursive resembles English lowercase \"e\". Dot Rul..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "ALEFBET - The hebrew letters art gallery",
+                    "domain": "gabrielelevy.com",
+                    "url": "https://gabrielelevy.com/pages/the-letter-shin",
+                    "title": "The letter SHIN – ALEFBET",
+                    "text": "Shin, the 21st Hebrew letter is the letter of fire and transformation. Shin literally means tooth and its shape is 3 branches of flame. These are the 3 pillars ..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/watch?v=gX24yJR6DY8&t=6",
+                    "title": "Secret of the Hebrew letter Shin",
+                    "text": "Secret of the Hebrew letter Shin the 21st letter of the Hebrew alphabet is shin the numeric value of shin is 300 the pictogram or symbol behind the shape of the..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/watch?v=8ceIbnqSStU&t=16",
+                    "title": "The Ancient Hebrew Alphabet - Lesson 21 – Shin",
+                    "text": "The Ancient Hebrew Alphabet - Lesson 21 – Shin if the dot is on the right side then this letter is pronounced sh. and is called the shin. if the dot is on the l..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "a small drop of ink",
+                    "domain": "dinahoverlien.com",
+                    "url": "https://dinahoverlien.com/2020/08/26/shin/",
+                    "title": "Shin | a small drop of ink",
+                    "text": "Letter: Shin is the 21st Hebrew letter (\"sh\" sound); Psalm 119:161-168 lines start with it; resembles a flame. Mezuzah: Engraved with Shin representing El Shadd..."
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "video",
+                "rank_group": 1,
+                "rank_absolute": 2,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]",
+                "items": [
+                  {
+                    "type": "video_element",
+                    "source": "BibleInteract",
+                    "title": "Power of Hebrew Letters: Shin",
+                    "timestamp": "2024-11-15 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=pn7CCPFOVEg"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Ancient Hebrew Research Center",
+                    "title": "The Ancient Hebrew Alphabet - Lesson 21 – Shin",
+                    "timestamp": "2017-06-06 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=8ceIbnqSStU"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "The Jerusalem Scribe",
+                    "title": "“Shin-שין: The deeper meaning of The Holy Hebrew Letters”",
+                    "timestamp": "2023-05-22 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/live/sKVz06WlWG4?pp=QAFIAQ%3D%3D"
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "people_also_ask",
+                "rank_group": 1,
+                "rank_absolute": 3,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]",
+                "items": [
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does shin mean in Judaism?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[1]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "Does each letter in Hebrew have a meaning?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[2]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What number is shin in Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[3]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What letter is Aleph in Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[4]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 1,
+                "rank_absolute": 4,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.reddit.com",
+                "title": "Does anyone else see ש (Hebrew Letter \"Shin\") while looking at nature ...",
+                "url": "https://www.reddit.com/r/ReformJews/comments/1ddq7k2/does_anyone_else_see_%D7%A9_hebrew_letter_shin_while/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "7 comments",
+                "website_name": "Reddit · r/ReformJews",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "ש (Hebrew Letter \"Shin\") while looking at nature? I especially notice it when looking at plant formations as it forms in the trunk and branches ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": [
+                  {
+                    "type": "link_element",
+                    "title": "Just DM’d you something that reminds me of this!",
+                    "description": "Top answer · 6 votes",
+                    "url": "https://www.reddit.com/r/ReformJews/comments/1ddq7k2/comment/l86ohkp/",
+                    "domain": "www.reddit.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Actually I do, now that you mention it.",
+                    "description": "5 votes",
+                    "url": "https://www.reddit.com/r/ReformJews/comments/1ddq7k2/comment/l8dlgjg/",
+                    "domain": "www.reddit.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "That brings me so much comfort as someone that sees a connection with the divine and nature ...",
+                    "description": "5 votes",
+                    "url": "https://www.reddit.com/r/ReformJews/comments/1ddq7k2/does_anyone_else_see_%D7%A9_hebrew_letter_shin_while/lcset70/",
+                    "domain": "www.reddit.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Yes absolutely, everywhere. I sometimes see other Hebrew letters too. Sometimes they actually ...",
+                    "description": "3 votes",
+                    "url": "https://www.reddit.com/r/ReformJews/comments/1ddq7k2/does_anyone_else_see_%D7%A9_hebrew_letter_shin_while/letsctb/",
+                    "domain": "www.reddit.com"
+                  }
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2024-10-11 05:25:57 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 2,
+                "rank_absolute": 5,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.pinterest.com",
+                "title": "Shin and Sin Hebrew",
+                "url": "https://www.pinterest.com/ideas/shin-and-sin-hebrew/949061536877/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.pinterest.com",
+                "website_name": "Pinterest",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "שׁ | hebrew letter shin with shin dot | What does the hebrew letter shin mean. What Does The Hebrew Letter Shin Mean · Shin In Hebrew · Shin Hebrew Symbol.",
+                "pre_snippet": "שׁ | hebrew letter shin with shin dot | What does the hebrew letter shin mean. What Does The Hebrew Letter Shin Mean · Shin In Hebrew · Shin Hebrew Symbol.",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "hebrew"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "short_videos",
+                "rank_group": 1,
+                "rank_absolute": 6,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                "title": "Short videos",
+                "items": [
+                  {
+                    "type": "short_videos_element",
+                    "title": "“Shin-שין: The deeper meaning of The Holy Hebrew Letters” by The Jerusalem Scribe on YouTube. Play on YouTube. 0:22",
+                    "url": "https://www.youtube.com/live/sKVz06WlWG4?pp=QAFIAQ%3D%3D",
+                    "domain": "google.com",
+                    "source": "The Jerusalem Scribe"
+                  },
+                  {
+                    "type": "short_videos_element",
+                    "title": "\"Shin: The Fire Secret of #Creation\" #Hebrew #Shorts The twenty-first ... by The Jerusalem Scribe on Facebook. Play on Facebook. 0:16",
+                    "url": "https://www.facebook.com/thejerusalemscribe/videos/shin-the-fire-secret-of-creation-hebrew-shortsthe-twenty-first-letter-of-the-heb/604500817678083/",
+                    "domain": "google.com",
+                    "source": "The Jerusalem Scribe"
+                  },
+                  {
+                    "type": "short_videos_element",
+                    "title": "Hebrew Alphabet- Sheen vs Sin #shorts #learnhebrew #hebrew",
+                    "url": "https://www.youtube.com/shorts/pIbv8bSCjtA",
+                    "domain": "www.youtube.com",
+                    "source": "The WORD in HEBREW"
+                  },
+                  {
+                    "type": "short_videos_element",
+                    "title": "“Shin-שין: The deeper meaning of The Holy Hebrew Letters” by The Jerusalem Scribe on YouTube. Play on YouTube. 0:22",
+                    "url": "https://m.youtube.com/live/sKVz06WlWG4",
+                    "domain": "google.com",
+                    "source": "The Jerusalem Scribe"
+                  },
+                  {
+                    "type": "short_videos_element",
+                    "title": "Why is sin שׂ and shin שׁ written with one Hebrew letter? ... by Philip Zhakevich on Facebook. Play on Facebook. 1:23",
+                    "url": "https://www.facebook.com/61556263419507/videos/why-is-sin-%D7%A9%D7%82-and-shin-%D7%A9%D7%81-written-with-one-hebrew-letter-hebrew-alphabet-israel-/1488215785546190/",
+                    "domain": "google.com",
+                    "source": "Philip Zhakevich"
+                  },
+                  {
+                    "type": "short_videos_element",
+                    "title": "Shin Shi Hebrew #alphabet #learnhebrewministergail",
+                    "url": "https://www.youtube.com/shorts/t2H06DU6Vuw",
+                    "domain": "www.youtube.com",
+                    "source": "#learnhebrewministergail"
+                  },
+                  {
+                    "type": "short_videos_element",
+                    "title": "“Shin-שין: The deeper meaning of The Holy Hebrew Letters”",
+                    "url": "https://www.youtube.com/shorts/sKVz06WlWG4",
+                    "domain": "www.youtube.com",
+                    "source": "The Jerusalem Scribe"
+                  },
+                  {
+                    "type": "short_videos_element",
+                    "title": "Shin, the Hebrew Alphabet means the flame of fire",
+                    "url": "https://www.youtube.com/watch?v=LMUv9DRyQaY",
+                    "domain": "www.youtube.com",
+                    "source": "NESAM UNLIMITED"
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 3,
+                "rank_absolute": 7,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[12]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "objectivetranslation.home.blog",
+                "title": "ש – Shin – Biblical Hebrew Study Dictionary",
+                "url": "https://objectivetranslation.home.blog/%D7%A9-shin-biblical-hebrew-study-dictionary/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://objectivetranslation.home.blog",
+                "website_name": "Home.blog",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Focusing on word construction and origin, this page includes, but isn't limited to, all words that begin with the letter ש (Shin ) and occur ten times or ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "all words that begin with the letter ש (Shin"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 4,
+                "rank_absolute": 8,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "judaism.stackexchange.com",
+                "title": "Why shin and sin? - hebrew - Mi Yodeya - Stack Exchange",
+                "url": "https://judaism.stackexchange.com/questions/4291/why-shin-and-sin",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://judaism.stackexchange.com",
+                "website_name": "Mi Yodeya",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Why does Hebrew use the same letter to represent two different sounds: shin and sin? As far as I know, with the exception of when using a dagesh kal, ...",
+                "pre_snippet": "11/30/2010 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": [
+                  {
+                    "type": "link_element",
+                    "title": "http://ancient-hebrew.org/36_creation.html , which I realize a lot of ...",
+                    "description": "Top answer · 1 vote",
+                    "url": "https://judaism.stackexchange.com/a/4807",
+                    "domain": "judaism.stackexchange.com"
+                  }
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2010-11-30 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "images",
+                "rank_group": 1,
+                "rank_absolute": 9,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[15]",
+                "title": "Images",
+                "url": null,
+                "items": [
+                  {
+                    "type": "images_element",
+                    "alt": "Shin Letter Symbol vinyl decal Hebrew Judaism Sticker",
+                    "url": "https://www.etsy.com/listing/1814033408/shin-letter-symbol-vinyl-decal-hebrew",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1-mNBGTvX3hRq6R40-ZyjxeRhp7l-5a7R-tfB9D5mlQ&s"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "Shin (Sin) - The twenty-first letter of the Hebrew alphabet ...",
+                    "url": "https://www.chabad.org/library/article_cdo/aid/137093/jewish/Shin-Sin.htm",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYBbLbMQh9GPrcCobyWB_OurC-MQ6ml7Ybos0u18uzS6oTBETvXLF3V2s&s"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "shin ש",
+                    "url": "https://www.salineseniors.org/post/shin-%D7%A9",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ29efKLzbjrwOUlywplJb4qbOpTeb6iBoSMjNcNO1ZxQ&s"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "Shin Letter Symbol vinyl decal Hebrew Judaism Sticker | eBay",
+                    "url": "https://www.ebay.com/itm/167105203781",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9wiFljiNvE0kQrWGpyvOeHp3S17uY4UKDffNDQuZqHg&s"
+                  }
+                ],
+                "related_image_searches": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 5,
+                "rank_absolute": 10,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[17]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "kriakala.com",
+                "title": "The Hebrew Letter Shin (ש) – Shape, Sound & How to Teach",
+                "url": "https://kriakala.com/hebrew-letter-shin",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://kriakala.com",
+                "website_name": "קריאה קלה",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Jun 9, 2026 — Shin is the 21st letter of the Hebrew alphabet (Aleph Bet), with a gematria value of 300. Its three upward prongs make it one of the most ...",
+                "pre_snippet": "06/09/2026 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Shin is the 21st letter of the Hebrew alphabet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2026-06-09 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 6,
+                "rank_absolute": 11,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "ivrianochi.home.blog",
+                "title": "Origins of the Hebrew Aleph-Bet (Part 21, Shin/Sin)",
+                "url": "https://ivrianochi.home.blog/2019/06/06/origins-of-the-hebrew-aleph-bet-part-21-shin-sin/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://ivrianochi.home.blog",
+                "website_name": "Home.blog",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Based on its modern form people assume that it depicts two teeth and that the name is a form of the word “shen” meaning a tooth. However the ...",
+                "pre_snippet": "06/06/2019 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2019-06-06 00:00:00 +00:00",
+                "rectangle": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "keyword": "interactive hebrew alphabet course",
+  "retrieved_at_utc": "2026-10-11T05:28:09.794Z",
+  "raw": {
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "15.8308 sec.",
+    "cost": 0.002,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "10110527-2762-0139-0000-4c0f8b50d1d3",
+        "status_code": 40101,
+        "status_message": "Internal SE Server Error.",
+        "time": "15.7694 sec.",
+        "cost": 0.002,
+        "result_count": 0,
+        "path": [
+          "v3",
+          "serp",
+          "google",
+          "organic",
+          "live",
+          "advanced"
+        ],
+        "data": {
+          "api": "serp",
+          "function": "live",
+          "se": "google",
+          "se_type": "organic",
+          "keyword": "interactive hebrew alphabet course",
+          "location_code": 2840,
+          "language_code": "en",
+          "device": "mobile",
+          "os": "android",
+          "depth": 10
+        },
+        "result": null
+      }
+    ]
+  }
+}

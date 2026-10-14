@@ -1,0 +1,808 @@
+{
+  "keyword": "he hebrew letter",
+  "retrieved_at_utc": "2026-10-11T05:22:39.981Z",
+  "raw": {
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "4.5279 sec.",
+    "cost": 0.002,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "10110522-2762-0139-0000-33b7bdec8f62",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "4.4293 sec.",
+        "cost": 0.002,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "serp",
+          "google",
+          "organic",
+          "live",
+          "advanced"
+        ],
+        "data": {
+          "api": "serp",
+          "function": "live",
+          "se": "google",
+          "se_type": "organic",
+          "keyword": "he hebrew letter",
+          "location_code": 2840,
+          "language_code": "en",
+          "device": "mobile",
+          "os": "android",
+          "depth": 10
+        },
+        "result": [
+          {
+            "keyword": "he hebrew letter",
+            "type": "organic",
+            "se_domain": "google.com",
+            "location_code": 2840,
+            "language_code": "en",
+            "check_url": "https://www.google.com/search?q=he%20hebrew%20letter&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+            "datetime": "2026-10-11 05:22:39 +00:00",
+            "spell": null,
+            "refinement_chips": null,
+            "item_types": [
+              "ai_overview",
+              "images",
+              "organic",
+              "people_also_ask",
+              "people_also_search",
+              "video"
+            ],
+            "se_results_count": 0,
+            "pages_count": 1,
+            "items_count": 13,
+            "items": [
+              {
+                "type": "ai_overview",
+                "rank_group": 1,
+                "rank_absolute": 1,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]",
+                "asynchronous_ai_overview": false,
+                "markdown": "![Learning the Hebrew letter Hey in Psalm 119](https://api.dataforseo.com/cdn/i/10110522-2762-0139-0000-33b7bdec8f62:4)\nThe Hebrew letter **He** (also spelled **Hei** or **Hey** , written as **ה** ) is the fifth letter of the [Hebrew Alphabet](https://hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Hey/hey.html).[[1]](https://hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Hey/hey.html)[[2]](https://www.chabad.org/library/article_cdo/aid/137077/jewish/Heh.htm)\n\n### Core Facts\n\n- **Numeric Value:** 5 (used in gematria).\n- **Sound:** Makes an \"h\" sound (like in \"heaven\") at the beginning or middle of a syllable, and is often silent at the end of a word.\n- **Grammar Function:** Acts as the definite article prefix meaning \"the\" (e.g., *HaShem* ), a question prefix, or a directional suffix.\n- **Sacred Meaning:** Appears twice in the Tetragrammaton (the four-letter name of God, **יהוה** - Yod-He-Vav-He).[[1]](https://hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Hey/hey.html)[[2]](https://www.chabad.org/library/article_cdo/aid/137077/jewish/Heh.htm)[[3]](https://dinahoverlien.com/2020/05/06/he/)[[4]](https://kriakala.com/hebrew-letter-he)[[5]](https://en.wikipedia.org/wiki/He_(letter))[[6]](https://ephraimintheland.wordpress.com/2018/01/04/hey-%D7%94-the-breath-of-yhvh/)[[7]](https://www.youtube.com/watch?v=ZdYOBnPQdxo&t=532)\n\n### Symbolism & History\n\n- **Pictograph Origin:** Originally depicted a person with raised arms in wonder or a window, meaning \"behold,\" \"look,\" or \"breath/sigh\".\n- **Design:** Formed with a gap/opening at the bottom-left, which Jewish tradition interprets as a gateway for repentance and humility (resembling *matzah* rather than puffed-up leaven).\n- **Ancestry:** Served as the ancestor to the Greek **Epsilon** and the Latin **E**.[[1]](https://en.wikipedia.org/wiki/He_(letter))[[2]](https://hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Hey/hey.html)[[3]](https://www.chabad.org/library/article_cdo/aid/137077/jewish/Heh.htm)[[4]](https://www.youtube.com/watch?v=HCqCc96LClE)\n\nWould you like to explore how He functions as a **prefix in Hebrew grammar** , or look into its **gematria and mystical symbolism** further?",
+                "items": [
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "The Hebrew letter He (also spelled Hei or Hey, written as ה ) is the fifth letter of the Hebrew Alphabet.",
+                    "markdown": "![Learning the Hebrew letter Hey in Psalm 119](https://api.dataforseo.com/cdn/i/10110522-2762-0139-0000-33b7bdec8f62:2)\nThe Hebrew letter **He** (also spelled **Hei** or **Hey** , written as **ה** ) is the fifth letter of the [Hebrew Alphabet](https://hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Hey/hey.html).[[1]](https://hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Hey/hey.html)[[2]](https://www.chabad.org/library/article_cdo/aid/137077/jewish/Heh.htm)",
+                    "links": [
+                      {
+                        "type": "link_element",
+                        "title": "Hebrew Alphabet",
+                        "description": null,
+                        "url": "https://hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Hey/hey.html",
+                        "domain": "hebrew4christians.com"
+                      }
+                    ],
+                    "images": [
+                      {
+                        "type": "images_element",
+                        "alt": "Learning the Hebrew letter Hey in Psalm 119",
+                        "url": null,
+                        "image_url": "https://api.dataforseo.com/cdn/i/10110522-2762-0139-0000-33b7bdec8f62:3"
+                      }
+                    ],
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew for Christians",
+                        "domain": "hebrew4christians.com",
+                        "url": "https://hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Hey/hey.html",
+                        "title": "The Letter Hey - Hebrew for Christians",
+                        "text": "The letter Hey is the fifth letter of the Aleph-Bet, having the numeric value of five. The pictograph for Hey looks like a man with his arms raised, whereas the..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137077/jewish/Heh.htm",
+                        "title": "Heh - The fifth letter of the Hebrew alphabet - Chabad.org",
+                        "text": "The fifth letter of the Hebrew alphabet * Heh ( Hei) (Hey) (ה) is the fifth letter of the Hebrew alphabet. * Numerical value: 5. * Sound: \"H\" * Meaning: 1. here..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Core Facts",
+                    "markdown": "### Core Facts",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Numeric Value: 5 (used in gematria). Sound: Makes an \"h\" sound (like in \"heaven\") at the beginning or middle of a syllable, and is often silent at the end of a word. Grammar Function: Acts as the definite article prefix meaning \"the\" (e.g., HaShem), a question prefix, or a directional suffix. Sacred Meaning: Appears twice in the Tetragrammaton (the four-letter name of God, יהוה - Yod-He-Vav-He).",
+                    "markdown": "- **Numeric Value:** 5 (used in gematria).\n- **Sound:** Makes an \"h\" sound (like in \"heaven\") at the beginning or middle of a syllable, and is often silent at the end of a word.\n- **Grammar Function:** Acts as the definite article prefix meaning \"the\" (e.g., *HaShem* ), a question prefix, or a directional suffix.\n- **Sacred Meaning:** Appears twice in the Tetragrammaton (the four-letter name of God, **יהוה** - Yod-He-Vav-He).[[1]](https://hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Hey/hey.html)[[2]](https://www.chabad.org/library/article_cdo/aid/137077/jewish/Heh.htm)[[3]](https://dinahoverlien.com/2020/05/06/he/)[[4]](https://kriakala.com/hebrew-letter-he)[[5]](https://en.wikipedia.org/wiki/He_(letter))[[6]](https://ephraimintheland.wordpress.com/2018/01/04/hey-%D7%94-the-breath-of-yhvh/)[[7]](https://www.youtube.com/watch?v=ZdYOBnPQdxo&t=532)",
+                    "links": null,
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew for Christians",
+                        "domain": "hebrew4christians.com",
+                        "url": "https://hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Hey/hey.html",
+                        "title": "The Letter Hey - Hebrew for Christians",
+                        "text": "The letter Hey is the fifth letter of the Aleph-Bet, having the numeric value of five. The pictograph for Hey looks like a man with his arms raised, whereas the..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137077/jewish/Heh.htm",
+                        "title": "Heh - The fifth letter of the Hebrew alphabet - Chabad.org",
+                        "text": "The fifth letter of the Hebrew alphabet * Heh ( Hei) (Hey) (ה) is the fifth letter of the Hebrew alphabet. * Numerical value: 5. * Sound: \"H\" * Meaning: 1. here..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "a small drop of ink",
+                        "domain": "dinahoverlien.com",
+                        "url": "https://dinahoverlien.com/2020/05/06/he/",
+                        "title": "He | a small drop of ink",
+                        "text": "Letter He: Fifth Hebrew alphabet letter (sounds like h in heaven); Psalm 119:33-40 lines start with it. Symbolism: Divine Breath/exhale of Spirit (Psalm 33:6, G..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "קריאה קלה",
+                        "domain": "kriakala.com",
+                        "url": "https://kriakala.com/hebrew-letter-he",
+                        "title": "The Hebrew Letter He (ה) – Shape, Sound & How to Teach | Kriakala",
+                        "text": "About the Letter He He is the 5th letter of the Hebrew alphabet (Aleph Bet), with a gematria value of 5. Its Hebrew name is הֵא. He is notable for having two be..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Wikipedia",
+                        "domain": "en.wikipedia.org",
+                        "url": "https://en.wikipedia.org/wiki/He_(letter)",
+                        "title": "He (letter) - Wikipedia",
+                        "text": "Origins: Fifth letter of Semitic abjads (Phoenician hē, Hebrew hē, Arabic hāʾ); derived from Egyptian hieroglyphs via Proto-Canaanite \"window\"; ancestral to Gre..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "WordPress.com",
+                        "domain": "ephraimintheland.wordpress.com",
+                        "url": "https://ephraimintheland.wordpress.com/2018/01/04/hey-%D7%94-the-breath-of-yhvh/",
+                        "title": "Hey ה The Breath of YHVH – Ephraim in the Land",
+                        "text": "Letter Meaning: Hey (ה) is the fifth Hebrew letter, sounding \"h,\" meaning to behold, breath, sigh, look, reveal, and representing the Ruach HaKodesh/Holy Spirit..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=ZdYOBnPQdxo&t=532",
+                        "title": "The Hebrew Letter Hey – Breath, Revelation, and the Essence of Life",
+                        "text": "The Hebrew Letter Hey – Breath, Revelation, and the Essence of Life | Lesson 5 place pause this video before going on and be sure to journal your thoughts ask G..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Symbolism & History",
+                    "markdown": "### Symbolism & History",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Pictograph Origin: Originally depicted a person with raised arms in wonder or a window, meaning \"behold,\" \"look,\" or \"breath/sigh\". Design: Formed with a gap/opening at the bottom-left, which Jewish tradition interprets as a gateway for repentance and humility (resembling matzah rather than puffed-up leaven). Ancestry: Served as the ancestor to the Greek Epsilon and the Latin E.",
+                    "markdown": "- **Pictograph Origin:** Originally depicted a person with raised arms in wonder or a window, meaning \"behold,\" \"look,\" or \"breath/sigh\".\n- **Design:** Formed with a gap/opening at the bottom-left, which Jewish tradition interprets as a gateway for repentance and humility (resembling *matzah* rather than puffed-up leaven).\n- **Ancestry:** Served as the ancestor to the Greek **Epsilon** and the Latin **E**.[[1]](https://en.wikipedia.org/wiki/He_(letter))[[2]](https://hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Hey/hey.html)[[3]](https://www.chabad.org/library/article_cdo/aid/137077/jewish/Heh.htm)[[4]](https://www.youtube.com/watch?v=HCqCc96LClE)",
+                    "links": null,
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Wikipedia",
+                        "domain": "en.wikipedia.org",
+                        "url": "https://en.wikipedia.org/wiki/He_(letter)",
+                        "title": "He (letter) - Wikipedia",
+                        "text": "Origins: Fifth letter of Semitic abjads (Phoenician hē, Hebrew hē, Arabic hāʾ); derived from Egyptian hieroglyphs via Proto-Canaanite \"window\"; ancestral to Gre..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew for Christians",
+                        "domain": "hebrew4christians.com",
+                        "url": "https://hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Hey/hey.html",
+                        "title": "The Letter Hey - Hebrew for Christians",
+                        "text": "The letter Hey is the fifth letter of the Aleph-Bet, having the numeric value of five. The pictograph for Hey looks like a man with his arms raised, whereas the..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137077/jewish/Heh.htm",
+                        "title": "Heh - The fifth letter of the Hebrew alphabet - Chabad.org",
+                        "text": "The fifth letter of the Hebrew alphabet * Heh ( Hei) (Hey) (ה) is the fifth letter of the Hebrew alphabet. * Numerical value: 5. * Sound: \"H\" * Meaning: 1. here..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=HCqCc96LClE",
+                        "title": "Ancient Hebrew Alphabet - Lesson 5 - Hey",
+                        "text": "the next letter in the Hebrew alphabet is the letter hey the word hey is usually translated as behold in the biblical. text. but can be understood as wow look a..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Would you like to explore how He functions as a prefix in Hebrew grammar, or look into its gematria and mystical symbolism further?",
+                    "markdown": "Would you like to explore how He functions as a **prefix in Hebrew grammar** , or look into its **gematria and mystical symbolism** further?",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  }
+                ],
+                "references": [
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Hebrew for Christians",
+                    "domain": "hebrew4christians.com",
+                    "url": "https://hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Hey/hey.html",
+                    "title": "The Letter Hey - Hebrew for Christians",
+                    "text": "The letter Hey is the fifth letter of the Aleph-Bet, having the numeric value of five. The pictograph for Hey looks like a man with his arms raised, whereas the..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Wikipedia",
+                    "domain": "en.wikipedia.org",
+                    "url": "https://en.wikipedia.org/wiki/He_(letter)",
+                    "title": "He (letter) - Wikipedia",
+                    "text": "Origins: Fifth letter of Semitic abjads (Phoenician hē, Hebrew hē, Arabic hāʾ); derived from Egyptian hieroglyphs via Proto-Canaanite \"window\"; ancestral to Gre..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Chabad",
+                    "domain": "www.chabad.org",
+                    "url": "https://www.chabad.org/library/article_cdo/aid/137077/jewish/Heh.htm",
+                    "title": "Heh - The fifth letter of the Hebrew alphabet - Chabad.org",
+                    "text": "The fifth letter of the Hebrew alphabet * Heh ( Hei) (Hey) (ה) is the fifth letter of the Hebrew alphabet. * Numerical value: 5. * Sound: \"H\" * Meaning: 1. here..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/watch?v=ZdYOBnPQdxo&t=532",
+                    "title": "The Hebrew Letter Hey – Breath, Revelation, and the Essence of Life",
+                    "text": "The Hebrew Letter Hey – Breath, Revelation, and the Essence of Life | Lesson 5 place pause this video before going on and be sure to journal your thoughts ask G..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "WordPress.com",
+                    "domain": "ephraimintheland.wordpress.com",
+                    "url": "https://ephraimintheland.wordpress.com/2018/01/04/hey-%D7%94-the-breath-of-yhvh/",
+                    "title": "Hey ה The Breath of YHVH – Ephraim in the Land",
+                    "text": "Letter Meaning: Hey (ה) is the fifth Hebrew letter, sounding \"h,\" meaning to behold, breath, sigh, look, reveal, and representing the Ruach HaKodesh/Holy Spirit..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/watch?v=HCqCc96LClE",
+                    "title": "Ancient Hebrew Alphabet - Lesson 5 - Hey",
+                    "text": "the next letter in the Hebrew alphabet is the letter hey the word hey is usually translated as behold in the biblical. text. but can be understood as wow look a..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "a small drop of ink",
+                    "domain": "dinahoverlien.com",
+                    "url": "https://dinahoverlien.com/2020/05/06/he/",
+                    "title": "He | a small drop of ink",
+                    "text": "Letter He: Fifth Hebrew alphabet letter (sounds like h in heaven); Psalm 119:33-40 lines start with it. Symbolism: Divine Breath/exhale of Spirit (Psalm 33:6, G..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "קריאה קלה",
+                    "domain": "kriakala.com",
+                    "url": "https://kriakala.com/hebrew-letter-he",
+                    "title": "The Hebrew Letter He (ה) – Shape, Sound & How to Teach | Kriakala",
+                    "text": "About the Letter He He is the 5th letter of the Hebrew alphabet (Aleph Bet), with a gematria value of 5. Its Hebrew name is הֵא. He is notable for having two be..."
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "images",
+                "rank_group": 1,
+                "rank_absolute": 2,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]",
+                "title": "Images",
+                "url": null,
+                "items": [
+                  {
+                    "type": "images_element",
+                    "alt": "He Hebrew Letter Icon On White",
+                    "url": "https://www.shutterstock.com/image-illustration/he-hebrew-letter-icon-on-white-1784046464",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110522-2762-0139-0000-33b7bdec8f62:5"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "Hebrew Letter He Fifth Letter Hebrew",
+                    "url": "https://www.shutterstock.com/image-vector/hebrew-letter-he-fifth-alphabet-meaning-1544388113",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110522-2762-0139-0000-33b7bdec8f62:6"
+                  }
+                ],
+                "related_image_searches": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 1,
+                "rank_absolute": 3,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[4]/div[1]/div[1]",
+                "domain": "www.youtube.com",
+                "title": "Hebrew Alphabet - Letter Hey ה",
+                "url": "https://www.youtube.com/watch?v=jxv8jN3xM58",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "2.9K+ views",
+                "website_name": "YouTube · Stefy Kefy",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "Hebrew Alphabet - Letter Hey ה. @morahstefaniespreschool613 25 likes ... Hebrew Word of the Day: Ken / Lo כן / לא #hebrewlanguage #jewish #hebrew ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2024-10-11 05:22:38 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "people_also_ask",
+                "rank_group": 1,
+                "rank_absolute": 4,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]",
+                "items": [
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What is the Hebrew letter for \"hey\"?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[1]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does the letter H mean biblically?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[2]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What are the 22 Hebrew letters in order?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[3]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does the letter \"u\" mean in Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[4]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "people_also_search",
+                "rank_group": 1,
+                "rank_absolute": 5,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[8]",
+                "title": "People also search for",
+                "items": [
+                  "He hebrew letter meaning",
+                  "He hebrew letter pronunciation",
+                  "He hebrew letter to english",
+                  "He hebrew letter tattoo",
+                  "Hebrew alphabet",
+                  "He and She in Hebrew"
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 2,
+                "rank_absolute": 6,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.reddit.com",
+                "title": "understanding the alphabet - adding He : r/hebrew",
+                "url": "https://www.reddit.com/r/hebrew/comments/181h5jm/understanding_the_alphabet_adding_he/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "20+ comments",
+                "website_name": "Reddit · r/hebrew",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "At the end of a word, he ה‎ can also be used to indicate that a vowel a or e should be pronounced. [ ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": [
+                  "hebrew letter",
+                  "hebrew",
+                  "he and she",
+                  "psalm 119 he",
+                  "waw meaning",
+                  "shin hebrew",
+                  "hebrew",
+                  "him in"
+                ],
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2024-10-11 05:22:38 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 3,
+                "rank_absolute": 7,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[11]/div[1]/div[1]",
+                "domain": "www.youtube.com",
+                "title": "Hebrew Hey (ה) The Easy Way",
+                "url": "https://www.youtube.com/watch?v=9s_xojDEerg",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "7.9K+ views",
+                "website_name": "YouTube · The ShevonYah Show",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "Choices for families ; Learn the Hebrew Alphabet in 30 minutes! - Made Simple for Beginners. Hebreways · 7.4K views ; After My Son Was Fired by His ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2018-10-11 05:22:38 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 4,
+                "rank_absolute": 8,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[13]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.biblicaltraining.org",
+                "title": "He - Search results provided by BiblicalTraining",
+                "url": "https://www.biblicaltraining.org/library/he",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.biblicaltraining.org",
+                "website_name": "Biblical Training.org",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "HE hā (ה). The fifth letter in the Heb. alphabet corresponding to Eng. “h.” It is classified linguistically as a laryngeal fricative. International Standard ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "video",
+                "rank_group": 1,
+                "rank_absolute": 9,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[15]",
+                "items": [
+                  {
+                    "type": "video_element",
+                    "source": "The Local Dreamer Podcast",
+                    "title": "The Hebrew Letter Hey – Breath, Revelation, and the Essence of Life",
+                    "timestamp": "2025-08-29 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=ZdYOBnPQdxo"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Learn Hebrew with HebrewPod101.com",
+                    "title": "Learn Hebrew Alphabet #5 - ה (hei)",
+                    "timestamp": "2026-03-17 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/shorts/CG8IbNaGHNY"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Learn The Lingo: Hebrew",
+                    "title": "Hebrew Phonics #3: Hey",
+                    "timestamp": "2024-03-11 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=2mEqgk9e650"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Bible Stories as Blueprints of The Soul",
+                    "title": "Biblical Hebrew for Beginners: The Meaning Of The Letter Heh",
+                    "timestamp": "2019-10-13 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=A2-qvmEmebg"
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 5,
+                "rank_absolute": 10,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[17]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.quora.com",
+                "title": "How did the letter 'hey' in Hebrew change from being pronounced 'h' to ' ...",
+                "url": "https://www.quora.com/How-did-the-letter-hey-in-Hebrew-change-from-being-pronounced-h-to-a",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "30+ answers",
+                "website_name": "Quora",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "How did the letter 'hey' in Hebrew change from being pronounced 'h' to 'a'?",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": [
+                  {
+                    "type": "link_element",
+                    "title": "The hey has taken something of a hit because Israel has absorbed many immigrants accustomed ...",
+                    "description": "Top answer · 10 votes",
+                    "url": "https://www.quora.com/How-did-the-letter-hey-in-Hebrew-change-from-being-pronounced-h-to-a?top_ans=30416595",
+                    "domain": "www.quora.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Who said it did? Hebrew is my mother tongue and I prounounce it correctly, and so does everyone ...",
+                    "description": "5 votes",
+                    "url": "https://www.quora.com/How-did-the-letter-hey-in-Hebrew-change-from-being-pronounced-h-to-a?top_ans=30376627",
+                    "domain": "www.quora.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "It didn’t.\n\nThe letter ה׳ - He - is indeed the Hebrew equivalent of H.\n\nIn itself, ...",
+                    "description": "1 vote",
+                    "url": "https://www.quora.com/How-did-the-letter-hey-in-Hebrew-change-from-being-pronounced-h-to-a?top_ans=30415684",
+                    "domain": "www.quora.com"
+                  }
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2017-10-11 05:22:38 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 6,
+                "rank_absolute": 11,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[18]/div[1]/div[1]",
+                "domain": "www.youtube.com",
+                "title": "Jim Staley - Hebrew Alphabet (Part 3) - Hey",
+                "url": "https://www.youtube.com/watch?v=JgJnPMhL5Ds",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "6.8K+ views",
+                "website_name": "YouTube · Passion For Truth Ministries",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "The Letter “Hey”. Jim continues “Discovering the Depth of the Hebrew Alphabet” with an exploration of the letter Hey.",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2022-10-11 05:22:38 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 7,
+                "rank_absolute": 12,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[20]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "halyministries.com",
+                "title": "Hebrew Letter Hey: Unlocking the Hidden Meaning for Christians",
+                "url": "https://halyministries.com/hebrew-letter-hey-unlocking-the-hidden-meaning-for-christians/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://halyministries.com",
+                "website_name": "Haly Ministries",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "As the fifth letter in the Hebrew alphabet, Hey (ה) contains rich symbolism for people pursuing God. In its form, Hey resembles a person ...",
+                "pre_snippet": "10/13/2023 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2023-10-13 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "people_also_search",
+                "rank_group": 2,
+                "rank_absolute": 13,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[4]/div[1]/div[3]/div[1]",
+                "title": "People also search for",
+                "items": [
+                  "Psalm 119 He meaning in Hebrew",
+                  "Waw meaning in Hebrew",
+                  "Shin Hebrew letter",
+                  "Hebrew letter Vav",
+                  "Him in hebrew",
+                  "YHWH in Hebrew"
+                ],
+                "rectangle": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

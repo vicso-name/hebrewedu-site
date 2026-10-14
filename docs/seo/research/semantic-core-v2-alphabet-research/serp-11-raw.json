@@ -1,0 +1,797 @@
+{
+  "keyword": "kaf hebrew letter",
+  "retrieved_at_utc": "2026-10-11T05:24:22.709Z",
+  "raw": {
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "3.8057 sec.",
+    "cost": 0.002,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "10110523-2762-0139-0000-9823d1d06dab",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "3.7289 sec.",
+        "cost": 0.002,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "serp",
+          "google",
+          "organic",
+          "live",
+          "advanced"
+        ],
+        "data": {
+          "api": "serp",
+          "function": "live",
+          "se": "google",
+          "se_type": "organic",
+          "keyword": "kaf hebrew letter",
+          "location_code": 2840,
+          "language_code": "en",
+          "device": "mobile",
+          "os": "android",
+          "depth": 10
+        },
+        "result": [
+          {
+            "keyword": "kaf hebrew letter",
+            "type": "organic",
+            "se_domain": "google.com",
+            "location_code": 2840,
+            "language_code": "en",
+            "check_url": "https://www.google.com/search?q=kaf%20hebrew%20letter&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+            "datetime": "2026-10-11 05:23:49 +00:00",
+            "spell": null,
+            "refinement_chips": null,
+            "item_types": [
+              "ai_overview",
+              "video",
+              "people_also_ask",
+              "organic",
+              "people_also_search",
+              "images"
+            ],
+            "se_results_count": 0,
+            "pages_count": 1,
+            "items_count": 12,
+            "items": [
+              {
+                "type": "ai_overview",
+                "rank_group": 1,
+                "rank_absolute": 1,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]",
+                "asynchronous_ai_overview": false,
+                "markdown": "The Hebrew letter [Kaf / Chaf](https://www.chabad.org/library/article_cdo/aid/137083/jewish/Kaf-Chaf.htm) (`כ` / `ך` ) is the `11th letter of the Hebrew alphabet`.[[1]](https://www.chabad.org/library/article_cdo/aid/137083/jewish/Kaf-Chaf.htm)\n\n### Key Facts\n\n- **Numerical Value (Gematria):** 20 (and 500 for the final form).[[1]](https://en.wikipedia.org/wiki/Kaph)\n- **Meaning:** \"Palm of the hand,\" \"spoon,\" or \"vessel\". It originates from a pictograph of an open hand.[[1]](https://objectivetranslation.home.blog/2019/05/26/the-amazing-biblical-language-the-importance-of-the-letter-kaf/)[[2]](https://www.balashon.com/2006/10/kaf.html)\n- **Pronunciation:** \n\t- With a dot inside (dagesh), it sounds like a hard **\"K\"** (as in *kit*).\n\t- Without a dot, it sounds like a soft **\"Kh\" or \"Ch\"** (as in the Scottish *loch* or German *bach*).[[1]](https://www.etz-hayim.com/hebrew/letters_and_vowels/kaf.php)\n- **Forms:** \n\t- **Standard (כ):** Used at the beginning or middle of a word; shaped like a curved palm or bowl.\n\t- **Final / Sofit (ך):** Used only at the very end of a word, written with a straight, descending line.[[1]](https://www.chabad.org/library/article_cdo/aid/137083/jewish/Kaf-Chaf.htm)[[2]](https://www.youtube.com/watch?v=btXfkvjS3vs)\n\n### Symbolism and Significance\n\n- **Vessel and Action:** A palm acts as a container or tool to hold, weigh, or give. In Jewish mysticism, it represents the bridge between *koach* (potential) and *poel* (actualization)—bringing spiritual intent into physical action.[[1]](https://inner.org/hebleter/kaf.htm)[[2]](https://gabrielelevy.com/pages/the-letter-kaf)[[3]](https://hebrew.learnoutlive.com/the-letter-kaf-as-a-metaphor/)\n- **Grammar:** As a prefix, *kaf* means \"like,\" \"as,\" or \"according to\" (e.g., *ka-melekh* , meaning \"like a king\"). As a suffix, it denotes the second-person singular possessive (\"your\").[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Kaf/kaf.html)[[2]](https://en.wikipedia.org/wiki/Kaph)\n\nWould you like to explore **words that start with Kaf** or look into its role in **Hebrew grammar**?",
+                "items": [
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "The Hebrew letter Kaf / Chaf ( כ / ך ) is the 11th letter of the Hebrew alphabet.",
+                    "markdown": "The Hebrew letter [Kaf / Chaf](https://www.chabad.org/library/article_cdo/aid/137083/jewish/Kaf-Chaf.htm) (`כ` / `ך` ) is the `11th letter of the Hebrew alphabet`.[[1]](https://www.chabad.org/library/article_cdo/aid/137083/jewish/Kaf-Chaf.htm)",
+                    "links": [
+                      {
+                        "type": "link_element",
+                        "title": "Kaf / Chaf",
+                        "description": null,
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137083/jewish/Kaf-Chaf.htm",
+                        "domain": "www.chabad.org"
+                      }
+                    ],
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137083/jewish/Kaf-Chaf.htm",
+                        "title": "Kaf (Chaf) - The eleventh letter of the Hebrew alphabet - Chabad.org",
+                        "text": "Letter: Kaf / Chaf (11th Hebrew letter; numerical value 20; sound: 'K' with dagesh, 'KH' without). Meaning: Palm, spoon, crown, bending/submission to God. Gemat..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Key Facts",
+                    "markdown": "### Key Facts",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Numerical Value (Gematria): 20 (and 500 for the final form). Meaning: \"Palm of the hand,\" \"spoon,\" or \"vessel\". It originates from a pictograph of an open hand. Pronunciation:With a dot inside (dagesh), it sounds like a hard \"K\" (as in kit).\nWithout a dot, it sounds like a soft \"Kh\" or \"Ch\" (as in the Scottish loch or German bach). With a dot inside (dagesh), it sounds like a hard \"K\" (as in kit). Without a dot, it sounds like a soft \"Kh\" or \"Ch\" (as in the Scottish loch or German bach). Forms:Standard (כ): Used at the beginning or middle of a word; shaped like a curved palm or bowl.\nFinal / Sofit (ך): Used only at the very end of a word, written with a straight, descending line. Standard (כ): Used at the beginning or middle of a word; shaped like a curved palm or bowl. Final / Sofit (ך): Used only at the very end of a word, written with a straight, descending line.",
+                    "markdown": "- **Numerical Value (Gematria):** 20 (and 500 for the final form).[[1]](https://en.wikipedia.org/wiki/Kaph)\n- **Meaning:** \"Palm of the hand,\" \"spoon,\" or \"vessel\". It originates from a pictograph of an open hand.[[1]](https://objectivetranslation.home.blog/2019/05/26/the-amazing-biblical-language-the-importance-of-the-letter-kaf/)[[2]](https://www.balashon.com/2006/10/kaf.html)\n- **Pronunciation:** \n\t- With a dot inside (dagesh), it sounds like a hard **\"K\"** (as in *kit*).\n\t- Without a dot, it sounds like a soft **\"Kh\" or \"Ch\"** (as in the Scottish *loch* or German *bach*).[[1]](https://www.etz-hayim.com/hebrew/letters_and_vowels/kaf.php)\n- **Forms:** \n\t- **Standard (כ):** Used at the beginning or middle of a word; shaped like a curved palm or bowl.\n\t- **Final / Sofit (ך):** Used only at the very end of a word, written with a straight, descending line.[[1]](https://www.chabad.org/library/article_cdo/aid/137083/jewish/Kaf-Chaf.htm)[[2]](https://www.youtube.com/watch?v=btXfkvjS3vs)",
+                    "links": null,
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Wikipedia",
+                        "domain": "en.wikipedia.org",
+                        "url": "https://en.wikipedia.org/wiki/Kaph",
+                        "title": "Kaph - Wikipedia",
+                        "text": "Kaph: Eleventh letter of Semitic abjads (Phoenician 𐤊, Hebrew כ, Arabic ك), derived from a hand pictogram meaning \"palm/grip\"; numerical value 20; ancestor to ..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Home.blog",
+                        "domain": "objectivetranslation.home.blog",
+                        "url": "https://objectivetranslation.home.blog/2019/05/26/the-amazing-biblical-language-the-importance-of-the-letter-kaf/",
+                        "title": "The Amazing Biblical Language: The Importance of The Letter Kaf",
+                        "text": "The Amazing Biblical Language: The Importance of The Letter Kaf. On May 26, 2019 June 12, 2019 By T.E.In Hebrew Letters. The letter Kaf originated as a pictogra..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Balashon",
+                        "domain": "www.balashon.com",
+                        "url": "https://www.balashon.com/2006/10/kaf.html",
+                        "title": "Balashon",
+                        "text": "kaf The 11th letter in the Hebrew alphabet is kaf (or kaph): כ The letter gets its name due to its similarity to the shape of the palm of a hand: כף היד kaf hay..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Etz Hayim—\"Tree of Life\"",
+                        "domain": "www.etz-hayim.com",
+                        "url": "https://www.etz-hayim.com/hebrew/letters_and_vowels/kaf.php",
+                        "title": "The Hebrew letter Kaf | Etz Hayim \"Tree of Life\"",
+                        "text": "KAF is the eleventh letter of the Hebrew alphabet. Kaf has two pronunciations. Kaf, with a dagesh kal (small dot in the center) of the letter, and Khaf without ..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137083/jewish/Kaf-Chaf.htm",
+                        "title": "Kaf (Chaf) - The eleventh letter of the Hebrew alphabet - Chabad.org",
+                        "text": "Letter: Kaf / Chaf (11th Hebrew letter; numerical value 20; sound: 'K' with dagesh, 'KH' without). Meaning: Palm, spoon, crown, bending/submission to God. Gemat..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=btXfkvjS3vs",
+                        "title": "The Hebrew Letter Kaph – Covering, Angels, and All of Humanity| Lesson 11",
+                        "text": "The Hebrew Letter Kaph – Covering, Angels, and All of Humanity| Lesson 11 welcome back everyone we have been on a journey. good job for sticking it out if you'v..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Symbolism and Significance",
+                    "markdown": "### Symbolism and Significance",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Vessel and Action: A palm acts as a container or tool to hold, weigh, or give. In Jewish mysticism, it represents the bridge between koach (potential) and poel (actualization)—bringing spiritual intent into physical action. Grammar: As a prefix, kaf means \"like,\" \"as,\" or \"according to\" (e.g., ka-melekh, meaning \"like a king\"). As a suffix, it denotes the second-person singular possessive (\"your\").",
+                    "markdown": "- **Vessel and Action:** A palm acts as a container or tool to hold, weigh, or give. In Jewish mysticism, it represents the bridge between *koach* (potential) and *poel* (actualization)—bringing spiritual intent into physical action.[[1]](https://inner.org/hebleter/kaf.htm)[[2]](https://gabrielelevy.com/pages/the-letter-kaf)[[3]](https://hebrew.learnoutlive.com/the-letter-kaf-as-a-metaphor/)\n- **Grammar:** As a prefix, *kaf* means \"like,\" \"as,\" or \"according to\" (e.g., *ka-melekh* , meaning \"like a king\"). As a suffix, it denotes the second-person singular possessive (\"your\").[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Kaf/kaf.html)[[2]](https://en.wikipedia.org/wiki/Kaph)",
+                    "links": null,
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Gal Einai",
+                        "domain": "inner.org",
+                        "url": "https://inner.org/hebleter/kaf.htm",
+                        "title": "The Hebrew Letters: Kaf",
+                        "text": "The Power to Actualize Potential The two letters of the full spelling of the kaf, are the initial letters of the two Hebrew words: koach (\"potential\") and poel ..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "ALEFBET - The hebrew letters art gallery",
+                        "domain": "gabrielelevy.com",
+                        "url": "https://gabrielelevy.com/pages/the-letter-kaf",
+                        "title": "The letter KAF – ALEFBET - THE HEBREW LETTERS ART GALLERY",
+                        "text": "Letter: Kaf (11th Hebrew alphabet, numerical value representing 1 and 1). Meaning: Cupped palm of the hand; container, form, physical manifestation of spiritual..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Bible Stories As Blueprints of the Soul",
+                        "domain": "hebrew.learnoutlive.com",
+                        "url": "https://hebrew.learnoutlive.com/the-letter-kaf-as-a-metaphor/",
+                        "title": "The Letter Kaf As A Metaphor",
+                        "text": "The Letter Kaf As A Metaphor June 8, 2019 1 min read By Eti Shani The letter Kaf is the eleventh letter in the Hebrew Alphabet and has the numeral value of twen..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew for Christians",
+                        "domain": "www.hebrew4christians.com",
+                        "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Kaf/kaf.html",
+                        "title": "The Letter Kaf / Khaf",
+                        "text": "Letter: Kaf/Khaf is the 11th Hebrew letter (gematria 20, meaning \"palm\" or \"spoon\"), sounded as \"k\" with a dagesh dot or \"kh\" without it. Forms: Includes block ..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Wikipedia",
+                        "domain": "en.wikipedia.org",
+                        "url": "https://en.wikipedia.org/wiki/Kaph",
+                        "title": "Kaph - Wikipedia",
+                        "text": "Kaph: Eleventh letter of Semitic abjads (Phoenician 𐤊, Hebrew כ, Arabic ك), derived from a hand pictogram meaning \"palm/grip\"; numerical value 20; ancestor to ..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Would you like to explore words that start with Kaf or look into its role in Hebrew grammar ?",
+                    "markdown": "Would you like to explore **words that start with Kaf** or look into its role in **Hebrew grammar**?",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  }
+                ],
+                "references": [
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Chabad",
+                    "domain": "www.chabad.org",
+                    "url": "https://www.chabad.org/library/article_cdo/aid/137083/jewish/Kaf-Chaf.htm",
+                    "title": "Kaf (Chaf) - The eleventh letter of the Hebrew alphabet - Chabad.org",
+                    "text": "Letter: Kaf / Chaf (11th Hebrew letter; numerical value 20; sound: 'K' with dagesh, 'KH' without). Meaning: Palm, spoon, crown, bending/submission to God. Gemat..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Hebrew for Christians",
+                    "domain": "www.hebrew4christians.com",
+                    "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Kaf/kaf.html",
+                    "title": "The Letter Kaf / Khaf",
+                    "text": "Letter: Kaf/Khaf is the 11th Hebrew letter (gematria 20, meaning \"palm\" or \"spoon\"), sounded as \"k\" with a dagesh dot or \"kh\" without it. Forms: Includes block ..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Wikipedia",
+                    "domain": "en.wikipedia.org",
+                    "url": "https://en.wikipedia.org/wiki/Kaph",
+                    "title": "Kaph - Wikipedia",
+                    "text": "Kaph: Eleventh letter of Semitic abjads (Phoenician 𐤊, Hebrew כ, Arabic ك), derived from a hand pictogram meaning \"palm/grip\"; numerical value 20; ancestor to ..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Gal Einai",
+                    "domain": "inner.org",
+                    "url": "https://inner.org/hebleter/kaf.htm",
+                    "title": "The Hebrew Letters: Kaf",
+                    "text": "The Power to Actualize Potential The two letters of the full spelling of the kaf, are the initial letters of the two Hebrew words: koach (\"potential\") and poel ..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "ALEFBET - The hebrew letters art gallery",
+                    "domain": "gabrielelevy.com",
+                    "url": "https://gabrielelevy.com/pages/the-letter-kaf",
+                    "title": "The letter KAF – ALEFBET - THE HEBREW LETTERS ART GALLERY",
+                    "text": "Letter: Kaf (11th Hebrew alphabet, numerical value representing 1 and 1). Meaning: Cupped palm of the hand; container, form, physical manifestation of spiritual..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Home.blog",
+                    "domain": "objectivetranslation.home.blog",
+                    "url": "https://objectivetranslation.home.blog/2019/05/26/the-amazing-biblical-language-the-importance-of-the-letter-kaf/",
+                    "title": "The Amazing Biblical Language: The Importance of The Letter Kaf",
+                    "text": "The Amazing Biblical Language: The Importance of The Letter Kaf. On May 26, 2019 June 12, 2019 By T.E.In Hebrew Letters. The letter Kaf originated as a pictogra..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/watch?v=btXfkvjS3vs",
+                    "title": "The Hebrew Letter Kaph – Covering, Angels, and All of Humanity| Lesson 11",
+                    "text": "The Hebrew Letter Kaph – Covering, Angels, and All of Humanity| Lesson 11 welcome back everyone we have been on a journey. good job for sticking it out if you'v..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Bible Stories As Blueprints of the Soul",
+                    "domain": "hebrew.learnoutlive.com",
+                    "url": "https://hebrew.learnoutlive.com/the-letter-kaf-as-a-metaphor/",
+                    "title": "The Letter Kaf As A Metaphor",
+                    "text": "The Letter Kaf As A Metaphor June 8, 2019 1 min read By Eti Shani The letter Kaf is the eleventh letter in the Hebrew Alphabet and has the numeral value of twen..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Etz Hayim—\"Tree of Life\"",
+                    "domain": "www.etz-hayim.com",
+                    "url": "https://www.etz-hayim.com/hebrew/letters_and_vowels/kaf.php",
+                    "title": "The Hebrew letter Kaf | Etz Hayim \"Tree of Life\"",
+                    "text": "KAF is the eleventh letter of the Hebrew alphabet. Kaf has two pronunciations. Kaf, with a dagesh kal (small dot in the center) of the letter, and Khaf without ..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Balashon",
+                    "domain": "www.balashon.com",
+                    "url": "https://www.balashon.com/2006/10/kaf.html",
+                    "title": "Balashon",
+                    "text": "kaf The 11th letter in the Hebrew alphabet is kaf (or kaph): כ The letter gets its name due to its similarity to the shape of the palm of a hand: כף היד kaf hay..."
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "video",
+                "rank_group": 1,
+                "rank_absolute": 2,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]",
+                "items": [
+                  {
+                    "type": "video_element",
+                    "source": "BibleInteract",
+                    "title": "Power of Hebrew Letters: Kaf",
+                    "timestamp": "2024-03-01 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=WdIp6a3qZZc"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "The Local Dreamer Podcast",
+                    "title": "The Hebrew Letter Kaph – Covering, Angels, and All of Humanity| Lesson 11",
+                    "timestamp": "2025-10-10 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=btXfkvjS3vs"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "DFW New Beginnings",
+                    "title": "\"KAF\" in Hebrew means Palm The two Hebrew letters that spell KAF are ...",
+                    "timestamp": "2024-08-22 00:00:00 +00:00",
+                    "url": "https://www.facebook.com/dfwnewbeginnings/videos/kaf-in-hebrew-means-palmthe-two-hebrew-letters-that-spell-kaf-are-koach-potentia/1040246514374176/"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "BibleInteract",
+                    "title": "The Letter Kaf and the Holy of Holies",
+                    "timestamp": "2023-01-01 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=B8uv3E_lcHg"
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "people_also_ask",
+                "rank_group": 1,
+                "rank_absolute": 3,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]",
+                "items": [
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does the Hebrew letter Kaf mean?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[1]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What is the 21 letter in Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[2]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does sofit mean in Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[3]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does ch mean in Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[4]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 1,
+                "rank_absolute": 4,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[1]",
+                "domain": "www.chabad.org",
+                "title": "Letters of Light: Kaf",
+                "url": "https://www.chabad.org/multimedia/video_cdo/aid/2024165/jewish/Letters-of-Light-Kaf.htm",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.chabad.org",
+                "website_name": "Chabad.org",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "Letters of Light: Kaf. This class explains the mystical meanings of the Hebrew letters including the significance of the letters' names, their phonetic sounds, ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": [
+                  {
+                    "type": "link_element",
+                    "title": null,
+                    "description": null,
+                    "url": "https://www.chabad.org/multimedia/video_cdo/aid/2024165/jewish/Letters-of-Light-Kaf.htm",
+                    "domain": "www.chabad.org"
+                  }
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2012-11-27 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 2,
+                "rank_absolute": 5,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.pinterest.com",
+                "title": "KAF (letter value 20) KAF means to cover, to open, allow Literal ...",
+                "url": "https://www.pinterest.com/pin/kaf-letter-value-20--385409680606183473/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "8 years ago",
+                "website_name": "Pinterest · celmer1",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "KAF means to cover, to open, allow. Literal meaning of the Letter: PALM OPEN HAND. Sound of letter: k, ch.",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": [
+                  "lamed chabad"
+                ],
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 3,
+                "rank_absolute": 6,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "commons.wikimedia.org",
+                "title": "File:Hebrew letter kaf.png",
+                "url": "https://commons.wikimedia.org/wiki/File:Hebrew_letter_kaf.png",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://commons.wikimedia.org",
+                "website_name": "Wikimedia Commons",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "May 27, 2005 — File:Hebrew letter kaph.svg is a vector version of this file. It should be used in place of this PNG file when not inferior. File ...",
+                "pre_snippet": "05/27/2005 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "File:Hebrew letter kaph.svg"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": [
+                  "lamed chabad"
+                ],
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2005-05-27 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 4,
+                "rank_absolute": 7,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[12]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.facebook.com",
+                "title": "How to tell apart Hebrew letters Kaf and Chaf",
+                "url": "https://www.facebook.com/groups/1687348774926200/posts/4559288781065504/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "7 comments",
+                "website_name": "Facebook · Free Hebrew Class",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Follow on Facebook for More Like This!\n\nLearned something new today? \nTreating me to just a single cup of coffee supports the free Hebrew Tips & Tricks ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": [
+                  {
+                    "type": "link_element",
+                    "title": "It's a mix of throat use and the roof of the mouth\nMostly the roof of the mouth",
+                    "description": "Top answer · 2 votes",
+                    "url": "https://www.facebook.com/groups/1687348774926200/posts/4559288781065504/",
+                    "domain": "www.facebook.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "I just spit on my cellphone screen making the CH sound!😆 Hebrew is a funny and awesome ...",
+                    "description": "2 votes",
+                    "url": "https://www.facebook.com/groups/1687348774926200/posts/4559288781065504/",
+                    "domain": "www.facebook.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Now make bet/vet pey/fey shin/sin",
+                    "description": "1 vote",
+                    "url": "https://www.facebook.com/groups/1687348774926200/posts/4559288781065504/",
+                    "domain": "www.facebook.com"
+                  }
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2026-08-11 05:23:48 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 5,
+                "rank_absolute": 8,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[13]/div[1]/div[1]",
+                "domain": "www.youtube.com",
+                "title": "Lesson 6 yod kaf chaf",
+                "url": "https://www.youtube.com/watch?v=nh8VCG95euY",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "1.1K+ views",
+                "website_name": "YouTube · Hebrew4Learners",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "This is lesson 6 of the series of Hebrew alphabet lessons for beginners. Lesson 6 yod kaf chaf. The Hebrew Alphabet | Crash Course in Hebrew ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2021-10-11 05:23:48 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "people_also_search",
+                "rank_group": 1,
+                "rank_absolute": 9,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[15]",
+                "title": "People also search for",
+                "items": [
+                  "Kaf hebrew letter words",
+                  "Kaf hebrew letter meaning",
+                  "Kaf hebrew letter pronunciation",
+                  "Lamed Chabad"
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "images",
+                "rank_group": 1,
+                "rank_absolute": 10,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[17]",
+                "title": "Images",
+                "url": null,
+                "items": [
+                  {
+                    "type": "images_element",
+                    "alt": "Kaf (Chaf) - The eleventh letter of the Hebrew alphabet ...",
+                    "url": "https://www.chabad.org/library/article_cdo/aid/137083/jewish/Kaf-Chaf.htm",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXx8m_cE2-QEkjLGxheWZi1pc9bzzBFCfoj5OCMD42UpiOMmXZeGN2Ndk&s"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "Vector Image Hebrew Letter Kaf",
+                    "url": "https://www.shutterstock.com/image-vector/vector-image-hebrew-letter-kaf-728469727",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0CzdU1ViPxYrFoTMJ7joxQazzaKW-IHnn5ebqAhFP4A&s"
+                  }
+                ],
+                "related_image_searches": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 6,
+                "rank_absolute": 11,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.etz-hayim.com",
+                "title": "The Hebrew letter Kaf",
+                "url": "https://www.etz-hayim.com/hebrew/pages/kaf.php",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.etz-hayim.com",
+                "website_name": "Etz Hayim—\"Tree of Life\"",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Mar 15, 2010 — Kaf is the eleventh letter of the Hebrew alphabet has two pronunciations. Kaf, with a dagesh kal (small dot in the center) of the letter, and ...",
+                "pre_snippet": "03/15/2010 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Kaf is the eleventh letter of the Hebrew alphabet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2010-03-15 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 7,
+                "rank_absolute": 12,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[21]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "mazorbooks.wordpress.com",
+                "title": "Hebrew for Kids: The Letter KAF/CHAF (17) - MazorBooks",
+                "url": "https://mazorbooks.wordpress.com/2022/03/13/hebrew-for-kids-the-letter-kaf-chaf-17/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://mazorbooks.wordpress.com",
+                "website_name": "WordPress.com",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Mar 13, 2022 — KAF/CHAF is the eleventh letter of the Hebrew Alphabet. The numerical value of KAF/CHAF is 20; In modern Hebrew, the frequency usage of the ...",
+                "pre_snippet": "03/13/2022 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "KAF/CHAF is the eleventh letter of the Hebrew Alphabet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2022-03-13 00:00:00 +00:00",
+                "rectangle": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

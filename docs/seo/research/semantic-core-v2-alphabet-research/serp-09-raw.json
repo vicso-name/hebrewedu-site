@@ -1,0 +1,794 @@
+{
+  "keyword": "tet hebrew letter",
+  "retrieved_at_utc": "2026-10-11T05:24:17.021Z",
+  "raw": {
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "5.8695 sec.",
+    "cost": 0.002,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "10110523-2762-0139-0000-a63bc8445cdf",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "5.7625 sec.",
+        "cost": 0.002,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "serp",
+          "google",
+          "organic",
+          "live",
+          "advanced"
+        ],
+        "data": {
+          "api": "serp",
+          "function": "live",
+          "se": "google",
+          "se_type": "organic",
+          "keyword": "tet hebrew letter",
+          "location_code": 2840,
+          "language_code": "en",
+          "device": "mobile",
+          "os": "android",
+          "depth": 10
+        },
+        "result": [
+          {
+            "keyword": "tet hebrew letter",
+            "type": "organic",
+            "se_domain": "google.com",
+            "location_code": 2840,
+            "language_code": "en",
+            "check_url": "https://www.google.com/search?q=tet%20hebrew%20letter&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+            "datetime": "2026-10-11 05:23:38 +00:00",
+            "spell": null,
+            "refinement_chips": null,
+            "item_types": [
+              "ai_overview",
+              "video",
+              "people_also_ask",
+              "organic",
+              "images"
+            ],
+            "se_results_count": 0,
+            "pages_count": 1,
+            "items_count": 11,
+            "items": [
+              {
+                "type": "ai_overview",
+                "rank_group": 1,
+                "rank_absolute": 1,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]",
+                "asynchronous_ai_overview": false,
+                "markdown": "![Hebrew Letter Tet Stock Illustration - Download Image Now ...](https://api.dataforseo.com/cdn/i/10110523-2762-0139-0000-a63bc8445cdf:4)\nThe [Hebrew Letter Tet](https://www.chabad.org/library/article_cdo/aid/137081/jewish/Tet.htm) (ט) is the ninth letter of the Hebrew alphabet and has a numeric value of **9**.[[1]](https://www.chabad.org/library/article_cdo/aid/137081/jewish/Tet.htm)\n\n### Key Characteristics\n\n- **Sound:** Pronounced like the \"t\" sound in \"take\" or \"get\".[[1]](https://www.youtube.com/shorts/1HwnNtqjYQU)[[2]](https://www.youtube.com/watch?v=iFihW891s2Y&t=1)\n- **Ancient Meaning:** Originally represented a clay or wicker container, basket, or wheel used for storage.[[1]](https://hebrewtoday.com/alphabet/the-letter-tel-%D7%98/)[[2]](https://www.youtube.com/watch?v=iFihW891s2Y&t=1)[[3]](https://www.ancient-hebrew.org/ancient-alphabet/tet.htm)\n- **Frequency:** It is the least frequently occurring letter in the Hebrew Bible (Torah).[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Tet/tet.html)[[2]](https://www.youtube.com/shorts/FxcxmH_Znok)\n- **Symbolism of 9:** Corresponds to the nine months of human gestation, symbolizing hidden goodness, preparation, and the birth of something new.[[1]](https://www.chabad.org/library/article_cdo/aid/137081/jewish/Tet.htm)[[2]](https://www.youtube.com/watch?v=g_cmVuxle00&t=6)[[3]](https://www.youtube.com/watch?v=iFihW891s2Y&t=1)\n- **Meaning of Goodness:** It is the first letter of the word ***tov** * (טוב), which means \"good\". The shape of the letter is often described as inverted or coiled, symbolizing hidden or interior good (like a child in the womb).[[1]](https://inner.org/hebleter/tet.htm)[[2]](https://www.youtube.com/shorts/FxcxmH_Znok)[[3]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Tet/tet.html)\n\nWould you like to know more about its **gematria** (numerical value) or see examples of **Hebrew words** that start with Tet?",
+                "items": [
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "The Hebrew Letter Tet (ט) is the ninth letter of the Hebrew alphabet and has a numeric value of 9.",
+                    "markdown": "![Hebrew Letter Tet Stock Illustration - Download Image Now ...](https://api.dataforseo.com/cdn/i/10110523-2762-0139-0000-a63bc8445cdf:2)\nThe [Hebrew Letter Tet](https://www.chabad.org/library/article_cdo/aid/137081/jewish/Tet.htm) (ט) is the ninth letter of the Hebrew alphabet and has a numeric value of **9**.[[1]](https://www.chabad.org/library/article_cdo/aid/137081/jewish/Tet.htm)",
+                    "links": [
+                      {
+                        "type": "link_element",
+                        "title": "Hebrew Letter Tet",
+                        "description": null,
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137081/jewish/Tet.htm",
+                        "domain": "www.chabad.org"
+                      }
+                    ],
+                    "images": [
+                      {
+                        "type": "images_element",
+                        "alt": "Hebrew Letter Tet Stock Illustration - Download Image Now ...",
+                        "url": null,
+                        "image_url": "https://api.dataforseo.com/cdn/i/10110523-2762-0139-0000-a63bc8445cdf:3"
+                      }
+                    ],
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137081/jewish/Tet.htm",
+                        "title": "Tet - The ninth letter of the Hebrew alphabet - Chabad.org",
+                        "text": "Letter: Tet (9th Hebrew letter, numeric value 9, sound \"T\", meaning good/best). Design: Shaped like a pot with an inverted rim, representing hidden goodness wit..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Key Characteristics",
+                    "markdown": "### Key Characteristics",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Sound: Pronounced like the \"t\" sound in \"take\" or \"get\". Ancient Meaning: Originally represented a clay or wicker container, basket, or wheel used for storage. Frequency: It is the least frequently occurring letter in the Hebrew Bible (Torah). Symbolism of 9: Corresponds to the nine months of human gestation, symbolizing hidden goodness, preparation, and the birth of something new. Meaning of Goodness: It is the first letter of the word tov (טוב), which means \"good\". The shape of the letter is often described as inverted or coiled, symbolizing hidden or interior good (like a child in the womb).",
+                    "markdown": "- **Sound:** Pronounced like the \"t\" sound in \"take\" or \"get\".[[1]](https://www.youtube.com/shorts/1HwnNtqjYQU)[[2]](https://www.youtube.com/watch?v=iFihW891s2Y&t=1)\n- **Ancient Meaning:** Originally represented a clay or wicker container, basket, or wheel used for storage.[[1]](https://hebrewtoday.com/alphabet/the-letter-tel-%D7%98/)[[2]](https://www.youtube.com/watch?v=iFihW891s2Y&t=1)[[3]](https://www.ancient-hebrew.org/ancient-alphabet/tet.htm)\n- **Frequency:** It is the least frequently occurring letter in the Hebrew Bible (Torah).[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Tet/tet.html)[[2]](https://www.youtube.com/shorts/FxcxmH_Znok)\n- **Symbolism of 9:** Corresponds to the nine months of human gestation, symbolizing hidden goodness, preparation, and the birth of something new.[[1]](https://www.chabad.org/library/article_cdo/aid/137081/jewish/Tet.htm)[[2]](https://www.youtube.com/watch?v=g_cmVuxle00&t=6)[[3]](https://www.youtube.com/watch?v=iFihW891s2Y&t=1)\n- **Meaning of Goodness:** It is the first letter of the word ***tov** * (טוב), which means \"good\". The shape of the letter is often described as inverted or coiled, symbolizing hidden or interior good (like a child in the womb).[[1]](https://inner.org/hebleter/tet.htm)[[2]](https://www.youtube.com/shorts/FxcxmH_Znok)[[3]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Tet/tet.html)",
+                    "links": null,
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/shorts/1HwnNtqjYQU",
+                        "title": "Hebrew Alphabet- Tet, Yod, Kaf ט,י,כ #shorts # ...",
+                        "text": "Hebrew Alphabet- Tet, Yod, Kaf ט,י,כ #shorts #learnhebrew #hebrew t T as in get y as in pay cuff cuff as in arc. and without a dash it is Huff like when clearin..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=iFihW891s2Y&t=1",
+                        "title": "The Hebrew Letter Tet – Goodness, Truth, and Sin redefined | Lesson 9",
+                        "text": "The Hebrew Letter Tet – Goodness, Truth, and Sin redefined | Lesson 9 the ninth letter of the Hebrew. alfbet is the tet. the word tet in Hebrew. means clay the ..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew Today",
+                        "domain": "hebrewtoday.com",
+                        "url": "https://hebrewtoday.com/alphabet/the-letter-tel-%D7%98/",
+                        "title": "The Letter Tet (ט)",
+                        "text": "The Letter Tet (ט) The letter Tet is the ninth letter in the Hebrew alphabet, and also appears in various forms in a number of other Semitic language's alphabet..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "The Ancient Hebrew Research Center",
+                        "domain": "www.ancient-hebrew.org",
+                        "url": "https://www.ancient-hebrew.org/ancient-alphabet/tet.htm",
+                        "title": "The Ancient Hebrew Alphabet | AHRC",
+                        "text": "History & Reconstruction The original pictograph for this letter is , a container made of wicker or clay. Containers were a very important item among the nomadi..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew for Christians",
+                        "domain": "www.hebrew4christians.com",
+                        "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Tet/tet.html",
+                        "title": "The Letter Tet - Hebrew for Christians",
+                        "text": "The letter Tet is the ninth letter of the Aleph-Bet, having the numeric value of nine. The pictograph for Tet looks like a snake coiled inside a basket, whereas..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/shorts/FxcxmH_Znok",
+                        "title": "The Hidden Goodness of God | Hebrew Letter TET",
+                        "text": "🔥 TET (ט) — The Hidden Goodness of God | Hebrew Letter TET t the goodness hidden. within what if God is doing something in your life. that you cannot see yet t..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137081/jewish/Tet.htm",
+                        "title": "Tet - The ninth letter of the Hebrew alphabet - Chabad.org",
+                        "text": "Letter: Tet (9th Hebrew letter, numeric value 9, sound \"T\", meaning good/best). Design: Shaped like a pot with an inverted rim, representing hidden goodness wit..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=g_cmVuxle00&t=6",
+                        "title": "Secret of the Hebrew letter Tet",
+                        "text": "Secret of the Hebrew letter Tet the ninth letter of the Hebrew alphabet is Tet the numeric value of Tet is nine the pictogram or symbol behind the shape of the ..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Gal Einai",
+                        "domain": "inner.org",
+                        "url": "https://inner.org/hebleter/tet.htm",
+                        "title": "The Hebrew Letters: Tet - GalEinai",
+                        "text": "The tet is the initial letter of the word tov, \"good.\" The form of the tet is \"inverted,\" thus symbolizing hidden, inverted good–as expressed in the Zohar: \"its..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Would you like to know more about its gematria (numerical value) or see examples of Hebrew words that start with Tet?",
+                    "markdown": "Would you like to know more about its **gematria** (numerical value) or see examples of **Hebrew words** that start with Tet?",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  }
+                ],
+                "references": [
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Hebrew for Christians",
+                    "domain": "www.hebrew4christians.com",
+                    "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Tet/tet.html",
+                    "title": "The Letter Tet - Hebrew for Christians",
+                    "text": "The letter Tet is the ninth letter of the Aleph-Bet, having the numeric value of nine. The pictograph for Tet looks like a snake coiled inside a basket, whereas..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Chabad",
+                    "domain": "www.chabad.org",
+                    "url": "https://www.chabad.org/library/article_cdo/aid/137081/jewish/Tet.htm",
+                    "title": "Tet - The ninth letter of the Hebrew alphabet - Chabad.org",
+                    "text": "Letter: Tet (9th Hebrew letter, numeric value 9, sound \"T\", meaning good/best). Design: Shaped like a pot with an inverted rim, representing hidden goodness wit..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Hebrew Today",
+                    "domain": "hebrewtoday.com",
+                    "url": "https://hebrewtoday.com/alphabet/the-letter-tel-%D7%98/",
+                    "title": "The Letter Tet (ט)",
+                    "text": "The Letter Tet (ט) The letter Tet is the ninth letter in the Hebrew alphabet, and also appears in various forms in a number of other Semitic language's alphabet..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/watch?v=g_cmVuxle00&t=6",
+                    "title": "Secret of the Hebrew letter Tet",
+                    "text": "Secret of the Hebrew letter Tet the ninth letter of the Hebrew alphabet is Tet the numeric value of Tet is nine the pictogram or symbol behind the shape of the ..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Gal Einai",
+                    "domain": "inner.org",
+                    "url": "https://inner.org/hebleter/tet.htm",
+                    "title": "The Hebrew Letters: Tet - GalEinai",
+                    "text": "The tet is the initial letter of the word tov, \"good.\" The form of the tet is \"inverted,\" thus symbolizing hidden, inverted good–as expressed in the Zohar: \"its..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "The Ancient Hebrew Research Center",
+                    "domain": "www.ancient-hebrew.org",
+                    "url": "https://www.ancient-hebrew.org/ancient-alphabet/tet.htm",
+                    "title": "The Ancient Hebrew Alphabet | AHRC",
+                    "text": "History & Reconstruction The original pictograph for this letter is , a container made of wicker or clay. Containers were a very important item among the nomadi..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/watch?v=iFihW891s2Y&t=1",
+                    "title": "The Hebrew Letter Tet – Goodness, Truth, and Sin redefined | Lesson 9",
+                    "text": "The Hebrew Letter Tet – Goodness, Truth, and Sin redefined | Lesson 9 the ninth letter of the Hebrew. alfbet is the tet. the word tet in Hebrew. means clay the ..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/shorts/1HwnNtqjYQU",
+                    "title": "Hebrew Alphabet- Tet, Yod, Kaf ט,י,כ #shorts # ...",
+                    "text": "Hebrew Alphabet- Tet, Yod, Kaf ט,י,כ #shorts #learnhebrew #hebrew t T as in get y as in pay cuff cuff as in arc. and without a dash it is Huff like when clearin..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/shorts/FxcxmH_Znok",
+                    "title": "The Hidden Goodness of God | Hebrew Letter TET",
+                    "text": "🔥 TET (ט) — The Hidden Goodness of God | Hebrew Letter TET t the goodness hidden. within what if God is doing something in your life. that you cannot see yet t..."
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "video",
+                "rank_group": 1,
+                "rank_absolute": 2,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]",
+                "items": [
+                  {
+                    "type": "video_element",
+                    "source": "Andrew McClurg",
+                    "title": "Tet: Writing Hebrew Letters",
+                    "timestamp": "2020-05-01 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=rv2NPtZmZB0"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Torah Home Study",
+                    "title": "Writing the Hebrew Letters: Tet",
+                    "timestamp": "2018-03-02 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=jk11QyFeDa4"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Stefy Kefy",
+                    "title": "Hebrew Alphabet - Letter Tet - ט",
+                    "timestamp": "2025-03-11 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=eBjnDS4jan4"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "thelivingword",
+                    "title": "Secret of the Hebrew letter Tet",
+                    "timestamp": "2015-10-11 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=g_cmVuxle00"
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "people_also_ask",
+                "rank_group": 1,
+                "rank_absolute": 3,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]",
+                "items": [
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does the word letter mean in Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[1]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What letter is ה?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[2]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What is the Hebrew letter for peace?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[3]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does the letter tav mean in Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[4]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 1,
+                "rank_absolute": 4,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[1]",
+                "domain": "www.chabad.org",
+                "title": "Letters of Light: Tet",
+                "url": "https://www.chabad.org/multimedia/video_cdo/aid/2018348/jewish/Letters-of-Light-Tet.htm",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.chabad.org",
+                "website_name": "Chabad.org",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "Letters of Light: Tet. This class explains the mystical meanings of the Hebrew letters including the significance of the letters' names, their phonetic sounds, ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": [
+                  {
+                    "type": "link_element",
+                    "title": null,
+                    "description": null,
+                    "url": "https://www.chabad.org/multimedia/video_cdo/aid/2018348/jewish/Letters-of-Light-Tet.htm",
+                    "domain": "www.chabad.org"
+                  }
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2026-06-10 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 2,
+                "rank_absolute": 5,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.fathersalphabet.com",
+                "title": "9. Tet | Paleo Hebrew Alphabet | The Words “Good” and “Trust,” Funny ...",
+                "url": "https://www.fathersalphabet.com/paleo-hebrew-alphabet-series/tet/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.fathersalphabet.com",
+                "website_name": "Original Hebrew",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "The Hebrew word for “trust,” (Miry Clay) Today's letter is tet and it's a picture of a clay pot, a type of ancient container. It also has the meaning of mud ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 3,
+                "rank_absolute": 6,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "kriakala.com",
+                "title": "The Hebrew Letter Tet (ט) – Shape, Sound & How to Teach",
+                "url": "https://kriakala.com/hebrew-letter-tet",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://kriakala.com",
+                "website_name": "קריאה קלה",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Jun 5, 2026 — Tet is the 9th letter of the Hebrew alphabet (Aleph Bet), with a gematria value of 9. Its Hebrew name is טֵית. Tet is the first \"duplicate ...",
+                "pre_snippet": "06/05/2026 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Tet is the 9th letter of the Hebrew alphabet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2026-06-05 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 4,
+                "rank_absolute": 7,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[12]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.pinterest.com",
+                "title": "Tet Hebrew Letter",
+                "url": "https://www.pinterest.com/ideas/tet-hebrew-letter/915210525265/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.pinterest.com",
+                "website_name": "Pinterest",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Discover Pinterest's best ideas and inspiration for Tet hebrew letter. Hebrew alphabet glyph meanings. What does the hebrew letter chet mean Tet. Tet TaYaTh- ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Tet hebrew letter"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 5,
+                "rank_absolute": 8,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.reddit.com",
+                "title": "Pronunciation of Hebrew Letter Tet in Ancient Times : r/AcademicBiblical",
+                "url": "https://www.reddit.com/r/AcademicBiblical/comments/1akyl94/pronunciation_of_hebrew_letter_tet_in_ancient/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "5 comments",
+                "website_name": "Reddit · r/AcademicBiblical",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "\"Teth also has no English equivalent. It is an unvoiced dental velar. In other words, the tongue is placed in the dental position as described ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2024-10-11 05:23:37 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 6,
+                "rank_absolute": 9,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[16]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.facebook.com",
+                "title": "What does the Hebrew letter Tet symbolize?",
+                "url": "https://www.facebook.com/groups/TzimTzumLife/posts/542505626193226/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "30+ comments",
+                "website_name": "Facebook · Daily Hebrew Declarations - The Living Hebrew Letters",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "The Living Letter Tet can be seen as a basket and means “The good is contained within”. Yet also alludes to the fact that we have choice! In other ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": [
+                  {
+                    "type": "link_element",
+                    "title": "Ahhh.. Tet: representing both, pure Tahir, as well as impure, Tamah, which both begin with ...",
+                    "description": "Top answer · 9 votes",
+                    "url": "https://www.facebook.com/groups/TzimTzumLife/posts/542505626193226/",
+                    "domain": "www.facebook.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "This letter is so special. It's what got us talking about the Hebrew letters. The seat ...",
+                    "description": "8 votes",
+                    "url": "https://www.facebook.com/groups/TzimTzumLife/posts/542505626193226/",
+                    "domain": "www.facebook.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Tet-  The willingness to go within. To look within the basket  and confront whatever we ...",
+                    "description": "7 votes",
+                    "url": "https://www.facebook.com/groups/TzimTzumLife/posts/542505626193226/",
+                    "domain": "www.facebook.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Wow! In that case, I now see the tet in the mem of Adam!  My tet should be continually filled ...",
+                    "description": "7 votes",
+                    "url": "https://www.facebook.com/groups/TzimTzumLife/posts/542505626193226/",
+                    "domain": "www.facebook.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Tet to me is destiny once enclosed now coming out in physical manifestation. \nThat which Abba ...",
+                    "description": "7 votes",
+                    "url": "https://www.facebook.com/groups/TzimTzumLife/posts/542505626193226/",
+                    "domain": "www.facebook.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Tet also represents a container or bag which holds liquid.  We are the bag which when filled ...",
+                    "description": "6 votes",
+                    "url": "https://www.facebook.com/groups/TzimTzumLife/posts/542505626193226/",
+                    "domain": "www.facebook.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "I love this beautiful letter that holds so much mystery. My new grand daughter was just born ...",
+                    "description": "6 votes",
+                    "url": "https://www.facebook.com/groups/TzimTzumLife/posts/542505626193226/",
+                    "domain": "www.facebook.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Wow! Yahweh’s provision is even in letters reveals how loving He is by creating  them with ...",
+                    "description": "6 votes",
+                    "url": "https://www.facebook.com/groups/TzimTzumLife/posts/542505626193226/",
+                    "domain": "www.facebook.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Tet to me is the womb of God as we enter in we are impregnated with His seed/promises and ...",
+                    "description": "5 votes",
+                    "url": "https://www.facebook.com/groups/TzimTzumLife/posts/542505626193226/",
+                    "domain": "www.facebook.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Chet represents an enclosed area such as a sheep pen or the space inside while tet would ...",
+                    "description": "4 votes",
+                    "url": "https://www.facebook.com/groups/TzimTzumLife/posts/542505626193226/",
+                    "domain": "www.facebook.com"
+                  }
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2019-10-11 05:23:37 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "images",
+                "rank_group": 1,
+                "rank_absolute": 10,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[18]",
+                "title": "Images",
+                "url": null,
+                "items": [
+                  {
+                    "type": "images_element",
+                    "alt": "The Letter Tet",
+                    "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Tet/tet.html",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUmgoCoN-yjB702qN93MQBsT22gfMYp3P_qMgMQMAKngovL9eBONK02ss&s"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "Tet - The ninth letter of the Hebrew alphabet - Chabad.org",
+                    "url": "https://www.chabad.org/library/article_cdo/aid/137081/jewish/Tet.htm",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyBfe-DpPsJ0vDgSOvL8I94ioP1VK6ohoPVgfWqOz6rc1dkVD3BR84Udk&s"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "Vector Image Hebrew Letter Tet",
+                    "url": "https://www.shutterstock.com/image-vector/vector-image-hebrew-letter-tet-728469412",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCCKA8zi9wwk3SQd5hsuks0v1geNtqqfCFrQp4aWJI8Q&s"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "The Letter Tet",
+                    "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Tet/tet.html",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX1oU56HRnkXLYTGDijDIo9_4v2rjcKBjSYnbSSx2VFp-mIeGzhWNvzg&s"
+                  }
+                ],
+                "related_image_searches": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 7,
+                "rank_absolute": 11,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[19]/div[1]/div[1]",
+                "domain": "www.youtube.com",
+                "title": "Jim Staley - Hebrew Alphabet (Part 7) - Tet",
+                "url": "https://www.youtube.com/watch?v=s-WbHnwxi9w",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "3.6K+ views",
+                "website_name": "YouTube · Passion For Truth Ministries",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "The Hebrew letter “Tet”. and it's biblical significance. The word is alive!",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2022-10-11 05:23:37 +00:00",
+                "rectangle": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

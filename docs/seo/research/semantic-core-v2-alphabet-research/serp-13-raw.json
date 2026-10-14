@@ -1,0 +1,759 @@
+{
+  "keyword": "mem hebrew letter",
+  "retrieved_at_utc": "2026-10-11T05:24:26.865Z",
+  "raw": {
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "2.5133 sec.",
+    "cost": 0.002,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "10110523-2762-0139-0000-89e7395a0eb9",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "2.3886 sec.",
+        "cost": 0.002,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "serp",
+          "google",
+          "organic",
+          "live",
+          "advanced"
+        ],
+        "data": {
+          "api": "serp",
+          "function": "live",
+          "se": "google",
+          "se_type": "organic",
+          "keyword": "mem hebrew letter",
+          "location_code": 2840,
+          "language_code": "en",
+          "device": "mobile",
+          "os": "android",
+          "depth": 10
+        },
+        "result": [
+          {
+            "keyword": "mem hebrew letter",
+            "type": "organic",
+            "se_domain": "google.com",
+            "location_code": 2840,
+            "language_code": "en",
+            "check_url": "https://www.google.com/search?q=mem%20hebrew%20letter&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+            "datetime": "2026-10-11 05:24:00 +00:00",
+            "spell": null,
+            "refinement_chips": null,
+            "item_types": [
+              "ai_overview",
+              "video",
+              "people_also_ask",
+              "images",
+              "organic"
+            ],
+            "se_results_count": 0,
+            "pages_count": 1,
+            "items_count": 11,
+            "items": [
+              {
+                "type": "ai_overview",
+                "rank_group": 1,
+                "rank_absolute": 1,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]",
+                "asynchronous_ai_overview": false,
+                "markdown": "The Hebrew letter **Mem** (מ) is the 13th letter of the Hebrew alphabet, carrying the sound **\"m\"** and a numerical value (gematria) of **40**.[[1]](https://www.chabad.org/library/article_cdo/aid/137085/jewish/Mem.htm)\n\n### Key Characteristics & Forms\n\n- **Sound & Value:** Makes an \"m\" sound and equals 40 in gematria.[[1]](https://hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Mem/mem.html)[[2]](https://www.chabad.org/library/article_cdo/aid/137085/jewish/Mem.htm)\n- **Two Forms:** \n\t- **Open Mem (מ):** Used at the beginning or middle of a word; features a small opening at the bottom-left, symbolizing revealed wisdom or flowing water.\n\t- **Closed Mem or *Mem Sofit* (ם):** Used exclusively at the very end of a word; forms a closed square, symbolizing hidden or concealed truths.[[1]](https://inner.org/hebleter/mem.htm)[[2]](https://www.youtube.com/watch?v=ivMqgpkiFCw)[[3]](https://hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Mem/mem.html)\n- **Meaning:** The name *Mem* derives from *mayim* (מַיִם), the Hebrew word for water. The word *mayim* itself is constructed using both forms of the letter with a *Yud* in the middle (מ-י-ם).[[1]](https://www.youtube.com/watch?v=ivMqgpkiFCw)[[2]](https://agapegeek.com/2022/09/30/jesus-in-the-ancient-hebrew-alphabet-part-14-the-mem-part-1-the-blood/)[[3]](https://www.youtube.com/watch?v=2mGg-g5XpAg&t=43)[[4]](https://www.youtube.com/watch?v=v_k7BqCu8Jg)\n- **Symbolism of 40:** The number 40 represents periods of testing, ripening, or major transformation—such as the 40 days of rain in the Flood, Moses staying on Mount Sinai for 40 days, the 40 years of desert wandering, and the 40 *se'ah* of water required for a ritual immersion pool (*mikveh*).[[1]](https://www.sefaria.org/sheets/179212)[[2]](https://www.chabad.org/library/article_cdo/aid/137085/jewish/Mem.htm)\n\nLearn more about its deeper mystical traditions on [Chabad.org](https://www.chabad.org/library/article_cdo/aid/137085/jewish/Mem.htm) or explore the visual artwork and teachings at [Gabriele Levy](https://gabrielelevy.com/pages/the-letter-mem).[[1]](https://www.chabad.org/library/article_cdo/aid/137085/jewish/Mem.htm)[[2]](https://gabrielelevy.com/pages/the-letter-mem)If you'd like, I can share:\n\n- **How to handwrite** both the open and closed forms step-by-step\n- **Famous Hebrew words** that start or end with Mem\n- **Gematria connections** to other Hebrew letters\n\nLet me know what you want to explore next!",
+                "items": [
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "The Hebrew letter Mem (מ) is the 13th letter of the Hebrew alphabet, carrying the sound \"m\" and a numerical value (gematria) of 40.",
+                    "markdown": "The Hebrew letter **Mem** (מ) is the 13th letter of the Hebrew alphabet, carrying the sound **\"m\"** and a numerical value (gematria) of **40**.[[1]](https://www.chabad.org/library/article_cdo/aid/137085/jewish/Mem.htm)",
+                    "links": null,
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137085/jewish/Mem.htm",
+                        "title": "Mem - The thirteenth letter of the Hebrew alphabet - Chabad.org",
+                        "text": "Identity: Mem (מ), thirteenth Hebrew alphabet letter, numerical value 40, sound \"M\". Meaning: Water (mayim), Moshiach, womb (rechem). Design: Open mem (revealed..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Key Characteristics & Forms",
+                    "markdown": "### Key Characteristics & Forms",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Sound & Value: Makes an \"m\" sound and equals 40 in gematria. Two Forms:Open Mem (מ): Used at the beginning or middle of a word; features a small opening at the bottom-left, symbolizing revealed wisdom or flowing water.\nClosed Mem or Mem Sofit (ם): Used exclusively at the very end of a word; forms a closed square, symbolizing hidden or concealed truths. Open Mem (מ): Used at the beginning or middle of a word; features a small opening at the bottom-left, symbolizing revealed wisdom or flowing water. Closed Mem or Mem Sofit (ם): Used exclusively at the very end of a word; forms a closed square, symbolizing hidden or concealed truths. Meaning: The name Mem derives from mayim (מַיִם), the Hebrew word for water. The word mayim itself is constructed using both forms of the letter with a Yud in the middle (מ-י-ם). Symbolism of 40: The number 40 represents periods of testing, ripening, or major transformation—such as the 40 days of rain in the Flood, Moses staying on Mount Sinai for 40 days, the 40 years of desert wandering, and the 40 se'ah of water required for a ritual immersion pool (mikveh).",
+                    "markdown": "- **Sound & Value:** Makes an \"m\" sound and equals 40 in gematria.[[1]](https://hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Mem/mem.html)[[2]](https://www.chabad.org/library/article_cdo/aid/137085/jewish/Mem.htm)\n- **Two Forms:** \n\t- **Open Mem (מ):** Used at the beginning or middle of a word; features a small opening at the bottom-left, symbolizing revealed wisdom or flowing water.\n\t- **Closed Mem or *Mem Sofit* (ם):** Used exclusively at the very end of a word; forms a closed square, symbolizing hidden or concealed truths.[[1]](https://inner.org/hebleter/mem.htm)[[2]](https://www.youtube.com/watch?v=ivMqgpkiFCw)[[3]](https://hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Mem/mem.html)\n- **Meaning:** The name *Mem* derives from *mayim* (מַיִם), the Hebrew word for water. The word *mayim* itself is constructed using both forms of the letter with a *Yud* in the middle (מ-י-ם).[[1]](https://www.youtube.com/watch?v=ivMqgpkiFCw)[[2]](https://agapegeek.com/2022/09/30/jesus-in-the-ancient-hebrew-alphabet-part-14-the-mem-part-1-the-blood/)[[3]](https://www.youtube.com/watch?v=2mGg-g5XpAg&t=43)[[4]](https://www.youtube.com/watch?v=v_k7BqCu8Jg)\n- **Symbolism of 40:** The number 40 represents periods of testing, ripening, or major transformation—such as the 40 days of rain in the Flood, Moses staying on Mount Sinai for 40 days, the 40 years of desert wandering, and the 40 *se'ah* of water required for a ritual immersion pool (*mikveh*).[[1]](https://www.sefaria.org/sheets/179212)[[2]](https://www.chabad.org/library/article_cdo/aid/137085/jewish/Mem.htm)",
+                    "links": null,
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew for Christians",
+                        "domain": "hebrew4christians.com",
+                        "url": "https://hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Mem/mem.html",
+                        "title": "The Letter Mem",
+                        "text": "Letter Mem: Thirteenth Hebrew letter, sound \"m\", numeric value 40; composed of Kaf and Vav (gematria 26, matching YHVH). Forms: Open medial (*pesucha*) represen..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137085/jewish/Mem.htm",
+                        "title": "Mem - The thirteenth letter of the Hebrew alphabet - Chabad.org",
+                        "text": "Identity: Mem (מ), thirteenth Hebrew alphabet letter, numerical value 40, sound \"M\". Meaning: Water (mayim), Moshiach, womb (rechem). Design: Open mem (revealed..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Gal Einai",
+                        "domain": "inner.org",
+                        "url": "https://inner.org/hebleter/mem.htm",
+                        "title": "The Hebrew Letters: Mem - GalEinai",
+                        "text": "Meaning: Water and blemish; numerical value 40. Forms: Open mem (square with lower-left opening, flowing stream, exoteric Torah, love/will) and final closed mem..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=ivMqgpkiFCw",
+                        "title": "The Hebrew Letter Mem – Waters, Chaos, and Life | Lesson 13",
+                        "text": "The Hebrew Letter Mem – Waters, Chaos, and Life | Lesson 13 the letter mem comes from the plural Hebrew word mim. which means waters its sound is m as in move m..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "The Agapegeek Blog",
+                        "domain": "agapegeek.com",
+                        "url": "https://agapegeek.com/2022/09/30/jesus-in-the-ancient-hebrew-alphabet-part-14-the-mem-part-1-the-blood/",
+                        "title": "Jesus in the Ancient Hebrew Alphabet Part 14 – The Mem Part 1 – the Blood",
+                        "text": "The ancient Hebrew letter “Mem”, is the 13th letter of the Hebrew alphabet, and has the gematria number value of “40”. The letter “Mem” can be spelled as a Hebr..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=2mGg-g5XpAg&t=43",
+                        "title": "The Hebrew letter: Mem",
+                        "text": "The Hebrew letter: Mem in the ancient Hebrew when Moses was writing that letter as you know if you look at your computer there's different fonts well Hebrews ov..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=v_k7BqCu8Jg",
+                        "title": "MEM - Secrets of the Hebrew Letters",
+                        "text": "mem is one of the five letters that has two forms a form that comes in the beginning or middle of the word. and a final form when it the letter appears as the l..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Sefaria",
+                        "domain": "www.sefaria.org",
+                        "url": "https://www.sefaria.org/sheets/179212",
+                        "title": "The Letter מ | Voices on Sefaria",
+                        "text": "מ Mem (מ), the 13th letter of the Hebrew alphabet, is associated with water (מים), wellsprings (מעין), immersion (מִקְוֶה), mystical devotion (מרכבה) and Moses ..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Learn more about its deeper mystical traditions on Chabad.org or explore the visual artwork and teachings at Gabriele Levy.",
+                    "markdown": "Learn more about its deeper mystical traditions on [Chabad.org](https://www.chabad.org/library/article_cdo/aid/137085/jewish/Mem.htm) or explore the visual artwork and teachings at [Gabriele Levy](https://gabrielelevy.com/pages/the-letter-mem).[[1]](https://www.chabad.org/library/article_cdo/aid/137085/jewish/Mem.htm)[[2]](https://gabrielelevy.com/pages/the-letter-mem)",
+                    "links": [
+                      {
+                        "type": "link_element",
+                        "title": "Chabad.org",
+                        "description": null,
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137085/jewish/Mem.htm",
+                        "domain": "www.chabad.org"
+                      },
+                      {
+                        "type": "link_element",
+                        "title": "Gabriele Levy",
+                        "description": null,
+                        "url": "https://gabrielelevy.com/pages/the-letter-mem",
+                        "domain": "gabrielelevy.com"
+                      }
+                    ],
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137085/jewish/Mem.htm",
+                        "title": "Mem - The thirteenth letter of the Hebrew alphabet - Chabad.org",
+                        "text": "Identity: Mem (מ), thirteenth Hebrew alphabet letter, numerical value 40, sound \"M\". Meaning: Water (mayim), Moshiach, womb (rechem). Design: Open mem (revealed..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "ALEFBET - The hebrew letters art gallery",
+                        "domain": "gabrielelevy.com",
+                        "url": "https://gabrielelevy.com/pages/the-letter-mem",
+                        "title": "The letter MEM – ALEFBET - THE HEBREW LETTERS ART GALLERY",
+                        "text": "Symbolism: Water, mayim, waters of wisdom, Torah, manifestation, ripening, balanced emotions, humility, motherhood, cyclical time, healing forces. Forms: Open m..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "If you'd like, I can share:How to handwrite both the open and closed forms step-by-step\nFamous Hebrew words that start or end with Mem\nGematria connections to other Hebrew letters\nLet me know what you want to explore next!",
+                    "markdown": "If you'd like, I can share:\n\n- **How to handwrite** both the open and closed forms step-by-step\n- **Famous Hebrew words** that start or end with Mem\n- **Gematria connections** to other Hebrew letters\n\nLet me know what you want to explore next!",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  }
+                ],
+                "references": [
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Hebrew for Christians",
+                    "domain": "hebrew4christians.com",
+                    "url": "https://hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Mem/mem.html",
+                    "title": "The Letter Mem",
+                    "text": "Letter Mem: Thirteenth Hebrew letter, sound \"m\", numeric value 40; composed of Kaf and Vav (gematria 26, matching YHVH). Forms: Open medial (*pesucha*) represen..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Chabad",
+                    "domain": "www.chabad.org",
+                    "url": "https://www.chabad.org/library/article_cdo/aid/137085/jewish/Mem.htm",
+                    "title": "Mem - The thirteenth letter of the Hebrew alphabet - Chabad.org",
+                    "text": "Identity: Mem (מ), thirteenth Hebrew alphabet letter, numerical value 40, sound \"M\". Meaning: Water (mayim), Moshiach, womb (rechem). Design: Open mem (revealed..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "ALEFBET - The hebrew letters art gallery",
+                    "domain": "gabrielelevy.com",
+                    "url": "https://gabrielelevy.com/pages/the-letter-mem",
+                    "title": "The letter MEM – ALEFBET - THE HEBREW LETTERS ART GALLERY",
+                    "text": "Symbolism: Water, mayim, waters of wisdom, Torah, manifestation, ripening, balanced emotions, humility, motherhood, cyclical time, healing forces. Forms: Open m..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Gal Einai",
+                    "domain": "inner.org",
+                    "url": "https://inner.org/hebleter/mem.htm",
+                    "title": "The Hebrew Letters: Mem - GalEinai",
+                    "text": "Meaning: Water and blemish; numerical value 40. Forms: Open mem (square with lower-left opening, flowing stream, exoteric Torah, love/will) and final closed mem..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/watch?v=2mGg-g5XpAg&t=43",
+                    "title": "The Hebrew letter: Mem",
+                    "text": "The Hebrew letter: Mem in the ancient Hebrew when Moses was writing that letter as you know if you look at your computer there's different fonts well Hebrews ov..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/watch?v=v_k7BqCu8Jg",
+                    "title": "MEM - Secrets of the Hebrew Letters",
+                    "text": "mem is one of the five letters that has two forms a form that comes in the beginning or middle of the word. and a final form when it the letter appears as the l..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/watch?v=ivMqgpkiFCw",
+                    "title": "The Hebrew Letter Mem – Waters, Chaos, and Life | Lesson 13",
+                    "text": "The Hebrew Letter Mem – Waters, Chaos, and Life | Lesson 13 the letter mem comes from the plural Hebrew word mim. which means waters its sound is m as in move m..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "The Agapegeek Blog",
+                    "domain": "agapegeek.com",
+                    "url": "https://agapegeek.com/2022/09/30/jesus-in-the-ancient-hebrew-alphabet-part-14-the-mem-part-1-the-blood/",
+                    "title": "Jesus in the Ancient Hebrew Alphabet Part 14 – The Mem Part 1 – the Blood",
+                    "text": "The ancient Hebrew letter “Mem”, is the 13th letter of the Hebrew alphabet, and has the gematria number value of “40”. The letter “Mem” can be spelled as a Hebr..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Sefaria",
+                    "domain": "www.sefaria.org",
+                    "url": "https://www.sefaria.org/sheets/179212",
+                    "title": "The Letter מ | Voices on Sefaria",
+                    "text": "מ Mem (מ), the 13th letter of the Hebrew alphabet, is associated with water (מים), wellsprings (מעין), immersion (מִקְוֶה), mystical devotion (מרכבה) and Moses ..."
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "video",
+                "rank_group": 1,
+                "rank_absolute": 2,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]",
+                "items": [
+                  {
+                    "type": "video_element",
+                    "source": "El Shaddai Ministries",
+                    "title": "The Hebrew letter: Mem",
+                    "timestamp": "2023-07-22 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=2mGg-g5XpAg"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Torah Home Study",
+                    "title": "Writing the Hebrew Letters: Mem",
+                    "timestamp": "2018-03-04 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=4Y3FRJe6Xzo"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Andrew McClurg",
+                    "title": "Mem: Writing Hebrew Letters",
+                    "timestamp": "2020-05-01 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=6T6Y521M_-o"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Shalom Sesame",
+                    "title": "Learn the Hebrew letter MEM",
+                    "timestamp": "2014-01-21 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=DVGONGGlSuM"
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "people_also_ask",
+                "rank_group": 1,
+                "rank_absolute": 3,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]",
+                "items": [
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "How do you write the number 13 in Hebrew letters?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[1]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does the word Mem mean in Psalm 119?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[2]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does the word letter mean in Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[3]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What are the letters for Yahweh in Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[4]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "images",
+                "rank_group": 1,
+                "rank_absolute": 4,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]",
+                "title": "Images",
+                "url": null,
+                "items": [
+                  {
+                    "type": "images_element",
+                    "alt": "Mem - The thirteenth letter of the Hebrew alphabet - Chabad.org",
+                    "url": "https://www.chabad.org/library/article_cdo/aid/137085/jewish/Mem.htm",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR64tgQwT9Nm6ziF8aZqw4cEC9xM9m7af1alwqXNN6OIBd3tm5TWmevwOc&s"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "File:MEM Hebrew Letter.png - Wikimedia Commons",
+                    "url": "https://commons.wikimedia.org/wiki/File:MEM_Hebrew_Letter.png",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSygzrAD7s8D2uck8XT6kVFd_4AAyotaGEX7Va6_YJpUnLJvs8oZQG7e1k&s"
+                  }
+                ],
+                "related_image_searches": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 1,
+                "rank_absolute": 5,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.facebook.com",
+                "title": "Hebrew letter mem pronunciation and usage",
+                "url": "https://www.facebook.com/groups/1687348774926200/posts/3574867842840941/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "10+ comments",
+                "website_name": "Facebook · Free Hebrew Class",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "בָּרוּךְ אַתָּה אֲדֹנָי\nSHALOM \n\nLESSON #13   MEM  \n                          FINAL MEM\n\nThe letter MEM is pronounced with the \"m\" ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": [
+                  {
+                    "type": "link_element",
+                    "title": "Richard are an administrator of this page?  Some people appear to have a problem with the ...",
+                    "description": "Top answer · 2 votes",
+                    "url": "https://www.facebook.com/groups/1687348774926200/posts/3574867842840941/",
+                    "domain": "www.facebook.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "שלום",
+                    "description": "1 vote",
+                    "url": "https://www.facebook.com/groups/1687348774926200/posts/3574867842840941/",
+                    "domain": "www.facebook.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Richard, I am also to learn the Hebrew letters on Duolingo water is מים",
+                    "description": "1 vote",
+                    "url": "https://www.facebook.com/groups/1687348774926200/posts/3574867842840941/",
+                    "domain": "www.facebook.com"
+                  }
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2023-10-11 05:23:59 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 2,
+                "rank_absolute": 6,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[12]/div[3]/div[1]/div[1]/div[10]/div[1]/div[1]",
+                "domain": "www.chabad.org",
+                "title": "Letters of Light: Mem",
+                "url": "https://www.chabad.org/multimedia/video_cdo/aid/2024168/jewish/Letters-of-Light-Mem.htm",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.chabad.org",
+                "website_name": "Chabad.org",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "Letters of Light: Mem. This class explains the mystical meanings of the Hebrew letters including the significance of the letters' names, their phonetic sounds, ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": [
+                  {
+                    "type": "link_element",
+                    "title": null,
+                    "description": null,
+                    "url": "https://www.chabad.org/multimedia/video_cdo/aid/2024168/jewish/Letters-of-Light-Mem.htm",
+                    "domain": "www.chabad.org"
+                  }
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2013-03-21 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 3,
+                "rank_absolute": 7,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[12]/div[3]/div[1]/div[1]/div[11]/div[1]/div[1]",
+                "domain": "www.youtube.com",
+                "title": "Hebrew Letters; Mem מ: Quenching one's Thirst",
+                "url": "https://www.youtube.com/watch?v=npW3egUvLl0",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "1.3K+ views",
+                "website_name": "YouTube · Rabbi Aaron L. Raskin | הרב אהרן ראסקין",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "The letter Mem is the thirteenth letter. Listen and learn the meaning of these Hebrew letters. --- Like what you hear? Subscribe to Rabbi ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2014-10-11 05:23:59 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 4,
+                "rank_absolute": 8,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[12]/div[3]/div[1]/div[1]/div[13]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.shutterstock.com",
+                "title": "190 Mem Hebrew Royalty-Free Images, Stock Photos & Pictures",
+                "url": "https://www.shutterstock.com/search/mem-hebrew",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.shutterstock.com",
+                "website_name": "Shutterstock",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Vector illustration of the Hebrew alphabet with floral design. Hebrew letter called Mem white on green background. Vector illustration of the Hebrew alphabet ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 5,
+                "rank_absolute": 9,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[12]/div[3]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.etz-hayim.com",
+                "title": "The Hebrew letter Mem | Etz Hayim \"Tree of Life\"",
+                "url": "https://www.etz-hayim.com/hebrew/letters_and_vowels/mem.php",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.etz-hayim.com",
+                "website_name": "Etz Hayim—\"Tree of Life\"",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "MEM is the thirteenth letter of the Hebrew alphabet. Mem takes a final (sofit) form when the letter occurs at the end of a word. Mem",
+                "pre_snippet": "11/04/2018 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2018-11-04 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 6,
+                "rank_absolute": 10,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[12]/div[3]/div[1]/div[1]/div[17]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.pinterest.com",
+                "title": "Hebrew Mem Symbol for Language Learning",
+                "url": "https://www.pinterest.com/pin/the-hebrew-symbol-mem-can-be-displayed-in-classrooms-for-language-learning-purposes-free-to-down--88735055143539609/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "8 years ago",
+                "website_name": "Pinterest · carlosc0973",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Hebrew Mem. The Hebrew symbol Mem can be displayed in classrooms for language learning purposes.",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 7,
+                "rank_absolute": 11,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[12]/div[3]/div[1]/div[1]/div[18]/div[1]/div[1]",
+                "domain": "andreabeloff.com",
+                "title": "MEM - Order Out of Chaos",
+                "url": "https://andreabeloff.com/mem-order-out-of-chaos/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://andreabeloff.com",
+                "website_name": "Andrea Beloff · Andrea Beloff",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "MEM, the 13th Hebrew Letter brings order out of chaos to renew and cleanse and bring forth new life, a new day.",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": [
+                  {
+                    "type": "link_element",
+                    "title": "0:20",
+                    "description": null,
+                    "url": "https://andreabeloff.com/mem-order-out-of-chaos/",
+                    "domain": "andreabeloff.com"
+                  }
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2023-07-07 00:00:00 +00:00",
+                "rectangle": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

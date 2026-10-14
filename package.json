@@ -10,12 +10,16 @@
     "check:layout": "node scripts/check-layout.mjs",
     "sync:alef-bet-rush": "node scripts/sync-alef-bet-rush.mjs",
     "sync:hebrew-mahjong": "node scripts/sync-hebrew-mahjong.mjs",
-    "sync:hebrew-word-search": "node scripts/sync-hebrew-word-search.mjs"
+    "sync:hebrew-word-search": "node scripts/sync-hebrew-word-search.mjs",
+    "seo:build": "node scripts/seo/build-core.mjs"
   },
   "dependencies": {
     "astro": "^7.3.5"
   },
   "engines": {
     "node": ">=22.12.0"
+  },
+  "devDependencies": {
+    "exceljs": "^4.4.0"
   }
 }

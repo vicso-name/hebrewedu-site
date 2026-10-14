@@ -1,0 +1,764 @@
+{
+  "keyword": "mem sofit",
+  "retrieved_at_utc": "2026-10-11T05:30:15.809Z",
+  "raw": {
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "3.0352 sec.",
+    "cost": 0.002,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "10110529-2762-0139-0000-48682c57e66d",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "2.9193 sec.",
+        "cost": 0.002,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "serp",
+          "google",
+          "organic",
+          "live",
+          "advanced"
+        ],
+        "data": {
+          "api": "serp",
+          "function": "live",
+          "se": "google",
+          "se_type": "organic",
+          "keyword": "mem sofit",
+          "location_code": 2840,
+          "language_code": "en",
+          "device": "mobile",
+          "os": "android",
+          "depth": 10
+        },
+        "result": [
+          {
+            "keyword": "mem sofit",
+            "type": "organic",
+            "se_domain": "google.com",
+            "location_code": 2840,
+            "language_code": "en",
+            "check_url": "https://www.google.com/search?q=mem%20sofit&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+            "datetime": "2026-10-11 05:29:47 +00:00",
+            "spell": null,
+            "refinement_chips": null,
+            "item_types": [
+              "ai_overview",
+              "images",
+              "people_also_search",
+              "organic",
+              "people_also_ask",
+              "video"
+            ],
+            "se_results_count": 0,
+            "pages_count": 1,
+            "items_count": 12,
+            "items": [
+              {
+                "type": "ai_overview",
+                "rank_group": 1,
+                "rank_absolute": 1,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]",
+                "asynchronous_ai_overview": false,
+                "markdown": "![Daily Aleph Bet: Mem Sofit | Shlomo&#39;s Drash](https://api.dataforseo.com/cdn/i/10110529-2762-0139-0000-48682c57e66d:20)\n![Mem Sofit Flashcard — Akhlah](https://api.dataforseo.com/cdn/i/10110529-2762-0139-0000-48682c57e66d:21)\n![Hebrew for Kids: The Letter MEM (19) – MazorBooks](https://api.dataforseo.com/cdn/i/10110529-2762-0139-0000-48682c57e66d:22)\n![Mem Sofit Stock Illustrations – 14 Mem Sofit Stock ...](https://api.dataforseo.com/cdn/i/10110529-2762-0139-0000-48682c57e66d:23)\n![Hebrew Font. the Hebrew Language. the Letter Mem Sofit ...](https://api.dataforseo.com/cdn/i/10110529-2762-0139-0000-48682c57e66d:24)\n\nThe [Hebrew Letter Mem](https://en.wikipedia.org/wiki/Mem) is the `thirteenth letter of the Hebrew alphabet` , with the sound \"m\" and a numerical value of **40**.[[1]](https://hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Mem/mem.html)[[2]](https://mazorbooks.wordpress.com/2021/05/25/mem/)\n\n### Forms\n\n- **Medial/Initial Mem (מ):** Used at the start or in the middle of a word; open at the bottom-left corner.[[1]](https://his-israel.com/the-hebrew-letter-mem-tishrei/)\n- **Mem Sofit (ם):** The final form used exclusively at the end of a word; it forms a closed square shape.[[1]](https://hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Mem/mem.html)[[2]](https://mazorbooks.wordpress.com/2021/05/25/mem/)[[3]](https://www.youtube.com/watch?v=4Y3FRJe6Xzo&t=4)\n\n### Symbolic Meanings\n\n- **Water (*Mayim*):** It represents flowing water, wisdom, and the Torah.[[1]](https://hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Mem/mem.html)[[2]](https://www.facebook.com/groups/1687050108451278/posts/2045457555943863/)\n- **Revealed vs. Concealed:** The open medial Mem symbolizes revealed truth, while the closed Mem Sofit represents hidden or secret truths, the womb (*rechem* ), or the closed era of the Messiah.[[1]](https://www.chabad.org/library/article_cdo/aid/137085/jewish/Mem.htm)[[2]](https://hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Mem/mem.html)\n- **The Number 40:** Symbolizes periods of testing, transformation, or completion—such as the 40 days of rain in the flood, 40 years of desert wandering, and Moses staying on Mount Sinai for 40 days.[[1]](https://hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Mem/mem.html)[[2]](https://www.chabad.org/library/article_cdo/aid/137085/jewish/Mem.htm)\n\nWould you like to explore **gematria calculations** for words starting or ending with Mem Sofit, or learn how to write it in Hebrew script?",
+                "items": [
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": null,
+                    "markdown": "![Daily Aleph Bet: Mem Sofit | Shlomo&#39;s Drash](https://api.dataforseo.com/cdn/i/10110529-2762-0139-0000-48682c57e66d:10)\n![Mem Sofit Flashcard — Akhlah](https://api.dataforseo.com/cdn/i/10110529-2762-0139-0000-48682c57e66d:11)\n![Hebrew for Kids: The Letter MEM (19) – MazorBooks](https://api.dataforseo.com/cdn/i/10110529-2762-0139-0000-48682c57e66d:12)\n![Mem Sofit Stock Illustrations – 14 Mem Sofit Stock ...](https://api.dataforseo.com/cdn/i/10110529-2762-0139-0000-48682c57e66d:13)\n![Hebrew Font. the Hebrew Language. the Letter Mem Sofit ...](https://api.dataforseo.com/cdn/i/10110529-2762-0139-0000-48682c57e66d:14)",
+                    "links": null,
+                    "images": [
+                      {
+                        "type": "images_element",
+                        "alt": "Daily Aleph Bet: Mem Sofit | Shlomo's Drash",
+                        "url": null,
+                        "image_url": "https://api.dataforseo.com/cdn/i/10110529-2762-0139-0000-48682c57e66d:15"
+                      },
+                      {
+                        "type": "images_element",
+                        "alt": "Mem Sofit Flashcard — Akhlah",
+                        "url": null,
+                        "image_url": "https://api.dataforseo.com/cdn/i/10110529-2762-0139-0000-48682c57e66d:16"
+                      },
+                      {
+                        "type": "images_element",
+                        "alt": "Hebrew for Kids: The Letter MEM (19) – MazorBooks",
+                        "url": null,
+                        "image_url": "https://api.dataforseo.com/cdn/i/10110529-2762-0139-0000-48682c57e66d:17"
+                      },
+                      {
+                        "type": "images_element",
+                        "alt": "Mem Sofit Stock Illustrations – 14 Mem Sofit Stock ...",
+                        "url": null,
+                        "image_url": "https://api.dataforseo.com/cdn/i/10110529-2762-0139-0000-48682c57e66d:18"
+                      },
+                      {
+                        "type": "images_element",
+                        "alt": "Hebrew Font. the Hebrew Language. the Letter Mem Sofit ...",
+                        "url": null,
+                        "image_url": "https://api.dataforseo.com/cdn/i/10110529-2762-0139-0000-48682c57e66d:19"
+                      }
+                    ],
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "The Hebrew Letter Mem is the thirteenth letter of the Hebrew alphabet, with the sound \"m\" and a numerical value of 40.",
+                    "markdown": "The [Hebrew Letter Mem](https://en.wikipedia.org/wiki/Mem) is the `thirteenth letter of the Hebrew alphabet` , with the sound \"m\" and a numerical value of **40**.[[1]](https://hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Mem/mem.html)[[2]](https://mazorbooks.wordpress.com/2021/05/25/mem/)",
+                    "links": [
+                      {
+                        "type": "link_element",
+                        "title": "Hebrew Letter Mem",
+                        "description": null,
+                        "url": "https://en.wikipedia.org/wiki/Mem",
+                        "domain": "en.wikipedia.org"
+                      }
+                    ],
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew for Christians",
+                        "domain": "hebrew4christians.com",
+                        "url": "https://hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Mem/mem.html",
+                        "title": "The Letter Mem",
+                        "text": "Letter Mem: Thirteenth Hebrew letter, sound \"m\", numeric value 40; composed of Kaf and Vav (gematria 26, matching YHVH). Forms: Open medial (*pesucha*) represen..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "WordPress.com",
+                        "domain": "mazorbooks.wordpress.com",
+                        "url": "https://mazorbooks.wordpress.com/2021/05/25/mem/",
+                        "title": "Hebrew for Kids: The Letter MEM (19) - MazorBooks - WordPress.com",
+                        "text": "INTRODUCING THE LETTER MEM MEM is the thirteenth letter of the Hebrew Alphabet. The numerical value of MEM is 40 In modern Hebrew, the frequency usage of the le..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Forms",
+                    "markdown": "### Forms",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Medial/Initial Mem (מ): Used at the start or in the middle of a word; open at the bottom-left corner. Mem Sofit (ם): The final form used exclusively at the end of a word; it forms a closed square shape.",
+                    "markdown": "- **Medial/Initial Mem (מ):** Used at the start or in the middle of a word; open at the bottom-left corner.[[1]](https://his-israel.com/the-hebrew-letter-mem-tishrei/)\n- **Mem Sofit (ם):** The final form used exclusively at the end of a word; it forms a closed square shape.[[1]](https://hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Mem/mem.html)[[2]](https://mazorbooks.wordpress.com/2021/05/25/mem/)[[3]](https://www.youtube.com/watch?v=4Y3FRJe6Xzo&t=4)",
+                    "links": null,
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "his-israel",
+                        "domain": "his-israel.com",
+                        "url": "https://his-israel.com/the-hebrew-letter-mem-tishrei/",
+                        "title": "7. The Hebrew Letter MEM - Tishrei - HIS-ISRAEL",
+                        "text": "Shape & Meaning: Regular open Mem (square with bottom-left opening) and closed final Mem (Mem sofit). Associated with water (mayim), spring of wisdom (Ma'ayan H..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew for Christians",
+                        "domain": "hebrew4christians.com",
+                        "url": "https://hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Mem/mem.html",
+                        "title": "The Letter Mem",
+                        "text": "Letter Mem: Thirteenth Hebrew letter, sound \"m\", numeric value 40; composed of Kaf and Vav (gematria 26, matching YHVH). Forms: Open medial (*pesucha*) represen..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "WordPress.com",
+                        "domain": "mazorbooks.wordpress.com",
+                        "url": "https://mazorbooks.wordpress.com/2021/05/25/mem/",
+                        "title": "Hebrew for Kids: The Letter MEM (19) - MazorBooks - WordPress.com",
+                        "text": "INTRODUCING THE LETTER MEM MEM is the thirteenth letter of the Hebrew Alphabet. The numerical value of MEM is 40 In modern Hebrew, the frequency usage of the le..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=4Y3FRJe6Xzo&t=4",
+                        "title": "Writing the Hebrew Letters: Mem",
+                        "text": "Writing the Hebrew Letters: Mem hello welcome back for another lesson uh writing the Hebrew letters today we're doing the letter. me has the m sound m sound in ..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Symbolic Meanings",
+                    "markdown": "### Symbolic Meanings",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Water (Mayim): It represents flowing water, wisdom, and the Torah. Revealed vs. Concealed: The open medial Mem symbolizes revealed truth, while the closed Mem Sofit represents hidden or secret truths, the womb (rechem), or the closed era of the Messiah. The Number 40: Symbolizes periods of testing, transformation, or completion—such as the 40 days of rain in the flood, 40 years of desert wandering, and Moses staying on Mount Sinai for 40 days.",
+                    "markdown": "- **Water (*Mayim*):** It represents flowing water, wisdom, and the Torah.[[1]](https://hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Mem/mem.html)[[2]](https://www.facebook.com/groups/1687050108451278/posts/2045457555943863/)\n- **Revealed vs. Concealed:** The open medial Mem symbolizes revealed truth, while the closed Mem Sofit represents hidden or secret truths, the womb (*rechem* ), or the closed era of the Messiah.[[1]](https://www.chabad.org/library/article_cdo/aid/137085/jewish/Mem.htm)[[2]](https://hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Mem/mem.html)\n- **The Number 40:** Symbolizes periods of testing, transformation, or completion—such as the 40 days of rain in the flood, 40 years of desert wandering, and Moses staying on Mount Sinai for 40 days.[[1]](https://hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Mem/mem.html)[[2]](https://www.chabad.org/library/article_cdo/aid/137085/jewish/Mem.htm)",
+                    "links": null,
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew for Christians",
+                        "domain": "hebrew4christians.com",
+                        "url": "https://hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Mem/mem.html",
+                        "title": "The Letter Mem",
+                        "text": "Letter Mem: Thirteenth Hebrew letter, sound \"m\", numeric value 40; composed of Kaf and Vav (gematria 26, matching YHVH). Forms: Open medial (*pesucha*) represen..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Facebook",
+                        "domain": "www.facebook.com",
+                        "url": "https://www.facebook.com/groups/1687050108451278/posts/2045457555943863/",
+                        "title": "Purpose of mem sofit in Hebrew",
+                        "text": "Hebrew letter mem represents water and wisdom Andre Van Norden ► REVELATION GOSPEL TEACHERS Hebrew spelling: מֵם Mem represents a bilabial nasal [m]. The letter..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137085/jewish/Mem.htm",
+                        "title": "Mem - The thirteenth letter of the Hebrew alphabet - Chabad.org",
+                        "text": "Identity: Mem (מ), thirteenth Hebrew alphabet letter, numerical value 40, sound \"M\". Meaning: Water (mayim), Moshiach, womb (rechem). Design: Open mem (revealed..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Would you like to explore gematria calculations for words starting or ending with Mem Sofit, or learn how to write it in Hebrew script?",
+                    "markdown": "Would you like to explore **gematria calculations** for words starting or ending with Mem Sofit, or learn how to write it in Hebrew script?",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  }
+                ],
+                "references": [
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Hebrew for Christians",
+                    "domain": "hebrew4christians.com",
+                    "url": "https://hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Mem/mem.html",
+                    "title": "The Letter Mem",
+                    "text": "Letter Mem: Thirteenth Hebrew letter, sound \"m\", numeric value 40; composed of Kaf and Vav (gematria 26, matching YHVH). Forms: Open medial (*pesucha*) represen..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/watch?v=4Y3FRJe6Xzo&t=4",
+                    "title": "Writing the Hebrew Letters: Mem",
+                    "text": "Writing the Hebrew Letters: Mem hello welcome back for another lesson uh writing the Hebrew letters today we're doing the letter. me has the m sound m sound in ..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "his-israel",
+                    "domain": "his-israel.com",
+                    "url": "https://his-israel.com/the-hebrew-letter-mem-tishrei/",
+                    "title": "7. The Hebrew Letter MEM - Tishrei - HIS-ISRAEL",
+                    "text": "Shape & Meaning: Regular open Mem (square with bottom-left opening) and closed final Mem (Mem sofit). Associated with water (mayim), spring of wisdom (Ma'ayan H..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "WordPress.com",
+                    "domain": "mazorbooks.wordpress.com",
+                    "url": "https://mazorbooks.wordpress.com/2021/05/25/mem/",
+                    "title": "Hebrew for Kids: The Letter MEM (19) - MazorBooks - WordPress.com",
+                    "text": "INTRODUCING THE LETTER MEM MEM is the thirteenth letter of the Hebrew Alphabet. The numerical value of MEM is 40 In modern Hebrew, the frequency usage of the le..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Facebook",
+                    "domain": "www.facebook.com",
+                    "url": "https://www.facebook.com/groups/1687050108451278/posts/2045457555943863/",
+                    "title": "Purpose of mem sofit in Hebrew",
+                    "text": "Hebrew letter mem represents water and wisdom Andre Van Norden ► REVELATION GOSPEL TEACHERS Hebrew spelling: מֵם Mem represents a bilabial nasal [m]. The letter..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Chabad",
+                    "domain": "www.chabad.org",
+                    "url": "https://www.chabad.org/library/article_cdo/aid/137085/jewish/Mem.htm",
+                    "title": "Mem - The thirteenth letter of the Hebrew alphabet - Chabad.org",
+                    "text": "Identity: Mem (מ), thirteenth Hebrew alphabet letter, numerical value 40, sound \"M\". Meaning: Water (mayim), Moshiach, womb (rechem). Design: Open mem (revealed..."
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "images",
+                "rank_group": 1,
+                "rank_absolute": 2,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]",
+                "title": "Images",
+                "url": null,
+                "items": [
+                  {
+                    "type": "images_element",
+                    "alt": "File:Sofit mem and mem.jpg - Wikimedia Commons",
+                    "url": "https://commons.wikimedia.org/wiki/File:Sofit_mem_and_mem.jpg",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110529-2762-0139-0000-48682c57e66d:25"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "Daily Aleph Bet: Mem Sofit | Shlomo's Drash",
+                    "url": "https://shlomosnewdrash.wordpress.com/2012/05/24/daily-aleph-bet-mem-sofit/",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110529-2762-0139-0000-48682c57e66d:26"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "40 Learn Hebrew Letter Mem Sofit",
+                    "url": "https://www.hebrewdoc.com/LearnHebrew/40LearnMemSofit.html",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110529-2762-0139-0000-48682c57e66d:27"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "Samach-Mem Sofit Ice cream by Power points for you | TPT",
+                    "url": "https://www.teacherspayteachers.com/Product/Samach-Mem-Sofit-Ice-cream-7845073",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110529-2762-0139-0000-48682c57e66d:28"
+                  }
+                ],
+                "related_image_searches": null,
+                "rectangle": null
+              },
+              {
+                "type": "people_also_search",
+                "rank_group": 1,
+                "rank_absolute": 3,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]",
+                "title": "People also search for",
+                "items": [
+                  "Mem sofit meaning",
+                  "Mem sofit hebrew",
+                  "Mem sofit pronunciation",
+                  "Mem sofit words"
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 1,
+                "rank_absolute": 4,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "hebrewtoday.com",
+                "title": "The Letter Mem (מ) - The Hebrew Alphabet",
+                "url": "https://hebrewtoday.com/alphabet/the-letter-mem-%D7%9E/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://hebrewtoday.com",
+                "website_name": "Hebrew Today",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "The Letter Mem (מ) is the middle letter of the Hebrew alphabet. understand the physical aspects of the creation. This number represents ripeness and maturity.",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "The Letter Mem (מ) is the middle letter of the Hebrew alphabet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "people_also_ask",
+                "rank_group": 1,
+                "rank_absolute": 5,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]",
+                "items": [
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "How do you write the number 13 in Hebrew letters?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[2]/div[2]/div[1]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does the word Mem mean in Psalm 119?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[2]/div[2]/div[2]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does sofit mean in Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[2]/div[2]/div[3]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does Aleph mean biblically?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[2]/div[2]/div[4]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "video",
+                "rank_group": 1,
+                "rank_absolute": 6,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[11]",
+                "items": [
+                  {
+                    "type": "video_element",
+                    "source": "How to Pronounce and Say in Hebrew",
+                    "title": "Lesson 99 – Hebrew Alphabet Easy Reading Practice: Mem",
+                    "timestamp": "2025-06-21 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=WZ6d1PH_-9E"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Hebrew with David",
+                    "title": "Learn to Read and Write in Hebrew · The Letter Mem Sofit (ם) · Lesson 15",
+                    "timestamp": "2021-11-02 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=0o92AuCo1NY"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "heartlandhailey",
+                    "title": "Explore the Hebrew Letter Mem Sofit (ם)",
+                    "timestamp": "2025-09-08 00:00:00 +00:00",
+                    "url": "https://www.tiktok.com/@heartlandhailey/video/7547803232051973407"
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 2,
+                "rank_absolute": 7,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[13]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.facebook.com",
+                "title": "Hebrew Letter Mem Pronunciation",
+                "url": "https://www.facebook.com/groups/thehebrewcafe/posts/2462574260745732/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "2 comments",
+                "website_name": "Facebook · The Hebrew Café",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "The 13th letter in Hebrew is \"Mem\": \"מ\"⬇️",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": [
+                  {
+                    "type": "link_element",
+                    "title": "Learning the 5 sofit letters in HebrewHebrew with GQ·20+ comments·5y",
+                    "description": null,
+                    "url": "https://www.facebook.com/groups/796068850979772/posts/825560971363893/",
+                    "domain": "www.facebook.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Sofit letters in HebrewFree Hebrew Class·9 comments·2y",
+                    "description": null,
+                    "url": "https://www.facebook.com/groups/1687348774926200/posts/3826729910988065/",
+                    "domain": "www.facebook.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Not gavoha but gavoah. The פתח גנובה is pronounced before the gutturals chet, ayin, and heh mappik at the end of a word following long vowels ...",
+                    "description": "Top answer · 1 vote",
+                    "url": "https://www.facebook.com/groups/thehebrewcafe/posts/2462574260745732/",
+                    "domain": "www.facebook.com"
+                  }
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2025-10-11 05:29:46 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 3,
+                "rank_absolute": 8,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "es.pinterest.com",
+                "title": "Hebrew Letter Mem Sofit Coloring Page - דף צביעה אוֹת מם סופית",
+                "url": "https://es.pinterest.com/pin/329396160232180292/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "9 years ago",
+                "website_name": "Pinterest · carmendinu1",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Learn the Hebrew Letters & the Hebrew Alphabet in this free online tutorial with alphabet cards and videos for learning Hebrew.",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Learn the Hebrew Letters & the Hebrew Alphabet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 4,
+                "rank_absolute": 9,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[17]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "asianbeacon.org",
+                "title": "Study #8: MEM",
+                "url": "https://asianbeacon.org/2019/06/12/study-8-mem/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://asianbeacon.org",
+                "website_name": "Asian Beacon",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "MEM has two written forms: the Open Mem and the Closed Mem (Mem Sofit). the common metaphor for MEM is Water. MEM is a womb that bursts with ...",
+                "pre_snippet": "06/12/2019 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2019-06-12 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 5,
+                "rank_absolute": 10,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.cartoonhebrew.com",
+                "title": "Hebrew Letter Mem",
+                "url": "https://www.cartoonhebrew.com/mem",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.cartoonhebrew.com",
+                "website_name": "Cartoon Hebrew",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Mem Sofit > Mem Mem If … it looks a little bit like an M. M came from thousands of years ago. ) - Means how much or how many. Alive, living, exists. ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 6,
+                "rank_absolute": 11,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[21]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.hebrewdoc.com",
+                "title": "40 Learn Hebrew Letter Mem Sofit",
+                "url": "https://www.hebrewdoc.com/LearnHebrew/40LearnMemSofit.html",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.hebrewdoc.com",
+                "website_name": "HebrewDoc",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Learn Hebrew letters. Mem Sofit only comes at the end of the word, a silent Aleph letter is used to help practice.",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Mem Sofit only comes at the end of the word"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 7,
+                "rank_absolute": 12,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[23]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "gabrielelevy.com",
+                "title": "The letter MEM – ALEFBET",
+                "url": "https://gabrielelevy.com/pages/the-letter-mem?srsltid=AU7gw4Xlle5Uz0N1nz8B4ZIP1EzowRdzdurie2x8nDZiv1kRIfv-NxZ1",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://gabrielelevy.com",
+                "website_name": "ALEFBET - The hebrew letters art gallery",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "The letter Mem is water mayim מים, the waters of wisdom, knowledge, the Torah. · Mem corresponds to the number 40 and represents the time necessary for the ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

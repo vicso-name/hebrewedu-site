@@ -1,0 +1,561 @@
+{
+  "checked_at_utc": "2026-10-13T13:58:34.537044+00:00",
+  "search_root": "/Users/kasutaja/Developer/seo-research/hebrewedu",
+  "criteria": {
+    "keyword": "exact string",
+    "successful_status": 20000,
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "mobile",
+    "os": "android",
+    "depth": 10,
+    "se": "google",
+    "result_type": "organic"
+  },
+  "serp_tasks_inspected": 90,
+  "exact_keyword_matches": [],
+  "invalid_json_files": [],
+  "inspected_tasks": [
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/serp-pilot-raw.json",
+      "task_id": "10101310-2762-0139-0000-3c092c5d8b7c",
+      "keyword": "hebrew learning app",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/serp-pilot-raw.json",
+      "task_id": "10101310-2762-0139-0000-e637500a8716",
+      "keyword": "hebrew alphabet app",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/serp-pilot-raw.json",
+      "task_id": "10101311-2762-0139-0000-6f7939bf9ad8",
+      "keyword": "learn hebrew alphabet",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/serp-pilot-raw.json",
+      "task_id": "10101311-2762-0139-0000-7fdc89a53c1b",
+      "keyword": "hebrew alphabet chart",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/serp-pilot-raw.json",
+      "task_id": "10101317-2762-0139-0000-601d50694f59",
+      "keyword": "how to read hebrew",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/serp-pilot-raw.json",
+      "task_id": "10101317-2762-0139-0000-e6494cfbec38",
+      "keyword": "how to read hebrew nikud",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/serp-pilot-raw.json",
+      "task_id": "10101318-2762-0139-0000-863b0bfdf899",
+      "keyword": "does hebrew have vowels",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/serp-pilot-raw.json",
+      "task_id": "10101319-2762-0139-0000-a76875c6a198",
+      "keyword": "how to learn hebrew vocabulary",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/serp-pilot-raw.json",
+      "task_id": "10101320-2762-0139-0000-2ff6a06052bc",
+      "keyword": "hebrew grammar for beginners",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/serp-pilot-raw.json",
+      "task_id": "10101320-2762-0139-0000-2464a1bcc87f",
+      "keyword": "hebrew alphabet games online",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-43-raw.json",
+      "task_id": "10110531-2762-0139-0000-f9089df7c773",
+      "keyword": "hebrew shin vs sin pronunciation",
+      "status_code": 40101
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-42-raw.json",
+      "task_id": "10110531-2762-0139-0000-2fe671493c32",
+      "keyword": "hebrew pe vs fe pronunciation",
+      "status_code": 40101
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-34-raw.json",
+      "task_id": "10110529-2762-0139-0000-3996c8668dd7",
+      "keyword": "kaf vs chaf pronunciation",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-35-raw.json",
+      "task_id": "10110529-2762-0139-0000-fa7bbd6efbcd",
+      "keyword": "pe vs fe pronunciation",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-01-raw.json",
+      "task_id": "10110522-2762-0139-0000-4b7f913b213a",
+      "keyword": "aleph hebrew letter",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-23-raw.json",
+      "task_id": "10110526-2762-0139-0000-9d56cf62ce72",
+      "keyword": "hebrew alphabet course",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-22-raw.json",
+      "task_id": "10110526-2762-0139-0000-2aa65438bb87",
+      "keyword": "tav hebrew letter",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-17-raw.json",
+      "task_id": "10110525-2762-0139-0000-be37e01a643c",
+      "keyword": "pe hebrew letter",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-16-raw.json",
+      "task_id": "10110524-2762-0139-0000-6276222ddde4",
+      "keyword": "ayin hebrew letter",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-29-raw.json",
+      "task_id": "10110527-2762-0139-0000-62cc79d7a1c3",
+      "keyword": "aleph with hataf patah",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-28-raw.json",
+      "task_id": "10110527-2762-0139-0000-d467c1a116d1",
+      "keyword": "aleph with kamatz",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-24-raw.json",
+      "task_id": "10110526-2762-0139-0000-ea90d20cc864",
+      "keyword": "hebrew alphabet lessons online",
+      "status_code": 40101
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-25-raw.json",
+      "task_id": "10110527-2762-0139-0000-4c0f8b50d1d3",
+      "keyword": "interactive hebrew alphabet course",
+      "status_code": 40101
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-10-raw.json",
+      "task_id": "10110523-2762-0139-0000-d44311c13ea9",
+      "keyword": "yod hebrew letter",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-11-raw.json",
+      "task_id": "10110523-2762-0139-0000-9823d1d06dab",
+      "keyword": "kaf hebrew letter",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-33-raw.json",
+      "task_id": "10110529-2762-0139-0000-2728724c08ab",
+      "keyword": "bet vs vet pronunciation",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-32-raw.json",
+      "task_id": "10110528-2762-0139-0000-30877403fbb1",
+      "keyword": "hebrew alphabet quiz",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-07-raw.json",
+      "task_id": "10110522-2762-0139-0000-d974ea780ed4",
+      "keyword": "zayin hebrew letter",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-06-raw.json",
+      "task_id": "10110522-2762-0139-0000-1eaa2dcbceb7",
+      "keyword": "vav hebrew letter",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-39-raw.json",
+      "task_id": "10110529-2762-0139-0000-59cd66f7699e",
+      "keyword": "nun sofit",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-38-raw.json",
+      "task_id": "10110529-2762-0139-0000-48682c57e66d",
+      "keyword": "mem sofit",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-14-raw.json",
+      "task_id": "10110524-2762-0139-0000-f1d0af1045ac",
+      "keyword": "nun hebrew letter",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-15-raw.json",
+      "task_id": "10110524-2762-0139-0000-1f80630e5315",
+      "keyword": "samekh hebrew letter",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-20-raw.json",
+      "task_id": "10110525-2762-0139-0000-5fd2d793a33a",
+      "keyword": "resh hebrew letter",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-21-raw.json",
+      "task_id": "10110525-2762-0139-0000-221c981cbe4a",
+      "keyword": "shin hebrew letter",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-03-raw.json",
+      "task_id": "10110522-2762-0139-0000-df56fb4c6020",
+      "keyword": "gimel hebrew letter",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-02-raw.json",
+      "task_id": "10110522-2762-0139-0000-aa2f1577925d",
+      "keyword": "bet hebrew letter",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-09-raw.json",
+      "task_id": "10110523-2762-0139-0000-a63bc8445cdf",
+      "keyword": "tet hebrew letter",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-08-raw.json",
+      "task_id": "10110523-2762-0139-0000-c33a498d0155",
+      "keyword": "chet hebrew letter",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-40-raw.json",
+      "task_id": "10110529-2762-0139-0000-8c717a1eca54",
+      "keyword": "pe sofit",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-41-raw.json",
+      "task_id": "10110530-2762-0139-0000-5026713af189",
+      "keyword": "tsadi sofit",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-37-raw.json",
+      "task_id": "10110529-2762-0139-0000-3a0eb0c9944e",
+      "keyword": "kaf sofit",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-36-raw.json",
+      "task_id": "10110529-2762-0139-0000-fef9be979132",
+      "keyword": "shin vs sin pronunciation",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-04-raw.json",
+      "task_id": "10110522-2762-0139-0000-f65f25d0929c",
+      "keyword": "dalet hebrew letter",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-05-raw.json",
+      "task_id": "10110522-2762-0139-0000-33b7bdec8f62",
+      "keyword": "he hebrew letter",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-30-raw.json",
+      "task_id": "10110527-2762-0139-0000-916329984c2d",
+      "keyword": "learn hebrew alphabet",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-31-raw.json",
+      "task_id": "10110528-2762-0139-0000-c3c8fdef5b9a",
+      "keyword": "hebrew alphabet chart",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-13-raw.json",
+      "task_id": "10110523-2762-0139-0000-89e7395a0eb9",
+      "keyword": "mem hebrew letter",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-12-raw.json",
+      "task_id": "10110523-2762-0139-0000-9edc7d281669",
+      "keyword": "lamed hebrew letter",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-19-raw.json",
+      "task_id": "10110525-2762-0139-0000-4fb643715612",
+      "keyword": "qof hebrew letter",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-18-raw.json",
+      "task_id": "10110525-2762-0139-0000-685c1e1b8ec0",
+      "keyword": "tsadi hebrew letter",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-27-raw.json",
+      "task_id": "10110527-2762-0139-0000-29604330efc9",
+      "keyword": "aleph with patah",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/semantic-core-v2-alphabet-research/serp-26-raw.json",
+      "task_id": "10110527-2762-0139-0000-dd722861a1ec",
+      "keyword": "hebrew alphabet course for beginners",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracker/historic-pilot.json",
+      "task_id": "10101310-2762-0139-0000-e637500a8716",
+      "keyword": "hebrew alphabet app",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracker/data/responses/337cdd21-2385-43df-aafb-5b086da27385/5a09d2fb678f7bc2f7422b46f33d635287ada8e7d0c0c0567961bd6e799b8948.json",
+      "task_id": "10102047-2762-0139-0000-338b8b1ede08",
+      "keyword": "hebrew alphabet games online",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracker/data/responses/337cdd21-2385-43df-aafb-5b086da27385/89978c07257605a5f2afb3749866c5258c37670777ecd596d448f7a93a504fae.json",
+      "task_id": "10102045-2762-0139-0000-d84a993da4da",
+      "keyword": "hebrew vowel chart",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracker/data/responses/337cdd21-2385-43df-aafb-5b086da27385/3cb7c13c107daf7e636c89197d9ae6345444172d5512bedd6d27e4e3bc8e853b.json",
+      "task_id": "10102046-2762-0139-0000-418bd78edd1f",
+      "keyword": "hebrew with and without vowels",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracker/data/responses/337cdd21-2385-43df-aafb-5b086da27385/7cf46f273bac6783c658546df4bea465d7652436d24da861434d399b8fa92595.json",
+      "task_id": "10102045-2762-0139-0000-acb31824bd3c",
+      "keyword": "learn hebrew alphabet",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracker/data/responses/337cdd21-2385-43df-aafb-5b086da27385/bda98a6d24d39829152fd5c66ea143f8a378b90567554f62133aa87e509c6cfd.json",
+      "task_id": "10102046-2762-0139-0000-76505558d540",
+      "keyword": "how to read hebrew without vowels",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracker/data/responses/337cdd21-2385-43df-aafb-5b086da27385/d61071c316d4e1495dc3f85d703dd3bea9d30f9fc392fa6668f1f020fd9b1a7a.json",
+      "task_id": "10102045-2762-0139-0000-454e0612fa2f",
+      "keyword": "how to read hebrew",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracker/data/responses/337cdd21-2385-43df-aafb-5b086da27385/16718c6679eeeb6807782a9b09b099a0268da09d8d3ad2f59777e8c923006c95.json",
+      "task_id": "10102044-2762-0139-0000-2aa16f5cf4c6",
+      "keyword": "how long does it take to learn hebrew",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracker/data/responses/337cdd21-2385-43df-aafb-5b086da27385/ad3ec37ac5639aa64ee89b11143ba6f80487bbeeca827b8f7746eacb26cfb893.json",
+      "task_id": "10102046-2762-0139-0000-3ba89a6b1e88",
+      "keyword": "most common hebrew words",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracker/data/responses/337cdd21-2385-43df-aafb-5b086da27385/bcd862f0c6b5492ed8b29a543a90d356ce40a23e39b0630766024f1a7197acde.json",
+      "task_id": "10102045-2762-0139-0000-cb149dd37258",
+      "keyword": "hebrew alphabet letter names",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracker/data/responses/337cdd21-2385-43df-aafb-5b086da27385/f8a33b80f880ba1295c39a7a9056584b0874c645c5bf36010381464552fd1680.json",
+      "task_id": "10102045-2762-0139-0000-b51d7d365c77",
+      "keyword": "hebrew alphabet pronunciation",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracker/data/responses/337cdd21-2385-43df-aafb-5b086da27385/0c0c4b7b1d94a2e70290e63162804a4bda264dcad93b3a7f40683952d15438b7.json",
+      "task_id": "10102046-2762-0139-0000-56da1d43d377",
+      "keyword": "hebrew grammar for beginners",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracker/data/responses/337cdd21-2385-43df-aafb-5b086da27385/6809586ecb3a3e708f6e61a595011be179312dbae5f09973a42ca987bfd6dcac.json",
+      "task_id": "10102046-2762-0139-0000-ed3b716e8579",
+      "keyword": "what are hebrew binyanim",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracker/data/responses/337cdd21-2385-43df-aafb-5b086da27385/eb3ea0ba1b9996d3556b731e1c661d04154241f0ac3704ecf6bb6426c83cb204.json",
+      "task_id": "10102046-2762-0139-0000-dd06dfe61c1e",
+      "keyword": "hebrew root system",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracker/data/responses/337cdd21-2385-43df-aafb-5b086da27385/2aed6a4e1a6013fea67f0590f9b1f06cc2ed1e789ef329ef685269687393cf7a.json",
+      "task_id": "10102046-2762-0139-0000-8910decd8e8d",
+      "keyword": "hebrew reading comprehension for beginners",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracker/data/responses/337cdd21-2385-43df-aafb-5b086da27385/9514a88040a6cbc763dc372f379b2ac073fc48938a391542fd01f8cdb1667366.json",
+      "task_id": "10102045-2762-0139-0000-05a9bb775afe",
+      "keyword": "how many letters are in the hebrew alphabet",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracker/data/responses/337cdd21-2385-43df-aafb-5b086da27385/1447a07851a0234dc591f4e0bec485ac2a1a32bae37060028688f30affc3e6df.json",
+      "task_id": "10102044-2762-0139-0000-bdc0b803ff5c",
+      "keyword": "hebrew alphabet app",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracker/data/responses/337cdd21-2385-43df-aafb-5b086da27385/3be6aeb3b930409b11b6c3fd56ff5acfc531faaa4e644688817132ec07b6d3ae.json",
+      "task_id": "10102046-2762-0139-0000-8fdfc1e2a27c",
+      "keyword": "how to learn hebrew vocabulary",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracker/data/responses/337cdd21-2385-43df-aafb-5b086da27385/122e838c21503c75bbd6b7ee4fa404ee7abf9ce213e4bafd600d5fb94841d0ca.json",
+      "task_id": "10102045-2762-0139-0000-43369d7373ea",
+      "keyword": "hebrew alphabet chart",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracker/data/responses/337cdd21-2385-43df-aafb-5b086da27385/f9ca67bbf5063f6223607950ca65d1181039ada57a3563bcc5e1d65ecb1943f4.json",
+      "task_id": "10102044-2762-0139-0000-c078da24da0c",
+      "keyword": "hebrew vocabulary app",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracker/data/responses/337cdd21-2385-43df-aafb-5b086da27385/61ce7193765ff147199ec1d5b3924e3370263ba04c797c420d90e8adcd214681.json",
+      "task_id": "10102045-2762-0139-0000-c835aea92053",
+      "keyword": "how to read hebrew nikud",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracker/data/responses/337cdd21-2385-43df-aafb-5b086da27385/cb60452dce262e0c83ab93c5f6efe3e37dd88eae0fac2b31f863ab523a594f2b.json",
+      "task_id": "10102046-2762-0139-0000-fe000b6e74cc",
+      "keyword": "hebrew words for beginners",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracker/data/responses/337cdd21-2385-43df-aafb-5b086da27385/dca05ab2cfb1f07593546569379d1c60541c15c3754b47c2ffbb5e6ab18b04c6.json",
+      "task_id": "10102047-2762-0139-0000-a8c648f351e3",
+      "keyword": "hebrew alphabet quiz",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracker/data/responses/337cdd21-2385-43df-aafb-5b086da27385/cce7f3c5627f3ce317739c17823800a08e2e44888b93a6dc8d00ac97aa93bcf9.json",
+      "task_id": "10102045-2762-0139-0000-47285a91cf07",
+      "keyword": "hebrew final letters",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracker/data/responses/337cdd21-2385-43df-aafb-5b086da27385/8aa853d0b0d8ab9b5d417b675e64918a863f2313eea14925b4744fa18331f08d.json",
+      "task_id": "10102044-2762-0139-0000-e5113fa20f4a",
+      "keyword": "learn hebrew for beginners",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracker/data/responses/337cdd21-2385-43df-aafb-5b086da27385/ae715952243bde5ce44967931e4d7072e1746c9af4f2178dcc96d08b35fea7d2.json",
+      "task_id": "10102044-2762-0139-0000-2e527bae1329",
+      "keyword": "best app to learn hebrew alphabet",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracker/data/responses/337cdd21-2385-43df-aafb-5b086da27385/ba96e53c7113987cf8a8a9562b6191271ecbdc104fc228d5964ff2361d4970fb.json",
+      "task_id": "10102045-2762-0139-0000-cdd0f048b04c",
+      "keyword": "does hebrew have vowels",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracker/data/responses/337cdd21-2385-43df-aafb-5b086da27385/c2ee1876fef91b260650c88f4442dfff508cd580ddf5c5e540234d702aca5c95.json",
+      "task_id": "10102047-2762-0139-0000-2f5049cbcd4e",
+      "keyword": "hebrew alphabet game for adults",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracker/data/responses/337cdd21-2385-43df-aafb-5b086da27385/d3b448d6ee99206181f890e628254c73c9143df5a445bb7ebeaa590d96adb13d.json",
+      "task_id": "10102047-2762-0139-0000-5539a2ef4e93",
+      "keyword": "hebrew verb conjugation chart",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracker/data/responses/337cdd21-2385-43df-aafb-5b086da27385/71f6cc926a92b0e59df4683009100c51995d4b35637dd800c58a62eafce7b0c0.json",
+      "task_id": "10102047-2762-0139-0000-debee4961b18",
+      "keyword": "alef bet rush vs hebrew mahjong",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracker/data/responses/337cdd21-2385-43df-aafb-5b086da27385/df204f705e3fba7a19e97cb8f04c50b77db48fece3c85df1bc11ce8211eb5777.json",
+      "task_id": "10102044-2762-0139-0000-7e09533a4f88",
+      "keyword": "is hebrew hard to learn",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracker/data/responses/337cdd21-2385-43df-aafb-5b086da27385/3c55cc0ed7038d0d5c3d59b0b50a848060311b51bac3e75da1aed1295bb34689.json",
+      "task_id": "10102045-2762-0139-0000-73cca5067358",
+      "keyword": "how to read hebrew words",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracker/data/responses/337cdd21-2385-43df-aafb-5b086da27385/98d5e2a9bc7b1a8d8f36ac111670bb2980065b274d0002ef081807120f6b1128.json",
+      "task_id": "10102044-2762-0139-0000-fb71fe4a5d1c",
+      "keyword": "hebrew learning app",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracker/data/responses/337cdd21-2385-43df-aafb-5b086da27385/3a680b89bb1ff54327c81b6330660ae9faaf068bcb722fa60735637c1d687458.json",
+      "task_id": "10102044-2762-0139-0000-fe0a3f1ec847",
+      "keyword": "best app to learn hebrew",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracker/data/responses/337cdd21-2385-43df-aafb-5b086da27385/2a02ca237e53c1a0fd3f383174e362d40257f4e50695106c60a729d604ad4319.json",
+      "task_id": "10102044-2762-0139-0000-ef53d6fa9503",
+      "keyword": "hebrew reading app",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracker/data/responses/337cdd21-2385-43df-aafb-5b086da27385/5c6a76c58312517e266d12ade795ca30977d4bf95d0737756f46ec2bb0fe9053.json",
+      "task_id": "10102047-2762-0139-0000-92d0881a8a80",
+      "keyword": "free hebrew learning games",
+      "status_code": 20000
+    },
+    {
+      "file": "/Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracker/data/responses/337cdd21-2385-43df-aafb-5b086da27385/ad608d4184ab21a1dd3a550fe2934422ce4d82476b3d87744159d02421c3c441.json",
+      "task_id": "10102044-2762-0139-0000-eec746c4d97f",
+      "keyword": "how to learn hebrew alphabet in a week",
+      "status_code": 20000
+    }
+  ],
+  "reuse_count": 0
+}

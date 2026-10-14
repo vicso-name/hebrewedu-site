@@ -1,0 +1,55 @@
+{
+  "created_at_utc": "2026-10-13T10:39:42.161104+00:00",
+  "execution_date_europe_tallinn": "2026-10-13",
+  "authorized_cap_usd": "0.11",
+  "estimated_total_usd": "0.10260",
+  "actual_spend_usd": "0.1026",
+  "stop_reason": null,
+  "volume": {
+    "status": "succeeded",
+    "estimated_cost_usd": "0.09",
+    "submitted_at_utc": "2026-10-13T10:40:06.728556+00:00",
+    "path": [
+      "v3",
+      "keywords_data",
+      "google_ads",
+      "search_volume",
+      "live"
+    ],
+    "request_sha256": "948d301dfb4e5e8822c2a17c2bc0ad02944498c8401c95d28511bd8e36e55ada",
+    "received_at_utc": "2026-10-13T10:42:11.909831+00:00",
+    "task_id": "10131042-2762-0367-0000-fcfc261cbbad",
+    "response_status_code": 20000,
+    "response_status_message": "Ok.",
+    "task_status_code": 20000,
+    "task_status_message": "Ok.",
+    "actual_cost_usd": "0.09",
+    "raw_response_sha256": "b388b0149c1658bad34b6a460c548b3542e213155ee22c0bba01f7b633e24090",
+    "tool_envelope_sha256": "9f54cced46a8dd015ff6dce566d8590f821f05520a6f27597df242c8089c0853"
+  },
+  "difficulty": {
+    "status": "succeeded",
+    "estimated_cost_usd": "0.01260",
+    "submitted_at_utc": "2026-10-13T10:42:45.624231+00:00",
+    "path": [
+      "v3",
+      "dataforseo_labs",
+      "google",
+      "bulk_keyword_difficulty",
+      "live"
+    ],
+    "request_sha256": "5146f681d68452b62774920891f1b9be00059bc40587b91fdb306153036055ea",
+    "received_at_utc": "2026-10-13T10:43:04.189420+00:00",
+    "task_id": "10131043-2762-0392-0000-da857e125d7c",
+    "response_status_code": 20000,
+    "response_status_message": "Ok.",
+    "task_status_code": 20000,
+    "task_status_message": "Ok.",
+    "actual_cost_usd": "0.0126",
+    "raw_response_sha256": "24386b04442593cab25d1e5ccdd76738afea5153e605ddf1fbead7d148c2e736",
+    "tool_envelope_sha256": "7b5b43afdc467160fafb25ed3cd1c1ba7ab386e19252f0f6b42d77dee68999ef"
+  },
+  "finalized_at_utc": "2026-10-13T10:45:31.047514+00:00",
+  "artifact_status": "complete_for_owner_review",
+  "protected_file_count": 86
+}

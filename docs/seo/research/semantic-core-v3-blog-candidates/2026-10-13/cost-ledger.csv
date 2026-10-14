@@ -1,0 +1,3 @@
+category,endpoint,task_id,timestamp_utc,status_code,cost_usd,raw_file
+volume,/v3/keywords_data/google_ads/search_volume/live,10131042-2762-0367-0000-fcfc261cbbad,2026-10-13T10:42:11.909831+00:00,20000,0.09,volume-raw.json
+difficulty,/v3/dataforseo_labs/google/bulk_keyword_difficulty/live,10131043-2762-0392-0000-da857e125d7c,2026-10-13T10:43:04.189420+00:00,20000,0.0126,difficulty-raw.json

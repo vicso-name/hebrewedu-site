@@ -1,0 +1,19 @@
+{
+  "checked_at_utc": "2026-10-13T10:42:45.623953+00:00",
+  "helper_result": {
+    "status": "approved",
+    "endpoint": "dataforseo_labs_bulk_keyword_difficulty",
+    "unit_cost_usd": 0.0126,
+    "count": 1,
+    "total_cost_usd": 0.0126,
+    "today_spend_usd": 0.09,
+    "daily_remaining_usd": 9.91
+  },
+  "explicit_owner_authorization": "Exactly two named Live requests; five keywords; $0.11 cap",
+  "price_override_scope": "In-memory COST_TABLE only; daily settings unchanged",
+  "daily_spent_usd": "0.09",
+  "daily_limit_usd": "10.0",
+  "batch_spent_usd": "0.09",
+  "remaining_batch_cap_usd": "0.02",
+  "remaining_estimated_charges_usd": "0.01260"
+}

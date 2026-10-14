@@ -1,0 +1,47 @@
+{
+  "logged_at_utc": "2026-10-13T14:06:41.147622+00:00",
+  "ledger_path": "/Users/kasutaja/.config/codex-seo/dataforseo-ledger.json",
+  "actual_cost_logs": [
+    {
+      "status": "logged",
+      "entry": {
+        "timestamp": "2026-10-13T17:06:41.145180",
+        "endpoint": "serp_organic_live_advanced",
+        "cost": 0.002,
+        "note": "HebrewEdu Stage 3 SERP intent only; hebrew words; task 10131400-2762-0139-0000-15c4cb127a4c; stage cap $0.008, project cap $0.25"
+      },
+      "today_total_usd": 0.1286
+    },
+    {
+      "status": "logged",
+      "entry": {
+        "timestamp": "2026-10-13T17:06:41.146001",
+        "endpoint": "serp_organic_live_advanced",
+        "cost": 0.002,
+        "note": "HebrewEdu Stage 3 SERP intent only; hebrew phrases; task 10131400-2762-0139-0000-be914adf484c; stage cap $0.008, project cap $0.25"
+      },
+      "today_total_usd": 0.1306
+    },
+    {
+      "status": "logged",
+      "entry": {
+        "timestamp": "2026-10-13T17:06:41.146488",
+        "endpoint": "serp_organic_live_advanced",
+        "cost": 0.002,
+        "note": "HebrewEdu Stage 3 SERP intent only; hebrew text; task 10131400-2762-0139-0000-5f8c8e6193d4; stage cap $0.008, project cap $0.25"
+      },
+      "today_total_usd": 0.1326
+    },
+    {
+      "status": "logged",
+      "entry": {
+        "timestamp": "2026-10-13T17:06:41.147135",
+        "endpoint": "serp_organic_live_advanced",
+        "cost": 0.002,
+        "note": "HebrewEdu Stage 3 SERP intent only; hebrew alphabet nun; task 10131400-2762-0139-0000-4cf68c5500d3; stage cap $0.008, project cap $0.25"
+      },
+      "today_total_usd": 0.1346
+    }
+  ],
+  "provider_requests_made_for_logging": 0
+}

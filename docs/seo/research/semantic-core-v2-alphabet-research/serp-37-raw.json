@@ -1,0 +1,803 @@
+{
+  "keyword": "kaf sofit",
+  "retrieved_at_utc": "2026-10-11T05:30:12.857Z",
+  "raw": {
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "4.0067 sec.",
+    "cost": 0.002,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "10110529-2762-0139-0000-3a0eb0c9944e",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "3.9074 sec.",
+        "cost": 0.002,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "serp",
+          "google",
+          "organic",
+          "live",
+          "advanced"
+        ],
+        "data": {
+          "api": "serp",
+          "function": "live",
+          "se": "google",
+          "se_type": "organic",
+          "keyword": "kaf sofit",
+          "location_code": 2840,
+          "language_code": "en",
+          "device": "mobile",
+          "os": "android",
+          "depth": 10
+        },
+        "result": [
+          {
+            "keyword": "kaf sofit",
+            "type": "organic",
+            "se_domain": "google.com",
+            "location_code": 2840,
+            "language_code": "en",
+            "check_url": "https://www.google.com/search?q=kaf%20sofit&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+            "datetime": "2026-10-11 05:29:42 +00:00",
+            "spell": null,
+            "refinement_chips": null,
+            "item_types": [
+              "images",
+              "ai_overview",
+              "organic",
+              "people_also_ask",
+              "people_also_search",
+              "video"
+            ],
+            "se_results_count": 0,
+            "pages_count": 1,
+            "items_count": 13,
+            "items": [
+              {
+                "type": "images",
+                "rank_group": 1,
+                "rank_absolute": 1,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[1]",
+                "title": "Images",
+                "url": null,
+                "items": [
+                  {
+                    "type": "images_element",
+                    "alt": "Final Forms of Hebrew Letters",
+                    "url": "https://hebrew4christians.com/Grammar/Unit_One/Final_Forms/final_forms.html",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110529-2762-0139-0000-3a0eb0c9944e:0"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "The Sofit letters | Etz Hayim \"Tree of Life\"",
+                    "url": "https://www.etz-hayim.com/hebrew/letters_and_vowels/aleph-bet_sofit_letters.php",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110529-2762-0139-0000-3a0eb0c9944e:1"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "The 5 Sofit Letters | Lilmod Aleph Beth",
+                    "url": "https://lilmod-aleph-beth.com/the-5-sofit-letters/",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110529-2762-0139-0000-3a0eb0c9944e:2"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "File:Sofit caph and caph letter.png - Wikimedia Commons",
+                    "url": "https://commons.wikimedia.org/wiki/File:Sofit_caph_and_caph_letter.png",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110529-2762-0139-0000-3a0eb0c9944e:3"
+                  }
+                ],
+                "related_image_searches": null,
+                "rectangle": null
+              },
+              {
+                "type": "ai_overview",
+                "rank_group": 1,
+                "rank_absolute": 2,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[3]/div[1]",
+                "asynchronous_ai_overview": false,
+                "markdown": "![Hebrew lesson 11: Dagesh and Kaf Sofit](https://api.dataforseo.com/cdn/i/10110529-2762-0139-0000-3a0eb0c9944e:8)\nKaf sofit (ך) is the special final form of the Hebrew letter [Kaf](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Kaf/kaf.html) , used only at the end of a word.[[1]](https://akhlah.com/hebrew/aleph-bet/kaf-haf-kaf-sofit/)[[2]](https://www.instagram.com/reel/DbD7wFFtQ01/)\n\n### Key Facts About Kaf Sofit\n\n- **Letter Shape** : It looks like the regular letter Kaf, but it has a long tail that drops below the baseline.[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Kaf/kaf.html)[[2]](https://www.youtube.com/watch?v=45Qq97MSvB8&t=4)\n- **Pronunciation** : It makes a \"ch\" sound like the \"ch\" in the Scottish word *loch* or German *bach* . It never uses a hard \"k\" sound.[[1]](https://www.hebrewpod101.com/lesson/hebrew-alphabet-made-easy-7-kaf)[[2]](https://www.etz-hayim.com/hebrew/letters_and_vowels/kaf.php)\n- **Gematria (Number value)** : In standard counting, Kaf is 20, but the final form (Kaf sofit) represents **500** in extended numerical values.[[1]](https://en.wikipedia.org/wiki/Kaph)[[2]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Kaf/kaf.html)\n- **Rule of Sofit** : Hebrew has five letters that change shape at the end of a word. Kaf sofit is one of these final letters.[[1]](https://www.youtube.com/watch?v=cKMCHUKnjoo)[[2]](https://www.youtube.com/shorts/amHRs1oAtCo)[[3]](https://akhlah.com/hebrew/aleph-bet/kaf-haf-kaf-sofit/)\n\nIf you want, I can show you:\n\n- **The other four final (sofit) letters** in Hebrew\n- **Examples of words** that end with a kaf sofit\n\nLet me know how you'd like to continue!",
+                "items": [
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Kaf sofit (ך) is the special final form of the Hebrew letter Kaf, used only at the end of a word.",
+                    "markdown": "![Hebrew lesson 11: Dagesh and Kaf Sofit](https://api.dataforseo.com/cdn/i/10110529-2762-0139-0000-3a0eb0c9944e:6)\nKaf sofit (ך) is the special final form of the Hebrew letter [Kaf](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Kaf/kaf.html) , used only at the end of a word.[[1]](https://akhlah.com/hebrew/aleph-bet/kaf-haf-kaf-sofit/)[[2]](https://www.instagram.com/reel/DbD7wFFtQ01/)",
+                    "links": [
+                      {
+                        "type": "link_element",
+                        "title": "Kaf",
+                        "description": null,
+                        "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Kaf/kaf.html",
+                        "domain": "www.hebrew4christians.com"
+                      }
+                    ],
+                    "images": [
+                      {
+                        "type": "images_element",
+                        "alt": "Hebrew lesson 11: Dagesh and Kaf Sofit",
+                        "url": null,
+                        "image_url": "https://api.dataforseo.com/cdn/i/10110529-2762-0139-0000-3a0eb0c9944e:7"
+                      }
+                    ],
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Akhlah",
+                        "domain": "akhlah.com",
+                        "url": "https://akhlah.com/hebrew/aleph-bet/kaf-haf-kaf-sofit/",
+                        "title": "Kaf/Haf/Kaf Sofit",
+                        "text": "Kaf/Haf/Kaf Sofit * Haf is the eleventh letter of the Hebrew alphabet. Haf is also the number “twenty”. The difference between Kaf and Haf is the dot in the mid..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Instagram",
+                        "domain": "www.instagram.com",
+                        "url": "https://www.instagram.com/reel/DbD7wFFtQ01/",
+                        "title": "This isn't just another Hebrew letter… Meet Kaf Sofit (ך) the special final ...",
+                        "text": "This isn't just another Hebrew letter… Meet Kaf Sofit (ך) the special final ... * 79 likes akivacalligraphy This isn't just another Hebrew letter… 👀 Meet Kaf S..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Key Facts About Kaf Sofit",
+                    "markdown": "### Key Facts About Kaf Sofit",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Letter Shape : It looks like the regular letter Kaf, but it has a long tail that drops below the baseline. Pronunciation : It makes a \"ch\" sound like the \"ch\" in the Scottish word loch or German bach. It never uses a hard \"k\" sound. Gematria (Number value) : In standard counting, Kaf is 20, but the final form (Kaf sofit) represents 500 in extended numerical values. Rule of Sofit : Hebrew has five letters that change shape at the end of a word. Kaf sofit is one of these final letters.",
+                    "markdown": "- **Letter Shape** : It looks like the regular letter Kaf, but it has a long tail that drops below the baseline.[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Kaf/kaf.html)[[2]](https://www.youtube.com/watch?v=45Qq97MSvB8&t=4)\n- **Pronunciation** : It makes a \"ch\" sound like the \"ch\" in the Scottish word *loch* or German *bach* . It never uses a hard \"k\" sound.[[1]](https://www.hebrewpod101.com/lesson/hebrew-alphabet-made-easy-7-kaf)[[2]](https://www.etz-hayim.com/hebrew/letters_and_vowels/kaf.php)\n- **Gematria (Number value)** : In standard counting, Kaf is 20, but the final form (Kaf sofit) represents **500** in extended numerical values.[[1]](https://en.wikipedia.org/wiki/Kaph)[[2]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Kaf/kaf.html)\n- **Rule of Sofit** : Hebrew has five letters that change shape at the end of a word. Kaf sofit is one of these final letters.[[1]](https://www.youtube.com/watch?v=cKMCHUKnjoo)[[2]](https://www.youtube.com/shorts/amHRs1oAtCo)[[3]](https://akhlah.com/hebrew/aleph-bet/kaf-haf-kaf-sofit/)",
+                    "links": null,
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew for Christians",
+                        "domain": "www.hebrew4christians.com",
+                        "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Kaf/kaf.html",
+                        "title": "The Letter Kaf / Khaf",
+                        "text": "Letter: Kaf/Khaf is the 11th Hebrew letter (gematria 20, meaning \"palm\" or \"spoon\"), sounded as \"k\" with a dagesh dot or \"kh\" without it. Forms: Includes block ..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=45Qq97MSvB8&t=4",
+                        "title": "Writing the Hebrew Letters: Kaf/Chof",
+                        "text": "Writing the Hebrew Letters: Kaf/Chof hello welcome back for another lesson. the writing the Hebrew alphabet. writing the Hebrew letters. today we're doing the l..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "HebrewPod101",
+                        "domain": "www.hebrewpod101.com",
+                        "url": "https://www.hebrewpod101.com/lesson/hebrew-alphabet-made-easy-7-kaf",
+                        "title": "Kaf - HebrewPod101 - Learn Hebrew",
+                        "text": "you can check out this lesson for all the Hebrew vowels: https://www.hebrewpod101.com/lesson/pronunciation-1-are-you-practicing-for-an-opera-or-learning-your-he..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Etz Hayim—\"Tree of Life\"",
+                        "domain": "www.etz-hayim.com",
+                        "url": "https://www.etz-hayim.com/hebrew/letters_and_vowels/kaf.php",
+                        "title": "The Hebrew letter Kaf | Etz Hayim \"Tree of Life\"",
+                        "text": "KAF is the eleventh letter of the Hebrew alphabet Kaf has two pronunciations. Kaf, with a dagesh kal (small dot in the center) of the letter, and Khaf without a..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Wikipedia",
+                        "domain": "en.wikipedia.org",
+                        "url": "https://en.wikipedia.org/wiki/Kaph",
+                        "title": "Kaph - Wikipedia",
+                        "text": "Kaph: Eleventh letter of Semitic abjads (Phoenician 𐤊, Hebrew כ, Arabic ك), derived from a hand pictogram meaning \"palm/grip\"; numerical value 20; ancestor to ..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=cKMCHUKnjoo",
+                        "title": "Sofit Letters in Hebrew | The Kefar",
+                        "text": "Sofit Letters in Hebrew | The Kefar shalom it's Tila from the Kafar. welcome or welcome back to my channel this is the place to be to learn Hebrew online and yo..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/shorts/amHRs1oAtCo",
+                        "title": "Hebrew SOFIT Letters (Final Forms) - Shorts",
+                        "text": "Hebrew SOFIT Letters (Final Forms) - Shorts out of the 22 letters of the Hebrew. alphabet five letters have a different form when they occur at the end of the w..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Akhlah",
+                        "domain": "akhlah.com",
+                        "url": "https://akhlah.com/hebrew/aleph-bet/kaf-haf-kaf-sofit/",
+                        "title": "Kaf/Haf/Kaf Sofit",
+                        "text": "Kaf/Haf/Kaf Sofit * Haf is the eleventh letter of the Hebrew alphabet. Haf is also the number “twenty”. The difference between Kaf and Haf is the dot in the mid..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "If you want, I can show you:The other four final (sofit) letters in Hebrew\nExamples of words that end with a kaf sofit\nLet me know how you'd like to continue!",
+                    "markdown": "If you want, I can show you:\n\n- **The other four final (sofit) letters** in Hebrew\n- **Examples of words** that end with a kaf sofit\n\nLet me know how you'd like to continue!",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  }
+                ],
+                "references": [
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Wikipedia",
+                    "domain": "en.wikipedia.org",
+                    "url": "https://en.wikipedia.org/wiki/Kaph",
+                    "title": "Kaph - Wikipedia",
+                    "text": "Kaph: Eleventh letter of Semitic abjads (Phoenician 𐤊, Hebrew כ, Arabic ك), derived from a hand pictogram meaning \"palm/grip\"; numerical value 20; ancestor to ..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Akhlah",
+                    "domain": "akhlah.com",
+                    "url": "https://akhlah.com/hebrew/aleph-bet/kaf-haf-kaf-sofit/",
+                    "title": "Kaf/Haf/Kaf Sofit",
+                    "text": "Kaf/Haf/Kaf Sofit * Haf is the eleventh letter of the Hebrew alphabet. Haf is also the number “twenty”. The difference between Kaf and Haf is the dot in the mid..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Hebrew for Christians",
+                    "domain": "www.hebrew4christians.com",
+                    "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Kaf/kaf.html",
+                    "title": "The Letter Kaf / Khaf",
+                    "text": "Letter: Kaf/Khaf is the 11th Hebrew letter (gematria 20, meaning \"palm\" or \"spoon\"), sounded as \"k\" with a dagesh dot or \"kh\" without it. Forms: Includes block ..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Instagram",
+                    "domain": "www.instagram.com",
+                    "url": "https://www.instagram.com/reel/DbD7wFFtQ01/",
+                    "title": "This isn't just another Hebrew letter… Meet Kaf Sofit (ך) the special final ...",
+                    "text": "This isn't just another Hebrew letter… Meet Kaf Sofit (ך) the special final ... * 79 likes akivacalligraphy This isn't just another Hebrew letter… 👀 Meet Kaf S..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/watch?v=45Qq97MSvB8&t=4",
+                    "title": "Writing the Hebrew Letters: Kaf/Chof",
+                    "text": "Writing the Hebrew Letters: Kaf/Chof hello welcome back for another lesson. the writing the Hebrew alphabet. writing the Hebrew letters. today we're doing the l..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/watch?v=cKMCHUKnjoo",
+                    "title": "Sofit Letters in Hebrew | The Kefar",
+                    "text": "Sofit Letters in Hebrew | The Kefar shalom it's Tila from the Kafar. welcome or welcome back to my channel this is the place to be to learn Hebrew online and yo..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/shorts/amHRs1oAtCo",
+                    "title": "Hebrew SOFIT Letters (Final Forms) - Shorts",
+                    "text": "Hebrew SOFIT Letters (Final Forms) - Shorts out of the 22 letters of the Hebrew. alphabet five letters have a different form when they occur at the end of the w..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "HebrewPod101",
+                    "domain": "www.hebrewpod101.com",
+                    "url": "https://www.hebrewpod101.com/lesson/hebrew-alphabet-made-easy-7-kaf",
+                    "title": "Kaf - HebrewPod101 - Learn Hebrew",
+                    "text": "you can check out this lesson for all the Hebrew vowels: https://www.hebrewpod101.com/lesson/pronunciation-1-are-you-practicing-for-an-opera-or-learning-your-he..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Etz Hayim—\"Tree of Life\"",
+                    "domain": "www.etz-hayim.com",
+                    "url": "https://www.etz-hayim.com/hebrew/letters_and_vowels/kaf.php",
+                    "title": "The Hebrew letter Kaf | Etz Hayim \"Tree of Life\"",
+                    "text": "KAF is the eleventh letter of the Hebrew alphabet Kaf has two pronunciations. Kaf, with a dagesh kal (small dot in the center) of the letter, and Khaf without a..."
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 1,
+                "rank_absolute": 3,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "hebrew4christians.com",
+                "title": "Final Forms of Hebrew Letters",
+                "url": "https://hebrew4christians.com/Grammar/Unit_One/Final_Forms/final_forms.html",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://hebrew4christians.com",
+                "website_name": "Hebrew for Christians",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "The letter Khaf Sofit, for example, is simply the letter Khaf with an altered shape. ... Remember: Sofit letters appear at the end of a Hebrew word. The ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": [
+                  "kaf meaning",
+                  "hebrew number",
+                  "hebrew",
+                  "hebrew alphabet",
+                  "hebrew alphabet",
+                  "ancient hebrew",
+                  "ancient hebrew",
+                  "hebrew alphabet"
+                ],
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "people_also_ask",
+                "rank_group": 1,
+                "rank_absolute": 4,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[8]/div[1]",
+                "items": [
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does the Hebrew letter Kaf mean?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[8]/div[1]/div[2]/div[2]/div[1]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does \"Kesef\" mean in Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[8]/div[1]/div[2]/div[2]/div[2]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does sofit mean in Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[8]/div[1]/div[2]/div[2]/div[3]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What are the 22 Hebrew letters in order?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[8]/div[1]/div[2]/div[2]/div[4]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 2,
+                "rank_absolute": 5,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[9]/div[1]/div[1]",
+                "domain": "www.facebook.com",
+                "title": "Why 3 Hebrew letters change at the end of words — Kaf, Mem (sofit), Nun ...",
+                "url": "https://www.facebook.com/TwinsToursTravel/videos/why-3-hebrew-letters-change-at-the-end-of-words-kaf-mem-sofit-nun-explained-with/1630691258311133/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": null,
+                "website_name": "Facebook · Twins Tours & Travel Ltd.",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "Hebrew letters change at the end of words — Kaf, Mem (sofit), Nun explained with easy examples. In this lesson you will learn 3 letters: א, ב, ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": [
+                  {
+                    "type": "link_element",
+                    "title": "0:39",
+                    "description": null,
+                    "url": "https://www.facebook.com/TwinsToursTravel/videos/why-3-hebrew-letters-change-at-the-end-of-words-kaf-mem-sofit-nun-explained-with/1630691258311133/",
+                    "domain": "www.facebook.com"
+                  }
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "people_also_search",
+                "rank_group": 1,
+                "rank_absolute": 6,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[11]",
+                "title": "People also search for",
+                "items": [
+                  "Kaf sofit hebrew",
+                  "Kaf sofit meaning",
+                  "Kaf sofit pronunciation",
+                  "Kaf sofit words",
+                  "Kaf meaning",
+                  "Hebrew number alphabet"
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 3,
+                "rank_absolute": 7,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[13]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.facebook.com",
+                "title": "How to tell apart Hebrew letters Kaf and Chaf",
+                "url": "https://www.facebook.com/groups/1687348774926200/posts/4559288781065504/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "7 comments",
+                "website_name": "Facebook · Free Hebrew Class",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Follow on Facebook for More Like This!\n\nLearned something new today? \nTreating me to just a single cup of coffee supports the free Hebrew Tips & Tricks ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": [
+                  {
+                    "type": "link_element",
+                    "title": "Hebrew letter Kaf/Khaf pronunciation and writing - FacebookFree Hebrew Class·4 comments·1y",
+                    "description": null,
+                    "url": "https://www.facebook.com/groups/1687348774926200/posts/4111014615892925/",
+                    "domain": "www.facebook.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "What are the reasons behind the limited sofit forms in Hebrew?Nerdy Biblical Language Majors·10+ comments·4y",
+                    "description": null,
+                    "url": "https://www.facebook.com/groups/NerdyLanguageMajors/posts/4613339845435315/",
+                    "domain": "www.facebook.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "It's a mix of throat use and the roof of the mouth\nMostly the roof of the mouth",
+                    "description": "Top answer · 2 votes",
+                    "url": "https://www.facebook.com/groups/1687348774926200/posts/4559288781065504/",
+                    "domain": "www.facebook.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "I just spit on my cellphone screen making the CH sound!😆 Hebrew is a funny and awesome ...",
+                    "description": "2 votes",
+                    "url": "https://www.facebook.com/groups/1687348774926200/posts/4559288781065504/",
+                    "domain": "www.facebook.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Now make bet/vet pey/fey shin/sin",
+                    "description": "1 vote",
+                    "url": "https://www.facebook.com/groups/1687348774926200/posts/4559288781065504/",
+                    "domain": "www.facebook.com"
+                  }
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2026-08-11 05:29:41 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 4,
+                "rank_absolute": 8,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.reddit.com",
+                "title": "Is this a common alternative spelling for יצחק or is the handwriting of kuf and kaf ...",
+                "url": "https://www.reddit.com/r/hebrew/comments/7l3rhy/is_this_a_common_alternative_spelling_for_%D7%99%D7%A6%D7%97%D7%A7_or/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "6 comments",
+                "website_name": "Reddit · r/hebrew",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "the kuf just happens to look like a kaf sofit. it's a relatively common cursive flourish for a Kuf. Thinking” in Hebrew!",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "the kuf just happens to look like a kaf sofit"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2018-10-11 05:29:41 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "video",
+                "rank_group": 1,
+                "rank_absolute": 9,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[17]",
+                "items": [
+                  {
+                    "type": "video_element",
+                    "source": "T'helah Ben-Dan",
+                    "title": "Sofit Letters in Hebrew | The Kefar",
+                    "timestamp": "2021-09-15 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=cKMCHUKnjoo"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "The Hebrew Bible",
+                    "title": "Hebrew SOFIT Letters (Final Forms) - Shorts",
+                    "timestamp": "2022-09-09 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/shorts/amHRs1oAtCo"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Akiva Calligraphy",
+                    "title": "This isn't just another Hebrew letter…  Meet Kaf Sofit (ך) the special final form ...",
+                    "timestamp": "2026-07-21 00:00:00 +00:00",
+                    "url": "https://www.instagram.com/reel/DbD7wFFtQ01/"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Torah Home Study",
+                    "title": "Writing the Hebrew Letters: Kaf/Chof",
+                    "timestamp": "2018-03-04 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=45Qq97MSvB8"
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 5,
+                "rank_absolute": 10,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[18]/div[1]/div[1]",
+                "domain": "www.youtube.com",
+                "title": "Lesson 6 yod kaf chaf",
+                "url": "https://www.youtube.com/watch?v=nh8VCG95euY",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "1.1K+ views",
+                "website_name": "YouTube · Hebrew4Learners",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "This is lesson 6 of the series of Hebrew alphabet lessons for beginners. Lesson 6 yod kaf chaf. Crash Course in Hebrew Reading & Pronunciation",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2021-10-11 05:29:41 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 6,
+                "rank_absolute": 11,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[20]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.tes.com",
+                "title": "Learn the Aleph-Bet - Kaf/Haf/Haf Sofit | Teaching Resources",
+                "url": "https://www.tes.com/en-us/teaching-resource/learn-the-aleph-bet-kaf-haf-haf-sofit-6366234",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.tes.com",
+                "website_name": "Tes",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "The difference between Kaf and Haf is the dot in the middle of the Kaf. Haf is printed several different ways as you can see. Haf sofit is the final form of the ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 7,
+                "rank_absolute": 12,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[22]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.chabad.org",
+                "title": "Kaf (Chaf) - The eleventh letter of the Hebrew alphabet",
+                "url": "https://www.chabad.org/library/article_cdo/aid/137083/jewish/Kaf-Chaf.htm",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.chabad.org",
+                "website_name": "Chabad",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Kaf (כּ) is the eleventh letter of the Hebrew alphabet. Meaning: Palm, spoon, crown",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "people_also_search",
+                "rank_group": 2,
+                "rank_absolute": 13,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[4]/div[1]/div[3]/div[1]",
+                "title": "People also search for",
+                "items": [
+                  "Hebrew Alphabet print",
+                  "Hebrew alphabet pronunciation chart",
+                  "Hebrew Alphabet chart with Pictures",
+                  "Ancient Hebrew characters",
+                  "Ancient Hebrew Aleph-bet",
+                  "Hebrew alphabet Biblical"
+                ],
+                "rectangle": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

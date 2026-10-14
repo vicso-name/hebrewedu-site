@@ -1,0 +1,115 @@
+{
+  "created_at_utc": "2026-10-13T10:45:31.047890+00:00",
+  "files": [
+    {
+      "file": "approval-and-plan.json",
+      "size_bytes": 1210,
+      "sha256": "a59f03b36a57db17494d1ffa2183e906ccdab4ecd468b07e53d09a6b17dcd74a"
+    },
+    {
+      "file": "budget-reconciliation.json",
+      "size_bytes": 934,
+      "sha256": "c76baf202b4c17abf1221158aec8b3be662e8ee765cbcdf433228a0a8ad22d24"
+    },
+    {
+      "file": "candidate-addendum.csv",
+      "size_bytes": 6466,
+      "sha256": "8a04e561c4f6de303f782bec21845bde8577b4519269208e6a5590c939d4df03"
+    },
+    {
+      "file": "cost-ledger.csv",
+      "size_bytes": 395,
+      "sha256": "f126f4f06858d2112a97440112b370a859e31d76380ea28bf1f7b2f76d180237"
+    },
+    {
+      "file": "difficulty-guard.json",
+      "size_bytes": 654,
+      "sha256": "285dfbb4c1cf5959d21d63c63bba12c767faa88697489bf8d3535d195f6ecd80"
+    },
+    {
+      "file": "difficulty-local-cost-log.json",
+      "size_bytes": 320,
+      "sha256": "fe3c9d84e2b9cb90cb2487d727f581ab85134bb55fe5668381c1098728fb3242"
+    },
+    {
+      "file": "difficulty-metadata.json",
+      "size_bytes": 713,
+      "sha256": "3295e60d645b2450eafe35f3cc197e97a46ce7247a216e5bea072fa8b067e49a"
+    },
+    {
+      "file": "difficulty-raw.json",
+      "size_bytes": 1993,
+      "sha256": "24386b04442593cab25d1e5ccdd76738afea5153e605ddf1fbead7d148c2e736"
+    },
+    {
+      "file": "difficulty-request.json",
+      "size_bytes": 278,
+      "sha256": "5146f681d68452b62774920891f1b9be00059bc40587b91fdb306153036055ea"
+    },
+    {
+      "file": "difficulty-tool-response.json",
+      "size_bytes": 2260,
+      "sha256": "7b5b43afdc467160fafb25ed3cd1c1ba7ab386e19252f0f6b42d77dee68999ef"
+    },
+    {
+      "file": "execution-state.json",
+      "size_bytes": 2016,
+      "sha256": "ec3ec425d8dc2662a397685f773f320c4f2497fa80eec197e15452e71f2102e8"
+    },
+    {
+      "file": "findings.md",
+      "size_bytes": 4960,
+      "sha256": "256f1c2bc8d391f459ced0c29376eff23147ac763bbd3872a68f1548a62a4083"
+    },
+    {
+      "file": "fingerprints-after.json",
+      "size_bytes": 25720,
+      "sha256": "73b4530a7cb342358cab68dc99ff228c34dca5fe677666281f3c16401e426dda"
+    },
+    {
+      "file": "fingerprints-before.json",
+      "size_bytes": 15806,
+      "sha256": "f495ef0f618f9dd010a0696f957456431a6398b6da29c70fbaed5f21a53bc131"
+    },
+    {
+      "file": "monthly-volume-history.csv",
+      "size_bytes": 2296,
+      "sha256": "17387d9959f849b6e15be7e0064c5b7ab1f3f5ef8938bad6ee3fc3617eb6c5b5"
+    },
+    {
+      "file": "request-timing.json",
+      "size_bytes": 804,
+      "sha256": "43de91eb864c8fb8ae7cd16790b7fc41f48fe70f4ea55cfeedd9be839aba7d9c"
+    },
+    {
+      "file": "volume-guard.json",
+      "size_bytes": 634,
+      "sha256": "819cd854bb4a69458692e7b1a81335872601b550d41faaca474b9b65bd05cdfd"
+    },
+    {
+      "file": "volume-local-cost-log.json",
+      "size_bytes": 309,
+      "sha256": "31ab2c21240e2eb7a9f0148c7eed8a6d7ec697e32b8d8b3c77f95aff2eda236b"
+    },
+    {
+      "file": "volume-metadata.json",
+      "size_bytes": 703,
+      "sha256": "197cba69c5bc9b8879f3f3fbffa011ec8cfe29d404d2d328de8dc9f096b2cdaf"
+    },
+    {
+      "file": "volume-raw.json",
+      "size_bytes": 6008,
+      "sha256": "b388b0149c1658bad34b6a460c548b3542e213155ee22c0bba01f7b633e24090"
+    },
+    {
+      "file": "volume-request.json",
+      "size_bytes": 308,
+      "sha256": "948d301dfb4e5e8822c2a17c2bc0ad02944498c8401c95d28511bd8e36e55ada"
+    },
+    {
+      "file": "volume-tool-response.json",
+      "size_bytes": 6656,
+      "sha256": "9f54cced46a8dd015ff6dce566d8590f821f05520a6f27597df242c8089c0853"
+    }
+  ]
+}

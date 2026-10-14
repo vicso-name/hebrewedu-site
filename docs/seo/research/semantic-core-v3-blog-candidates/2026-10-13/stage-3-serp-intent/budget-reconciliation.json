@@ -1,0 +1,16 @@
+{
+  "project_budget_usd": "0.250",
+  "previous_project_spend_usd": "0.024",
+  "stage3_cap_usd": "0.008",
+  "stage3_actual_spend_usd": "0.008",
+  "project_total_spend_usd": "0.032",
+  "remaining_project_balance_usd": "0.218",
+  "paid_requests_attempted": 4,
+  "paid_tasks_returned": 4,
+  "successful_tasks": 4,
+  "reused_tasks": 0,
+  "retries": 0,
+  "historical_phase3b_spend_excluded_usd": "0.10260",
+  "further_paid_work_authorized": false,
+  "account_balance_checked": false
+}

@@ -1,0 +1,14 @@
+{
+  "endpoint": "/v3/serp/google/organic/live/advanced",
+  "source_url": "https://dataforseo.com/pricing/google-serp/google-organic-serp-api",
+  "depth_docs_url": "https://docs.dataforseo.com/v3/serp/google/organic/live/advanced/",
+  "verified_at": "2026-10-10T20:35:31+00:00",
+  "base_live_usd": "0.002",
+  "results_per_page": 10,
+  "estimate_model": "Two full-price SERP pages; excludes any refunds. Current pricing FAQ calculates base price times page count.",
+  "estimated_per_keyword_usd": "0.004",
+  "estimated_36_keywords_usd": "0.144",
+  "default_budget_usd": "0.20",
+  "verification_method": "Official public pricing and endpoint documentation retrieved during implementation; no account or paid API request. Offline planning evidence only. Paid execution re-verifies fresh account pricing and public pages.",
+  "depth_pricing_source_url": "https://dataforseo.com/help-center/serp-api-pricing-depth-update-faq"
+}

@@ -1,0 +1,256 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.0631 sec.",
+  "cost": 0.0162,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10110532-2762-0392-0000-469b8e3b130b",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.0571 sec.",
+      "cost": 0.0162,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "dataforseo_labs",
+        "google",
+        "bulk_keyword_difficulty",
+        "live"
+      ],
+      "data": {
+        "api": "dataforseo_labs",
+        "function": "bulk_keyword_difficulty",
+        "se_type": "google",
+        "keywords": [
+          "aleph hebrew letter",
+          "bet hebrew letter",
+          "gimel hebrew letter",
+          "dalet hebrew letter",
+          "he hebrew letter",
+          "vav hebrew letter",
+          "zayin hebrew letter",
+          "chet hebrew letter",
+          "tet hebrew letter",
+          "yod hebrew letter",
+          "kaf hebrew letter",
+          "lamed hebrew letter",
+          "mem hebrew letter",
+          "nun hebrew letter",
+          "samekh hebrew letter",
+          "ayin hebrew letter",
+          "pe hebrew letter",
+          "tsadi hebrew letter",
+          "qof hebrew letter",
+          "resh hebrew letter",
+          "shin hebrew letter",
+          "tav hebrew letter",
+          "hebrew alphabet course",
+          "bet vs vet pronunciation",
+          "kaf vs chaf pronunciation",
+          "shin vs sin pronunciation",
+          "kaf sofit",
+          "mem sofit",
+          "nun sofit",
+          "pe sofit",
+          "tsadi sofit",
+          "hebrew pe vs fe pronunciation",
+          "hebrew shin vs sin pronunciation",
+          "hey hebrew letter",
+          "tzaddi hebrew letter"
+        ],
+        "location_code": 2840,
+        "language_code": "en"
+      },
+      "result": [
+        {
+          "se_type": "google",
+          "location_code": 2840,
+          "language_code": "en",
+          "total_count": 35,
+          "items_count": 35,
+          "items": [
+            {
+              "se_type": "google",
+              "keyword": "aleph hebrew letter",
+              "keyword_difficulty": 15
+            },
+            {
+              "se_type": "google",
+              "keyword": "ayin hebrew letter",
+              "keyword_difficulty": 3
+            },
+            {
+              "se_type": "google",
+              "keyword": "bet hebrew letter",
+              "keyword_difficulty": 1
+            },
+            {
+              "se_type": "google",
+              "keyword": "chet hebrew letter",
+              "keyword_difficulty": 3
+            },
+            {
+              "se_type": "google",
+              "keyword": "dalet hebrew letter",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "gimel hebrew letter",
+              "keyword_difficulty": 5
+            },
+            {
+              "se_type": "google",
+              "keyword": "he hebrew letter",
+              "keyword_difficulty": 3
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew alphabet course",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hey hebrew letter",
+              "keyword_difficulty": 9
+            },
+            {
+              "se_type": "google",
+              "keyword": "kaf hebrew letter",
+              "keyword_difficulty": 3
+            },
+            {
+              "se_type": "google",
+              "keyword": "kaf sofit",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "lamed hebrew letter",
+              "keyword_difficulty": 3
+            },
+            {
+              "se_type": "google",
+              "keyword": "mem hebrew letter",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "mem sofit",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "nun hebrew letter",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "nun sofit",
+              "keyword_difficulty": 3
+            },
+            {
+              "se_type": "google",
+              "keyword": "pe hebrew letter",
+              "keyword_difficulty": 1
+            },
+            {
+              "se_type": "google",
+              "keyword": "pe sofit",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "qof hebrew letter",
+              "keyword_difficulty": 9
+            },
+            {
+              "se_type": "google",
+              "keyword": "resh hebrew letter",
+              "keyword_difficulty": 6
+            },
+            {
+              "se_type": "google",
+              "keyword": "samekh hebrew letter",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "tav hebrew letter",
+              "keyword_difficulty": 2
+            },
+            {
+              "se_type": "google",
+              "keyword": "tet hebrew letter",
+              "keyword_difficulty": 2
+            },
+            {
+              "se_type": "google",
+              "keyword": "tsadi sofit",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "tzaddi hebrew letter",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "vav hebrew letter",
+              "keyword_difficulty": 5
+            },
+            {
+              "se_type": "google",
+              "keyword": "yod hebrew letter",
+              "keyword_difficulty": 7
+            },
+            {
+              "se_type": "google",
+              "keyword": "zayin hebrew letter",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "shin hebrew letter",
+              "keyword_difficulty": 2
+            },
+            {
+              "se_type": "google",
+              "keyword": "tsadi hebrew letter",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "bet vs vet pronunciation",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "kaf vs chaf pronunciation",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "shin vs sin pronunciation",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew pe vs fe pronunciation",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew shin vs sin pronunciation",
+              "keyword_difficulty": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

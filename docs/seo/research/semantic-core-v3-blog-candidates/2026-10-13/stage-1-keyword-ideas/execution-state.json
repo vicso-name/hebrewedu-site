@@ -1,0 +1,13 @@
+{
+  "state": "stage1_complete_stopped_for_owner_review",
+  "paid_requests_attempted": 1,
+  "task_id": "10131315-2762-0400-0000-bb153fc85dca",
+  "status_code": 20000,
+  "actual_cost_usd": 0.024,
+  "remaining_project_cap_usd": 0.226,
+  "new_measured_candidates": 0,
+  "proposed_unmeasured_volume_keywords": 5,
+  "held_conditional_keywords": 10,
+  "later_stages_authorized": false,
+  "updated_at_utc": "2026-10-13T13:21:18.401768+00:00"
+}

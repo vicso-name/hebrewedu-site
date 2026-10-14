@@ -1,0 +1,702 @@
+{
+  "keyword": "tav hebrew letter",
+  "retrieved_at_utc": "2026-10-11T05:26:34.814Z",
+  "raw": {
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "2.2053 sec.",
+    "cost": 0.002,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "10110526-2762-0139-0000-2aa65438bb87",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "2.1197 sec.",
+        "cost": 0.002,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "serp",
+          "google",
+          "organic",
+          "live",
+          "advanced"
+        ],
+        "data": {
+          "api": "serp",
+          "function": "live",
+          "se": "google",
+          "se_type": "organic",
+          "keyword": "tav hebrew letter",
+          "location_code": 2840,
+          "language_code": "en",
+          "device": "mobile",
+          "os": "android",
+          "depth": 10
+        },
+        "result": [
+          {
+            "keyword": "tav hebrew letter",
+            "type": "organic",
+            "se_domain": "google.com",
+            "location_code": 2840,
+            "language_code": "en",
+            "check_url": "https://www.google.com/search?q=tav%20hebrew%20letter&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+            "datetime": "2026-10-11 05:26:02 +00:00",
+            "spell": null,
+            "refinement_chips": null,
+            "item_types": [
+              "ai_overview",
+              "images",
+              "people_also_ask",
+              "organic",
+              "people_also_search",
+              "video"
+            ],
+            "se_results_count": 0,
+            "pages_count": 1,
+            "items_count": 13,
+            "items": [
+              {
+                "type": "ai_overview",
+                "rank_group": 1,
+                "rank_absolute": 1,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]",
+                "asynchronous_ai_overview": false,
+                "markdown": "![Hebrew letter Tav Stock Vector Image &amp; Art - Alamy](https://api.dataforseo.com/cdn/i/10110526-2762-0139-0000-2aa65438bb87:4)\nTav (ת) is the 22nd and final letter of the Hebrew alphabet , carrying the numerical value of 400.[[1]](https://www.chabad.org/library/article_cdo/aid/137287/jewish/Tav.htm)\n\n### Key Facts and Symbolism\n\n- **Pronunciation:** Usually makes a \"T\" sound (as in \"table\"), though in some traditional or Ashkenazi contexts it can be pronounced like an \"S\".[[1]](https://learnhebrewforchristians.com/hebrew-alphabet/tav)\n- **Ancient Form:** In early pictographic and Phoenician scripts, Tav looked like a cross or an \"X\" mark (+), representing a sign, seal, or signature. It is the historical ancestor of the Greek letter Tau and the Latin letter T.[[1]](https://en.wikipedia.org/wiki/Taw)[[2]](https://learnhebrewforchristians.com/hebrew-alphabet/tav)\n- **Meaning:** It translates to \"mark,\" \"sign,\" or \"signature\", and is deeply tied to the concept of *emet* (truth), which spans the alphabet from Aleph to Tav.[[1]](https://www.chabad.org/library/article_cdo/aid/137287/jewish/Tav.htm)[[2]](https://learnhebrewforchristians.com/hebrew-alphabet/tav)\n- **Spiritual Significance:** In Jewish tradition, it represents completion, perfection, and the seal of creation. In the Hebrew Bible (Ezekiel 9:4), it is described as a mark placed on the foreheads of the righteous.[[1]](https://learnhebrewforchristians.com/hebrew-alphabet/tav)[[2]](https://gabrielelevy.com/pages/the-letter-tav)[[3]](https://www.youtube.com/watch?v=mp1OSr7v8ZM&t=6)\n\nWould you like to learn about **words starting with Tav** or explore its **gematria and mystical meanings** further?",
+                "items": [
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Tav (ת) is the 22nd and final letter of the Hebrew alphabet, carrying the numerical value of 400.",
+                    "markdown": "![Hebrew letter Tav Stock Vector Image &amp; Art - Alamy](https://api.dataforseo.com/cdn/i/10110526-2762-0139-0000-2aa65438bb87:2)\nTav (ת) is the 22nd and final letter of the Hebrew alphabet , carrying the numerical value of 400.[[1]](https://www.chabad.org/library/article_cdo/aid/137287/jewish/Tav.htm)",
+                    "links": null,
+                    "images": [
+                      {
+                        "type": "images_element",
+                        "alt": "Hebrew letter Tav Stock Vector Image & Art - Alamy",
+                        "url": null,
+                        "image_url": "https://api.dataforseo.com/cdn/i/10110526-2762-0139-0000-2aa65438bb87:3"
+                      }
+                    ],
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137287/jewish/Tav.htm",
+                        "title": "Tav - The twenty-second letter of the Hebrew alphabet - Chabad.org",
+                        "text": "Letter: Tav (22nd and final Hebrew letter). Numerical Value: 400 (representing 400 worlds of pleasure, 400 years in Egypt, 400 men of Esau, and dual forces of e..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Key Facts and Symbolism",
+                    "markdown": "### Key Facts and Symbolism",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Pronunciation: Usually makes a \"T\" sound (as in \"table\"), though in some traditional or Ashkenazi contexts it can be pronounced like an \"S\". Ancient Form: In early pictographic and Phoenician scripts, Tav looked like a cross or an \"X\" mark (+), representing a sign, seal, or signature. It is the historical ancestor of the Greek letter Tau and the Latin letter T. Meaning: It translates to \"mark,\" \"sign,\" or \"signature\", and is deeply tied to the concept of emet (truth), which spans the alphabet from Aleph to Tav. Spiritual Significance: In Jewish tradition, it represents completion, perfection, and the seal of creation. In the Hebrew Bible (Ezekiel 9:4), it is described as a mark placed on the foreheads of the righteous.",
+                    "markdown": "- **Pronunciation:** Usually makes a \"T\" sound (as in \"table\"), though in some traditional or Ashkenazi contexts it can be pronounced like an \"S\".[[1]](https://learnhebrewforchristians.com/hebrew-alphabet/tav)\n- **Ancient Form:** In early pictographic and Phoenician scripts, Tav looked like a cross or an \"X\" mark (+), representing a sign, seal, or signature. It is the historical ancestor of the Greek letter Tau and the Latin letter T.[[1]](https://en.wikipedia.org/wiki/Taw)[[2]](https://learnhebrewforchristians.com/hebrew-alphabet/tav)\n- **Meaning:** It translates to \"mark,\" \"sign,\" or \"signature\", and is deeply tied to the concept of *emet* (truth), which spans the alphabet from Aleph to Tav.[[1]](https://www.chabad.org/library/article_cdo/aid/137287/jewish/Tav.htm)[[2]](https://learnhebrewforchristians.com/hebrew-alphabet/tav)\n- **Spiritual Significance:** In Jewish tradition, it represents completion, perfection, and the seal of creation. In the Hebrew Bible (Ezekiel 9:4), it is described as a mark placed on the foreheads of the righteous.[[1]](https://learnhebrewforchristians.com/hebrew-alphabet/tav)[[2]](https://gabrielelevy.com/pages/the-letter-tav)[[3]](https://www.youtube.com/watch?v=mp1OSr7v8ZM&t=6)",
+                    "links": null,
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "learnhebrewforchristians.com",
+                        "domain": "learnhebrewforchristians.com",
+                        "url": "https://learnhebrewforchristians.com/hebrew-alphabet/tav",
+                        "title": "Hebrew Letter Tav (ת) — The Mark, Truth & Completion of God's Story",
+                        "text": "* Hebrew Alphabet. * Tav. ... ת * Ancient Pictographic Form. The ancient pictographic Tav was drawn as a cross, X, or plus sign (+) — a mark or signature. It ev..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Wikipedia",
+                        "domain": "en.wikipedia.org",
+                        "url": "https://en.wikipedia.org/wiki/Taw",
+                        "title": "Taw - Wikipedia",
+                        "text": "Identity: Taw (tav, taf), 22nd and final letter of Semitic abjads (Arabic, Aramaic, Hebrew, Phoenician, Syriac); numerical value 400; sound value /t/ (also /θ/,"
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137287/jewish/Tav.htm",
+                        "title": "Tav - The twenty-second letter of the Hebrew alphabet - Chabad.org",
+                        "text": "Letter: Tav (22nd and final Hebrew letter). Numerical Value: 400 (representing 400 worlds of pleasure, 400 years in Egypt, 400 men of Esau, and dual forces of e..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "ALEFBET - The hebrew letters art gallery",
+                        "domain": "gabrielelevy.com",
+                        "url": "https://gabrielelevy.com/pages/the-letter-tav",
+                        "title": "The letter TAV – ALEFBET",
+                        "text": "The letter TAV * Tav is the last letter of the Hebrew Alphabet. Meaning mark, sign, omen, or seal, it is the symbol of truth, perfection, and completion. It rep..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=mp1OSr7v8ZM&t=6",
+                        "title": "The Hebrew letter: Tav",
+                        "text": "The Hebrew letter: Tav be pretty hard well I can go an hour on any one of the Hebrew letters but we're going to start uh we're going to begin now with the last ..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Would you like to learn about words starting with Tav or explore its gematria and mystical meanings further?",
+                    "markdown": "Would you like to learn about **words starting with Tav** or explore its **gematria and mystical meanings** further?",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  }
+                ],
+                "references": [
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Chabad",
+                    "domain": "www.chabad.org",
+                    "url": "https://www.chabad.org/library/article_cdo/aid/137287/jewish/Tav.htm",
+                    "title": "Tav - The twenty-second letter of the Hebrew alphabet - Chabad.org",
+                    "text": "Letter: Tav (22nd and final Hebrew letter). Numerical Value: 400 (representing 400 worlds of pleasure, 400 years in Egypt, 400 men of Esau, and dual forces of e..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Wikipedia",
+                    "domain": "en.wikipedia.org",
+                    "url": "https://en.wikipedia.org/wiki/Taw",
+                    "title": "Taw - Wikipedia",
+                    "text": "Identity: Taw (tav, taf), 22nd and final letter of Semitic abjads (Arabic, Aramaic, Hebrew, Phoenician, Syriac); numerical value 400; sound value /t/ (also /θ/,"
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "ALEFBET - The hebrew letters art gallery",
+                    "domain": "gabrielelevy.com",
+                    "url": "https://gabrielelevy.com/pages/the-letter-tav",
+                    "title": "The letter TAV – ALEFBET",
+                    "text": "The letter TAV * Tav is the last letter of the Hebrew Alphabet. Meaning mark, sign, omen, or seal, it is the symbol of truth, perfection, and completion. It rep..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/watch?v=mp1OSr7v8ZM&t=6",
+                    "title": "The Hebrew letter: Tav",
+                    "text": "The Hebrew letter: Tav be pretty hard well I can go an hour on any one of the Hebrew letters but we're going to start uh we're going to begin now with the last ..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "learnhebrewforchristians.com",
+                    "domain": "learnhebrewforchristians.com",
+                    "url": "https://learnhebrewforchristians.com/hebrew-alphabet/tav",
+                    "title": "Hebrew Letter Tav (ת) — The Mark, Truth & Completion of God's Story",
+                    "text": "* Hebrew Alphabet. * Tav. ... ת * Ancient Pictographic Form. The ancient pictographic Tav was drawn as a cross, X, or plus sign (+) — a mark or signature. It ev..."
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "images",
+                "rank_group": 1,
+                "rank_absolute": 2,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[4]",
+                "title": "Images",
+                "url": null,
+                "items": [
+                  {
+                    "type": "images_element",
+                    "alt": "Tav - The twenty-second letter of the Hebrew alphabet ...",
+                    "url": "https://www.chabad.org/library/article_cdo/aid/137287/jewish/Tav.htm",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110526-2762-0139-0000-2aa65438bb87:5"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "File:TAV Hebrew Letter.png - Wikimedia Commons",
+                    "url": "https://commons.wikimedia.org/wiki/File:TAV_Hebrew_Letter.png",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110526-2762-0139-0000-2aa65438bb87:6"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "The Case of the Missing Sav, and other mysteries in the ...",
+                    "url": "https://18doors.org/the_case_of_the_missing_sav/",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110526-2762-0139-0000-2aa65438bb87:7"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "Vector Image Hebrew Letter Tav",
+                    "url": "https://www.shutterstock.com/image-vector/vector-image-hebrew-letter-tav-728469733",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110526-2762-0139-0000-2aa65438bb87:8"
+                  }
+                ],
+                "related_image_searches": null,
+                "rectangle": null
+              },
+              {
+                "type": "people_also_ask",
+                "rank_group": 1,
+                "rank_absolute": 3,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]",
+                "items": [
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does the early Hebrew letter tav look like?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[1]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does the word letter mean in Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[2]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "How do you pronounce the letters in the Hebrew alphabet?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[3]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What is the 21 letter in Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[4]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 1,
+                "rank_absolute": 4,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.jewfaq.org",
+                "title": "Hebrew Alphabet - Judaism 101 (JewFAQ)",
+                "url": "https://www.jewfaq.org/hebrew_alphabet",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.jewfaq.org",
+                "website_name": "JewFAQ",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Alef (א) is the first letter of the Hebrew alphabet and Tav (ת) is the last. The Hebrew alphabet is often called the \"alefbet,\" also has a soft sound, and is ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Tav (ת) is the last"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": [
+                  "hebrew alphabet",
+                  "hebrew alphabet",
+                  "what are the 22 letters",
+                  "hebrew alphabet",
+                  "secret of the",
+                  "hebrew alphabet",
+                  "22 hebrew letters",
+                  "hebrew alphabet"
+                ],
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "people_also_search",
+                "rank_group": 1,
+                "rank_absolute": 5,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[10]",
+                "title": "People also search for",
+                "items": [
+                  "Tav hebrew letter meaning",
+                  "Tav hebrew letter pronunciation",
+                  "Tav hebrew letter to english",
+                  "Hebrew alphabet a to z",
+                  "Tav hebrew letter translation",
+                  "Hebrew alphabet to English"
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 2,
+                "rank_absolute": 6,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[11]/div[1]/div[1]",
+                "domain": "m.youtube.com",
+                "title": "Secret of the Hebrew letter Tav",
+                "url": "https://m.youtube.com/live/7mN2BqEWbc4?t=19s",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "62.4K+ views",
+                "website_name": "YouTube · thelivingword",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "Discover the secret behind the Hebrew letter Tav. Discover the secret in each letter of the Hebrew alphabet. Visit www.thelivingword.org.au.",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": [
+                  {
+                    "type": "link_element",
+                    "title": "9:32",
+                    "description": null,
+                    "url": "https://m.youtube.com/live/7mN2BqEWbc4?t=19s",
+                    "domain": "m.youtube.com"
+                  }
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2016-10-11 05:26:02 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 3,
+                "rank_absolute": 7,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[13]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.reddit.com",
+                "title": "Does the last letter Tav/Tau and the cross stand for \"truth\"? : r/tarot",
+                "url": "https://www.reddit.com/r/tarot/comments/1d6li5v/does_the_last_letter_tavtau_and_the_cross_stand/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "10+ comments",
+                "website_name": "Reddit · r/tarot",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Tav is the last letter in the Hebrew word for truth, which is comprised of the first, middle, and last letters in the Hebrew alphabet because ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Tav is the last letter in the Hebrew word for truth"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": [
+                  "hebrew alphabet",
+                  "hebrew alphabet",
+                  "what are the 22 letters",
+                  "hebrew alphabet",
+                  "secret of the",
+                  "hebrew alphabet",
+                  "22 hebrew letters",
+                  "hebrew alphabet"
+                ],
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2024-10-11 05:26:02 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 4,
+                "rank_absolute": 8,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "evreet.wordpress.com",
+                "title": "How Job left his mark: The letter Tav - Hebrew is E-Vreet - WordPress.com",
+                "url": "https://evreet.wordpress.com/2016/02/12/how-job-left-his-mark-the-letter-tav/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://evreet.wordpress.com",
+                "website_name": "WordPress.com",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Feb 12, 2016 — The last letter of the Hebrew alphabet is called a Tav. The letter Tav also means “mark” in Biblical Hebrew",
+                "pre_snippet": "02/12/2016 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "The last letter of the Hebrew alphabet is called a Tav"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2016-02-12 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "video",
+                "rank_group": 1,
+                "rank_absolute": 9,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[17]",
+                "items": [
+                  {
+                    "type": "video_element",
+                    "source": "El Shaddai Ministries",
+                    "title": "The Hebrew letter: Tav",
+                    "timestamp": "2023-07-22 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=mp1OSr7v8ZM"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "BibleInteract",
+                    "title": "Power of Hebrew Letters: Tav",
+                    "timestamp": "2024-12-06 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=CixfRUaH1q8"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "The Local Dreamer Podcast",
+                    "title": "The Hebrew Letter Tav- The Mark & Sign. Divine Completion & Fulfillment",
+                    "timestamp": "2025-12-26 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=EPtCQm0ILjw"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "thelivingword",
+                    "title": "Secret of the Hebrew letter Tav",
+                    "timestamp": "2015-10-26 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=7mN2BqEWbc4"
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 5,
+                "rank_absolute": 10,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "torahresource.com",
+                "title": "Seven Steps to the Aleph Tav",
+                "url": "https://torahresource.com/article/seven-steps-to-the-aleph-tav/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://torahresource.com",
+                "website_name": "TorahResource",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "And since Omega is the last letter of the Greek alphabet, we should replace it with Tav, the end of the Hebrew alefbet: I am the Alpha Aleph and the Omega Tav, ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 6,
+                "rank_absolute": 11,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[21]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.facebook.com",
+                "title": "Hebrew lesson 22: Final letter Tav",
+                "url": "https://www.facebook.com/groups/1687050108451278/posts/1953685955121024/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "2 comments",
+                "website_name": "Facebook · Hebrew",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Tav is the last letter of the Hebrew Alphabet. Meaning mark, sign, omen, or seal, it is the symbol of truth, perfection, and completion.",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Tav is the last letter of the Hebrew Alphabet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2025-10-11 05:26:02 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 7,
+                "rank_absolute": 12,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[23]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.templestudy.com",
+                "title": "Job's Covenant: Hebrew Tav and “Behold my sign!” in Job 31",
+                "url": "https://www.templestudy.com/2008/08/16/jobs-covenant-hebrew-tav-and-behold-my-sign-in-job-31/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.templestudy.com",
+                "website_name": "Temple Study",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Aug 16, 2008 — the Hebrew word tav is made up of two Hebrew letters, tav and vav, meaning “to scrabble, limit, mark, or set a mark.”",
+                "pre_snippet": "08/16/2008 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "two Hebrew letters, tav and vav"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2008-08-16 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "people_also_search",
+                "rank_group": 2,
+                "rank_absolute": 13,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[4]/div[1]/div[3]/div[1]",
+                "title": "People also search for",
+                "items": [
+                  "What are the 22 letters of the Hebrew alphabet",
+                  "Hebrew alphabet letters",
+                  "Secret of the Hebrew letter Tav",
+                  "Hebrew alphabet in order",
+                  "22 Hebrew letters meaning PDF",
+                  "Hebrew alphabet meaning"
+                ],
+                "rectangle": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

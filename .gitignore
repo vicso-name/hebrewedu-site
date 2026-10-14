@@ -23,3 +23,7 @@ Thumbs.db
 artifacts/lesson-1-poc/
 *.suo
 *.ntvs*
+
+# SEO research: cached provider API responses, may contain account identifiers
+# (e.g. account-before/after snapshots carry the DataForSEO account login email)
+docs/seo/research/rank-tracker/data/responses/

@@ -1,0 +1,223 @@
+{
+  "existing_sources": [
+    {
+      "path": "keyword-candidates-qualified.csv",
+      "rows": 136,
+      "sha256": "4521fc8729ae7de068137106dcbc5b3738bc16ec0e2b59def4c1cfca9288edfc",
+      "fields_used": [
+        "keyword",
+        "supporting_gsc_queries"
+      ]
+    },
+    {
+      "path": "keyword-candidates-with-volume.csv",
+      "rows": 136,
+      "sha256": "b795bc03d90724e6a1fe25631f2050ac84a968a1209aa80ee86985c3310a37e9",
+      "fields_used": [
+        "keyword",
+        "provider_keyword",
+        "supporting_gsc_queries",
+        "provider_spell_correction"
+      ]
+    },
+    {
+      "path": "keyword-candidates.csv",
+      "rows": 136,
+      "sha256": "c5fe8931f014fc117aaed4adfc94492ecfb90488752c697cdbf5571c1628b79d",
+      "fields_used": [
+        "keyword",
+        "supporting_gsc_queries"
+      ]
+    },
+    {
+      "path": "keyword-difficulty.csv",
+      "rows": 7,
+      "sha256": "2a28b9e06abb8d91272ffc5e2322d85a3bcd91623cac844aa6bc5cd2f6c8c23f",
+      "fields_used": [
+        "keyword"
+      ]
+    },
+    {
+      "path": "keyword-opportunities.csv",
+      "rows": 36,
+      "sha256": "96fca271829d4698784ce68bd05b8f797e32ab5ee525d70e5da706f646a6d394",
+      "fields_used": [
+        "keyword",
+        "supporting_variants"
+      ]
+    },
+    {
+      "path": "rank-tracker/reports/337cdd21-2385-43df-aafb-5b086da27385.csv",
+      "rows": 36,
+      "sha256": "e5a79d85696e3e13b468d39ddc8b6c86d2b085f663e773bdc67f47834aa78577",
+      "fields_used": [
+        "keyword"
+      ]
+    },
+    {
+      "path": "rank-tracker/reports/pre-baseline.csv",
+      "rows": 36,
+      "sha256": "96e73c397ccb51cef48e1662e78acfe5811c2a75d588f1a90ac34e0b103b0b06",
+      "fields_used": [
+        "keyword"
+      ]
+    },
+    {
+      "path": "rank-tracking-keywords.csv",
+      "rows": 36,
+      "sha256": "e8082c3bf1e0d3072b74bfa1cf0bd40659256c289757a1bd907c45b1f30ad1a3",
+      "fields_used": [
+        "keyword"
+      ]
+    },
+    {
+      "path": "search-console/exports/2026-10-10/keyword-map.csv",
+      "rows": 80,
+      "sha256": "1ede728d7eccc869660763748e59e71f2f65c1cab261e529eb79b3d785aced6b",
+      "fields_used": []
+    },
+    {
+      "path": "search-console/exports/2026-10-10/page-baseline.csv",
+      "rows": 34,
+      "sha256": "d93db7bcf55699f4b7c5b9ee43710d70c0a5ad9c1a2c44d09a91a3b35ed9c4de",
+      "fields_used": []
+    },
+    {
+      "path": "semantic-core-v1.csv",
+      "rows": 136,
+      "sha256": "6db9afe17f4413b6d6dff44fff7c02829e7e88dbeb8f92e8fcfb264fb5e6ccd6",
+      "fields_used": [
+        "keyword",
+        "gsc_queries"
+      ]
+    },
+    {
+      "path": "semantic-core-v2-alphabet-expansion-candidates.csv",
+      "rows": 197,
+      "sha256": "5e38126d8d2aa842cbc403d92b80fd5161d5910ee77d059aee201654acd4812a",
+      "fields_used": [
+        "keyword",
+        "provider_keyword",
+        "provider_spell"
+      ]
+    },
+    {
+      "path": "semantic-core-v2-alphabet-research/cost-ledger.csv",
+      "rows": 45,
+      "sha256": "ae44eed199de56f664c14eea4c50da45c4e386febf8321639610d82e6b780513",
+      "fields_used": [
+        "keyword"
+      ]
+    },
+    {
+      "path": "semantic-core-v2-alphabet-research/difficulty-results.csv",
+      "rows": 35,
+      "sha256": "04a8a5feb97377b07cdfff46dc3cc794ecf72ed1d4f8f6e9a4c1d1ace4108219",
+      "fields_used": [
+        "keyword"
+      ]
+    },
+    {
+      "path": "semantic-core-v2-alphabet-research/serp-organic-results.csv",
+      "rows": 279,
+      "sha256": "07f085814267ff34928a868e573c41a0f674cd3028c8d686228a370622d767e0",
+      "fields_used": [
+        "keyword"
+      ]
+    },
+    {
+      "path": "semantic-core-v2-alphabet-research/serp-overlap.csv",
+      "rows": 78,
+      "sha256": "a0e63ae4a7f8a36f76e9eecbcc688c784334dadb44c8ce57e4a2134060927223",
+      "fields_used": []
+    },
+    {
+      "path": "semantic-core-v2-alphabet-research/serp-target-validation.csv",
+      "rows": 43,
+      "sha256": "9f8ec2f03fbd6a8a482a9e2629a32505feab8f527503bf0ba1055bb8a0fbb709",
+      "fields_used": [
+        "keyword"
+      ]
+    },
+    {
+      "path": "semantic-core-v2-alphabet-research/volume-results.csv",
+      "rows": 171,
+      "sha256": "adc2a94cdefc38bf650fc2fc48c4e2bddbeaae935592b8e13468c302dc4b2967",
+      "fields_used": [
+        "keyword",
+        "provider_spell"
+      ]
+    },
+    {
+      "path": "semantic-core-v2.csv",
+      "rows": 309,
+      "sha256": "d7e34c48395d4f23bf4b38aae6fa2bf764a4ac5d6ff38466e89b1d23ca1f2f1e",
+      "fields_used": [
+        "keyword",
+        "gsc_queries"
+      ]
+    },
+    {
+      "path": "semantic-core-v3-blog-candidates/2026-10-13/candidate-addendum.csv",
+      "rows": 5,
+      "sha256": "8a04e561c4f6de303f782bec21845bde8577b4519269208e6a5590c939d4df03",
+      "fields_used": [
+        "keyword",
+        "returned_volume_keyword",
+        "returned_difficulty_keyword"
+      ]
+    },
+    {
+      "path": "semantic-core-v3-blog-candidates/2026-10-13/cost-ledger.csv",
+      "rows": 2,
+      "sha256": "f126f4f06858d2112a97440112b370a859e31d76380ea28bf1f7b2f76d180237",
+      "fields_used": []
+    },
+    {
+      "path": "semantic-core-v3-blog-candidates/2026-10-13/monthly-volume-history.csv",
+      "rows": 24,
+      "sha256": "17387d9959f849b6e15be7e0064c5b7ab1f3f5ef8938bad6ee3fc3617eb6c5b5",
+      "fields_used": [
+        "keyword"
+      ]
+    },
+    {
+      "path": "serp-overlap.csv",
+      "rows": 5,
+      "sha256": "4b1396b7c4ea8c59fd38498e2192394b7a4d6232cd57c6ba7dd47383c45b560d",
+      "fields_used": []
+    },
+    {
+      "path": "serp-pilot-plan.csv",
+      "rows": 12,
+      "sha256": "5cede708619eb7cdc66c56150de431ecb1c2072066b19dad11aafd1443ff89c6",
+      "fields_used": [
+        "keyword"
+      ]
+    },
+    {
+      "path": "serp-pilot-results.csv",
+      "rows": 79,
+      "sha256": "8a24262920396470084dd88df8ab67bf7fe85d261ebf1a91080c84c34c16757a",
+      "fields_used": [
+        "keyword"
+      ]
+    },
+    {
+      "path": "serp-target-validation.csv",
+      "rows": 12,
+      "sha256": "bbc1130bd9302d100a87b53e3a99b5fca7b5529ae1bb7b105b43c0e8b4378418",
+      "fields_used": [
+        "keyword"
+      ]
+    }
+  ],
+  "semantic_equivalence_authority": [
+    "docs/seo-eight-articles-keyword-opportunity-plan.md",
+    "docs/seo-eight-articles-semantic-audit.md",
+    "keyword-to-url-map.md"
+  ],
+  "phase3b_checked_rows": 5,
+  "semantic_core_v2_checked_rows": 309,
+  "v2_candidate_control_companion_rows": 197
+}

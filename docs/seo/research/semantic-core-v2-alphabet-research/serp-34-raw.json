@@ -1,0 +1,541 @@
+{
+  "keyword": "kaf vs chaf pronunciation",
+  "retrieved_at_utc": "2026-10-11T05:30:06.561Z",
+  "raw": {
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "3.1866 sec.",
+    "cost": 0.002,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "10110529-2762-0139-0000-3996c8668dd7",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "3.1075 sec.",
+        "cost": 0.002,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "serp",
+          "google",
+          "organic",
+          "live",
+          "advanced"
+        ],
+        "data": {
+          "api": "serp",
+          "function": "live",
+          "se": "google",
+          "se_type": "organic",
+          "keyword": "kaf vs chaf pronunciation",
+          "location_code": 2840,
+          "language_code": "en",
+          "device": "mobile",
+          "os": "android",
+          "depth": 10
+        },
+        "result": [
+          {
+            "keyword": "kaf vs chaf pronunciation",
+            "type": "organic",
+            "se_domain": "google.com",
+            "location_code": 2840,
+            "language_code": "en",
+            "check_url": "https://www.google.com/search?q=kaf%20vs%20chaf%20pronunciation&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+            "datetime": "2026-10-11 05:29:21 +00:00",
+            "spell": null,
+            "refinement_chips": null,
+            "item_types": [
+              "ai_overview",
+              "video",
+              "organic",
+              "people_also_ask"
+            ],
+            "se_results_count": 0,
+            "pages_count": 1,
+            "items_count": 11,
+            "items": [
+              {
+                "type": "ai_overview",
+                "rank_group": 1,
+                "rank_absolute": 1,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[1]/div[1]",
+                "asynchronous_ai_overview": true,
+                "markdown": null,
+                "items": null,
+                "references": null,
+                "rectangle": null
+              },
+              {
+                "type": "video",
+                "rank_group": 1,
+                "rank_absolute": 2,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[3]",
+                "items": [
+                  {
+                    "type": "video_element",
+                    "source": "The Hebrew Teacher's Hub with Alef Bet Games",
+                    "title": "Hebrew Letters Kaf Vs Chaf: How can you tell?",
+                    "timestamp": "2021-10-27 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=wX5vS7dd3dE"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Hebrew4Learners",
+                    "title": "Lesson 6 yod kaf chaf",
+                    "timestamp": "2021-06-09 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=nh8VCG95euY"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "The ShevonYah Show",
+                    "title": "Hebrew Kaf and Haf (כ and כּ) The Easy Wayׁ",
+                    "timestamp": "2018-02-11 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=q0eIpaBpnGs"
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 1,
+                "rank_absolute": 3,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[4]/div[1]/div[1]",
+                "domain": "www.youtube.com",
+                "title": "Learn the Hebrew letter KAF",
+                "url": "https://www.youtube.com/watch?v=TM2VJPG0NG8",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "1.6M+ views",
+                "website_name": "YouTube · Shalom Sesame",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "The Hebrew word KADOOR means BALL and begins with the letter KAF. Learn the Hebrew letter KAF. @shalomsesame1.5K likes1.5M views12 years ago",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2014-10-11 05:29:20 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 2,
+                "rank_absolute": 4,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "soundcloud.com",
+                "title": "The Hebrew Letter Kaf pronunciation - gidonariel",
+                "url": "https://soundcloud.com/gidonariel/the-hebrew-letter-kaf",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "9 years ago",
+                "website_name": "SoundCloud · gidonariel",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "The Hebrew Letter Kaf pronunciation … how to pronounce the Hebrew letter Kaf or Chaf in the middle or the end of a word",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "how to pronounce the Hebrew letter Kaf or Chaf"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "people_also_ask",
+                "rank_group": 1,
+                "rank_absolute": 5,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[8]/div[1]",
+                "items": [
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does the Hebrew letter Kaf mean?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[8]/div[1]/div[2]/div[2]/div[1]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "How do you pronounce \"ka\"?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[8]/div[1]/div[2]/div[2]/div[2]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "How do you pronounce the letters in the Hebrew alphabet?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[8]/div[1]/div[2]/div[2]/div[3]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does 666 look like in Hebrew letters?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[8]/div[1]/div[2]/div[2]/div[4]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 3,
+                "rank_absolute": 6,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.reddit.com",
+                "title": "Kaf vs chet : r/hebrew",
+                "url": "https://www.reddit.com/r/hebrew/comments/1scmwsl/kaf_vs_chet/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "10+ comments",
+                "website_name": "Reddit · r/hebrew",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "kaf (without a dagesh) is exactly the same as chet. in most Modern Aramaic dialects, the letter Khet is always pronounced Kh, and Ayin is also ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "kaf (without a dagesh) is exactly the same as chet"
+                ],
+                "links": [
+                  {
+                    "type": "link_element",
+                    "title": "pronouncing aleph bet : r/hebrew - Redditr/hebrew·10+ comments·5y",
+                    "description": null,
+                    "url": "https://www.reddit.com/r/hebrew/comments/obqkfu/pronouncing_aleph_bet/",
+                    "domain": "www.reddit.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "ק and כ sounds exactly the same, and there are letters that changes their ...r/hebrew·7 comments·2y",
+                    "description": null,
+                    "url": "https://www.reddit.com/r/hebrew/comments/184dgc2/%D7%A7_and_%D7%9B_sounds_exactly_the_same_and_there_are/",
+                    "domain": "www.reddit.com"
+                  }
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2026-04-11 05:29:20 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 4,
+                "rank_absolute": 7,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[12]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.facebook.com",
+                "title": "Differentiating between Kaf and Bet in Hebrew",
+                "url": "https://www.facebook.com/groups/1687050108451278/posts/1954121871744099/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "10+ comments",
+                "website_name": "Facebook · Hebrew",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "If you still have trouble differentiating between a Kaf and Bet this reference from the Brit Hadashah should help.",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": [
+                  {
+                    "type": "link_element",
+                    "title": "Understanding CHA and KHA sounds in Hebrew language - FacebookFree Hebrew Class·6 comments·2y",
+                    "description": null,
+                    "url": "https://www.facebook.com/groups/1687348774926200/posts/3838313303163059/",
+                    "domain": "www.facebook.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Why is kuf preferred over kaf for 'k' sound in Hebrew transliteration?Omniglot fan club·10+ comments·6y",
+                    "description": null,
+                    "url": "https://www.facebook.com/groups/omniglot/posts/10157733588114666/",
+                    "domain": "www.facebook.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "That example shows that Yeshua actually was a very Jewish Jew.",
+                    "description": "Top answer · 1 vote",
+                    "url": "https://www.facebook.com/groups/1687050108451278/posts/1954121871744099/",
+                    "domain": "www.facebook.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Look at hebrew words faith...belief...truth...amen they all have the hebrew 'em' in them when ...",
+                    "description": "1 vote",
+                    "url": "https://www.facebook.com/groups/1687050108451278/posts/1954121871744099/",
+                    "domain": "www.facebook.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "I keep warning you.",
+                    "description": "1 vote",
+                    "url": "https://www.facebook.com/groups/1687050108451278/posts/1954121871744099/",
+                    "domain": "www.facebook.com"
+                  }
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2025-10-11 05:29:20 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 5,
+                "rank_absolute": 8,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.etz-hayim.com",
+                "title": "The Hebrew letter Kaf",
+                "url": "https://www.etz-hayim.com/hebrew/pages/kaf.php",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.etz-hayim.com",
+                "website_name": "Etz Hayim—\"Tree of Life\"",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Mar 15, 2010 — Kaf is pronounced as \"k\" in kitten. Khaf is pronounced as \"ch\" in bach it has a breathy \"hk\" sound. Kaf sofit is pronounced as \"ch\" in bach.",
+                "pre_snippet": "03/15/2010 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Kaf is pronounced as \"k\" in kitten"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2010-03-15 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 6,
+                "rank_absolute": 9,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[16]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.facebook.com",
+                "title": "Hebrew letters Final Nun and Final Chaf recognition tips",
+                "url": "https://www.facebook.com/groups/JewishEdECFE/posts/28639128725755442/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "1 week ago",
+                "website_name": "Facebook · Jewish Education Project - Early Childhood Educator Community",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Just remember the Chaf (Guttural just like the Het) and Kaf (as in Cat ) are written different at the end of a word, but the sound does not ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Just remember the Chaf (Guttural just like the Het) and Kaf (as in Cat"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 7,
+                "rank_absolute": 10,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[18]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.faithfulstewardship.org",
+                "title": "Learning to Read Biblical Hebrew",
+                "url": "https://www.faithfulstewardship.org/wp-content/uploads/2026/01/Lesson-3-5-more-letters-4-vowels-3-sofits-pg-12-16-01-07-2026.pdf",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.faithfulstewardship.org",
+                "website_name": "Congregation Faithful Stewardship",
+                "is_image": true,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_image"
+                ],
+                "description": "Jan 7, 2026 — kaf (כּ) – pronounced “k” as in keep o chaf (כ) – pronounced as “ch” in Bach o chaf sofit (ך) – both the chaf & the chaf sofit have the same ...",
+                "pre_snippet": "01/07/2026 00:00:00",
+                "extended_snippet": null,
+                "images": [
+                  {
+                    "type": "images_element",
+                    "alt": null,
+                    "url": "https://www.faithfulstewardship.org/wp-content/uploads/2026/01/Lesson-3-5-more-letters-4-vowels-3-sofits-pg-12-16-01-07-2026.pdf",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqO-KsCQ8-HzsiruCYgltOh8AixhFEp3OFM1OcSrgQbS8tpA&s"
+                  }
+                ],
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "kaf (כּ) – pronounced “k” as in keep"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2026-01-07 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 8,
+                "rank_absolute": 11,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[20]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.etz-hayim.com",
+                "title": "The Hebrew letter Kaf | Etz Hayim \"Tree of Life\"",
+                "url": "https://www.etz-hayim.com/hebrew/letters_and_vowels/kaf.php",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.etz-hayim.com",
+                "website_name": "Etz Hayim—\"Tree of Life\"",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Nov 4, 2018 — Kaf is pronounced as \"k\" in kitten. Khaf is pronounced as \"ch\" in bach. It has a breathy \"hk\" sound. Kaf sofit is pronounced as \"ch\" in bach.",
+                "pre_snippet": "11/04/2018 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Kaf is pronounced as \"k\" in kitten"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2018-11-04 00:00:00 +00:00",
+                "rectangle": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

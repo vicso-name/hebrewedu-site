@@ -32,3 +32,10 @@ If you believe an exception is truly needed, stop and ask the user first.
 
 If this file or `AGENTS.md` already has other rules when you go to edit
 either one, merge with those rules — don't drop them.
+
+# SEO semantic core
+
+Before creating or retargeting a page, check `docs/seo/core/`: assign
+its cluster, avoid cannibalization; after publishing, update
+`keywords.csv`/`pages.csv` and run `npm run seo:build`. Never call paid
+SEO APIs (DataForSEO or similar) without the user's explicit approval.

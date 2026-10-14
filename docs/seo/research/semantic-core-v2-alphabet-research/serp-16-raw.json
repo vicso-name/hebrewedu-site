@@ -1,0 +1,771 @@
+{
+  "keyword": "ayin hebrew letter",
+  "retrieved_at_utc": "2026-10-11T05:24:32.777Z",
+  "raw": {
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "3.2008 sec.",
+    "cost": 0.002,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "10110524-2762-0139-0000-6276222ddde4",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "3.1298 sec.",
+        "cost": 0.002,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "serp",
+          "google",
+          "organic",
+          "live",
+          "advanced"
+        ],
+        "data": {
+          "api": "serp",
+          "function": "live",
+          "se": "google",
+          "se_type": "organic",
+          "keyword": "ayin hebrew letter",
+          "location_code": 2840,
+          "language_code": "en",
+          "device": "mobile",
+          "os": "android",
+          "depth": 10
+        },
+        "result": [
+          {
+            "keyword": "ayin hebrew letter",
+            "type": "organic",
+            "se_domain": "google.com",
+            "location_code": 2840,
+            "language_code": "en",
+            "check_url": "https://www.google.com/search?q=ayin%20hebrew%20letter&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+            "datetime": "2026-10-11 05:24:16 +00:00",
+            "spell": null,
+            "refinement_chips": null,
+            "item_types": [
+              "ai_overview",
+              "video",
+              "people_also_ask",
+              "images",
+              "organic",
+              "people_also_search"
+            ],
+            "se_results_count": 0,
+            "pages_count": 1,
+            "items_count": 12,
+            "items": [
+              {
+                "type": "ai_overview",
+                "rank_group": 1,
+                "rank_absolute": 1,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]",
+                "asynchronous_ai_overview": false,
+                "markdown": "![Hebrew letter Ayin Stock Vector Image &amp; Art - Alamy](https://api.dataforseo.com/cdn/i/10110524-2762-0139-0000-6276222ddde4:4)\nAyin (**ע** ) is the `16th letter of the Hebrew alphabet` with a numerical value of **70**.[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Ayin/ayin.html)\n\n### Meaning and Symbolism\n\n- **Eye and Sight:** The word *Ayin* literally means \"eye\" or \"to see,\" symbolizing perception, spiritual insight, and divine watchfulness.\n- **Spring or Source:** The same root word (*ma'ayan* ) means a natural spring or fountain of water.\n- **Humility:** In modern and traditional Hebrew, Ayin is largely a silent consonant (functioning as a glottal stop in some traditional pronunciations), representing quiet humility.\n- **Number 70:** Historically and biblically, 70 represents the 70 elders of Israel, the 70 faces of the Torah, and the 70 nations.[[1]](https://hebrewtoday.com/alphabet/the-letter-ain-%D7%A2/)[[2]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Ayin/ayin.html)[[3]](https://dinahoverlien.com/2020/07/22/ayin/)[[4]](https://jhvonline.com/ayin-p14595-288.htm)[[5]](https://inner.org/hebleter/ayin.htm)\n\n### Forms and Pronunciation\n\n- **Block Script:** **ע** \n- **Sound:** Silent in Modern Hebrew, though historically or in Sephardic/Mizrahi traditions it is a deep guttural throat sound.\n- **Origin:** Derived from an ancient pictograph of an eye found in early Semitic scripts (which also evolved into the Latin letter **O**).[[1]](https://jhvonline.com/ayin-p14595-288.htm)[[2]](https://www.jewishencyclopedia.com/articles/2188-ayin)[[3]](https://www.ancient-hebrew.org/ancient-alphabet/ayin.htm)\n\nYou can read more detailed linguistic and mystical insights via [Chabad.org](https://www.chabad.org/library/article_cdo/aid/137088/jewish/Ayin.htm) or [Hebrew4Christians](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Ayin/ayin.html).[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Ayin/ayin.html)[[2]](https://www.chabad.org/library/article_cdo/aid/137088/jewish/Ayin.htm)Would you like to explore **gematria connections** for Ayin, or learn about words that start with this letter?",
+                "items": [
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Ayin ( ע ) is the 16th letter of the Hebrew alphabet with a numerical value of 70.",
+                    "markdown": "![Hebrew letter Ayin Stock Vector Image &amp; Art - Alamy](https://api.dataforseo.com/cdn/i/10110524-2762-0139-0000-6276222ddde4:2)\nAyin (**ע** ) is the `16th letter of the Hebrew alphabet` with a numerical value of **70**.[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Ayin/ayin.html)",
+                    "links": null,
+                    "images": [
+                      {
+                        "type": "images_element",
+                        "alt": "Hebrew letter Ayin Stock Vector Image & Art - Alamy",
+                        "url": null,
+                        "image_url": "https://api.dataforseo.com/cdn/i/10110524-2762-0139-0000-6276222ddde4:3"
+                      }
+                    ],
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew for Christians",
+                        "domain": "www.hebrew4christians.com",
+                        "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Ayin/ayin.html",
+                        "title": "The Letter Ayin",
+                        "text": "Basics: Ayin is the 16th Hebrew letter, valued at 70, mute/guttural, and written in block or script forms; its pictograph means eye, seeing, or understanding. M..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Meaning and Symbolism",
+                    "markdown": "### Meaning and Symbolism",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Eye and Sight: The word Ayin literally means \"eye\" or \"to see,\" symbolizing perception, spiritual insight, and divine watchfulness. Spring or Source: The same root word (ma'ayan) means a natural spring or fountain of water. Humility: In modern and traditional Hebrew, Ayin is largely a silent consonant (functioning as a glottal stop in some traditional pronunciations), representing quiet humility. Number 70: Historically and biblically, 70 represents the 70 elders of Israel, the 70 faces of the Torah, and the 70 nations.",
+                    "markdown": "- **Eye and Sight:** The word *Ayin* literally means \"eye\" or \"to see,\" symbolizing perception, spiritual insight, and divine watchfulness.\n- **Spring or Source:** The same root word (*ma'ayan* ) means a natural spring or fountain of water.\n- **Humility:** In modern and traditional Hebrew, Ayin is largely a silent consonant (functioning as a glottal stop in some traditional pronunciations), representing quiet humility.\n- **Number 70:** Historically and biblically, 70 represents the 70 elders of Israel, the 70 faces of the Torah, and the 70 nations.[[1]](https://hebrewtoday.com/alphabet/the-letter-ain-%D7%A2/)[[2]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Ayin/ayin.html)[[3]](https://dinahoverlien.com/2020/07/22/ayin/)[[4]](https://jhvonline.com/ayin-p14595-288.htm)[[5]](https://inner.org/hebleter/ayin.htm)",
+                    "links": null,
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew Today",
+                        "domain": "hebrewtoday.com",
+                        "url": "https://hebrewtoday.com/alphabet/the-letter-ain-%D7%A2/",
+                        "title": "The Letter Ayin (ע)",
+                        "text": "The Letter Ayin (ע) The Hebrew word for eye is also עַיִן (ayin). So just from the name of this letter, we can understand that it symbolizes the world of sight."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew for Christians",
+                        "domain": "www.hebrew4christians.com",
+                        "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Ayin/ayin.html",
+                        "title": "The Letter Ayin",
+                        "text": "Basics: Ayin is the 16th Hebrew letter, valued at 70, mute/guttural, and written in block or script forms; its pictograph means eye, seeing, or understanding. M..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "a small drop of ink",
+                        "domain": "dinahoverlien.com",
+                        "url": "https://dinahoverlien.com/2020/07/22/ayin/",
+                        "title": "Ayin",
+                        "text": "Ayin Like the first letter of the aleph-bet (Aleph), Ayin is a silent letter, so it represents an attitude of humility. The Ayin doesn't speak, but it “sees” be..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Jewish Herald-Voice",
+                        "domain": "jhvonline.com",
+                        "url": "https://jhvonline.com/ayin-p14595-288.htm",
+                        "title": "Ayin",
+                        "text": "Letter Characteristics: Ayin means eye, functions as a mostly silent Hebrew letter and as the root for maayan meaning spring or source. Psalm 121 Connection: Th..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Gal Einai",
+                        "domain": "inner.org",
+                        "url": "https://inner.org/hebleter/ayin.htm",
+                        "title": "The Hebrew Letters Ayin: Divine Providence - GalEinai",
+                        "text": "Letter: Ayin means eye, symbolizing Divine Providence, the eyes of God controlling the endless cycle (*samech*), and sight as the first conscious sense (*chochm..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Forms and Pronunciation",
+                    "markdown": "### Forms and Pronunciation",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Block Script: ע Sound: Silent in Modern Hebrew, though historically or in Sephardic/Mizrahi traditions it is a deep guttural throat sound. Origin: Derived from an ancient pictograph of an eye found in early Semitic scripts (which also evolved into the Latin letter O ).",
+                    "markdown": "- **Block Script:** **ע** \n- **Sound:** Silent in Modern Hebrew, though historically or in Sephardic/Mizrahi traditions it is a deep guttural throat sound.\n- **Origin:** Derived from an ancient pictograph of an eye found in early Semitic scripts (which also evolved into the Latin letter **O**).[[1]](https://jhvonline.com/ayin-p14595-288.htm)[[2]](https://www.jewishencyclopedia.com/articles/2188-ayin)[[3]](https://www.ancient-hebrew.org/ancient-alphabet/ayin.htm)",
+                    "links": null,
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Jewish Herald-Voice",
+                        "domain": "jhvonline.com",
+                        "url": "https://jhvonline.com/ayin-p14595-288.htm",
+                        "title": "Ayin",
+                        "text": "Letter Characteristics: Ayin means eye, functions as a mostly silent Hebrew letter and as the root for maayan meaning spring or source. Psalm 121 Connection: Th..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "JewishEncyclopedia.com",
+                        "domain": "www.jewishencyclopedia.com",
+                        "url": "https://www.jewishencyclopedia.com/articles/2188-ayin",
+                        "title": "'AYIN",
+                        "text": "By: Morris Jastrow, Jr., Gerson B. Levi The sixteenth letter of the Hebrew alphabet. Its numerical value is seventy. In its earlier form it was a circle, a rude..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "The Ancient Hebrew Research Center",
+                        "domain": "www.ancient-hebrew.org",
+                        "url": "https://www.ancient-hebrew.org/ancient-alphabet/ayin.htm",
+                        "title": "Ayin",
+                        "text": "History & Reconstruction The Ancient picture for this letter is and is a picture of an eye. This letter represents the ideas of seeing and watching as well as k..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "You can read more detailed linguistic and mystical insights via Chabad.org or Hebrew4Christians.",
+                    "markdown": "You can read more detailed linguistic and mystical insights via [Chabad.org](https://www.chabad.org/library/article_cdo/aid/137088/jewish/Ayin.htm) or [Hebrew4Christians](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Ayin/ayin.html).[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Ayin/ayin.html)[[2]](https://www.chabad.org/library/article_cdo/aid/137088/jewish/Ayin.htm)",
+                    "links": [
+                      {
+                        "type": "link_element",
+                        "title": "Chabad.org",
+                        "description": null,
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137088/jewish/Ayin.htm",
+                        "domain": "www.chabad.org"
+                      },
+                      {
+                        "type": "link_element",
+                        "title": "Hebrew4Christians",
+                        "description": null,
+                        "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Ayin/ayin.html",
+                        "domain": "www.hebrew4christians.com"
+                      }
+                    ],
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew for Christians",
+                        "domain": "www.hebrew4christians.com",
+                        "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Ayin/ayin.html",
+                        "title": "The Letter Ayin",
+                        "text": "Basics: Ayin is the 16th Hebrew letter, valued at 70, mute/guttural, and written in block or script forms; its pictograph means eye, seeing, or understanding. M..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137088/jewish/Ayin.htm",
+                        "title": "Ayin - The sixteenth letter of the Hebrew alphabet - Chabad.org",
+                        "text": "The ayin is the sixteenth letter of the aleph-bet. According to the Arizal, the ayin is a vav contained in a nun. The nun represents humility. The vav signifies..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Would you like to explore gematria connections for Ayin, or learn about words that start with this letter?",
+                    "markdown": "Would you like to explore **gematria connections** for Ayin, or learn about words that start with this letter?",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  }
+                ],
+                "references": [
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Hebrew for Christians",
+                    "domain": "www.hebrew4christians.com",
+                    "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Ayin/ayin.html",
+                    "title": "The Letter Ayin",
+                    "text": "Basics: Ayin is the 16th Hebrew letter, valued at 70, mute/guttural, and written in block or script forms; its pictograph means eye, seeing, or understanding. M..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Chabad",
+                    "domain": "www.chabad.org",
+                    "url": "https://www.chabad.org/library/article_cdo/aid/137088/jewish/Ayin.htm",
+                    "title": "Ayin - The sixteenth letter of the Hebrew alphabet - Chabad.org",
+                    "text": "The ayin is the sixteenth letter of the aleph-bet. According to the Arizal, the ayin is a vav contained in a nun. The nun represents humility. The vav signifies..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Hebrew Today",
+                    "domain": "hebrewtoday.com",
+                    "url": "https://hebrewtoday.com/alphabet/the-letter-ain-%D7%A2/",
+                    "title": "The Letter Ayin (ע)",
+                    "text": "The Letter Ayin (ע) The Hebrew word for eye is also עַיִן (ayin). So just from the name of this letter, we can understand that it symbolizes the world of sight."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Jewish Herald-Voice",
+                    "domain": "jhvonline.com",
+                    "url": "https://jhvonline.com/ayin-p14595-288.htm",
+                    "title": "Ayin",
+                    "text": "Letter Characteristics: Ayin means eye, functions as a mostly silent Hebrew letter and as the root for maayan meaning spring or source. Psalm 121 Connection: Th..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Gal Einai",
+                    "domain": "inner.org",
+                    "url": "https://inner.org/hebleter/ayin.htm",
+                    "title": "The Hebrew Letters Ayin: Divine Providence - GalEinai",
+                    "text": "Letter: Ayin means eye, symbolizing Divine Providence, the eyes of God controlling the endless cycle (*samech*), and sight as the first conscious sense (*chochm..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "a small drop of ink",
+                    "domain": "dinahoverlien.com",
+                    "url": "https://dinahoverlien.com/2020/07/22/ayin/",
+                    "title": "Ayin",
+                    "text": "Ayin Like the first letter of the aleph-bet (Aleph), Ayin is a silent letter, so it represents an attitude of humility. The Ayin doesn't speak, but it “sees” be..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "The Ancient Hebrew Research Center",
+                    "domain": "www.ancient-hebrew.org",
+                    "url": "https://www.ancient-hebrew.org/ancient-alphabet/ayin.htm",
+                    "title": "Ayin",
+                    "text": "History & Reconstruction The Ancient picture for this letter is and is a picture of an eye. This letter represents the ideas of seeing and watching as well as k..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "JewishEncyclopedia.com",
+                    "domain": "www.jewishencyclopedia.com",
+                    "url": "https://www.jewishencyclopedia.com/articles/2188-ayin",
+                    "title": "'AYIN",
+                    "text": "By: Morris Jastrow, Jr., Gerson B. Levi The sixteenth letter of the Hebrew alphabet. Its numerical value is seventy. In its earlier form it was a circle, a rude..."
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "video",
+                "rank_group": 1,
+                "rank_absolute": 2,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[4]",
+                "items": [
+                  {
+                    "type": "video_element",
+                    "source": "BibleInteract",
+                    "title": "Power of Hebrew Letters: Ayin",
+                    "timestamp": "2024-07-12 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=AVEUgQZDGt4"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "thelivingword",
+                    "title": "Secret of the Hebrew letter Ayin",
+                    "timestamp": "2015-10-19 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=-J2kiG_TX6E"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "El Shaddai Ministries",
+                    "title": "The Hebrew letter: Ayin",
+                    "timestamp": "2023-07-22 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=HddqyRyIz14"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Shalom Sesame",
+                    "title": "Learn the Hebrew letter AYIN",
+                    "timestamp": "2014-01-21 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=8XzixYmtKYI"
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "people_also_ask",
+                "rank_group": 1,
+                "rank_absolute": 3,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]",
+                "items": [
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What is the meaning of the Hebrew word \"Ayin\"?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[1]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What letter is the number 666 in Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[2]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What is the meaning of the Hebrew letter teth?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[3]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What is the letter \"ayin\" in Arabic?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[4]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "images",
+                "rank_group": 1,
+                "rank_absolute": 4,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[8]",
+                "title": "Images",
+                "url": null,
+                "items": [
+                  {
+                    "type": "images_element",
+                    "alt": "Ayin - The sixteenth letter of the Hebrew alphabet - Chabad.org",
+                    "url": "https://www.chabad.org/library/article_cdo/aid/137088/jewish/Ayin.htm",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0_mOrd-3XwqLRZ1aJRx0a3RT5eWxNSERo1GY5gMD7L_cJ3oEBLcUvEnc&s"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "The Letter Ayin",
+                    "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Ayin/ayin.html",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyqwUVAmNUTVGdupni4UJay0FdmXa8lb9wA1M2I0oh2Ti19m2-2n30bb4&s"
+                  }
+                ],
+                "related_image_searches": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 1,
+                "rank_absolute": 5,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[1]",
+                "domain": "www.youtube.com",
+                "title": "Writing the Hebrew Letters: Ayin",
+                "url": "https://www.youtube.com/watch?v=vV8cHCdML8w",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "2.8K+ views",
+                "website_name": "YouTube · Torah Home Study",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "Ayin | Paleo Hebrew Alphabet | Garden of Eden, Blast of the Trumpet, a Surprising Name, and more Original Hebrew•15K",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2018-10-11 05:24:15 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 2,
+                "rank_absolute": 6,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "bam.sites.uiowa.edu",
+                "title": "RTL Words: ʿAYIN (Hebrew: עין) - Bible & Archaeology",
+                "url": "https://bam.sites.uiowa.edu/RTL/rtl-words-ayin",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://bam.sites.uiowa.edu",
+                "website_name": "Bible & Archaeology",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "The Hebrew noun עין (ʿayin, pronounced AYE-yin) is the Biblical Hebrew word for both \"eye\" and \"spring.\" \"But Noah found favor in the eyes (בעיני) of the LORD.\"",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 3,
+                "rank_absolute": 7,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[13]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.pinterest.com",
+                "title": "Hebrew Letter Ayin Card",
+                "url": "https://www.pinterest.com/ideas/hebrew-letter-ayin-card/920404170078/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.pinterest.com",
+                "website_name": "Pinterest",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Find and save ideas about hebrew letter ayin card. Y “Ayin” (☍) | Ayin hebrew meaning, Hebrew letter hay, Ayin. Learn quenya basics, Quenya letters, Symbols",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "hebrew letter ayin card"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 4,
+                "rank_absolute": 8,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.biblicaltraining.org",
+                "title": "Ayin - Search results provided by BiblicalTraining",
+                "url": "https://www.biblicaltraining.org/library/ayin",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.biblicaltraining.org",
+                "website_name": "BiblicalTraining",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "AYIN (ā'yēn, Heb. 'ayin, an eye, a spring or fountain) The sixteenth letter of the Hebrew alphabet, y so named because originally in outline the letter ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "The sixteenth letter of the Hebrew alphabet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "people_also_search",
+                "rank_group": 1,
+                "rank_absolute": 9,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[17]",
+                "title": "People also search for",
+                "items": [
+                  "Ayin hebrew letter words",
+                  "Ayin hebrew letter pronunciation",
+                  "Ayin hebrew letter meaning"
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 5,
+                "rank_absolute": 10,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "biblenumbersforlife.com",
+                "title": "HEBREW: EYES OF THE LORD (70) – Letter 'Ayin'",
+                "url": "https://biblenumbersforlife.com/wp-content/uploads/2014/02/hebrew-ayin-eyes-of-the-lord1.pdf",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://biblenumbersforlife.com",
+                "website_name": "Bible Numbers For Life",
+                "is_image": true,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_image"
+                ],
+                "description": "The sixteenth Hebrew letter 'Ayin ' The spiritual number 16 means 'Sacrifice'. In Hebrew the character Ayin is used to represent the number 70.",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": [
+                  {
+                    "type": "images_element",
+                    "alt": null,
+                    "url": "https://biblenumbersforlife.com/wp-content/uploads/2014/02/hebrew-ayin-eyes-of-the-lord1.pdf",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvtKRzOQGVW6lanl3eWxp6XJ6r1EnbpYUsUeunZhz9oVqVfQ&s"
+                  }
+                ],
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "The sixteenth Hebrew letter 'Ayin"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 6,
+                "rank_absolute": 11,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[21]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "ivrianochi.home.blog",
+                "title": "Origins of the Hebrew Aleph-Bet (Part 16, Ayin)",
+                "url": "https://ivrianochi.home.blog/2019/05/02/origins-of-the-hebrew-aleph-bet-part-16-ayin/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://ivrianochi.home.blog",
+                "website_name": "Home.blog",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "May 2, 2019 — The meaning of the letter name ayin is clear – an eye, however as was the case with zayin and chet, we find that in the earliest forms of ...",
+                "pre_snippet": "05/02/2019 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "an eye"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2019-05-02 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 7,
+                "rank_absolute": 12,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[22]/div[1]/div[1]",
+                "domain": "www.youtube.com",
+                "title": "Ayin עַיִן - Biblical Hebrew word of the day #Shorts",
+                "url": "https://www.youtube.com/shorts/vrLKVdXD6oE",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "4.2K+ views",
+                "website_name": "YouTube · Hebrew Literacy",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "Today's word can mean \"eye\" or \"spring\" as in a fresh water source. Ibn Ezra explains the rationale for this word being used for a \"spring\"",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2023-10-11 05:24:15 +00:00",
+                "rectangle": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

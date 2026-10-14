@@ -1,0 +1,49 @@
+{
+  "cache_type": "dataforseo",
+  "analyzed_at": "2026-10-13T14:05:07.166272+00:00",
+  "domain": "hebrewedu.com",
+  "keywords": [
+    "hebrew words",
+    "hebrew phrases",
+    "hebrew text",
+    "hebrew alphabet nun"
+  ],
+  "findings": [
+    {
+      "keyword": "hebrew words",
+      "intent": "Informational vocabulary learning/reference; mixed Modern and Biblical scope; video-led organic results",
+      "decision": "Distinct future content opportunity — conditional C01 applied vocabulary reference"
+    },
+    {
+      "keyword": "hebrew phrases",
+      "intent": "Informational practical everyday phrase acquisition/use",
+      "decision": "Distinct future content opportunity — strongest C01 candidate for owner review"
+    },
+    {
+      "keyword": "hebrew text",
+      "intent": "Broad informational script/text exploration and Biblical/literary resources; no coherent beginner-passage intent",
+      "decision": "Hold / reject broad exact query as C07 beginner-passage acquisition target"
+    },
+    {
+      "keyword": "hebrew alphabet nun",
+      "intent": "Informational Nun identification/instruction with substantial religious, symbolic and Biblical-name meaning",
+      "decision": "Existing page improvement — bounded Alphabet Guide reference; hold full-query acquisition claim and duplicate new content"
+    }
+  ],
+  "issues": [
+    "Mixed Biblical scope for words and text",
+    "Nun reference intent includes religious and name meaning",
+    "Existing v2 ownership must be reconciled before any URL allocation"
+  ],
+  "recommendations": [
+    "Review applied C01 reference",
+    "Hold hebrew text for passage targeting",
+    "Keep bounded basic Nun reference on Guide"
+  ],
+  "tool_limitations": [
+    "Depth 10 returned 6–7 organic rows",
+    "Formats inferred from returned metadata",
+    "No competitor-page crawl, authority assessment or rank forecast"
+  ],
+  "cache_placement": "Stage-specific summary retained here to avoid overwriting earlier shared research cache"
+}

@@ -1,0 +1,795 @@
+{
+  "keyword": "resh hebrew letter",
+  "retrieved_at_utc": "2026-10-11T05:26:30.591Z",
+  "raw": {
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "4.2152 sec.",
+    "cost": 0.002,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "10110525-2762-0139-0000-5fd2d793a33a",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "4.1361 sec.",
+        "cost": 0.002,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "serp",
+          "google",
+          "organic",
+          "live",
+          "advanced"
+        ],
+        "data": {
+          "api": "serp",
+          "function": "live",
+          "se": "google",
+          "se_type": "organic",
+          "keyword": "resh hebrew letter",
+          "location_code": 2840,
+          "language_code": "en",
+          "device": "mobile",
+          "os": "android",
+          "depth": 10
+        },
+        "result": [
+          {
+            "keyword": "resh hebrew letter",
+            "type": "organic",
+            "se_domain": "google.com",
+            "location_code": 2840,
+            "language_code": "en",
+            "check_url": "https://www.google.com/search?q=resh%20hebrew%20letter&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+            "datetime": "2026-10-11 05:25:54 +00:00",
+            "spell": null,
+            "refinement_chips": null,
+            "item_types": [
+              "ai_overview",
+              "images",
+              "video",
+              "organic",
+              "people_also_ask"
+            ],
+            "se_results_count": 0,
+            "pages_count": 1,
+            "items_count": 11,
+            "items": [
+              {
+                "type": "ai_overview",
+                "rank_group": 1,
+                "rank_absolute": 1,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]",
+                "asynchronous_ai_overview": false,
+                "markdown": "![Hebrew letter Resh Stock Vector Image &amp; Art - Alamy](https://api.dataforseo.com/cdn/i/10110525-2762-0139-0000-5fd2d793a33a:4)\n**Resh (ר)** is the `20th letter of the Hebrew alphabet`.[[1]](https://www.chabad.org/library/article_cdo/aid/137092/jewish/Resh.htm)\n\n### Key Facts\n\n- **Sound:** Pronounced like an \"R\" (typically a uvular or throat-based \"R\" in modern Hebrew, similar to French or German, or an alveolar \"R\").[[1]](https://en.wikipedia.org/wiki/Resh)[[2]](https://www.chabad.org/library/article_cdo/aid/137092/jewish/Resh.htm)[[3]](https://kriakala.com/hebrew-letter-resh)\n- **Numerical Value:** 200 in Gematria (Jewish system of assigning numbers to letters).[[1]](https://www.chabad.org/library/article_cdo/aid/137092/jewish/Resh.htm)\n- **Meaning:** Derived from the Hebrew word *rosh* (רֹאשׁ), meaning **\"head,\"** **\"chief,\"** or **\"beginning\"**.[[1]](https://learnhebrewforchristians.com/hebrew-alphabet/resh)[[2]](https://kriakala.com/hebrew-letter-resh)\n- **Visual Shape:** Composed of one vertical line and one curved horizontal line forming a profile of a head or a bowed figure. It looks similar to the letter *Dalet* (ד), except *Dalet* has a sharp corner (a *yud* ) at the top right, while *Resh* is rounded.[[1]](https://www.chabad.org/library/article_cdo/aid/137092/jewish/Resh.htm)[[2]](https://kriakala.com/hebrew-letter-resh)[[3]](https://www.youtube.com/watch?v=ybH-yeU-rIc)\n\n### Symbolism & Significance\n\n- **Leadership and Mind:** Because it means \"head,\" *Resh* represents the mind, intellect, and leadership—signifying that actions and new beginnings originate in the thoughts.[[1]](https://learnhebrewforchristians.com/hebrew-alphabet/resh)\n- **Common Examples:** It appears in words like *Rosh Hashanah* (Head of the Year / Jewish New Year), *Beresheet* (In the beginning, from Genesis 1:1), and *Ruach* (spirit or wind).[[1]](https://gabrielelevy.com/pages/the-letter-resh)[[2]](https://learnhebrewforchristians.com/hebrew-alphabet/resh)[[3]](https://kriakala.com/hebrew-letter-resh)[[4]](https://invasionoflight.com/2021/11/01/resh-our-head-shepherd-revealer-of-truth/)[[5]](https://www.youtube.com/watch?v=ybH-yeU-rIc)[[6]](https://www.youtube.com/watch?v=qmisfotK92g&t=430)\n- **Duality:** In Jewish tradition, *Resh* can symbolize a person who is a *rosh* (a head/leader) or, at its lower extreme, a *rasha* (a wicked or spiritually poor person), carrying a choice between wisdom and corruption.[[1]](https://hebrewtoday.com/alphabet/the-letter-resh-%D7%A8/)[[2]](https://www.chabad.org/library/article_cdo/aid/137092/jewish/Resh.htm)\n\nYou can read more about its deeper meanings on [Chabad.org](https://www.chabad.org/library/article_cdo/aid/137092/jewish/Resh.htm) or check its historical evolution on [Wikipedia](https://en.wikipedia.org/wiki/Resh).[[1]](https://www.chabad.org/library/article_cdo/aid/137092/jewish/Resh.htm)[[2]](https://en.wikipedia.org/wiki/Resh)Would you like to explore how *Resh* compares to *Dalet* , or look at other letters in the Hebrew alphabet?",
+                "items": [
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Resh (ר) is the 20th letter of the Hebrew alphabet.",
+                    "markdown": "![Hebrew letter Resh Stock Vector Image &amp; Art - Alamy](https://api.dataforseo.com/cdn/i/10110525-2762-0139-0000-5fd2d793a33a:2)\n**Resh (ר)** is the `20th letter of the Hebrew alphabet`.[[1]](https://www.chabad.org/library/article_cdo/aid/137092/jewish/Resh.htm)",
+                    "links": null,
+                    "images": [
+                      {
+                        "type": "images_element",
+                        "alt": "Hebrew letter Resh Stock Vector Image & Art - Alamy",
+                        "url": null,
+                        "image_url": "https://api.dataforseo.com/cdn/i/10110525-2762-0139-0000-5fd2d793a33a:3"
+                      }
+                    ],
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137092/jewish/Resh.htm",
+                        "title": "Resh - The twentieth letter of the Hebrew alphabet - Chabad.org",
+                        "text": "The twentieth letter of the Hebrew alphabet * Resh (ר) is the twentieth letter of the Hebrew alphabet. * Numerical value: 200. * Sound: \"R\" * Meaning: 1. Poor 2..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Key Facts",
+                    "markdown": "### Key Facts",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Sound: Pronounced like an \"R\" (typically a uvular or throat-based \"R\" in modern Hebrew, similar to French or German, or an alveolar \"R\"). Numerical Value: 200 in Gematria (Jewish system of assigning numbers to letters). Meaning: Derived from the Hebrew word rosh (רֹאשׁ), meaning \"head,\" \"chief,\" or \"beginning\". Visual Shape: Composed of one vertical line and one curved horizontal line forming a profile of a head or a bowed figure. It looks similar to the letter Dalet (ד), except Dalet has a sharp corner (a yud) at the top right, while Resh is rounded.",
+                    "markdown": "- **Sound:** Pronounced like an \"R\" (typically a uvular or throat-based \"R\" in modern Hebrew, similar to French or German, or an alveolar \"R\").[[1]](https://en.wikipedia.org/wiki/Resh)[[2]](https://www.chabad.org/library/article_cdo/aid/137092/jewish/Resh.htm)[[3]](https://kriakala.com/hebrew-letter-resh)\n- **Numerical Value:** 200 in Gematria (Jewish system of assigning numbers to letters).[[1]](https://www.chabad.org/library/article_cdo/aid/137092/jewish/Resh.htm)\n- **Meaning:** Derived from the Hebrew word *rosh* (רֹאשׁ), meaning **\"head,\"** **\"chief,\"** or **\"beginning\"**.[[1]](https://learnhebrewforchristians.com/hebrew-alphabet/resh)[[2]](https://kriakala.com/hebrew-letter-resh)\n- **Visual Shape:** Composed of one vertical line and one curved horizontal line forming a profile of a head or a bowed figure. It looks similar to the letter *Dalet* (ד), except *Dalet* has a sharp corner (a *yud* ) at the top right, while *Resh* is rounded.[[1]](https://www.chabad.org/library/article_cdo/aid/137092/jewish/Resh.htm)[[2]](https://kriakala.com/hebrew-letter-resh)[[3]](https://www.youtube.com/watch?v=ybH-yeU-rIc)",
+                    "links": null,
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Wikipedia",
+                        "domain": "en.wikipedia.org",
+                        "url": "https://en.wikipedia.org/wiki/Resh",
+                        "title": "Resh - Wikipedia",
+                        "text": "Overview: Twentieth letter of Semitic abjads (Phoenician, Hebrew, Aramaic, Syriac, Arabic), typically meaning \"head\" and representing rhotic consonants ([r], [ɾ..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137092/jewish/Resh.htm",
+                        "title": "Resh - The twentieth letter of the Hebrew alphabet - Chabad.org",
+                        "text": "The twentieth letter of the Hebrew alphabet * Resh (ר) is the twentieth letter of the Hebrew alphabet. * Numerical value: 200. * Sound: \"R\" * Meaning: 1. Poor 2..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "קריאה קלה",
+                        "domain": "kriakala.com",
+                        "url": "https://kriakala.com/hebrew-letter-resh",
+                        "title": "The Hebrew Letter Resh (ר) – Shape, Sound & How to Teach | Kriakala",
+                        "text": "About the Letter Resh Resh is the 20th letter of the Hebrew alphabet (Aleph Bet), with a gematria value of 200. Its name רֵישׁ is related to the Hebrew word רֹא..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "learnhebrewforchristians.com",
+                        "domain": "learnhebrewforchristians.com",
+                        "url": "https://learnhebrewforchristians.com/hebrew-alphabet/resh",
+                        "title": "Hebrew Letter Resh (ר) — The Head, Leadership & New Beginnings",
+                        "text": "ר Resh Head, person, chief, beginning, highest R (guttural, like French R) Ancient pictograph: Head / person / chief Resh (ר) is the twentieth letter of the Heb..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=ybH-yeU-rIc",
+                        "title": "The Hebrew letter: Resh",
+                        "text": "The Hebrew letter: Resh we're on the letter H. uh which is back on your notes again we'll go back to your notes. we're going to finish the letter H today it's k..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Symbolism & Significance",
+                    "markdown": "### Symbolism & Significance",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Leadership and Mind: Because it means \"head,\" Resh represents the mind, intellect, and leadership—signifying that actions and new beginnings originate in the thoughts. Common Examples: It appears in words like Rosh Hashanah (Head of the Year / Jewish New Year), Beresheet (In the beginning, from Genesis 1:1), and Ruach (spirit or wind). Duality: In Jewish tradition, Resh can symbolize a person who is a rosh (a head/leader) or, at its lower extreme, a rasha (a wicked or spiritually poor person), carrying a choice between wisdom and corruption.",
+                    "markdown": "- **Leadership and Mind:** Because it means \"head,\" *Resh* represents the mind, intellect, and leadership—signifying that actions and new beginnings originate in the thoughts.[[1]](https://learnhebrewforchristians.com/hebrew-alphabet/resh)\n- **Common Examples:** It appears in words like *Rosh Hashanah* (Head of the Year / Jewish New Year), *Beresheet* (In the beginning, from Genesis 1:1), and *Ruach* (spirit or wind).[[1]](https://gabrielelevy.com/pages/the-letter-resh)[[2]](https://learnhebrewforchristians.com/hebrew-alphabet/resh)[[3]](https://kriakala.com/hebrew-letter-resh)[[4]](https://invasionoflight.com/2021/11/01/resh-our-head-shepherd-revealer-of-truth/)[[5]](https://www.youtube.com/watch?v=ybH-yeU-rIc)[[6]](https://www.youtube.com/watch?v=qmisfotK92g&t=430)\n- **Duality:** In Jewish tradition, *Resh* can symbolize a person who is a *rosh* (a head/leader) or, at its lower extreme, a *rasha* (a wicked or spiritually poor person), carrying a choice between wisdom and corruption.[[1]](https://hebrewtoday.com/alphabet/the-letter-resh-%D7%A8/)[[2]](https://www.chabad.org/library/article_cdo/aid/137092/jewish/Resh.htm)",
+                    "links": null,
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "learnhebrewforchristians.com",
+                        "domain": "learnhebrewforchristians.com",
+                        "url": "https://learnhebrewforchristians.com/hebrew-alphabet/resh",
+                        "title": "Hebrew Letter Resh (ר) — The Head, Leadership & New Beginnings",
+                        "text": "ר Resh Head, person, chief, beginning, highest R (guttural, like French R) Ancient pictograph: Head / person / chief Resh (ר) is the twentieth letter of the Heb..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "ALEFBET - The hebrew letters art gallery",
+                        "domain": "gabrielelevy.com",
+                        "url": "https://gabrielelevy.com/pages/the-letter-resh",
+                        "title": "The letter RESH – ALEFBET - THE HEBREW LETTERS ART GALLERY",
+                        "text": "Symbolism: Resh (20th Hebrew letter, value 200) signifies head, leader, beginning, Oneness, and containing infinite exponential growth and life's constant flow."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "קריאה קלה",
+                        "domain": "kriakala.com",
+                        "url": "https://kriakala.com/hebrew-letter-resh",
+                        "title": "The Hebrew Letter Resh (ר) – Shape, Sound & How to Teach | Kriakala",
+                        "text": "About the Letter Resh Resh is the 20th letter of the Hebrew alphabet (Aleph Bet), with a gematria value of 200. Its name רֵישׁ is related to the Hebrew word רֹא..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "invasionoflight.com",
+                        "domain": "invasionoflight.com",
+                        "url": "https://invasionoflight.com/2021/11/01/resh-our-head-shepherd-revealer-of-truth/",
+                        "title": "Resh: Our Head, Shepherd & Revealer of Truth - Invasion of Light",
+                        "text": "Resh ר is the twentieth Hebrew letter and has a numerical value of two hundred. It means head ראש (rosh) and is used in the first word of Scripture (Genesis 1:1..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=ybH-yeU-rIc",
+                        "title": "The Hebrew letter: Resh",
+                        "text": "The Hebrew letter: Resh we're on the letter H. uh which is back on your notes again we'll go back to your notes. we're going to finish the letter H today it's k..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=qmisfotK92g&t=430",
+                        "title": "The Hebrew Letter Resh – Headship, Renewal, and Divine Leadership",
+                        "text": "The Hebrew Letter Resh – Headship, Renewal, and Divine Leadership | Lesson 20 section to talk with God about what it means to return to single-sight. living ope..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew Today",
+                        "domain": "hebrewtoday.com",
+                        "url": "https://hebrewtoday.com/alphabet/the-letter-resh-%D7%A8/",
+                        "title": "The Letter Resh (ר) - Hebrew Today",
+                        "text": "Letter Resh (ר): Symbolizes wickedness (*rasha*, רָשָׁע) while preceding Holiness (ק), teaching that a spark of holiness remains in everyone, forbidding reminde..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137092/jewish/Resh.htm",
+                        "title": "Resh - The twentieth letter of the Hebrew alphabet - Chabad.org",
+                        "text": "The twentieth letter of the Hebrew alphabet * Resh (ר) is the twentieth letter of the Hebrew alphabet. * Numerical value: 200. * Sound: \"R\" * Meaning: 1. Poor 2..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "You can read more about its deeper meanings on Chabad.org or check its historical evolution on Wikipedia.",
+                    "markdown": "You can read more about its deeper meanings on [Chabad.org](https://www.chabad.org/library/article_cdo/aid/137092/jewish/Resh.htm) or check its historical evolution on [Wikipedia](https://en.wikipedia.org/wiki/Resh).[[1]](https://www.chabad.org/library/article_cdo/aid/137092/jewish/Resh.htm)[[2]](https://en.wikipedia.org/wiki/Resh)",
+                    "links": [
+                      {
+                        "type": "link_element",
+                        "title": "Chabad.org",
+                        "description": null,
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137092/jewish/Resh.htm",
+                        "domain": "www.chabad.org"
+                      },
+                      {
+                        "type": "link_element",
+                        "title": "Wikipedia",
+                        "description": null,
+                        "url": "https://en.wikipedia.org/wiki/Resh",
+                        "domain": "en.wikipedia.org"
+                      }
+                    ],
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137092/jewish/Resh.htm",
+                        "title": "Resh - The twentieth letter of the Hebrew alphabet - Chabad.org",
+                        "text": "The twentieth letter of the Hebrew alphabet * Resh (ר) is the twentieth letter of the Hebrew alphabet. * Numerical value: 200. * Sound: \"R\" * Meaning: 1. Poor 2..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Wikipedia",
+                        "domain": "en.wikipedia.org",
+                        "url": "https://en.wikipedia.org/wiki/Resh",
+                        "title": "Resh - Wikipedia",
+                        "text": "Overview: Twentieth letter of Semitic abjads (Phoenician, Hebrew, Aramaic, Syriac, Arabic), typically meaning \"head\" and representing rhotic consonants ([r], [ɾ..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Would you like to explore how Resh compares to Dalet, or look at other letters in the Hebrew alphabet?",
+                    "markdown": "Would you like to explore how *Resh* compares to *Dalet* , or look at other letters in the Hebrew alphabet?",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  }
+                ],
+                "references": [
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Chabad",
+                    "domain": "www.chabad.org",
+                    "url": "https://www.chabad.org/library/article_cdo/aid/137092/jewish/Resh.htm",
+                    "title": "Resh - The twentieth letter of the Hebrew alphabet - Chabad.org",
+                    "text": "The twentieth letter of the Hebrew alphabet * Resh (ר) is the twentieth letter of the Hebrew alphabet. * Numerical value: 200. * Sound: \"R\" * Meaning: 1. Poor 2..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "ALEFBET - The hebrew letters art gallery",
+                    "domain": "gabrielelevy.com",
+                    "url": "https://gabrielelevy.com/pages/the-letter-resh",
+                    "title": "The letter RESH – ALEFBET - THE HEBREW LETTERS ART GALLERY",
+                    "text": "Symbolism: Resh (20th Hebrew letter, value 200) signifies head, leader, beginning, Oneness, and containing infinite exponential growth and life's constant flow."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Wikipedia",
+                    "domain": "en.wikipedia.org",
+                    "url": "https://en.wikipedia.org/wiki/Resh",
+                    "title": "Resh - Wikipedia",
+                    "text": "Overview: Twentieth letter of Semitic abjads (Phoenician, Hebrew, Aramaic, Syriac, Arabic), typically meaning \"head\" and representing rhotic consonants ([r], [ɾ..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Hebrew Today",
+                    "domain": "hebrewtoday.com",
+                    "url": "https://hebrewtoday.com/alphabet/the-letter-resh-%D7%A8/",
+                    "title": "The Letter Resh (ר) - Hebrew Today",
+                    "text": "Letter Resh (ר): Symbolizes wickedness (*rasha*, רָשָׁע) while preceding Holiness (ק), teaching that a spark of holiness remains in everyone, forbidding reminde..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "invasionoflight.com",
+                    "domain": "invasionoflight.com",
+                    "url": "https://invasionoflight.com/2021/11/01/resh-our-head-shepherd-revealer-of-truth/",
+                    "title": "Resh: Our Head, Shepherd & Revealer of Truth - Invasion of Light",
+                    "text": "Resh ר is the twentieth Hebrew letter and has a numerical value of two hundred. It means head ראש (rosh) and is used in the first word of Scripture (Genesis 1:1..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "קריאה קלה",
+                    "domain": "kriakala.com",
+                    "url": "https://kriakala.com/hebrew-letter-resh",
+                    "title": "The Hebrew Letter Resh (ר) – Shape, Sound & How to Teach | Kriakala",
+                    "text": "About the Letter Resh Resh is the 20th letter of the Hebrew alphabet (Aleph Bet), with a gematria value of 200. Its name רֵישׁ is related to the Hebrew word רֹא..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "learnhebrewforchristians.com",
+                    "domain": "learnhebrewforchristians.com",
+                    "url": "https://learnhebrewforchristians.com/hebrew-alphabet/resh",
+                    "title": "Hebrew Letter Resh (ר) — The Head, Leadership & New Beginnings",
+                    "text": "ר Resh Head, person, chief, beginning, highest R (guttural, like French R) Ancient pictograph: Head / person / chief Resh (ר) is the twentieth letter of the Heb..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/watch?v=ybH-yeU-rIc",
+                    "title": "The Hebrew letter: Resh",
+                    "text": "The Hebrew letter: Resh we're on the letter H. uh which is back on your notes again we'll go back to your notes. we're going to finish the letter H today it's k..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/watch?v=qmisfotK92g&t=430",
+                    "title": "The Hebrew Letter Resh – Headship, Renewal, and Divine Leadership",
+                    "text": "The Hebrew Letter Resh – Headship, Renewal, and Divine Leadership | Lesson 20 section to talk with God about what it means to return to single-sight. living ope..."
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "images",
+                "rank_group": 1,
+                "rank_absolute": 2,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]",
+                "title": "Images",
+                "url": null,
+                "items": [
+                  {
+                    "type": "images_element",
+                    "alt": "Resh - The twentieth letter of the Hebrew alphabet - Chabad.org",
+                    "url": "https://www.chabad.org/library/article_cdo/aid/137092/jewish/Resh.htm",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110525-2762-0139-0000-5fd2d793a33a:5"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "Hebrew Letter Resh Twenty Letter Hebrew",
+                    "url": "https://www.shutterstock.com/image-vector/hebrew-letter-resh-twenty-alphabet-meaning-1670038624",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110525-2762-0139-0000-5fd2d793a33a:6"
+                  }
+                ],
+                "related_image_searches": null,
+                "rectangle": null
+              },
+              {
+                "type": "video",
+                "rank_group": 1,
+                "rank_absolute": 3,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]",
+                "items": [
+                  {
+                    "type": "video_element",
+                    "source": "El Shaddai Ministries",
+                    "title": "The Hebrew letter: Resh",
+                    "timestamp": "2023-07-22 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=ybH-yeU-rIc"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Shalom Sesame",
+                    "title": "Learn the Hebrew letter RESH",
+                    "timestamp": "2014-01-21 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=eQ-zrmirH-o"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "thelivingword",
+                    "title": "Secret of the Hebrew letter Resh",
+                    "timestamp": "2015-10-24 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=b8coVODzvnQ"
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 1,
+                "rank_absolute": 4,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.chabad.org",
+                "title": "Resh - Jewish Knowledge Base",
+                "url": "https://www.chabad.org/search/keyword_cdo/kid/7393/t/22242",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.chabad.org",
+                "website_name": "Chabad",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Resh: the twentieth letter of the Hebrew alphabet, prounounced \"r,\" with a numerical value of 200. Resh (9) Shin (9) Taf (5) This class explains the mystical ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "the twentieth letter of the Hebrew alphabet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "people_also_ask",
+                "rank_group": 1,
+                "rank_absolute": 5,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]",
+                "items": [
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What is the Hebrew letter for peace?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[2]/div[2]/div[1]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What type is resh?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[2]/div[2]/div[2]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What is the r in Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[2]/div[2]/div[3]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What is the symbol for vav in Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[2]/div[2]/div[4]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 2,
+                "rank_absolute": 6,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.pinterest.com",
+                "title": "Resh (ר): The Highest of Mountains, a Seat of Judgment",
+                "url": "https://www.pinterest.com/pin/50665564555729407/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.pinterest.com",
+                "website_name": "Pinterest",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Sep 18, 2026 — The Hebrew letter \"Resh\" (ר ) often signifies \"head\" or \"top.\" In a metaphorical sense, it speaks to things that are of prime importance or that ...",
+                "pre_snippet": "09/18/2026 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "The Hebrew letter \"Resh\" (ר"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2026-09-18 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 3,
+                "rank_absolute": 7,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[13]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "akhlah.com",
+                "title": "Resh",
+                "url": "https://akhlah.com/hebrew/aleph-bet/resh/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://akhlah.com",
+                "website_name": "Akhlah",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Resh is the twentieth letter of the Hebrew alphabet. Resh is also the number “Two Hundred”. Hebrew is written from Right to Left,",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Resh is the twentieth letter of the Hebrew alphabet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 4,
+                "rank_absolute": 8,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[14]/div[1]/div[1]",
+                "domain": "www.youtube.com",
+                "title": "Jim Staley - Hebrew Alphabet (Part 13) - Resh",
+                "url": "https://www.youtube.com/watch?v=tr4ET_su4jo",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "3.4K+ views",
+                "website_name": "YouTube · Passion For Truth Ministries",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "Jim continues his teaching on “Discovering the Depths of the Hebrew Alphabet”. This message is about the letter “Resh”.",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2022-10-11 05:25:53 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 5,
+                "rank_absolute": 9,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[16]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.etz-hayim.com",
+                "title": "The Hebrew letter Resh | Etz Hayim \"Tree of Life\"",
+                "url": "https://www.etz-hayim.com/hebrew/letters_and_vowels/resh.php",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.etz-hayim.com",
+                "website_name": "Etz Hayim—\"Tree of Life\"",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Nov 4, 2018 — RESH is the twentieth letter of the Hebrew alphabet. Resh is pronounced as \"r\" in risk. Transliteration. Resh is transliterated \"r\". Resh is ...",
+                "pre_snippet": "11/04/2018 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "RESH is the twentieth letter of the Hebrew alphabet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2018-11-04 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 6,
+                "rank_absolute": 10,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[18]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.jstor.org",
+                "title": "The Nature of Resh in Tiberian Hebrew",
+                "url": "https://www.jstor.org/stable/1486373",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.jstor.org",
+                "website_name": "jstor",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "by EJ Revell · 1981 · Cited by 5 — resh, when six consonants are adjacent to it before it, resh is pro- nounced;6 and two consonants in front of it, The six consonants are d, z, 1, s, ?, t, and ...",
+                "pre_snippet": "by EJ Revell · 1981 · Cited by 5",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "resh"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 7,
+                "rank_absolute": 11,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[20]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.pinterest.com",
+                "title": "R In Hebrew",
+                "url": "https://www.pinterest.com/pin/379639443608556468/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.pinterest.com",
+                "website_name": "Pinterest",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Apr 24, 2025 — Explore the letter Resh from the Hebrew alphabet. Discover the spiritual inspiration behind this beautiful letter. Hebrew cursive letters,",
+                "pre_snippet": "04/24/2025 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Explore the letter Resh from the Hebrew alphabet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2025-04-24 00:00:00 +00:00",
+                "rectangle": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,780 @@
+{
+  "keyword": "chet hebrew letter",
+  "retrieved_at_utc": "2026-10-11T05:23:03.378Z",
+  "raw": {
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "3.0291 sec.",
+    "cost": 0.002,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "10110523-2762-0139-0000-c33a498d0155",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "2.9113 sec.",
+        "cost": 0.002,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "serp",
+          "google",
+          "organic",
+          "live",
+          "advanced"
+        ],
+        "data": {
+          "api": "serp",
+          "function": "live",
+          "se": "google",
+          "se_type": "organic",
+          "keyword": "chet hebrew letter",
+          "location_code": 2840,
+          "language_code": "en",
+          "device": "mobile",
+          "os": "android",
+          "depth": 10
+        },
+        "result": [
+          {
+            "keyword": "chet hebrew letter",
+            "type": "organic",
+            "se_domain": "google.com",
+            "location_code": 2840,
+            "language_code": "en",
+            "check_url": "https://www.google.com/search?q=chet%20hebrew%20letter&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+            "datetime": "2026-10-11 05:23:02 +00:00",
+            "spell": null,
+            "refinement_chips": null,
+            "item_types": [
+              "ai_overview",
+              "video",
+              "people_also_ask",
+              "images",
+              "organic",
+              "people_also_search"
+            ],
+            "se_results_count": 0,
+            "pages_count": 1,
+            "items_count": 13,
+            "items": [
+              {
+                "type": "ai_overview",
+                "rank_group": 1,
+                "rank_absolute": 1,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]",
+                "asynchronous_ai_overview": false,
+                "markdown": "![Hebrew alphabet - letter chet gematria fence – Royalty-Free ...](https://api.dataforseo.com/cdn/i/10110523-2762-0139-0000-c33a498d0155:4)\nThe [Letter Chet](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Chet/chet.html) is the `eighth letter of the Hebrew alphabet` (aleph-bet) and carries a numerical value of 8.[[1]](https://www.chabad.org/library/article_cdo/aid/137080/jewish/Chet.htm)\n\n### Key Details\n\n- **Symbol (Letter):** `ח` \n- **Numerical Value:** 8 (representing transcendence beyond the natural 7-day cycle)\n- **Pronunciation:** A deep guttural or throat-clearing \"ch\" sound, similar to the \"ch\" in the composer \"Bach\" (or like a hard \"h\").\n- **Ancient Pictograph:** Historically depicted as a tent wall or a fence, symbolizing protection and an enclosure.\n- **Modern Shape:** Resembles a doorway or an archway formed by a right vertical stroke (vav) and a left vertical stroke (zayin) connected by a thin top bridge (chatoteret).[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Chet/chet.html)[[2]](https://www.chabad.org/library/article_cdo/aid/137080/jewish/Chet.htm)[[3]](https://www.youtube.com/watch?v=nbWRjhLtX5E)[[4]](https://ephraimintheland.wordpress.com/2018/03/25/chet/)[[5]](https://objectivetranslation.home.blog/2019/05/20/the-amazing-biblical-language-the-importance-of-the-letter-chet/)[[6]](https://www.youtube.com/shorts/Y0RYziB85a8)[[7]](https://inner.org/hebleter/chet.htm)\n\n### Symbolic & Spiritual Meanings\n\n- **Life (Chayim / Chai):** The letter forms the root of major Hebrew words related to life, vitality, and living (*chai*, *chayim*).\n- **Grace and Wisdom:** Associated with *chen* (grace) and *chokhmah* (wisdom).\n- **The Number Eight:** In Jewish tradition, 8 signifies a realm that transcends nature and time—such as a *brit milah* (circumcision) performed on the eighth day.[[1]](https://www.chabad.org/library/article_cdo/aid/137080/jewish/Chet.htm)[[2]](https://www.youtube.com/shorts/Y0RYziB85a8)[[3]](https://www.youtube.com/watch?v=nbWRjhLtX5E)[[4]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Chet/chet.html)\n\nWould you like to explore **how Chet is written in cursive** , or learn about **other Hebrew letters** and their meanings?",
+                "items": [
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "The Letter Chet is the eighth letter of the Hebrew alphabet (aleph-bet) and carries a numerical value of 8.",
+                    "markdown": "![Hebrew alphabet - letter chet gematria fence – Royalty-Free ...](https://api.dataforseo.com/cdn/i/10110523-2762-0139-0000-c33a498d0155:2)\nThe [Letter Chet](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Chet/chet.html) is the `eighth letter of the Hebrew alphabet` (aleph-bet) and carries a numerical value of 8.[[1]](https://www.chabad.org/library/article_cdo/aid/137080/jewish/Chet.htm)",
+                    "links": [
+                      {
+                        "type": "link_element",
+                        "title": "Letter Chet",
+                        "description": null,
+                        "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Chet/chet.html",
+                        "domain": "www.hebrew4christians.com"
+                      }
+                    ],
+                    "images": [
+                      {
+                        "type": "images_element",
+                        "alt": "Hebrew alphabet - letter chet gematria fence – Royalty-Free ...",
+                        "url": null,
+                        "image_url": "https://api.dataforseo.com/cdn/i/10110523-2762-0139-0000-c33a498d0155:3"
+                      }
+                    ],
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137080/jewish/Chet.htm",
+                        "title": "Chet - The eighth letter of the Hebrew alphabet - Chabad.org",
+                        "text": "The eighth letter of the Hebrew alphabet * Chet (ח) is the eighth letter of the Hebrew alphabet. * Numerical value: 8. * Sound: \"KH\" * Meaning: Life. ... Design..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Key Details",
+                    "markdown": "### Key Details",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Symbol (Letter): ח Numerical Value: 8 (representing transcendence beyond the natural 7-day cycle) Pronunciation: A deep guttural or throat-clearing \"ch\" sound, similar to the \"ch\" in the composer \"Bach\" (or like a hard \"h\"). Ancient Pictograph: Historically depicted as a tent wall or a fence, symbolizing protection and an enclosure. Modern Shape: Resembles a doorway or an archway formed by a right vertical stroke (vav) and a left vertical stroke (zayin) connected by a thin top bridge (chatoteret).",
+                    "markdown": "- **Symbol (Letter):** `ח` \n- **Numerical Value:** 8 (representing transcendence beyond the natural 7-day cycle)\n- **Pronunciation:** A deep guttural or throat-clearing \"ch\" sound, similar to the \"ch\" in the composer \"Bach\" (or like a hard \"h\").\n- **Ancient Pictograph:** Historically depicted as a tent wall or a fence, symbolizing protection and an enclosure.\n- **Modern Shape:** Resembles a doorway or an archway formed by a right vertical stroke (vav) and a left vertical stroke (zayin) connected by a thin top bridge (chatoteret).[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Chet/chet.html)[[2]](https://www.chabad.org/library/article_cdo/aid/137080/jewish/Chet.htm)[[3]](https://www.youtube.com/watch?v=nbWRjhLtX5E)[[4]](https://ephraimintheland.wordpress.com/2018/03/25/chet/)[[5]](https://objectivetranslation.home.blog/2019/05/20/the-amazing-biblical-language-the-importance-of-the-letter-chet/)[[6]](https://www.youtube.com/shorts/Y0RYziB85a8)[[7]](https://inner.org/hebleter/chet.htm)",
+                    "links": null,
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew for Christians",
+                        "domain": "www.hebrew4christians.com",
+                        "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Chet/chet.html",
+                        "title": "The Letter Chet",
+                        "text": "Letter Details: Eighth letter of the Hebrew alphabet; numeric value 8; guttural sound 'ch' as in 'Bach'; transliterated as 'h'. Forms: Manual block (first strok..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137080/jewish/Chet.htm",
+                        "title": "Chet - The eighth letter of the Hebrew alphabet - Chabad.org",
+                        "text": "The eighth letter of the Hebrew alphabet * Chet (ח) is the eighth letter of the Hebrew alphabet. * Numerical value: 8. * Sound: \"KH\" * Meaning: Life. ... Design..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=nbWRjhLtX5E",
+                        "title": "Hebrew Chet Practice - Jim Becka",
+                        "text": "Hebrew Chet Practice - Jim Becka shalom this is a short practice session over the Hebrew letter hat which rhymes with met which is similar to the letter H of th..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "WordPress.com",
+                        "domain": "ephraimintheland.wordpress.com",
+                        "url": "https://ephraimintheland.wordpress.com/2018/03/25/chet/",
+                        "title": "Chet",
+                        "text": "Chet * Chet is the eighth letter of the Hebrew aleph-bet. It makes a guttural sound and most Americans have a difficulty producing this sound. It sounds like a ..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Home.blog",
+                        "domain": "objectivetranslation.home.blog",
+                        "url": "https://objectivetranslation.home.blog/2019/05/20/the-amazing-biblical-language-the-importance-of-the-letter-chet/",
+                        "title": "The Amazing Biblical Language: The Importance of The Letter Chet – Discover The Holy Language",
+                        "text": "Letter Chet: Original pictograph represents a wall, meaning wall or separate, derived from Psalm 119 and historical biblical Hebrew letter shapes. Word Meanings..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/shorts/Y0RYziB85a8",
+                        "title": "CHET ח — The Hebrew Letter of Life & Transformation",
+                        "text": "🔥 CHET ח — The Hebrew Letter of Life & Transformation | 8️⃣ “Chet” Explained what if one Hebrew letter could take us from a wall of protection to the mystery o..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Gal Einai",
+                        "domain": "inner.org",
+                        "url": "https://inner.org/hebleter/chet.htm",
+                        "title": "The Hebrew Letters: Chet - GalEinai",
+                        "text": "Letter: Chet (numerical value 8; meaning life, fear). Form: Right vav, left zayin, connected by a top thin bridge chatoteret (hunchback); symbolizes \"touching y..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Symbolic & Spiritual Meanings",
+                    "markdown": "### Symbolic & Spiritual Meanings",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Life (Chayim / Chai): The letter forms the root of major Hebrew words related to life, vitality, and living (chai, chayim). Grace and Wisdom: Associated with chen (grace) and chokhmah (wisdom). The Number Eight: In Jewish tradition, 8 signifies a realm that transcends nature and time—such as a brit milah (circumcision) performed on the eighth day.",
+                    "markdown": "- **Life (Chayim / Chai):** The letter forms the root of major Hebrew words related to life, vitality, and living (*chai*, *chayim*).\n- **Grace and Wisdom:** Associated with *chen* (grace) and *chokhmah* (wisdom).\n- **The Number Eight:** In Jewish tradition, 8 signifies a realm that transcends nature and time—such as a *brit milah* (circumcision) performed on the eighth day.[[1]](https://www.chabad.org/library/article_cdo/aid/137080/jewish/Chet.htm)[[2]](https://www.youtube.com/shorts/Y0RYziB85a8)[[3]](https://www.youtube.com/watch?v=nbWRjhLtX5E)[[4]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Chet/chet.html)",
+                    "links": null,
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137080/jewish/Chet.htm",
+                        "title": "Chet - The eighth letter of the Hebrew alphabet - Chabad.org",
+                        "text": "The eighth letter of the Hebrew alphabet * Chet (ח) is the eighth letter of the Hebrew alphabet. * Numerical value: 8. * Sound: \"KH\" * Meaning: Life. ... Design..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/shorts/Y0RYziB85a8",
+                        "title": "CHET ח — The Hebrew Letter of Life & Transformation",
+                        "text": "🔥 CHET ח — The Hebrew Letter of Life & Transformation | 8️⃣ “Chet” Explained what if one Hebrew letter could take us from a wall of protection to the mystery o..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=nbWRjhLtX5E",
+                        "title": "Hebrew Chet Practice - Jim Becka",
+                        "text": "Hebrew Chet Practice - Jim Becka shalom this is a short practice session over the Hebrew letter hat which rhymes with met which is similar to the letter H of th..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew for Christians",
+                        "domain": "www.hebrew4christians.com",
+                        "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Chet/chet.html",
+                        "title": "The Letter Chet",
+                        "text": "Letter Details: Eighth letter of the Hebrew alphabet; numeric value 8; guttural sound 'ch' as in 'Bach'; transliterated as 'h'. Forms: Manual block (first strok..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Would you like to explore how Chet is written in cursive, or learn about other Hebrew letters and their meanings?",
+                    "markdown": "Would you like to explore **how Chet is written in cursive** , or learn about **other Hebrew letters** and their meanings?",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  }
+                ],
+                "references": [
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Chabad",
+                    "domain": "www.chabad.org",
+                    "url": "https://www.chabad.org/library/article_cdo/aid/137080/jewish/Chet.htm",
+                    "title": "Chet - The eighth letter of the Hebrew alphabet - Chabad.org",
+                    "text": "The eighth letter of the Hebrew alphabet * Chet (ח) is the eighth letter of the Hebrew alphabet. * Numerical value: 8. * Sound: \"KH\" * Meaning: Life. ... Design..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Hebrew for Christians",
+                    "domain": "www.hebrew4christians.com",
+                    "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Chet/chet.html",
+                    "title": "The Letter Chet",
+                    "text": "Letter Details: Eighth letter of the Hebrew alphabet; numeric value 8; guttural sound 'ch' as in 'Bach'; transliterated as 'h'. Forms: Manual block (first strok..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Gal Einai",
+                    "domain": "inner.org",
+                    "url": "https://inner.org/hebleter/chet.htm",
+                    "title": "The Hebrew Letters: Chet - GalEinai",
+                    "text": "Letter: Chet (numerical value 8; meaning life, fear). Form: Right vav, left zayin, connected by a top thin bridge chatoteret (hunchback); symbolizes \"touching y..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Home.blog",
+                    "domain": "objectivetranslation.home.blog",
+                    "url": "https://objectivetranslation.home.blog/2019/05/20/the-amazing-biblical-language-the-importance-of-the-letter-chet/",
+                    "title": "The Amazing Biblical Language: The Importance of The Letter Chet – Discover The Holy Language",
+                    "text": "Letter Chet: Original pictograph represents a wall, meaning wall or separate, derived from Psalm 119 and historical biblical Hebrew letter shapes. Word Meanings..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/watch?v=nbWRjhLtX5E",
+                    "title": "Hebrew Chet Practice - Jim Becka",
+                    "text": "Hebrew Chet Practice - Jim Becka shalom this is a short practice session over the Hebrew letter hat which rhymes with met which is similar to the letter H of th..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "WordPress.com",
+                    "domain": "ephraimintheland.wordpress.com",
+                    "url": "https://ephraimintheland.wordpress.com/2018/03/25/chet/",
+                    "title": "Chet",
+                    "text": "Chet * Chet is the eighth letter of the Hebrew aleph-bet. It makes a guttural sound and most Americans have a difficulty producing this sound. It sounds like a ..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/shorts/Y0RYziB85a8",
+                    "title": "CHET ח — The Hebrew Letter of Life & Transformation",
+                    "text": "🔥 CHET ח — The Hebrew Letter of Life & Transformation | 8️⃣ “Chet” Explained what if one Hebrew letter could take us from a wall of protection to the mystery o..."
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "video",
+                "rank_group": 1,
+                "rank_absolute": 2,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]",
+                "items": [
+                  {
+                    "type": "video_element",
+                    "source": "BibleInteract",
+                    "title": "Power of Hebrew Letters: Chet",
+                    "timestamp": "2023-12-08 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=BHgFpNDOXA0"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Stefy Kefy",
+                    "title": "Hebrew Alphabet - Letter Chet - ח",
+                    "timestamp": "2025-02-28 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=xk35sUALkJI"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Jewish Roots 101",
+                    "title": "Hebrew Chet Practice - Jim Becka",
+                    "timestamp": "2021-05-18 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=nbWRjhLtX5E"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "thelivingword",
+                    "title": "Secret of the Hebrew letter Chet",
+                    "timestamp": "2015-10-10 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=zSw1sw2NVO0"
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "people_also_ask",
+                "rank_group": 1,
+                "rank_absolute": 3,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]",
+                "items": [
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does the word letter mean in Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[1]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What is the Hebrew letter for peace?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[2]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What is the letter for 600 in Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[3]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "How do you pronounce the Hebrew letter \"chet\"?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[4]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "images",
+                "rank_group": 1,
+                "rank_absolute": 4,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]",
+                "title": "Images",
+                "url": null,
+                "items": [
+                  {
+                    "type": "images_element",
+                    "alt": "File:CHET Hebrew Letter.png - Wikimedia Commons",
+                    "url": "https://commons.wikimedia.org/wiki/File:CHET_Hebrew_Letter.png",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT44I9Hm2xGYGCMNjKVaQcZl_Pcc5FDh7WdhabGj-Rz6FtgL4C8wgPYLW4&s"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "Power of Hebrew Letters: Chet",
+                    "url": "https://www.youtube.com/watch?v=BHgFpNDOXA0",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD0X1eCNZdD86fnARyHg2ldxrefCWMEuLcr0fhEPhoRA&s"
+                  }
+                ],
+                "related_image_searches": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 1,
+                "rank_absolute": 5,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "biblehub.com",
+                "title": "Topical Bible: Cheth",
+                "url": "https://biblehub.com/topical/c/cheth.htm",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://biblehub.com",
+                "website_name": "Bible Hub",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Cheth is the eighth letter of the Hebrew alphabet. This letter is often associated with themes of life, new beginnings, and divine grace,",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Cheth is the eighth letter of the Hebrew alphabet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": [
+                  "hebrew",
+                  "teth hebrew",
+                  "cheth meaning",
+                  "9th letter of",
+                  "zain hebrew",
+                  "teth meaning",
+                  "chet meaning",
+                  "cheth meaning"
+                ],
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 2,
+                "rank_absolute": 6,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[10]/div[1]/div[1]",
+                "domain": "www.youtube.com",
+                "title": "Hebrew Chet (ח) The Easy Way",
+                "url": "https://www.youtube.com/watch?v=wi9TGHl0U4Y",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "10.9K+ views",
+                "website_name": "YouTube · The ShevonYah Show",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "Learn Alef-Tav with our bite size lessons guaranteed … reading in Hebrew. Here ch is the sound found in the Scottish pronunciation of loch /x/. ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2018-10-11 05:23:02 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 3,
+                "rank_absolute": 7,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[12]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.livekabbalah.com",
+                "title": "The Letter Chet: When Closure Becomes Protection - Live Kabbalah",
+                "url": "https://www.livekabbalah.com/blog/the-letter-chet-when-closure-becomes-protection",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.livekabbalah.com",
+                "website_name": "livekabbalah.com",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "The Hebrew letter Chet holds both cheit (missing the mark) and chaim (life). Chet begins the word chaim, life. It begins chesed, kindness, and ...",
+                "pre_snippet": "06/17/2026 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": [
+                  "hebrew",
+                  "teth hebrew",
+                  "cheth meaning",
+                  "9th letter of",
+                  "zain hebrew",
+                  "teth meaning",
+                  "chet meaning",
+                  "cheth meaning"
+                ],
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2026-06-17 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 4,
+                "rank_absolute": 8,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.chabad.org",
+                "title": "Chet - Jewish Knowledge Base",
+                "url": "https://www.chabad.org/search/keyword_cdo/kid/7381/jewish/Chet.htm",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.chabad.org",
+                "website_name": "Chabad",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Chet: the eighth letter of the Hebrew alphabet, prounounced as a guttural \"ch,\" with a numerical value of 8. Falling down or fixing up. 8 Sound: \"KH\" Meaning: ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "the eighth letter of the Hebrew alphabet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 5,
+                "rank_absolute": 9,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[15]/div[1]/div[1]",
+                "domain": "www.youtube.com",
+                "title": "Hebrew Letters; Chet ח׳: The Quantum Leap",
+                "url": "https://www.youtube.com/watch?v=boug5ZRVp6U",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "1.6K+ views",
+                "website_name": "YouTube · Rabbi Aaron L. Raskin | הרב אהרן ראסקין",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "The Hebrew Alphabet, or Aleph-bet, is the language of creation and the first source of all languages. The letter Chet is the eighth letter.",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2014-10-11 05:23:02 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 6,
+                "rank_absolute": 10,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[17]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.scribd.com",
+                "title": "Meaning and Significance of Chet | PDF | Languages Of Israel | Linguistics",
+                "url": "https://www.scribd.com/document/817345973/The-Letter-Chet",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.scribd.com",
+                "website_name": "Scribd",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "The eighth letter of the Hebrew alphabet is called \"Chet\" (rhymes with \"met\") and has the (light scraping) sound of \"ch\" as in \"Bach.\"",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "The eighth letter of the Hebrew alphabet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "people_also_search",
+                "rank_group": 1,
+                "rank_absolute": 11,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[19]",
+                "title": "People also search for",
+                "items": [
+                  "Hebrew alphabet",
+                  "Teth Hebrew letter meaning",
+                  "CHETH meaning in the Bible",
+                  "9th letter of Hebrew alphabet",
+                  "Zain Hebrew meaning",
+                  "Teth meaning in Psalm 119"
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 7,
+                "rank_absolute": 12,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[21]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "commons.wikimedia.org",
+                "title": "File:CHET Hebrew Letter.png",
+                "url": "https://commons.wikimedia.org/wiki/File:CHET_Hebrew_Letter.png",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://commons.wikimedia.org",
+                "website_name": "Wikimedia Commons",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Apr 16, 2022 — Hebrew letter 'chet ' This logo image consists only of simple geometric shapes or text.",
+                "pre_snippet": "04/16/2022 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Hebrew letter 'chet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2022-04-16 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "people_also_search",
+                "rank_group": 2,
+                "rank_absolute": 13,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[4]/div[1]/div[3]/div[1]",
+                "title": "People also search for",
+                "items": [
+                  "Chet meaning",
+                  "Cheth meaning in Psalm 119",
+                  "Teth in Hebrew"
+                ],
+                "rectangle": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

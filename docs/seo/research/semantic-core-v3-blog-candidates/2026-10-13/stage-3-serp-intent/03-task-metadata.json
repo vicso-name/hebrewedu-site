@@ -1,0 +1,82 @@
+{
+  "keyword": "hebrew text",
+  "task_id": "10131400-2762-0139-0000-5f8c8e6193d4",
+  "endpoint": "/v3/serp/google/organic/live/advanced",
+  "envelope_status_code": 20000,
+  "envelope_status_message": "Ok.",
+  "task_status_code": 20000,
+  "task_status_message": "Ok.",
+  "envelope_cost_usd": "0.002",
+  "task_cost_usd": "0.002",
+  "charged_once_usd": "0.002",
+  "envelope_and_task_cost_are_same_charge": true,
+  "serp_datetime": "2026-10-13 14:00:43 +00:00",
+  "timestamps": {
+    "dispatch_at_utc": "2026-10-13T14:00:26.838Z",
+    "received_at_utc": "2026-10-13T14:00:44.426Z",
+    "preserved_at_utc": "2026-10-13T14:00:44.609Z"
+  },
+  "raw_sha256": "73dc1ea121f02d1e8be623826f1d60dc1bd7f3202d931bfeb2ade4068672a029",
+  "task": {
+    "id": "10131400-2762-0139-0000-5f8c8e6193d4",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "13.5728 sec.",
+    "cost": 0.002,
+    "result_count": 1,
+    "path": [
+      "v3",
+      "serp",
+      "google",
+      "organic",
+      "live",
+      "advanced"
+    ],
+    "data": {
+      "api": "serp",
+      "function": "live",
+      "se": "google",
+      "se_type": "organic",
+      "keyword": "hebrew text",
+      "location_code": 2840,
+      "language_code": "en",
+      "device": "mobile",
+      "os": "android",
+      "depth": 10
+    }
+  },
+  "envelope": {
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "13.7384 sec.",
+    "cost": 0.002,
+    "tasks_count": 1,
+    "tasks_error": 0
+  },
+  "result_summary": {
+    "keyword": "hebrew text",
+    "type": "organic",
+    "se_domain": "google.com",
+    "location_code": 2840,
+    "language_code": "en",
+    "check_url": "https://www.google.com/search?q=hebrew%20text&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+    "datetime": "2026-10-13 14:00:43 +00:00",
+    "spell": null,
+    "refinement_chips": null,
+    "item_types": [
+      "ai_overview",
+      "images",
+      "people_also_ask",
+      "organic",
+      "video",
+      "perspectives"
+    ],
+    "se_results_count": 0,
+    "pages_count": 1,
+    "items_count": 11
+  },
+  "organic_rows_returned": 6,
+  "source_mode": "new paid live task",
+  "format_classification_method": "editorial inference from returned titles, descriptions and SERP features; competitor pages not independently audited"
+}

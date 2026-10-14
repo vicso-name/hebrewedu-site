@@ -1,0 +1,792 @@
+{
+  "keyword": "bet hebrew letter",
+  "retrieved_at_utc": "2026-10-11T05:22:13.980Z",
+  "raw": {
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "2.3492 sec.",
+    "cost": 0.002,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "10110522-2762-0139-0000-aa2f1577925d",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "2.1870 sec.",
+        "cost": 0.002,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "serp",
+          "google",
+          "organic",
+          "live",
+          "advanced"
+        ],
+        "data": {
+          "api": "serp",
+          "function": "live",
+          "se": "google",
+          "se_type": "organic",
+          "keyword": "bet hebrew letter",
+          "location_code": 2840,
+          "language_code": "en",
+          "device": "mobile",
+          "os": "android",
+          "depth": 10
+        },
+        "result": [
+          {
+            "keyword": "bet hebrew letter",
+            "type": "organic",
+            "se_domain": "google.com",
+            "location_code": 2840,
+            "language_code": "en",
+            "check_url": "https://www.google.com/search?q=bet%20hebrew%20letter&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+            "datetime": "2026-10-11 05:22:13 +00:00",
+            "spell": null,
+            "refinement_chips": null,
+            "item_types": [
+              "ai_overview",
+              "images",
+              "people_also_ask",
+              "organic",
+              "people_also_search",
+              "video"
+            ],
+            "se_results_count": 0,
+            "pages_count": 1,
+            "items_count": 13,
+            "items": [
+              {
+                "type": "ai_overview",
+                "rank_group": 1,
+                "rank_absolute": 1,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]",
+                "asynchronous_ai_overview": false,
+                "markdown": "![Not Quite the Beginning - En-Gedi Resource Center](https://api.dataforseo.com/cdn/i/10110522-2762-0139-0000-aa2f1577925d:20)\n![Another Hebrew letter, letter bet. Knowledge is power!](https://api.dataforseo.com/cdn/i/10110522-2762-0139-0000-aa2f1577925d:21)\n![Hebrew Letter Bet: Exploring its Christian Significance](https://api.dataforseo.com/cdn/i/10110522-2762-0139-0000-aa2f1577925d:22)\n![Bet hebrew letter icon – Royalty-Free Vector | VectorStock](https://api.dataforseo.com/cdn/i/10110522-2762-0139-0000-aa2f1577925d:23)\n![Hebrew Letter Bet: Exploring its Christian Significance](https://api.dataforseo.com/cdn/i/10110522-2762-0139-0000-aa2f1577925d:24)\n\nThe [Bet (letter)](https://en.wikipedia.org/wiki/Bet_(letter)) is the `second letter of the Hebrew alphabet` (ב) and carries a numerical value (gematria) of **2**.[[1]](https://en.wikipedia.org/wiki/Bet_(letter))[[2]](https://www.chabad.org/library/article_cdo/aid/137074/jewish/Bet-Vet.htm)\n\n### Key Details\n\n- **Meaning:** The name *Bet* (or *Bayit* ) means **\"house\"** or **\"tent\"**.[[1]](https://rosenhebrewschool.com/articles/the-letter-bet/)[[2]](https://halyministries.com/hebrew-letter-bet-exploring-its-christian-significance/)\n- **Pronunciation & Dagesh:** \n\t- With a dot inside (*dagesh* ), it is **Bet** , pronounced like the English **\"b\"**.\n\t- Without the dot, it becomes **Vet** , pronounced like **\"v\"** . This alternation is part of the *Begadkefat* letter group.[[1]](https://hebrewtoday.com/alphabet/the-hebrew-letter-bet/)[[2]](https://rosenhebrewschool.com/articles/the-letter-bet/)[[3]](https://www.quora.com/I-am-learning-Hebrew-and-I-am-very-confused-Can-someone-explain-the-aleph-bet-and-what-roles-the-letters-play)\n- **First Letter of the Torah:** The Hebrew Bible begins with Bet in the word *Bereshit* (\"In the beginning...\").[[1]](https://rosenhebrewschool.com/articles/the-letter-bet/)\n- **Symbolism:** It represents duality, creation, and a physical or spiritual \"house\" (such as the body housing the soul, or the world housing humanity).[[1]](https://www.chabad.org/library/article_cdo/aid/137074/jewish/Bet-Vet.htm)[[2]](https://gabrielelevy.com/pages/the-letter-bet)[[3]](https://www.youtube.com/watch?v=12Mgsjsc6bY)\n\nWould you like to know more about its **gematria**, **mystical meanings in Judaism** , or **how to write it**?",
+                "items": [
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": null,
+                    "markdown": "![Not Quite the Beginning - En-Gedi Resource Center](https://api.dataforseo.com/cdn/i/10110522-2762-0139-0000-aa2f1577925d:10)\n![Another Hebrew letter, letter bet. Knowledge is power!](https://api.dataforseo.com/cdn/i/10110522-2762-0139-0000-aa2f1577925d:11)\n![Hebrew Letter Bet: Exploring its Christian Significance](https://api.dataforseo.com/cdn/i/10110522-2762-0139-0000-aa2f1577925d:12)\n![Bet hebrew letter icon – Royalty-Free Vector | VectorStock](https://api.dataforseo.com/cdn/i/10110522-2762-0139-0000-aa2f1577925d:13)\n![Hebrew Letter Bet: Exploring its Christian Significance](https://api.dataforseo.com/cdn/i/10110522-2762-0139-0000-aa2f1577925d:14)",
+                    "links": null,
+                    "images": [
+                      {
+                        "type": "images_element",
+                        "alt": "Not Quite the Beginning - En-Gedi Resource Center",
+                        "url": null,
+                        "image_url": "https://api.dataforseo.com/cdn/i/10110522-2762-0139-0000-aa2f1577925d:15"
+                      },
+                      {
+                        "type": "images_element",
+                        "alt": "Another Hebrew letter, letter bet. Knowledge is power!",
+                        "url": null,
+                        "image_url": "https://api.dataforseo.com/cdn/i/10110522-2762-0139-0000-aa2f1577925d:16"
+                      },
+                      {
+                        "type": "images_element",
+                        "alt": "Hebrew Letter Bet: Exploring its Christian Significance",
+                        "url": null,
+                        "image_url": "https://api.dataforseo.com/cdn/i/10110522-2762-0139-0000-aa2f1577925d:17"
+                      },
+                      {
+                        "type": "images_element",
+                        "alt": "Bet hebrew letter icon – Royalty-Free Vector | VectorStock",
+                        "url": null,
+                        "image_url": "https://api.dataforseo.com/cdn/i/10110522-2762-0139-0000-aa2f1577925d:18"
+                      },
+                      {
+                        "type": "images_element",
+                        "alt": "Hebrew Letter Bet: Exploring its Christian Significance",
+                        "url": null,
+                        "image_url": "https://api.dataforseo.com/cdn/i/10110522-2762-0139-0000-aa2f1577925d:19"
+                      }
+                    ],
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "The Bet (letter) is the second letter of the Hebrew alphabet (ב) and carries a numerical value (gematria) of 2.",
+                    "markdown": "The [Bet (letter)](https://en.wikipedia.org/wiki/Bet_(letter)) is the `second letter of the Hebrew alphabet` (ב) and carries a numerical value (gematria) of **2**.[[1]](https://en.wikipedia.org/wiki/Bet_(letter))[[2]](https://www.chabad.org/library/article_cdo/aid/137074/jewish/Bet-Vet.htm)",
+                    "links": [
+                      {
+                        "type": "link_element",
+                        "title": "Bet (letter)",
+                        "description": null,
+                        "url": "https://en.wikipedia.org/wiki/Bet_(letter)",
+                        "domain": "en.wikipedia.org"
+                      }
+                    ],
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Wikipedia",
+                        "domain": "en.wikipedia.org",
+                        "url": "https://en.wikipedia.org/wiki/Bet_(letter)",
+                        "title": "Bet (letter) - Wikipedia",
+                        "text": "* Bet/Beth/Vet/Ba: 2d letter in Semitic abjads (Phoenician, Hebrew, Aramaic, Syriac, Arabic, etc.). * Sound: /b/ or /v/ (/w/ in eastern Syriac). * Meaning: \"hou..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137074/jewish/Bet-Vet.htm",
+                        "title": "Bet (Vet) - The second letter of the Hebrew alphabet - Chabad.org",
+                        "text": "Letter: Bet (numeric value: 2; sound: B/V; meaning: house/bayit). Design: Three closed sides (east, south, west) and an open north representing evil and the evi..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Key Details",
+                    "markdown": "### Key Details",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Meaning: The name Bet (or Bayit) means \"house\" or \"tent\". Pronunciation & Dagesh:With a dot inside (dagesh), it is Bet, pronounced like the English \"b\".\nWithout the dot, it becomes Vet, pronounced like \"v\". This alternation is part of the Begadkefat letter group. With a dot inside (dagesh), it is Bet, pronounced like the English \"b\". Without the dot, it becomes Vet, pronounced like \"v\". This alternation is part of the Begadkefat letter group. First Letter of the Torah: The Hebrew Bible begins with Bet in the word Bereshit (\"In the beginning...\"). Symbolism: It represents duality, creation, and a physical or spiritual \"house\" (such as the body housing the soul, or the world housing humanity).",
+                    "markdown": "- **Meaning:** The name *Bet* (or *Bayit* ) means **\"house\"** or **\"tent\"**.[[1]](https://rosenhebrewschool.com/articles/the-letter-bet/)[[2]](https://halyministries.com/hebrew-letter-bet-exploring-its-christian-significance/)\n- **Pronunciation & Dagesh:** \n\t- With a dot inside (*dagesh* ), it is **Bet** , pronounced like the English **\"b\"**.\n\t- Without the dot, it becomes **Vet** , pronounced like **\"v\"** . This alternation is part of the *Begadkefat* letter group.[[1]](https://hebrewtoday.com/alphabet/the-hebrew-letter-bet/)[[2]](https://rosenhebrewschool.com/articles/the-letter-bet/)[[3]](https://www.quora.com/I-am-learning-Hebrew-and-I-am-very-confused-Can-someone-explain-the-aleph-bet-and-what-roles-the-letters-play)\n- **First Letter of the Torah:** The Hebrew Bible begins with Bet in the word *Bereshit* (\"In the beginning...\").[[1]](https://rosenhebrewschool.com/articles/the-letter-bet/)\n- **Symbolism:** It represents duality, creation, and a physical or spiritual \"house\" (such as the body housing the soul, or the world housing humanity).[[1]](https://www.chabad.org/library/article_cdo/aid/137074/jewish/Bet-Vet.htm)[[2]](https://gabrielelevy.com/pages/the-letter-bet)[[3]](https://www.youtube.com/watch?v=12Mgsjsc6bY)",
+                    "links": null,
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Rosen School of Hebrew",
+                        "domain": "rosenhebrewschool.com",
+                        "url": "https://rosenhebrewschool.com/articles/the-letter-bet/",
+                        "title": "The Letter Bet",
+                        "text": "The Letter Bet By Dan Bin NunJanuary 7, 2019 Bet or vet the second letter of the Hebrew alphabet. This letter's name means “house” in some Semitic languages (He..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Haly Ministries",
+                        "domain": "halyministries.com",
+                        "url": "https://halyministries.com/hebrew-letter-bet-exploring-its-christian-significance/",
+                        "title": "Hebrew Letter Bet: Exploring its Christian Significance",
+                        "text": "Hebrew Letter Bet: Meaning house/tent, dwelling place, protection, belonging, and God's family. Christian Significance: Represents new beginnings, a bridge betw..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew Today",
+                        "domain": "hebrewtoday.com",
+                        "url": "https://hebrewtoday.com/alphabet/the-hebrew-letter-bet/",
+                        "title": "The Hebrew Letter Bet (ב)",
+                        "text": "The Hebrew Letter Bet (ב) The letter Bet is the second letter in the Hebrew alphabet and the first letter of the Hebrew Bible. This letter is actually the sourc..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Quora",
+                        "domain": "www.quora.com",
+                        "url": "https://www.quora.com/I-am-learning-Hebrew-and-I-am-very-confused-Can-someone-explain-the-aleph-bet-and-what-roles-the-letters-play",
+                        "title": "I am learning Hebrew and I am very confused. Can someone explain ...",
+                        "text": "Letter Sound Alternations (Begadkefat): Several Hebrew letters, known as Begadkefat letters (Bet, Gimel, Dalet, Kaf, Pe, Tav), have two historical pronunciation..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137074/jewish/Bet-Vet.htm",
+                        "title": "Bet (Vet) - The second letter of the Hebrew alphabet - Chabad.org",
+                        "text": "Letter: Bet (numeric value: 2; sound: B/V; meaning: house/bayit). Design: Three closed sides (east, south, west) and an open north representing evil and the evi..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "ALEFBET - The hebrew letters art gallery",
+                        "domain": "gabrielelevy.com",
+                        "url": "https://gabrielelevy.com/pages/the-letter-bet",
+                        "title": "The letter BET – ALEFBET - THE HEBREW LETTERS ART GALLERY",
+                        "text": "BET is the 2nd letter of the hebrew alphabet, signifying the number two. Bet is the first letter of the story of Creation, starting the entire Torah/Bible – ברא..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=12Mgsjsc6bY",
+                        "title": "BET - Secrets of the Hebrew Letters",
+                        "text": "the letter bet is the second letter of the Hebrew. alphabet. being the second letter obviously its numerical value is two bait the name of the letter. means buy..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Would you like to know more about its gematria, mystical meanings in Judaism, or how to write it ?",
+                    "markdown": "Would you like to know more about its **gematria**, **mystical meanings in Judaism** , or **how to write it**?",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  }
+                ],
+                "references": [
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Wikipedia",
+                    "domain": "en.wikipedia.org",
+                    "url": "https://en.wikipedia.org/wiki/Bet_(letter)",
+                    "title": "Bet (letter) - Wikipedia",
+                    "text": "* Bet/Beth/Vet/Ba: 2d letter in Semitic abjads (Phoenician, Hebrew, Aramaic, Syriac, Arabic, etc.). * Sound: /b/ or /v/ (/w/ in eastern Syriac). * Meaning: \"hou..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Chabad",
+                    "domain": "www.chabad.org",
+                    "url": "https://www.chabad.org/library/article_cdo/aid/137074/jewish/Bet-Vet.htm",
+                    "title": "Bet (Vet) - The second letter of the Hebrew alphabet - Chabad.org",
+                    "text": "Letter: Bet (numeric value: 2; sound: B/V; meaning: house/bayit). Design: Three closed sides (east, south, west) and an open north representing evil and the evi..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "ALEFBET - The hebrew letters art gallery",
+                    "domain": "gabrielelevy.com",
+                    "url": "https://gabrielelevy.com/pages/the-letter-bet",
+                    "title": "The letter BET – ALEFBET - THE HEBREW LETTERS ART GALLERY",
+                    "text": "BET is the 2nd letter of the hebrew alphabet, signifying the number two. Bet is the first letter of the story of Creation, starting the entire Torah/Bible – ברא..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/watch?v=12Mgsjsc6bY",
+                    "title": "BET - Secrets of the Hebrew Letters",
+                    "text": "the letter bet is the second letter of the Hebrew. alphabet. being the second letter obviously its numerical value is two bait the name of the letter. means buy..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Haly Ministries",
+                    "domain": "halyministries.com",
+                    "url": "https://halyministries.com/hebrew-letter-bet-exploring-its-christian-significance/",
+                    "title": "Hebrew Letter Bet: Exploring its Christian Significance",
+                    "text": "Hebrew Letter Bet: Meaning house/tent, dwelling place, protection, belonging, and God's family. Christian Significance: Represents new beginnings, a bridge betw..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Hebrew Today",
+                    "domain": "hebrewtoday.com",
+                    "url": "https://hebrewtoday.com/alphabet/the-hebrew-letter-bet/",
+                    "title": "The Hebrew Letter Bet (ב)",
+                    "text": "The Hebrew Letter Bet (ב) The letter Bet is the second letter in the Hebrew alphabet and the first letter of the Hebrew Bible. This letter is actually the sourc..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Rosen School of Hebrew",
+                    "domain": "rosenhebrewschool.com",
+                    "url": "https://rosenhebrewschool.com/articles/the-letter-bet/",
+                    "title": "The Letter Bet",
+                    "text": "The Letter Bet By Dan Bin NunJanuary 7, 2019 Bet or vet the second letter of the Hebrew alphabet. This letter's name means “house” in some Semitic languages (He..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Quora",
+                    "domain": "www.quora.com",
+                    "url": "https://www.quora.com/I-am-learning-Hebrew-and-I-am-very-confused-Can-someone-explain-the-aleph-bet-and-what-roles-the-letters-play",
+                    "title": "I am learning Hebrew and I am very confused. Can someone explain ...",
+                    "text": "Letter Sound Alternations (Begadkefat): Several Hebrew letters, known as Begadkefat letters (Bet, Gimel, Dalet, Kaf, Pe, Tav), have two historical pronunciation..."
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "images",
+                "rank_group": 1,
+                "rank_absolute": 2,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]",
+                "title": "Images",
+                "url": null,
+                "items": [
+                  {
+                    "type": "images_element",
+                    "alt": "File:BET Hebrew Letter.png - Wikimedia Commons",
+                    "url": "https://commons.wikimedia.org/wiki/File:BET_Hebrew_Letter.png",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110522-2762-0139-0000-aa2f1577925d:25"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "Bet (Vet) - The second letter of the Hebrew alphabet - Chabad.org",
+                    "url": "https://www.chabad.org/library/article_cdo/aid/137074/jewish/Bet-Vet.htm",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110522-2762-0139-0000-aa2f1577925d:26"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "Not Quite the Beginning - En-Gedi Resource Center",
+                    "url": "https://engediresourcecenter.com/2015/07/03/not-quite-the-beginning/",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110522-2762-0139-0000-aa2f1577925d:27"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "Another Hebrew letter, letter bet. Knowledge is power!",
+                    "url": "https://m.facebook.com/StLukeMBChurchWaynesboro/photos/a.1005479696145746/3604232452937111/",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110522-2762-0139-0000-aa2f1577925d:28"
+                  }
+                ],
+                "related_image_searches": null,
+                "rectangle": null
+              },
+              {
+                "type": "people_also_ask",
+                "rank_group": 1,
+                "rank_absolute": 3,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]",
+                "items": [
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does the word letter mean in Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[1]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What letter is ה?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[2]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "How do you pronounce the letters in the Hebrew alphabet?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[3]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does beit mean in Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[4]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 1,
+                "rank_absolute": 4,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.jewfaq.org",
+                "title": "Hebrew Alphabet - Judaism 101 (JewFAQ)",
+                "url": "https://www.jewfaq.org/hebrew_alphabet",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.jewfaq.org",
+                "website_name": "JewFAQ",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "The Hebrew alphabet has no vowels, but pronunciation aids are often added. The Hebrew alphabet is often called the \"alefbet,\" because of its first two letters.",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Hebrew alphabet is often called the \"alefbet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": [
+                  "hebrew alphabet",
+                  "hebrew alphabet",
+                  "hebrew alphabet",
+                  "what are the 22 letters",
+                  "hebrew alphabet",
+                  "hebrew alphabet",
+                  "hebrew alphabet meaning",
+                  "22 hebrew letters"
+                ],
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "people_also_search",
+                "rank_group": 1,
+                "rank_absolute": 5,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]",
+                "title": "People also search for",
+                "items": [
+                  "Bet hebrew letter words",
+                  "Hebrew alphabet a to z",
+                  "Bet hebrew letter meaning",
+                  "Hebrew alphabet to English",
+                  "Bet hebrew letter pronunciation",
+                  "Hebrew alphabet in order"
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 2,
+                "rank_absolute": 6,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.pinterest.com",
+                "title": "Hebrew Letter Bet Meaning House",
+                "url": "https://www.pinterest.com/ideas/hebrew-letter-bet-meaning-house/949101279994/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.pinterest.com",
+                "website_name": "Pinterest",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Discover Pinterest's best ideas and inspiration for Hebrew letter bet meaning house. Bet meaning, pictograph of a house, Hebrew alphabet for Christians, Haly",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Hebrew letter bet meaning house"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": [
+                  "hebrew alphabet",
+                  "hebrew alphabet",
+                  "hebrew alphabet",
+                  "what are the 22 letters",
+                  "hebrew alphabet",
+                  "hebrew alphabet",
+                  "hebrew alphabet meaning",
+                  "22 hebrew letters"
+                ],
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "video",
+                "rank_group": 1,
+                "rank_absolute": 7,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[13]",
+                "items": [
+                  {
+                    "type": "video_element",
+                    "source": "Stefy Kefy",
+                    "title": "Hebrew Alphabet - Letter Bet - בּ",
+                    "timestamp": "2024-09-17 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=zlGnBKWDV54"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Learn Hebrew with HebrewPod101.com",
+                    "title": "Learn Hebrew Alphabet #2 - ב (veit)",
+                    "timestamp": "2026-03-06 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/shorts/Qrbp7YPFLDk"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Hebrewly",
+                    "title": "Hebrew Alphabet - The letter Bet",
+                    "timestamp": "2024-05-26 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/shorts/QvIKzA8NTT8"
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 3,
+                "rank_absolute": 8,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "kids.kiddle.co",
+                "title": "Bet (letter) Facts for Kids",
+                "url": "https://kids.kiddle.co/Bet_(letter)",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://kids.kiddle.co",
+                "website_name": "Kids encyclopedia facts",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Oct 17, 2025 — Bet, Beth, or Vet is the second letter of the Hebrew alphabet. It looks like \"ב\". The Hebrew alphabet is often called \"aleph-bet\" because ...",
+                "pre_snippet": "10/17/2025 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Bet, Beth, or Vet is the second letter of the Hebrew alphabet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": [
+                  "hebrew alphabet",
+                  "hebrew alphabet",
+                  "hebrew alphabet",
+                  "what are the 22 letters",
+                  "hebrew alphabet",
+                  "hebrew alphabet",
+                  "hebrew alphabet meaning",
+                  "22 hebrew letters"
+                ],
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2025-10-17 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 4,
+                "rank_absolute": 9,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[17]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "ru.pinterest.com",
+                "title": "Bet",
+                "url": "https://ru.pinterest.com/pin/549017010847059356/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "1 year ago",
+                "website_name": "Pinterest · hiswordisthetruth",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "The Hebrew letter \"Bet \" with its glyph and pictograph representations. It includes English equivalents \"B, V\" and describes it as the 2nd ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "The Hebrew letter \"Bet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 5,
+                "rank_absolute": 10,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.restingonhisword.com",
+                "title": "Hebrew Letter Bet",
+                "url": "https://www.restingonhisword.com/hebrew-alphabet/hebrew-letter-bet",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.restingonhisword.com",
+                "website_name": "Resting on His Word",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Nov 16, 2025 — The second letter of the Hebrew alphabet is Bet. This letter speaks of duality. Jesus is the Master of the house. the Chief Cornerstone and ...",
+                "pre_snippet": "11/16/2025 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "The second letter of the Hebrew alphabet is Bet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2025-11-16 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 6,
+                "rank_absolute": 11,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[21]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "scripturenotes.com",
+                "title": "Learn the Hebrew Aleph-bet",
+                "url": "https://scripturenotes.com/learn-the-hebrew-aleph-bet/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://scripturenotes.com",
+                "website_name": "Scripture Notes",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "In the Hebrew aleph-bet (alphabet) there are 22 letters. Their values go from 1 to 9 for the first 9 letters, 10 to 90 by 10's for the next 9 letters, and ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "there are 22 letters"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 7,
+                "rank_absolute": 12,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[23]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.cartoonhebrew.com",
+                "title": "Hebrew Letter Bet",
+                "url": "https://www.cartoonhebrew.com/bet",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.cartoonhebrew.com",
+                "website_name": "Cartoon Hebrew",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Bet (בּ) is the second letter of the Alefbet. If you guessed that it's pronounced B, like the B in boat, you're right.",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "people_also_search",
+                "rank_group": 2,
+                "rank_absolute": 13,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[4]/div[1]/div[3]/div[1]",
+                "title": "People also search for",
+                "items": [
+                  "What are the 22 letters of the Hebrew alphabet",
+                  "Hebrew alphabet letters",
+                  "Hebrew alphabet symbols",
+                  "Hebrew alphabet meaning with pictures and numbers",
+                  "22 Hebrew letters meaning PDF",
+                  "Hebrew alphabet to English PDF"
+                ],
+                "rectangle": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

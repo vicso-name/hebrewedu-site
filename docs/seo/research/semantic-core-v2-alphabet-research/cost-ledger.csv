@@ -1,0 +1,46 @@
+category,keyword,task_id,status_code,cost_usd,raw_file
+volume,171-keyword batch,10110521-2762-0367-0000-9e5468ca23ed,20000,0.09,volume-raw.json
+difficulty,35-keyword shortlist,10110532-2762-0392-0000-469b8e3b130b,20000,0.0162,difficulty-raw.json
+serp,aleph hebrew letter,10110522-2762-0139-0000-4b7f913b213a,20000,0.002,serp-01-raw.json
+serp,bet hebrew letter,10110522-2762-0139-0000-aa2f1577925d,20000,0.002,serp-02-raw.json
+serp,gimel hebrew letter,10110522-2762-0139-0000-df56fb4c6020,20000,0.002,serp-03-raw.json
+serp,dalet hebrew letter,10110522-2762-0139-0000-f65f25d0929c,20000,0.002,serp-04-raw.json
+serp,he hebrew letter,10110522-2762-0139-0000-33b7bdec8f62,20000,0.002,serp-05-raw.json
+serp,vav hebrew letter,10110522-2762-0139-0000-1eaa2dcbceb7,20000,0.002,serp-06-raw.json
+serp,zayin hebrew letter,10110522-2762-0139-0000-d974ea780ed4,20000,0.002,serp-07-raw.json
+serp,chet hebrew letter,10110523-2762-0139-0000-c33a498d0155,20000,0.002,serp-08-raw.json
+serp,tet hebrew letter,10110523-2762-0139-0000-a63bc8445cdf,20000,0.002,serp-09-raw.json
+serp,yod hebrew letter,10110523-2762-0139-0000-d44311c13ea9,20000,0.002,serp-10-raw.json
+serp,kaf hebrew letter,10110523-2762-0139-0000-9823d1d06dab,20000,0.002,serp-11-raw.json
+serp,lamed hebrew letter,10110523-2762-0139-0000-9edc7d281669,20000,0.002,serp-12-raw.json
+serp,mem hebrew letter,10110523-2762-0139-0000-89e7395a0eb9,20000,0.002,serp-13-raw.json
+serp,nun hebrew letter,10110524-2762-0139-0000-f1d0af1045ac,20000,0.002,serp-14-raw.json
+serp,samekh hebrew letter,10110524-2762-0139-0000-1f80630e5315,20000,0.002,serp-15-raw.json
+serp,ayin hebrew letter,10110524-2762-0139-0000-6276222ddde4,20000,0.002,serp-16-raw.json
+serp,pe hebrew letter,10110525-2762-0139-0000-be37e01a643c,20000,0.002,serp-17-raw.json
+serp,tsadi hebrew letter,10110525-2762-0139-0000-685c1e1b8ec0,20000,0.002,serp-18-raw.json
+serp,qof hebrew letter,10110525-2762-0139-0000-4fb643715612,20000,0.002,serp-19-raw.json
+serp,resh hebrew letter,10110525-2762-0139-0000-5fd2d793a33a,20000,0.002,serp-20-raw.json
+serp,shin hebrew letter,10110525-2762-0139-0000-221c981cbe4a,20000,0.002,serp-21-raw.json
+serp,tav hebrew letter,10110526-2762-0139-0000-2aa65438bb87,20000,0.002,serp-22-raw.json
+serp,hebrew alphabet course,10110526-2762-0139-0000-9d56cf62ce72,20000,0.002,serp-23-raw.json
+serp,hebrew alphabet lessons online,10110526-2762-0139-0000-ea90d20cc864,40101,0.002,serp-24-raw.json
+serp,interactive hebrew alphabet course,10110527-2762-0139-0000-4c0f8b50d1d3,40101,0.002,serp-25-raw.json
+serp,hebrew alphabet course for beginners,10110527-2762-0139-0000-dd722861a1ec,20000,0.002,serp-26-raw.json
+serp,aleph with patah,10110527-2762-0139-0000-29604330efc9,20000,0.002,serp-27-raw.json
+serp,aleph with kamatz,10110527-2762-0139-0000-d467c1a116d1,20000,0.002,serp-28-raw.json
+serp,aleph with hataf patah,10110527-2762-0139-0000-62cc79d7a1c3,20000,0.002,serp-29-raw.json
+serp,learn hebrew alphabet,10110527-2762-0139-0000-916329984c2d,20000,0.002,serp-30-raw.json
+serp,hebrew alphabet chart,10110528-2762-0139-0000-c3c8fdef5b9a,20000,0.002,serp-31-raw.json
+serp,hebrew alphabet quiz,10110528-2762-0139-0000-30877403fbb1,20000,0.002,serp-32-raw.json
+serp,bet vs vet pronunciation,10110529-2762-0139-0000-2728724c08ab,20000,0.002,serp-33-raw.json
+serp,kaf vs chaf pronunciation,10110529-2762-0139-0000-3996c8668dd7,20000,0.002,serp-34-raw.json
+serp,pe vs fe pronunciation,10110529-2762-0139-0000-fa7bbd6efbcd,20000,0.002,serp-35-raw.json
+serp,shin vs sin pronunciation,10110529-2762-0139-0000-fef9be979132,20000,0.002,serp-36-raw.json
+serp,kaf sofit,10110529-2762-0139-0000-3a0eb0c9944e,20000,0.002,serp-37-raw.json
+serp,mem sofit,10110529-2762-0139-0000-48682c57e66d,20000,0.002,serp-38-raw.json
+serp,nun sofit,10110529-2762-0139-0000-59cd66f7699e,20000,0.002,serp-39-raw.json
+serp,pe sofit,10110529-2762-0139-0000-8c717a1eca54,20000,0.002,serp-40-raw.json
+serp,tsadi sofit,10110530-2762-0139-0000-5026713af189,20000,0.002,serp-41-raw.json
+serp,hebrew pe vs fe pronunciation,10110531-2762-0139-0000-2fe671493c32,40101,0.002,serp-42-raw.json
+serp,hebrew shin vs sin pronunciation,10110531-2762-0139-0000-f9089df7c773,40101,0.002,serp-43-raw.json

@@ -1,0 +1,787 @@
+{
+  "keyword": "qof hebrew letter",
+  "retrieved_at_utc": "2026-10-11T05:26:28.670Z",
+  "raw": {
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "6.4676 sec.",
+    "cost": 0.002,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "10110525-2762-0139-0000-4fb643715612",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "6.3573 sec.",
+        "cost": 0.002,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "serp",
+          "google",
+          "organic",
+          "live",
+          "advanced"
+        ],
+        "data": {
+          "api": "serp",
+          "function": "live",
+          "se": "google",
+          "se_type": "organic",
+          "keyword": "qof hebrew letter",
+          "location_code": 2840,
+          "language_code": "en",
+          "device": "mobile",
+          "os": "android",
+          "depth": 10
+        },
+        "result": [
+          {
+            "keyword": "qof hebrew letter",
+            "type": "organic",
+            "se_domain": "google.com",
+            "location_code": 2840,
+            "language_code": "en",
+            "check_url": "https://www.google.com/search?q=qof%20hebrew%20letter&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+            "datetime": "2026-10-11 05:25:48 +00:00",
+            "spell": null,
+            "refinement_chips": null,
+            "item_types": [
+              "ai_overview",
+              "organic",
+              "people_also_ask",
+              "people_also_search",
+              "images"
+            ],
+            "se_results_count": 0,
+            "pages_count": 1,
+            "items_count": 13,
+            "items": [
+              {
+                "type": "ai_overview",
+                "rank_group": 1,
+                "rank_absolute": 1,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]",
+                "asynchronous_ai_overview": false,
+                "markdown": "![Hebrew letter Qof Stock Vector Image &amp; Art - Alamy](https://api.dataforseo.com/cdn/i/10110525-2762-0139-0000-4fb643715612:4)\nThe Hebrew letter **Qof** (also spelled **Kuf** or **Khof** ) is the `19th letter of the Hebrew alphabet` (`ק` ) and carries the numerical value of **100** in Gematria.[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Qof/qof.html)[[2]](https://www.equipgodspeople.com/bible-study-tools/lexicons-word-study/old-testament-hebrew/qof/)\n\n### Key Facts & Meaning\n\n- **Pronunciation:** Historically pronounced as a deep, emphatic uvular stop (`[q]` ), it is pronounced as a standard `k` sound in Modern Hebrew (merging phonetically with the letter *Kaf*).[[1]](https://en.wikipedia.org/wiki/Qoph)[[2]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Qof/qof.html)\n- **Visual Structure:** It is unique because its left leg descends below the baseline of the line of text, which is visually formed by combining a *Resh* on top with a descending stroke (`Zayin` ) below.[[1]](https://gabrielelevy.com/it/pages/the-letter-qof)[[2]](https://learnhebrewforchristians.com/hebrew-alphabet/qof)\n- **Literal Meanings:** Ancient pictographs and traditions link Qof to the back of the head, the eye of a needle, or a monkey.[[1]](https://gabrielelevy.com/pages/the-letter-qof)[[2]](https://en.wikipedia.org/wiki/Qoph)\n- **Symbolism:** In Jewish mysticism (such as insights shared via [Chabad.org](https://www.chabad.org/library/article_cdo/aid/137091/jewish/Kuf.htm) ), Qof represents a dual nature—symbolizing both the sacred (*Kedushah* ) and the superficial or profane husk (*Klipah* ), requiring a person to look deeper past the surface.[[1]](https://learnhebrewforchristians.com/hebrew-alphabet/qof)[[2]](https://gabrielelevy.com/pages/the-letter-qof)[[3]](https://gabrielelevy.com/it/pages/the-letter-qof)\n- **Common Hebrew Words:** \n\t- `קָדוֹשׁ` (*Kadosh* - holy or set apart)\n\t- `קוֹל` (*Kol* - voice)\n\t- `קָרָא` (*Kara* - to call or read)[[1]](https://learnhebrewforchristians.com/hebrew-alphabet/qof)\n\nWould you like to explore **how Qof is used in Bible verses (like Psalm 119)** , or learn how to **write it in Hebrew cursive script**?",
+                "items": [
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "The Hebrew letter Qof (also spelled Kuf or Khof ) is the 19th letter of the Hebrew alphabet ( ק ) and carries the numerical value of 100 in Gematria.",
+                    "markdown": "![Hebrew letter Qof Stock Vector Image &amp; Art - Alamy](https://api.dataforseo.com/cdn/i/10110525-2762-0139-0000-4fb643715612:2)\nThe Hebrew letter **Qof** (also spelled **Kuf** or **Khof** ) is the `19th letter of the Hebrew alphabet` (`ק` ) and carries the numerical value of **100** in Gematria.[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Qof/qof.html)[[2]](https://www.equipgodspeople.com/bible-study-tools/lexicons-word-study/old-testament-hebrew/qof/)",
+                    "links": null,
+                    "images": [
+                      {
+                        "type": "images_element",
+                        "alt": "Hebrew letter Qof Stock Vector Image & Art - Alamy",
+                        "url": null,
+                        "image_url": "https://api.dataforseo.com/cdn/i/10110525-2762-0139-0000-4fb643715612:3"
+                      }
+                    ],
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew for Christians",
+                        "domain": "www.hebrew4christians.com",
+                        "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Qof/qof.html",
+                        "title": "The Letter Qof",
+                        "text": "Identity: The nineteenth letter of the Hebrew alphabet is Qof (pronounced \"kof\", sounding like \"q\" in \"queen\"). Transliteration: Commonly transliterated as \"k\" ..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Equip God’s People",
+                        "domain": "www.equipgodspeople.com",
+                        "url": "https://www.equipgodspeople.com/bible-study-tools/lexicons-word-study/old-testament-hebrew/qof/",
+                        "title": "Qof (ק) – Old Testament Hebrew | Equip God’s People",
+                        "text": "Letter: Qof / Koph (קוֹף), Hebrew consonant ק, speech sound /k/ deeper/guttural, numerical value 100 in Gematria signifying fullness/completeness. Derivation: P..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Key Facts & Meaning",
+                    "markdown": "### Key Facts & Meaning",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Pronunciation: Historically pronounced as a deep, emphatic uvular stop ( [q] ), it is pronounced as a standard k sound in Modern Hebrew (merging phonetically with the letter Kaf). Visual Structure: It is unique because its left leg descends below the baseline of the line of text, which is visually formed by combining a Resh on top with a descending stroke ( Zayin ) below. Literal Meanings: Ancient pictographs and traditions link Qof to the back of the head, the eye of a needle, or a monkey. Symbolism: In Jewish mysticism (such as insights shared via Chabad.org ), Qof represents a dual nature—symbolizing both the sacred (Kedushah) and the superficial or profane husk (Klipah), requiring a person to look deeper past the surface. Common Hebrew Words:קָדוֹשׁ (Kadosh - holy or set apart)\nקוֹל (Kol - voice)\nקָרָא (Kara - to call or read) קָדוֹשׁ (Kadosh - holy or set apart) קוֹל (Kol - voice) קָרָא (Kara - to call or read)",
+                    "markdown": "- **Pronunciation:** Historically pronounced as a deep, emphatic uvular stop (`[q]` ), it is pronounced as a standard `k` sound in Modern Hebrew (merging phonetically with the letter *Kaf*).[[1]](https://en.wikipedia.org/wiki/Qoph)[[2]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Qof/qof.html)\n- **Visual Structure:** It is unique because its left leg descends below the baseline of the line of text, which is visually formed by combining a *Resh* on top with a descending stroke (`Zayin` ) below.[[1]](https://gabrielelevy.com/it/pages/the-letter-qof)[[2]](https://learnhebrewforchristians.com/hebrew-alphabet/qof)\n- **Literal Meanings:** Ancient pictographs and traditions link Qof to the back of the head, the eye of a needle, or a monkey.[[1]](https://gabrielelevy.com/pages/the-letter-qof)[[2]](https://en.wikipedia.org/wiki/Qoph)\n- **Symbolism:** In Jewish mysticism (such as insights shared via [Chabad.org](https://www.chabad.org/library/article_cdo/aid/137091/jewish/Kuf.htm) ), Qof represents a dual nature—symbolizing both the sacred (*Kedushah* ) and the superficial or profane husk (*Klipah* ), requiring a person to look deeper past the surface.[[1]](https://learnhebrewforchristians.com/hebrew-alphabet/qof)[[2]](https://gabrielelevy.com/pages/the-letter-qof)[[3]](https://gabrielelevy.com/it/pages/the-letter-qof)\n- **Common Hebrew Words:** \n\t- `קָדוֹשׁ` (*Kadosh* - holy or set apart)\n\t- `קוֹל` (*Kol* - voice)\n\t- `קָרָא` (*Kara* - to call or read)[[1]](https://learnhebrewforchristians.com/hebrew-alphabet/qof)",
+                    "links": [
+                      {
+                        "type": "link_element",
+                        "title": "Chabad.org",
+                        "description": null,
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137091/jewish/Kuf.htm",
+                        "domain": "www.chabad.org"
+                      }
+                    ],
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Wikipedia",
+                        "domain": "en.wikipedia.org",
+                        "url": "https://en.wikipedia.org/wiki/Qoph",
+                        "title": "Qoph - Wikipedia",
+                        "text": "Origins: Glyph shape uncertain; depicted needle eye, head/neck nape, or monkey with tail; origin of Latin Q, Greek Ϙ, Φ. Phonetics & Values: West Semitic emphat..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew for Christians",
+                        "domain": "www.hebrew4christians.com",
+                        "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Qof/qof.html",
+                        "title": "The Letter Qof",
+                        "text": "Identity: The nineteenth letter of the Hebrew alphabet is Qof (pronounced \"kof\", sounding like \"q\" in \"queen\"). Transliteration: Commonly transliterated as \"k\" ..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "ALEFBET - The hebrew letters art gallery",
+                        "domain": "gabrielelevy.com",
+                        "url": "https://gabrielelevy.com/it/pages/the-letter-qof",
+                        "title": "La lettera QOF – ALEFBET - THE HEBREW LETTERS ART GALLERY",
+                        "text": "Definition: The Hebrew letter Qof (Kuf/Khof) means back of the head, eye of a needle, and monkey. Symbolism: Represents both sacred holiness (Kedushah) and prof..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "learnhebrewforchristians.com",
+                        "domain": "learnhebrewforchristians.com",
+                        "url": "https://learnhebrewforchristians.com/hebrew-alphabet/qof",
+                        "title": "Hebrew Letter Qof (ק) — Holiness, Cycles & Sacred Separation",
+                        "text": "How to Pronounce Qof * Modern Hebrew Usage In modern Hebrew, Qof appears in words like קָדוֹשׁ (kadosh, holy), קוֹל (kol, voice), קָרָא (kara, to call/read), an..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "ALEFBET - The hebrew letters art gallery",
+                        "domain": "gabrielelevy.com",
+                        "url": "https://gabrielelevy.com/pages/the-letter-qof",
+                        "title": "The letter QOF – ALEFBET - THE HEBREW LETTERS ART GALLERY",
+                        "text": "The letter Qof (also spelled Kuf, or Khof) originally meant the back of the head, or the eye of a needle and which also means monkey. It is the symbol of both t..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Would you like to explore how Qof is used in Bible verses (like Psalm 119), or learn how to write it in Hebrew cursive script ?",
+                    "markdown": "Would you like to explore **how Qof is used in Bible verses (like Psalm 119)** , or learn how to **write it in Hebrew cursive script**?",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  }
+                ],
+                "references": [
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Wikipedia",
+                    "domain": "en.wikipedia.org",
+                    "url": "https://en.wikipedia.org/wiki/Qoph",
+                    "title": "Qoph - Wikipedia",
+                    "text": "Origins: Glyph shape uncertain; depicted needle eye, head/neck nape, or monkey with tail; origin of Latin Q, Greek Ϙ, Φ. Phonetics & Values: West Semitic emphat..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "ALEFBET - The hebrew letters art gallery",
+                    "domain": "gabrielelevy.com",
+                    "url": "https://gabrielelevy.com/pages/the-letter-qof",
+                    "title": "The letter QOF – ALEFBET - THE HEBREW LETTERS ART GALLERY",
+                    "text": "The letter Qof (also spelled Kuf, or Khof) originally meant the back of the head, or the eye of a needle and which also means monkey. It is the symbol of both t..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Hebrew for Christians",
+                    "domain": "www.hebrew4christians.com",
+                    "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Qof/qof.html",
+                    "title": "The Letter Qof",
+                    "text": "Identity: The nineteenth letter of the Hebrew alphabet is Qof (pronounced \"kof\", sounding like \"q\" in \"queen\"). Transliteration: Commonly transliterated as \"k\" ..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Equip God’s People",
+                    "domain": "www.equipgodspeople.com",
+                    "url": "https://www.equipgodspeople.com/bible-study-tools/lexicons-word-study/old-testament-hebrew/qof/",
+                    "title": "Qof (ק) – Old Testament Hebrew | Equip God’s People",
+                    "text": "Letter: Qof / Koph (קוֹף), Hebrew consonant ק, speech sound /k/ deeper/guttural, numerical value 100 in Gematria signifying fullness/completeness. Derivation: P..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "ALEFBET - The hebrew letters art gallery",
+                    "domain": "gabrielelevy.com",
+                    "url": "https://gabrielelevy.com/it/pages/the-letter-qof",
+                    "title": "La lettera QOF – ALEFBET - THE HEBREW LETTERS ART GALLERY",
+                    "text": "Definition: The Hebrew letter Qof (Kuf/Khof) means back of the head, eye of a needle, and monkey. Symbolism: Represents both sacred holiness (Kedushah) and prof..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "learnhebrewforchristians.com",
+                    "domain": "learnhebrewforchristians.com",
+                    "url": "https://learnhebrewforchristians.com/hebrew-alphabet/qof",
+                    "title": "Hebrew Letter Qof (ק) — Holiness, Cycles & Sacred Separation",
+                    "text": "How to Pronounce Qof * Modern Hebrew Usage In modern Hebrew, Qof appears in words like קָדוֹשׁ (kadosh, holy), קוֹל (kol, voice), קָרָא (kara, to call/read), an..."
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 1,
+                "rank_absolute": 2,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "gabrielelevy.com",
+                "title": "The letter QOF",
+                "url": "https://gabrielelevy.com/pages/the-letter-qof?srsltid=AU7gw4WaYgvUBEgXOid4nXLbCid3ZJL_B5CqGav9wzfWI9A1FhEC0ZD6",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://gabrielelevy.com",
+                "website_name": "ALEFBET - The hebrew letters art gallery",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "The letter Qof (also spelled Kuf, or Khof) originally meant the back of the head, or the eye of a needle and which also means monkey.",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "the back of the head, or the eye of a needle"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": [
+                  "hebrew letter",
+                  "resh hebrew",
+                  "qof hebrew",
+                  "hebrew",
+                  "hebrew letter",
+                  "hebrew",
+                  "19th letter of the hebrew",
+                  "kuf hebrew"
+                ],
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 2,
+                "rank_absolute": 3,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.hebrew4christians.com",
+                "title": "The Letter Qof",
+                "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Qof/qof.html",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.hebrew4christians.com",
+                "website_name": "Hebrew for Christians",
+                "is_image": true,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_image"
+                ],
+                "description": "The nineteenth letter of the Hebrew alphabet is called \"Qof\" (pronounced \"kof\") and has the sound of \"q\" as in \"queen.\"",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": [
+                  {
+                    "type": "images_element",
+                    "alt": "qof hebrew letter from www.hebrew4christians.com",
+                    "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Qof/qof.html",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110525-2762-0139-0000-4fb643715612:5"
+                  }
+                ],
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "The nineteenth letter of the Hebrew alphabet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": [
+                  "hebrew letter",
+                  "resh hebrew",
+                  "qof hebrew",
+                  "hebrew",
+                  "hebrew letter",
+                  "hebrew",
+                  "19th letter of the hebrew",
+                  "kuf hebrew"
+                ],
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "people_also_ask",
+                "rank_group": 1,
+                "rank_absolute": 4,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]",
+                "items": [
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What is the meaning of the Hebrew letter Qof?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]/div[2]/div[2]/div[1]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "How do Jews say \"I love you\"?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]/div[2]/div[2]/div[2]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does 666 look like in Hebrew letters?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]/div[2]/div[2]/div[3]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What is the letter Q in Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]/div[2]/div[2]/div[4]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 3,
+                "rank_absolute": 5,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "en.wikipedia.org",
+                "title": "Qoph",
+                "url": "https://en.wikipedia.org/wiki/Qoph",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://en.wikipedia.org",
+                "website_name": "Wikipedia",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "The Hebrew letter Qof (Hebrew: קוֹף, romanized: qôp̄ ) represents the voiceless uvular plosive /q / historically and in less prominent pronunciations,",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "represents the voiceless uvular plosive /q"
+                ],
+                "links": [
+                  {
+                    "type": "link_element",
+                    "title": "Origins",
+                    "description": null,
+                    "url": "https://en.wikipedia.org/wiki/Qoph#Origins",
+                    "domain": "en.wikipedia.org"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Arabic qāf",
+                    "description": null,
+                    "url": "https://en.wikipedia.org/wiki/Qoph#Arabic_q%C4%81f",
+                    "domain": "en.wikipedia.org"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Pronunciation",
+                    "description": null,
+                    "url": "https://en.wikipedia.org/wiki/Qoph#Pronunciation",
+                    "domain": "en.wikipedia.org"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Velar gāf",
+                    "description": null,
+                    "url": "https://en.wikipedia.org/wiki/Qoph#Velar_g%C4%81f",
+                    "domain": "en.wikipedia.org"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Pronunciation across other...",
+                    "description": null,
+                    "url": "https://en.wikipedia.org/wiki/Qoph#Pronunciation_across_other_languages",
+                    "domain": "en.wikipedia.org"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Maghrebi variant",
+                    "description": null,
+                    "url": "https://en.wikipedia.org/wiki/Qoph#Maghrebi_variant",
+                    "domain": "en.wikipedia.org"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Hebrew qof",
+                    "description": null,
+                    "url": "https://en.wikipedia.org/wiki/Qoph#Hebrew_qof",
+                    "domain": "en.wikipedia.org"
+                  }
+                ],
+                "faq": null,
+                "extended_people_also_search": [
+                  "hebrew letter",
+                  "resh hebrew",
+                  "qof hebrew",
+                  "hebrew",
+                  "hebrew letter",
+                  "hebrew",
+                  "19th letter of the hebrew",
+                  "kuf hebrew"
+                ],
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "people_also_search",
+                "rank_group": 1,
+                "rank_absolute": 6,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[11]",
+                "title": "People also search for",
+                "items": [
+                  "Qof hebrew letter translation",
+                  "Qof hebrew letter words",
+                  "Qof hebrew letter pronunciation",
+                  "Qof hebrew letter meaning",
+                  "Resh Hebrew letter",
+                  "Hebrew letter Kuf"
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 4,
+                "rank_absolute": 7,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[13]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "objectivetranslation.home.blog",
+                "title": "The Amazing Biblical Language: The Importance of The Letter Qof",
+                "url": "https://objectivetranslation.home.blog/2019/06/11/the-amazing-biblical-language-the-importance-of-the-letter-qof/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://objectivetranslation.home.blog",
+                "website_name": "Home.blog",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Jun 11, 2019 — The letter Qof was originally a pictograph depicting the sun on the horizon which suggests either dawn or nightfall and is symbolic of a change ...",
+                "pre_snippet": "06/11/2019 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "The letter Qof was originally a pictograph depicting the sun on the horizon"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2019-06-11 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "images",
+                "rank_group": 1,
+                "rank_absolute": 8,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[14]",
+                "title": "Images",
+                "url": null,
+                "items": [
+                  {
+                    "type": "images_element",
+                    "alt": "The Letter Qof",
+                    "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Qof/qof.html",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMDvZGXMz7rqOjV2s7EzHwqlwTugw9yJQayCO32wvxrov_lGRtsiAG91g&s"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "Holy Rescuers – Craig T. Owens",
+                    "url": "https://craigtowens.com/2015/07/13/holy-rescuers/",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq15l6nc5Gw3FJa01S7RPdvPy9nk9Qe41Q3qD5_RvjUmh1Y-7V7agBXxE&s"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "Vector Image Hebrew Letter Qof",
+                    "url": "https://www.shutterstock.com/image-vector/vector-image-hebrew-letter-qof-728469700",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqFVz6wyC65clytV-yD6P9ngiGJwOp9lPHp12FWmEd8g&s"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "Hebrew letter Qof Stock Vector Image & Art - Alamy",
+                    "url": "https://www.alamy.com/hebrew-letter-qof-image369425572.html",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlHs_y-EeZzkuDjka-YM7jIvMfdMEn5AZXe04VJNgFKg&s"
+                  }
+                ],
+                "related_image_searches": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 5,
+                "rank_absolute": 9,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[16]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.chabad.org",
+                "title": "Kuf - The nineteenth letter of the Hebrew alphabet",
+                "url": "https://www.chabad.org/library/article_cdo/aid/137091/jewish/Kuf.htm",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.chabad.org",
+                "website_name": "Chabad",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Kuf (ק) is the nineteenth letter of the Hebrew alphabet Numerical value: 100 Sound: \"K\" Meaning: Monkey. The kuf, 100, represents death. The name kuf in Hebrew ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Kuf (ק) is the nineteenth letter of the Hebrew alphabet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 6,
+                "rank_absolute": 10,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[17]/div[1]/div[1]",
+                "domain": "www.youtube.com",
+                "title": "Qof: Writing Hebrew Letters",
+                "url": "https://www.youtube.com/watch?v=3_mR5FRngSs",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "5.4K+ views",
+                "website_name": "YouTube · Andrew McClurg",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "Resh: Writing Hebrew Letters. Andrew McClurg · 4.6K views ; Can Hebrew and Aramaic Speakers Understand Each Other? · New. 120K views ; Why English ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2020-10-11 05:25:47 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 7,
+                "rank_absolute": 11,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "learnhebrewforchristians.com",
+                "title": "Hebrew Letter Qof (ק) — Holiness, Cycles & Sacred Separation",
+                "url": "https://learnhebrewforchristians.com/hebrew-alphabet/qof",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://learnhebrewforchristians.com",
+                "website_name": "learnhebrewforchristians.com",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Qof (ק) is the nineteenth letter of the Hebrew alphabet, Holiness — the quality of being set apart for God. Qof represents holiness, sacred separation, and the ...",
+                "pre_snippet": "Qof (ק) is the nineteenth letter of the Hebrew alphabet, Holiness — the quality of being set apart for God. Qof represents holiness, sacred separation, and the ...",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Qof (ק) is the nineteenth letter of the Hebrew alphabet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 8,
+                "rank_absolute": 12,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[21]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.scribd.com",
+                "title": "Understanding the Hebrew Letter Qof | PDF | Divinity",
+                "url": "https://www.scribd.com/document/972353994/19-Letter-Kuf",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.scribd.com",
+                "website_name": "Scribd",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "The letter 'Qof' in Hebrew represents a paradox of holiness, symbolizing the omnipresence and transcendence of God. It is associated with the redemption of ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "represents a paradox of holiness"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "people_also_search",
+                "rank_group": 2,
+                "rank_absolute": 13,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[4]/div[1]/div[3]/div[1]",
+                "title": "People also search for",
+                "items": [
+                  "Hebrew letter Kuf meaning",
+                  "Hebrew alphabet",
+                  "19th letter of the Hebrew alphabet crossword clue",
+                  "Kuf Hebrew meaning",
+                  "20 Hebrew letter"
+                ],
+                "rectangle": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

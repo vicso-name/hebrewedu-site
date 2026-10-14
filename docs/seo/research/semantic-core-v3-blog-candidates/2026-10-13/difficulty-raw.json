@@ -1,0 +1,76 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.0604 sec.",
+  "cost": 0.0126,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10131043-2762-0392-0000-da857e125d7c",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.0330 sec.",
+      "cost": 0.0126,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "dataforseo_labs",
+        "google",
+        "bulk_keyword_difficulty",
+        "live"
+      ],
+      "data": {
+        "api": "dataforseo_labs",
+        "function": "bulk_keyword_difficulty",
+        "se_type": "google",
+        "location_code": 2840,
+        "language_code": "en",
+        "keywords": [
+          "hebrew listening practice",
+          "hebrew comprehensible input",
+          "paal vs piel",
+          "how many hebrew words do you need to be fluent",
+          "alef bet tutor verb directory"
+        ]
+      },
+      "result": [
+        {
+          "se_type": "google",
+          "location_code": 2840,
+          "language_code": "en",
+          "total_count": 5,
+          "items_count": 5,
+          "items": [
+            {
+              "se_type": "google",
+              "keyword": "hebrew listening practice",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew comprehensible input",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "paal vs piel",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "how many hebrew words do you need to be fluent",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "alef bet tutor verb directory",
+              "keyword_difficulty": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "checked_at_utc": "2026-10-13T14:05:07.165730+00:00",
+  "all_prior_research_hashes_unchanged": true,
+  "all_website_hashes_unchanged": true,
+  "research_files_checked": 202,
+  "website_files_checked": 218,
+  "git_status_unchanged": true,
+  "raw_response_round_trip": true,
+  "raw_envelope_preserved_in_tool_response": true,
+  "payload_and_returned_settings_match": true,
+  "four_tasks_successful": true,
+  "cost_cap_met": true,
+  "organic_rows_total": 27,
+  "no_retry_or_substitution": true,
+  "no_article_metadata_or_core_changes": true
+}

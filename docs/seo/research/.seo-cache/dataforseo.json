@@ -1,0 +1,56 @@
+{
+  "cache_type": "dataforseo",
+  "analyzed_at": "2026-10-11T05:31:45.958Z",
+  "domain": "hebrewedu.com",
+  "url": "https://hebrewedu.com/",
+  "data_sources": [
+    "DataForSEO Google Ads Search Volume Live",
+    "Google Organic Live Advanced",
+    "Google Labs Bulk Keyword Difficulty",
+    "product owner confirmation"
+  ],
+  "findings": {
+    "v1": 136,
+    "candidate_rows": 197,
+    "new": 173,
+    "combined": 309,
+    "volume_requested": 171,
+    "volume_positive": 55,
+    "volume_null": 116,
+    "volume_zero": 0,
+    "serp_requested": 43,
+    "serp_succeeded": 39,
+    "serp_failed": [
+      "hebrew alphabet lessons online",
+      "interactive hebrew alphabet course",
+      "hebrew pe vs fe pronunciation",
+      "hebrew shin vs sin pronunciation"
+    ],
+    "organic_rows": 279,
+    "kd_requested": 35,
+    "kd_values": 26,
+    "kd_null": 9,
+    "cost_usd": "0.1922",
+    "minimum_organic": 6,
+    "maximum_organic": 9
+  },
+  "issues": [
+    "Four SERPs failed with provider 40101",
+    "Lesson detail content beyond Lesson 1 remains uninspected"
+  ],
+  "recommendations": [
+    "Preserve v1 targets",
+    "Use confirmed Dalet identity",
+    "Follow research-only implementation roadmap"
+  ],
+  "limitations": [
+    "Search volumes are not mobile-only or additive traffic",
+    "SERP page-format labels inferred from returned metadata",
+    "Website code unchanged"
+  ],
+  "artifacts": [
+    "semantic-core-v2-research-report.md",
+    "semantic-core-v2.csv",
+    "hebrew-alphabet-course-implementation-roadmap.md"
+  ]
+}

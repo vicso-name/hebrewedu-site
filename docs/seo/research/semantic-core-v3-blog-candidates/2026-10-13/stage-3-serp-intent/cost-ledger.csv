@@ -1,0 +1,5 @@
+keyword,dispatch_at_utc,received_at_utc,serp_datetime,endpoint,task_id,envelope_status_code,task_status_code,cost_usd,raw_file,project_scope
+hebrew words,2026-10-13T14:00:10.657Z,2026-10-13T14:00:17.254Z,2026-10-13 14:00:16 +00:00,/v3/serp/google/organic/live/advanced,10131400-2762-0139-0000-15c4cb127a4c,20000,20000,0.002,01-raw-response.json,eight_article_keyword_research_stage3_serp_intent
+hebrew phrases,2026-10-13T14:00:17.575Z,2026-10-13T14:00:26.490Z,2026-10-13 14:00:26 +00:00,/v3/serp/google/organic/live/advanced,10131400-2762-0139-0000-be914adf484c,20000,20000,0.002,02-raw-response.json,eight_article_keyword_research_stage3_serp_intent
+hebrew text,2026-10-13T14:00:26.838Z,2026-10-13T14:00:44.426Z,2026-10-13 14:00:43 +00:00,/v3/serp/google/organic/live/advanced,10131400-2762-0139-0000-5f8c8e6193d4,20000,20000,0.002,03-raw-response.json,eight_article_keyword_research_stage3_serp_intent
+hebrew alphabet nun,2026-10-13T14:00:44.754Z,2026-10-13T14:00:54.606Z,2026-10-13 14:00:54 +00:00,/v3/serp/google/organic/live/advanced,10131400-2762-0139-0000-4cf68c5500d3,20000,20000,0.002,04-raw-response.json,eight_article_keyword_research_stage3_serp_intent

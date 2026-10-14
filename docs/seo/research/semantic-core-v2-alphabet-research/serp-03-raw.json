@@ -1,0 +1,814 @@
+{
+  "keyword": "gimel hebrew letter",
+  "retrieved_at_utc": "2026-10-11T05:22:21.284Z",
+  "raw": {
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "2.6645 sec.",
+    "cost": 0.002,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "10110522-2762-0139-0000-df56fb4c6020",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "2.5846 sec.",
+        "cost": 0.002,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "serp",
+          "google",
+          "organic",
+          "live",
+          "advanced"
+        ],
+        "data": {
+          "api": "serp",
+          "function": "live",
+          "se": "google",
+          "se_type": "organic",
+          "keyword": "gimel hebrew letter",
+          "location_code": 2840,
+          "language_code": "en",
+          "device": "mobile",
+          "os": "android",
+          "depth": 10
+        },
+        "result": [
+          {
+            "keyword": "gimel hebrew letter",
+            "type": "organic",
+            "se_domain": "google.com",
+            "location_code": 2840,
+            "language_code": "en",
+            "check_url": "https://www.google.com/search?q=gimel%20hebrew%20letter&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+            "datetime": "2026-10-11 05:22:20 +00:00",
+            "spell": null,
+            "refinement_chips": null,
+            "item_types": [
+              "ai_overview",
+              "images",
+              "organic",
+              "people_also_ask",
+              "people_also_search",
+              "video"
+            ],
+            "se_results_count": 0,
+            "pages_count": 1,
+            "items_count": 13,
+            "items": [
+              {
+                "type": "ai_overview",
+                "rank_group": 1,
+                "rank_absolute": 1,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]",
+                "asynchronous_ai_overview": false,
+                "markdown": "![Gimel hebrew letter icon Stock Vector Image &amp; Art - Alamy](https://api.dataforseo.com/cdn/i/10110522-2762-0139-0000-df56fb4c6020:4)\nGimmel (also spelled **Gimel** , letter **ג** ) is the third letter of the Hebrew alphabet, detailed on the [Chabad Gimmel Guide](https://www.chabad.org/library/article_cdo/aid/137075/jewish/Gimmel.htm).[[1]](https://www.chabad.org/library/article_cdo/aid/137075/jewish/Gimmel.htm)\n\n### Key Facts\n\n- **Letter and Symbol:** ג\n- **Numerical Value:** 3\n- **Sound:** \"G\" as in \"girl\"\n- **Name Meaning:** Traditionally tied to *gamal* (camel), *gemul* (reward/recompense), and the act of weaning or nourishing.[[1]](https://www.chabad.org/library/article_cdo/aid/137075/jewish/Gimmel.htm)[[2]](https://www.youtube.com/watch?v=9JWCZgLNUnw)[[3]](https://mazorbooks.wordpress.com/2020/10/07/gimel/)[[4]](https://www.youtube.com/watch?v=06kaFTl542U)[[5]](https://inner.org/hebleter/gimmel.htm)[[6]](https://www.chabad.org/kabbalah/article_cdo/aid/380533/jewish/The-Letter-Gimel.htm)\n\n### Symbolic Meaning\n\n- **The Benefactor:** In Jewish tradition and the Talmud, the shape of the gimmel resembles a person walking or a rich person running to give charity (*tzedakah* ) to a poor person (represented by the next letter, Dalet).[[1]](https://inner.org/hebleter/gimmel.htm)[[2]](https://www.chabad.org/library/article_cdo/aid/137075/jewish/Gimmel.htm)\n- **Structure:** It is formed by a vertical line (*vav* ) with a small foot (*yud* ) at the bottom, symbolizing a person in motion stepping forward to help others.[[1]](https://www.chabad.org/kabbalah/article_cdo/aid/380533/jewish/The-Letter-Gimel.htm)[[2]](https://www.chabad.org/library/article_cdo/aid/137075/jewish/Gimmel.htm)\n- **Completeness:** The number three represents stability, the three Patriarchs (Abraham, Isaac, and Jacob), and the connection between the Creator and creation.[[1]](https://hebrewtoday.com/alphabet/the-hebrew-letter-gimel-%D7%92/)[[2]](https://www.youtube.com/watch?v=06kaFTl542U)[[3]](https://www.chabad.org/kabbalah/article_cdo/aid/380533/jewish/The-Letter-Gimel.htm)\n\nWould you like to learn about the **next letter (Dalet)** or see examples of **Hebrew words** that start with Gimmel?",
+                "items": [
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Gimmel (also spelled Gimel, letter ג ) is the third letter of the Hebrew alphabet, detailed on the Chabad Gimmel Guide.",
+                    "markdown": "![Gimel hebrew letter icon Stock Vector Image &amp; Art - Alamy](https://api.dataforseo.com/cdn/i/10110522-2762-0139-0000-df56fb4c6020:2)\nGimmel (also spelled **Gimel** , letter **ג** ) is the third letter of the Hebrew alphabet, detailed on the [Chabad Gimmel Guide](https://www.chabad.org/library/article_cdo/aid/137075/jewish/Gimmel.htm).[[1]](https://www.chabad.org/library/article_cdo/aid/137075/jewish/Gimmel.htm)",
+                    "links": [
+                      {
+                        "type": "link_element",
+                        "title": "Chabad Gimmel Guide",
+                        "description": null,
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137075/jewish/Gimmel.htm",
+                        "domain": "www.chabad.org"
+                      }
+                    ],
+                    "images": [
+                      {
+                        "type": "images_element",
+                        "alt": "Gimel hebrew letter icon Stock Vector Image & Art - Alamy",
+                        "url": null,
+                        "image_url": "https://api.dataforseo.com/cdn/i/10110522-2762-0139-0000-df56fb4c6020:3"
+                      }
+                    ],
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137075/jewish/Gimmel.htm",
+                        "title": "Gimmel - The third letter of the Hebrew alphabet - Chabad.org",
+                        "text": "The third letter of the Hebrew alphabet * Gimmel (ג) is the third letter of the Hebrew alphabet. * Numerical value: 3. * Sound: \"G\" * Meaning: 1. nourish 2. wea..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Key Facts",
+                    "markdown": "### Key Facts",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Letter and Symbol: ג Numerical Value: 3 Sound: \"G\" as in \"girl\" Name Meaning: Traditionally tied to gamal (camel), gemul (reward/recompense), and the act of weaning or nourishing.",
+                    "markdown": "- **Letter and Symbol:** ג\n- **Numerical Value:** 3\n- **Sound:** \"G\" as in \"girl\"\n- **Name Meaning:** Traditionally tied to *gamal* (camel), *gemul* (reward/recompense), and the act of weaning or nourishing.[[1]](https://www.chabad.org/library/article_cdo/aid/137075/jewish/Gimmel.htm)[[2]](https://www.youtube.com/watch?v=9JWCZgLNUnw)[[3]](https://mazorbooks.wordpress.com/2020/10/07/gimel/)[[4]](https://www.youtube.com/watch?v=06kaFTl542U)[[5]](https://inner.org/hebleter/gimmel.htm)[[6]](https://www.chabad.org/kabbalah/article_cdo/aid/380533/jewish/The-Letter-Gimel.htm)",
+                    "links": null,
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137075/jewish/Gimmel.htm",
+                        "title": "Gimmel - The third letter of the Hebrew alphabet - Chabad.org",
+                        "text": "The third letter of the Hebrew alphabet * Gimmel (ג) is the third letter of the Hebrew alphabet. * Numerical value: 3. * Sound: \"G\" * Meaning: 1. nourish 2. wea..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=9JWCZgLNUnw",
+                        "title": "Hebrew Alphabet - Letter Gimmel - ג",
+                        "text": "Hebrew Alphabet - Letter Gimmel - ג shalom and welcome back to Hebrew in the House. this week we'll learn the letter Gimmel. can you say gimmel. what sound does..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "WordPress.com",
+                        "domain": "mazorbooks.wordpress.com",
+                        "url": "https://mazorbooks.wordpress.com/2020/10/07/gimel/",
+                        "title": "Hebrew for Kids: The Letter Gimel (9) - MazorBooks - WordPress.com",
+                        "text": "GIMEL is the third letter of the Hebrew Alphabet. The numerical value of GIMEL is 3; In modern Hebrew, the frequency usage of the letter GIMEL is 1.26%. The sou..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=06kaFTl542U",
+                        "title": "Gimel (ג): Movement and Provision | Lesson 3 (Remastered)",
+                        "text": "Gimel (ג): Movement and Provision | Lesson 3 (Remastered) this is episode three in the exploring the Hebrew letters. course if you'd like to go deeper as you mo..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Gal Einai",
+                        "domain": "inner.org",
+                        "url": "https://inner.org/hebleter/gimmel.htm",
+                        "title": "The Hebrew Letters: Gimmel",
+                        "text": "Reward and Punishment Our Sages teach that the gimel symbolizes a rich man running after a poor man, the dalet, to give him charity. The word gimel is derived f..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/kabbalah/article_cdo/aid/380533/jewish/The-Letter-Gimel.htm",
+                        "title": "The Letter Gimel - The 3rd letter of the alef-bet teaches us about reward and punishment - Chabad.org",
+                        "text": "Letter Gimel: Third alef-bet letter symbolizing gemul (reward and punishment), free choice, and a rich man running to give charity to a poor man (dalet), aiming..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Symbolic Meaning",
+                    "markdown": "### Symbolic Meaning",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "The Benefactor: In Jewish tradition and the Talmud, the shape of the gimmel resembles a person walking or a rich person running to give charity (tzedakah) to a poor person (represented by the next letter, Dalet). Structure: It is formed by a vertical line (vav) with a small foot (yud) at the bottom, symbolizing a person in motion stepping forward to help others. Completeness: The number three represents stability, the three Patriarchs (Abraham, Isaac, and Jacob), and the connection between the Creator and creation.",
+                    "markdown": "- **The Benefactor:** In Jewish tradition and the Talmud, the shape of the gimmel resembles a person walking or a rich person running to give charity (*tzedakah* ) to a poor person (represented by the next letter, Dalet).[[1]](https://inner.org/hebleter/gimmel.htm)[[2]](https://www.chabad.org/library/article_cdo/aid/137075/jewish/Gimmel.htm)\n- **Structure:** It is formed by a vertical line (*vav* ) with a small foot (*yud* ) at the bottom, symbolizing a person in motion stepping forward to help others.[[1]](https://www.chabad.org/kabbalah/article_cdo/aid/380533/jewish/The-Letter-Gimel.htm)[[2]](https://www.chabad.org/library/article_cdo/aid/137075/jewish/Gimmel.htm)\n- **Completeness:** The number three represents stability, the three Patriarchs (Abraham, Isaac, and Jacob), and the connection between the Creator and creation.[[1]](https://hebrewtoday.com/alphabet/the-hebrew-letter-gimel-%D7%92/)[[2]](https://www.youtube.com/watch?v=06kaFTl542U)[[3]](https://www.chabad.org/kabbalah/article_cdo/aid/380533/jewish/The-Letter-Gimel.htm)",
+                    "links": null,
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Gal Einai",
+                        "domain": "inner.org",
+                        "url": "https://inner.org/hebleter/gimmel.htm",
+                        "title": "The Hebrew Letters: Gimmel",
+                        "text": "Reward and Punishment Our Sages teach that the gimel symbolizes a rich man running after a poor man, the dalet, to give him charity. The word gimel is derived f..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137075/jewish/Gimmel.htm",
+                        "title": "Gimmel - The third letter of the Hebrew alphabet - Chabad.org",
+                        "text": "The third letter of the Hebrew alphabet * Gimmel (ג) is the third letter of the Hebrew alphabet. * Numerical value: 3. * Sound: \"G\" * Meaning: 1. nourish 2. wea..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/kabbalah/article_cdo/aid/380533/jewish/The-Letter-Gimel.htm",
+                        "title": "The Letter Gimel - The 3rd letter of the alef-bet teaches us about reward and punishment - Chabad.org",
+                        "text": "Letter Gimel: Third alef-bet letter symbolizing gemul (reward and punishment), free choice, and a rich man running to give charity to a poor man (dalet), aiming..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew Today",
+                        "domain": "hebrewtoday.com",
+                        "url": "https://hebrewtoday.com/alphabet/the-hebrew-letter-gimel-%D7%92/",
+                        "title": "The Hebrew Letter Gimel (ג) - Hebrew Today",
+                        "text": "Linguistics: Gimel is the third Hebrew letter (numerical value 3); source of Greek Gamma and English C and G; generally pronounced as 'G' in 'gap' (Yemenite 'J'"
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=06kaFTl542U",
+                        "title": "Gimel (ג): Movement and Provision | Lesson 3 (Remastered)",
+                        "text": "Gimel (ג): Movement and Provision | Lesson 3 (Remastered) this is episode three in the exploring the Hebrew letters. course if you'd like to go deeper as you mo..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Would you like to learn about the next letter (Dalet) or see examples of Hebrew words that start with Gimmel?",
+                    "markdown": "Would you like to learn about the **next letter (Dalet)** or see examples of **Hebrew words** that start with Gimmel?",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  }
+                ],
+                "references": [
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Chabad",
+                    "domain": "www.chabad.org",
+                    "url": "https://www.chabad.org/library/article_cdo/aid/137075/jewish/Gimmel.htm",
+                    "title": "Gimmel - The third letter of the Hebrew alphabet - Chabad.org",
+                    "text": "The third letter of the Hebrew alphabet * Gimmel (ג) is the third letter of the Hebrew alphabet. * Numerical value: 3. * Sound: \"G\" * Meaning: 1. nourish 2. wea..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/watch?v=9JWCZgLNUnw",
+                    "title": "Hebrew Alphabet - Letter Gimmel - ג",
+                    "text": "Hebrew Alphabet - Letter Gimmel - ג shalom and welcome back to Hebrew in the House. this week we'll learn the letter Gimmel. can you say gimmel. what sound does..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Chabad",
+                    "domain": "www.chabad.org",
+                    "url": "https://www.chabad.org/kabbalah/article_cdo/aid/380533/jewish/The-Letter-Gimel.htm",
+                    "title": "The Letter Gimel - The 3rd letter of the alef-bet teaches us about reward and punishment - Chabad.org",
+                    "text": "Letter Gimel: Third alef-bet letter symbolizing gemul (reward and punishment), free choice, and a rich man running to give charity to a poor man (dalet), aiming..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Gal Einai",
+                    "domain": "inner.org",
+                    "url": "https://inner.org/hebleter/gimmel.htm",
+                    "title": "The Hebrew Letters: Gimmel",
+                    "text": "Reward and Punishment Our Sages teach that the gimel symbolizes a rich man running after a poor man, the dalet, to give him charity. The word gimel is derived f..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Hebrew Today",
+                    "domain": "hebrewtoday.com",
+                    "url": "https://hebrewtoday.com/alphabet/the-hebrew-letter-gimel-%D7%92/",
+                    "title": "The Hebrew Letter Gimel (ג) - Hebrew Today",
+                    "text": "Linguistics: Gimel is the third Hebrew letter (numerical value 3); source of Greek Gamma and English C and G; generally pronounced as 'G' in 'gap' (Yemenite 'J'"
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "WordPress.com",
+                    "domain": "mazorbooks.wordpress.com",
+                    "url": "https://mazorbooks.wordpress.com/2020/10/07/gimel/",
+                    "title": "Hebrew for Kids: The Letter Gimel (9) - MazorBooks - WordPress.com",
+                    "text": "GIMEL is the third letter of the Hebrew Alphabet. The numerical value of GIMEL is 3; In modern Hebrew, the frequency usage of the letter GIMEL is 1.26%. The sou..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/watch?v=06kaFTl542U",
+                    "title": "Gimel (ג): Movement and Provision | Lesson 3 (Remastered)",
+                    "text": "Gimel (ג): Movement and Provision | Lesson 3 (Remastered) this is episode three in the exploring the Hebrew letters. course if you'd like to go deeper as you mo..."
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "images",
+                "rank_group": 1,
+                "rank_absolute": 2,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]",
+                "title": "Images",
+                "url": null,
+                "items": [
+                  {
+                    "type": "images_element",
+                    "alt": "Gimmel - The third letter of the Hebrew alphabet - Chabad.org",
+                    "url": "https://www.chabad.org/library/article_cdo/aid/137075/jewish/Gimmel.htm",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110522-2762-0139-0000-df56fb4c6020:5"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "Letter Gimel Black Hebrew Alphabet Letter",
+                    "url": "https://www.shutterstock.com/image-vector/letter-gimel-black-hebrew-alphabet-isolated-537743554",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110522-2762-0139-0000-df56fb4c6020:6"
+                  }
+                ],
+                "related_image_searches": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 1,
+                "rank_absolute": 3,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[4]/div[1]/div[1]",
+                "domain": "www.youtube.com",
+                "title": "Hebrew Alphabet- Gimel, Dalet, Hey ג,ד,ה #shorts #learnhebrew #hebrew",
+                "url": "https://www.youtube.com/shorts/FvYI1ey5D2w",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "7K+ views",
+                "website_name": "YouTube · The WORD in HEBREW",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "Learn the Hebrew Alphabet! Simplified teaching method to make it easy and fun for anyone to learn Hebrew Pronunciation and Hebrew reading.",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2023-10-11 05:22:20 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "people_also_ask",
+                "rank_group": 1,
+                "rank_absolute": 4,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]",
+                "items": [
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What is the fifth letter in Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[1]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What is the definition of gimel?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[2]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does \"yada yada\" mean in Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[3]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does the Hebrew alphabet mean in Psalm 119?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[4]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "people_also_search",
+                "rank_group": 1,
+                "rank_absolute": 5,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[8]",
+                "title": "People also search for",
+                "items": [
+                  "Gimel hebrew letter words",
+                  "Gimel hebrew letter meaning",
+                  "Gimel hebrew letter pronunciation",
+                  "Gimel meaning in the Bible",
+                  "Gimel meaning in the Bible Psalm 119",
+                  "Hebrew alphabet"
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "video",
+                "rank_group": 1,
+                "rank_absolute": 6,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[10]",
+                "items": [
+                  {
+                    "type": "video_element",
+                    "source": "Learn Hebrew with HebrewPod101.com",
+                    "title": "Learn Hebrew Alphabet #3 - ג (gimel)",
+                    "timestamp": "2026-03-10 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/shorts/urfcbH4oTlI"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Stefy Kefy",
+                    "title": "Hebrew Alphabet - Letter Gimmel - ג",
+                    "timestamp": "2024-09-20 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=9JWCZgLNUnw"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "El Shaddai Ministries",
+                    "title": "the Hebrew letter: Gimel",
+                    "timestamp": "2023-07-23 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=6Nr4pXBFfw4"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "The Local Dreamer Podcast",
+                    "title": "Gimel (ג): Movement and Provision | Lesson 3 (Remastered)",
+                    "timestamp": "2026-04-15 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=06kaFTl542U"
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 2,
+                "rank_absolute": 7,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[12]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.quora.com",
+                "title": "What does Gimel mean in the Bible?",
+                "url": "https://www.quora.com/What-does-Gimel-mean-in-the-Bible",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "50+ answers",
+                "website_name": "Quora",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "What does Gimel mean in the Bible?",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": [
+                  {
+                    "type": "link_element",
+                    "title": "The Hebrew term גמר, transliterated Gomer, literally means \"complete.\" It is derived ...",
+                    "description": "Top answer · 7 votes",
+                    "url": "https://www.quora.com/What-does-Gimel-mean-in-the-Bible?top_ans=261147456",
+                    "domain": "www.quora.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Beth-El means House of God.\n\nBeth means house, and you will see it in other names of places ...",
+                    "description": "4 votes",
+                    "url": "https://www.quora.com/What-does-Gimel-mean-in-the-Bible?top_ans=182651241",
+                    "domain": "www.quora.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Psalm 119 is an acrostic psalm, it is written in sections, with each verse of each section ...",
+                    "description": "4 votes",
+                    "url": "https://www.quora.com/What-does-Gimel-mean-in-the-Bible?top_ans=285047666",
+                    "domain": "www.quora.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "House of God. It was given to the Rock that Jacob slept on when he saw the Ladder going up to ...",
+                    "description": "2 votes",
+                    "url": "https://www.quora.com/What-does-Gimel-mean-in-the-Bible?top_ans=182641391",
+                    "domain": "www.quora.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "The third letter in the Hebrew alphabet. It is the softest of the palatal letters except for ...",
+                    "description": "1 vote",
+                    "url": "https://www.quora.com/What-does-Gimel-mean-in-the-Bible?top_ans=347199785",
+                    "domain": "www.quora.com"
+                  }
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2022-10-11 05:22:20 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 3,
+                "rank_absolute": 8,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "asianbeacon.org",
+                "title": "Study #1: GIMEL",
+                "url": "https://asianbeacon.org/2018/06/19/study-1-gimel/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://asianbeacon.org",
+                "website_name": "Asian Beacon",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "This is the 3rd letter of the Hebrew Alphabet. It is spelt as GML in Hebrew ( Gimel Mem Lamed) and bears three basic meanings: 1. GOING FORWARD ...",
+                "pre_snippet": "06/19/2018 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": [
+                  "gimel meaning",
+                  "gimel meaning",
+                  "gimel meaning in the",
+                  "hebrew",
+                  "gimel pronunciation",
+                  "daleth meaning",
+                  "daleth meaning",
+                  "hey hebrew"
+                ],
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2018-06-19 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 4,
+                "rank_absolute": 9,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[16]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.merriam-webster.com",
+                "title": "GIMEL Definition & Meaning",
+                "url": "https://www.merriam-webster.com/dictionary/gimel",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.merriam-webster.com",
+                "website_name": "Merriam-Webster",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "The meaning of GIMEL is the 3rd letter of the Hebrew alphabet. First Known Use circa 1567, in the meaning defined above Time Traveler",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "the 3rd letter of the Hebrew alphabet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 5,
+                "rank_absolute": 10,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[17]/div[1]/div[1]",
+                "domain": "www.youtube.com",
+                "title": "How To Say Gimel",
+                "url": "https://www.youtube.com/watch?v=Wp7SH2Ak6Rk",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "6.7K+ views",
+                "website_name": "YouTube · Emma Saying",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "Learn how to say Gimel with EmmaSaying free pronunciation tutorials. Hebrew Letter - GIMEL Truth Matters•5.2K",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": [
+                  {
+                    "type": "link_element",
+                    "title": "1:03",
+                    "description": null,
+                    "url": "https://www.youtube.com/watch?v=Wp7SH2Ak6Rk",
+                    "domain": "www.youtube.com"
+                  }
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2017-10-11 05:22:20 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 6,
+                "rank_absolute": 11,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "judaicaworld.wordpress.com",
+                "title": "Series on Hebrew Alphabet #4-Gimel - JudaicaWorld archives",
+                "url": "https://judaicaworld.wordpress.com/series-on-hebrew-alphabet-4-gimel/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://judaicaworld.wordpress.com",
+                "website_name": "WordPress.com",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "The gimel is the third of the 3 pillars or principles which form the blueprint of Jewish lives: Aleph stands for Torah study to learn wisdom (Job 33:33). The ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "The gimel is the third of the 3 pillars or principles"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 7,
+                "rank_absolute": 12,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[21]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.scribd.com",
+                "title": "Understanding the Hebrew Letter Gimel | PDF | Planets In Astrology | Mind",
+                "url": "https://www.scribd.com/document/370398285/Gimel2",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.scribd.com",
+                "website_name": "Scribd",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Gimel is the third letter of the Hebrew alphabet. It represents giving to those in need, like water flowing downhill or a parent giving to a child.",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Gimel is the third letter of the Hebrew alphabet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "people_also_search",
+                "rank_group": 2,
+                "rank_absolute": 13,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[4]/div[1]/div[3]/div[1]",
+                "title": "People also search for",
+                "items": [
+                  "Daleth meaning in the Bible",
+                  "Daleth meaning in Hebrew",
+                  "Hey Hebrew meaning",
+                  "Gimel meaning dreidel"
+                ],
+                "rectangle": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

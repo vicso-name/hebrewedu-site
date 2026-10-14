@@ -1,0 +1,248 @@
+{
+  "schema_version": 1,
+  "planning_only": true,
+  "letters": [
+    {
+      "source_lesson_id": 1,
+      "order": 1,
+      "letter": "א",
+      "slug": "aleph",
+      "proposed_url": "https://hebrewedu.com/learn/hebrew-alphabet/aleph/",
+      "identity_evidence": "lesson_1_detail_observed",
+      "content_status": "detail_sampled_review_pending",
+      "publication_status": "planned_not_implemented",
+      "source_description_correction": null
+    },
+    {
+      "source_lesson_id": 2,
+      "order": 2,
+      "letter": "ב",
+      "slug": "bet",
+      "proposed_url": "https://hebrewedu.com/learn/hebrew-alphabet/bet/",
+      "identity_evidence": "list_description; detail_uninspected",
+      "content_status": "detail_not_fetched",
+      "publication_status": "planned_not_implemented",
+      "source_description_correction": null
+    },
+    {
+      "source_lesson_id": 3,
+      "order": 3,
+      "letter": "ג",
+      "slug": "gimel",
+      "proposed_url": "https://hebrewedu.com/learn/hebrew-alphabet/gimel/",
+      "identity_evidence": "list_description; detail_uninspected",
+      "content_status": "detail_not_fetched",
+      "publication_status": "planned_not_implemented",
+      "source_description_correction": null
+    },
+    {
+      "source_lesson_id": 4,
+      "order": 4,
+      "letter": "ד",
+      "slug": "dalet",
+      "proposed_url": "https://hebrewedu.com/learn/hebrew-alphabet/dalet/",
+      "identity_evidence": "product_owner_confirmed_2026-10-11",
+      "content_status": "detail_not_fetched",
+      "publication_status": "planned_not_implemented",
+      "source_description_correction": "owner_will_correct; do_not_reinvestigate"
+    },
+    {
+      "source_lesson_id": 5,
+      "order": 5,
+      "letter": "ה",
+      "slug": "he",
+      "proposed_url": "https://hebrewedu.com/learn/hebrew-alphabet/he/",
+      "identity_evidence": "list_description; detail_uninspected",
+      "content_status": "detail_not_fetched",
+      "publication_status": "planned_not_implemented",
+      "source_description_correction": null
+    },
+    {
+      "source_lesson_id": 6,
+      "order": 6,
+      "letter": "ו",
+      "slug": "vav",
+      "proposed_url": "https://hebrewedu.com/learn/hebrew-alphabet/vav/",
+      "identity_evidence": "list_description; detail_uninspected",
+      "content_status": "detail_not_fetched",
+      "publication_status": "planned_not_implemented",
+      "source_description_correction": null
+    },
+    {
+      "source_lesson_id": 7,
+      "order": 7,
+      "letter": "ז",
+      "slug": "zayin",
+      "proposed_url": "https://hebrewedu.com/learn/hebrew-alphabet/zayin/",
+      "identity_evidence": "list_description; detail_uninspected",
+      "content_status": "detail_not_fetched",
+      "publication_status": "planned_not_implemented",
+      "source_description_correction": null
+    },
+    {
+      "source_lesson_id": 8,
+      "order": 8,
+      "letter": "ח",
+      "slug": "chet",
+      "proposed_url": "https://hebrewedu.com/learn/hebrew-alphabet/chet/",
+      "identity_evidence": "list_description; detail_uninspected",
+      "content_status": "detail_not_fetched",
+      "publication_status": "planned_not_implemented",
+      "source_description_correction": null
+    },
+    {
+      "source_lesson_id": 9,
+      "order": 9,
+      "letter": "ט",
+      "slug": "tet",
+      "proposed_url": "https://hebrewedu.com/learn/hebrew-alphabet/tet/",
+      "identity_evidence": "list_description; detail_uninspected",
+      "content_status": "detail_not_fetched",
+      "publication_status": "planned_not_implemented",
+      "source_description_correction": null
+    },
+    {
+      "source_lesson_id": 10,
+      "order": 10,
+      "letter": "י",
+      "slug": "yod",
+      "proposed_url": "https://hebrewedu.com/learn/hebrew-alphabet/yod/",
+      "identity_evidence": "list_description; detail_uninspected",
+      "content_status": "detail_not_fetched",
+      "publication_status": "planned_not_implemented",
+      "source_description_correction": null
+    },
+    {
+      "source_lesson_id": 11,
+      "order": 11,
+      "letter": "כ",
+      "slug": "kaf",
+      "proposed_url": "https://hebrewedu.com/learn/hebrew-alphabet/kaf/",
+      "identity_evidence": "list_description; detail_uninspected",
+      "content_status": "detail_not_fetched",
+      "publication_status": "planned_not_implemented",
+      "source_description_correction": null
+    },
+    {
+      "source_lesson_id": 12,
+      "order": 12,
+      "letter": "ל",
+      "slug": "lamed",
+      "proposed_url": "https://hebrewedu.com/learn/hebrew-alphabet/lamed/",
+      "identity_evidence": "list_description; detail_uninspected",
+      "content_status": "detail_not_fetched",
+      "publication_status": "planned_not_implemented",
+      "source_description_correction": null
+    },
+    {
+      "source_lesson_id": 13,
+      "order": 13,
+      "letter": "מ",
+      "slug": "mem",
+      "proposed_url": "https://hebrewedu.com/learn/hebrew-alphabet/mem/",
+      "identity_evidence": "list_description; detail_uninspected",
+      "content_status": "detail_not_fetched",
+      "publication_status": "planned_not_implemented",
+      "source_description_correction": null
+    },
+    {
+      "source_lesson_id": 14,
+      "order": 14,
+      "letter": "נ",
+      "slug": "nun",
+      "proposed_url": "https://hebrewedu.com/learn/hebrew-alphabet/nun/",
+      "identity_evidence": "list_description; detail_uninspected",
+      "content_status": "detail_not_fetched",
+      "publication_status": "planned_not_implemented",
+      "source_description_correction": null
+    },
+    {
+      "source_lesson_id": 15,
+      "order": 15,
+      "letter": "ס",
+      "slug": "samekh",
+      "proposed_url": "https://hebrewedu.com/learn/hebrew-alphabet/samekh/",
+      "identity_evidence": "list_description; detail_uninspected",
+      "content_status": "detail_not_fetched",
+      "publication_status": "planned_not_implemented",
+      "source_description_correction": null
+    },
+    {
+      "source_lesson_id": 16,
+      "order": 16,
+      "letter": "ע",
+      "slug": "ayin",
+      "proposed_url": "https://hebrewedu.com/learn/hebrew-alphabet/ayin/",
+      "identity_evidence": "list_description; detail_uninspected",
+      "content_status": "detail_not_fetched",
+      "publication_status": "planned_not_implemented",
+      "source_description_correction": null
+    },
+    {
+      "source_lesson_id": 17,
+      "order": 17,
+      "letter": "פ",
+      "slug": "pe",
+      "proposed_url": "https://hebrewedu.com/learn/hebrew-alphabet/pe/",
+      "identity_evidence": "list_description; detail_uninspected",
+      "content_status": "detail_not_fetched",
+      "publication_status": "planned_not_implemented",
+      "source_description_correction": null
+    },
+    {
+      "source_lesson_id": 18,
+      "order": 18,
+      "letter": "צ",
+      "slug": "tsadi",
+      "proposed_url": "https://hebrewedu.com/learn/hebrew-alphabet/tsadi/",
+      "identity_evidence": "list_description; detail_uninspected",
+      "content_status": "detail_not_fetched",
+      "publication_status": "planned_not_implemented",
+      "source_description_correction": null
+    },
+    {
+      "source_lesson_id": 19,
+      "order": 19,
+      "letter": "ק",
+      "slug": "qof",
+      "proposed_url": "https://hebrewedu.com/learn/hebrew-alphabet/qof/",
+      "identity_evidence": "list_description; detail_uninspected",
+      "content_status": "detail_not_fetched",
+      "publication_status": "planned_not_implemented",
+      "source_description_correction": null
+    },
+    {
+      "source_lesson_id": 20,
+      "order": 20,
+      "letter": "ר",
+      "slug": "resh",
+      "proposed_url": "https://hebrewedu.com/learn/hebrew-alphabet/resh/",
+      "identity_evidence": "list_description; detail_uninspected",
+      "content_status": "detail_not_fetched",
+      "publication_status": "planned_not_implemented",
+      "source_description_correction": null
+    },
+    {
+      "source_lesson_id": 21,
+      "order": 21,
+      "letter": "ש",
+      "slug": "shin",
+      "proposed_url": "https://hebrewedu.com/learn/hebrew-alphabet/shin/",
+      "identity_evidence": "list_description; detail_uninspected",
+      "content_status": "detail_not_fetched",
+      "publication_status": "planned_not_implemented",
+      "source_description_correction": null
+    },
+    {
+      "source_lesson_id": 22,
+      "order": 22,
+      "letter": "ת",
+      "slug": "tav",
+      "proposed_url": "https://hebrewedu.com/learn/hebrew-alphabet/tav/",
+      "identity_evidence": "list_description; detail_uninspected",
+      "content_status": "detail_not_fetched",
+      "publication_status": "planned_not_implemented",
+      "source_description_correction": null
+    }
+  ]
+}

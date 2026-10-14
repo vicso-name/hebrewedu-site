@@ -1,0 +1,601 @@
+{
+  "keyword": "hebrew alphabet app",
+  "target_url": "https://hebrewedu.com/",
+  "actual_url": "https://hebrewedu.com/",
+  "organic_rank": 7,
+  "observed_at": "2026-10-10 13:10:55 +00:00",
+  "config": {
+    "search_engine": "google",
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "mobile",
+    "os": "android",
+    "depth": 10
+  },
+  "api_task_id": "10101310-2762-0139-0000-e637500a8716",
+  "note": "Single SERP pilot observation at depth 10; not a stable rank-tracking baseline. Excluded from depth-20 run history and comparisons.",
+  "source_file": "../serp-pilot-raw.json",
+  "source_sha256": "52b878667d2bbce5effa0781b889e17bd041d1b74f2b4bdabac18e3513c0c94d",
+  "provider_response": {
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "4.9136 sec.",
+    "cost": 0.002,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "10101310-2762-0139-0000-e637500a8716",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "4.8214 sec.",
+        "cost": 0.002,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "serp",
+          "google",
+          "organic",
+          "live",
+          "advanced"
+        ],
+        "data": {
+          "api": "serp",
+          "function": "live",
+          "se": "google",
+          "se_type": "organic",
+          "keyword": "hebrew alphabet app",
+          "location_code": 2840,
+          "language_code": "en",
+          "device": "mobile",
+          "os": "android",
+          "depth": 10
+        },
+        "result": [
+          {
+            "keyword": "hebrew alphabet app",
+            "type": "organic",
+            "se_domain": "google.com",
+            "location_code": 2840,
+            "language_code": "en",
+            "check_url": "https://www.google.com/search?q=hebrew%20alphabet%20app&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+            "datetime": "2026-10-10 13:10:55 +00:00",
+            "spell": null,
+            "refinement_chips": null,
+            "item_types": [
+              "app",
+              "ai_overview",
+              "people_also_search",
+              "organic",
+              "people_also_ask"
+            ],
+            "se_results_count": 0,
+            "pages_count": 1,
+            "items_count": 13,
+            "items": [
+              {
+                "type": "app",
+                "rank_group": 1,
+                "rank_absolute": 1,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[1]",
+                "items": [
+                  {
+                    "type": "app_element",
+                    "title": "Write It! Hebrew",
+                    "description": "Educational · Language · Casual",
+                    "url": "https://play.google.com/store/apps/details?id=com.jernung.writeit.heb&hl=en_US&referrer=utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_term%3Dhebrew+alphabet+app&pcampaignid=APPU_1_XDnKaqagOLqjqtsPst3xqAs",
+                    "price": null
+                  },
+                  {
+                    "type": "app_element",
+                    "title": "Hebrew alphabet writing",
+                    "description": "Games",
+                    "url": "https://play.google.com/store/apps/details?id=com.banuchanderjj.tracer.hebrew&hl=en_US&referrer=utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_term%3Dhebrew+alphabet+app&pcampaignid=APPU_1_XDnKaqagOLqjqtsPst3xqAs",
+                    "price": null
+                  },
+                  {
+                    "type": "app_element",
+                    "title": "Learn Hebrew Alphabet",
+                    "description": "Education",
+                    "url": "https://play.google.com/store/apps/details?id=com.yuly.learnhebrew&hl=en_US&referrer=utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_term%3Dhebrew+alphabet+app&pcampaignid=APPU_1_XDnKaqagOLqjqtsPst3xqAs",
+                    "price": null
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "ai_overview",
+                "rank_group": 1,
+                "rank_absolute": 2,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[3]/div[1]",
+                "asynchronous_ai_overview": true,
+                "markdown": null,
+                "items": null,
+                "references": null,
+                "rectangle": null
+              },
+              {
+                "type": "people_also_search",
+                "rank_group": 1,
+                "rank_absolute": 3,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]",
+                "title": "People also search for",
+                "items": [
+                  "Hebrew alphabet app download",
+                  "Hebrew learning app free",
+                  "Free hebrew alphabet app",
+                  "Best apps to learn Hebrew for free",
+                  "Best hebrew alphabet app",
+                  "Biblical Hebrew learning app"
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 1,
+                "rank_absolute": 4,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "hebrew-alphabet-hebrew-letters-writing.soft112.com",
+                "title": "Hebrew Alphabet, Hebrew Letter 3.1 Free Download",
+                "url": "https://hebrew-alphabet-hebrew-letters-writing.soft112.com/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://hebrew-alphabet-hebrew-letters-writing.soft112.com",
+                "website_name": "Soft112",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Hebrew Alphabet, Hebrew Letter is a free app for Android published in the Teaching & Training Tools list of apps, part of Education. The company that develops ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Hebrew Alphabet, Hebrew Letter"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": [
+                  "hebrew learning",
+                  "best apps to learn",
+                  "best app to learn",
+                  "biblical hebrew",
+                  "hebrew learning",
+                  "wordbit",
+                  "best biblical",
+                  "best hebrew learning"
+                ],
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 2,
+                "rank_absolute": 5,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "noamshebrew.com",
+                "title": "Learning Hebrew With Apps - Best Tools My Students Use Daily",
+                "url": "https://noamshebrew.com/learning-hebrew-with-apps-what-my-students-really-use-%F0%9F%93%B1/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://noamshebrew.com",
+                "website_name": "Noam's Hebrew",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "May 7, 2025 — Top apps for learning Hebrew that my students rely on to improve vocabulary, pronunciation, and reading. Ideal for individuals and groups.",
+                "pre_snippet": "05/07/2025 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Top apps for learning Hebrew"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": [
+                  "hebrew learning",
+                  "best apps to learn",
+                  "best app to learn",
+                  "biblical hebrew",
+                  "hebrew learning",
+                  "wordbit",
+                  "best biblical",
+                  "best hebrew learning"
+                ],
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2025-05-07 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "people_also_ask",
+                "rank_group": 1,
+                "rank_absolute": 6,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[11]/div[1]",
+                "items": [
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What is the best app to learn to read Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[11]/div[1]/div[2]/div[2]/div[1]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What alphabet does Hebrew use?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[11]/div[1]/div[2]/div[2]/div[2]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "Is there Hebrew on Duolingo?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[11]/div[1]/div[2]/div[2]/div[3]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "How to get a Hebrew keyboard?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[11]/div[1]/div[2]/div[2]/div[4]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 3,
+                "rank_absolute": 7,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[13]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.reddit.com",
+                "title": "In your opinion, what are the best apps or programs for learning Hebrew?",
+                "url": "https://www.reddit.com/r/hebrew/comments/18xxfbr/in_your_opinion_what_are_the_best_apps_or/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "10+ comments",
+                "website_name": "Reddit · r/hebrew",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "I feel like there are a million apps for learning Spanish and Italian and French and so on. I don't see many mainstream offerings for things like Hebrew. ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": [
+                  {
+                    "type": "link_element",
+                    "title": "recommended apps or programs to learn Hebrew? : r/Judaism - Redditr/Judaism·10+ comments·7y",
+                    "description": null,
+                    "url": "https://www.reddit.com/r/Judaism/comments/deo9dq/recommended_apps_or_programs_to_learn_hebrew/",
+                    "domain": "www.reddit.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Good app for learning Hebrew? : r/Judaism - Redditr/Judaism·10+ comments·1y",
+                    "description": null,
+                    "url": "https://www.reddit.com/r/Judaism/comments/1na82ji/good_app_for_learning_hebrew/",
+                    "domain": "www.reddit.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Pimsleur",
+                    "description": "Top answer · 9 votes",
+                    "url": "https://www.reddit.com/r/hebrew/comments/18xxfbr/in_your_opinion_what_are_the_best_apps_or/kg8r03d/",
+                    "domain": "www.reddit.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "There are no great apps for Hebrew. Duolingo is ok, but very limited. If you are really interested ...",
+                    "description": "4 votes",
+                    "url": "https://www.reddit.com/r/hebrew/comments/18xxfbr/in_your_opinion_what_are_the_best_apps_or/kg980t4/",
+                    "domain": "www.reddit.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "I'd recommend a mixture of tools for best results. For example I've been using Duolingo as ...",
+                    "description": "3 votes",
+                    "url": "https://www.reddit.com/r/hebrew/comments/18xxfbr/in_your_opinion_what_are_the_best_apps_or/kg9hi66/",
+                    "domain": "www.reddit.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "The El Al app.",
+                    "description": "2 votes",
+                    "url": "https://www.reddit.com/r/hebrew/comments/18xxfbr/in_your_opinion_what_are_the_best_apps_or/kg7a89t/",
+                    "domain": "www.reddit.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "I'm using Assimil and Pimsleur.",
+                    "description": "1 vote",
+                    "url": "https://www.reddit.com/r/hebrew/comments/18xxfbr/in_your_opinion_what_are_the_best_apps_or/kg9fsjc/",
+                    "domain": "www.reddit.com"
+                  }
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2024-10-10 13:10:54 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 4,
+                "rank_absolute": 8,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.facebook.com",
+                "title": "What are good Hebrew writing apps with alphabet practice?",
+                "url": "https://www.facebook.com/groups/secrettelaviv/posts/10154864977290943/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "20+ comments",
+                "website_name": "Facebook · Secret Tel Aviv",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Just thought l'd share this app I found helpful for learning the Hebrew alphabet this week. \"Write It! Hebrew\". I see they have versions for a ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Just thought l'd share this app I found helpful for learning the Hebrew alphabet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2017-10-10 13:10:54 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 5,
+                "rank_absolute": 9,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[17]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.itsbaba.com",
+                "title": "5 Best Hebrew Learning Apps Compared (2026)",
+                "url": "https://www.itsbaba.com/blog/5-best-hebrew-learning-apps-compared",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.itsbaba.com",
+                "website_name": "baba Hebrew Translator",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Mar 4, 2026 — Duolingo's Hebrew course provides an interactive, game-like way to learn Hebrew. It starts with the basics, like the alphabet, and gradually ...",
+                "pre_snippet": "03/04/2026 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "provides an interactive, game-like way to learn Hebrew"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2026-03-04 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 6,
+                "rank_absolute": 10,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "learn-hebrew-yuly-pisinberg.en.aptoide.com",
+                "title": "Learn Hebrew Alphabet - APK Download for Android",
+                "url": "https://learn-hebrew-yuly-pisinberg.en.aptoide.com/app",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://learn-hebrew-yuly-pisinberg.en.aptoide.com",
+                "website_name": "Aptoide",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Jan 23, 2026 — Learn Hebrew Alphabet App is intended to help you learn the Hebrew Alphabet quickly and easily using visual and Audio combined for quick ...",
+                "pre_snippet": "01/23/2026 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Learn Hebrew Alphabet App"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2026-01-23 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 7,
+                "rank_absolute": 11,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[21]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "hebrewedu.com",
+                "title": "Learn the Hebrew Alphabet & Read Hebrew | HebrewEdu",
+                "url": "https://hebrewedu.com/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://hebrewedu.com",
+                "website_name": "hebrewedu.com",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Learn the Hebrew alphabet step by step, practise vocabulary and verbs, and start reading beginner Hebrew with audio and translation.",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Learn the Hebrew alphabet step by step"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 8,
+                "rank_absolute": 12,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[23]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "hebrew-alphabet-writing.soft112.com",
+                "title": "Hebrew alphabet writing 3.8.11 Free Download",
+                "url": "https://hebrew-alphabet-writing.soft112.com/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://hebrew-alphabet-writing.soft112.com",
+                "website_name": "Soft112",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "This App will help young learn to write Hebrew Alphabets And Consonants in engaging, intuitive, and fun way. This App provides a step-by-step Line Segment ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "young learn to write Hebrew Alphabets And Consonants"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "people_also_search",
+                "rank_group": 2,
+                "rank_absolute": 13,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[4]/div[1]/div[3]/div[1]",
+                "title": "People also search for",
+                "items": [
+                  "Hebrew learning app for kids",
+                  "WordBit Hebrew app",
+                  "Best Biblical Hebrew learning app",
+                  "Best Hebrew learning app for kids",
+                  "Best Hebrew learning app reddit"
+                ],
+                "rectangle": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "raw_provider_response_text": "{\n  \"version\": \"0.1.20260917\",\n  \"status_code\": 20000,\n  \"status_message\": \"Ok.\",\n  \"time\": \"4.9136 sec.\",\n  \"cost\": 0.002,\n  \"tasks_count\": 1,\n  \"tasks_error\": 0,\n  \"tasks\": [\n    {\n      \"id\": \"10101310-2762-0139-0000-e637500a8716\",\n      \"status_code\": 20000,\n      \"status_message\": \"Ok.\",\n      \"time\": \"4.8214 sec.\",\n      \"cost\": 0.002,\n      \"result_count\": 1,\n      \"path\": [\n        \"v3\",\n        \"serp\",\n        \"google\",\n        \"organic\",\n        \"live\",\n        \"advanced\"\n      ],\n      \"data\": {\n        \"api\": \"serp\",\n        \"function\": \"live\",\n        \"se\": \"google\",\n        \"se_type\": \"organic\",\n        \"keyword\": \"hebrew alphabet app\",\n        \"location_code\": 2840,\n        \"language_code\": \"en\",\n        \"device\": \"mobile\",\n        \"os\": \"android\",\n        \"depth\": 10\n      },\n      \"result\": [\n        {\n          \"keyword\": \"hebrew alphabet app\",\n          \"type\": \"organic\",\n          \"se_domain\": \"google.com\",\n          \"location_code\": 2840,\n          \"language_code\": \"en\",\n          \"check_url\": \"https://www.google.com/search?q=hebrew%20alphabet%20app&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc\",\n          \"datetime\": \"2026-10-10 13:10:55 +00:00\",\n          \"spell\": null,\n          \"refinement_chips\": null,\n          \"item_types\": [\n            \"app\",\n            \"ai_overview\",\n            \"people_also_search\",\n            \"organic\",\n            \"people_also_ask\"\n          ],\n          \"se_results_count\": 0,\n          \"pages_count\": 1,\n          \"items_count\": 13,\n          \"items\": [\n            {\n              \"type\": \"app\",\n              \"rank_group\": 1,\n              \"rank_absolute\": 1,\n              \"page\": 1,\n              \"position\": \"left\",\n              \"xpath\": \"/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[1]\",\n              \"items\": [\n                {\n                  \"type\": \"app_element\",\n                  \"title\": \"Write It! Hebrew\",\n                  \"description\": \"Educational · Language · Casual\",\n                  \"url\": \"https://play.google.com/store/apps/details?id=com.jernung.writeit.heb&hl=en_US&referrer=utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_term%3Dhebrew+alphabet+app&pcampaignid=APPU_1_XDnKaqagOLqjqtsPst3xqAs\",\n                  \"price\": null\n                },\n                {\n                  \"type\": \"app_element\",\n                  \"title\": \"Hebrew alphabet writing\",\n                  \"description\": \"Games\",\n                  \"url\": \"https://play.google.com/store/apps/details?id=com.banuchanderjj.tracer.hebrew&hl=en_US&referrer=utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_term%3Dhebrew+alphabet+app&pcampaignid=APPU_1_XDnKaqagOLqjqtsPst3xqAs\",\n                  \"price\": null\n                },\n                {\n                  \"type\": \"app_element\",\n                  \"title\": \"Learn Hebrew Alphabet\",\n                  \"description\": \"Education\",\n                  \"url\": \"https://play.google.com/store/apps/details?id=com.yuly.learnhebrew&hl=en_US&referrer=utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_term%3Dhebrew+alphabet+app&pcampaignid=APPU_1_XDnKaqagOLqjqtsPst3xqAs\",\n                  \"price\": null\n                }\n              ],\n              \"rectangle\": null\n            },\n            {\n              \"type\": \"ai_overview\",\n              \"rank_group\": 1,\n              \"rank_absolute\": 2,\n              \"page\": 1,\n              \"position\": \"left\",\n              \"xpath\": \"/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[3]/div[1]\",\n              \"asynchronous_ai_overview\": true,\n              \"markdown\": null,\n              \"items\": null,\n              \"references\": null,\n              \"rectangle\": null\n            },\n            {\n              \"type\": \"people_also_search\",\n              \"rank_group\": 1,\n              \"rank_absolute\": 3,\n              \"page\": 1,\n              \"position\": \"left\",\n              \"xpath\": \"/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]\",\n              \"title\": \"People also search for\",\n              \"items\": [\n                \"Hebrew alphabet app download\",\n                \"Hebrew learning app free\",\n                \"Free hebrew alphabet app\",\n                \"Best apps to learn Hebrew for free\",\n                \"Best hebrew alphabet app\",\n                \"Biblical Hebrew learning app\"\n              ],\n              \"rectangle\": null\n            },\n            {\n              \"type\": \"organic\",\n              \"rank_group\": 1,\n              \"rank_absolute\": 4,\n              \"page\": 1,\n              \"position\": \"left\",\n              \"xpath\": \"/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]\",\n              \"domain\": \"hebrew-alphabet-hebrew-letters-writing.soft112.com\",\n              \"title\": \"Hebrew Alphabet, Hebrew Letter 3.1 Free Download\",\n              \"url\": \"https://hebrew-alphabet-hebrew-letters-writing.soft112.com/\",\n              \"cache_url\": null,\n              \"related_search_url\": null,\n              \"breadcrumb\": \"https://hebrew-alphabet-hebrew-letters-writing.soft112.com\",\n              \"website_name\": \"Soft112\",\n              \"is_image\": false,\n              \"is_video\": false,\n              \"is_featured_snippet\": false,\n              \"is_malicious\": false,\n              \"is_web_story\": false,\n              \"checks\": null,\n              \"description\": \"Hebrew Alphabet, Hebrew Letter is a free app for Android published in the Teaching & Training Tools list of apps, part of Education. The company that develops ...\",\n              \"pre_snippet\": null,\n              \"extended_snippet\": null,\n              \"images\": null,\n              \"amp_version\": false,\n              \"rating\": null,\n              \"price\": null,\n              \"highlighted\": [\n                \"Hebrew Alphabet, Hebrew Letter\"\n              ],\n              \"links\": null,\n              \"faq\": null,\n              \"extended_people_also_search\": [\n                \"hebrew learning\",\n                \"best apps to learn\",\n                \"best app to learn\",\n                \"biblical hebrew\",\n                \"hebrew learning\",\n                \"wordbit\",\n                \"best biblical\",\n                \"best hebrew learning\"\n              ],\n              \"about_this_result\": null,\n              \"related_result\": null,\n              \"timestamp\": null,\n              \"rectangle\": null\n            },\n            {\n              \"type\": \"organic\",\n              \"rank_group\": 2,\n              \"rank_absolute\": 5,\n              \"page\": 1,\n              \"position\": \"left\",\n              \"xpath\": \"/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]\",\n              \"domain\": \"noamshebrew.com\",\n              \"title\": \"Learning Hebrew With Apps - Best Tools My Students Use Daily\",\n              \"url\": \"https://noamshebrew.com/learning-hebrew-with-apps-what-my-students-really-use-%F0%9F%93%B1/\",\n              \"cache_url\": null,\n              \"related_search_url\": null,\n              \"breadcrumb\": \"https://noamshebrew.com\",\n              \"website_name\": \"Noam's Hebrew\",\n              \"is_image\": false,\n              \"is_video\": false,\n              \"is_featured_snippet\": false,\n              \"is_malicious\": false,\n              \"is_web_story\": false,\n              \"checks\": null,\n              \"description\": \"May 7, 2025 — Top apps for learning Hebrew that my students rely on to improve vocabulary, pronunciation, and reading. Ideal for individuals and groups.\",\n              \"pre_snippet\": \"05/07/2025 00:00:00\",\n              \"extended_snippet\": null,\n              \"images\": null,\n              \"amp_version\": false,\n              \"rating\": null,\n              \"price\": null,\n              \"highlighted\": [\n                \"Top apps for learning Hebrew\"\n              ],\n              \"links\": null,\n              \"faq\": null,\n              \"extended_people_also_search\": [\n                \"hebrew learning\",\n                \"best apps to learn\",\n                \"best app to learn\",\n                \"biblical hebrew\",\n                \"hebrew learning\",\n                \"wordbit\",\n                \"best biblical\",\n                \"best hebrew learning\"\n              ],\n              \"about_this_result\": null,\n              \"related_result\": null,\n              \"timestamp\": \"2025-05-07 00:00:00 +00:00\",\n              \"rectangle\": null\n            },\n            {\n              \"type\": \"people_also_ask\",\n              \"rank_group\": 1,\n              \"rank_absolute\": 6,\n              \"page\": 1,\n              \"position\": \"left\",\n              \"xpath\": \"/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[11]/div[1]\",\n              \"items\": [\n                {\n                  \"type\": \"people_also_ask_element\",\n                  \"title\": \"What is the best app to learn to read Hebrew?\",\n                  \"seed_question\": null,\n                  \"xpath\": \"/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[11]/div[1]/div[2]/div[2]/div[1]\",\n                  \"expanded_element\": [\n                    {\n                      \"type\": \"people_also_ask_ai_overview_expanded_element\",\n                      \"items\": null,\n                      \"references\": null,\n                      \"asynchronous_ai_overview\": true\n                    }\n                  ]\n                },\n                {\n                  \"type\": \"people_also_ask_element\",\n                  \"title\": \"What alphabet does Hebrew use?\",\n                  \"seed_question\": null,\n                  \"xpath\": \"/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[11]/div[1]/div[2]/div[2]/div[2]\",\n                  \"expanded_element\": [\n                    {\n                      \"type\": \"people_also_ask_ai_overview_expanded_element\",\n                      \"items\": null,\n                      \"references\": null,\n                      \"asynchronous_ai_overview\": true\n                    }\n                  ]\n                },\n                {\n                  \"type\": \"people_also_ask_element\",\n                  \"title\": \"Is there Hebrew on Duolingo?\",\n                  \"seed_question\": null,\n                  \"xpath\": \"/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[11]/div[1]/div[2]/div[2]/div[3]\",\n                  \"expanded_element\": [\n                    {\n                      \"type\": \"people_also_ask_ai_overview_expanded_element\",\n                      \"items\": null,\n                      \"references\": null,\n                      \"asynchronous_ai_overview\": true\n                    }\n                  ]\n                },\n                {\n                  \"type\": \"people_also_ask_element\",\n                  \"title\": \"How to get a Hebrew keyboard?\",\n                  \"seed_question\": null,\n                  \"xpath\": \"/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[11]/div[1]/div[2]/div[2]/div[4]\",\n                  \"expanded_element\": [\n                    {\n                      \"type\": \"people_also_ask_ai_overview_expanded_element\",\n                      \"items\": null,\n                      \"references\": null,\n                      \"asynchronous_ai_overview\": true\n                    }\n                  ]\n                }\n              ],\n              \"rectangle\": null\n            },\n            {\n              \"type\": \"organic\",\n              \"rank_group\": 3,\n              \"rank_absolute\": 7,\n              \"page\": 1,\n              \"position\": \"left\",\n              \"xpath\": \"/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[13]/div[1]/div[1]/div[1]/div[1]\",\n              \"domain\": \"www.reddit.com\",\n              \"title\": \"In your opinion, what are the best apps or programs for learning Hebrew?\",\n              \"url\": \"https://www.reddit.com/r/hebrew/comments/18xxfbr/in_your_opinion_what_are_the_best_apps_or/\",\n              \"cache_url\": null,\n              \"related_search_url\": null,\n              \"breadcrumb\": \"10+ comments\",\n              \"website_name\": \"Reddit · r/hebrew\",\n              \"is_image\": false,\n              \"is_video\": false,\n              \"is_featured_snippet\": false,\n              \"is_malicious\": false,\n              \"is_web_story\": false,\n              \"checks\": null,\n              \"description\": \"I feel like there are a million apps for learning Spanish and Italian and French and so on. I don't see many mainstream offerings for things like Hebrew. ...\",\n              \"pre_snippet\": null,\n              \"extended_snippet\": null,\n              \"images\": null,\n              \"amp_version\": false,\n              \"rating\": null,\n              \"price\": null,\n              \"highlighted\": null,\n              \"links\": [\n                {\n                  \"type\": \"link_element\",\n                  \"title\": \"recommended apps or programs to learn Hebrew? : r/Judaism - Redditr/Judaism·10+ comments·7y\",\n                  \"description\": null,\n                  \"url\": \"https://www.reddit.com/r/Judaism/comments/deo9dq/recommended_apps_or_programs_to_learn_hebrew/\",\n                  \"domain\": \"www.reddit.com\"\n                },\n                {\n                  \"type\": \"link_element\",\n                  \"title\": \"Good app for learning Hebrew? : r/Judaism - Redditr/Judaism·10+ comments·1y\",\n                  \"description\": null,\n                  \"url\": \"https://www.reddit.com/r/Judaism/comments/1na82ji/good_app_for_learning_hebrew/\",\n                  \"domain\": \"www.reddit.com\"\n                },\n                {\n                  \"type\": \"link_element\",\n                  \"title\": \"Pimsleur\",\n                  \"description\": \"Top answer · 9 votes\",\n                  \"url\": \"https://www.reddit.com/r/hebrew/comments/18xxfbr/in_your_opinion_what_are_the_best_apps_or/kg8r03d/\",\n                  \"domain\": \"www.reddit.com\"\n                },\n                {\n                  \"type\": \"link_element\",\n                  \"title\": \"There are no great apps for Hebrew. Duolingo is ok, but very limited. If you are really interested ...\",\n                  \"description\": \"4 votes\",\n                  \"url\": \"https://www.reddit.com/r/hebrew/comments/18xxfbr/in_your_opinion_what_are_the_best_apps_or/kg980t4/\",\n                  \"domain\": \"www.reddit.com\"\n                },\n                {\n                  \"type\": \"link_element\",\n                  \"title\": \"I'd recommend a mixture of tools for best results. For example I've been using Duolingo as ...\",\n                  \"description\": \"3 votes\",\n                  \"url\": \"https://www.reddit.com/r/hebrew/comments/18xxfbr/in_your_opinion_what_are_the_best_apps_or/kg9hi66/\",\n                  \"domain\": \"www.reddit.com\"\n                },\n                {\n                  \"type\": \"link_element\",\n                  \"title\": \"The El Al app.\",\n                  \"description\": \"2 votes\",\n                  \"url\": \"https://www.reddit.com/r/hebrew/comments/18xxfbr/in_your_opinion_what_are_the_best_apps_or/kg7a89t/\",\n                  \"domain\": \"www.reddit.com\"\n                },\n                {\n                  \"type\": \"link_element\",\n                  \"title\": \"I'm using Assimil and Pimsleur.\",\n                  \"description\": \"1 vote\",\n                  \"url\": \"https://www.reddit.com/r/hebrew/comments/18xxfbr/in_your_opinion_what_are_the_best_apps_or/kg9fsjc/\",\n                  \"domain\": \"www.reddit.com\"\n                }\n              ],\n              \"faq\": null,\n              \"extended_people_also_search\": null,\n              \"about_this_result\": null,\n              \"related_result\": null,\n              \"timestamp\": \"2024-10-10 13:10:54 +00:00\",\n              \"rectangle\": null\n            },\n            {\n              \"type\": \"organic\",\n              \"rank_group\": 4,\n              \"rank_absolute\": 8,\n              \"page\": 1,\n              \"position\": \"left\",\n              \"xpath\": \"/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]/div[1]\",\n              \"domain\": \"www.facebook.com\",\n              \"title\": \"What are good Hebrew writing apps with alphabet practice?\",\n              \"url\": \"https://www.facebook.com/groups/secrettelaviv/posts/10154864977290943/\",\n              \"cache_url\": null,\n              \"related_search_url\": null,\n              \"breadcrumb\": \"20+ comments\",\n              \"website_name\": \"Facebook · Secret Tel Aviv\",\n              \"is_image\": false,\n              \"is_video\": false,\n              \"is_featured_snippet\": false,\n              \"is_malicious\": false,\n              \"is_web_story\": false,\n              \"checks\": null,\n              \"description\": \"Just thought l'd share this app I found helpful for learning the Hebrew alphabet this week. \\\"Write It! Hebrew\\\". I see they have versions for a ...\",\n              \"pre_snippet\": null,\n              \"extended_snippet\": null,\n              \"images\": null,\n              \"amp_version\": false,\n              \"rating\": null,\n              \"price\": null,\n              \"highlighted\": [\n                \"Just thought l'd share this app I found helpful for learning the Hebrew alphabet\"\n              ],\n              \"links\": null,\n              \"faq\": null,\n              \"extended_people_also_search\": null,\n              \"about_this_result\": null,\n              \"related_result\": null,\n              \"timestamp\": \"2017-10-10 13:10:54 +00:00\",\n              \"rectangle\": null\n            },\n            {\n              \"type\": \"organic\",\n              \"rank_group\": 5,\n              \"rank_absolute\": 9,\n              \"page\": 1,\n              \"position\": \"left\",\n              \"xpath\": \"/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[17]/div[1]/div[1]/div[1]/div[1]\",\n              \"domain\": \"www.itsbaba.com\",\n              \"title\": \"5 Best Hebrew Learning Apps Compared (2026)\",\n              \"url\": \"https://www.itsbaba.com/blog/5-best-hebrew-learning-apps-compared\",\n              \"cache_url\": null,\n              \"related_search_url\": null,\n              \"breadcrumb\": \"https://www.itsbaba.com\",\n              \"website_name\": \"baba Hebrew Translator\",\n              \"is_image\": false,\n              \"is_video\": false,\n              \"is_featured_snippet\": false,\n              \"is_malicious\": false,\n              \"is_web_story\": false,\n              \"checks\": null,\n              \"description\": \"Mar 4, 2026 — Duolingo's Hebrew course provides an interactive, game-like way to learn Hebrew. It starts with the basics, like the alphabet, and gradually ...\",\n              \"pre_snippet\": \"03/04/2026 00:00:00\",\n              \"extended_snippet\": null,\n              \"images\": null,\n              \"amp_version\": false,\n              \"rating\": null,\n              \"price\": null,\n              \"highlighted\": [\n                \"provides an interactive, game-like way to learn Hebrew\"\n              ],\n              \"links\": null,\n              \"faq\": null,\n              \"extended_people_also_search\": null,\n              \"about_this_result\": null,\n              \"related_result\": null,\n              \"timestamp\": \"2026-03-04 00:00:00 +00:00\",\n              \"rectangle\": null\n            },\n            {\n              \"type\": \"organic\",\n              \"rank_group\": 6,\n              \"rank_absolute\": 10,\n              \"page\": 1,\n              \"position\": \"left\",\n              \"xpath\": \"/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]/div[1]\",\n              \"domain\": \"learn-hebrew-yuly-pisinberg.en.aptoide.com\",\n              \"title\": \"Learn Hebrew Alphabet - APK Download for Android\",\n              \"url\": \"https://learn-hebrew-yuly-pisinberg.en.aptoide.com/app\",\n              \"cache_url\": null,\n              \"related_search_url\": null,\n              \"breadcrumb\": \"https://learn-hebrew-yuly-pisinberg.en.aptoide.com\",\n              \"website_name\": \"Aptoide\",\n              \"is_image\": false,\n              \"is_video\": false,\n              \"is_featured_snippet\": false,\n              \"is_malicious\": false,\n              \"is_web_story\": false,\n              \"checks\": null,\n              \"description\": \"Jan 23, 2026 — Learn Hebrew Alphabet App is intended to help you learn the Hebrew Alphabet quickly and easily using visual and Audio combined for quick ...\",\n              \"pre_snippet\": \"01/23/2026 00:00:00\",\n              \"extended_snippet\": null,\n              \"images\": null,\n              \"amp_version\": false,\n              \"rating\": null,\n              \"price\": null,\n              \"highlighted\": [\n                \"Learn Hebrew Alphabet App\"\n              ],\n              \"links\": null,\n              \"faq\": null,\n              \"extended_people_also_search\": null,\n              \"about_this_result\": null,\n              \"related_result\": null,\n              \"timestamp\": \"2026-01-23 00:00:00 +00:00\",\n              \"rectangle\": null\n            },\n            {\n              \"type\": \"organic\",\n              \"rank_group\": 7,\n              \"rank_absolute\": 11,\n              \"page\": 1,\n              \"position\": \"left\",\n              \"xpath\": \"/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[21]/div[1]/div[1]/div[1]/div[1]\",\n              \"domain\": \"hebrewedu.com\",\n              \"title\": \"Learn the Hebrew Alphabet & Read Hebrew | HebrewEdu\",\n              \"url\": \"https://hebrewedu.com/\",\n              \"cache_url\": null,\n              \"related_search_url\": null,\n              \"breadcrumb\": \"https://hebrewedu.com\",\n              \"website_name\": \"hebrewedu.com\",\n              \"is_image\": false,\n              \"is_video\": false,\n              \"is_featured_snippet\": false,\n              \"is_malicious\": false,\n              \"is_web_story\": false,\n              \"checks\": null,\n              \"description\": \"Learn the Hebrew alphabet step by step, practise vocabulary and verbs, and start reading beginner Hebrew with audio and translation.\",\n              \"pre_snippet\": null,\n              \"extended_snippet\": null,\n              \"images\": null,\n              \"amp_version\": false,\n              \"rating\": null,\n              \"price\": null,\n              \"highlighted\": [\n                \"Learn the Hebrew alphabet step by step\"\n              ],\n              \"links\": null,\n              \"faq\": null,\n              \"extended_people_also_search\": null,\n              \"about_this_result\": null,\n              \"related_result\": null,\n              \"timestamp\": null,\n              \"rectangle\": null\n            },\n            {\n              \"type\": \"organic\",\n              \"rank_group\": 8,\n              \"rank_absolute\": 12,\n              \"page\": 1,\n              \"position\": \"left\",\n              \"xpath\": \"/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[23]/div[1]/div[1]/div[1]/div[1]\",\n              \"domain\": \"hebrew-alphabet-writing.soft112.com\",\n              \"title\": \"Hebrew alphabet writing 3.8.11 Free Download\",\n              \"url\": \"https://hebrew-alphabet-writing.soft112.com/\",\n              \"cache_url\": null,\n              \"related_search_url\": null,\n              \"breadcrumb\": \"https://hebrew-alphabet-writing.soft112.com\",\n              \"website_name\": \"Soft112\",\n              \"is_image\": false,\n              \"is_video\": false,\n              \"is_featured_snippet\": false,\n              \"is_malicious\": false,\n              \"is_web_story\": false,\n              \"checks\": null,\n              \"description\": \"This App will help young learn to write Hebrew Alphabets And Consonants in engaging, intuitive, and fun way. This App provides a step-by-step Line Segment ...\",\n              \"pre_snippet\": null,\n              \"extended_snippet\": null,\n              \"images\": null,\n              \"amp_version\": false,\n              \"rating\": null,\n              \"price\": null,\n              \"highlighted\": [\n                \"young learn to write Hebrew Alphabets And Consonants\"\n              ],\n              \"links\": null,\n              \"faq\": null,\n              \"extended_people_also_search\": null,\n              \"about_this_result\": null,\n              \"related_result\": null,\n              \"timestamp\": null,\n              \"rectangle\": null\n            },\n            {\n              \"type\": \"people_also_search\",\n              \"rank_group\": 2,\n              \"rank_absolute\": 13,\n              \"page\": 1,\n              \"position\": \"left\",\n              \"xpath\": \"/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[4]/div[1]/div[3]/div[1]\",\n              \"title\": \"People also search for\",\n              \"items\": [\n                \"Hebrew learning app for kids\",\n                \"WordBit Hebrew app\",\n                \"Best Biblical Hebrew learning app\",\n                \"Best Hebrew learning app for kids\",\n                \"Best Hebrew learning app reddit\"\n              ],\n              \"rectangle\": null\n            }\n          ]\n        }\n      ]\n    }\n  ]\n}"
+}

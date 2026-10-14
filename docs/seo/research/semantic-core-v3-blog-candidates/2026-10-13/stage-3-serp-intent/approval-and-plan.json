@@ -1,0 +1,25 @@
+{
+  "prepared_at_utc": "2026-10-13T13:58:34.537841+00:00",
+  "method": "POST",
+  "endpoint": "/v3/serp/google/organic/live/advanced",
+  "noAiMode": true,
+  "exact_keywords": [
+    "hebrew words",
+    "hebrew phrases",
+    "hebrew text",
+    "hebrew alphabet nun"
+  ],
+  "maximum_paid_tasks": 4,
+  "stage_cap_usd": "0.008",
+  "project_budget_usd": "0.250",
+  "project_prior_spend_usd": "0.024",
+  "historical_phase3b_spend_excluded_usd": "0.10260",
+  "expected_project_remaining_usd": "0.218",
+  "retries": 0,
+  "endpoint_substitutions": false,
+  "balance_checks": false,
+  "top_ups": false,
+  "optional_paid_features": false,
+  "additional_pages": false,
+  "stop_for_owner_review": true
+}

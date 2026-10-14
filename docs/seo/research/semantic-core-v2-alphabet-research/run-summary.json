@@ -1,0 +1,41 @@
+{
+  "v1": 136,
+  "candidate_rows": 197,
+  "new": 173,
+  "combined": 309,
+  "volume_requested": 171,
+  "volume_positive": 55,
+  "volume_null": 116,
+  "volume_zero": 0,
+  "serp_requested": 43,
+  "serp_succeeded": 39,
+  "serp_failed": [
+    "hebrew alphabet lessons online",
+    "interactive hebrew alphabet course",
+    "hebrew pe vs fe pronunciation",
+    "hebrew shin vs sin pronunciation"
+  ],
+  "organic_rows": 279,
+  "kd_requested": 35,
+  "kd_values": 26,
+  "kd_null": 9,
+  "cost_usd": "0.1922",
+  "minimum_organic": 6,
+  "maximum_organic": 9,
+  "settings": {
+    "location_code": 2840,
+    "language_code": "en",
+    "serp_device": "mobile",
+    "serp_os": "android",
+    "depth": 10
+  },
+  "maximum_spend_usd": "0.25",
+  "paid_retries": 0,
+  "owner_confirmation": {
+    "lesson_id": 4,
+    "letter": "ד",
+    "slug": "dalet",
+    "source": "product owner via user",
+    "date": "2026-10-11"
+  }
+}

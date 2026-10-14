@@ -1,0 +1,811 @@
+{
+  "keyword": "yod hebrew letter",
+  "retrieved_at_utc": "2026-10-11T05:24:20.773Z",
+  "raw": {
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "3.2792 sec.",
+    "cost": 0.002,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "10110523-2762-0139-0000-d44311c13ea9",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "3.1987 sec.",
+        "cost": 0.002,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "serp",
+          "google",
+          "organic",
+          "live",
+          "advanced"
+        ],
+        "data": {
+          "api": "serp",
+          "function": "live",
+          "se": "google",
+          "se_type": "organic",
+          "keyword": "yod hebrew letter",
+          "location_code": 2840,
+          "language_code": "en",
+          "device": "mobile",
+          "os": "android",
+          "depth": 10
+        },
+        "result": [
+          {
+            "keyword": "yod hebrew letter",
+            "type": "organic",
+            "se_domain": "google.com",
+            "location_code": 2840,
+            "language_code": "en",
+            "check_url": "https://www.google.com/search?q=yod%20hebrew%20letter&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+            "datetime": "2026-10-11 05:23:44 +00:00",
+            "spell": null,
+            "refinement_chips": null,
+            "item_types": [
+              "ai_overview",
+              "images",
+              "people_also_ask",
+              "organic",
+              "video"
+            ],
+            "se_results_count": 0,
+            "pages_count": 1,
+            "items_count": 11,
+            "items": [
+              {
+                "type": "ai_overview",
+                "rank_group": 1,
+                "rank_absolute": 1,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]",
+                "asynchronous_ai_overview": false,
+                "markdown": "![YOD - Hebrew for the letter &quot;Y&quot; Classic Round Sticker | Zazzle](https://api.dataforseo.com/cdn/i/10110523-2762-0139-0000-d44311c13ea9:4)\nThe Hebrew letter [Yod](https://en.wikipedia.org/wiki/Yodh) (י) is the tenth letter of the [Hebrew alphabet](https://www.chabad.org/library/article_cdo/aid/137082/jewish/Yud.htm).[[1]](https://www.chabad.org/library/article_cdo/aid/137082/jewish/Yud.htm)\n\n### Key Details\n\n- **Shape and Size:** It is the smallest letter in the Hebrew script, looking like a tiny floating dot, comma, or hook.\n- **Numerical Value:** Its gematria (numerical value) is **10**.\n- **Pronunciation:** It sounds like the English consonant **\"y\"** (as in \"yellow\") or can act as a long vowel **\"i\"**.\n- **Meaning:** The name means **\"hand\"** or **\"arm\"** (*yad*).[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Yod/yod.html)[[2]](https://www.youtube.com/watch?v=t3jIc1D0cDg&t=5)[[3]](https://hebrewtoday.com/alphabet/the-letter-yud-%D7%99/)[[4]](https://www.youtube.com/watch?v=dtxhEggdBKA)[[5]](https://www.chabad.org/library/article_cdo/aid/137082/jewish/Yud.htm)[[6]](https://en.wikipedia.org/wiki/Yodh)[[7]](https://blogs.timesofisrael.com/12-the-letters-of-the-lord-the-letter-yod/)\n\n### Symbolic Significance\n\n- **Divine Presence:** It is the first letter of the Tetragrammaton (the four-letter name of God, YHWH) and many significant biblical names like Israel and Jerusalem.\n- **Completeness:** The number 10 represents order and completion, seen in the Ten Commandments and the ten utterances of creation.\n- **Scriptural Precision:** In Matthew 5:18, it is referenced as the \"jot\" (tiniest stroke), representing the enduring detail of the law.[[1]](https://www.youtube.com/watch?v=t3jIc1D0cDg&t=5)[[2]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Yod/yod.html)[[3]](https://www.facebook.com/groups/1687348774926200/posts/3803580776636312/)[[4]](https://gabrielelevy.com/pages/the-letter-yod)[[5]](https://biblehub.com/topical/y/yod.htm)",
+                "items": [
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "The Hebrew letter Yod (י) is the tenth letter of the Hebrew alphabet.",
+                    "markdown": "![YOD - Hebrew for the letter &quot;Y&quot; Classic Round Sticker | Zazzle](https://api.dataforseo.com/cdn/i/10110523-2762-0139-0000-d44311c13ea9:2)\nThe Hebrew letter [Yod](https://en.wikipedia.org/wiki/Yodh) (י) is the tenth letter of the [Hebrew alphabet](https://www.chabad.org/library/article_cdo/aid/137082/jewish/Yud.htm).[[1]](https://www.chabad.org/library/article_cdo/aid/137082/jewish/Yud.htm)",
+                    "links": [
+                      {
+                        "type": "link_element",
+                        "title": "Yod",
+                        "description": null,
+                        "url": "https://en.wikipedia.org/wiki/Yodh",
+                        "domain": "en.wikipedia.org"
+                      },
+                      {
+                        "type": "link_element",
+                        "title": "Hebrew alphabet",
+                        "description": null,
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137082/jewish/Yud.htm",
+                        "domain": "www.chabad.org"
+                      }
+                    ],
+                    "images": [
+                      {
+                        "type": "images_element",
+                        "alt": "YOD - Hebrew for the letter \"Y\" Classic Round Sticker | Zazzle",
+                        "url": null,
+                        "image_url": "https://api.dataforseo.com/cdn/i/10110523-2762-0139-0000-d44311c13ea9:3"
+                      }
+                    ],
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137082/jewish/Yud.htm",
+                        "title": "Yud - The tenth letter of the Hebrew alphabet - Chabad.org",
+                        "text": "Identity: Yud (י) is the tenth and smallest Hebrew letter, possessing a numerical value of 10. Design: Represented as a single point or flame symbolizing indivi..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Key Details",
+                    "markdown": "### Key Details",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Shape and Size: It is the smallest letter in the Hebrew script, looking like a tiny floating dot, comma, or hook. Numerical Value: Its gematria (numerical value) is 10. Pronunciation: It sounds like the English consonant \"y\" (as in \"yellow\") or can act as a long vowel \"i\". Meaning: The name means \"hand\" or \"arm\" (yad).",
+                    "markdown": "- **Shape and Size:** It is the smallest letter in the Hebrew script, looking like a tiny floating dot, comma, or hook.\n- **Numerical Value:** Its gematria (numerical value) is **10**.\n- **Pronunciation:** It sounds like the English consonant **\"y\"** (as in \"yellow\") or can act as a long vowel **\"i\"**.\n- **Meaning:** The name means **\"hand\"** or **\"arm\"** (*yad*).[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Yod/yod.html)[[2]](https://www.youtube.com/watch?v=t3jIc1D0cDg&t=5)[[3]](https://hebrewtoday.com/alphabet/the-letter-yud-%D7%99/)[[4]](https://www.youtube.com/watch?v=dtxhEggdBKA)[[5]](https://www.chabad.org/library/article_cdo/aid/137082/jewish/Yud.htm)[[6]](https://en.wikipedia.org/wiki/Yodh)[[7]](https://blogs.timesofisrael.com/12-the-letters-of-the-lord-the-letter-yod/)",
+                    "links": null,
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew for Christians",
+                        "domain": "www.hebrew4christians.com",
+                        "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Yod/yod.html",
+                        "title": "The Letter Yod",
+                        "text": "Letter Yod: Tenth Hebrew letter, numeric value 10, meaning arm/hand, sounds like \"y\". Formed with a single tag upward, kotz downward, and middle portion; smalle..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=t3jIc1D0cDg&t=5",
+                        "title": "Learn to Read Biblical Hebrew | 12 Yod",
+                        "text": "Learn to Read Biblical Hebrew | 12 Yod welcome back to our final episode of Handling the Hebrew alphabet. today we're going to look at a single letter the 10th ..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew Today",
+                        "domain": "hebrewtoday.com",
+                        "url": "https://hebrewtoday.com/alphabet/the-letter-yud-%D7%99/",
+                        "title": "The Letter Yod (Yud) (י) - Hebrew Today",
+                        "text": "Identity: Tenth letter of the Hebrew alphabet (Yod/Yud, י); numerical value 10; most frequent letter (11% of texts). Attributes: Smallest and most modest letter..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=dtxhEggdBKA",
+                        "title": "Yod: Writing Hebrew Letters",
+                        "text": "our next letter the 10th letter of the Hebrew alphabet is a yod. some people write that with a dh. so a yode this letter is one of the few that does not take up..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137082/jewish/Yud.htm",
+                        "title": "Yud - The tenth letter of the Hebrew alphabet - Chabad.org",
+                        "text": "Identity: Yud (י) is the tenth and smallest Hebrew letter, possessing a numerical value of 10. Design: Represented as a single point or flame symbolizing indivi..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Wikipedia",
+                        "domain": "en.wikipedia.org",
+                        "url": "https://en.wikipedia.org/wiki/Yodh",
+                        "title": "Yodh - Wikipedia",
+                        "text": "Yodh (also spelled jodh, yod, or jod) is the tenth letter of the Semitic abjads, including Phoenician yōd 𐤉, Hebrew yod י , Aramaic yod 𐡉, Syriac yōḏ ܝ, and A..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "The Times of Israel",
+                        "domain": "blogs.timesofisrael.com",
+                        "url": "https://blogs.timesofisrael.com/12-the-letters-of-the-lord-the-letter-yod/",
+                        "title": "The Blogs: #12 The Letters of the Lord: the letter Yod | Bethsheba Ashe",
+                        "text": "#12 The Letters of the Lord: the letter Yod The topics of work and rest from work are represented by the letter Yod. Appropriately enough, since most work is do..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Symbolic Significance",
+                    "markdown": "### Symbolic Significance",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Divine Presence: It is the first letter of the Tetragrammaton (the four-letter name of God, YHWH) and many significant biblical names like Israel and Jerusalem. Completeness: The number 10 represents order and completion, seen in the Ten Commandments and the ten utterances of creation. Scriptural Precision: In Matthew 5:18, it is referenced as the \"jot\" (tiniest stroke), representing the enduring detail of the law.",
+                    "markdown": "- **Divine Presence:** It is the first letter of the Tetragrammaton (the four-letter name of God, YHWH) and many significant biblical names like Israel and Jerusalem.\n- **Completeness:** The number 10 represents order and completion, seen in the Ten Commandments and the ten utterances of creation.\n- **Scriptural Precision:** In Matthew 5:18, it is referenced as the \"jot\" (tiniest stroke), representing the enduring detail of the law.[[1]](https://www.youtube.com/watch?v=t3jIc1D0cDg&t=5)[[2]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Yod/yod.html)[[3]](https://www.facebook.com/groups/1687348774926200/posts/3803580776636312/)[[4]](https://gabrielelevy.com/pages/the-letter-yod)[[5]](https://biblehub.com/topical/y/yod.htm)",
+                    "links": null,
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=t3jIc1D0cDg&t=5",
+                        "title": "Learn to Read Biblical Hebrew | 12 Yod",
+                        "text": "Learn to Read Biblical Hebrew | 12 Yod welcome back to our final episode of Handling the Hebrew alphabet. today we're going to look at a single letter the 10th ..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew for Christians",
+                        "domain": "www.hebrew4christians.com",
+                        "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Yod/yod.html",
+                        "title": "The Letter Yod",
+                        "text": "Letter Yod: Tenth Hebrew letter, numeric value 10, meaning arm/hand, sounds like \"y\". Formed with a single tag upward, kotz downward, and middle portion; smalle..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Facebook",
+                        "domain": "www.facebook.com",
+                        "url": "https://www.facebook.com/groups/1687348774926200/posts/3803580776636312/",
+                        "title": "Learning the Hebrew Letter Yod and its Significance in Biblical Names",
+                        "text": "... with Hebrew Significant names, an exceptional letter The Letter yod is the smallest of the letters in the Hebrew alphabet, something like a lower case “i”. ..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "ALEFBET - The hebrew letters art gallery",
+                        "domain": "gabrielelevy.com",
+                        "url": "https://gabrielelevy.com/pages/the-letter-yod",
+                        "title": "The letter YOD – ALEFBET - THE HEBREW LETTERS ART GALLERY",
+                        "text": "Symbolism: 10th Hebrew letter Yod is a dot representing the Creator, Unity within multiplicity, and the hidden Divine spark. Value and Dimensions: Numerical val..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Bible Hub",
+                        "domain": "biblehub.com",
+                        "url": "https://biblehub.com/topical/y/yod.htm",
+                        "title": "Topical Bible: Yod",
+                        "text": "Definition: Yod (י) is the tenth Hebrew letter, the smallest in script, representing the number ten, completeness, and divine order. Biblical Reference: Implici..."
+                      }
+                    ]
+                  }
+                ],
+                "references": [
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Hebrew for Christians",
+                    "domain": "www.hebrew4christians.com",
+                    "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Yod/yod.html",
+                    "title": "The Letter Yod",
+                    "text": "Letter Yod: Tenth Hebrew letter, numeric value 10, meaning arm/hand, sounds like \"y\". Formed with a single tag upward, kotz downward, and middle portion; smalle..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Wikipedia",
+                    "domain": "en.wikipedia.org",
+                    "url": "https://en.wikipedia.org/wiki/Yodh",
+                    "title": "Yodh - Wikipedia",
+                    "text": "Yodh (also spelled jodh, yod, or jod) is the tenth letter of the Semitic abjads, including Phoenician yōd 𐤉, Hebrew yod י , Aramaic yod 𐡉, Syriac yōḏ ܝ, and A..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/watch?v=dtxhEggdBKA",
+                    "title": "Yod: Writing Hebrew Letters",
+                    "text": "our next letter the 10th letter of the Hebrew alphabet is a yod. some people write that with a dh. so a yode this letter is one of the few that does not take up..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Chabad",
+                    "domain": "www.chabad.org",
+                    "url": "https://www.chabad.org/library/article_cdo/aid/137082/jewish/Yud.htm",
+                    "title": "Yud - The tenth letter of the Hebrew alphabet - Chabad.org",
+                    "text": "Identity: Yud (י) is the tenth and smallest Hebrew letter, possessing a numerical value of 10. Design: Represented as a single point or flame symbolizing indivi..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "ALEFBET - The hebrew letters art gallery",
+                    "domain": "gabrielelevy.com",
+                    "url": "https://gabrielelevy.com/pages/the-letter-yod",
+                    "title": "The letter YOD – ALEFBET - THE HEBREW LETTERS ART GALLERY",
+                    "text": "Symbolism: 10th Hebrew letter Yod is a dot representing the Creator, Unity within multiplicity, and the hidden Divine spark. Value and Dimensions: Numerical val..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/watch?v=t3jIc1D0cDg&t=5",
+                    "title": "Learn to Read Biblical Hebrew | 12 Yod",
+                    "text": "Learn to Read Biblical Hebrew | 12 Yod welcome back to our final episode of Handling the Hebrew alphabet. today we're going to look at a single letter the 10th ..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "The Times of Israel",
+                    "domain": "blogs.timesofisrael.com",
+                    "url": "https://blogs.timesofisrael.com/12-the-letters-of-the-lord-the-letter-yod/",
+                    "title": "The Blogs: #12 The Letters of the Lord: the letter Yod | Bethsheba Ashe",
+                    "text": "#12 The Letters of the Lord: the letter Yod The topics of work and rest from work are represented by the letter Yod. Appropriately enough, since most work is do..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Hebrew Today",
+                    "domain": "hebrewtoday.com",
+                    "url": "https://hebrewtoday.com/alphabet/the-letter-yud-%D7%99/",
+                    "title": "The Letter Yod (Yud) (י) - Hebrew Today",
+                    "text": "Identity: Tenth letter of the Hebrew alphabet (Yod/Yud, י); numerical value 10; most frequent letter (11% of texts). Attributes: Smallest and most modest letter..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Facebook",
+                    "domain": "www.facebook.com",
+                    "url": "https://www.facebook.com/groups/1687348774926200/posts/3803580776636312/",
+                    "title": "Learning the Hebrew Letter Yod and its Significance in Biblical Names",
+                    "text": "... with Hebrew Significant names, an exceptional letter The Letter yod is the smallest of the letters in the Hebrew alphabet, something like a lower case “i”. ..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Bible Hub",
+                    "domain": "biblehub.com",
+                    "url": "https://biblehub.com/topical/y/yod.htm",
+                    "title": "Topical Bible: Yod",
+                    "text": "Definition: Yod (י) is the tenth Hebrew letter, the smallest in script, representing the number ten, completeness, and divine order. Biblical Reference: Implici..."
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "images",
+                "rank_group": 1,
+                "rank_absolute": 2,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[4]",
+                "title": "Images",
+                "url": null,
+                "items": [
+                  {
+                    "type": "images_element",
+                    "alt": "Understanding the Hebrew letter Yod and its pronunciation",
+                    "url": "https://www.facebook.com/groups/1687348774926200/posts/3688185294842528/",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110523-2762-0139-0000-d44311c13ea9:5"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "Hebrew Letter Yod Isolated",
+                    "url": "https://www.vectorstock.com/royalty-free-vector/hebrew-letter-yod-isolated-vector-33232426",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110523-2762-0139-0000-d44311c13ea9:6"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "The Letter Yod",
+                    "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Yod/yod.html",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110523-2762-0139-0000-d44311c13ea9:7"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "Debra Chapoton, Author: 1st Timothy, part 3, Linking the ...",
+                    "url": "http://www.debrachapoton.com/2018/03/1st-timothy-part-3-linking-hebrew.html",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110523-2762-0139-0000-d44311c13ea9:8"
+                  }
+                ],
+                "related_image_searches": null,
+                "rectangle": null
+              },
+              {
+                "type": "people_also_ask",
+                "rank_group": 1,
+                "rank_absolute": 3,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]",
+                "items": [
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does yodh mean in the Bible?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[1]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "How do you say yod in Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[2]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What is the Hebrew symbol for God?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[3]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What do Jews say instead of Yahweh?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[4]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 1,
+                "rank_absolute": 4,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.quora.com",
+                "title": "Why is the letter Yod not pronounced in some Hebrew words such as “elav” ...",
+                "url": "https://www.quora.com/Why-is-the-letter-Yod-not-pronounced-in-some-Hebrew-words-such-as-%E2%80%9Celav%E2%80%9D-which-means-%E2%80%9Cto-or-towards-him-it%E2%80%9D",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "30+ answers",
+                "website_name": "Quora",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Why is the letter Yod not pronounced in some Hebrew words such as “elav” which means “to or towards him/it”?",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": [
+                  {
+                    "type": "link_element",
+                    "title": "It was probably pronounced in very ancient Hebrew—before the Biblical times or maybe even ...",
+                    "description": "Top answer · 12 votes",
+                    "url": "https://www.quora.com/Why-is-the-letter-Yod-not-pronounced-in-some-Hebrew-words-such-as-%E2%80%9Celav%E2%80%9D-which-means-%E2%80%9Cto-or-towards-him-it%E2%80%9D?top_ans=64473004",
+                    "domain": "www.quora.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Since Hebrew script is an abjad (the vowels are not written), the letters yod and waw are ...",
+                    "description": "9 votes",
+                    "url": "https://www.quora.com/Why-is-the-letter-Yod-not-pronounced-in-some-Hebrew-words-such-as-%E2%80%9Celav%E2%80%9D-which-means-%E2%80%9Cto-or-towards-him-it%E2%80%9D?top_ans=63876123",
+                    "domain": "www.quora.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Here’s my guess:\n\nThe Arabic equivalent of the Hebrew preposition אל is الى, which is ...",
+                    "description": "5 votes",
+                    "url": "https://www.quora.com/Why-is-the-letter-Yod-not-pronounced-in-some-Hebrew-words-such-as-%E2%80%9Celav%E2%80%9D-which-means-%E2%80%9Cto-or-towards-him-it%E2%80%9D?top_ans=63860547",
+                    "domain": "www.quora.com"
+                  }
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2018-10-11 05:23:43 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 2,
+                "rank_absolute": 5,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "engediresourcecenter.com",
+                "title": "yod hebrew Archives",
+                "url": "https://engediresourcecenter.com/tag/yod-hebrew/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://engediresourcecenter.com",
+                "website_name": "En-Gedi Resource Center",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "The “jot” that Jesus was referring to was the Hebrew letter yod. It is the smallest letter in the Hebrew alphabet, just a half a line long.",
+                "pre_snippet": "06/30/2015 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2015-06-30 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 3,
+                "rank_absolute": 6,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[12]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "akhlah.com",
+                "title": "Yod words",
+                "url": "https://akhlah.com/hebrew/hebrew-word-of-the-day/yod-words/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://akhlah.com",
+                "website_name": "Akhlah",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Yod words. A list of the flash cards beginning with the Hebrew letter Yod (י). These cards can be printed and used to help you build your Hebrew vocabulary.",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "video",
+                "rank_group": 1,
+                "rank_absolute": 7,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[14]",
+                "items": [
+                  {
+                    "type": "video_element",
+                    "source": "BibleInteract",
+                    "title": "Power of Hebrew Letters: Yod",
+                    "timestamp": "2024-02-02 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=7Qghq-3onSw"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Biblical Hebrew Perspectives",
+                    "title": "Learn to Read Biblical Hebrew | 12 Yod",
+                    "timestamp": "2023-01-23 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=t3jIc1D0cDg"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Learn Hebrew with HebrewPod101.com",
+                    "title": "Learn Hebrew Alphabet #10 - י (yod)",
+                    "timestamp": "2026-04-03 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/shorts/eVojFnP0g5s"
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 4,
+                "rank_absolute": 8,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[15]/div[1]/div[1]",
+                "domain": "www.youtube.com",
+                "title": "Secret of the Hebrew Letter Yud",
+                "url": "https://www.youtube.com/watch?v=Ibih2s0rLsA",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "46.4K+ views",
+                "website_name": "YouTube · thelivingword",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "Discover the secret behind the Hebrew letter \"Yud\". Discover the secret in each letter of the Hebrew alphabet.",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2015-10-11 05:23:43 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 5,
+                "rank_absolute": 9,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[17]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.quora.com",
+                "title": "What is the significance of the letter Yod in the Hebrew name for God?",
+                "url": "https://www.quora.com/What-is-the-significance-of-the-letter-Yod-in-the-Hebrew-name-for-God",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "40+ answers",
+                "website_name": "Quora",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "What is the significance of the letter Yod in the Hebrew name for God?",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": [
+                  {
+                    "type": "link_element",
+                    "title": "> What does the Hebrew letter Yod mean?\nThe letter Yod (also called Yud) is the 10th letter ...",
+                    "description": "Top answer · 12 votes",
+                    "url": "https://www.quora.com/What-is-the-significance-of-the-letter-Yod-in-the-Hebrew-name-for-God?top_ans=154341906",
+                    "domain": "www.quora.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "[A2A] The character’s original meaning is of a hand, or arm—as apparent from its appearance ...",
+                    "description": "9 votes",
+                    "url": "https://www.quora.com/What-is-the-significance-of-the-letter-Yod-in-the-Hebrew-name-for-God?top_ans=154500081",
+                    "domain": "www.quora.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Very simple: י , spelled out as יוד, transliterated into English as “yod”, is ...",
+                    "description": "6 votes",
+                    "url": "https://www.quora.com/What-is-the-significance-of-the-letter-Yod-in-the-Hebrew-name-for-God?top_ans=346639054",
+                    "domain": "www.quora.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "The Hebrew name for God was not written down for thousands of years. It was a word known to ...",
+                    "description": "5 votes",
+                    "url": "https://www.quora.com/What-is-the-significance-of-the-letter-Yod-in-the-Hebrew-name-for-God?top_ans=1477743822963860",
+                    "domain": "www.quora.com"
+                  }
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2024-10-11 05:23:43 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 6,
+                "rank_absolute": 10,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "objectivetranslation.home.blog",
+                "title": "י – Yod – Biblical Hebrew Study Dictionary",
+                "url": "https://objectivetranslation.home.blog/%D7%99-yod-biblical-hebrew-study-dictionary/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://objectivetranslation.home.blog",
+                "website_name": "Home.blog",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "letter י (Yod ) י יאה YAH acceptable / befitting 'bring... first... be' It is 'befitting' to begin by bringing the first to be. YShRAL Israel ישר = upright + אלהים ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "letter י (Yod"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 7,
+                "rank_absolute": 11,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[21]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.shutterstock.com",
+                "title": "116 Hebrew Letter Yod Royalty-Free Images, Stock Photos & Pictures",
+                "url": "https://www.shutterstock.com/search/hebrew-letter-yod",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.shutterstock.com",
+                "website_name": "Shutterstock",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Find 116 Hebrew Letter Yod stock images in HD and millions of other royalty-free stock photos, 3D objects, illustrations and vectors in the Shutterstock ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "116 Hebrew Letter Yod stock images in HD"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

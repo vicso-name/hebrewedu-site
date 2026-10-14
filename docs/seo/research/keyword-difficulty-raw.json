@@ -1,0 +1,88 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.0720 sec",
+  "cost": 0.01284,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10101331-2762-0392-0000-111a417a374d",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.0469 sec",
+      "cost": 0.01284,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "dataforseo_labs",
+        "google",
+        "bulk_keyword_difficulty",
+        "live"
+      ],
+      "data": {
+        "api": "dataforseo_labs",
+        "function": "bulk_keyword_difficulty",
+        "se_type": "google",
+        "location_code": 2840,
+        "language_code": "en",
+        "keywords": [
+          "hebrew alphabet app",
+          "learn hebrew alphabet",
+          "hebrew alphabet chart",
+          "how to read hebrew",
+          "hebrew alphabet games online",
+          "hebrew learning app",
+          "does hebrew have vowels"
+        ]
+      },
+      "result": [
+        {
+          "se_type": "google",
+          "location_code": 2840,
+          "language_code": "en",
+          "total_count": 7,
+          "items_count": 7,
+          "items": [
+            {
+              "se_type": "google",
+              "keyword": "does hebrew have vowels",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew alphabet app",
+              "keyword_difficulty": 4
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew alphabet chart",
+              "keyword_difficulty": 9
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew alphabet games online",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "how to read hebrew",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "learn hebrew alphabet",
+              "keyword_difficulty": 9
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew learning app",
+              "keyword_difficulty": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

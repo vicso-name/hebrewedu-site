@@ -1,0 +1,548 @@
+{
+  "keyword": "tsadi hebrew letter",
+  "retrieved_at_utc": "2026-10-11T05:26:26.804Z",
+  "raw": {
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "5.7807 sec.",
+    "cost": 0.002,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "10110525-2762-0139-0000-685c1e1b8ec0",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "5.7162 sec.",
+        "cost": 0.002,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "serp",
+          "google",
+          "organic",
+          "live",
+          "advanced"
+        ],
+        "data": {
+          "api": "serp",
+          "function": "live",
+          "se": "google",
+          "se_type": "organic",
+          "keyword": "tsadi hebrew letter",
+          "location_code": 2840,
+          "language_code": "en",
+          "device": "mobile",
+          "os": "android",
+          "depth": 10
+        },
+        "result": [
+          {
+            "keyword": "tsadi hebrew letter",
+            "type": "organic",
+            "se_domain": "google.com",
+            "location_code": 2840,
+            "language_code": "en",
+            "check_url": "https://www.google.com/search?q=tsadi%20hebrew%20letter&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+            "datetime": "2026-10-11 05:25:31 +00:00",
+            "spell": null,
+            "refinement_chips": null,
+            "item_types": [
+              "ai_overview",
+              "organic",
+              "people_also_ask",
+              "images",
+              "video",
+              "people_also_search"
+            ],
+            "se_results_count": 0,
+            "pages_count": 1,
+            "items_count": 13,
+            "items": [
+              {
+                "type": "ai_overview",
+                "rank_group": 1,
+                "rank_absolute": 1,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[1]/div[1]",
+                "asynchronous_ai_overview": true,
+                "markdown": null,
+                "items": null,
+                "references": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 1,
+                "rank_absolute": 2,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "en.wikipedia.org",
+                "title": "Tsade",
+                "url": "https://en.wikipedia.org/wiki/Tsade",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://en.wikipedia.org",
+                "website_name": "Wikipedia",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Tsade is the eighteenth letter of the Semitic abjads, including Phoenician ṣādē 𐤑, Hebrew ṣāḏē צ , Aramaic ṣāḏē 𐡑, Syriac ṣāḏē ܨ, Ge'ez ṣädäy ጸ, ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": [
+                  "tsade hebrew",
+                  "hebrew",
+                  "tsadi meaning",
+                  "tsade hebrew",
+                  "resh hebrew",
+                  "ayin hebrew",
+                  "qoph hebrew",
+                  "hebrew letter"
+                ],
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "people_also_ask",
+                "rank_group": 1,
+                "rank_absolute": 3,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]",
+                "items": [
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What is the meaning of the Hebrew letter Tsadi?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[1]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does the Hebrew letter tsadhe mean?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[2]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What is the letter tzadik?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[3]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does the name \"Tzadik\" mean in Yiddish?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[4]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 2,
+                "rank_absolute": 4,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.hebrew4christians.com",
+                "title": "The Letter Tsade",
+                "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Tsade/tsade.html",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.hebrew4christians.com",
+                "website_name": "Hebrew for Christians",
+                "is_image": true,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_image"
+                ],
+                "description": "The letter Tsade (or Tzadi) is the 18th letter of the Hebrew Aleph-Bet, having the numeric value of 90. The pictograph for Tsade looks something like a man ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": [
+                  {
+                    "type": "images_element",
+                    "alt": "tsadi hebrew letter from www.hebrew4christians.com",
+                    "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Tsade/tsade.html",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110525-2762-0139-0000-685c1e1b8ec0:0"
+                  }
+                ],
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "18th letter of the Hebrew Aleph-Bet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": [
+                  "tsade hebrew",
+                  "hebrew",
+                  "tsadi meaning",
+                  "tsade hebrew",
+                  "resh hebrew",
+                  "ayin hebrew",
+                  "qoph hebrew",
+                  "hebrew letter"
+                ],
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "images",
+                "rank_group": 1,
+                "rank_absolute": 5,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[9]",
+                "title": "Images",
+                "url": null,
+                "items": [
+                  {
+                    "type": "images_element",
+                    "alt": "Vector Image Hebrew Letter Tsadi",
+                    "url": "https://www.shutterstock.com/image-vector/vector-image-hebrew-letter-tsadi-728469649",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwCLon0q97jreumPCQc9-_h704k3uIszQyL-HLDULgQQ&s"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "hebrew letter tsadi",
+                    "url": "https://www.vectorstock.com/royalty-free-vector/hebrew-letter-tsadi-vector-33303769",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeT4ojNyIenfCTOPjMzA5ojHkmccv_xaenJM1_V4ICMQ&s"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "Letter Tsadi Black Hebrew Alphabet Letter",
+                    "url": "https://www.shutterstock.com/image-vector/letter-tsadi-black-hebrew-alphabet-isolated-537743689",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9-D3Ax39YEhpC9ryo_YUNznPyQEE1U2N2GYOo93u3Ew&s"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "The Letter Tsade",
+                    "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Tsade/tsade.html",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM2gBogSMQuaB0_tOxNl70asr_5BvBOouGBBtFDhb6scNNZanWpLWRwg&s"
+                  }
+                ],
+                "related_image_searches": null,
+                "rectangle": null
+              },
+              {
+                "type": "video",
+                "rank_group": 1,
+                "rank_absolute": 6,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[11]",
+                "items": [
+                  {
+                    "type": "video_element",
+                    "source": "Ancient Hebrew Research Center",
+                    "title": "The Ancient Hebrew Alphabet - Lesson 18 – Tsade",
+                    "timestamp": "2017-04-20 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=pGdvO3KLjt0"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Shalom Sesame",
+                    "title": "Learn the Hebrew letter TZADI",
+                    "timestamp": "2014-01-21 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=-LI0RLf5IJA"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "thelivingword",
+                    "title": "Secret of the Hebrew letter Tsadi",
+                    "timestamp": "2015-10-23 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=SG7RIw9IJsc"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "BibleInteract",
+                    "title": "Power of Hebrew Letters: Tsadi",
+                    "timestamp": "2024-09-06 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=RbMEKWytQwE"
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "people_also_search",
+                "rank_group": 1,
+                "rank_absolute": 7,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[13]",
+                "title": "People also search for",
+                "items": [
+                  "Tsade Hebrew letter meaning",
+                  "Tsadi hebrew letter translation",
+                  "Tsadi hebrew letter pronunciation",
+                  "Hebrew letter Qoph",
+                  "Tsadi meaning",
+                  "Tsade Hebrew pronunciation"
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 3,
+                "rank_absolute": 8,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.ancient-hebrew.org",
+                "title": "Tsade",
+                "url": "https://www.ancient-hebrew.org/ancient-alphabet/tsade.htm",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.ancient-hebrew.org",
+                "website_name": "The Ancient Hebrew Research Center",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "The word tsad means \"side,\" but is also related to the idea of a stronghold, The phonetic sound of this letter is a \"ts\" in both ancient and modern Hebrew.",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 4,
+                "rank_absolute": 9,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[17]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "hebrewtoday.com",
+                "title": "The Letter Tzadi (צ) - The Hebrew Alphabet",
+                "url": "https://hebrewtoday.com/alphabet/the-letter-tzadi-%D7%A6/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://hebrewtoday.com",
+                "website_name": "Hebrew Today",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "(In Hebrew, a צדיק (tzadik) means a righteous person.) However, the letter also represents צַיִד (tzayid) hunting.",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "a righteous person"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 5,
+                "rank_absolute": 10,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "gabrielelevy.com",
+                "title": "The letter TZADI",
+                "url": "https://gabrielelevy.com/pages/the-letter-tzadi?srsltid=AU7gw4UHUDLnDPG6cO8EHpDMmieAfVIZum_RkNqOiOzOb9uRFK3O_bKx",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://gabrielelevy.com",
+                "website_name": "ALEFBET - The hebrew letters art gallery",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "The Tzadi represents the Tzaddik, the person who is just, as well as the righteousness of the Creator. The literal meaning of Tzadi is a fishing hook.",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "The Tzadi represents the Tzaddik, the person who is just"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 6,
+                "rank_absolute": 11,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[21]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.chabad.org",
+                "title": "Tzadik - The eighteenth letter of the Hebrew alphabet",
+                "url": "https://www.chabad.org/library/article_cdo/aid/137090/jewish/Tzadik.htm",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.chabad.org",
+                "website_name": "Chabad",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Tzadik (צ) is the eighteenth letter of the Hebrew alphabet. Numerical value: 90. Sound: \"TS\" Meaning: 1. Righteous 2. Hunt. In this article:.",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Tzadik (צ) is the eighteenth letter of the Hebrew alphabet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 7,
+                "rank_absolute": 12,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[23]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.beauty4ashesministry.com",
+                "title": "THE 18TH HEBREW ALPHABET ”TSADI\" -REVEALED IN PSALMS ...",
+                "url": "https://www.beauty4ashesministry.com/post/the-18th-hebrew-alphabet-tsadi-revealed-in-psalms-119-sermon-note",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.beauty4ashesministry.com",
+                "website_name": "beauty4ashesministry.com",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "The 18th letter of the Hebrew alphabet is TSADI. The numeric value of TSADI is 90. The pictogram, or symbol, behind the shape of the letter ...",
+                "pre_snippet": "10/20/2022 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2022-10-20 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "people_also_search",
+                "rank_group": 2,
+                "rank_absolute": 13,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[4]/div[1]/div[3]/div[1]",
+                "title": "People also search for",
+                "items": [
+                  "Resh Hebrew letter",
+                  "Ayin Hebrew letter",
+                  "Qoph Hebrew meaning",
+                  "Hebrew letter tzadik",
+                  "Tzaddi Hebrew pronunciation"
+                ],
+                "rectangle": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

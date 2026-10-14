@@ -1,0 +1,9 @@
+{
+  "dispatch_at_utc": "2026-10-13T13:14:35.834Z",
+  "received_at_utc": "2026-10-13T13:15:32.826Z",
+  "method": "POST",
+  "endpoint": "/v3/dataforseo_labs/google/keyword_ideas/live",
+  "task_count": 1,
+  "noAiMode": true,
+  "preserved_at_utc": "2026-10-13T13:16:09.277075+00:00"
+}

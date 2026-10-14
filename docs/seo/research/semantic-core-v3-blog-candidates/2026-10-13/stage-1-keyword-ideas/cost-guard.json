@@ -1,0 +1,33 @@
+{
+  "checked_at_utc": "2026-10-13T13:14:18.409431+00:00",
+  "helper": "/Users/kasutaja/.codex/skills/seo/scripts/dataforseo_costs.py",
+  "helper_sha256": "1e5695db0c5d351dde27b5b6be2f74f64c0fbd2d1d9a8d7cb906298cacdd84fb",
+  "config": {
+    "mode": "threshold",
+    "threshold": 0.5,
+    "daily_limit": 10.0,
+    "warn_endpoints": [
+      "ai_optimization_chat_gpt_scraper",
+      "ai_opt_llm_ment_search",
+      "merchant_amazon_products_search",
+      "backlinks_backlinks",
+      "backlinks_domain_intersection"
+    ]
+  },
+  "ledger_path": "/Users/kasutaja/.config/codex-seo/dataforseo-ledger.json",
+  "ledger_sha256_before": "e2ffed2ece2730bdc1904034798506cc8a04079fcac20dbfce4dd699093d9ab1",
+  "strict_ledger_read": true,
+  "ledger_read_method": "read-only strict JSON snapshot; helper loader overridden to avoid lock-file write",
+  "installed_estimate_usd": 0.05,
+  "in_memory_current_tariff_usd": 0.024,
+  "helper_check": {
+    "status": "approved",
+    "endpoint": "dataforseo_labs_google_keyword_ideas",
+    "unit_cost_usd": 0.024,
+    "count": 1,
+    "total_cost_usd": 0.024,
+    "today_spend_usd": 0.1026,
+    "daily_remaining_usd": 9.8974
+  },
+  "configuration_or_installed_table_changed": false
+}

@@ -1,0 +1,807 @@
+{
+  "keyword": "nun hebrew letter",
+  "retrieved_at_utc": "2026-10-11T05:24:28.533Z",
+  "raw": {
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "4.9807 sec.",
+    "cost": 0.002,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "10110524-2762-0139-0000-f1d0af1045ac",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "4.8909 sec.",
+        "cost": 0.002,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "serp",
+          "google",
+          "organic",
+          "live",
+          "advanced"
+        ],
+        "data": {
+          "api": "serp",
+          "function": "live",
+          "se": "google",
+          "se_type": "organic",
+          "keyword": "nun hebrew letter",
+          "location_code": 2840,
+          "language_code": "en",
+          "device": "mobile",
+          "os": "android",
+          "depth": 10
+        },
+        "result": [
+          {
+            "keyword": "nun hebrew letter",
+            "type": "organic",
+            "se_domain": "google.com",
+            "location_code": 2840,
+            "language_code": "en",
+            "check_url": "https://www.google.com/search?q=nun%20hebrew%20letter&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+            "datetime": "2026-10-11 05:24:06 +00:00",
+            "spell": null,
+            "refinement_chips": null,
+            "item_types": [
+              "ai_overview",
+              "organic",
+              "people_also_ask",
+              "people_also_search",
+              "video",
+              "images"
+            ],
+            "se_results_count": 0,
+            "pages_count": 1,
+            "items_count": 13,
+            "items": [
+              {
+                "type": "ai_overview",
+                "rank_group": 1,
+                "rank_absolute": 1,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]",
+                "asynchronous_ai_overview": false,
+                "markdown": "Nun (נ) is the **14th letter** of the Hebrew alphabet , carrying a numerical value (gematria) of **50** and the sound of **\"n\"** (as in \"noon\").[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Nun/nun.html)[[2]](https://www.facebook.com/100068612731591/posts/how-to-write-the-hebrew-letter-nun-in-blockscriptnun-%D7%A0-final-nun-%D7%9F-alphabetical-/851145567182527/)\n\n### Key Forms\n\n- **Medial/Initial Form (נ):** A bent shape called *nun kefufah* , representing humility and bowing.\n- **Final Form (ן):** A straight, elongated shape called *nun sofit* or *nun peshutah* , used when the letter appears at the end of a word.[[1]](https://www.chabad.org/library/article_cdo/aid/137086/jewish/Nun.htm)[[2]](https://www.youtube.com/watch?v=MynXTRENj70&t=6)[[3]](https://en.wikipedia.org/wiki/Nun_(letter))[[4]](https://www.facebook.com/100068612731591/posts/how-to-write-the-hebrew-letter-nun-in-blockscriptnun-%D7%A0-final-nun-%D7%9F-alphabetical-/851145567182527/)\n\n### Meaning & Symbolism\n\n- **Fish & Life:** *Nun* means \"fish\" in Aramaic, symbolizing fertility, movement, and life.\n- **Faithfulness:** It is the first letter of *ne'eman* (faithful) and represents a humble servant before God.\n- **The Dreidel:** On the Hanukkah spinning top (*sivivon*), *Nun* stands for the word *nes* (miracle), part of the phrase \"A great miracle happened there\".\n- **Gematria 50:** Represents the **50 Gates of Understanding** (*Binah* ) and the **Jubilee year** (the 50th year of freedom).[[1]](https://www.youtube.com/watch?v=GTAva-z1jfM&t=1)[[2]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Nun/nun.html)[[3]](https://dinahoverlien.com/2020/07/08/nun/)[[4]](https://www.facebook.com/100068612731591/posts/how-to-write-the-hebrew-letter-nun-in-blockscriptnun-%D7%A0-final-nun-%D7%9F-alphabetical-/851145567182527/)[[5]](https://www.youtube.com/watch?v=MynXTRENj70&t=6)[[6]](https://kriakala.com/hebrew-letter-nun)[[7]](https://www.chabad.org/library/article_cdo/aid/137086/jewish/Nun.htm)\n\nLearn more about its structure and history on [Chabad.org](https://www.chabad.org/library/article_cdo/aid/137086/jewish/Nun.htm) or read the detailed overview on [Wikipedia](https://en.wikipedia.org/wiki/Nun_(letter)).Would you like to know how *Nun* is used in specific Hebrew words, or explore the meaning of other letters in the alphabet?",
+                "items": [
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Nun (נ) is the 14th letter of the Hebrew alphabet, carrying a numerical value (gematria) of 50 and the sound of \"n\" (as in \"noon\").",
+                    "markdown": "Nun (נ) is the **14th letter** of the Hebrew alphabet , carrying a numerical value (gematria) of **50** and the sound of **\"n\"** (as in \"noon\").[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Nun/nun.html)[[2]](https://www.facebook.com/100068612731591/posts/how-to-write-the-hebrew-letter-nun-in-blockscriptnun-%D7%A0-final-nun-%D7%9F-alphabetical-/851145567182527/)",
+                    "links": null,
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew for Christians",
+                        "domain": "www.hebrew4christians.com",
+                        "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Nun/nun.html",
+                        "title": "The Letter Nun",
+                        "text": "Letter: Nun is the 14th Hebrew letter (numeric value 50, sound \"n\"). Forms: Block/Script medial and ending \"sofit\" (resembles descending Vav). Symbolism: Repres..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Facebook",
+                        "domain": "www.facebook.com",
+                        "url": "https://www.facebook.com/100068612731591/posts/how-to-write-the-hebrew-letter-nun-in-blockscriptnun-%D7%A0-final-nun-%D7%9F-alphabetical-/851145567182527/",
+                        "title": "How to write the Hebrew letter Nun",
+                        "text": "■Hebrew letter: Nun נ■ •Hebrew name: נון •Alphabetical order: 14 •Numerical value: fifty •Transliteration: n •Pronunciation: n, as in noon •It represents a fish..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Key Forms",
+                    "markdown": "### Key Forms",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Medial/Initial Form (נ): A bent shape called nun kefufah, representing humility and bowing. Final Form (ן): A straight, elongated shape called nun sofit or nun peshutah, used when the letter appears at the end of a word.",
+                    "markdown": "- **Medial/Initial Form (נ):** A bent shape called *nun kefufah* , representing humility and bowing.\n- **Final Form (ן):** A straight, elongated shape called *nun sofit* or *nun peshutah* , used when the letter appears at the end of a word.[[1]](https://www.chabad.org/library/article_cdo/aid/137086/jewish/Nun.htm)[[2]](https://www.youtube.com/watch?v=MynXTRENj70&t=6)[[3]](https://en.wikipedia.org/wiki/Nun_(letter))[[4]](https://www.facebook.com/100068612731591/posts/how-to-write-the-hebrew-letter-nun-in-blockscriptnun-%D7%A0-final-nun-%D7%9F-alphabetical-/851145567182527/)",
+                    "links": null,
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137086/jewish/Nun.htm",
+                        "title": "Nun - The fourteenth letter of the Hebrew alphabet - Chabad.org",
+                        "text": "Letter: Nun (value 50, sound N, 14th Hebrew letter). Forms: Bent nun (nun kefufah) for middle/start; straight final nun (nun peshutah) for end; representing awe..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=MynXTRENj70&t=6",
+                        "title": "NUN - Secrets of the Hebrew Letters",
+                        "text": "NUN - Secrets of the Hebrew Letters the letter nun is another of the letters that has two forms the normative nun as you can see in the shape is bent over where..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Wikipedia",
+                        "domain": "en.wikipedia.org",
+                        "url": "https://en.wikipedia.org/wiki/Nun_(letter)",
+                        "title": "Nun (letter) - Wikipedia",
+                        "text": "Etymology: Descends from Egyptian hieroglyph of snake/eel or fish; Phoenician *nūn* meaning fish. Properties: 14th Semitic abjad letter, alveolar nasal sound /n..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Facebook",
+                        "domain": "www.facebook.com",
+                        "url": "https://www.facebook.com/100068612731591/posts/how-to-write-the-hebrew-letter-nun-in-blockscriptnun-%D7%A0-final-nun-%D7%9F-alphabetical-/851145567182527/",
+                        "title": "How to write the Hebrew letter Nun",
+                        "text": "■Hebrew letter: Nun נ■ •Hebrew name: נון •Alphabetical order: 14 •Numerical value: fifty •Transliteration: n •Pronunciation: n, as in noon •It represents a fish..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Meaning & Symbolism",
+                    "markdown": "### Meaning & Symbolism",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Fish & Life: Nun means \"fish\" in Aramaic, symbolizing fertility, movement, and life. Faithfulness: It is the first letter of ne'eman (faithful) and represents a humble servant before God. The Dreidel: On the Hanukkah spinning top (sivivon), Nun stands for the word nes (miracle), part of the phrase \"A great miracle happened there\". Gematria 50: Represents the 50 Gates of Understanding (Binah) and the Jubilee year (the 50th year of freedom).",
+                    "markdown": "- **Fish & Life:** *Nun* means \"fish\" in Aramaic, symbolizing fertility, movement, and life.\n- **Faithfulness:** It is the first letter of *ne'eman* (faithful) and represents a humble servant before God.\n- **The Dreidel:** On the Hanukkah spinning top (*sivivon*), *Nun* stands for the word *nes* (miracle), part of the phrase \"A great miracle happened there\".\n- **Gematria 50:** Represents the **50 Gates of Understanding** (*Binah* ) and the **Jubilee year** (the 50th year of freedom).[[1]](https://www.youtube.com/watch?v=GTAva-z1jfM&t=1)[[2]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Nun/nun.html)[[3]](https://dinahoverlien.com/2020/07/08/nun/)[[4]](https://www.facebook.com/100068612731591/posts/how-to-write-the-hebrew-letter-nun-in-blockscriptnun-%D7%A0-final-nun-%D7%9F-alphabetical-/851145567182527/)[[5]](https://www.youtube.com/watch?v=MynXTRENj70&t=6)[[6]](https://kriakala.com/hebrew-letter-nun)[[7]](https://www.chabad.org/library/article_cdo/aid/137086/jewish/Nun.htm)",
+                    "links": null,
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=GTAva-z1jfM&t=1",
+                        "title": "Power of Hebrew Letters: Nun",
+                        "text": "Power of Hebrew Letters: Nun foreign I am Dr Ann Davis. and we're going to be looking at the letter nun. just like some of the other letters we've seen there's ..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew for Christians",
+                        "domain": "www.hebrew4christians.com",
+                        "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Nun/nun.html",
+                        "title": "The Letter Nun",
+                        "text": "Letter: Nun is the 14th Hebrew letter (numeric value 50, sound \"n\"). Forms: Block/Script medial and ending \"sofit\" (resembles descending Vav). Symbolism: Repres..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "a small drop of ink",
+                        "domain": "dinahoverlien.com",
+                        "url": "https://dinahoverlien.com/2020/07/08/nun/",
+                        "title": "Nun",
+                        "text": "Nun Nun is the fourteenth letter in the Hebrew alphabet. Nun (also written as “Noon”) has the same sound as “n” as in “nut”. Every line in Psalm 119:105–112 sta..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Facebook",
+                        "domain": "www.facebook.com",
+                        "url": "https://www.facebook.com/100068612731591/posts/how-to-write-the-hebrew-letter-nun-in-blockscriptnun-%D7%A0-final-nun-%D7%9F-alphabetical-/851145567182527/",
+                        "title": "How to write the Hebrew letter Nun",
+                        "text": "■Hebrew letter: Nun נ■ •Hebrew name: נון •Alphabetical order: 14 •Numerical value: fifty •Transliteration: n •Pronunciation: n, as in noon •It represents a fish..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=MynXTRENj70&t=6",
+                        "title": "NUN - Secrets of the Hebrew Letters",
+                        "text": "NUN - Secrets of the Hebrew Letters the letter nun is another of the letters that has two forms the normative nun as you can see in the shape is bent over where..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "קריאה קלה עם הילה",
+                        "domain": "kriakala.com",
+                        "url": "https://kriakala.com/hebrew-letter-nun",
+                        "title": "The Hebrew Letter Nun (נ) – Shape, Sound & How to Teach | Kriakala",
+                        "text": "About the Letter Nun Nun is the 14th letter of the Hebrew alphabet (Aleph Bet), with a gematria value of 50. Its Hebrew name is נוּן. The word Nun is also the A..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137086/jewish/Nun.htm",
+                        "title": "Nun - The fourteenth letter of the Hebrew alphabet - Chabad.org",
+                        "text": "Letter: Nun (value 50, sound N, 14th Hebrew letter). Forms: Bent nun (nun kefufah) for middle/start; straight final nun (nun peshutah) for end; representing awe..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Learn more about its structure and history on Chabad.org or read the detailed overview on Wikipedia.",
+                    "markdown": "Learn more about its structure and history on [Chabad.org](https://www.chabad.org/library/article_cdo/aid/137086/jewish/Nun.htm) or read the detailed overview on [Wikipedia](https://en.wikipedia.org/wiki/Nun_(letter)).",
+                    "links": [
+                      {
+                        "type": "link_element",
+                        "title": "Chabad.org",
+                        "description": null,
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137086/jewish/Nun.htm",
+                        "domain": "www.chabad.org"
+                      },
+                      {
+                        "type": "link_element",
+                        "title": "Wikipedia",
+                        "description": null,
+                        "url": "https://en.wikipedia.org/wiki/Nun_(letter)",
+                        "domain": "en.wikipedia.org"
+                      }
+                    ],
+                    "images": null,
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Would you like to know how Nun is used in specific Hebrew words, or explore the meaning of other letters in the alphabet?",
+                    "markdown": "Would you like to know how *Nun* is used in specific Hebrew words, or explore the meaning of other letters in the alphabet?",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  }
+                ],
+                "references": [
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Chabad",
+                    "domain": "www.chabad.org",
+                    "url": "https://www.chabad.org/library/article_cdo/aid/137086/jewish/Nun.htm",
+                    "title": "Nun - The fourteenth letter of the Hebrew alphabet - Chabad.org",
+                    "text": "Letter: Nun (value 50, sound N, 14th Hebrew letter). Forms: Bent nun (nun kefufah) for middle/start; straight final nun (nun peshutah) for end; representing awe..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Hebrew for Christians",
+                    "domain": "www.hebrew4christians.com",
+                    "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Nun/nun.html",
+                    "title": "The Letter Nun",
+                    "text": "Letter: Nun is the 14th Hebrew letter (numeric value 50, sound \"n\"). Forms: Block/Script medial and ending \"sofit\" (resembles descending Vav). Symbolism: Repres..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Wikipedia",
+                    "domain": "en.wikipedia.org",
+                    "url": "https://en.wikipedia.org/wiki/Nun_(letter)",
+                    "title": "Nun (letter) - Wikipedia",
+                    "text": "Etymology: Descends from Egyptian hieroglyph of snake/eel or fish; Phoenician *nūn* meaning fish. Properties: 14th Semitic abjad letter, alveolar nasal sound /n..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/watch?v=MynXTRENj70&t=6",
+                    "title": "NUN - Secrets of the Hebrew Letters",
+                    "text": "NUN - Secrets of the Hebrew Letters the letter nun is another of the letters that has two forms the normative nun as you can see in the shape is bent over where..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/watch?v=GTAva-z1jfM&t=1",
+                    "title": "Power of Hebrew Letters: Nun",
+                    "text": "Power of Hebrew Letters: Nun foreign I am Dr Ann Davis. and we're going to be looking at the letter nun. just like some of the other letters we've seen there's ..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "a small drop of ink",
+                    "domain": "dinahoverlien.com",
+                    "url": "https://dinahoverlien.com/2020/07/08/nun/",
+                    "title": "Nun",
+                    "text": "Nun Nun is the fourteenth letter in the Hebrew alphabet. Nun (also written as “Noon”) has the same sound as “n” as in “nut”. Every line in Psalm 119:105–112 sta..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Facebook",
+                    "domain": "www.facebook.com",
+                    "url": "https://www.facebook.com/100068612731591/posts/how-to-write-the-hebrew-letter-nun-in-blockscriptnun-%D7%A0-final-nun-%D7%9F-alphabetical-/851145567182527/",
+                    "title": "How to write the Hebrew letter Nun",
+                    "text": "■Hebrew letter: Nun נ■ •Hebrew name: נון •Alphabetical order: 14 •Numerical value: fifty •Transliteration: n •Pronunciation: n, as in noon •It represents a fish..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "קריאה קלה עם הילה",
+                    "domain": "kriakala.com",
+                    "url": "https://kriakala.com/hebrew-letter-nun",
+                    "title": "The Hebrew Letter Nun (נ) – Shape, Sound & How to Teach | Kriakala",
+                    "text": "About the Letter Nun Nun is the 14th letter of the Hebrew alphabet (Aleph Bet), with a gematria value of 50. Its Hebrew name is נוּן. The word Nun is also the A..."
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 1,
+                "rank_absolute": 2,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]",
+                "domain": "www.youtube.com",
+                "title": "The Hebrew letter: Nun",
+                "url": "https://www.youtube.com/watch?v=QeG-FQ0Iilo",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "1.7K+ views",
+                "website_name": "YouTube · El Shaddai Ministries",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "Pastor Mark teaches on the Hebrew letter Nun. Hebrew letter: Nun @ESM-US 64 likes 1.7K views 3y ago",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2023-10-11 05:24:06 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "people_also_ask",
+                "rank_group": 1,
+                "rank_absolute": 3,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]",
+                "items": [
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What is the meaning of the number 14 in Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[1]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "How do you pronounce each Hebrew letter?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[2]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What is the Hebrew letter for 12?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[3]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What is the meaning of the Hebrew word nun?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[4]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "people_also_search",
+                "rank_group": 1,
+                "rank_absolute": 4,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]",
+                "title": "People also search for",
+                "items": [
+                  "Nun Hebrew meaning Psalm 119",
+                  "Secret of the Hebrew letter Nun",
+                  "Hebrew alphabet",
+                  "Mem Hebrew meaning",
+                  "Ayin meaning In Hebrew",
+                  "What does samekh mean in Hebrew"
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 2,
+                "rank_absolute": 5,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.abarim-publications.com",
+                "title": "The amazing name Nun: meaning and etymology",
+                "url": "https://www.abarim-publications.com/Meaning/Nun.html",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.abarim-publications.com",
+                "website_name": "Abarim Publications",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "The name Nun comes from the verb נון (nun), meaning to propagate or increase: נון (nun) means to propagate or greatly increase. Noun נין (nin) ...",
+                "pre_snippet": "05/05/2014 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": [
+                  "nun hebrew meaning",
+                  "secret of the",
+                  "hebrew",
+                  "nun meaning",
+                  "mem hebrew",
+                  "ayin meaning",
+                  "what does samekh",
+                  "shin hebrew"
+                ],
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2014-05-05 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "video",
+                "rank_group": 1,
+                "rank_absolute": 6,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[11]",
+                "items": [
+                  {
+                    "type": "video_element",
+                    "source": "Shalom Sesame",
+                    "title": "Learn the Hebrew letter NUN",
+                    "timestamp": "2014-01-21 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=ruBxQZlUruE"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "thelivingword",
+                    "title": "Secret of the Hebrew letter Nun",
+                    "timestamp": "2015-10-17 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=DR4dLSZ6q40"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Rabbi Aaron L. Raskin | הרב אהרן ראסקין",
+                    "title": "Hebrew Letters; Nun נ: The 50 Gates of Understanding",
+                    "timestamp": "2014-08-27 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=a_UIjLiSsrA"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "shivimpanim",
+                    "title": "NUN - Secrets of the Hebrew Letters",
+                    "timestamp": "2010-06-17 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=MynXTRENj70"
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 3,
+                "rank_absolute": 7,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[13]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "ivrianochi.home.blog",
+                "title": "Origins of the Hebrew Aleph-Bet (Part 14, Nun)",
+                "url": "https://ivrianochi.home.blog/2019/04/18/origins-of-the-hebrew-aleph-bet-part-14-nun/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://ivrianochi.home.blog",
+                "website_name": "Home.blog",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Apr 18, 2019 — Hebrew nun is used for the n sound. with the n sound – nachash … the corresponding letter is called nahas, the Ethiopic equivalent of Hebrew ...",
+                "pre_snippet": "04/18/2019 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Hebrew nun is used for the n sound"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": [
+                  "nun hebrew meaning",
+                  "secret of the",
+                  "hebrew",
+                  "nun meaning",
+                  "mem hebrew",
+                  "ayin meaning",
+                  "what does samekh",
+                  "shin hebrew"
+                ],
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2019-04-18 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 4,
+                "rank_absolute": 8,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "commons.wikimedia.org",
+                "title": "File:Hebrew letter nun.svg",
+                "url": "https://commons.wikimedia.org/wiki/File:Hebrew_letter_nun.svg",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://commons.wikimedia.org",
+                "website_name": "Wikimedia Commons",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Oct 20, 2008 — Hebrew letter nun Deutsch: Hebräischer Buchstabe Nun Date 20 October 2008 Source Own work Author Akbo0001 Licensing. Nun (Hebräisch)",
+                "pre_snippet": "10/20/2008 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Hebrew letter nun"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2008-10-20 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "images",
+                "rank_group": 1,
+                "rank_absolute": 9,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[16]",
+                "title": "Images",
+                "url": null,
+                "items": [
+                  {
+                    "type": "images_element",
+                    "alt": "Hebrew Letter Nun - Isolated",
+                    "url": "https://www.vectorstock.com/royalty-free-vector/hebrew-letter-nun-isolated-vector-33263906",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSJuFzdtXqycL6VGiGWbqq3c7Ay7g3Qr7HRYnCtovZdQ&s"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "The Letter Nun",
+                    "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Nun/nun.html",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ-b-ppM_g1EsMekDwWPXOHibYeXlRVc0ixmQhgAGeq2gSkiTfkUw5jA&s"
+                  }
+                ],
+                "related_image_searches": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 5,
+                "rank_absolute": 10,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[18]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "kids.kiddle.co",
+                "title": "Nun (letter) Facts for Kids",
+                "url": "https://kids.kiddle.co/Nun_(letter)",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://kids.kiddle.co",
+                "website_name": "Kids encyclopedia facts",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Oct 17, 2025 — The letter Nun is one of the 22 letters in the Hebrew alphabet. Each letter in Hebrew also has a number value, and Nun stands for the number 50.",
+                "pre_snippet": "10/17/2025 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "one of the 22 letters in the Hebrew alphabet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2025-10-17 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 6,
+                "rank_absolute": 11,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[20]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "jhvonline.com",
+                "title": "Nun",
+                "url": "https://jhvonline.com/nun-p14511-288.htm",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://jhvonline.com",
+                "website_name": "Jewish Herald-Voice",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Jan 31, 2013 — ... Hebrew word is, yi(n)pol. The “n” in parentheses represents the letter nun that has “fallen away,” yet remains subtly audible. Like it's ...",
+                "pre_snippet": "01/31/2013 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "yi(n)pol"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2013-01-31 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 7,
+                "rank_absolute": 12,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[21]/div[1]/div[1]",
+                "domain": "www.youtube.com",
+                "title": "Hebrew Alphabet Print Form Writing Practice: Lamed | Mem | Nun | Samech",
+                "url": "https://www.youtube.com/watch?v=JNzF6M7Ot28",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "130+ views",
+                "website_name": "YouTube · How to Pronounce and Say in Hebrew",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "All 27 Hebrew alphabet letters print form so you can read books and newspapers, type and write messages. Nun - נ Nun sofit - ן Samech - ס Ayin ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2024-10-11 05:24:06 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "people_also_search",
+                "rank_group": 2,
+                "rank_absolute": 13,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[4]/div[1]/div[3]/div[1]",
+                "title": "People also search for",
+                "items": [
+                  "Shin Hebrew meaning",
+                  "Qoph Hebrew meaning"
+                ],
+                "rectangle": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

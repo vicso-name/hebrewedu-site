@@ -1,0 +1,15 @@
+{
+  "volume": {
+    "submission_armed_at_utc": "2026-10-13T10:40:06.728556+00:00",
+    "response_preserved_at_utc": "2026-10-13T10:42:11.909831+00:00",
+    "api_tool_dispatch_at_utc": null,
+    "api_tool_received_at_utc": null
+  },
+  "difficulty": {
+    "submission_armed_at_utc": "2026-10-13T10:42:45.624231+00:00",
+    "response_preserved_at_utc": "2026-10-13T10:43:04.189420+00:00",
+    "api_tool_dispatch_at_utc": "2026-10-13T10:42:55.955Z",
+    "api_tool_received_at_utc": "2026-10-13T10:43:02.685Z"
+  },
+  "timestamp_semantics": "submitted_at_utc in metadata/state is the durable pre-call arming marker; received_at_utc is local preservation time. Separate exact KD tool timestamps were captured. Exact volume tool dispatch/receipt timestamps were not captured; do not infer them from task IDs."
+}

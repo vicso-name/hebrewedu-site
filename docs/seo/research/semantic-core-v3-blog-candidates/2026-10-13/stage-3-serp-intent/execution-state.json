@@ -1,0 +1,9 @@
+{
+  "state": "stage3_complete_stopped_for_owner_review",
+  "paid_requests_attempted": 4,
+  "successful_tasks": 4,
+  "actual_stage_cost_usd": "0.008",
+  "remaining_project_cap_usd": "0.218",
+  "future_work_authorized": false,
+  "updated_at_utc": "2026-10-13T14:05:07.166139+00:00"
+}

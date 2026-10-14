@@ -1,0 +1,20 @@
+{
+  "submitted_at_utc": "2026-10-13T10:40:06.728556+00:00",
+  "received_at_utc": "2026-10-13T10:42:11.909831+00:00",
+  "path": [
+    "v3",
+    "keywords_data",
+    "google_ads",
+    "search_volume",
+    "live"
+  ],
+  "task_id": "10131042-2762-0367-0000-fcfc261cbbad",
+  "response_status_code": 20000,
+  "response_status_message": "Ok.",
+  "task_status_code": 20000,
+  "task_status_message": "Ok.",
+  "actual_cost_usd": "0.09",
+  "request_sha256": "948d301dfb4e5e8822c2a17c2bc0ad02944498c8401c95d28511bd8e36e55ada",
+  "raw_response_sha256": "b388b0149c1658bad34b6a460c548b3542e213155ee22c0bba01f7b633e24090",
+  "tool_envelope_sha256": "9f54cced46a8dd015ff6dce566d8590f821f05520a6f27597df242c8089c0853"
+}

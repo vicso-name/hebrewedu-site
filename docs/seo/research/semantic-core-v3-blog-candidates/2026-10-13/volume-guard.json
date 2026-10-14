@@ -1,0 +1,19 @@
+{
+  "checked_at_utc": "2026-10-13T10:40:06.728238+00:00",
+  "helper_result": {
+    "status": "approved",
+    "endpoint": "kw_data_google_ads_search_volume",
+    "unit_cost_usd": 0.09,
+    "count": 1,
+    "total_cost_usd": 0.09,
+    "today_spend_usd": 0,
+    "daily_remaining_usd": 10.0
+  },
+  "explicit_owner_authorization": "Exactly two named Live requests; five keywords; $0.11 cap",
+  "price_override_scope": "In-memory COST_TABLE only; daily settings unchanged",
+  "daily_spent_usd": "0",
+  "daily_limit_usd": "10.0",
+  "batch_spent_usd": "0",
+  "remaining_batch_cap_usd": "0.11",
+  "remaining_estimated_charges_usd": "0.10260"
+}

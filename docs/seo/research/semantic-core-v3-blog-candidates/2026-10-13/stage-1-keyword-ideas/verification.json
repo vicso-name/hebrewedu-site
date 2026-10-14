@@ -1,0 +1,13 @@
+{
+  "verified_at_utc": "2026-10-13T13:19:09.312930+00:00",
+  "preserved_research_files": 171,
+  "preserved_website_files": 218,
+  "changed_or_missing_preexisting_files": [],
+  "raw_text_matches_tool_envelope": true,
+  "single_task": true,
+  "single_local_ledger_entry": true,
+  "charge_usd": 0.024,
+  "project_remaining_usd": 0.226,
+  "new_candidates_not_in_existing_alias_index": true,
+  "later_stage_requests": 0
+}

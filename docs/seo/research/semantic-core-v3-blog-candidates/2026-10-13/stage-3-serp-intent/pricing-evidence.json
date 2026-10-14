@@ -1,0 +1,12 @@
+{
+  "verified_at_utc": "2026-10-13T13:58:34.537958+00:00",
+  "source": "https://dataforseo.com/pricing/google-serp/google-organic-serp-api",
+  "documentation": "https://docs.dataforseo.com/v3/serp/google/organic/live/advanced/",
+  "method": "public documentation read through web tool; no provider API pricing or account request",
+  "live_price_per_10_result_page_usd": "0.002",
+  "requested_depth": 10,
+  "device_and_market_surcharge": false,
+  "multipliers_in_payload": [],
+  "expected_four_task_charge_usd": "0.008",
+  "live_task_limit_per_request": 1
+}

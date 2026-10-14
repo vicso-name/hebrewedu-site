@@ -1,0 +1,16 @@
+{
+  "dispatch_at_utc": "2026-10-13T14:00:44.754Z",
+  "method": "POST",
+  "path": "/v3/serp/google/organic/live/advanced",
+  "noAiMode": true,
+  "data": [
+    {
+      "keyword": "hebrew alphabet nun",
+      "location_code": 2840,
+      "language_code": "en",
+      "device": "mobile",
+      "os": "android",
+      "depth": 10
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "envelope": {
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "3.9214 sec.",
+    "cost": 0.024,
+    "tasks_count": 1,
+    "tasks_error": 0
+  },
+  "task": {
+    "id": "10131315-2762-0400-0000-bb153fc85dca",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "3.8883 sec.",
+    "cost": 0.024,
+    "result_count": 1,
+    "path": [
+      "v3",
+      "dataforseo_labs",
+      "google",
+      "keyword_ideas",
+      "live"
+    ],
+    "data": {
+      "api": "dataforseo_labs",
+      "function": "keyword_ideas",
+      "se_type": "google",
+      "keywords": [
+        "hebrew binyanim",
+        "hebrew roots",
+        "hebrew vocabulary size",
+        "hebrew learning mistakes",
+        "hebrew listening",
+        "spoken hebrew",
+        "hebrew handwriting",
+        "hebrew verb conjugation app"
+      ],
+      "location_code": 2840,
+      "language_code": "en",
+      "limit": 100,
+      "ignore_synonyms": true,
+      "include_clickstream_data": false
+    }
+  },
+  "result_summary": [
+    {
+      "se_type": "google",
+      "seed_keywords": [
+        "hebrew binyanim",
+        "hebrew roots",
+        "hebrew vocabulary size",
+        "hebrew learning mistakes",
+        "hebrew listening",
+        "spoken hebrew",
+        "hebrew handwriting",
+        "hebrew verb conjugation app"
+      ],
+      "location_code": 2840,
+      "language_code": "en",
+      "total_count": 637673,
+      "items_count": 100,
+      "offset": 0,
+      "offset_token": "eyJDdXJyZW50T2Zmc2V0IjoxMDAsIlJlcXVlc3REYXRhIjp7ImtleXdvcmRzIjpbImhlYnJldyBiaW55YW5pbSIsImhlYnJldyByb290cyIsImhlYnJldyB2b2NhYnVsYXJ5IHNpemUiLCJoZWJyZXcgbGVhcm5pbmcgbWlzdGFrZXMiLCJoZWJyZXcgbGlzdGVuaW5nIiwic3Bva2VuIGhlYnJldyIsImhlYnJldyBoYW5kd3JpdGluZyIsImhlYnJldyB2ZXJiIGNvbmp1Z2F0aW9uIGFwcCJdLCJsb2NhdGlvbiI6Mjg0MCwibGFuZ3VhZ2UiOiJlbiIsImNsb3NlbHlfdmFyaWFudHMiOmZhbHNlLCJuZXdlc3QiOmZhbHNlLCJleHRlbmRlZCI6ZmFsc2UsImxvYWRfc2VycF9pbmZvIjpmYWxzZSwiYXV0b2NvcnJlY3QiOnRydWUsInNldHRpbmdzIjp7InVzZV9jYXRlZ29yaWVzIjp0cnVlLCJpbnRlcnNlY3Rfd2l0aF9jYXRlZ29yaWVzIjpmYWxzZSwidXNlX2NsdXN0ZXJzIjp0cnVlLCJjbHVzdGVyX3NpbXBsaWZpZWRfbWF0Y2giOmZhbHNlLCJjbHVzdGVyc19jb3VudCI6Mywic2tpcF9uZWFyZXN0X2NsdXN0ZXJzX2NvdW50IjowLCJ1c2VfZGlzdGFuY2Vfc2NvcmUiOmZhbHNlLCJ1c2Vfc3Zfc2NvcmUiOnRydWV9LCJJc09sZCI6ZmFsc2UsInNlYXJjaF9hZnRlcl90b2tlbiI6bnVsbCwiaWdub3JlX3N5bm9ueW1zIjp0cnVlLCJzZWFyY2hfZW5naW5lIjoiZ29vZ2xlIiwidXNlX25ld19jYXRlZ29yaWVzIjp0cnVlLCJvcmRlcl9ieSI6eyJvcmRlcl9maWVsZCI6Il9zY29yZSIsIm9yZGVyX3R5cGUiOiJEZXNjIiwibmV4dCI6bnVsbH0sImxpbWl0IjoxMDAsIm9mZnNldCI6MCwiYWlkIjoyNzYyOTUsInVzZV9jYWNoZSI6dHJ1ZSwidGFza19pZCI6IjEwMTMxMzE1LTI3NjItMDQwMC0wMDAwLWJiMTUzZmM4NWRjYSIsImZsYWdzIjpudWxsfSwiUmF3UXVlcnkiOm51bGwsIklkIjoiZTNhOTcyZmItZDdiNi00NGE1LWIyYWYtMDZlN2NiNTg5NDI0IiwiU2VhcmNoQWZ0ZXJEYXRhIjpbMjUwLjM3MTYzLCIxMjI1Y2NkYS1mYzc3LTI1MjktOWEzNi01ODc2YzY1ZjM5MmQiXSwiRXhlY3V0b3IiOi02NjU5MTA0OTgyODI1NjgwMzk3fQ=="
+    }
+  ],
+  "raw_sha256": "8dca1f36d1a38ccab6442e25ae7a086d86737a29062fc972a6ec34c6e67d6d50",
+  "timestamps": {
+    "dispatch_at_utc": "2026-10-13T13:14:35.834Z",
+    "received_at_utc": "2026-10-13T13:15:32.826Z",
+    "method": "POST",
+    "endpoint": "/v3/dataforseo_labs/google/keyword_ideas/live",
+    "task_count": 1,
+    "noAiMode": true,
+    "preserved_at_utc": "2026-10-13T13:16:09.277075+00:00"
+  }
+}

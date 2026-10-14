@@ -1,0 +1,34 @@
+{
+  "checked_at_utc": "2026-10-13T13:58:34.537601+00:00",
+  "helper": "/Users/kasutaja/.codex/skills/seo/scripts/dataforseo_costs.py",
+  "helper_sha256": "1e5695db0c5d351dde27b5b6be2f74f64c0fbd2d1d9a8d7cb906298cacdd84fb",
+  "config": {
+    "mode": "threshold",
+    "threshold": 0.5,
+    "daily_limit": 10.0,
+    "warn_endpoints": [
+      "backlinks_domain_intersection",
+      "ai_optimization_chat_gpt_scraper",
+      "backlinks_backlinks",
+      "ai_opt_llm_ment_search",
+      "merchant_amazon_products_search"
+    ]
+  },
+  "ledger_path": "/Users/kasutaja/.config/codex-seo/dataforseo-ledger.json",
+  "ledger_sha256": "d45ff08a6df574fc344eaa79bee12a1f1c57fce80071e0e5b81acf2ff54e7fa6",
+  "strict_ledger_read": true,
+  "ledger_read_method": "read-only snapshot; helper loader overridden to avoid lock-file write",
+  "helper_check": {
+    "status": "approved",
+    "endpoint": "serp_organic_live_advanced",
+    "unit_cost_usd": 0.002,
+    "count": 4,
+    "total_cost_usd": 0.008,
+    "today_spend_usd": 0.1266,
+    "daily_remaining_usd": 9.8734
+  },
+  "configuration_or_installed_table_changed": false,
+  "project_prior_spend_usd": "0.024",
+  "stage_cap_usd": "0.008",
+  "expected_combined_charge_usd": "0.008"
+}

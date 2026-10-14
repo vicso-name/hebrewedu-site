@@ -1,0 +1,25 @@
+{
+  "checked_at_utc": "2026-10-13T10:45:31.047020+00:00",
+  "cap_usd": "0.11",
+  "actual_provider_spend_usd": "0.1026",
+  "unused_batch_cap_usd": "0.0074",
+  "local_daily_spend_usd": "0.1026",
+  "local_daily_limit_usd": "10.0",
+  "matched_local_ledger_entries": [
+    {
+      "timestamp": "2026-10-13T13:42:11.908765",
+      "endpoint": "kw_data_google_ads_search_volume",
+      "cost": 0.09,
+      "note": "HebrewEdu Phase 3B 2026-10-13; task 10131042-2762-0367-0000-fcfc261cbbad; exact approved five-keyword batch"
+    },
+    {
+      "timestamp": "2026-10-13T13:43:04.188855",
+      "endpoint": "dataforseo_labs_bulk_keyword_difficulty",
+      "cost": 0.0126,
+      "note": "HebrewEdu Phase 3B 2026-10-13; task 10131043-2762-0392-0000-da857e125d7c; exact approved five-keyword batch"
+    }
+  ],
+  "task_costs_reconcile_with_envelope_costs": true,
+  "local_helper_settings_modified": false,
+  "all_protected_files_unchanged": true
+}

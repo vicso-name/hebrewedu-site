@@ -1,0 +1,117 @@
+{
+  "created_at_utc": "2026-10-13T13:21:18.404780+00:00",
+  "files": {
+    "approval-and-plan.json": {
+      "sha256": "33111911ea03114d3a14cd0899bd627d24cb3f6f27de5372dfc32757473cc513",
+      "bytes": 749
+    },
+    "budget-reconciliation.json": {
+      "sha256": "2c8cdf3b382dded8feb88fa87297dd564e16874181d05da4ec7e532f70b7f7f8",
+      "bytes": 300
+    },
+    "cost-guard.json": {
+      "sha256": "a5aa0e2cc296f11093513651edf81cee02ac4dce2f1ff6dfd097eb568e218868",
+      "bytes": 1209
+    },
+    "cost-ledger.csv": {
+      "sha256": "1bc3c3f9ef504a33dd312bee69cbebfd7a1c0c629d71d467135fc949a7471d4a",
+      "bytes": 253
+    },
+    "deduplication-sources.json": {
+      "sha256": "3a8732d5f78c938f02c3d8a4c21baa81b42b6aecdaace5cc2a08d78f50352919",
+      "bytes": 6392
+    },
+    "discovery-review.csv": {
+      "sha256": "6ef62098a9f0f58e8771a5f907c2861c38d2d237edfa8f69e936402e607ff4c7",
+      "bytes": 125330
+    },
+    "execution-state.json": {
+      "sha256": "e1ffde60828c8be96d2b557790c4f31be993e8f433680e3515f83f6f3a913896",
+      "bytes": 436
+    },
+    "existing-alias-index.csv": {
+      "sha256": "99df5989d08b986e3d4fde2d2d5d4448743493596239b5d9a73b5538c1ab25ff",
+      "bytes": 446596
+    },
+    "finalize-artifacts.py": {
+      "sha256": "8ae096550a38d0e179d969e64a4ad55ebde71fc93f21cc25b8f5f0391b926fd4",
+      "bytes": 1808
+    },
+    "findings.md": {
+      "sha256": "dc63aeee1f11beb0df067dbdfd12f44d5d34a4d1813d1be65831fea2ca96a7cb",
+      "bytes": 13347
+    },
+    "fingerprints-before.json": {
+      "sha256": "dac9bcce41b68ae31b6cc1358de22f680a3b237ac10fa2c07588ccbf6d45cd2d",
+      "bytes": 67790
+    },
+    "local-cost-log.json": {
+      "sha256": "989456df86c7b77060b6b17c2fba66e717f3016d4e1a3130746a889e3add77b6",
+      "bytes": 318
+    },
+    "measured-candidates.csv": {
+      "sha256": "1d1643e7153e1aeedf94ee259dc20458d6ce7603f1ee638bf495dedadc8a24fd",
+      "bytes": 133
+    },
+    "monthly-volume-history.csv": {
+      "sha256": "4a0d0ec865841eb7c828eda2816ef38a6658901ae96e9216fab58358442eb2a0",
+      "bytes": 85900
+    },
+    "next-stage-proposal.json": {
+      "sha256": "81e8dc713048c76e3462e7d378d95e4737516a8c2457ec120b82fd2f894f01a6",
+      "bytes": 1560
+    },
+    "next-stage-proposed-keywords.csv": {
+      "sha256": "93d49d841a563af96e448ce4b4f5851a9ebdd6be1cfa628fb069241d407e62be",
+      "bytes": 6458
+    },
+    "next-volume-exact-list.csv": {
+      "sha256": "e17bb23a2bc266700ba6806a8d670018e90240239df82f01f033991c15e26239",
+      "bytes": 2482
+    },
+    "prepare-artifacts.py": {
+      "sha256": "5c3ed9f7671c11c65a93d3bd10f82c146a6d22c2d461b00c2a32abfbec4b5523",
+      "bytes": 3953
+    },
+    "preserve-artifacts.py": {
+      "sha256": "4d28b3bd311ee05a8aaffc1b2945466800f27d016723e50d0641365e80dec682",
+      "bytes": 2855
+    },
+    "raw-response.json": {
+      "sha256": "8dca1f36d1a38ccab6442e25ae7a086d86737a29062fc972a6ec34c6e67d6d50",
+      "bytes": 400726
+    },
+    "rejected-near-topic-mappings.csv": {
+      "sha256": "94e9b3c1746f2795ca3cd2ce8216e704f6679e2e528049909b618634e8680a67",
+      "bytes": 11300
+    },
+    "request-timing.json": {
+      "sha256": "970af979cfd75d82a83b29aa5bb7bd3365927e5e95087529f973eaee4d5de7bd",
+      "bytes": 281
+    },
+    "request.json": {
+      "sha256": "d7521bb3f418bf3339204a1e146c06b314a79e22d7eae47ae864896aea3a154c",
+      "bytes": 402
+    },
+    "review-artifacts.py": {
+      "sha256": "3d3849df7a9a7049828e18416624c2442515880612d5bb1247f95758e998ad19",
+      "bytes": 15657
+    },
+    "review-summary.json": {
+      "sha256": "eb51821c8753da2324a4f91464a4ca6f6742a17f410a61af65f4d79824ad3315",
+      "bytes": 7603
+    },
+    "task-metadata.json": {
+      "sha256": "02e942ff7f59ef4a076d1702f86607668ed8fc3aa3c1025fcffe93064ef86d5c",
+      "bytes": 3307
+    },
+    "tool-response.json": {
+      "sha256": "4918ac4b638346de854a540d65c22ac7a56a1f45f91315747ef8b1fe7a34974b",
+      "bytes": 432082
+    },
+    "verification.json": {
+      "sha256": "6c328ffc953700c466126c28aceee1383d1610bd62deb3cebfe468e20630729f",
+      "bytes": 417
+    }
+  }
+}

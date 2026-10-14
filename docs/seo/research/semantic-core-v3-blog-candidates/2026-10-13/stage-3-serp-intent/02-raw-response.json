@@ -1,0 +1,817 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "4.8930 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10131400-2762-0139-0000-be914adf484c",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "3.4506 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "hebrew phrases",
+        "location_code": 2840,
+        "language_code": "en",
+        "device": "mobile",
+        "os": "android",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "hebrew phrases",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=hebrew%20phrases&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-10-13 14:00:26 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "people_also_search",
+            "video",
+            "images"
+          ],
+          "se_results_count": 0,
+          "pages_count": 1,
+          "items_count": 13,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": false,
+              "markdown": "Here are essential Hebrew phrases for greetings, everyday conversation, dining, and shopping.[[1]](https://www.teachmehebrew.com/100-basic-hebrew-phrases.html)[[2]](https://jewishmiami.org/about/departments/missions/common_hebrew_words_and_phrases/)\n\n### Greetings & Courtesies\n\n- **Hello / Goodbye / Peace:** Shalom (שלום)[[1]](https://jewishmiami.org/about/departments/missions/common_hebrew_words_and_phrases/)\n- **Good morning:** Boker tov (בוקר טוב)[[1]](https://jewishmiami.org/about/departments/missions/common_hebrew_words_and_phrases/)\n- **Good evening:** Erev tov (ערב טוב)[[1]](https://jewishmiami.org/about/departments/missions/common_hebrew_words_and_phrases/)\n- **How are you?** \n\t- To a male: Ma shlomcha? (מה שלומך?)\n\t- To a female: Ma shlomech? (מה שלומך?)[[1]](https://jewishmiami.org/about/departments/missions/common_hebrew_words_and_phrases/)\n- **What’s up? / How are things:** Ma nishma? (מה נשמע?) or Ma koreh? (מה קורה?)[[1]](https://www.touristisrael.com/hebrew-language-guide-for-tourists-in-israel/24759/)[[2]](https://jewishmiami.org/about/departments/missions/common_hebrew_words_and_phrases/)\n- **Thank you:** Toda (תודה)[[1]](https://jewishmiami.org/about/departments/missions/common_hebrew_words_and_phrases/)\n- **Thank you very much:** Toda raba (תודה רבה)[[1]](https://www.youtube.com/watch?v=wOMEoQ0DR84)\n- **Please / You’re welcome:** Bevakasha (בבקשה)[[1]](https://jewishmiami.org/about/departments/missions/common_hebrew_words_and_phrases/)\n- **Excuse me / I’m sorry:** Slicha (סליחה)[[1]](https://jewishmiami.org/about/departments/missions/common_hebrew_words_and_phrases/)\n- **Yes / No:** Ken (כן) / Lo (לא)[[1]](https://jewishmiami.org/about/departments/missions/common_hebrew_words_and_phrases/)\n- **No problem:** Ein be'ayah (אין בעיה)[[1]](https://www.hebrewpod101.com/lesson/absolute-beginner-hebrew-for-every-day-1-top-25-hebrew-phrases)\n\n### Dining & Shopping\n\n- **How much is this?** Kama zeh oleh? (כמה זה עולה?)[[1]](https://www.youtube.com/watch?v=wOMEoQ0DR84)[[2]](https://jewishmiami.org/about/departments/missions/common_hebrew_words_and_phrases/)\n- **I want…** \n\t- Male: Ani rotzeh... (אני רוצה...)\n\t- Female: Ani rotzah... (אני רוצה...)[[1]](https://jewishmiami.org/about/departments/missions/common_hebrew_words_and_phrases/)\n- **Do you have…?** \n\t- To a male: Yesh lecha…? (יש לך...?)\n\t- To a female: Yesh lach…? (יש לך...?)[[1]](https://jewishmiami.org/about/departments/missions/common_hebrew_words_and_phrases/)\n- **Water / Coffee:** Mayim (מים) / Kafeh (קפה)[[1]](https://jewishmiami.org/about/departments/missions/common_hebrew_words_and_phrases/)\n- **The check, please:** Cheshbon, bevakasha (חשבון, בבקשה)[[1]](https://dental-dvi.org.il/common-professional-hebrew-phrases/)\n- **Where is the bathroom?** Eifo ha'sherutim? (איפה השירותים?)[[1]](https://www.youtube.com/watch?v=wOMEoQ0DR84)\n\n### Popular Slang & Expressions\n\n- **Cool / Awesome:** Sababa (סבבה) or Achla (אחלה)\n- **Let’s go / Come on:** Yalla (יאללה)\n- **Long live the people of Israel:** Am Yisrael Chai (עם ישראל חי)[[1]](https://reformjudaism.org/blog/eight-hebrew-words-and-phrases-learn)[[2]](https://dental-dvi.org.il/common-professional-hebrew-phrases/)[[3]](https://www.touristisrael.com/hebrew-language-guide-for-tourists-in-israel/24759/)\n\nYou can explore a complete list of vocabulary and audio guides through [Teach Me Hebrew](https://www.teachmehebrew.com/100-basic-hebrew-phrases.html) or practice everyday conversation topics via [HebrewPod101](https://www.hebrewpod101.com/blog/2022/01/28/hebrew-beginner-phrases/).[[1]](https://www.teachmehebrew.com/100-basic-hebrew-phrases.html)[[2]](https://www.hebrewpod101.com/blog/2022/01/28/hebrew-beginner-phrases/)Would you like to focus on **travel phrases**, **dining out** , or **Hebrew slang** for your next step?",
+              "items": [
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Here are essential Hebrew phrases for greetings, everyday conversation, dining, and shopping.",
+                  "markdown": "Here are essential Hebrew phrases for greetings, everyday conversation, dining, and shopping.[[1]](https://www.teachmehebrew.com/100-basic-hebrew-phrases.html)[[2]](https://jewishmiami.org/about/departments/missions/common_hebrew_words_and_phrases/)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Teach Me Hebrew",
+                      "domain": "www.teachmehebrew.com",
+                      "url": "https://www.teachmehebrew.com/100-basic-hebrew-phrases.html",
+                      "title": "100 Basic Hebrew Phrases - Teach Me Hebrew",
+                      "text": "* Source: TeachMeHebrew.com * Content: 100 basic Hebrew phrases with English translations, transliterations, and Hebrew script. * Categories: Greetings, introdu..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Greater Miami Jewish Federation",
+                      "domain": "jewishmiami.org",
+                      "url": "https://jewishmiami.org/about/departments/missions/common_hebrew_words_and_phrases/",
+                      "title": "Common Hebrew Words and Phrases",
+                      "text": "Table_title: Greetings & Courtesies Table_content: | English | Hebrew | | --- | --- | | Hello, good-bye or peace | Shalom | | Good morning | Boker tov | | Good ..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Greetings & Courtesies",
+                  "text": "Hello / Goodbye / Peace: Shalom (שלום) Good morning: Boker tov (בוקר טוב) Good evening: Erev tov (ערב טוב) How are you? To a male: Ma shlomcha? (מה שלומך?) To a female: Ma shlomech? (מה שלומך?) What’s up? / How are things: Ma nishma? (מה נשמע?) or Ma koreh? (מה קורה?) Thank you: Toda (תודה) Thank you very much: Toda raba (תודה רבה) Please / You’re welcome: Bevakasha (בבקשה) Excuse me / I’m sorry: Slicha (סליחה) Yes / No: Ken (כן) / Lo (לא) No problem: Ein be'ayah (אין בעיה)",
+                  "markdown": "- **Hello / Goodbye / Peace:** Shalom (שלום)[[1]](https://jewishmiami.org/about/departments/missions/common_hebrew_words_and_phrases/)\n- **Good morning:** Boker tov (בוקר טוב)[[1]](https://jewishmiami.org/about/departments/missions/common_hebrew_words_and_phrases/)\n- **Good evening:** Erev tov (ערב טוב)[[1]](https://jewishmiami.org/about/departments/missions/common_hebrew_words_and_phrases/)\n- **How are you?** \n\t- To a male: Ma shlomcha? (מה שלומך?)\n\t- To a female: Ma shlomech? (מה שלומך?)[[1]](https://jewishmiami.org/about/departments/missions/common_hebrew_words_and_phrases/)\n- **What’s up? / How are things:** Ma nishma? (מה נשמע?) or Ma koreh? (מה קורה?)[[1]](https://www.touristisrael.com/hebrew-language-guide-for-tourists-in-israel/24759/)[[2]](https://jewishmiami.org/about/departments/missions/common_hebrew_words_and_phrases/)\n- **Thank you:** Toda (תודה)[[1]](https://jewishmiami.org/about/departments/missions/common_hebrew_words_and_phrases/)\n- **Thank you very much:** Toda raba (תודה רבה)[[1]](https://www.youtube.com/watch?v=wOMEoQ0DR84)\n- **Please / You’re welcome:** Bevakasha (בבקשה)[[1]](https://jewishmiami.org/about/departments/missions/common_hebrew_words_and_phrases/)\n- **Excuse me / I’m sorry:** Slicha (סליחה)[[1]](https://jewishmiami.org/about/departments/missions/common_hebrew_words_and_phrases/)\n- **Yes / No:** Ken (כן) / Lo (לא)[[1]](https://jewishmiami.org/about/departments/missions/common_hebrew_words_and_phrases/)\n- **No problem:** Ein be'ayah (אין בעיה)[[1]](https://www.hebrewpod101.com/lesson/absolute-beginner-hebrew-for-every-day-1-top-25-hebrew-phrases)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Greater Miami Jewish Federation",
+                      "domain": "jewishmiami.org",
+                      "url": "https://jewishmiami.org/about/departments/missions/common_hebrew_words_and_phrases/",
+                      "title": "Common Hebrew Words and Phrases",
+                      "text": "Table_title: Greetings & Courtesies Table_content: | English | Hebrew | | --- | --- | | Hello, good-bye or peace | Shalom | | Good morning | Boker tov | | Good ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Tourist Israel",
+                      "domain": "www.touristisrael.com",
+                      "url": "https://www.touristisrael.com/hebrew-language-guide-for-tourists-in-israel/24759/",
+                      "title": "Blend in Like a Native With the Best Hebrew Slang",
+                      "text": "The Basic Hebrew You Must Know in Israel: * Vegetarian - “Tzim-chonee” * Vegan - “Tee-vonee” * Meat - “Basar” * Wine - “Yain” * Beer - “Beera” * Coffee - “Caffe..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=wOMEoQ0DR84",
+                      "title": "Most Essential Hebrew Phrases Traveling to Israel",
+                      "text": "Most Essential Hebrew Phrases Traveling to Israel heading to Israel soon stick around because I'm about to teach you the must know phrases in Hebrew that will m..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "HebrewPod101",
+                      "domain": "www.hebrewpod101.com",
+                      "url": "https://www.hebrewpod101.com/lesson/absolute-beginner-hebrew-for-every-day-1-top-25-hebrew-phrases",
+                      "title": "Top 25 Hebrew Phrases",
+                      "text": "Comments Have a great day! תודה (Toda, \"Thank you\") Team HebrewPod101.com Napoleon 2024-12-26 19:15:39 My favourite word is ! מעולה HebrewPod101.com 2024-05-18 ..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Dining & Shopping",
+                  "text": "How much is this? Kama zeh oleh? (כמה זה עולה?) I want… Male: Ani rotzeh... (אני רוצה...) Female: Ani rotzah... (אני רוצה...) Do you have…? To a male: Yesh lecha…? (יש לך...?) To a female: Yesh lach…? (יש לך...?) Water / Coffee: Mayim (מים) / Kafeh (קפה) The check, please: Cheshbon, bevakasha (חשבון, בבקשה) Where is the bathroom? Eifo ha'sherutim? (איפה השירותים?)",
+                  "markdown": "- **How much is this?** Kama zeh oleh? (כמה זה עולה?)[[1]](https://www.youtube.com/watch?v=wOMEoQ0DR84)[[2]](https://jewishmiami.org/about/departments/missions/common_hebrew_words_and_phrases/)\n- **I want…** \n\t- Male: Ani rotzeh... (אני רוצה...)\n\t- Female: Ani rotzah... (אני רוצה...)[[1]](https://jewishmiami.org/about/departments/missions/common_hebrew_words_and_phrases/)\n- **Do you have…?** \n\t- To a male: Yesh lecha…? (יש לך...?)\n\t- To a female: Yesh lach…? (יש לך...?)[[1]](https://jewishmiami.org/about/departments/missions/common_hebrew_words_and_phrases/)\n- **Water / Coffee:** Mayim (מים) / Kafeh (קפה)[[1]](https://jewishmiami.org/about/departments/missions/common_hebrew_words_and_phrases/)\n- **The check, please:** Cheshbon, bevakasha (חשבון, בבקשה)[[1]](https://dental-dvi.org.il/common-professional-hebrew-phrases/)\n- **Where is the bathroom?** Eifo ha'sherutim? (איפה השירותים?)[[1]](https://www.youtube.com/watch?v=wOMEoQ0DR84)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=wOMEoQ0DR84",
+                      "title": "Most Essential Hebrew Phrases Traveling to Israel",
+                      "text": "Most Essential Hebrew Phrases Traveling to Israel heading to Israel soon stick around because I'm about to teach you the must know phrases in Hebrew that will m..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Greater Miami Jewish Federation",
+                      "domain": "jewishmiami.org",
+                      "url": "https://jewishmiami.org/about/departments/missions/common_hebrew_words_and_phrases/",
+                      "title": "Common Hebrew Words and Phrases",
+                      "text": "Table_title: Greetings & Courtesies Table_content: | English | Hebrew | | --- | --- | | Hello, good-bye or peace | Shalom | | Good morning | Boker tov | | Good ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Dental Volunteers for Israel",
+                      "domain": "dental-dvi.org.il",
+                      "url": "https://dental-dvi.org.il/common-professional-hebrew-phrases/",
+                      "title": "Common Professional Hebrew Phrases - Dental Volunteers for Israel",
+                      "text": "Common Phrases. ENGLISH, HEBREW. Do you speak English? Ata medaber Anglit? How to get to…? Ech Magi'im le…? What is your name? Ech korim lecha? Picture, Tmuna. ..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Popular Slang & Expressions",
+                  "text": "Cool / Awesome: Sababa (סבבה) or Achla (אחלה) Let’s go / Come on: Yalla (יאללה) Long live the people of Israel: Am Yisrael Chai (עם ישראל חי)",
+                  "markdown": "- **Cool / Awesome:** Sababa (סבבה) or Achla (אחלה)\n- **Let’s go / Come on:** Yalla (יאללה)\n- **Long live the people of Israel:** Am Yisrael Chai (עם ישראל חי)[[1]](https://reformjudaism.org/blog/eight-hebrew-words-and-phrases-learn)[[2]](https://dental-dvi.org.il/common-professional-hebrew-phrases/)[[3]](https://www.touristisrael.com/hebrew-language-guide-for-tourists-in-israel/24759/)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Reform Judaism.org",
+                      "domain": "reformjudaism.org",
+                      "url": "https://reformjudaism.org/blog/eight-hebrew-words-and-phrases-learn",
+                      "title": "Eight Hebrew Words and Phrases to Learn | Reform Judaism",
+                      "text": "Hebrew Vocabulary: Chai (life/value 18, basis for gift multiples); Am Yisrael Chai (solidarity and survival of the Jewish people); Mishpacha (family and close f..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Dental Volunteers for Israel",
+                      "domain": "dental-dvi.org.il",
+                      "url": "https://dental-dvi.org.il/common-professional-hebrew-phrases/",
+                      "title": "Common Professional Hebrew Phrases - Dental Volunteers for Israel",
+                      "text": "Common Phrases. ENGLISH, HEBREW. Do you speak English? Ata medaber Anglit? How to get to…? Ech Magi'im le…? What is your name? Ech korim lecha? Picture, Tmuna. ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Tourist Israel",
+                      "domain": "www.touristisrael.com",
+                      "url": "https://www.touristisrael.com/hebrew-language-guide-for-tourists-in-israel/24759/",
+                      "title": "Blend in Like a Native With the Best Hebrew Slang",
+                      "text": "The Basic Hebrew You Must Know in Israel: * Vegetarian - “Tzim-chonee” * Vegan - “Tee-vonee” * Meat - “Basar” * Wine - “Yain” * Beer - “Beera” * Coffee - “Caffe..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "You can explore a complete list of vocabulary and audio guides through Teach Me Hebrew or practice everyday conversation topics via HebrewPod101.",
+                  "markdown": "You can explore a complete list of vocabulary and audio guides through [Teach Me Hebrew](https://www.teachmehebrew.com/100-basic-hebrew-phrases.html) or practice everyday conversation topics via [HebrewPod101](https://www.hebrewpod101.com/blog/2022/01/28/hebrew-beginner-phrases/).[[1]](https://www.teachmehebrew.com/100-basic-hebrew-phrases.html)[[2]](https://www.hebrewpod101.com/blog/2022/01/28/hebrew-beginner-phrases/)",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Teach Me Hebrew",
+                      "description": null,
+                      "url": "https://www.teachmehebrew.com/100-basic-hebrew-phrases.html",
+                      "domain": "www.teachmehebrew.com"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "HebrewPod101",
+                      "description": null,
+                      "url": "https://www.hebrewpod101.com/blog/2022/01/28/hebrew-beginner-phrases/",
+                      "domain": "www.hebrewpod101.com"
+                    }
+                  ],
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Teach Me Hebrew",
+                      "domain": "www.teachmehebrew.com",
+                      "url": "https://www.teachmehebrew.com/100-basic-hebrew-phrases.html",
+                      "title": "100 Basic Hebrew Phrases - Teach Me Hebrew",
+                      "text": "* Source: TeachMeHebrew.com * Content: 100 basic Hebrew phrases with English translations, transliterations, and Hebrew script. * Categories: Greetings, introdu..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "HebrewPod101",
+                      "domain": "www.hebrewpod101.com",
+                      "url": "https://www.hebrewpod101.com/blog/2022/01/28/hebrew-beginner-phrases/",
+                      "title": "The Top 40 Simple Hebrew Phrases for Beginners - HebrewPod101",
+                      "text": "אדוני? / גברתי? Adoni? / Gvirti? “Sir?” / “Miss?” אדוני, אני רוצה להזמין שולחן לשלוש. Adoni, ani rotzah lehazmin shulkhan le-shalosh. “Sir, I'd like to reserve ..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Would you like to focus on travel phrases, dining out, or Hebrew slang for your next step?",
+                  "markdown": "Would you like to focus on **travel phrases**, **dining out** , or **Hebrew slang** for your next step?",
+                  "links": null,
+                  "images": null,
+                  "references": null
+                }
+              ],
+              "references": [
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Teach Me Hebrew",
+                  "domain": "www.teachmehebrew.com",
+                  "url": "https://www.teachmehebrew.com/100-basic-hebrew-phrases.html",
+                  "title": "100 Basic Hebrew Phrases - Teach Me Hebrew",
+                  "text": "* Source: TeachMeHebrew.com * Content: 100 basic Hebrew phrases with English translations, transliterations, and Hebrew script. * Categories: Greetings, introdu..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "YouTube",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/watch?v=wOMEoQ0DR84",
+                  "title": "Most Essential Hebrew Phrases Traveling to Israel",
+                  "text": "Most Essential Hebrew Phrases Traveling to Israel heading to Israel soon stick around because I'm about to teach you the must know phrases in Hebrew that will m..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "HebrewPod101",
+                  "domain": "www.hebrewpod101.com",
+                  "url": "https://www.hebrewpod101.com/blog/2022/01/28/hebrew-beginner-phrases/",
+                  "title": "The Top 40 Simple Hebrew Phrases for Beginners - HebrewPod101",
+                  "text": "אדוני? / גברתי? Adoni? / Gvirti? “Sir?” / “Miss?” אדוני, אני רוצה להזמין שולחן לשלוש. Adoni, ani rotzah lehazmin shulkhan le-shalosh. “Sir, I'd like to reserve ..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Greater Miami Jewish Federation",
+                  "domain": "jewishmiami.org",
+                  "url": "https://jewishmiami.org/about/departments/missions/common_hebrew_words_and_phrases/",
+                  "title": "Common Hebrew Words and Phrases",
+                  "text": "Table_title: Greetings & Courtesies Table_content: | English | Hebrew | | --- | --- | | Hello, good-bye or peace | Shalom | | Good morning | Boker tov | | Good ..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Reform Judaism.org",
+                  "domain": "reformjudaism.org",
+                  "url": "https://reformjudaism.org/blog/eight-hebrew-words-and-phrases-learn",
+                  "title": "Eight Hebrew Words and Phrases to Learn | Reform Judaism",
+                  "text": "Hebrew Vocabulary: Chai (life/value 18, basis for gift multiples); Am Yisrael Chai (solidarity and survival of the Jewish people); Mishpacha (family and close f..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Dental Volunteers for Israel",
+                  "domain": "dental-dvi.org.il",
+                  "url": "https://dental-dvi.org.il/common-professional-hebrew-phrases/",
+                  "title": "Common Professional Hebrew Phrases - Dental Volunteers for Israel",
+                  "text": "Common Phrases. ENGLISH, HEBREW. Do you speak English? Ata medaber Anglit? How to get to…? Ech Magi'im le…? What is your name? Ech korim lecha? Picture, Tmuna. ..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Tourist Israel",
+                  "domain": "www.touristisrael.com",
+                  "url": "https://www.touristisrael.com/hebrew-language-guide-for-tourists-in-israel/24759/",
+                  "title": "Blend in Like a Native With the Best Hebrew Slang",
+                  "text": "The Basic Hebrew You Must Know in Israel: * Vegetarian - “Tzim-chonee” * Vegan - “Tee-vonee” * Meat - “Basar” * Wine - “Yain” * Beer - “Beera” * Coffee - “Caffe..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "HebrewPod101",
+                  "domain": "www.hebrewpod101.com",
+                  "url": "https://www.hebrewpod101.com/lesson/absolute-beginner-hebrew-for-every-day-1-top-25-hebrew-phrases",
+                  "title": "Top 25 Hebrew Phrases",
+                  "text": "Comments Have a great day! תודה (Toda, \"Thank you\") Team HebrewPod101.com Napoleon 2024-12-26 19:15:39 My favourite word is ! מעולה HebrewPod101.com 2024-05-18 ..."
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.teachmehebrew.com",
+              "title": "100 Basic Hebrew Phrases",
+              "url": "https://www.teachmehebrew.com/100-basic-hebrew-phrases.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.teachmehebrew.com",
+              "website_name": "Teach Me Hebrew",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Good morning. bo-ker tov. בוקר טוב. Good evening. v. ערב טוב. Good night. lai-la לילה טוב. Thank you very much. Are you married? a-ta na-su-i? I'm hungry. Good ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Good morning. bo-ker tov. בוקר טוב"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": [
+                "meaningful",
+                "short meaningful",
+                "hebrew phrases",
+                "hebrew phrases",
+                "basic hebrew",
+                "famous hebrew",
+                "hebrew phrases",
+                "hebrew phrases"
+              ],
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What are famous Hebrew sayings?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How do Israelis say \"I love you\"?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How is 666 written in Hebrew?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Can you give me 100 common Hebrew phrases?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "jewishmiami.org",
+              "title": "Common Hebrew Words and Phrases",
+              "url": "https://jewishmiami.org/about/departments/missions/common_hebrew_words_and_phrases/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://jewishmiami.org",
+              "website_name": "Greater Miami Jewish Federation",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "English, Hebrew. Hello, good-bye or peace, Shalom. Good morning, Boker tov. Good evening, Erev tov. See you soon, L'hitra'ot. What's up? Ma nishma.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": [
+                "meaningful",
+                "short meaningful",
+                "hebrew phrases",
+                "hebrew phrases",
+                "basic hebrew",
+                "famous hebrew",
+                "hebrew phrases",
+                "hebrew phrases"
+              ],
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]",
+              "title": "People also search for",
+              "items": [
+                "Powerful hebrew phrases",
+                "Short meaningful Hebrew phrases",
+                "Hebrew phrases about life",
+                "Hebrew phrases and meanings",
+                "Hebrew phrases in english",
+                "Hebrew phrases about God"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[10]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "5 Basic Hebrew Phrases",
+              "url": "https://www.youtube.com/shorts/xFvZ5IFTvi8",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "245K+ views",
+              "website_name": "YouTube · Rosetta Stone",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "If you're looking to learn #Hebrew, here are 5 basic phrases to get you started! #learnhebrew #hebrewlanguage #languagelesson ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-10-13 14:00:25 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[12]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "reformjudaism.org",
+              "title": "Eight Hebrew Words and Phrases to Learn",
+              "url": "https://reformjudaism.org/blog/eight-hebrew-words-and-phrases-learn",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://reformjudaism.org",
+              "website_name": "Reform Judaism.org",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Dec 21, 2023 — If you'd like to build your own Hebrew vocabulary, here are a few words and phrases that you can use in everyday conversation. Yallah (let's go)!.",
+              "pre_snippet": "12/21/2023 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "here are a few words and phrases that you can use in everyday conversation"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2023-12-21 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.hebrewpod101.com",
+              "title": "The Top 40 Simple Hebrew Phrases for Beginners",
+              "url": "https://www.hebrewpod101.com/blog/2022/01/28/hebrew-beginner-phrases/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.hebrewpod101.com",
+              "website_name": "HebrewPod101",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Jan 28, 2022 — 1. Greetings & Self-introductions “How are you?” 2. איך הולך? Eikh holekh? “How's it going?” 4. בוקר טוב. Boker tov. “Good morning.” Tzohorayim ...",
+              "pre_snippet": "01/28/2022 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 40,
+                "regular": null,
+                "max_value": null,
+                "currency": "TOP",
+                "is_price_range": false,
+                "displayed_price": "The Top 40 Simple Hebrew Phrases for Beginners"
+              },
+              "highlighted": [
+                "Greetings & Self-introductions"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2022-01-28 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[16]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "Learn Hebrew with HebrewPod101.com",
+                  "title": "49 Basic Hebrew Phrases for ALL Situations to Start as a Beginner",
+                  "timestamp": "2023-08-29 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=bqFrB7VIng0"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Learn Hebrew with HebrewPod101.com",
+                  "title": "201 Phrases Every Hebrew Beginner Must-Know",
+                  "timestamp": "2025-09-30 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=59edSp6tKdg"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Hebrew by Inbal",
+                  "title": "Most Essential Hebrew Phrases Traveling to Israel",
+                  "timestamp": "2024-12-22 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=wOMEoQ0DR84"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[18]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.omniglot.com",
+              "title": "Useful Hebrew phrases",
+              "url": "https://www.omniglot.com/language/phrases/hebrew.php",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.omniglot.com",
+              "website_name": "Omniglot",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Useful Hebrew phrases ; Maybe, (oolai) אולי ; I don't know, m - (ani lo yodéʿa) אני לא יודע f - (ani lo yodáʿat) אני לא יודעת ; Please speak more slowly · אפשׁר ...",
+              "pre_snippet": "Useful Hebrew phrases ; Maybe, (oolai) אולי ; I don't know, m - (ani lo yodéʿa) אני לא יודע f - (ani lo yodáʿat) אני לא יודעת ; Please speak more slowly · אפשׁר ...",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[20]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "in-hebrew.co.il",
+              "title": "Learn Hebrew Phrases with Audio",
+              "url": "https://in-hebrew.co.il/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://in-hebrew.co.il",
+              "website_name": "Learn Hebrew Phrases with Audio",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Free site with 1215 Hebrew phrases and sentences with Audio pronunciations, Nikud (vowels), and English translations and transliterations.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Free site with 1215 Hebrew phrases"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "images",
+              "rank_group": 1,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[22]",
+              "title": "Images",
+              "url": null,
+              "items": [
+                {
+                  "type": "images_element",
+                  "alt": "These 10 basic #Hebrew phrases can help you start a ...",
+                  "url": "https://www.instagram.com/p/C1AhflvtRHM/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7wSu6TaIuAcquxLPeQitywDkn1UfoZ_qpSpxUq8DJwQ&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Basic #Hebrew - 😾🚨 #Angry Words and Phrases",
+                  "url": "https://www.facebook.com/HebrewPod101/posts/basic-hebrew-angry-words-and-phrases/2764609016909798/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUlxn82elv2EMuQBhJXSMWh5IJIkQS5naVqPj_z6oyTNNj9Z88k-ICUyE&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Learn Hebrew Phrases with Audio #200: Middle-eastern meat ...",
+                  "url": "https://in-hebrew.co.il/english/hebrew-english_200.php",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSsXbN4SuAlHDWfhHGAWVWGU-Wf_uWua1zd8oAhWtf8rIkDzwmhrE2LPA&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Basic Hebrew Expressions for Beginners | PDF",
+                  "url": "https://www.scribd.com/doc/311324229/Basic-Hebrew-Expressions",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbu6bccvVh2SEACLdJ0vWAsTgwBCAJubsgaMvcposqhA6U5DF8ONOU5n4&s"
+                }
+              ],
+              "related_image_searches": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 2,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[4]/div[1]/div[3]/div[1]",
+              "title": "People also search for",
+              "items": [
+                "Basic Hebrew phrases PDF",
+                "Famous Hebrew phrases",
+                "Hebrew phrases funny",
+                "Hebrew phrases in hebrew",
+                "Hebrew phrases about love"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

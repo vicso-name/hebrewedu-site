@@ -1,0 +1,595 @@
+{
+  "keyword": "tsadi sofit",
+  "retrieved_at_utc": "2026-10-11T05:30:23.419Z",
+  "raw": {
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "2.8463 sec.",
+    "cost": 0.002,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "10110530-2762-0139-0000-5026713af189",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "2.3794 sec.",
+        "cost": 0.002,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "serp",
+          "google",
+          "organic",
+          "live",
+          "advanced"
+        ],
+        "data": {
+          "api": "serp",
+          "function": "live",
+          "se": "google",
+          "se_type": "organic",
+          "keyword": "tsadi sofit",
+          "location_code": 2840,
+          "language_code": "en",
+          "device": "mobile",
+          "os": "android",
+          "depth": 10
+        },
+        "result": [
+          {
+            "keyword": "tsadi sofit",
+            "type": "organic",
+            "se_domain": "google.com",
+            "location_code": 2840,
+            "language_code": "en",
+            "check_url": "https://www.google.com/search?q=tsadi%20sofit&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+            "datetime": "2026-10-11 05:30:03 +00:00",
+            "spell": {
+              "keyword": "tsadi soffit",
+              "type": "did_you_mean"
+            },
+            "refinement_chips": null,
+            "item_types": [
+              "images",
+              "people_also_ask",
+              "organic",
+              "video",
+              "ai_overview",
+              "short_videos",
+              "people_also_search"
+            ],
+            "se_results_count": 0,
+            "pages_count": 1,
+            "items_count": 13,
+            "items": [
+              {
+                "type": "images",
+                "rank_group": 1,
+                "rank_absolute": 1,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[1]",
+                "title": "Images",
+                "url": null,
+                "items": [
+                  {
+                    "type": "images_element",
+                    "alt": "90 Learn Hebrew Letter Tzadi Sofit",
+                    "url": "https://www.hebrewdoc.com/LearnHebrew/90LearnTzadiSofit.html",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110530-2762-0139-0000-5026713af189:0"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "File:Tzadi and tzadi sofit.PNG - Wikimedia Commons",
+                    "url": "https://commons.wikimedia.org/wiki/File:Tzadi_and_tzadi_sofit.PNG",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110530-2762-0139-0000-5026713af189:1"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "Final Forms of Hebrew Letters",
+                    "url": "https://hebrew4christians.com/Grammar/Unit_One/Final_Forms/final_forms.html",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110530-2762-0139-0000-5026713af189:2"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "Final Forms of Hebrew Letters",
+                    "url": "https://hebrew4christians.com/Grammar/Unit_One/Final_Forms/final_forms.html",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110530-2762-0139-0000-5026713af189:3"
+                  }
+                ],
+                "related_image_searches": null,
+                "rectangle": null
+              },
+              {
+                "type": "people_also_ask",
+                "rank_group": 1,
+                "rank_absolute": 2,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[3]/div[1]",
+                "items": [
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does \"tsadi\" mean?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[3]/div[1]/div[2]/div[2]/div[1]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What are the 22 Hebrew letters in order?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[3]/div[1]/div[2]/div[2]/div[2]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does 90 mean in Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[3]/div[1]/div[2]/div[2]/div[3]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does Aleph mean biblically?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[3]/div[1]/div[2]/div[2]/div[4]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 1,
+                "rank_absolute": 3,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[4]/div[1]/div[1]",
+                "domain": "www.youtube.com",
+                "title": "Learn the Hebrew letter TZADI",
+                "url": "https://www.youtube.com/watch?v=-LI0RLf5IJA",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "487.2K+ views",
+                "website_name": "YouTube · Shalom Sesame",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "The Hebrew word TZEDAKAH means CHARITY and begins with the letter TZADI. Explore simpler, safer experiences for kids and families. The letter ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2014-10-11 05:30:03 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "video",
+                "rank_group": 1,
+                "rank_absolute": 4,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[6]",
+                "items": [
+                  {
+                    "type": "video_element",
+                    "source": "heartlandhailey | jewish life",
+                    "title": "tsadi sofit ץ #hebrew #hebrewalphabet #jewishlearning",
+                    "timestamp": "2025-11-13 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/shorts/ZkNBQ992uZA"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Hebrew with David",
+                    "title": "Learn to Read and Write in Hebrew · The Letter Tsadi Sofit (ץ) · Lesson 23",
+                    "timestamp": "2021-11-20 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=diFXdQBv5yI&t=0"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "How to Pronounce and Say in Hebrew",
+                    "title": "Lesson 100 – Hebrew Alphabet Easy Reading Practice: Ayin | Pe | Pe sofit",
+                    "timestamp": "2025-06-24 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=Pn6c3FJjuRE"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Torah Home Study",
+                    "title": "Writing the Hebrew Letters: Tsaddi",
+                    "timestamp": "2018-03-05 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=IkG9fHsiC68"
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "ai_overview",
+                "rank_group": 1,
+                "rank_absolute": 5,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[7]/div[1]",
+                "asynchronous_ai_overview": true,
+                "markdown": null,
+                "items": null,
+                "references": null,
+                "rectangle": null
+              },
+              {
+                "type": "short_videos",
+                "rank_group": 1,
+                "rank_absolute": 6,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                "title": "Short videos",
+                "items": [
+                  {
+                    "type": "short_videos_element",
+                    "title": "tsadi sofit ץ #hebrew #hebrewalphabet #jewishlearning",
+                    "url": "https://www.youtube.com/shorts/ZkNBQ992uZA",
+                    "domain": "www.youtube.com",
+                    "source": "heartlandhailey | jewish life"
+                  },
+                  {
+                    "type": "short_videos_element",
+                    "title": "The regular Tzadi is bent. The final form, Tzadi Sofit, stands straight. In Jewish ... by Simcha Galper | Jewish Art & Ketubah on Instagram. Play on Instagram. 0:15",
+                    "url": "https://www.instagram.com/reel/DcqwecyMqNK/",
+                    "domain": "google.com",
+                    "source": "Simcha Galper | Jewish Art & Ketubah"
+                  },
+                  {
+                    "type": "short_videos_element",
+                    "title": "Learning the 5 sofit letters in Hebrew by GQ Jamison on Facebook. Play on Facebook. 0:55",
+                    "url": "https://www.facebook.com/groups/796068850979772/posts/825560971363893/",
+                    "domain": "google.com",
+                    "source": "GQ Jamison"
+                  },
+                  {
+                    "type": "short_videos_element",
+                    "title": "🇮🇱 letter 𝐓𝐒𝐀𝐃𝐄 𝐒𝐎𝐅𝐈𝐓 in cursive 👉 https://www.hebrew-verbs.com/ 👈 ... by Hebrew Verbs by Rut Avni on Instagram. Play on Instagram. 0:28",
+                    "url": "https://www.instagram.com/reel/DPKXbLGjKSn/",
+                    "domain": "google.com",
+                    "source": "Hebrew Verbs by Rut Avni"
+                  },
+                  {
+                    "type": "short_videos_element",
+                    "title": "Tall Form Hebrew Letter Tsadi Sofit Stock Footage Video (100% Royalty ... by Vlada Liatomska on Shutterstock. Play on Shutterstock. 0:05",
+                    "url": "https://www.shutterstock.com/video/clip-3831442257-tall-form-hebrew-letter-tsadi-sofit-drawn",
+                    "domain": "google.com",
+                    "source": "Vlada Liatomska"
+                  },
+                  {
+                    "type": "short_videos_element",
+                    "title": "In the Hebrew alphabet /Alephbets there are 5 letters that change forms ... by GQ Jamison on Facebook. Play on Facebook. 1:17",
+                    "url": "https://www.facebook.com/groups/796068850979772/posts/865090237410966/",
+                    "domain": "google.com",
+                    "source": "GQ Jamison"
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 2,
+                "rank_absolute": 7,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.magnific.com",
+                "title": "Tsadi - letters of hebrew alphabet | Premium Photo",
+                "url": "https://www.magnific.com/premium-photo/tsadi-letters-hebrew-alphabet_22978387.htm",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.magnific.com",
+                "website_name": "Magnific",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Download this Premium photo of Tsadi - letters of hebrew alphabet and explore millions of professional stock photos on Magnific.",
+                "pre_snippet": "02/02/2022 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": [
+                  "tzadik",
+                  "tzadik sofit",
+                  "tsadi meaning",
+                  "tzadi hebrew",
+                  "final tsadi",
+                  "tsadi hebrew",
+                  "tsade hebrew",
+                  "what does koph"
+                ],
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2022-02-02 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 3,
+                "rank_absolute": 8,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[12]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "hebrewtoday.com",
+                "title": "The Letter Tzadi (צ) - The Hebrew Alphabet",
+                "url": "https://hebrewtoday.com/alphabet/the-letter-tzadi-%D7%A6/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://hebrewtoday.com",
+                "website_name": "Hebrew Today",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "(In Hebrew, a צדיק (tzadik) means a righteous person.) However, the letter also represents צַיִד (tzayid) hunting. Like many other letters that we have looked ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "a righteous person"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": [
+                  "tzadik",
+                  "tzadik sofit",
+                  "tsadi meaning",
+                  "tzadi hebrew",
+                  "final tsadi",
+                  "tsadi hebrew",
+                  "tsade hebrew",
+                  "what does koph"
+                ],
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 4,
+                "rank_absolute": 9,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.balashon.com",
+                "title": "Balashon - Hebrew Language Detective: tsade",
+                "url": "https://www.balashon.com/2007/01/tsade.html",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.balashon.com",
+                "website_name": "Balashon",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Jan 8, 2007 — Tsade got its name from the shape of a \"fishing hook\", trap or a lasso - related to the root צוד - meaning \"to hunt, catch, capture\". From this ...",
+                "pre_snippet": "Tsade got its name from the shape of a \"fishing hook\", trap or a lasso - related to the root צוד - meaning \"to hunt, catch, capture\". From this ...",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Tsade got its name from the shape of a \"fishing hook\", trap or a lasso"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2007-01-08 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 5,
+                "rank_absolute": 10,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[15]/div[1]/div[1]",
+                "domain": "m.youtube.com",
+                "title": "Secret of the Hebrew letter Tsadi",
+                "url": "https://m.youtube.com/live/SG7RIw9IJsc?t=249s",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "26.2K+ views",
+                "website_name": "YouTube · thelivingword",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "Discover the secret behind the Hebrew letter Tsadi. Discover the secret in each letter of the Hebrew alphabet.",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": [
+                  {
+                    "type": "link_element",
+                    "title": "5:36",
+                    "description": null,
+                    "url": "https://m.youtube.com/live/SG7RIw9IJsc?t=249s",
+                    "domain": "m.youtube.com"
+                  }
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2016-10-11 05:30:03 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "people_also_search",
+                "rank_group": 1,
+                "rank_absolute": 11,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[17]",
+                "title": "People also search for",
+                "items": [
+                  "Tzadik sofit",
+                  "Tzadik sofit cursive",
+                  "Tzadi Hebrew letter meaning",
+                  "Final Tsadi cursive",
+                  "Tsadi Hebrew letter",
+                  "Tsade Hebrew pronunciation"
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 6,
+                "rank_absolute": 12,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.quora.com",
+                "title": "What is the difference between 'pe' and 'tsadi' in handwritten Hebrew?",
+                "url": "https://www.quora.com/What-is-the-difference-between-pe-and-tsadi-in-handwritten-Hebrew",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "30+ answers",
+                "website_name": "Quora",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "What is the difference between \"pe\" and \"tsadi\" in handwritten Hebrew?",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": [
+                  {
+                    "type": "link_element",
+                    "title": "It helps to understand the evolution of these forms, so that you don’t think that they’re ...",
+                    "description": "Top answer · 2 votes",
+                    "url": "https://www.quora.com/What-is-the-difference-between-pe-and-tsadi-in-handwritten-Hebrew?top_ans=131613524",
+                    "domain": "www.quora.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "A confusion can arise only in the final form of both letters. In this linked page:\n\nGoogle ...",
+                    "description": "2 votes",
+                    "url": "https://www.quora.com/What-is-the-difference-between-pe-and-tsadi-in-handwritten-Hebrew?top_ans=129261854",
+                    "domain": "www.quora.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "The other people have answered the question, and Quora User supplemented the explanation ...",
+                    "description": "1 vote",
+                    "url": "https://www.quora.com/What-is-the-difference-between-pe-and-tsadi-in-handwritten-Hebrew?top_ans=130240613",
+                    "domain": "www.quora.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Here you go:\n\nLink: Hebrew letters, in cursive and print [ http://www.jewfaq.org/alephbet.htm ...",
+                    "description": "1 vote",
+                    "url": "https://www.quora.com/What-is-the-difference-between-pe-and-tsadi-in-handwritten-Hebrew?top_ans=129231031",
+                    "domain": "www.quora.com"
+                  }
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2019-10-11 05:30:03 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "people_also_search",
+                "rank_group": 2,
+                "rank_absolute": 13,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[4]/div[1]/div[3]/div[1]",
+                "title": "People also search for",
+                "items": [
+                  "What does KOPH mean in Hebrew",
+                  "What does koph mean in the bible"
+                ],
+                "rectangle": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

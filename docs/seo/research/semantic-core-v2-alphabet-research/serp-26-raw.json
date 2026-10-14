@@ -1,0 +1,546 @@
+{
+  "keyword": "hebrew alphabet course for beginners",
+  "retrieved_at_utc": "2026-10-11T05:28:11.574Z",
+  "raw": {
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "2.1344 sec.",
+    "cost": 0.002,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "10110527-2762-0139-0000-dd722861a1ec",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "2.0590 sec.",
+        "cost": 0.002,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "serp",
+          "google",
+          "organic",
+          "live",
+          "advanced"
+        ],
+        "data": {
+          "api": "serp",
+          "function": "live",
+          "se": "google",
+          "se_type": "organic",
+          "keyword": "hebrew alphabet course for beginners",
+          "location_code": 2840,
+          "language_code": "en",
+          "device": "mobile",
+          "os": "android",
+          "depth": 10
+        },
+        "result": [
+          {
+            "keyword": "hebrew alphabet course for beginners",
+            "type": "organic",
+            "se_domain": "google.com",
+            "location_code": 2840,
+            "language_code": "en",
+            "check_url": "https://www.google.com/search?q=hebrew%20alphabet%20course%20for%20beginners&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+            "datetime": "2026-10-11 05:27:28 +00:00",
+            "spell": null,
+            "refinement_chips": null,
+            "item_types": [
+              "ai_overview",
+              "video",
+              "organic",
+              "people_also_ask",
+              "people_also_search"
+            ],
+            "se_results_count": 0,
+            "pages_count": 1,
+            "items_count": 13,
+            "items": [
+              {
+                "type": "ai_overview",
+                "rank_group": 1,
+                "rank_absolute": 1,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[1]/div[1]",
+                "asynchronous_ai_overview": true,
+                "markdown": null,
+                "items": null,
+                "references": null,
+                "rectangle": null
+              },
+              {
+                "type": "video",
+                "rank_group": 1,
+                "rank_absolute": 2,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[3]",
+                "items": [
+                  {
+                    "type": "video_element",
+                    "source": "The WORD in HEBREW",
+                    "title": "The Hebrew Alphabet | Crash Course in Hebrew Reading & Pronunciation",
+                    "timestamp": "2023-02-23 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=Ekc3lIVdHEU"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Learn Hebrew with HebrewPod101.com",
+                    "title": "Learn ALL Hebrew Alphabet in 40 Minutes - How to Write and Read ...",
+                    "timestamp": "2018-01-23 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=_UU6Fe7lqIo"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Hebrew by Inbal",
+                    "title": "Learn All Hebrew Alphabet in 20 Minutes - Read and Write Hebrew",
+                    "timestamp": "2022-08-07 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=hVcKV2QJ6dY"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Hebreways",
+                    "title": "Learn the Hebrew Alphabet in Just 20 Minutes! (Alef-Bet Made Simple)",
+                    "timestamp": "2024-10-21 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=uiGXh2BFKUo"
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 1,
+                "rank_absolute": 3,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.chabad.org",
+                "title": "Hebrew",
+                "url": "https://www.chabad.org/library/article_cdo/aid/4084556/jewish/Hebrew.htm",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.chabad.org",
+                "website_name": "Chabad",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "This interactive Alef-Bet trainer will help you learn and practice the letters of the Hebrew alphabet at your own convenience, by clicking on the image of each ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "interactive Alef-Bet trainer"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": [
+                  "learning hebrew",
+                  "how to learn",
+                  "hebrew reading",
+                  "hebrew",
+                  "learn to read",
+                  "learn hebrew",
+                  "hebrew alphabet",
+                  "free printable hebrew"
+                ],
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 2,
+                "rank_absolute": 4,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.easylearnhebrew.com",
+                "title": "Hebrew Alphabet Chart: A Complete Guide for Beginners",
+                "url": "https://www.easylearnhebrew.com/blog/hebrew-alphabet-chart-a-complete-guide-for-beginners/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.easylearnhebrew.com",
+                "website_name": "Easy Learn Hebrew",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Sep 25, 2024 — This guide will provide you with a comprehensive Hebrew alphabet chart, along with explanations and tips to help you master each letter.",
+                "pre_snippet": "09/25/2024 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Hebrew alphabet chart"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": [
+                  "learning hebrew",
+                  "how to learn",
+                  "hebrew reading",
+                  "hebrew",
+                  "learn to read",
+                  "learn hebrew",
+                  "hebrew alphabet",
+                  "free printable hebrew"
+                ],
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2024-09-25 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 3,
+                "rank_absolute": 5,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[8]/div[1]/div[1]",
+                "domain": "www.youtube.com",
+                "title": "The Hebrew Alphabet FREE course. - Lesson 1",
+                "url": "https://www.youtube.com/watch?v=M9t_hqFDB6E",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "120.4K+ views",
+                "website_name": "YouTube · Hebrew For Beginners",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "full course that teaches Hebrew from scratch: The Hebrew Alphabet FREE course. Lesson 1: The Hebrew Alphabet | Crash Course in Hebrew Reading & ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2013-10-11 05:27:27 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 4,
+                "rank_absolute": 6,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.facebook.com",
+                "title": "Where to start learning the Hebrew alphabet?",
+                "url": "https://www.facebook.com/groups/1687348774926200/posts/3647848078876250/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "10+ comments",
+                "website_name": "Facebook · Free Hebrew Class",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Beginners seek guidance on learning the Hebrew alphabet, with requests for pronunciation help and class participation. Joe Eddings. Brother Jim ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Beginners seek guidance on learning the Hebrew alphabet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2024-10-11 05:27:27 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "people_also_ask",
+                "rank_group": 1,
+                "rank_absolute": 7,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[12]/div[1]",
+                "items": [
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What alphabet does the Hebrew language use?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "How do Hebrews say \"hi\"?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[12]/div[1]/div[2]/div[2]/div[2]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "Is Hebrew an easy language to learn?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[12]/div[1]/div[2]/div[2]/div[3]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "Which is harder, Greek or Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[12]/div[1]/div[2]/div[2]/div[4]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 5,
+                "rank_absolute": 8,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[13]/div[1]/div[1]",
+                "domain": "www.youtube.com",
+                "title": "Learn how to write Hebrew Alphabet (handwritten version)",
+                "url": "https://www.youtube.com/watch?v=KFH1ZE5BXnU",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "26.8K+ views",
+                "website_name": "YouTube · Old Sage",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "Learn the Hebrew Alphabet in 30 minutes! - Made Simple for Beginners",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2020-10-11 05:27:27 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "people_also_search",
+                "rank_group": 1,
+                "rank_absolute": 9,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[15]",
+                "title": "People also search for",
+                "items": [
+                  "Hebrew alphabet course for beginners free",
+                  "Hebrew alphabet course for beginners online free",
+                  "Learning Hebrew for beginners PDF",
+                  "How to learn Hebrew for free",
+                  "Hebrew reading practice PDF",
+                  "Hebrew learning"
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 6,
+                "rank_absolute": 10,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[16]/div[1]/div[1]",
+                "domain": "www.youtube.com",
+                "title": "Hebrew Alphabet (Alefbet) + Vowels - full tutorial!",
+                "url": "https://www.youtube.com/watch?v=kkxvqIxTE3A",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "1.4M+ views",
+                "website_name": "YouTube · Tim McNinch",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "A complete tutorial on how to pronounce, write, and use the Hebrew alphabet, including vowel points. can learn the Hebrew Alefbet Song, KNOW ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2019-10-11 05:27:27 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 7,
+                "rank_absolute": 11,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[17]/div[1]/div[1]",
+                "domain": "www.youtube.com",
+                "title": "Learn to write and read Hebrew in only 6 lessons!",
+                "url": "https://www.youtube.com/watch?v=9gxwqrGks2w",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "44.5K+ views",
+                "website_name": "YouTube · Learn Hebrew with Daniel",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "This is the second lesson in a short course of 6 lessons for learning the Hebrew alphabet. In this lesson you will learn 3 new letters: ו ,כ, ל.",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2019-10-11 05:27:27 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 8,
+                "rank_absolute": 12,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "thehebrewhub.com",
+                "title": "How to learn the Hebrew alphabet",
+                "url": "https://thehebrewhub.com/tpost/k41sxr2yk1-how-to-learn-the-hebrew-alphabet?amp=true",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://thehebrewhub.com",
+                "website_name": "The Hebrew Hub",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "amp_version"
+                ],
+                "description": "Oct 10, 2021 — How to learn the Hebrew alphabet. At first it may sound weird, but the best way to learn the Hebrew alphabet is by listening.",
+                "pre_snippet": "10/10/2021 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": true,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "How to learn the Hebrew alphabet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2021-10-10 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "people_also_search",
+                "rank_group": 2,
+                "rank_absolute": 13,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[4]/div[1]/div[3]/div[1]",
+                "title": "People also search for",
+                "items": [
+                  "Learn to read Hebrew online",
+                  "Learn Hebrew Duolingo",
+                  "Hebrew alphabet a to z",
+                  "Free printable Hebrew alphabet chart",
+                  "Hebrew alphabet pronunciation pdf"
+                ],
+                "rectangle": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

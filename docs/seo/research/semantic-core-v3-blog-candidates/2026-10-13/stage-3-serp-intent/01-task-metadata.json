@@ -1,0 +1,81 @@
+{
+  "keyword": "hebrew words",
+  "task_id": "10131400-2762-0139-0000-15c4cb127a4c",
+  "endpoint": "/v3/serp/google/organic/live/advanced",
+  "envelope_status_code": 20000,
+  "envelope_status_message": "Ok.",
+  "task_status_code": 20000,
+  "task_status_message": "Ok.",
+  "envelope_cost_usd": "0.002",
+  "task_cost_usd": "0.002",
+  "charged_once_usd": "0.002",
+  "envelope_and_task_cost_are_same_charge": true,
+  "serp_datetime": "2026-10-13 14:00:16 +00:00",
+  "timestamps": {
+    "dispatch_at_utc": "2026-10-13T14:00:10.657Z",
+    "received_at_utc": "2026-10-13T14:00:17.254Z",
+    "preserved_at_utc": "2026-10-13T14:00:17.431Z"
+  },
+  "raw_sha256": "916516e8ccc0588dbbb023cb7ad719ca29cf6927f5e469411e0b492e58d421f6",
+  "task": {
+    "id": "10131400-2762-0139-0000-15c4cb127a4c",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "2.8213 sec.",
+    "cost": 0.002,
+    "result_count": 1,
+    "path": [
+      "v3",
+      "serp",
+      "google",
+      "organic",
+      "live",
+      "advanced"
+    ],
+    "data": {
+      "api": "serp",
+      "function": "live",
+      "se": "google",
+      "se_type": "organic",
+      "keyword": "hebrew words",
+      "location_code": 2840,
+      "language_code": "en",
+      "device": "mobile",
+      "os": "android",
+      "depth": 10
+    }
+  },
+  "envelope": {
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "2.9625 sec.",
+    "cost": 0.002,
+    "tasks_count": 1,
+    "tasks_error": 0
+  },
+  "result_summary": {
+    "keyword": "hebrew words",
+    "type": "organic",
+    "se_domain": "google.com",
+    "location_code": 2840,
+    "language_code": "en",
+    "check_url": "https://www.google.com/search?q=hebrew%20words&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+    "datetime": "2026-10-13 14:00:16 +00:00",
+    "spell": null,
+    "refinement_chips": null,
+    "item_types": [
+      "ai_overview",
+      "images",
+      "people_also_ask",
+      "organic",
+      "video"
+    ],
+    "se_results_count": 0,
+    "pages_count": 1,
+    "items_count": 11
+  },
+  "organic_rows_returned": 7,
+  "source_mode": "new paid live task",
+  "format_classification_method": "editorial inference from returned titles, descriptions and SERP features; competitor pages not independently audited"
+}

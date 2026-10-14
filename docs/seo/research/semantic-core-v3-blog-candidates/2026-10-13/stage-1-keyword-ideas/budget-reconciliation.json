@@ -1,0 +1,10 @@
+{
+  "project_cap_usd": 0.25,
+  "stage1_cap_usd": 0.024,
+  "stage1_actual_cost_usd": 0.024,
+  "project_spent_usd": 0.024,
+  "remaining_project_cap_usd": 0.226,
+  "historical_phase3b_cost_excluded_usd": 0.1026,
+  "envelope_and_task_cost_are_same_charge": true,
+  "further_spending_authorized": false
+}

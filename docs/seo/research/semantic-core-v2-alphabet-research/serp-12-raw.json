@@ -1,0 +1,707 @@
+{
+  "keyword": "lamed hebrew letter",
+  "retrieved_at_utc": "2026-10-11T05:24:24.786Z",
+  "raw": {
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "4.3472 sec.",
+    "cost": 0.002,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "10110523-2762-0139-0000-9edc7d281669",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "4.2729 sec.",
+        "cost": 0.002,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "serp",
+          "google",
+          "organic",
+          "live",
+          "advanced"
+        ],
+        "data": {
+          "api": "serp",
+          "function": "live",
+          "se": "google",
+          "se_type": "organic",
+          "keyword": "lamed hebrew letter",
+          "location_code": 2840,
+          "language_code": "en",
+          "device": "mobile",
+          "os": "android",
+          "depth": 10
+        },
+        "result": [
+          {
+            "keyword": "lamed hebrew letter",
+            "type": "organic",
+            "se_domain": "google.com",
+            "location_code": 2840,
+            "language_code": "en",
+            "check_url": "https://www.google.com/search?q=lamed%20hebrew%20letter&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+            "datetime": "2026-10-11 05:23:56 +00:00",
+            "spell": null,
+            "refinement_chips": null,
+            "item_types": [
+              "ai_overview",
+              "video",
+              "people_also_ask",
+              "images",
+              "organic"
+            ],
+            "se_results_count": 0,
+            "pages_count": 1,
+            "items_count": 11,
+            "items": [
+              {
+                "type": "ai_overview",
+                "rank_group": 1,
+                "rank_absolute": 1,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]",
+                "asynchronous_ai_overview": false,
+                "markdown": "![Lamed: The Twelfth Letter of the Hebrew Alphabet](https://api.dataforseo.com/cdn/i/10110523-2762-0139-0000-9edc7d281669:4)\nThe [Lamedh - Wikipedia](https://en.wikipedia.org/wiki/Lamedh) or [Lamed - Chabad.org](https://www.chabad.org/library/article_cdo/aid/137084/jewish/Lamed.htm) is the `twelfth letter of the Hebrew alphabet (ל)` , carrying the sound \"l\" and a numerical value of 30.[[1]](https://www.chabad.org/library/article_cdo/aid/137084/jewish/Lamed.htm)[[2]](https://en.wikipedia.org/wiki/Lamedh)\n\n### Key Characteristics & Symbolism\n\n- **Shape:** It is the tallest letter in the Hebrew alphabet, rising above the baseline like a tower or a shepherd's staff/ox-goad.\n- **Meaning:** Derived from the root *lamad* , meaning \"to learn\" or \"to teach\".\n- **Position:** It stands near the center of the alphabet, representing the heart (*lev*).\n- **Grammar Function:** Used as a prefix meaning \"to,\" \"for,\" or \"towards\".[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Lamed/lamed.html)[[2]](https://www.bridgesforpeace.com/resource/lamed-the-tallest-letter)[[3]](https://www.youtube.com/watch?v=hnDR-3d6S2Q&t=6)[[4]](https://www.youtube.com/watch?v=YGx1m-Rl4Ug&t=15)[[5]](https://hebrewtoday.com/alphabet/the-letter-lamed-%D7%9C/)[[6]](https://dinahoverlien.com/2020/06/24/lamed/)[[7]](https://sermons.faithlife.com/sermons/621165-hebrew-letter-study:-lamed)\n\nWould you like to explore **gematria connections**, **Hebrew words starting with Lamed** , or its use in **Psalm 119**?",
+                "items": [
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "The Lamedh - Wikipedia or Lamed - Chabad.org is the twelfth letter of the Hebrew alphabet (ל), carrying the sound \"l\" and a numerical value of 30.",
+                    "markdown": "![Lamed: The Twelfth Letter of the Hebrew Alphabet](https://api.dataforseo.com/cdn/i/10110523-2762-0139-0000-9edc7d281669:2)\nThe [Lamedh - Wikipedia](https://en.wikipedia.org/wiki/Lamedh) or [Lamed - Chabad.org](https://www.chabad.org/library/article_cdo/aid/137084/jewish/Lamed.htm) is the `twelfth letter of the Hebrew alphabet (ל)` , carrying the sound \"l\" and a numerical value of 30.[[1]](https://www.chabad.org/library/article_cdo/aid/137084/jewish/Lamed.htm)[[2]](https://en.wikipedia.org/wiki/Lamedh)",
+                    "links": [
+                      {
+                        "type": "link_element",
+                        "title": "Lamedh - Wikipedia",
+                        "description": null,
+                        "url": "https://en.wikipedia.org/wiki/Lamedh",
+                        "domain": "en.wikipedia.org"
+                      },
+                      {
+                        "type": "link_element",
+                        "title": "Lamed - Chabad.org",
+                        "description": null,
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137084/jewish/Lamed.htm",
+                        "domain": "www.chabad.org"
+                      }
+                    ],
+                    "images": [
+                      {
+                        "type": "images_element",
+                        "alt": "Lamed: The Twelfth Letter of the Hebrew Alphabet",
+                        "url": null,
+                        "image_url": "https://api.dataforseo.com/cdn/i/10110523-2762-0139-0000-9edc7d281669:3"
+                      }
+                    ],
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137084/jewish/Lamed.htm",
+                        "title": "Lamed - The twelfth letter of the Hebrew alphabet - Chabad.org",
+                        "text": "Letter: Lamed (twelfth Hebrew letter, numerical value 30, sound \"L\", meaning learn/teach). Design: Merged vav and kaf; compared to a tower flying in the air, dr..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Wikipedia",
+                        "domain": "en.wikipedia.org",
+                        "url": "https://en.wikipedia.org/wiki/Lamedh",
+                        "title": "Lamedh - Wikipedia",
+                        "text": "Lamedh: 12th Semitic abjad letter; sound [l]. Origin: Ox-goad or shepherd's crook (Proto-Semitic *lamed*). Derivatives: Greek Lambda (Λ), Latin L, Cyrillic El ("
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Key Characteristics & Symbolism",
+                    "markdown": "### Key Characteristics & Symbolism",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Shape: It is the tallest letter in the Hebrew alphabet, rising above the baseline like a tower or a shepherd's staff/ox-goad. Meaning: Derived from the root lamad, meaning \"to learn\" or \"to teach\". Position: It stands near the center of the alphabet, representing the heart (lev). Grammar Function: Used as a prefix meaning \"to,\" \"for,\" or \"towards\".",
+                    "markdown": "- **Shape:** It is the tallest letter in the Hebrew alphabet, rising above the baseline like a tower or a shepherd's staff/ox-goad.\n- **Meaning:** Derived from the root *lamad* , meaning \"to learn\" or \"to teach\".\n- **Position:** It stands near the center of the alphabet, representing the heart (*lev*).\n- **Grammar Function:** Used as a prefix meaning \"to,\" \"for,\" or \"towards\".[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Lamed/lamed.html)[[2]](https://www.bridgesforpeace.com/resource/lamed-the-tallest-letter)[[3]](https://www.youtube.com/watch?v=hnDR-3d6S2Q&t=6)[[4]](https://www.youtube.com/watch?v=YGx1m-Rl4Ug&t=15)[[5]](https://hebrewtoday.com/alphabet/the-letter-lamed-%D7%9C/)[[6]](https://dinahoverlien.com/2020/06/24/lamed/)[[7]](https://sermons.faithlife.com/sermons/621165-hebrew-letter-study:-lamed)",
+                    "links": null,
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew for Christians",
+                        "domain": "www.hebrew4christians.com",
+                        "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Lamed/lamed.html",
+                        "title": "The Letter Lamed",
+                        "text": "Letter: Lamed (12th Hebrew letter; sound \"l\"; numeric value 30; glyph constructed of Kaf with Vav). Characteristics: Tallest letter rising above baseline, centr..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Bridges for Peace",
+                        "domain": "www.bridgesforpeace.com",
+                        "url": "https://www.bridgesforpeace.com/resource/lamed-the-tallest-letter",
+                        "title": "Lamed- The Tallest Letter",
+                        "text": "Lamed: Tallest Hebrew letter (ל), meaning ox goad, symbolizing the discipline of teaching (*lamad*) and learning. Discipleship: *Limud*/*talmid*/*mathetes* deno..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=hnDR-3d6S2Q&t=6",
+                        "title": "Secret of the Hebrew letter Lamed",
+                        "text": "Secret of the Hebrew letter Lamed the 12th letter of the Hebrew alphabet is lammed the numeric value of lammed is 30 the pictogram or symbol behind the shape of..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=YGx1m-Rl4Ug&t=15",
+                        "title": "Power of Hebrew Letters: Lamed",
+                        "text": "Power of Hebrew Letters: Lamed shalom i'm Dr anne Davis with Bible Interact. and I'm going to take you into the letter. Lammed. as the Jewish sages have recorde..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew Today",
+                        "domain": "hebrewtoday.com",
+                        "url": "https://hebrewtoday.com/alphabet/the-letter-lamed-%D7%9C/",
+                        "title": "The Letter Lamed (ל) - Hebrew Today",
+                        "text": "Letter Lamed (ל): Tallest Hebrew letter representing royalty, the Almighty, and the heart (lev) in the alphabet center. Name lamed signifies studies (limudim) a..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "a small drop of ink",
+                        "domain": "dinahoverlien.com",
+                        "url": "https://dinahoverlien.com/2020/06/24/lamed/",
+                        "title": "Lamed",
+                        "text": "Lamed Lamed (also written as Lamedh) is the twelfth letter in the Hebrew alphabet. Lamed has the same sound as “l” as in “lake”. Every line in Psalm 119:89-96 s..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Logos Sermons",
+                        "domain": "sermons.faithlife.com",
+                        "url": "https://sermons.faithlife.com/sermons/621165-hebrew-letter-study:-lamed",
+                        "title": "Hebrew Letter Study: LAMED - Logos Sermons",
+                        "text": "Letter: Lamed (12th Hebrew letter, numerical value 30, tallest letter). Meaning & Function: Prefix meaning to, unto, into, toward, with, within; word meaning to..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Would you like to explore gematria connections, Hebrew words starting with Lamed, or its use in Psalm 119 ?",
+                    "markdown": "Would you like to explore **gematria connections**, **Hebrew words starting with Lamed** , or its use in **Psalm 119**?",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  }
+                ],
+                "references": [
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Hebrew for Christians",
+                    "domain": "www.hebrew4christians.com",
+                    "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Lamed/lamed.html",
+                    "title": "The Letter Lamed",
+                    "text": "Letter: Lamed (12th Hebrew letter; sound \"l\"; numeric value 30; glyph constructed of Kaf with Vav). Characteristics: Tallest letter rising above baseline, centr..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Chabad",
+                    "domain": "www.chabad.org",
+                    "url": "https://www.chabad.org/library/article_cdo/aid/137084/jewish/Lamed.htm",
+                    "title": "Lamed - The twelfth letter of the Hebrew alphabet - Chabad.org",
+                    "text": "Letter: Lamed (twelfth Hebrew letter, numerical value 30, sound \"L\", meaning learn/teach). Design: Merged vav and kaf; compared to a tower flying in the air, dr..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Hebrew Today",
+                    "domain": "hebrewtoday.com",
+                    "url": "https://hebrewtoday.com/alphabet/the-letter-lamed-%D7%9C/",
+                    "title": "The Letter Lamed (ל) - Hebrew Today",
+                    "text": "Letter Lamed (ל): Tallest Hebrew letter representing royalty, the Almighty, and the heart (lev) in the alphabet center. Name lamed signifies studies (limudim) a..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Wikipedia",
+                    "domain": "en.wikipedia.org",
+                    "url": "https://en.wikipedia.org/wiki/Lamedh",
+                    "title": "Lamedh - Wikipedia",
+                    "text": "Lamedh: 12th Semitic abjad letter; sound [l]. Origin: Ox-goad or shepherd's crook (Proto-Semitic *lamed*). Derivatives: Greek Lambda (Λ), Latin L, Cyrillic El ("
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/watch?v=YGx1m-Rl4Ug&t=15",
+                    "title": "Power of Hebrew Letters: Lamed",
+                    "text": "Power of Hebrew Letters: Lamed shalom i'm Dr anne Davis with Bible Interact. and I'm going to take you into the letter. Lammed. as the Jewish sages have recorde..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/watch?v=hnDR-3d6S2Q&t=6",
+                    "title": "Secret of the Hebrew letter Lamed",
+                    "text": "Secret of the Hebrew letter Lamed the 12th letter of the Hebrew alphabet is lammed the numeric value of lammed is 30 the pictogram or symbol behind the shape of..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Logos Sermons",
+                    "domain": "sermons.faithlife.com",
+                    "url": "https://sermons.faithlife.com/sermons/621165-hebrew-letter-study:-lamed",
+                    "title": "Hebrew Letter Study: LAMED - Logos Sermons",
+                    "text": "Letter: Lamed (12th Hebrew letter, numerical value 30, tallest letter). Meaning & Function: Prefix meaning to, unto, into, toward, with, within; word meaning to..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Bridges for Peace",
+                    "domain": "www.bridgesforpeace.com",
+                    "url": "https://www.bridgesforpeace.com/resource/lamed-the-tallest-letter",
+                    "title": "Lamed- The Tallest Letter",
+                    "text": "Lamed: Tallest Hebrew letter (ל), meaning ox goad, symbolizing the discipline of teaching (*lamad*) and learning. Discipleship: *Limud*/*talmid*/*mathetes* deno..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "a small drop of ink",
+                    "domain": "dinahoverlien.com",
+                    "url": "https://dinahoverlien.com/2020/06/24/lamed/",
+                    "title": "Lamed",
+                    "text": "Lamed Lamed (also written as Lamedh) is the twelfth letter in the Hebrew alphabet. Lamed has the same sound as “l” as in “lake”. Every line in Psalm 119:89-96 s..."
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "video",
+                "rank_group": 1,
+                "rank_absolute": 2,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]",
+                "items": [
+                  {
+                    "type": "video_element",
+                    "source": "The Local Dreamer Podcast",
+                    "title": "The Hebrew Letter Lamed – Teaching, Authority, and Heart Posture",
+                    "timestamp": "2025-10-17 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=q2pWIHc4_IE"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "BibleInteract",
+                    "title": "Power of Hebrew Letters: Lamed",
+                    "timestamp": "2024-03-15 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=YGx1m-Rl4Ug"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "thelivingword",
+                    "title": "Secret of the Hebrew letter Lamed",
+                    "timestamp": "2015-10-15 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=hnDR-3d6S2Q"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Ancient Hebrew Research Center",
+                    "title": "Ancient Hebrew Alphabet - Lesson 12 - Lamed",
+                    "timestamp": "2016-08-23 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=P9LChotl1Ms"
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "people_also_ask",
+                "rank_group": 1,
+                "rank_absolute": 3,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]",
+                "items": [
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What is lamed in Psalm 119?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[1]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does the word letter mean in Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[2]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What is the Hebrew letter for \"l\"?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[3]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What's the Hebrew letter for 6?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[4]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "images",
+                "rank_group": 1,
+                "rank_absolute": 4,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]",
+                "title": "Images",
+                "url": null,
+                "items": [
+                  {
+                    "type": "images_element",
+                    "alt": "Lamed - The twelfth letter of the Hebrew alphabet - Chabad.org",
+                    "url": "https://www.chabad.org/library/article_cdo/aid/137084/jewish/Lamed.htm",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQul-88uF4ecbCF4DdVq8oqZSNB2n2HFzk_DTk6NYTkyuwVOR1vjPf7-0s&s"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "File:LAMED Hebrew Letter.png - Wikimedia Commons",
+                    "url": "https://commons.wikimedia.org/wiki/File:LAMED_Hebrew_Letter.png",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlq0euuxGCV8jW7Fo_xMJszJekd1d9-y59_r5maI1Aztna7xy0owBxXv4&s"
+                  }
+                ],
+                "related_image_searches": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 1,
+                "rank_absolute": 5,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "objectivetranslation.home.blog",
+                "title": "The Amazing Biblical Language: The Importance of The Letter Lamed",
+                "url": "https://objectivetranslation.home.blog/2019/05/28/the-amazing-biblical-language-the-importance-of-the-letter-lamed/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://objectivetranslation.home.blog",
+                "website_name": "Home.blog",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "May 28, 2019 — Hebrew versions of Lamed depicted an UPSIDE DOWN staff indicating its function of extending one's reach. This letter usually refers to physical ...",
+                "pre_snippet": "05/28/2019 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Hebrew versions of Lamed depicted an UPSIDE DOWN staff"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2019-05-28 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 2,
+                "rank_absolute": 6,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[10]/div[1]/div[1]",
+                "domain": "www.youtube.com",
+                "title": "Hebrew Letter 12 Lamed - Hebrew Alphabet in 30 Days",
+                "url": "https://www.youtube.com/watch?v=mmH32ngiACA",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "570+ views",
+                "website_name": "YouTube · Jacob Bek",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "Hebrew Letter 12 Lamed - Hebrew Alphabet in 30 Days. Hebrew Alphabet in 16 minutes (with Dagesh and Niqqud) - Write and Read Hebrew",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2025-10-11 05:23:55 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 3,
+                "rank_absolute": 7,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[12]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.chabad.org",
+                "title": "Lamed - Jewish Knowledge Base",
+                "url": "https://www.chabad.org/search/keyword_cdo/kid/7385/t/241/jewish/Lamed.htm",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.chabad.org",
+                "website_name": "Chabad",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Lamed (ל) is the twelfth letter of the Hebrew alphabet Numerical value: 30 Sound: \"L\" Meaning: 1. learn 2. teach Story I was having a hard time disciplining ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Lamed (ל) is the twelfth letter of the Hebrew alphabet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 4,
+                "rank_absolute": 8,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.pinterest.com",
+                "title": "Lamed",
+                "url": "https://www.pinterest.com/pin/238198267796883331/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.pinterest.com",
+                "website_name": "Pinterest",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Apr 21, 2026 — A detailed illustration of the Hebrew letter \"Lamed.\" It includes various representations of the letter, such as its printed form. Hebrew ...",
+                "pre_snippet": "04/21/2026 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Hebrew letter \"Lamed"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2026-04-21 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 5,
+                "rank_absolute": 9,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[16]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "commons.wikimedia.org",
+                "title": "File:Hebrew letter lamed.png",
+                "url": "https://commons.wikimedia.org/wiki/File:Hebrew_letter_lamed.png",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://commons.wikimedia.org",
+                "website_name": "Wikimedia Commons",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "May 27, 2005 — File:Hebrew letter lamed.svg is a vector version of this file. It should be used in place of this PNG file when not inferior. File ...",
+                "pre_snippet": "05/27/2005 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "File:Hebrew letter lamed.svg"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2005-05-27 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 6,
+                "rank_absolute": 10,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[18]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.encyclopedia.com",
+                "title": "Lamed",
+                "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/lamed",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.encyclopedia.com",
+                "website_name": "Encyclopedia.com",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "LAMED (Heb. ?;?????), the 12 th letter of the Hebrew alphabet ; its numerical value is 30. The earliest representation of this letter is a pictograph of an ox- ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "the 12th letter of the Hebrew alphabet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 7,
+                "rank_absolute": 11,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[19]/div[1]/div[1]",
+                "domain": "www.youtube.com",
+                "title": "Today's Hebrew Letter: Lamed (ל)",
+                "url": "https://www.youtube.com/watch?v=bt7c8Rvaoe0",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "70+ views",
+                "website_name": "YouTube · Decadence Homeschool",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "Lamed (ל) — the tallest letter in the Aleph-Bet! Lamed makes the “L” sound, like in “Lion” or “Light”. It stands tall above all the other ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2025-10-11 05:23:55 +00:00",
+                "rectangle": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

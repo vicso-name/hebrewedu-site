@@ -1,0 +1,704 @@
+{
+  "keyword": "bet vs vet pronunciation",
+  "retrieved_at_utc": "2026-10-11T05:30:04.456Z",
+  "raw": {
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "3.3119 sec.",
+    "cost": 0.002,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "10110529-2762-0139-0000-2728724c08ab",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "3.2307 sec.",
+        "cost": 0.002,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "serp",
+          "google",
+          "organic",
+          "live",
+          "advanced"
+        ],
+        "data": {
+          "api": "serp",
+          "function": "live",
+          "se": "google",
+          "se_type": "organic",
+          "keyword": "bet vs vet pronunciation",
+          "location_code": 2840,
+          "language_code": "en",
+          "device": "mobile",
+          "os": "android",
+          "depth": 10
+        },
+        "result": [
+          {
+            "keyword": "bet vs vet pronunciation",
+            "type": "organic",
+            "se_domain": "google.com",
+            "location_code": 2840,
+            "language_code": "en",
+            "check_url": "https://www.google.com/search?q=bet%20vs%20vet%20pronunciation&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+            "datetime": "2026-10-11 05:29:31 +00:00",
+            "spell": null,
+            "refinement_chips": null,
+            "item_types": [
+              "ai_overview",
+              "video",
+              "people_also_ask",
+              "short_videos",
+              "organic",
+              "people_also_search"
+            ],
+            "se_results_count": 0,
+            "pages_count": 1,
+            "items_count": 13,
+            "items": [
+              {
+                "type": "ai_overview",
+                "rank_group": 1,
+                "rank_absolute": 1,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[1]/div[1]",
+                "asynchronous_ai_overview": true,
+                "markdown": null,
+                "items": null,
+                "references": null,
+                "rectangle": null
+              },
+              {
+                "type": "video",
+                "rank_group": 1,
+                "rank_absolute": 2,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[3]",
+                "items": [
+                  {
+                    "type": "video_element",
+                    "source": "learnenglishwithashley",
+                    "title": "Can You Hear the Difference in the Pronunciations: Bet vs Vet? (Americ...",
+                    "timestamp": "2024-11-08 00:00:00 +00:00",
+                    "url": "https://www.tiktok.com/@learnenglishwithashley/video/7434880413224422687"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Proper British English with Dan",
+                    "title": "Which one do you hear? Bet vs Vet 🤔 || Learn British Pronunciation",
+                    "timestamp": "2022-10-04 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/shorts/MTVns0Turr8"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Learn Hebrew with HebrewPod101.com",
+                    "title": "Learn Hebrew Alphabet #2 - ב (veit)",
+                    "timestamp": "2026-03-06 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/shorts/Qrbp7YPFLDk"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "The ShevonYah Show",
+                    "title": "Hebrew Bet and Vet (בּ and ב) The Easy Way",
+                    "timestamp": "2018-01-30 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=2BmAX9ZLzwc"
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "people_also_ask",
+                "rank_group": 1,
+                "rank_absolute": 3,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]",
+                "items": [
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What letter is ה?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[1]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "How is Aleph pronounced in Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[2]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does vet mean in Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[3]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What is the phonetic transcription of the word \"bet\"?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[4]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "short_videos",
+                "rank_group": 1,
+                "rank_absolute": 4,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                "title": "Short videos",
+                "items": [
+                  {
+                    "type": "short_videos_element",
+                    "title": "Can You Hear the Difference in the Pronunciations: Bet vs Vet? (Americ... by learnenglishwithashley on TikTok. Play on TikTok. 0:27",
+                    "url": "https://www.tiktok.com/@learnenglishwithashley/video/7434880413224422687",
+                    "domain": "google.com",
+                    "source": "learnenglishwithashley"
+                  },
+                  {
+                    "type": "short_videos_element",
+                    "title": "Which one do you hear? Bet vs Vet  || Learn British Pronunciation",
+                    "url": "https://www.youtube.com/shorts/MTVns0Turr8",
+                    "domain": "www.youtube.com",
+                    "source": "Proper British English with Dan"
+                  },
+                  {
+                    "type": "short_videos_element",
+                    "title": "BET vs VET vs WET",
+                    "url": "https://www.youtube.com/shorts/1zcGEYhJTYs",
+                    "domain": "www.youtube.com",
+                    "source": "Inglés con Nena Devos"
+                  },
+                  {
+                    "type": "short_videos_element",
+                    "title": "Learn Hebrew Alphabet #2 - ב (veit)",
+                    "url": "https://www.youtube.com/shorts/Qrbp7YPFLDk",
+                    "domain": "www.youtube.com",
+                    "source": "Learn Hebrew with HebrewPod101.com"
+                  },
+                  {
+                    "type": "short_videos_element",
+                    "title": "sound, touch your lower lip to your upper teeth. Some people mix it up ... by Yen Rotanaksotheavy of Cambodia on Facebook. Play on Facebook. 0:15",
+                    "url": "https://www.facebook.com/100064573424437/videos/the-v-soundto-make-the-v-sound-touch-your-lower-lip-to-your-upper-teeth-some-peo/2495889254195212/",
+                    "domain": "google.com",
+                    "source": "Yen Rotanaksotheavy of Cambodia"
+                  },
+                  {
+                    "type": "short_videos_element",
+                    "title": "Bit/beat/bet/bait/bat/bought/boat/boot/but #english #learnenglish # ... by Improve your English with Evelyn on Instagram. Play on Instagram. 0:21",
+                    "url": "https://www.instagram.com/reel/DTBgFzmEj30/?hl=en",
+                    "domain": "google.com",
+                    "source": "Improve your English with Evelyn"
+                  },
+                  {
+                    "type": "short_videos_element",
+                    "title": "\"B\" vs. \"V\" #pronunciation #shorts #englishspeaking #english # ...",
+                    "url": "https://www.youtube.com/shorts/4K6UQ4v0Sbw",
+                    "domain": "www.youtube.com",
+                    "source": "coachshanesesl"
+                  },
+                  {
+                    "type": "short_videos_element",
+                    "title": "Difference Between V and B | American English",
+                    "url": "https://www.youtube.com/shorts/H8E7WtQgg-w",
+                    "domain": "www.youtube.com",
+                    "source": "Tannia Suárez"
+                  },
+                  {
+                    "type": "short_videos_element",
+                    "title": "Learn about the pronunciation and meaning of the word 'vet' vs 'wet' and ... by English Right Now on Facebook. Play on Facebook. 1:24",
+                    "url": "https://www.facebook.com/Englishrightnow.net/videos/learn-about-the-pronunciation-and-meaning-of-the-word-vet-vs-wet-and-avoid-a-com/8682646175137053/",
+                    "domain": "google.com",
+                    "source": "English Right Now"
+                  },
+                  {
+                    "type": "short_videos_element",
+                    "title": "Mejora tu pronunciación del ingles: vet - bet, vat - bat, Lección 1",
+                    "url": "https://www.youtube.com/watch?v=n_rcvoIhEfI",
+                    "domain": "www.youtube.com",
+                    "source": "Practicando Duolingo para aprender Ingles"
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 1,
+                "rank_absolute": 5,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "en.wikipedia.org",
+                "title": "Bet (letter)",
+                "url": "https://en.wikipedia.org/wiki/Bet_(letter)",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://en.wikipedia.org",
+                "website_name": "Wikipedia",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Bet, Beth, Vet, or Ba is the second letter. Hebrew bēṯ ב … pronounce it beis (or bais) [4] and veis (/bejs/ )",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": [
+                  "tet vs tav",
+                  "he pronunciation",
+                  "zajin",
+                  "ch sound",
+                  "what sound does",
+                  "aleph name",
+                  "zayin cursive",
+                  "teth meaning"
+                ],
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 2,
+                "rank_absolute": 6,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.facebook.com",
+                "title": "Why is bet pronounced as b in biblical names?",
+                "url": "https://www.facebook.com/groups/1687348774926200/posts/4332851143709270/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "50+ comments",
+                "website_name": "Facebook · Free Hebrew Class",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "I have a question that I can't find an answer for.\n\nI understand that Biblical Hebrew is not only vastly different in many ways than modern Hebrew, but ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": [
+                  {
+                    "type": "link_element",
+                    "title": "Hebrew Letter Bet/Vet Lesson and DiscussionFree Hebrew Class·9 comments·2y",
+                    "description": null,
+                    "url": "https://www.facebook.com/groups/1687348774926200/posts/3782155058778884/",
+                    "domain": "www.facebook.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Hebrew letter bet pronunciation and meaningFree Hebrew Class·6 comments·3y",
+                    "description": null,
+                    "url": "https://www.facebook.com/groups/1687348774926200/posts/3568883336772725/",
+                    "domain": "www.facebook.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "נולדתי בישראל. שפת האם שלי היא עברית.  למדתי תנ\"ך 12 ...",
+                    "description": "Top answer · 6 votes",
+                    "url": "https://www.facebook.com/groups/1687348774926200/posts/4332851143709270/",
+                    "domain": "www.facebook.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Sephardic with my first exposure being Ashkenazic.\n\nAvraham and Rivkah.\n\nMuch of what we ...",
+                    "description": "6 votes",
+                    "url": "https://www.facebook.com/groups/1687348774926200/posts/4332851143709270/",
+                    "domain": "www.facebook.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Many names change from language to language Steven-Istvan-Esteban and probably ...",
+                    "description": "3 votes",
+                    "url": "https://www.facebook.com/groups/1687348774926200/posts/4332851143709270/",
+                    "domain": "www.facebook.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Why would the VOV be pronounced WOV? Where is this all coming from? I'm not just asking about ...",
+                    "description": "3 votes",
+                    "url": "https://www.facebook.com/groups/1687348774926200/posts/4332851143709270/",
+                    "domain": "www.facebook.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "I think some of the early scholars were just not so wide awake to always take note of ...",
+                    "description": "3 votes",
+                    "url": "https://www.facebook.com/groups/1687348774926200/posts/4332851143709270/",
+                    "domain": "www.facebook.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Originally, Canaanite languages (like Hebrew, Moabite, and Phoenician) basically had one letter-one ...",
+                    "description": "3 votes",
+                    "url": "https://www.facebook.com/groups/1687348774926200/posts/4332851143709270/",
+                    "domain": "www.facebook.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Hi, there are many reasons to add a Dagesh to the letter ב but just to get things organised, ...",
+                    "description": "3 votes",
+                    "url": "https://www.facebook.com/groups/1687348774926200/posts/4332851143709270/",
+                    "domain": "www.facebook.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "There is no w in Hebrew, as there is no hard J either.",
+                    "description": "1 vote",
+                    "url": "https://www.facebook.com/groups/1687348774926200/posts/4332851143709270/",
+                    "domain": "www.facebook.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "There is no Waw in Ivrit. Waw is from Arabic that came out of Aramaic, which was/is a degraded ...",
+                    "description": "1 vote",
+                    "url": "https://www.facebook.com/groups/1687348774926200/posts/4332851143709270/",
+                    "domain": "www.facebook.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Language pronunciations do shift over time. N the case of Hebrew you have this global disapora ...",
+                    "description": "1 vote",
+                    "url": "https://www.facebook.com/groups/1687348774926200/posts/4332851143709270/",
+                    "domain": "www.facebook.com"
+                  }
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2026-01-11 05:29:31 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "people_also_search",
+                "rank_group": 1,
+                "rank_absolute": 7,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[12]",
+                "title": "People also search for",
+                "items": [
+                  "Bet vs vet pronunciation reddit",
+                  "Bet vs vet pronunciation hebrew",
+                  "Tet vs tav",
+                  "He pronunciation Hebrew",
+                  "Zajin",
+                  "Ch sound Hebrew"
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 3,
+                "rank_absolute": 8,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "talkpal.ai",
+                "title": "What is the difference between Bet and Vet?",
+                "url": "https://talkpal.ai/culture/what-is-the-difference-between-bet-and-vet/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://talkpal.ai",
+                "website_name": "Talkpal AI",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "This letter has two distinct pronunciations: one with a hard “b” sound and one with a soft “v” sound. These are commonly referred to as Bet (בּ) and Vet (ב), ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": {
+                  "rating_type": "Max5",
+                  "value": 4.7,
+                  "votes_count": 79700,
+                  "rating_max": 5
+                },
+                "price": null,
+                "highlighted": [
+                  "one with a hard “b” sound and one with a soft “v” sound"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 4,
+                "rank_absolute": 9,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[16]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "mazorbooks.wordpress.com",
+                "title": "Hebrew for Kids: More about BET/VET - MazorBooks",
+                "url": "https://mazorbooks.wordpress.com/2023/11/11/bet2/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://mazorbooks.wordpress.com",
+                "website_name": "WordPress.com",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "The BET sounds like 'b' in boy, and the VET sounds like 'v' in velvet. The BET has a dagesh, and the VET does not.",
+                "pre_snippet": "11/11/2023 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2023-11-11 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 5,
+                "rank_absolute": 10,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[18]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.reddit.com",
+                "title": "V-Vet-Vav : r/hebrew",
+                "url": "https://www.reddit.com/r/hebrew/comments/6hzdl4/vvetvav/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "6 comments",
+                "website_name": "Reddit · r/hebrew",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Vav can also be a vowel, and Vet can sometimes be a Bet, but both can be pronounced like an English \"V.' You just have to memorize which is used ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": [
+                  {
+                    "type": "link_element",
+                    "title": "A question about the letter bet בr/hebrew·4 comments·5y",
+                    "description": null,
+                    "url": "https://www.reddit.com/r/hebrew/comments/nonc3a/a_question_about_the_letter_bet_%D7%91/",
+                    "domain": "www.reddit.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "bet vet etc.r/hebrew·10+ comments·2y",
+                    "description": null,
+                    "url": "https://www.reddit.com/r/hebrew/comments/1e4ej2n/bet_vet_etc/",
+                    "domain": "www.reddit.com"
+                  }
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2017-10-11 05:29:31 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 6,
+                "rank_absolute": 11,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[19]/div[1]/div[1]",
+                "domain": "www.youtube.com",
+                "title": "WHY does the Hebrew letter Bet ב sometimes sound like a V?",
+                "url": "https://www.youtube.com/watch?v=4oMic__HOD0",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "130+ views",
+                "website_name": "YouTube · October 8th Jews",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "You've learned the Hebrew alphabet. You're even starting to read. But why does the letter Bet sometimes sound like a V? There are two rules that",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2025-10-11 05:29:31 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 7,
+                "rank_absolute": 12,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[21]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.quora.com",
+                "title": "Is there a difference in meaning between the Hebrew Bet and Vet, or ...",
+                "url": "https://www.quora.com/Is-there-a-difference-in-meaning-between-the-Hebrew-Bet-and-Vet-or-Pey-and-Fey-or-Kaf-and-Khaf-or-Shin-and-Sin",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "30+ answers",
+                "website_name": "Quora",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Is there a difference in meaning between the Hebrew Bet and Vet, or Pey and Fey, or Kaf and Khaf, or Shin and Sin?",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": [
+                  {
+                    "type": "link_element",
+                    "title": "I’m going to answer you about the first three, not the fourth. It is different.\n\nBet & Vet, ...",
+                    "description": "Top answer · 3 votes",
+                    "url": "https://www.quora.com/Is-there-a-difference-in-meaning-between-the-Hebrew-Bet-and-Vet-or-Pey-and-Fey-or-Kaf-and-Khaf-or-Shin-and-Sin?top_ans=328071956",
+                    "domain": "www.quora.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "This question is actually two totally different questions:\n\n * Hebrew Bet and Vet, or Pey ...",
+                    "description": "1 vote",
+                    "url": "https://www.quora.com/Is-there-a-difference-in-meaning-between-the-Hebrew-Bet-and-Vet-or-Pey-and-Fey-or-Kaf-and-Khaf-or-Shin-and-Sin?top_ans=327957382",
+                    "domain": "www.quora.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "These are just consonent letters that represent sounds. All languages at their core are spoken ...",
+                    "description": "1 vote",
+                    "url": "https://www.quora.com/Is-there-a-difference-in-meaning-between-the-Hebrew-Bet-and-Vet-or-Pey-and-Fey-or-Kaf-and-Khaf-or-Shin-and-Sin?top_ans=327941284",
+                    "domain": "www.quora.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "They sound differently, as you can hear from the letter names.\n\nB V\n\nP F\n\nK Kh\n\nSh S\n\nThere ...",
+                    "description": "1 vote",
+                    "url": "https://www.quora.com/Is-there-a-difference-in-meaning-between-the-Hebrew-Bet-and-Vet-or-Pey-and-Fey-or-Kaf-and-Khaf-or-Shin-and-Sin?top_ans=327928871",
+                    "domain": "www.quora.com"
+                  }
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2022-10-11 05:29:31 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "people_also_search",
+                "rank_group": 2,
+                "rank_absolute": 13,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[4]/div[1]/div[3]/div[1]",
+                "title": "People also search for",
+                "items": [
+                  "What sound does aleph make",
+                  "Aleph name",
+                  "Zayin cursive",
+                  "Teth meaning in English",
+                  "Zayin name meaning"
+                ],
+                "rectangle": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

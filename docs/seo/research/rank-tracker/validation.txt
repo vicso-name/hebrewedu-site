@@ -1,0 +1,24 @@
+Offline unit-test command: python3 -m unittest -v test_rank_tracker.py
+Result: 33 tests PASS. All HTTP/API access mocked; synthetic histories are isolated temporary databases.
+
+$ python3 rank_tracker.py dry-run --keywords /Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracking-keywords.csv
+HebrewEdu Rank Tracker v1 — OFFLINE DRY-RUN PASS
+Keywords: 36; approved CSV SHA256: e8082c3bf1e0d3072b74bfa1cf0bd40659256c289757a1bd907c45b1f30ad1a3
+Google / United States (2840) / English (en) / mobile Android / depth 20
+SQLite schema, append-only triggers, pilot provenance and credential storage: valid
+Saved public pricing verified: 2026-10-10T20:35:31+00:00 (offline evidence only)
+Conservative cost per keyword: $0.004; estimated run: $0.144; cap: $0.20
+Network/API requests: 0; paid tasks: 0; actual spend: $0.00
+Paid execution requires fresh pricing verification and a new interactive confirmation.
+Historic pilot: hebrew alphabet app, rank 7, depth 10; excluded from baseline comparisons.
+Exit code: 0
+
+$ python3 rank_tracker.py dry-run --keywords /Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracking-keywords.csv --budget 0.14
+Stopped: Estimated $0.144 exceeds the $0.14 budget
+Exit code: 2
+
+$ python3 rank_tracker.py run --keywords /Users/kasutaja/Developer/seo-research/hebrewedu/rank-tracking-keywords.csv
+Stopped: Paid runs require an interactive terminal and per-run confirmation
+Exit code: 2
+
+Offline assertions PASS: 36 blank baseline positions; no runs or paid intents; exactly one separate rank-7 pilot.

@@ -1,0 +1,16 @@
+{
+  "verified_at_utc": "2026-10-13T14:06:41.186146+00:00",
+  "all_prior_research_hashes_unchanged": true,
+  "all_website_hashes_unchanged": true,
+  "git_status_unchanged": true,
+  "raw_text_identical_to_connector_blocks": true,
+  "saved_copy_hashes_match": true,
+  "four_unique_tasks": true,
+  "all_successful": true,
+  "actual_cost_usd": "0.008",
+  "spending_helper_logged_each_task_once": true,
+  "previous_global_ledger_entries_unchanged": true,
+  "new_global_ledger_entries": 4,
+  "provider_requests_during_finalization": 0,
+  "stopped_for_owner_review": true
+}

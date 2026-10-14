@@ -1,0 +1,50 @@
+[
+  {
+    "keyword_a": "hebrew words",
+    "keyword_b": "hebrew phrases",
+    "organic_a": 7,
+    "organic_b": 7,
+    "shared_exact_urls": [],
+    "interpretation": "Small depth-10 snapshot; overlap neither approves merger nor creates distinct ownership"
+  },
+  {
+    "keyword_a": "hebrew words",
+    "keyword_b": "hebrew text",
+    "organic_a": 7,
+    "organic_b": 6,
+    "shared_exact_urls": [],
+    "interpretation": "Small depth-10 snapshot; overlap neither approves merger nor creates distinct ownership"
+  },
+  {
+    "keyword_a": "hebrew words",
+    "keyword_b": "hebrew alphabet nun",
+    "organic_a": 7,
+    "organic_b": 7,
+    "shared_exact_urls": [],
+    "interpretation": "Small depth-10 snapshot; overlap neither approves merger nor creates distinct ownership"
+  },
+  {
+    "keyword_a": "hebrew phrases",
+    "keyword_b": "hebrew text",
+    "organic_a": 7,
+    "organic_b": 6,
+    "shared_exact_urls": [],
+    "interpretation": "Small depth-10 snapshot; overlap neither approves merger nor creates distinct ownership"
+  },
+  {
+    "keyword_a": "hebrew phrases",
+    "keyword_b": "hebrew alphabet nun",
+    "organic_a": 7,
+    "organic_b": 7,
+    "shared_exact_urls": [],
+    "interpretation": "Small depth-10 snapshot; overlap neither approves merger nor creates distinct ownership"
+  },
+  {
+    "keyword_a": "hebrew text",
+    "keyword_b": "hebrew alphabet nun",
+    "organic_a": 6,
+    "organic_b": 7,
+    "shared_exact_urls": [],
+    "interpretation": "Small depth-10 snapshot; overlap neither approves merger nor creates distinct ownership"
+  }
+]

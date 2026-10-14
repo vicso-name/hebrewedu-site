@@ -1,0 +1,812 @@
+{
+  "keyword": "zayin hebrew letter",
+  "retrieved_at_utc": "2026-10-11T05:22:55.025Z",
+  "raw": {
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "2.7246 sec.",
+    "cost": 0.002,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "10110522-2762-0139-0000-d974ea780ed4",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "2.6222 sec.",
+        "cost": 0.002,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "serp",
+          "google",
+          "organic",
+          "live",
+          "advanced"
+        ],
+        "data": {
+          "api": "serp",
+          "function": "live",
+          "se": "google",
+          "se_type": "organic",
+          "keyword": "zayin hebrew letter",
+          "location_code": 2840,
+          "language_code": "en",
+          "device": "mobile",
+          "os": "android",
+          "depth": 10
+        },
+        "result": [
+          {
+            "keyword": "zayin hebrew letter",
+            "type": "organic",
+            "se_domain": "google.com",
+            "location_code": 2840,
+            "language_code": "en",
+            "check_url": "https://www.google.com/search?q=zayin%20hebrew%20letter&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+            "datetime": "2026-10-11 05:22:54 +00:00",
+            "spell": null,
+            "refinement_chips": null,
+            "item_types": [
+              "ai_overview",
+              "images",
+              "organic",
+              "people_also_ask",
+              "video"
+            ],
+            "se_results_count": 0,
+            "pages_count": 1,
+            "items_count": 11,
+            "items": [
+              {
+                "type": "ai_overview",
+                "rank_group": 1,
+                "rank_absolute": 1,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]",
+                "asynchronous_ai_overview": false,
+                "markdown": "Zayin (ז) is the `seventh letter of the Hebrew alphabet` , pronounced like the \"z\" in \"zebra\".[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Zayin/zayin.html)[[2]](https://en.wikipedia.org/wiki/Zayin)\n\n### Basic Details\n\n- **Pronunciation:** /z/ (voiced alveolar fricative)\n- **Numerical Value (Gematria):** 7\n- **Origin/Meaning:** Literally means \"sword\", \"weapon,\" or an ancient agricultural tool/plow derived from roots meaning to nourish or sustain (like *mazon* , food).\n- **Shape:** Resembles a vertical line (like the letter *Vav* ) with a \"crown\" or crossbar on top. Mystically, it is seen as a *Vav* crowned.[[1]](https://www.chabad.org/library/article_cdo/aid/137079/jewish/Zayin.htm)[[2]](https://en.wikipedia.org/wiki/Zayin)[[3]](https://www.youtube.com/shorts/is59WJsPsok)[[4]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Zayin/zayin.html)[[5]](https://www.youtube.com/watch?v=r1zj0Ead5R4&t=16)[[6]](https://www.ancient-hebrew.org/ancient-alphabet/zayin.htm)[[7]](https://hebrewtoday.com/alphabet/the-letter-zine-%D7%96/)[[8]](https://inner.org/hebleter/zayin.htm)\n\n### Spiritual and Symbolic Significance\n\n- **The Number Seven:** Associated with completeness, perfection, the Sabbath (Shabbat), the Sabbatical year (Shmita), and divine order.\n- **Returning Light (*Ohr Hozer*):** In Jewish mysticism taught on platforms like [Chabad.org](https://www.chabad.org/library/article_cdo/aid/137079/jewish/Zayin.htm) , the preceding letter *Vav* represents the straight light descending from God, while *Zayin* represents the returning light ascending back to the source.\n- **A Weapon of Spirit:** The sword shape represents spiritual struggle, defense of divine principles, and the active power of God's word.\n- **Remembrance:** It connects to the concept of memory (*zain/zchor*).[[1]](https://gabrielelevy.com/pages/the-letter-zayn)[[2]](https://www.chabad.org/library/article_cdo/aid/137079/jewish/Zayin.htm)[[3]](https://hebrewtoday.com/alphabet/the-letter-zine-%D7%96/)[[4]](https://www.youtube.com/shorts/is59WJsPsok)[[5]](https://inner.org/hebleter/zayin.htm)[[6]](https://www.7dorim.com/en/articles/articles-the-power-of-hebrew-letters/the-power-of-zayin-%D7%96/)[[7]](https://www.youtube.com/watch?v=r1zj0Ead5R4&t=16)[[8]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Zayin/zayin.html)\n\nWould you like to explore **gematria connections**, **how to write it in Hebrew script** , or **word studies** involving the letter Zayin?",
+                "items": [
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Zayin (ז) is the seventh letter of the Hebrew alphabet, pronounced like the \"z\" in \"zebra\".",
+                    "markdown": "Zayin (ז) is the `seventh letter of the Hebrew alphabet` , pronounced like the \"z\" in \"zebra\".[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Zayin/zayin.html)[[2]](https://en.wikipedia.org/wiki/Zayin)",
+                    "links": null,
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew for Christians",
+                        "domain": "www.hebrew4christians.com",
+                        "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Zayin/zayin.html",
+                        "title": "The Letter Zayin",
+                        "text": "Phonetics & Forms: 7th Hebrew letter Zayin, pronounced ZAH-yeen, sounding like \"z\" in zebra; written in manual block (descending left-to-right stroke) or cursiv..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Wikipedia",
+                        "domain": "en.wikipedia.org",
+                        "url": "https://en.wikipedia.org/wiki/Zayin",
+                        "title": "Zayin",
+                        "text": "· Zayin (also spelled zain or zayn or simply zay) is the seventh letter of the Semitic abjads, including Phoenician zayn 𐤆, Hebrew zayīn ז , Aramaic zain 𐡆, S..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Basic Details",
+                    "markdown": "### Basic Details",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Pronunciation: /z/ (voiced alveolar fricative) Numerical Value (Gematria): 7 Origin/Meaning: Literally means \"sword\", \"weapon,\" or an ancient agricultural tool/plow derived from roots meaning to nourish or sustain (like mazon, food). Shape: Resembles a vertical line (like the letter Vav) with a \"crown\" or crossbar on top. Mystically, it is seen as a Vav crowned.",
+                    "markdown": "- **Pronunciation:** /z/ (voiced alveolar fricative)\n- **Numerical Value (Gematria):** 7\n- **Origin/Meaning:** Literally means \"sword\", \"weapon,\" or an ancient agricultural tool/plow derived from roots meaning to nourish or sustain (like *mazon* , food).\n- **Shape:** Resembles a vertical line (like the letter *Vav* ) with a \"crown\" or crossbar on top. Mystically, it is seen as a *Vav* crowned.[[1]](https://www.chabad.org/library/article_cdo/aid/137079/jewish/Zayin.htm)[[2]](https://en.wikipedia.org/wiki/Zayin)[[3]](https://www.youtube.com/shorts/is59WJsPsok)[[4]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Zayin/zayin.html)[[5]](https://www.youtube.com/watch?v=r1zj0Ead5R4&t=16)[[6]](https://www.ancient-hebrew.org/ancient-alphabet/zayin.htm)[[7]](https://hebrewtoday.com/alphabet/the-letter-zine-%D7%96/)[[8]](https://inner.org/hebleter/zayin.htm)",
+                    "links": null,
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137079/jewish/Zayin.htm",
+                        "title": "Zayin - The seventh letter of the Hebrew alphabet - Chabad.org",
+                        "text": "Character: Zayin (ז) is the seventh Hebrew letter with numerical value 7, sound \"Z\", and shape resembling a sword, scepter, or crown. Meanings: Crown, weapon, a..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Wikipedia",
+                        "domain": "en.wikipedia.org",
+                        "url": "https://en.wikipedia.org/wiki/Zayin",
+                        "title": "Zayin",
+                        "text": "· Zayin (also spelled zain or zayn or simply zay) is the seventh letter of the Semitic abjads, including Phoenician zayn 𐤆, Hebrew zayīn ז , Aramaic zain 𐡆, S..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/shorts/is59WJsPsok",
+                        "title": "Zayin (ז): The Seventh Hebrew Letter – The Weapon of Spiritual Readiness ...",
+                        "text": "hi welcome to Bible Bash. today let us explore. the seventh letter of the Hebrew alphabet that is Zion the Hebrew word Zion literally it means weapon swad or im..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew for Christians",
+                        "domain": "www.hebrew4christians.com",
+                        "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Zayin/zayin.html",
+                        "title": "The Letter Zayin",
+                        "text": "Phonetics & Forms: 7th Hebrew letter Zayin, pronounced ZAH-yeen, sounding like \"z\" in zebra; written in manual block (descending left-to-right stroke) or cursiv..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=r1zj0Ead5R4&t=16",
+                        "title": "Power of Hebrew Letters: Zayin",
+                        "text": "Power of Hebrew Letters: Zayin Shalom I am Dr Anne Davis. and let's take a look at the number seven the in the Hebrew letters uh the Z is the is z z so let me s..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "The Ancient Hebrew Research Center",
+                        "domain": "www.ancient-hebrew.org",
+                        "url": "https://www.ancient-hebrew.org/ancient-alphabet/zayin.htm",
+                        "title": "The Ancient Hebrew Alphabet | AHRC",
+                        "text": "Letter: Zayin (Zan, Zeta, Z). Pictograph: Mattock, hoe, or plow. Meanings: Harvest, food, cut, broad. Phonetic Sound: Z. History: Early Semitic script evolved t..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew Today",
+                        "domain": "hebrewtoday.com",
+                        "url": "https://hebrewtoday.com/alphabet/the-letter-zine-%D7%96/",
+                        "title": "The Letter Zayin (ז) - Hebrew Today",
+                        "text": "Identity: Zayin (ז) is the seventh Hebrew alphabet letter, originating from Phoenician and evolving into Greek Zeta and Latin Z. Literal Meaning: Sword or sharp..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Gal Einai",
+                        "domain": "inner.org",
+                        "url": "https://inner.org/hebleter/zayin.htm",
+                        "title": "The Hebrew Letters: Zayin",
+                        "text": "The Woman of Valor * The Maggid of Mezeritch, the successor of the Ba'al Shem Tov, teaches that the verse \"A woman of valor is the crown of her husband\" alludes..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Spiritual and Symbolic Significance",
+                    "markdown": "### Spiritual and Symbolic Significance",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "The Number Seven: Associated with completeness, perfection, the Sabbath (Shabbat), the Sabbatical year (Shmita), and divine order. Returning Light (Ohr Hozer): In Jewish mysticism taught on platforms like Chabad.org, the preceding letter Vav represents the straight light descending from God, while Zayin represents the returning light ascending back to the source. A Weapon of Spirit: The sword shape represents spiritual struggle, defense of divine principles, and the active power of God's word. Remembrance: It connects to the concept of memory (zain/zchor).",
+                    "markdown": "- **The Number Seven:** Associated with completeness, perfection, the Sabbath (Shabbat), the Sabbatical year (Shmita), and divine order.\n- **Returning Light (*Ohr Hozer*):** In Jewish mysticism taught on platforms like [Chabad.org](https://www.chabad.org/library/article_cdo/aid/137079/jewish/Zayin.htm) , the preceding letter *Vav* represents the straight light descending from God, while *Zayin* represents the returning light ascending back to the source.\n- **A Weapon of Spirit:** The sword shape represents spiritual struggle, defense of divine principles, and the active power of God's word.\n- **Remembrance:** It connects to the concept of memory (*zain/zchor*).[[1]](https://gabrielelevy.com/pages/the-letter-zayn)[[2]](https://www.chabad.org/library/article_cdo/aid/137079/jewish/Zayin.htm)[[3]](https://hebrewtoday.com/alphabet/the-letter-zine-%D7%96/)[[4]](https://www.youtube.com/shorts/is59WJsPsok)[[5]](https://inner.org/hebleter/zayin.htm)[[6]](https://www.7dorim.com/en/articles/articles-the-power-of-hebrew-letters/the-power-of-zayin-%D7%96/)[[7]](https://www.youtube.com/watch?v=r1zj0Ead5R4&t=16)[[8]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Zayin/zayin.html)",
+                    "links": [
+                      {
+                        "type": "link_element",
+                        "title": "Chabad.org",
+                        "description": null,
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137079/jewish/Zayin.htm",
+                        "domain": "www.chabad.org"
+                      }
+                    ],
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "ALEFBET - The hebrew letters art gallery",
+                        "domain": "gabrielelevy.com",
+                        "url": "https://gabrielelevy.com/pages/the-letter-zayn",
+                        "title": "The letter ZAYIN – ALEFBET",
+                        "text": "The Zayin is shaped like a sword and is the symbol of spirit, sustenance, and struggle. It represents the 7th day of Shabbat, the day of rest and spirituality, ..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137079/jewish/Zayin.htm",
+                        "title": "Zayin - The seventh letter of the Hebrew alphabet - Chabad.org",
+                        "text": "Character: Zayin (ז) is the seventh Hebrew letter with numerical value 7, sound \"Z\", and shape resembling a sword, scepter, or crown. Meanings: Crown, weapon, a..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew Today",
+                        "domain": "hebrewtoday.com",
+                        "url": "https://hebrewtoday.com/alphabet/the-letter-zine-%D7%96/",
+                        "title": "The Letter Zayin (ז) - Hebrew Today",
+                        "text": "Identity: Zayin (ז) is the seventh Hebrew alphabet letter, originating from Phoenician and evolving into Greek Zeta and Latin Z. Literal Meaning: Sword or sharp..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/shorts/is59WJsPsok",
+                        "title": "Zayin (ז): The Seventh Hebrew Letter – The Weapon of Spiritual Readiness ...",
+                        "text": "hi welcome to Bible Bash. today let us explore. the seventh letter of the Hebrew alphabet that is Zion the Hebrew word Zion literally it means weapon swad or im..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Gal Einai",
+                        "domain": "inner.org",
+                        "url": "https://inner.org/hebleter/zayin.htm",
+                        "title": "The Hebrew Letters: Zayin",
+                        "text": "The Woman of Valor * The Maggid of Mezeritch, the successor of the Ba'al Shem Tov, teaches that the verse \"A woman of valor is the crown of her husband\" alludes..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "فرهنگ یهودیان ایران",
+                        "domain": "www.7dorim.com",
+                        "url": "https://www.7dorim.com/en/articles/articles-the-power-of-hebrew-letters/the-power-of-zayin-%D7%96/",
+                        "title": "The Power of Zayin (ז) - Iranian Jewish Culure",
+                        "text": "The Hebrew letter Zayin (ז) is a vibrant symbol of struggle and triumph, sparking curiosity and wisdom in its bearers. With a sword-like spirit, Zayin-bearers c..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=r1zj0Ead5R4&t=16",
+                        "title": "Power of Hebrew Letters: Zayin",
+                        "text": "Power of Hebrew Letters: Zayin Shalom I am Dr Anne Davis. and let's take a look at the number seven the in the Hebrew letters uh the Z is the is z z so let me s..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew for Christians",
+                        "domain": "www.hebrew4christians.com",
+                        "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Zayin/zayin.html",
+                        "title": "The Letter Zayin",
+                        "text": "Phonetics & Forms: 7th Hebrew letter Zayin, pronounced ZAH-yeen, sounding like \"z\" in zebra; written in manual block (descending left-to-right stroke) or cursiv..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Would you like to explore gematria connections, how to write it in Hebrew script, or word studies involving the letter Zayin?",
+                    "markdown": "Would you like to explore **gematria connections**, **how to write it in Hebrew script** , or **word studies** involving the letter Zayin?",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  }
+                ],
+                "references": [
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Hebrew for Christians",
+                    "domain": "www.hebrew4christians.com",
+                    "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Zayin/zayin.html",
+                    "title": "The Letter Zayin",
+                    "text": "Phonetics & Forms: 7th Hebrew letter Zayin, pronounced ZAH-yeen, sounding like \"z\" in zebra; written in manual block (descending left-to-right stroke) or cursiv..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Chabad",
+                    "domain": "www.chabad.org",
+                    "url": "https://www.chabad.org/library/article_cdo/aid/137079/jewish/Zayin.htm",
+                    "title": "Zayin - The seventh letter of the Hebrew alphabet - Chabad.org",
+                    "text": "Character: Zayin (ז) is the seventh Hebrew letter with numerical value 7, sound \"Z\", and shape resembling a sword, scepter, or crown. Meanings: Crown, weapon, a..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Wikipedia",
+                    "domain": "en.wikipedia.org",
+                    "url": "https://en.wikipedia.org/wiki/Zayin",
+                    "title": "Zayin",
+                    "text": "· Zayin (also spelled zain or zayn or simply zay) is the seventh letter of the Semitic abjads, including Phoenician zayn 𐤆, Hebrew zayīn ז , Aramaic zain 𐡆, S..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "ALEFBET - The hebrew letters art gallery",
+                    "domain": "gabrielelevy.com",
+                    "url": "https://gabrielelevy.com/pages/the-letter-zayn",
+                    "title": "The letter ZAYIN – ALEFBET",
+                    "text": "The Zayin is shaped like a sword and is the symbol of spirit, sustenance, and struggle. It represents the 7th day of Shabbat, the day of rest and spirituality, ..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/watch?v=r1zj0Ead5R4&t=16",
+                    "title": "Power of Hebrew Letters: Zayin",
+                    "text": "Power of Hebrew Letters: Zayin Shalom I am Dr Anne Davis. and let's take a look at the number seven the in the Hebrew letters uh the Z is the is z z so let me s..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Hebrew Today",
+                    "domain": "hebrewtoday.com",
+                    "url": "https://hebrewtoday.com/alphabet/the-letter-zine-%D7%96/",
+                    "title": "The Letter Zayin (ז) - Hebrew Today",
+                    "text": "Identity: Zayin (ז) is the seventh Hebrew alphabet letter, originating from Phoenician and evolving into Greek Zeta and Latin Z. Literal Meaning: Sword or sharp..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Gal Einai",
+                    "domain": "inner.org",
+                    "url": "https://inner.org/hebleter/zayin.htm",
+                    "title": "The Hebrew Letters: Zayin",
+                    "text": "The Woman of Valor * The Maggid of Mezeritch, the successor of the Ba'al Shem Tov, teaches that the verse \"A woman of valor is the crown of her husband\" alludes..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "The Ancient Hebrew Research Center",
+                    "domain": "www.ancient-hebrew.org",
+                    "url": "https://www.ancient-hebrew.org/ancient-alphabet/zayin.htm",
+                    "title": "The Ancient Hebrew Alphabet | AHRC",
+                    "text": "Letter: Zayin (Zan, Zeta, Z). Pictograph: Mattock, hoe, or plow. Meanings: Harvest, food, cut, broad. Phonetic Sound: Z. History: Early Semitic script evolved t..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "فرهنگ یهودیان ایران",
+                    "domain": "www.7dorim.com",
+                    "url": "https://www.7dorim.com/en/articles/articles-the-power-of-hebrew-letters/the-power-of-zayin-%D7%96/",
+                    "title": "The Power of Zayin (ז) - Iranian Jewish Culure",
+                    "text": "The Hebrew letter Zayin (ז) is a vibrant symbol of struggle and triumph, sparking curiosity and wisdom in its bearers. With a sword-like spirit, Zayin-bearers c..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/shorts/is59WJsPsok",
+                    "title": "Zayin (ז): The Seventh Hebrew Letter – The Weapon of Spiritual Readiness ...",
+                    "text": "hi welcome to Bible Bash. today let us explore. the seventh letter of the Hebrew alphabet that is Zion the Hebrew word Zion literally it means weapon swad or im..."
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "images",
+                "rank_group": 1,
+                "rank_absolute": 2,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]",
+                "title": "Images",
+                "url": null,
+                "items": [
+                  {
+                    "type": "images_element",
+                    "alt": "Zayin - The seventh letter of the Hebrew alphabet - Chabad.org",
+                    "url": "https://www.chabad.org/library/article_cdo/aid/137079/jewish/Zayin.htm",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110522-2762-0139-0000-d974ea780ed4:0"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "The Letter Zayin",
+                    "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Zayin/zayin.html",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110522-2762-0139-0000-d974ea780ed4:1"
+                  }
+                ],
+                "related_image_searches": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 1,
+                "rank_absolute": 3,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[4]/div[1]/div[1]",
+                "domain": "www.youtube.com",
+                "title": "Hebrew Zayin (ז) The Easy Way",
+                "url": "https://www.youtube.com/watch?v=4N8ZotE5Dkw",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "6.5K+ views",
+                "website_name": "YouTube · The ShevonYah Show",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "Learn Alef-Tav with our bite size lessons guaranteed to aid you on your journey of learning and reading in Hebrew. Ze'ev-Wolf Zeh'bra-Zebra. ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2018-10-11 05:22:53 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "people_also_ask",
+                "rank_group": 1,
+                "rank_absolute": 4,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]",
+                "items": [
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does Zayin in Psalm 119 mean?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[1]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What is the name of the Hebrew alphabet?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[2]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does the name Zayin mean?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[3]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What's the Hebrew letter for 6?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[4]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 2,
+                "rank_absolute": 5,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "akhlah.com",
+                "title": "Zayin",
+                "url": "https://akhlah.com/hebrew/aleph-bet/zayin/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://akhlah.com",
+                "website_name": "Akhlah",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Zayin is the seventh letter of the Hebrew alphabet. Zayin is also the number “seven”. Zayin is printed several different ways as you can see. Hebrew is written ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Zayin is the seventh letter of the Hebrew alphabet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 3,
+                "rank_absolute": 6,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.etz-hayim.com",
+                "title": "The Hebrew letter Zayin",
+                "url": "https://www.etz-hayim.com/hebrew/letters_and_vowels/zayin.php",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.etz-hayim.com",
+                "website_name": "Etz Hayim—\"Tree of Life\"",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Nov 4, 2018 — Zayin is the seventh letter of the Hebrew alphabet. The letter Zayin is pronounced as \"z\" in zebra. Transliteration. The letter Zayin is ...",
+                "pre_snippet": "11/04/2018 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Zayin is the seventh letter of the Hebrew alphabet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2018-11-04 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "video",
+                "rank_group": 1,
+                "rank_absolute": 7,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[12]",
+                "items": [
+                  {
+                    "type": "video_element",
+                    "source": "BibleInteract",
+                    "title": "Power of Hebrew Letters: Zayin",
+                    "timestamp": "2023-11-03 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=r1zj0Ead5R4"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Learn Hebrew with HebrewPod101.com",
+                    "title": "Learn Hebrew Alphabet #7 - ז (zayin)",
+                    "timestamp": "2026-03-24 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/shorts/i5xD4ri6voA"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "thelivingword",
+                    "title": "Secret of the Hebrew letter Zayin",
+                    "timestamp": "2015-10-09 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=2NWDddX5zmM"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Stefy Kefy",
+                    "title": "Hebrew Alphabet - Letter Zayin ז",
+                    "timestamp": "2025-02-13 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=9atgXKtr0oM"
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 4,
+                "rank_absolute": 8,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.pinterest.com",
+                "title": "Zayin 7th letter",
+                "url": "https://www.pinterest.com/pin/zayin-7th-letter-of-the-hebrew-alphabet--171136854567936309/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "10 years ago",
+                "website_name": "Pinterest · jreese50",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Learn about Zayin, the 7th letter of the Hebrew alphabet. Explore Hebrew vocabulary, language, and letters. 21 hebrew meaning, Zayin in hebrew",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Learn about Zayin, the 7th letter of the Hebrew alphabet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 5,
+                "rank_absolute": 9,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[15]/div[1]/div[1]",
+                "domain": "andreabeloff.com",
+                "title": "ZAYIN - The Sword of the Spirit and Word of God",
+                "url": "https://andreabeloff.com/zayin-the-sword-of-the-spirit-and-word-of-god/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://andreabeloff.com",
+                "website_name": "Andrea Beloff · Andrea Beloff",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "Zayin has a numerical value of 7. ZAYIN is the 7th Letter of Hebrew Alphabet and also stands for completion. Starting in Genesis, on the 7th ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": [
+                  {
+                    "type": "link_element",
+                    "title": "1:01",
+                    "description": null,
+                    "url": "https://andreabeloff.com/zayin-the-sword-of-the-spirit-and-word-of-god/",
+                    "domain": "andreabeloff.com"
+                  }
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2022-06-29 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 6,
+                "rank_absolute": 10,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[17]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "kids.kiddle.co",
+                "title": "Zayin Facts for Kids",
+                "url": "https://kids.kiddle.co/Zayin",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://kids.kiddle.co",
+                "website_name": "Kids encyclopedia facts",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Oct 17, 2025 — Zayin is the seventh letter in the Hebrew alphabet. The name \"Zayin\" means \"weapon\" or \"sword.\" Zayin has the value of 7. It makes a \"z\" sound, ...",
+                "pre_snippet": "10/17/2025 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Zayin is the seventh letter in the Hebrew alphabet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2025-10-17 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 7,
+                "rank_absolute": 11,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "stock.adobe.com",
+                "title": "Hebrew letter zayin, seventh letter of hebrew alphabet, meaning is sword ...",
+                "url": "https://stock.adobe.com/images/hebrew-letter-zayin-seventh-letter-of-hebrew-alphabet-meaning-is-sword-gold-design-on-black-background-vector-alefbet/299405527",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://stock.adobe.com",
+                "website_name": "Adobe Stock",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Hebrew letter zayin, seventh letter of hebrew alphabet, meaning is sword, gold design on black background,",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "seventh letter of hebrew alphabet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

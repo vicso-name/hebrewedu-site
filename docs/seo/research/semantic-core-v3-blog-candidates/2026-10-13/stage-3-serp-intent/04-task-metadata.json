@@ -1,0 +1,82 @@
+{
+  "keyword": "hebrew alphabet nun",
+  "task_id": "10131400-2762-0139-0000-4cf68c5500d3",
+  "endpoint": "/v3/serp/google/organic/live/advanced",
+  "envelope_status_code": 20000,
+  "envelope_status_message": "Ok.",
+  "task_status_code": 20000,
+  "task_status_message": "Ok.",
+  "envelope_cost_usd": "0.002",
+  "task_cost_usd": "0.002",
+  "charged_once_usd": "0.002",
+  "envelope_and_task_cost_are_same_charge": true,
+  "serp_datetime": "2026-10-13 14:00:54 +00:00",
+  "timestamps": {
+    "dispatch_at_utc": "2026-10-13T14:00:44.754Z",
+    "received_at_utc": "2026-10-13T14:00:54.606Z",
+    "preserved_at_utc": "2026-10-13T14:00:54.778Z"
+  },
+  "raw_sha256": "805679bee9ed14429f53483e35843a0c86e5af7a5e14ef20ec73acc92cd1c10d",
+  "task": {
+    "id": "10131400-2762-0139-0000-4cf68c5500d3",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "5.7366 sec.",
+    "cost": 0.002,
+    "result_count": 1,
+    "path": [
+      "v3",
+      "serp",
+      "google",
+      "organic",
+      "live",
+      "advanced"
+    ],
+    "data": {
+      "api": "serp",
+      "function": "live",
+      "se": "google",
+      "se_type": "organic",
+      "keyword": "hebrew alphabet nun",
+      "location_code": 2840,
+      "language_code": "en",
+      "device": "mobile",
+      "os": "android",
+      "depth": 10
+    }
+  },
+  "envelope": {
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "5.9071 sec.",
+    "cost": 0.002,
+    "tasks_count": 1,
+    "tasks_error": 0
+  },
+  "result_summary": {
+    "keyword": "hebrew alphabet nun",
+    "type": "organic",
+    "se_domain": "google.com",
+    "location_code": 2840,
+    "language_code": "en",
+    "check_url": "https://www.google.com/search?q=hebrew%20alphabet%20nun&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+    "datetime": "2026-10-13 14:00:54 +00:00",
+    "spell": null,
+    "refinement_chips": null,
+    "item_types": [
+      "ai_overview",
+      "video",
+      "people_also_ask",
+      "people_also_search",
+      "organic",
+      "images"
+    ],
+    "se_results_count": 0,
+    "pages_count": 1,
+    "items_count": 13
+  },
+  "organic_rows_returned": 7,
+  "source_mode": "new paid live task",
+  "format_classification_method": "editorial inference from returned titles, descriptions and SERP features; competitor pages not independently audited"
+}

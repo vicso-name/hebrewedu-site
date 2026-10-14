@@ -1,0 +1,625 @@
+{
+  "keyword": "aleph with kamatz",
+  "retrieved_at_utc": "2026-10-11T05:28:17.540Z",
+  "raw": {
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "4.1859 sec.",
+    "cost": 0.002,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "10110527-2762-0139-0000-d467c1a116d1",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "4.0549 sec.",
+        "cost": 0.002,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "serp",
+          "google",
+          "organic",
+          "live",
+          "advanced"
+        ],
+        "data": {
+          "api": "serp",
+          "function": "live",
+          "se": "google",
+          "se_type": "organic",
+          "keyword": "aleph with kamatz",
+          "location_code": 2840,
+          "language_code": "en",
+          "device": "mobile",
+          "os": "android",
+          "depth": 10
+        },
+        "result": [
+          {
+            "keyword": "aleph with kamatz",
+            "type": "organic",
+            "se_domain": "google.com",
+            "location_code": 2840,
+            "language_code": "en",
+            "check_url": "https://www.google.com/search?q=aleph%20with%20kamatz&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+            "datetime": "2026-10-11 05:27:50 +00:00",
+            "spell": null,
+            "refinement_chips": null,
+            "item_types": [
+              "organic",
+              "ai_overview",
+              "video",
+              "app",
+              "people_also_search",
+              "people_also_ask"
+            ],
+            "se_results_count": 0,
+            "pages_count": 1,
+            "items_count": 13,
+            "items": [
+              {
+                "type": "organic",
+                "rank_group": 1,
+                "rank_absolute": 1,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "en.wikipedia.org",
+                "title": "Kamatz",
+                "url": "https://en.wikipedia.org/wiki/Kamatz",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://en.wikipedia.org",
+                "website_name": "Wikipedia",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "the equivalent phoneme in Yiddish (/ɔ/ in some dialects, /u/ in others) is spelled with an aleph marked with a kamatz ⟨ אָ ⟩, in Yiddish orthography.",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "aleph marked with a kamatz"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": [
+                  "kamatz",
+                  "kamatz",
+                  "kamatz vs",
+                  "kamatz gadol vs",
+                  "chataf",
+                  "patach",
+                  "chataf",
+                  "hebrew"
+                ],
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "ai_overview",
+                "rank_group": 1,
+                "rank_absolute": 2,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[3]/div[1]",
+                "asynchronous_ai_overview": true,
+                "markdown": null,
+                "items": null,
+                "references": null,
+                "rectangle": null
+              },
+              {
+                "type": "video",
+                "rank_group": 1,
+                "rank_absolute": 3,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]",
+                "items": [
+                  {
+                    "type": "video_element",
+                    "source": "Hebreo Magico",
+                    "title": "Lesson#1 Consonant Aleph, Vowels Kamatz and Pataj \"A\"",
+                    "timestamp": "2025-01-09 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=qoxmk3ENTgQ"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Rabbi Mendy Greenstein",
+                    "title": "Kamatz aleph oh a traditional pronunciation of the Aleph Beis ...",
+                    "timestamp": "2022-08-23 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=dauoDxvrV4A"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Torah Home Study",
+                    "title": "Introduction to Reading Hebrew Lesson 1: Alef & Patach",
+                    "timestamp": "2018-01-03 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=iB2RKGyqDsM"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Rabbi Yisroel Bernath",
+                    "title": "Kamatz + Letters Review | Hebrew Reading Crash Course",
+                    "timestamp": "2022-11-13 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=rw56rYJ5Eag"
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "app",
+                "rank_group": 1,
+                "rank_absolute": 4,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[6]",
+                "items": [
+                  {
+                    "type": "app_element",
+                    "title": "Komatz Alef",
+                    "description": "Learn to pronounce each letter of the hebrew alphabet with their proper vowels according to Ashkenazi pronunciation. Learn to pronounce the letters of ...",
+                    "url": "https://play.google.com/store/apps/details?id=org.jabadlaplata.komatzalef&hl=en_US&referrer=utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_term%3Daleph+with+kamatz&pcampaignid=APPU_1_VR7LauPTCaW5hbIPs47BiQ8",
+                    "price": null
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 2,
+                "rank_absolute": 5,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "saltmd.adventistchurch.org",
+                "title": "Lesson 1: Alef and Vowel Markers - salt seventh-day adventist church",
+                "url": "https://saltmd.adventistchurch.org/education/hebrew/lesson1/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://saltmd.adventistchurch.org",
+                "website_name": "salt seventh-day adventist church",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "A Alef with kamatz (אָ) is pronounced “ah” like the a in “father”. Alef with patach (אַ) also sounds like “ah” in “father”. E Alef with tzere (אֵ) is pronounced “ ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Alef with kamatz (אָ) is pronounced “ah”"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": [
+                  "kamatz",
+                  "kamatz",
+                  "kamatz vs",
+                  "kamatz gadol vs",
+                  "chataf",
+                  "patach",
+                  "chataf",
+                  "hebrew"
+                ],
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "people_also_search",
+                "rank_group": 1,
+                "rank_absolute": 6,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[10]",
+                "title": "People also search for",
+                "items": [
+                  "Aleph with kamatz translation",
+                  "Aleph with kamatz meaning",
+                  "Aleph with kamatz pronunciation",
+                  "Aleph with kamatz in the bible",
+                  "Aleph with kamatz in english",
+                  "Kamatz meaning"
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 3,
+                "rank_absolute": 7,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[11]/div[1]/div[1]",
+                "domain": "www.youtube.com",
+                "title": "Hebrew Vowels - Kamatz Gadol and Katan [Part 1]",
+                "url": "https://www.youtube.com/watch?v=y9aearHjf94&xstg=CAMSBhUDze3xHw%3D%3D",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "9.7K+ views",
+                "website_name": "YouTube · Hebrewly",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "The first part of the Hebrew vowels series, and this time the vowel Kamatz (Gadol and Katan). This lesson is a part of a series about the ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2019-10-11 05:27:50 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 4,
+                "rank_absolute": 8,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[13]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.reddit.com",
+                "title": "I'm learning Hebrew and want to know what the difference between these ...",
+                "url": "https://www.reddit.com/r/hebrew/comments/zq61e4/im_learning_hebrew_and_want_to_know_what_the/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "50+ comments",
+                "website_name": "Reddit · r/hebrew",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "The letter “aleph” doesn't make a sound by itself, but that's because Hebrew doesn't have vowel letters. The markings meant to indicate vowels ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": [
+                  {
+                    "type": "link_element",
+                    "title": "If a word ends in kamatz, why does it end in he and not in alef? - Redditr/hebrew·5 comments·3mo",
+                    "description": null,
+                    "url": "https://www.reddit.com/r/hebrew/comments/1uts60o/if_a_word_ends_in_kamatz_why_does_it_end_in_he/",
+                    "domain": "www.reddit.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Hi again : r/hebrew - Redditr/hebrew·70+ comments·2y",
+                    "description": null,
+                    "url": "https://www.reddit.com/r/hebrew/comments/17fphwc/hi_again/",
+                    "domain": "www.reddit.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Essentially no difference, but what this is trying to teach you is the duration of the sound, ...",
+                    "description": "Top answer · 64 votes",
+                    "url": "https://www.reddit.com/r/hebrew/comments/zq61e4/im_learning_hebrew_and_want_to_know_what_the/j0wjkk1/",
+                    "domain": "www.reddit.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "There is essentially no difference, all of them sound like \"ah\" (as in the beginning sound ...",
+                    "description": "12 votes",
+                    "url": "https://www.reddit.com/r/hebrew/comments/zq61e4/im_learning_hebrew_and_want_to_know_what_the/j0whv5o/",
+                    "domain": "www.reddit.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "The first one is the chataf patach. That's essentially when a consonant needs a vowel but ...",
+                    "description": "9 votes",
+                    "url": "https://www.reddit.com/r/hebrew/comments/zq61e4/im_learning_hebrew_and_want_to_know_what_the/j0wpo9z/",
+                    "domain": "www.reddit.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "No difference in Modern Hebrew or Sephardi Hebrew in general. In older forms of Hebrew (minus ...",
+                    "description": "4 votes",
+                    "url": "https://www.reddit.com/r/hebrew/comments/zq61e4/im_learning_hebrew_and_want_to_know_what_the/j0xsu52/",
+                    "domain": "www.reddit.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "For most Hebrew speakers they are identical. There are grammatical differences that you may ...",
+                    "description": "3 votes",
+                    "url": "https://www.reddit.com/r/hebrew/comments/zq61e4/im_learning_hebrew_and_want_to_know_what_the/j1088bv/",
+                    "domain": "www.reddit.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "In regular modern speech, there's practically no difference between all three. The reason ...",
+                    "description": "2 votes",
+                    "url": "https://www.reddit.com/r/hebrew/comments/zq61e4/im_learning_hebrew_and_want_to_know_what_the/j0ygn6v/",
+                    "domain": "www.reddit.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "For me (the one that grew up speaking hebrew) it's all the same😅",
+                    "description": "2 votes",
+                    "url": "https://www.reddit.com/r/hebrew/comments/zq61e4/im_learning_hebrew_and_want_to_know_what_the/j13j3bd/",
+                    "domain": "www.reddit.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "I am learning as well, and boy, it is tough to read. I am learning better by listening ...",
+                    "description": "2 votes",
+                    "url": "https://www.reddit.com/r/hebrew/comments/zq61e4/im_learning_hebrew_and_want_to_know_what_the/j0wjydq/",
+                    "domain": "www.reddit.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "As my old college hebrew professor used to say (in an israeli accent) “its just grammar, ...",
+                    "description": "1 vote",
+                    "url": "https://www.reddit.com/r/hebrew/comments/zq61e4/im_learning_hebrew_and_want_to_know_what_the/j0xy1xu/",
+                    "domain": "www.reddit.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Oof. I don’t even want to imagine how Duolingo presents other complex topics if it’s ...",
+                    "description": "1 vote",
+                    "url": "https://www.reddit.com/r/hebrew/comments/zq61e4/im_learning_hebrew_and_want_to_know_what_the/j0y77g6/",
+                    "domain": "www.reddit.com"
+                  }
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2023-10-11 05:27:50 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 5,
+                "rank_absolute": 9,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "judaism.stackexchange.com",
+                "title": "Difference between chataf patach alef and kamatz alef - Mi Yodeya",
+                "url": "https://judaism.stackexchange.com/questions/136224/difference-between-chataf-patach-alef-and-kamatz-alef",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://judaism.stackexchange.com",
+                "website_name": "Mi Yodeya",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "In Yoel 2:27 The pasuk states  וִידַעְתֶּ֗ם כִּ֣י בְקֶ֤רֶב יִשְׂרָאֵל֙ אָ֔נִי וַאֲנִ֛י  What is the difference ...",
+                "pre_snippet": "07/31/2023 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": [
+                  {
+                    "type": "link_element",
+                    "title": "Is there a book / document that explains the proper use of kamatz ...7 answers·12y",
+                    "description": null,
+                    "url": "https://judaism.stackexchange.com/questions/38541/is-there-a-book-document-that-explains-the-proper-use-of-kamatz-katan-in-the-t",
+                    "domain": "judaism.stackexchange.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Aleph with a Dagesh - grammar dikduk - Mi Yodeya - Stack Exchange5 answers·12y",
+                    "description": null,
+                    "url": "https://judaism.stackexchange.com/questions/35510/aleph-with-a-dagesh",
+                    "domain": "judaism.stackexchange.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "There is no difference in meaning between אֲנִי and אָנִי. Rather, the difference is contextual: the latter is the so-called pausal ...",
+                    "description": "Top answer · 7 votes",
+                    "url": "https://judaism.stackexchange.com/a/136225",
+                    "domain": "judaism.stackexchange.com"
+                  }
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2023-07-31 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "people_also_ask",
+                "rank_group": 1,
+                "rank_absolute": 10,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[17]/div[1]",
+                "items": [
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does \"kamatz\" mean in Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[17]/div[1]/div[2]/div[2]/div[1]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What is the Hebrew vowel for \"Kamatz\"?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[17]/div[1]/div[2]/div[2]/div[2]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What is the meaning of the Hebrew letter Aleph?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[17]/div[1]/div[2]/div[2]/div[3]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What is the difference between kamatz and patach?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[17]/div[1]/div[2]/div[2]/div[4]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 6,
+                "rank_absolute": 11,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.chabad.org",
+                "title": "Kamatz — Concealment",
+                "url": "https://www.chabad.org/library/article_cdo/aid/137292/jewish/Kamatz-Concealment.htm",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.chabad.org",
+                "website_name": "Chabad",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "The kamatz is designed as a straight line, similar to a horizontal vav. The kamatz represents Kesser,1 the crown, The word kamatz means to “close and conceal.”",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 7,
+                "rank_absolute": 12,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[21]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.jpost.com",
+                "title": "The Glamour of the Grammar: Say ah",
+                "url": "https://www.jpost.com/magazine/the-glamour-of-the-grammar-say-ah/article-99900",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.jpost.com",
+                "website_name": "The Jerusalem Post",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "The Glamour of the Grammar: Say ah. Of all the Hebrew vowels, the kamatz is perhaps the most confusing.",
+                "pre_snippet": "05/01/2008 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2008-05-01 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "people_also_search",
+                "rank_group": 2,
+                "rank_absolute": 13,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[4]/div[1]/div[3]/div[1]",
+                "title": "People also search for",
+                "items": [
+                  "Kamatz katan",
+                  "Kamatz vs patach",
+                  "Chataf Kamatz",
+                  "Patach Hebrew",
+                  "Chataf patach",
+                  "Hebrew vowels"
+                ],
+                "rectangle": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

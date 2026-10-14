@@ -1,0 +1,21 @@
+{
+  "prepared_at_utc": "2026-10-13T13:14:18.409126+00:00",
+  "authorized_stage": 1,
+  "project_budget_usd": 0.25,
+  "stage1_ceiling_usd": 0.024,
+  "historical_phase3b_spend_excluded_usd": 0.1026,
+  "method": "POST",
+  "endpoint": "/v3/dataforseo_labs/google/keyword_ideas/live",
+  "task_count": 1,
+  "noAiMode": true,
+  "retries": 0,
+  "later_stages_authorized": false,
+  "pricing_source": "https://dataforseo.com/pricing/dataforseo-labs/dataforseo-google-api",
+  "docs_source": "https://docs.dataforseo.com/v3/dataforseo_labs/google/keyword_ideas/live/",
+  "price_verified_on": "2026-10-13",
+  "base_usd": 0.012,
+  "per_item_usd": 0.00012,
+  "max_items": 100,
+  "expected_max_charge_usd": 0.024,
+  "user_budget_overrides_plan_proposal_usd": 0.16
+}

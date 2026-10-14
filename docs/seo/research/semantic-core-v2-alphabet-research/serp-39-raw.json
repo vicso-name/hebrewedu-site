@@ -1,0 +1,708 @@
+{
+  "keyword": "nun sofit",
+  "retrieved_at_utc": "2026-10-11T05:30:19.000Z",
+  "raw": {
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "3.6642 sec.",
+    "cost": 0.002,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "10110529-2762-0139-0000-59cd66f7699e",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "3.5960 sec.",
+        "cost": 0.002,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "serp",
+          "google",
+          "organic",
+          "live",
+          "advanced"
+        ],
+        "data": {
+          "api": "serp",
+          "function": "live",
+          "se": "google",
+          "se_type": "organic",
+          "keyword": "nun sofit",
+          "location_code": 2840,
+          "language_code": "en",
+          "device": "mobile",
+          "os": "android",
+          "depth": 10
+        },
+        "result": [
+          {
+            "keyword": "nun sofit",
+            "type": "organic",
+            "se_domain": "google.com",
+            "location_code": 2840,
+            "language_code": "en",
+            "check_url": "https://www.google.com/search?q=nun%20sofit&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+            "datetime": "2026-10-11 05:29:52 +00:00",
+            "spell": null,
+            "refinement_chips": null,
+            "item_types": [
+              "ai_overview",
+              "images",
+              "video",
+              "people_also_ask",
+              "organic"
+            ],
+            "se_results_count": 0,
+            "pages_count": 1,
+            "items_count": 11,
+            "items": [
+              {
+                "type": "ai_overview",
+                "rank_group": 1,
+                "rank_absolute": 1,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]",
+                "asynchronous_ai_overview": false,
+                "markdown": "![Hebrew Letter Nun Fourteen Letter Of Hebrew Alphabet Meaning ...](https://api.dataforseo.com/cdn/i/10110529-2762-0139-0000-59cd66f7699e:4)\nNun Sofit (**ן** ) is the special final form of the fourteenth Hebrew letter, Nun (**נ**).[[1]](https://www.facebook.com/100068612731591/posts/how-to-write-the-hebrew-letter-nun-in-blockscriptnun-%D7%A0-final-nun-%D7%9F-alphabetical-/851145567182527/)[[2]](https://kriakala.com/hebrew-letter-nun)\n\n### Key Facts\n\n- **When it is used:** It replaces the standard Nun whenever the letter appears at the very end of a word.[[1]](https://kriakala.com/hebrew-letter-nun)\n- **Sound:** It makes the \"n\" sound (as in \"noon\").[[1]](https://www.facebook.com/100068612731591/posts/how-to-write-the-hebrew-letter-nun-in-blockscriptnun-%D7%A0-final-nun-%D7%9F-alphabetical-/851145567182527/)\n- **Shape:** Unlike the regular curved or bent Nun, Nun Sofit is a straight vertical line that extends downward below the baseline.[[1]](https://www.mayimachronim.com/secrets-of-the-five-special-sofit-letters/)[[2]](https://kriakala.com/hebrew-letter-nun)\n- **Numerical Value:** It equals **50** (or **700** in rare gematria systems when used as a final form).[[1]](https://www.equipgodspeople.com/bible-study-tools/lexicons-word-study/old-testament-hebrew/nun/)\n- **Part of Mantzepach:** It belongs to the group of five Hebrew letters with special end-of-word forms known as *Mantzepach* (**מנצפ״ך** — Kaf, Mem, Nun, Pe, and Tsadi).[[1]](https://www.mayimachronim.com/secrets-of-the-five-special-sofit-letters/)[[2]](https://www.thelivingword.org.au/grand-design/session32.php)\n\nYou can practice reading and recognizing letters with visual guides on [Cartoon Hebrew](https://www.cartoonhebrew.com/nun-sofit) or learn more about letter structures at [Hebrew4Christians](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Nun/nun.html).[[1]](https://www.cartoonhebrew.com/nun-sofit)[[2]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Nun/nun.html)Would you like to see **examples of Hebrew words** that use Nun Sofit, or learn about **other Sofit letters**?",
+                "items": [
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Nun Sofit ( ן ) is the special final form of the fourteenth Hebrew letter, Nun ( נ ).",
+                    "markdown": "![Hebrew Letter Nun Fourteen Letter Of Hebrew Alphabet Meaning ...](https://api.dataforseo.com/cdn/i/10110529-2762-0139-0000-59cd66f7699e:2)\nNun Sofit (**ן** ) is the special final form of the fourteenth Hebrew letter, Nun (**נ**).[[1]](https://www.facebook.com/100068612731591/posts/how-to-write-the-hebrew-letter-nun-in-blockscriptnun-%D7%A0-final-nun-%D7%9F-alphabetical-/851145567182527/)[[2]](https://kriakala.com/hebrew-letter-nun)",
+                    "links": null,
+                    "images": [
+                      {
+                        "type": "images_element",
+                        "alt": "Hebrew Letter Nun Fourteen Letter Of Hebrew Alphabet Meaning ...",
+                        "url": null,
+                        "image_url": "https://api.dataforseo.com/cdn/i/10110529-2762-0139-0000-59cd66f7699e:3"
+                      }
+                    ],
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Facebook",
+                        "domain": "www.facebook.com",
+                        "url": "https://www.facebook.com/100068612731591/posts/how-to-write-the-hebrew-letter-nun-in-blockscriptnun-%D7%A0-final-nun-%D7%9F-alphabetical-/851145567182527/",
+                        "title": "How to write the Hebrew letter Nun",
+                        "text": "■Hebrew letter: Nun נ■ •Hebrew name: נון •Alphabetical order: 14 •Numerical value: fifty •Transliteration: n •Pronunciation: n, as in noon •It represents a fish..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "קריאה קלה עם הילה",
+                        "domain": "kriakala.com",
+                        "url": "https://kriakala.com/hebrew-letter-nun",
+                        "title": "The Hebrew Letter Nun (נ) – Shape, Sound & How to Teach | Kriakala",
+                        "text": "Frequently Asked Questions about Nun * What is Nun Sofit? Nun Sofit (ן) is the final form of Nun — used when Nun appears at the very end of a word. Regular Nun ..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Key Facts",
+                    "markdown": "### Key Facts",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "When it is used: It replaces the standard Nun whenever the letter appears at the very end of a word. Sound: It makes the \"n\" sound (as in \"noon\"). Shape: Unlike the regular curved or bent Nun, Nun Sofit is a straight vertical line that extends downward below the baseline. Numerical Value: It equals 50 (or 700 in rare gematria systems when used as a final form). Part of Mantzepach: It belongs to the group of five Hebrew letters with special end-of-word forms known as Mantzepach ( מנצפ״ך — Kaf, Mem, Nun, Pe, and Tsadi).",
+                    "markdown": "- **When it is used:** It replaces the standard Nun whenever the letter appears at the very end of a word.[[1]](https://kriakala.com/hebrew-letter-nun)\n- **Sound:** It makes the \"n\" sound (as in \"noon\").[[1]](https://www.facebook.com/100068612731591/posts/how-to-write-the-hebrew-letter-nun-in-blockscriptnun-%D7%A0-final-nun-%D7%9F-alphabetical-/851145567182527/)\n- **Shape:** Unlike the regular curved or bent Nun, Nun Sofit is a straight vertical line that extends downward below the baseline.[[1]](https://www.mayimachronim.com/secrets-of-the-five-special-sofit-letters/)[[2]](https://kriakala.com/hebrew-letter-nun)\n- **Numerical Value:** It equals **50** (or **700** in rare gematria systems when used as a final form).[[1]](https://www.equipgodspeople.com/bible-study-tools/lexicons-word-study/old-testament-hebrew/nun/)\n- **Part of Mantzepach:** It belongs to the group of five Hebrew letters with special end-of-word forms known as *Mantzepach* (**מנצפ״ך** — Kaf, Mem, Nun, Pe, and Tsadi).[[1]](https://www.mayimachronim.com/secrets-of-the-five-special-sofit-letters/)[[2]](https://www.thelivingword.org.au/grand-design/session32.php)",
+                    "links": null,
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "קריאה קלה עם הילה",
+                        "domain": "kriakala.com",
+                        "url": "https://kriakala.com/hebrew-letter-nun",
+                        "title": "The Hebrew Letter Nun (נ) – Shape, Sound & How to Teach | Kriakala",
+                        "text": "Frequently Asked Questions about Nun * What is Nun Sofit? Nun Sofit (ן) is the final form of Nun — used when Nun appears at the very end of a word. Regular Nun ..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Facebook",
+                        "domain": "www.facebook.com",
+                        "url": "https://www.facebook.com/100068612731591/posts/how-to-write-the-hebrew-letter-nun-in-blockscriptnun-%D7%A0-final-nun-%D7%9F-alphabetical-/851145567182527/",
+                        "title": "How to write the Hebrew letter Nun",
+                        "text": "■Hebrew letter: Nun נ■ •Hebrew name: נון •Alphabetical order: 14 •Numerical value: fifty •Transliteration: n •Pronunciation: n, as in noon •It represents a fish..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Mayim Achronim",
+                        "domain": "www.mayimachronim.com",
+                        "url": "https://www.mayimachronim.com/secrets-of-the-five-special-sofit-letters/",
+                        "title": "Secrets of the Five Special Sofit Letters | Mayim Achronim",
+                        "text": "These five questions (mekoshesh, nokev, tzelofchad, pesach sheni, kozbi) correspond to the five special Hebrew letters that have a distinct symbol when they app..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Equip God’s People",
+                        "domain": "www.equipgodspeople.com",
+                        "url": "https://www.equipgodspeople.com/bible-study-tools/lexicons-word-study/old-testament-hebrew/nun/",
+                        "title": "Nun (נ‎/‎ן) – Old Testament Hebrew",
+                        "text": "Quick reference Hebrew Name: נוּן ‎/‎ נוּן סוֹפִית English Name: nun ‎/‎ nun sofit Pronunciation: noon Letter: נ ‎/‎ ן Speech Sound: consonant Numerical Value: ..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "TheLivingWord.org.au",
+                        "domain": "www.thelivingword.org.au",
+                        "url": "https://www.thelivingword.org.au/grand-design/session32.php",
+                        "title": "Secret of the Hebrew letter Nun and of the sofit letters",
+                        "text": "Transcript of “Secret of the Hebrew letter Nun” The 14th letter of the Hebrew alphabet is Nun. The numeric value of NUN is 50. The pictogram, or symbol, behind ..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "You can practice reading and recognizing letters with visual guides on Cartoon Hebrew or learn more about letter structures at Hebrew4Christians.",
+                    "markdown": "You can practice reading and recognizing letters with visual guides on [Cartoon Hebrew](https://www.cartoonhebrew.com/nun-sofit) or learn more about letter structures at [Hebrew4Christians](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Nun/nun.html).[[1]](https://www.cartoonhebrew.com/nun-sofit)[[2]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Nun/nun.html)",
+                    "links": [
+                      {
+                        "type": "link_element",
+                        "title": "Cartoon Hebrew",
+                        "description": null,
+                        "url": "https://www.cartoonhebrew.com/nun-sofit",
+                        "domain": "www.cartoonhebrew.com"
+                      },
+                      {
+                        "type": "link_element",
+                        "title": "Hebrew4Christians",
+                        "description": null,
+                        "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Nun/nun.html",
+                        "domain": "www.hebrew4christians.com"
+                      }
+                    ],
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Cartoon Hebrew",
+                        "domain": "www.cartoonhebrew.com",
+                        "url": "https://www.cartoonhebrew.com/nun-sofit",
+                        "title": "Nun Sofit - Cartoon Hebrew",
+                        "text": "Once again we have one of these \"final\" letters: when appears at the end of a word, it becomes , or \"Nun Sofit.\" The best way to think of is simply as a that ha..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew for Christians",
+                        "domain": "www.hebrew4christians.com",
+                        "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Nun/nun.html",
+                        "title": "The Letter Nun",
+                        "text": "Letter: Nun is the 14th Hebrew letter (numeric value 50, sound \"n\"). Forms: Block/Script medial and ending \"sofit\" (resembles descending Vav). Symbolism: Repres..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Would you like to see examples of Hebrew words that use Nun Sofit, or learn about other Sofit letters ?",
+                    "markdown": "Would you like to see **examples of Hebrew words** that use Nun Sofit, or learn about **other Sofit letters**?",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  }
+                ],
+                "references": [
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Cartoon Hebrew",
+                    "domain": "www.cartoonhebrew.com",
+                    "url": "https://www.cartoonhebrew.com/nun-sofit",
+                    "title": "Nun Sofit - Cartoon Hebrew",
+                    "text": "Once again we have one of these \"final\" letters: when appears at the end of a word, it becomes , or \"Nun Sofit.\" The best way to think of is simply as a that ha..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Hebrew for Christians",
+                    "domain": "www.hebrew4christians.com",
+                    "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Nun/nun.html",
+                    "title": "The Letter Nun",
+                    "text": "Letter: Nun is the 14th Hebrew letter (numeric value 50, sound \"n\"). Forms: Block/Script medial and ending \"sofit\" (resembles descending Vav). Symbolism: Repres..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Mayim Achronim",
+                    "domain": "www.mayimachronim.com",
+                    "url": "https://www.mayimachronim.com/secrets-of-the-five-special-sofit-letters/",
+                    "title": "Secrets of the Five Special Sofit Letters | Mayim Achronim",
+                    "text": "These five questions (mekoshesh, nokev, tzelofchad, pesach sheni, kozbi) correspond to the five special Hebrew letters that have a distinct symbol when they app..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Equip God’s People",
+                    "domain": "www.equipgodspeople.com",
+                    "url": "https://www.equipgodspeople.com/bible-study-tools/lexicons-word-study/old-testament-hebrew/nun/",
+                    "title": "Nun (נ‎/‎ן) – Old Testament Hebrew",
+                    "text": "Quick reference Hebrew Name: נוּן ‎/‎ נוּן סוֹפִית English Name: nun ‎/‎ nun sofit Pronunciation: noon Letter: נ ‎/‎ ן Speech Sound: consonant Numerical Value: ..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "קריאה קלה עם הילה",
+                    "domain": "kriakala.com",
+                    "url": "https://kriakala.com/hebrew-letter-nun",
+                    "title": "The Hebrew Letter Nun (נ) – Shape, Sound & How to Teach | Kriakala",
+                    "text": "Frequently Asked Questions about Nun * What is Nun Sofit? Nun Sofit (ן) is the final form of Nun — used when Nun appears at the very end of a word. Regular Nun ..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Facebook",
+                    "domain": "www.facebook.com",
+                    "url": "https://www.facebook.com/100068612731591/posts/how-to-write-the-hebrew-letter-nun-in-blockscriptnun-%D7%A0-final-nun-%D7%9F-alphabetical-/851145567182527/",
+                    "title": "How to write the Hebrew letter Nun",
+                    "text": "■Hebrew letter: Nun נ■ •Hebrew name: נון •Alphabetical order: 14 •Numerical value: fifty •Transliteration: n •Pronunciation: n, as in noon •It represents a fish..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "TheLivingWord.org.au",
+                    "domain": "www.thelivingword.org.au",
+                    "url": "https://www.thelivingword.org.au/grand-design/session32.php",
+                    "title": "Secret of the Hebrew letter Nun and of the sofit letters",
+                    "text": "Transcript of “Secret of the Hebrew letter Nun” The 14th letter of the Hebrew alphabet is Nun. The numeric value of NUN is 50. The pictogram, or symbol, behind ..."
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "images",
+                "rank_group": 1,
+                "rank_absolute": 2,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]",
+                "title": "Images",
+                "url": null,
+                "items": [
+                  {
+                    "type": "images_element",
+                    "alt": "File:Sofit nun and nun.jpg - Wikimedia Commons",
+                    "url": "https://commons.wikimedia.org/wiki/File:Sofit_nun_and_nun.jpg",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110529-2762-0139-0000-59cd66f7699e:5"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "Elegant Animation Hebrew Character Nun Sofit",
+                    "url": "https://www.shutterstock.com/video/clip-3831442133-elegant-animation-hebrew-character-nun-sofit-gradually",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110529-2762-0139-0000-59cd66f7699e:6"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "50 Learn the Hebrew Letter Nun Sofit",
+                    "url": "https://www.hebrewdoc.com/LearnHebrew/50LearnNunSofit.html",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110529-2762-0139-0000-59cd66f7699e:7"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "The Hebrew letter Nun | Etz Hayim \"Tree of Life\"",
+                    "url": "https://www.etz-hayim.com/hebrew/letters_and_vowels/nun.php",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110529-2762-0139-0000-59cd66f7699e:8"
+                  }
+                ],
+                "related_image_searches": null,
+                "rectangle": null
+              },
+              {
+                "type": "video",
+                "rank_group": 1,
+                "rank_absolute": 3,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]",
+                "items": [
+                  {
+                    "type": "video_element",
+                    "source": "Jesus Only Salvation",
+                    "title": "25. Nun sofit (ן) [n] = 700 🇮🇱🙂 #learn #hebrew #letter #letters",
+                    "timestamp": "2023-02-06 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/shorts/siqT55RJEyA"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Hebrew with David",
+                    "title": "Learn to Read and Write in Hebrew · The Letter Nun Sofit (ן) · Lesson 17",
+                    "timestamp": "2021-11-06 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=B3JE4-PQGhw"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Hebrew Pathways",
+                    "title": "Learn the Hebrew Letter Nun (נ) | Biblical Hebrew Alphabet & Vowels",
+                    "timestamp": "2026-08-14 00:00:00 +00:00",
+                    "url": "https://m.youtube.com/shorts/Btoq2bQ_0TY"
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "people_also_ask",
+                "rank_group": 1,
+                "rank_absolute": 4,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]",
+                "items": [
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What letter is the number 666 in Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]/div[2]/div[2]/div[1]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does sofit mean in Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]/div[2]/div[2]/div[2]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What is the 14th letter in the Hebrew alphabet?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]/div[2]/div[2]/div[3]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does Aleph mean biblically?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]/div[2]/div[2]/div[4]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 1,
+                "rank_absolute": 5,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "commons.wikimedia.org",
+                "title": "File:Hebrew letter nun final freefonts.svg",
+                "url": "https://commons.wikimedia.org/wiki/File:Hebrew_letter_nun_final_freefonts.svg",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://commons.wikimedia.org",
+                "website_name": "Wikimedia Commons",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Aug 4, 2011 — Hebrew letter Nun (final ) Universal Public Domain Dedication. You can copy, modify, distribute and perform the work,",
+                "pre_snippet": "08/04/2011 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Hebrew letter Nun (final"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2011-08-04 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 2,
+                "rank_absolute": 6,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.youtube.com",
+                "title": "Hebrew Letter Nun",
+                "url": "https://www.youtube.com/watch?v=69-2XyadFRs",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "2.2K+ views",
+                "website_name": "YouTube · Asetah Ophir",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Discover the gems within the letter Nun. Learn what the concept of becoming \"born again\" means and how it existed in the Old Testament (TaNaK).",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Learn what the concept of becoming \"born again\" means"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2019-10-11 05:29:52 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 3,
+                "rank_absolute": 7,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[13]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "tw.123rf.com",
+                "title": "Hebrew font. The Hebrew language. The letter Nun sofit. Vector illustration ...",
+                "url": "https://tw.123rf.com/photo_104455525_police-h%C3%A9bra%C3%AFque-la-langue-h%C3%A9bra%C3%AFque-la-lettre-nun-sofit-illustration-vectorielle-sur-fond-isol%C3%A9.html",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://tw.123rf.com",
+                "website_name": "123RF",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "the hebrew language. the letter nun sofit. vector illustration on isolated background. The letter Nun sofit. Vector illustration on isolated",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 4,
+                "rank_absolute": 8,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.hebrewdoc.com",
+                "title": "5 Final Nun flashcards with vowels and English.dwd",
+                "url": "https://www.hebrewdoc.com/AlephBet/AlephBetFlashcards/Nun_Sofit_flashcards_Hebrew.pdf",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.hebrewdoc.com",
+                "website_name": "Hebrew Doc",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "5 Final Nun flashcards with vowels and English.dwd",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "5 Final Nun flashcards"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 5,
+                "rank_absolute": 9,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[17]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "lfn.wikipedia.org",
+                "title": "Fix:Hebrew letter Nun handwriting.svg - Vicipedia",
+                "url": "https://lfn.wikipedia.org/wiki/Fix:Hebrew_letter_Nun_handwriting.svg",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://lfn.wikipedia.org",
+                "website_name": "Vicipedia",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": ":Hebrew letter Nun handwriting.svg. I grant anyone the right to use this work for any purpose, without any conditions, Modern Hebrew Nun (letter) Cursive",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 6,
+                "rank_absolute": 10,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.christianforums.com",
+                "title": "The Hebrew letter NUN - the \"FISH\"",
+                "url": "https://www.christianforums.com/threads/the-hebrew-letter-nun-the-fish.59510/?amp=1",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.christianforums.com",
+                "website_name": "Christian Forums",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "amp_version"
+                ],
+                "description": "Sep 29, 2003 — The word NUN means fish or \"CONTINUANCE \" as in the continuation or proliferation of \"SEED\"(offspring). This is the 3rd letter to be connected ...",
+                "pre_snippet": "09/29/2003 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": true,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "The word NUN means fish or \"CONTINUANCE"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2003-09-29 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 7,
+                "rank_absolute": 11,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[21]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.shutterstock.com",
+                "title": "Letra Hebrea Decorativa Nun Sofit (ן),: vector de stock (libre de regalías ...",
+                "url": "https://www.shutterstock.com/es/image-vector/decorative-hebrew-letter-nun-sofit-floral-2772949455",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.shutterstock.com",
+                "website_name": "Shutterstock",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Letra Hebrea Decorativa Nun Sofit (ן), Patrón de Doodle Floral, Vector de Contorno Aislado, Dibujo para Colorear · Información importante · Formatos Vector.",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": {
+                  "current": 25,
+                  "regular": null,
+                  "max_value": null,
+                  "currency": "MXN",
+                  "is_price_range": false,
+                  "displayed_price": "MX$25.00"
+                },
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

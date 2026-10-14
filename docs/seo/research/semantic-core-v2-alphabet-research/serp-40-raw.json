@@ -1,0 +1,541 @@
+{
+  "keyword": "pe sofit",
+  "retrieved_at_utc": "2026-10-11T05:30:21.410Z",
+  "raw": {
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "3.6433 sec.",
+    "cost": 0.002,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "10110529-2762-0139-0000-8c717a1eca54",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "3.5807 sec.",
+        "cost": 0.002,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "serp",
+          "google",
+          "organic",
+          "live",
+          "advanced"
+        ],
+        "data": {
+          "api": "serp",
+          "function": "live",
+          "se": "google",
+          "se_type": "organic",
+          "keyword": "pe sofit",
+          "location_code": 2840,
+          "language_code": "en",
+          "device": "mobile",
+          "os": "android",
+          "depth": 10
+        },
+        "result": [
+          {
+            "keyword": "pe sofit",
+            "type": "organic",
+            "se_domain": "google.com",
+            "location_code": 2840,
+            "language_code": "en",
+            "check_url": "https://www.google.com/search?q=pe%20sofit&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+            "datetime": "2026-10-11 05:29:59 +00:00",
+            "spell": null,
+            "refinement_chips": null,
+            "item_types": [
+              "images",
+              "ai_overview",
+              "people_also_search",
+              "organic",
+              "people_also_ask",
+              "video"
+            ],
+            "se_results_count": 0,
+            "pages_count": 1,
+            "items_count": 12,
+            "items": [
+              {
+                "type": "images",
+                "rank_group": 1,
+                "rank_absolute": 1,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[1]",
+                "title": "Images",
+                "url": null,
+                "items": [
+                  {
+                    "type": "images_element",
+                    "alt": "File:Sofit pe.png - Wikimedia Commons",
+                    "url": "https://commons.wikimedia.org/wiki/File:Sofit_pe.png",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110529-2762-0139-0000-8c717a1eca54:0"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "The Letter Pey / Fey",
+                    "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Pey/pey.html",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110529-2762-0139-0000-8c717a1eca54:1"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "File:Sofit pe and pe.jpg - Wikimedia Commons",
+                    "url": "https://commons.wikimedia.org/wiki/File:Sofit_pe_and_pe.jpg",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110529-2762-0139-0000-8c717a1eca54:2"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "Final Forms of Hebrew Letters",
+                    "url": "https://hebrew4christians.com/Grammar/Unit_One/Final_Forms/final_forms.html",
+                    "image_url": "https://api.dataforseo.com/cdn/i/10110529-2762-0139-0000-8c717a1eca54:3"
+                  }
+                ],
+                "related_image_searches": null,
+                "rectangle": null
+              },
+              {
+                "type": "ai_overview",
+                "rank_group": 1,
+                "rank_absolute": 2,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[3]/div[1]",
+                "asynchronous_ai_overview": true,
+                "markdown": null,
+                "items": null,
+                "references": null,
+                "rectangle": null
+              },
+              {
+                "type": "people_also_search",
+                "rank_group": 1,
+                "rank_absolute": 3,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]",
+                "title": "People also search for",
+                "items": [
+                  "Pe sofit meaning",
+                  "Pe sofit hebrew",
+                  "Pe sofit hebrew letters",
+                  "Pe sofit pronunciation",
+                  "Pe sofit words",
+                  "Tsadi sofit"
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 1,
+                "rank_absolute": 4,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.cartoonhebrew.com",
+                "title": "Hebrew Letter Peh Sofit",
+                "url": "https://www.cartoonhebrew.com/peh-sofit",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.cartoonhebrew.com",
+                "website_name": "Cartoon Hebrew",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Peh Sofit Just like some of the other letters, and have a final form, meaning that they change a bit when they go at the end of a word.",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "have a final form"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": [
+                  "tsadi sofit"
+                ],
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "people_also_ask",
+                "rank_group": 1,
+                "rank_absolute": 5,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[9]/div[1]",
+                "items": [
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What letter is ה?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[9]/div[1]/div[2]/div[2]/div[1]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does sofit mean in Hebrew?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[9]/div[1]/div[2]/div[2]/div[2]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does Aleph mean biblically?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[9]/div[1]/div[2]/div[2]/div[3]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does shofet mean?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[9]/div[1]/div[2]/div[2]/div[4]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "video",
+                "rank_group": 1,
+                "rank_absolute": 6,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[11]",
+                "items": [
+                  {
+                    "type": "video_element",
+                    "source": "How to Pronounce and Say in Hebrew",
+                    "title": "Lesson 100 – Hebrew Alphabet Easy Reading Practice: Ayin | Pe | Pe sofit",
+                    "timestamp": "2025-06-24 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=Pn6c3FJjuRE"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "T'helah Ben-Dan",
+                    "title": "Sofit Letters in Hebrew | The Kefar",
+                    "timestamp": "2021-09-15 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=cKMCHUKnjoo"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Jesus Only Salvation",
+                    "title": "26. Pei sofit (ף) [f, ph] = 800 🇮🇱🙂 #learn #hebrew #letter #letters",
+                    "timestamp": "2023-02-06 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/shorts/564VYlTN9nc"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "How to Pronounce and Say in Hebrew",
+                    "title": "Lesson 26 – Hebrew Alphabet Print Form Writing Practice: Pe | TsadI | Kof",
+                    "timestamp": "2024-08-17 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=dzZ1lkaXGC8"
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 2,
+                "rank_absolute": 7,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[12]/div[1]/div[1]",
+                "domain": "www.facebook.com",
+                "title": "In the Hebrew alphabet /Alephbets there are 5 letters that change forms ...",
+                "url": "https://www.facebook.com/gq.jamison/videos/in-the-hebrew-alphabet-alephbets-there-are-5-letters-that-change-forms-when-used/2363110423833982/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "40+ reactions",
+                "website_name": "Facebook · GQ Jamison",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "The final form is called sofit (Hebrew: סופית, meaning \"final\" or \"ending\"). This set of letters (5) is known acronymically as אותיות מנצפ\"ך. ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": [
+                  {
+                    "type": "link_element",
+                    "title": "1:17",
+                    "description": null,
+                    "url": "https://www.facebook.com/gq.jamison/videos/in-the-hebrew-alphabet-alephbets-there-are-5-letters-that-change-forms-when-used/2363110423833982/",
+                    "domain": "www.facebook.com"
+                  }
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2021-10-11 05:29:58 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 3,
+                "rank_absolute": 8,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.quora.com",
+                "title": "What's the origin of the final (sofit) forms for some of the Hebrew alphabet?",
+                "url": "https://www.quora.com/Whats-the-origin-of-the-final-sofit-forms-for-some-of-the-Hebrew-alphabet",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "30+ answers",
+                "website_name": "Quora",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "What's the origin of the final (sofit) forms for some of the Hebrew alphabet?",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": [
+                  {
+                    "type": "link_element",
+                    "title": "The Interesting Story of the 5 Sofit Letters of the Hebrew Alphabet\n\nFour of the five “sofit” ...",
+                    "description": "Top answer · 19 votes",
+                    "url": "https://www.quora.com/Whats-the-origin-of-the-final-sofit-forms-for-some-of-the-Hebrew-alphabet?top_ans=98727713",
+                    "domain": "www.quora.com"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "I had answered elsewhere that these letters are commonly used at the end of words, and that ...",
+                    "description": "1 vote",
+                    "url": "https://www.quora.com/Whats-the-origin-of-the-final-sofit-forms-for-some-of-the-Hebrew-alphabet?top_ans=98727543",
+                    "domain": "www.quora.com"
+                  }
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2018-10-11 05:29:58 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 4,
+                "rank_absolute": 9,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[16]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.etz-hayim.com",
+                "title": "The Hebrew letter Pey/Fey",
+                "url": "https://www.etz-hayim.com/hebrew/pages/pey.php",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.etz-hayim.com",
+                "website_name": "Etz Hayim—\"Tree of Life\"",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Pey is pronounced as \"p\" in peg. Fey is pronounced as \"f\" in fine. Pey sofit is pronounced as \"f\" in fine. pe - mouth (mouth) is transliterated pe. Pey is ...",
+                "pre_snippet": "Pey is pronounced as \"p\" in peg. Fey is pronounced as \"f\" in fine. Pey sofit is pronounced as \"f\" in fine. pe - mouth (mouth) is transliterated pe. Pey is ...",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Pey sofit is pronounced as \"f\" in fine"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 5,
+                "rank_absolute": 10,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[18]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.dreamstime.com",
+                "title": "Silver foil inflatable toys font Hebrew letters balloons. 3d illustration of a ...",
+                "url": "https://www.dreamstime.com/silver-foil-inflatable-toys-font-hebrew-letters-balloons-d-illustration-realistic-letter-pe-sofit-isolated-silver-foil-image256067638",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.dreamstime.com",
+                "website_name": "Dreamstime.com",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "3d illustration of a realistic letter Pe Sofit isolated on white. Hebrew alphabet. Type for Jewish holidays. High quality 3d illustration. Author credit line.",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "3d illustration of a realistic letter Pe Sofit"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 6,
+                "rank_absolute": 11,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[19]/div[1]/div[1]",
+                "domain": "www.facebook.com",
+                "title": "In the Hebrew alphabet /Alephbets there are 5 letters that change forms ...",
+                "url": "https://www.facebook.com/groups/796068850979772/posts/865090237410966/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "50+ comments",
+                "website_name": "Facebook · Hebrew with GQ",
+                "is_image": false,
+                "is_video": true,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_video"
+                ],
+                "description": "The final form is called sofit (Hebrew: סופית, meaning \"final\" or \"ending\"). This set of letters (5) is known acronymically as אותיות מנצפ\"ך. ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": [
+                  {
+                    "type": "link_element",
+                    "title": "1:17",
+                    "description": null,
+                    "url": "https://www.facebook.com/groups/796068850979772/posts/865090237410966/",
+                    "domain": "www.facebook.com"
+                  }
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2021-10-11 05:29:58 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 7,
+                "rank_absolute": 12,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[21]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "co.pinterest.com",
+                "title": "Daily Aleph -Bet: Fei Sofit",
+                "url": "https://co.pinterest.com/pin/141863456999591828/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "14 years ago",
+                "website_name": "Pinterest · mluciarodriguez",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Pe is the seventeenth letter in the Hebrew alphabet. Pe (also written as Pey or Pei or Peh) sounds like “p” as in “pay”.",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Pe is the seventeenth letter in the Hebrew alphabet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

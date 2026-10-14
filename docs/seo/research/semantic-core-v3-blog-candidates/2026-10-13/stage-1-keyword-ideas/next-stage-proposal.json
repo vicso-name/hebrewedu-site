@@ -1,0 +1,43 @@
+{
+  "status": "proposal_only_owner_review_required_not_authorized",
+  "market": {
+    "search_engine": "Google",
+    "location_code": 2840,
+    "language_code": "en"
+  },
+  "novel_measured_discovery_additions": [],
+  "proposed_volume_exact_keywords": [
+    "how to identify hebrew binyanim",
+    "hebrew root letters vs prefixes",
+    "hebrew listening practice for intermediate learners",
+    "how to stay motivated learning hebrew",
+    "why am i not making progress in hebrew"
+  ],
+  "volume_settings_if_later_authorized": {
+    "search_partners": false
+  },
+  "proposed_kd_existing_control": [
+    "hebrew root system"
+  ],
+  "proposed_kd_new_keywords_conditional_on_positive_volume_and_selection": [
+    "how to identify hebrew binyanim",
+    "hebrew root letters vs prefixes",
+    "hebrew listening practice for intermediate learners",
+    "how to stay motivated learning hebrew",
+    "why am i not making progress in hebrew"
+  ],
+  "kd_exclusions": "reuse every discovery KD including null; no rerun of any five Phase 3B KDs; do not refresh v2 values",
+  "held_conditional_keywords": [
+    "hebrew binyanim exercises",
+    "four letter hebrew roots",
+    "how many hebrew words do native speakers know",
+    "how many hebrew words to read a newspaper",
+    "hebrew listening practice with transcripts",
+    "how to understand fast spoken hebrew",
+    "spoken hebrew contractions",
+    "how to read hebrew handwriting",
+    "hebrew handwriting examples",
+    "hebrew verb conjugation app with root search"
+  ],
+  "no_dispatch_payload_authorized": true
+}

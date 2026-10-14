@@ -1,0 +1,40 @@
+{
+  "keywords": [
+    "hebrew listening practice",
+    "hebrew comprehensible input",
+    "paal vs piel",
+    "how many hebrew words do you need to be fluent",
+    "alef bet tutor verb directory"
+  ],
+  "authorized_cap_usd": "0.11",
+  "requests": [
+    {
+      "method": "POST",
+      "path": "/v3/keywords_data/google_ads/search_volume/live",
+      "payload_file": "volume-request.json",
+      "estimated_cost_usd": "0.09",
+      "noAiMode": true
+    },
+    {
+      "method": "POST",
+      "path": "/v3/dataforseo_labs/google/bulk_keyword_difficulty/live",
+      "payload_file": "difficulty-request.json",
+      "estimated_cost_usd": "0.01260",
+      "noAiMode": true
+    }
+  ],
+  "restrictions": [
+    "No retries",
+    "No substitutions",
+    "No balance checks",
+    "No top-ups",
+    "No SERP/Rank Tracker requests",
+    "No automatic P2 batch"
+  ],
+  "kd_precondition": "Successful volume response with known expected cost; guards rechecked",
+  "pricing_basis": "Phase 3A current published rates corroborated by historical provider costs",
+  "pricing_urls": [
+    "https://dataforseo.com/pricing/keywords-data/google-ads",
+    "https://dataforseo.com/pricing/dataforseo-labs/dataforseo-google-api"
+  ]
+}

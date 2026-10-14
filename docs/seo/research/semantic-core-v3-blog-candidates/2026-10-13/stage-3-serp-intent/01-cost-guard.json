@@ -1,0 +1,16 @@
+{
+  "checked_at_utc": "2026-10-13T14:00:10.628752+00:00",
+  "helper_check": {
+    "status": "approved",
+    "endpoint": "serp_organic_live_advanced",
+    "unit_cost_usd": 0.002,
+    "count": 1,
+    "total_cost_usd": 0.002,
+    "today_spend_usd": 0.1266,
+    "daily_remaining_usd": 9.8734
+  },
+  "stage_spend_before_usd": "0",
+  "maximum_remaining_expected_usd": "0.008",
+  "stage_cap_usd": "0.008",
+  "global_ledger_unchanged": true
+}

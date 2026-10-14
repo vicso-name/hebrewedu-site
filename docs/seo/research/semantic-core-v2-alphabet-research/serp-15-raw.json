@@ -1,0 +1,768 @@
+{
+  "keyword": "samekh hebrew letter",
+  "retrieved_at_utc": "2026-10-11T05:24:30.217Z",
+  "raw": {
+    "version": "0.1.20260917",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "2.9284 sec.",
+    "cost": 0.002,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "10110524-2762-0139-0000-1f80630e5315",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "2.8571 sec.",
+        "cost": 0.002,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "serp",
+          "google",
+          "organic",
+          "live",
+          "advanced"
+        ],
+        "data": {
+          "api": "serp",
+          "function": "live",
+          "se": "google",
+          "se_type": "organic",
+          "keyword": "samekh hebrew letter",
+          "location_code": 2840,
+          "language_code": "en",
+          "device": "mobile",
+          "os": "android",
+          "depth": 10
+        },
+        "result": [
+          {
+            "keyword": "samekh hebrew letter",
+            "type": "organic",
+            "se_domain": "google.com",
+            "location_code": 2840,
+            "language_code": "en",
+            "check_url": "https://www.google.com/search?q=samekh%20hebrew%20letter&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+            "datetime": "2026-10-11 05:24:11 +00:00",
+            "spell": null,
+            "refinement_chips": null,
+            "item_types": [
+              "ai_overview",
+              "organic",
+              "people_also_ask",
+              "images",
+              "video",
+              "people_also_search"
+            ],
+            "se_results_count": 0,
+            "pages_count": 1,
+            "items_count": 12,
+            "items": [
+              {
+                "type": "ai_overview",
+                "rank_group": 1,
+                "rank_absolute": 1,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]",
+                "asynchronous_ai_overview": false,
+                "markdown": "![Hebrew letter Samekh Stock Vector Image &amp; Art - Alamy](https://api.dataforseo.com/cdn/i/10110524-2762-0139-0000-1f80630e5315:4)\nSamech (also spelled Samekh, written as **ס** ) is the **15th letter** of the Hebrew alphabet.[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Samekh/samekh.html)\n\n### Key Characteristics\n\n- **Sound:** Represents the voiceless alveolar fricative \"s\" sound.\n- **Numerical Value:** **60** in standard gematria (and 120 in a higher computation). Its ordinal position is 15 (which reduces to the divine name *Yah* via 10 + 5).\n- **Shape:** Features a closed, circular or ring-like form that symbolizes no beginning or end, protection, and complete enclosure.[[1]](https://en.wikipedia.org/wiki/Samekh)[[2]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Samekh/samekh.html)[[3]](https://www.youtube.com/watch?v=qt0bABAdSG4)[[4]](https://www.youtube.com/watch?v=XOgBgnIR1OU&t=68)\n\n### Meaning & Symbolism\n\n- **Support and Protection:** The root of the word (*samach* ) means to lean upon, uphold, or support.[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Samekh/samekh.html)\n- **Spiritual Healing:** The letters Samech and Mem (**סמ** ) spell *sam* (a potion or medicine), and the letters of Samech are viewed as an acronym for *salach* (to forgive), *mechal* (to pardon), and *kaper* (to atone) according to [Chabad.org](https://www.chabad.org/library/article_cdo/aid/137087/jewish/Samech.htm).[[1]](https://www.chabad.org/library/article_cdo/aid/137087/jewish/Samech.htm)\n- **Historical Roots:** According to historical and linguistic overviews on [Wikipedia](https://en.wikipedia.org/wiki/Samekh) , Samech is one of the ancient Semitic letters without an Arabic descendant, and its closed form developed by the middle Hasmonean period. An oversized Samech appears in Ecclesiastes 12:13 to emphasize fearing God.[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Samekh/samekh.html)[[2]](https://en.wikipedia.org/wiki/Samekh)\n\nWould you like to explore **words starting with Samech** , its role in **Psalm 119** , or its specific **gematria connections**?",
+                "items": [
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Samech (also spelled Samekh, written as ס ) is the 15th letter of the Hebrew alphabet.",
+                    "markdown": "![Hebrew letter Samekh Stock Vector Image &amp; Art - Alamy](https://api.dataforseo.com/cdn/i/10110524-2762-0139-0000-1f80630e5315:2)\nSamech (also spelled Samekh, written as **ס** ) is the **15th letter** of the Hebrew alphabet.[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Samekh/samekh.html)",
+                    "links": null,
+                    "images": [
+                      {
+                        "type": "images_element",
+                        "alt": "Hebrew letter Samekh Stock Vector Image & Art - Alamy",
+                        "url": null,
+                        "image_url": "https://api.dataforseo.com/cdn/i/10110524-2762-0139-0000-1f80630e5315:3"
+                      }
+                    ],
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew for Christians",
+                        "domain": "www.hebrew4christians.com",
+                        "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Samekh/samekh.html",
+                        "title": "The Letter Samekh",
+                        "text": "Basics: Samekh is the 15th Hebrew alphabet letter, representing the \"s\" sound, numeric value 60 (gematria 120), and ancient shield pictograph. Forms include blo..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Key Characteristics",
+                    "markdown": "### Key Characteristics",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Sound: Represents the voiceless alveolar fricative \"s\" sound. Numerical Value: 60 in standard gematria (and 120 in a higher computation). Its ordinal position is 15 (which reduces to the divine name Yah via 10 + 5). Shape: Features a closed, circular or ring-like form that symbolizes no beginning or end, protection, and complete enclosure.",
+                    "markdown": "- **Sound:** Represents the voiceless alveolar fricative \"s\" sound.\n- **Numerical Value:** **60** in standard gematria (and 120 in a higher computation). Its ordinal position is 15 (which reduces to the divine name *Yah* via 10 + 5).\n- **Shape:** Features a closed, circular or ring-like form that symbolizes no beginning or end, protection, and complete enclosure.[[1]](https://en.wikipedia.org/wiki/Samekh)[[2]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Samekh/samekh.html)[[3]](https://www.youtube.com/watch?v=qt0bABAdSG4)[[4]](https://www.youtube.com/watch?v=XOgBgnIR1OU&t=68)",
+                    "links": null,
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Wikipedia",
+                        "domain": "en.wikipedia.org",
+                        "url": "https://en.wikipedia.org/wiki/Samekh",
+                        "title": "Samekh - Wikipedia",
+                        "text": "Samekh/samech: 15th letter of Semitic abjads (Phoenician 𐤎, Hebrew ס, Aramaic 𐡎, Syriac ܣ). Pos: 15th. Val: 60. Phoneme: voiceless alveolar fricative /s/. Onl..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew for Christians",
+                        "domain": "www.hebrew4christians.com",
+                        "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Samekh/samekh.html",
+                        "title": "The Letter Samekh",
+                        "text": "Basics: Samekh is the 15th Hebrew alphabet letter, representing the \"s\" sound, numeric value 60 (gematria 120), and ancient shield pictograph. Forms include blo..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=qt0bABAdSG4&t=0",
+                        "title": "The Hebrew Letter Samech – Support, Covering, and God's Surrounding ...",
+                        "text": "The Hebrew Letter Samech – Support, Covering, and God’s Surrounding Presence | Lesson 15 welcome back to exploring the Hebrew letters i'm excited to introduce t..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "YouTube",
+                        "domain": "www.youtube.com",
+                        "url": "https://www.youtube.com/watch?v=XOgBgnIR1OU&t=68",
+                        "title": "The Hebrew letter: Samech",
+                        "text": "The Hebrew letter: Samech but I want you to notice the letter SK. has a is the 15th letter with a numerical value of 60 all right now here's the thing. being it..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Meaning & Symbolism",
+                    "markdown": "### Meaning & Symbolism",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Support and Protection: The root of the word (samach) means to lean upon, uphold, or support. Spiritual Healing: The letters Samech and Mem ( סמ ) spell sam (a potion or medicine), and the letters of Samech are viewed as an acronym for salach (to forgive), mechal (to pardon), and kaper (to atone) according to Chabad.org. Historical Roots: According to historical and linguistic overviews on Wikipedia, Samech is one of the ancient Semitic letters without an Arabic descendant, and its closed form developed by the middle Hasmonean period. An oversized Samech appears in Ecclesiastes 12:13 to emphasize fearing God.",
+                    "markdown": "- **Support and Protection:** The root of the word (*samach* ) means to lean upon, uphold, or support.[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Samekh/samekh.html)\n- **Spiritual Healing:** The letters Samech and Mem (**סמ** ) spell *sam* (a potion or medicine), and the letters of Samech are viewed as an acronym for *salach* (to forgive), *mechal* (to pardon), and *kaper* (to atone) according to [Chabad.org](https://www.chabad.org/library/article_cdo/aid/137087/jewish/Samech.htm).[[1]](https://www.chabad.org/library/article_cdo/aid/137087/jewish/Samech.htm)\n- **Historical Roots:** According to historical and linguistic overviews on [Wikipedia](https://en.wikipedia.org/wiki/Samekh) , Samech is one of the ancient Semitic letters without an Arabic descendant, and its closed form developed by the middle Hasmonean period. An oversized Samech appears in Ecclesiastes 12:13 to emphasize fearing God.[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Samekh/samekh.html)[[2]](https://en.wikipedia.org/wiki/Samekh)",
+                    "links": [
+                      {
+                        "type": "link_element",
+                        "title": "Chabad.org",
+                        "description": null,
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137087/jewish/Samech.htm",
+                        "domain": "www.chabad.org"
+                      },
+                      {
+                        "type": "link_element",
+                        "title": "Wikipedia",
+                        "description": null,
+                        "url": "https://en.wikipedia.org/wiki/Samekh",
+                        "domain": "en.wikipedia.org"
+                      }
+                    ],
+                    "images": null,
+                    "references": [
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Hebrew for Christians",
+                        "domain": "www.hebrew4christians.com",
+                        "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Samekh/samekh.html",
+                        "title": "The Letter Samekh",
+                        "text": "Basics: Samekh is the 15th Hebrew alphabet letter, representing the \"s\" sound, numeric value 60 (gematria 120), and ancient shield pictograph. Forms include blo..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Chabad",
+                        "domain": "www.chabad.org",
+                        "url": "https://www.chabad.org/library/article_cdo/aid/137087/jewish/Samech.htm",
+                        "title": "Samech - The fifteenth letter of the Hebrew alphabet - Chabad.org",
+                        "text": "The first two letters of the word samech are סמ— samech - mem . Together they spell the word sam , which means a potion or medicine. This is not only relevant w..."
+                      },
+                      {
+                        "type": "ai_overview_reference",
+                        "position": "left",
+                        "source": "Wikipedia",
+                        "domain": "en.wikipedia.org",
+                        "url": "https://en.wikipedia.org/wiki/Samekh",
+                        "title": "Samekh - Wikipedia",
+                        "text": "Samekh/samech: 15th letter of Semitic abjads (Phoenician 𐤎, Hebrew ס, Aramaic 𐡎, Syriac ܣ). Pos: 15th. Val: 60. Phoneme: voiceless alveolar fricative /s/. Onl..."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ai_overview_element",
+                    "position": "left",
+                    "title": null,
+                    "text": "Would you like to explore words starting with Samech, its role in Psalm 119, or its specific gematria connections ?",
+                    "markdown": "Would you like to explore **words starting with Samech** , its role in **Psalm 119** , or its specific **gematria connections**?",
+                    "links": null,
+                    "images": null,
+                    "references": null
+                  }
+                ],
+                "references": [
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Hebrew for Christians",
+                    "domain": "www.hebrew4christians.com",
+                    "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Samekh/samekh.html",
+                    "title": "The Letter Samekh",
+                    "text": "Basics: Samekh is the 15th Hebrew alphabet letter, representing the \"s\" sound, numeric value 60 (gematria 120), and ancient shield pictograph. Forms include blo..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Chabad",
+                    "domain": "www.chabad.org",
+                    "url": "https://www.chabad.org/library/article_cdo/aid/137087/jewish/Samech.htm",
+                    "title": "Samech - The fifteenth letter of the Hebrew alphabet - Chabad.org",
+                    "text": "The first two letters of the word samech are סמ— samech - mem . Together they spell the word sam , which means a potion or medicine. This is not only relevant w..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "Wikipedia",
+                    "domain": "en.wikipedia.org",
+                    "url": "https://en.wikipedia.org/wiki/Samekh",
+                    "title": "Samekh - Wikipedia",
+                    "text": "Samekh/samech: 15th letter of Semitic abjads (Phoenician 𐤎, Hebrew ס, Aramaic 𐡎, Syriac ܣ). Pos: 15th. Val: 60. Phoneme: voiceless alveolar fricative /s/. Onl..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/watch?v=XOgBgnIR1OU&t=68",
+                    "title": "The Hebrew letter: Samech",
+                    "text": "The Hebrew letter: Samech but I want you to notice the letter SK. has a is the 15th letter with a numerical value of 60 all right now here's the thing. being it..."
+                  },
+                  {
+                    "type": "ai_overview_reference",
+                    "position": "right",
+                    "source": "YouTube",
+                    "domain": "www.youtube.com",
+                    "url": "https://www.youtube.com/watch?v=qt0bABAdSG4&t=0",
+                    "title": "The Hebrew Letter Samech – Support, Covering, and God's Surrounding ...",
+                    "text": "The Hebrew Letter Samech – Support, Covering, and God’s Surrounding Presence | Lesson 15 welcome back to exploring the Hebrew letters i'm excited to introduce t..."
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 1,
+                "rank_absolute": 2,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.hebrew4christians.com",
+                "title": "The Letter Samekh",
+                "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Samekh/samekh.html",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.hebrew4christians.com",
+                "website_name": "Hebrew for Christians",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "The fifteenth letter of the Hebrew alphabet is \"Samekh\" (pronounced \"sah-mekh\") and has the sound of \"s\" as in \"son.\"",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": [
+                  "samekh",
+                  "ayin hebrew",
+                  "samekh",
+                  "samech meaning",
+                  "samech in",
+                  "hebrew",
+                  "peh hebrew",
+                  "mem hebrew"
+                ],
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "people_also_ask",
+                "rank_group": 1,
+                "rank_absolute": 3,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]",
+                "items": [
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does the Hebrew letter samekh mean?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[1]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does the letter samekh mean for Christians?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[2]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "What does the word samekh mean in Psalm 119?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[3]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "How do you pronounce samekh?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[4]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": null,
+                        "references": null,
+                        "asynchronous_ai_overview": true
+                      }
+                    ]
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 2,
+                "rank_absolute": 4,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.chabad.org",
+                "title": "Samech - The fifteenth letter of the Hebrew alphabet",
+                "url": "https://www.chabad.org/library/article_cdo/aid/137087/jewish/Samech.htm",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.chabad.org",
+                "website_name": "Chabad",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Samech (ס) is the fifteenth letter of the Hebrew alphabet Numerical value: 60 Sound: \"S\" Meaning: 1. support 2. medicine",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Samech (ס) is the fifteenth letter of the Hebrew alphabet"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": [
+                  "samekh",
+                  "ayin hebrew",
+                  "samekh",
+                  "samech meaning",
+                  "samech in",
+                  "hebrew",
+                  "peh hebrew",
+                  "mem hebrew"
+                ],
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 3,
+                "rank_absolute": 5,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "gabrielelevy.com",
+                "title": "The letter SAMEKH",
+                "url": "https://gabrielelevy.com/pages/the-letter-samekh?srsltid=AU7gw4UDbMKnKwVohBWGQC8waxWgRHUHEBp1GXMIiC0hRF6-aakvzA-2",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://gabrielelevy.com",
+                "website_name": "ALEFBET - The hebrew letters art gallery",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Samekh is the symbol of support, protection, and memory. It means to lean upon, support, uphold. The perimeter of Samekh denotes the Creator and its ...",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Samekh is the symbol of support, protection, and memory"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": [
+                  "samekh",
+                  "ayin hebrew",
+                  "samekh",
+                  "samech meaning",
+                  "samech in",
+                  "hebrew",
+                  "peh hebrew",
+                  "mem hebrew"
+                ],
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 4,
+                "rank_absolute": 6,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[12]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "en.wikipedia.org",
+                "title": "Samekh",
+                "url": "https://en.wikipedia.org/wiki/Samekh",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://en.wikipedia.org",
+                "website_name": "Wikipedia",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Samekh or samech is the fifteenth letter of the Semitic abjads, including Phoenician sāmk 𐤎, Hebrew sāmeḵ ס , Aramaic samek 𐡎, and Syriac semkaṯ ܣ.",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Hebrew sāmeḵ"
+                ],
+                "links": [
+                  {
+                    "type": "link_element",
+                    "title": "Origin",
+                    "description": null,
+                    "url": "https://en.wikipedia.org/wiki/Samekh#Origin",
+                    "domain": "en.wikipedia.org"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Hebrew samech",
+                    "description": null,
+                    "url": "https://en.wikipedia.org/wiki/Samekh#Hebrew_samech",
+                    "domain": "en.wikipedia.org"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Talmudic legend",
+                    "description": null,
+                    "url": "https://en.wikipedia.org/wiki/Samekh#Talmudic_legend",
+                    "domain": "en.wikipedia.org"
+                  },
+                  {
+                    "type": "link_element",
+                    "title": "Syriac semkat",
+                    "description": null,
+                    "url": "https://en.wikipedia.org/wiki/Samekh#Syriac_semkat",
+                    "domain": "en.wikipedia.org"
+                  }
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 5,
+                "rank_absolute": 7,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.ancient-hebrew.org",
+                "title": "Samehh",
+                "url": "https://www.ancient-hebrew.org/ancient-alphabet/samehh.htm",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.ancient-hebrew.org",
+                "website_name": "The Ancient Hebrew Research Center",
+                "is_image": true,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": [
+                  "is_image"
+                ],
+                "description": "The Modern Hebrew name for this letter is samech, which is a word that means \"support,\" and sounds, Shin (sh) and Sin (s).",
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "images": [
+                  {
+                    "type": "images_element",
+                    "alt": "samekh hebrew letter from www.ancient-hebrew.org",
+                    "url": "https://www.ancient-hebrew.org/ancient-alphabet/samehh.htm",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjZdEvmn6FlkROVxOSR9cx90rGFI0xjAEuHy8YEEvAiQ&usqp=CAE&s"
+                  }
+                ],
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": null,
+                "rectangle": null
+              },
+              {
+                "type": "images",
+                "rank_group": 1,
+                "rank_absolute": 8,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[16]",
+                "title": "Images",
+                "url": null,
+                "items": [
+                  {
+                    "type": "images_element",
+                    "alt": "Samech - The fifteenth letter of the Hebrew alphabet - Chabad.org",
+                    "url": "https://www.chabad.org/library/article_cdo/aid/137087/jewish/Samech.htm",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6Vtn6GMug5QAxyUs0CEFWrQJqMB-mRi-zdI07VKg2tRbSGgomdGKnXQg&s"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "File:Hebrew Samekh.png - Wikimedia Commons",
+                    "url": "https://commons.wikimedia.org/wiki/File:Hebrew_Samekh.png",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyEMsSII4SI3f4BrO2rShWRFXwDBmKQlUWb_CKen33ZCy_m0_fgaHk8a0&s"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "Samekh - Simple English Wikipedia, the free encyclopedia",
+                    "url": "https://simple.wikipedia.org/wiki/Samekh",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb7YecjpTxj-OrR_7owYlbRLZe8ePYQwhZaHfF19jGBg&s"
+                  },
+                  {
+                    "type": "images_element",
+                    "alt": "The Letter Samekh",
+                    "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Samekh/samekh.html",
+                    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyTcTjwq1ykr-dJdqIyDkFZqVhIExXhdsopbVp9Sigt2ic22VuiCkLNA&s"
+                  }
+                ],
+                "related_image_searches": null,
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 6,
+                "rank_absolute": 9,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[18]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "www.restingonhisword.com",
+                "title": "Hebrew Letter Samekh",
+                "url": "https://www.restingonhisword.com/hebrew-alphabet/hebrew-letter-samekh",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://www.restingonhisword.com",
+                "website_name": "Resting on His Word",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Nov 2, 2025 — This letter has the meaning of shield, Samekh is #5564 sa-mak סָמַךְ meaning to lean, lay, rest, support, put, uphold, lean upon. It is the verb ...",
+                "pre_snippet": "11/02/2025 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "to lean, lay, rest, support, put, uphold, lean upon"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2025-11-02 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "organic",
+                "rank_group": 7,
+                "rank_absolute": 10,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[20]/div[1]/div[1]/div[1]/div[1]",
+                "domain": "ivrianochi.home.blog",
+                "title": "Origins of the Hebrew Aleph-Bet (Part 15, Samekh)",
+                "url": "https://ivrianochi.home.blog/2019/04/28/origins-of-the-hebrew-aleph-bet-part-15-samekh/",
+                "cache_url": null,
+                "related_search_url": null,
+                "breadcrumb": "https://ivrianochi.home.blog",
+                "website_name": "Home.blog",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "checks": null,
+                "description": "Apr 28, 2019 — In Hebrew it came to be called samekh meaning a support and used for the s. Egyptians wrote Hebrew words with a samekh using their sign for a ...",
+                "pre_snippet": "04/28/2019 00:00:00",
+                "extended_snippet": null,
+                "images": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "samekh meaning a support and used for the s"
+                ],
+                "links": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "related_result": null,
+                "timestamp": "2019-04-28 00:00:00 +00:00",
+                "rectangle": null
+              },
+              {
+                "type": "video",
+                "rank_group": 1,
+                "rank_absolute": 11,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[22]",
+                "items": [
+                  {
+                    "type": "video_element",
+                    "source": "BibleInteract",
+                    "title": "Power of Hebrew Letters: Samech",
+                    "timestamp": "2024-06-14 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=r3TARsNz6As"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "Eric Burton",
+                    "title": "Mysteries of the Hebrew Letter Samekh | Eric Burton",
+                    "timestamp": "2023-04-20 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=jCPJ9jCicL0"
+                  },
+                  {
+                    "type": "video_element",
+                    "source": "The Local Dreamer Podcast",
+                    "title": "The Hebrew Letter Samech – Support, Covering, and God's Surrounding ...",
+                    "timestamp": "2025-11-07 00:00:00 +00:00",
+                    "url": "https://www.youtube.com/watch?v=qt0bABAdSG4"
+                  }
+                ],
+                "rectangle": null
+              },
+              {
+                "type": "people_also_search",
+                "rank_group": 1,
+                "rank_absolute": 12,
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[24]",
+                "title": "People also search for",
+                "items": [
+                  "Samekh meaning",
+                  "Ayin Hebrew letter",
+                  "Samekh pronunciation",
+                  "Samech meaning in Psalm 119",
+                  "Samech in the bible",
+                  "Hebrew Samekh"
+                ],
+                "rectangle": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
