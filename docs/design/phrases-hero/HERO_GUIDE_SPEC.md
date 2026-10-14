@@ -4,8 +4,8 @@ Page: `hebrewedu.com/learn/hebrew-phrases/`. Covers the first two sections only:
 Reference build: `hero-guide.html`. It is standalone and uses the real `global.css` tokens and the PhraseCard as it ships. Two 360px frames sit at the bottom.
 
 **Chosen directions**
-- **H-A · Card deck** (hero): three real PhraseCards stacked on a light indigo panel, with five situation tiles below.
-- **G-B · Numbered anatomy** (guide): one real PhraseCard with numbered markers, plus a numbered legend beside it.
+- **H-A · Card deck** (hero): three real PhraseCards stacked, cards only (no panel), with five situation tiles below.
+- **G-B · Anatomy** (guide): one real PhraseCard, plus a legend beside it (no numbered markers).
 
 **Rejected directions** (both in the design system preview):
 - **H-B · Situation board** puts five navigation rows with a Hebrew sample in the right column. It is useful, but no PhraseCard appears above the fold.
@@ -29,20 +29,20 @@ Every colour and length below names its token. No new colours are introduced. Th
 | Token | Value | Status | Used here for |
 |---|---|---|---|
 | `--white` | #FFFFFF | EXISTING | Hero section, tiles, cards |
-| `--surface-soft` | #F7F7FC | EXISTING | Guide section (`home-section--soft`), card Hebrew panel, ring around the markers |
-| `--brand-light` | #EEF2FF | EXISTING | Deck backdrop, tile hover fill |
-| `--brand-line` | #DBDCFB | **PROPOSED**: names the literal already used for `.phrases-first-card` and `.phrases-inline-app` borders | Deck border |
-| `--brand-dark` | #4F46E5 | EXISTING | Eyebrows, links, primary button, secondary button text and border, tile arrow, markers, tile hover border |
+| `--surface-soft` | #F7F7FC | EXISTING | Guide section (`home-section--soft`), card Hebrew panel |
+| `--brand-light` | #EEF2FF | EXISTING | Tile hover fill |
+| `--brand-line` | #DBDCFB | **PROPOSED**: names the literal already used for `.phrases-first-card` and `.phrases-inline-app` borders | `.phrases-inline-app` border |
+| `--brand-dark` | #4F46E5 | EXISTING | Eyebrows, links, primary button, secondary button text and border, tile arrow, tile hover border |
 | `--ink` | #1F2937 | EXISTING | H1, H2, tile names, legend titles |
 | `--ink-mid` | #374151 | EXISTING | Lead, tile meta, "Jump to a situation" label, legend text |
 | `--ink-light` | #6B7280 | EXISTING | Meta line, breadcrumbs. Never on `--brand-light` (4.3:1). |
 | `--border` | #E5E7EB | EXISTING | Tile outline, legend dividers |
 | `--shadow-sm` / `--shadow-md` | global.css | EXISTING | Back deck cards / front deck card |
-| `--font-display` | Manrope | EXISTING | H1, H2, tile names, legend titles, marker numerals |
+| `--font-display` | Manrope | EXISTING | H1, H2, tile names, legend titles |
 | `--font-body` | DM Sans | EXISTING | Everything else |
-| `--font-hebrew` | Hebrew Rubik | EXISTING | Cards, deck glyph |
+| `--font-hebrew` | Hebrew Rubik | EXISTING | Cards |
 | `--space-xs` 8 · `--space-xs-plus` 12 · `--space-sm` 16 · `--space-sm-plus` 20 · `--space-md` 24 · `--space-lg` 40 · `--space-xl` 64 | | EXISTING | See measurements |
-| `--r-md` 12 · `--r-lg` 20 · `--r-xl` 28 · `--r-full` | | EXISTING | Tile `--r-lg`, deck `--r-xl`, markers `--r-full` |
+| `--r-md` 12 · `--r-lg` 20 · `--r-xl` 28 | | EXISTING | Tile `--r-lg` |
 | `--w-content` 1280 · `--section-y` clamp(72px, 9vw, 128px) | | EXISTING | `.container`, section padding (unchanged rhythm) |
 
 ```css
@@ -80,7 +80,6 @@ Every colour and length below names its token. No new colours are introduced. Th
         <p class="phrases-hero-meta">…unchanged…</p>
       </header>
       <aside class="phrases-deck" aria-label="Three greetings to start with">
-        <span class="phrases-deck-glyph" aria-hidden="true">ש</span>
         <ul class="phrases-deck-list">
           <li><!-- PhraseCard phrase-hello, front --></li>
           <li><!-- PhraseCard phrase-good-morning --></li>
@@ -116,13 +115,12 @@ Every colour and length below names its token. No new colours are introduced. Th
 |---|---|---|
 | Section | `padding-block: var(--section-y)`; white | EXISTING `.home-section--white` |
 | Layout | `grid-template-columns: minmax(0,1.15fr) minmax(0,1fr)`; gap `clamp(32px, 5vw, 64px)`; `align-items: center` | the gap is existing |
-| Deck panel | padding 40 all sides; bg `--brand-light`; 1px `--brand-line`; radius 28; `overflow:hidden; isolation:isolate` | `--space-lg`, `--r-xl` |
-| Deck glyph | ש in `--font-hebrew` 500, **22rem**/1, colour `--white`, `position:absolute; right:-.06em; bottom:-.34em; z-index:-1`; `aria-hidden`, `pointer-events:none` | PROPOSED (decorative) |
+| Deck wrapper | no panel: no background, border, radius or padding; `position:relative; isolation:isolate` only | — |
 | Peek per back card | `--deck-peek: 124px` (card padding 20 + Hebrew panel 96 + 8). The list has `padding-top: calc(var(--deck-peek) * 2)`. | PROPOSED local var |
 | Front card (li 1) | in flow, `z-index:3`, `box-shadow: var(--shadow-md)` | EXISTING shadow |
-| Middle card (li 2) | `position:absolute; top: var(--deck-peek); left/right: 12px; z-index:2`; `--shadow-sm` | `--space-xs-plus` |
-| Back card (li 3) | `position:absolute; top:0; left/right: 24px; z-index:1`; `--shadow-sm` | `--space-md` |
-| Deck cards | `.pc { max-width:none }`. Everything else is the stock PhraseCard. | — |
+| Middle card (li 2) | `position:absolute; top: var(--deck-peek); inset-inline:0; z-index:2`; `--shadow-sm` — same width as the front card | — |
+| Back card (li 3) | `position:absolute; top:0; inset-inline:0; z-index:1`; `--shadow-sm` — same width as the front card | — |
+| Deck cards | `.pc { max-width:none }`. Everything else is the stock PhraseCard, with its own shadow. | — |
 | Tiles block | `margin-top: 64px` | `--space-xl` |
 | Label | DM Sans 600, 14px/1.4, `--ink-mid`, margin-bottom 12 | — |
 | Tile grid | `repeat(5, minmax(0,1fr))`, gap 12 | `--space-xs-plus` |
@@ -148,8 +146,8 @@ Every colour and length below names its token. No new colours are introduced. Th
 | ≥1024 | Two columns; tiles in 5 columns |
 | 768–1023 | Two columns (the deck narrows to about 360px and stays readable); tiles in **3 columns** (3 + 2) |
 | ≤767 | One column: copy, then the deck (gap 24, existing), then the tiles. Tiles become a **1-column list**: row layout, min-height 56, padding 12 16, name 15px, gap 8. Tiles block margin-top 40. |
-| ≤639 | Deck: padding 24 16, `--deck-peek: 120px` (card padding is 16 here), **the third card is hidden** (`li:nth-child(3){display:none}`), so only the shalom card plus the boker tov strip show. Glyph 15rem. |
-| 360 reference | Container gutter 20 (existing clamp). Deck panel 320 wide, cards 288. Each tile is 320×56+. No horizontal scroll. |
+| ≤639 | Deck: `--deck-peek: 120px`, **the third card is hidden** (`li:nth-child(3){display:none}`), so only the shalom card plus the boker tov strip show. |
+| 360 reference | Container gutter 20 (existing clamp). Cards fill the column width. Each tile is 320×56+. No horizontal scroll. |
 
 ### 3.6 Remove
 
@@ -175,13 +173,12 @@ The PhraseCard `.pc-*` rules stay as they are.
   <div class="container">
     <div class="phrases-section-heading">…eyebrow "Read it. Understand it. Use it." + h2.display-md, unchanged…</div>
     <div class="phrases-anatomy">
-      <figure class="phrases-anatomy-card" aria-label="Example phrase card. Its parts are numbered 1 to 5 and explained in the list.">
+      <figure class="phrases-anatomy-card" aria-label="Example phrase card. Its parts are explained in the list.">
         <!-- PhraseCard phrase-coffee-please: no id; .pc-en as <p>; switch ids prefixed "anatomy-"
              (aria-labelledby="anatomy-coffee-please-by"). The Said by switch stays live. -->
       </figure>
       <ol class="phrases-anatomy-legend">
-        <li><span class="phrases-anatomy-num" aria-hidden="true">1</span>
-            <div><h3>Hebrew with nikud</h3><p>The dots and marks … <a href="/blog/how-to-read-hebrew-nikud/">Understand Hebrew vowel marks</a>.</p></div></li>
+        <li><div><h3>Hebrew with nikud</h3><p>The dots and marks … <a href="/blog/how-to-read-hebrew-nikud/">Understand Hebrew vowel marks</a>.</p></div></li>
         … items 2–5 (copy in §4.4) …
       </ol>
     </div>
@@ -189,8 +186,7 @@ The PhraseCard `.pc-*` rules stay as they are.
 </section>
 ```
 
-- The `<ol>` already supplies the numbers to assistive tech, so the visible numerals are `aria-hidden`.
-- The markers on the card are CSS pseudo-elements with empty alternative text (`content: "1" / ""`), so screen readers don't announce stray digits.
+- The `<ol>` supplies ordering to assistive tech; there are no visible numerals on the card or in the legend.
 - The `figure`'s `aria-label` ties the card to the list.
 
 ### 4.2 Measurements
@@ -200,12 +196,8 @@ The PhraseCard `.pc-*` rules stay as they are.
 | Section | `home-section--soft` (`--surface-soft`), `padding-block: var(--section-y)` | EXISTING |
 | Heading block | unchanged (`max-width:720px; margin-bottom:24px`) | EXISTING |
 | Anatomy grid | `grid-template-columns: minmax(0,432px) minmax(0,1fr)`; gap 64; `align-items:start` | `--space-xl` |
-| Card wrapper | `padding-left: 12px` (room for markers that sit on the card's edge); `.pc{max-width:none}`; `.pc-panel{overflow:visible}` (no audio here) | `--space-xs-plus` |
-| Marker | 24×24 circle, bg `--brand-dark`, numeral `--white` Manrope 700 12px, `box-shadow: 0 0 0 3px var(--surface-soft)` | `--r-full` |
-| Marker x | Centred on the card's left border: `left: calc(-1 * var(--pc-pad) - 13px)` for body parts, and `calc(-1 * (var(--pc-pad) + 16px) - 13px)` for the two parts inside the Hebrew panel. `--pc-pad` is 20px, or 16px below 640px. | PROPOSED local var |
-| Marker y | 1 → `.pc-he` top +12. 2 → `.pc-tr` −1. 3 → `.pc-en` 0. 4 → `.pc-note` −1. 5 → `.pc-var-l` −4. Each centres on the first line. | — |
-| Legend item | grid `24px 1fr`, column gap 12, `padding-block:16px`, 1px `--border` top. The first item has no border and no top padding. | `--space-xs-plus`, `--space-sm` |
-| Legend number | same circle as the marker, `margin-top:2px` | — |
+| Card wrapper | `.pc{max-width:none}`. No left padding (no markers to make room for). | — |
+| Legend item | `padding-block:16px`, 1px `--border` top. The first item has no border and no top padding. | `--space-sm` |
 | Legend title (h3) | Manrope 700, 17px/1.6, `--ink` | — |
 | Legend text | DM Sans 400, 15px/1.65, `--ink-mid`, 2px under the title; `em` in `--ink`; link `--brand-dark`, underlined, offset .2em | — |
 
@@ -234,7 +226,7 @@ The PhraseCard `.pc-*` rules stay as they are.
 | ≥1024 | Card column 432, legend fills the rest |
 | 768–1023 | `1fr 1fr`, gap 40 |
 | ≤767 | One column: the card, then the legend 40 below it |
-| ≤639 | `--pc-pad: 16px`; the markers follow the card's smaller padding. The long Hebrew wraps to two balanced lines. |
+| ≤639 | The long Hebrew wraps to two balanced lines. |
 
 ### 4.6 Remove
 
@@ -255,12 +247,11 @@ These rules can be deleted:
 | Tile meta `--ink-mid` on `--brand-light` (hover) | 9.2:1 |
 | Arrow `--brand-dark` on `--white` | 6.3:1 |
 | Arrow `--brand-dark` on `--brand-light` | 5.6:1 |
-| Marker numeral `--white` on `--brand-dark` | 6.3:1 |
 | Legend text `--ink-mid` on `--surface-soft` | 9.65:1 |
 | Link `--brand-dark` on `--surface-soft` | 5.9:1 |
 | Transliteration `--ink-translit` on the card panel | 4.64:1 |
 
-- **No text sits directly on `--brand-light`** in the deck. Only white cards do. `--ink-light` and `--ink-translit` fail there.
+- **No text sits directly on `--brand-light`** on this page outside of the tile hover fill. `--ink-light` and `--ink-translit` fail there.
 - **Tile outline** `--border` is 1.24:1, the same as today's jump links. The text and arrow identify the control, so this is not a 1.4.11 failure. If you want the outline itself to pass, use `--ink-light`.
 
 **Targets:**
@@ -279,7 +270,6 @@ These rules can be deleted:
 
 **Language:**
 - Every Hebrew string keeps `lang="he" dir="rtl"`, with the per-word `<bdi>` as built.
-- The deck glyph is decorative and `aria-hidden`.
 
 **Keyboard order:** breadcrumbs → Explore → Try practice → 5 tiles → (guide) Said by switch → nikud link. The deck has no interactive elements.
 
@@ -293,7 +283,6 @@ These rules can be deleted:
 - [ ] The deck shows three real cards from the page data, with no new Hebrew strings, and only two cards at ≤639.
 - [ ] 5 tiles link to `#greetings #politeness #food #shopping #help`, show counts from the data, and have no 01–05 numbers.
 - [ ] The anatomy card is `phrase-coffee-please`. Its switch works by mouse and by arrow keys.
-- [ ] Markers 1–5 line up on the card's left border at 1280 and at 360.
 - [ ] No horizontal scroll at 360. Section padding is `--section-y`. The container is 1280.
 - [ ] `--brand-line` is added and both `#dbdcfb` literals are replaced.
 - [ ] Copy items 3–5 in §4.4 are approved.
