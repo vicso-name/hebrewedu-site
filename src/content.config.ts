@@ -20,6 +20,8 @@ const blog = defineCollection({
     featured:    z.boolean().default(false),
     showAppCta:  z.boolean().default(true),
     tags:        z.array(z.string()).optional(),
+    /** Rendered via Faq.astro at the end of the article, before the closing CTA. */
+    faq:         z.array(z.object({ q: z.string(), a: z.string() })).optional(),
   }),
 });
 

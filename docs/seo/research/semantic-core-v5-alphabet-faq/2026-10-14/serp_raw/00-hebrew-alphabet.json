@@ -1,0 +1,886 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "2.7072 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10140947-2762-0139-0000-ae0962f72a17",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "2.5957 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "hebrew alphabet",
+        "location_code": 2840,
+        "language_code": "en",
+        "device": "mobile",
+        "os": "android",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "hebrew alphabet",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=hebrew%20alphabet&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-10-14 09:47:10 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "images",
+            "people_also_ask",
+            "knowledge_graph_expanded_item",
+            "organic",
+            "people_also_search"
+          ],
+          "se_results_count": 0,
+          "pages_count": 1,
+          "items_count": 16,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": false,
+              "markdown": "![Hebrew Alphabet - The Jewish Museum London](https://api.dataforseo.com/cdn/i/10140947-2762-0139-0000-ae0962f72a17:20)\n![Comparison of Hebrew and English Alphabets](https://api.dataforseo.com/cdn/i/10140947-2762-0139-0000-ae0962f72a17:21)\n![Learn the Hebrew Alphabet | Lilmod Aleph Beth](https://api.dataforseo.com/cdn/i/10140947-2762-0139-0000-ae0962f72a17:22)\n![Hebrew Alphabet Wall Poster With Letters&#39; Pronunciation ...](https://api.dataforseo.com/cdn/i/10140947-2762-0139-0000-ae0962f72a17:23)\n![The Hebrew Alphabet – Todd Decker](https://api.dataforseo.com/cdn/i/10140947-2762-0139-0000-ae0962f72a17:24)\n\nThe [Hebrew alphabet](https://en.wikipedia.org/wiki/Hebrew_alphabet) (often called the *alef-bet* after its first two letters) consists of **22 foundational letters** , all of which are consonants.[[1]](https://en.wikipedia.org/wiki/Hebrew_alphabet)\n\n### Key Features\n\n- **Direction:** Written and read from **right to left**.\n- **No Case:** There are no uppercase or lowercase distinctions.\n- **Vowels (*Niqqud*):** Originally written as an abjad (consonants only). Vowel sounds are optionally indicated using a system of dots and dashes called *niqqud* placed above, below, or inside the letters.\n- **Final Forms (*Sofit*):** Five letters change their shape when they appear at the very end of a word.\n- **Numerical Values:** Each letter doubles as a number from 1 to 400 (used in *gematria* and everyday dating/numbering).[[1]](https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html)[[2]](https://en.wikipedia.org/wiki/Hebrew_alphabet)[[3]](https://preply.com/en/blog/hebrew-alphabet-explained/)[[4]](https://zondervanacademic.com/blog/introduction-hebrew-alphabet)[[5]](https://jewishvirtuallibrary.org/the-hebrew-alphabet-aleph-bet)\n\n\n\n---\n\n### The 22 Letters in Order\n\n1. **א** — Alef (silent)\n2. **ב** — Bet / Vet (B or V sound)\n3. **ג** — Gimel (G sound)\n4. **ד** — Dalet (D sound)\n5. **ה** — Heh (H sound / silent)\n6. **ו** — Vav (V or O/U vowel sound)\n7. **ז** — Zayin (Z sound)\n8. **ח** — Chet / Khaf (throat H/Ch sound)\n9. **ט** — Tet (T sound)\n10. **י** — Yud (Y sound or I vowel)\n11. **כ** *(Final form: **ך**)* — Kaf / Khaf (K or Ch sound)\n12. **ל** — Lamed (L sound)\n13. **מ** *(Final form: **ם**)* — Mem (M sound)\n14. **נ** *(Final form: **ן**)* — Nun (N sound)\n15. **ס** — Samekh (S sound)\n16. **ע** — Ayin (silent / throat stop)\n17. **פ** *(Final form: **ף**)* — Peh / Feh (P or F sound)\n18. **צ** *(Final form: **ץ**)* — Tzadeh / Tzadik (Ts sound)\n19. **ק** — Qof (K sound)\n20. **ר** — Resh (R sound)\n21. **ש** — Shin / Sin (Sh or S sound, depending on dot placement)\n22. **ת** — Tav (T sound)[[1]](https://tcdecker.com/2026/05/10/the-hebrew-alphabet/)[[2]](https://zondervanacademic.com/blog/introduction-hebrew-alphabet)[[3]](https://www.lifeinmessiah.org/intro-to-the-hebrew-alphabet)[[4]](https://study.com/academy/lesson/hebrew-alphabet-overview-chart.html)[[5]](https://en.wikipedia.org/wiki/Hebrew_alphabet)[[6]](https://elon.io/grammar/hebrew/pronunciation/letter-names)[[7]](https://www.chabad.org/library/article_cdo/aid/4069287/jewish/The-Hebrew-Alphabet.htm)[[8]](https://preply.com/en/blog/hebrew-alphabet-explained/)\n\n\n\n---\n\n### Writing Styles\n\n- **Square / Block Script (*Ktav Ashurit*):** Used in printed books, newspapers, digital media, and Torah scrolls.\n- **Cursive Script (*Ktav*):** A flowing, rounded handwritten script used for everyday notes and letters.[[1]](https://www.youtube.com/shorts/7uOHf3sIv3Y)[[2]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/aleph-bet.html)[[3]](https://www.chabad.org/library/article_cdo/aid/4069287/jewish/The-Hebrew-Alphabet.htm)[[4]](https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html)\n\nIf you'd like, let me know:\n\n- Are you learning to **read or write** Hebrew?\n- Do you want to focus on **Modern Hebrew** or **Biblical Hebrew**?\n\nI can share practice tips or simple vocabulary to start with.",
+              "items": [
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": null,
+                  "markdown": "![Hebrew Alphabet - The Jewish Museum London](https://api.dataforseo.com/cdn/i/10140947-2762-0139-0000-ae0962f72a17:10)\n![Comparison of Hebrew and English Alphabets](https://api.dataforseo.com/cdn/i/10140947-2762-0139-0000-ae0962f72a17:11)\n![Learn the Hebrew Alphabet | Lilmod Aleph Beth](https://api.dataforseo.com/cdn/i/10140947-2762-0139-0000-ae0962f72a17:12)\n![Hebrew Alphabet Wall Poster With Letters&#39; Pronunciation ...](https://api.dataforseo.com/cdn/i/10140947-2762-0139-0000-ae0962f72a17:13)\n![The Hebrew Alphabet – Todd Decker](https://api.dataforseo.com/cdn/i/10140947-2762-0139-0000-ae0962f72a17:14)",
+                  "links": null,
+                  "images": [
+                    {
+                      "type": "images_element",
+                      "alt": "Hebrew Alphabet - The Jewish Museum London",
+                      "url": null,
+                      "image_url": "https://api.dataforseo.com/cdn/i/10140947-2762-0139-0000-ae0962f72a17:15"
+                    },
+                    {
+                      "type": "images_element",
+                      "alt": "Comparison of Hebrew and English Alphabets",
+                      "url": null,
+                      "image_url": "https://api.dataforseo.com/cdn/i/10140947-2762-0139-0000-ae0962f72a17:16"
+                    },
+                    {
+                      "type": "images_element",
+                      "alt": "Learn the Hebrew Alphabet | Lilmod Aleph Beth",
+                      "url": null,
+                      "image_url": "https://api.dataforseo.com/cdn/i/10140947-2762-0139-0000-ae0962f72a17:17"
+                    },
+                    {
+                      "type": "images_element",
+                      "alt": "Hebrew Alphabet Wall Poster With Letters' Pronunciation ...",
+                      "url": null,
+                      "image_url": "https://api.dataforseo.com/cdn/i/10140947-2762-0139-0000-ae0962f72a17:18"
+                    },
+                    {
+                      "type": "images_element",
+                      "alt": "The Hebrew Alphabet – Todd Decker",
+                      "url": null,
+                      "image_url": "https://api.dataforseo.com/cdn/i/10140947-2762-0139-0000-ae0962f72a17:19"
+                    }
+                  ],
+                  "references": null
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "The Hebrew alphabet (often called the alef-bet after its first two letters) consists of 22 foundational letters, all of which are consonants.",
+                  "markdown": "The [Hebrew alphabet](https://en.wikipedia.org/wiki/Hebrew_alphabet) (often called the *alef-bet* after its first two letters) consists of **22 foundational letters** , all of which are consonants.[[1]](https://en.wikipedia.org/wiki/Hebrew_alphabet)",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Hebrew alphabet",
+                      "description": null,
+                      "url": "https://en.wikipedia.org/wiki/Hebrew_alphabet",
+                      "domain": "en.wikipedia.org"
+                    }
+                  ],
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Wikipedia",
+                      "domain": "en.wikipedia.org",
+                      "url": "https://en.wikipedia.org/wiki/Hebrew_alphabet",
+                      "title": "Hebrew alphabet",
+                      "text": "This article contains Hebrew text. In the remainder of this article, the term Hebrew alphabet refers to the square script unless otherwise indicated. The Hebrew..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Key Features",
+                  "text": "Direction: Written and read from right to left. No Case: There are no uppercase or lowercase distinctions. Vowels (Niqqud): Originally written as an abjad (consonants only). Vowel sounds are optionally indicated using a system of dots and dashes called niqqud placed above, below, or inside the letters. Final Forms (Sofit): Five letters change their shape when they appear at the very end of a word. Numerical Values: Each letter doubles as a number from 1 to 400 (used in gematria and everyday dating/numbering).",
+                  "markdown": "- **Direction:** Written and read from **right to left**.\n- **No Case:** There are no uppercase or lowercase distinctions.\n- **Vowels (*Niqqud*):** Originally written as an abjad (consonants only). Vowel sounds are optionally indicated using a system of dots and dashes called *niqqud* placed above, below, or inside the letters.\n- **Final Forms (*Sofit*):** Five letters change their shape when they appear at the very end of a word.\n- **Numerical Values:** Each letter doubles as a number from 1 to 400 (used in *gematria* and everyday dating/numbering).[[1]](https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html)[[2]](https://en.wikipedia.org/wiki/Hebrew_alphabet)[[3]](https://preply.com/en/blog/hebrew-alphabet-explained/)[[4]](https://zondervanacademic.com/blog/introduction-hebrew-alphabet)[[5]](https://jewishvirtuallibrary.org/the-hebrew-alphabet-aleph-bet)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Northwestern University",
+                      "domain": "mena-languages.northwestern.edu",
+                      "url": "https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html",
+                      "title": "The Hebrew Alphabet",
+                      "text": "The Hebrew Alphabet Hebrew is written from right to left, rather than left to right as in English, for example. The Hebrew alphabet consists of 22 letters, all ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Wikipedia",
+                      "domain": "en.wikipedia.org",
+                      "url": "https://en.wikipedia.org/wiki/Hebrew_alphabet",
+                      "title": "Hebrew alphabet",
+                      "text": "This article contains Hebrew text. In the remainder of this article, the term Hebrew alphabet refers to the square script unless otherwise indicated. The Hebrew..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Preply",
+                      "domain": "preply.com",
+                      "url": "https://preply.com/en/blog/hebrew-alphabet-explained/",
+                      "title": "Hebrew Alphabet Guide: Letters, Sounds, and History",
+                      "text": "The Hebrew alphabet basics The Hebrew alphabet, known as alef-bet [named after its first two letters], consists of 22 consonantal letters that are written from ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Zondervan Academic",
+                      "domain": "zondervanacademic.com",
+                      "url": "https://zondervanacademic.com/blog/introduction-hebrew-alphabet",
+                      "title": "An Introduction to the Hebrew Alphabet | Zondervan Academic",
+                      "text": "Basics: Hebrew is written right-to-left and comprises twenty-three consonants, each doubling as numerical values from 1 to 400 (א-ט for 1-9; י-צ for 10-90; ק-ת ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Jewish Virtual Library",
+                      "domain": "jewishvirtuallibrary.org",
+                      "url": "https://jewishvirtuallibrary.org/the-hebrew-alphabet-aleph-bet",
+                      "title": "Hebrew: Hebrew Alphabet (Aleph-Bet)",
+                      "text": "Alphabet: Written right-to-left from Alef to Tav; 5 letters (Kaf, Mem, Nun, Peh, Tzedek) feature final-word forms with tails. Vowels: Originally unvoweled; Rabb..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "The 22 Letters in Order",
+                  "text": "א — Alef (silent) ב — Bet / Vet (B or V sound) ג — Gimel (G sound) ד — Dalet (D sound) ה — Heh (H sound / silent) ו — Vav (V or O/U vowel sound) ז — Zayin (Z sound) ח — Chet / Khaf (throat H/Ch sound) ט — Tet (T sound) י — Yud (Y sound or I vowel) כ (Final form: ך) — Kaf / Khaf (K or Ch sound) ל — Lamed (L sound) מ (Final form: ם) — Mem (M sound) נ (Final form: ן) — Nun (N sound) ס — Samekh (S sound) ע — Ayin (silent / throat stop) פ (Final form: ף) — Peh / Feh (P or F sound) צ (Final form: ץ) — Tzadeh / Tzadik (Ts sound) ק — Qof (K sound) ר — Resh (R sound) ש — Shin / Sin (Sh or S sound, depending on dot placement) ת — Tav (T sound)",
+                  "markdown": "1. **א** — Alef (silent)\n2. **ב** — Bet / Vet (B or V sound)\n3. **ג** — Gimel (G sound)\n4. **ד** — Dalet (D sound)\n5. **ה** — Heh (H sound / silent)\n6. **ו** — Vav (V or O/U vowel sound)\n7. **ז** — Zayin (Z sound)\n8. **ח** — Chet / Khaf (throat H/Ch sound)\n9. **ט** — Tet (T sound)\n10. **י** — Yud (Y sound or I vowel)\n11. **כ** *(Final form: **ך**)* — Kaf / Khaf (K or Ch sound)\n12. **ל** — Lamed (L sound)\n13. **מ** *(Final form: **ם**)* — Mem (M sound)\n14. **נ** *(Final form: **ן**)* — Nun (N sound)\n15. **ס** — Samekh (S sound)\n16. **ע** — Ayin (silent / throat stop)\n17. **פ** *(Final form: **ף**)* — Peh / Feh (P or F sound)\n18. **צ** *(Final form: **ץ**)* — Tzadeh / Tzadik (Ts sound)\n19. **ק** — Qof (K sound)\n20. **ר** — Resh (R sound)\n21. **ש** — Shin / Sin (Sh or S sound, depending on dot placement)\n22. **ת** — Tav (T sound)[[1]](https://tcdecker.com/2026/05/10/the-hebrew-alphabet/)[[2]](https://zondervanacademic.com/blog/introduction-hebrew-alphabet)[[3]](https://www.lifeinmessiah.org/intro-to-the-hebrew-alphabet)[[4]](https://study.com/academy/lesson/hebrew-alphabet-overview-chart.html)[[5]](https://en.wikipedia.org/wiki/Hebrew_alphabet)[[6]](https://elon.io/grammar/hebrew/pronunciation/letter-names)[[7]](https://www.chabad.org/library/article_cdo/aid/4069287/jewish/The-Hebrew-Alphabet.htm)[[8]](https://preply.com/en/blog/hebrew-alphabet-explained/)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "tcdecker.com",
+                      "domain": "tcdecker.com",
+                      "url": "https://tcdecker.com/2026/05/10/the-hebrew-alphabet/",
+                      "title": "The Hebrew Alphabet",
+                      "text": "The Hebrew Alphabet p,f צ – tsade tz ק – kof k ר – resh r שׁ – shin sh שׂ – sin s ת – tav t Now let's try a few simple words putting together the letters we jus..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Zondervan Academic",
+                      "domain": "zondervanacademic.com",
+                      "url": "https://zondervanacademic.com/blog/introduction-hebrew-alphabet",
+                      "title": "An Introduction to the Hebrew Alphabet | Zondervan Academic",
+                      "text": "Basics: Hebrew is written right-to-left and comprises twenty-three consonants, each doubling as numerical values from 1 to 400 (א-ט for 1-9; י-צ for 10-90; ק-ת ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Life in Messiah",
+                      "domain": "www.lifeinmessiah.org",
+                      "url": "https://www.lifeinmessiah.org/intro-to-the-hebrew-alphabet",
+                      "title": "Intro to the Hebrew Alphabet",
+                      "text": "READING HEBREW: AN OVERVIEW * The Consonants There are 26 differing functioning consonants in the Hebrew alphabet (as seen on the chart above), although there a..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Study.com",
+                      "domain": "study.com",
+                      "url": "https://study.com/academy/lesson/hebrew-alphabet-overview-chart.html",
+                      "title": "Hebrew Alphabet History, Letters & Chart - Study.com",
+                      "text": "The twenty-two Hebrew letters are: Alef, Bet, Gimel, Dalet, Heh, Vav, Zayin, Khet, Tet, Yud, Kaf, Lamed, Mem, Nun, Samekh, Ayin, Peh, Tzadi(k), Qof, Resh, Shin,"
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Wikipedia",
+                      "domain": "en.wikipedia.org",
+                      "url": "https://en.wikipedia.org/wiki/Hebrew_alphabet",
+                      "title": "Hebrew alphabet",
+                      "text": "This article contains Hebrew text. In the remainder of this article, the term Hebrew alphabet refers to the square script unless otherwise indicated. The Hebrew..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Elon.io",
+                      "domain": "elon.io",
+                      "url": "https://elon.io/grammar/hebrew/pronunciation/letter-names",
+                      "title": "Letter Names and the Order of the Alef-Bet | Hebrew Grammar - Elon.io",
+                      "text": "The 22 names run álef, bet, gímel, dálet, hey, vav, záyin, chet, tet, yod, kaf, lámed, mem, nun, sámech, áyin, pe, tsádi, kuf, resh, shin, tav. Common living va..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Chabad",
+                      "domain": "www.chabad.org",
+                      "url": "https://www.chabad.org/library/article_cdo/aid/4069287/jewish/The-Hebrew-Alphabet.htm",
+                      "title": "The Hebrew Alphabet - Chabad.org",
+                      "text": "Alphabet: 22 consonant letters (Aleph to Tav) with sounds, dagesh emphasis modifications, and numerical values 1 to 400 (Gematria). Final Forms: Five letters (K..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Preply",
+                      "domain": "preply.com",
+                      "url": "https://preply.com/en/blog/hebrew-alphabet-explained/",
+                      "title": "Hebrew Alphabet Guide: Letters, Sounds, and History",
+                      "text": "The Hebrew alphabet basics The Hebrew alphabet, known as alef-bet [named after its first two letters], consists of 22 consonantal letters that are written from ..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Writing Styles",
+                  "text": "Square / Block Script (Ktav Ashurit): Used in printed books, newspapers, digital media, and Torah scrolls. Cursive Script (Ktav): A flowing, rounded handwritten script used for everyday notes and letters.",
+                  "markdown": "- **Square / Block Script (*Ktav Ashurit*):** Used in printed books, newspapers, digital media, and Torah scrolls.\n- **Cursive Script (*Ktav*):** A flowing, rounded handwritten script used for everyday notes and letters.[[1]](https://www.youtube.com/shorts/7uOHf3sIv3Y)[[2]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/aleph-bet.html)[[3]](https://www.chabad.org/library/article_cdo/aid/4069287/jewish/The-Hebrew-Alphabet.htm)[[4]](https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/shorts/7uOHf3sIv3Y",
+                      "title": "Learn Hebrew Alphabet #1 - א (alef)",
+                      "text": "do you know how to write al. if the letter is called al if get your pen and paper ready in Hebrew each letter has two forms the cursive form used in everyday ha..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Hebrew for Christians",
+                      "domain": "www.hebrew4christians.com",
+                      "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/aleph-bet.html",
+                      "title": "The Hebrew Alphabet",
+                      "text": "Alphabet: 22 foundational consonants (otiyot yesod) of divine origin used to create the cosmos. Tradition: Taught by God to Adam, transmitted through generation..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Chabad",
+                      "domain": "www.chabad.org",
+                      "url": "https://www.chabad.org/library/article_cdo/aid/4069287/jewish/The-Hebrew-Alphabet.htm",
+                      "title": "The Hebrew Alphabet - Chabad.org",
+                      "text": "Alphabet: 22 consonant letters (Aleph to Tav) with sounds, dagesh emphasis modifications, and numerical values 1 to 400 (Gematria). Final Forms: Five letters (K..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Northwestern University",
+                      "domain": "mena-languages.northwestern.edu",
+                      "url": "https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html",
+                      "title": "The Hebrew Alphabet",
+                      "text": "The Hebrew Alphabet Hebrew is written from right to left, rather than left to right as in English, for example. The Hebrew alphabet consists of 22 letters, all ..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "If you'd like, let me know:Are you learning to read or write Hebrew?\nDo you want to focus on Modern Hebrew or Biblical Hebrew ?\nI can share practice tips or simple vocabulary to start with.",
+                  "markdown": "If you'd like, let me know:\n\n- Are you learning to **read or write** Hebrew?\n- Do you want to focus on **Modern Hebrew** or **Biblical Hebrew**?\n\nI can share practice tips or simple vocabulary to start with.",
+                  "links": null,
+                  "images": null,
+                  "references": null
+                }
+              ],
+              "references": [
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Wikipedia",
+                  "domain": "en.wikipedia.org",
+                  "url": "https://en.wikipedia.org/wiki/Hebrew_alphabet",
+                  "title": "Hebrew alphabet",
+                  "text": "This article contains Hebrew text. In the remainder of this article, the term Hebrew alphabet refers to the square script unless otherwise indicated. The Hebrew..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "YouTube",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/shorts/7uOHf3sIv3Y",
+                  "title": "Learn Hebrew Alphabet #1 - א (alef)",
+                  "text": "do you know how to write al. if the letter is called al if get your pen and paper ready in Hebrew each letter has two forms the cursive form used in everyday ha..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Northwestern University",
+                  "domain": "mena-languages.northwestern.edu",
+                  "url": "https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html",
+                  "title": "The Hebrew Alphabet",
+                  "text": "The Hebrew Alphabet Hebrew is written from right to left, rather than left to right as in English, for example. The Hebrew alphabet consists of 22 letters, all ..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Zondervan Academic",
+                  "domain": "zondervanacademic.com",
+                  "url": "https://zondervanacademic.com/blog/introduction-hebrew-alphabet",
+                  "title": "An Introduction to the Hebrew Alphabet | Zondervan Academic",
+                  "text": "Basics: Hebrew is written right-to-left and comprises twenty-three consonants, each doubling as numerical values from 1 to 400 (א-ט for 1-9; י-צ for 10-90; ק-ת ..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Hebrew for Christians",
+                  "domain": "www.hebrew4christians.com",
+                  "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/aleph-bet.html",
+                  "title": "The Hebrew Alphabet",
+                  "text": "Alphabet: 22 foundational consonants (otiyot yesod) of divine origin used to create the cosmos. Tradition: Taught by God to Adam, transmitted through generation..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "tcdecker.com",
+                  "domain": "tcdecker.com",
+                  "url": "https://tcdecker.com/2026/05/10/the-hebrew-alphabet/",
+                  "title": "The Hebrew Alphabet",
+                  "text": "The Hebrew Alphabet p,f צ – tsade tz ק – kof k ר – resh r שׁ – shin sh שׂ – sin s ת – tav t Now let's try a few simple words putting together the letters we jus..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Preply",
+                  "domain": "preply.com",
+                  "url": "https://preply.com/en/blog/hebrew-alphabet-explained/",
+                  "title": "Hebrew Alphabet Guide: Letters, Sounds, and History",
+                  "text": "The Hebrew alphabet basics The Hebrew alphabet, known as alef-bet [named after its first two letters], consists of 22 consonantal letters that are written from ..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Life in Messiah",
+                  "domain": "www.lifeinmessiah.org",
+                  "url": "https://www.lifeinmessiah.org/intro-to-the-hebrew-alphabet",
+                  "title": "Intro to the Hebrew Alphabet",
+                  "text": "READING HEBREW: AN OVERVIEW * The Consonants There are 26 differing functioning consonants in the Hebrew alphabet (as seen on the chart above), although there a..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Jewish Virtual Library",
+                  "domain": "jewishvirtuallibrary.org",
+                  "url": "https://jewishvirtuallibrary.org/the-hebrew-alphabet-aleph-bet",
+                  "title": "Hebrew: Hebrew Alphabet (Aleph-Bet)",
+                  "text": "Alphabet: Written right-to-left from Alef to Tav; 5 letters (Kaf, Mem, Nun, Peh, Tzedek) feature final-word forms with tails. Vowels: Originally unvoweled; Rabb..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Chabad",
+                  "domain": "www.chabad.org",
+                  "url": "https://www.chabad.org/library/article_cdo/aid/4069287/jewish/The-Hebrew-Alphabet.htm",
+                  "title": "The Hebrew Alphabet - Chabad.org",
+                  "text": "Alphabet: 22 consonant letters (Aleph to Tav) with sounds, dagesh emphasis modifications, and numerical values 1 to 400 (Gematria). Final Forms: Five letters (K..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Elon.io",
+                  "domain": "elon.io",
+                  "url": "https://elon.io/grammar/hebrew/pronunciation/letter-names",
+                  "title": "Letter Names and the Order of the Alef-Bet | Hebrew Grammar - Elon.io",
+                  "text": "The 22 names run álef, bet, gímel, dálet, hey, vav, záyin, chet, tet, yod, kaf, lámed, mem, nun, sámech, áyin, pe, tsádi, kuf, resh, shin, tav. Common living va..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Study.com",
+                  "domain": "study.com",
+                  "url": "https://study.com/academy/lesson/hebrew-alphabet-overview-chart.html",
+                  "title": "Hebrew Alphabet History, Letters & Chart - Study.com",
+                  "text": "The twenty-two Hebrew letters are: Alef, Bet, Gimel, Dalet, Heh, Vav, Zayin, Khet, Tet, Yud, Kaf, Lamed, Mem, Nun, Samekh, Ayin, Peh, Tzadi(k), Qof, Resh, Shin,"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "images",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]",
+              "title": "Images",
+              "url": null,
+              "items": [
+                {
+                  "type": "images_element",
+                  "alt": "Hebrew Alphabet - The Jewish Museum London",
+                  "url": "https://jewishmuseum.org.uk/schools/asset/hebrew-alphabet/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140947-2762-0139-0000-ae0962f72a17:25"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Hebrew Alphabet - Judaism 101 (JewFAQ)",
+                  "url": "https://www.jewfaq.org/hebrew_alphabet",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140947-2762-0139-0000-ae0962f72a17:26"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "An Introduction to the Hebrew Alphabet | Zondervan Academic",
+                  "url": "https://zondervanacademic.com/blog/introduction-hebrew-alphabet",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140947-2762-0139-0000-ae0962f72a17:27"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "The Hebrew Alphabet - Chabad.org",
+                  "url": "https://www.chabad.org/library/article_cdo/aid/4069287/jewish/The-Hebrew-Alphabet.htm",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140947-2762-0139-0000-ae0962f72a17:28"
+                }
+              ],
+              "related_image_searches": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is the order of Hebrew letters?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Did Jews speak Hebrew or Aramaic first?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Does Hebrew use punctuation?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is hello in Hebrew language?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "knowledge_graph_expanded_item",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]",
+              "title": "Alphabetical Order. What are the 22 letters of the Hebrew alphabet in order?",
+              "data_attrid": "lab/title/Alphabetical Order",
+              "expanded_element": null,
+              "rectangle": null
+            },
+            {
+              "type": "knowledge_graph_expanded_item",
+              "rank_group": 2,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]",
+              "title": "Styles. What are the different styles of the Hebrew alphabet?",
+              "data_attrid": "lab/title/Styles",
+              "expanded_element": null,
+              "rectangle": null
+            },
+            {
+              "type": "knowledge_graph_expanded_item",
+              "rank_group": 3,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[3]",
+              "title": "Number of Letters. How many letters are in the Hebrew alphabet?",
+              "data_attrid": "lab/title/Number of Letters",
+              "expanded_element": null,
+              "rectangle": null
+            },
+            {
+              "type": "knowledge_graph_expanded_item",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[3]",
+              "title": "Pronunciation. How is the Hebrew alphabet pronounced?",
+              "data_attrid": "lab/title/Pronunciation",
+              "expanded_element": null,
+              "rectangle": null
+            },
+            {
+              "type": "knowledge_graph_expanded_item",
+              "rank_group": 5,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[3]",
+              "title": "Numerical Values. What are the numerical values of the Hebrew alphabet letters?",
+              "data_attrid": "lab/title/Numerical Values",
+              "expanded_element": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[8]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "How to Read the Hebrew Alphabet",
+              "url": "https://www.youtube.com/watch?v=ZnZ3tj4l43Y",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "7.3K+ views",
+              "website_name": "YouTube · Bible and Culture with Dr. Armstrong",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Hebrew Alphabet (Alefbet) + Vowels - full tutorial! Learn the Hebrew Alphabet in Just 20 Minutes! Hebrew Alphabet: Their Origin, The Hebrew ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2023-10-14 09:47:09 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[10]",
+              "title": "People also search for",
+              "items": [
+                "Hebrew alphabet to English",
+                "Hebrew alphabet a to z",
+                "Hebrew alphabet pictures",
+                "Hebrew alphabet meaning",
+                "Hebrew alphabet PDF",
+                "Hebrew alphabet numbers"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[11]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Hebrew Letter Meanings Revealed! Part 1: Aleph - Eric Burton",
+              "url": "https://www.youtube.com/watch?v=E5lw_-_CA1s",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "98K+ views",
+              "website_name": "YouTube · Eric Burton",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Eric teaches on the significance of the Hebrew language, and gives deep insight into the first letter of the Hebrew alphabet; Aleph.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2021-10-14 09:47:09 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[13]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "stock.adobe.com",
+              "title": "Hebrew Alphabet Images – Browse 11369 Stock Photos, Vectors, and ...",
+              "url": "https://stock.adobe.com/search?k=hebrew+alphabet",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://stock.adobe.com",
+              "website_name": "Adobe Stock",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Search from thousands of royalty-free Hebrew Alphabet stock images and video for your next project. Download royalty-free stock photos, vectors, ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Search from thousands of royalty-free Hebrew Alphabet stock images"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": [
+                "hebrew alphabet",
+                "hebrew alphabet",
+                "hebrew alphabet",
+                "hebrew alphabet",
+                "hebrew",
+                "hebrew alphabet",
+                "hebrew alphabet",
+                "hebrew"
+              ],
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "hebrew4christians.com",
+              "title": "Alphabet chart",
+              "url": "https://hebrew4christians.com/Grammar/Unit_One/Letter_Chart/letter_chart.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://hebrew4christians.com",
+              "website_name": "Hebrew for Christians",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": null,
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 14,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[16]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Hebrew Alphabet Tutorial: Lesson 1/5 (אבגדה)",
+              "url": "https://www.youtube.com/watch?v=y7t-r7pdYtY",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "92.2K+ views",
+              "website_name": "YouTube · Tim McNinch",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "An animated introduction to the Hebrew alphabet (alefbet). Learn to recognize, sound, and write each letter, with examples of words that begin ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2016-10-14 09:47:09 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 15,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[18]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.chabad.org",
+              "title": "Hebrew Alphabet PDF Chart",
+              "url": "https://www.chabad.org/library/article_cdo/aid/4426636/jewish/Hebrew-Alphabet-PDF-Chart.htm",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.chabad.org",
+              "website_name": "Chabad",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Hebrew Alphabet PDF Chart. The Hebrew Alphabet - בית אלף ד Dalet (4) ג Gimmel (3) ב Veis (2) בּ Beis (2) א Aleph (1) ט Tes (9) ח Khes (8) ז Zayin (7) ו Vav (6) ...",
+              "pre_snippet": "Hebrew Alphabet PDF Chart. The Hebrew Alphabet - בית אלף ד Dalet (4) ג Gimmel (3) ב Veis (2) בּ Beis (2) א Aleph (1) ט Tes (9) ח Khes (8) ז Zayin (7) ו Vav (6) ...",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Hebrew Alphabet PDF Chart"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 2,
+              "rank_absolute": 16,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[4]/div[1]/div[3]/div[1]",
+              "title": "People also search for",
+              "items": [
+                "Hebrew alphabet in order",
+                "Hebrew alphabet 6",
+                "Hebrew alphabet Chart"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

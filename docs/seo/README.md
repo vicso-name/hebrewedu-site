@@ -129,8 +129,12 @@ can't go stale.
 | Date | Batch | Steps | Actual cost | Cap | Evidence |
 |---|---|---|---:|---:|---|
 | 2026-10-14 | KD + volume + SERP validation | bulk KD (319 kw), bulk volume (41 kw), SERP top-10 (52 kw) | $0.24428 | $0.28 | [`research/semantic-core-v4-dataforseo/2026-10-14/`](research/semantic-core-v4-dataforseo/2026-10-14/README.md) |
+| 2026-10-14 | Single SERP pull, exact query "hebrew alphabet" (owner-approved, $0.01 cap) | balance check (free), one `serp/google/organic/live/advanced` call, US/en, mobile Android, depth 10 | $0.002 | $0.01 | [`research/semantic-core-v5-alphabet-faq/2026-10-14/serp_parsed.md`](research/semantic-core-v5-alphabet-faq/2026-10-14/serp_parsed.md) |
 
 That batch's results are applied directly in `core/keywords.csv` /
 `core/clusters.csv` and survive `npm run seo:build` normally — the
 build no longer regenerates `core/` from `research/`, so this is no
-longer a special case (see "How to update the core" above).
+longer a special case (see "How to update the core" above). The
+2026-10-14 single-SERP pull fed the FAQ section added to
+`/blog/hebrew-alphabet-complete-guide/` — see that file for the
+real PAA/Knowledge Graph questions used and the organic top 10.

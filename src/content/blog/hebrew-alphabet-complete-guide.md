@@ -8,6 +8,19 @@ category: "Alphabet Guide"
 readingTime: "9 min read"
 featured: true
 tags: ["Hebrew alphabet", "Aleph Bet", "Hebrew letters", "learn Hebrew", "Hebrew reading"]
+faq:
+  - q: 'What is the order of the Hebrew alphabet letters?'
+    a: 'The Hebrew alphabet runs Aleph, Bet, Gimel, Dalet, Hey, Vav, Zayin, Chet, Tet, Yod, Kaf, Lamed, Mem, Nun, Samech, Ayin, Pe, Tzadi, Kuf, Resh, Shin, and Tav — the same order shown in the <a href="#the-22-letters-of-the-hebrew-alphabet-aleph-bet">letter chart above</a>. It has stayed fixed for thousands of years and is also the order used for Hebrew numbering and acrostic poetry.'
+  - q: 'How many letters are in the Hebrew alphabet?'
+    a: 'There are 22 base letters. Five of them — Kaf, Mem, Nun, Pe, and Tzadi — also have a distinct final (<i>sofit</i>) form used only at the end of a word, covered in <a href="#the-five-final-letters">the final letters section</a>. Those final forms are variants of the same 22 letters, not five additional ones.'
+  - q: 'How is the Hebrew alphabet pronounced?'
+    a: 'Most letters have one clear consonant sound, but a few — like Bet/Vet and Shin/Sin — represent two sounds depending on a dot placement, and vowel sounds are added separately through the Nikud marking system rather than through the letters themselves. See the <a href="#two-sound-letters-betvet-and-shinsin">two-sound letters section</a> for details, or start the <a href="/learn/hebrew-alphabet/">Hebrew Alphabet Course</a> to hear native audio for every letter.'
+  - q: 'What are the numerical values of the Hebrew alphabet letters?'
+    a: 'Each Hebrew letter also carries a traditional numeric value, a system called gematria: Aleph through Tet count 1–9, Yod through Tzadi count 10–90 in steps of ten, and Kuf through Tav count 100–400 in steps of a hundred. These values are used in traditional texts and calendars, not in everyday reading, so they are not required to learn the alphabet itself.'
+  - q: 'Does Hebrew use punctuation?'
+    a: 'Modern Hebrew uses most of the same punctuation marks as English — periods, commas, question marks, and quotation marks — adapted into its right-to-left script. Classical and liturgical Hebrew texts instead rely on a separate system of cantillation and accent marks, which serve a different purpose than modern punctuation.'
+  - q: 'Why does Hebrew use a square script?'
+    a: 'The square script used in Hebrew today descends from the Aramaic alphabet, adopted by Jewish scribes after the Babylonian exile in the 6th century BCE. It gradually replaced the older, more angular Paleo-Hebrew script, which by then was already falling out of everyday use. Paleo-Hebrew survives today mainly in ancient inscriptions, not in the Aleph Bet taught in this guide.'
 ---
 
 There's a moment every Hebrew learner knows. You're staring at a page of text and instead of seeing words, you see shapes — beautiful, strange, completely unreadable shapes. The letters curl and spike in directions you're not expecting. Nothing connects to anything you know.

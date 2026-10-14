@@ -5,6 +5,7 @@ import Nav from '../../components/Nav.astro';
 import Footer from '../../components/Footer.astro';
 import RelatedPosts from '../../components/blog/RelatedPosts.astro';
 import StoreButtons from '../../components/ui/StoreButtons.astro';
+import Faq from '../../components/Faq.astro';
 import { getSortedPosts, formatPostDate } from '../../lib/blog';
 import { site } from '../../data/site';
 import { phrasesPath, phrasesPublished } from '../../lib/hebrew-phrases.mjs';
@@ -101,6 +102,12 @@ const related = (await getSortedPosts())
             <Content />
             {showPhrasesLink && <p>Put your review routine to work with <a href={phrasesPath}>useful Hebrew phrases for everyday situations</a>. Learn an expression in context, then try a short practice.</p>}
           </div>
+
+          {post.data.faq && <Faq
+            title="Frequently Asked Questions"
+            items={post.data.faq}
+            surface="white"
+          />}
 
           {post.data.showAppCta && <div class="article-cta">
             <p class="article-cta-text">Ready to start reading Hebrew?</p>

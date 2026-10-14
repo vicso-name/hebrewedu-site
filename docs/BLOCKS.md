@@ -25,7 +25,11 @@ of a shared block.
   `'soft'`), `id?`, `schema?: boolean` (default `true`, emits one
   `FAQPage` JSON-LD block — set to `false` only if the page already emits
   its own). **Q&A always uses this component** — never a page-specific
-  FAQ markup/CSS.
+  FAQ markup/CSS. A blog post (`src/content/blog/*.md`) opts in via an
+  optional `faq: { q: string; a: string }[]` frontmatter field — the
+  template (`src/pages/blog/[slug].astro`) renders `Faq` automatically
+  for any post that has it, before the closing app-store CTA; a post
+  without the field renders no FAQ section and no `FAQPage` block.
 - **`src/components/play/LearningMosaic.astro`** — 4-item asymmetric
   mosaic of topic cards with optional inline links in the description.
   Props: `items: [LearningItem, LearningItem, LearningItem, LearningItem]`

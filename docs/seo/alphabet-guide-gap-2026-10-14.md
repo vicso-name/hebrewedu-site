@@ -74,13 +74,43 @@ is costing the guide rank for this cluster. Flagging it as a candidate,
 not a priority, pending a direct "hebrew alphabet" or "hebrew gematria"
 SERP pull.
 
-## Not assessed
+## Update 2026-10-14: real "hebrew alphabet" SERP pulled
 
-No SERP pull exists for the literal query "hebrew alphabet" in any
-research batch. If a future batch adds it, re-run this comparison
-against the real top 10 rather than the three proxies above — the
-proxy SERPs may both overweight (chart/course/pronunciation-specific
-intent) and underweight (the broader query may pull in more
-authoritative general-reference domains, e.g. Wikipedia, which appeared
-in two of the three proxies already) what the real "hebrew alphabet"
-SERP rewards.
+A direct SERP pull for the literal query now exists
+(`research/semantic-core-v5-alphabet-faq/2026-10-14/`, $0.002,
+owner-approved $0.01 cap). It changes the picture above:
+
+- **Organic is thin and non-authoritative for this guide's format.**
+  Only 6 of 10 depth slots are organic (AI Overview, Images, a
+  Knowledge Graph panel and People Also Ask all outrank the first
+  organic result). The 6 organic results are 3 YouTube videos, a stock
+  photo search page, a chart page (hebrew4christians.com) and a PDF
+  chart (chabad.org) — no guide-style competitor, and no HebrewEdu URL
+  present.
+- **PAA and the Knowledge Graph panel are the real signal**, not
+  organic. The PAA box returned 4 questions (letter order, Hebrew vs.
+  Aramaic history, Hebrew punctuation, "hello" in Hebrew — the last is
+  off-topic for this guide). The Knowledge Graph panel returned 5
+  on-topic question items (alphabetical order, styles, letter count,
+  pronunciation, numerical values/gematria) — confirming gap #3 below
+  (gematria) as a real, named gap on this exact query, not just a
+  general-completeness guess.
+- This resolves gap #1 (FAQ) with real question data and upgrades gap
+  #3 (numeric values) from "low-confidence" to **confirmed**: the
+  Knowledge Graph panel names "Numerical Values" directly for this
+  exact query.
+
+**Action taken:** a 6-question FAQ section was added to the guide
+(`Faq.astro`, `FAQPage` schema) using a mix of the real PAA box and the
+Knowledge Graph panel's questions — see
+`research/semantic-core-v5-alphabet-faq/2026-10-14/serp_parsed.md` for
+the full list and which questions were used vs. skipped. Gap #2 (audio)
+remains open — see the Alef Bet Rush audio-asset check logged
+separately for this task.
+
+## Superseded: proxy-based analysis (pre-2026-10-14 direct pull)
+
+The three-proxy-SERP analysis above was written before a direct pull
+for "hebrew alphabet" existed; the real pull doesn't contradict it
+(FAQ/audio were already identified as the top two gaps) but gap #3 is
+now confirmed rather than speculative, per the update above.
