@@ -22,12 +22,19 @@ in titles; other published lessons must not change.
   branch feat/lesson-<slug>.
 
 ## 2. Build
-- node scripts/normalize-lesson.mjs <slug> --dry-run.
+- node scripts/normalize-lesson.mjs <slug> --dry-run. The raw snapshot is
+  already fetched for all 22 letters (owner-letter-map.v2.json,
+  .local/alphabet-course-imports/) — no import step needed.
 - Unsupported block/exercise types: hold out with a reason in
   src/data/lessons/<slug>.json. Do not build new renderers here; if the type
   appears in 3+ unpublished lessons, report it as a recommended separate task.
 - Create the data file (stage map with theory first, copy fields, pinned
-  snapshot + SHA), then normalize. Preview only until step 7.
+  snapshot + SHA), then node scripts/normalize-lesson.mjs <slug> (write mode)
+  to produce src/content/lessons/<slug>.json.
+- Flip that letter's webImplemented and previewAvailable to true in
+  src/data/alphabet-course.json so the route renders under preview — this is
+  required for step 5's build and is not a publish (published/publishedAt/
+  editorialApproved stay false/null until step 7).
 
 ## 3. Editorial review
 - Write docs/hebrew-alphabet-lesson-<N>-editorial-review.md:
@@ -44,12 +51,14 @@ in titles; other published lessons must not change.
 ## 4. SEO
 - From docs/seo/core: primary keyword; title
   "<Letter> Hebrew Letter (<glyph>): <topic>" (<= 60 chars, no brand);
-  meta description (<= 155 chars); H1; link from the alphabet guide's
-  mention of this letter (added at publish). Check conflicts.
+  meta description (<= 155 chars); H1; link from the alphabet guide
+  (src/content/blog/hebrew-alphabet-complete-guide.md)'s mention of this
+  letter (added at publish, see Bet's "Practice Bet/Vet" link). Check
+  conflicts.
 
 ## 5. Double check (mandatory, as a reviewer, not as the author)
-Build with HEBREWEDU_LOCAL_COURSE_PREVIEW=1 and re-read the lesson JSON and
-rendered HTML:
+Build with HEBREWEDU_LOCAL_COURSE_PREVIEW=1 npm run build and re-read the
+lesson JSON and rendered HTML:
 - all applied corrections present; no TODO-EDITORIAL left; no vowel-length
   claims; no absolute always/never without the exception; >= 1 False in
   true/false; no duplicate examples; no source audio URLs;
@@ -59,8 +68,8 @@ rendered HTML:
   minus holdouts;
 - prev/next links, title, H1, meta as decided; other lessons' content JSON
   unchanged.
-- Run: tests, npm run check:layout, npm run build, npm run seo:build,
-  git diff --check. Fix and re-run until clean.
+- Run: node --test tests/*.test.mjs, npm run check:layout, npm run build,
+  npm run seo:build, git diff --check. Fix and re-run until clean.
 
 ## 6. Ask once
 Report in <= 15 lines: letter, corrections applied, holdouts, owner decisions
@@ -75,3 +84,9 @@ needed (with recommendations), title/meta, check results. Ask:
 - Re-run tests and build. Commit on the branch, merge into main, push.
 - Final message: commit hash, URL, and two reminders for the owner: check
   that GitHub Actions is green; request indexing in Search Console.
+
+## Note: raw snapshots
+Raw lesson snapshots live in .local/ (not in git). If the snapshot for the
+letter is missing (new machine, cleaned folder), run
+node scripts/import-alphabet-course.mjs --fetch first, then --audit, as
+described in docs/LESSON_PIPELINE.md, before step 2.
