@@ -1,9 +1,16 @@
+import { readdirSync } from 'node:fs';
+import { resolve } from 'node:path';
 import manifest from '../data/alphabet-course.json' with { type: 'json' };
 
 export const coursePath = '/learn/hebrew-alphabet/';
 export const courseTitle = 'Hebrew Alphabet Course for Beginners | HebrewEdu';
 export const courseDescription = 'Learn the Hebrew alphabet step by step with beginner explanations, examples and interactive practice. Start with Aleph and explore the 22-letter learning path.';
-const supportedLessonRoutes = new Set(['aleph']);
+// A route exists once its content file exists — derived from disk, not a hardcoded list.
+// Resolved from the project root (process.cwd(), set by `npm run build`/`npm test`/the
+// Astro CLI), not import.meta.url: this module can end up bundled into a build chunk
+// whose own URL no longer sits next to src/content/lessons/.
+const lessonsContentDir = resolve(process.cwd(), 'src/content/lessons');
+const supportedLessonRoutes = new Set(readdirSync(lessonsContentDir).filter(name => name.endsWith('.json')).map(name => name.slice(0, -'.json'.length)));
 
 function weekKey(value) {
   const d = new Date(`${value}T00:00:00Z`);

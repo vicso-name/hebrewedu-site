@@ -3,8 +3,12 @@ import assert from 'node:assert/strict';
 import { readFileSync, existsSync } from 'node:fs';
 import { normalizeLesson } from '../src/lib/lessons/normalize.mjs';
 import { lessonSchema, rawLessonSchema } from '../src/lib/lessons/schema.mjs';
+import { identityForSlug } from '../src/lib/lessons/identity.mjs';
+import { loadLessonOverrides } from '../src/lib/lessons/editorial.mjs';
 import { gradeAnswer, hebrewRuns } from '../src/lib/lessons/grading.mjs';
 const lesson = JSON.parse(readFileSync(new URL('../src/content/lessons/aleph.json', import.meta.url)));
+const alephIdentity = identityForSlug('aleph');
+const alephOverrides = loadLessonOverrides('aleph');
 const sourceFile = new URL('../.local/lesson-snapshots/lesson-1.20261011T193043064573Z.raw.json', import.meta.url);
 const hasPrivateSource = existsSync(sourceFile);
 // A synthetic adapter fixture keeps grading/schema tests portable without redistributing
@@ -24,7 +28,7 @@ const raw = hasPrivateSource ? JSON.parse(readFileSync(sourceFile)) : {
 const copy = value => structuredClone(value);
 
 test('offline normalization preserves all original blocks, questions, explanations and order', { skip: !hasPrivateSource && 'Private source-fidelity evidence is intentionally excluded from Git' }, () => {
-  assert.deepEqual(normalizeLesson(raw, lesson.provenance), lesson);
+  assert.deepEqual(normalizeLesson(raw, alephIdentity, alephOverrides), lesson);
   lesson.blocks.forEach((block, i) => assert.equal(block.text, (raw.studyMaterials[i].title ?? raw.studyMaterials[i].content).normalize('NFC')));
   lesson.exercises.forEach((exercise, i) => {
     assert.equal(exercise.sourceId, raw.exercises[i].id);
@@ -43,7 +47,7 @@ test('all 14 questions grade both correct and wrong IDs and retain grading after
 test('false is parsed explicitly, never by string truthiness', () => {
   const input = copy(raw);
   input.exercises[0].additionalData.correctAnswer = 'false';
-  const result = normalizeLesson(input, lesson.provenance);
+  const result = normalizeLesson(input, alephIdentity, alephOverrides);
   assert.equal(result.exercises[0].options.find(o => o.id === result.exercises[0].correctOptionId).label, 'False');
 });
 test('presentation forms normalize while vowel marks and shin/sin dots remain', () => {
@@ -57,7 +61,10 @@ test('presentation forms normalize while vowel marks and shin/sin dots remain', 
 test('invalid, unknown, duplicate and unmapped data fails closed', () => {
   const edits = [
     value => { value.blocks[0].type = 'UNKNOWN'; },
-    value => { value.blocks.pop(); },
+    // Block/exercise counts are no longer a fixed schema length (letters have
+    // different source counts); shortening the array alone no longer fails here —
+    // the normalizer checks counts against that letter's raw source instead.
+    value => { value.blocks[3].id = 'aleph-block-11'; },
     value => { value.blocks[2].imageUrl = 'https://example.com/unapproved.png'; },
     value => { value.blocks[2].illustration.mediaStatus = 'approved'; },
     value => { value.blocks[3].sourceIndex = 0; },
@@ -72,9 +79,9 @@ test('invalid, unknown, duplicate and unmapped data fails closed', () => {
   const unexpected = copy(raw); unexpected.secret = 'private';
   assert.equal(rawLessonSchema.safeParse(unexpected).success, false);
   const unmapped = copy(raw); unmapped.exercises[1].additionalData.correctAnswer = 'missing';
-  assert.throws(() => normalizeLesson(unmapped, lesson.provenance), /No answer match/);
+  assert.throws(() => normalizeLesson(unmapped, alephIdentity, alephOverrides), /No answer match/);
   const duplicate = copy(raw); duplicate.exercises[7].additionalData.choices[1] = 'פַּ';
-  assert.throws(() => normalizeLesson(duplicate, lesson.provenance), /Equivalent normalized choices/);
+  assert.throws(() => normalizeLesson(duplicate, alephIdentity, alephOverrides), /Equivalent normalized choices/);
 });
 test('normalized model contains no raw image URL, source scoring or raw answer field', () => {
   const serialized = JSON.stringify(lesson);
@@ -92,7 +99,7 @@ test('final owner-approved source is presented without question or explanation h
   assert.equal(q4.options.find(o => o.id === q4.correctOptionId).label, 'True');
   assert.equal(gradeAnswer(q4, q4.options.find(o => o.label === 'False').id).status, 'incorrect');
   assert.ok(lesson.blocks.filter(b => b.illustration).every(b => b.illustration.mediaStatus === 'withheld-pending-review'));
-  assert.deepEqual(normalizeLesson(raw, lesson.provenance), lesson);
+  assert.deepEqual(normalizeLesson(raw, alephIdentity, alephOverrides), lesson);
 });
 test('final synchronization retains all original IDs and the owner-approved unchanged blocks', { skip: !hasPrivateSource && 'Private historical snapshots are intentionally excluded from Git' }, () => {
   const original = JSON.parse(readFileSync(new URL('../.local/lesson-snapshots/lesson-1.raw.json', import.meta.url)));

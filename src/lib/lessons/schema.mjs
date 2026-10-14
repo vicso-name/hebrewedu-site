@@ -1,34 +1,65 @@
 import { z } from 'astro/zod';
+import { pocStudyTypes, pocExerciseTypes, studyTypes, exerciseTypes } from '../../../scripts/alphabet-course/validate.mjs';
+import { identityForSlug, identityForSourceId } from './identity.mjs';
 
 const text = z.string().min(1);
 const nfcText = text.refine(value => value === value.normalize('NFC'), 'Text must be NFC normalized');
-const blockTypes = ['MAIN_TITLE', 'SIMPLE_TEXT', 'TEXT_IMAGE', 'BOLD_TEXT', 'SUBTITLE'];
-const exerciseTypes = ['TRUE_FALSE', 'MULTIPLE_CHOICE_COLUMN', 'MULTIPLE_CHOICE_GRID'];
-const rawBlock = z.discriminatedUnion('type', blockTypes.map(type => z.object({
+
+// Types the renderers (StudyBlock.astro / Practice.astro) can actually present.
+export const renderedBlockTypes = pocStudyTypes;
+export const renderedExerciseTypes = pocExerciseTypes;
+// Types the source contract recognizes at all (superset of rendered types).
+// Anything recognized-but-not-rendered must be explicitly held out with a reason
+// in that letter's data file (src/data/lessons/<slug>.json) — see normalize.mjs.
+export const recognizedBlockTypes = studyTypes;
+export const recognizedExerciseTypes = exerciseTypes;
+
+const strictRenderedBlock = type => z.object({
   type: z.literal(type),
   ...(type === 'MAIN_TITLE' ? { title: text } : { content: text }),
   ...(type === 'TEXT_IMAGE' ? { description: z.string(), imageUrl: z.string().url() } : {}),
-}).strict()));
-const rawExercise = z.discriminatedUnion('type', exerciseTypes.map(type => z.object({
+}).strict();
+// Recognized-but-unrendered types are never read beyond their `type` discriminator
+// (they are only ever held out, not normalized), so their field shape is passthrough.
+const passthroughRecognizedBlock = type => z.object({ type: z.literal(type) }).passthrough();
+const rawBlock = z.discriminatedUnion('type', [
+  ...renderedBlockTypes.map(strictRenderedBlock),
+  ...recognizedBlockTypes.filter(type => !renderedBlockTypes.includes(type)).map(passthroughRecognizedBlock),
+]);
+
+const strictRenderedExercise = type => z.object({
   id: text, type: z.literal(type), content: text, tip: text, score: z.number(),
   additionalData: type === 'TRUE_FALSE'
     ? z.object({ correctAnswer: z.enum(['true', 'false']) }).strict()
     : z.object({ choices: z.array(text).length(type === 'MULTIPLE_CHOICE_COLUMN' ? 3 : 4), correctAnswer: text }).strict(),
-}).strict()));
-export const rawLessonSchema = z.object({
-  id: z.literal(1), title: text, description: text, category: z.literal('alphabet-lc'), order: z.literal(1),
-  studyMaterials: z.array(rawBlock).length(11), exercises: z.array(rawExercise).length(14),
 }).strict();
+const passthroughRecognizedExercise = type => z.object({ id: text, type: z.literal(type) }).passthrough();
+const rawExercise = z.discriminatedUnion('type', [
+  ...renderedExerciseTypes.map(strictRenderedExercise),
+  ...recognizedExerciseTypes.filter(type => !renderedExerciseTypes.includes(type)).map(passthroughRecognizedExercise),
+]);
+
+// No fixed block/exercise counts: a letter's raw source may have any number of
+// study materials/exercises. The normalizer checks the normalized count against
+// the raw count (minus explicit holdouts), rather than this schema pinning a length.
+export const rawLessonSchema = z.object({
+  id: z.number().int().positive(), title: text, description: text, category: z.literal('alphabet-lc'),
+  order: z.number().int().positive(), studyMaterials: z.array(rawBlock).min(1), exercises: z.array(rawExercise).min(1),
+}).strict().superRefine((raw, ctx) => {
+  const identity = identityForSourceId(raw.id);
+  if (!identity) { ctx.addIssue({ code: 'custom', message: `No owner-letter-map identity for source lesson id ${raw.id}` }); return; }
+  if (raw.order !== identity.order) ctx.addIssue({ code: 'custom', message: 'Raw lesson order does not match the owner letter map' });
+});
 
 const blockBase = { id: text, sourceIndex: z.number().int().min(0), text: nfcText, reviewFlags: z.array(text) };
-const block = z.discriminatedUnion('type', blockTypes.map(type => z.object({
+const block = z.discriminatedUnion('type', renderedBlockTypes.map(type => z.object({
   ...blockBase, type: z.literal(type),
   ...(type === 'TEXT_IMAGE' ? {
     illustration: z.object({ glyph: nfcText, label: nfcText, equivalent: nfcText, mediaStatus: z.literal('withheld-pending-review') }).strict(),
   } : {}),
 }).strict()));
 const exercise = z.object({
-  id: text, sourceId: text, type: z.enum(exerciseTypes), prompt: nfcText, explanation: nfcText,
+  id: text, sourceId: text, type: z.enum(renderedExerciseTypes), prompt: nfcText, explanation: nfcText,
   options: z.array(z.object({ id: text, label: nfcText }).strict()).min(2).max(4),
   correctOptionId: text, reviewFlags: z.array(text),
 }).strict().superRefine((item, ctx) => {
@@ -43,12 +74,15 @@ const exercise = z.object({
   }
 });
 
+// Identity fields are validated generically (not as per-letter literals) so one
+// schema can cover every lesson in the content collection; the cross-check against
+// the owner-letter-map below is what actually pins a lesson to its one correct letter.
 export const lessonSchema = z.object({
-  id: z.literal('aleph'), sourceId: z.literal(1), order: z.literal(1), glyph: z.literal('א'),
+  id: text, sourceId: z.number().int().positive(), order: z.number().int().positive(), glyph: nfcText,
   title: nfcText, description: nfcText, status: z.literal('local-review-only'), normalizationVersion: z.literal(1),
-  provenance: z.object({ source: z.literal('https://api.hebrewedu.com/api/lessons/1/?lang=en'), responseDate: text, sha256: z.string().regex(/^[a-f0-9]{64}$/) }).strict(),
+  provenance: z.object({ source: z.string().url(), responseDate: text, sha256: z.string().regex(/^[a-f0-9]{64}$/) }).strict(),
   editorialIssues: z.array(z.object({ id: text, summary: nfcText, detail: nfcText }).strict()),
-  blocks: z.array(block).length(11), exercises: z.array(exercise).length(14),
+  blocks: z.array(block).min(1), exercises: z.array(exercise).min(1),
 }).strict().superRefine((lesson, ctx) => {
   for (const [label, values] of [['blocks', lesson.blocks.map(b => b.id)], ['exercises', lesson.exercises.map(e => e.id)], ['source exercises', lesson.exercises.map(e => e.sourceId)], ['editorial issues', lesson.editorialIssues.map(i => i.id)]]) {
     if (new Set(values).size !== values.length) ctx.addIssue({ code: 'custom', message: `Duplicate ${label} IDs` });
@@ -57,10 +91,30 @@ export const lessonSchema = z.object({
   for (const item of [...lesson.blocks, ...lesson.exercises]) {
     if (item.reviewFlags.some(flag => !issues.has(flag))) ctx.addIssue({ code: 'custom', message: 'Unknown editorial flag' });
   }
-  if (lesson.blocks.some((b, index) => b.sourceIndex !== index || b.id !== `aleph-block-${index + 1}`)) {
-    ctx.addIssue({ code: 'custom', message: 'Study block order or positional IDs changed' });
+  // Block IDs/positions key off sourceIndex (not array position), so holding out an
+  // unsupported block leaves a sparse-but-still-ordered sourceIndex sequence.
+  let lastSourceIndex = -1;
+  for (const b of lesson.blocks) {
+    if (b.sourceIndex <= lastSourceIndex) ctx.addIssue({ code: 'custom', message: 'Study blocks must be strictly ordered by source index' });
+    lastSourceIndex = b.sourceIndex;
+    if (b.id !== `${lesson.id}-block-${b.sourceIndex + 1}`) ctx.addIssue({ code: 'custom', message: 'Study block ID must match its source position' });
   }
-  for (const type of blockTypes) if (!lesson.blocks.some(b => b.type === type)) ctx.addIssue({ code: 'custom', message: `Missing ${type} block` });
-  for (const type of exerciseTypes) if (!lesson.exercises.some(e => e.type === type)) ctx.addIssue({ code: 'custom', message: `Missing ${type} exercise` });
-  if (lesson.blocks[0].type !== 'MAIN_TITLE') ctx.addIssue({ code: 'custom', message: 'First block must be the lesson title' });
+  if (lesson.blocks[0]?.type !== 'MAIN_TITLE') ctx.addIssue({ code: 'custom', message: 'First block must be the lesson title' });
+  const identity = identityForSlug(lesson.id);
+  if (!identity) { ctx.addIssue({ code: 'custom', message: `Unknown lesson slug: ${lesson.id}` }); return; }
+  if (lesson.sourceId !== identity.sourceId || lesson.order !== identity.order || lesson.glyph !== identity.glyph || lesson.provenance.source !== identity.sourceUrl) {
+    ctx.addIssue({ code: 'custom', message: 'Lesson identity does not match the owner letter map' });
+  }
 });
+
+// A schema factory pinned to one letter's identity. The generic schemas above
+// already cross-check identity against the owner-letter-map; this adds a second,
+// explicit guard so a script invoked for one letter can't silently accept another
+// letter's raw/normalized data (e.g. running `normalize-lesson.mjs bet` against an
+// Aleph snapshot).
+export function createLessonSchema(identity) {
+  return {
+    rawLessonSchema: rawLessonSchema.refine(raw => raw.id === identity.sourceId, { message: `Raw lesson id must be ${identity.sourceId} for ${identity.slug}` }),
+    lessonSchema: lessonSchema.refine(lesson => lesson.id === identity.slug && lesson.sourceId === identity.sourceId, { message: `Lesson identity must be ${identity.slug}` }),
+  };
+}

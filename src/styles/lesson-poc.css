@@ -137,6 +137,7 @@
   .stage-actions { flex-wrap: wrap; }
   .stage-actions > span { flex-basis: 100%; }
   .stage-actions .btn { flex: 1; padding-inline: var(--space-sm); font-size: .8125rem; }
+  .lesson-pagination { flex-direction: column; align-items: stretch; }
   .question-count { flex-direction: column; gap: calc(var(--space-xs) * 0.5); }
   .answer-option { padding-inline: calc(var(--space-xs) * 1.5); gap: var(--space-xs); }
   .practice-navigation { flex-wrap: wrap; gap: calc(var(--space-xs) * 1.25); }
@@ -150,6 +151,7 @@
   html:has(.lesson-page) { scroll-behavior: auto; }
   .lesson-page * { transition: none !important; }
 }
+.lesson-pagination { display: flex; align-items: center; justify-content: space-between; gap: var(--space-sm); margin-block-start: calc(var(--space-sm) * 2); }
 .unavailable-question { padding-block: var(--space-sm); }
 .unavailable-question p:first-child { font-family: var(--font-display); font-weight: 600; font-size: 1.2rem; }
 .unavailable-question p + p { color: var(--ink-light); margin-block-start: var(--space-xs); }

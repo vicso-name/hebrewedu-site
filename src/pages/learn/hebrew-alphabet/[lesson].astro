@@ -8,21 +8,41 @@ import StudyBlock from '../../../components/lessons/StudyBlock.astro';
 import Practice from '../../../components/lessons/Practice.astro';
 import '../../../styles/lesson-poc.css';
 import { courseManifest, coursePath, lessonEnabled, localCoursePreview } from '../../../lib/alphabet-course.mjs';
+import { loadLessonOverrides } from '../../../lib/lessons/editorial.mjs';
 
 export async function getStaticPaths() {
-  if (!lessonEnabled('aleph', localCoursePreview(import.meta.env.DEV))) return [];
-  const lesson = await getEntry('lessons', 'aleph');
-  if (!lesson) throw new Error('The validated Aleph content is missing.');
-  return [{ params: { lesson: 'aleph' }, props: { lesson: lesson.data } }];
+  const preview = localCoursePreview(import.meta.env.DEV);
+  const paths = [];
+  for (const item of courseManifest.lessons) {
+    if (!lessonEnabled(item.slug, preview)) continue;
+    const lesson = await getEntry('lessons', item.slug);
+    if (!lesson) throw new Error(`The validated content for "${item.slug}" is missing.`);
+    paths.push({ params: { lesson: item.slug }, props: { lesson: lesson.data } });
+  }
+  return paths;
 }
 const { lesson } = Astro.props;
-const letterName = courseManifest.lessons.find(item => item.slug === lesson.id)?.name;
-if (!letterName) throw new Error('Lesson has no matching curriculum entry.');
-const published = courseManifest.lessons[0].published;
+const lessonMeta = courseManifest.lessons.find(item => item.slug === lesson.id);
+if (!lessonMeta) throw new Error('Lesson has no matching curriculum entry.');
+const letterName = lessonMeta.name;
+const published = lessonMeta.published;
+const totalLessons = courseManifest.lessons.length;
+const stageMap = loadLessonOverrides(lesson.id).stageMap;
 const stages = ['Theory', 'Examples', 'Practice', 'Results'];
 // Every source block occurs once. The examples retain their original relative order.
-const theoryIndices = [0, 1, 7];
-const exampleIndices = [2, 3, 4, 5, 6, 8, 9, 10];
+const theoryIndices = stageMap.theory;
+const exampleIndices = stageMap.examples;
+const preview = localCoursePreview(import.meta.env.DEV);
+function navTarget(meta, directionLabel) {
+  if (!meta) return null;
+  return lessonEnabled(meta.slug, preview)
+    ? { href: `${coursePath}${meta.slug}/`, label: `${directionLabel}: ${meta.name} ${meta.letter}` }
+    : { href: coursePath, label: 'Back to all lessons' };
+}
+const previousLessonMeta = courseManifest.lessons.find(item => item.order === lessonMeta.order - 1) ?? null;
+const nextLessonMeta = courseManifest.lessons.find(item => item.order === lessonMeta.order + 1) ?? null;
+const previousNav = navTarget(previousLessonMeta, 'Previous');
+const nextNav = navTarget(nextLessonMeta, 'Next');
 const schema = {
   '@context': 'https://schema.org',
   '@type': 'LearningResource',
@@ -46,7 +66,7 @@ const schema = {
     <main id="lesson-content">
       <Section>
         <div class="lesson-container">
-          <header class="lesson-header"><div class="lesson-identity"><div class="letter-token" aria-hidden="true"><bdi class="hebrew" lang="he" dir="rtl">א</bdi></div><div><p class="eyebrow">Hebrew alphabet · Lesson 1 of 22</p><p class="lesson-name">Aleph <bdi class="hebrew" lang="he" dir="rtl">א</bdi></p></div></div>
+          <header class="lesson-header"><div class="lesson-identity"><div class="letter-token" aria-hidden="true"><bdi class="hebrew" lang="he" dir="rtl">{lesson.glyph}</bdi></div><div><p class="eyebrow">Hebrew alphabet · Lesson {lessonMeta.order} of {totalLessons}</p><p class="lesson-name">{letterName} <bdi class="hebrew" lang="he" dir="rtl">{lesson.glyph}</bdi></p></div></div>
             {!published && <span class="local-preview-label">Local preview</span>}
           </header>
           <nav class="stage-navigation" aria-label="Lesson stages">
@@ -54,7 +74,7 @@ const schema = {
           </nav>
           <p class="sr-only" data-stage-announcement role="status" aria-live="polite" aria-atomic="true"></p>
           <section id="stage-theory" data-stage="theory" class="stage-panel" aria-labelledby="theory-title">
-            <div class="stage-heading"><span class="eyebrow">Step 1 of 4</span><h2 id="theory-title" data-stage-heading tabindex="-1">Meet Aleph</h2><p>The first letter of the <a href="/blog/hebrew-alphabet-complete-guide/">Hebrew alphabet</a>. Start with the letter, then look at the marks around it.</p></div>
+            <div class="stage-heading"><span class="eyebrow">Step 1 of 4</span><h2 id="theory-title" data-stage-heading tabindex="-1">Meet {letterName}</h2><p>The first letter of the <a href="/blog/hebrew-alphabet-complete-guide/">Hebrew alphabet</a>. Start with the letter, then look at the marks around it.</p></div>
             <div class="learning-card">
               <StudyBlock block={lesson.blocks[theoryIndices[0]]} />
               <div class="learning-objectives"><h2>What you’ll learn</h2><ul><li>Recognize Aleph: <bdi class="hebrew" lang="he" dir="rtl">א</bdi>.</li><li>Distinguish Patah, Kamatz Gadol and Hataf Patah by their shapes.</li><li>Identify these vowel marks in beginner practice questions.</li></ul></div>
@@ -82,6 +102,10 @@ const schema = {
             <noscript><p class="no-script">Interactive results need JavaScript. Read the questions above and expand their source answers to check your work.</p></noscript>
             <div class="stage-actions" data-enhanced hidden><button type="button" class="btn lesson-secondary" data-stage-target="practice">Back: Practice</button><button type="button" class="text-button" data-stage-target="theory">Revisit theory</button></div>
           </section>
+          {(previousNav || nextNav) && <nav class="lesson-pagination" aria-label="Lesson navigation">
+            {previousNav ? <a class="btn lesson-secondary" href={previousNav.href}><span aria-hidden="true">←</span> {previousNav.label}</a> : <span />}
+            {nextNav ? <a class="btn lesson-primary" href={nextNav.href}>{nextNav.label} <span aria-hidden="true">→</span></a> : <span />}
+          </nav>}
         </div>
       </Section>
     </main>

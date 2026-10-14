@@ -1,0 +1,54 @@
+{
+  "slug": "aleph",
+  "title": "Aleph: three vowel marks",
+  "editorialIssues": [
+    {
+      "id": "provisional-media",
+      "summary": "Illustration pending approval",
+      "detail": "The original image is withheld until accuracy and reuse are approved. The Unicode form and written description provide a provisional textual equivalent."
+    },
+    {
+      "id": "unintroduced-letters",
+      "summary": "Optional practice refinement",
+      "detail": "Some mark-recognition distractors use letters not introduced in this lesson. Beginner scaffolding can be improved separately from the approved source synchronization."
+    },
+    {
+      "id": "true-false-balance",
+      "summary": "Optional question balance refinement",
+      "detail": "All five source true/false statements are marked true. The owner explicitly retains Q4 True; this is not an answer-integrity or release failure."
+    }
+  ],
+  "illustrations": {
+    "2": { "glyph": "אַ", "label": "Patah", "equivalent": "Aleph with a single horizontal vowel mark beneath it." },
+    "4": { "glyph": "אָ", "label": "Kamatz Gadol", "equivalent": "Aleph with a small T-shaped vowel mark beneath it." },
+    "6": { "glyph": "אֲ", "label": "Hataf Patah", "equivalent": "Aleph with a horizontal vowel mark and two vertical dots beneath it." }
+  },
+  "blockFlags": {
+    "2": ["provisional-media"],
+    "4": ["provisional-media"],
+    "6": ["provisional-media"]
+  },
+  "exerciseFlags": {
+    "1": ["true-false-balance"],
+    "3": ["unintroduced-letters"],
+    "4": ["true-false-balance"],
+    "7": ["true-false-balance"],
+    "8": ["unintroduced-letters"],
+    "9": ["true-false-balance"],
+    "12": ["unintroduced-letters"],
+    "13": ["true-false-balance"]
+  },
+  "stageMap": {
+    "theory": [0, 1, 7],
+    "examples": [2, 3, 4, 5, 6, 8, 9, 10]
+  },
+  "holdOuts": {
+    "blocks": [],
+    "exercises": []
+  },
+  "source": {
+    "rawSnapshotPath": ".local/lesson-snapshots/lesson-1.20261011T193043064573Z.raw.json",
+    "sha256": "97351799e0a4bc45718cf082486c6584b7acb55bc412aeaea43b81e3cab7bb6a",
+    "responseDate": "2026-10-11T19:30:43.064573Z"
+  }
+}

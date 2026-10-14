@@ -20,7 +20,9 @@ Read `docs/LAYOUT.md` before any UI work.
   `global.css` (or the shared font file it imports) — never in a page- or
   component-level stylesheet.
 - A new lesson is a new JSON file in `src/content/lessons/` — never a new
-  route or new lesson-specific CSS file.
+  route or new lesson-specific CSS file. Read `docs/LESSON_PIPELINE.md` for
+  how to add a letter (identity, dry run, editorial data file, normalize,
+  enable).
 - Reuse an existing component before creating a new one. Before building
   any section, check `docs/BLOCKS.md` and reuse; Q&A always uses
   `Faq.astro`; never create a page-specific copy of a shared block.
