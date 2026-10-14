@@ -5,3 +5,6 @@ interface Props { text: string }
 const { text } = Astro.props;
 ---
 <span class="translit-b" aria-hidden="true">[</span><span class="translit-t">{text}</span><span class="translit-b" aria-hidden="true">]</span>
+<style>
+  .translit-t, .translit-b { font-weight: 500; color: var(--ink-translit); }
+</style>

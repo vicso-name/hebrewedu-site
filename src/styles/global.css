@@ -26,6 +26,7 @@
   --ink-mid:     #374151;
   --ink-light:   #6B7280;
   --ink-subtle:  #9CA3AF;
+  --ink-translit: #707070; /* no existing neutral is close enough (ink-light #6B7280 skews blue); shared Transliteration component + PhraseCard transliteration */
   --border:      #E5E7EB;
   --border-dark: #D1D5DB;
   --bg:          #F8F8FF;

@@ -10,7 +10,6 @@
 .phrases-page [id] { scroll-margin-top: 88px; }
 .phrases-page :focus-visible { outline: 3px solid var(--brand-dark); outline-offset: 4px; }
 .phrases-page .phrases-hebrew { font-family: var(--font-hebrew); font-size: 1.6rem; line-height: 1.75; letter-spacing: normal; unicode-bidi: isolate; color: var(--ink); }
-.phrases-page .translit-b { color: var(--ink-mid); font-weight: 500; }
 .phrases-page p, .phrases-page li { overflow-wrap: anywhere; }
 .phrases-page h2, .phrases-page h3 { text-wrap: balance; }
 .phrases-preview { color: #78350f; background: var(--amber-bg); padding-block: calc(var(--space-xs) * 1.5); font-size: .875rem; }
@@ -44,8 +43,7 @@
 .phrases-jump-links a:hover { border-color: var(--brand-dark); background: var(--brand-light); }
 .phrases-jump-links a span { color: var(--brand-dark); font-weight: 700; }
 .phrase-group { margin-top: var(--space-lg); }
-.phrase-group-heading { display: flex; gap: var(--space-sm); align-items: baseline; margin-bottom: calc(var(--space-xs) * 2.5); }
-.phrase-group-number { color: var(--brand-dark); font-size: .875rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+.phrase-group-heading { margin-bottom: calc(var(--space-xs) * 2.5); }
 .phrase-group-heading h3 { font-family: var(--font-display); font-size: clamp(1.3rem, 2.5vw, 1.6rem); line-height: 1.3; font-weight: 700; }
 .phrase-group-heading p { color: var(--ink-mid); margin-top: calc(var(--space-xs) * .7); }
 
@@ -54,7 +52,9 @@
    --surface-soft, ink-muted -> --ink-mid, border-hover -> --border-dark,
    border-control -> --ink-light, brand -> --brand-dark, brand-tint -> --brand-light,
    on-brand -> --white, radius-md -> --r-md, radius-lg -> --r-lg, radius-pill -> --r-full,
-   focus -> global --focus token (own :focus-visible rule, self-contained). */
+   focus -> global --focus token (own :focus-visible rule, self-contained). Transliteration
+   text/brackets use --ink-translit (own token, added to global.css — no existing neutral
+   was close enough to #707070), styled in the shared Transliteration.astro component. */
 .phrase-grid { list-style: none; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-md); align-items: start; }
 .pc { position: relative; display: flex; flex-direction: column; gap: var(--space-sm); max-width: 480px; padding: var(--space-sm-plus); background: var(--white); color: var(--ink); border: 1px solid var(--border); border-radius: var(--r-lg); font-family: var(--font-body); transition: border-color .15s ease, box-shadow .15s ease; }
 .pc:hover { border-color: var(--border-dark); box-shadow: var(--shadow-card-hover); }
@@ -63,16 +63,16 @@
 .pc-heb { min-width: 0; text-align: right; }
 .pc-he { margin: 0; font-family: var(--font-hebrew); font-weight: 500; font-size: 32px; line-height: 48px; color: var(--ink); text-wrap: balance; overflow-wrap: anywhere; }
 .pc--long .pc-he { font-size: 26px; line-height: 40px; }
-.pc-tr { margin: var(--space-2xs) 0 0; font-size: 15px; line-height: 22px; font-weight: 600; letter-spacing: .01em; color: var(--brand-dark); }
+.pc-tr { margin: var(--space-2xs) 0 0; font-size: 15px; line-height: 22px; letter-spacing: .01em; }
 .pc-body { display: flex; flex-direction: column; gap: var(--space-xs); }
 .pc-en { margin: 0; font-family: var(--font-display); font-size: 18px; line-height: 24px; font-weight: 700; color: var(--ink); }
 .pc-note { margin: 0; font-size: 15px; line-height: 22px; color: var(--ink-mid); }
 .pc-vars { display: flex; flex-direction: column; gap: var(--space-xs); padding-top: var(--space-sm); border-top: 1px solid var(--border); }
 .pc-var { display: flex; align-items: center; justify-content: space-between; gap: var(--space-xs-plus); }
 .pc-var-l { font-size: 13px; line-height: 16px; font-weight: 600; color: var(--ink-mid); }
-.pc-seg { display: inline-flex; border: 1px solid var(--ink-light); border-radius: var(--r-full); background: var(--white); }
-.pc-seg button { min-height: 44px; min-width: 80px; padding: 0 var(--space-sm); border: 0; border-radius: var(--r-full); background: transparent; font: 600 14px/20px var(--font-body); color: var(--ink-mid); cursor: pointer; margin: -1px; }
-.pc-seg button:hover { color: var(--ink); background: var(--surface-soft); }
+.pc-seg { display: inline-flex; gap: 2px; padding: 3px; border: 1px solid var(--ink-light); border-radius: var(--r-full); background: var(--surface); }
+.pc-seg button { min-height: 38px; min-width: 80px; padding: 0 var(--space-sm); border: 0; border-radius: var(--r-full); background: transparent; font: 600 14px/20px var(--font-body); color: var(--ink-mid); cursor: pointer; }
+.pc-seg button:hover:not([aria-checked="true"]) { color: var(--ink); background: var(--surface-soft); }
 .pc-seg button[aria-checked="true"] { background: var(--brand-dark); color: var(--white); }
 @media (max-width: 1023px) { .phrase-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 639px) { .phrase-grid { grid-template-columns: 1fr; gap: var(--space-sm); } .pc { padding: var(--space-sm); } .pc-he { font-size: 28px; line-height: 42px; } .pc--long .pc-he { font-size: 24px; line-height: 36px; } }
@@ -134,7 +134,10 @@
   .phrases-breadcrumbs { margin-bottom: var(--space-sm); }
   .phrases-first-card { padding: calc(var(--space-xs) * 2.5); }
   .phrases-first-card .phrases-hebrew { font-size: 2.75rem; }
-  .phrase-group-heading { gap: calc(var(--space-xs) * 1.5); }
+}
+@media (max-width: 639px) {
+  .phrases-jump-links ul { flex-direction: column; }
+  .phrases-jump-links a { width: 100%; }
 }
 @media (prefers-reduced-motion: reduce) {
   html:has(.phrases-page) { scroll-behavior: auto; }

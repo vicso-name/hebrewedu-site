@@ -59,7 +59,7 @@ const resources = [
         <nav class="phrases-jump-links" aria-label="Phrase situations"><ul>{phraseGroups.map((group, index) => <li><a href={`#${group.id}`}><span aria-hidden="true">0{index + 1}</span>{group.title}</a></li>)}</ul></nav>
         {phraseGroups.map((group, groupIndex) => <>
           <div class="phrase-group" id={group.id} role="region" aria-labelledby={`${group.id}-title`}>
-            <header class="phrase-group-heading"><span class="phrase-group-number" aria-hidden="true">0{groupIndex + 1}</span><div><h3 id={`${group.id}-title`}>{group.title}</h3><p>{group.description}</p></div></header>
+            <header class="phrase-group-heading"><div><h3 id={`${group.id}-title`}>{group.title}</h3><p>{group.description}</p></div></header>
             <div class="phrase-grid" role="list">{group.phrases.map((phrase) => <PhraseCard phrase={phrase} />)}</div>
           </div>
           {groupIndex === 1 && <aside class="phrases-inline-app" aria-labelledby="phrases-mid-title"><div><p id="phrases-mid-title" class="phrases-app-label">Build a regular Hebrew practice habit</p><p>Keep building with vocabulary review and structured lessons in HebrewEdu.</p></div><StoreButtons location="hebrew_phrases_mid" height={48} /></aside>}

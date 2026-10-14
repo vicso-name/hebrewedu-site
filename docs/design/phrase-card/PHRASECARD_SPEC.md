@@ -33,9 +33,10 @@ All contrast ratios below were computed (WCAG 2.x), not estimated.
 | `--border` | `#e3e6ee` | EXISTING · ASSUMED | Card outline, divider above variants (decorative) | — |
 | `--border-hover` | `#c5cad6` | NEW · PROPOSED | Card outline on hover | — |
 | `--border-control` | `#7a8396` | NEW · PROPOSED | Play button outline, segment track outline | 3.8:1 / 3.5:1 (≥3:1 non-text) |
-| `--brand` | `#4f46e5` | EXISTING · ASSUMED (the "01" index colour) | Translit text, selected segment, playing state, progress bar | 6.3:1 / 5.8:1 |
+| `--brand` | `#4f46e5` | EXISTING · ASSUMED (the "01" index colour) | Selected segment, playing state, progress bar | 6.3:1 / 5.8:1 |
 | `--brand-tint` | `#eef0fd` | NEW · PROPOSED | Play button hover fill | — |
 | `--on-brand` | `#ffffff` | EXISTING · ASSUMED | Text and icon on `--brand` | 6.3:1 |
+| `--ink-translit` | `#707070` | NEW · site token (no existing neutral is close enough; `--border-control`/`--ink-light` skews blue) | Transliteration text and brackets | 4.6:1 on surface |
 | `--focus` | `= var(--brand)` | NEW · PROPOSED (alias) | Focus ring | 6.3:1 on surface |
 
 ### 2.2 Fonts
@@ -55,8 +56,8 @@ Rubik must be loaded with the **Hebrew subset** at weight **500**, plus 400 if t
 | Hebrew phrase | hebrew | 32 / 48 px (desktop ≥640) | 500 | ink | NEW · PROPOSED |
 | Hebrew phrase, mobile | hebrew | 28 / 42 px (<640) | 500 | ink | NEW · PROPOSED |
 | Hebrew phrase, long (`.pc--long`) | hebrew | 26 / 40 px desktop, 24 / 36 px mobile | 500 | ink | NEW · PROPOSED |
-| Transliteration | body | 15 / 22 px, letter-spacing 0.01em | 600 | brand | NEW · PROPOSED |
-| Translit brackets `[ ]` | body | inherit | 500 | ink-muted | NEW · PROPOSED |
+| Transliteration | body | 15 / 22 px, letter-spacing 0.01em | 500 | ink-translit | NEW · PROPOSED |
+| Translit brackets `[ ]` | body | inherit | 500 | ink-translit (same grey as the text) | NEW · PROPOSED |
 | English meaning (h3) | heading | 18 / 24 px | 700 | ink | EXISTING · ASSUMED (maps to the site's h3/h4) |
 | Usage note | body | 15 / 22 px | 400 | ink-muted | EXISTING · ASSUMED (site body-small) |
 | Variant row label | body | 13 / 16 px | 600 | ink-muted | NEW · PROPOSED |
@@ -104,8 +105,8 @@ article.pc  (.has-audio when audio exists)        padding 20 (16 <640), gap 16
 └─ div.pc-vars  (optional)       border-top 1px --border, padding-top 16, rows gap 8
     └─ div.pc-var × 1–2          flex, space-between, align center, gap 12
         ├─ span.pc-var-l         "Said by" / "Said to"
-        └─ div.pc-seg            radiogroup, pill track 1px --border-control
-            └─ button × 2        min 80×44, padding 0 16, "Man" | "Woman"
+        └─ div.pc-seg            radiogroup, pill track 1px --ink-light, padding 3, gap 2, bg --surface
+            └─ button × 2        min 80×38 (track ≥44 total with padding), padding 0 16, "Man" | "Woman"
 ```
 
 - **Card width:** set by the grid, never fixed. In practice it is 300–360px, which keeps notes at about 40–48 characters per line. Don't let a single card run wider than 480px.
@@ -171,7 +172,7 @@ article.pc  (.has-audio when audio exists)        padding 20 (16 <640), gap 16
 | 1 | **Basic** (no audio, no forms) | Panel is Hebrew only; card border `--border`, no shadow | — |
 | 2 | **Audio, idle** | Play button: bg `--surface`, 1px `--border-control`, ink play icon 20px | — |
 | 3 | **Audio, playing** | Card border becomes `--brand`. Play button bg and border `--brand`, white pause icon. Progress bar `--brand` 3px grows 0→100% along the panel's bottom edge. `aria-label="Pause pronunciation"`. | Click or Enter/Space on the play button |
-| 4 | **Gender variants, Said by** | Divider plus one segment row. Selected segment: bg `--brand`, text `--on-brand`. Unselected: transparent, `--ink-muted`; on hover `--ink` on `--surface-sunken`. | — |
+| 4 | **Gender variants, Said by** | Divider plus one segment row. Selected segment: bg `--brand-dark`, text `--white`, inside the track's own padding (no border overlap). Unselected: transparent, `--ink-mid`; on hover (unselected only) `--ink` on `--surface-soft`, still inside the segment's own bounds. | — |
 | 5 | **Gender variants, Said to** | Same as 4, labelled "Said to" | — |
 | 6 | **Four forms** | Two rows (Said by, Said to); `.pc--long` type size | — |
 | 7 | **Hover, card** | Border `--border-hover` plus `--shadow-card-hover`; transition 150ms ease on border-color and box-shadow. No lift or translate. The card is not a link and has no pointer cursor. | `:hover` |
@@ -266,7 +267,7 @@ Follows the WAI-ARIA **radio group** pattern:
 - [ ] No index numbers on cards or groups.
 - [ ] Hebrew is the largest text on the card, right-aligned, `lang="he" dir="rtl"`, in Rubik 500.
 - [ ] Transliteration in brackets, brand colour, brackets `aria-hidden`.
-- [ ] Every target is at least 44×44 (play button, segments).
+- [ ] Every target is at least 44×44 (play button) or, for segments, 38px tall sitting inside a track whose padding brings the total to ≥44.
 - [ ] Tab reaches the play button, then each switch group once. Arrow keys change the form, and the form is announced.
 - [ ] Only one clip plays at a time. Switching forms stops playback.
 - [ ] Focus ring is visible on every control. No `outline: none` without a replacement.
