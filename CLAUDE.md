@@ -49,3 +49,10 @@ Before creating or retargeting a page, check `docs/seo/core/`: assign
 its cluster, avoid cannibalization; after publishing, update
 `keywords.csv`/`pages.csv` and run `npm run seo:build`. Never call paid
 SEO APIs (DataForSEO or similar) without the user's explicit approval.
+
+# Package manager
+
+Package manager is npm (Node 26, npm 11; CI uses the same). Never use
+pnpm or yarn here. After adding or removing a dependency, run
+`npm install` and commit `package.json` and `package-lock.json`
+together.
