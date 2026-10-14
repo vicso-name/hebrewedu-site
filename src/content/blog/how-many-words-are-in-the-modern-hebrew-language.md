@@ -250,7 +250,7 @@ Very human.
 
 Modern Hebrew looks intimidating at first mostly because of the writing system.
 
-But vocabulary growth in Hebrew is often faster than learners expect once the alphabet and core patterns become familiar.
+But vocabulary growth in Hebrew is often faster than learners expect once the [alphabet](/blog/hebrew-alphabet-complete-guide/) and core patterns become familiar.
 
 The language starts dense...
 then gradually becomes predictable.

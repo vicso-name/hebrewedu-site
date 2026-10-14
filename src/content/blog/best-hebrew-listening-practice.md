@@ -59,7 +59,7 @@ Finding content at this level takes some deliberate searching. It gets easier as
 
 ## Level A1: Complete Beginner
 
-You know some letters. You recognize שלום (*shalom*), תודה (*toda*), מים (*mayim* — water).
+You know [some letters](/blog/hebrew-alphabet-complete-guide/). You recognize שלום (*shalom*), תודה (*toda*), מים (*mayim* — water).
 
 At this stage, authentic native Hebrew content is not your best tool. It's too fast, too dense, too far above your current ability to extract meaning from it.
 

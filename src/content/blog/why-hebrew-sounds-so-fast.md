@@ -103,7 +103,7 @@ A beautifully inefficient system.
 ## Hebrew Removes Helpful Clues
 
 English gives learners lots of support:
-- familiar alphabet,
+- a [familiar alphabet](/blog/hebrew-alphabet-complete-guide/),
 - recognizable word roots,
 - predictable sentence rhythm,
 - tons of repeated international vocabulary.
