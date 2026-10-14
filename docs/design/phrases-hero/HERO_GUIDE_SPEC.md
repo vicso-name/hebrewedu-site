@@ -4,7 +4,8 @@ Page: `hebrewedu.com/learn/hebrew-phrases/`. Covers the first two sections only:
 Reference build: `hero-guide.html`. It is standalone and uses the real `global.css` tokens and the PhraseCard as it ships. Two 360px frames sit at the bottom.
 
 **Chosen directions**
-- **H-A · Card deck** (hero): three real PhraseCards stacked, cards only (no panel), with five situation tiles below.
+- **H-A · Card deck** (hero): three real PhraseCards stacked, cards only (no panel). The situation tiles originally
+  placed below the deck were removed from the hero — the tiles above the phrase groups in `#phrases` (`aria-label="Phrase situations"`) are the only instance on the page.
 - **G-B · Anatomy** (guide): one real PhraseCard, plus a legend beside it (no numbered markers).
 
 **Rejected directions** (both in the design system preview):

@@ -68,7 +68,6 @@
 
 /* Hero: card deck (option H-A) */
 .phrases-hero--deck .phrases-hero-layout { grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); }
-.phrases-hero .phrases-situations { margin-top: var(--space-xl); }
 .phrases-deck { --deck-peek: 124px; position: relative; isolation: isolate; }
 .phrases-deck-list { list-style: none; position: relative; padding-top: calc(var(--deck-peek) * 2); }
 .phrases-deck-list > li { position: relative; z-index: 3; }
@@ -147,7 +146,6 @@
   .phrases-hero-layout, .phrase-grid, .phrase-dialogues, .phrases-resources { grid-template-columns: 1fr; }
   .phrases-hero-layout { gap: var(--space-md); }
   .phrases-hero--deck .phrases-hero-layout { grid-template-columns: 1fr; }
-  .phrases-hero .phrases-situations { margin-top: var(--space-lg); }
   .phrases-breadcrumbs { margin-bottom: var(--space-sm); }
   .phrases-anatomy { grid-template-columns: 1fr; gap: var(--space-lg); }
 }
