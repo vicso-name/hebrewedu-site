@@ -103,3 +103,13 @@ Write **two original two-turn micro-dialogues**, each with Hebrew, transliterati
 - [ ] Both app placements use current `site.stores`, correct badge labels, external-link protection and distinct CTA-location hooks. No invented app feature, audio asset, tracking request or installation gate.
 
 Only this brief is created in the planning step. No API calls, new SERP/discovery work, implementation, core edits, commits, pushes or deployment. The next work is the defined implementation with linguistic review as a content-quality gate, not another SEO investigation.
+
+## Release note (2026-10-14)
+
+The page was published without the native-speaker/qualified-editor sign-off
+described in "Release verification" above. The user (product owner) explicitly
+approved release without that external review, accepting the residual risk on
+translation/nikud naturalness for the 30 entries, two dialogues and exercises.
+Recorded in `src/data/hebrew-phrases.ts` (`phraseReview`): `reviewer: 'Viktor
+(product owner)'`, `qualification` notes the missing native-speaker check,
+`editorialApproved: true`, `published: true`, `publishedAt: '2026-10-14'`.

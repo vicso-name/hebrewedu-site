@@ -1,15 +1,14 @@
 ---
 import { site } from '../data/site';
 import { coursePath, hubEnabled, localCoursePreview } from '../lib/alphabet-course.mjs';
+import { phrasesPath } from '../lib/hebrew-phrases.mjs';
 
 const showCourse = hubEnabled(localCoursePreview(import.meta.env.DEV));
 const links = [
   { label: 'Play', href: '/play/' },
   ...(showCourse ? [{ label: 'Alphabet Course', href: coursePath }] : []),
-  { label: 'Features',     href: '/#features'     },
-  { label: 'How it works', href: '/#how-it-works'  },
-  { label: 'Reviews',      href: '/#reviews'       },
-  { label: 'Blog',         href: '/blog/'          },
+  { label: 'Phrases', href: phrasesPath },
+  { label: 'Blog',    href: '/blog/'    },
 ];
 ---
 

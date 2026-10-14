@@ -148,12 +148,14 @@ export const phraseQuestions = [
 ];
 
 // Leave human approval and publication explicit. References alone do not release teaching content.
+// Released 2026-10-14 by product owner approval, without the external native-speaker
+// sign-off originally planned — see docs/hebrew-phrases-landing-implementation-brief.md.
 export const phraseReview = {
-  editorialApproved: false,
-  reviewer: null as string | null,
-  qualification: null as string | null,
-  reviewedAt: null as string | null,
-  approvedContentSha256: null as string | null,
-  published: false,
-  publishedAt: null as string | null,
+  editorialApproved: true,
+  reviewer: 'Viktor (product owner)' as string | null,
+  qualification: 'Product owner editorial approval; references checked in-app. No external native-speaker sign-off.' as string | null,
+  reviewedAt: '2026-10-14' as string | null,
+  approvedContentSha256: '3a8320ae44f8d3378f8432bd15e91e185055bd37f552f96c2cd2bc88b49ce997' as string | null,
+  published: true,
+  publishedAt: '2026-10-14' as string | null,
 };

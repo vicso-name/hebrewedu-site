@@ -4,12 +4,10 @@ const year = new Date().getFullYear();
 
 const links = [
   { label: 'Play', href: '/play/' },
-  { label: 'Features',     href: '/#features'    },
-  { label: 'How it works', href: '/#how-it-works' },
-  { label: 'Blog',         href: '/blog/'         },
+  { label: 'Blog', href: '/blog/' },
   ...(phrasesPublished() ? [{ label: 'Hebrew Phrases', href: phrasesPath }] : []),
-  { label: 'Terms',        href: '/terms/'        },
-  { label: 'Privacy',      href: '/website-privacy/' },
+  { label: 'Terms',   href: '/terms/'   },
+  { label: 'Privacy', href: '/website-privacy/' },
 ];
 ---
 

@@ -69,15 +69,22 @@ test('dialogues and all three exercise choices use taught records and stable gra
 });
 
 test('draft gate omits publication, sitemap and production routes, regardless of the old environment override', () => {
-  assert.equal(phraseReview.editorialApproved, false);
-  assert.equal(phraseReview.published, false);
-  assert.equal(phrasesPublished(), false);
-  assert.equal(phrasesEnabled(), false);
-  assert.deepEqual(phrasesSitemapEntries(), []);
+  const draft = { editorialApproved: false, reviewer: null, qualification: null, reviewedAt: null, approvedContentSha256: null, published: false, publishedAt: null };
+  assert.equal(phrasesPublished(draft), false);
+  assert.deepEqual(phrasesSitemapEntries(draft), []);
   assert.equal(localPhrasesPreview(true), true);
   assert.equal(localPhrasesPreview(false, { HEBREWEDU_LOCAL_PHRASES_PREVIEW: '1' }), false);
-  assert.equal(phrasesEnabled(localPhrasesPreview(false)), false);
-  assert.equal(phrasesEnabled(localPhrasesPreview(true)), true);
+});
+
+test('published release is recorded with named, dated approval matching the exact teaching content', () => {
+  assert.equal(phraseReview.editorialApproved, true);
+  assert.ok(phraseReview.reviewer?.trim());
+  assert.ok(phraseReview.qualification?.trim());
+  assert.equal(phraseReview.approvedContentSha256, phraseContentSha256);
+  assert.equal(phraseReview.published, true);
+  assert.equal(phrasesPublished(), true);
+  assert.equal(phrasesEnabled(), true);
+  assert.deepEqual(phrasesSitemapEntries(), [{ url: phrasesPath, lastmod: phraseReview.publishedAt, priority: '0.8', changefreq: 'monthly' }]);
 });
 
 test('release fails closed without named, dated approval matching the exact teaching content', () => {
@@ -90,7 +97,8 @@ test('release fails closed without named, dated approval matching the exact teac
     { approvedContentSha256: '0'.repeat(64) }, { publishedAt: null }, { publishedAt: '2025-12-31' },
   ]) assert.throws(() => phrasesPublished({ ...approved, ...change }), /release requires/);
   assert.throws(() => phrasesPublished(approved, 'changed-content'), /exact current content/);
-  assert.throws(() => phrasesPublished({ ...phraseReview, publishedAt: '2026-01-02' }), /Draft/);
+  const draft = { editorialApproved: false, reviewer: null, qualification: null, reviewedAt: null, approvedContentSha256: null, published: false, publishedAt: null };
+  assert.throws(() => phrasesPublished({ ...draft, publishedAt: '2026-01-02' }), /Draft/);
 });
 
 test('metadata describes only the resource and real Home / Phrases breadcrumb', () => {
@@ -103,7 +111,7 @@ test('metadata describes only the resource and real Home / Phrases breadcrumb', 
 });
 
 // Run after the ordinary production build. No preview flag or approval mutation is used.
-test('production output contains no draft route, sitemap URL or live incoming link', async () => {
+test('production output contains the published route, sitemap URL and a live incoming link', async () => {
   const dist = new URL('../dist/', import.meta.url);
   assert.ok((await stat(dist)).isDirectory(), 'Run npm run build before this output check');
   const htmlFiles = [];
@@ -116,9 +124,14 @@ test('production output contains no draft route, sitemap URL or live incoming li
   }
   await visit(dist);
   assert.ok(htmlFiles.length);
-  assert.ok(!htmlFiles.some(path => path.pathname.endsWith('/learn/hebrew-phrases/index.html')));
-  assert.ok(!(await readFile(new URL('sitemap.xml', dist), 'utf8')).includes(`https://hebrewedu.com${phrasesPath}`));
+  assert.ok(htmlFiles.some(path => path.pathname.endsWith('/learn/hebrew-phrases/index.html')));
+  assert.ok((await readFile(new URL('sitemap.xml', dist), 'utf8')).includes(`https://hebrewedu.com${phrasesPath}`));
+  let hasLiveInboundLink = false;
   for (const path of htmlFiles) {
-    assert.doesNotMatch(await readFile(path, 'utf8'), /href=["'](?:https:\/\/hebrewedu\.com)?\/learn\/hebrew-phrases\//);
+    if (/href=["'](?:https:\/\/hebrewedu\.com)?\/learn\/hebrew-phrases\//.test(await readFile(path, 'utf8'))) {
+      hasLiveInboundLink = true;
+      break;
+    }
   }
+  assert.ok(hasLiveInboundLink, 'Expected at least one page to link to the published phrases page');
 });
