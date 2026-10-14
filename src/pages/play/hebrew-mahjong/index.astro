@@ -1,5 +1,5 @@
 ---
-import Faq from '../../../components/home/Faq.astro';
+import Faq from '../../../components/Faq.astro';
 import Layout from '../../../layouts/Layout.astro';
 import Nav from '../../../components/Nav.astro';
 import Footer from '../../../components/Footer.astro';
@@ -71,14 +71,6 @@ const schema = {
         position: i + 1,
         name,
         item: ['https://hebrewedu.com/', playUrl, url][i],
-      })),
-    },
-    {
-      '@type': 'FAQPage',
-      mainEntity: faqItems.map(({ q, a }) => ({
-        '@type': 'Question',
-        name: q,
-        acceptedAnswer: { '@type': 'Answer', text: a },
       })),
     },
   ],

@@ -1,5 +1,5 @@
 ---
-import Faq from '../../components/home/Faq.astro';
+import Faq from '../../components/Faq.astro';
 import KeyArt from '../../components/play/KeyArt.astro';
 import Layout from '../../layouts/Layout.astro';
 import Nav from '../../components/Nav.astro';
@@ -91,11 +91,9 @@ const learningTopics = [
     </Section>
     <Faq title="Frequently Asked Questions" items={[
       { q: 'Are these Hebrew games free?', a: 'Yes. Alef Bet Rush, Hebrew Mahjong and Hebrew Word Search are all free to play in your browser, with no account required.' },
-      { q: 'Which game should beginners start with?', a: '' },
+      { q: 'Which game should beginners start with?', a: '<a href="/play/alef-bet-rush/">Alef Bet Rush</a> gives you a guided introduction to each letter before practice, while <a href="/play/hebrew-mahjong/">Hebrew Mahjong</a> leans on matching and recognition across a broader board. Either is a reasonable starting point; try both and see which style you enjoy more.' },
       { q: 'Do games replace a Hebrew course?', a: 'Games help you practise a specific skill. Combine them with structured lessons and reading for a broader learning path.' },
-    ]}>
-      <Fragment slot="answer-1"><a href="/play/alef-bet-rush/">Alef Bet Rush</a> gives you a guided introduction to each letter before practice, while <a href="/play/hebrew-mahjong/">Hebrew Mahjong</a> leans on matching and recognition across a broader board. Either is a reasonable starting point; try both and see which style you enjoy more.</Fragment>
-    </Faq>
+    ]} />
     <CtaPanel compact>
       <h2 class="home-h2">Learn Beyond the Games</h2>
       <p class="home-lead">Continue with structured Hebrew lessons, vocabulary and reading practice in HebrewEdu.</p>

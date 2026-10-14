@@ -3,6 +3,7 @@ import Layout from '../../../layouts/Layout.astro';
 import Section from '../../../components/ui/Section.astro';
 import CtaPanel from '../../../components/ui/CtaPanel.astro';
 import StoreButtons from '../../../components/ui/StoreButtons.astro';
+import Faq from '../../../components/Faq.astro';
 import PhraseCard from '../../../components/phrases/PhraseCard.astro';
 import PhrasePractice from '../../../components/phrases/PhrasePractice.astro';
 import HebrewText from '../../../components/lessons/HebrewText.astro';
@@ -88,10 +89,7 @@ const resources = [
         <StoreButtons location="hebrew_phrases_after_practice" height={48} />
       </CtaPanel>
 
-      <Section surface="soft" id="questions">
-        <div class="phrases-section-heading"><h2 class="display-md">Beginner questions</h2></div>
-        <div class="phrases-questions">{phraseQuestions.map(item => <div><h3>{item.question}</h3><p>{item.answer}</p></div>)}</div>
-      </Section>
+      <Faq id="questions" title="Beginner questions" items={phraseQuestions.map(item => ({ q: item.question, a: item.answer }))} />
       <Section id="keep-learning">
         <div class="phrases-section-heading"><h2 class="display-md">Keep learning Hebrew</h2><p>Use a reference when you need it, or give your practice a little structure.</p></div>
         <ul class="phrases-resources" role="list">{resources.map(resource => <li><h3><a href={resource.href}>{resource.title} <span aria-hidden="true">→</span></a></h3><p>{resource.description}</p></li>)}</ul>

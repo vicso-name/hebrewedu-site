@@ -1,5 +1,5 @@
 ---
-import Faq from '../../../components/home/Faq.astro';
+import Faq from '../../../components/Faq.astro';
 import Layout from '../../../layouts/Layout.astro';
 import Nav from '../../../components/Nav.astro';
 import Footer from '../../../components/Footer.astro';
@@ -77,10 +77,8 @@ const schema = {
         { q: 'How many letters are in the Hebrew alphabet?', a: 'There are 22 standard letters. Five also have final forms used at the ends of words. Alef Bet Rush focuses on the 22 standard letters.' },
         { q: 'What is the difference between Alef Bet and Aleph Bet?', a: 'They are different English spellings for the same Hebrew alphabet name, taken from its first two letters.' },
         { q: 'Does the game save my progress?', a: 'Progress is saved locally in your browser. Use the same browser to return to it. Clearing site data or using private browsing can remove your saved progress.' },
-        { q: 'Where can I find more Hebrew learning resources?', a: '' },
-      ]}>
-        <Fragment slot="answer-5">Visit <a href="/play/">Hebrew learning games</a> or follow our <a href="/blog/learn-hebrew-alphabet-7-days/">seven-day alphabet learning plan</a>.</Fragment>
-      </Faq>
+        { q: 'Where can I find more Hebrew learning resources?', a: 'Visit <a href="/play/">Hebrew learning games</a> or follow our <a href="/blog/learn-hebrew-alphabet-7-days/">seven-day alphabet learning plan</a>.' },
+      ]} />
       <CtaPanel compact>
         <h2 class="home-h2">Continue Learning Hebrew</h2>
         <p class="home-lead">Build on your alphabet practice with structured lessons, vocabulary and beginner reading in the HebrewEdu app.</p>

@@ -1,0 +1,131 @@
+---
+import Section from './ui/Section.astro';
+
+export interface FaqItem {
+  q: string;
+  /** Plain text, or inline HTML (e.g. a link) — rendered as trusted markup. */
+  a: string;
+}
+
+interface Props {
+  eyebrow?: string;
+  title: string;
+  intro?: string;
+  items: FaqItem[];
+  surface?: 'white' | 'soft';
+  id?: string;
+  /** Emits a FAQPage JSON-LD block. Set to false if the page already includes one. */
+  schema?: boolean;
+}
+
+const { eyebrow, title, intro, items, surface = 'soft', id, schema = true } = Astro.props;
+
+const stripTags = (html: string) => html.replace(/<[^>]+>/g, '');
+
+const faqSchema = schema && {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: items.map(({ q, a }) => ({
+    '@type': 'Question',
+    name: q,
+    acceptedAnswer: { '@type': 'Answer', text: stripTags(a) },
+  })),
+};
+---
+
+<Section surface={surface} id={id}>
+  <div class="faq">
+    <div class="faq-heading">
+      {eyebrow && <p class="faq-eyebrow">{eyebrow}</p>}
+      <h2 class="faq-title">{title}</h2>
+      {intro && <p class="faq-intro">{intro}</p>}
+    </div>
+
+    <div class="faq-list">
+      {items.map((item) => (
+        <details class="faq-item">
+          <summary>{item.q}</summary>
+          <p set:html={item.a} />
+        </details>
+      ))}
+    </div>
+  </div>
+</Section>
+
+{faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
+
+<style>
+.faq {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr);
+  gap: var(--space-xl);
+  align-items: start;
+}
+
+.faq-heading {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.faq-eyebrow {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--brand-dark);
+}
+
+.faq-title {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 3.5vw, 2.75rem);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+
+.faq-intro {
+  font-size: clamp(1.0625rem, 1.4vw, 1.1875rem);
+  line-height: 1.65;
+  color: var(--ink-light);
+  max-width: var(--w-narrow);
+}
+
+.faq-list { border-bottom: 1px solid var(--border); }
+.faq-item { border-top: 1px solid var(--border); }
+
+.faq-item summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1.5rem;
+  padding-block: 1.5rem;
+  font-family: var(--font-display);
+  font-size: clamp(1.125rem, 1.6vw, 1.3125rem);
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--ink);
+  cursor: pointer;
+  list-style: none;
+}
+.faq-item summary::-webkit-details-marker { display: none; }
+
+.faq-item summary::after {
+  content: '+';
+  flex: none;
+  font-weight: 400;
+  color: var(--ink-subtle);
+}
+.faq-item[open] summary::after { content: '–'; }
+
+.faq-item p {
+  max-width: 40rem;
+  padding-bottom: 1.75rem;
+  color: var(--ink-light);
+  line-height: 1.65;
+}
+
+@media (max-width: 900px) {
+  .faq { grid-template-columns: 1fr; }
+}
+</style>

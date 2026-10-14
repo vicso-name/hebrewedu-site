@@ -21,7 +21,9 @@ Read `docs/LAYOUT.md` before any UI work.
   component-level stylesheet.
 - A new lesson is a new JSON file in `src/content/lessons/` — never a new
   route or new lesson-specific CSS file.
-- Reuse an existing component before creating a new one.
+- Reuse an existing component before creating a new one. Before building
+  any section, check `docs/BLOCKS.md` and reuse; Q&A always uses
+  `Faq.astro`; never create a page-specific copy of a shared block.
 - Run `npm run check:layout` before reporting any UI task done. It also
   runs in `prebuild` and in the deploy workflow.
 

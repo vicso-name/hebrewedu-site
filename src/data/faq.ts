@@ -3,8 +3,8 @@ export interface Faq {
   a: string;
 }
 
-// Single source for the homepage FAQ: rendered by components/home/Faq.astro and
-// emitted as FAQPage JSON-LD by pages/index.astro, so the two cannot drift.
+// Single source for the homepage FAQ, rendered (and emitted as FAQPage
+// JSON-LD) by components/Faq.astro.
 export const faqs: Faq[] = [
   {
     q: 'Do I need to know Hebrew before using the app?',

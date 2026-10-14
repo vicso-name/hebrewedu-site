@@ -8,7 +8,7 @@ import LearningResources from '../components/home/LearningResources.astro';
 import ReadingShowcase from '../components/home/ReadingShowcase.astro';
 import SupportingFeatures from '../components/home/SupportingFeatures.astro';
 import Testimonials from '../components/home/Testimonials.astro';
-import Faq from '../components/home/Faq.astro';
+import Faq from '../components/Faq.astro';
 import DownloadCTA from '../components/home/DownloadCTA.astro';
 import Footer from '../components/Footer.astro';
 import '../styles/home.css';
@@ -28,14 +28,6 @@ const pageSchema = {
       "inLanguage": "en"
     },
     appSchema,
-    {
-      "@type": "FAQPage",
-      "mainEntity": faqs.map(f => ({
-        "@type": "Question",
-        "name": f.q,
-        "acceptedAnswer": { "@type": "Answer", "text": f.a }
-      }))
-    }
   ]
 };
 ---
@@ -63,7 +55,7 @@ const pageSchema = {
       <ReadingShowcase />
       <SupportingFeatures />
       <Testimonials />
-      <Faq />
+      <Faq title="Frequently asked questions" items={faqs} />
       <DownloadCTA />
     </main>
     <Footer />
