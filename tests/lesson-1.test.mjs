@@ -29,7 +29,11 @@ const copy = value => structuredClone(value);
 
 test('offline normalization preserves all original blocks, questions, explanations and order', { skip: !hasPrivateSource && 'Private source-fidelity evidence is intentionally excluded from Git' }, () => {
   assert.deepEqual(normalizeLesson(raw, alephIdentity, alephOverrides), lesson);
-  lesson.blocks.forEach((block, i) => assert.equal(block.text, (raw.studyMaterials[i].title ?? raw.studyMaterials[i].content).normalize('NFC')));
+  lesson.blocks.forEach((block, i) => {
+    const override = alephOverrides.contentOverrides?.blocks?.[String(i)];
+    const expected = override ?? (raw.studyMaterials[i].title ?? raw.studyMaterials[i].content);
+    assert.equal(block.text, expected.normalize('NFC'));
+  });
   lesson.exercises.forEach((exercise, i) => {
     assert.equal(exercise.sourceId, raw.exercises[i].id);
     assert.equal(exercise.prompt, raw.exercises[i].content.normalize('NFC'));

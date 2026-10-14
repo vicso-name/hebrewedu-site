@@ -1,33 +1,68 @@
 {
   "slug": "bet",
-  "title": "Mastering Bet/Vet (ב/בּ) and Understanding Dual Pronunciations",
-  "editorialIssues": [],
+  "title": "Bet Hebrew Letter (ב): Sound & Dagesh",
+  "description": "Learn the Hebrew letter Bet (ב): how the dagesh dot changes its sound between [b] and [v], with beginner explanations, example words and interactive practice.",
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Optional practice refinement",
+      "detail": "Some mark-recognition distractors use letters not introduced in this lesson. Beginner scaffolding can be improved separately from the approved source synchronization."
+    }
+  ],
   "illustrations": {
     "4": { "glyph": "בּ", "label": "Bet with Dagesh", "equivalent": "Bet with a dot (dagesh) in its center, pronounced [b]." },
     "8": { "glyph": "ב", "label": "Bet without Dagesh", "equivalent": "Bet without a dot (dagesh), pronounced [v]." }
   },
   "blockFlags": {},
-  "exerciseFlags": {},
+  "exerciseFlags": {
+    "12": ["unintroduced-letters"]
+  },
+  "contentOverrides": {
+    "blocks": {
+      "0": "Bet Hebrew Letter (ב): Dagesh, Sound & Practice",
+      "3": "In modern Hebrew, three letters — Bet, Kaf and Pe — can be pronounced in two different ways, depending on whether they contain a small dot called a \"dagesh.\" One of them is Bet (בּ).",
+      "7": "At the start of a word, Bet has a dagesh and is pronounced [b]. When a prefix such as ו (and) is attached, it can change to [v], as in וּבָנִים [u-vanim].",
+      "13": "The Hebrew word 'אַבָּא' [aba] means \"father.\" It consists of Aleph (א), Bet (בּ), and another Aleph (א). A patach (ַ) under the first Aleph gives the [a] sound, and a dagesh with a kamatz (ָ) under the Bet produce [ba]. The final Aleph is silent.",
+      "15": "The Hebrew word 'בָּא' [ba] consists of Bet (בּ) and Aleph (א). The Bet has a dagesh, indicating a strong [b] sound. A kamatz (ָ) beneath it gives the [ba] sound. The Aleph does not have a vowel and remains silent."
+    },
+    "exercises": {
+      "6": {
+        "content": "When the letter Bet (ב) appears at the beginning of a word, does it usually have a dot (Dagesh) and sound like [b]?",
+        "tip": "In most cases, Bet at the beginning of a word has a Dagesh inside and is pronounced like [b]. However, exceptions exist in certain grammatical contexts — for example, when a prefix such as ו (and) is attached, as in וּבָנִים [u-vanim]."
+      },
+      "8": {
+        "content": "At the end of a word, Bet usually sounds like [b].",
+        "tip": "Word-final Bet is almost always pronounced [v], as in לֵב [lev].",
+        "correctAnswer": "false"
+      },
+      "10": {
+        "tip": "The vowel sign with a horizontal line and two dots beside it is called 'Hataf Patah.' It represents a reduced [a] sound."
+      },
+      "12": {
+        "tip": "Dagesh in Bet produces a plosive [b] sound, while without it, Bet sounds like [v]. Patah and Kamatz Gadol both give the [a] sound, and Hataf Patah is a reduced [a]."
+      }
+    }
+  },
   "stageMap": {
     "theory": [0, 1, 2],
     "examples": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19]
   },
   "copy": {
     "theory": {
-      "heading": "TODO-EDITORIAL: theory heading",
-      "intro": "TODO-EDITORIAL: theory intro",
-      "objectivesHeading": "TODO-EDITORIAL: objectives heading",
+      "heading": "Meet Bet",
+      "intro": "The second letter of the <a href=\"/blog/hebrew-alphabet-complete-guide/\">Hebrew alphabet</a>. Bet is one of a few letters that can make two different sounds.",
+      "objectivesHeading": "What you’ll learn",
       "objectives": [
-        "TODO-EDITORIAL: objective 1",
-        "TODO-EDITORIAL: objective 2",
-        "TODO-EDITORIAL: objective 3"
+        "Recognize Bet: <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ב</bdi>.",
+        "Tell Bet with a dagesh (<bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">בּ</bdi>, [b]) apart from Bet without one (<bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ב</bdi>, [v]).",
+        "Read the dagesh in real words like <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">אַבָּא</bdi> (father)."
       ],
-      "secondSectionHeading": "TODO-EDITORIAL: second theory section heading",
-      "thirdSectionHeading": "TODO-EDITORIAL: third theory section heading"
+      "secondSectionHeading": "How Bet sounds",
+      "thirdSectionHeading": "One letter, two sounds"
     },
     "examples": {
-      "heading": "TODO-EDITORIAL: examples heading",
-      "intro": "TODO-EDITORIAL: examples intro"
+      "heading": "Bet with and without the dagesh",
+      "intro": "Compare Bet with the dagesh dot and without it, then see both forms in real Hebrew words."
     }
   },
   "holdOuts": {

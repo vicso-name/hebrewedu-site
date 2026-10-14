@@ -11,6 +11,12 @@ Every letter's `id`/`slug`, `sourceId`, `order` and `glyph` already exist in
 owner-approved manifest). `src/lib/lessons/identity.mjs` reads it; nothing
 else needs to be told a letter's identity.
 
+Before an editorial review of a letter's raw source, read
+`docs/hebrew-alphabet-editorial-rules.md` — the course-wide checklist (vowel
+length, absolute-rule claims, dagesh prefix effects, True/False balance,
+duplicate examples, tokenized audio URLs, title pattern) every letter's
+review should apply.
+
 ## 2. Fetch and audit the raw source
 
 Unchanged, already generic: `scripts/import-alphabet-course.mjs` fetches the
@@ -48,6 +54,10 @@ captions, review flags, stage map, and any holdouts are decided, write
   "illustrations": { "<sourceIndex>": { "glyph": "…", "label": "…", "equivalent": "…" } },
   "blockFlags": { "<sourceIndex>": ["<editorialIssueId>"] },
   "exerciseFlags": { "<sourceIndex + 1>": ["<editorialIssueId>"] },
+  "contentOverrides": {
+    "blocks": { "<sourceIndex>": "corrected block text" },
+    "exercises": { "<sourceIndex>": { "content": "corrected prompt", "tip": "corrected explanation", "correctAnswer": "true" } }
+  },
   "stageMap": { "theory": [0, 1], "examples": [2, 3] },
   "copy": {
     "theory": {
@@ -95,6 +105,23 @@ block/exercise index can be held out for an editorial reason (e.g. a
 duplicate `WORD_EXAMPLE` with a tokenized source audio URL) — `holdOuts`
 always wins, regardless of whether its type has a renderer. Building a new
 renderer for a type is separate work, not part of this pipeline.
+
+`contentOverrides` is how an editorial wording/answer-key correction is applied
+without ever hand-editing the pinned raw snapshot (editing that snapshot is
+reserved for a separately authorized source re-sync, e.g.
+`docs/hebrew-alphabet-aleph-release-readiness.md`). Both maps key off a raw
+`sourceIndex` (0-based, the same convention as `holdOuts` and `blockFlags` —
+note `exerciseFlags` alone uses `sourceIndex + 1`). A block override replaces
+whichever field normally supplies that block type's text (`title` for
+`MAIN_TITLE`, `translation` for `WORD_EXAMPLE`, `content` otherwise) — this is
+also how a lesson's H1 (the rendered `MAIN_TITLE` block) is corrected, since
+the lesson-level `title` field above only feeds the `<title>`/`og:title`, not
+the H1. An exercise override may patch `content` (the prompt), `tip` (the
+explanation) and/or `correctAnswer` (the `TRUE_FALSE`/choice answer key)
+together — see `src/data/lessons/bet.json`'s Q9 flip for an example of
+changing a prompt and its answer key in the same edit. See
+`docs/hebrew-alphabet-editorial-rules.md` for the course-wide editorial rules
+these corrections typically enforce.
 
 Stage-map (`stageMap.theory`/`stageMap.examples`) and holdout entries key
 off a block/exercise's raw `sourceIndex`, not its position in the

@@ -39,6 +39,23 @@ export function proposeStageMap(raw, overrides = {}) {
   return { theory, examples };
 }
 
+function applyContentOverride(item, overrideText, field) {
+  return overrideText === undefined ? item : { ...item, [field]: overrideText };
+}
+// An exercise override may patch the prompt (`content`), the explanation (`tip`)
+// and/or the TRUE_FALSE answer key (`correctAnswer`) together, since correcting an
+// absolute claim often means changing the prompt and the answer in the same edit.
+function applyExerciseOverride(item, override) {
+  if (!override) return item;
+  const { content, tip, correctAnswer } = override;
+  return {
+    ...item,
+    ...(content !== undefined ? { content } : {}),
+    ...(tip !== undefined ? { tip } : {}),
+    ...(correctAnswer !== undefined ? { additionalData: { ...item.additionalData, correctAnswer } } : {}),
+  };
+}
+
 export function normalizeLesson(rawInput, identity, overrides) {
   const { rawLessonSchema, lessonSchema } = createLessonSchema(identity);
   const raw = rawLessonSchema.parse(rawInput);
@@ -56,8 +73,12 @@ export function normalizeLesson(rawInput, identity, overrides) {
   const heldOutBlocks = new Set((overrides.holdOuts?.blocks ?? []).map(h => h.sourceIndex));
   const heldOutExercises = new Set((overrides.holdOuts?.exercises ?? []).map(h => h.sourceIndex));
 
+  // Editorial text corrections, keyed by raw sourceIndex (0-based), applied as a
+  // patch to the raw item's own text-bearing field before anything else reads it —
+  // see docs/LESSON_PIPELINE.md. Never edit the pinned raw snapshot to fix wording.
+  const blockTextField = type => type === 'MAIN_TITLE' ? 'title' : type === 'WORD_EXAMPLE' ? 'translation' : 'content';
   const blocks = raw.studyMaterials
-    .map((item, sourceIndex) => ({ item, sourceIndex }))
+    .map((rawItem, sourceIndex) => ({ item: applyContentOverride(rawItem, overrides.contentOverrides?.blocks?.[String(sourceIndex)], blockTextField(rawItem.type)), sourceIndex }))
     .filter(({ sourceIndex }) => !heldOutBlocks.has(sourceIndex))
     .map(({ item, sourceIndex }) => ({
       id: `${identity.slug}-block-${sourceIndex + 1}`, sourceIndex, type: item.type,
@@ -69,7 +90,7 @@ export function normalizeLesson(rawInput, identity, overrides) {
   if (blocks.length !== raw.studyMaterials.length - heldOutBlocks.size) throw new Error('Normalized block count does not match the raw source');
 
   const exercises = raw.exercises
-    .map((item, sourceIndex) => ({ item, sourceIndex }))
+    .map((rawItem, sourceIndex) => ({ item: applyExerciseOverride(rawItem, overrides.contentOverrides?.exercises?.[String(sourceIndex)]), sourceIndex }))
     .filter(({ sourceIndex }) => !heldOutExercises.has(sourceIndex))
     .map(({ item, sourceIndex }) => {
       const id = `${identity.slug}-exercise-${sourceIndex + 1}`;

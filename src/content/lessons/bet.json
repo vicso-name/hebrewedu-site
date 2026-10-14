@@ -3,8 +3,8 @@
   "sourceId": 2,
   "order": 2,
   "glyph": "ב",
-  "title": "Mastering Bet/Vet (ב/בּ) and Understanding Dual Pronunciations",
-  "description": "Exploring Bet: The Foundation of the Hebrew Alphabet",
+  "title": "Bet Hebrew Letter (ב): Sound & Dagesh",
+  "description": "Learn the Hebrew letter Bet (ב): how the dagesh dot changes its sound between [b] and [v], with beginner explanations, example words and interactive practice.",
   "status": "local-review-only",
   "normalizationVersion": 1,
   "provenance": {
@@ -12,12 +12,18 @@
     "responseDate": "2026-10-11T12:04:01.840Z",
     "sha256": "292346e3d7efbd119ddd85102ec527e6545427979802764b85a7b459f5728309"
   },
-  "editorialIssues": [],
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Optional practice refinement",
+      "detail": "Some mark-recognition distractors use letters not introduced in this lesson. Beginner scaffolding can be improved separately from the approved source synchronization."
+    }
+  ],
   "blocks": [
     {
       "id": "bet-block-1",
       "sourceIndex": 0,
-      "text": "Mastering Bet/Vet (ב/בּ) and Understanding Dual Pronunciations",
+      "text": "Bet Hebrew Letter (ב): Dagesh, Sound & Practice",
       "reviewFlags": [],
       "type": "MAIN_TITLE"
     },
@@ -38,7 +44,7 @@
     {
       "id": "bet-block-4",
       "sourceIndex": 3,
-      "text": "In modern Hebrew, some letters can be pronounced in two different ways, depending on whether they contain a small dot called a \"dagesh.\" This dot significantly affects pronunciation. One such letter is Bet (בּ).",
+      "text": "In modern Hebrew, three letters — Bet, Kaf and Pe — can be pronounced in two different ways, depending on whether they contain a small dot called a \"dagesh.\" One of them is Bet (בּ).",
       "reviewFlags": [],
       "type": "SIMPLE_TEXT"
     },
@@ -74,7 +80,7 @@
     {
       "id": "bet-block-8",
       "sourceIndex": 7,
-      "text": "Important Note: When Bet appears at the beginning of a word, it is always written with a dagesh and pronounced as [b].",
+      "text": "At the start of a word, Bet has a dagesh and is pronounced [b]. When a prefix such as ו (and) is attached, it can change to [v], as in וּבָנִים [u-vanim].",
       "reviewFlags": [],
       "type": "BOLD_TEXT"
     },
@@ -124,14 +130,14 @@
     {
       "id": "bet-block-14",
       "sourceIndex": 13,
-      "text": "The Hebrew word 'אַבָּא' [aba] means \"father.\" It consists of Aleph (א), Bet (בּ), and another Aleph (א). A patach (ַ) under the first Aleph gives the [a] sound, and a kamatz (ָ) under the Bet produces [ba]. The final Aleph is silent.",
+      "text": "The Hebrew word 'אַבָּא' [aba] means \"father.\" It consists of Aleph (א), Bet (בּ), and another Aleph (א). A patach (ַ) under the first Aleph gives the [a] sound, and a dagesh with a kamatz (ָ) under the Bet produce [ba]. The final Aleph is silent.",
       "reviewFlags": [],
       "type": "SIMPLE_TEXT"
     },
     {
       "id": "bet-block-16",
       "sourceIndex": 15,
-      "text": "The Hebrew word 'בָּא' [ba] consists of Bet (בּ) and Aleph (א). The Bet has a dagesh, indicating a strong [b] sound. A patach (ַ) beneath it gives the [ba] sound. The Aleph does not have a vowel and remains silent.",
+      "text": "The Hebrew word 'בָּא' [ba] consists of Bet (בּ) and Aleph (א). The Bet has a dagesh, indicating a strong [b] sound. A kamatz (ָ) beneath it gives the [ba] sound. The Aleph does not have a vowel and remains silent.",
       "reviewFlags": [],
       "type": "BOLD_TEXT"
     },
@@ -313,8 +319,8 @@
       "id": "bet-exercise-7",
       "sourceId": "1742223546102",
       "type": "TRUE_FALSE",
-      "prompt": "When the letter Bet (ב) appears at the beginning of a word, does it always have a dot (Dagesh) and sound like [b]?",
-      "explanation": "In most cases, Bet at the beginning of a word has a Dagesh inside and is pronounced like [b]. However, exceptions exist in certain grammatical contexts.",
+      "prompt": "When the letter Bet (ב) appears at the beginning of a word, does it usually have a dot (Dagesh) and sound like [b]?",
+      "explanation": "In most cases, Bet at the beginning of a word has a Dagesh inside and is pronounced like [b]. However, exceptions exist in certain grammatical contexts — for example, when a prefix such as ו (and) is attached, as in וּבָנִים [u-vanim].",
       "options": [
         {
           "id": "bet-exercise-7-option-1",
@@ -355,8 +361,8 @@
       "id": "bet-exercise-9",
       "sourceId": "1742223546104",
       "type": "TRUE_FALSE",
-      "prompt": "Does the letter Bet at the end of a word lose its Dagesh and make the [v] sound, like in 'vase'?",
-      "explanation": "In traditional Hebrew, Bet (ב) does not have a Dagesh at the end of a word, so it is pronounced as [v].",
+      "prompt": "At the end of a word, Bet usually sounds like [b].",
+      "explanation": "Word-final Bet is almost always pronounced [v], as in לֵב [lev].",
       "options": [
         {
           "id": "bet-exercise-9-option-1",
@@ -367,7 +373,7 @@
           "label": "False"
         }
       ],
-      "correctOptionId": "bet-exercise-9-option-1",
+      "correctOptionId": "bet-exercise-9-option-2",
       "reviewFlags": []
     },
     {
@@ -402,7 +408,7 @@
       "sourceId": "1742223546106",
       "type": "MULTIPLE_CHOICE_COLUMN",
       "prompt": "Which Hebrew vowel sign produces the [a] sound and consists of a horizontal line with two dots beside it?",
-      "explanation": "The vowel sign with a horizontal line and two dots beside it is called 'Hataf Patah.' It represents a short, reduced [a] sound.",
+      "explanation": "The vowel sign with a horizontal line and two dots beside it is called 'Hataf Patah.' It represents a reduced [a] sound.",
       "options": [
         {
           "id": "bet-exercise-11-option-1",
@@ -445,14 +451,16 @@
         }
       ],
       "correctOptionId": "bet-exercise-12-option-4",
-      "reviewFlags": []
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
     },
     {
       "id": "bet-exercise-13",
       "sourceId": "1742223546108",
       "type": "MATCH_PAIRS",
       "prompt": "Match each Hebrew letter or vowel combination with its correct phonetic value.",
-      "explanation": "Dagesh in Bet produces a plosive [b] sound, while without it, Bet sounds like [v]. Patah and Kamatz Gadol both give the [a] sound, but Hataf Patah is a much shorter [a].",
+      "explanation": "Dagesh in Bet produces a plosive [b] sound, while without it, Bet sounds like [v]. Patah and Kamatz Gadol both give the [a] sound, and Hataf Patah is a reduced [a].",
       "pairs": [
         {
           "id": "bet-exercise-13-pair-1",

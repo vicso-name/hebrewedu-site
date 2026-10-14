@@ -1,6 +1,7 @@
 {
   "slug": "aleph",
-  "title": "Aleph: three vowel marks",
+  "title": "Aleph Hebrew Letter (א): Vowel Marks",
+  "description": "Learn the Hebrew letter Aleph (א) and its three vowel marks — Patah, Kamatz Gadol and Hataf Patah — with beginner explanations and interactive practice.",
   "editorialIssues": [
     {
       "id": "provisional-media",
@@ -22,6 +23,12 @@
     "2": { "glyph": "אַ", "label": "Patah", "equivalent": "Aleph with a single horizontal vowel mark beneath it." },
     "4": { "glyph": "אָ", "label": "Kamatz Gadol", "equivalent": "Aleph with a small T-shaped vowel mark beneath it." },
     "6": { "glyph": "אֲ", "label": "Hataf Patah", "equivalent": "Aleph with a horizontal vowel mark and two vertical dots beneath it." }
+  },
+  "contentOverrides": {
+    "blocks": {
+      "0": "Aleph Hebrew Letter (א): Vowel Marks & Practice",
+      "8": "With Hataf Patah (אֲ), Aleph is read with a reduced [a] vowel. In Modern Hebrew, it is pronounced [a], the same as Patah and Kamatz Gadol."
+    }
   },
   "blockFlags": {
     "2": ["provisional-media"],

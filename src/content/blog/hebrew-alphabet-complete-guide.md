@@ -161,6 +161,7 @@ A few Hebrew letters represent **two different sounds** depending on context. Th
 **ב (Bet/Vet)**
 - With a dot inside (בּ) → sounds like **B** (as in "boat")
 - Without the dot (ב) → sounds like **V** (as in "vine")
+- → [Practice Bet/Vet in the Hebrew Alphabet Course](/learn/hebrew-alphabet/bet/)
 
 **ש (Shin/Sin)**
 - Dot on the right (שׁ) → sounds like **SH** (as in "shoe")

@@ -3,8 +3,8 @@
   "sourceId": 1,
   "order": 1,
   "glyph": "א",
-  "title": "Aleph: three vowel marks",
-  "description": "Exploring Aleph: The Foundation of the Hebrew Alphabet",
+  "title": "Aleph Hebrew Letter (א): Vowel Marks",
+  "description": "Learn the Hebrew letter Aleph (א) and its three vowel marks — Patah, Kamatz Gadol and Hataf Patah — with beginner explanations and interactive practice.",
   "status": "local-review-only",
   "normalizationVersion": 1,
   "provenance": {
@@ -33,7 +33,7 @@
     {
       "id": "aleph-block-1",
       "sourceIndex": 0,
-      "text": "Exploring Aleph (א) and Hebrew Diacritical Marks",
+      "text": "Aleph Hebrew Letter (א): Vowel Marks & Practice",
       "reviewFlags": [],
       "type": "MAIN_TITLE"
     },
@@ -113,7 +113,7 @@
     {
       "id": "aleph-block-9",
       "sourceIndex": 8,
-      "text": "With Hataf Patah (אֲ), Aleph is read with a reduced [a] vowel. The mark is traditionally described as a very brief vowel, but you do not need to distinguish vowel lengths to read beginner Modern Hebrew.",
+      "text": "With Hataf Patah (אֲ), Aleph is read with a reduced [a] vowel. In Modern Hebrew, it is pronounced [a], the same as Patah and Kamatz Gadol.",
       "reviewFlags": [],
       "type": "BOLD_TEXT"
     },

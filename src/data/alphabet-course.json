@@ -30,9 +30,9 @@
       "sourceImported": true,
       "webImplemented": true,
       "previewAvailable": true,
-      "editorialApproved": false,
-      "published": false,
-      "publishedAt": null
+      "editorialApproved": true,
+      "published": true,
+      "publishedAt": "2026-10-14"
     },
     {
       "sourceId": 3,

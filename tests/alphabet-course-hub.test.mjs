@@ -12,11 +12,12 @@ test('explicit curriculum releases only owner-approved Aleph among 22 verified i
   const identities = JSON.parse(await readFile(new URL('./fixtures/alphabet-identities.json', import.meta.url)));
   assert.deepEqual(courseManifest.lessons.map(l => [l.sourceId,l.order,l.letter,l.slug]), identities);
   assert.equal(courseManifest.lessons.filter(l => l.sourceImported).length, 22);
-  assert.equal(courseManifest.lessons.filter(l => l.published).length, 1);
-  assert.equal(curriculum().filter(l => l.available).length, 1);
-  assert.ok(courseManifest.lessons.slice(1).every(l => !l.published && !l.editorialApproved && l.publishedAt === null));
+  assert.equal(courseManifest.lessons.filter(l => l.published).length, 2);
+  assert.equal(curriculum().filter(l => l.available).length, 2);
+  assert.ok(courseManifest.lessons.slice(2).every(l => !l.published && !l.editorialApproved && l.publishedAt === null));
   assert.equal(courseManifest.hub.publishedAt, '2026-10-11');
   assert.equal(courseManifest.lessons[0].publishedAt, '2026-10-11');
+  assert.equal(courseManifest.lessons[1].publishedAt, '2026-10-14');
   const preview = curriculum(true);
   assert.equal(preview.filter(l => l.available).length, 2);
   assert.equal(preview[0].href, '/learn/hebrew-alphabet/aleph/');
@@ -25,7 +26,7 @@ test('explicit curriculum releases only owner-approved Aleph among 22 verified i
   assert.equal(hubEnabled(), true);
   assert.equal(hubEnabled(false, draft()), false);
   assert.equal(lessonEnabled('bet', true), true);
-  assert.equal(lessonEnabled('bet', false), false);
+  assert.equal(lessonEnabled('bet', false), true);
   assert.equal(lessonEnabled('bogus', true), false);
 });
 test('no preview flag can create sitemap entries or public Course claims', () => {
@@ -33,7 +34,7 @@ test('no preview flag can create sitemap entries or public Course claims', () =>
   assert.equal(localCoursePreview(false, { HEBREWEDU_LOCAL_COURSE_PREVIEW: '1' }), true);
   assert.equal(localCoursePreview(false, { HEBREWEDU_LOCAL_LESSON_POC: '1' }), true);
   assert.deepEqual(courseSitemapEntries(draft()), []);
-  assert.deepEqual(courseSitemapEntries().map(x => x.url), ['/learn/hebrew-alphabet/', '/learn/hebrew-alphabet/aleph/']);
+  assert.deepEqual(courseSitemapEntries().map(x => x.url), ['/learn/hebrew-alphabet/', '/learn/hebrew-alphabet/aleph/', '/learn/hebrew-alphabet/bet/']);
   const schema = courseSchema(draft());
   assert.equal(schema['@type'], 'WebPage');
   assert.equal(schema.url, 'https://hebrewedu.com/learn/hebrew-alphabet/');
