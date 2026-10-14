@@ -1,0 +1,626 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "3.7632 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10140802-2762-0139-0000-2221444888b7",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "3.6770 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "how many hebrew words do beginners need",
+        "device": "mobile",
+        "os": "android",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "how many hebrew words do beginners need",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=how%20many%20hebrew%20words%20do%20beginners%20need&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-10-14 08:02:17 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "video",
+            "people_also_search"
+          ],
+          "se_results_count": 0,
+          "pages_count": 1,
+          "items_count": 13,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": true,
+              "markdown": null,
+              "items": null,
+              "references": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "How many words you need to memorize at a minimum : r/hebrew",
+              "url": "https://www.reddit.com/r/hebrew/comments/1tn9mx6/how_many_words_you_need_to_memorize_at_a_minimum/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "5 comments",
+              "website_name": "Reddit · r/hebrew",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "How many Hebrew words do you recommend to learn at a minimum before you start to understand context of conversations on tv, music songs etc.\n\nI ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Hebrew vocabulary test - how many words do you know? - Redditr/hebrew·10+ comments·2y",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/hebrew/comments/193w4ov/hebrew_vocabulary_test_how_many_words_do_you_know/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "How many words do native Hebrew speakers and learners know ...r/hebrew·10+ comments·1y",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/hebrew/comments/1iamxgu/how_many_words_do_native_hebrew_speakers_and/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Duolingo is ok at vocab, and not great at conjugation and the like. In Hebrew, the real trick ...",
+                  "description": "Top answer · 10 votes",
+                  "url": "https://www.reddit.com/r/hebrew/comments/1tn9mx6/how_many_words_you_need_to_memorize_at_a_minimum/ont4vky/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "I agree with Chicago's comment about more effective ways of learning words. But I will add ...",
+                  "description": "2 votes",
+                  "url": "https://www.reddit.com/r/hebrew/comments/1tn9mx6/how_many_words_you_need_to_memorize_at_a_minimum/onu415l/",
+                  "domain": "www.reddit.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-06-14 08:02:16 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What are some basic Hebrew words I should learn?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How long will it take to learn Hebrew fluently?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Is Hebrew a tough language to learn?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Which is harder, Greek or Hebrew?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.teachmehebrew.com",
+              "title": "Step 1: Basic Hebrew",
+              "url": "https://www.teachmehebrew.com/step-1-basic-hebrew.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.teachmehebrew.com",
+              "website_name": "Teach Me Hebrew",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "The 500 Basic Hebrew Words are a source of common vocabulary words that you'll need in the beginning of your Hebrew-learning journey.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "500 Basic Hebrew Words"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": [
+                "how many words in",
+                "learning hebrew",
+                "how many words",
+                "how many words in",
+                "how many words does the",
+                "biblical hebrew",
+                "hebrew basic",
+                "how to speak"
+              ],
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[9]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "Learn Hebrew with HebrewPod101.com",
+                  "title": "200 Hebrew Words You'll Use Every Day - Basic Vocabulary #60",
+                  "timestamp": "2026-01-28 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=-8avR_Lq4bE"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Learn Hebrew with HebrewPod101.com",
+                  "title": "290 Hebrew Words You'll Use Every Day - Basic Vocabulary #69",
+                  "timestamp": "2026-06-03 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=KgXG2luvVyM"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Hebreways",
+                  "title": "25 Essential Hebrew Words (Basic Vocabulary for Beginners)",
+                  "timestamp": "2024-12-15 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=Hz67LL7FEmY"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Learn Hebrew Now",
+                  "title": "150 Essential Hebrew Words You Need to Know (Speak Like a Native!)",
+                  "timestamp": "2026-09-30 08:02:16 +00:00",
+                  "url": "https://www.youtube.com/watch?v=GyaVYUAtc8I"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.hebrewpod101.com",
+              "title": "The Top 220 Hebrew Words for Beginners",
+              "url": "https://www.hebrewpod101.com/blog/2021/09/23/hebrew-beginner-words/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.hebrewpod101.com",
+              "website_name": "HebrewPod101",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Sep 23, 2021 — Fear not! Today, HebrewPod101 is going to introduce you to the top 220 basic Hebrew words for beginners. We've included everything from pronouns ...",
+              "pre_snippet": "09/23/2021 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 220,
+                "regular": null,
+                "max_value": null,
+                "currency": "TOP",
+                "is_price_range": false,
+                "displayed_price": "The Top 220 Hebrew Words for Beginners"
+              },
+              "highlighted": [
+                "220 basic Hebrew words for beginners"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Pronouns",
+                  "description": null,
+                  "url": "https://www.hebrewpod101.com/blog/2021/09/23/hebrew-beginner-words/#1",
+                  "domain": "www.hebrewpod101.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Numbers",
+                  "description": null,
+                  "url": "https://www.hebrewpod101.com/blog/2021/09/23/hebrew-beginner-words/#2",
+                  "domain": "www.hebrewpod101.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Nouns",
+                  "description": null,
+                  "url": "https://www.hebrewpod101.com/blog/2021/09/23/hebrew-beginner-words/#3",
+                  "domain": "www.hebrewpod101.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Verbs",
+                  "description": null,
+                  "url": "https://www.hebrewpod101.com/blog/2021/09/23/hebrew-beginner-words/#4",
+                  "domain": "www.hebrewpod101.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Adjectives",
+                  "description": null,
+                  "url": "https://www.hebrewpod101.com/blog/2021/09/23/hebrew-beginner-words/#5",
+                  "domain": "www.hebrewpod101.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Words for Describing the...",
+                  "description": null,
+                  "url": "https://www.hebrewpod101.com/blog/2021/09/23/hebrew-beginner-words/#6",
+                  "domain": "www.hebrewpod101.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": [
+                "how many words in",
+                "learning hebrew",
+                "how many words",
+                "how many words in",
+                "how many words does the",
+                "biblical hebrew",
+                "hebrew basic",
+                "how to speak"
+              ],
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2021-09-23 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[12]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Quiz | 230 Hebrew Words You'll Use Every Day - Basic Vocabulary #63",
+              "url": "https://www.youtube.com/watch?v=DTyOlyBisrs",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "790+ views",
+              "website_name": "YouTube · Learn Hebrew with HebrewPod101.com",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "In this series, we teach you the core 2000 Hebrew words that you must know ・ 50 Hebrew Words You Need to Know in Israel! Hebrew for Beginners ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-04-14 08:02:16 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[14]",
+              "title": "People also search for",
+              "items": [
+                "How many hebrew words do beginners need pdf",
+                "How many hebrew words do beginners need a day",
+                "How many hebrew words do beginners need in the bible",
+                "How many words in Hebrew vs English",
+                "Learning Hebrew for beginners PDF",
+                "How many words in Modern Hebrew"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[15]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "How to Boost Your Hebrew Vocabulary with the 2000 Most ...",
+              "url": "https://www.youtube.com/watch?v=ENSLoxBmJbk",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "3.1K+ views",
+              "website_name": "YouTube · Learn Hebrew with HebrewPod101.com",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "2,000 core words list to reach Hebrew fluency. 50 Hebrew Words You Need to Know in Israel!",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2022-10-14 08:02:16 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[16]/div[1]/div[1]",
+              "domain": "www.hebrewpod101.com",
+              "title": "How to Boost Your Hebrew Vocabulary with the 2000 Most ...",
+              "url": "https://www.hebrewpod101.com/lesson/learning-strategies-104-how-to-boost-your-hebrew-vocabulary-with-the-2000-most-common-words-list",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.hebrewpod101.com",
+              "website_name": "Learn Hebrew",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "According to experts,you need to know about 1,500 words for conversational fluency. So, 2,000 is more than enough for any language learner.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": null,
+                  "description": null,
+                  "url": "https://www.hebrewpod101.com/lesson/learning-strategies-104-how-to-boost-your-hebrew-vocabulary-with-the-2000-most-common-words-list",
+                  "domain": "www.hebrewpod101.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2022-02-08 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[18]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "biblicalhebrewmadeeasy.weebly.com",
+              "title": "Biblical Hebrew Vocabulary: How Much is Enough? The Law of ...",
+              "url": "https://biblicalhebrewmadeeasy.weebly.com/blog/biblical-hebrew-vocabulary-how-much-is-enough-the-law-of-diminishing-returns",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://biblicalhebrewmadeeasy.weebly.com",
+              "website_name": "Biblical Hebrew Made Easy!",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Dec 13, 2012 — With mastery of a mere 641 Hebrew words you will have OVER 80% recognition of Hebrew vocabulary in the Old Testament text! After learning 641 of ...",
+              "pre_snippet": "12/13/2012 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "641 Hebrew words"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2012-12-13 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[20]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.quora.com",
+              "title": "How many words does the average person know in Hebrew?",
+              "url": "https://www.quora.com/How-many-words-does-the-average-person-know-in-Hebrew",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "30+ answers",
+              "website_name": "Quora",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "The academy of the Hebrew language estimates 45,000 words, in addition to 30,000-35,000 word compositions",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "45,000 words"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2023-10-14 08:02:16 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 2,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[4]/div[1]/div[3]/div[1]",
+              "title": "People also search for",
+              "items": [
+                "How many words in Biblical Hebrew language",
+                "How many words does the English language have",
+                "Biblical Hebrew for beginners",
+                "Hebrew basic phrases",
+                "How to speak Hebrew",
+                "Learn Hebrew for free with audio"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

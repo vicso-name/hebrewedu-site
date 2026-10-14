@@ -1,0 +1,710 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "3.6284 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10140758-2762-0139-0000-5df7e077b7bf",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "3.5259 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "hebrew comprehensible input",
+        "device": "mobile",
+        "os": "android",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "hebrew comprehensible input",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=hebrew%20comprehensible%20input&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-10-14 07:58:04 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "organic",
+            "ai_overview",
+            "video",
+            "people_also_ask",
+            "people_also_search"
+          ],
+          "se_results_count": 0,
+          "pages_count": 1,
+          "items_count": 12,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "ellevationeducation.com",
+              "title": "Teaching with Comprehensible Input: Definition & Examples",
+              "url": "https://ellevationeducation.com/blog/teaching-comprehensible-input-definition-examples",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://ellevationeducation.com",
+              "website_name": "Ellevation",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Comprehensible input is simply an instructional shift when teachers provide input where students understand most, but not all, of the language. Think of ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": [
+                "krashen's",
+                "teaching spanish with",
+                "comprehensible",
+                "comprehensible",
+                "comprehensive input",
+                "input based",
+                "comprehensible hub",
+                "krashen language"
+              ],
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]/div[1]",
+              "asynchronous_ai_overview": false,
+              "markdown": "Comprehensible input (CI) is a language acquisition method based on Stephen Krashen's theory that people learn a language best by **understanding messages in context** rather than memorizing grammar rules or vocabulary lists.[[1]](https://freehebrew.online/why-our-method/)[[2]](https://cmovan.edublogs.org/)[[3]](https://www.youtube.com/watch?v=qGr2o7xycnk)\n\nYou can find curated resources, video channels, and structured platforms dedicated to Hebrew comprehensible input:\n\n### Top Modern Hebrew Comprehensible Input Sources\n\n- **Reelang Hebrew:** A TikTok-style video feed with content filterable by level (A1 to C1), topic, and listening speed (slow, medium, fast).\n- **Piece of Hebrew:** Engages learners with vlogs and lifestyle content about Israel with low-intermediate to intermediate pacing.\n- **Lenguia:** Offers short animated stories and beginner (A1) Hebrew videos with synchronized interactive transcripts where you can tap words to see meanings.\n- **Free Hebrew. Forever:** A free online curriculum that uses a natural approach, delaying text and the alphabet in early lessons to mimic natural childhood acquisition.\n- **Alisa Shapiro's Composable Hebrew Resources:** Educator blogs and teacher guides focused on big-idea, message-driven Modern Hebrew acquisition.\n- **Wiki Directory:** You can browse a larger breakdown of tools on the [Comprehensible Input Wiki for Hebrew](https://comprehensibleinputwiki.org/wiki/Hebrew).[[1]](https://comprehensibleinputwiki.org/wiki/Hebrew)[[2]](https://www.lenguia.com/comprehensible-input/hebrew)[[3]](https://www.youtube.com/watch?v=THaBh2-Xbys)[[4]](https://freehebrew.online/why-our-method/)[[5]](https://cmovan.edublogs.org/)\n\n### A Note on Biblical vs. Modern Hebrew\n\n- **Aleph with Beth:** An exceptionally popular and high-quality YouTube resource for CI, though it teaches **Biblical Hebrew** rather than Modern Hebrew. Because of heavy vocabulary overlap, some learners use it to bridge gaps, keep in mind that pronunciation, syntax, and daily usage differ from Modern Hebrew.[[1]](https://comprehensibleinputwiki.org/wiki/Hebrew)\n\nAre you looking for **beginner (A1) content** , or do you already know the **Hebrew alphabet (Alef-Bet)** so you can watch videos with Hebrew subtitles?",
+              "items": [
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Comprehensible input (CI) is a language acquisition method based on Stephen Krashen's theory that people learn a language best by understanding messages in context rather than memorizing grammar rules or vocabulary lists.",
+                  "markdown": "Comprehensible input (CI) is a language acquisition method based on Stephen Krashen's theory that people learn a language best by **understanding messages in context** rather than memorizing grammar rules or vocabulary lists.[[1]](https://freehebrew.online/why-our-method/)[[2]](https://cmovan.edublogs.org/)[[3]](https://www.youtube.com/watch?v=qGr2o7xycnk)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Free Hebrew. Forever.",
+                      "domain": "freehebrew.online",
+                      "url": "https://freehebrew.online/why-our-method/",
+                      "title": "Why Our Method? - Free Hebrew. Forever.",
+                      "text": "Methodology: Comprehensible Input (Natural Approach by Stephen Krashen) focusing on low-stress, implicit language acquisition without forcing early speech. Curr..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Edublogs",
+                      "domain": "cmovan.edublogs.org",
+                      "url": "https://cmovan.edublogs.org/",
+                      "title": "Comprehensible Hebrew | Teacher Resources from Alisa Shapiro ...",
+                      "text": "Comprehensible Hebrew – BIG IDEAS. *Primacy: Humans acquire language one way: By understanding messages, a.k.a. Comprehensible Input (CI). *Communication: Moder..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=qGr2o7xycnk",
+                      "title": "What is Comprehensible Input?",
+                      "text": "What is Comprehensible Input? hey have you heard about comprehensible input maybe you've heard the term or you've seen it in Facebook groups online or you know ..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "You can find curated resources, video channels, and structured platforms dedicated to Hebrew comprehensible input:",
+                  "markdown": "You can find curated resources, video channels, and structured platforms dedicated to Hebrew comprehensible input:",
+                  "links": null,
+                  "images": null,
+                  "references": null
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Top Modern Hebrew Comprehensible Input Sources",
+                  "text": "Reelang Hebrew: A TikTok-style video feed with content filterable by level (A1 to C1), topic, and listening speed (slow, medium, fast). Piece of Hebrew: Engages learners with vlogs and lifestyle content about Israel with low-intermediate to intermediate pacing. Lenguia: Offers short animated stories and beginner (A1) Hebrew videos with synchronized interactive transcripts where you can tap words to see meanings. Free Hebrew. Forever: A free online curriculum that uses a natural approach, delaying text and the alphabet in early lessons to mimic natural childhood acquisition. Alisa Shapiro's Composable Hebrew Resources: Educator blogs and teacher guides focused on big-idea, message-driven Modern Hebrew acquisition. Wiki Directory: You can browse a larger breakdown of tools on the Comprehensible Input Wiki for Hebrew.",
+                  "markdown": "- **Reelang Hebrew:** A TikTok-style video feed with content filterable by level (A1 to C1), topic, and listening speed (slow, medium, fast).\n- **Piece of Hebrew:** Engages learners with vlogs and lifestyle content about Israel with low-intermediate to intermediate pacing.\n- **Lenguia:** Offers short animated stories and beginner (A1) Hebrew videos with synchronized interactive transcripts where you can tap words to see meanings.\n- **Free Hebrew. Forever:** A free online curriculum that uses a natural approach, delaying text and the alphabet in early lessons to mimic natural childhood acquisition.\n- **Alisa Shapiro's Composable Hebrew Resources:** Educator blogs and teacher guides focused on big-idea, message-driven Modern Hebrew acquisition.\n- **Wiki Directory:** You can browse a larger breakdown of tools on the [Comprehensible Input Wiki for Hebrew](https://comprehensibleinputwiki.org/wiki/Hebrew).[[1]](https://comprehensibleinputwiki.org/wiki/Hebrew)[[2]](https://www.lenguia.com/comprehensible-input/hebrew)[[3]](https://www.youtube.com/watch?v=THaBh2-Xbys)[[4]](https://freehebrew.online/why-our-method/)[[5]](https://cmovan.edublogs.org/)",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Comprehensible Input Wiki for Hebrew",
+                      "description": null,
+                      "url": "https://comprehensibleinputwiki.org/wiki/Hebrew",
+                      "domain": "comprehensibleinputwiki.org"
+                    }
+                  ],
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Comprehensible Input Wiki",
+                      "domain": "comprehensibleinputwiki.org",
+                      "url": "https://comprehensibleinputwiki.org/wiki/Hebrew",
+                      "title": "Hebrew",
+                      "text": "Videos Piece of Hebrew (Highly engaging vlog and other content about Israel and the Hebrew language. Unremovable English subtitles. Low Intermediate to Intermed..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Lenguia",
+                      "domain": "www.lenguia.com",
+                      "url": "https://www.lenguia.com/comprehensible-input/hebrew",
+                      "title": "Hebrew Comprehensible Input Videos for Beginners",
+                      "text": "Hebrew Comprehensible Input Videos Short animated stories in Hebrew, told slowly in simple sentences. You understand them from the pictures, so you pick up Hebr..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=THaBh2-Xbys",
+                      "title": "Your First Hebrew Story — Comprehensible Input (A1)",
+                      "text": "Your First Hebrew Story — Comprehensible Input (A1) - YouTube This content isn't available. Learn Hebrew with this short video! Read, write, speak, listen and w..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Free Hebrew. Forever.",
+                      "domain": "freehebrew.online",
+                      "url": "https://freehebrew.online/why-our-method/",
+                      "title": "Why Our Method? - Free Hebrew. Forever.",
+                      "text": "Methodology: Comprehensible Input (Natural Approach by Stephen Krashen) focusing on low-stress, implicit language acquisition without forcing early speech. Curr..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Edublogs",
+                      "domain": "cmovan.edublogs.org",
+                      "url": "https://cmovan.edublogs.org/",
+                      "title": "Comprehensible Hebrew | Teacher Resources from Alisa Shapiro ...",
+                      "text": "Comprehensible Hebrew – BIG IDEAS. *Primacy: Humans acquire language one way: By understanding messages, a.k.a. Comprehensible Input (CI). *Communication: Moder..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "A Note on Biblical vs. Modern Hebrew",
+                  "text": "Aleph with Beth: An exceptionally popular and high-quality YouTube resource for CI, though it teaches Biblical Hebrew rather than Modern Hebrew. Because of heavy vocabulary overlap, some learners use it to bridge gaps, keep in mind that pronunciation, syntax, and daily usage differ from Modern Hebrew.",
+                  "markdown": "- **Aleph with Beth:** An exceptionally popular and high-quality YouTube resource for CI, though it teaches **Biblical Hebrew** rather than Modern Hebrew. Because of heavy vocabulary overlap, some learners use it to bridge gaps, keep in mind that pronunciation, syntax, and daily usage differ from Modern Hebrew.[[1]](https://comprehensibleinputwiki.org/wiki/Hebrew)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Comprehensible Input Wiki",
+                      "domain": "comprehensibleinputwiki.org",
+                      "url": "https://comprehensibleinputwiki.org/wiki/Hebrew",
+                      "title": "Hebrew",
+                      "text": "Videos Piece of Hebrew (Highly engaging vlog and other content about Israel and the Hebrew language. Unremovable English subtitles. Low Intermediate to Intermed..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Are you looking for beginner (A1) content, or do you already know the Hebrew alphabet (Alef-Bet) so you can watch videos with Hebrew subtitles?",
+                  "markdown": "Are you looking for **beginner (A1) content** , or do you already know the **Hebrew alphabet (Alef-Bet)** so you can watch videos with Hebrew subtitles?",
+                  "links": null,
+                  "images": null,
+                  "references": null
+                }
+              ],
+              "references": [
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Comprehensible Input Wiki",
+                  "domain": "comprehensibleinputwiki.org",
+                  "url": "https://comprehensibleinputwiki.org/wiki/Hebrew",
+                  "title": "Hebrew",
+                  "text": "Videos Piece of Hebrew (Highly engaging vlog and other content about Israel and the Hebrew language. Unremovable English subtitles. Low Intermediate to Intermed..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Free Hebrew. Forever.",
+                  "domain": "freehebrew.online",
+                  "url": "https://freehebrew.online/why-our-method/",
+                  "title": "Why Our Method? - Free Hebrew. Forever.",
+                  "text": "Methodology: Comprehensible Input (Natural Approach by Stephen Krashen) focusing on low-stress, implicit language acquisition without forcing early speech. Curr..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Edublogs",
+                  "domain": "cmovan.edublogs.org",
+                  "url": "https://cmovan.edublogs.org/",
+                  "title": "Comprehensible Hebrew | Teacher Resources from Alisa Shapiro ...",
+                  "text": "Comprehensible Hebrew – BIG IDEAS. *Primacy: Humans acquire language one way: By understanding messages, a.k.a. Comprehensible Input (CI). *Communication: Moder..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Lenguia",
+                  "domain": "www.lenguia.com",
+                  "url": "https://www.lenguia.com/comprehensible-input/hebrew",
+                  "title": "Hebrew Comprehensible Input Videos for Beginners",
+                  "text": "Hebrew Comprehensible Input Videos Short animated stories in Hebrew, told slowly in simple sentences. You understand them from the pictures, so you pick up Hebr..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "YouTube",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/watch?v=THaBh2-Xbys",
+                  "title": "Your First Hebrew Story — Comprehensible Input (A1)",
+                  "text": "Your First Hebrew Story — Comprehensible Input (A1) - YouTube This content isn't available. Learn Hebrew with this short video! Read, write, speak, listen and w..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "YouTube",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/watch?v=qGr2o7xycnk",
+                  "title": "What is Comprehensible Input?",
+                  "text": "What is Comprehensible Input? hey have you heard about comprehensible input maybe you've heard the term or you've seen it in Facebook groups online or you know ..."
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "The Hebrew Flow",
+                  "title": "LEARN HEBREW with REPETITION // EASY Comprehensible Input",
+                  "timestamp": "2026-02-08 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=Rsi5F0P83Vk"
+                },
+                {
+                  "type": "video_element",
+                  "source": "The Hebrew Adventure",
+                  "title": "Comprehensible Hebrew Input (The Best Way To Learn Hebrew)",
+                  "timestamp": "2023-08-19 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=m-qXjheZQI0"
+                },
+                {
+                  "type": "video_element",
+                  "source": "The Hebrew Flow",
+                  "title": "Past, Present and Future tense in Hebrew | Comprehensible Input",
+                  "timestamp": "2025-10-03 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=C9NR74N5i8Y"
+                },
+                {
+                  "type": "video_element",
+                  "source": "The Hebrew Flow",
+                  "title": "Learn HEBREW Past Tense NATURALLY | Comprehensible Input",
+                  "timestamp": "2026-03-23 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=z3EAYKwfjgc"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "How To Make Input MORE COMPREHENSIBLE In Language ...",
+              "url": "https://www.youtube.com/watch?v=vlbA4XypQmM",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "101.9K+ views",
+              "website_name": "YouTube · Robin MacPherson",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Another tip is to consume content that you've already consumed in your native language. I read a lot of books in Spanish that I've already ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2020-10-14 07:58:03 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "How to Perfect Your Hebrew with 1 Study Tool (Tips for Beginners)",
+              "url": "https://www.youtube.com/watch?v=0-JCcQ4Mb_4",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "1.2K+ views",
+              "website_name": "YouTube · Learn Hebrew with HebrewPod101.com",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Learn Hebrew in 25 Minutes - ALL the Basics You Need · How I Became FLUENT in Hebrew // Useful TIPS to learn HEBREW: Verbs, Vocabulary, Books...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2020-10-14 07:58:03 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.lucalampariello.com",
+              "title": "Why Listening Is Not Enough: The Real Power of Comprehensible Input",
+              "url": "https://www.lucalampariello.com/why-listening-is-not-enough-the-real-power-of-comprehensible-input/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.lucalampariello.com",
+              "website_name": "Luca Lampariello",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Comprehensible input does not mean “listen and hope.” It means creating the perfect conditions for your brain to connect dots and acquire knowledge. Gestures, ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "creating the perfect conditions for your brain to connect dots and acquire knowledge"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[10]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Hebrew for Beginners  Simple Guessing Game with Yes or No ...",
+              "url": "https://www.youtube.com/watch?v=Sg5lx1RnQEk",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "9.1K+ views",
+              "website_name": "YouTube · Piece of Hebrew",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "In this beginner level Hebrew video, we play a simple guessing game. One person thinks of a character, and the other tries to guess who it is ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-05-14 07:58:03 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[12]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "forum.lingq.com",
+              "title": "What is comprehensible input?",
+              "url": "https://forum.lingq.com/t/what-is-comprehensible-input/23867",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://forum.lingq.com",
+              "website_name": "LingQ Language Forums",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Jul 28, 2016 — “comprehensible input” is information that comes to you from reading or from listening that you understand/comprehend.",
+              "pre_snippet": "07/28/2016 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "information that comes to you from reading or from listening"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2016-07-28 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[14]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is the meaning of comprehensible input?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is the best language app for learning Hebrew?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[14]/div[1]/div[2]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Is Hebrew the most difficult language to learn?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[14]/div[1]/div[2]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Where can I find a course in Biblical Hebrew?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[14]/div[1]/div[2]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[15]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "How To Master Any Language: Comprehensible Input",
+              "url": "https://www.youtube.com/watch?v=CwjkqUBztiM",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "560K+ views",
+              "website_name": "YouTube · Fingtam Languages",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Comprehensible input is the only way to truly acquire a language. asier, and more fun. the secret to learning a language through comprehensible ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2021-10-14 07:58:03 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[16]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "How to Learn the Hebrew Faster with Structured Audio/Video Lessons",
+              "url": "https://www.youtube.com/watch?v=tcIQhrkxX4s",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "2K+ views",
+              "website_name": "YouTube · Learn Hebrew with HebrewPod101.com",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Hebrew conversations! HebrewPod101 is the best place to get started with the Hebrew language as you will get on your way to Hebrew fluency fast.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-10-14 07:58:03 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[18]",
+              "title": "People also search for",
+              "items": [
+                "Hebrew comprehensible input free",
+                "Modern hebrew comprehensible input",
+                "Krashen's comprehensible input",
+                "Teaching Spanish with comprehensible input",
+                "Comprehensible input studies",
+                "Comprehensible English"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

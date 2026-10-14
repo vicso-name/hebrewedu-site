@@ -1,0 +1,40 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "18.1904 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10140801-2762-0139-0000-5056527d32de",
+      "status_code": 40101,
+      "status_message": "Internal SE Server Error.",
+      "time": "18.0695 sec.",
+      "cost": 0.002,
+      "result_count": 0,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "hebrew reading comprehension for beginners",
+        "device": "mobile",
+        "os": "android",
+        "depth": 10
+      },
+      "result": null
+    }
+  ]
+}

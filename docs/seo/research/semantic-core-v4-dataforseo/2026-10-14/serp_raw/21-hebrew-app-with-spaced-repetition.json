@@ -1,0 +1,597 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "3.0724 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10140758-2762-0139-0000-03b9c3c4f213",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "3.0164 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "hebrew app with spaced repetition",
+        "device": "mobile",
+        "os": "android",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "hebrew app with spaced repetition",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=hebrew%20app%20with%20spaced%20repetition&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-10-14 07:58:29 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "discussions_and_forums",
+            "app",
+            "video",
+            "people_also_ask",
+            "people_also_search"
+          ],
+          "se_results_count": 0,
+          "pages_count": 1,
+          "items_count": 13,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": true,
+              "markdown": null,
+              "items": null,
+              "references": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.itsbaba.com",
+              "title": "5 Best Hebrew Learning Apps Compared (2026)",
+              "url": "https://www.itsbaba.com/blog/5-best-hebrew-learning-apps-compared",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.itsbaba.com",
+              "website_name": "baba Hebrew Translator",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "The app uses spaced repetition combined with visual aids to help learners remember new words. options like Duolingo and HebrewPod101 for ...",
+              "pre_snippet": "03/04/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": [
+                "best apps to learn",
+                "hebrew learning",
+                "wordbit",
+                "hebrewpod101",
+                "hebleo",
+                "biblical",
+                "app to learn",
+                "best app to"
+              ],
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-03-04 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "Good Hebrew learning apps? : r/hebrew",
+              "url": "https://www.reddit.com/r/hebrew/comments/1bj5g93/good_hebrew_learning_apps/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "10+ comments",
+              "website_name": "Reddit · r/hebrew",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "I would love to learn to speak/read/write in Hebrew and I was for a while on duolingo, but then I found out that it doesn’t actually teach you to be ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Which apps do you use to learn Hebrew?r/hebrew·30+ comments·11mo",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/hebrew/comments/1oil0oz/which_apps_do_you_use_to_learn_hebrew/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "app reccomendations to learn Hebrew? : r/hebrewr/hebrew·10+ comments·6mo",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/hebrew/comments/1ryseur/app_reccomendations_to_learn_hebrew/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "The route I'm going to recommend seems to work quickly for many of my students (definitely ...",
+                  "description": "Top answer · 19 votes",
+                  "url": "https://www.reddit.com/r/hebrew/comments/1bj5g93/good_hebrew_learning_apps/kvpp6ox/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "I did a few virtual sessions on Italki with a very friendly Hebrew native speaker who was living ...",
+                  "description": "4 votes",
+                  "url": "https://www.reddit.com/r/hebrew/comments/1bj5g93/good_hebrew_learning_apps/kvpk2vy/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "For Modern Hebrew, out of all the resources I have attempted over the years (there are many), ...",
+                  "description": "4 votes",
+                  "url": "https://www.reddit.com/r/hebrew/comments/1bj5g93/good_hebrew_learning_apps/kvrj3wo/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "I recommend an app called \"Shepha\"\n\nIt started at teaching you all the alphabet until you memorized ...",
+                  "description": "4 votes",
+                  "url": "https://www.reddit.com/r/hebrew/comments/1bj5g93/good_hebrew_learning_apps/l779bzi/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "For vocabulary building I will recommend wordbit Hebrew app. It gives niqqud, conjugation, ...",
+                  "description": "3 votes",
+                  "url": "https://www.reddit.com/r/hebrew/comments/1bj5g93/good_hebrew_learning_apps/kygedki/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "This is my first time attempting to learn a different language. So this the beginning of something ...",
+                  "description": "1 vote",
+                  "url": "https://www.reddit.com/r/hebrew/comments/1bj5g93/good_hebrew_learning_apps/neqopa7/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "sol en hebreo",
+                  "description": "1 vote",
+                  "url": "https://www.reddit.com/r/hebrew/comments/1bj5g93/good_hebrew_learning_apps/nrav2rv/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Templo",
+                  "description": "1 vote",
+                  "url": "https://www.reddit.com/r/hebrew/comments/1bj5g93/good_hebrew_learning_apps/nrhxyr6/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Templo en hebreo",
+                  "description": "1 vote",
+                  "url": "https://www.reddit.com/r/hebrew/comments/1bj5g93/good_hebrew_learning_apps/nrhy0so/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "This app baba Hebrew itsbaba.com This is a really good Hebrew translator, but no learning ...",
+                  "description": "1 vote",
+                  "url": "https://www.reddit.com/r/hebrew/comments/1bj5g93/good_hebrew_learning_apps/p0ujm92/",
+                  "domain": "www.reddit.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-10-14 07:58:28 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "discussions_and_forums",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[7]",
+              "title": "Discussions and forums",
+              "items": [
+                {
+                  "type": "discussions_and_forums_element",
+                  "title": "Best Hebrew App",
+                  "url": "https://www.reddit.com/r/hebrew/comments/1u900ph/best_hebrew_app/",
+                  "domain": "google.com",
+                  "source": "Reddit",
+                  "description": null,
+                  "timestamp": "2026-07-14 07:58:28 +00:00",
+                  "posts_count": 20
+                },
+                {
+                  "type": "discussions_and_forums_element",
+                  "title": "Hebrew verb conjugation app with spaced repetition?",
+                  "url": "https://www.facebook.com/groups/1687050108451278/posts/1896993447456942/",
+                  "domain": "google.com",
+                  "source": "Facebook",
+                  "description": null,
+                  "timestamp": "2025-10-14 07:58:28 +00:00",
+                  "posts_count": null
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "app",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[8]",
+              "items": [
+                {
+                  "type": "app_element",
+                  "title": "Learn Hebrew - Speak Hebrew",
+                  "description": "Education · Language",
+                  "url": "https://play.google.com/store/apps/details?id=com.atistudios.italk.he&hl=en_US&referrer=utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_term%3Dhebrew+app+with+spaced+repetition&pcampaignid=APPU_1_IzbPauC3NKGzhbIPna2F0Qw",
+                  "price": null
+                },
+                {
+                  "type": "app_element",
+                  "title": "Simply Learn Hebrew",
+                  "description": "Education · Language",
+                  "url": "https://play.google.com/store/apps/details?id=simply.learn.hebrew&hl=en_US&referrer=utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_term%3Dhebrew+app+with+spaced+repetition&pcampaignid=APPU_1_IzbPauC3NKGzhbIPna2F0Qw",
+                  "price": null
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[10]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "Kamoni",
+                  "title": "The Exact Apps I Used to Become Fluent in Hebrew",
+                  "timestamp": "2026-03-22 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=4sA5VsNOq-s"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Ling Learn Languages",
+                  "title": "How to learn Hebrew (5 Apps BETTER than DUOLINGO)",
+                  "timestamp": "2025-09-01 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=iZUi8dji6Qc"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Teacher Mike",
+                  "title": "Help Me Build the Ultimate Hebrew Learning App!",
+                  "timestamp": "2026-06-17 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=WSraY4iM-kY"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[12]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is a good spaced repetition app?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What's the best app for learning Hebrew?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[12]/div[1]/div[2]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Is Duolingo effective for Hebrew?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[12]/div[1]/div[2]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Does Babbel do Hebrew?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[12]/div[1]/div[2]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "flashrecall.app",
+              "title": "The Best Way To Actually Remember Hebrew Fast (Most Learners Don't ...",
+              "url": "https://flashrecall.app/blog/hebrew-flashcards-app",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://flashrecall.app",
+              "website_name": "FlashRecall",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Dec 12, 2025 — This hebrew flashcards app turns any text, PDF or YouTube video into cards, adds spaced repetition and reminders, and actually makes Hebrew ...",
+              "pre_snippet": "12/12/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "adds spaced repetition"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-12-12 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[16]",
+              "title": "People also search for",
+              "items": [
+                "Hebrew app with spaced repetition reddit",
+                "Free hebrew app with spaced repetition",
+                "Best apps to learn Hebrew for free",
+                "Hebrew learning app free",
+                "Best hebrew app with spaced repetition",
+                "Hebrew app with spaced repetition ios"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[17]/div[1]/div[1]",
+              "domain": "www.hebrewpod101.com",
+              "title": "How Spaced Repetition Helps You Learn Hebrew Words Faster",
+              "url": "https://www.hebrewpod101.com/lesson/learning-strategies-115-how-spaced-repetition-helps-you-learn-hebrew-words-faster",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.hebrewpod101.com",
+              "website_name": "Learn Hebrew",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Spaced repetition is where you see a word today then you see it again tomorrow, then in a few days and so on, so that your learning gets spaced out over time.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": null,
+                  "description": null,
+                  "url": "https://www.hebrewpod101.com/lesson/learning-strategies-115-how-spaced-repetition-helps-you-learn-hebrew-words-faster",
+                  "domain": "www.hebrewpod101.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2022-08-26 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.hebrewpod101.com",
+              "title": "Free Hebrew Learning App",
+              "url": "https://www.hebrewpod101.com/app/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.hebrewpod101.com",
+              "website_name": "HebrewPod101",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Get the free Hebrew learning app by HebrewPod101: Innovative Language Learning. Get conversation lessons, speaking, and listening practice.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Get the free Hebrew learning app"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[21]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "noamshebrew.com",
+              "title": "Learning Hebrew With Apps - Best Tools My Students Use Daily",
+              "url": "https://noamshebrew.com/learning-hebrew-with-apps-what-my-students-really-use-%F0%9F%93%B1/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://noamshebrew.com",
+              "website_name": "Noam's Hebrew",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "May 7, 2025 — Top apps for learning Hebrew that my students rely on to improve vocabulary, pronunciation, and reading. Ideal for individuals and groups.",
+              "pre_snippet": "05/07/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Top apps for learning Hebrew"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-05-07 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 2,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[4]/div[1]/div[3]/div[1]",
+              "title": "People also search for",
+              "items": [
+                "WordBit Hebrew app",
+                "HebrewPod101",
+                "Hebleo",
+                "Biblical Hebrew app",
+                "App to learn Hebrew alphabet",
+                "Best app to learn Hebrew"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

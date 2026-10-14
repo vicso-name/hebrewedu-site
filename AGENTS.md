@@ -35,6 +35,16 @@ either one, merge with those rules — don't drop them.
 
 # SEO semantic core
 
+`docs/seo/core/*.csv` (`keywords.csv`, `pages.csv`, `clusters.csv`) is
+the single source of truth. `npm run seo:build` only reads those three
+files and only writes `docs/seo/semantic-core.xlsx` — it never writes
+to `core/`, and never reads `docs/seo/research/`. Edit `core/*.csv`
+directly, by hand or with an import script for a new provider batch,
+then run `npm run seo:build` to validate and regenerate the xlsx.
+Never regenerate `core/` from `research/` — that is a one-time,
+not-npm-scripted conversion (`scripts/seo/migrate-legacy.mjs --force`,
+never run casually, see `docs/seo/README.md`).
+
 Before creating or retargeting a page, check `docs/seo/core/`: assign
 its cluster, avoid cannibalization; after publishing, update
 `keywords.csv`/`pages.csv` and run `npm run seo:build`. Never call paid

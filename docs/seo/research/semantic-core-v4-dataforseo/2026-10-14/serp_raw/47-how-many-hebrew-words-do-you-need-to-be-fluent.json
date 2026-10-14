@@ -1,0 +1,596 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "2.5756 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10140803-2762-0139-0000-86337751c139",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "2.5066 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "how many hebrew words do you need to be fluent",
+        "device": "mobile",
+        "os": "android",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "how many hebrew words do you need to be fluent",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=how%20many%20hebrew%20words%20do%20you%20need%20to%20be%20fluent&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-10-14 08:03:08 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "video"
+          ],
+          "se_results_count": 0,
+          "pages_count": 1,
+          "items_count": 11,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": true,
+              "markdown": null,
+              "items": null,
+              "references": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "regaining fluency in hebrew",
+              "url": "https://www.reddit.com/r/hebrew/comments/1f1gc8q/regaining_fluency_in_hebrew/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "20+ comments",
+              "website_name": "Reddit · r/hebrew",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "You need to be in a situation where you are actually producing the language and the fluency you aim for. Same goes for writing. In other words ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Achieving fluency : r/hebrewr/hebrew·8 comments·4y",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/hebrew/comments/umlvup/achieving_fluency/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "How much hebrew does the typical jew know? : r/Judaismr/Judaism·60+ comments·1y",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/Judaism/comments/1krea6p/how_much_hebrew_does_the_typical_jew_know/",
+                  "domain": "www.reddit.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-10-14 08:03:07 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How long does it take to be proficient in Hebrew?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is the hardest word to say in Hebrew?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is the history of the Hebrew language?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How many words are in the Hebrew language?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[6]/div[1]/div[1]",
+              "domain": "www.hebrewpod101.com",
+              "title": "Learn These Hebrew Words & You WILL Become Fluent!",
+              "url": "https://www.hebrewpod101.com/lesson/learning-strategies-138-learn-these-hebrew-words-you-will-become-fluent",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.hebrewpod101.com",
+              "website_name": "HebrewPod101",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "In this guide, you'll learn 1. All about our 2000 most common words list. to food, drink, travel, your relationships, and so on. 2000 core word ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": null,
+                  "description": null,
+                  "url": "https://www.hebrewpod101.com/lesson/learning-strategies-138-learn-these-hebrew-words-you-will-become-fluent",
+                  "domain": "www.hebrewpod101.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2023-06-27 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[8]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "Learn Hebrew with HebrewPod101.com",
+                  "title": "Learn These Hebrew Words & You WILL Become Fluent!",
+                  "timestamp": "2023-07-03 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=_BH1Uagu58g"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Hebrew Verbs",
+                  "title": "The Ultimate Guide to Hebrew Fluency",
+                  "timestamp": "2026-09-14 08:03:07 +00:00",
+                  "url": "https://www.youtube.com/watch?v=TFHAKEqfVDA"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Learn Hebrew",
+                  "title": "Top 5 Ways to Speak More Hebrew",
+                  "timestamp": "2020-10-10 00:00:00 +00:00",
+                  "url": "https://www.hebrewpod101.com/lesson/learning-strategies-56-top-5-ways-to-speak-more-hebrew"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Learn Hebrew with HebrewPod101.com",
+                  "title": "Achieve Hebrew Fluency: Speak Like a Native [Speaking]",
+                  "timestamp": "2024-05-28 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=gyuqwsr9Pl0"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.facebook.com",
+              "title": "Realistically, how long would it take to become near fluent in Hebrew with ...",
+              "url": "https://www.facebook.com/groups/secrettelaviv/posts/10160888727845943/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "50+ comments",
+              "website_name": "Facebook · Secret Tel Aviv",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "2-3 years with consistent practice, 700-1100 hours estimated to reach near fluency. ... 2-3 years, but most importantly— how many hours will you ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-10-14 08:03:07 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[12]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.quora.com",
+              "title": "Is it possible to speak fluent Hebrew if one can only read it? Can someone ...",
+              "url": "https://www.quora.com/Is-it-possible-to-speak-fluent-Hebrew-if-one-can-only-read-it-Can-someone-teach-themselves-to-read-Hebrew-fluently-without-any-prior-knowledge-of-the-language",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "40+ answers",
+              "website_name": "Quora",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Is it possible to speak fluent Hebrew if one can only read it? Can someone teach themselves to read Hebrew fluently without any prior knowledge of the language?",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Did you learn to read English before you spoke? Actually, a lot of Jewish boys learn to read ...",
+                  "description": "Top answer · 3 votes",
+                  "url": "https://www.quora.com/Is-it-possible-to-speak-fluent-Hebrew-if-one-can-only-read-it-Can-someone-teach-themselves-to-read-Hebrew-fluently-without-any-prior-knowledge-of-the-language?top_ans=1477743816969427",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Is it possible to be a Hebrew-speaking child not yet old enough to read?",
+                  "description": "2 votes",
+                  "url": "https://www.quora.com/Is-it-possible-to-speak-fluent-Hebrew-if-one-can-only-read-it-Can-someone-teach-themselves-to-read-Hebrew-fluently-without-any-prior-knowledge-of-the-language?top_ans=378300792",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Of course.\n\nYou can study Modern Hebrew and become fluent.\n\nJust as you would study Spanish, ...",
+                  "description": "1 vote",
+                  "url": "https://www.quora.com/Is-it-possible-to-speak-fluent-Hebrew-if-one-can-only-read-it-Can-someone-teach-themselves-to-read-Hebrew-fluently-without-any-prior-knowledge-of-the-language?top_ans=1477743670470738",
+                  "domain": "www.quora.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-10-14 08:03:07 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "machonsiach.org",
+              "title": "Small Steps to Greater Hebrew Reading Skills",
+              "url": "https://machonsiach.org/small-steps-to-greater-hebrew-reading-skills/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://machonsiach.org",
+              "website_name": "Machon Siach",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Students can improve their Hebrew reading dramatically with regular practice in this style, and their retention is greatly improved with daily ...",
+              "pre_snippet": "12/04/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-12-04 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[16]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.quora.com",
+              "title": "What is the fastest way to become fluent in Hebrew?",
+              "url": "https://www.quora.com/What-is-the-fastest-way-to-become-fluent-in-Hebrew",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "50+ answers",
+              "website_name": "Quora",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "What is the fastest way to become fluent in Hebrew?",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Here is my any-language technique, but I've never tried it on Hebrew (since I speak ...",
+                  "description": "Top answer · 54 votes",
+                  "url": "https://www.quora.com/What-is-the-fastest-way-to-become-fluent-in-Hebrew?top_ans=97425333",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "By ‘become fluent’ I assume you have a basic knowledge - a halting knowledge. You can ...",
+                  "description": "19 votes",
+                  "url": "https://www.quora.com/What-is-the-fastest-way-to-become-fluent-in-Hebrew?top_ans=54494110",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "I'm not sure if my experience will match yours, but my most important steps were:\n\n1. Learn ...",
+                  "description": "9 votes",
+                  "url": "https://www.quora.com/What-is-the-fastest-way-to-become-fluent-in-Hebrew?top_ans=28574942",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Ulpan is definitely the way to go. Its a total immersion session where everyone speaks only ...",
+                  "description": "8 votes",
+                  "url": "https://www.quora.com/What-is-the-fastest-way-to-become-fluent-in-Hebrew?top_ans=204171",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Move to Israel and study on an ulpan.",
+                  "description": "8 votes",
+                  "url": "https://www.quora.com/What-is-the-fastest-way-to-become-fluent-in-Hebrew?top_ans=115055",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Here is the list of resources for Hebrew learners.:\n\n1. Courses\n\n * Rosen Hebrew School ...",
+                  "description": "6 votes",
+                  "url": "https://www.quora.com/What-is-the-fastest-way-to-become-fluent-in-Hebrew?top_ans=199208629",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Of course - it is possible to learn any language, with the right resources.\n\nHebrew is actually ...",
+                  "description": "6 votes",
+                  "url": "https://www.quora.com/What-is-the-fastest-way-to-become-fluent-in-Hebrew?top_ans=113440092",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Learning a language has never been for me a fast process.\n\nI wanted to learn Biblical Hebrew. ...",
+                  "description": "4 votes",
+                  "url": "https://www.quora.com/What-is-the-fastest-way-to-become-fluent-in-Hebrew?top_ans=100402459",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "There are many answers with tips about how to learn any language quickly and efficiently ...",
+                  "description": "4 votes",
+                  "url": "https://www.quora.com/What-is-the-fastest-way-to-become-fluent-in-Hebrew?top_ans=71143291",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Thanks for the A2A, Andrea.\n\nUnfortunately, I’m not fully qualified to answer this because ...",
+                  "description": "3 votes",
+                  "url": "https://www.quora.com/What-is-the-fastest-way-to-become-fluent-in-Hebrew?top_ans=100394164",
+                  "domain": "www.quora.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2014-10-14 08:03:07 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[18]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "thehebrewhub.com",
+              "title": "Tip #34",
+              "url": "https://thehebrewhub.com/tip34",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://thehebrewhub.com",
+              "website_name": "The Hebrew Hub",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "So, how do we say \"fluent\"? We use the word שׁוֹטֵף in this sense, and you are prepared already to use the feminine version of it - עִבְרִית שׁוֹטֶפֶת ...",
+              "pre_snippet": "So, how do we say \"fluent\"? We use the word שׁוֹטֵף in this sense, and you are prepared already to use the feminine version of it - עִבְרִית שׁוֹטֶפֶת ...",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[20]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.quora.com",
+              "title": "What is the level of Hebrew proficiency necessary to live in Israel?",
+              "url": "https://www.quora.com/What-is-the-level-of-Hebrew-proficiency-necessary-to-live-in-Israel",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "30+ answers",
+              "website_name": "Quora",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "What is the level of Hebrew proficiency necessary to live in Israel?",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "There are many Israelis that are not fluent in Hebrew at all. Remember that Israel has a very diverse population, including many Arab communities ...",
+                  "description": "Top answer · 3 votes",
+                  "url": "https://www.quora.com/What-is-the-level-of-Hebrew-proficiency-necessary-to-live-in-Israel?top_ans=398666370",
+                  "domain": "www.quora.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-10-14 08:03:07 +00:00",
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

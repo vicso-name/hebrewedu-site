@@ -1,0 +1,656 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "5.3805 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10140757-2762-0139-0000-6f44883a7a20",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "5.2814 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "how to read hebrew",
+        "device": "mobile",
+        "os": "android",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "how to read hebrew",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=how%20to%20read%20hebrew&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-10-14 07:57:06 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "video",
+            "people_also_search"
+          ],
+          "se_results_count": 0,
+          "pages_count": 1,
+          "items_count": 13,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": false,
+              "markdown": "Hebrew is read and written **from right to left**.[[1]](https://hebrew4christians.com/Grammar/Introduction/Basic_Features/basic_features.html)\n\n### Key Rules of Reading Hebrew\n\n- **Right-to-Left Direction:** You start reading a line on the far right and move toward the left. Books also open from what English speakers consider the \"back\" (the right side) and flip toward the left.[[1]](https://hebrew4christians.com/Grammar/Introduction/Basic_Features/basic_features.html)\n- **Consonant Alphabet:** The [Hebrew Alphabet](https://www.myjewishlearning.com/article/how-to-read-the-hebrew-alphabet/) (*Alef-Bet* ) has 22 letters, all of which are consonants . There are no capital letters.[[1]](https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html)[[2]](https://hebrew4christians.com/Grammar/Introduction/Basic_Features/basic_features.html)\n- **Vowels and Nikkud:** Standard modern Hebrew texts are written without vowel letters. Instead, native readers rely on context and word patterns. For beginners, children's books, poetry, and religious texts, a system of dots and dashes called **nikkud** (*niqqud* ) is placed above, below, or inside the letters to indicate vowel sounds.[[1]](https://hebrewglot.com/en/blog/how-to-read-hebrew)[[2]](https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html)[[3]](https://moderntalkbooks.com/how-to-read-hebrew/)\n- **Final Forms (*Sofit*):** Five letters (*Kaf, Mem, Nun, Peh,* and *Tzade* ) change their shape and are written differently when they appear at the very end of a word.[[1]](https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html)\n- **Dual-Sound Letters:** A few letters can make two different sounds depending on whether they contain a dot called a *dagesh* inside them (for example, *Bet* can sound like \"B\" with a dot or \"V\" without it).[[1]](https://www.myjewishlearning.com/article/how-to-read-the-hebrew-alphabet/)\n\nWould you like to learn the first few letters of the **Alef-Bet** or practice sounding out a simple **Hebrew word**?",
+              "items": [
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Hebrew is read and written from right to left.",
+                  "markdown": "Hebrew is read and written **from right to left**.[[1]](https://hebrew4christians.com/Grammar/Introduction/Basic_Features/basic_features.html)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Hebrew for Christians",
+                      "domain": "hebrew4christians.com",
+                      "url": "https://hebrew4christians.com/Grammar/Introduction/Basic_Features/basic_features.html",
+                      "title": "Basic Features of Hebrew",
+                      "text": "There are 22 letters of the Hebrew alphabet, with five letters having additional \"final forms\" when they appear at the end of a word. There are no capital lette..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Key Rules of Reading Hebrew",
+                  "text": "Right-to-Left Direction: You start reading a line on the far right and move toward the left. Books also open from what English speakers consider the \"back\" (the right side) and flip toward the left. Consonant Alphabet: The Hebrew Alphabet (Alef-Bet) has 22 letters, all of which are consonants. There are no capital letters. Vowels and Nikkud: Standard modern Hebrew texts are written without vowel letters. Instead, native readers rely on context and word patterns. For beginners, children's books, poetry, and religious texts, a system of dots and dashes called nikkud (niqqud) is placed above, below, or inside the letters to indicate vowel sounds. Final Forms (Sofit): Five letters (Kaf, Mem, Nun, Peh, and Tzade) change their shape and are written differently when they appear at the very end of a word. Dual-Sound Letters: A few letters can make two different sounds depending on whether they contain a dot called a dagesh inside them (for example, Bet can sound like \"B\" with a dot or \"V\" without it).",
+                  "markdown": "- **Right-to-Left Direction:** You start reading a line on the far right and move toward the left. Books also open from what English speakers consider the \"back\" (the right side) and flip toward the left.[[1]](https://hebrew4christians.com/Grammar/Introduction/Basic_Features/basic_features.html)\n- **Consonant Alphabet:** The [Hebrew Alphabet](https://www.myjewishlearning.com/article/how-to-read-the-hebrew-alphabet/) (*Alef-Bet* ) has 22 letters, all of which are consonants . There are no capital letters.[[1]](https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html)[[2]](https://hebrew4christians.com/Grammar/Introduction/Basic_Features/basic_features.html)\n- **Vowels and Nikkud:** Standard modern Hebrew texts are written without vowel letters. Instead, native readers rely on context and word patterns. For beginners, children's books, poetry, and religious texts, a system of dots and dashes called **nikkud** (*niqqud* ) is placed above, below, or inside the letters to indicate vowel sounds.[[1]](https://hebrewglot.com/en/blog/how-to-read-hebrew)[[2]](https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html)[[3]](https://moderntalkbooks.com/how-to-read-hebrew/)\n- **Final Forms (*Sofit*):** Five letters (*Kaf, Mem, Nun, Peh,* and *Tzade* ) change their shape and are written differently when they appear at the very end of a word.[[1]](https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html)\n- **Dual-Sound Letters:** A few letters can make two different sounds depending on whether they contain a dot called a *dagesh* inside them (for example, *Bet* can sound like \"B\" with a dot or \"V\" without it).[[1]](https://www.myjewishlearning.com/article/how-to-read-the-hebrew-alphabet/)",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Hebrew Alphabet",
+                      "description": null,
+                      "url": "https://www.myjewishlearning.com/article/how-to-read-the-hebrew-alphabet/",
+                      "domain": "www.myjewishlearning.com"
+                    }
+                  ],
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Northwestern University",
+                      "domain": "mena-languages.northwestern.edu",
+                      "url": "https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html",
+                      "title": "The Hebrew Alphabet",
+                      "text": "Hebrew is written from right to left, rather than left to right as in English, for example. The Hebrew alphabet consists of 22 letters, all consonants: Alef is ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "HebrewGlot",
+                      "domain": "hebrewglot.com",
+                      "url": "https://hebrewglot.com/en/blog/how-to-read-hebrew",
+                      "title": "How to Read Hebrew: Complete Beginner's Guide",
+                      "text": "What Makes Hebrew Reading Weird (And Why It's Actually Easier Than You Think) * You Read Right to Left (Yes, Backwards) The first three days, my eyes kept autom..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Modern Talk Books",
+                      "domain": "moderntalkbooks.com",
+                      "url": "https://moderntalkbooks.com/how-to-read-hebrew/",
+                      "title": "How to Read Hebrew",
+                      "text": "How to Read Hebrew The letter ש׳ can sound like SH or S. • The letter א׳ can represent the vowels A, I, O, U, E. • The letter ו׳, which normally represents the ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "My Jewish Learning",
+                      "domain": "www.myjewishlearning.com",
+                      "url": "https://www.myjewishlearning.com/article/how-to-read-the-hebrew-alphabet/",
+                      "title": "How To Read the Hebrew Alphabet | My Jewish Learning",
+                      "text": "Overview: The Hebrew alphabet (Aleph Bet) contains 22 consonant-only letters (numerical values 1 to 400), lacking uppercase/lowercase, and is used for Hebrew an..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Would you like to learn the first few letters of the Alef-Bet or practice sounding out a simple Hebrew word ?",
+                  "markdown": "Would you like to learn the first few letters of the **Alef-Bet** or practice sounding out a simple **Hebrew word**?",
+                  "links": null,
+                  "images": null,
+                  "references": null
+                }
+              ],
+              "references": [
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "My Jewish Learning",
+                  "domain": "www.myjewishlearning.com",
+                  "url": "https://www.myjewishlearning.com/article/how-to-read-the-hebrew-alphabet/",
+                  "title": "How To Read the Hebrew Alphabet | My Jewish Learning",
+                  "text": "Overview: The Hebrew alphabet (Aleph Bet) contains 22 consonant-only letters (numerical values 1 to 400), lacking uppercase/lowercase, and is used for Hebrew an..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Hebrew for Christians",
+                  "domain": "hebrew4christians.com",
+                  "url": "https://hebrew4christians.com/Grammar/Introduction/Basic_Features/basic_features.html",
+                  "title": "Basic Features of Hebrew",
+                  "text": "There are 22 letters of the Hebrew alphabet, with five letters having additional \"final forms\" when they appear at the end of a word. There are no capital lette..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Northwestern University",
+                  "domain": "mena-languages.northwestern.edu",
+                  "url": "https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html",
+                  "title": "The Hebrew Alphabet",
+                  "text": "Hebrew is written from right to left, rather than left to right as in English, for example. The Hebrew alphabet consists of 22 letters, all consonants: Alef is ..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "HebrewGlot",
+                  "domain": "hebrewglot.com",
+                  "url": "https://hebrewglot.com/en/blog/how-to-read-hebrew",
+                  "title": "How to Read Hebrew: Complete Beginner's Guide",
+                  "text": "What Makes Hebrew Reading Weird (And Why It's Actually Easier Than You Think) * You Read Right to Left (Yes, Backwards) The first three days, my eyes kept autom..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Modern Talk Books",
+                  "domain": "moderntalkbooks.com",
+                  "url": "https://moderntalkbooks.com/how-to-read-hebrew/",
+                  "title": "How to Read Hebrew",
+                  "text": "How to Read Hebrew The letter ש׳ can sound like SH or S. • The letter א׳ can represent the vowels A, I, O, U, E. • The letter ו׳, which normally represents the ..."
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Learn Hebrew Alphabet - 22 Letters (#shorts #hebrew #alefbeit)",
+              "url": "https://www.youtube.com/shorts/6WB1GuTEG0U",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "913.5K+ views",
+              "website_name": "YouTube · The Hebrew Bible",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Learn Hebrew Alphabet - 22 Letters (#shorts ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2022-10-14 07:57:05 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How to learn Hebrew easily?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How do you pronounce the Hebrew letter \"Aleph\"?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is the numerical value of each Hebrew letter?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What way does Hebrew read?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "How to write the Hebrew Alphabet (Aleph-Bet) - Free Biblical Hebrew",
+              "url": "https://www.youtube.com/watch?v=hQ7MC61w6Fw",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "152K+ views",
+              "website_name": "YouTube · Aleph with Beth",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Start writing the Hebrew alphabet! This video shows letter strokes to write a classical square script (different than the Modern Hebrew ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2020-10-14 07:57:05 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[8]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "TeNaK Talk (TaNaCh)",
+                  "title": "Learn How to Read Hebrew in ONE HOUR! Hebrew Jump Start by Rabbi ...",
+                  "timestamp": "2023-01-05 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=tk1njVL723w"
+                },
+                {
+                  "type": "video_element",
+                  "source": "The WORD in HEBREW",
+                  "title": "The Hebrew Alphabet | Crash Course in Hebrew Reading & Pronunciation",
+                  "timestamp": "2023-02-23 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=Ekc3lIVdHEU"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Learn Hebrew with HebrewPod101.com",
+                  "title": "One Morning to Learn How to Write and Read Hebrew",
+                  "timestamp": "2025-05-15 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=axIbfwEe1t8"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Hebrew by Inbal",
+                  "title": "Learn All Hebrew Alphabet in 20 Minutes - Read and Write Hebrew",
+                  "timestamp": "2022-08-07 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=hVcKV2QJ6dY"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.chabad.org",
+              "title": "The Hebrew Alphabet",
+              "url": "https://www.chabad.org/library/article_cdo/aid/4069287/jewish/The-Hebrew-Alphabet.htm",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.chabad.org",
+              "website_name": "Chabad",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "It was pronounced by G‑d when the Jews received the Torah at Sinai, and it is read from the Torah by Jews all over the world. The Hebrew letters are precise.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": [
+                "hebrew alphabet",
+                "hebrew alphabet",
+                "hebrew",
+                "hebrew alphabet meaning",
+                "22 hebrew letters",
+                "hebrew alphabet",
+                "how to write",
+                "hebrew numbers"
+              ],
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[11]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "10 Ways to Practice Your Hebrew Reading",
+              "url": "https://www.youtube.com/watch?v=9eiRmenhP-o",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "4.1K+ views",
+              "website_name": "YouTube · Learn Hebrew with HebrewPod101.com",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "300 Words Every Hebrew Beginner Must Know. Learn Hebrew with HebrewPod101.com · 57K views ; Learn Hebrew in 25 Minutes - ALL the Basics You Need.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2019-10-14 07:57:05 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[13]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "kojiilanguages.com",
+              "title": "Beginner Friendly Hebrew Reading Practice and Resources",
+              "url": "https://kojiilanguages.com/hebrew-reading-practice/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://kojiilanguages.com",
+              "website_name": "kojiilanguages.com",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "If you're a beginner we have put together some basic words for you to sound out when you're practicing reading Hebrew. If you're familiar with ...",
+              "pre_snippet": "04/10/2020 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2020-04-10 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[15]",
+              "title": "People also search for",
+              "items": [
+                "How to read hebrew alphabet",
+                "How to read hebrew for beginners",
+                "How to read hebrew words",
+                "Hebrew alphabet a to z",
+                "Hebrew alphabet to English",
+                "Hebrew numbers"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[17]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.learnhebrewpod.com",
+              "title": "Lesson How to Read Hebrew - Part A",
+              "url": "https://www.learnhebrewpod.com/reading-hebrew/basic-reading-course/part-1",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.learnhebrewpod.com",
+              "website_name": "Learn Hebrew Pod",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "The most important thing to know, when learning to read Hebrew, is that it is read and written from right to left. This rule is to be applied consistently when ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.linguajunkie.com",
+              "title": "How To Learn The Hebrew Alphabet in Under 1 Hour",
+              "url": "https://www.linguajunkie.com/hebrew/learn-modern-hebrew-alphabet",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.linguajunkie.com",
+              "website_name": "LinguaJunkie.com",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Have a sheet of all the Hebrew characters displayed for easy reference. · Separate the English versions first into groups. · Memorize these groups ...",
+              "pre_snippet": "10/26/2014 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2014-10-26 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[20]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "How To Read Hebrew - Complete Course | Introduction",
+              "url": "https://www.youtube.com/watch?v=pZKqXbFiW_s",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "11.6K+ views",
+              "website_name": "YouTube · Hebrewly",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Share your videos with friends, family, and the world.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2022-10-14 07:57:05 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 2,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[4]/div[1]/div[3]/div[1]",
+              "title": "People also search for",
+              "items": [
+                "Hebrew alphabet meaning with pictures and numbers",
+                "22 Hebrew letters meaning PDF",
+                "Hebrew alphabet in order",
+                "How to write Hebrew alphabet",
+                "Hebrew numbers meaning",
+                "Spiritual meaning of Hebrew letters"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

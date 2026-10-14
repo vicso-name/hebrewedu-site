@@ -1,0 +1,646 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "10.1763 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10140800-2762-0139-0000-6c97802a70ca",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "9.5600 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "hebrew letters that look alike",
+        "device": "mobile",
+        "os": "android",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "hebrew letters that look alike",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=hebrew%20letters%20that%20look%20alike&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-10-14 08:00:18 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "images",
+            "people_also_ask",
+            "people_also_search"
+          ],
+          "se_results_count": 0,
+          "pages_count": 1,
+          "items_count": 12,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": true,
+              "markdown": null,
+              "items": null,
+              "references": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "hebrew4christians.com",
+              "title": "Similar Hebrew Letters",
+              "url": "https://hebrew4christians.com/Grammar/Unit_One/Similar_Letters/similar_letters.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://hebrew4christians.com",
+              "website_name": "Hebrew for Christians",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Similar-Looking Letters ; Gimmel has a \"foot\" whereas Nun does not. · Hey has a \"window\" at the top, whereas Chet does not; Tav has a \"foot\" that points left.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": [
+                "hebrew",
+                "hebrew letters",
+                "hebrew alphabet",
+                "begadkephat",
+                "hebrew",
+                "hebrew alphabet",
+                "hebrew alphabet",
+                "meaning of hebrew"
+              ],
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "images",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[4]",
+              "title": "Images",
+              "url": null,
+              "items": [
+                {
+                  "type": "images_element",
+                  "alt": "Similar Hebrew Letters",
+                  "url": "https://hebrew4christians.com/Grammar/Unit_One/Similar_Letters/similar_letters.html",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140800-2762-0139-0000-6c97802a70ca:0"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Hebrew Similar Characters — Ben Crowder",
+                  "url": "https://bencrowder.net/hebrew-similar-characters/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140800-2762-0139-0000-6c97802a70ca:1"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Hebrew Look Alike Letters by Morah Chaya | TPT",
+                  "url": "https://www.teacherspayteachers.com/Product/Hebrew-Look-Alike-Letters-8520559",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140800-2762-0139-0000-6c97802a70ca:2"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "What are these letters that resemble Hebrew?",
+                  "url": "https://www.facebook.com/groups/lancastercountyphotography/posts/646279873466673/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140800-2762-0139-0000-6c97802a70ca:3"
+                }
+              ],
+              "related_image_searches": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[6]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What font looks like Hebrew letters?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What does 666 look like in Hebrew letters?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is the Hebrew letter that looks like a 7?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is the Hebrew letter that looks like \"aw\"?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.hebrewversity.com",
+              "title": "Look-alike Letters",
+              "url": "https://www.hebrewversity.com/look-alike-letters/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.hebrewversity.com",
+              "website_name": "Hebrewversity",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_image"
+              ],
+              "description": "In the Hebrew alphabet, some letters look alike. Dalet (ד) and Resh (ר): Both share a similar shape. Ayin (ע) and Tsadi (צ): Each has curved lines. Vav (ו) and ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "hebrew letters that look alike from www.hebrewversity.com",
+                  "url": "https://www.hebrewversity.com/look-alike-letters/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkdUeHGDTjZf2WFSyERQKAF6zWcFCHGFw8N8RIbXAL&usqp=CAE&s"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "some letters look alike"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": [
+                "hebrew",
+                "hebrew letters",
+                "hebrew alphabet",
+                "begadkephat",
+                "hebrew",
+                "hebrew alphabet",
+                "hebrew alphabet",
+                "meaning of hebrew"
+              ],
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "elon.io",
+              "title": "Look-Alike Letters: ב/כ, ד/ר, ה/ח/ת, ו/ז/ן, ס/ם | Hebrew Grammar",
+              "url": "https://elon.io/grammar/hebrew/pronunciation/lookalike-letters",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://elon.io",
+              "website_name": "Elon.io",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_image"
+              ],
+              "description": "Look-Alike Letters: ב/כ, ד/ר, ה/ח/ת, ו/ז/ן, ס/ם. Hebrew's printed letters are built from a small stock of strokes — a roof, a leg, a foot, a descender — ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "hebrew letters that look alike from elon.io",
+                  "url": "https://elon.io/grammar/hebrew/pronunciation/lookalike-letters",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0lmsaZ192wvQ96nSS0PuTp_ZrSfcZBTuM9Y1uRaIvbSeXFxe9NhJCiv8&usqp=CAE&s"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": [
+                "hebrew",
+                "hebrew letters",
+                "hebrew alphabet",
+                "begadkephat",
+                "hebrew",
+                "hebrew alphabet",
+                "hebrew alphabet",
+                "meaning of hebrew"
+              ],
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[12]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "wordwall.net",
+              "title": "Hebrew Look Alike Letters - Teaching resources",
+              "url": "https://wordwall.net/en-us/community/hebrew-look-alike-letters",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://wordwall.net",
+              "website_name": "Wordwall",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Open the box: Look Alike Hebrew Letters - Daled Vs. Resh - Sin Vs. Shin - Mem Vs. Tet - Hey Vs. Chet - Zayin Vs. Vav - Final Mem Vs. Samech.",
+              "pre_snippet": "Open the box: Look Alike Hebrew Letters - Daled Vs. Resh - Sin Vs. Shin - Mem Vs. Tet - Hey Vs. Chet - Zayin Vs. Vav - Final Mem Vs. Samech.",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Look Alike Hebrew Letters"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "objectivetranslation.home.blog",
+              "title": "How To Distinguish Between Similar Letters",
+              "url": "https://objectivetranslation.home.blog/how-to-distinguish-between-similar-letters/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://objectivetranslation.home.blog",
+              "website_name": "Home.blog",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "There are quite a few Hebrew Letters that at first glance look nearly identical. There are, however, subtle differences and once you know what to look for ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "There are quite a few Hebrew Letters that at first glance look nearly identical"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[16]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.scribd.com",
+              "title": "1.3 Similar Hebrew Letters | PDF | Language Arts & Discipline",
+              "url": "https://www.scribd.com/document/212542902/1-3-Similar-Hebrew-Letters",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.scribd.com",
+              "website_name": "Scribd",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "It provides examples of letter pairs that can be mixed up, such as gimel and nun, vet and khaf, and zayin and vav. Mem sofit has a square shape.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[18]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "Why do Hebrew letters look so similar?",
+              "url": "https://www.reddit.com/r/hebrew/comments/gkz15k/why_do_hebrew_letters_look_so_similar/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "10+ comments",
+              "website_name": "Reddit · r/hebrew",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Hi all\n\nNow i dont speak hebrew and honestly dont know much about the language so forgive me if i come across as silly asking this, but anytime i see ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Alternative Hebrew alphabet : r/hebrewr/hebrew·20+ comments·2y",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/hebrew/comments/1euxcfv/alternative_hebrew_alphabet/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Similar sounding letters in the hebrew alphabet?r/hebrew·9 comments·4y",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/hebrew/comments/w30ew2/similar_sounding_letters_in_the_hebrew_alphabet/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "They all look different. Once you know the difference, they're quite distinct. Of course, ...",
+                  "description": "Top answer · 10 votes",
+                  "url": "https://www.reddit.com/r/hebrew/comments/gkz15k/why_do_hebrew_letters_look_so_similar/fqu5x23/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "You could say the same about any orthography that you're unfamiliar with. Go try reading Arabic ...",
+                  "description": "8 votes",
+                  "url": "https://www.reddit.com/r/hebrew/comments/gkz15k/why_do_hebrew_letters_look_so_similar/fqu9j8l/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "They only look similar because you're not used to them yet.",
+                  "description": "7 votes",
+                  "url": "https://www.reddit.com/r/hebrew/comments/gkz15k/why_do_hebrew_letters_look_so_similar/fquqyhm/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "For someone learning Hebrew, it's a bit challenging at first, as it is for children with the ...",
+                  "description": "3 votes",
+                  "url": "https://www.reddit.com/r/hebrew/comments/gkz15k/why_do_hebrew_letters_look_so_similar/fqucb3w/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "It would be interesting to see if there is any research that tries to quantify the distinctiveness ...",
+                  "description": "1 vote",
+                  "url": "https://www.reddit.com/r/hebrew/comments/gkz15k/why_do_hebrew_letters_look_so_similar/fqzxmxm/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "By the way, could you post which letters look similar to you? (Only one of the letters, ...",
+                  "description": "1 vote",
+                  "url": "https://www.reddit.com/r/hebrew/comments/gkz15k/why_do_hebrew_letters_look_so_similar/fr07jd6/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "There is a compelling hypothesis that the letters correspond to flat renditions based ...",
+                  "description": "1 vote",
+                  "url": "https://www.reddit.com/r/hebrew/comments/gkz15k/why_do_hebrew_letters_look_so_similar/fsr1nbe/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "I agree with this. I am a native English speaker and I do have some experience with other alphabets, ...",
+                  "description": "1 vote",
+                  "url": "https://www.reddit.com/r/hebrew/comments/gkz15k/why_do_hebrew_letters_look_so_similar/k48wavi/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "When even Israelis complain about how similar the letters look (besides the fact that many/most ...",
+                  "description": "1 vote",
+                  "url": "https://www.reddit.com/r/hebrew/comments/gkz15k/why_do_hebrew_letters_look_so_similar/k69tpn3/",
+                  "domain": "www.reddit.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2020-10-14 08:00:18 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[20]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.facebook.com",
+              "title": "Similar looking letters in Hebrew alphabet",
+              "url": "https://www.facebook.com/groups/1687348774926200/posts/3535755320085527/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "6 comments",
+              "website_name": "Facebook · Free Hebrew Class",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_image"
+              ],
+              "description": "There are similarities between the Phoenician alphabet and the Hebrew alphabet. Both have 22 letters; neither have vowels; the names of many ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "hebrew letters that look alike from www.facebook.com",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3535755320085527/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzyP9iRdm7zPOru2Of40pivahjDgrPXXueZXa36Zi6sCRc3yLW7gmGLIw&usqp=CAE&s"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "What are these letters that resemble Hebrew? - FacebookLancaster County Photography·5 comments·4y",
+                  "description": null,
+                  "url": "https://www.facebook.com/groups/lancastercountyphotography/posts/646279873466673/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "👀WATCH OUT⁉️ For *Similar looking letters when #learninghebrewHebrew with GQ·10+ comments·5y",
+                  "description": null,
+                  "url": "https://www.facebook.com/groups/796068850979772/posts/871730670080256/",
+                  "domain": "www.facebook.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2023-10-14 08:00:18 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[22]",
+              "title": "People also search for",
+              "items": [
+                "Hebrew alphabet",
+                "Hebrew letters meanings",
+                "Hebrew Alphabet website",
+                "Begadkephat letters in Hebrew",
+                "Hebrew alphabet Chart",
+                "Hebrew alphabet printout"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

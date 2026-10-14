@@ -1,0 +1,481 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "2.5399 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10140759-2762-0139-0000-9413e1b2f946",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "2.4746 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "hebrew listening practice for beginners",
+        "device": "mobile",
+        "os": "android",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "hebrew listening practice for beginners",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=hebrew%20listening%20practice%20for%20beginners&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-10-14 07:59:41 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "video",
+            "organic",
+            "app",
+            "people_also_ask"
+          ],
+          "se_results_count": 0,
+          "pages_count": 1,
+          "items_count": 11,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": true,
+              "markdown": null,
+              "items": null,
+              "references": null,
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[3]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "Piece of Hebrew",
+                  "title": "Easy HEBREW Listening Practice for BEGINNERS",
+                  "timestamp": "2024-05-09 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=XKfM1PccZ3A"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Learn Hebrew Now",
+                  "title": "Easy Hebrew Reading & Listening Practice for Beginners",
+                  "timestamp": "2025-04-20 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=NMHhp8RVKGY"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Learn Hebrew with HebrewPod101.com",
+                  "title": "25 Minutes of Hebrew Listening Comprehension for Absolute ...",
+                  "timestamp": "2023-09-12 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=sUzj1dDjK2Y"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Learn Hebrew Now",
+                  "title": "Easy Hebrew Reading & Listening Practice for Beginners",
+                  "timestamp": "2025-05-08 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=FcNGV2f3-Sc"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Hebrew Listening Comprehension for Absolute Beginners",
+              "url": "https://www.youtube.com/playlist?list=PLXU4ackZsIPp_7fb7TMyOaaX_ORI6vH29",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "395K+ followers",
+              "website_name": "YouTube · Learn Hebrew with HebrewPod101.com",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "This Hebrew Listening Comprehension Series tests you on your listening and makes sure you understand every word. Listen to the dialog, watch ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "tests you on your listening"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-01-14 07:59:40 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Hebrew Listening Practice",
+              "url": "https://www.youtube.com/playlist?list=PLXU4ackZsIPoKK4XtWyAF-KqplRqPEQrx",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "395K+ followers",
+              "website_name": "YouTube · Learn Hebrew with HebrewPod101.com",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "This Hebrew Listening Comprehension Series tests you on your listening and makes sure you understand every word. Listen to the dialog, watch the video, and ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "tests you on your listening"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "r/hebrew on Reddit: Whats a good source to practice listening ...",
+              "url": "https://www.reddit.com/r/hebrew/comments/1j9qysw/whats_a_good_source_to_practice/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "5 comments",
+              "website_name": "Reddit · r/hebrew",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "I've been learning hebrew for about a year now and can understand foundational conversational hebrew, but struggle to understand fast and slightly more ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "I’m learning a lot from Piece of Hebrew on YouTube",
+                  "description": "1 vote",
+                  "url": "https://www.reddit.com/r/hebrew/comments/1j9qysw/whats_a_good_source_to_practice/mhiftm1/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "\"Piece of Hebrew\" YouTube channel https://youtube.com/@pieceofhebrew\n\nand\n\nStreetwise Hebrew ...",
+                  "description": "1 vote",
+                  "url": "https://www.reddit.com/r/hebrew/comments/1j9qysw/whats_a_good_source_to_practice/mhifu4z/",
+                  "domain": "www.reddit.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-10-14 07:59:40 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "app",
+              "rank_group": 1,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[11]",
+              "items": [
+                {
+                  "type": "app_element",
+                  "title": "Hebrew Listening & Speaking",
+                  "description": "Are you looking to learn Hebrew? Look no further than Hebrew Listening & Speaking! Our app offers immersive video-based learning that caters to beginners as ...",
+                  "url": "https://play.google.com/store/apps/details?id=io.ivoca.conversationhebrew&hl=en_US&referrer=utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_term%3Dhebrew+listening+practice+for+beginners&pcampaignid=APPU_1_bDbParn5F6ulptQPuJOs-Qo",
+                  "price": null
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[13]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.hebrewpod101.com",
+              "title": "Listening Comprehension for Beginners",
+              "url": "https://www.hebrewpod101.com/lesson-library/hebrew-listening-comprehension-for-beginners",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.hebrewpod101.com",
+              "website_name": "HebrewPod101",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Talking About Today's Schedule in Hebrew. Listen to a conversation about plans for the day. Video. • 1 Minute.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Talking About Today's Schedule in Hebrew"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "talkpal.ai",
+              "title": "Practice Listening to Hebrew Audio",
+              "url": "https://talkpal.ai/practice-listening-to-hebrew-audio/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://talkpal.ai",
+              "website_name": "Talkpal AI",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Practice Listening to Hebrew Audio ; Improving Pronunciation · Enhancing Comprehension · Expanding Vocabulary · Resources for Practicing Hebrew Listening Skills.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.7,
+                "votes_count": 79700,
+                "rating_max": 5
+              },
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[17]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.easylearnhebrew.com",
+              "title": "Easy Hebrew Listening Practice for Beginners",
+              "url": "https://www.easylearnhebrew.com/blog/easy-hebrew-listening-practice-for-beginners/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.easylearnhebrew.com",
+              "website_name": "Easy Learn Hebrew",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Tips for Easy Hebrew Listening Practice · 1. Start with Slow, Clear Hebrew · 2. Repeat and Imitate · 3. Use Subtitles (at First) · 4. Practice ...",
+              "pre_snippet": "07/25/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-07-25 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[19]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How do you say \"hi\" in Israel?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[19]/div[1]/div[2]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Which is harder, Greek or Hebrew?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[19]/div[1]/div[2]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Why is Hebrew a dead language?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[19]/div[1]/div[2]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is the easiest way to learn Hebrew?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[19]/div[1]/div[2]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[20]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "50 Minutes of Hebrew Listening Comprehension for Advanced ...",
+              "url": "https://www.youtube.com/watch?v=SSLU3_zgnaY",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "1.9K+ views",
+              "website_name": "YouTube · Learn Hebrew with HebrewPod101.com",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "This is the best video to practice Hebrew listening comprehension for Advanced learners. https://bit.ly/3QDjomQ Click here to learn Hebrew ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-10-14 07:59:40 +00:00",
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

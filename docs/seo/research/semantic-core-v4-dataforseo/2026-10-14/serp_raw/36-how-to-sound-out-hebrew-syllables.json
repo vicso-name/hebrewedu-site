@@ -1,0 +1,582 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "13.9190 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10140801-2762-0139-0000-394c95222334",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "13.8264 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "how to sound out hebrew syllables",
+        "device": "mobile",
+        "os": "android",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "how to sound out hebrew syllables",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=how%20to%20sound%20out%20hebrew%20syllables&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-10-14 08:02:12 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "video",
+            "organic",
+            "people_also_search",
+            "people_also_ask"
+          ],
+          "se_results_count": 0,
+          "pages_count": 1,
+          "items_count": 13,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": true,
+              "markdown": null,
+              "items": null,
+              "references": null,
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[3]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "Biblical Hebrew Perspectives",
+                  "title": "Learn to Read Biblical Hebrew | Syllables - Part 1",
+                  "timestamp": "2023-05-09 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=2sr8Z1bxnhs"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Solomon's Cave",
+                  "title": "Syllables in Biblical Hebrew",
+                  "timestamp": "2018-04-07 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=bk0ZrB-3EQo"
+                },
+                {
+                  "type": "video_element",
+                  "source": "James Gregory",
+                  "title": "Hebrew Syllabification - Lecture 3 - Beginning Biblical Hebrew",
+                  "timestamp": "2022-05-28 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=accFTc2kNuk"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Biblical Hebrew Perspectives",
+                  "title": "Learn to Read Biblical Hebrew | Syllables - Part 2",
+                  "timestamp": "2023-05-21 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=fFMcjGMUNRI"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "hebrew4christians.com",
+              "title": "Hebrew Syllable Classification",
+              "url": "https://hebrew4christians.com/~hebrewfo/Grammar/Unit_Three/Syllable_Classification/syllable_classification.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://hebrew4christians.com",
+              "website_name": "Hebrew for Christians",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "A syllable is called \"open\" when it does not end with a \"stopping\" sound; otherwise it is \"closed\" (thus \"ma\" is an open syllable but \"mat\" is a closed syllable) ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": [
+                "hebrew pronunciation",
+                "hebrew words",
+                "biblical hebrew",
+                "hebrew syllables",
+                "pronounce",
+                "hebrew",
+                "how do you pronounce",
+                "how to say"
+              ],
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.hebrewpod101.com",
+              "title": "The Only Hebrew Pronunciation Guide You'll Ever Need",
+              "url": "https://www.hebrewpod101.com/hebrew-pronunciation/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.hebrewpod101.com",
+              "website_name": "HebrewPod101",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Struggling with your Hebrew pronunciation? Check out this Hebrew pronunciation guide on HebrewPod101 to greatly improve your skills!",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": [
+                "hebrew pronunciation",
+                "hebrew words",
+                "biblical hebrew",
+                "hebrew syllables",
+                "pronounce",
+                "hebrew",
+                "how do you pronounce",
+                "how to say"
+              ],
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[9]",
+              "title": "People also search for",
+              "items": [
+                "How to sound out hebrew syllables online",
+                "Hebrew pronunciation audio Translator",
+                "Hebrew words pronunciation audio",
+                "Biblical Hebrew pronunciation audio",
+                "Hebrew Syllables chart",
+                "Pronounce Hebrew text"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[10]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "English and Hebrew Syllables - Hebrew Lesson #3",
+              "url": "https://www.youtube.com/watch?v=4WXGyXtPw_s",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "1.5K+ views",
+              "website_name": "YouTube · Pastor Melissa Scott, Ph.D.",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Learn the basics of English syllables and the 3 types of Hebrew syllables: tonic, pretonic and propretonic.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2019-10-14 08:02:12 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[12]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What are the two rules for syllables in Hebrew?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What are the 22 Hebrew letters in English?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[12]/div[1]/div[2]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How to write shalom in Hebrew with vowels?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[12]/div[1]/div[2]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How do you say sound in Hebrew?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[12]/div[1]/div[2]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[13]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Hebrew Vowels and an Introduction to Syllables - Hebrew Lesson #2",
+              "url": "https://www.youtube.com/watch?v=dICIsx5-0BU",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "4.5K+ views",
+              "website_name": "YouTube · Pastor Melissa Scott, Ph.D.",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "This lesson navigates the Hebrew vowels, what they look like and how they sound. Wrapping up the lesson is an introduction to syllables in ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2019-10-14 08:02:12 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.facebook.com",
+              "title": "How to pronounce Hebrew words correctly",
+              "url": "https://www.facebook.com/groups/1687348774926200/posts/3760957070898683/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "10+ comments",
+              "website_name": "Facebook · Free Hebrew Class",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "I want to join in Hebrew  class to learn more how to pronounce the word correctly🙏♥️",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Much of what we go through is pronunciation. But, much is reading/writing too.",
+                  "description": "Top answer · 4 votes",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3760957070898683/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "k thanks for the information ♥️",
+                  "description": "1 vote",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3760957070898683/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Shalom Salvacion PS what a beautiful name essentially “Salvation” in Hebrew ישוע🙏🏼",
+                  "description": "1 vote",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3760957070898683/",
+                  "domain": "www.facebook.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-10-14 08:02:12 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[16]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Hebrew Pronunciation, Video 4: Spelling Rules",
+              "url": "https://www.youtube.com/watch?v=omvZbtEaioA",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "7.2K+ views",
+              "website_name": "YouTube · Fluent Forever",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "This is the fourth of a four-part series on Hebrew pronunciation. The goal is to get familiar with the sounds of Hebrew and the IPA symbols.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2017-10-14 08:02:12 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[17]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Biblical Hebrew Lesson 2 - The Vowels",
+              "url": "https://www.youtube.com/watch?v=jm_NIg85Jzg",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "8.8K+ views",
+              "website_name": "YouTube · Digital Hammurabi",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "In this lesson, Josh discusses how Biblical Hebrew uses and writes vowels. Vocab and Exercises",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2018-10-14 08:02:12 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.facebook.com",
+              "title": "Biblical Hebrew syllable terminology question",
+              "url": "https://www.facebook.com/groups/NerdyLanguageMajors/posts/4454194361349865/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "7 comments",
+              "website_name": "Facebook · Nerdy Biblical Language Majors",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Biblical Hebrew syllables question. First question, do we use the terms ultima and penult and antepenult regardless of where the tone syllable is placed, ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Not an expert, but I think that ultima, penultima, and antepenultima are fixed terms that ...",
+                  "description": "Top answer · 4 votes",
+                  "url": "https://www.facebook.com/groups/NerdyLanguageMajors/posts/4454194361349865/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "The terms are from when everyone still knew Latin and were \"syllabe ultima\" (final syllable), ...",
+                  "description": "2 votes",
+                  "url": "https://www.facebook.com/groups/NerdyLanguageMajors/posts/4454194361349865/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "When I learned Greek, the words applied to the last, second to last, and third to last syllables ...",
+                  "description": "2 votes",
+                  "url": "https://www.facebook.com/groups/NerdyLanguageMajors/posts/4454194361349865/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "milra' - last syllable mil'el- penult",
+                  "description": "1 vote",
+                  "url": "https://www.facebook.com/groups/NerdyLanguageMajors/posts/4454194361349865/",
+                  "domain": "www.facebook.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2022-10-14 08:02:12 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 2,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[4]/div[1]/div[3]/div[1]",
+              "title": "People also search for",
+              "items": [
+                "Hebrew audio",
+                "How do you pronounce in Hebrew",
+                "How to say WORD in Hebrew",
+                "Hebrew alphabet and sounds"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

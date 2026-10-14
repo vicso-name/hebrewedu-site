@@ -1,0 +1,862 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "3.5430 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10140757-2762-0139-0000-61299f88a6ff",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "3.4079 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "learn hebrew for beginners",
+        "device": "mobile",
+        "os": "android",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "learn hebrew for beginners",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=learn%20hebrew%20for%20beginners&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-10-14 07:57:50 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "video",
+            "people_also_ask",
+            "people_also_search",
+            "organic"
+          ],
+          "se_results_count": 0,
+          "pages_count": 1,
+          "items_count": 13,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": false,
+              "markdown": "![Introduction to Hebrew: The Basics &amp; Facts. Start HERE.](https://api.dataforseo.com/cdn/i/10140757-2762-0139-0000-61299f88a6ff:4)\nStarting to learn Hebrew requires `mastering the 22-letter alphabet (the Aleph-Bet), reading from right to left, and understanding basic root structures`.[[1]](https://www.rosettastone.com/learn-hebrew)[[2]](https://www.youtube.com/watch?v=1JLAUUwyJZY)\n\n### Core Foundations for Beginners\n\n- **The Alphabet (Aleph-Bet):** Hebrew has 22 letters, which are all written as consonants. Vowels are indicated separately using dots and dashes called *nikud* , though these are often dropped in everyday modern texts.\n- **Reading Direction:** Unlike English, you read and write Hebrew from **right to left**.\n- **Word Roots (*Shorashim*):** Most Hebrew verbs and nouns come from a three-letter root system that shares a core meaning.\n- **Verb Conjugations (*Binyanim*):** Verbs follow seven primary stem patterns that change how an action is performed.[[1]](https://www.reddit.com/r/hebrew/comments/1bamonp/i_want_to_learn_hebrew_where_do_i_start/)[[2]](https://www.youtube.com/watch?v=b-G5oasjzHs&t=424)[[3]](https://www.youtube.com/watch?v=1JLAUUwyJZY)[[4]](https://www.rosettastone.com/learn-hebrew)\n\n### Essential First Words and Greetings\n\n- **Shalom (שלום):** Hello, goodbye, or peace.\n- **Boker Tov (בוקר טוב):** Good morning.\n- **Erev Tov (ערב טוב):** Good evening.\n- **Lehitraot (להתראות):** Goodbye.[[1]](https://www.youtube.com/watch?v=jvDCEXbxxL0&t=334)\n\n### Recommended Beginner Resources\n\n- **Immersive Listening:** Try the natural learning approach on [Free Hebrew. Forever.](https://freehebrew.online/) or audio lessons via [Learn Hebrew Pod](https://www.learnhebrewpod.com/lessons/1-Shalom__Basic_Introduction.html).\n- **Vocabulary & Structure:** Build your initial word bank with structured guides on [Teach Me Hebrew](https://www.teachmehebrew.com/).\n- **App-Based Study:** Practice alphabets and conversational basics with tools like [Rosetta Stone](https://www.rosettastone.com/learn-hebrew) or [HebrewPod101](https://www.hebrewpod101.com/).[[1]](https://freehebrew.online/)[[2]](https://www.learnhebrewpod.com/lessons/1-Shalom__Basic_Introduction.html)[[3]](https://www.myjewishlearning.com/article/how-to-learn-hebrew/)[[4]](https://www.teachmehebrew.com/step-1-basic-hebrew.html)[[5]](https://www.teachmehebrew.com/)[[6]](https://www.rosettastone.com/learn-hebrew)[[7]](https://www.hebrewpod101.com/)\n\nAre you learning Hebrew primarily for **travel, religious/Biblical study, or general interest** , and would you like a daily practice routine?",
+              "items": [
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Starting to learn Hebrew requires mastering the 22-letter alphabet (the Aleph-Bet), reading from right to left, and understanding basic root structures.",
+                  "markdown": "![Introduction to Hebrew: The Basics &amp; Facts. Start HERE.](https://api.dataforseo.com/cdn/i/10140757-2762-0139-0000-61299f88a6ff:2)\nStarting to learn Hebrew requires `mastering the 22-letter alphabet (the Aleph-Bet), reading from right to left, and understanding basic root structures`.[[1]](https://www.rosettastone.com/learn-hebrew)[[2]](https://www.youtube.com/watch?v=1JLAUUwyJZY)",
+                  "links": null,
+                  "images": [
+                    {
+                      "type": "images_element",
+                      "alt": "Introduction to Hebrew: The Basics & Facts. Start HERE.",
+                      "url": null,
+                      "image_url": "https://api.dataforseo.com/cdn/i/10140757-2762-0139-0000-61299f88a6ff:3"
+                    }
+                  ],
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Rosetta Stone",
+                      "domain": "www.rosettastone.com",
+                      "url": "https://www.rosettastone.com/learn-hebrew",
+                      "title": "Learn Hebrew Online | Hebrew Lessons with Rosetta Stone®",
+                      "text": "Spoken: Official language of Israel, 9 million global speakers, unifying cultural language for Jewish communities. Proficiency Stages: Beginner (alphabet, basic..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=1JLAUUwyJZY",
+                      "title": "Biblical HEBREW for BEGINNERS ✡️ // LESSONS on Basics and Alphabet",
+                      "text": "Biblical HEBREW for BEGINNERS ✡️ // LESSONS on Basics and Alphabet have you ever wanted to learn biblical Hebrew. well I want to share with you the first three ..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Core Foundations for Beginners",
+                  "text": "The Alphabet (Aleph-Bet): Hebrew has 22 letters, which are all written as consonants. Vowels are indicated separately using dots and dashes called nikud, though these are often dropped in everyday modern texts. Reading Direction: Unlike English, you read and write Hebrew from right to left. Word Roots (Shorashim): Most Hebrew verbs and nouns come from a three-letter root system that shares a core meaning. Verb Conjugations (Binyanim): Verbs follow seven primary stem patterns that change how an action is performed.",
+                  "markdown": "- **The Alphabet (Aleph-Bet):** Hebrew has 22 letters, which are all written as consonants. Vowels are indicated separately using dots and dashes called *nikud* , though these are often dropped in everyday modern texts.\n- **Reading Direction:** Unlike English, you read and write Hebrew from **right to left**.\n- **Word Roots (*Shorashim*):** Most Hebrew verbs and nouns come from a three-letter root system that shares a core meaning.\n- **Verb Conjugations (*Binyanim*):** Verbs follow seven primary stem patterns that change how an action is performed.[[1]](https://www.reddit.com/r/hebrew/comments/1bamonp/i_want_to_learn_hebrew_where_do_i_start/)[[2]](https://www.youtube.com/watch?v=b-G5oasjzHs&t=424)[[3]](https://www.youtube.com/watch?v=1JLAUUwyJZY)[[4]](https://www.rosettastone.com/learn-hebrew)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Reddit",
+                      "domain": "www.reddit.com",
+                      "url": "https://www.reddit.com/r/hebrew/comments/1bamonp/i_want_to_learn_hebrew_where_do_i_start/",
+                      "title": "I want to learn Hebrew. Where do I start? - Reddit",
+                      "text": "Foundational Elements: Begin by learning the Hebrew alphabet. Understanding the 'binyanim' (verb conjugations) early on is highly recommended, as they are funda..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=b-G5oasjzHs&t=424",
+                      "title": "One Morning to Learn Hebrew (Perfect for All Beginners)",
+                      "text": "One Morning to Learn Hebrew (Perfect for All Beginners) hi welcome to Introduction to Hebrew my name is Alicia. and I'm joined by Hi everyone I'm Edit in this l..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=1JLAUUwyJZY",
+                      "title": "Biblical HEBREW for BEGINNERS ✡️ // LESSONS on Basics and Alphabet",
+                      "text": "Biblical HEBREW for BEGINNERS ✡️ // LESSONS on Basics and Alphabet have you ever wanted to learn biblical Hebrew. well I want to share with you the first three ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Rosetta Stone",
+                      "domain": "www.rosettastone.com",
+                      "url": "https://www.rosettastone.com/learn-hebrew",
+                      "title": "Learn Hebrew Online | Hebrew Lessons with Rosetta Stone®",
+                      "text": "Spoken: Official language of Israel, 9 million global speakers, unifying cultural language for Jewish communities. Proficiency Stages: Beginner (alphabet, basic..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Essential First Words and Greetings",
+                  "text": "Shalom (שלום): Hello, goodbye, or peace. Boker Tov (בוקר טוב): Good morning. Erev Tov (ערב טוב): Good evening. Lehitraot (להתראות): Goodbye.",
+                  "markdown": "- **Shalom (שלום):** Hello, goodbye, or peace.\n- **Boker Tov (בוקר טוב):** Good morning.\n- **Erev Tov (ערב טוב):** Good evening.\n- **Lehitraot (להתראות):** Goodbye.[[1]](https://www.youtube.com/watch?v=jvDCEXbxxL0&t=334)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=jvDCEXbxxL0&t=334",
+                      "title": "Learn Hebrew in 25 Minutes - ALL the Basics You Need",
+                      "text": "in this lesson we learn some of the most common readings used in israel atemochanim are you ready as bonatri. so let's start the most used greeting is shalom sh..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Recommended Beginner Resources",
+                  "text": "Immersive Listening: Try the natural learning approach on Free Hebrew. Forever. or audio lessons via Learn Hebrew Pod. Vocabulary & Structure: Build your initial word bank with structured guides on Teach Me Hebrew. App-Based Study: Practice alphabets and conversational basics with tools like Rosetta Stone or HebrewPod101.",
+                  "markdown": "- **Immersive Listening:** Try the natural learning approach on [Free Hebrew. Forever.](https://freehebrew.online/) or audio lessons via [Learn Hebrew Pod](https://www.learnhebrewpod.com/lessons/1-Shalom__Basic_Introduction.html).\n- **Vocabulary & Structure:** Build your initial word bank with structured guides on [Teach Me Hebrew](https://www.teachmehebrew.com/).\n- **App-Based Study:** Practice alphabets and conversational basics with tools like [Rosetta Stone](https://www.rosettastone.com/learn-hebrew) or [HebrewPod101](https://www.hebrewpod101.com/).[[1]](https://freehebrew.online/)[[2]](https://www.learnhebrewpod.com/lessons/1-Shalom__Basic_Introduction.html)[[3]](https://www.myjewishlearning.com/article/how-to-learn-hebrew/)[[4]](https://www.teachmehebrew.com/step-1-basic-hebrew.html)[[5]](https://www.teachmehebrew.com/)[[6]](https://www.rosettastone.com/learn-hebrew)[[7]](https://www.hebrewpod101.com/)",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Free Hebrew. Forever.",
+                      "description": null,
+                      "url": "https://freehebrew.online/",
+                      "domain": "freehebrew.online"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Learn Hebrew Pod",
+                      "description": null,
+                      "url": "https://www.learnhebrewpod.com/lessons/1-Shalom__Basic_Introduction.html",
+                      "domain": "www.learnhebrewpod.com"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Teach Me Hebrew",
+                      "description": null,
+                      "url": "https://www.teachmehebrew.com/",
+                      "domain": "www.teachmehebrew.com"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Rosetta Stone",
+                      "description": null,
+                      "url": "https://www.rosettastone.com/learn-hebrew",
+                      "domain": "www.rosettastone.com"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "HebrewPod101",
+                      "description": null,
+                      "url": "https://www.hebrewpod101.com/",
+                      "domain": "www.hebrewpod101.com"
+                    }
+                  ],
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Free Hebrew. Forever.",
+                      "domain": "freehebrew.online",
+                      "url": "https://freehebrew.online/",
+                      "title": "Free Hebrew. Forever.",
+                      "text": "Ready to Learn Hebrew? Many people who set out to learn Hebrew never reach their goals, and the few who do make progress struggle to retain and use what they've..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Learn Hebrew Pod",
+                      "domain": "www.learnhebrewpod.com",
+                      "url": "https://www.learnhebrewpod.com/lessons/1-Shalom__Basic_Introduction.html",
+                      "title": "Lesson 1 - Shalom - Basic Introduction",
+                      "text": "Part C Lesson Number 1: Shalom: Basic Introduction Liat and Eran, our two Israelis, meet for the first time. In this first lesson of our Beginner's Hebrew cours..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "My Jewish Learning",
+                      "domain": "www.myjewishlearning.com",
+                      "url": "https://www.myjewishlearning.com/article/how-to-learn-hebrew/",
+                      "title": "How to Learn Hebrew",
+                      "text": "Explore My Jewish Learning's courses for learning Hebrew: * Hebrew Word of the Day * Introduction to Hebrew with Rabbi Peretz Rodman * Hebrew Language for the H..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Teach Me Hebrew",
+                      "domain": "www.teachmehebrew.com",
+                      "url": "https://www.teachmehebrew.com/step-1-basic-hebrew.html",
+                      "title": "Step 1: Basic Hebrew",
+                      "text": "Basic Hebrew The purpose of this section is to get you started in Hebrew. The 100 Basic Hebrew Phrases give you an idea what Hebrew sounds like and are common p..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Teach Me Hebrew",
+                      "domain": "www.teachmehebrew.com",
+                      "url": "https://www.teachmehebrew.com/",
+                      "title": "Teach Me Hebrew - Home",
+                      "text": "Mission: TeachMeHebrew.com aids self-taught fluency in Modern Hebrew via bilingual texts and audio. Contents: AlefBet, pronunciation, phrases, 500 basic words, ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Rosetta Stone",
+                      "domain": "www.rosettastone.com",
+                      "url": "https://www.rosettastone.com/learn-hebrew",
+                      "title": "Learn Hebrew Online | Hebrew Lessons with Rosetta Stone®",
+                      "text": "Spoken: Official language of Israel, 9 million global speakers, unifying cultural language for Jewish communities. Proficiency Stages: Beginner (alphabet, basic..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "HebrewPod101",
+                      "domain": "www.hebrewpod101.com",
+                      "url": "https://www.hebrewpod101.com/",
+                      "title": "Learn Hebrew Online - HebrewPod101",
+                      "text": "Want to start speaking Hebrew from your first lesson? You will! Our lessons take you by the hand and guide you through real Hebrew conversations. Our teachers s..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Are you learning Hebrew primarily for travel, religious/Biblical study, or general interest, and would you like a daily practice routine?",
+                  "markdown": "Are you learning Hebrew primarily for **travel, religious/Biblical study, or general interest** , and would you like a daily practice routine?",
+                  "links": null,
+                  "images": null,
+                  "references": null
+                }
+              ],
+              "references": [
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Reddit",
+                  "domain": "www.reddit.com",
+                  "url": "https://www.reddit.com/r/hebrew/comments/1bamonp/i_want_to_learn_hebrew_where_do_i_start/",
+                  "title": "I want to learn Hebrew. Where do I start? - Reddit",
+                  "text": "Foundational Elements: Begin by learning the Hebrew alphabet. Understanding the 'binyanim' (verb conjugations) early on is highly recommended, as they are funda..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "YouTube",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/watch?v=b-G5oasjzHs&t=424",
+                  "title": "One Morning to Learn Hebrew (Perfect for All Beginners)",
+                  "text": "One Morning to Learn Hebrew (Perfect for All Beginners) hi welcome to Introduction to Hebrew my name is Alicia. and I'm joined by Hi everyone I'm Edit in this l..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "YouTube",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/watch?v=jvDCEXbxxL0&t=334",
+                  "title": "Learn Hebrew in 25 Minutes - ALL the Basics You Need",
+                  "text": "in this lesson we learn some of the most common readings used in israel atemochanim are you ready as bonatri. so let's start the most used greeting is shalom sh..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "YouTube",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/watch?v=1JLAUUwyJZY",
+                  "title": "Biblical HEBREW for BEGINNERS ✡️ // LESSONS on Basics and Alphabet",
+                  "text": "Biblical HEBREW for BEGINNERS ✡️ // LESSONS on Basics and Alphabet have you ever wanted to learn biblical Hebrew. well I want to share with you the first three ..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Teach Me Hebrew",
+                  "domain": "www.teachmehebrew.com",
+                  "url": "https://www.teachmehebrew.com/step-1-basic-hebrew.html",
+                  "title": "Step 1: Basic Hebrew",
+                  "text": "Basic Hebrew The purpose of this section is to get you started in Hebrew. The 100 Basic Hebrew Phrases give you an idea what Hebrew sounds like and are common p..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Free Hebrew. Forever.",
+                  "domain": "freehebrew.online",
+                  "url": "https://freehebrew.online/",
+                  "title": "Free Hebrew. Forever.",
+                  "text": "Ready to Learn Hebrew? Many people who set out to learn Hebrew never reach their goals, and the few who do make progress struggle to retain and use what they've..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Teach Me Hebrew",
+                  "domain": "www.teachmehebrew.com",
+                  "url": "https://www.teachmehebrew.com/",
+                  "title": "Teach Me Hebrew - Home",
+                  "text": "Mission: TeachMeHebrew.com aids self-taught fluency in Modern Hebrew via bilingual texts and audio. Contents: AlefBet, pronunciation, phrases, 500 basic words, ..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Rosetta Stone",
+                  "domain": "www.rosettastone.com",
+                  "url": "https://www.rosettastone.com/learn-hebrew",
+                  "title": "Learn Hebrew Online | Hebrew Lessons with Rosetta Stone®",
+                  "text": "Spoken: Official language of Israel, 9 million global speakers, unifying cultural language for Jewish communities. Proficiency Stages: Beginner (alphabet, basic..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Learn Hebrew Pod",
+                  "domain": "www.learnhebrewpod.com",
+                  "url": "https://www.learnhebrewpod.com/lessons/1-Shalom__Basic_Introduction.html",
+                  "title": "Lesson 1 - Shalom - Basic Introduction",
+                  "text": "Part C Lesson Number 1: Shalom: Basic Introduction Liat and Eran, our two Israelis, meet for the first time. In this first lesson of our Beginner's Hebrew cours..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "HebrewPod101",
+                  "domain": "www.hebrewpod101.com",
+                  "url": "https://www.hebrewpod101.com/",
+                  "title": "Learn Hebrew Online - HebrewPod101",
+                  "text": "Want to start speaking Hebrew from your first lesson? You will! Our lessons take you by the hand and guide you through real Hebrew conversations. Our teachers s..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "My Jewish Learning",
+                  "domain": "www.myjewishlearning.com",
+                  "url": "https://www.myjewishlearning.com/article/how-to-learn-hebrew/",
+                  "title": "How to Learn Hebrew",
+                  "text": "Explore My Jewish Learning's courses for learning Hebrew: * Hebrew Word of the Day * Introduction to Hebrew with Rabbi Peretz Rodman * Hebrew Language for the H..."
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "Learn Hebrew with HebrewPod101.com",
+                  "title": "One Morning to Learn Hebrew (Perfect for All Beginners)",
+                  "timestamp": "2025-06-11 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=b-G5oasjzHs"
+                },
+                {
+                  "type": "video_element",
+                  "source": "The Complete Hebrew Course For Beginners",
+                  "title": "Step-by-Step Online Hebrew Course for Complete Beginners",
+                  "timestamp": "2025-09-30 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=hGbAWylQ0nk"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Learn Hebrew with HebrewPod101.com",
+                  "title": "Learn Hebrew: 100 Beginner Hebrew Videos You Must Watch",
+                  "timestamp": "2023-08-08 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=jWSTCjkADTI"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Learn Hebrew with HebrewPod101.com",
+                  "title": "Learn Hebrew: 50 Beginner Hebrew Videos You Must Watch",
+                  "timestamp": "2023-05-02 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=-wHifbVEPBw"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is the hardest word to say in Hebrew?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How do Hebrews say \"hi\"?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Is Hebrew right to left?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Is Hebrew similar to Arabic?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]",
+              "title": "People also search for",
+              "items": [
+                "Learn hebrew for beginners free",
+                "Learn hebrew for beginners book",
+                "Learning Hebrew for beginners PDF",
+                "How to learn Hebrew for free",
+                "Learn Hebrew for free with audio",
+                "How to learn Hebrew alphabet"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.myjewishlearning.com",
+              "title": "How to Learn Hebrew",
+              "url": "https://www.myjewishlearning.com/article/how-to-learn-hebrew/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.myjewishlearning.com",
+              "website_name": "My Jewish Learning",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "EasyLearnHebrew.com Focused on Hebrew reading; seven lessons (accessible on computers and mobile devices), includes flashcards, quizzes, videos and other ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": [
+                "learning hebrew",
+                "how to learn",
+                "learn hebrew for",
+                "how to learn",
+                "how to learn biblical",
+                "learn to read",
+                "learning to read",
+                "learning"
+              ],
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[10]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Learn How to Read Hebrew in ONE HOUR! Hebrew Jump Start by Rabbi ...",
+              "url": "https://www.youtube.com/watch?v=tk1njVL723w",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "1.3M+ views",
+              "website_name": "YouTube · TeNaK Talk (TaNaCh)",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Learn How to Read Hebrew in ONE HOUR! Hebrew Jump Start by Rabbi Stuart Federow. Essential Hebrew Words (Basic Vocabulary for Beginners)",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2023-10-14 07:57:49 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[12]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.ancient-hebrew.org",
+              "title": "Learn Biblical Hebrew: Introduction |AHRC",
+              "url": "https://www.ancient-hebrew.org/learn/learn-biblical-hebrew-introduction.htm",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.ancient-hebrew.org",
+              "website_name": "The Ancient Hebrew Research Center",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "The first 12 lessons cover the Hebrew alphabet. Each lesson includes new consonants, vowels, a practice section, new vocabulary words and sentences.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "The first 12 lessons cover the Hebrew alphabet"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": [
+                "learning hebrew",
+                "how to learn",
+                "learn hebrew for",
+                "how to learn",
+                "how to learn biblical",
+                "learn to read",
+                "learning to read",
+                "learning"
+              ],
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[13]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "One Morning to Learn How to Write and Read Hebrew",
+              "url": "https://www.youtube.com/watch?v=axIbfwEe1t8",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "2K+ views",
+              "website_name": "YouTube · Learn Hebrew with HebrewPod101.com",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "2000 essential Hebrew words. Learn How to Read Hebrew in ONE HOUR! ALL the Hebrew Basics for Beginners. Learn the Hebrew Alphabet in 30 minutes!",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-10-14 07:57:49 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[14]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Learn Hebrew: 5 Beginner Hebrew Videos You Must Watch",
+              "url": "https://www.youtube.com/watch?v=ZsUv4iCCY7w",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "4.2K+ views",
+              "website_name": "YouTube · Learn Hebrew with HebrewPod101.com",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Hebrew the fast, fun and easy way help you progress in your Hebrew study. This is the fastest, easiest way to pick up basic Hebrew!",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2023-10-14 07:57:49 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[16]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.easylearnhebrew.com",
+              "title": "Hebrew for Beginners: Your Complete Guide to Starting Hebrew",
+              "url": "https://www.easylearnhebrew.com/blog/hebrew-for-beginners-your-complete-guide-to-starting-hebrew/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.easylearnhebrew.com",
+              "website_name": "Easy Learn Hebrew",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Sep 30, 2024 — This guide will walk you through the essential steps to start learning Hebrew, covering the alphabet, basic vocabulary, grammar tips, and ...",
+              "pre_snippet": "09/30/2024 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "essential steps to start learning Hebrew"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-09-30 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[18]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.easylearnhebrew.com",
+              "title": "Hebrew for Beginners: Free Online Reading Course",
+              "url": "https://www.easylearnhebrew.com/sp2/hebrew-for-beginners.php",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.easylearnhebrew.com",
+              "website_name": "Easy Learn Hebrew",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Learn to read Hebrew from scratch with a self-paced online course. See the alphabet, hear real pronunciation, and start your first free lesson today.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Learn to read Hebrew from scratch"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[20]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.livelingua.com",
+              "title": "Learn Hebrew Free: Online Hebrew Courses",
+              "url": "https://www.livelingua.com/courses/Hebrew",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.livelingua.com",
+              "website_name": "Live Lingua",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "100% free Hebrew courses. No sign up required. Hebrew ebook and audio courses brought to you by Live Lingua. Just enter, pick a course and start learning ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "100% free Hebrew courses"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 2,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[4]/div[1]/div[3]/div[1]",
+              "title": "People also search for",
+              "items": [
+                "How to learn Biblical Hebrew for free",
+                "Learn to read Hebrew online",
+                "Learning to read Hebrew for beginners",
+                "Learning Hebrew book",
+                "How to learn hebrew bible"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

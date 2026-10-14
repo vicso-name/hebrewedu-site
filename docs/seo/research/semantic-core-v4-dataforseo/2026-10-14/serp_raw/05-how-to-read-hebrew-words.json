@@ -1,0 +1,508 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "7.6171 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10140757-2762-0139-0000-b9b33763e008",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "7.4781 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "how to read hebrew words",
+        "device": "mobile",
+        "os": "android",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "how to read hebrew words",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=how%20to%20read%20hebrew%20words&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-10-14 07:57:18 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "video"
+          ],
+          "se_results_count": 0,
+          "pages_count": 1,
+          "items_count": 11,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": true,
+              "markdown": null,
+              "items": null,
+              "references": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Hebrew Reading Practice for Beginners",
+              "url": "https://www.youtube.com/watch?v=dOhKBckg0F0&xstg=CAMSBhUDzO3xHw%3D%3D",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "2.1K+ views",
+              "website_name": "YouTube · Learn Hebrew with HebrewPod101.com",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Learn ALL Hebrew Alphabet in 40 Minutes - How to Write and Read Hebrew. Hebrew Vocabulary for Beginners",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "0:35",
+                  "description": null,
+                  "url": "https://www.youtube.com/watch?v=dOhKBckg0F0&xstg=CAMSBhUDzO3xHw%3D%3D",
+                  "domain": "www.youtube.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2019-10-14 07:57:17 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What way does Hebrew read?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is the best way to learn Hebrew for free?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is the best Hebrew book for beginners?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How is the Hebrew language read?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[7]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "Learn Hebrew with HebrewPod101.com",
+                  "title": "One Morning to Learn How to Write and Read Hebrew",
+                  "timestamp": "2025-05-15 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=axIbfwEe1t8&xstg=CAMSBhUDzO3xHw%3D%3D"
+                },
+                {
+                  "type": "video_element",
+                  "source": "The WORD in HEBREW",
+                  "title": "The Hebrew Alphabet | Crash Course in Hebrew Reading & Pronunciation",
+                  "timestamp": "2023-02-23 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=Ekc3lIVdHEU&xstg=CAMSBhUDzO3xHw%3D%3D"
+                },
+                {
+                  "type": "video_element",
+                  "source": "The WORD in HEBREW",
+                  "title": "Lesson 6: Hebrew WORDS Reading Practice | Crash Course in ...",
+                  "timestamp": "2023-03-23 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=f-DFqhZQRO4&xstg=CAMSBhUDzO3xHw%3D%3D"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Learn Hebrew with HebrewPod101.com",
+                  "title": "One Morning to Learn Hebrew (Perfect for All Beginners)",
+                  "timestamp": "2025-06-11 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=b-G5oasjzHs&xstg=CAMSBhUDzO3xHw%3D%3D"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.easylearnhebrew.com",
+              "title": "Hebrew words reading them easily and fluently is actually important!",
+              "url": "https://www.easylearnhebrew.com/blog/hebrew-words-reading-them-easily-and-fluently-is-important/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.easylearnhebrew.com",
+              "website_name": "Easy Learn Hebrew",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "May 3, 2023 — Hebrew words reading them easily and fluently is actually important ! we would use flash cards to memorize the letter and vowels together. ...",
+              "pre_snippet": "05/03/2023 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Hebrew words reading them easily and fluently is actually important"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2023-05-03 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.ivritalk.com",
+              "title": "Hebrew Reading Training",
+              "url": "https://www.ivritalk.com/hebrew-reading/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.ivritalk.com",
+              "website_name": "Ivrit Talk",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "We recommend you to start with the vocabulary table. Go over it before reading the text. Check how many words in the table are familiar to you, and how many ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "start with the vocabulary table"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[13]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "dictionary.co.il",
+              "title": "The Aleph Bet (Hebrew Alphabet) with Modern Hebrew Pronunciations",
+              "url": "https://dictionary.co.il/pronunciation_guide.php",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://dictionary.co.il",
+              "website_name": "My Hebrew Dictionary",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Below is a table of the Hebrew letters and vowels (nikudot) along with their names and how to pronounce them in modern Hebrew.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Hebrew letters and vowels"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[14]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Learn Hebrew: Reading Lesson 2",
+              "url": "https://www.youtube.com/watch?v=LZAJmS4EWU8&xstg=CAMSBhUDzO3xHw%3D%3D",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "12.7K+ views",
+              "website_name": "YouTube · Hebrewly",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Reading Hebrew - The second lesson in the series in which I will go over 10 sentences, pronounce each word and syllable so you can learn to ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "5:27",
+                  "description": null,
+                  "url": "https://www.youtube.com/watch?v=LZAJmS4EWU8&xstg=CAMSBhUDzO3xHw%3D%3D",
+                  "domain": "www.youtube.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2020-10-14 07:57:17 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[15]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Learn Hebrew Alphabet in 1 Hour or Less!",
+              "url": "https://www.youtube.com/watch?v=M9jFeVCxPxs&xstg=CAMSBhUDzO3xHw%3D%3D",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "1.4K+ views",
+              "website_name": "YouTube · Learn Hebrew with HebrewPod101.com",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "FREE printable worksheets to learn Hebrew alphabet in less than 1 hour. Course in Hebrew Reading & Pronunciation. Learn How to Read Hebrew in ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "3:32",
+                  "description": null,
+                  "url": "https://www.youtube.com/watch?v=M9jFeVCxPxs&xstg=CAMSBhUDzO3xHw%3D%3D",
+                  "domain": "www.youtube.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2023-10-14 07:57:17 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[17]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.easylearnhebrew.com",
+              "title": "How to Read Hebrew: A Step-by-Step Guide for Beginners",
+              "url": "https://www.easylearnhebrew.com/sp2/how-to-read-hebrew.php",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.easylearnhebrew.com",
+              "website_name": "Easy Learn Hebrew",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Learning how to read Hebrew comes down to six steps: direction, consonants, vowel marks, combining sounds, simple words, then full sentences.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "moderntalkbooks.com",
+              "title": "Learn To Read Hebrew",
+              "url": "https://moderntalkbooks.com/learn-to-read/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://moderntalkbooks.com",
+              "website_name": "Modern Talk Books",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Hebrew, like other Semitic languages, is written and read from right to left. use the vowel system. The ALEPH, HEH, VAV & YOD Letters. These are the letters ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "is written and read from right to left"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

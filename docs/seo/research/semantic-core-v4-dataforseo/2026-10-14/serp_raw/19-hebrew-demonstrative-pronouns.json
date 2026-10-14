@@ -1,0 +1,498 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "3.7994 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10140758-2762-0139-0000-d827b07a0a84",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "3.7432 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "hebrew demonstrative pronouns",
+        "device": "mobile",
+        "os": "android",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "hebrew demonstrative pronouns",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=hebrew%20demonstrative%20pronouns&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-10-14 07:58:21 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "images",
+            "video",
+            "people_also_ask",
+            "people_also_search"
+          ],
+          "se_results_count": 0,
+          "pages_count": 1,
+          "items_count": 12,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": true,
+              "markdown": null,
+              "items": null,
+              "references": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "equip.biblearc.com",
+              "title": "Lesson 6 | Vocab: Pronouns",
+              "url": "https://equip.biblearc.com/course/hebrew-i/111266",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://equip.biblearc.com",
+              "website_name": "Biblearc EQUIP",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Demonstrative pronouns ; cp, אֵלֶּה ; ms, הוּא ; fs, הִיא ; mp, הֵם, הֵמָּה ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": [
+                "hebrew",
+                "biblical hebrew",
+                "hebrew absolute"
+              ],
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "images",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[4]",
+              "title": "Images",
+              "url": null,
+              "items": [
+                {
+                  "type": "images_element",
+                  "alt": "Hebrew Demonstrative Pronouns",
+                  "url": "https://hebrew4christians.com/Grammar/Unit_Six/Demonstrative_Pronouns/demonstrative_pronouns.html",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140758-2762-0139-0000-d827b07a0a84:0"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Hebrew Demonstrative Pronouns",
+                  "url": "https://hebrew4christians.com/Grammar/Unit_Six/Demonstrative_Pronouns/demonstrative_pronouns.html",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140758-2762-0139-0000-d827b07a0a84:1"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Hebrew Demonstrative Adjectives",
+                  "url": "https://hebrew4christians.com/Grammar/Unit_Five/Demonstratives/demonstratives.html",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140758-2762-0139-0000-d827b07a0a84:2"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "This, That, These and Those: Demonstrative Pronouns: Hebrew Basics #7",
+                  "url": "https://www.youtube.com/watch?v=7puMOBgyaj8",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140758-2762-0139-0000-d827b07a0a84:3"
+                }
+              ],
+              "related_image_searches": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Hebrew Independent Personal Pronouns",
+              "url": "https://www.youtube.com/watch?v=8sE16kbIsf0",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "1.9K+ views",
+              "website_name": "YouTube · Dr. Andrew Perrin",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "This session introduces the forms and uses of Hebrew independent personal pronouns.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2017-10-14 07:58:20 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "uhg.readthedocs.io",
+              "title": "Pronoun Relative — unfoldingWord® Hebrew Grammar 1 documentation",
+              "url": "https://uhg.readthedocs.io/en/latest/pronoun_relative.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://uhg.readthedocs.io",
+              "website_name": "unfoldingWord Hebrew Grammar",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "זֶה is a demonstrative pronoun which sometimes functions as a relative particle. Example: PSA 78:54¶. הַר־זֶ֝֗ה קָנְתָ֥ה יְמִינֹֽו׃. har ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": [
+                "hebrew",
+                "biblical hebrew",
+                "hebrew absolute"
+              ],
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[9]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "Ken Schenck",
+                  "title": "Hebrew Demonstrative Pronouns",
+                  "timestamp": "2022-11-12 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=NBmNhnnePbA"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Learn The Lingo: Hebrew",
+                  "title": "This, That, These and Those: Demonstrative Pronouns: Hebrew ...",
+                  "timestamp": "2024-08-05 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=7puMOBgyaj8"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Dr. Andrew Perrin",
+                  "title": "Hebrew Demonstrative Adjectives and Pronouns",
+                  "timestamp": "2017-08-31 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=aGfRj2m6R7I"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Hebrew4Learners",
+                  "title": "Hebrew Sentence Construction using demonstrative pronouns",
+                  "timestamp": "2022-06-12 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=TYo0psj4iy0"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.jewishbible.org",
+              "title": "The \"Other\" Demonstrative Pronouns: Pejorative Colloquialisms in Biblical ...",
+              "url": "https://www.jewishbible.org/articles/the-other-demonstrative-pronouns/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.jewishbible.org",
+              "website_name": "jewishbible.org",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Hallazeh and hallaz occur ten times in the Bible, always in direct speech, where the literary dialect would use zeh and zot. Argues they carry a further ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[13]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What are the pronouns used in biblical Hebrew?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How do you say \"these\" in Hebrew?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[13]/div[1]/div[2]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Does Hebrew have gender neutral pronouns?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[13]/div[1]/div[2]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.jstor.org",
+              "title": "Demonstratives in Semitic",
+              "url": "https://www.jstor.org/stable/pdf/20297208.pdf",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.jstor.org",
+              "website_name": "Jstor",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_image"
+              ],
+              "description": "The form z?(y)t is the standard fs demonstrative in Biblical Hebrew, while the other two are rare biforms. 58. The biform '?l is only used in the Pentateuch ...",
+              "pre_snippet": "by R Hasselbach · 2007 · Cited by 77",
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": null,
+                  "url": "https://www.jstor.org/stable/pdf/20297208.pdf",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJe40AgcFd8J4Dp0rqSTIbpQJZTjM5VoQe7YpFNA9A-4-h7A&s"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[16]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Ross Lesson 11, Pronoun Memory Song",
+              "url": "https://www.youtube.com/watch?v=2snsTojVEN8",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "3.7K+ views",
+              "website_name": "YouTube · Phillip Marshall",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "This is a song to help memorize the Independent Pronouns and the Demonstrative Pronouns in Biblical Hebrew. Here is the handout: Lesson 11: ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2021-10-14 07:58:20 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[18]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "talkpal.ai",
+              "title": "How do I use demonstrative pronouns in Hebrew?",
+              "url": "https://talkpal.ai/culture/how-do-i-use-demonstrative-pronouns-in-hebrew/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://talkpal.ai",
+              "website_name": "Talkpal AI",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "In Hebrew, demonstrative pronouns usually come before the noun, but they can also appear as standalone pronouns, similar to English. Here are some examples: זה ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[20]",
+              "title": "People also search for",
+              "items": [
+                "Hebrew demonstrative pronouns chart",
+                "Hebrew demonstrative pronouns meaning",
+                "Hebrew pronouns",
+                "Biblical Hebrew pronouns",
+                "Hebrew absolute construct"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

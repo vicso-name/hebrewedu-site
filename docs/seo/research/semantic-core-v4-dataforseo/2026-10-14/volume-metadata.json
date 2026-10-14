@@ -1,0 +1,18 @@
+{
+  "submitted_at_utc": "2026-10-14T07:52:49.712329+00:00",
+  "received_at_utc": "2026-10-14T07:52:52.796259+00:00",
+  "path": [
+    "v3",
+    "keywords_data",
+    "google_ads",
+    "search_volume",
+    "live"
+  ],
+  "n_keywords": 41,
+  "note": "query text for one keyword stripped trailing '?' (API rejects punctuation); mapped back to original keyword row",
+  "response_status_code": 20000,
+  "response_cost": 0.09,
+  "task_status_code": 20000,
+  "task_cost": 0.09,
+  "request_sha256": "aca5fbd541cf778a1dfcbea789cc6185d64c57ff40a22041467a44555d53a836"
+}

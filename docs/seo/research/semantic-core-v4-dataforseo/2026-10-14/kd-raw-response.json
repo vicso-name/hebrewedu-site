@@ -1,0 +1,1960 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.1929 sec.",
+  "cost": 0.05028,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10140752-2762-0392-0000-054296ba58c5",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.1580 sec.",
+      "cost": 0.05028,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "dataforseo_labs",
+        "google",
+        "bulk_keyword_difficulty",
+        "live"
+      ],
+      "data": {
+        "api": "dataforseo_labs",
+        "function": "bulk_keyword_difficulty",
+        "se_type": "google",
+        "location_code": 2840,
+        "language_code": "en",
+        "keywords": [
+          "best app to learn hebrew alphabet",
+          "best app to learn hebrew",
+          "hebrew learning app for iphone",
+          "hebrew learning app for android",
+          "offline hebrew learning app",
+          "hebrew learning app for english speakers",
+          "hebrew app with structured lessons",
+          "hebrew learning app with audio",
+          "hebrew vocabulary app",
+          "hebrew reading app",
+          "hebrew verb conjugation app",
+          "hebrew app with spaced repetition",
+          "hebrew learning app for self study",
+          "hebrewedu",
+          "learn hebrew read and speak app",
+          "alef bet tutor app",
+          "learn hebrew for beginners",
+          "is hebrew hard to learn",
+          "how long does it take to learn hebrew",
+          "how to learn hebrew on your own",
+          "where to start learning hebrew",
+          "what to learn after the hebrew alphabet",
+          "how to study hebrew every day",
+          "common mistakes when learning hebrew",
+          "can you learn hebrew with an app",
+          "hebrew alphabet study plan",
+          "how to learn hebrew alphabet in a week",
+          "how to learn hebrew without transliteration",
+          "hebrew listening practice for beginners",
+          "why does hebrew sound so fast",
+          "learn hebrew alphabet online",
+          "how many letters are in the hebrew alphabet",
+          "hebrew alphabet letter names",
+          "hebrew final letters",
+          "how to memorize the hebrew alphabet",
+          "hebrew letters that look alike",
+          "hebrew printed vs handwritten letters",
+          "hebrew capital and lowercase letters",
+          "hebrew reading direction",
+          "hebrew alphabet pronunciation",
+          "hebrew letter names vs sounds",
+          "bet vs vet pronunciation",
+          "shin vs sin pronunciation",
+          "how to pronounce chet in hebrew",
+          "how to pronounce resh in hebrew",
+          "kaf vs chaf pronunciation",
+          "pe vs fe pronunciation",
+          "alef and ayin sounds",
+          "vav vowel and consonant sounds",
+          "yod vowel and consonant sounds",
+          "what is nikud",
+          "how to read hebrew nikud",
+          "hebrew vowel chart",
+          "hebrew with and without vowels",
+          "what is dagesh in hebrew",
+          "shva pronunciation",
+          "patach and kamatz difference",
+          "tsere and segol difference",
+          "holam pronunciation",
+          "shuruk and kubutz difference",
+          "hiriq pronunciation",
+          "hebrew vowel reading exercises",
+          "how to read hebrew words",
+          "how to read hebrew without vowels",
+          "when to stop using nikud",
+          "why does modern hebrew omit vowels",
+          "hebrew reading practice for beginners",
+          "hebrew short stories with english translation",
+          "hebrew reading with audio",
+          "hebrew reading comprehension for beginners",
+          "why can i read hebrew but not understand it",
+          "how to sound out hebrew syllables",
+          "hebrew roots for reading without vowels",
+          "how to learn hebrew vocabulary",
+          "hebrew words for beginners",
+          "most common hebrew words",
+          "how to remember hebrew words",
+          "hebrew vocabulary spaced repetition",
+          "hebrew flashcards with context",
+          "hebrew vocabulary active recall",
+          "learning hebrew words through roots",
+          "how many hebrew words should i learn per day",
+          "hebrew vocabulary review routine",
+          "how many words are in modern hebrew",
+          "how many hebrew words do beginners need",
+          "hebrew vocabulary for reading",
+          "hebrew vocabulary pronunciation practice",
+          "hebrew food vocabulary for beginners",
+          "basic hebrew words with nikud",
+          "hebrew grammar for beginners",
+          "hebrew root system",
+          "what is a shoresh in hebrew",
+          "how to find the root of a hebrew word",
+          "hebrew three letter roots examples",
+          "hebrew roots and binyanim difference",
+          "what are hebrew binyanim",
+          "seven hebrew binyanim chart",
+          "paal verbs for beginners",
+          "piel verbs examples",
+          "hifil verbs examples",
+          "hitpael verbs examples",
+          "nifal verbs meaning",
+          "hebrew verb conjugation chart",
+          "hebrew present past and future verbs",
+          "hebrew verbs with nikud",
+          "common hebrew verbs for beginners",
+          "hebrew verb infinitives",
+          "hebrew verb practice",
+          "hebrew demonstrative pronouns",
+          "ze vs zot in hebrew",
+          "how to say my and mine in hebrew",
+          "hine meaning in hebrew",
+          "hebrew sentence building exercises",
+          "free hebrew learning games",
+          "hebrew alphabet game for adults",
+          "hebrew letter matching game",
+          "hebrew alphabet quiz",
+          "hebrew alphabet game with audio",
+          "hebrew alphabet game without timer",
+          "hebrew alphabet game no download",
+          "hebrew alphabet game no sign up",
+          "hebrew letter recognition practice",
+          "hebrew similar letters practice",
+          "hebrew alphabet spaced recall game",
+          "learn hebrew letters with mahjong",
+          "alef bet rush",
+          "hebrew mahjong",
+          "can games help you learn hebrew alphabet",
+          "alef bet rush vs hebrew mahjong",
+          "hebrew aleph pronunciation",
+          "hebrew letter aleph sound",
+          "learn hebrew letter aleph",
+          "aleph hebrew letter exercises",
+          "alef hebrew letter",
+          "aleph with patah",
+          "aleph with kamatz",
+          "aleph with hataf patah",
+          "is aleph silent",
+          "hebrew bet pronunciation",
+          "hebrew letter bet sound",
+          "learn hebrew letter bet",
+          "bet hebrew letter exercises",
+          "vet hebrew letter",
+          "bet with dagesh",
+          "hebrew gimel pronunciation",
+          "hebrew letter gimel sound",
+          "learn hebrew letter gimel",
+          "gimel hebrew letter exercises",
+          "gimmel hebrew letter",
+          "how to recognize gimel",
+          "hebrew dalet pronunciation",
+          "hebrew letter dalet sound",
+          "learn hebrew letter dalet",
+          "dalet hebrew letter exercises",
+          "daleth hebrew letter",
+          "dalet vs resh hebrew letters",
+          "hebrew he pronunciation",
+          "hebrew letter he sound",
+          "learn hebrew letter he",
+          "he hebrew letter exercises",
+          "he vs chet hebrew letters",
+          "he at end of hebrew word",
+          "hebrew vav pronunciation",
+          "hebrew letter vav sound",
+          "learn hebrew letter vav",
+          "vav hebrew letter exercises",
+          "waw hebrew letter",
+          "vav with holam",
+          "vav with shuruk",
+          "hebrew zayin pronunciation",
+          "hebrew letter zayin sound",
+          "learn hebrew letter zayin",
+          "zayin hebrew letter exercises",
+          "zain hebrew letter",
+          "how to recognize zayin",
+          "hebrew chet pronunciation",
+          "hebrew letter chet sound",
+          "learn hebrew letter chet",
+          "chet hebrew letter exercises",
+          "het hebrew letter",
+          "chet vs he hebrew letters",
+          "hebrew tet pronunciation",
+          "hebrew letter tet sound",
+          "learn hebrew letter tet",
+          "tet hebrew letter exercises",
+          "teth hebrew letter",
+          "tet vs tav hebrew pronunciation",
+          "hebrew yod pronunciation",
+          "hebrew letter yod sound",
+          "learn hebrew letter yod",
+          "yod hebrew letter exercises",
+          "yud hebrew letter",
+          "yod with hiriq",
+          "yod vs vav hebrew letters",
+          "hebrew kaf pronunciation",
+          "hebrew letter kaf sound",
+          "learn hebrew letter kaf",
+          "kaf hebrew letter exercises",
+          "chaf hebrew letter",
+          "final kaf pronunciation",
+          "hebrew lamed pronunciation",
+          "hebrew letter lamed sound",
+          "learn hebrew letter lamed",
+          "lamed hebrew letter exercises",
+          "lamedh hebrew letter",
+          "how to recognize lamed",
+          "hebrew mem pronunciation",
+          "hebrew letter mem sound",
+          "learn hebrew letter mem",
+          "mem hebrew letter exercises",
+          "final mem hebrew letter",
+          "hebrew nun pronunciation",
+          "hebrew letter nun sound",
+          "learn hebrew letter nun",
+          "nun hebrew letter exercises",
+          "final nun hebrew letter",
+          "hebrew samekh pronunciation",
+          "hebrew letter samekh sound",
+          "learn hebrew letter samekh",
+          "samekh hebrew letter exercises",
+          "samech hebrew letter",
+          "samekh vs sin hebrew letters",
+          "hebrew ayin pronunciation",
+          "hebrew letter ayin sound",
+          "learn hebrew letter ayin",
+          "ayin hebrew letter exercises",
+          "ayin vs aleph pronunciation",
+          "hebrew pe pronunciation",
+          "hebrew letter pe sound",
+          "learn hebrew letter pe",
+          "pe hebrew letter exercises",
+          "pey hebrew letter",
+          "fe hebrew letter",
+          "pe sofit",
+          "final pe pronunciation",
+          "tsadi hebrew letter",
+          "hebrew tsadi pronunciation",
+          "hebrew letter tsadi sound",
+          "learn hebrew letter tsadi",
+          "tsadi hebrew letter exercises",
+          "tzadi hebrew letter",
+          "tsade hebrew letter",
+          "tsadi sofit",
+          "final tsadi hebrew letter",
+          "hebrew qof pronunciation",
+          "hebrew letter qof sound",
+          "learn hebrew letter qof",
+          "qof hebrew letter exercises",
+          "kuf hebrew letter",
+          "kof hebrew letter",
+          "qof vs kaf hebrew pronunciation",
+          "hebrew resh pronunciation",
+          "hebrew letter resh sound",
+          "learn hebrew letter resh",
+          "resh hebrew letter exercises",
+          "resh vs dalet hebrew letters",
+          "hebrew shin pronunciation",
+          "hebrew letter shin sound",
+          "learn hebrew letter shin",
+          "shin hebrew letter exercises",
+          "sin hebrew letter",
+          "shin dot right or left",
+          "hebrew tav pronunciation",
+          "hebrew letter tav sound",
+          "learn hebrew letter tav",
+          "tav hebrew letter exercises",
+          "taw hebrew letter",
+          "tav vs tet hebrew pronunciation",
+          "hebrew alphabet course",
+          "hebrew alphabet lessons online",
+          "interactive hebrew alphabet course",
+          "hebrew alphabet course for beginners",
+          "hebrew alphabet lessons with exercises",
+          "hebrew alphabet course with audio",
+          "hebrew pe vs fe pronunciation",
+          "hebrew shin vs sin pronunciation",
+          "hebrew listening practice",
+          "hebrew comprehensible input",
+          "paal vs piel",
+          "how many hebrew words do you need to be fluent",
+          "alef bet tutor verb directory",
+          "app to learn hebrew alphabet",
+          "learn hebrew alphabet app",
+          "learn hebrew aleph bet",
+          "learning hebrew alphabet",
+          "learn hebrew letters",
+          "hebrew patterns",
+          "learn hebrew alef bet",
+          "how to learn hebrew alphabet",
+          "reading without vowels",
+          "learn hebrew alphabet game",
+          "learn hebrew writing",
+          "hebrew aleph bet",
+          "learning the hebrew alphabet",
+          "learn hebrew script",
+          "learning hebrew letters",
+          "no vowels in hebrew",
+          "why is hebrew easier than arabic",
+          "pattern in hebrew",
+          "learn aleph bet",
+          "alephbet",
+          "is hebrew easy to learn?",
+          "aleph bet",
+          "aleph bet games online",
+          "hebrew alef bet",
+          "how to learn hebrew letters",
+          "aleph bet hebrew",
+          "easy way to learn hebrew alphabet",
+          "hebrew alphabet learn",
+          "hebrew without vowels",
+          "hebrew articles for beginners",
+          "hebrew newspaper for beginners",
+          "hebrew articles",
+          "hebrew phrases for beginners",
+          "useful hebrew phrases",
+          "common hebrew phrases",
+          "hebrew word search game",
+          "hebrew word search online",
+          "hebrew vocabulary game"
+        ]
+      },
+      "result": [
+        {
+          "se_type": "google",
+          "location_code": 2840,
+          "language_code": "en",
+          "total_count": 319,
+          "items_count": 319,
+          "items": [
+            {
+              "se_type": "google",
+              "keyword": "aleph bet",
+              "keyword_difficulty": 23
+            },
+            {
+              "se_type": "google",
+              "keyword": "aleph bet games online",
+              "keyword_difficulty": 23
+            },
+            {
+              "se_type": "google",
+              "keyword": "common hebrew phrases",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "easy way to learn hebrew alphabet",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew articles",
+              "keyword_difficulty": 5
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew articles for beginners",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew newspaper for beginners",
+              "keyword_difficulty": 27
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew phrases for beginners",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew vocabulary game",
+              "keyword_difficulty": 42
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew without vowels",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew word search game",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew word search online",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "useful hebrew phrases",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "aleph bet hebrew",
+              "keyword_difficulty": 22
+            },
+            {
+              "se_type": "google",
+              "keyword": "alephbet",
+              "keyword_difficulty": 22
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew alef bet",
+              "keyword_difficulty": 22
+            },
+            {
+              "se_type": "google",
+              "keyword": "how to learn hebrew letters",
+              "keyword_difficulty": 5
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew alphabet learn",
+              "keyword_difficulty": 9
+            },
+            {
+              "se_type": "google",
+              "keyword": "is hebrew easy to learn?",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "alef hebrew letter",
+              "keyword_difficulty": 11
+            },
+            {
+              "se_type": "google",
+              "keyword": "bet with dagesh",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "chaf hebrew letter",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "gimmel hebrew letter",
+              "keyword_difficulty": 3
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew alphabet quiz",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew chet pronunciation",
+              "keyword_difficulty": 7
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew demonstrative pronouns",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew gimel pronunciation",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew letter matching game",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew vav pronunciation",
+              "keyword_difficulty": 4
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew verb practice",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew yod pronunciation",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "het hebrew letter",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "teth hebrew letter",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "vet hebrew letter",
+              "keyword_difficulty": 8
+            },
+            {
+              "se_type": "google",
+              "keyword": "waw hebrew letter",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "yud hebrew letter",
+              "keyword_difficulty": 11
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew verb conjugation chart",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "hitpael verbs examples",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "nifal verbs meaning",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew present past and future verbs",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew verbs with nikud",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "common hebrew verbs for beginners",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew verb infinitives",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "ze vs zot in hebrew",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "how to say my and mine in hebrew",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hine meaning in hebrew",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew sentence building exercises",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "free hebrew learning games",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew alphabet game for adults",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew alphabet game with audio",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew alphabet game without timer",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew alphabet game no download",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew alphabet game no sign up",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew letter recognition practice",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew similar letters practice",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew alphabet spaced recall game",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "learn hebrew letters with mahjong",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "alef bet rush",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew mahjong",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "can games help you learn hebrew alphabet",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "alef bet rush vs hebrew mahjong",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew aleph pronunciation",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew letter aleph sound",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "learn hebrew letter aleph",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "aleph hebrew letter exercises",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "aleph with patah",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "aleph with kamatz",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "aleph with hataf patah",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "is aleph silent",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew bet pronunciation",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew letter bet sound",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "learn hebrew letter bet",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "bet hebrew letter exercises",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew letter gimel sound",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "learn hebrew letter gimel",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "gimel hebrew letter exercises",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "how to recognize gimel",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew dalet pronunciation",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew letter dalet sound",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "learn hebrew letter dalet",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "dalet hebrew letter exercises",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "daleth hebrew letter",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "dalet vs resh hebrew letters",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew he pronunciation",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew letter he sound",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "learn hebrew letter he",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "he hebrew letter exercises",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "he vs chet hebrew letters",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "he at end of hebrew word",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew letter vav sound",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "learn hebrew letter vav",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "vav hebrew letter exercises",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "vav with holam",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "vav with shuruk",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew zayin pronunciation",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew letter zayin sound",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "learn hebrew letter zayin",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "zayin hebrew letter exercises",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "zain hebrew letter",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "how to recognize zayin",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew letter chet sound",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "learn hebrew letter chet",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "chet hebrew letter exercises",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "chet vs he hebrew letters",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew tet pronunciation",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew letter tet sound",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "learn hebrew letter tet",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "tet hebrew letter exercises",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "tet vs tav hebrew pronunciation",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew letter yod sound",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "learn hebrew letter yod",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "yod hebrew letter exercises",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "yod with hiriq",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "yod vs vav hebrew letters",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew kaf pronunciation",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew letter kaf sound",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "learn hebrew letter kaf",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "kaf hebrew letter exercises",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "final kaf pronunciation",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "best app to learn hebrew",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "best app to learn hebrew alphabet",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew alphabet letter names",
+              "keyword_difficulty": 16
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew alphabet pronunciation",
+              "keyword_difficulty": 31
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew final letters",
+              "keyword_difficulty": 6
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew grammar for beginners",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew letters that look alike",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew reading app",
+              "keyword_difficulty": 53
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew reading direction",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew reading practice for beginners",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew root system",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew vocabulary app",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew with and without vowels",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew words for beginners",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "how long does it take to learn hebrew",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "how many letters are in the hebrew alphabet",
+              "keyword_difficulty": 9
+            },
+            {
+              "se_type": "google",
+              "keyword": "how to find the root of a hebrew word",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "how to learn hebrew on your own",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "how to memorize the hebrew alphabet",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "how to pronounce chet in hebrew",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "how to pronounce resh in hebrew",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "how to read hebrew without vowels",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "is hebrew hard to learn",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "learn hebrew alphabet online",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "most common hebrew words",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "shva pronunciation",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew vowel chart",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "how to read hebrew words",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "learn hebrew for beginners",
+              "keyword_difficulty": 7
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew learning app for iphone",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew learning app for android",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "offline hebrew learning app",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew learning app for english speakers",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew app with structured lessons",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew learning app with audio",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew verb conjugation app",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew app with spaced repetition",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew learning app for self study",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrewedu",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "learn hebrew read and speak app",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "alef bet tutor app",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "where to start learning hebrew",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "what to learn after the hebrew alphabet",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "how to study hebrew every day",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "common mistakes when learning hebrew",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "can you learn hebrew with an app",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew alphabet study plan",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "how to learn hebrew alphabet in a week",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "how to learn hebrew without transliteration",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew listening practice for beginners",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "why does hebrew sound so fast",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew printed vs handwritten letters",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew capital and lowercase letters",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew letter names vs sounds",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "bet vs vet pronunciation",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "shin vs sin pronunciation",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "kaf vs chaf pronunciation",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "pe vs fe pronunciation",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "alef and ayin sounds",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "vav vowel and consonant sounds",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "yod vowel and consonant sounds",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "what is nikud",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "how to read hebrew nikud",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "what is dagesh in hebrew",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "patach and kamatz difference",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "tsere and segol difference",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "holam pronunciation",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "shuruk and kubutz difference",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hiriq pronunciation",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew vowel reading exercises",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "when to stop using nikud",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "why does modern hebrew omit vowels",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew short stories with english translation",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew reading with audio",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew reading comprehension for beginners",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "why can i read hebrew but not understand it",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "how to sound out hebrew syllables",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew roots for reading without vowels",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "how to learn hebrew vocabulary",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "how to remember hebrew words",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew vocabulary spaced repetition",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew flashcards with context",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew vocabulary active recall",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "learning hebrew words through roots",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "how many hebrew words should i learn per day",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew vocabulary review routine",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "how many words are in modern hebrew",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "how many hebrew words do beginners need",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew vocabulary for reading",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew vocabulary pronunciation practice",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew food vocabulary for beginners",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "basic hebrew words with nikud",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "what is a shoresh in hebrew",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew three letter roots examples",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew roots and binyanim difference",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "what are hebrew binyanim",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "seven hebrew binyanim chart",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "paal verbs for beginners",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "piel verbs examples",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hifil verbs examples",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "app to learn hebrew alphabet",
+              "keyword_difficulty": 53
+            },
+            {
+              "se_type": "google",
+              "keyword": "fe hebrew letter",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew aleph bet",
+              "keyword_difficulty": 17
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew alphabet course",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew listening practice",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew nun pronunciation",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew patterns",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew pe pronunciation",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew resh pronunciation",
+              "keyword_difficulty": 55
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew tav pronunciation",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "how to learn hebrew alphabet",
+              "keyword_difficulty": 5
+            },
+            {
+              "se_type": "google",
+              "keyword": "kof hebrew letter",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "kuf hebrew letter",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "learn aleph bet",
+              "keyword_difficulty": 5
+            },
+            {
+              "se_type": "google",
+              "keyword": "learn hebrew alphabet app",
+              "keyword_difficulty": 53
+            },
+            {
+              "se_type": "google",
+              "keyword": "learn hebrew letters",
+              "keyword_difficulty": 12
+            },
+            {
+              "se_type": "google",
+              "keyword": "learning hebrew letters",
+              "keyword_difficulty": 7
+            },
+            {
+              "se_type": "google",
+              "keyword": "no vowels in hebrew",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "pattern in hebrew",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "pe sofit",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "pey hebrew letter",
+              "keyword_difficulty": 11
+            },
+            {
+              "se_type": "google",
+              "keyword": "reading without vowels",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "samech hebrew letter",
+              "keyword_difficulty": 2
+            },
+            {
+              "se_type": "google",
+              "keyword": "sin hebrew letter",
+              "keyword_difficulty": 1
+            },
+            {
+              "se_type": "google",
+              "keyword": "taw hebrew letter",
+              "keyword_difficulty": 5
+            },
+            {
+              "se_type": "google",
+              "keyword": "tsade hebrew letter",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "tsadi sofit",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "tzadi hebrew letter",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "learn hebrew alphabet game",
+              "keyword_difficulty": 1
+            },
+            {
+              "se_type": "google",
+              "keyword": "learn hebrew alef bet",
+              "keyword_difficulty": 9
+            },
+            {
+              "se_type": "google",
+              "keyword": "learn hebrew aleph bet",
+              "keyword_difficulty": 9
+            },
+            {
+              "se_type": "google",
+              "keyword": "learn hebrew script",
+              "keyword_difficulty": 9
+            },
+            {
+              "se_type": "google",
+              "keyword": "learn hebrew writing",
+              "keyword_difficulty": 9
+            },
+            {
+              "se_type": "google",
+              "keyword": "learning hebrew alphabet",
+              "keyword_difficulty": 9
+            },
+            {
+              "se_type": "google",
+              "keyword": "learning the hebrew alphabet",
+              "keyword_difficulty": 9
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew lamed pronunciation",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew letter lamed sound",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "learn hebrew letter lamed",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "lamed hebrew letter exercises",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "lamedh hebrew letter",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "how to recognize lamed",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew mem pronunciation",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew letter mem sound",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "learn hebrew letter mem",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "mem hebrew letter exercises",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "final mem hebrew letter",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew letter nun sound",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "learn hebrew letter nun",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "nun hebrew letter exercises",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "final nun hebrew letter",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew samekh pronunciation",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew letter samekh sound",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "learn hebrew letter samekh",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "samekh hebrew letter exercises",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "samekh vs sin hebrew letters",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew ayin pronunciation",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew letter ayin sound",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "learn hebrew letter ayin",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "ayin hebrew letter exercises",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "ayin vs aleph pronunciation",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew letter pe sound",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "learn hebrew letter pe",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "pe hebrew letter exercises",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "final pe pronunciation",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "tsadi hebrew letter",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew tsadi pronunciation",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew letter tsadi sound",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "learn hebrew letter tsadi",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "tsadi hebrew letter exercises",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "final tsadi hebrew letter",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew qof pronunciation",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew letter qof sound",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "learn hebrew letter qof",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "qof hebrew letter exercises",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "qof vs kaf hebrew pronunciation",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew letter resh sound",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "learn hebrew letter resh",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "resh hebrew letter exercises",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "resh vs dalet hebrew letters",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew shin pronunciation",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew letter shin sound",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "learn hebrew letter shin",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "shin hebrew letter exercises",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "shin dot right or left",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew letter tav sound",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "learn hebrew letter tav",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "tav hebrew letter exercises",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "tav vs tet hebrew pronunciation",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew alphabet lessons online",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "interactive hebrew alphabet course",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew alphabet course for beginners",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew alphabet lessons with exercises",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew alphabet course with audio",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew pe vs fe pronunciation",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew shin vs sin pronunciation",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "hebrew comprehensible input",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "paal vs piel",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "how many hebrew words do you need to be fluent",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "alef bet tutor verb directory",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "why is hebrew easier than arabic",
+              "keyword_difficulty": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

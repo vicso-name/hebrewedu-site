@@ -1,0 +1,643 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "3.2948 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10140757-2762-0139-0000-b663dc0428a3",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "3.2188 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "hebrew vowel chart",
+        "device": "mobile",
+        "os": "android",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "hebrew vowel chart",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=hebrew%20vowel%20chart&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-10-14 07:57:10 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "images",
+            "organic",
+            "people_also_search",
+            "people_also_ask"
+          ],
+          "se_results_count": 0,
+          "pages_count": 1,
+          "items_count": 13,
+          "items": [
+            {
+              "type": "images",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[1]",
+              "title": "Images",
+              "url": null,
+              "items": [
+                {
+                  "type": "images_element",
+                  "alt": "The Complete Hebrew Vowel List",
+                  "url": "https://hebrew4christians.com/Grammar/Unit_Two/Vowel_List/vowel_list.html",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140757-2762-0139-0000-b663dc0428a3:0"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Hebrew Vowel chart - Welcome to Temple Beth Ami",
+                  "url": "https://bethami.org/hebrew-vowel-chart-2/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140757-2762-0139-0000-b663dc0428a3:1"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "The Hebrew vowels - Jonathan Frate",
+                  "url": "https://jonathan-frate.com/2020/12/17/the-hebrew-vowels/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140757-2762-0139-0000-b663dc0428a3:2"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Vowels in Hebrew | Lilmod Aleph Beth",
+                  "url": "https://lilmod-aleph-beth.com/vowels-in-hebrew/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140757-2762-0139-0000-b663dc0428a3:3"
+                }
+              ],
+              "related_image_searches": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "bnaimitzvahacademy.com",
+              "title": "An Incredibly Useful Hebrew Vowels Chart and Explanation",
+              "url": "https://bnaimitzvahacademy.com/hebrew-vowels-chart/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://bnaimitzvahacademy.com",
+              "website_name": "B'nai Mitzvah Academy",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_image"
+              ],
+              "description": "There are 13 Hebrew vowels that will be discussed here on this Hebrew vowels chart. Hebrew vowels are pronounced AH, EH, EE, OH, OOH, and AY. There are three ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "hebrew vowel chart from bnaimitzvahacademy.com",
+                  "url": "https://bnaimitzvahacademy.com/hebrew-vowels-chart/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140757-2762-0139-0000-b663dc0428a3:4"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "There are 13 Hebrew vowels"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": [
+                "hebrew",
+                "hebrew",
+                "hebrew vowels",
+                "hebrew vowels",
+                "hebrew",
+                "hebrew",
+                "hebrew vowels",
+                "hebrew vowels"
+              ],
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "hebrew4christians.com",
+              "title": "The Complete Hebrew Vowel List",
+              "url": "https://hebrew4christians.com/Grammar/Unit_Two/Vowel_List/vowel_list.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://hebrew4christians.com",
+              "website_name": "Hebrew for Christians",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_image"
+              ],
+              "description": "Click the chart below for more information about a particular vowel type: You may also download Hebrew vowel flashcards or the entire Vowel Chart as a PDF file ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "hebrew vowel chart from hebrew4christians.com",
+                  "url": "https://hebrew4christians.com/Grammar/Unit_Two/Vowel_List/vowel_list.html",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140757-2762-0139-0000-b663dc0428a3:5"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": [
+                "hebrew",
+                "hebrew",
+                "hebrew vowels",
+                "hebrew vowels",
+                "hebrew",
+                "hebrew",
+                "hebrew vowels",
+                "hebrew vowels"
+              ],
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[7]",
+              "title": "People also search for",
+              "items": [
+                "Hebrew vowel chart printable",
+                "Hebrew vowel chart pdf",
+                "Hebrew vowel chart with examples",
+                "Hebrew vowels",
+                "Hebrew vowel chart with meaning",
+                "Hebrew vowel chart for kids"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.cfmcorner.com",
+              "title": "Hebrew Vowels Chart | Matres Lectionis & Niqqud",
+              "url": "https://www.cfmcorner.com/charts/hebrew_vowels_chart.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.cfmcorner.com",
+              "website_name": "Come Follow Me Corner",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Hebrew scribes used three consonants to hint at vowel sounds. These matres lectionis (Latin are letters that \"give birth\" to vowels.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Hebrew scribes used three consonants to hint at vowel sounds"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": [
+                "hebrew",
+                "hebrew",
+                "hebrew vowels",
+                "hebrew vowels",
+                "hebrew",
+                "hebrew",
+                "hebrew vowels",
+                "hebrew vowels"
+              ],
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "homeschoolingtorah.com",
+              "title": "Hebrew-Vowel-Chart.pdf",
+              "url": "https://homeschoolingtorah.com/2019doorkeepers/wp-content/uploads/2019/01/Hebrew-Vowel-Chart.pdf",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://homeschoolingtorah.com",
+              "website_name": "Homeschooling Torah",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_image"
+              ],
+              "description": "Hebrew Vowels (This chart reads from right to left - Just like the Hebrew language.) Sound Vowel Vowel Name Short “eh” sound as in pet. ֶ א Segol Long “awe” ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": null,
+                  "url": "https://homeschoolingtorah.com/2019doorkeepers/wp-content/uploads/2019/01/Hebrew-Vowel-Chart.pdf",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUQNsnQu2ZYa4uEniPM0nYchQ_66zsiHqjasAAthrK0MYC8g&s"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[13]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How many vowels are in Hebrew?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How do Jews say \"I love you\"?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[13]/div[1]/div[2]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What does 666 look like in Hebrew letters?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[13]/div[1]/div[2]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What are the rules for Hebrew vowels?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[13]/div[1]/div[2]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "bethami.org",
+              "title": "Hebrew Vowel chart - Welcome to Temple Beth Ami",
+              "url": "https://bethami.org/hebrew-vowel-chart-2/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://bethami.org",
+              "website_name": "Temple Beth Ami",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_image"
+              ],
+              "description": "Hebrew Vowel chart - Welcome to Temple Beth Ami. Confirmation and Graduation … 20850 301-340-6818",
+              "pre_snippet": "Hebrew Vowel chart - Welcome to Temple Beth Ami. Confirmation and Graduation … 20850 301-340-6818",
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "hebrew vowel chart from bethami.org",
+                  "url": "https://bethami.org/hebrew-vowel-chart-2/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH4mJfJ5ltrNsM_46Pl8JsCrpBp_t_wkFivYl5r08_ktB8mDbGkjaTDP4&usqp=CAE&s"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Hebrew Vowel chart"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[17]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.pinterest.com",
+              "title": "Hebrew Vowels Chart",
+              "url": "https://www.pinterest.com/ideas/hebrew-vowels-chart/895175129147/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.pinterest.com",
+              "website_name": "Pinterest",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Discover Pinterest's best ideas and inspiration for Hebrew vowels chart. Simplified Hebrew Vowel Chart | Learn Hebrew, Free printable hebrew alphabet",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Hebrew vowels chart"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[18]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "The Hebrew Vowels | Crash Course in Hebrew Reading & Pronunciation",
+              "url": "https://www.youtube.com/watch?v=Pvt-F2QZx3E",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "149.5K+ views",
+              "website_name": "YouTube · The WORD in HEBREW",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Learn the basics of Hebrew with a focus on reading & pronunciation. In this second lesson I cover the Hebrew Vowels. THE COMPLETE HEBREW ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2023-10-14 07:57:09 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[20]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.scribd.com",
+              "title": "Hebrew Full Vowel Chart | PDF | Phonology | Orthography",
+              "url": "https://www.scribd.com/document/385718605/Hebrew-Full-Vowels",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.scribd.com",
+              "website_name": "Scribd",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "This document summarizes the Hebrew full vowels, including their names, lengths, and English pronunciations. It outlines the six main vowels - three short ...",
+              "pre_snippet": "This document summarizes the Hebrew full vowels, including their names, lengths, and English pronunciations. It outlines the six main vowels - three short ...",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 2,
+                "rating_max": 5
+              },
+              "price": null,
+              "highlighted": [
+                "Hebrew full vowels"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[22]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.facebook.com",
+              "title": "Biblical Hebrew vowel triangle chart for students",
+              "url": "https://www.facebook.com/groups/NerdyLanguageMajors/posts/2269414176494572/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "9 comments",
+              "website_name": "Facebook · Nerdy Biblical Language Majors",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "The academic year in the Southern Hemisphere is about to begin. I'm looking if anyone have (and could share) a chart of Biblical Hebrew vowels in the shape ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Initially, I thought this was trying to mimic a vowel chart from the International ...",
+                  "description": "Top answer · 2 votes",
+                  "url": "https://www.facebook.com/groups/NerdyLanguageMajors/posts/2269414176494572/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Eduardo I have put a Word file with this picture in it in the Files section of the Nerdy ...",
+                  "description": "2 votes",
+                  "url": "https://www.facebook.com/groups/NerdyLanguageMajors/posts/2269414176494572/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "The qamats requires two enties i.e. qamats gadol and kamats qatan.",
+                  "description": "1 vote",
+                  "url": "https://www.facebook.com/groups/NerdyLanguageMajors/posts/2269414176494572/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "And shouldn't the sheva, i.e. a semi-vowel, be considered?",
+                  "description": "1 vote",
+                  "url": "https://www.facebook.com/groups/NerdyLanguageMajors/posts/2269414176494572/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "My suggestion is a rather manual, hodge-podge patchwork approach, but... for what it's worth, ...",
+                  "description": "1 vote",
+                  "url": "https://www.facebook.com/groups/NerdyLanguageMajors/posts/2269414176494572/",
+                  "domain": "www.facebook.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2020-10-14 07:57:09 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 2,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[4]/div[1]/div[3]/div[1]",
+              "title": "People also search for",
+              "items": [
+                "Hebrew vowels PDF",
+                "Hebrew vowels and consonants",
+                "Hebrew vowels List",
+                "Hebrew vowels names",
+                "Hebrew vowels pronunciation"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

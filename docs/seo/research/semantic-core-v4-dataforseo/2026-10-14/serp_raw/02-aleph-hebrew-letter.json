@@ -1,0 +1,713 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "7.0074 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10140756-2762-0139-0000-3dff9ed86021",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "6.8921 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "aleph hebrew letter",
+        "device": "mobile",
+        "os": "android",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "aleph hebrew letter",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=aleph%20hebrew%20letter&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-10-14 07:57:00 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "images",
+            "people_also_ask",
+            "organic",
+            "video",
+            "people_also_search"
+          ],
+          "se_results_count": 0,
+          "pages_count": 1,
+          "items_count": 12,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": false,
+              "markdown": "Aleph (**א** ) is the `first letter of the Hebrew alphabet` , with a numerical value of **1** (and 1,000 in advanced gematria).[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Aleph/aleph.html)[[2]](https://www.chabad.org/library/article_cdo/aid/137073/jewish/Aleph.htm)\n\n### Key Characteristics\n\n- **Pronunciation:** It is a silent consonant representing a glottal stop or acting as a carrier for vowel sounds in modern Israeli Hebrew.[[1]](https://www.reddit.com/r/hebrew/comments/114qvr6/how_on_earth_does_aleph_work/)[[2]](https://www.youtube.com/watch?v=-G8sQU6lOCk&t=16)\n- **Origin:** Its ancient pictograph represents an ox (strength, leader, or master). It is the historical ancestor of the Greek letter *Alpha* and the English letter *A*.[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Aleph/aleph.html)[[2]](https://www.youtube.com/watch?v=-G8sQU6lOCk&t=16)\n- **Structure:** In traditional Hebrew script, the letter is composed of three parts: an upper *Yud* (representing God above), a lower *Yud* (representing humanity on Earth), and a diagonal *Vav* connecting them.[[1]](https://www.chabad.org/library/article_cdo/aid/137073/jewish/Aleph.htm)\n\n### Symbolic & Mystical Meanings\n\n- **Oneness of God:** Its numerical value of 1 symbolizes the unity and indivisible nature of the Creator.\n- **Humility & Prominence:** According to Jewish tradition explored on [Chabad.org](https://www.chabad.org/library/article_cdo/aid/137073/jewish/Aleph.htm) , Aleph is praised for its humility in not demanding to start the Torah (which instead begins with the second letter, *Bet* ), and is rewarded by beginning the Ten Commandments with the word *Anoki*.\n- **Transformation:** In Chassidic teachings, adding an aleph to the word *golah* (exile) transforms it into *geulah* (redemption).[[1]](https://en.wikipedia.org/wiki/Aleph)[[2]](https://www.chabad.org/library/article_cdo/aid/137073/jewish/Aleph.htm)[[3]](https://www.youtube.com/watch?v=-G8sQU6lOCk&t=16)[[4]](https://www.timesofisrael.com/spotlight/hebrew-lesson-of-the-week-letter-aleph/)\n\nWould you like to explore the **gematria and mystical meanings** of other Hebrew letters, or learn how to write the **Aleph-Bet**?",
+              "items": [
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Aleph ( א ) is the first letter of the Hebrew alphabet, with a numerical value of 1 (and 1,000 in advanced gematria).",
+                  "markdown": "Aleph (**א** ) is the `first letter of the Hebrew alphabet` , with a numerical value of **1** (and 1,000 in advanced gematria).[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Aleph/aleph.html)[[2]](https://www.chabad.org/library/article_cdo/aid/137073/jewish/Aleph.htm)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Hebrew for Christians",
+                      "domain": "www.hebrew4christians.com",
+                      "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Aleph/aleph.html",
+                      "title": "The Letter Aleph",
+                      "text": "Basics: Aleph is the first, silent Hebrew letter with a numerical value of 1 (and 1,000), classified as a guttural. Written in manual print and cursive (script)"
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Chabad",
+                      "domain": "www.chabad.org",
+                      "url": "https://www.chabad.org/library/article_cdo/aid/137073/jewish/Aleph.htm",
+                      "title": "Aleph - The first letter of the Hebrew alphabet - Chabad.org",
+                      "text": "The first letter of the Hebrew alphabet * Aleph (א) is the first letter of the Hebrew alphabet. * Numeric value: 1. * Sound: silent. * Meaning: 1. master 2. tea..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Key Characteristics",
+                  "text": "Pronunciation: It is a silent consonant representing a glottal stop or acting as a carrier for vowel sounds in modern Israeli Hebrew. Origin: Its ancient pictograph represents an ox (strength, leader, or master). It is the historical ancestor of the Greek letter Alpha and the English letter A. Structure: In traditional Hebrew script, the letter is composed of three parts: an upper Yud (representing God above), a lower Yud (representing humanity on Earth), and a diagonal Vav connecting them.",
+                  "markdown": "- **Pronunciation:** It is a silent consonant representing a glottal stop or acting as a carrier for vowel sounds in modern Israeli Hebrew.[[1]](https://www.reddit.com/r/hebrew/comments/114qvr6/how_on_earth_does_aleph_work/)[[2]](https://www.youtube.com/watch?v=-G8sQU6lOCk&t=16)\n- **Origin:** Its ancient pictograph represents an ox (strength, leader, or master). It is the historical ancestor of the Greek letter *Alpha* and the English letter *A*.[[1]](https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Aleph/aleph.html)[[2]](https://www.youtube.com/watch?v=-G8sQU6lOCk&t=16)\n- **Structure:** In traditional Hebrew script, the letter is composed of three parts: an upper *Yud* (representing God above), a lower *Yud* (representing humanity on Earth), and a diagonal *Vav* connecting them.[[1]](https://www.chabad.org/library/article_cdo/aid/137073/jewish/Aleph.htm)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Reddit",
+                      "domain": "www.reddit.com",
+                      "url": "https://www.reddit.com/r/hebrew/comments/114qvr6/how_on_earth_does_aleph_work/",
+                      "title": "How on Earth does Aleph work? : r/hebrew - Reddit",
+                      "text": "Aleph Pronunciation: Aleph is fundamentally a consonant representing a glottal stop, not a vowel like 'A' or 'E'. In modern Israeli Hebrew, it is typically sile..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=-G8sQU6lOCk&t=16",
+                      "title": "The Hebrew Letter Aleph – Meaning, Symbolism, and Ancient Insights",
+                      "text": "The Hebrew Letter Aleph – Meaning, Symbolism, and Ancient Insights | Lesson 1 (Revised) and I'd like to invite you to engage with these letters creatively. look..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Hebrew for Christians",
+                      "domain": "www.hebrew4christians.com",
+                      "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Aleph/aleph.html",
+                      "title": "The Letter Aleph",
+                      "text": "Basics: Aleph is the first, silent Hebrew letter with a numerical value of 1 (and 1,000), classified as a guttural. Written in manual print and cursive (script)"
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Chabad",
+                      "domain": "www.chabad.org",
+                      "url": "https://www.chabad.org/library/article_cdo/aid/137073/jewish/Aleph.htm",
+                      "title": "Aleph - The first letter of the Hebrew alphabet - Chabad.org",
+                      "text": "The first letter of the Hebrew alphabet * Aleph (א) is the first letter of the Hebrew alphabet. * Numeric value: 1. * Sound: silent. * Meaning: 1. master 2. tea..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Symbolic & Mystical Meanings",
+                  "text": "Oneness of God: Its numerical value of 1 symbolizes the unity and indivisible nature of the Creator. Humility & Prominence: According to Jewish tradition explored on Chabad.org, Aleph is praised for its humility in not demanding to start the Torah (which instead begins with the second letter, Bet), and is rewarded by beginning the Ten Commandments with the word Anoki. Transformation: In Chassidic teachings, adding an aleph to the word golah (exile) transforms it into geulah (redemption).",
+                  "markdown": "- **Oneness of God:** Its numerical value of 1 symbolizes the unity and indivisible nature of the Creator.\n- **Humility & Prominence:** According to Jewish tradition explored on [Chabad.org](https://www.chabad.org/library/article_cdo/aid/137073/jewish/Aleph.htm) , Aleph is praised for its humility in not demanding to start the Torah (which instead begins with the second letter, *Bet* ), and is rewarded by beginning the Ten Commandments with the word *Anoki*.\n- **Transformation:** In Chassidic teachings, adding an aleph to the word *golah* (exile) transforms it into *geulah* (redemption).[[1]](https://en.wikipedia.org/wiki/Aleph)[[2]](https://www.chabad.org/library/article_cdo/aid/137073/jewish/Aleph.htm)[[3]](https://www.youtube.com/watch?v=-G8sQU6lOCk&t=16)[[4]](https://www.timesofisrael.com/spotlight/hebrew-lesson-of-the-week-letter-aleph/)",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Chabad.org",
+                      "description": null,
+                      "url": "https://www.chabad.org/library/article_cdo/aid/137073/jewish/Aleph.htm",
+                      "domain": "www.chabad.org"
+                    }
+                  ],
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Wikipedia",
+                      "domain": "en.wikipedia.org",
+                      "url": "https://en.wikipedia.org/wiki/Aleph",
+                      "title": "Aleph",
+                      "text": "Rabbinic Judaism This section does not cite any sources. Please help improve this section by adding citations to reliable sources. Unsourced material may be cha..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Chabad",
+                      "domain": "www.chabad.org",
+                      "url": "https://www.chabad.org/library/article_cdo/aid/137073/jewish/Aleph.htm",
+                      "title": "Aleph - The first letter of the Hebrew alphabet - Chabad.org",
+                      "text": "The first letter of the Hebrew alphabet * Aleph (א) is the first letter of the Hebrew alphabet. * Numeric value: 1. * Sound: silent. * Meaning: 1. master 2. tea..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=-G8sQU6lOCk&t=16",
+                      "title": "The Hebrew Letter Aleph – Meaning, Symbolism, and Ancient Insights",
+                      "text": "The Hebrew Letter Aleph – Meaning, Symbolism, and Ancient Insights | Lesson 1 (Revised) and I'd like to invite you to engage with these letters creatively. look..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "The Times of Israel",
+                      "domain": "www.timesofisrael.com",
+                      "url": "https://www.timesofisrael.com/spotlight/hebrew-lesson-of-the-week-letter-aleph/",
+                      "title": "Hebrew lesson of the week: The letter Aleph | The Times of Israel",
+                      "text": "In Modern Israeli Hebrew, the letter represents either a glottal stop, or has no pronunciation besides that of the vowel attached to it. The pronunciation varie..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Would you like to explore the gematria and mystical meanings of other Hebrew letters, or learn how to write the Aleph-Bet ?",
+                  "markdown": "Would you like to explore the **gematria and mystical meanings** of other Hebrew letters, or learn how to write the **Aleph-Bet**?",
+                  "links": null,
+                  "images": null,
+                  "references": null
+                }
+              ],
+              "references": [
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Hebrew for Christians",
+                  "domain": "www.hebrew4christians.com",
+                  "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Aleph/aleph.html",
+                  "title": "The Letter Aleph",
+                  "text": "Basics: Aleph is the first, silent Hebrew letter with a numerical value of 1 (and 1,000), classified as a guttural. Written in manual print and cursive (script)"
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Chabad",
+                  "domain": "www.chabad.org",
+                  "url": "https://www.chabad.org/library/article_cdo/aid/137073/jewish/Aleph.htm",
+                  "title": "Aleph - The first letter of the Hebrew alphabet - Chabad.org",
+                  "text": "The first letter of the Hebrew alphabet * Aleph (א) is the first letter of the Hebrew alphabet. * Numeric value: 1. * Sound: silent. * Meaning: 1. master 2. tea..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Wikipedia",
+                  "domain": "en.wikipedia.org",
+                  "url": "https://en.wikipedia.org/wiki/Aleph",
+                  "title": "Aleph",
+                  "text": "Rabbinic Judaism This section does not cite any sources. Please help improve this section by adding citations to reliable sources. Unsourced material may be cha..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Reddit",
+                  "domain": "www.reddit.com",
+                  "url": "https://www.reddit.com/r/hebrew/comments/114qvr6/how_on_earth_does_aleph_work/",
+                  "title": "How on Earth does Aleph work? : r/hebrew - Reddit",
+                  "text": "Aleph Pronunciation: Aleph is fundamentally a consonant representing a glottal stop, not a vowel like 'A' or 'E'. In modern Israeli Hebrew, it is typically sile..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "YouTube",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/watch?v=-G8sQU6lOCk&t=16",
+                  "title": "The Hebrew Letter Aleph – Meaning, Symbolism, and Ancient Insights",
+                  "text": "The Hebrew Letter Aleph – Meaning, Symbolism, and Ancient Insights | Lesson 1 (Revised) and I'd like to invite you to engage with these letters creatively. look..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "The Times of Israel",
+                  "domain": "www.timesofisrael.com",
+                  "url": "https://www.timesofisrael.com/spotlight/hebrew-lesson-of-the-week-letter-aleph/",
+                  "title": "Hebrew lesson of the week: The letter Aleph | The Times of Israel",
+                  "text": "In Modern Israeli Hebrew, the letter represents either a glottal stop, or has no pronunciation besides that of the vowel attached to it. The pronunciation varie..."
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "images",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]",
+              "title": "Images",
+              "url": null,
+              "items": [
+                {
+                  "type": "images_element",
+                  "alt": "The Letter Aleph",
+                  "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/Aleph/aleph.html",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140756-2762-0139-0000-3dff9ed86021:0"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Paulo Coelho",
+                  "url": "https://paulocoelhoblog.com/2012/01/03/misteries-of-aleph/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140756-2762-0139-0000-3dff9ed86021:1"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Aleph - The first letter of the Hebrew alphabet - Chabad.org",
+                  "url": "https://www.chabad.org/library/article_cdo/aid/137073/jewish/Aleph.htm",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140756-2762-0139-0000-3dff9ed86021:2"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "The Letter Aleph (א) - Hebrew Today",
+                  "url": "https://hebrewtoday.com/alphabet/the-letter-alef-%D7%90/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140756-2762-0139-0000-3dff9ed86021:3"
+                }
+              ],
+              "related_image_searches": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How do you say Aleph in Hebrew?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What does Aleph mean in Psalms 119?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How to write an aleph symbol?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What came first, Aleph or Alpha?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.pinterest.com",
+              "title": "Hebrew Letter Aleph: The Head That Leads",
+              "url": "https://www.pinterest.com/pin/1116892776374455804/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.pinterest.com",
+              "website_name": "Pinterest",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Mar 6, 2026 — Aleph is the first letter of the Hebrew alphabet and its pictograph is the head of an ox, representing strength, authority and the one who ...",
+              "pre_snippet": "03/06/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Aleph is the first letter of the Hebrew alphabet"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-03-06 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.quora.com",
+              "title": "How is the letter 'aleph' (א) pronounced in Biblical Hebrew? Is it similar to 'ah' ...",
+              "url": "https://www.quora.com/How-is-the-letter-aleph-%D7%90-pronounced-in-Biblical-Hebrew-Is-it-similar-to-ah-or-ay",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "30+ answers",
+              "website_name": "Quora",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "How is the letter \"aleph\" (א) pronounced in Biblical Hebrew? Is it similar to \"ah\" or \"ay\"?",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "It is neither one of those things. It is not a vowel.\n\nAlef has the same pronunciation in ...",
+                  "description": "Top answer · 24 votes",
+                  "url": "https://www.quora.com/How-is-the-letter-aleph-%D7%90-pronounced-in-Biblical-Hebrew-Is-it-similar-to-ah-or-ay?top_ans=1477743908738719",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "It represents a glottal stop. Any vowel can come after it.\n\nThere are cases where it appears ...",
+                  "description": "2 votes",
+                  "url": "https://www.quora.com/How-is-the-letter-aleph-%D7%90-pronounced-in-Biblical-Hebrew-Is-it-similar-to-ah-or-ay?top_ans=1477743903747891",
+                  "domain": "www.quora.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-10-14 07:56:59 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "fr.timesofisrael.com",
+              "title": "Hebrew lesson of the week: The letter Aleph",
+              "url": "https://fr.timesofisrael.com/spotlight/hebrew-lesson-of-the-week-letter-aleph/amp/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://fr.timesofisrael.com",
+              "website_name": "The Times of Israël",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "amp_version"
+              ],
+              "description": "Aleph is the reconstructed name of the first letter of the Proto-Canaanite alphabet, continued in descended Semitic alphabets as the Syriac 'Ālaphܐ, Hebrew ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": true,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Aleph is the reconstructed name of the first letter of the Proto-Canaanite alphabet"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[12]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Hebrew Letters; Aleph: Finding G-d in Your Life",
+              "url": "https://www.youtube.com/watch?v=zwume2S1lls&xstg=CAMSBhUDze3xHw%3D%3D",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "11.1K+ views",
+              "website_name": "YouTube · Rabbi Aaron L. Raskin | הרב אהרן ראסקין",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "The Hebrew Alphabet, or Aleph-bet, is the language of creation and the first source of all languages. The letter Alef is the first letter.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2014-10-14 07:56:59 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.chabad.org",
+              "title": "Aleph - Jewish Knowledge Base",
+              "url": "https://www.chabad.org/search/keyword_cdo/kid/1523/jewish/Aleph.htm",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.chabad.org",
+              "website_name": "Chabad",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Aleph (א) is the first letter of the Hebrew alphabet Numeric value: 1 Sound: silent Meaning: 1. master 2. teacher 3. wondrous Story Rabbi Shneur Zalman of Liadi ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Aleph (א) is the first letter of the Hebrew alphabet"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[16]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "BibleInteract",
+                  "title": "Power of Hebrew Letters - Aleph",
+                  "timestamp": "2024-07-18 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=7JfeayQFcnE"
+                },
+                {
+                  "type": "video_element",
+                  "source": "The Local Dreamer Podcast",
+                  "title": "The Hebrew Letter Aleph – Meaning, Symbolism, and Ancient Insights",
+                  "timestamp": "2026-03-16 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=-G8sQU6lOCk"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Ancient Hebrew Research Center",
+                  "title": "Ancient Hebrew Alphabet - Lesson 1 - Aleph",
+                  "timestamp": "2011-07-24 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=TOW3rCmEzhU"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Rabbi Aaron L. Raskin | הרב אהרן ראסקין",
+                  "title": "Hebrew Letters; The Importance of Alef",
+                  "timestamp": "2019-06-02 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=FN4o1qObqXg"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[17]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Lecture #10: Ancient Hebrew Alphabet - Aleph",
+              "url": "https://www.youtube.com/watch?v=mmC8UbCYaAw&xstg=CAMSBhUDze3xHw%3D%3D",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "7.2K+ views",
+              "website_name": "YouTube · Ancient Hebrew Research Center",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Learn the Hebrew Alphabet in Just 20 Minutes! (Alef-Bet Made Simple). Hebreways · 186K views ; Secrets of the Hebrew Alphabet: Origins. Jerusalem ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2018-10-14 07:56:59 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[19]",
+              "title": "People also search for",
+              "items": [
+                "Aleph hebrew letter meaning",
+                "Aleph hebrew letter translation",
+                "Aleph hebrew letter pronunciation"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[21]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "deforest.london",
+              "title": "The Meaning of the Hebrew Letter Aleph",
+              "url": "https://deforest.london/2017/10/03/the-meaning-of-the-hebrew-letter-aleph/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://deforest.london",
+              "website_name": "deforest.london",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "By using the letters of the Hebrew alphabet in this way, the psalm offers a mnemonic device for Hebrew readers to memorize the psalm while also ...",
+              "pre_snippet": "10/03/2017 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2017-10-03 00:00:00 +00:00",
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

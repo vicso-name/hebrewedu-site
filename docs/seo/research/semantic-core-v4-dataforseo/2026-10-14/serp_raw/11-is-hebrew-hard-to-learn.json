@@ -1,0 +1,839 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "2.6717 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10140757-2762-0139-0000-46d83c7bbf73",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "2.5865 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "is hebrew hard to learn",
+        "device": "mobile",
+        "os": "android",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "is hebrew hard to learn",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=is%20hebrew%20hard%20to%20learn&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-10-14 07:57:46 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "video",
+            "people_also_search"
+          ],
+          "se_results_count": 0,
+          "pages_count": 1,
+          "items_count": 12,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": false,
+              "markdown": "Learning Hebrew is `moderately difficult` for English speakers, ranking as a Category III or IV language by the U.S. Foreign Service Institute (FSI), which means it takes roughly **1,100 hours of study** to reach professional working proficiency.[[1]](https://hebrewglot.com/en/blog/is-hebrew-hard-to-learn)\n\n### The Hard Parts\n\n- **The Alphabet & Script:** Hebrew uses a 22-letter abjad written from right to left. Several letters look very similar (like ב and כ).[[1]](https://hebrewglot.com/en/blog/is-hebrew-hard-to-learn)\n- **Missing Vowels:** Most everyday Hebrew (newspapers, signs, text messages) is written without vowel markings (*nikud* ), meaning you have to guess or know the vowels from context.[[1]](https://hebrewglot.com/en/blog/is-hebrew-hard-to-learn)\n- **Root System & Verbs:** Vocabulary is built around three-letter consonant roots that shift into seven different verb patterns called *binyanim*.[[1]](https://hebrewglot.com/en/blog/is-hebrew-hard-to-learn)\n- **Gendered Nouns:** Every noun is either masculine or feminine, and adjectives and verbs must match.[[1]](https://www.reddit.com/r/hebrew/comments/7zt31e/how_easy_is_hebrew_to_learn_for_an_english_speaker/)[[2]](https://www.citizencafetlv.com/blog/how-hard-can-hebrew-language-learning-be/)\n\n### The Easy Parts\n\n- **Small Alphabet:** There are only 22 letters (plus 5 final forms that change shape at the end of a word), making the writing system much simpler than Chinese or Arabic.\n- **Phonetic Consistency:** Once you learn a letter, it makes a reliable sound.\n- **Logical Roots:** Learning one three-letter root unlocks a whole family of related words.\n- **Loanwords & Patterns:** Modern Hebrew uses many familiar international and English-derived terms.[[1]](https://www.languagebird.com/is-hebrew-hard-to-learn-a-beginners-guide/)[[2]](https://hebrewglot.com/en/blog/is-hebrew-hard-to-learn)[[3]](https://www.mezzoguild.com/learn/hebrew/tips/hebrew-is-easy/)[[4]](https://www.youtube.com/watch?v=A8ppeKh5FM8)\n\n### Time Estimates\n\n- **Reading the alphabet:** 1 to 2 weeks of practice.\n- **Basic conversation:** 6 to 12 months of consistent daily study.\n- **Professional fluency:** Several years of dedicated practice.[[1]](https://www.reddit.com/r/Israel/comments/1qumktc/how_hard_is_hebrew_to_learn_for_a_beginner/)[[2]](https://hebrewglot.com/en/blog/is-hebrew-hard-to-learn)\n\nAre you planning to learn Hebrew for **travel**, **heritage/religion** , or **moving to Israel** , and do you want to focus more on **speaking** or **reading and writing** first?",
+              "items": [
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Learning Hebrew is moderately difficult for English speakers, ranking as a Category III or IV language by the U.S. Foreign Service Institute (FSI), which means it takes roughly 1,100 hours of study to reach professional working proficiency.",
+                  "markdown": "Learning Hebrew is `moderately difficult` for English speakers, ranking as a Category III or IV language by the U.S. Foreign Service Institute (FSI), which means it takes roughly **1,100 hours of study** to reach professional working proficiency.[[1]](https://hebrewglot.com/en/blog/is-hebrew-hard-to-learn)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "HebrewGlot",
+                      "domain": "hebrewglot.com",
+                      "url": "https://hebrewglot.com/en/blog/is-hebrew-hard-to-learn",
+                      "title": "Is Hebrew Hard to Learn? 1100 Hours (FSI) vs. Reality - HebrewGlot",
+                      "text": "Is Hebrew Hard to Learn? An Honest Answer (From Someone Who Actually Did It) Every few weeks, someone new in a Hebrew learner forum asks the same question: \"Is ..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "The Hard Parts",
+                  "text": "The Alphabet & Script: Hebrew uses a 22-letter abjad written from right to left. Several letters look very similar (like ב and כ). Missing Vowels: Most everyday Hebrew (newspapers, signs, text messages) is written without vowel markings (nikud), meaning you have to guess or know the vowels from context. Root System & Verbs: Vocabulary is built around three-letter consonant roots that shift into seven different verb patterns called binyanim. Gendered Nouns: Every noun is either masculine or feminine, and adjectives and verbs must match.",
+                  "markdown": "- **The Alphabet & Script:** Hebrew uses a 22-letter abjad written from right to left. Several letters look very similar (like ב and כ).[[1]](https://hebrewglot.com/en/blog/is-hebrew-hard-to-learn)\n- **Missing Vowels:** Most everyday Hebrew (newspapers, signs, text messages) is written without vowel markings (*nikud* ), meaning you have to guess or know the vowels from context.[[1]](https://hebrewglot.com/en/blog/is-hebrew-hard-to-learn)\n- **Root System & Verbs:** Vocabulary is built around three-letter consonant roots that shift into seven different verb patterns called *binyanim*.[[1]](https://hebrewglot.com/en/blog/is-hebrew-hard-to-learn)\n- **Gendered Nouns:** Every noun is either masculine or feminine, and adjectives and verbs must match.[[1]](https://www.reddit.com/r/hebrew/comments/7zt31e/how_easy_is_hebrew_to_learn_for_an_english_speaker/)[[2]](https://www.citizencafetlv.com/blog/how-hard-can-hebrew-language-learning-be/)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "HebrewGlot",
+                      "domain": "hebrewglot.com",
+                      "url": "https://hebrewglot.com/en/blog/is-hebrew-hard-to-learn",
+                      "title": "Is Hebrew Hard to Learn? 1100 Hours (FSI) vs. Reality - HebrewGlot",
+                      "text": "Is Hebrew Hard to Learn? An Honest Answer (From Someone Who Actually Did It) Every few weeks, someone new in a Hebrew learner forum asks the same question: \"Is ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Reddit",
+                      "domain": "www.reddit.com",
+                      "url": "https://www.reddit.com/r/hebrew/comments/7zt31e/how_easy_is_hebrew_to_learn_for_an_english_speaker/",
+                      "title": "How easy is Hebrew to learn for an English speaker? - Reddit",
+                      "text": "Hebrew Difficulty for English Speakers: While some find Hebrew difficult due to foreign concepts like gendered objects, numerous verb conjugations, and a differ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Citizen Cafe Tel Aviv",
+                      "domain": "www.citizencafetlv.com",
+                      "url": "https://www.citizencafetlv.com/blog/how-hard-can-hebrew-language-learning-be/",
+                      "title": "How hard can Hebrew language learning be?",
+                      "text": "How hard can Hebrew language learning be? 3 min read aviad There is not an easy answer to this question since it depends on many factors such as age or knowledg..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "The Easy Parts",
+                  "text": "Small Alphabet: There are only 22 letters (plus 5 final forms that change shape at the end of a word), making the writing system much simpler than Chinese or Arabic. Phonetic Consistency: Once you learn a letter, it makes a reliable sound. Logical Roots: Learning one three-letter root unlocks a whole family of related words. Loanwords & Patterns: Modern Hebrew uses many familiar international and English-derived terms.",
+                  "markdown": "- **Small Alphabet:** There are only 22 letters (plus 5 final forms that change shape at the end of a word), making the writing system much simpler than Chinese or Arabic.\n- **Phonetic Consistency:** Once you learn a letter, it makes a reliable sound.\n- **Logical Roots:** Learning one three-letter root unlocks a whole family of related words.\n- **Loanwords & Patterns:** Modern Hebrew uses many familiar international and English-derived terms.[[1]](https://www.languagebird.com/is-hebrew-hard-to-learn-a-beginners-guide/)[[2]](https://hebrewglot.com/en/blog/is-hebrew-hard-to-learn)[[3]](https://www.mezzoguild.com/learn/hebrew/tips/hebrew-is-easy/)[[4]](https://www.youtube.com/watch?v=A8ppeKh5FM8)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "LanguageBird",
+                      "domain": "www.languagebird.com",
+                      "url": "https://www.languagebird.com/is-hebrew-hard-to-learn-a-beginners-guide/",
+                      "title": "Is Hebrew Hard to Learn? A Beginner's Guide. - LanguageBird",
+                      "text": "Why Learning Hebrew Isn't as Hard as You Think. You may have heard Hebrew is difficult—but here's why it can be easier than expected: The Hebrew alphabet is lea..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "HebrewGlot",
+                      "domain": "hebrewglot.com",
+                      "url": "https://hebrewglot.com/en/blog/is-hebrew-hard-to-learn",
+                      "title": "Is Hebrew Hard to Learn? 1100 Hours (FSI) vs. Reality - HebrewGlot",
+                      "text": "Is Hebrew Hard to Learn? An Honest Answer (From Someone Who Actually Did It) Every few weeks, someone new in a Hebrew learner forum asks the same question: \"Is ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "The Mezzofanti Guild",
+                      "domain": "www.mezzoguild.com",
+                      "url": "https://www.mezzoguild.com/learn/hebrew/tips/hebrew-is-easy/",
+                      "title": "10 Reasons Why Hebrew Is Easier Than You Think",
+                      "text": "1. There aren't many characters to learn in Hebrew True, the Hebrew alphabet is different from Latin. But, its difficulty pales in comparison with other writing..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=A8ppeKh5FM8",
+                      "title": "Why English Speakers Learn Hebrew Faster with This Pattern",
+                      "text": "Why English Speakers Learn Hebrew Faster with This Pattern your English-sp speakaking brain is not working against you when you learn Hebrew you just need someo..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Time Estimates",
+                  "text": "Reading the alphabet: 1 to 2 weeks of practice. Basic conversation: 6 to 12 months of consistent daily study. Professional fluency: Several years of dedicated practice.",
+                  "markdown": "- **Reading the alphabet:** 1 to 2 weeks of practice.\n- **Basic conversation:** 6 to 12 months of consistent daily study.\n- **Professional fluency:** Several years of dedicated practice.[[1]](https://www.reddit.com/r/Israel/comments/1qumktc/how_hard_is_hebrew_to_learn_for_a_beginner/)[[2]](https://hebrewglot.com/en/blog/is-hebrew-hard-to-learn)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Reddit",
+                      "domain": "www.reddit.com",
+                      "url": "https://www.reddit.com/r/Israel/comments/1qumktc/how_hard_is_hebrew_to_learn_for_a_beginner/",
+                      "title": "How hard is Hebrew to learn for a beginner? : r/Israel",
+                      "text": "Comments Section * Kvaezde • 8mo ago r/hebrew is where you want to go * frat105 • 8mo ago Hebrew is quite difficult to learn for a native English speaker. Hebre..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "HebrewGlot",
+                      "domain": "hebrewglot.com",
+                      "url": "https://hebrewglot.com/en/blog/is-hebrew-hard-to-learn",
+                      "title": "Is Hebrew Hard to Learn? 1100 Hours (FSI) vs. Reality - HebrewGlot",
+                      "text": "Is Hebrew Hard to Learn? An Honest Answer (From Someone Who Actually Did It) Every few weeks, someone new in a Hebrew learner forum asks the same question: \"Is ..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Are you planning to learn Hebrew for travel, heritage/religion, or moving to Israel, and do you want to focus more on speaking or reading and writing first?",
+                  "markdown": "Are you planning to learn Hebrew for **travel**, **heritage/religion** , or **moving to Israel** , and do you want to focus more on **speaking** or **reading and writing** first?",
+                  "links": null,
+                  "images": null,
+                  "references": null
+                }
+              ],
+              "references": [
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Reddit",
+                  "domain": "www.reddit.com",
+                  "url": "https://www.reddit.com/r/hebrew/comments/7zt31e/how_easy_is_hebrew_to_learn_for_an_english_speaker/",
+                  "title": "How easy is Hebrew to learn for an English speaker? - Reddit",
+                  "text": "Hebrew Difficulty for English Speakers: While some find Hebrew difficult due to foreign concepts like gendered objects, numerous verb conjugations, and a differ..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "LanguageBird",
+                  "domain": "www.languagebird.com",
+                  "url": "https://www.languagebird.com/is-hebrew-hard-to-learn-a-beginners-guide/",
+                  "title": "Is Hebrew Hard to Learn? A Beginner's Guide. - LanguageBird",
+                  "text": "Why Learning Hebrew Isn't as Hard as You Think. You may have heard Hebrew is difficult—but here's why it can be easier than expected: The Hebrew alphabet is lea..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "HebrewGlot",
+                  "domain": "hebrewglot.com",
+                  "url": "https://hebrewglot.com/en/blog/is-hebrew-hard-to-learn",
+                  "title": "Is Hebrew Hard to Learn? 1100 Hours (FSI) vs. Reality - HebrewGlot",
+                  "text": "Is Hebrew Hard to Learn? An Honest Answer (From Someone Who Actually Did It) Every few weeks, someone new in a Hebrew learner forum asks the same question: \"Is ..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Reddit",
+                  "domain": "www.reddit.com",
+                  "url": "https://www.reddit.com/r/Israel/comments/1qumktc/how_hard_is_hebrew_to_learn_for_a_beginner/",
+                  "title": "How hard is Hebrew to learn for a beginner? : r/Israel",
+                  "text": "Comments Section * Kvaezde • 8mo ago r/hebrew is where you want to go * frat105 • 8mo ago Hebrew is quite difficult to learn for a native English speaker. Hebre..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "The Mezzofanti Guild",
+                  "domain": "www.mezzoguild.com",
+                  "url": "https://www.mezzoguild.com/learn/hebrew/tips/hebrew-is-easy/",
+                  "title": "10 Reasons Why Hebrew Is Easier Than You Think",
+                  "text": "1. There aren't many characters to learn in Hebrew True, the Hebrew alphabet is different from Latin. But, its difficulty pales in comparison with other writing..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Citizen Cafe Tel Aviv",
+                  "domain": "www.citizencafetlv.com",
+                  "url": "https://www.citizencafetlv.com/blog/how-hard-can-hebrew-language-learning-be/",
+                  "title": "How hard can Hebrew language learning be?",
+                  "text": "How hard can Hebrew language learning be? 3 min read aviad There is not an easy answer to this question since it depends on many factors such as age or knowledg..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "YouTube",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/watch?v=A8ppeKh5FM8",
+                  "title": "Why English Speakers Learn Hebrew Faster with This Pattern",
+                  "text": "Why English Speakers Learn Hebrew Faster with This Pattern your English-sp speakaking brain is not working against you when you learn Hebrew you just need someo..."
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.citizencafetlv.com",
+              "title": "How hard can Hebrew language learning be? | Citizen Café TLV",
+              "url": "https://www.citizencafetlv.com/blog/how-hard-can-hebrew-language-learning-be/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.citizencafetlv.com",
+              "website_name": "Citizen Cafe Tel Aviv",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "To sum up, even though Hebrew is not one of the easiest languages to learn it can be acquired with an appropriate approach; learning online at your convenience, ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Hebrew is not one of the easiest languages to learn"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": [
+                "is hebrew hard to learn",
+                "hebrew",
+                "is hebrew harder",
+                "how hard is hebrew to learn",
+                "learn hebrew",
+                "easiest language",
+                "best way to",
+                "is arabic"
+              ],
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How long would it take me to learn Hebrew?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is the hardest word to say in Hebrew?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Is Hebrew or Yiddish easier?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Which is harder, Hebrew or Arabic?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[6]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Is Hebrew Hard To Learn?",
+              "url": "https://www.youtube.com/watch?v=xY-mv157msY",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "8.7K+ views",
+              "website_name": "YouTube · Hebrewly",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Is Hebrew difficult to learn for beginners? Are some parts easy to learn? Watch the video to find out.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2019-10-14 07:57:45 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.quora.com",
+              "title": "Is it a good decision to start learning Hebrew? Is it difficult? Is it a useful ...",
+              "url": "https://www.quora.com/Is-it-a-good-decision-to-start-learning-Hebrew-Is-it-difficult-Is-it-a-useful-language-or-not",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "30+ answers",
+              "website_name": "Quora",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Is it a good decision to start learning Hebrew? Is it difficult? Is it a useful language or not?",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Start it only if\n\n1/ You want to read the Hebrew Bible (a.k.a. Old Testament) in original ...",
+                  "description": "Top answer · 5 votes",
+                  "url": "https://www.quora.com/Is-it-a-good-decision-to-start-learning-Hebrew-Is-it-difficult-Is-it-a-useful-language-or-not?top_ans=87605893",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Well, if you want to learn it or even need to, it's definitely a good decision. If it's only ...",
+                  "description": "1 vote",
+                  "url": "https://www.quora.com/Is-it-a-good-decision-to-start-learning-Hebrew-Is-it-difficult-Is-it-a-useful-language-or-not?top_ans=9075474",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Maybe, maybe, and maybe. \n\nEach answer depends on your personal situation, your aptitude ...",
+                  "description": "1 vote",
+                  "url": "https://www.quora.com/Is-it-a-good-decision-to-start-learning-Hebrew-Is-it-difficult-Is-it-a-useful-language-or-not?top_ans=9087334",
+                  "domain": "www.quora.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2015-10-14 07:57:45 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "verbacard.com",
+              "title": "Is Hebrew Hard to Learn? Honest Guide for New Learners",
+              "url": "https://verbacard.com/blogs/news/is-hebrew-hard-to-learn?srsltid=AU7gw4XSMcA4ygG8QyieOH0Yaw7k_aMLMpKNVMA9jwmcyw1JpVl6pRGS",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://verbacard.com",
+              "website_name": "Verbacard",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Sep 11, 2025 — The short answer is that Hebrew can feel challenging at first, but with the right approach, it is far from impossible.",
+              "pre_snippet": "09/11/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Hebrew can feel challenging at first"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-09-11 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[12]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "Biblingo: Learn the Biblical Languages",
+                  "title": "How hard is it to learn Hebrew?",
+                  "timestamp": "2025-02-28 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=IhVCRIjR0gw"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Hebrew by Inbal",
+                  "title": "Why Hebrew Feels So Hard (and What Actually Fixes It)",
+                  "timestamp": "2025-04-20 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=uq1pgOoNz3I"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Learn Hebrew at the Speed of Light with Ulpan-Or",
+                  "title": "Is Learning Hebrew Hard",
+                  "timestamp": "2026-03-16 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=AgKhve2Xh-4"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "Hebrew is so hard to learn (perspective from a native speaker)",
+              "url": "https://www.reddit.com/r/LearnHebrew/comments/1wn8ow4/hebrew_is_so_hard_to_learn_perspective_from_a/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "40+ comments",
+              "website_name": "Reddit · r/LearnHebrew",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Hebrew is so hard to learn. I find it extremely direct and simple! Vocabulary is difficult, and pronunciation can be a challenge at times. ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Hebrew is so hard to learn"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-09-23 07:57:45 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[16]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "lingopie.com",
+              "title": "Is Hebrew Hard to Learn? Here Is Everything You Need to Know",
+              "url": "https://lingopie.com/blog/is-hebrew-hard-to-learn/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://lingopie.com",
+              "website_name": "Lingopie",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "May 31, 2025 — The American Foreign Service Institute ranks Hebrew in category 4 out of 5 difficulty levels for English speakers, putting it behind only ...",
+              "pre_snippet": "05/31/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Hebrew in category 4 out of 5 difficulty levels"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-05-31 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[18]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "pt.hinative.com",
+              "title": "Is it hard to learn Hebrew?",
+              "url": "https://pt.hinative.com/questions/11680373",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://pt.hinative.com",
+              "website_name": "HiNative",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Is it hard to learn Hebrew?",
+              "pre_snippet": "12/21/2018 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "I see that your native language is Arabic, and Hebrew and Arabic have many similarities, so ...",
+                  "description": "Top answer · 3 votes",
+                  "url": "https://hinative.com/questions/11680373#answer_28643340",
+                  "domain": "hinative.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "A lot of people think Hebrew is a difficult language to learn because it uses a different ...",
+                  "description": "1 vote",
+                  "url": "https://hinative.com/questions/11680373#answer_28692559",
+                  "domain": "hinative.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "I'm Egyptian learning Hebrew as well. I use duolingo as well as memrise for just vocabulary ...",
+                  "description": "1 vote",
+                  "url": "https://hinative.com/questions/11680373#answer_28659205",
+                  "domain": "hinative.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "@mohamed_salah13 Maybe Duolingo? If you speak English well, you can try it, I use it for ...",
+                  "description": "1 vote",
+                  "url": "https://hinative.com/questions/11680373#answer_28657926",
+                  "domain": "hinative.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "I donno I heard they make up some new stuff in the States in the Jewish communities there. ...",
+                  "description": "1 vote",
+                  "url": "https://hinative.com/questions/11680373#answer_28693160",
+                  "domain": "hinative.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2018-12-21 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[20]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.facebook.com",
+              "title": "Are Hebrew and Arabic considered easy or tough languages to learn?",
+              "url": "https://www.facebook.com/groups/1725972127657416/posts/3052090881712194/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "50+ comments",
+              "website_name": "Facebook · The Language Nerds",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "**Best tip for learning Hebrew:\n**SPEAK ARABIC!\n\nDo you consider those lang's as easy or tough to learn?",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Hebrew is like someone speaking without teeth",
+                  "description": "Top answer · 7 votes",
+                  "url": "https://www.facebook.com/groups/1725972127657416/posts/3052090881712194/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "The two languages are related to the old samtic language, so both of them sharing a lot ...",
+                  "description": "6 votes",
+                  "url": "https://www.facebook.com/groups/1725972127657416/posts/3052090881712194/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "So as a speaker of both, both came from the same language language and their common ancestor ...",
+                  "description": "4 votes",
+                  "url": "https://www.facebook.com/groups/1725972127657416/posts/3052090881712194/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "As a Hebrew speaker, it’s definitely easier to learn Arabic",
+                  "description": "2 votes",
+                  "url": "https://www.facebook.com/groups/1725972127657416/posts/3052090881712194/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Swahili\n6-sita\n7-saba\n9-Tisa\n100-Mia\n1000 -elfu",
+                  "description": "2 votes",
+                  "url": "https://www.facebook.com/groups/1725972127657416/posts/3052090881712194/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "I find Hebrew really beautiful, that's why I am learning it. No other reason. 🤷‍♂️",
+                  "description": "2 votes",
+                  "url": "https://www.facebook.com/groups/1725972127657416/posts/3052090881712194/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Keep in mind that in Hebrew, numbering is done with female-form, not male (as done here). ...",
+                  "description": "2 votes",
+                  "url": "https://www.facebook.com/groups/1725972127657416/posts/3052090881712194/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "It is Beautiful the similarities that hebrew and arabic has",
+                  "description": "1 vote",
+                  "url": "https://www.facebook.com/groups/1725972127657416/posts/3052090881712194/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "I know they are similar, but this example is based only on numerals, for Indo-Europeans, ...",
+                  "description": "1 vote",
+                  "url": "https://www.facebook.com/groups/1725972127657416/posts/3052090881712194/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "That's like telling someone they should learn German to learn Dutch.\nSure, knowing two languages ...",
+                  "description": "1 vote",
+                  "url": "https://www.facebook.com/groups/1725972127657416/posts/3052090881712194/",
+                  "domain": "www.facebook.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2022-10-14 07:57:45 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[22]",
+              "title": "People also search for",
+              "items": [
+                "Is Hebrew hard to learn for Arabic speakers",
+                "Hebrew alphabet",
+                "Is Hebrew harder than Arabic",
+                "How hard Is Hebrew to learn for English speakers",
+                "Learn Hebrew",
+                "Easiest language to learn"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

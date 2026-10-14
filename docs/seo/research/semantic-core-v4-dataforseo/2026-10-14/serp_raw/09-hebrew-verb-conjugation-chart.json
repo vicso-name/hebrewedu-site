@@ -1,0 +1,596 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "4.4683 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10140757-2762-0139-0000-2a91c95312ba",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "3.3829 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "hebrew verb conjugation chart",
+        "device": "mobile",
+        "os": "android",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "hebrew verb conjugation chart",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=hebrew%20verb%20conjugation%20chart&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-10-14 07:57:37 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "images",
+            "people_also_search",
+            "organic",
+            "people_also_ask",
+            "ai_overview"
+          ],
+          "se_results_count": 0,
+          "pages_count": 1,
+          "items_count": 13,
+          "items": [
+            {
+              "type": "images",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[1]",
+              "title": "Images",
+              "url": null,
+              "items": [
+                {
+                  "type": "images_element",
+                  "alt": "Hebrew Verbs Lesson #18 – Conjugating Verbs Answer Key - The ...",
+                  "url": "https://www.thekefar.com/hebrew-verbs-lesson-18-conjugating-verbs-answer-key/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140757-2762-0139-0000-2a91c95312ba:0"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "The 7 Binyanim: Hebrew Verb Conjugation Guide",
+                  "url": "https://lilmod-aleph-beth.com/7-binyanim-hebrew-verb-conjugation/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140757-2762-0139-0000-2a91c95312ba:1"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Guide to Hebrew Verb Conjugations",
+                  "url": "https://www.thekefar.com/product/hebrewverbconjugations/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140757-2762-0139-0000-2a91c95312ba:2"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "How to Conjugate Hebrew Verbs - doitinHebrew.com",
+                  "url": "https://doitinhebrew.com/Support/how-to-conjugate-verbs.aspx",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140757-2762-0139-0000-2a91c95312ba:3"
+                }
+              ],
+              "related_image_searches": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[3]",
+              "title": "People also search for",
+              "items": [
+                "Hebrew verb conjugation chart printable",
+                "Free hebrew verb conjugation chart",
+                "Hebrew verbs conjugation table PDF",
+                "Hebrew verbs PDF",
+                "Hebrew verbs list",
+                "Paal verbs Hebrew list"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.pealim.com",
+              "title": "Search – Hebrew conjugation tables",
+              "url": "https://www.pealim.com/search/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.pealim.com",
+              "website_name": "Pealim",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Learning Hebrew? Use pealim.com for checking word inflection: complete verb tables, dictionary, search and pronunciation guide.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "complete verb tables"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": [
+                "hebrew verbs",
+                "hebrew",
+                "hebrew",
+                "paal verbs",
+                "biblical hebrew",
+                "how to conjugate",
+                "hebrew",
+                "hebrew present"
+              ],
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.hebrewpod101.com",
+              "title": "A Comprehensive Guide to Hebrew Verbs",
+              "url": "https://www.hebrewpod101.com/blog/2020/08/25/hebrew-verbs/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.hebrewpod101.com",
+              "website_name": "HebrewPod101",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Aug 25, 2020 — Hebrew verb system uses patterns to help us conjugate verbs. the conjugation pattern tells us the verb's function. 's an active verb, a passive ...",
+              "pre_snippet": "08/25/2020 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Hebrew verb system uses patterns to help us conjugate verbs"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": [
+                "hebrew verbs",
+                "hebrew",
+                "hebrew",
+                "paal verbs",
+                "biblical hebrew",
+                "how to conjugate",
+                "hebrew",
+                "hebrew present"
+              ],
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2020-08-25 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[9]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Does Hebrew have conjugations?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[9]/div[1]/div[2]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Where can I find an online Hebrew dictionary?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[9]/div[1]/div[2]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How to tell if a Hebrew word is masculine or feminine?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[9]/div[1]/div[2]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What are all the verb conjugations?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[9]/div[1]/div[2]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.facebook.com",
+              "title": "Hebrew verb patterns for learning",
+              "url": "https://www.facebook.com/groups/1687348774926200/posts/3786706688323721/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "10+ comments",
+              "website_name": "Facebook · Free Hebrew Class",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_image"
+              ],
+              "description": "Debbie Kelly OK, here it goes. I took 3 out of the 7 verb you find difficult and made a chart (I am doing this on my phone as currently I do not have ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "hebrew verb conjugation chart from www.facebook.com",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3786706688323721/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDnRiLm8jPhjoy5xFMeAmB0CUrfIC_s324e_CSxowSBCo27fgksPTzUBM&usqp=CAE&s"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "im totally lost looking at your chart. I recognize endings pretty well like masculine, feminine, ...",
+                  "description": "Top answer · 2 votes",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3786706688323721/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Toda raba. Another column for english would help in my opinion. I'm interested to learn more ...",
+                  "description": "2 votes",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3786706688323721/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "thanks. ill try ti figure it out…",
+                  "description": "2 votes",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3786706688323721/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Resourceful\nToda",
+                  "description": "1 vote",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3786706688323721/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "toda x",
+                  "description": "1 vote",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3786706688323721/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "תודה רבה,😎",
+                  "description": "1 vote",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3786706688323721/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Toda raba 🥰",
+                  "description": "1 vote",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3786706688323721/",
+                  "domain": "www.facebook.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-10-14 07:57:37 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[13]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.scribd.com",
+              "title": "Hebrew Verb Conjugation Summary | PDF | Semantic Units | Languages",
+              "url": "https://www.scribd.com/document/660318116/Biblical-Hebrew-Verb-Summary-Tables-2",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.scribd.com",
+              "website_name": "Scribd",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "This document provides a summary of Hebrew verb forms and tables outlining the prefixes, suffixes, and endings used for different verb forms, tenses, numbers, ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Hebrew verb forms and tables"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[14]/div[1]",
+              "asynchronous_ai_overview": true,
+              "markdown": null,
+              "items": null,
+              "references": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[16]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "play.google.com",
+              "title": "Hebrew Verb Conjugation - Apps on Google Play",
+              "url": "https://play.google.com/store/apps/details?id=com.jorgipor.hebrewconjugator&referrer=utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_term%3Dhebrew+verb+conjugation+chart",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://play.google.com",
+              "website_name": "Google Play",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "4 days ago — Hebrew Verb Conjugation puts 2,000 of the most useful Hebrew verbs in your pocket, fully conjugated in every tense. Look up any verb in seconds ...",
+              "pre_snippet": "4 days ago",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Hebrew Verb Conjugation"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-10-10 07:57:37 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[18]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "quizlet.com",
+              "title": "Hebrew Verb Conjugation Guide Study Guide",
+              "url": "https://quizlet.com/study-guides/hebrew-verb-conjugation-guide-ba0f48c7-ab81-44f5-9e93-4cb8672e583a",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://quizlet.com",
+              "website_name": "Quizlet",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "May 28, 2025 — Hebrew verbs are categorized into three main tenses : Past (עבר), Present (הווה), and Future (עתיד). Each tense has specific prefixes or suffixes ...",
+              "pre_snippet": "05/28/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Hebrew verbs are categorized into three main tenses"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-05-28 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[20]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "Verb conjugation tables : r/hebrew",
+              "url": "https://www.reddit.com/r/hebrew/comments/1822q0v/verb_conjugation_tables/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "5 comments",
+              "website_name": "Reddit · r/hebrew",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Anyone have a good source (book, internet, whatever) for verb conjugation tables beyond the basic present tense for all the שורשים?",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "verb conjugation tables"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-10-14 07:57:37 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[22]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.scribd.com",
+              "title": "Hebrew Verb Conjugation Chart | PDF | Linguistics",
+              "url": "https://www.scribd.com/document/520016409/Accelerated-Learning-Pamphlet",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.scribd.com",
+              "website_name": "Scribd",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "This diagram provides a concise summary of Hebrew verb conjugations. It lists the root, infinitive, past tense, present tense, and future tense forms for the ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Hebrew verb conjugations"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 2,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[4]/div[1]/div[3]/div[1]",
+              "title": "People also search for",
+              "items": [
+                "Biblical Hebrew verbs PDF",
+                "How to conjugate Hebrew verbs",
+                "Hebrew verb forms",
+                "Hebrew present tense conjugation",
+                "Hebrew stems chart"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

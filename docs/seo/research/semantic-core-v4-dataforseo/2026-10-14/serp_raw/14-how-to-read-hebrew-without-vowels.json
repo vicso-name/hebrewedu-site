@@ -1,0 +1,737 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "7.1990 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10140757-2762-0139-0000-e99b411fddfe",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "7.0992 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "how to read hebrew without vowels",
+        "device": "mobile",
+        "os": "android",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "how to read hebrew without vowels",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=how%20to%20read%20hebrew%20without%20vowels&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-10-14 07:58:00 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "video",
+            "people_also_search"
+          ],
+          "se_results_count": 0,
+          "pages_count": 1,
+          "items_count": 8,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": false,
+              "markdown": "Reading Hebrew without written vowels—known as an **abjad** writing system—`relies on recognizing consonant roots, grammatical patterns, and sentence context`.[[1]](https://www.youtube.com/watch?v=I_bIyAGf0U4&t=175)[[2]](https://www.youtube.com/watch?v=c4R0gJjSiEs&t=22)\n\n### How the System Works\n\n- **Consonant Roots (*Shorashim*):** Most Hebrew words come from a three-letter (or sometimes four-letter) core of consonants that carry the main meaning. For example, the root **כת\"ב** (k-t-v) relates to writing.\n- **Word Patterns (*Mishkalim*):** Vowels and helper letters are inserted around and inside the root following predictable formulas (*mishkalim* ) to indicate tenses, parts of speech, or whether a word is a tool, place, or action.\n- **Partial Vowel Letters (*Matres Lectionis*):** Certain consonant letters like **ו** (vav) and **י** (yud) are often used inside words to act as long o/u or i vowel sounds.\n- **Sentence Context:** Readers use the surrounding words in a sentence to figure out the exact pronunciation and meaning of ambiguous words (homographs) that share the same consonants.[[1]](https://www.reddit.com/r/hebrew/comments/hnhwmq/hebrew_without_vowels_is_it_really_possible/)[[2]](https://www.youtube.com/watch?v=c4R0gJjSiEs&t=22)[[3]](https://www.youtube.com/watch?v=zqs-bFKjet4&t=363)[[4]](https://duolinguists.wordpress.com/2022/03/23/hebrew-time-9-reading-without-vowels/)[[5]](https://members.jpost.com/ulpanonline/Dialogues.aspx?src=Reading%20without%20Vowels)[[6]](https://www.youtube.com/watch?v=I_bIyAGf0U4&t=175)\n\n### Where Vowels (Niqqud) Still Appear\n\n- **Beginner & Children's Materials:** Vowel dots and dashes called **niqqud** are printed around the letters for young children, language learners, poetry, and prayer books.\n- **Everyday Hebrew:** Newspapers, books, street signs, and digital media omit niqqud completely. Readers transition away from these marks as their vocabulary grows.[[1]](https://www.youtube.com/watch?v=qSjpJQ_k0sI&t=337)[[2]](https://integraliah.com/ulpan-integraliah-mastering-hebrew-reading-without-vowels/)[[3]](https://www.youtube.com/watch?v=I_bIyAGf0U4&t=175)[[4]](https://members.jpost.com/ulpanonline/Dialogues.aspx?src=Reading%20without%20Vowels)\n\nWould you like to practice reading a simple **three-letter root word** or learn more about how **niqqud** marks work?",
+              "items": [
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Reading Hebrew without written vowels—known as an abjad writing system— relies on recognizing consonant roots, grammatical patterns, and sentence context.",
+                  "markdown": "Reading Hebrew without written vowels—known as an **abjad** writing system—`relies on recognizing consonant roots, grammatical patterns, and sentence context`.[[1]](https://www.youtube.com/watch?v=I_bIyAGf0U4&t=175)[[2]](https://www.youtube.com/watch?v=c4R0gJjSiEs&t=22)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=I_bIyAGf0U4&t=175",
+                      "title": "Cafe Oleh: How To Read Hebrew Without Vowels",
+                      "text": "Cafe Oleh: How To Read Hebrew Without Vowels and how that's changed throughout the centuries and Millennia that Hebrew has been used we've talked about translit..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=c4R0gJjSiEs&t=22",
+                      "title": "Learning to read Hebrew without vowels? (FAQ-13)",
+                      "text": "children off of these vowels by second or third grade and after that they don't need them well how is this possible it might be hard to understand if you're fro..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "How the System Works",
+                  "text": "Consonant Roots (Shorashim): Most Hebrew words come from a three-letter (or sometimes four-letter) core of consonants that carry the main meaning. For example, the root כת\"ב (k-t-v) relates to writing. Word Patterns (Mishkalim): Vowels and helper letters are inserted around and inside the root following predictable formulas (mishkalim) to indicate tenses, parts of speech, or whether a word is a tool, place, or action. Partial Vowel Letters (Matres Lectionis): Certain consonant letters like ו (vav) and י (yud) are often used inside words to act as long o/u or i vowel sounds. Sentence Context: Readers use the surrounding words in a sentence to figure out the exact pronunciation and meaning of ambiguous words (homographs) that share the same consonants.",
+                  "markdown": "- **Consonant Roots (*Shorashim*):** Most Hebrew words come from a three-letter (or sometimes four-letter) core of consonants that carry the main meaning. For example, the root **כת\"ב** (k-t-v) relates to writing.\n- **Word Patterns (*Mishkalim*):** Vowels and helper letters are inserted around and inside the root following predictable formulas (*mishkalim* ) to indicate tenses, parts of speech, or whether a word is a tool, place, or action.\n- **Partial Vowel Letters (*Matres Lectionis*):** Certain consonant letters like **ו** (vav) and **י** (yud) are often used inside words to act as long o/u or i vowel sounds.\n- **Sentence Context:** Readers use the surrounding words in a sentence to figure out the exact pronunciation and meaning of ambiguous words (homographs) that share the same consonants.[[1]](https://www.reddit.com/r/hebrew/comments/hnhwmq/hebrew_without_vowels_is_it_really_possible/)[[2]](https://www.youtube.com/watch?v=c4R0gJjSiEs&t=22)[[3]](https://www.youtube.com/watch?v=zqs-bFKjet4&t=363)[[4]](https://duolinguists.wordpress.com/2022/03/23/hebrew-time-9-reading-without-vowels/)[[5]](https://members.jpost.com/ulpanonline/Dialogues.aspx?src=Reading%20without%20Vowels)[[6]](https://www.youtube.com/watch?v=I_bIyAGf0U4&t=175)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Reddit",
+                      "domain": "www.reddit.com",
+                      "url": "https://www.reddit.com/r/hebrew/comments/hnhwmq/hebrew_without_vowels_is_it_really_possible/",
+                      "title": "Hebrew without vowels? Is it really possible? - Reddit",
+                      "text": "Vowel Indications in Writing: Hebrew writing contains indirect vowel indications using 'matres lectionis' (א, ה, ו, י), particularly י and ו for certain sounds."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=c4R0gJjSiEs&t=22",
+                      "title": "Learning to read Hebrew without vowels? (FAQ-13)",
+                      "text": "children off of these vowels by second or third grade and after that they don't need them well how is this possible it might be hard to understand if you're fro..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=zqs-bFKjet4&t=363",
+                      "title": "Cafe Oleh: Reading Hebrew Without Vowels, Part 2: Mishkalim",
+                      "text": "Cafe Oleh: Reading Hebrew Without Vowels, Part 2: Mishkalim so excuse me as you may recall last week and let me just bring up a quick um review of last week's. ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Duolinguists",
+                      "domain": "duolinguists.wordpress.com",
+                      "url": "https://duolinguists.wordpress.com/2022/03/23/hebrew-time-9-reading-without-vowels/",
+                      "title": "Hebrew Time #9 – Reading without vowels – Duolinguists",
+                      "text": "Vowels: [i] is indicated by a י after a consonant; [o] and [u] by a ו after a consonant; [a] and [e] by א, ע, or ה following a consonant. Syllables & Rules: Con..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "The Jerusalem Post",
+                      "domain": "members.jpost.com",
+                      "url": "https://members.jpost.com/ulpanonline/Dialogues.aspx?src=Reading%20without%20Vowels",
+                      "title": "Reading without Vowels - Ulpan Online",
+                      "text": "Reading without Vowels When we begin to learn to read Hebrew, we are totally dependent on the vowels. These small signs that usually come under the letters guid..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=I_bIyAGf0U4&t=175",
+                      "title": "Cafe Oleh: How To Read Hebrew Without Vowels",
+                      "text": "Cafe Oleh: How To Read Hebrew Without Vowels and how that's changed throughout the centuries and Millennia that Hebrew has been used we've talked about translit..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Where Vowels (Niqqud) Still Appear",
+                  "text": "Beginner & Children's Materials: Vowel dots and dashes called niqqud are printed around the letters for young children, language learners, poetry, and prayer books. Everyday Hebrew: Newspapers, books, street signs, and digital media omit niqqud completely. Readers transition away from these marks as their vocabulary grows.",
+                  "markdown": "- **Beginner & Children's Materials:** Vowel dots and dashes called **niqqud** are printed around the letters for young children, language learners, poetry, and prayer books.\n- **Everyday Hebrew:** Newspapers, books, street signs, and digital media omit niqqud completely. Readers transition away from these marks as their vocabulary grows.[[1]](https://www.youtube.com/watch?v=qSjpJQ_k0sI&t=337)[[2]](https://integraliah.com/ulpan-integraliah-mastering-hebrew-reading-without-vowels/)[[3]](https://www.youtube.com/watch?v=I_bIyAGf0U4&t=175)[[4]](https://members.jpost.com/ulpanonline/Dialogues.aspx?src=Reading%20without%20Vowels)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=qSjpJQ_k0sI&t=337",
+                      "title": "Cafe Oleh Topic: How To Read Hebrew Without Vowels, Part 2",
+                      "text": "Cafe Oleh Topic: How To Read Hebrew Without Vowels, Part 2 so if you do have a chat um transcript uh bot we do ask you to disable it already please don't make u..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Ulpan Integraliah",
+                      "domain": "integraliah.com",
+                      "url": "https://integraliah.com/ulpan-integraliah-mastering-hebrew-reading-without-vowels/",
+                      "title": "Ulpan Integraliah: mastering hebrew reading without vowels",
+                      "text": "Hebrew is written from right to left and usually omits vowels in everyday texts. This means learners must become familiar with consonant-based writing to read f..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=I_bIyAGf0U4&t=175",
+                      "title": "Cafe Oleh: How To Read Hebrew Without Vowels",
+                      "text": "Cafe Oleh: How To Read Hebrew Without Vowels and how that's changed throughout the centuries and Millennia that Hebrew has been used we've talked about translit..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "The Jerusalem Post",
+                      "domain": "members.jpost.com",
+                      "url": "https://members.jpost.com/ulpanonline/Dialogues.aspx?src=Reading%20without%20Vowels",
+                      "title": "Reading without Vowels - Ulpan Online",
+                      "text": "Reading without Vowels When we begin to learn to read Hebrew, we are totally dependent on the vowels. These small signs that usually come under the letters guid..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Would you like to practice reading a simple three-letter root word or learn more about how niqqud marks work?",
+                  "markdown": "Would you like to practice reading a simple **three-letter root word** or learn more about how **niqqud** marks work?",
+                  "links": null,
+                  "images": null,
+                  "references": null
+                }
+              ],
+              "references": [
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Reddit",
+                  "domain": "www.reddit.com",
+                  "url": "https://www.reddit.com/r/hebrew/comments/hnhwmq/hebrew_without_vowels_is_it_really_possible/",
+                  "title": "Hebrew without vowels? Is it really possible? - Reddit",
+                  "text": "Vowel Indications in Writing: Hebrew writing contains indirect vowel indications using 'matres lectionis' (א, ה, ו, י), particularly י and ו for certain sounds."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "YouTube",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/watch?v=I_bIyAGf0U4&t=175",
+                  "title": "Cafe Oleh: How To Read Hebrew Without Vowels",
+                  "text": "Cafe Oleh: How To Read Hebrew Without Vowels and how that's changed throughout the centuries and Millennia that Hebrew has been used we've talked about translit..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Duolinguists",
+                  "domain": "duolinguists.wordpress.com",
+                  "url": "https://duolinguists.wordpress.com/2022/03/23/hebrew-time-9-reading-without-vowels/",
+                  "title": "Hebrew Time #9 – Reading without vowels – Duolinguists",
+                  "text": "Vowels: [i] is indicated by a י after a consonant; [o] and [u] by a ו after a consonant; [a] and [e] by א, ע, or ה following a consonant. Syllables & Rules: Con..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "YouTube",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/watch?v=qSjpJQ_k0sI&t=337",
+                  "title": "Cafe Oleh Topic: How To Read Hebrew Without Vowels, Part 2",
+                  "text": "Cafe Oleh Topic: How To Read Hebrew Without Vowels, Part 2 so if you do have a chat um transcript uh bot we do ask you to disable it already please don't make u..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "YouTube",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/watch?v=c4R0gJjSiEs&t=22",
+                  "title": "Learning to read Hebrew without vowels? (FAQ-13)",
+                  "text": "children off of these vowels by second or third grade and after that they don't need them well how is this possible it might be hard to understand if you're fro..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "YouTube",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/watch?v=zqs-bFKjet4&t=363",
+                  "title": "Cafe Oleh: Reading Hebrew Without Vowels, Part 2: Mishkalim",
+                  "text": "Cafe Oleh: Reading Hebrew Without Vowels, Part 2: Mishkalim so excuse me as you may recall last week and let me just bring up a quick um review of last week's. ..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "The Jerusalem Post",
+                  "domain": "members.jpost.com",
+                  "url": "https://members.jpost.com/ulpanonline/Dialogues.aspx?src=Reading%20without%20Vowels",
+                  "title": "Reading without Vowels - Ulpan Online",
+                  "text": "Reading without Vowels When we begin to learn to read Hebrew, we are totally dependent on the vowels. These small signs that usually come under the letters guid..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Ulpan Integraliah",
+                  "domain": "integraliah.com",
+                  "url": "https://integraliah.com/ulpan-integraliah-mastering-hebrew-reading-without-vowels/",
+                  "title": "Ulpan Integraliah: mastering hebrew reading without vowels",
+                  "text": "Hebrew is written from right to left and usually omits vowels in everyday texts. This means learners must become familiar with consonant-based writing to read f..."
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "Hebrew without vowels? Is it really possible?",
+              "url": "https://www.reddit.com/r/hebrew/comments/hnhwmq/hebrew_without_vowels_is_it_really_possible/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "50+ comments",
+              "website_name": "Reddit · r/hebrew",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Dear friends, I have been struggling lately, and trying to understand how to read hebrew without vowels. This seems to be very tricky. I understand that ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "How to read Hebrew words without vowels/niqud - Redditr/hebrew·10+ comments·1y",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/hebrew/comments/1i7uo72/how_to_read_hebrew_words_without_vowelsniqud/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "How are you supposed to read hebrew when there are no vowel ...r/hebrew·20+ comments·4y",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/hebrew/comments/qldfwg/how_are_you_supposed_to_read_hebrew_when_there/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "its prty esy, d u se hw u cn rd ths txt evn thgh it lcks mny ltrs?",
+                  "description": "Top answer · 46 votes",
+                  "url": "https://www.reddit.com/r/hebrew/comments/hnhwmq/hebrew_without_vowels_is_it_really_possible/fxbegq1/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "There are no \"tricks\". You just have to learn vocabulary and grammar, and then practice reading. ...",
+                  "description": "24 votes",
+                  "url": "https://www.reddit.com/r/hebrew/comments/hnhwmq/hebrew_without_vowels_is_it_really_possible/fxbdh5k/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Yes, it is I am using two books (PDF) that teach how to read without niqqud, if you want I can ...",
+                  "description": "10 votes",
+                  "url": "https://www.reddit.com/r/hebrew/comments/hnhwmq/hebrew_without_vowels_is_it_really_possible/fxbdkjz/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Many words are in patterns/forms\n\nLearn the different Binyanim for verbs, tenses and conjugation ...",
+                  "description": "9 votes",
+                  "url": "https://www.reddit.com/r/hebrew/comments/hnhwmq/hebrew_without_vowels_is_it_really_possible/fxbe1ta/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "This had always seemed daunting to me. However, when I made aliyah, started ulpan and had ...",
+                  "description": "7 votes",
+                  "url": "https://www.reddit.com/r/hebrew/comments/hnhwmq/hebrew_without_vowels_is_it_really_possible/fxbih4d/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "It's not really true that Hebrew writing completely lacks vowels. The vowels are indicated much ...",
+                  "description": "5 votes",
+                  "url": "https://www.reddit.com/r/hebrew/comments/hnhwmq/hebrew_without_vowels_is_it_really_possible/fxcwiju/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Remember it's not just vowels, also consonant mutation.\n\neg. כּ Is pronounced ...",
+                  "description": "5 votes",
+                  "url": "https://www.reddit.com/r/hebrew/comments/hnhwmq/hebrew_without_vowels_is_it_really_possible/fxbuvn9/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "This is from someone who is struggling myself so i'll give you the best piece of advice. ...",
+                  "description": "4 votes",
+                  "url": "https://www.reddit.com/r/hebrew/comments/hnhwmq/hebrew_without_vowels_is_it_really_possible/fxbs399/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Once you learn enough vocabulary and grammar it becomes intuitive. I suggest using a textbook ...",
+                  "description": "4 votes",
+                  "url": "https://www.reddit.com/r/hebrew/comments/hnhwmq/hebrew_without_vowels_is_it_really_possible/fxbxbv9/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "I suppose if you only stick with niqqud you could do that if you only wanted to read from the ...",
+                  "description": "3 votes",
+                  "url": "https://www.reddit.com/r/hebrew/comments/hnhwmq/hebrew_without_vowels_is_it_really_possible/fxbozis/",
+                  "domain": "www.reddit.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2020-10-14 07:57:59 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Why is Hebrew written without vowels?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How do you spell Yahweh with no vowels?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How do Jews say mom?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How do you say \"hi\" in Israel?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "Nefesh B'Nefesh",
+                  "title": "Cafe Oleh: How To Read Hebrew Without Vowels",
+                  "timestamp": "2023-08-23 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=I_bIyAGf0U4"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Learn Hebrew with HebrewPod101.com",
+                  "title": "How do you read Hebrew without any vowels?",
+                  "timestamp": "2015-05-12 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=59HRxQfb3CE"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Hebrew Verbs",
+                  "title": "How to Read Hebrew Without Nikud: Learn the Verb System",
+                  "timestamp": "2026-10-12 07:57:59 +00:00",
+                  "url": "https://www.youtube.com/watch?v=I2IB-Xn6Mkk"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "duolinguists.wordpress.com",
+              "title": "Hebrew Time #9 – Reading without vowels - Duolinguists",
+              "url": "https://duolinguists.wordpress.com/2022/03/23/hebrew-time-9-reading-without-vowels/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://duolinguists.wordpress.com",
+              "website_name": "Duolinguists",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Mar 23, 2022 — In Hebrew without vowels, the maleh form is the most common i.e. when an [o] or [u] sound is present, you will see a ו after the consonant, and ...",
+              "pre_snippet": "03/23/2022 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "maleh form is the most common"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": [
+                "hebrew",
+                "hebrew"
+              ],
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2022-03-23 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "members.jpost.com",
+              "title": "Reading without Vowels - Ulpan Online - Jpost",
+              "url": "https://members.jpost.com/ulpanonline/Dialogues.aspx?src=Reading%20without%20Vowels",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://members.jpost.com",
+              "website_name": "The Jerusalem Post",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "When we begin to learn to read Hebrew, we are totally dependent on the vowels. These small signs that usually come under the letters guide us how to vocalize ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[13]",
+              "title": "People also search for",
+              "items": [
+                "How to read hebrew without vowels reddit",
+                "How to read hebrew without vowels pdf",
+                "How to read hebrew without vowels for beginners",
+                "Hebrew alphabet",
+                "Hebrew keyboard"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.facebook.com",
+              "title": "How do you know how to pronounce Hebrew words without vowels?",
+              "url": "https://www.facebook.com/groups/1687348774926200/posts/3798308437163546/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "20+ comments",
+              "website_name": "Facebook · Free Hebrew Class",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "I’m hoping someone can answer this for me. As a child learning Hebrew in school, we always used the vowels under the letters.  When you see Hebrew written, ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Reading Hebrew without Vowels: Challenges and Benefits - FacebookNerdy Biblical Language Majors·60+ comments·2y",
+                  "description": null,
+                  "url": "https://www.facebook.com/groups/NerdyLanguageMajors/posts/6530596947042919/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "How to read Hebrew without vowels as a novice? - FacebookFree Hebrew Class·10+ comments·1y",
+                  "description": null,
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/4249721668688885/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Th sm wy tht yu cn red ths wth lmtd vwls. Yr bran knws th wrds autmtcly wtht thm wrttn dwn. ...",
+                  "description": "Top answer · 19 votes",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3798308437163546/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "You need to just learn the words. I wish there was a better answer. Like שלום is Shalom. ...",
+                  "description": "12 votes",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3798308437163546/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Biblical Hebrew has the vowels. Modern doesn’t . Israeli children learn it that way.\nI am ...",
+                  "description": "3 votes",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3798308437163546/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Beth Zamora and Jodi Kaufman-Gold \nNot exactly.\nYou learn to read and write with vowels (to ...",
+                  "description": "3 votes",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3798308437163546/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Back in antiquity, when writing literally was carved in stone, brevity was at a premium.",
+                  "description": "2 votes",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3798308437163546/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Michele Handelman Did you ever see a Torah scroll.  No vowels.  I read Torah often and it ...",
+                  "description": "2 votes",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3798308437163546/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Jodi Kaufman-Gold I understand, and sometimes I get words wrong. With a word like Shalom, ...",
+                  "description": "1 vote",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3798308437163546/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Beth Zamora same letters different vowels.\nStatistically you would see them in that order ...",
+                  "description": "1 vote",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3798308437163546/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Dor Yacobi Yes, I understand that. But because we’re not starting from kindergarten and ...",
+                  "description": "1 vote",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3798308437163546/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "It's almost like memorizing times tables. Once you have it, it never goes away",
+                  "description": "1 vote",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3798308437163546/",
+                  "domain": "www.facebook.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-10-14 07:57:59 +00:00",
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

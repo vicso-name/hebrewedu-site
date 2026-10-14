@@ -1,0 +1,551 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "7.2193 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10140802-2762-0139-0000-89e5f00479c5",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "7.1471 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "paal vs piel",
+        "device": "mobile",
+        "os": "android",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "paal vs piel",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=paal%20vs%20piel&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-10-14 08:03:05 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "people_also_search",
+            "video",
+            "people_also_ask"
+          ],
+          "se_results_count": 0,
+          "pages_count": 1,
+          "items_count": 12,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": true,
+              "markdown": null,
+              "items": null,
+              "references": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "How do i know if a verb is paal or piel? : r/hebrew",
+              "url": "https://www.reddit.com/r/hebrew/comments/54m0w9/how_do_i_know_if_a_verb_is_paal_or_piel/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "3 comments",
+              "website_name": "Reddit · r/hebrew",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Generally the piel is for more intensive verbs and paal is \"light\" (kal). Make your verbs look like chemical names.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "piel is for more intensive verbs"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "What meanings change when a word is in qal, nifal, piel and such?r/hebrew·5 comments·1y",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/hebrew/comments/1hfarqj/what_meanings_change_when_a_word_is_in_qal_nifal/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Comment savoir si un verbe est paal ou piel ? : r/hebrewr/hebrew·3 comments·10y",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/hebrew/comments/54m0w9/how_do_i_know_if_a_verb_is_paal_or_piel/?tl=fr",
+                  "domain": "www.reddit.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2016-10-14 08:03:04 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.uvm.edu",
+              "title": "Lsn13",
+              "url": "https://www.uvm.edu/~gbavly/lso13/lso13.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.uvm.edu",
+              "website_name": "University of Vermont",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "When a verb appears in both \"Paal\" and \"Piel\", the \" Piel\" form of this verb suggest an intensified or a repetitious action. Break, crash. \"Shover\"",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Piel\" form of this verb suggest an intensified or a repetitious action"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[7]",
+              "title": "People also search for",
+              "items": [
+                "Paal vs piel reddit",
+                "Paal vs piel quiz",
+                "Paal vs piel examples",
+                "Paal vs piel grammar",
+                "Paal vs piel pronunciation"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[9]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "Hebrew Verbs",
+                  "title": "Stop Mixing the create verbs לִיצוֹר and לְיַיצֵּר | Paal–Piel Logic That ...",
+                  "timestamp": "2025-12-15 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=PJJH9UtHAgs"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Hebrew Verbs",
+                  "title": "Hebrew Verbs: Identify (yourself) / PIEL vs. HITPAEL",
+                  "timestamp": "2024-04-27 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=o9Vo20q_F9c"
+                },
+                {
+                  "type": "video_element",
+                  "source": "T'helah Ben-Dan",
+                  "title": "Learn Hebrew Verbs Lesson #27 - Piel Past Tense Part 5",
+                  "timestamp": "2024-03-15 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=flSw7uX1vWo"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[11]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is the hardest part of learning Hebrew?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[11]/div[1]/div[2]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What does \"piel\" mean in Hebrew?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[11]/div[1]/div[2]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is Qal and Hiphil?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[11]/div[1]/div[2]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What does hithpael mean in Hebrew?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[11]/div[1]/div[2]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[13]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.quora.com",
+              "title": "What is the difference between Pa'al, Piel and Hiphil verbs in Hebrew?",
+              "url": "https://www.quora.com/What-is-the-difference-between-Paal-Piel-and-Hiphil-verbs-in-Hebrew",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "30+ answers",
+              "website_name": "Quora",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "What is the difference between Pa'al, Piel and Hiphil verbs in Hebrew?",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "These are three of the Hebrew Language’s verb constructs, usually named as 3rd person masc. ...",
+                  "description": "Top answer · 2 votes",
+                  "url": "https://www.quora.com/What-is-the-difference-between-Paal-Piel-and-Hiphil-verbs-in-Hebrew?top_ans=385621004",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "A) Pa'al- Plain verb- shavar- he broke\n\nB) Pi'el- Intensive verb- shibber- he smashed\n\nC) ...",
+                  "description": "1 vote",
+                  "url": "https://www.quora.com/What-is-the-difference-between-Paal-Piel-and-Hiphil-verbs-in-Hebrew?top_ans=385539690",
+                  "domain": "www.quora.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2022-10-14 08:03:04 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "hinative.com",
+              "title": "Hello ! What's the difference between paal and piel please ?",
+              "url": "https://hinative.com/questions/17598198",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://hinative.com",
+              "website_name": "HiNative",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Hello ! What's the difference between paal and piel please ?",
+              "pre_snippet": "10/30/2020 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Well, these are two different bunyanim, by which verbs conjugate.\n\nAmar, gamar, samakh, shamar - paal\nSipek, tipel, shimer, diber - piel",
+                  "description": "Top answer · 1 vote",
+                  "url": "https://hinative.com/questions/17598198#answer_41423310",
+                  "domain": "hinative.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2020-10-30 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[17]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.thehebrewcafe.com",
+              "title": "Verbs in Modern Hebrew (Introduction)",
+              "url": "https://www.thehebrewcafe.com/main/2020/06/verbs-in-hebrew-introduction/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.thehebrewcafe.com",
+              "website_name": "The Hebrew Cafe",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Jun 8, 2020 — 1- Paal (פָּעַל) – active. This בִּנְיָין represents the simplest form of a verb, without any “additional letters” in its basic form … 2- Piel (פִּיעֵל) ...",
+              "pre_snippet": "06/08/2020 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Paal (פָּעַל) – active"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2020-06-08 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.facebook.com",
+              "title": "Are Hebrew Piel verbs typically transitive and Qal verbs intransitive?",
+              "url": "https://www.facebook.com/groups/NerdyLanguageMajors/posts/4951625218273441/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "2 comments",
+              "website_name": "Facebook · Nerdy Biblical Language Majors",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Piel vs. Other Stems: The Pual stem is the passive counterpart of the Piel, expressing the same kind of action but in the passive voice. The ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "The Pual stem is the passive counterpart of the Piel"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2023-10-14 08:03:04 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[21]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.quora.com",
+              "title": "How do I know if a verb in Hebrew is Pa'al type, Piel type or other?",
+              "url": "https://www.quora.com/How-do-I-know-if-a-verb-in-Hebrew-is-Paal-type-Piel-type-or-other",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "30+ answers",
+              "website_name": "Quora",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "How do I know if a verb in Hebrew is Pa'al type, Piel type or other?",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "The short answer is that you fairly quickly develop an intuitive sense, from hearing (or ...",
+                  "description": "Top answer · 27 votes",
+                  "url": "https://www.quora.com/How-do-I-know-if-a-verb-in-Hebrew-is-Paal-type-Piel-type-or-other?top_ans=49716149",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "By examining the prefixes and the vowels between the root letters.\n\nIf it has a hit- prefix ...",
+                  "description": "8 votes",
+                  "url": "https://www.quora.com/How-do-I-know-if-a-verb-in-Hebrew-is-Paal-type-Piel-type-or-other?top_ans=58638782",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "By experience/intuition or by using a dictionary (looking by the 3rd person singular past form ...",
+                  "description": "1 vote",
+                  "url": "https://www.quora.com/How-do-I-know-if-a-verb-in-Hebrew-is-Paal-type-Piel-type-or-other?top_ans=49617840",
+                  "domain": "www.quora.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2017-10-14 08:03:04 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[23]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "quizlet.com",
+              "title": "Paal verbs (Hebrew) Flashcards",
+              "url": "https://quizlet.com/893634118/paal-verbs-hebrew-flash-cards/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://quizlet.com",
+              "website_name": "Quizlet",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "A list of Paal verbs in Hebrew Learn with flashcards, games, and more — for free.",
+              "pre_snippet": "A list of Paal verbs in Hebrew Learn with flashcards, games, and more — for free.",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Paal verbs in Hebrew"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

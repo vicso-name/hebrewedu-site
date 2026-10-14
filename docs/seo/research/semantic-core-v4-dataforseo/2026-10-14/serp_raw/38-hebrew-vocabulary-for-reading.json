@@ -1,0 +1,565 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "2.6003 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10140802-2762-0139-0000-c0a23b090e2d",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "2.5223 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "hebrew vocabulary for reading",
+        "device": "mobile",
+        "os": "android",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "hebrew vocabulary for reading",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=hebrew%20vocabulary%20for%20reading&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-10-14 08:02:20 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "video",
+            "people_also_search",
+            "people_also_ask"
+          ],
+          "se_results_count": 0,
+          "pages_count": 1,
+          "items_count": 13,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": true,
+              "markdown": null,
+              "items": null,
+              "references": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.teachmehebrew.com",
+              "title": "500 Basic Hebrew Words",
+              "url": "https://www.teachmehebrew.com/500-basic-hebrew-words.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.teachmehebrew.com",
+              "website_name": "Teach Me Hebrew",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "500 Basic Hebrew Words ; time, zman, זמן ; old (person), za-ken, זקן ; friend, kha-ver, חבר ; company, khev-ra, חברה.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "time, zman, זמן"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": [
+                "1000 most common",
+                "10,000 most common",
+                "hebrew reading",
+                "hebrew vocabulary",
+                "1000 most common",
+                "basic hebrew",
+                "hebrew",
+                "modern hebrew"
+              ],
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.hebrewpod101.com",
+              "title": "The Top 220 Hebrew Words for Beginners",
+              "url": "https://www.hebrewpod101.com/blog/2021/09/23/hebrew-beginner-words/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.hebrewpod101.com",
+              "website_name": "HebrewPod101",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Sep 23, 2021 — 1. אני ani “I” · 2. אתה atah “you” (m.) · 3. את at “you” (f.) · 4. הוא hu “he” · 5. היא hi “she” · 6. אנחנו anakhnu “we” · 7. אתם atem “you” (m. pl.).",
+              "pre_snippet": "1. אני ani “I” · 2. אתה atah “you” (m.) · 3. את at “you” (f.) · 4. הוא hu “he” · 5. היא hi “she” · 6. אנחנו anakhnu “we” · 7. אתם atem “you” (m. pl.).",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 220,
+                "regular": null,
+                "max_value": null,
+                "currency": "TOP",
+                "is_price_range": false,
+                "displayed_price": "The Top 220 Hebrew Words for Beginners"
+              },
+              "highlighted": [
+                "אני ani “I”"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": [
+                "1000 most common",
+                "10,000 most common",
+                "hebrew reading",
+                "hebrew vocabulary",
+                "1000 most common",
+                "basic hebrew",
+                "hebrew",
+                "modern hebrew"
+              ],
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2021-09-23 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[7]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "Learn Hebrew with HebrewPod101.com",
+                  "title": "260 Hebrew Words You'll Use Every Day - Basic Vocabulary #66",
+                  "timestamp": "2026-04-22 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=FFxxuQfKsIM"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Learn Hebrew with HebrewPod101.com",
+                  "title": "270 Hebrew Words You'll Use Every Day - Basic Vocabulary #67",
+                  "timestamp": "2026-05-06 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=I_09g7OIWtU"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Old Sage",
+                  "title": "Practice reading Hebrew beginners | Colors vocabulary",
+                  "timestamp": "2023-01-23 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=YUwuNFZDff0"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Hebrew Verbs",
+                  "title": "How to Read Hebrew Without Nikud: Learn the Verb System",
+                  "timestamp": "2026-10-12 08:02:19 +00:00",
+                  "url": "https://www.youtube.com/watch?v=I2IB-Xn6Mkk"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[8]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "100 Essential Hebrew Vocabulary with Pronunciation and Examples!",
+              "url": "https://www.youtube.com/watch?v=A59hVsrM3U8",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "46.4K+ views",
+              "website_name": "YouTube · Learn Hebrew Now",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Unlock the key to fluent Hebrew with this comprehensive guide. Learn 100 most common words, verbs and phrases in Hebrew.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "22:00",
+                  "description": null,
+                  "url": "https://www.youtube.com/watch?v=A59hVsrM3U8",
+                  "domain": "www.youtube.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-10-14 08:02:19 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.hebrewversity.com",
+              "title": "Hebrew Reading Practice Guide",
+              "url": "https://www.hebrewversity.com/reading-practice/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.hebrewversity.com",
+              "website_name": "Hebrewversity",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Read Simple Words Begin with short, phonetic words like: אב (av – father) אם (em – mother) בית (bayit – house) Focus on decoding each letter and vowel.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Read Simple Words"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[12]",
+              "title": "People also search for",
+              "items": [
+                "Hebrew vocabulary for reading pdf",
+                "1000 most common Hebrew words",
+                "Hebrew vocabulary for reading pdf free download",
+                "Hebrew vocabulary for reading book pdf",
+                "10,000 most common Hebrew words",
+                "Hebrew reading practice PDF"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "israelbiblicalstudies.com",
+              "title": "Biblical Hebrew Vocabulary: How To Learn Words That Actually Improve ...",
+              "url": "https://israelbiblicalstudies.com/blog/category/jewish-studies/build-biblical-hebrew-vocabulary/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://israelbiblicalstudies.com",
+              "website_name": "Israel Institute of Biblical Studies",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Sep 8, 2026 — Understand Biblical Hebrew vocabulary through root patterns. Recognize high-frequency words in context and transform your Bible study today.",
+              "pre_snippet": "09/08/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Understand Biblical Hebrew vocabulary"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-09-08 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[16]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.kreuzer-siegfried.de",
+              "title": "500 Basic Hebrew Words",
+              "url": "http://www.kreuzer-siegfried.de/hilfsmittel/hebr-500-engl.pdf",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "http://www.kreuzer-siegfried.de",
+              "website_name": "kreuzer-siegfried.de",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_image"
+              ],
+              "description": "This list of basic Hebrew words is intended to help you keeping up or to brush up your Hebrew. The list is arranged alphabethically, still you may figure out ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": null,
+                  "url": "http://www.kreuzer-siegfried.de/hilfsmittel/hebr-500-engl.pdf",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvEnvdWLz9TcaAW0OpBydw6IaxnpBadg-rGTFTntXyebOYBw&s"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "basic Hebrew words"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[18]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Can you provide a list of essential Hebrew vocabulary?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[18]/div[1]/div[2]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What does \"yada yada\" mean in Hebrew?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[18]/div[1]/div[2]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How can I practice reading Hebrew?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[18]/div[1]/div[2]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What are 100 core Hebrew words?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[18]/div[1]/div[2]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[20]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.hebrewpod101.com",
+              "title": "Hebrew Core 100 Word List",
+              "url": "https://www.hebrewpod101.com/hebrew-word-lists/?coreX=100",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.hebrewpod101.com",
+              "website_name": "HebrewPod101",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Hebrew Core 100 Word List ; week. שבוע · shavu'a ; year. שנה · shanah ; today. היום · hayom ; tomorrow. מחר · machar ; yesterday. אתמול · etmol.",
+              "pre_snippet": "Hebrew Core 100 Word List ; week. שבוע · shavu'a ; year. שנה · shanah ; today. היום · hayom ; tomorrow. מחר · machar ; yesterday. אתמול · etmol.",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Hebrew Core 100 Word List"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[22]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.chabad.org",
+              "title": "13 Basic Hebrew Words to Know and Use All the Time",
+              "url": "https://www.chabad.org/library/article_cdo/aid/4305107/jewish/13-Basic-Hebrew-Words-to-Know-and-Use-All-the-Time.htm",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.chabad.org",
+              "website_name": "Chabad",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "13 Basic Hebrew Words to Know and Use All the Time · 1. Shalom (shah-LOME) שלום · 2. Todah (toe-DAH) תודה · 3. Torah (toe-RAH) תורה · 4. Mitzvah (mitz-VAH) מצוה · 5.",
+              "pre_snippet": "13 Basic Hebrew Words to Know and Use All the Time · 1. Shalom (shah-LOME) שלום · 2. Todah (toe-DAH) תודה · 3. Torah (toe-RAH) תורה · 4. Mitzvah (mitz-VAH) מצוה · 5.",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "1. Shalom (shah-LOME) שלום"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 2,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[4]/div[1]/div[3]/div[1]",
+              "title": "People also search for",
+              "items": [
+                "Hebrew Vocabulary List PDF",
+                "1000 most common Hebrew words PDF",
+                "Hebrew vocabulary for reading book",
+                "Basic Hebrew words PDF",
+                "Free hebrew vocabulary for reading",
+                "Hebrew vocabulary words"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

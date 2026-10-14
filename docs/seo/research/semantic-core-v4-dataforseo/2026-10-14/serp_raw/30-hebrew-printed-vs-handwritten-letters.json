@@ -1,0 +1,682 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "3.8158 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10140800-2762-0139-0000-80773f30ecfc",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "3.7533 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "hebrew printed vs handwritten letters",
+        "device": "mobile",
+        "os": "android",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "hebrew printed vs handwritten letters",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=hebrew%20printed%20vs%20handwritten%20letters&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-10-14 08:00:22 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "video",
+            "people_also_ask",
+            "people_also_search"
+          ],
+          "se_results_count": 0,
+          "pages_count": 1,
+          "items_count": 13,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": true,
+              "markdown": null,
+              "items": null,
+              "references": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "Rate my Hebrew handwriting from a scale of one to ten, please!",
+              "url": "https://www.reddit.com/r/hebrew/comments/1ld85yt/rate_my_hebrew_handwriting_from_a_scale_of_one_to/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "30+ comments",
+              "website_name": "Reddit · r/hebrew",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "You should be clear on the fact that this is not Hebrew handwriting, this is Hebrew print letters, even though you wrote them by hand. It's ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Hebrew print letters"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Cursive or print? : r/hebrewr/hebrew·5 comments·2y",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/hebrew/comments/181sfk8/cursive_or_print/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "More Hebrew cursive and Hebrew print handwritingr/hebrew·60+ comments·2y",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/hebrew/comments/1aqs9vz/more_hebrew_cursive_and_hebrew_print_handwriting/",
+                  "domain": "www.reddit.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-10-14 08:00:21 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "Learn Hebrew with HebrewPod101.com",
+                  "title": "What is the Difference Between Handwritten and Printed Hebrew? ...",
+                  "timestamp": "2015-05-19 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=VnhdOk0UsTE"
+                },
+                {
+                  "type": "video_element",
+                  "source": "HebrewPod101",
+                  "title": "Handwritten VS Printed Hebrew",
+                  "timestamp": "2026-10-07 08:00:21 +00:00",
+                  "url": "https://www.hebrewpod101.com/lesson/absolute-beginner-questions-answered-by-your-hebrew-teacher-3-handwritten-vs-printed-hebrew"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Old Sage",
+                  "title": "Learn to write Hebrew Alphabet letters Script VS Print",
+                  "timestamp": "2020-06-16 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=ophewGL-DtM"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Old Sage",
+                  "title": "Learn how to write Hebrew Alphabet (handwritten version)",
+                  "timestamp": "2020-06-12 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=KFH1ZE5BXnU"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[7]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is Hebrew writing like?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[7]/div[1]/div[2]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What's the difference between printing and handwriting?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[7]/div[1]/div[2]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How do you write Aleph?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[7]/div[1]/div[2]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Do Yiddish and Hebrew use the same alphabet?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[7]/div[1]/div[2]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[8]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Hebrew Alphabet - Writing The Letters (Handwriting and Print) - NO AUDIO",
+              "url": "https://www.youtube.com/watch?v=CHhO-aS1bb4",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "187.3K+ views",
+              "website_name": "YouTube · Hebrewly",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Hebrew Alphabet FINAL Letters (Handwriting And Print) · Hebrew (Alef Beit) Alphabet vowels (Nikud) letters with Nekudot · Learn how to write ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2019-10-14 08:00:21 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.facebook.com",
+              "title": "Introduction to Cursive Hebrew Writing",
+              "url": "https://www.facebook.com/groups/1687348774926200/posts/3796624303998626/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "50+ comments",
+              "website_name": "Facebook · Free Hebrew Class",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "We will not be learning Cursive Hebrew because it has limited use outside Israel, but here it is for those curious.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "I see quite some publications in this group displaying hand written ...Free Hebrew Class·6 comments·2y",
+                  "description": null,
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3673170836343974/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Are you learning and practicing Hebrew print and script? - FacebookHebrew with GQ·8 comments·5y",
+                  "description": null,
+                  "url": "https://www.facebook.com/groups/796068850979772/posts/876659676254022/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "I think it's quite useful for taking notes - no one actually writes in block print and this ...",
+                  "description": "Top answer · 14 votes",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3796624303998626/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Here are some modifications of the written form from years of teaching and practice. ...",
+                  "description": "10 votes",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3796624303998626/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "This isn't cursive, just handwritten Hebrew. No one writes in block except to teach children. ...",
+                  "description": "9 votes",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3796624303998626/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "I'm told that in Israel, kindergarten students learn print & cursive Hebrew at the same time. ...",
+                  "description": "6 votes",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3796624303998626/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Toda raba  Prof.Becka. I really  appreciate  your  effort  and  kindness...May  Adonai ...",
+                  "description": "3 votes",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3796624303998626/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Thank you for sharing this.\nOn a side note... I just want to say that when the person posing ...",
+                  "description": "3 votes",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3796624303998626/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "My workbook for my 9 yo has both so we are learning simulateneously.",
+                  "description": "3 votes",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3796624303998626/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "I prefer cursive hebrew it is much faster to write than the block text",
+                  "description": "2 votes",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3796624303998626/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Last time that I tried to learn Hebrew, I started with cursive, following the instructions ...",
+                  "description": "1 vote",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3796624303998626/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "I like chet",
+                  "description": "1 vote",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3796624303998626/",
+                  "domain": "www.facebook.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-10-14 08:00:21 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[11]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "How to write the Hebrew alphabet in print and cursive | Neat and clean ...",
+              "url": "https://www.youtube.com/watch?v=8wi_uPY9uZA",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "65.2K+ views",
+              "website_name": "YouTube · Aural Writing",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Writing all the letters of the Hebrew alphabet both in print and cursive. For a slower version (for example if you want to write along) ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2022-10-14 08:00:21 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[13]",
+              "title": "People also search for",
+              "items": [
+                "Hebrew printed vs handwritten letters reddit",
+                "Hebrew printed vs handwritten letters chart",
+                "Hebrew alphabet",
+                "Hebrew handwriting",
+                "Cursive Hebrew alphabet",
+                "Hebrew alphabet Writing Practice sheets pdf"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.quora.com",
+              "title": "Once, I tried to learn Hebrew alphabets on YouTube and I found that ...",
+              "url": "https://www.quora.com/Once-I-tried-to-learn-Hebrew-alphabets-on-YouTube-and-I-found-that-handwritten-alphbets-and-typewritten-were-different-If-yes-which-one-should-I-learn-or-both",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "30+ answers",
+              "website_name": "Quora",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Once, I tried to learn Hebrew alphabets on YouTube and I found that handwritten alphbets and typewritten were different. If yes, which one should I ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Does anyone use Arabic handwriting to write in Hebrew? If yes, is it faster?30+ answers·10y",
+                  "description": null,
+                  "url": "https://www.quora.com/Does-anyone-use-Arabic-handwriting-to-write-in-Hebrew-If-yes-is-it-faster",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Are the Yiddish and the Hebrew cursive scripts the same style?30+ answers·7y",
+                  "description": null,
+                  "url": "https://www.quora.com/Are-the-Yiddish-and-the-Hebrew-cursive-scripts-the-same-style",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Below’s a simplified version of an answer to your insightful query. Handwriting practice ...",
+                  "description": "Top answer · 5 votes",
+                  "url": "https://www.quora.com/Once-I-tried-to-learn-Hebrew-alphabets-on-YouTube-and-I-found-that-handwritten-alphbets-and-typewritten-were-different-If-yes-which-one-should-I-learn-or-both?top_ans=289912419",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "> Once, I tried to learn Hebrew alphabets on YouTube and I found that handwritten alphbets ...",
+                  "description": "4 votes",
+                  "url": "https://www.quora.com/Once-I-tried-to-learn-Hebrew-alphabets-on-YouTube-and-I-found-that-handwritten-alphbets-and-typewritten-were-different-If-yes-which-one-should-I-learn-or-both?top_ans=289916572",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "I am going to take a different tack from the other answers.\n\nAside from (possibly) schoolwork, ...",
+                  "description": "3 votes",
+                  "url": "https://www.quora.com/Once-I-tried-to-learn-Hebrew-alphabets-on-YouTube-and-I-found-that-handwritten-alphbets-and-typewritten-were-different-If-yes-which-one-should-I-learn-or-both?top_ans=289914823",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Learn the typed letters. Nowadays, people type messages on their phones. You should learn ...",
+                  "description": "2 votes",
+                  "url": "https://www.quora.com/Once-I-tried-to-learn-Hebrew-alphabets-on-YouTube-and-I-found-that-handwritten-alphbets-and-typewritten-were-different-If-yes-which-one-should-I-learn-or-both?top_ans=289943731",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "You need both. Most printed matter is done in block letters. Most handwritten matter is in ...",
+                  "description": "1 vote",
+                  "url": "https://www.quora.com/Once-I-tried-to-learn-Hebrew-alphabets-on-YouTube-and-I-found-that-handwritten-alphbets-and-typewritten-were-different-If-yes-which-one-should-I-learn-or-both?top_ans=289912182",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Nowadays I hardly come across any form of document that is hand written therefore I suggest ...",
+                  "description": "1 vote",
+                  "url": "https://www.quora.com/Once-I-tried-to-learn-Hebrew-alphabets-on-YouTube-and-I-found-that-handwritten-alphbets-and-typewritten-were-different-If-yes-which-one-should-I-learn-or-both?top_ans=289925187",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "The letters of the Hebrew alphabet can be written in several different ways. This is true ...",
+                  "description": "1 vote",
+                  "url": "https://www.quora.com/Once-I-tried-to-learn-Hebrew-alphabets-on-YouTube-and-I-found-that-handwritten-alphbets-and-typewritten-were-different-If-yes-which-one-should-I-learn-or-both?top_ans=289923806",
+                  "domain": "www.quora.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2021-10-14 08:00:21 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[16]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Learn how to write Hebrew Alphabet (PRINT version)",
+              "url": "https://www.youtube.com/watch?v=-JVp2CBnFUE",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "23.3K+ views",
+              "website_name": "YouTube · Old Sage",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "In Hebrew there are two ways of writing letters one is the printed version (Defus) דפוס and the other is the hand-writing version (ktav) כתב ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2020-10-14 08:00:21 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[18]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.hebrewworld.com",
+              "title": "The Hebrew Alphabet - Biblical, Print and Cursive styles",
+              "url": "https://www.hebrewworld.com/ab.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.hebrewworld.com",
+              "website_name": "Hebrew World",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "The Hebrew Print letters are used both for modern and Biblical Hebrew. The Cursive letters, however, are used only in modern language. The \"Bet\" has a dot ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "used both for modern and Biblical Hebrew"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[20]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.facebook.com",
+              "title": "How familiar are you with cursive Hebrew?",
+              "url": "https://www.facebook.com/groups/hebrewspeakerslondon/posts/5262060670579406/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "3 years ago",
+              "website_name": "Facebook · Hebrew Speakers",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "✍ The Hebrew language has both a print and a cursive script just like we do in English. While cursive in English is taught in all schools, ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "The Hebrew language has both a print and a cursive script"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 2,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[4]/div[1]/div[3]/div[1]",
+              "title": "People also search for",
+              "items": [
+                "Hebrew calligraphy",
+                "Hebrew cursive translator",
+                "Hebrew handwriting practice",
+                "English to Hebrew",
+                "Writing Hebrew letters"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

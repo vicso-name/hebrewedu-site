@@ -1,0 +1,678 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "13.5595 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10140758-2762-0139-0000-dc42917f2c9c",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "13.4306 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "hebrewedu",
+        "device": "mobile",
+        "os": "android",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "hebrewedu",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=hebrewedu&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-10-14 07:58:43 +00:00",
+          "spell": {
+            "keyword": "hebrews",
+            "type": "showing_results_for"
+          },
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "video",
+            "people_also_ask",
+            "organic",
+            "perspectives",
+            "people_also_search"
+          ],
+          "se_results_count": 0,
+          "pages_count": 1,
+          "items_count": 12,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": true,
+              "markdown": null,
+              "items": null,
+              "references": null,
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[3]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "Cornerstone Chapel - Leesburg, VA",
+                  "title": "Verse by Verse Bible Study | Hebrews 1 | Gary Hamrick",
+                  "timestamp": "2019-04-16 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=oqTMGwnr208"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Church of the Messiah",
+                  "title": "Hebrews Explained in 7 Minutes",
+                  "timestamp": "2025-08-18 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=IfV0Z5Lmz2o"
+                },
+                {
+                  "type": "video_element",
+                  "source": "PulaskiHeightsUMC",
+                  "title": "The Book of Hebrews - Bible Study with Dr. John Robbins",
+                  "timestamp": "2024-11-13 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=LAkLW8_Ywv0"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Fast Facts",
+                  "title": "Introduction to Hebrews | Fast Facts",
+                  "timestamp": "2021-04-05 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=-JKTBWpjBOo"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Were Hebrews Jews in the Bible?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What does Hebrews 1 say?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What are the five warnings in Hebrews?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What does Hebrews say about Jesus?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[6]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Hebrews: Extreme Warnings Against Denying Christ | Secular Bible Study ...",
+              "url": "https://www.youtube.com/watch?v=Y-FQmogvcYc",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "25.4K+ views",
+              "website_name": "YouTube · Mindshift",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Today's episode is on the biblical book of Hebrews! I cover the following: -Book Overview -Authorship And Date -Historical Background/Accuracy ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-10-14 07:58:42 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[7]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "The Book of Hebrews // Jesus is Better // An Overview",
+              "url": "https://www.youtube.com/watch?v=a25_huyXySo",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "160+ views",
+              "website_name": "YouTube · David Hill",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "An overview of the New Testament book of Hebrews. This is Bible text work I did on the whole book of Hebrews in preparation for a sermon ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-04-14 07:58:42 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.christianity.com",
+              "title": "Hebrews - Bible Book Chapters and Summary",
+              "url": "https://www.christianity.com/bible/nrs/hebrews/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.christianity.com",
+              "website_name": "Christianity.com",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Read the book of Hebrews from the Bible with full chapters, summary and outline, Bible commentary, and our favorite verses to help you study and understand ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Read the book of Hebrews from the Bible"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[10]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Hebrews Explained: Why You Must Hold Fast to Jesus",
+              "url": "https://www.youtube.com/watch?v=Iwxmi3llnYc",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "100+ views",
+              "website_name": "YouTube · Bible Chapter By Chapter",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "The Letter to the Hebrews was written to people who had already believed, already suffered, and already paid a price for their faith. answer: ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-09-14 07:58:42 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "perspectives",
+              "rank_group": 1,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[12]",
+              "title": "What people are saying",
+              "items": [
+                {
+                  "type": "perspectives_element",
+                  "title": "Interesting Bible fact of the day Hebrews is one of the most important books of the New Testament, declaring that Jesus is the author and perfecter of our faith, the Word is alive and active, and that Jesus is our High Priest. (Hebrews 12:2, 4:15, and 4:12). Yet is t",
+                  "description": null,
+                  "url": "https://www.facebook.com/digitalchristian/posts/interesting-bible-fact-of-the-day-hebrews-is-one-of-the-most-important-books-of-/1666103321540989/",
+                  "domain": "www.facebook.com",
+                  "date": "1 day ago",
+                  "source": "digitalchristian",
+                  "timestamp": "2026-10-13 07:58:42 +00:00"
+                },
+                {
+                  "type": "perspectives_element",
+                  "title": "A Story You Can Relate To | Hebrews 12:11 | Our Daily Bread Video Devotional",
+                  "description": null,
+                  "url": "https://www.youtube.com/watch?v=dDEV7_N7x38",
+                  "domain": "www.youtube.com",
+                  "date": "1 week ago",
+                  "source": "Our Daily Bread Ministries",
+                  "timestamp": "2026-10-07 07:58:42 +00:00"
+                },
+                {
+                  "type": "perspectives_element",
+                  "title": "Book of hebrews",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/Christianity/comments/1wi9b72/book_of_hebrews/",
+                  "domain": "www.reddit.com",
+                  "date": "1 month ago",
+                  "source": "r/Christianity Reddit",
+                  "timestamp": "2026-09-14 07:58:42 +00:00"
+                },
+                {
+                  "type": "perspectives_element",
+                  "title": "Hebrews 11:8\nBy faith Abraham obeyed when he was called to go out to a place that he was to receive as an inheritance. And he went out, not knowing where he was going. #unistudent #study #studytok #christian #christianlife",
+                  "description": null,
+                  "url": "https://www.instagram.com/reel/DeVxdMrqW28/",
+                  "domain": "www.instagram.com",
+                  "date": "3 days ago",
+                  "source": "hannahkvlogs Instagram",
+                  "timestamp": "2026-10-11 07:58:42 +00:00"
+                },
+                {
+                  "type": "perspectives_element",
+                  "title": "Hebrews 13:5 “God has said, ‘Never will I leave you; never will I forsake you.’”",
+                  "description": null,
+                  "url": "https://www.facebook.com/kichekodawa/posts/hebrews-135-god-has-said-never-will-i-leave-you-never-will-i-forsake-you/1555766876597147/",
+                  "domain": "www.facebook.com",
+                  "date": "1 day ago",
+                  "source": "kichekodawa Facebook",
+                  "timestamp": "2026-10-13 07:58:42 +00:00"
+                },
+                {
+                  "type": "perspectives_element",
+                  "title": "Hebrews 11:8 Taking the First Step",
+                  "description": null,
+                  "url": "https://www.youtube.com/watch?v=n4-C4GmXjwo",
+                  "domain": "www.youtube.com",
+                  "date": "2 days ago",
+                  "source": "Today’s Verse-To God Be The Glory-TGBTG YouTube",
+                  "timestamp": "2026-10-12 07:58:42 +00:00"
+                },
+                {
+                  "type": "perspectives_element",
+                  "title": "Hagee Ministries. . The Bible says in Hebrews 12:2 that Jesus is “the author and the finisher of our faith, who for the joy that was set before Him endured the cross.” Where was the joy in the cross? The joy of Jesus was the fact that His suffering and death were",
+                  "description": null,
+                  "url": "https://www.facebook.com/hageeministries/videos/the-bible-says-in-hebrews-122-that-jesus-is-the-author-and-the-finisher-of-our-f/1783203396322147/",
+                  "domain": "www.facebook.com",
+                  "date": "3 weeks ago",
+                  "source": "hageeministries",
+                  "timestamp": "2026-09-23 07:58:42 +00:00"
+                },
+                {
+                  "type": "perspectives_element",
+                  "title": "Hebrews, 4-2 | Cathy Duplantis",
+                  "description": null,
+                  "url": "https://www.youtube.com/watch?v=l5glpFRlCJE",
+                  "domain": "www.youtube.com",
+                  "date": "3 days ago",
+                  "source": "Jesse Duplantis Ministries",
+                  "timestamp": "2026-10-11 07:58:42 +00:00"
+                },
+                {
+                  "type": "perspectives_element",
+                  "title": "A HEBREW OF HEBREWS (New Book)",
+                  "description": null,
+                  "url": "https://nijaykgupta.substack.com/p/a-hebrew-of-hebrews-new-book",
+                  "domain": "nijaykgupta.substack.com",
+                  "date": "Aug 12, 2026",
+                  "source": "Nijay K. Gupta",
+                  "timestamp": "2026-08-12 00:00:00 +00:00"
+                },
+                {
+                  "type": "perspectives_element",
+                  "title": "FORSAKE NOT GATHERING TOGETHER AND EXHORT ONE ANOTHER DAILY! Hebrews 3:13 instructs believers: \"But exhort one another daily, while it is called To day; lest any of you be hardened through the deceitfulness of sin.\" Hebrews 10:24–25 further",
+                  "description": null,
+                  "url": "https://www.facebook.com/groups/103551256692642/posts/4555666968147693/",
+                  "domain": "www.facebook.com",
+                  "date": "13 hours ago",
+                  "source": "Inspiring  Bible  Quotes Facebook",
+                  "timestamp": "2026-10-13 18:58:42 +00:00"
+                },
+                {
+                  "type": "perspectives_element",
+                  "title": "Hebrews 12:2a\n\n“Looking unto Jesus, the author and finisher of our faith...”",
+                  "description": null,
+                  "url": "https://www.instagram.com/reel/DdoeaVBRa3q/",
+                  "domain": "www.instagram.com",
+                  "date": "3 weeks ago",
+                  "source": "bridalglory",
+                  "timestamp": "2026-09-23 07:58:42 +00:00"
+                },
+                {
+                  "type": "perspectives_element",
+                  "title": "Builder of the House | Sunday School | Hebrews 3:1–6 Matthew 7:19–29 | Come Study With Me | 10.11.26",
+                  "description": null,
+                  "url": "https://www.youtube.com/watch?v=yJR1pxuwW2A",
+                  "domain": "www.youtube.com",
+                  "date": "4 days ago",
+                  "source": "Waynell Henson",
+                  "timestamp": "2026-10-10 07:58:42 +00:00"
+                },
+                {
+                  "type": "perspectives_element",
+                  "title": "The Letter to the Hebrews is not a Pauline letter",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/CatholicMemes/comments/10ml6go/the_letter_to_the_hebrews_is_not_a_pauline_letter/",
+                  "domain": "www.reddit.com",
+                  "date": "Jan 27, 2023",
+                  "source": "r/CatholicMemes Reddit",
+                  "timestamp": "2023-01-27 00:00:00 +00:00"
+                },
+                {
+                  "type": "perspectives_element",
+                  "title": "Letter to the Hebrews",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/CatholicPhilosophy/comments/1ox0dzf/letter_to_the_hebrews/",
+                  "domain": "www.reddit.com",
+                  "date": "Nov 14, 2025",
+                  "source": "r/CatholicPhilosophy Reddit",
+                  "timestamp": "2025-11-14 00:00:00 +00:00"
+                },
+                {
+                  "type": "perspectives_element",
+                  "title": "Does the Council of Trent infallibly teach that St Paul was the author of the Letter to the Hebrews?",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/Catholicism/comments/7uqnvz/does_the_council_of_trent_infallibly_teach_that/",
+                  "domain": "www.reddit.com",
+                  "date": "Feb 2, 2018",
+                  "source": "r/Catholicism Reddit",
+                  "timestamp": "2018-02-02 00:00:00 +00:00"
+                },
+                {
+                  "type": "perspectives_element",
+                  "title": "Who wrote Hebrews? Pope Bible. #catholic #pope #bible #christian #protestant #jesus",
+                  "description": null,
+                  "url": "https://www.tiktok.com/@jesus.and.whatnot/video/7502537422807338286",
+                  "domain": "www.tiktok.com",
+                  "date": "May 9, 2025",
+                  "source": "Jesus and whatnot TikTok",
+                  "timestamp": "2025-05-09 00:00:00 +00:00"
+                },
+                {
+                  "type": "perspectives_element",
+                  "title": "\"Is Jesus Truly Greater Than All That Came Before?\"",
+                  "description": null,
+                  "url": "https://www.youtube.com/shorts/rTxoo3KwUUs",
+                  "domain": "www.youtube.com",
+                  "date": "Feb 16, 2026",
+                  "source": "Under the Hood",
+                  "timestamp": "2026-02-16 00:00:00 +00:00"
+                },
+                {
+                  "type": "perspectives_element",
+                  "title": "Don Carson | Hebrews: Jesus is Better",
+                  "description": null,
+                  "url": "https://www.youtube.com/watch?v=KbDaRsWi8ho",
+                  "domain": "www.youtube.com",
+                  "date": "Apr 26, 2020",
+                  "source": "The Gospel Coalition",
+                  "timestamp": "2020-04-26 00:00:00 +00:00"
+                },
+                {
+                  "type": "perspectives_element",
+                  "title": "The Superiority of Jesus #biblestudy #hebrews",
+                  "description": null,
+                  "url": "https://www.youtube.com/shorts/NVrH4wDyebc",
+                  "domain": "www.youtube.com",
+                  "date": "Aug 25, 2023",
+                  "source": "The Biblical Roots",
+                  "timestamp": "2023-08-25 00:00:00 +00:00"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[14]",
+              "title": "People also search for",
+              "items": [
+                "Hebrews Coffee Company",
+                "Hebrews coffee lubbock",
+                "Hebrew Coffee",
+                "Hebrews coffee Quincy il",
+                "He Brews coffee"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[15]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Hebrews 1 — Chapter Full Review (KJV) | Bible Memorization",
+              "url": "https://www.youtube.com/watch?v=8MNY4peyPiQ",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "3 views",
+              "website_name": "YouTube · Daily Scripture Memory",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Hebrews 1 — King James Version Quick full-chapter memorization review: each complete verse is spoken once, followed by a viewer recitation ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "3:20",
+                  "description": null,
+                  "url": "https://www.youtube.com/watch?v=8MNY4peyPiQ",
+                  "domain": "www.youtube.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-09-14 07:58:42 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[17]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "thewaybible.app",
+              "title": "Hebrews: Summary, Author, and Outline (KJV) - TheWay Bible App",
+              "url": "https://thewaybible.app/bible/hebrews",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://thewaybible.app",
+              "website_name": "thewaybible.app",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Written to Jewish believers tempted to go back, Hebrews shows Christ as better than the angels, Moses, the priesthood, and the sacrifices.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[18]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "HEBREWS 7:11-28 // Wednesday Bible Study",
+              "url": "https://www.youtube.com/watch?v=-X_knZ1LZnM",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "90+ views",
+              "website_name": "YouTube · SwanBank",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Share your videos with friends, family, and the world.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2021-10-14 07:58:42 +00:00",
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

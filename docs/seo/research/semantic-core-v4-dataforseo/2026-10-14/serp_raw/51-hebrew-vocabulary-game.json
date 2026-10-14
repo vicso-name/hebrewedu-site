@@ -1,0 +1,741 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "3.8066 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10140803-2762-0139-0000-9d515044db7e",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "3.7396 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "hebrew vocabulary game",
+        "device": "mobile",
+        "os": "android",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "hebrew vocabulary game",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=hebrew%20vocabulary%20game&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-10-14 08:03:27 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "app",
+            "people_also_search",
+            "video"
+          ],
+          "se_results_count": 0,
+          "pages_count": 1,
+          "items_count": 12,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": false,
+              "markdown": "Hebrew word and alphabet games `help build vocabulary, letter recognition, and reading fluency`.[[1]](https://www.thefidgetgame.com/products/hebrew-wordpop)[[2]](https://wordwall.net/en-us/community/hebrew/games)\n\n### Digital & Online Games\n\n- **[Wordwall Hebrew Games](https://wordwall.net/en-us/community/hebrew/games):** Features over 10,000 interactive community-created activities, including vocabulary matching, verb conjugation, and quiz games.\n- **[Jigzi](https://jigzi.org/):** Offers thousands of digital Jewish and Hebrew educational games covering fast-track reading, conversational Hebrew, and holiday topics.\n- **[FreeHebrewGames](https://freehebrewgames.com/):** Simple online tools featuring memory matching, speed drills, and Hebrew number-dialing practice.\n- **[Hebrew Mastery](https://hebrewmastery.com/games/):** Interactive drills for alphabet recognition, vowel points (*niqqud* ), memory cards, and speed reading.\n- **[TorahGames](https://torahgames.org/game/):** Focuses on high-frequency vocabulary (*millim* ), root words (*shoroshim* ), and gematria.[[1]](https://torahgames.org/game/)[[2]](https://wordwall.net/en-us/community/hebrew/games)[[3]](https://jigzi.org/)[[4]](https://freehebrewgames.com/)[[5]](https://hebrewmastery.com/games/)\n\n### Physical & Tabletop Games\n\n- **[Shoresh Pop!](https://www.google.com/search?ibp=oshop&prds=pvt:hg,pvo:48,imageDocid:14703281962148447269,headlineOfferDocid:5270990074308231549,productDocid:5270990074308231549&q=product&sa=X&ved=2ahUKEwjO98_shbmXAxUvoCsGHTYKA8MQxa4PegoIAggACAAIJRAG) (The Fidget Games):** A multisensory fidget and card game designed to help students connect sounds to letters and decode Hebrew three-letter root words.\n- **Classic Israeli Word Categories (\"Stop\" / *Atzer*):** A pen-and-paper game where players pick a random letter from the Hebrew alphabet and race to fill out categories like country, animal, plant, and boy's/girl's name starting with that letter.\n- **Hebrew Memory Cards & Board Games:** Physical memory matching, Bingo, and flashcard games available via platforms like [Teachers Pay Teachers](https://www.teacherspayteachers.com/browse/free?search=hebrew%20games) or commercial retailers.[[1]](https://www.amazon.com/hebrew-games/s?k=hebrew+games)[[2]](https://www.thefidgetgame.com/products/hebrew-wordpop)[[3]](https://www.youtube.com/watch?v=KOXcC8UPnMs&t=98)[[4]](https://www.teacherspayteachers.com/browse/free?search=hebrew%20games)\n\nAre you looking for games for **young children**, **classroom/group settings** , or **adult self-study** , and do you prefer **digital or physical** options?",
+              "items": [
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Hebrew word and alphabet games help build vocabulary, letter recognition, and reading fluency.",
+                  "markdown": "Hebrew word and alphabet games `help build vocabulary, letter recognition, and reading fluency`.[[1]](https://www.thefidgetgame.com/products/hebrew-wordpop)[[2]](https://wordwall.net/en-us/community/hebrew/games)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "The Fidget Games",
+                      "domain": "www.thefidgetgame.com",
+                      "url": "https://www.thefidgetgame.com/products/hebrew-wordpop",
+                      "title": "Hebrew WordPop! | Hebrew Roots & Vocabulary Game Grades 1–5 – The Fidget Games",
+                      "text": "Product: Shoresh Pop! (Hebrew Wordpop) by The Fidget Games ($29.99, grades 1-5). Contents: 4 fidget mats, 3 decks of cards, 1 instruction sheet. Skills Covered:"
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Wordwall",
+                      "domain": "wordwall.net",
+                      "url": "https://wordwall.net/en-us/community/hebrew/games",
+                      "title": "Hebrew Games - Teaching resources",
+                      "text": "Hebrew Games Resources: Over 10,000 subscription-required teaching activities including vocabulary matching (fruits, clothing, colors, opposites), verb conjugat..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Digital & Online Games",
+                  "text": "Wordwall Hebrew Games : Features over 10,000 interactive community-created activities, including vocabulary matching, verb conjugation, and quiz games. Jigzi : Offers thousands of digital Jewish and Hebrew educational games covering fast-track reading, conversational Hebrew, and holiday topics. FreeHebrewGames : Simple online tools featuring memory matching, speed drills, and Hebrew number-dialing practice. Hebrew Mastery : Interactive drills for alphabet recognition, vowel points (niqqud), memory cards, and speed reading. TorahGames : Focuses on high-frequency vocabulary (millim), root words (shoroshim), and gematria.",
+                  "markdown": "- **[Wordwall Hebrew Games](https://wordwall.net/en-us/community/hebrew/games):** Features over 10,000 interactive community-created activities, including vocabulary matching, verb conjugation, and quiz games.\n- **[Jigzi](https://jigzi.org/):** Offers thousands of digital Jewish and Hebrew educational games covering fast-track reading, conversational Hebrew, and holiday topics.\n- **[FreeHebrewGames](https://freehebrewgames.com/):** Simple online tools featuring memory matching, speed drills, and Hebrew number-dialing practice.\n- **[Hebrew Mastery](https://hebrewmastery.com/games/):** Interactive drills for alphabet recognition, vowel points (*niqqud* ), memory cards, and speed reading.\n- **[TorahGames](https://torahgames.org/game/):** Focuses on high-frequency vocabulary (*millim* ), root words (*shoroshim* ), and gematria.[[1]](https://torahgames.org/game/)[[2]](https://wordwall.net/en-us/community/hebrew/games)[[3]](https://jigzi.org/)[[4]](https://freehebrewgames.com/)[[5]](https://hebrewmastery.com/games/)",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Wordwall Hebrew Games",
+                      "description": null,
+                      "url": "https://wordwall.net/en-us/community/hebrew/games",
+                      "domain": "wordwall.net"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Jigzi",
+                      "description": null,
+                      "url": "https://jigzi.org/",
+                      "domain": "jigzi.org"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "FreeHebrewGames",
+                      "description": null,
+                      "url": "https://freehebrewgames.com/",
+                      "domain": "freehebrewgames.com"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Hebrew Mastery",
+                      "description": null,
+                      "url": "https://hebrewmastery.com/games/",
+                      "domain": "hebrewmastery.com"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "TorahGames",
+                      "description": null,
+                      "url": "https://torahgames.org/game/",
+                      "domain": "torahgames.org"
+                    }
+                  ],
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Torah Games",
+                      "domain": "torahgames.org",
+                      "url": "https://torahgames.org/game/",
+                      "title": "Kriah Skills (Hebrew Reading) Games",
+                      "text": "Games to review High Frequency Millim / Shoroshim * Review the Brachos of common foods. Learn and review the names of all the Parshiyos/Sedros of the Torah. Heb..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Wordwall",
+                      "domain": "wordwall.net",
+                      "url": "https://wordwall.net/en-us/community/hebrew/games",
+                      "title": "Hebrew Games - Teaching resources",
+                      "text": "Hebrew Games Resources: Over 10,000 subscription-required teaching activities including vocabulary matching (fruits, clothing, colors, opposites), verb conjugat..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Jigzi",
+                      "domain": "jigzi.org",
+                      "url": "https://jigzi.org/",
+                      "title": "Jigzi",
+                      "text": "Platform: Jigzi (Joyful Jewish Learning) offering over 16,550 interactive digital educational games (JIGs) across multiple ages and languages. Curriculum Areas:"
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "freehebrewgames.com",
+                      "domain": "freehebrewgames.com",
+                      "url": "https://freehebrewgames.com/",
+                      "title": "FreeHebrewGames | Learn Hebrew by Playing Fun Games",
+                      "text": "Home/Games 1) Memory Game – you and the computer (or a friend) take turns turning over Hebrew letters, trying to find the matching pairs. When you succeed, you ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Hebrew Mastery",
+                      "domain": "hebrewmastery.com",
+                      "url": "https://hebrewmastery.com/games/",
+                      "title": "Hebrew Games — Practice Letters, Niqqud & Vocabulary | Hebrew Mastery",
+                      "text": "Games: Hebrew Letter Blaster (shoot falling letters for alphabet recognition); Hebrew Letter Pro (drill 22 alphabet letters, names, shapes, sounds); Hebrew Niqq..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Physical & Tabletop Games",
+                  "text": "Shoresh Pop! (The Fidget Games): A multisensory fidget and card game designed to help students connect sounds to letters and decode Hebrew three-letter root words. Shoresh Pop! (The Fidget Games): Classic Israeli Word Categories (\"Stop\" / Atzer): A pen-and-paper game where players pick a random letter from the Hebrew alphabet and race to fill out categories like country, animal, plant, and boy's/girl's name starting with that letter. Hebrew Memory Cards & Board Games: Physical memory matching, Bingo, and flashcard games available via platforms like Teachers Pay Teachers or commercial retailers.",
+                  "markdown": "- **[Shoresh Pop!](https://www.google.com/search?ibp=oshop&prds=pvt:hg,pvo:48,imageDocid:14703281962148447269,headlineOfferDocid:5270990074308231549,productDocid:5270990074308231549&q=product&sa=X&ved=2ahUKEwjO98_shbmXAxUvoCsGHTYKA8MQxa4PegoIAggACAAIJRAG) (The Fidget Games):** A multisensory fidget and card game designed to help students connect sounds to letters and decode Hebrew three-letter root words.\n- **Classic Israeli Word Categories (\"Stop\" / *Atzer*):** A pen-and-paper game where players pick a random letter from the Hebrew alphabet and race to fill out categories like country, animal, plant, and boy's/girl's name starting with that letter.\n- **Hebrew Memory Cards & Board Games:** Physical memory matching, Bingo, and flashcard games available via platforms like [Teachers Pay Teachers](https://www.teacherspayteachers.com/browse/free?search=hebrew%20games) or commercial retailers.[[1]](https://www.amazon.com/hebrew-games/s?k=hebrew+games)[[2]](https://www.thefidgetgame.com/products/hebrew-wordpop)[[3]](https://www.youtube.com/watch?v=KOXcC8UPnMs&t=98)[[4]](https://www.teacherspayteachers.com/browse/free?search=hebrew%20games)",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Shoresh Pop!Go to product viewer dialog for this item.",
+                      "description": null,
+                      "url": "https://www.google.com/search?ibp=oshop&prds=pvt:hg,pvo:48,imageDocid:14703281962148447269,headlineOfferDocid:5270990074308231549,productDocid:5270990074308231549&q=product&sa=X&ved=2ahUKEwjO98_shbmXAxUvoCsGHTYKA8MQxa4PegoIAggACAAIJRAG",
+                      "domain": "www.google.com"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Teachers Pay Teachers",
+                      "description": null,
+                      "url": "https://www.teacherspayteachers.com/browse/free?search=hebrew%20games",
+                      "domain": "www.teacherspayteachers.com"
+                    }
+                  ],
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Amazon.com",
+                      "domain": "www.amazon.com",
+                      "url": "https://www.amazon.com/hebrew-games/s?k=hebrew+games",
+                      "title": "Amazon.com: Hebrew Games",
+                      "text": "Products: Aviv Judaica Educational Alef Bet Memory Game; Aleph Bet Bingo (ages 36 months-3 years); The Fidget Game Shoresh Pop! Word Pop in Hebrew (ages 3+); Al..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "The Fidget Games",
+                      "domain": "www.thefidgetgame.com",
+                      "url": "https://www.thefidgetgame.com/products/hebrew-wordpop",
+                      "title": "Hebrew WordPop! | Hebrew Roots & Vocabulary Game Grades 1–5 – The Fidget Games",
+                      "text": "Product: Shoresh Pop! (Hebrew Wordpop) by The Fidget Games ($29.99, grades 1-5). Contents: 4 fidget mats, 3 decks of cards, 1 instruction sheet. Skills Covered:"
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=KOXcC8UPnMs&t=98",
+                      "title": "Learn Hebrew With This Fun Israeli Game!",
+                      "text": "Learn Hebrew With This Fun Israeli Game! which I will explain what it means in a second this game is all about Hebrew. words which makes it perfect for people l..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Teachers Pay Teachers",
+                      "domain": "www.teacherspayteachers.com",
+                      "url": "https://www.teacherspayteachers.com/browse/free?search=hebrew%20games",
+                      "title": "Hebrew Games",
+                      "text": "Hebrew Games * Hebrew Memory Cards game - basic vocabulary Created by IvritByOrit Hebrew Memory Cards game - Learning Hebrew 20 words The game includes card wit..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Are you looking for games for young children, classroom/group settings, or adult self-study, and do you prefer digital or physical options?",
+                  "markdown": "Are you looking for games for **young children**, **classroom/group settings** , or **adult self-study** , and do you prefer **digital or physical** options?",
+                  "links": null,
+                  "images": null,
+                  "references": null
+                }
+              ],
+              "references": [
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Wordwall",
+                  "domain": "wordwall.net",
+                  "url": "https://wordwall.net/en-us/community/hebrew/games",
+                  "title": "Hebrew Games - Teaching resources",
+                  "text": "Hebrew Games Resources: Over 10,000 subscription-required teaching activities including vocabulary matching (fruits, clothing, colors, opposites), verb conjugat..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Torah Games",
+                  "domain": "torahgames.org",
+                  "url": "https://torahgames.org/game/",
+                  "title": "Kriah Skills (Hebrew Reading) Games",
+                  "text": "Games to review High Frequency Millim / Shoroshim * Review the Brachos of common foods. Learn and review the names of all the Parshiyos/Sedros of the Torah. Heb..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Amazon.com",
+                  "domain": "www.amazon.com",
+                  "url": "https://www.amazon.com/hebrew-games/s?k=hebrew+games",
+                  "title": "Amazon.com: Hebrew Games",
+                  "text": "Products: Aviv Judaica Educational Alef Bet Memory Game; Aleph Bet Bingo (ages 36 months-3 years); The Fidget Game Shoresh Pop! Word Pop in Hebrew (ages 3+); Al..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "The Fidget Games",
+                  "domain": "www.thefidgetgame.com",
+                  "url": "https://www.thefidgetgame.com/products/hebrew-wordpop",
+                  "title": "Hebrew WordPop! | Hebrew Roots & Vocabulary Game Grades 1–5 – The Fidget Games",
+                  "text": "Product: Shoresh Pop! (Hebrew Wordpop) by The Fidget Games ($29.99, grades 1-5). Contents: 4 fidget mats, 3 decks of cards, 1 instruction sheet. Skills Covered:"
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "YouTube",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/watch?v=KOXcC8UPnMs&t=98",
+                  "title": "Learn Hebrew With This Fun Israeli Game!",
+                  "text": "Learn Hebrew With This Fun Israeli Game! which I will explain what it means in a second this game is all about Hebrew. words which makes it perfect for people l..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Hebrew Mastery",
+                  "domain": "hebrewmastery.com",
+                  "url": "https://hebrewmastery.com/games/",
+                  "title": "Hebrew Games — Practice Letters, Niqqud & Vocabulary | Hebrew Mastery",
+                  "text": "Games: Hebrew Letter Blaster (shoot falling letters for alphabet recognition); Hebrew Letter Pro (drill 22 alphabet letters, names, shapes, sounds); Hebrew Niqq..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Jigzi",
+                  "domain": "jigzi.org",
+                  "url": "https://jigzi.org/",
+                  "title": "Jigzi",
+                  "text": "Platform: Jigzi (Joyful Jewish Learning) offering over 16,550 interactive digital educational games (JIGs) across multiple ages and languages. Curriculum Areas:"
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Teachers Pay Teachers",
+                  "domain": "www.teacherspayteachers.com",
+                  "url": "https://www.teacherspayteachers.com/browse/free?search=hebrew%20games",
+                  "title": "Hebrew Games",
+                  "text": "Hebrew Games * Hebrew Memory Cards game - basic vocabulary Created by IvritByOrit Hebrew Memory Cards game - Learning Hebrew 20 words The game includes card wit..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "freehebrewgames.com",
+                  "domain": "freehebrewgames.com",
+                  "url": "https://freehebrewgames.com/",
+                  "title": "FreeHebrewGames | Learn Hebrew by Playing Fun Games",
+                  "text": "Home/Games 1) Memory Game – you and the computer (or a friend) take turns turning over Hebrew letters, trying to find the matching pairs. When you succeed, you ..."
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Hebrew games - Learn Hebrew for Kids",
+              "url": "https://www.youtube.com/watch?v=lmAQqgp4aPk",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "480+ views",
+              "website_name": "YouTube · Dinolingo - Language learning for kids",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Hebrew games for kids encourage children to repeat Hebrew words and phrases by earning surprise awards. The #1 Hebrew learning app and website ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2023-10-14 08:03:25 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.hebrewhelper.com",
+              "title": "Interactive Hebrew Games",
+              "url": "https://www.hebrewhelper.com/hebrew-games",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.hebrewhelper.com",
+              "website_name": "hebrewhelper.com",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Below you will find a list of available games that will help you practice your Hebrew skills in different ways. Hebrew Flashcards. Practice your Hebrew letters ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": [
+                "hebrew memory",
+                "hebrew",
+                "hebrew",
+                "free online",
+                "wordwall hebrew",
+                "wordwall hebrew",
+                "biblical",
+                "random hebrew"
+              ],
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "pashoshim.com",
+              "title": "Educational Hebrew Game - Letters Build Words",
+              "url": "https://pashoshim.com/products/otiyoht-bonot-milem?srsltid=AU7gw4UW-CcR7WVKyv3rKwPKeAQmSGZ4cyT5GtdZt1q66I8YCD6tkBan",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://pashoshim.com",
+              "website_name": "Pashoshim.com",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Dec 26, 2016 — A great game for recognizing the Hebrew letters. until you complete the word in the picture. 6 boards, 98 Hebrew letters card",
+              "pre_snippet": "12/26/2016 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 30,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": "$30.00"
+              },
+              "highlighted": [
+                "A great game for recognizing the Hebrew letters"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": [
+                "hebrew memory",
+                "hebrew",
+                "hebrew",
+                "free online",
+                "wordwall hebrew",
+                "wordwall hebrew",
+                "biblical",
+                "random hebrew"
+              ],
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2016-12-26 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "app",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[8]",
+              "items": [
+                {
+                  "type": "app_element",
+                  "title": "Tobo: Learn Hebrew Vocabulary",
+                  "description": "Education",
+                  "url": "https://play.google.com/store/apps/details?id=com.learn.common.hebrew.vocabulary.words.learning.phrases&hl=en_US&referrer=utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_term%3Dhebrew+vocabulary+game&pcampaignid=APPU_1_TTfPao6dBa_AruEPtpSMmAw",
+                  "price": null
+                },
+                {
+                  "type": "app_element",
+                  "title": "Drops: Learn Hebrew",
+                  "description": "Education",
+                  "url": "https://play.google.com/store/apps/details?id=com.languagedrops.drops.learn.learning.speak.language.hebrew.words&hl=en_US&referrer=utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_term%3Dhebrew+vocabulary+game&pcampaignid=APPU_1_TTfPao6dBa_AruEPtpSMmAw",
+                  "price": null
+                },
+                {
+                  "type": "app_element",
+                  "title": "משחקים בעברית: פאזלים ומילים",
+                  "description": "Games",
+                  "url": "https://play.google.com/store/apps/details?id=com.yonigold.hebrewWordGames&hl=en_GB&referrer=utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_term%3Dhebrew+vocabulary+game&pcampaignid=APPU_1_TTfPao6dBa_AruEPtpSMmAw",
+                  "price": null
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[10]",
+              "title": "People also search for",
+              "items": [
+                "Free printable hebrew vocabulary game",
+                "Free hebrew vocabulary game",
+                "Hebrew memory game online",
+                "Hebrew Letter game",
+                "Hebrew matching games",
+                "Free online Hebrew games"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[12]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "wordwall.net",
+              "title": "Hebrew - Teaching resources",
+              "url": "https://wordwall.net/en-us/community/hebrew",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://wordwall.net",
+              "website_name": "Wordwall",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Vocabulary Match up by Mwiseman. Matching game for sound ee. Our searchable library contains millions of activities you can instantly play, share, and edit.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "instantly play, share, and edit"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "ekvis.com",
+              "title": "Hebrew Learning Games",
+              "url": "https://ekvis.com/en/hebrew/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://ekvis.com",
+              "website_name": "Ekvis",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Explore fun and interactive games to learn Hebrew. Master basic vocabulary through multiple game modes. Minimal ads and lots of learning – all at no cost!",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Explore fun and interactive games to learn Hebrew"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[16]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "hebrewmastery.com",
+              "title": "Hebrew Word Quiz",
+              "url": "https://hebrewmastery.com/games/hebrew-vocabulary-quiz",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://hebrewmastery.com",
+              "website_name": "Hebrew Mastery",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Learn Hebrew vocabulary by matching words to their English translations! Choose from different categories and test your knowledge. Created by Hebrew Mastery",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Learn Hebrew vocabulary"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[18]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.teacherspayteachers.com",
+              "title": "Hebrew Games",
+              "url": "https://www.teacherspayteachers.com/browse/elementary/2nd-grade/free?search=hebrew%20games",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.teacherspayteachers.com",
+              "website_name": "Teachers Pay Teachers",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "The game includes card with basic Hebrew words and matching pictures. It is a fun way to learn Hebrew , learn Hebrew vocabulary, and ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "basic Hebrew words and matching pictures"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[20]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "Hebrew by Inbal",
+                  "title": "Learn Hebrew With This Fun Israeli Game!",
+                  "timestamp": "2025-05-04 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=KOXcC8UPnMs"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Hebreways",
+                  "title": "Build your Hebrew Vocabulary with this Picture Game! | Beginner to ...",
+                  "timestamp": "2026-04-13 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=9uoMRRQXqe0"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Piece of Hebrew",
+                  "title": "Hebrew for Beginners 🎮 Simple Guessing Game with Yes or No ...",
+                  "timestamp": "2026-05-06 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=Sg5lx1RnQEk"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 2,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[4]/div[1]/div[3]/div[1]",
+              "title": "People also search for",
+              "items": [
+                "Wordwall hebrew matching games",
+                "Wordwall Hebrew Reading games",
+                "Biblical Hebrew games",
+                "Random Hebrew word generator",
+                "Hebrew school Games"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

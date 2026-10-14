@@ -1,0 +1,17 @@
+{
+  "submitted_at_utc": "2026-10-14T07:52:21.351304+00:00",
+  "received_at_utc": "2026-10-14T07:52:21.949276+00:00",
+  "path": [
+    "v3",
+    "dataforseo_labs",
+    "google",
+    "bulk_keyword_difficulty",
+    "live"
+  ],
+  "n_keywords": 319,
+  "response_status_code": 20000,
+  "response_cost": 0.05028,
+  "task_status_code": 20000,
+  "task_cost": 0.05028,
+  "request_sha256": "7148521bc5e100557479fd93deba03e284433b8660c410f5ab30813e4bed7a07"
+}

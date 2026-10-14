@@ -65,6 +65,13 @@ export function loadCSV(path, fs) {
   return { header, idx, data };
 }
 
+// Converts a loadCSV() result's raw row arrays into plain objects keyed by
+// header name, trimming BOM on the first header cell. Row order preserved.
+export function toObjects({ header, data }) {
+  const h = header.map((c, i) => (i === 0 ? c.replace(/^﻿/, "") : c));
+  return data.map((row) => Object.fromEntries(h.map((col, i) => [col, row[i] ?? ""])));
+}
+
 function csvField(value) {
   const s = value === null || value === undefined ? "" : String(value);
   if (/[",\n\r]/.test(s)) {

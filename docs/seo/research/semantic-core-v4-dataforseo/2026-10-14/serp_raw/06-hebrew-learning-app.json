@@ -1,0 +1,721 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "3.6690 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10140757-2762-0139-0000-5ab1ff92c70b",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "3.5723 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "hebrew learning app",
+        "device": "mobile",
+        "os": "android",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "hebrew learning app",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=hebrew%20learning%20app&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-10-14 07:57:22 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "app",
+            "people_also_ask",
+            "people_also_search",
+            "discussions_and_forums",
+            "organic",
+            "video"
+          ],
+          "se_results_count": 0,
+          "pages_count": 1,
+          "items_count": 13,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": false,
+              "markdown": "The best Hebrew learning apps cater to different goals like speaking, vocabulary, or structured study:\n\n- **Pimsleur:** Best for **listening and speaking** fluency, using audio-based conversational lessons and AI voice recognition via the [Pimsleur Hebrew App](https://www.pimsleur.com/learn-hebrew/?srsltid=AU7gw4XTOsnPX0ACDHhWWZRUZvDFmfBNW-ClPBPlsOj5qL9ox_M3Fr9h) . Users on Reddit note it is much stronger for spoken Hebrew than gamified alternatives.[[1]](https://www.reddit.com/r/Judaism/comments/yv0ziu/best_app_to_learn_hebrew/)[[2]](https://www.pimsleur.com/learn-hebrew/)\n- **HebrewPod101:** Best for **audio and video lessons** with native speakers, offering short lessons and synced progress across web and mobile devices via [HebrewPod101](https://www.hebrewpod101.com/app/).[[1]](https://www.hebrewpod101.com/app/)[[2]](https://www.youtube.com/watch?v=o9IxsTHpsgI)\n- **Duolingo / Mondly:** Best for **daily vocabulary and casual practice** , offering bite-sized, playful lessons for beginners.[[1]](https://noamshebrew.com/learning-hebrew-with-apps-what-my-students-really-use-%F0%9F%93%B1/)\n- **Drops:** Best for **fast vocabulary building** , using 5-minute visual and audio sessions to learn over 2,000 words.[[1]](https://languagedrops.com/language/learn-hebrew)\n- **Gus on the Go:** Best for **children** , teaching basic Hebrew vocabulary and reading through interactive games and stories.[[1]](https://www.gusonthego.com/gus-on-the-go-languages/gus-on-the-go-hebrew/)\n\nAre you looking to focus on **conversational Modern Hebrew**, **Biblical/Liturgical Hebrew** , or a tool for **kids**?",
+              "items": [
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "The best Hebrew learning apps cater to different goals like speaking, vocabulary, or structured study:",
+                  "markdown": "The best Hebrew learning apps cater to different goals like speaking, vocabulary, or structured study:",
+                  "links": null,
+                  "images": null,
+                  "references": null
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Pimsleur: Best for listening and speaking fluency, using audio-based conversational lessons and AI voice recognition via the Pimsleur Hebrew App. Users on Reddit note it is much stronger for spoken Hebrew than gamified alternatives. HebrewPod101: Best for audio and video lessons with native speakers, offering short lessons and synced progress across web and mobile devices via HebrewPod101. Duolingo / Mondly: Best for daily vocabulary and casual practice, offering bite-sized, playful lessons for beginners. Drops: Best for fast vocabulary building, using 5-minute visual and audio sessions to learn over 2,000 words. Gus on the Go: Best for children, teaching basic Hebrew vocabulary and reading through interactive games and stories.",
+                  "markdown": "- **Pimsleur:** Best for **listening and speaking** fluency, using audio-based conversational lessons and AI voice recognition via the [Pimsleur Hebrew App](https://www.pimsleur.com/learn-hebrew/?srsltid=AU7gw4XTOsnPX0ACDHhWWZRUZvDFmfBNW-ClPBPlsOj5qL9ox_M3Fr9h) . Users on Reddit note it is much stronger for spoken Hebrew than gamified alternatives.[[1]](https://www.reddit.com/r/Judaism/comments/yv0ziu/best_app_to_learn_hebrew/)[[2]](https://www.pimsleur.com/learn-hebrew/)\n- **HebrewPod101:** Best for **audio and video lessons** with native speakers, offering short lessons and synced progress across web and mobile devices via [HebrewPod101](https://www.hebrewpod101.com/app/).[[1]](https://www.hebrewpod101.com/app/)[[2]](https://www.youtube.com/watch?v=o9IxsTHpsgI)\n- **Duolingo / Mondly:** Best for **daily vocabulary and casual practice** , offering bite-sized, playful lessons for beginners.[[1]](https://noamshebrew.com/learning-hebrew-with-apps-what-my-students-really-use-%F0%9F%93%B1/)\n- **Drops:** Best for **fast vocabulary building** , using 5-minute visual and audio sessions to learn over 2,000 words.[[1]](https://languagedrops.com/language/learn-hebrew)\n- **Gus on the Go:** Best for **children** , teaching basic Hebrew vocabulary and reading through interactive games and stories.[[1]](https://www.gusonthego.com/gus-on-the-go-languages/gus-on-the-go-hebrew/)",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Pimsleur Hebrew App",
+                      "description": null,
+                      "url": "https://www.pimsleur.com/learn-hebrew/?srsltid=AU7gw4XTOsnPX0ACDHhWWZRUZvDFmfBNW-ClPBPlsOj5qL9ox_M3Fr9h",
+                      "domain": "www.pimsleur.com"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "HebrewPod101",
+                      "description": null,
+                      "url": "https://www.hebrewpod101.com/app/",
+                      "domain": "www.hebrewpod101.com"
+                    }
+                  ],
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Reddit",
+                      "domain": "www.reddit.com",
+                      "url": "https://www.reddit.com/r/Judaism/comments/yv0ziu/best_app_to_learn_hebrew/",
+                      "title": "Best app to learn Hebrew. : r/Judaism - Reddit",
+                      "text": "Pimsleur Recommendation: Pimsleur is recommended for independently learning Hebrew listening and speaking skills, and some users find it significantly better th..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Pimsleur",
+                      "domain": "www.pimsleur.com",
+                      "url": "https://www.pimsleur.com/learn-hebrew/",
+                      "title": "Learn to Speak Hebrew Language | Try for Free - Pimsleur",
+                      "text": "Learn Hebrew with the Pimsleur App. Discover the best app to learn Hebrew and take your language skills to the next level. With the Pimsleur Hebrew learning app..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "HebrewPod101",
+                      "domain": "www.hebrewpod101.com",
+                      "url": "https://www.hebrewpod101.com/app/",
+                      "title": "Free Hebrew Learning App | HebrewPod101",
+                      "text": "HebrewPod101 App FAQ * Is the HebrewPod101 app free to download? Yes. The Innovative Language Learning app is free to download. A free HebrewPod101 account is a..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=o9IxsTHpsgI",
+                      "title": "Want to Learn Hebrew Anywhere, Anytime on Your Mobile and For ...",
+                      "text": "Want to Learn Hebrew Anywhere, Anytime on Your Mobile and For FREE? want to speak a new language. what if you could press play on a lesson. and start speaking i..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Noam's Hebrew",
+                      "domain": "noamshebrew.com",
+                      "url": "https://noamshebrew.com/learning-hebrew-with-apps-what-my-students-really-use-%F0%9F%93%B1/",
+                      "title": "Learning Hebrew With Apps",
+                      "text": "At his request, I decided to put together this list of apps that can boost your Hebrew learning and give you a more dynamic, playful experience. 1. Duolingo Dow..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Language Drops",
+                      "domain": "languagedrops.com",
+                      "url": "https://languagedrops.com/language/learn-hebrew",
+                      "title": "Learn Hebrew",
+                      "text": "Language: Hebrew (ivrit), a revived Semitic dead language spoken by over 9 million native speakers in Israel and globally, revived by Eliezer Ben-Yehuda in the ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Gus on the Go",
+                      "domain": "www.gusonthego.com",
+                      "url": "https://www.gusonthego.com/gus-on-the-go-languages/gus-on-the-go-hebrew/",
+                      "title": "Gus on the Go: Hebrew for kids | Gus on the Go language learning apps for kids",
+                      "text": "Overview: Gus on the Go: Hebrew is an iOS, Android, and Amazon app introducing Hebrew vocabulary and reading to children. Vocabulary Categories: Animals, food, ..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Are you looking to focus on conversational Modern Hebrew, Biblical/Liturgical Hebrew, or a tool for kids ?",
+                  "markdown": "Are you looking to focus on **conversational Modern Hebrew**, **Biblical/Liturgical Hebrew** , or a tool for **kids**?",
+                  "links": null,
+                  "images": null,
+                  "references": null
+                }
+              ],
+              "references": [
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Reddit",
+                  "domain": "www.reddit.com",
+                  "url": "https://www.reddit.com/r/Judaism/comments/yv0ziu/best_app_to_learn_hebrew/",
+                  "title": "Best app to learn Hebrew. : r/Judaism - Reddit",
+                  "text": "Pimsleur Recommendation: Pimsleur is recommended for independently learning Hebrew listening and speaking skills, and some users find it significantly better th..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Noam's Hebrew",
+                  "domain": "noamshebrew.com",
+                  "url": "https://noamshebrew.com/learning-hebrew-with-apps-what-my-students-really-use-%F0%9F%93%B1/",
+                  "title": "Learning Hebrew With Apps",
+                  "text": "At his request, I decided to put together this list of apps that can boost your Hebrew learning and give you a more dynamic, playful experience. 1. Duolingo Dow..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Pimsleur",
+                  "domain": "www.pimsleur.com",
+                  "url": "https://www.pimsleur.com/learn-hebrew/",
+                  "title": "Learn to Speak Hebrew Language | Try for Free - Pimsleur",
+                  "text": "Learn Hebrew with the Pimsleur App. Discover the best app to learn Hebrew and take your language skills to the next level. With the Pimsleur Hebrew learning app..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "HebrewPod101",
+                  "domain": "www.hebrewpod101.com",
+                  "url": "https://www.hebrewpod101.com/app/",
+                  "title": "Free Hebrew Learning App | HebrewPod101",
+                  "text": "HebrewPod101 App FAQ * Is the HebrewPod101 app free to download? Yes. The Innovative Language Learning app is free to download. A free HebrewPod101 account is a..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "YouTube",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/watch?v=o9IxsTHpsgI",
+                  "title": "Want to Learn Hebrew Anywhere, Anytime on Your Mobile and For ...",
+                  "text": "Want to Learn Hebrew Anywhere, Anytime on Your Mobile and For FREE? want to speak a new language. what if you could press play on a lesson. and start speaking i..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Language Drops",
+                  "domain": "languagedrops.com",
+                  "url": "https://languagedrops.com/language/learn-hebrew",
+                  "title": "Learn Hebrew",
+                  "text": "Language: Hebrew (ivrit), a revived Semitic dead language spoken by over 9 million native speakers in Israel and globally, revived by Eliezer Ben-Yehuda in the ..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Gus on the Go",
+                  "domain": "www.gusonthego.com",
+                  "url": "https://www.gusonthego.com/gus-on-the-go-languages/gus-on-the-go-hebrew/",
+                  "title": "Gus on the Go: Hebrew for kids | Gus on the Go language learning apps for kids",
+                  "text": "Overview: Gus on the Go: Hebrew is an iOS, Android, and Amazon app introducing Hebrew vocabulary and reading to children. Vocabulary Categories: Animals, food, ..."
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "app",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]",
+              "items": [
+                {
+                  "type": "app_element",
+                  "title": "Learn Hebrew - Speak Hebrew",
+                  "description": "Education · Language",
+                  "url": "https://play.google.com/store/apps/details?id=com.atistudios.italk.he&hl=en_US&referrer=utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_term%3Dhebrew+learning+app&pcampaignid=APPU_1_4DXPasXMCMKzmtkPw93SkAw",
+                  "price": null
+                },
+                {
+                  "type": "app_element",
+                  "title": "Learn Hebrew",
+                  "description": "Education",
+                  "url": "https://play.google.com/store/apps/details?id=com.language.learnhebrew&hl=en_US&referrer=utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_term%3Dhebrew+learning+app&pcampaignid=APPU_1_4DXPasXMCMKzmtkPw93SkAw",
+                  "price": null
+                },
+                {
+                  "type": "app_element",
+                  "title": "Learn Hebrew Language Offline",
+                  "description": "Education",
+                  "url": "https://play.google.com/store/apps/details?id=com.speakhebrew.learnhebrewlanguageoffline&hl=en_US&referrer=utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_term%3Dhebrew+learning+app&pcampaignid=APPU_1_4DXPasXMCMKzmtkPw93SkAw",
+                  "price": null
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is the fastest way to learn Hebrew?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Is Duolingo a good way to learn Hebrew?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Is there an app that offers both Greek and Hebrew translation of the Bible?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is the best language app for learning Hebrew?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]",
+              "title": "People also search for",
+              "items": [
+                "Hebrew learning app free",
+                "Best apps to learn Hebrew for free",
+                "Best hebrew learning app",
+                "Learning Hebrew for beginners PDF",
+                "How to learn Hebrew for free",
+                "Best Biblical Hebrew learning app"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "discussions_and_forums",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]",
+              "title": "Discussions and forums",
+              "items": [
+                {
+                  "type": "discussions_and_forums_element",
+                  "title": "Best app to learn Hebrew.",
+                  "url": "https://www.reddit.com/r/Judaism/comments/yv0ziu/best_app_to_learn_hebrew/",
+                  "domain": "google.com",
+                  "source": "Reddit",
+                  "description": null,
+                  "timestamp": "2023-10-14 07:57:21 +00:00",
+                  "posts_count": 10
+                },
+                {
+                  "type": "discussions_and_forums_element",
+                  "title": "What are recommended apps or programs for learning Hebrew?",
+                  "url": "https://www.facebook.com/groups/583367362567958/posts/1550302915874393/",
+                  "domain": "google.com",
+                  "source": "Facebook",
+                  "description": null,
+                  "timestamp": "2024-10-14 07:57:21 +00:00",
+                  "posts_count": null
+                },
+                {
+                  "type": "discussions_and_forums_element",
+                  "title": "What is the best app for learning Hebrew?",
+                  "url": "https://www.quora.com/What-is-the-best-app-for-learning-Hebrew",
+                  "domain": "google.com",
+                  "source": "Quora",
+                  "description": null,
+                  "timestamp": "2019-10-14 07:57:21 +00:00",
+                  "posts_count": 40
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "lingopie.com",
+              "title": "5 Best Hebrew Learning Apps For Total Beginners",
+              "url": "https://lingopie.com/blog/best-hebrew-learning-apps/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://lingopie.com",
+              "website_name": "Lingopie",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "May 30, 2026 — Lingopie teaches Hebrew through real Israeli TV shows and movies, with clickable subtitles that translate any word the second you tap it.",
+              "pre_snippet": "05/30/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Lingopie teaches Hebrew"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": [
+                "hebrew learning",
+                "best apps to learn",
+                "learning hebrew",
+                "how to learn",
+                "best biblical",
+                "best hebrew",
+                "best hebrew",
+                "learn hebrew"
+              ],
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-05-30 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[13]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.rosettastone.com",
+              "title": "Learn Hebrew Online | Hebrew Lessons with Rosetta Stone®",
+              "url": "https://www.rosettastone.com/learn-hebrew",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.rosettastone.com",
+              "website_name": "Rosetta Stone",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Learn Hebrew online with Rosetta Stone. Practice speaking, build vocabulary, and master grammar with lessons designed for beginners and advanced learners.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Learn Hebrew online with Rosetta Stone"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": [
+                "hebrew learning",
+                "best apps to learn",
+                "learning hebrew",
+                "how to learn",
+                "best biblical",
+                "best hebrew",
+                "best hebrew",
+                "learn hebrew"
+              ],
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "Helpful Apps and Resources for Learning Hebrew",
+              "url": "https://www.reddit.com/r/hebrew/comments/17n75x2/helpful_apps_and_resources_for_learning_hebrew/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "5 comments",
+              "website_name": "Reddit · r/hebrew",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Hebrew by Nemo : This app is perfect for learning basic words in Hebrew. Simply Learn Hebrew: This app is designed for daily conversations at a ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Hebrew by Nemo"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Best mobile app to learn Hebrew? : r/hebrewr/hebrew·6 comments·1y",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/hebrew/comments/1gexfbw/best_mobile_app_to_learn_hebrew/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Best app for learning Hebrew? : r/Jewishr/Jewish·10+ comments·1y",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/Jewish/comments/1kwqvrz/best_app_for_learning_hebrew/",
+                  "domain": "www.reddit.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-10-14 07:57:21 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[16]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Learn Hebrew with our FREE Innovative Language 101 App for ...",
+              "url": "https://www.youtube.com/watch?v=WcH262BjRbU",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "6.6K+ views",
+              "website_name": "YouTube · Learn Hebrew with HebrewPod101.com",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Now available for Android as well! Download for. Learn Hebrew with our FREE Innovative Language 101 App for Android and iPhone!",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2015-10-14 07:57:21 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[18]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "Ling Learn Languages",
+                  "title": "How to learn Hebrew (5 Apps BETTER than DUOLINGO)",
+                  "timestamp": "2025-09-01 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=iZUi8dji6Qc"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Learn Hebrew with HebrewPod101.com",
+                  "title": "Want to Learn Hebrew Anywhere, Anytime on Your Mobile and For ...",
+                  "timestamp": "2025-12-04 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=o9IxsTHpsgI"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Learn Hebrew with HebrewPod101.com",
+                  "title": "8 Ways to Learn Hebrew with Your Smartphone",
+                  "timestamp": "2023-07-31 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=IdbljqCnB_o"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[20]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "biblingo.com",
+              "title": "Biblingo — Read the Bible with Ancient Eyes",
+              "url": "https://biblingo.com/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://biblingo.com",
+              "website_name": "Biblingo",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Biblingo is the all-in-one app for learning biblical Greek, Hebrew, and Latin to real reading fluency. Read the Bible in its original languages.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[22]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "integraliah.com",
+              "title": "Best Learn Hebrew Apps: Top Picks for Mobile Learning",
+              "url": "https://integraliah.com/best-learn-hebrew-apps-top-picks-for-mobile-learning/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://integraliah.com",
+              "website_name": "Ulpan Integraliah",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Top Hebrew Learning Apps · Ulpan Integraliah App · Duolingo · Rosetta Stone · Memrise · Babbel. Babbel tailors lessons based on individual ...",
+              "pre_snippet": "07/23/2024 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 47,
+                "rating_max": 5
+              },
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-07-23 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 2,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[4]/div[1]/div[3]/div[1]",
+              "title": "People also search for",
+              "items": [
+                "Best Hebrew learning app reddit",
+                "Learn Hebrew alphabet",
+                "How to learn Hebrew for beginners"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

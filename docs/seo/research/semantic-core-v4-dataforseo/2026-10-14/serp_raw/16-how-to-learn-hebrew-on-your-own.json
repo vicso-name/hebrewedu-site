@@ -1,0 +1,994 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "4.0940 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10140758-2762-0139-0000-b573ff4dc8d4",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "4.0313 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "how to learn hebrew on your own",
+        "device": "mobile",
+        "os": "android",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "how to learn hebrew on your own",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=how%20to%20learn%20hebrew%20on%20your%20own&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-10-14 07:58:08 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "video",
+            "people_also_ask",
+            "discussions_and_forums",
+            "organic",
+            "people_also_search"
+          ],
+          "se_results_count": 0,
+          "pages_count": 1,
+          "items_count": 13,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": false,
+              "markdown": "To teach yourself Hebrew from scratch, `follow a clear, step-by-step path that separates the writing system from daily conversational practice`.[[1]](https://www.reddit.com/r/hebrew/comments/1bamonp/i_want_to_learn_hebrew_where_do_i_start/)[[2]](https://freehebrew.online/)\n\n### 1. Master the Alphabet (Alef-Bet)\n\n- **22 consonants:** Hebrew is written from right to left using an alphabet of 22 base letters.[[1]](https://www.youtube.com/watch?v=b-G5oasjzHs&t=424)[[2]](https://theswissbay.ch/pdf/Books/Linguistics/Teach%20Yourself%20Modern%20Hebrew%20-%20Shula%20Gilboa.pdf)\n- **Vowel points (Nikud):** Vowels are written as small dots and dashes above or below the letters, though modern Hebrew text often omits them.[[1]](https://www.youtube.com/watch?v=b-G5oasjzHs&t=424)\n- **Study tools:** Use books like Teach Yourself to Read Hebrew or visual guides like Teach Me Hebrew to learn letter shapes, block writing, and special final letter forms.[[1]](https://ekspublishing.com/products/teach-yourself-to-read-hebrew)[[2]](https://www.teachmehebrew.com/)[[3]](https://www.youtube.com/shorts/WjvBySQrCK0?vl=en-US)\n\n### 2. Build Core Vocabulary & Phrases\n\n- **High-frequency words:** Learn basic greetings (*Shalom*, *Boker tov* ), numbers, and everyday nouns.[[1]](https://theswissbay.ch/pdf/Books/Linguistics/Teach%20Yourself%20Modern%20Hebrew%20-%20Shula%20Gilboa.pdf)[[2]](https://www.teachmehebrew.com/step-1-basic-hebrew.html)\n- **Verb roots (Shoreshim):** Understand that Hebrew words are built on three-letter root systems that dictate grammatical patterns (*binyanim*).[[1]](https://www.teachmehebrew.com/)[[2]](https://www.reddit.com/r/hebrew/comments/1bamonp/i_want_to_learn_hebrew_where_do_i_start/)\n- **Audio practice:** Listen to native pronunciations through programs like [Beginners' Hebrew | Teach Yourself US](https://us.teachyourself.com/products/beginners-hebrew) or audio lessons like HebrewPod101.[[1]](https://us.teachyourself.com/products/beginners-hebrew)[[2]](https://libguides.library.hunter.cuny.edu/Hebrew/learn)\n\n### 3. Choose Supporting Self-Study Tools\n\n- **Apps and courses:** Supplement your study with free or low-cost digital tools such as Duolingo, Drops, or the Foreign Service Institute's ([FSI](https://libguides.library.hunter.cuny.edu/Hebrew/learn) ) basic course.[[1]](https://libguides.library.hunter.cuny.edu/Hebrew/learn)\n- **Immersion practice:** Transition from individual words to short dialogues, children's books, or native channels once you know the alphabet.[[1]](https://www.reddit.com/r/hebrew/comments/16gkxpd/any_advice_how_to_learn_hebrew_fast_on_your_own/)[[2]](https://www.teachmehebrew.com/step-1-basic-hebrew.html)\n\nWould you like to focus on **Modern Hebrew** (for travel or conversation) or **Biblical/Prayerbook Hebrew** (for religious texts), so I can recommend more targeted resources?",
+              "items": [
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "To teach yourself Hebrew from scratch, follow a clear, step-by-step path that separates the writing system from daily conversational practice.",
+                  "markdown": "To teach yourself Hebrew from scratch, `follow a clear, step-by-step path that separates the writing system from daily conversational practice`.[[1]](https://www.reddit.com/r/hebrew/comments/1bamonp/i_want_to_learn_hebrew_where_do_i_start/)[[2]](https://freehebrew.online/)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Reddit",
+                      "domain": "www.reddit.com",
+                      "url": "https://www.reddit.com/r/hebrew/comments/1bamonp/i_want_to_learn_hebrew_where_do_i_start/",
+                      "title": "I want to learn Hebrew. Where do I start?",
+                      "text": "Comments Section Spoken or for “learning”(religious texts)? Pimsleur audio can get you started, for speaking, some very basic modern Hebrew vocabulary, etc. For..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Free Hebrew. Forever.",
+                      "domain": "freehebrew.online",
+                      "url": "https://freehebrew.online/",
+                      "title": "Free Hebrew. Forever.",
+                      "text": "Ready to Learn Hebrew? Many people who set out to learn Hebrew never reach their goals, and the few who do make progress struggle to retain and use what they've..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "1. Master the Alphabet (Alef-Bet)",
+                  "text": "22 consonants: Hebrew is written from right to left using an alphabet of 22 base letters. Vowel points (Nikud): Vowels are written as small dots and dashes above or below the letters, though modern Hebrew text often omits them. Study tools: Use books like Teach Yourself to Read Hebrew or visual guides like Teach Me Hebrew to learn letter shapes, block writing, and special final letter forms. Teach Yourself to Read Hebrew Teach Yourself to Read Hebrew Teach Me Hebrew Teach Me Hebrew",
+                  "markdown": "- **22 consonants:** Hebrew is written from right to left using an alphabet of 22 base letters.[[1]](https://www.youtube.com/watch?v=b-G5oasjzHs&t=424)[[2]](https://theswissbay.ch/pdf/Books/Linguistics/Teach%20Yourself%20Modern%20Hebrew%20-%20Shula%20Gilboa.pdf)\n- **Vowel points (Nikud):** Vowels are written as small dots and dashes above or below the letters, though modern Hebrew text often omits them.[[1]](https://www.youtube.com/watch?v=b-G5oasjzHs&t=424)\n- **Study tools:** Use books like Teach Yourself to Read Hebrew or visual guides like Teach Me Hebrew to learn letter shapes, block writing, and special final letter forms.[[1]](https://ekspublishing.com/products/teach-yourself-to-read-hebrew)[[2]](https://www.teachmehebrew.com/)[[3]](https://www.youtube.com/shorts/WjvBySQrCK0?vl=en-US)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=b-G5oasjzHs&t=424",
+                      "title": "One Morning to Learn Hebrew (Perfect for All Beginners)",
+                      "text": "One Morning to Learn Hebrew (Perfect for All Beginners) hi welcome to Introduction to Hebrew my name is Alicia. and I'm joined by Hi everyone I'm Edit in this l..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "The Swiss Bay",
+                      "domain": "theswissbay.ch",
+                      "url": "https://theswissbay.ch/pdf/Books/Linguistics/Teach%20Yourself%20Modern%20Hebrew%20-%20Shula%20Gilboa.pdf",
+                      "title": "Untitled",
+                      "text": "Teach Yourself Modern Hebrew: Shula Gilboa. Content: 22 units, grammar, vocabulary, exercises (1-22). Alphabet: 22 letters (some with final forms/dual sounds), ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "EKS Publishing",
+                      "domain": "ekspublishing.com",
+                      "url": "https://ekspublishing.com/products/teach-yourself-to-read-hebrew",
+                      "title": "Teach Yourself to Read Hebrew - EKS Publishing",
+                      "text": "Regular price $14.95 USD Regular price Sale price $14.95 USD Default Title - $14.95 Quantity Teach Yourself to Read Hebrew is a complete self-study course for t..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Teach Me Hebrew",
+                      "domain": "www.teachmehebrew.com",
+                      "url": "https://www.teachmehebrew.com/",
+                      "title": "Teach Me Hebrew - Home",
+                      "text": "Mission: TeachMeHebrew.com aids self-taught fluency in Modern Hebrew via bilingual texts and audio. Contents: AlefBet, pronunciation, phrases, 500 basic words, ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/shorts/WjvBySQrCK0?vl=en-US",
+                      "title": "Learning to Read Hebrew? Watch This",
+                      "text": "Learning to Read Hebrew? Watch This here are my top resources for learning to read Hebrew. the first one is from the National Jewish Outreach Project NJOP. when..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "2. Build Core Vocabulary & Phrases",
+                  "text": "High-frequency words: Learn basic greetings (Shalom, Boker tov), numbers, and everyday nouns. Verb roots (Shoreshim): Understand that Hebrew words are built on three-letter root systems that dictate grammatical patterns (binyanim). Audio practice: Listen to native pronunciations through programs like Beginners' Hebrew | Teach Yourself US or audio lessons like HebrewPod101.",
+                  "markdown": "- **High-frequency words:** Learn basic greetings (*Shalom*, *Boker tov* ), numbers, and everyday nouns.[[1]](https://theswissbay.ch/pdf/Books/Linguistics/Teach%20Yourself%20Modern%20Hebrew%20-%20Shula%20Gilboa.pdf)[[2]](https://www.teachmehebrew.com/step-1-basic-hebrew.html)\n- **Verb roots (Shoreshim):** Understand that Hebrew words are built on three-letter root systems that dictate grammatical patterns (*binyanim*).[[1]](https://www.teachmehebrew.com/)[[2]](https://www.reddit.com/r/hebrew/comments/1bamonp/i_want_to_learn_hebrew_where_do_i_start/)\n- **Audio practice:** Listen to native pronunciations through programs like [Beginners' Hebrew | Teach Yourself US](https://us.teachyourself.com/products/beginners-hebrew) or audio lessons like HebrewPod101.[[1]](https://us.teachyourself.com/products/beginners-hebrew)[[2]](https://libguides.library.hunter.cuny.edu/Hebrew/learn)",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Beginners' Hebrew | Teach Yourself US",
+                      "description": null,
+                      "url": "https://us.teachyourself.com/products/beginners-hebrew",
+                      "domain": "us.teachyourself.com"
+                    }
+                  ],
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "The Swiss Bay",
+                      "domain": "theswissbay.ch",
+                      "url": "https://theswissbay.ch/pdf/Books/Linguistics/Teach%20Yourself%20Modern%20Hebrew%20-%20Shula%20Gilboa.pdf",
+                      "title": "Untitled",
+                      "text": "Teach Yourself Modern Hebrew: Shula Gilboa. Content: 22 units, grammar, vocabulary, exercises (1-22). Alphabet: 22 letters (some with final forms/dual sounds), ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Teach Me Hebrew",
+                      "domain": "www.teachmehebrew.com",
+                      "url": "https://www.teachmehebrew.com/step-1-basic-hebrew.html",
+                      "title": "Step 1: Basic Hebrew",
+                      "text": "Basic Hebrew The purpose of this section is to get you started in Hebrew. The 100 Basic Hebrew Phrases give you an idea what Hebrew sounds like and are common p..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Teach Me Hebrew",
+                      "domain": "www.teachmehebrew.com",
+                      "url": "https://www.teachmehebrew.com/",
+                      "title": "Teach Me Hebrew - Home",
+                      "text": "Mission: TeachMeHebrew.com aids self-taught fluency in Modern Hebrew via bilingual texts and audio. Contents: AlefBet, pronunciation, phrases, 500 basic words, ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Reddit",
+                      "domain": "www.reddit.com",
+                      "url": "https://www.reddit.com/r/hebrew/comments/1bamonp/i_want_to_learn_hebrew_where_do_i_start/",
+                      "title": "I want to learn Hebrew. Where do I start?",
+                      "text": "Comments Section Spoken or for “learning”(religious texts)? Pimsleur audio can get you started, for speaking, some very basic modern Hebrew vocabulary, etc. For..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Teach Yourself | Languages",
+                      "domain": "us.teachyourself.com",
+                      "url": "https://us.teachyourself.com/products/beginners-hebrew",
+                      "title": "Beginners' Hebrew | Teach Yourself US",
+                      "text": "Love, Travel, Study, Work, Friendship-whatever your reason for wanting to learn, Beginners' Hebrew will help you to: - Communicate naturally in everyday situati..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "The City University of New York",
+                      "domain": "libguides.library.hunter.cuny.edu",
+                      "url": "https://libguides.library.hunter.cuny.edu/Hebrew/learn",
+                      "title": "Hebrew Language & Literature and Jewish Studies: Learning Hebrew",
+                      "text": "Resources to Learn Hebrew. Courses. Duolingo - Free language-learning app with a full course in Hebrew. Drops - Hebrew vocabulary app (free and paid options ava..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "3. Choose Supporting Self-Study Tools",
+                  "text": "Apps and courses: Supplement your study with free or low-cost digital tools such as Duolingo, Drops, or the Foreign Service Institute's ( FSI ) basic course. Immersion practice: Transition from individual words to short dialogues, children's books, or native channels once you know the alphabet.",
+                  "markdown": "- **Apps and courses:** Supplement your study with free or low-cost digital tools such as Duolingo, Drops, or the Foreign Service Institute's ([FSI](https://libguides.library.hunter.cuny.edu/Hebrew/learn) ) basic course.[[1]](https://libguides.library.hunter.cuny.edu/Hebrew/learn)\n- **Immersion practice:** Transition from individual words to short dialogues, children's books, or native channels once you know the alphabet.[[1]](https://www.reddit.com/r/hebrew/comments/16gkxpd/any_advice_how_to_learn_hebrew_fast_on_your_own/)[[2]](https://www.teachmehebrew.com/step-1-basic-hebrew.html)",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "FSI",
+                      "description": null,
+                      "url": "https://libguides.library.hunter.cuny.edu/Hebrew/learn",
+                      "domain": "libguides.library.hunter.cuny.edu"
+                    }
+                  ],
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "The City University of New York",
+                      "domain": "libguides.library.hunter.cuny.edu",
+                      "url": "https://libguides.library.hunter.cuny.edu/Hebrew/learn",
+                      "title": "Hebrew Language & Literature and Jewish Studies: Learning Hebrew",
+                      "text": "Resources to Learn Hebrew. Courses. Duolingo - Free language-learning app with a full course in Hebrew. Drops - Hebrew vocabulary app (free and paid options ava..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Reddit",
+                      "domain": "www.reddit.com",
+                      "url": "https://www.reddit.com/r/hebrew/comments/16gkxpd/any_advice_how_to_learn_hebrew_fast_on_your_own/",
+                      "title": "Any advice how to learn hebrew fast on your own? - Reddit",
+                      "text": "Effective Hebrew Learning: Effective Hebrew learning requires a structured approach that goes beyond basic vocabulary and incorporates immersion, practical conv..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Teach Me Hebrew",
+                      "domain": "www.teachmehebrew.com",
+                      "url": "https://www.teachmehebrew.com/step-1-basic-hebrew.html",
+                      "title": "Step 1: Basic Hebrew",
+                      "text": "Basic Hebrew The purpose of this section is to get you started in Hebrew. The 100 Basic Hebrew Phrases give you an idea what Hebrew sounds like and are common p..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Would you like to focus on Modern Hebrew (for travel or conversation) or Biblical/Prayerbook Hebrew (for religious texts), so I can recommend more targeted resources?",
+                  "markdown": "Would you like to focus on **Modern Hebrew** (for travel or conversation) or **Biblical/Prayerbook Hebrew** (for religious texts), so I can recommend more targeted resources?",
+                  "links": null,
+                  "images": null,
+                  "references": null
+                }
+              ],
+              "references": [
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "EKS Publishing",
+                  "domain": "ekspublishing.com",
+                  "url": "https://ekspublishing.com/products/teach-yourself-to-read-hebrew",
+                  "title": "Teach Yourself to Read Hebrew - EKS Publishing",
+                  "text": "Regular price $14.95 USD Regular price Sale price $14.95 USD Default Title - $14.95 Quantity Teach Yourself to Read Hebrew is a complete self-study course for t..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Reddit",
+                  "domain": "www.reddit.com",
+                  "url": "https://www.reddit.com/r/hebrew/comments/16gkxpd/any_advice_how_to_learn_hebrew_fast_on_your_own/",
+                  "title": "Any advice how to learn hebrew fast on your own? - Reddit",
+                  "text": "Effective Hebrew Learning: Effective Hebrew learning requires a structured approach that goes beyond basic vocabulary and incorporates immersion, practical conv..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "YouTube",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/watch?v=b-G5oasjzHs&t=424",
+                  "title": "One Morning to Learn Hebrew (Perfect for All Beginners)",
+                  "text": "One Morning to Learn Hebrew (Perfect for All Beginners) hi welcome to Introduction to Hebrew my name is Alicia. and I'm joined by Hi everyone I'm Edit in this l..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "The Swiss Bay",
+                  "domain": "theswissbay.ch",
+                  "url": "https://theswissbay.ch/pdf/Books/Linguistics/Teach%20Yourself%20Modern%20Hebrew%20-%20Shula%20Gilboa.pdf",
+                  "title": "Untitled",
+                  "text": "Teach Yourself Modern Hebrew: Shula Gilboa. Content: 22 units, grammar, vocabulary, exercises (1-22). Alphabet: 22 letters (some with final forms/dual sounds), ..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Teach Yourself | Languages",
+                  "domain": "us.teachyourself.com",
+                  "url": "https://us.teachyourself.com/products/beginners-hebrew",
+                  "title": "Beginners' Hebrew | Teach Yourself US",
+                  "text": "Love, Travel, Study, Work, Friendship-whatever your reason for wanting to learn, Beginners' Hebrew will help you to: - Communicate naturally in everyday situati..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Teach Me Hebrew",
+                  "domain": "www.teachmehebrew.com",
+                  "url": "https://www.teachmehebrew.com/",
+                  "title": "Teach Me Hebrew - Home",
+                  "text": "Mission: TeachMeHebrew.com aids self-taught fluency in Modern Hebrew via bilingual texts and audio. Contents: AlefBet, pronunciation, phrases, 500 basic words, ..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Reddit",
+                  "domain": "www.reddit.com",
+                  "url": "https://www.reddit.com/r/hebrew/comments/1bamonp/i_want_to_learn_hebrew_where_do_i_start/",
+                  "title": "I want to learn Hebrew. Where do I start?",
+                  "text": "Comments Section Spoken or for “learning”(religious texts)? Pimsleur audio can get you started, for speaking, some very basic modern Hebrew vocabulary, etc. For..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "YouTube",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/shorts/WjvBySQrCK0?vl=en-US",
+                  "title": "Learning to Read Hebrew? Watch This",
+                  "text": "Learning to Read Hebrew? Watch This here are my top resources for learning to read Hebrew. the first one is from the National Jewish Outreach Project NJOP. when..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "The City University of New York",
+                  "domain": "libguides.library.hunter.cuny.edu",
+                  "url": "https://libguides.library.hunter.cuny.edu/Hebrew/learn",
+                  "title": "Hebrew Language & Literature and Jewish Studies: Learning Hebrew",
+                  "text": "Resources to Learn Hebrew. Courses. Duolingo - Free language-learning app with a full course in Hebrew. Drops - Hebrew vocabulary app (free and paid options ava..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Free Hebrew. Forever.",
+                  "domain": "freehebrew.online",
+                  "url": "https://freehebrew.online/",
+                  "title": "Free Hebrew. Forever.",
+                  "text": "Ready to Learn Hebrew? Many people who set out to learn Hebrew never reach their goals, and the few who do make progress struggle to retain and use what they've..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Teach Me Hebrew",
+                  "domain": "www.teachmehebrew.com",
+                  "url": "https://www.teachmehebrew.com/step-1-basic-hebrew.html",
+                  "title": "Step 1: Basic Hebrew",
+                  "text": "Basic Hebrew The purpose of this section is to get you started in Hebrew. The 100 Basic Hebrew Phrases give you an idea what Hebrew sounds like and are common p..."
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[3]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "Learn Hebrew with HebrewPod101.com",
+                  "title": "Learn Hebrew in 25 Minutes - ALL the Basics You Need",
+                  "timestamp": "2017-11-10 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=jvDCEXbxxL0"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Learn Hebrew with HebrewPod101.com",
+                  "title": "One Morning to Learn Hebrew (Perfect for All Beginners)",
+                  "timestamp": "2025-06-11 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=b-G5oasjzHs"
+                },
+                {
+                  "type": "video_element",
+                  "source": "The Complete Hebrew Course For Beginners",
+                  "title": "Step-by-Step Online Hebrew Course for Complete Beginners",
+                  "timestamp": "2025-09-30 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=hGbAWylQ0nk"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Learn Hebrew with HebrewPod101.com",
+                  "title": "Learn Hebrew in 3 Hours - ALL the Hebrew Basics You Need",
+                  "timestamp": "2023-09-05 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=QtJPf6mjuR8"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How do Hebrews say \"hi\"?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Is Hebrew right to left?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Is Hebrew similar to Arabic?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is the best app to learn Hebrew for free?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]/div[1]/div[2]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "discussions_and_forums",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[7]",
+              "title": "Discussions and forums",
+              "items": [
+                {
+                  "type": "discussions_and_forums_element",
+                  "title": "Any advice how to learn hebrew fast on your own?",
+                  "url": "https://www.reddit.com/r/hebrew/comments/16gkxpd/any_advice_how_to_learn_hebrew_fast_on_your_own/",
+                  "domain": "google.com",
+                  "source": "Reddit",
+                  "description": null,
+                  "timestamp": "2023-10-14 07:58:08 +00:00",
+                  "posts_count": 20
+                },
+                {
+                  "type": "discussions_and_forums_element",
+                  "title": "I want to learn Hebrew. Where do I start?",
+                  "url": "https://www.reddit.com/r/hebrew/comments/1bamonp/i_want_to_learn_hebrew_where_do_i_start/",
+                  "domain": "google.com",
+                  "source": "Reddit",
+                  "description": null,
+                  "timestamp": "2024-10-14 07:58:08 +00:00",
+                  "posts_count": 50
+                },
+                {
+                  "type": "discussions_and_forums_element",
+                  "title": "What is your advice for someone trying to learn Hebrew from scratch? What resources ...",
+                  "url": "https://www.quora.com/What-is-your-advice-for-someone-trying-to-learn-Hebrew-from-scratch-What-resources-books-preferably-digital-would-you-suggest-that-would-make-learning-the-basics-easy",
+                  "domain": "google.com",
+                  "source": "Quora",
+                  "description": null,
+                  "timestamp": "2024-10-14 07:58:08 +00:00",
+                  "posts_count": 50
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[8]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Learn Hebrew Today - ALL the Hebrew Basics for Beginners",
+              "url": "https://www.youtube.com/watch?v=UMdr0bhgUw8",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "239.3K+ views",
+              "website_name": "YouTube · Learn Hebrew with HebrewPod101.com",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "If you want to start learning Hebrew, this video is made for you. This is the fastest, easiest way to pick up basic Hebrew!",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2021-10-14 07:58:08 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.citizencafetlv.com",
+              "title": "7 best ways to learn Hebrew | Citizen Café TLV",
+              "url": "https://www.citizencafetlv.com/blog/7-best-ways-to-learn-hebrew/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.citizencafetlv.com",
+              "website_name": "Citizen Cafe Tel Aviv",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "7 best ways to learn Hebrew · Watch TV and Movies in Hebrew · Read Hebrew online · Ulpan Ivrit · Hebrew course · Practice speaking · Listen to some radio and music.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": [
+                "learning hebrew",
+                "how to learn",
+                "hebrew",
+                "learn hebrew for",
+                "how to learn",
+                "hebrew learning",
+                "hebrew",
+                "best way to"
+              ],
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[12]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.loecsen.com",
+              "title": "▷ How to learn Hebrew | Free course",
+              "url": "https://www.loecsen.com/en/learn-hebrew",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.loecsen.com",
+              "website_name": "Loecsen",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Free Hebrew course for beginners. Loecsen offers a structured Hebrew course for beginners, With 5 to 15 minutes of practice per day,",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Free Hebrew course for beginners"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": [
+                "learning hebrew",
+                "how to learn",
+                "hebrew",
+                "learn hebrew for",
+                "how to learn",
+                "hebrew learning",
+                "hebrew",
+                "best way to"
+              ],
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.quora.com",
+              "title": "What's a good way to learn the Hebrew language independently?",
+              "url": "https://www.quora.com/Whats-a-good-way-to-learn-the-Hebrew-language-independently",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "50+ answers",
+              "website_name": "Quora",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "What's a good way to learn the Hebrew language independently?",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Hebrew actually isn't very difficult to learn, compared to some other languages. Its grammar ...",
+                  "description": "Top answer · 15 votes",
+                  "url": "https://www.quora.com/Whats-a-good-way-to-learn-the-Hebrew-language-independently?top_ans=55043820",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "I’ll preface my advice with some of my own experiences in learning Hebrew, but I’ll clarify ...",
+                  "description": "12 votes",
+                  "url": "https://www.quora.com/Whats-a-good-way-to-learn-the-Hebrew-language-independently?top_ans=105336092",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Youtube has many free resources.\n\nhttps://www.youtube.com/watch?v=fJKiaieyxIY\nand\n\nhttps://www.youtu ...",
+                  "description": "12 votes",
+                  "url": "https://www.quora.com/Whats-a-good-way-to-learn-the-Hebrew-language-independently?top_ans=54898819",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "When I was learning Hebrew (back before online courses existed) I first used a textbook that ...",
+                  "description": "8 votes",
+                  "url": "https://www.quora.com/Whats-a-good-way-to-learn-the-Hebrew-language-independently?top_ans=356553663",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Same as most other languages. Start with a video of basic phrases. There are plenty from ...",
+                  "description": "5 votes",
+                  "url": "https://www.quora.com/Whats-a-good-way-to-learn-the-Hebrew-language-independently?top_ans=357778892",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Teaching yourself is always a tricky proposition, but as Elke Weiss points out, it involves ...",
+                  "description": "5 votes",
+                  "url": "https://www.quora.com/Whats-a-good-way-to-learn-the-Hebrew-language-independently?top_ans=54934444",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "I'd recommend before you dive into the full language (words and grammar) take a few months ...",
+                  "description": "5 votes",
+                  "url": "https://www.quora.com/Whats-a-good-way-to-learn-the-Hebrew-language-independently?top_ans=357411335",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "first, learn the basics. The alphabet, what each character sounds like, how to put characters ...",
+                  "description": "3 votes",
+                  "url": "https://www.quora.com/Whats-a-good-way-to-learn-the-Hebrew-language-independently?top_ans=269826698",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Thanks for the A2A\n\nProbably the best way is to study in Ulpan, if there is one near you. ...",
+                  "description": "2 votes",
+                  "url": "https://www.quora.com/Whats-a-good-way-to-learn-the-Hebrew-language-independently?top_ans=55163649",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "1. Live in Israel. Simple. Living in a country is the fastest way to learn its language.\n2. ...",
+                  "description": "2 votes",
+                  "url": "https://www.quora.com/Whats-a-good-way-to-learn-the-Hebrew-language-independently?top_ans=105328917",
+                  "domain": "www.quora.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2019-10-14 07:58:08 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[16]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.hebrewpod101.com",
+              "title": "HebrewPod101 - Learn Hebrew with Audio & Video Lessons",
+              "url": "https://www.hebrewpod101.com/welcome",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.hebrewpod101.com",
+              "website_name": "HebrewPod101",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Access 100s of Hebrew online lessons at HebrewPod101. FREE lessons come out every week. You learn Hebrew fast and start speaking from your first lesson.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Access 100s of Hebrew online lessons at HebrewPod101"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[18]",
+              "title": "People also search for",
+              "items": [
+                "Learning Hebrew for beginners PDF",
+                "How to learn Hebrew for free",
+                "Hebrew alphabet",
+                "Learn Hebrew for free with audio",
+                "How to learn Hebrew online",
+                "Hebrew learning app free"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[20]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.quora.com",
+              "title": "What is the best way to learn Hebrew by yourself?",
+              "url": "https://www.quora.com/What-is-the-best-way-to-learn-Hebrew-by-yourself",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "50+ answers",
+              "website_name": "Quora",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "What is the best way to learn Hebrew by yourself?",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Hebrew actually isn't very difficult to learn, compared to some other languages. Its grammar ...",
+                  "description": "Top answer · 15 votes",
+                  "url": "https://www.quora.com/What-is-the-best-way-to-learn-Hebrew-by-yourself?top_ans=55043820",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "You can get started by yourself, but you can’t completely learn a language alone.\n\nMy advice ...",
+                  "description": "13 votes",
+                  "url": "https://www.quora.com/What-is-the-best-way-to-learn-Hebrew-by-yourself?top_ans=1477743663653426",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "I’ll preface my advice with some of my own experiences in learning Hebrew, but I’ll clarify ...",
+                  "description": "12 votes",
+                  "url": "https://www.quora.com/What-is-the-best-way-to-learn-Hebrew-by-yourself?top_ans=105336092",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Youtube has many free resources.\n\nhttps://www.youtube.com/watch?v=fJKiaieyxIY\nand\n\nhttps://www.youtu ...",
+                  "description": "12 votes",
+                  "url": "https://www.quora.com/What-is-the-best-way-to-learn-Hebrew-by-yourself?top_ans=54898819",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "When I was learning Hebrew (back before online courses existed) I first used a textbook that ...",
+                  "description": "8 votes",
+                  "url": "https://www.quora.com/What-is-the-best-way-to-learn-Hebrew-by-yourself?top_ans=356553663",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "“Can I learn Hebrew by myself? Do you have some advice?”\n\nI believe Hebrew is available ...",
+                  "description": "7 votes",
+                  "url": "https://www.quora.com/What-is-the-best-way-to-learn-Hebrew-by-yourself?top_ans=1477743663645199",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Teaching yourself is always a tricky proposition, but as Elke Weiss points out, it involves ...",
+                  "description": "5 votes",
+                  "url": "https://www.quora.com/What-is-the-best-way-to-learn-Hebrew-by-yourself?top_ans=54934444",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Same as most other languages. Start with a video of basic phrases. There are plenty from ...",
+                  "description": "5 votes",
+                  "url": "https://www.quora.com/What-is-the-best-way-to-learn-Hebrew-by-yourself?top_ans=357778892",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "first, learn the basics. The alphabet, what each character sounds like, how to put characters ...",
+                  "description": "3 votes",
+                  "url": "https://www.quora.com/What-is-the-best-way-to-learn-Hebrew-by-yourself?top_ans=269826698",
+                  "domain": "www.quora.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Thanks for the A2A\n\nProbably the best way is to study in Ulpan, if there is one near you. ...",
+                  "description": "2 votes",
+                  "url": "https://www.quora.com/What-is-the-best-way-to-learn-Hebrew-by-yourself?top_ans=55163649",
+                  "domain": "www.quora.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2019-10-14 07:58:08 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[21]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "How to Learn Hebrew Every Day (Even If You're Busy!)",
+              "url": "https://www.youtube.com/watch?v=n8XvkVp6CfQ",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "39.1K+ views",
+              "website_name": "YouTube · Piece of Hebrew",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "The secret to improving your Hebrew? Make it a daily habit fun and authentic way, thanks to real-life videos with a native Hebrew speaker! Gain ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-10-14 07:58:08 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 2,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[4]/div[1]/div[3]/div[1]",
+              "title": "People also search for",
+              "items": [
+                "Hebrew language",
+                "Best way to learn Hebrew",
+                "Modern Hebrew language learning"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

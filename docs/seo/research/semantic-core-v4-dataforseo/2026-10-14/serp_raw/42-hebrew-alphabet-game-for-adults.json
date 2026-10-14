@@ -1,0 +1,544 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "2.7339 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10140802-2762-0139-0000-e1bf337f0d43",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "2.6632 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "hebrew alphabet game for adults",
+        "device": "mobile",
+        "os": "android",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "hebrew alphabet game for adults",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=hebrew%20alphabet%20game%20for%20adults&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-10-14 08:02:32 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[4]/div[1]/div[1]/div[2]/span[1]/div[1]/div[1]/div[1]/div[2]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Online",
+                "url": "https://www.google.com/search?q=online+hebrew+alphabet+game+for+adults&hl=en&gl=US&shoprs=GBIqH2hlYnJldyBhbHBoYWJldCBnYW1lIGZvciBhZHVsdHMyCggSEgZPbmxpbmVgAQ&sa=X&ved=2ahUKEwiSgunShbmXAxUqnCYFHcIjENoQip4GKAF6BAgXEAQ",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Board Game",
+                "url": "https://www.google.com/search?q=board+game+hebrew+alphabet+for+adults&hl=en&gl=US&shoprs=GAEqH2hlYnJldyBhbHBoYWJldCBnYW1lIGZvciBhZHVsdHMyHAgBEgpCb2FyZCBHYW1lOgwI1J2eAhDXnZ4CMANgAQ&sa=X&ved=2ahUKEwiSgunShbmXAxUqnCYFHcIjENoQip4GKAJ6BAgXEAU",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Card Game",
+                "url": "https://www.google.com/search?q=card+game+hebrew+alphabet+for+adults&hl=en&gl=US&shoprs=GAEqH2hlYnJldyBhbHBoYWJldCBnYW1lIGZvciBhZHVsdHMyGwgBEglDYXJkIEdhbWU6DAi2wvcBELfC9wEwA2AB&sa=X&ved=2ahUKEwiSgunShbmXAxUqnCYFHcIjENoQip4GKAN6BAgXEAY",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Books",
+                "url": "https://www.google.com/search?q=books+hebrew+alphabet+game+for+adults&hl=en&gl=US&shoprs=GAkqH2hlYnJldyBhbHBoYWJldCBnYW1lIGZvciBhZHVsdHMyCQgJEgVCb29rc2AB&sa=X&ved=2ahUKEwiSgunShbmXAxUqnCYFHcIjENoQip4GKAR6BAgXEAc",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Board & Card Games",
+                "url": "https://www.google.com/search?q=board+%26+card+games+hebrew+alphabet+game+for+adults&hl=en&gl=US&shoprs=GAkqH2hlYnJldyBhbHBoYWJldCBnYW1lIGZvciBhZHVsdHMyFggJEhJCb2FyZCAmIENhcmQgR2FtZXNgAQ&sa=X&ved=2ahUKEwiSgunShbmXAxUqnCYFHcIjENoQip4GKAV6BAgXEAg",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Free",
+                "url": "https://www.google.com/search?q=free+hebrew+alphabet+game+for+adults&hl=en&gl=US&shoprs=GBIqH2hlYnJldyBhbHBoYWJldCBnYW1lIGZvciBhZHVsdHMyCAgSEgRGcmVlYAE&sa=X&ved=2ahUKEwiSgunShbmXAxUqnCYFHcIjENoQip4GKAZ6BAgXEAk",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Get it today",
+                "url": "https://www.google.com/search?q=hebrew+alphabet+game+for+adults&hl=en&gl=US&shoprs=Eg2aAQoKCBAAOAFAA0gBGBQqH2hlYnJldyBhbHBoYWJldCBnYW1lIGZvciBhZHVsdHMyJQgUEgxHZXQgaXQgdG9kYXkiDZoBCgoIEAA4AUADSAEqBBABGAFgAQ&sa=X&ved=2ahUKEwiSgunShbmXAxUqnCYFHcIjENoQip4GKAd6BAgXEAo",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Adult Games",
+                "url": "https://www.google.com/search?q=adult+games+hebrew+alphabet+game+for+adults&hl=en&gl=US&shoprs=GAkqH2hlYnJldyBhbHBoYWJldCBnYW1lIGZvciBhZHVsdHMyDwgJEgtBZHVsdCBHYW1lc2AB&sa=X&ved=2ahUKEwiSgunShbmXAxUqnCYFHcIjENoQip4GKAh6BAgXEAs",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Word",
+                "url": "https://www.google.com/search?q=word+hebrew+alphabet+game+for+adults&hl=en&gl=US&shoprs=GAEqH2hlYnJldyBhbHBoYWJldCBnYW1lIGZvciBhZHVsdHMyFAgBEgRXb3JkOgoIobg-EKa4PjAAYAE&sa=X&ved=2ahUKEwiSgunShbmXAxUqnCYFHcIjENoQip4GKAl6BAgXEAw",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "video",
+            "app",
+            "people_also_ask"
+          ],
+          "se_results_count": 0,
+          "pages_count": 1,
+          "items_count": 11,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": true,
+              "markdown": null,
+              "items": null,
+              "references": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "3 zero-prep games to teach toddlers the Alef-Bet (from a former day school ...",
+              "url": "https://www.reddit.com/r/hebrew/comments/1somiji/3_zeroprep_games_to_teach_toddlers_the_alefbet/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "4 comments",
+              "website_name": "Reddit · r/hebrew",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "1. The \"Shape Story\" Turn the letter's shape into a story. · 2. \"What Does It Look Like?\" Connect the shape to a real-world object and its Hebrew ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-05-14 08:02:31 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "it'sNNAU",
+                  "title": "Guess the Letter: Hebrew Alphabet Quiz (All 22 Letters)",
+                  "timestamp": "2021-07-28 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=kLJEguLf5hs"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Hebrew by Inbal",
+                  "title": "Learn Hebrew With This Fun Israeli Game!",
+                  "timestamp": "2025-05-04 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=KOXcC8UPnMs"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Brett Brown",
+                  "title": "Games to Learn Hebrew with",
+                  "timestamp": "2014-11-25 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=d4AOFF49QqE"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "app",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[6]",
+              "items": [
+                {
+                  "type": "app_element",
+                  "title": "Write It! Hebrew",
+                  "description": "Learn to write all 22 letters of the Hebrew alphabet with Write It! Hebrew, the ultimate app for mastering Hebrew handwriting.",
+                  "url": "https://play.google.com/store/apps/details?id=com.jernung.writeit.heb&hl=en_US&referrer=utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_term%3Dhebrew+alphabet+game+for+adults&pcampaignid=APPU_1_FjfPapKfO6q4mtkPwsfA0A0",
+                  "price": null
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.tinytap.com",
+              "title": "Do you know your Hebrew letter names and sounds?",
+              "url": "https://www.tinytap.com/activities/g17fy/play/do-you-know-your-hebrew-letter-names-and-sounds?srsltid=AU7gw4VMAaSbq9XUYelScX5MwK6r1Zf2gynT4qscRG7Hxbdlu4SpCrUy",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.tinytap.com",
+              "website_name": "TinyTap",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Learn your Hebrew letter names and sounds. Learn your Hebrew letter names and sounds. Ages 3-7 | 6 Lessons",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Learn your Hebrew letter names and sounds"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "learnhebrewalphabet.com",
+              "title": "Hebrew Alphabet Games for Kids: Memory & Tracing | AlephBet",
+              "url": "https://learnhebrewalphabet.com/games/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://learnhebrewalphabet.com",
+              "website_name": "learnhebrewalphabet.com",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Hebrew alphabet games: trace every letter free online, hear Hebrew audio and print memory cards. More recognition and phonics games in the app.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 150,
+                "rating_max": 5
+              },
+              "price": null,
+              "highlighted": [
+                "trace every letter free online"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[12]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is the Hebrew alphabet in the Bible?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is the best language app for learning Hebrew?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[12]/div[1]/div[2]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What does bet mean in the Bible?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[12]/div[1]/div[2]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Is Hebrew a difficult language to learn?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[12]/div[1]/div[2]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "archive.ellenjovin.com",
+              "title": "Alphabet Games | Blog",
+              "url": "https://archive.ellenjovin.com/blog/alphabet-games.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://archive.ellenjovin.com",
+              "website_name": "Ellen Jovin",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "I can read the first few letters of a Yiddish word (say, מענ, or m-e-n) and guess what word is coming (מענטש, or mentsh, meaning “person”). Try ...",
+              "pre_snippet": "07/05/2013 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2013-07-05 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[16]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "quizlet.com",
+              "title": "Hebrew Alphabet Test Flashcards",
+              "url": "https://quizlet.com/588687189/hebrew-alphabet-test-flash-cards/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://quizlet.com",
+              "website_name": "Quizlet",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Play your way to mastery with fun games Match Blocks. The Khaf sound is produced by trying to say a K but then letting some air through. Notes: In modern ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.5,
+                "votes_count": 2,
+                "rating_max": 5
+              },
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[18]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.judaicawebstore.com",
+              "title": "Hebrew Alphabet: Interactive Educational Puzzle",
+              "url": "https://www.judaicawebstore.com/hebrew-alphabet-interactive-educational-puzzle?srsltid=AU7gw4XWealjViy9H4cyU3WKc3DkBNaRwcWIBGKHCq1oyIRb_54U_pgI",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.judaicawebstore.com",
+              "website_name": "Judaica Web Store",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Laser-cut wood alphabet puzzle with letters in printed and cursive forms - a fun and educational way to practice Hebrew! Suitable for ages 3 to 99, this puzzle ...",
+              "pre_snippet": "Laser-cut wood alphabet puzzle with letters in printed and cursive forms - a fun and educational way to practice Hebrew! Suitable for ages 3 to 99, this puzzle ...",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.8,
+                "votes_count": 10,
+                "rating_max": 5
+              },
+              "price": {
+                "current": 46,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": "$46.00"
+              },
+              "highlighted": [
+                "Laser-cut wood alphabet puzzle with letters in printed and cursive forms"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[4]/div[1]/div[13]/div[3]/div[1]/div[1]/div[20]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.logos.com",
+              "title": "Mobile Ed: Interactive Hebrew Alphabet Course (1 hour course",
+              "url": "https://www.logos.com/product/194549/mobile-ed-interactive-hebrew-alphabet-course",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.logos.com",
+              "website_name": "Logos Bible Study Platform",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "To help you master the Hebrew alphabet, each lesson has an interactive activity section with various experiential exercises, such as game-type drills, an ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "interactive activity section with various experiential exercises"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

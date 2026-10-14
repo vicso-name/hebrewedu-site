@@ -1,0 +1,539 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "2.6150 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10140756-2762-0139-0000-855d2e2ae169",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "2.5438 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "hebrew alphabet chart",
+        "device": "mobile",
+        "os": "android",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "hebrew alphabet chart",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=hebrew%20alphabet%20chart&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-10-14 07:56:50 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "images",
+            "people_also_ask",
+            "organic",
+            "people_also_search"
+          ],
+          "se_results_count": 0,
+          "pages_count": 1,
+          "items_count": 10,
+          "items": [
+            {
+              "type": "images",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[1]",
+              "title": "Images",
+              "url": null,
+              "items": [
+                {
+                  "type": "images_element",
+                  "alt": "The Hebrew Alphabet - Chabad.org",
+                  "url": "https://www.chabad.org/library/article_cdo/aid/4069287/jewish/The-Hebrew-Alphabet.htm",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140756-2762-0139-0000-855d2e2ae169:0"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Hebrew Alphabet Chart: Evolution from Pictograph to Greek | AHRC",
+                  "url": "https://www.ancient-hebrew.org/alphabet/hebrew-alphabet-chart.htm",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140756-2762-0139-0000-855d2e2ae169:1"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Hebrew Alphabet — Ben Crowder",
+                  "url": "https://bencrowder.net/hebrew-alphabet/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140756-2762-0139-0000-855d2e2ae169:2"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Comparison of Hebrew and English Alphabets",
+                  "url": "https://lilmod-aleph-beth.com/comparison-of-hebrew-and-english-alphabets/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140756-2762-0139-0000-855d2e2ae169:3"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Hebrew Alphabet Chart (Alef-Bet) – OBR",
+                  "url": "https://oregonboardofrabbis.org/hebrew-alphabet-chart-alef-bet/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140756-2762-0139-0000-855d2e2ae169:4"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Hebrew Letter Charts",
+                  "url": "https://hebrewresources.com/hebrew-letter-charts/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140756-2762-0139-0000-855d2e2ae169:5"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Hebrew Alphabet Chart: Learn Each of the Hebrew Letters - B ...",
+                  "url": "https://bnaimitzvahacademy.com/hebrew-alphabet-chart-learn-hebrew-letters/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140756-2762-0139-0000-855d2e2ae169:6"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Hebrew alphabet chart featuring characters with Romanized ...",
+                  "url": "https://www.alamy.com/hebrew-alphabet-chart-featuring-characters-with-romanized-transliteration-image619939851.html",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140756-2762-0139-0000-855d2e2ae169:7"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Hebrew Alphabet Chart: Evolution from Pictograph to Greek | AHRC",
+                  "url": "https://www.ancient-hebrew.org/alphabet/hebrew-alphabet-chart.htm",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140756-2762-0139-0000-855d2e2ae169:8"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "The Hebrew Alphabet - Biblical, Print and Cursive styles",
+                  "url": "https://www.hebrewworld.com/ab.html",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140756-2762-0139-0000-855d2e2ae169:9"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "The Hebrew Alphabet",
+                  "url": "https://www.hebrew4christians.com/Grammar/Unit_One/Aleph-Bet/aleph-bet.html",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140756-2762-0139-0000-855d2e2ae169:10"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Biblical Hebrew Alphabet Chart: Sephardic Pronunciation Laminated [1.0 mm]",
+                  "url": "https://www.ebay.com/itm/154679954117",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140756-2762-0139-0000-855d2e2ae169:11"
+                }
+              ],
+              "related_image_searches": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[4]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is the order of Hebrew letters?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[4]/div[1]/div[2]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How do you pronounce the Hebrew letter \"Aleph\"?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[4]/div[1]/div[2]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Is Hebrew related to Arabic?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[4]/div[1]/div[2]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Do Yiddish and Hebrew use the same alphabet?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[4]/div[1]/div[2]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.jewfaq.org",
+              "title": "Hebrew Alphabet - Judaism 101 (JewFAQ)",
+              "url": "https://www.jewfaq.org/hebrew_alphabet",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.jewfaq.org",
+              "website_name": "JewFAQ",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "The Hebrew and Yiddish languages use a different alphabet than English. The picture below illustrates the Hebrew alphabet, in Hebrew alphabetical order. Note ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": [
+                "hebrew alphabet",
+                "hebrew alphabet",
+                "hebrew alphabet",
+                "hebrew alphabet",
+                "hebrew alphabet chart",
+                "hebrew alphabet chart",
+                "hebrew alphabet",
+                "hebrew alphabet"
+              ],
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.bradcopp.com",
+              "title": "Hebrew Alphabet Chart",
+              "url": "http://www.bradcopp.com/PTH223/hebchart.pdf",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "http://www.bradcopp.com",
+              "website_name": "bradcopp.com",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_image"
+              ],
+              "description": "The Hebrew alphabet has 22 consonants (f and v count as 1). Six consonants at one time had alternate pronunciations with a dot (called “dagesh”).",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": null,
+                  "url": "http://www.bradcopp.com/PTH223/hebchart.pdf",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSiYTDVoZtU5oJgmMIemp9uOVdLGLbmRFtV52fBSFcFeWxxQ&s"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": [
+                "hebrew alphabet",
+                "hebrew alphabet",
+                "hebrew alphabet",
+                "hebrew alphabet",
+                "hebrew alphabet chart",
+                "hebrew alphabet chart",
+                "hebrew alphabet",
+                "hebrew alphabet"
+              ],
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.pinterest.com",
+              "title": "Hebrew Alphabet Chart",
+              "url": "https://www.pinterest.com/ideas/hebrew-alphabet-chart/927399808981/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.pinterest.com",
+              "website_name": "Pinterest",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Discover Pinterest's best ideas and inspiration for Hebrew alphabet chart. Learn Each Letter Easily | Hebrew alphabet chart printable,",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Hebrew alphabet chart"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": [
+                "hebrew alphabet",
+                "hebrew alphabet",
+                "hebrew alphabet",
+                "hebrew alphabet",
+                "hebrew alphabet chart",
+                "hebrew alphabet chart",
+                "hebrew alphabet",
+                "hebrew alphabet"
+              ],
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[12]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "bencrowder.net",
+              "title": "Hebrew Alphabet",
+              "url": "https://bencrowder.net/hebrew-alphabet/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://bencrowder.net",
+              "website_name": "Ben Crowder",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_image"
+              ],
+              "description": "For learning the Hebrew alphabet. The graded worksheet gradually introduces new characters over the course of the worksheet, hopefully making it easier for you ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "hebrew alphabet chart from bencrowder.net",
+                  "url": "https://bencrowder.net/hebrew-alphabet/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3tTaCA36blub-Jgeysf2mhGiOq71aRjxZWTfYwAOhmZ6GdtLYZdG4Pk4&usqp=CAE&s"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "For learning the Hebrew alphabet"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.easylearnhebrew.com",
+              "title": "Hebrew Alphabet Chart: A Complete Guide for Beginners",
+              "url": "https://www.easylearnhebrew.com/blog/hebrew-alphabet-chart-a-complete-guide-for-beginners/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.easylearnhebrew.com",
+              "website_name": "Easy Learn Hebrew",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Sep 25, 2024 — The Hebrew alphabet consists of 22 letters, all of which are consonants. Unlike the English alphabet, Hebrew does not have upper or lower case ...",
+              "pre_snippet": "09/25/2024 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "The Hebrew alphabet consists of 22 letters"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-09-25 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[16]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.pinterest.com",
+              "title": "Hebrew-Language.com: The Alef-Bet",
+              "url": "https://www.pinterest.com/pin/611645193135144399/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.pinterest.com",
+              "website_name": "Pinterest",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Aug 23, 2020 — Printable Hebrew alphabet charts which include the Hebrew letters in three formats: block, script, and Rashi.",
+              "pre_snippet": "08/23/2020 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Printable Hebrew alphabet charts"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2020-08-23 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[18]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "study.com",
+              "title": "Hebrew Alphabet History, Letters & Chart",
+              "url": "https://study.com/academy/lesson/hebrew-alphabet-overview-chart.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://study.com",
+              "website_name": "Study.com",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "What are the 22 Hebrew letters? The twenty-two Hebrew letters are: Alef, Bet, Gimel, Dalet, Heh, Vav, Zayin, Khet, Tet, Yud, Kaf, Lamed, Mem, Nun, Samekh, Ayin, ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Alef, Bet, Gimel, Dalet, Heh, Vav, Zayin, Khet, Tet, Yud, Kaf, Lamed, Mem, Nun, Samekh, Ayin"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[4]/div[1]/div[3]/div[1]",
+              "title": "People also search for",
+              "items": [
+                "Hebrew alphabet chart pdf",
+                "Hebrew alphabet chart printable",
+                "Hebrew alphabet chart with English",
+                "Hebrew alphabet a to z"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

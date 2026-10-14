@@ -1,0 +1,902 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "3.5698 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10140758-2762-0139-0000-9399144e8c1e",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "3.5155 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "hebrew root system",
+        "device": "mobile",
+        "os": "android",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "hebrew root system",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=hebrew%20root%20system&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-10-14 07:58:17 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "images",
+            "organic",
+            "people_also_ask",
+            "people_also_search"
+          ],
+          "se_results_count": 0,
+          "pages_count": 1,
+          "items_count": 12,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": false,
+              "markdown": "![Understanding Hebrew vocabulary through roots and biblical ...](https://api.dataforseo.com/cdn/i/10140758-2762-0139-0000-9399144e8c1e:4)\nThe Hebrew root system (*shoresh* , or שוֹרֶשׁ) is `a core linguistic structure where almost all verbs, nouns, and adjectives grow from a basic foundation of three (and occasionally two or four) consonants`.[[1]](https://www.hebrewversity.com/hebrew-roots-general-overview/)[[2]](https://rosenhebrewschool.com/articles/the-root-of-the-hebrew-language/)[[3]](https://talkinhebrew.com/hebrew-root-system/)\n\n### How the Root Works\n\n- **The Triliteral Root:** Most Hebrew words are built from a three-consonant core that carries a fundamental semantic concept.[[1]](https://rosenhebrewschool.com/articles/the-root-of-the-hebrew-language/)[[2]](https://www.hebrewversity.com/hebrew-roots-general-overview/)\n- **Vowels and Patterns:** Vowels are inserted around and between these consonants, and prefixes or suffixes are attached to shape different parts of speech (verbs, nouns, adjectives).[[1]](https://web.fairyland.org/143556/7Y464C6179/TXT/hebrew-roots_101__the__basics.pdf)[[2]](https://www.hebrewversity.com/hebrew-roots-general-overview/)[[3]](https://www.jewfaq.org/hebrew_root_words)\n- **Word Families:** Because related words share the same root letters, you can visually and audibly recognize family connections across the vocabulary.[[1]](https://www.cfmcorner.com/hebrew/07-root-system/)[[2]](https://www.cfmcorner.com/charts/hebrew_root_system.html)\n\n### Example: The Root **כ. ת. ב** (k.t.v)\nThis root relates generally to the concept of **writing**:[[1]](https://www.hebrewversity.com/hebrew-roots-general-overview/)[[2]](https://web.fairyland.org/143556/7Y464C6179/TXT/hebrew-roots_101__the__basics.pdf)\n\n- **כתב** (*katav* ) — \"he wrote\" (verb)\n- **כתיבה** (*ktivah* ) — \"writing\" (noun)\n- **מכתב** (*michtav* ) — \"letter\" (noun)\n- **כתובת** (*ktovet* ) — \"address\" (noun)\n- **כתוב** (*katuv* ) — \"written\" (adjective)[[1]](https://www.hebrewversity.com/hebrew-roots-general-overview/)\n\n### Verb Stems (*Binyanim*)\nWhen dealing with verbs, the three root letters are placed into one of seven active or passive grammatical patterns called *binyanim* (בניינים), which modify how the action is performed, such as reflexive, causative, or intensive forms. As noted by users on [Reddit](https://www.reddit.com/r/hebrew/comments/1ix0bdb/eli5_hebrew_verb_roots/) , Hebrew verbs derive their core action directly through these structured root and binyan frameworks.[[1]](https://www.reddit.com/r/hebrew/comments/1ix0bdb/eli5_hebrew_verb_roots/)[[2]](https://www.hebrewversity.com/hebrew-roots-general-overview/)[[3]](https://www.youtube.com/watch?v=UNOCg8pXmdQ)Would you like to explore **a specific root** in detail, or learn more about how **binyanim (verb stems)** change a root's meaning?",
+              "items": [
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "The Hebrew root system (shoresh, or שוֹרֶשׁ) is a core linguistic structure where almost all verbs, nouns, and adjectives grow from a basic foundation of three (and occasionally two or four) consonants.",
+                  "markdown": "![Understanding Hebrew vocabulary through roots and biblical ...](https://api.dataforseo.com/cdn/i/10140758-2762-0139-0000-9399144e8c1e:2)\nThe Hebrew root system (*shoresh* , or שוֹרֶשׁ) is `a core linguistic structure where almost all verbs, nouns, and adjectives grow from a basic foundation of three (and occasionally two or four) consonants`.[[1]](https://www.hebrewversity.com/hebrew-roots-general-overview/)[[2]](https://rosenhebrewschool.com/articles/the-root-of-the-hebrew-language/)[[3]](https://talkinhebrew.com/hebrew-root-system/)",
+                  "links": null,
+                  "images": [
+                    {
+                      "type": "images_element",
+                      "alt": "Understanding Hebrew vocabulary through roots and biblical ...",
+                      "url": null,
+                      "image_url": "https://api.dataforseo.com/cdn/i/10140758-2762-0139-0000-9399144e8c1e:3"
+                    }
+                  ],
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Hebrewversity",
+                      "domain": "www.hebrewversity.com",
+                      "url": "https://www.hebrewversity.com/hebrew-roots-general-overview/",
+                      "title": "Hebrew Roots - General Overview - hebrewversity",
+                      "text": "Hebrew Roots – General Overview * כ. ת. ב (k.t.v) – relates to writing. * ש. מ. ר (sh. m.r) – relates to guarding or keeping. * א. ה. ב (a.h.v) – relates to lov..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Rosen School of Hebrew",
+                      "domain": "rosenhebrewschool.com",
+                      "url": "https://rosenhebrewschool.com/articles/the-root-of-the-hebrew-language/",
+                      "title": "The Root Of The Hebrew Language",
+                      "text": "The Root Of The Hebrew Language * Like all Semitic languages, the Hebrew language exhibits a pattern of stems consisting typically of “trilateral”, or 3-consona..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "talkinhebrew.com",
+                      "domain": "talkinhebrew.com",
+                      "url": "https://talkinhebrew.com/hebrew-root-system/",
+                      "title": "The Hebrew Root System (Shoresh)",
+                      "text": "Table of Contents: * What is a shoresh in Hebrew? The word shoresh (שורש) literally translates to “root” in English. Think of a tree: the root is buried undergr..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "How the Root Works",
+                  "text": "The Triliteral Root: Most Hebrew words are built from a three-consonant core that carries a fundamental semantic concept. Vowels and Patterns: Vowels are inserted around and between these consonants, and prefixes or suffixes are attached to shape different parts of speech (verbs, nouns, adjectives). Word Families: Because related words share the same root letters, you can visually and audibly recognize family connections across the vocabulary.",
+                  "markdown": "- **The Triliteral Root:** Most Hebrew words are built from a three-consonant core that carries a fundamental semantic concept.[[1]](https://rosenhebrewschool.com/articles/the-root-of-the-hebrew-language/)[[2]](https://www.hebrewversity.com/hebrew-roots-general-overview/)\n- **Vowels and Patterns:** Vowels are inserted around and between these consonants, and prefixes or suffixes are attached to shape different parts of speech (verbs, nouns, adjectives).[[1]](https://web.fairyland.org/143556/7Y464C6179/TXT/hebrew-roots_101__the__basics.pdf)[[2]](https://www.hebrewversity.com/hebrew-roots-general-overview/)[[3]](https://www.jewfaq.org/hebrew_root_words)\n- **Word Families:** Because related words share the same root letters, you can visually and audibly recognize family connections across the vocabulary.[[1]](https://www.cfmcorner.com/hebrew/07-root-system/)[[2]](https://www.cfmcorner.com/charts/hebrew_root_system.html)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Rosen School of Hebrew",
+                      "domain": "rosenhebrewschool.com",
+                      "url": "https://rosenhebrewschool.com/articles/the-root-of-the-hebrew-language/",
+                      "title": "The Root Of The Hebrew Language",
+                      "text": "The Root Of The Hebrew Language * Like all Semitic languages, the Hebrew language exhibits a pattern of stems consisting typically of “trilateral”, or 3-consona..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Hebrewversity",
+                      "domain": "www.hebrewversity.com",
+                      "url": "https://www.hebrewversity.com/hebrew-roots-general-overview/",
+                      "title": "Hebrew Roots - General Overview - hebrewversity",
+                      "text": "Hebrew Roots – General Overview * כ. ת. ב (k.t.v) – relates to writing. * ש. מ. ר (sh. m.r) – relates to guarding or keeping. * א. ה. ב (a.h.v) – relates to lov..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Children's Fairyland",
+                      "domain": "web.fairyland.org",
+                      "url": "https://web.fairyland.org/143556/7Y464C6179/TXT/hebrew-roots_101__the__basics.pdf",
+                      "title": "Hebrew Roots 101 The Basics",
+                      "text": "System The cornerstone of Hebrew vocabulary is its three-consonant root system (שרוש - *shoresh*). Almost every Hebrew word is built upon a foundation of three ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "JewFAQ",
+                      "domain": "www.jewfaq.org",
+                      "url": "https://www.jewfaq.org/hebrew_root_words",
+                      "title": "Hebrew Language: Root Words - Judaism 101 (JewFAQ)",
+                      "text": "Hebrew words are formed from roots by changing vowels and by adding a wealth of prefixes and suffixes to that root. Prefixes can be prepositions (in, on, of, to..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Come Follow Me Corner",
+                      "domain": "www.cfmcorner.com",
+                      "url": "https://www.cfmcorner.com/hebrew/07-root-system/",
+                      "title": "The Root System | Come Follow Me Corner",
+                      "text": "Hebrew works differently. Almost every Hebrew word is built from a cluster of three consonants that carry a core meaning. These three letters are the root. By c..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Come Follow Me Corner",
+                      "domain": "www.cfmcorner.com",
+                      "url": "https://www.cfmcorner.com/charts/hebrew_root_system.html",
+                      "title": "The Hebrew Root System (שֹׁרֶשׁ) | CFM Corner",
+                      "text": "What Is a Root ( שֹׁרֶשׁ , Shoresh)? Here's the single most important insight for understanding Biblical Hebrew: almost every Hebrew word is built from a three-"
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Example: The Root כ. ת. ב (k.t.v)",
+                  "text": "This root relates generally to the concept of writing :",
+                  "markdown": "This root relates generally to the concept of **writing**:[[1]](https://www.hebrewversity.com/hebrew-roots-general-overview/)[[2]](https://web.fairyland.org/143556/7Y464C6179/TXT/hebrew-roots_101__the__basics.pdf)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Hebrewversity",
+                      "domain": "www.hebrewversity.com",
+                      "url": "https://www.hebrewversity.com/hebrew-roots-general-overview/",
+                      "title": "Hebrew Roots - General Overview - hebrewversity",
+                      "text": "Hebrew Roots – General Overview * כ. ת. ב (k.t.v) – relates to writing. * ש. מ. ר (sh. m.r) – relates to guarding or keeping. * א. ה. ב (a.h.v) – relates to lov..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Children's Fairyland",
+                      "domain": "web.fairyland.org",
+                      "url": "https://web.fairyland.org/143556/7Y464C6179/TXT/hebrew-roots_101__the__basics.pdf",
+                      "title": "Hebrew Roots 101 The Basics",
+                      "text": "System The cornerstone of Hebrew vocabulary is its three-consonant root system (שרוש - *shoresh*). Almost every Hebrew word is built upon a foundation of three ..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "כתב (katav) — \"he wrote\" (verb) כתיבה (ktivah) — \"writing\" (noun) מכתב (michtav) — \"letter\" (noun) כתובת (ktovet) — \"address\" (noun) כתוב (katuv) — \"written\" (adjective)",
+                  "markdown": "- **כתב** (*katav* ) — \"he wrote\" (verb)\n- **כתיבה** (*ktivah* ) — \"writing\" (noun)\n- **מכתב** (*michtav* ) — \"letter\" (noun)\n- **כתובת** (*ktovet* ) — \"address\" (noun)\n- **כתוב** (*katuv* ) — \"written\" (adjective)[[1]](https://www.hebrewversity.com/hebrew-roots-general-overview/)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Hebrewversity",
+                      "domain": "www.hebrewversity.com",
+                      "url": "https://www.hebrewversity.com/hebrew-roots-general-overview/",
+                      "title": "Hebrew Roots - General Overview - hebrewversity",
+                      "text": "Hebrew Roots – General Overview * כ. ת. ב (k.t.v) – relates to writing. * ש. מ. ר (sh. m.r) – relates to guarding or keeping. * א. ה. ב (a.h.v) – relates to lov..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Verb Stems (Binyanim)",
+                  "text": "When dealing with verbs, the three root letters are placed into one of seven active or passive grammatical patterns called binyanim (בניינים), which modify how the action is performed, such as reflexive, causative, or intensive forms. As noted by users on Reddit, Hebrew verbs derive their core action directly through these structured root and binyan frameworks.",
+                  "markdown": "When dealing with verbs, the three root letters are placed into one of seven active or passive grammatical patterns called *binyanim* (בניינים), which modify how the action is performed, such as reflexive, causative, or intensive forms. As noted by users on [Reddit](https://www.reddit.com/r/hebrew/comments/1ix0bdb/eli5_hebrew_verb_roots/) , Hebrew verbs derive their core action directly through these structured root and binyan frameworks.[[1]](https://www.reddit.com/r/hebrew/comments/1ix0bdb/eli5_hebrew_verb_roots/)[[2]](https://www.hebrewversity.com/hebrew-roots-general-overview/)[[3]](https://www.youtube.com/watch?v=UNOCg8pXmdQ)",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Reddit",
+                      "description": null,
+                      "url": "https://www.reddit.com/r/hebrew/comments/1ix0bdb/eli5_hebrew_verb_roots/",
+                      "domain": "www.reddit.com"
+                    }
+                  ],
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Reddit",
+                      "domain": "www.reddit.com",
+                      "url": "https://www.reddit.com/r/hebrew/comments/1ix0bdb/eli5_hebrew_verb_roots/",
+                      "title": "ELI5: Hebrew verb roots : r/hebrew - Reddit",
+                      "text": "Hebrew Verb Formation: Hebrew verbs are created by using root letters within structures called Binyanim."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Hebrewversity",
+                      "domain": "www.hebrewversity.com",
+                      "url": "https://www.hebrewversity.com/hebrew-roots-general-overview/",
+                      "title": "Hebrew Roots - General Overview - hebrewversity",
+                      "text": "Hebrew Roots – General Overview * כ. ת. ב (k.t.v) – relates to writing. * ש. מ. ר (sh. m.r) – relates to guarding or keeping. * א. ה. ב (a.h.v) – relates to lov..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=UNOCg8pXmdQ",
+                      "title": "YouTube",
+                      "text": "I'd say not a hundred times easier probably like a thousand times easier than it used to be. and so we are tackling one of the most important lessons and topics..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Would you like to explore a specific root in detail, or learn more about how binyanim (verb stems) change a root's meaning?",
+                  "markdown": "Would you like to explore **a specific root** in detail, or learn more about how **binyanim (verb stems)** change a root's meaning?",
+                  "links": null,
+                  "images": null,
+                  "references": null
+                }
+              ],
+              "references": [
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Reddit",
+                  "domain": "www.reddit.com",
+                  "url": "https://www.reddit.com/r/hebrew/comments/1ix0bdb/eli5_hebrew_verb_roots/",
+                  "title": "ELI5: Hebrew verb roots : r/hebrew - Reddit",
+                  "text": "Hebrew Verb Formation: Hebrew verbs are created by using root letters within structures called Binyanim."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Hebrewversity",
+                  "domain": "www.hebrewversity.com",
+                  "url": "https://www.hebrewversity.com/hebrew-roots-general-overview/",
+                  "title": "Hebrew Roots - General Overview - hebrewversity",
+                  "text": "Hebrew Roots – General Overview * כ. ת. ב (k.t.v) – relates to writing. * ש. מ. ר (sh. m.r) – relates to guarding or keeping. * א. ה. ב (a.h.v) – relates to lov..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Come Follow Me Corner",
+                  "domain": "www.cfmcorner.com",
+                  "url": "https://www.cfmcorner.com/hebrew/07-root-system/",
+                  "title": "The Root System | Come Follow Me Corner",
+                  "text": "Hebrew works differently. Almost every Hebrew word is built from a cluster of three consonants that carry a core meaning. These three letters are the root. By c..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Come Follow Me Corner",
+                  "domain": "www.cfmcorner.com",
+                  "url": "https://www.cfmcorner.com/charts/hebrew_root_system.html",
+                  "title": "The Hebrew Root System (שֹׁרֶשׁ) | CFM Corner",
+                  "text": "What Is a Root ( שֹׁרֶשׁ , Shoresh)? Here's the single most important insight for understanding Biblical Hebrew: almost every Hebrew word is built from a three-"
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Children's Fairyland",
+                  "domain": "web.fairyland.org",
+                  "url": "https://web.fairyland.org/143556/7Y464C6179/TXT/hebrew-roots_101__the__basics.pdf",
+                  "title": "Hebrew Roots 101 The Basics",
+                  "text": "System The cornerstone of Hebrew vocabulary is its three-consonant root system (שרוש - *shoresh*). Almost every Hebrew word is built upon a foundation of three ..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "talkinhebrew.com",
+                  "domain": "talkinhebrew.com",
+                  "url": "https://talkinhebrew.com/hebrew-root-system/",
+                  "title": "The Hebrew Root System (Shoresh)",
+                  "text": "Table of Contents: * What is a shoresh in Hebrew? The word shoresh (שורש) literally translates to “root” in English. Think of a tree: the root is buried undergr..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "JewFAQ",
+                  "domain": "www.jewfaq.org",
+                  "url": "https://www.jewfaq.org/hebrew_root_words",
+                  "title": "Hebrew Language: Root Words - Judaism 101 (JewFAQ)",
+                  "text": "Hebrew words are formed from roots by changing vowels and by adding a wealth of prefixes and suffixes to that root. Prefixes can be prepositions (in, on, of, to..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "YouTube",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/watch?v=UNOCg8pXmdQ",
+                  "title": "YouTube",
+                  "text": "I'd say not a hundred times easier probably like a thousand times easier than it used to be. and so we are tackling one of the most important lessons and topics..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Rosen School of Hebrew",
+                  "domain": "rosenhebrewschool.com",
+                  "url": "https://rosenhebrewschool.com/articles/the-root-of-the-hebrew-language/",
+                  "title": "The Root Of The Hebrew Language",
+                  "text": "The Root Of The Hebrew Language * Like all Semitic languages, the Hebrew language exhibits a pattern of stems consisting typically of “trilateral”, or 3-consona..."
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "images",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[3]",
+              "title": "Images",
+              "url": null,
+              "items": [
+                {
+                  "type": "images_element",
+                  "alt": "The Root System of Hebrew Words | AHRC",
+                  "url": "https://www.ancient-hebrew.org/roots-words/root-system-of-hebrew-words.htm",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140758-2762-0139-0000-9399144e8c1e:5"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Introduction to the Hebrew Verbal System",
+                  "url": "https://hebrew4christians.com/Grammar/Unit_Nine/Introduction/introduction.html",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140758-2762-0139-0000-9399144e8c1e:6"
+                }
+              ],
+              "related_image_searches": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "Recommendations for learning about roots of Hebrew words : r/Judaism",
+              "url": "https://www.reddit.com/r/Judaism/comments/uvacbv/recommendations_for_learning_about_roots_of/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "10+ comments",
+              "website_name": "Reddit · r/Judaism",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "The best source imo is the maskilon dictionary If Hebrew verb roots. most Hebrew words come from 3 letter roots that form the basis of all verbs ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "most Hebrew words come from 3 letter roots"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": [
+                "hebrew root",
+                "hebrew word roots",
+                "hebrew",
+                "how many hebrew root",
+                "hebrew",
+                "hebrew",
+                "hebrew",
+                "hebrew"
+              ],
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2022-10-14 07:58:15 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What language is Hebrew descended from?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]/div[2]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What are 10 root words?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]/div[2]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Does the Hebrew Roots movement believe in the Trinity?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]/div[2]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is a shoresh?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[7]/div[1]/div[2]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "theicenter.org",
+              "title": "Etymology of Modern Hebrew Words",
+              "url": "https://theicenter.org/icenter_resources/etymology-of-modern-hebrew-words/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://theicenter.org",
+              "website_name": "The iCenter",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Almost all Hebrew words are built upon root letters called a shoresh (שורש, “root”), and are formed in such ways where small manipulations can create ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": [
+                "hebrew root",
+                "hebrew word roots",
+                "hebrew",
+                "how many hebrew root",
+                "hebrew",
+                "hebrew",
+                "hebrew",
+                "hebrew"
+              ],
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.facebook.com",
+              "title": "Understanding Hebrew vocabulary through roots and biblical context",
+              "url": "https://www.facebook.com/groups/1687348774926200/posts/3854043198256736/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "20+ comments",
+              "website_name": "Facebook · Free Hebrew Class",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_image"
+              ],
+              "description": "The root (shoresh) helps you understand the word. Look for the root first. This is an intermediate level post for students building vocabularies.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "hebrew root system from www.facebook.com",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3854043198256736/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2bb2v_JovuvNIUYefqhighzIcSg4285HL3IFZDIF7icmbfncotb_A9ao&usqp=CAE&s"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "I've heard that Pidyon Haben is the ceremony of redemption of the first born son. In Temple times, this ceremony was done by a woman because a man might ...",
+                  "description": "Top answer · 1 vote",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3854043198256736/",
+                  "domain": "www.facebook.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-10-14 07:58:15 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[12]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Why 4-Letter Hebrew Roots Are Easier Than You Think (With Free PDF!)",
+              "url": "https://www.youtube.com/watch?v=Q_H9ayhiINo",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "350+ views",
+              "website_name": "YouTube · Hebrew Verbs",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Think 4-letter Hebrew roots are hard to read or pronounce? Think again! In this video, I explain why these roots are surprisingly easy once ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "7:57",
+                  "description": null,
+                  "url": "https://www.youtube.com/watch?v=Q_H9ayhiINo",
+                  "domain": "www.youtube.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-10-14 07:58:15 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "blogs.transparent.com",
+              "title": "Roots and Patterns | Hebrew Language Blog",
+              "url": "https://blogs.transparent.com/hebrew/roots-and-patterns/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://blogs.transparent.com",
+              "website_name": "Transparent Language",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "May 29, 2012 — They use roots and patterns (called מִשְׁקָלִים. Most often, a root consists of three consonant letters. is a very powerful tool in learning Hebrew. ...",
+              "pre_snippet": "05/29/2012 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "They use roots and patterns"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2012-05-29 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[16]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "talkpal.ai",
+              "title": "What is the root system in Hebrew?",
+              "url": "https://talkpal.ai/culture/what-is-the-root-system-in-hebrew/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://talkpal.ai",
+              "website_name": "Talkpal AI",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "The Hebrew language is structured around a system of roots, known in Hebrew as “shorashim” (שורשים). These roots are typically composed of three consonants,",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.7,
+                "votes_count": 79700,
+                "rating_max": 5
+              },
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[18]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.facebook.com",
+              "title": "Exploring Hebrew Root Words and Their Meanings",
+              "url": "https://www.facebook.com/groups/1687348774926200/posts/3819861418341581/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "10+ comments",
+              "website_name": "Facebook · Free Hebrew Class",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_image"
+              ],
+              "description": "Link to a dictionary of Hebrew root words. I would bookmark it. https://en.wiktionary.org/wiki/Category:Hebrew_3-letter_roots",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "hebrew root system from www.facebook.com",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3819861418341581/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQubnZjttiBKfSqa0vfLPentDt0xcLAhNd06HgAHlK2UA&usqp=CAE&s"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Would you write \"from the ground\" as \nמהאדמה\n?",
+                  "description": "Top answer · 3 votes",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3819861418341581/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Thank you so much, we miss these things in English, that is why I am trying to learn Hebrew",
+                  "description": "3 votes",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3819861418341581/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "And the word for blood is דם (dam). This is a beautiful language.",
+                  "description": "2 votes",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3819861418341581/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "https://en.wiktionary.org/wiki/Category:Hebrew_3-l ...",
+                  "description": "2 votes",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3819861418341581/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Y DAM es sangre en hebreo",
+                  "description": "1 vote",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3819861418341581/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Please explain how suffix this ה forms its ground by adding it to אדם.... אדמה?",
+                  "description": "1 vote",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3819861418341581/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Man created from red earth",
+                  "description": "1 vote",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3819861418341581/",
+                  "domain": "www.facebook.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "It seems that “red/ground/man” must also be related to “דם” “dawm” “blood”.",
+                  "description": "1 vote",
+                  "url": "https://www.facebook.com/groups/1687348774926200/posts/3819861418341581/",
+                  "domain": "www.facebook.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-10-14 07:58:15 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[20]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.quora.com",
+              "title": "How do you find Hebrew root words?",
+              "url": "https://www.quora.com/How-do-you-find-Hebrew-root-words",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "30+ answers",
+              "website_name": "Quora",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "How do you find Hebrew root words?",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "I don't think you \"find\" them. You LEARN them.\n\nI'm learning them from my textbook and my teacher, but I think (if memory serves from when I learned ...",
+                  "description": "Top answer · 1 vote",
+                  "url": "https://www.quora.com/How-do-you-find-Hebrew-root-words?top_ans=357644356",
+                  "domain": "www.quora.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2022-10-14 07:58:15 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[12]/div[3]/div[1]/div[1]/div[22]",
+              "title": "People also search for",
+              "items": [
+                "Hebrew root system meaning",
+                "Hebrew root words PDF",
+                "Hebrew word roots dictionary",
+                "Hebrew shoresh list",
+                "How many Hebrew root words are there",
+                "Hebrew etymology"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

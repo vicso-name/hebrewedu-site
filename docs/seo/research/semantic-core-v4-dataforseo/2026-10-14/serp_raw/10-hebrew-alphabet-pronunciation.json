@@ -1,0 +1,772 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "3.7585 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10140757-2762-0139-0000-d23a9583224e",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "3.6814 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "hebrew alphabet pronunciation",
+        "device": "mobile",
+        "os": "android",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "hebrew alphabet pronunciation",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=hebrew%20alphabet%20pronunciation&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-10-14 07:57:43 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "video",
+            "images",
+            "organic",
+            "people_also_ask",
+            "people_also_search"
+          ],
+          "se_results_count": 0,
+          "pages_count": 1,
+          "items_count": 13,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": false,
+              "markdown": "![Hebrew Alphabet Wall Poster With Letters&#39; Pronunciation ...](https://api.dataforseo.com/cdn/i/10140757-2762-0139-0000-d23a9583224e:4)\nThe Hebrew alphabet (the *Alef-Bet* ) has **22 consonant letters** , reads from **right to left** , and traditionally uses vowel marks called **nikkud** (dots and dashes) to guide pronunciation , though modern Hebrew is mostly written without them.[[1]](https://en.wikipedia.org/wiki/Hebrew_alphabet)[[2]](https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html)\n\nYou can explore full interactive pronunciation charts at [AlephBet](https://learnhebrewalphabet.com/sounds/) or check out guides via [Dictionary.co.il](https://dictionary.co.il/pronunciation_guide.php).[[1]](https://learnhebrewalphabet.com/sounds/)[[2]](https://dictionary.co.il/pronunciation_guide.php)\n\n\n\n---\n\n### Core Letter Pronunciations (Modern Israeli Standard)\n| Letter | Name | Pronunciation / Sound Guide |\n|---|---|---|\n| **א** | Alef | Silent (takes the sound of its vowel) |\n| **ב** | Bet / Vet | \"b\" as in boy (with dot) / \"v\" as in vine (without dot) |\n| **ג** | Gimel | \"g\" as in go |\n| **ד** | Dalet | \"d\" as in dog |\n| **ה** | Hey | \"h\" as in hat |\n| **ו** | Vav | \"v\" as in vine, or acts as \"o\"/\"u\" vowel |\n| **ז** | Zayin | \"z\" as in zebra |\n| **ח** | Chet | Guttural \"ch\" (throat clearing sound like German *Bach*) |\n| **ט** | Tet | \"t\" as in top |\n| **י** | Yod | \"y\" as in yes |\n| **כ / ך** | Kaf / Final Kaf | \"k\" as in king / \"kh\" guttural at the end of a word |\n| **ל** | Lamed | \"l\" as in lamp |\n| **מ / ם** | Mem / Final Mem | \"m\" as in moon |\n| **נ / ן** | Nun / Final Nun | \"n\" as in nice |\n| **ס** | Samech | \"s\" as in sun |\n| **ע** | Ayin | Often silent or a glottal stop |\n| **פ / ף** | Pe / Final Pe | \"p\" as in pen / \"f\" as in fish |\n| **צ / ץ** | Tsadi / Final Tsadi | \"ts\" as in cats |\n| **ק** | Qof | \"k\" as in king |\n| **ר** | Resh | Hebrew \"r\" (often made in the back of the throat/mouth) |\n| **ש** | Shin / Sin | \"sh\" as in ship / \"s\" as in sun |\n| **ת** | Tav | \"t\" as in top |\n\n\n\n---\n\n### Key Rules to Keep in Mind\n\n- **Final Letters (Sofit):** Five letters (*Kaf, Mem, Nun, Pe, Tsadi* ) change their shape when they appear at the very end of a word, though their base sound stays the same.\n- **The Dagesh:** A dot inside certain letters (like Bet, Kaf, and Pe) hardens or alters their sound (e.g., *v* becomes *b*).\n- **Vowels:** Written Hebrew primarily relies on consonants; vowel points (*nikkud* ) are mostly used in poetry, children's books, prayers, and beginner texts.[[1]](https://www.youtube.com/watch?v=Ekc3lIVdHEU)[[2]](https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html)[[3]](https://www.chabad.org/library/article_cdo/aid/4069287/jewish/The-Hebrew-Alphabet.htm)[[4]](https://www.youtube.com/watch?v=ZnZ3tj4l43Y&t=520)\n\nWould you like to practice **pronouncing specific Hebrew words** , or focus on the **vowel system (nikkud)** next?",
+              "items": [
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "The Hebrew alphabet (the Alef-Bet) has 22 consonant letters, reads from right to left, and traditionally uses vowel marks called nikkud (dots and dashes) to guide pronunciation, though modern Hebrew is mostly written without them.",
+                  "markdown": "![Hebrew Alphabet Wall Poster With Letters&#39; Pronunciation ...](https://api.dataforseo.com/cdn/i/10140757-2762-0139-0000-d23a9583224e:2)\nThe Hebrew alphabet (the *Alef-Bet* ) has **22 consonant letters** , reads from **right to left** , and traditionally uses vowel marks called **nikkud** (dots and dashes) to guide pronunciation , though modern Hebrew is mostly written without them.[[1]](https://en.wikipedia.org/wiki/Hebrew_alphabet)[[2]](https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html)",
+                  "links": null,
+                  "images": [
+                    {
+                      "type": "images_element",
+                      "alt": "Hebrew Alphabet Wall Poster With Letters' Pronunciation ...",
+                      "url": null,
+                      "image_url": "https://api.dataforseo.com/cdn/i/10140757-2762-0139-0000-d23a9583224e:3"
+                    }
+                  ],
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Wikipedia",
+                      "domain": "en.wikipedia.org",
+                      "url": "https://en.wikipedia.org/wiki/Hebrew_alphabet",
+                      "title": "Hebrew alphabet - Wikipedia",
+                      "text": "Overview: Unicameral abjad script with 22 letters, written right-to-left, derived from Imperial Aramaic and Phoenician. Structure & Vowels: Five final word form..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Northwestern University",
+                      "domain": "mena-languages.northwestern.edu",
+                      "url": "https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html",
+                      "title": "The Hebrew Alphabet",
+                      "text": "The Hebrew alphabet consists of 22 letters, all consonants: Alef is the first letter of the Hebrew alphabet and Tav is the last. The Hebrew alphabet is often ca..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "You can explore full interactive pronunciation charts at AlephBet or check out guides via Dictionary.co.il.",
+                  "markdown": "You can explore full interactive pronunciation charts at [AlephBet](https://learnhebrewalphabet.com/sounds/) or check out guides via [Dictionary.co.il](https://dictionary.co.il/pronunciation_guide.php).[[1]](https://learnhebrewalphabet.com/sounds/)[[2]](https://dictionary.co.il/pronunciation_guide.php)",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "AlephBet",
+                      "description": null,
+                      "url": "https://learnhebrewalphabet.com/sounds/",
+                      "domain": "learnhebrewalphabet.com"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Dictionary.co.il",
+                      "description": null,
+                      "url": "https://dictionary.co.il/pronunciation_guide.php",
+                      "domain": "dictionary.co.il"
+                    }
+                  ],
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "learnhebrewalphabet.com",
+                      "domain": "learnhebrewalphabet.com",
+                      "url": "https://learnhebrewalphabet.com/sounds/",
+                      "title": "Hebrew Alphabet Pronunciation & Letter Sounds | AlephBet",
+                      "text": "Table_title: Hebrew Alphabet Pronunciation and Letter Sounds Table_content: | Print | Letter name | Sound guide | | --- | --- | --- | | ל | Lamedלָמֶד | \"l\" as ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "My Hebrew Dictionary",
+                      "domain": "dictionary.co.il",
+                      "url": "https://dictionary.co.il/pronunciation_guide.php",
+                      "title": "The Aleph Bet (Hebrew Alphabet) with Modern Hebrew Pronunciations",
+                      "text": "Pronunciation Standard: Modern Israeli Hebrew pronunciation utilized exclusively across all text and transliterations. Transliteration Conventions: Syllables se..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Core Letter Pronunciations (Modern Israeli Standard)",
+                  "text": "Letter Name Pronunciation / Sound Guide\nא Alef Silent (takes the sound of its vowel)\nב Bet / Vet \"b\" as in boy (with dot) / \"v\" as in vine (without dot)\nג Gimel \"g\" as in go\nד Dalet \"d\" as in dog\nה Hey \"h\" as in hat\nו Vav \"v\" as in vine, or acts as \"o\"/\"u\" vowel\nז Zayin \"z\" as in zebra\nח Chet Guttural \"ch\" (throat clearing sound like German Bach)\nט Tet \"t\" as in top\nי Yod \"y\" as in yes\nכ / ך Kaf / Final Kaf \"k\" as in king / \"kh\" guttural at the end of a word\nל Lamed \"l\" as in lamp\nמ / ם Mem / Final Mem \"m\" as in moon\nנ / ן Nun / Final Nun \"n\" as in nice\nס Samech \"s\" as in sun\nע Ayin Often silent or a glottal stop\nפ / ף Pe / Final Pe \"p\" as in pen / \"f\" as in fish\nצ / ץ Tsadi / Final Tsadi \"ts\" as in cats\nק Qof \"k\" as in king\nר Resh Hebrew \"r\" (often made in the back of the throat/mouth)\nש Shin / Sin \"sh\" as in ship / \"s\" as in sun\nת Tav \"t\" as in top",
+                  "markdown": "| Letter | Name | Pronunciation / Sound Guide |\n|---|---|---|\n| **א** | Alef | Silent (takes the sound of its vowel) |\n| **ב** | Bet / Vet | \"b\" as in boy (with dot) / \"v\" as in vine (without dot) |\n| **ג** | Gimel | \"g\" as in go |\n| **ד** | Dalet | \"d\" as in dog |\n| **ה** | Hey | \"h\" as in hat |\n| **ו** | Vav | \"v\" as in vine, or acts as \"o\"/\"u\" vowel |\n| **ז** | Zayin | \"z\" as in zebra |\n| **ח** | Chet | Guttural \"ch\" (throat clearing sound like German *Bach*) |\n| **ט** | Tet | \"t\" as in top |\n| **י** | Yod | \"y\" as in yes |\n| **כ / ך** | Kaf / Final Kaf | \"k\" as in king / \"kh\" guttural at the end of a word |\n| **ל** | Lamed | \"l\" as in lamp |\n| **מ / ם** | Mem / Final Mem | \"m\" as in moon |\n| **נ / ן** | Nun / Final Nun | \"n\" as in nice |\n| **ס** | Samech | \"s\" as in sun |\n| **ע** | Ayin | Often silent or a glottal stop |\n| **פ / ף** | Pe / Final Pe | \"p\" as in pen / \"f\" as in fish |\n| **צ / ץ** | Tsadi / Final Tsadi | \"ts\" as in cats |\n| **ק** | Qof | \"k\" as in king |\n| **ר** | Resh | Hebrew \"r\" (often made in the back of the throat/mouth) |\n| **ש** | Shin / Sin | \"sh\" as in ship / \"s\" as in sun |\n| **ת** | Tav | \"t\" as in top |",
+                  "links": null,
+                  "images": null,
+                  "references": null
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Key Rules to Keep in Mind",
+                  "text": "Final Letters (Sofit): Five letters (Kaf, Mem, Nun, Pe, Tsadi) change their shape when they appear at the very end of a word, though their base sound stays the same. The Dagesh: A dot inside certain letters (like Bet, Kaf, and Pe) hardens or alters their sound (e.g., v becomes b). Vowels: Written Hebrew primarily relies on consonants; vowel points (nikkud) are mostly used in poetry, children's books, prayers, and beginner texts.",
+                  "markdown": "- **Final Letters (Sofit):** Five letters (*Kaf, Mem, Nun, Pe, Tsadi* ) change their shape when they appear at the very end of a word, though their base sound stays the same.\n- **The Dagesh:** A dot inside certain letters (like Bet, Kaf, and Pe) hardens or alters their sound (e.g., *v* becomes *b*).\n- **Vowels:** Written Hebrew primarily relies on consonants; vowel points (*nikkud* ) are mostly used in poetry, children's books, prayers, and beginner texts.[[1]](https://www.youtube.com/watch?v=Ekc3lIVdHEU)[[2]](https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html)[[3]](https://www.chabad.org/library/article_cdo/aid/4069287/jewish/The-Hebrew-Alphabet.htm)[[4]](https://www.youtube.com/watch?v=ZnZ3tj4l43Y&t=520)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=Ekc3lIVdHEU",
+                      "title": "The Hebrew Alphabet | Crash Course in Hebrew Reading & Pronunciation",
+                      "text": "Lesson 1: The Hebrew Alphabet | Crash Course in Hebrew Reading & Pronunciation shalom this is Ayellet with the word in Hebrew. in this lesson. we will learn the..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Northwestern University",
+                      "domain": "mena-languages.northwestern.edu",
+                      "url": "https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html",
+                      "title": "The Hebrew Alphabet",
+                      "text": "The Hebrew alphabet consists of 22 letters, all consonants: Alef is the first letter of the Hebrew alphabet and Tav is the last. The Hebrew alphabet is often ca..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Chabad",
+                      "domain": "www.chabad.org",
+                      "url": "https://www.chabad.org/library/article_cdo/aid/4069287/jewish/The-Hebrew-Alphabet.htm",
+                      "title": "The Hebrew Alphabet",
+                      "text": "Introduction to the Hebrew Letters * The Hebrew alphabet, the holy language of the Bible, is used for biblical Hebrew, Modern Hebrew, Jewish Aramaic, Yiddish, a..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=ZnZ3tj4l43Y&t=520",
+                      "title": "How to Read the Hebrew Alphabet",
+                      "text": "How to Read the Hebrew Alphabet um and we even see different pronunciations like in judges you. know. people can't pronounce the same letters uh if they come fr..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Would you like to practice pronouncing specific Hebrew words, or focus on the vowel system (nikkud) next?",
+                  "markdown": "Would you like to practice **pronouncing specific Hebrew words** , or focus on the **vowel system (nikkud)** next?",
+                  "links": null,
+                  "images": null,
+                  "references": null
+                }
+              ],
+              "references": [
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "YouTube",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/watch?v=Uz_m118Yheg",
+                  "title": "Hebrew Alphabet (Just the Letters)",
+                  "text": "if it has a dot in the middle it's usually pronounced U as in moon. but if the letter before it has a vowel of its own then it's pronounced V as in victory. rem..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "YouTube",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/watch?v=Ekc3lIVdHEU",
+                  "title": "The Hebrew Alphabet | Crash Course in Hebrew Reading & Pronunciation",
+                  "text": "Lesson 1: The Hebrew Alphabet | Crash Course in Hebrew Reading & Pronunciation shalom this is Ayellet with the word in Hebrew. in this lesson. we will learn the..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "My Hebrew Dictionary",
+                  "domain": "dictionary.co.il",
+                  "url": "https://dictionary.co.il/pronunciation_guide.php",
+                  "title": "The Aleph Bet (Hebrew Alphabet) with Modern Hebrew Pronunciations",
+                  "text": "Pronunciation Standard: Modern Israeli Hebrew pronunciation utilized exclusively across all text and transliterations. Transliteration Conventions: Syllables se..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "YouTube",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/watch?v=ZnZ3tj4l43Y&t=520",
+                  "title": "How to Read the Hebrew Alphabet",
+                  "text": "How to Read the Hebrew Alphabet um and we even see different pronunciations like in judges you. know. people can't pronounce the same letters uh if they come fr..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Wikipedia",
+                  "domain": "en.wikipedia.org",
+                  "url": "https://en.wikipedia.org/wiki/Hebrew_alphabet",
+                  "title": "Hebrew alphabet - Wikipedia",
+                  "text": "Overview: Unicameral abjad script with 22 letters, written right-to-left, derived from Imperial Aramaic and Phoenician. Structure & Vowels: Five final word form..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "tcdecker.com",
+                  "domain": "tcdecker.com",
+                  "url": "https://tcdecker.com/2026/05/10/the-hebrew-alphabet/",
+                  "title": "The Hebrew Alphabet – Todd Decker",
+                  "text": "* Author: Todd Decker * Hebrew alphabet letters function mainly as consonants; aleph and ayin are silent. * Modern Hebrew pronunciation used. * Final-form word-"
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "YouTube",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/watch?v=_UU6Fe7lqIo&t=1430",
+                  "title": "Learn ALL Hebrew Alphabet in 40 Minutes - How to Write and Read ...",
+                  "text": "and in print. t if you round the corners of the print version it will be just like the handwriting. one to is good in Hebrew. in the masculine. form t o vv to O..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "learnhebrewalphabet.com",
+                  "domain": "learnhebrewalphabet.com",
+                  "url": "https://learnhebrewalphabet.com/sounds/",
+                  "title": "Hebrew Alphabet Pronunciation & Letter Sounds | AlephBet",
+                  "text": "Table_title: Hebrew Alphabet Pronunciation and Letter Sounds Table_content: | Print | Letter name | Sound guide | | --- | --- | --- | | ל | Lamedלָמֶד | \"l\" as ..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Zondervan Academic",
+                  "domain": "zondervanacademic.com",
+                  "url": "https://zondervanacademic.com/blog/introduction-hebrew-alphabet",
+                  "title": "An Introduction to the Hebrew Alphabet",
+                  "text": "Learn to read the Bible in Hebrew Sign up for the Basics of Biblical Hebrew online course * An introduction to the Hebrew alphabet As mentioned above, the Hebre..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Northwestern University",
+                  "domain": "mena-languages.northwestern.edu",
+                  "url": "https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html",
+                  "title": "The Hebrew Alphabet",
+                  "text": "The Hebrew alphabet consists of 22 letters, all consonants: Alef is the first letter of the Hebrew alphabet and Tav is the last. The Hebrew alphabet is often ca..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Chabad",
+                  "domain": "www.chabad.org",
+                  "url": "https://www.chabad.org/library/article_cdo/aid/4069287/jewish/The-Hebrew-Alphabet.htm",
+                  "title": "The Hebrew Alphabet",
+                  "text": "Introduction to the Hebrew Letters * The Hebrew alphabet, the holy language of the Bible, is used for biblical Hebrew, Modern Hebrew, Jewish Aramaic, Yiddish, a..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "YouTube",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/shorts/nn4Sw_AXSCE",
+                  "title": "Hebrew Letter + AH - Hebrew Reading Practice #shorts #learnhebrew # ...",
+                  "text": "examples with a vowels. now take a moment and see if you can recognize the letter and the base sound that it makes now remember that alf. and are silent on thei..."
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[3]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "jewfaq",
+                  "title": "Hebrew Alphabet (Just the Letters)",
+                  "timestamp": "2010-11-10 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=Uz_m118Yheg"
+                },
+                {
+                  "type": "video_element",
+                  "source": "The WORD in HEBREW",
+                  "title": "The Hebrew Alphabet | Crash Course in Hebrew Reading & Pronunciation",
+                  "timestamp": "2023-02-23 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=Ekc3lIVdHEU"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Hebrew in Hebrew by Rachel",
+                  "title": "How do you pronounce the names of the Hebrew Alphabet?",
+                  "timestamp": "2023-08-16 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=pgAM6YtuFPA"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "images",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[5]",
+              "title": "Images",
+              "url": null,
+              "items": [
+                {
+                  "type": "images_element",
+                  "alt": "The Aleph Bet (Hebrew Alphabet) with Modern Hebrew Pronunciations",
+                  "url": "https://dictionary.co.il/pronunciation_guide.php",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140757-2762-0139-0000-d23a9583224e:5"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Hebrew Alphabet - Judaism 101 (JewFAQ)",
+                  "url": "https://www.jewfaq.org/hebrew_alphabet",
+                  "image_url": "https://api.dataforseo.com/cdn/i/10140757-2762-0139-0000-d23a9583224e:6"
+                }
+              ],
+              "related_image_searches": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "dictionary.co.il",
+              "title": "The Aleph Bet (Hebrew Alphabet) with Modern Hebrew Pronunciations",
+              "url": "https://dictionary.co.il/pronunciation_guide.php",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://dictionary.co.il",
+              "website_name": "My Hebrew Dictionary",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Below is a table of the Hebrew letters and vowels (nikudot) along with their names and how to pronounce them in modern Hebrew.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "how to pronounce them in modern Hebrew"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": [
+                "hebrew alphabet",
+                "hebrew alphabet",
+                "hebrew alphabet",
+                "hebrew alphabet",
+                "biblical hebrew",
+                "hebrew",
+                "first letter of hebrew",
+                "hebrew"
+              ],
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[9]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What are the 22 Hebrew letters in order?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[9]/div[1]/div[2]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What do Jews call their mom?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[9]/div[1]/div[2]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How do Israelis say \"I love you\"?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[9]/div[1]/div[2]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Do Hebrew and Yiddish use the same alphabet?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[9]/div[1]/div[2]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "en.wikipedia.org",
+              "title": "Hebrew alphabet",
+              "url": "https://en.wikipedia.org/wiki/Hebrew_alphabet",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://en.wikipedia.org",
+              "website_name": "Wikipedia",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "The Hebrew alphabet or aleph-bet. Pronunciation 3.1 Alphabet. Sounds represented with diacritic geresh 3.1.4 Identical pronunciation … pronounced [θ] ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[13]",
+              "title": "People also search for",
+              "items": [
+                "Hebrew alphabet pronunciation a to z",
+                "Hebrew alphabet pronunciation audio",
+                "Hebrew alphabet pronunciation chart",
+                "Hebrew alphabet pronunciation in english",
+                "Hebrew alphabet pronunciation pdf",
+                "Hebrew alphabet a to z"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "learnhebrewalphabet.com",
+              "title": "Hebrew Alphabet Pronunciation & Letter Sounds | AlephBet",
+              "url": "https://learnhebrewalphabet.com/sounds/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://learnhebrewalphabet.com",
+              "website_name": "learnhebrewalphabet.com",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Listen to Hebrew alphabet pronunciation for all 22 letters and five final forms. Compare names and sounds, then practise print and cursive tracing free.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 150,
+                "rating_max": 5
+              },
+              "price": null,
+              "highlighted": [
+                "Listen to Hebrew alphabet pronunciation"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[17]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "tcdecker.com",
+              "title": "The Hebrew Alphabet - Todd Decker",
+              "url": "https://tcdecker.com/2026/05/10/the-hebrew-alphabet/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://tcdecker.com",
+              "website_name": "tcdecker.com",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "May 10, 2026 — Two letters, aleph and ayin, are silent as consonants. Some of the letters have different ways that they can be pronounced. One notable example ...",
+              "pre_snippet": "05/10/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Two letters, aleph and ayin, are silent as consonants"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-05-10 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "ginoskos.com",
+              "title": "Biblical Hebrew: 01. Alphabet, pronunciation",
+              "url": "https://ginoskos.com/biblical-hebrew/alphabet-pronunciation",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://ginoskos.com",
+              "website_name": "Ginoskos",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Pronunciation · א: is silent, light breathing, like \"h\" in a word \"honest\" · ח: is pronounced as deep \"ch\" · ע: is almost silent, rough breathing, produced at ...",
+              "pre_snippet": "Pronunciation · א: is silent, light breathing, like \"h\" in a word \"honest\" · ח: is pronounced as deep \"ch\" · ע: is almost silent, rough breathing, produced at ...",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Pronunciation"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[20]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Pronouncing the Hebrew Alphabet",
+              "url": "https://www.youtube.com/watch?v=gYK-oddASe4",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "207.4K+ views",
+              "website_name": "YouTube · Ron Cantrell",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "The Alphabet pronounced. Learn the Hebrew Alphabet in 30 minutes! Hebrew Alphabet (Alefbet) + Vowels - full tutorial! The Hebrew Alphabet | ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2017-10-14 07:57:42 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[3]/div[1]/div[1]/div[22]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "mena-languages.northwestern.edu",
+              "title": "The Hebrew Alphabet",
+              "url": "https://mena-languages.northwestern.edu/language-learning/languages-with-different-scripts/hebrew-alphabet.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://mena-languages.northwestern.edu",
+              "website_name": "Northwestern University",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "The Hebrew alphabet is often called the \"alef-bet,\" because of its first two letters in the alphabet. There are two versions of some letters: Kaf, Mem, Nun, Peh ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 2,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[4]/div[2]/div[1]/div[13]/div[4]/div[1]/div[3]/div[1]",
+              "title": "People also search for",
+              "items": [
+                "Hebrew alphabet to English",
+                "Biblical Hebrew alphabet pronunciation",
+                "Hebrew alphabet Song",
+                "First letter of Hebrew alphabet pronunciation",
+                "Hebrew alphabet Chart",
+                "Hebrew alphabet to English PDF"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

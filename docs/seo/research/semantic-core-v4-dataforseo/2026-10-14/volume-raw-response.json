@@ -1,0 +1,2727 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "2.4892 sec.",
+  "cost": 0.09,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10140752-2762-0367-0000-726169547fee",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "2.4172 sec.",
+      "cost": 0.09,
+      "result_count": 41,
+      "path": [
+        "v3",
+        "keywords_data",
+        "google_ads",
+        "search_volume",
+        "live"
+      ],
+      "data": {
+        "api": "keywords_data",
+        "function": "search_volume",
+        "se": "google_ads",
+        "location_code": 2840,
+        "language_code": "en",
+        "keywords": [
+          "paal vs piel",
+          "how many hebrew words do you need to be fluent",
+          "alef bet tutor verb directory",
+          "app to learn hebrew alphabet",
+          "learn hebrew alphabet app",
+          "learn hebrew aleph bet",
+          "learning hebrew alphabet",
+          "learn hebrew letters",
+          "hebrew patterns",
+          "learn hebrew alef bet",
+          "how to learn hebrew alphabet",
+          "reading without vowels",
+          "learn hebrew alphabet game",
+          "learn hebrew writing",
+          "hebrew aleph bet",
+          "learning the hebrew alphabet",
+          "learn hebrew script",
+          "learning hebrew letters",
+          "no vowels in hebrew",
+          "why is hebrew easier than arabic",
+          "pattern in hebrew",
+          "learn aleph bet",
+          "alephbet",
+          "is hebrew easy to learn",
+          "aleph bet",
+          "aleph bet games online",
+          "hebrew alef bet",
+          "how to learn hebrew letters",
+          "aleph bet hebrew",
+          "easy way to learn hebrew alphabet",
+          "hebrew alphabet learn",
+          "hebrew without vowels",
+          "hebrew articles for beginners",
+          "hebrew newspaper for beginners",
+          "hebrew articles",
+          "hebrew phrases for beginners",
+          "useful hebrew phrases",
+          "common hebrew phrases",
+          "hebrew word search game",
+          "hebrew word search online",
+          "hebrew vocabulary game"
+        ],
+        "search_partners": false
+      },
+      "result": [
+        {
+          "keyword": "paal vs piel",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": null,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": null
+        },
+        {
+          "keyword": "how many hebrew words do you need to be fluent",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": null,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": null
+        },
+        {
+          "keyword": "alef bet tutor verb directory",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": null,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": null
+        },
+        {
+          "keyword": "app to learn hebrew alphabet",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 77,
+          "search_volume": 10,
+          "low_top_of_page_bid": 0.66,
+          "high_top_of_page_bid": 3.33,
+          "cpc": 1.27,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 30
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 10
+            }
+          ]
+        },
+        {
+          "keyword": "learn hebrew alphabet app",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "MEDIUM",
+          "competition_index": 49,
+          "search_volume": 10,
+          "low_top_of_page_bid": 0.68,
+          "high_top_of_page_bid": 8.67,
+          "cpc": 0.48,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 10
+            }
+          ]
+        },
+        {
+          "keyword": "learn hebrew aleph bet",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 81,
+          "search_volume": 590,
+          "low_top_of_page_bid": 0.7,
+          "high_top_of_page_bid": 3.65,
+          "cpc": 2.77,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 390
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 590
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 590
+            }
+          ]
+        },
+        {
+          "keyword": "learning hebrew alphabet",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 81,
+          "search_volume": 590,
+          "low_top_of_page_bid": 0.7,
+          "high_top_of_page_bid": 3.65,
+          "cpc": 2.77,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 390
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 590
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 590
+            }
+          ]
+        },
+        {
+          "keyword": "learn hebrew letters",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 81,
+          "search_volume": 590,
+          "low_top_of_page_bid": 0.7,
+          "high_top_of_page_bid": 3.65,
+          "cpc": 2.77,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 390
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 590
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 590
+            }
+          ]
+        },
+        {
+          "keyword": "hebrew patterns",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "LOW",
+          "competition_index": 0,
+          "search_volume": 90,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 90
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 90
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 70
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 70
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 90
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 70
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 90
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 140
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 70
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 110
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 110
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 90
+            }
+          ]
+        },
+        {
+          "keyword": "learn hebrew alef bet",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 81,
+          "search_volume": 590,
+          "low_top_of_page_bid": 0.7,
+          "high_top_of_page_bid": 3.65,
+          "cpc": 2.77,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 390
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 590
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 590
+            }
+          ]
+        },
+        {
+          "keyword": "how to learn hebrew alphabet",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 71,
+          "search_volume": 110,
+          "low_top_of_page_bid": 0.68,
+          "high_top_of_page_bid": 3.36,
+          "cpc": 2.43,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 110
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 110
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 70
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 90
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 140
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 140
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 110
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 140
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 110
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 90
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 140
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 140
+            }
+          ]
+        },
+        {
+          "keyword": "reading without vowels",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "LOW",
+          "competition_index": 0,
+          "search_volume": 30,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 40
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 30
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 30
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 20
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 20
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 30
+            }
+          ]
+        },
+        {
+          "keyword": "learn hebrew alphabet game",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "LOW",
+          "competition_index": 30,
+          "search_volume": 30,
+          "low_top_of_page_bid": 0.65,
+          "high_top_of_page_bid": 4.77,
+          "cpc": 6.12,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 30
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 30
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 40
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 30
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 40
+            }
+          ]
+        },
+        {
+          "keyword": "learn hebrew writing",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 81,
+          "search_volume": 590,
+          "low_top_of_page_bid": 0.7,
+          "high_top_of_page_bid": 3.65,
+          "cpc": 2.77,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 390
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 590
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 590
+            }
+          ]
+        },
+        {
+          "keyword": "hebrew aleph bet",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 49500,
+          "low_top_of_page_bid": 0.26,
+          "high_top_of_page_bid": 2.33,
+          "cpc": 0.09,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 49500
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 40500
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 40500
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 49500
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 49500
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 60500
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 49500
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 60500
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 60500
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 60500
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 60500
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 74000
+            }
+          ]
+        },
+        {
+          "keyword": "learning the hebrew alphabet",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 81,
+          "search_volume": 590,
+          "low_top_of_page_bid": 0.7,
+          "high_top_of_page_bid": 3.65,
+          "cpc": 2.77,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 390
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 590
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 590
+            }
+          ]
+        },
+        {
+          "keyword": "learn hebrew script",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 81,
+          "search_volume": 590,
+          "low_top_of_page_bid": 0.7,
+          "high_top_of_page_bid": 3.65,
+          "cpc": 2.77,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 390
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 590
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 590
+            }
+          ]
+        },
+        {
+          "keyword": "learning hebrew letters",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 81,
+          "search_volume": 590,
+          "low_top_of_page_bid": 0.7,
+          "high_top_of_page_bid": 3.65,
+          "cpc": 2.77,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 390
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 590
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 590
+            }
+          ]
+        },
+        {
+          "keyword": "no vowels in hebrew",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "LOW",
+          "competition_index": 0,
+          "search_volume": 50,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 40
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 50
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 50
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 40
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 50
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 50
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 50
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 70
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 50
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 70
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 90
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 50
+            }
+          ]
+        },
+        {
+          "keyword": "why is hebrew easier than arabic",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": null,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": null
+        },
+        {
+          "keyword": "pattern in hebrew",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "LOW",
+          "competition_index": 0,
+          "search_volume": 90,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 90
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 90
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 70
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 70
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 90
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 70
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 90
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 140
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 70
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 110
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 110
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 90
+            }
+          ]
+        },
+        {
+          "keyword": "learn aleph bet",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 81,
+          "search_volume": 20,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 20
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 20
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 30
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 20
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 30
+            }
+          ]
+        },
+        {
+          "keyword": "alephbet",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 49500,
+          "low_top_of_page_bid": 0.26,
+          "high_top_of_page_bid": 2.33,
+          "cpc": 0.09,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 49500
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 40500
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 40500
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 49500
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 49500
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 60500
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 49500
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 60500
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 60500
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 60500
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 60500
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 74000
+            }
+          ]
+        },
+        {
+          "keyword": "is hebrew easy to learn",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "LOW",
+          "competition_index": 2,
+          "search_volume": 140,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": 6.18,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 110
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 110
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 110
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 110
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 110
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 170
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 170
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 140
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 110
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 110
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 140
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 140
+            }
+          ]
+        },
+        {
+          "keyword": "aleph bet",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 49500,
+          "low_top_of_page_bid": 0.26,
+          "high_top_of_page_bid": 2.33,
+          "cpc": 0.09,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 49500
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 40500
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 40500
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 49500
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 49500
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 60500
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 49500
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 60500
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 60500
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 60500
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 60500
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 74000
+            }
+          ]
+        },
+        {
+          "keyword": "aleph bet games online",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "LOW",
+          "competition_index": 0,
+          "search_volume": 10,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 10
+            }
+          ]
+        },
+        {
+          "keyword": "hebrew alef bet",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 49500,
+          "low_top_of_page_bid": 0.26,
+          "high_top_of_page_bid": 2.33,
+          "cpc": 0.09,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 49500
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 40500
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 40500
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 49500
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 49500
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 60500
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 49500
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 60500
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 60500
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 60500
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 60500
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 74000
+            }
+          ]
+        },
+        {
+          "keyword": "how to learn hebrew letters",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 71,
+          "search_volume": 110,
+          "low_top_of_page_bid": 0.68,
+          "high_top_of_page_bid": 3.36,
+          "cpc": 2.43,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 110
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 110
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 70
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 90
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 140
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 140
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 110
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 140
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 110
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 90
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 140
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 140
+            }
+          ]
+        },
+        {
+          "keyword": "aleph bet hebrew",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 100,
+          "search_volume": 49500,
+          "low_top_of_page_bid": 0.26,
+          "high_top_of_page_bid": 2.33,
+          "cpc": 0.09,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 49500
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 40500
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 40500
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 49500
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 49500
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 60500
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 49500
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 60500
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 60500
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 60500
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 60500
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 74000
+            }
+          ]
+        },
+        {
+          "keyword": "easy way to learn hebrew alphabet",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "MEDIUM",
+          "competition_index": 46,
+          "search_volume": 10,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 10
+            }
+          ]
+        },
+        {
+          "keyword": "hebrew alphabet learn",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 81,
+          "search_volume": 590,
+          "low_top_of_page_bid": 0.7,
+          "high_top_of_page_bid": 3.65,
+          "cpc": 2.77,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 390
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 590
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 590
+            }
+          ]
+        },
+        {
+          "keyword": "hebrew without vowels",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "LOW",
+          "competition_index": 0,
+          "search_volume": 90,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 70
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 70
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 50
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 110
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 90
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 90
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 70
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 90
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 70
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 110
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 110
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 110
+            }
+          ]
+        },
+        {
+          "keyword": "hebrew articles for beginners",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "MEDIUM",
+          "competition_index": 43,
+          "search_volume": 10,
+          "low_top_of_page_bid": 1.45,
+          "high_top_of_page_bid": 5.46,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 10
+            }
+          ]
+        },
+        {
+          "keyword": "hebrew newspaper for beginners",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "MEDIUM",
+          "competition_index": 37,
+          "search_volume": 10,
+          "low_top_of_page_bid": 3.19,
+          "high_top_of_page_bid": 4.05,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 10
+            }
+          ]
+        },
+        {
+          "keyword": "hebrew articles",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "LOW",
+          "competition_index": 1,
+          "search_volume": 70,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 70
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 40
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 40
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 50
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 90
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 90
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 70
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 70
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 50
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 50
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 90
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 70
+            }
+          ]
+        },
+        {
+          "keyword": "hebrew phrases for beginners",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "LOW",
+          "competition_index": 10,
+          "search_volume": 10,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 10
+            }
+          ]
+        },
+        {
+          "keyword": "useful hebrew phrases",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "LOW",
+          "competition_index": 5,
+          "search_volume": 590,
+          "low_top_of_page_bid": 1.03,
+          "high_top_of_page_bid": 3.93,
+          "cpc": 9.77,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 590
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 590
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 590
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 720
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 590
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 590
+            }
+          ]
+        },
+        {
+          "keyword": "common hebrew phrases",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "LOW",
+          "competition_index": 5,
+          "search_volume": 590,
+          "low_top_of_page_bid": 1.03,
+          "high_top_of_page_bid": 3.93,
+          "cpc": 9.77,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 590
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 480
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 590
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 590
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 720
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 590
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 590
+            }
+          ]
+        },
+        {
+          "keyword": "hebrew word search game",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": null,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": null
+        },
+        {
+          "keyword": "hebrew word search online",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": null,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": null
+        },
+        {
+          "keyword": "hebrew vocabulary game",
+          "spell": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": null,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": null
+        }
+      ]
+    }
+  ]
+}
