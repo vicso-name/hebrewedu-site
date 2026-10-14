@@ -49,9 +49,20 @@ captions, review flags, stage map, and any holdouts are decided, write
   "blockFlags": { "<sourceIndex>": ["<editorialIssueId>"] },
   "exerciseFlags": { "<sourceIndex + 1>": ["<editorialIssueId>"] },
   "stageMap": { "theory": [0, 1], "examples": [2, 3] },
+  "copy": {
+    "theory": {
+      "heading": "…",
+      "intro": "… (may contain inline HTML, e.g. a link — rendered with set:html)",
+      "objectivesHeading": "…",
+      "objectives": ["… (may contain inline HTML, e.g. a bdi-wrapped glyph — rendered with set:html)", "…", "…"],
+      "secondSectionHeading": "…",
+      "thirdSectionHeading": "…"
+    },
+    "examples": { "heading": "…", "intro": "…" }
+  },
   "holdOuts": {
-    "blocks": [{ "sourceIndex": 5, "reason": "WORD_EXAMPLE has no renderer yet" }],
-    "exercises": [{ "sourceIndex": 12, "reason": "MATCH_PAIRS has no renderer yet" }]
+    "blocks": [{ "sourceIndex": 5, "reason": "duplicate WORD_EXAMPLE, see Bet's data file" }],
+    "exercises": [{ "sourceIndex": 12, "reason": "editorial: ambiguous phonetic distractor" }]
   },
   "source": { "rawSnapshotPath": ".local/…/lesson-N.raw.json", "sha256": "…", "responseDate": "…" }
 }
@@ -59,13 +70,24 @@ captions, review flags, stage map, and any holdouts are decided, write
 
 See `src/data/lessons/aleph.json` for a complete, real example.
 
+`copy` holds the letter-specific route copy `[lesson].astro` renders for the
+theory/examples stage headings, the theory intro, the learning-objectives
+list, and the two in-theory section headings — every per-letter string in
+that template comes from this field, not from a hardcoded literal in the
+route. `intro` and each `objectives` entry may contain trusted inline HTML
+(e.g. a link or a `<bdi>`-wrapped glyph) — the route renders them with
+`set:html`, the same pattern `Faq.astro`'s `a` field uses. `copy` is
+mandatory for every enabled-or-preview letter; until editorial copy exists,
+fill each field with a placeholder literally prefixed `TODO-EDITORIAL:`
+(see `src/data/lessons/bet.json`) rather than leaving the letter unbuilt.
+
 **Holdouts are mandatory for unsupported content.** If the raw source has a
 study block or exercise type `StudyBlock.astro`/`Practice.astro` can't
 render (currently anything other than `MAIN_TITLE`/`SIMPLE_TEXT`/
 `TEXT_IMAGE`/`BOLD_TEXT`/`SUBTITLE`/`WORD_EXAMPLE` blocks or `TRUE_FALSE`/
-`MULTIPLE_CHOICE_COLUMN`/`MULTIPLE_CHOICE_GRID` exercises — see `BLOCKS.md`
-for the `WORD_EXAMPLE` → `PhraseCard` mapping; `MATCH_PAIRS` exercises have
-no renderer yet) and it isn't listed in `holdOuts` with a reason,
+`MULTIPLE_CHOICE_COLUMN`/`MULTIPLE_CHOICE_GRID`/`MATCH_PAIRS` exercises — see
+`BLOCKS.md` for the `WORD_EXAMPLE` → `PhraseCard` mapping and the
+`MATCH_PAIRS` interaction) and it isn't listed in `holdOuts` with a reason,
 normalization fails closed with a list of what's unsupported. Holding an
 item out drops it from the published lesson entirely — it does not appear,
 even as "unavailable". A holdout isn't limited to unsupported types: any

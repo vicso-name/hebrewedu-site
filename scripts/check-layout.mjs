@@ -183,7 +183,7 @@ const IMPORTANT_ALLOWLIST = new Set([
   'src/styles/home.css:113',
   'src/styles/home.css:114',
   'src/styles/lesson-poc.css:5',
-  'src/styles/lesson-poc.css:152',
+  'src/styles/lesson-poc.css:163',
   'src/styles/blog.css:722',
 ]);
 // [hidden] display overrides (home.css, lesson-poc.css) and the

@@ -33,6 +33,8 @@ const strictRenderedExercise = type => z.object({
   id: text, type: z.literal(type), content: text, tip: text, score: z.number(),
   additionalData: type === 'TRUE_FALSE'
     ? z.object({ correctAnswer: z.enum(['true', 'false']) }).strict()
+    : type === 'MATCH_PAIRS'
+    ? z.object({ pairs: z.record(text, text).refine(pairs => Object.keys(pairs).length >= 2, 'At least two pairs are required') }).strict()
     : z.object({ choices: z.array(text).length(type === 'MULTIPLE_CHOICE_COLUMN' ? 3 : 4), correctAnswer: text }).strict(),
 }).strict();
 const passthroughRecognizedExercise = type => z.object({ id: text, type: z.literal(type) }).passthrough();
@@ -63,8 +65,11 @@ const block = z.discriminatedUnion('type', renderedBlockTypes.map(type => z.obje
   // holds the English translation so generic text consumers (e.g. studyText) still work.
   ...(type === 'WORD_EXAMPLE' ? { word: nfcText, transcription: nfcText } : {}),
 }).strict()));
-const exercise = z.object({
-  id: text, sourceId: text, type: z.enum(renderedExerciseTypes), prompt: nfcText, explanation: nfcText,
+// MATCH_PAIRS has a fundamentally different shape (pairs, not options/correctOptionId),
+// so the exercise schema is a discriminated union rather than one shape for every type.
+const choiceExerciseTypes = renderedExerciseTypes.filter(type => type !== 'MATCH_PAIRS');
+const choiceExercise = z.object({
+  id: text, sourceId: text, type: z.enum(choiceExerciseTypes), prompt: nfcText, explanation: nfcText,
   options: z.array(z.object({ id: text, label: nfcText }).strict()).min(2).max(4),
   correctOptionId: text, reviewFlags: z.array(text),
 }).strict().superRefine((item, ctx) => {
@@ -78,6 +83,17 @@ const exercise = z.object({
     ctx.addIssue({ code: 'custom', message: 'True/false options must be explicit' });
   }
 });
+const matchPairsExercise = z.object({
+  id: text, sourceId: text, type: z.literal('MATCH_PAIRS'), prompt: nfcText, explanation: nfcText,
+  pairs: z.array(z.object({ id: text, left: nfcText, right: nfcText }).strict()).min(2),
+  reviewFlags: z.array(text),
+}).strict().superRefine((item, ctx) => {
+  const ids = item.pairs.map(pair => pair.id);
+  if (new Set(ids).size !== ids.length) ctx.addIssue({ code: 'custom', message: 'Duplicate pair IDs' });
+  if (new Set(item.pairs.map(pair => pair.left)).size !== ids.length) ctx.addIssue({ code: 'custom', message: 'Equivalent normalized left labels' });
+  if (new Set(item.pairs.map(pair => pair.right)).size !== ids.length) ctx.addIssue({ code: 'custom', message: 'Equivalent normalized right labels' });
+});
+const exercise = z.discriminatedUnion('type', [choiceExercise, matchPairsExercise]);
 
 // Identity fields are validated generically (not as per-letter literals) so one
 // schema can cover every lesson in the content collection; the cross-check against

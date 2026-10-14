@@ -446,6 +446,31 @@
       ],
       "correctOptionId": "bet-exercise-12-option-4",
       "reviewFlags": []
+    },
+    {
+      "id": "bet-exercise-13",
+      "sourceId": "1742223546108",
+      "type": "MATCH_PAIRS",
+      "prompt": "Match each Hebrew letter or vowel combination with its correct phonetic value.",
+      "explanation": "Dagesh in Bet produces a plosive [b] sound, while without it, Bet sounds like [v]. Patah and Kamatz Gadol both give the [a] sound, but Hataf Patah is a much shorter [a].",
+      "pairs": [
+        {
+          "id": "bet-exercise-13-pair-1",
+          "left": "(א) w/ Patah",
+          "right": "[a]"
+        },
+        {
+          "id": "bet-exercise-13-pair-2",
+          "left": "(ב) w/o Dagesh",
+          "right": "[v]"
+        },
+        {
+          "id": "bet-exercise-13-pair-3",
+          "left": "(בּ) w/ Dagesh",
+          "right": "[b]"
+        }
+      ],
+      "reviewFlags": []
     }
   ]
 }

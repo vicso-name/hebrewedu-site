@@ -107,6 +107,17 @@
 .text-button { background: none; border: 0; cursor: pointer; text-decoration: underline; color: var(--ink-mid); padding: calc(var(--space-xs) * 1.5) calc(var(--space-xs) * 0.5); font-size: .8125rem; min-height: 44px; }
 .no-script, .fallback-answer { background: var(--lesson-soft); padding: var(--space-sm); border-radius: 12px; margin-block-start: var(--space-sm); font-size: .875rem; }
 .fallback-answer summary { cursor: pointer; }
+.match-pairs-board { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: calc(var(--space-xs) * 1.5); margin-block: calc(var(--space-sm) * 1.25); }
+.match-pairs-column { display: flex; flex-direction: column; gap: calc(var(--space-xs) * 1.25); min-width: 0; }
+.match-pairs-item { display: flex; align-items: center; justify-content: center; text-align: center; gap: var(--space-xs); padding: calc(var(--space-xs) * 1.5) var(--space-xs); border: 1.5px solid var(--border); border-radius: 14px; background: white; cursor: pointer; min-height: 56px; font: inherit; color: var(--ink); overflow-wrap: anywhere; }
+.match-pairs-item:hover:not(:disabled) { border-color: var(--border-dark); background: var(--lesson-soft); }
+.match-pairs-item:focus-visible { outline: 3px solid var(--brand-dark); outline-offset: 3px; }
+.match-pairs-item.is-selected { border-color: var(--brand-dark); background: var(--brand-light); }
+.match-pairs-item.is-matched { border-color: var(--border); background: var(--emerald-bg); color: #065f46; cursor: default; }
+.match-pairs-item.is-wrong { border-color: #b45309; background: var(--amber-bg); }
+.match-pairs-item:disabled { opacity: 1; }
+.match-pairs-answer-key { list-style: none; padding: 0; font-size: .9375rem; color: var(--ink-mid); }
+.match-pairs-answer-key li + li { margin-block-start: calc(var(--space-xs) * 0.5); }
 .results-card { text-align: center; }
 .result-percentage { color: var(--ink); font-family: var(--font-display); font-size: 4rem; font-weight: 800; line-height: 1.2; }
 .percentage-label { color: var(--ink-light); font-size: .875rem; margin-block-start: var(--space-xs); }
@@ -164,7 +175,7 @@
   .learning-card { padding: calc(var(--space-xs) * 1.75); }
   .learning-objectives { padding: calc(var(--space-xs) * 1.5); }
   .lesson-page p, .lesson-page li, .lesson-page legend { overflow-wrap: anywhere; }
-  .answer-grid, .result-stats { grid-template-columns: minmax(0, 1fr); }
+  .answer-grid, .result-stats, .match-pairs-board { grid-template-columns: minmax(0, 1fr); }
   .stage-actions, .practice-navigation, .practice-tools { flex-direction: column; align-items: stretch; }
   .practice-navigation p { order: -1; }
 }

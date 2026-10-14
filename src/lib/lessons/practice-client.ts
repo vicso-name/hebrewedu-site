@@ -1,6 +1,10 @@
-import { gradeAnswer } from './grading.mjs';
+import { gradeAnswer, gradeMatchPair, gradeMatchPairs } from './grading.mjs';
 
-interface Key { id: string; correctOptionId: string; options: { id: string }[] }
+interface ChoiceKey { id: string; correctOptionId: string; options: { id: string }[] }
+interface MatchPairsKey { id: string; type: 'MATCH_PAIRS'; pairs: { id: string }[] }
+type Key = ChoiceKey | MatchPairsKey;
+const isMatchPairsKey = (key: Key): key is MatchPairsKey => 'pairs' in key;
+
 export function initPractice() {
   const container = document.querySelector<HTMLElement>('[data-practice]');
   const payload = document.getElementById('lesson-grading');
@@ -10,6 +14,9 @@ export function initPractice() {
   const panels = Array.from(document.querySelectorAll<HTMLElement>('[data-stage]'));
   const stageButtons = Array.from(document.querySelectorAll<HTMLButtonElement>('[data-stage-target]'));
   const results = new Map<string, boolean>();
+  // A MATCH_PAIRS form resets its own board (tap state) rather than a plain radio
+  // reset; clearForm() looks here first so Retry/Retry-practice stay generic.
+  const matchPairResets = new Map<HTMLFormElement, () => void>();
   const availableCount = forms.filter(form => !form.dataset.unavailable).length;
   const progress = document.querySelector<HTMLElement>('[data-progress]')!;
   const meter = document.querySelector<HTMLProgressElement>('[data-practice-progress]')!;
@@ -83,6 +90,8 @@ export function initPractice() {
   }
   function clearForm(form: HTMLFormElement) {
     if (form.dataset.unavailable) return;
+    const resetMatchPairs = matchPairResets.get(form);
+    if (resetMatchPairs) { resetMatchPairs(); return; }
     form.reset();
     form.querySelectorAll<HTMLInputElement>('input').forEach(input => { input.disabled = false; });
     const submit = form.querySelector<HTMLButtonElement>('button[type="submit"]')!;
@@ -95,10 +104,84 @@ export function initPractice() {
     feedback.textContent = '';
     delete feedback.dataset.result;
   }
+  // Tap/click one left item, then its pair on the right (order either way). A correct
+  // tap locks both items; a wrong tap gives feedback and simply deselects (no retry
+  // button needed — the board itself is always retryable). The whole exercise counts
+  // as answered, like other exercises, only once every pair is matched.
+  function initMatchPairs(form: HTMLFormElement, key: MatchPairsKey) {
+    const buttons = Array.from(form.querySelectorAll<HTMLButtonElement>('.match-pairs-item'));
+    const feedback = form.querySelector<HTMLElement>('[role="status"]')!;
+    const explanation = form.querySelector<HTMLElement>('[data-explanation]');
+    const matched = new Set<string>();
+    let selected: HTMLButtonElement | null = null;
+
+    function deselect(button: HTMLButtonElement) {
+      button.setAttribute('aria-pressed', 'false');
+      button.classList.remove('is-selected');
+    }
+    function announceProgress() {
+      const { status, matched: matchedCount, total } = gradeMatchPairs(key, matched);
+      feedback.textContent = status === 'correct' ? 'All pairs matched. Well done!' : `${matchedCount} of ${total} pairs matched.`;
+      if (status === 'correct') {
+        feedback.dataset.result = 'correct';
+        if (explanation) explanation.hidden = false;
+        results.set(key.id, true);
+      }
+      updateResults();
+      updateNavigation();
+    }
+    function reset() {
+      matched.clear();
+      selected = null;
+      buttons.forEach(button => { button.disabled = false; deselect(button); button.classList.remove('is-matched'); });
+      feedback.textContent = '';
+      delete feedback.dataset.result;
+      if (explanation) explanation.hidden = true;
+      results.delete(key.id);
+      updateResults();
+      updateNavigation();
+    }
+    matchPairResets.set(form, reset);
+
+    buttons.forEach(button => button.addEventListener('click', () => {
+      if (button.disabled) return;
+      if (!selected) {
+        selected = button;
+        button.setAttribute('aria-pressed', 'true');
+        button.classList.add('is-selected');
+        return;
+      }
+      if (selected === button) { deselect(button); selected = null; return; }
+      if (selected.dataset.pairSide === button.dataset.pairSide) {
+        deselect(selected);
+        selected = button;
+        button.setAttribute('aria-pressed', 'true');
+        button.classList.add('is-selected');
+        return;
+      }
+      const left = selected.dataset.pairSide === 'left' ? selected : button;
+      const right = selected.dataset.pairSide === 'left' ? button : selected;
+      const result = gradeMatchPair(key, left.dataset.pairId!, right.dataset.pairId!);
+      const previouslySelected = selected;
+      selected = null;
+      if (result.correct) {
+        matched.add(left.dataset.pairId!);
+        [left, right].forEach(el => { deselect(el); el.disabled = true; el.classList.add('is-matched'); });
+        announceProgress();
+      } else {
+        feedback.dataset.result = 'incorrect';
+        feedback.textContent = 'Not a match. Try again.';
+        deselect(previouslySelected);
+        [left, right].forEach(el => el.classList.add('is-wrong'));
+        window.setTimeout(() => [left, right].forEach(el => el.classList.remove('is-wrong')), 500);
+      }
+    }));
+  }
   forms.forEach(form => {
     if (form.dataset.unavailable) return;
     form.querySelector<HTMLElement>('[data-fallback-answer]')!.hidden = true;
     const key = keys.find(item => item.id === form.dataset.exerciseId)!;
+    if (isMatchPairsKey(key)) { initMatchPairs(form, key); return; }
     const feedback = form.querySelector<HTMLElement>('[role="status"]')!;
     form.addEventListener('submit', event => {
       event.preventDefault();

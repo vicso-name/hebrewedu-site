@@ -50,11 +50,11 @@ test('boolean false is explicit and choice keys must match exactly one normalize
   raw.exercises[0].additionalData={ choices:['בּ','בּ','א','ד'], correctAnswer:'בּ' }; assert.equal(hasError(raw,'DUPLICATE_CHOICES'),true);
 });
 
-test('recognized additional types are valid source but require renderer development', () => {
+test('WORD_EXAMPLE and MATCH_PAIRS are both valid source and renderer-compatible', () => {
   const raw = source();
   raw.studyMaterials.push({ type:'WORD_EXAMPLE', word:'בָּא', transcription:'ba', translation:'comes', audioUrl:'https://example.test/ba.mp3' });
   raw.exercises.push({ ...source().exercises[0], id:'fixture-2', type:'MATCH_PAIRS', additionalData:{ pairs:{ 'א':'a','ב':'b','ג':'g' } } });
-  const result=audit(raw); assert.equal(result.structurallyValid,true); assert.equal(result.rendererCompatible,false);
+  const result=audit(raw); assert.equal(result.structurallyValid,true); assert.equal(result.rendererCompatible,true);
   const normalized=privateNormalizedLesson(raw,identity,{});
   assert.equal(normalized.blocks.length,2); assert.equal(normalized.exercises[1].pairs.length,3);
   assert.equal(result.media[0].kind,'audio'); assert.equal(result.media[0].availability,'not-fetched');

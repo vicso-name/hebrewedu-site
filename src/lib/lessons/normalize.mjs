@@ -73,6 +73,13 @@ export function normalizeLesson(rawInput, identity, overrides) {
     .filter(({ sourceIndex }) => !heldOutExercises.has(sourceIndex))
     .map(({ item, sourceIndex }) => {
       const id = `${identity.slug}-exercise-${sourceIndex + 1}`;
+      const reviewFlags = overrides.exerciseFlags?.[String(sourceIndex + 1)] ?? [];
+      if (item.type === 'MATCH_PAIRS') {
+        const pairs = Object.entries(item.additionalData.pairs).map(([left, right], pairIndex) => ({
+          id: `${id}-pair-${pairIndex + 1}`, left: nfc(left), right: nfc(right),
+        }));
+        return { id, sourceId: item.id, type: item.type, prompt: nfc(item.content), explanation: nfc(item.tip), pairs, reviewFlags };
+      }
       const isBoolean = item.type === 'TRUE_FALSE';
       const labels = isBoolean ? ['True', 'False'] : item.additionalData.choices.map(nfc);
       const answerIndex = isBoolean ? (item.additionalData.correctAnswer === 'true' ? 0 : 1) : labels.indexOf(nfc(item.additionalData.correctAnswer));
@@ -80,7 +87,7 @@ export function normalizeLesson(rawInput, identity, overrides) {
       return {
         id, sourceId: item.id, type: item.type, prompt: nfc(item.content), explanation: nfc(item.tip),
         options: labels.map((label, optionIndex) => ({ id: `${id}-option-${optionIndex + 1}`, label })),
-        correctOptionId: `${id}-option-${answerIndex + 1}`, reviewFlags: overrides.exerciseFlags?.[String(sourceIndex + 1)] ?? [],
+        correctOptionId: `${id}-option-${answerIndex + 1}`, reviewFlags,
       };
     });
   if (exercises.length !== raw.exercises.length - heldOutExercises.size) throw new Error('Normalized exercise count does not match the raw source');

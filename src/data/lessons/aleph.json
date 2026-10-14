@@ -42,6 +42,24 @@
     "theory": [0, 1, 7],
     "examples": [2, 3, 4, 5, 6, 8, 9, 10]
   },
+  "copy": {
+    "theory": {
+      "heading": "Meet Aleph",
+      "intro": "The first letter of the <a href=\"/blog/hebrew-alphabet-complete-guide/\">Hebrew alphabet</a>. Start with the letter, then look at the marks around it.",
+      "objectivesHeading": "What you’ll learn",
+      "objectives": [
+        "Recognize Aleph: <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">א</bdi>.",
+        "Distinguish Patah, Kamatz Gadol and Hataf Patah by their shapes.",
+        "Identify these vowel marks in beginner practice questions."
+      ],
+      "secondSectionHeading": "How vowel marks work",
+      "thirdSectionHeading": "Where you’ll see Hataf Patah"
+    },
+    "examples": {
+      "heading": "One letter, three vowel marks",
+      "intro": "Look beneath Aleph. Notice the line, the T-shaped mark, and the line with two dots."
+    }
+  },
   "holdOuts": {
     "blocks": [],
     "exercises": []

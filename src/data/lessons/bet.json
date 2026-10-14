@@ -12,13 +12,29 @@
     "theory": [0, 1, 2],
     "examples": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19]
   },
+  "copy": {
+    "theory": {
+      "heading": "TODO-EDITORIAL: theory heading",
+      "intro": "TODO-EDITORIAL: theory intro",
+      "objectivesHeading": "TODO-EDITORIAL: objectives heading",
+      "objectives": [
+        "TODO-EDITORIAL: objective 1",
+        "TODO-EDITORIAL: objective 2",
+        "TODO-EDITORIAL: objective 3"
+      ],
+      "secondSectionHeading": "TODO-EDITORIAL: second theory section heading",
+      "thirdSectionHeading": "TODO-EDITORIAL: third theory section heading"
+    },
+    "examples": {
+      "heading": "TODO-EDITORIAL: examples heading",
+      "intro": "TODO-EDITORIAL: examples intro"
+    }
+  },
   "holdOuts": {
     "blocks": [
       { "sourceIndex": 14, "reason": "Duplicates block 6's בָּא example (same word/transcription, near-identical translation) and its audioUrl is a tokenized Firebase link; held out rather than republishing a duplicate with a credentialed media URL." }
     ],
-    "exercises": [
-      { "sourceIndex": 12, "reason": "renderer not implemented yet" }
-    ]
+    "exercises": []
   },
   "source": {
     "rawSnapshotPath": ".local/alphabet-course-imports/v1/2026-10-11T12-04-00-552Z-a1dbcc/raw/lesson-2.raw.json",

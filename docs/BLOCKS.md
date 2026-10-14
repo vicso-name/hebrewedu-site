@@ -76,6 +76,24 @@ of a shared block.
   22-lesson import carries an image/description field, so there is no
   image path today; one would need a real schema/normalize addition, not
   a speculative prop, once a source actually has one.
+  `Practice.astro` renders a MATCH_PAIRS exercise (used in 17 of the 22
+  lessons) as a generic, self-contained matching widget: two columns of
+  buttons, left items in source order and right items rotated by one so no
+  pair lines up at the same row (deterministic, not a security-relevant
+  shuffle). Tap/click a left item, then its pair on the right (either
+  order) -- a correct tap locks both items (.is-matched), a wrong tap
+  flashes feedback and deselects (.is-wrong, auto-clears); every pair
+  button is a real `<button>`, so Tab/Enter/Space work with no extra
+  wiring, and each carries `aria-pressed`/`aria-label`. Grading
+  (`src/lib/lessons/grading.mjs`'s `gradeMatchPair`/`gradeMatchPairs`,
+  wired up in `practice-client.ts`'s `initMatchPairs`) is structural: a
+  pair's left and right items share one `pairs[].id`, so a correct match
+  is just the two tapped IDs being equal -- the key is intentionally
+  inspectable, same as `gradeAnswer`. The exercise counts as answered in
+  Results only once every pair is matched (like other exercises, this is a
+  single correct/not-yet-answered question, not partial credit); the
+  no-JS fallback is the same `<details class="fallback-answer">` pattern
+  other exercises use, revealing the full left/right key.
 
 ## Product / marketing
 
