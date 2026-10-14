@@ -15,6 +15,7 @@
   --brand:       #6366F1;
   --brand-dark:  #4F46E5;
   --brand-light: #EEF2FF;
+  --brand-line:  #DBDCFB; /* border for brand-light panels (deck, inline app CTA) */
   --emerald:     #10B981;
   --emerald-bg:  #ECFDF5;
   --amber:       #F59E0B;

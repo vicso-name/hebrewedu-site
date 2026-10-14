@@ -3,15 +3,23 @@ import type { Phrase } from '../../data/hebrew-phrases';
 import HebrewText from '../lessons/HebrewText.astro';
 import Transliteration from './Transliteration.astro';
 
-interface Props { phrase: Phrase }
-const { phrase } = Astro.props;
+interface Props {
+  phrase: Phrase;
+  /** Article id. Omit to render no id — used for cards that repeat a phrase elsewhere on the page (deck, anatomy). */
+  id?: string;
+  /** Tag for the English meaning. "h3" (default) for a standalone card; "p" where an h3 would duplicate the page's heading outline. */
+  meaningTag?: 'h3' | 'p';
+  /** Prefix for the "Said by/to" label id, so it stays unique when a phrase's card appears more than once on the page. */
+  idPrefix?: string;
+}
+const { phrase, id, meaningTag: MeaningTag = 'h3', idPrefix = '' } = Astro.props;
 
 // Current data only ever has 0 or 1 variant axis (speaker OR addressee),
 // never both at once — so a card has at most one "Said by/to" row.
 const hasVariants = phrase.variants.length > 1;
 const axis: 'by' | 'to' = hasVariants && phrase.variants[0].label.includes('addressee') ? 'to' : 'by';
 const varLabel = axis === 'to' ? 'Said to' : 'Said by';
-const labelId = `${phrase.id}-${axis}`;
+const labelId = `${idPrefix}${phrase.id}-${axis}`;
 
 const defaultVariant = phrase.variants[0];
 const hebrewLetterCount = (text: string) => (text.match(/[א-ת]/g) ?? []).length;
@@ -21,7 +29,7 @@ const dataForms = hasVariants
   ? JSON.stringify({ m: [phrase.variants[0].hebrew, phrase.variants[0].transliteration], f: [phrase.variants[1].hebrew, phrase.variants[1].transliteration] })
   : undefined;
 ---
-<article class={`pc${isLong ? ' pc--long' : ''}`} id={`phrase-${phrase.id}`} role="listitem" data-forms={dataForms}>
+<article class={`pc${isLong ? ' pc--long' : ''}`} id={id} role="listitem" data-forms={dataForms}>
   <div class="pc-panel">
     <div class="pc-heb" aria-live="polite">
       <p class="pc-he" lang="he" dir="rtl"><HebrewText text={defaultVariant.hebrew} /></p>
@@ -29,7 +37,7 @@ const dataForms = hasVariants
     </div>
   </div>
   <div class="pc-body">
-    <h3 class="pc-en">{phrase.meaning}</h3>
+    <MeaningTag class="pc-en">{phrase.meaning}</MeaningTag>
     <p class="pc-note">{phrase.usage}</p>
   </div>
   {hasVariants && <div class="pc-vars">

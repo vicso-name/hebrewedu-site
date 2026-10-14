@@ -1,0 +1,713 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Phrases hero and guide</title>
+<!-- Standalone reference: no external requests. Fonts resolve to installed Manrope / DM Sans / Rubik, else fallbacks;
+     on the site they come from global.css (Google Fonts + self-hosted Hebrew Rubik). Spec: HERO_GUIDE_SPEC.md -->
+<style>
+/* ===== Tokens: global.css (+ PROPOSED --brand-line) ===== */
+:root{
+  --white:#ffffff;
+  --bg:#f8f8ff;
+  --surface-soft:#f7f7fc;
+  --surface:#f1f0ff;
+  --brand-light:#eef2ff;
+  --brand-line:#dbdcfb;
+  --brand:#6366f1;
+  --brand-dark:#4f46e5;
+  --ink:#1f2937;
+  --ink-mid:#374151;
+  --ink-light:#6b7280;
+  --ink-translit:#707070;
+  --ink-subtle:#9ca3af;
+  --border:#e5e7eb;
+  --border-dark:#d1d5db;
+  --emerald:#10b981;
+  --emerald-bg:#ecfdf5;
+  --amber:#f59e0b;
+  --amber-bg:#fffbeb;
+  --focus:var(--brand);
+  --space-2xs:4px;
+  --space-xs:8px;
+  --space-xs-plus:12px;
+  --space-sm:16px;
+  --space-sm-plus:20px;
+  --space-md:24px;
+  --space-lg:40px;
+  --space-xl:64px;
+  --space-2xl:96px;
+  --r-sm:8px;
+  --r-md:12px;
+  --r-lg:20px;
+  --r-xl:28px;
+  --r-full:9999px;
+  --shadow-sm:0 1px 3px rgba(99,102,241,.08), 0 1px 2px rgba(0,0,0,.04);
+  --shadow-md:0 4px 16px rgba(99,102,241,.10), 0 2px 6px rgba(0,0,0,.05);
+  --shadow-lg:0 12px 40px rgba(99,102,241,.14), 0 4px 12px rgba(0,0,0,.06);
+  --shadow-card-hover:0 4px 16px rgba(31,41,55,.08);
+  --w-content:1280px;
+  --w-medium:920px;
+  --w-narrow:720px;
+  --section-y:clamp(4.5rem, 9vw, 8rem);
+  --font-display:Manrope, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body:"DM Sans", sans-serif;
+  --font-hebrew:"Hebrew Rubik", Rubik, "Arial Hebrew", Arial, sans-serif;
+}
+
+/* ── PhraseCard (option B) — exactly as built in hebrew-phrases.css, plus the hit-area fix marked FIX 1 ── */
+.phrase-grid { list-style: none; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-md); align-items: start; }
+.pc { position: relative; display: flex; flex-direction: column; gap: var(--space-sm); max-width: 480px; padding: var(--space-sm-plus); background: var(--white); color: var(--ink); border: 1px solid var(--border); border-radius: var(--r-lg); font-family: var(--font-body); transition: border-color .15s ease, box-shadow .15s ease; }
+.pc:hover, .pc.is-hover { border-color: var(--border-dark); box-shadow: var(--shadow-card-hover); }
+.pc :focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.pc-panel { position: relative; display: grid; grid-template-columns: 1fr; align-items: center; gap: var(--space-xs-plus); min-height: 96px; padding: var(--space-sm); background: var(--surface-soft); border-radius: var(--r-md); overflow: hidden; }
+.pc-heb { min-width: 0; text-align: right; }
+.pc-he { margin: 0; font-family: var(--font-hebrew); font-weight: 500; font-size: 32px; line-height: 48px; color: var(--ink); text-wrap: balance; overflow-wrap: anywhere; }
+.pc--long .pc-he { font-size: 26px; line-height: 40px; }
+.pc-tr { margin: var(--space-2xs) 0 0; font-size: 15px; line-height: 22px; letter-spacing: .01em; }
+.pc-tr .translit-b, .pc-tr .translit-t { color: var(--ink-translit); } /* Transliteration.astro */
+.pc-body { display: flex; flex-direction: column; gap: var(--space-xs); }
+.pc-en { margin: 0; font-family: var(--font-display); font-size: 18px; line-height: 24px; font-weight: 700; color: var(--ink); }
+.pc-note { margin: 0; font-size: 15px; line-height: 22px; color: var(--ink-mid); }
+.pc-vars { display: flex; flex-direction: column; gap: var(--space-xs); padding-top: var(--space-sm); border-top: 1px solid var(--border); }
+.pc-var { display: flex; align-items: center; justify-content: space-between; gap: var(--space-xs-plus); }
+.pc-var-l { font-size: 13px; line-height: 16px; font-weight: 600; color: var(--ink-mid); }
+.pc-seg { display: inline-flex; gap: 2px; padding: 3px; border: 1px solid var(--ink-light); border-radius: var(--r-full); background: var(--surface); }
+.pc-seg button { position: relative; min-height: 38px; min-width: 80px; padding: 0 var(--space-sm); border: 0; border-radius: var(--r-full); background: transparent; font: 600 14px/20px var(--font-body); color: var(--ink-mid); cursor: pointer; }
+/* FIX 1: 38px buttons -> 44px hit area without changing the look (extends over the 3px track padding) */
+.pc-seg button::after { content: ""; position: absolute; inset: -3px 0; }
+.pc-seg button:hover:not([aria-checked="true"]) { color: var(--ink); background: var(--surface-soft); }
+.pc-seg button[aria-checked="true"] { background: var(--brand-dark); color: var(--white); }
+/* Audio (spec'd, not yet on the site) */
+.pc.has-audio .pc-panel { grid-template-columns: 44px 1fr; }
+.pc.has-audio .pc-heb { grid-column: 2; grid-row: 1; }
+.pc-play { grid-column: 1; grid-row: 1; width: 44px; height: 44px; padding: 0; display: grid; place-items: center; border-radius: var(--r-full); border: 1px solid var(--ink-light); background: var(--white); color: var(--ink); cursor: pointer; transition: background .15s, border-color .15s, color .15s; }
+.pc-play svg { width: 20px; height: 20px; fill: currentColor; }
+.pc-play .i-pause { display: none; }
+.pc-play:hover, .pc-play.is-hover { background: var(--brand-light); border-color: var(--brand-dark); color: var(--brand-dark); }
+.pc.is-playing { border-color: var(--brand-dark); }
+.pc.is-playing .pc-play { background: var(--brand-dark); border-color: var(--brand-dark); color: var(--white); }
+.pc.is-playing .pc-play .i-play { display: none; }
+.pc.is-playing .pc-play .i-pause { display: block; }
+.pc-progress { position: absolute; left: 0; right: 0; bottom: 0; height: 3px; }
+.pc-progress span { display: block; height: 100%; width: 0; background: var(--brand-dark); }
+.pc.is-playing .pc-progress span { width: var(--pc-p, 0%); }
+@media (max-width: 1023px) { .phrase-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 639px) { .phrase-grid { grid-template-columns: 1fr; gap: var(--space-sm); } .pc { padding: var(--space-sm); } .pc-he { font-size: 28px; line-height: 42px; } .pc--long .pc-he { font-size: 24px; line-height: 36px; } }
+@media (prefers-reduced-motion: reduce) { .pc, .pc-play { transition: none; } }
+
+/* ── Site base used by the hero and guide: copied unchanged from global.css + hebrew-phrases.css,
+      scoped to .phrases-page so it can't leak into other previews ── */
+:where(.phrases-page, .phrases-page *, .phrases-page *::before, .phrases-page *::after) { box-sizing: border-box; margin: 0; padding: 0; } /* zero specificity, like the site's bare * reset */
+.phrases-page { color: var(--ink); background: var(--white); font-family: var(--font-body); font-size: 1rem; line-height: 1.7; -webkit-font-smoothing: antialiased; }
+.phrases-page a { color: inherit; text-decoration: none; }
+.phrases-page .container { width: 100%; max-width: var(--w-content); margin-inline: auto; padding-inline: clamp(1.25rem, 5vw, 2.5rem); }
+.phrases-page .home-section { padding-block: var(--section-y); }
+.phrases-page .home-section--white { background: var(--white); }
+.phrases-page .home-section--soft { background: var(--surface-soft); }
+.phrases-page :focus-visible { outline: 3px solid var(--brand-dark); outline-offset: 4px; }
+.phrases-page .display-md { font-family: var(--font-display); font-size: clamp(1.5rem, 3vw, 2rem); font-weight: 700; line-height: 1.2; letter-spacing: -0.01em; }
+.phrases-page h2, .phrases-page h3 { text-wrap: balance; }
+.phrases-page .btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; border-radius: var(--r-full); font-family: var(--font-body); font-size: 0.9375rem; font-weight: 500; cursor: pointer; border: none; transition: transform 0.15s, box-shadow 0.15s, background 0.15s; text-decoration: none; }
+.phrases-page .btn:hover { transform: translateY(-1px); }
+.phrases-page .phrases-primary { background: var(--brand-dark); color: var(--white); min-height: 48px; font-weight: 600; box-shadow: none; justify-content: center; }
+.phrases-page .phrases-secondary { background: var(--white); color: var(--brand-dark); border: 1px solid var(--brand-dark); min-height: 48px; font-weight: 600; }
+.phrases-page .phrases-text-link { display: inline-flex; align-items: center; min-height: 44px; padding-block: var(--space-xs); color: var(--brand-dark); text-decoration: underline; text-underline-offset: .25em; }
+.phrases-breadcrumbs { margin-bottom: calc(var(--space-sm) * 2); font-size: .875rem; color: var(--ink-light); }
+.phrases-breadcrumbs ol { display: flex; flex-wrap: wrap; align-items: center; list-style: none; gap: calc(var(--space-xs) / 2); }
+.phrases-breadcrumbs a { display: inline-flex; align-items: center; min-height: 44px; padding-right: var(--space-xs); text-decoration: underline; text-underline-offset: .2em; }
+.phrases-breadcrumbs li + li::before { content: '/'; margin-inline: var(--space-xs); color: var(--ink-light); }
+.phrases-hero-layout { display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr); gap: clamp(calc(var(--space-sm) * 2), 5vw, var(--space-xl)); align-items: center; }
+.phrases-eyebrow { font-size: .8125rem; font-weight: 700; color: var(--brand-dark); letter-spacing: .035em; margin-bottom: calc(var(--space-xs) * 1.75); }
+.phrases-hero h1 { font-family: var(--font-display); font-weight: 800; font-size: clamp(2.15rem, 4.5vw, 3.5rem); line-height: 1.13; letter-spacing: -.03em; max-width: 18ch; }
+.phrases-lead { color: var(--ink-mid); max-width: 53ch; font-size: 1.125rem; line-height: 1.65; margin-top: calc(var(--space-xs) * 2.5); }
+.phrases-hero-actions { display: flex; align-items: center; flex-wrap: wrap; gap: var(--space-xs) calc(var(--space-xs) * 2.5); margin-block: var(--space-md) var(--space-sm); }
+.phrases-hero-meta { font-size: .875rem; color: var(--ink-light); }
+.phrases-hero-meta span { margin-inline: calc(var(--space-xs) / 2); }
+.phrases-section-heading { max-width: var(--w-narrow); margin-bottom: var(--space-md); }
+.phrases-guide-link { margin-top: var(--space-md); color: var(--ink-mid); }
+.phrases-guide-link a { color: var(--brand-dark); text-decoration: underline; text-underline-offset: .2em; }
+@media (max-width: 767px) {
+  .phrases-hero-layout { grid-template-columns: 1fr; gap: var(--space-md); }
+  .phrases-breadcrumbs { margin-bottom: var(--space-sm); }
+}
+@media (prefers-reduced-motion: reduce) { .phrases-page *, .phrases-page *::before, .phrases-page *::after { animation: none !important; transition: none !important; } .phrases-page .btn:hover { transform: none; } }
+
+/* ══ NEW: Hero card deck + situation tiles + guide anatomy (chosen options H-A, G-B) ══ */
+
+/* Hero: wider right column for the deck (was 1.7fr / 1fr) */
+.phrases-hero--deck .phrases-hero-layout { grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); }
+
+/* Deck: three real PhraseCards; back cards show only their Hebrew panel */
+.phrases-deck { --deck-peek: 124px; position: relative; isolation: isolate; overflow: hidden;
+  padding: var(--space-lg) var(--space-lg); background: var(--brand-light);
+  border: 1px solid var(--brand-line); border-radius: var(--r-xl); }
+.phrases-deck-glyph { position: absolute; z-index: -1; right: -.06em; bottom: -.34em;
+  font: 500 22rem/1 var(--font-hebrew); color: var(--white); pointer-events: none; user-select: none; }
+.phrases-deck-list { list-style: none; position: relative; padding-top: calc(var(--deck-peek) * 2); }
+.phrases-deck-list > li { position: relative; z-index: 3; }
+.phrases-deck-list > li:nth-child(2) { position: absolute; z-index: 2; top: var(--deck-peek); left: var(--space-xs-plus); right: var(--space-xs-plus); }
+.phrases-deck-list > li:nth-child(3) { position: absolute; z-index: 1; top: 0; left: var(--space-md); right: var(--space-md); }
+.phrases-deck .pc { max-width: none; box-shadow: var(--shadow-sm); }
+.phrases-deck-list > li:first-child .pc { box-shadow: var(--shadow-md); }
+
+/* Situation tiles: replace the 01–05 jump links (same component in the hero and above the phrase groups) */
+.phrases-situations { margin-top: var(--space-xl); }
+.phrases-situations-label { font-size: .875rem; line-height: 1.4; font-weight: 600; color: var(--ink-mid); margin-bottom: var(--space-xs-plus); }
+.phrases-situations ul { list-style: none; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: var(--space-xs-plus); }
+.phrases-situation { display: flex; flex-direction: column; justify-content: space-between; gap: var(--space-xs-plus);
+  height: 100%; min-height: 104px; padding: var(--space-sm); background: var(--white); color: var(--ink);
+  border: 1px solid var(--border); border-radius: var(--r-lg); transition: border-color .15s ease, background .15s ease; }
+.phrases-situation-name { font-family: var(--font-display); font-size: 1rem; line-height: 1.35; font-weight: 700; }
+.phrases-situation-meta { display: flex; align-items: center; justify-content: space-between; gap: var(--space-xs); font-size: .875rem; line-height: 1.4; color: var(--ink-mid); }
+.phrases-situation-meta svg { width: 20px; height: 20px; flex: none; fill: none; stroke: var(--brand-dark); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.phrases-situation:hover { border-color: var(--brand-dark); background: var(--brand-light); }
+
+/* Guide: annotated anatomy of one real PhraseCard */
+.phrases-anatomy { display: grid; grid-template-columns: minmax(0, 432px) minmax(0, 1fr); gap: var(--space-xl); align-items: start; }
+.phrases-anatomy-card { --pc-pad: var(--space-sm-plus); padding-left: var(--space-xs-plus); }
+.phrases-anatomy-card .pc { max-width: none; }
+.phrases-anatomy-card .pc-panel { overflow: visible; }             /* markers sit on the card edge; no audio here */
+.phrases-anatomy-card :is(.pc-he, .pc-tr, .pc-en, .pc-note, .pc-var-l) { position: relative; }
+.phrases-anatomy-card :is(.pc-he, .pc-tr, .pc-en, .pc-note, .pc-var-l)::before {
+  position: absolute; width: 24px; height: 24px; border-radius: var(--r-full); display: grid; place-items: center;
+  background: var(--brand-dark); color: var(--white); font: 700 12px/1 var(--font-display);
+  box-shadow: 0 0 0 3px var(--surface-soft); direction: ltr; text-align: center; }
+/* x = centred on the card's left border; panel parts sit one panel-padding further in */
+.phrases-anatomy-card :is(.pc-he, .pc-tr)::before { left: calc(-1 * (var(--pc-pad) + var(--space-sm)) - 13px); }
+.phrases-anatomy-card :is(.pc-en, .pc-note, .pc-var-l)::before { left: calc(-1 * var(--pc-pad) - 13px); }
+.phrases-anatomy-card .pc-he::before { content: "1" / ""; top: 12px; }
+.phrases-anatomy-card .pc-tr::before { content: "2" / ""; top: -1px; }
+.phrases-anatomy-card .pc-en::before { content: "3" / ""; top: 0; }
+.phrases-anatomy-card .pc-note::before { content: "4" / ""; top: -1px; }
+.phrases-anatomy-card .pc-var-l::before { content: "5" / ""; top: -4px; }
+
+.phrases-anatomy-legend { list-style: none; }
+.phrases-anatomy-legend li { display: grid; grid-template-columns: 24px minmax(0, 1fr); column-gap: var(--space-xs-plus);
+  padding-block: var(--space-sm); border-top: 1px solid var(--border); }
+.phrases-anatomy-legend li:first-child { padding-top: 0; border-top: 0; }
+.phrases-anatomy-num { flex: none; width: 24px; height: 24px; margin-top: 2px; border-radius: var(--r-full); display: grid; place-items: center;
+  background: var(--brand-dark); color: var(--white); font: 700 12px/1 var(--font-display); }
+.phrases-anatomy-legend h3 { font-family: var(--font-display); font-size: 1.0625rem; line-height: 1.6; font-weight: 700; color: var(--ink); }
+.phrases-anatomy-legend p { margin-top: 2px; font-size: .9375rem; line-height: 1.65; color: var(--ink-mid); }
+.phrases-anatomy-legend p a { color: var(--brand-dark); text-decoration: underline; text-underline-offset: .2em; }
+.phrases-anatomy-legend em { font-style: italic; color: var(--ink); }
+.phrases-page .phrases-secondary:hover { background: var(--brand-light); } /* PROPOSED, as .btn-outline:hover */
+/* Pointer enhancement: hovering a legend row outlines its part of the card */
+.phrases-anatomy:has(li:nth-child(1):hover) .pc-he,
+.phrases-anatomy:has(li:nth-child(2):hover) .pc-tr,
+.phrases-anatomy:has(li:nth-child(3):hover) .pc-en,
+.phrases-anatomy:has(li:nth-child(4):hover) .pc-note,
+.phrases-anatomy:has(li:nth-child(5):hover) .pc-vars { outline: 2px dashed var(--brand-dark); outline-offset: 4px; border-radius: 4px; }
+
+@media (max-width: 1023px) {
+  .phrases-situations ul { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .phrases-anatomy { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: var(--space-lg); }
+}
+@media (max-width: 767px) {
+  .phrases-hero--deck .phrases-hero-layout { grid-template-columns: 1fr; }
+  .phrases-situations { margin-top: var(--space-lg); }
+  .phrases-situations ul { grid-template-columns: 1fr; gap: var(--space-xs); }
+  .phrases-situation { min-height: 56px; flex-direction: row; align-items: center; padding: var(--space-xs-plus) var(--space-sm); }
+  .phrases-situation-name { font-size: .9375rem; }
+  .phrases-situation-meta { flex: none; }
+  .phrases-anatomy { grid-template-columns: 1fr; gap: var(--space-lg); }
+}
+@media (max-width: 639px) {
+  .phrases-deck { --deck-peek: 120px; padding: var(--space-md) var(--space-sm); }
+  .phrases-deck-glyph { font-size: 15rem; }
+  .phrases-deck-list { padding-top: var(--deck-peek); }
+  .phrases-deck-list > li:nth-child(2) { top: 0; }
+  .phrases-deck-list > li:nth-child(3) { display: none; }
+  .phrases-anatomy-card { --pc-pad: var(--space-sm); }
+}
+@media (prefers-reduced-motion: reduce) { .phrases-situation { transition: none; } }
+
+/* ===== Reference page chrome only ===== */
+
+html,body{margin:0;background:var(--bg)}
+.ref{font-family:var(--font-body);color:var(--ink);max-width:1280px;margin:0 auto;padding:32px clamp(1.25rem,5vw,2.5rem)}
+.ref h1{font:800 26px/1.3 var(--font-display);margin:0}.ref p{margin:6px 0 0;font-size:15px;line-height:1.6;color:var(--ink-mid);max-width:780px}
+.ref h2{font:800 18px/1.4 var(--font-display);margin:0}
+.band{border-block:1px dashed var(--border-dark)}
+.frames{display:flex;flex-wrap:wrap;gap:32px;align-items:flex-start}
+.frames figure{margin:0}.frames figcaption{font:600 12px/16px var(--font-body);color:var(--ink-mid);margin-bottom:8px}
+.frames iframe{width:360px;border:1px solid var(--border-dark);border-radius:8px;background:var(--white);display:block}
+.states{display:flex;flex-wrap:wrap;gap:24px}.states>div{width:230px}.states .cap{font:700 12px/16px var(--font-display);letter-spacing:.06em;text-transform:uppercase;color:var(--ink-mid);margin-bottom:8px}
+.phrases-situation.is-hover{border-color:var(--brand-dark);background:var(--brand-light)}.phrases-situation.is-focus{outline:3px solid var(--brand-dark);outline-offset:4px}
+
+</style></head><body>
+<div class="ref"><p class="ref-t" style="font:800 26px/1.3 var(--font-display);color:var(--ink);margin:0">Hebrew phrases page: hero and “How to use”</p>
+<p>Chosen options: <b>H-A Card deck</b> and <b>G-B Numbered anatomy</b>, built on global.css tokens and the PhraseCard as it ships. The two sections below are responsive (resize the window). The 360px frames under them run the same markup in a real 360px viewport. Links are disabled here.</p></div>
+<div class="band"><div class="phrases-page"><section class="home-section home-section--white phrases-hero phrases-hero--deck" aria-labelledby="phrases-title"><div class="container"><nav class="phrases-breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li aria-current="page">Hebrew Phrases</li></ol></nav><div class="phrases-hero-layout"><header><p class="phrases-eyebrow">A little Hebrew for everyday life</p><h1 id="phrases-title">Useful Hebrew Phrases for Beginners</h1><p class="phrases-lead">Say hello. Order a coffee. Ask for a little help. Start with 30 practical Modern Hebrew expressions, with English meanings and pronunciation support.</p><div class="phrases-hero-actions"><a href="#phrases" class="btn phrases-primary">Explore the phrases <span aria-hidden="true">↓</span></a><a href="#practice" class="btn phrases-secondary">Try a quick practice</a></div><p class="phrases-hero-meta">5 everyday situations <span aria-hidden="true">·</span> Free to use here <span aria-hidden="true">·</span> No installation needed</p></header><aside class="phrases-deck" aria-label="Three greetings to start with"><span class="phrases-deck-glyph" aria-hidden="true">ש</span><ul class="phrases-deck-list"><li><article class="pc"><div class="pc-panel"><div class="pc-heb" aria-live="polite"><p class="pc-he" lang="he" dir="rtl"><bdi lang="he" dir="rtl" class="hebrew">שָׁלוֹם</bdi></p><p class="pc-tr" lang="he-Latn"><span class="translit-b" aria-hidden="true">[</span><span class="translit-t">shalom</span><span class="translit-b" aria-hidden="true">]</span></p></div></div><div class="pc-body"><p class="pc-en">Hello / goodbye</p><p class="pc-note">A simple greeting when you meet someone. The same word can also be used when leaving.</p></div></article></li><li><article class="pc"><div class="pc-panel"><div class="pc-heb" aria-live="polite"><p class="pc-he" lang="he" dir="rtl"><bdi lang="he" dir="rtl" class="hebrew">בֹּקֶר</bdi> <bdi lang="he" dir="rtl" class="hebrew">טוֹב</bdi></p><p class="pc-tr" lang="he-Latn"><span class="translit-b" aria-hidden="true">[</span><span class="translit-t">boker tov</span><span class="translit-b" aria-hidden="true">]</span></p></div></div><div class="pc-body"><p class="pc-en">Good morning</p><p class="pc-note">Greet someone in the morning, at a café, at work, or at the start of a conversation.</p></div></article></li><li><article class="pc"><div class="pc-panel"><div class="pc-heb" aria-live="polite"><p class="pc-he" lang="he" dir="rtl"><bdi lang="he" dir="rtl" class="hebrew">לְהִתְרָאוֹת</bdi></p><p class="pc-tr" lang="he-Latn"><span class="translit-b" aria-hidden="true">[</span><span class="translit-t">lehitra&#39;ot</span><span class="translit-b" aria-hidden="true">]</span></p></div></div><div class="pc-body"><p class="pc-en">Goodbye / see you</p><p class="pc-note">Say this when you are leaving. It is a farewell, not a first greeting.</p></div></article></li></ul></aside></div><nav class="phrases-situations" aria-labelledby="situations-label"><p class="phrases-situations-label" id="situations-label">Jump to a situation</p><ul><li><a class="phrases-situation" href="#greetings"><span class="phrases-situation-name">Greetings and introductions</span><span class="phrases-situation-meta">6 phrases <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg></span></a></li><li><a class="phrases-situation" href="#politeness"><span class="phrases-situation-name">Politeness and everyday replies</span><span class="phrases-situation-meta">6 phrases <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg></span></a></li><li><a class="phrases-situation" href="#food"><span class="phrases-situation-name">Ordering food and drink</span><span class="phrases-situation-meta">6 phrases <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg></span></a></li><li><a class="phrases-situation" href="#shopping"><span class="phrases-situation-name">Shopping and paying</span><span class="phrases-situation-meta">6 phrases <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg></span></a></li><li><a class="phrases-situation" href="#help"><span class="phrases-situation-name">Directions and asking for help</span><span class="phrases-situation-meta">6 phrases <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg></span></a></li></ul></nav></div></section><section id="how-to-use" class="home-section home-section--soft"><div class="container"><div class="phrases-section-heading"><p class="phrases-eyebrow">Read it. Understand it. Use it.</p><h2 class="display-md">How to use this phrase guide</h2></div><div class="phrases-anatomy"><figure class="phrases-anatomy-card" aria-label="Example phrase card. Its parts are numbered 1 to 5 and explained in the list."><article class="pc" data-forms="{&quot;m&quot;:[&quot;אֲנִי רוֹצֶה קָפֶה, בְּבַקָּשָׁה.&quot;,&quot;ani rotse kafe bevakasha&quot;],&quot;f&quot;:[&quot;אֲנִי רוֹצָה קָפֶה, בְּבַקָּשָׁה.&quot;,&quot;ani rotsa kafe bevakasha&quot;]}"><div class="pc-panel"><div class="pc-heb" aria-live="polite"><p class="pc-he" lang="he" dir="rtl"><bdi lang="he" dir="rtl" class="hebrew">אֲנִי</bdi> <bdi lang="he" dir="rtl" class="hebrew">רוֹצֶה</bdi> <bdi lang="he" dir="rtl" class="hebrew">קָפֶה</bdi>, <bdi lang="he" dir="rtl" class="hebrew">בְּבַקָּשָׁה</bdi>.</p><p class="pc-tr" lang="he-Latn"><span class="translit-b" aria-hidden="true">[</span><span class="translit-t">ani rotse kafe bevakasha</span><span class="translit-b" aria-hidden="true">]</span></p></div></div><div class="pc-body"><p class="pc-en">I want coffee, please</p><p class="pc-note">A simple café order. Choose the form for the speaker; “please” softens the direct request.</p></div><div class="pc-vars"><div class="pc-var"><span class="pc-var-l" id="anatomy-coffee-please-by">Said by</span><div class="pc-seg" role="radiogroup" aria-labelledby="anatomy-coffee-please-by"><button type="button" role="radio" data-v="m" aria-checked="true" tabindex="0">Man</button><button type="button" role="radio" data-v="f" aria-checked="false" tabindex="-1">Woman</button></div></div></div></article></figure><ol class="phrases-anatomy-legend"><li><span class="phrases-anatomy-num" aria-hidden="true">1</span><div><h3>Hebrew with nikud</h3><p>The dots and marks around the Hebrew letters are nikud, which help show vowel sounds. <a href="/blog/how-to-read-hebrew-nikud/">Understand Hebrew vowel marks</a>.</p></div></li><li><span class="phrases-anatomy-num" aria-hidden="true">2</span><div><h3>[Transliteration]</h3><p>Transliteration is an approximation: <em>sh</em> as in “shoe”, <em>ts</em> as in “cats”, and <em>kh</em> for a sound like the ending of Scottish “loch”. An apostrophe separates vowel sounds.</p></div></li><li><span class="phrases-anatomy-num" aria-hidden="true">3</span><div><h3>English meaning</h3><p>Follow the meaning, so you know what you are saying.</p></div></li><li><span class="phrases-anatomy-num" aria-hidden="true">4</span><div><h3>Usage note</h3><p>The situation the phrase fits, so you know when to use it.</p></div></li><li><span class="phrases-anatomy-num" aria-hidden="true">5</span><div><h3>Said by / Said to</h3><p>“Said by” is the person saying the phrase; “Said to” is the person you are speaking to. These examples address one person.</p></div></li></ol></div></div></section></div></div>
+<div class="ref"><h2>States: situation tile</h2><p>Hover = brand-dark border + brand-light fill, 150ms. Focus = the page’s 3px brand-dark ring with a 4px offset.</p>
+<div class="states" style="margin-top:16px"><div><div class="cap">Rest</div><div class="phrases-page" style="background:transparent"><a class="phrases-situation " href="#food"><span class="phrases-situation-name">Ordering food and drink</span><span class="phrases-situation-meta">6 phrases <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg></span></a></div></div><div><div class="cap">Hover</div><div class="phrases-page" style="background:transparent"><a class="phrases-situation is-hover" href="#food"><span class="phrases-situation-name">Ordering food and drink</span><span class="phrases-situation-meta">6 phrases <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg></span></a></div></div><div><div class="cap">Focus-visible</div><div class="phrases-page" style="background:transparent"><a class="phrases-situation is-focus" href="#food"><span class="phrases-situation-name">Ordering food and drink</span><span class="phrases-situation-meta">6 phrases <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg></span></a></div></div></div></div>
+<div class="ref"><h2>360px</h2><p>Deck: 2 cards (lehitra’ot hidden), 120px peek. Tiles: one column, 56px rows. Guide: card, then the legend.</p>
+<div class="frames" style="margin-top:16px"><figure><figcaption>Hero · 360</figcaption><iframe title="360px preview" height="1640" srcdoc="&lt;!doctype html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1&quot;&gt;&lt;title&gt;Phrases hero and guide&lt;/title&gt;&lt;style&gt;:root{
+  --white:#ffffff;
+  --bg:#f8f8ff;
+  --surface-soft:#f7f7fc;
+  --surface:#f1f0ff;
+  --brand-light:#eef2ff;
+  --brand-line:#dbdcfb;
+  --brand:#6366f1;
+  --brand-dark:#4f46e5;
+  --ink:#1f2937;
+  --ink-mid:#374151;
+  --ink-light:#6b7280;
+  --ink-translit:#707070;
+  --ink-subtle:#9ca3af;
+  --border:#e5e7eb;
+  --border-dark:#d1d5db;
+  --emerald:#10b981;
+  --emerald-bg:#ecfdf5;
+  --amber:#f59e0b;
+  --amber-bg:#fffbeb;
+  --focus:var(--brand);
+  --space-2xs:4px;
+  --space-xs:8px;
+  --space-xs-plus:12px;
+  --space-sm:16px;
+  --space-sm-plus:20px;
+  --space-md:24px;
+  --space-lg:40px;
+  --space-xl:64px;
+  --space-2xl:96px;
+  --r-sm:8px;
+  --r-md:12px;
+  --r-lg:20px;
+  --r-xl:28px;
+  --r-full:9999px;
+  --shadow-sm:0 1px 3px rgba(99,102,241,.08), 0 1px 2px rgba(0,0,0,.04);
+  --shadow-md:0 4px 16px rgba(99,102,241,.10), 0 2px 6px rgba(0,0,0,.05);
+  --shadow-lg:0 12px 40px rgba(99,102,241,.14), 0 4px 12px rgba(0,0,0,.06);
+  --shadow-card-hover:0 4px 16px rgba(31,41,55,.08);
+  --w-content:1280px;
+  --w-medium:920px;
+  --w-narrow:720px;
+  --section-y:clamp(4.5rem, 9vw, 8rem);
+  --font-display:Manrope, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body:&quot;DM Sans&quot;, sans-serif;
+  --font-hebrew:&quot;Hebrew Rubik&quot;, Rubik, &quot;Arial Hebrew&quot;, Arial, sans-serif;
+}
+
+/* ── PhraseCard (option B) — exactly as built in hebrew-phrases.css, plus the hit-area fix marked FIX 1 ── */
+.phrase-grid { list-style: none; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-md); align-items: start; }
+.pc { position: relative; display: flex; flex-direction: column; gap: var(--space-sm); max-width: 480px; padding: var(--space-sm-plus); background: var(--white); color: var(--ink); border: 1px solid var(--border); border-radius: var(--r-lg); font-family: var(--font-body); transition: border-color .15s ease, box-shadow .15s ease; }
+.pc:hover, .pc.is-hover { border-color: var(--border-dark); box-shadow: var(--shadow-card-hover); }
+.pc :focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.pc-panel { position: relative; display: grid; grid-template-columns: 1fr; align-items: center; gap: var(--space-xs-plus); min-height: 96px; padding: var(--space-sm); background: var(--surface-soft); border-radius: var(--r-md); overflow: hidden; }
+.pc-heb { min-width: 0; text-align: right; }
+.pc-he { margin: 0; font-family: var(--font-hebrew); font-weight: 500; font-size: 32px; line-height: 48px; color: var(--ink); text-wrap: balance; overflow-wrap: anywhere; }
+.pc--long .pc-he { font-size: 26px; line-height: 40px; }
+.pc-tr { margin: var(--space-2xs) 0 0; font-size: 15px; line-height: 22px; letter-spacing: .01em; }
+.pc-tr .translit-b, .pc-tr .translit-t { color: var(--ink-translit); } /* Transliteration.astro */
+.pc-body { display: flex; flex-direction: column; gap: var(--space-xs); }
+.pc-en { margin: 0; font-family: var(--font-display); font-size: 18px; line-height: 24px; font-weight: 700; color: var(--ink); }
+.pc-note { margin: 0; font-size: 15px; line-height: 22px; color: var(--ink-mid); }
+.pc-vars { display: flex; flex-direction: column; gap: var(--space-xs); padding-top: var(--space-sm); border-top: 1px solid var(--border); }
+.pc-var { display: flex; align-items: center; justify-content: space-between; gap: var(--space-xs-plus); }
+.pc-var-l { font-size: 13px; line-height: 16px; font-weight: 600; color: var(--ink-mid); }
+.pc-seg { display: inline-flex; gap: 2px; padding: 3px; border: 1px solid var(--ink-light); border-radius: var(--r-full); background: var(--surface); }
+.pc-seg button { position: relative; min-height: 38px; min-width: 80px; padding: 0 var(--space-sm); border: 0; border-radius: var(--r-full); background: transparent; font: 600 14px/20px var(--font-body); color: var(--ink-mid); cursor: pointer; }
+/* FIX 1: 38px buttons -&gt; 44px hit area without changing the look (extends over the 3px track padding) */
+.pc-seg button::after { content: &quot;&quot;; position: absolute; inset: -3px 0; }
+.pc-seg button:hover:not([aria-checked=&quot;true&quot;]) { color: var(--ink); background: var(--surface-soft); }
+.pc-seg button[aria-checked=&quot;true&quot;] { background: var(--brand-dark); color: var(--white); }
+/* Audio (spec&#x27;d, not yet on the site) */
+.pc.has-audio .pc-panel { grid-template-columns: 44px 1fr; }
+.pc.has-audio .pc-heb { grid-column: 2; grid-row: 1; }
+.pc-play { grid-column: 1; grid-row: 1; width: 44px; height: 44px; padding: 0; display: grid; place-items: center; border-radius: var(--r-full); border: 1px solid var(--ink-light); background: var(--white); color: var(--ink); cursor: pointer; transition: background .15s, border-color .15s, color .15s; }
+.pc-play svg { width: 20px; height: 20px; fill: currentColor; }
+.pc-play .i-pause { display: none; }
+.pc-play:hover, .pc-play.is-hover { background: var(--brand-light); border-color: var(--brand-dark); color: var(--brand-dark); }
+.pc.is-playing { border-color: var(--brand-dark); }
+.pc.is-playing .pc-play { background: var(--brand-dark); border-color: var(--brand-dark); color: var(--white); }
+.pc.is-playing .pc-play .i-play { display: none; }
+.pc.is-playing .pc-play .i-pause { display: block; }
+.pc-progress { position: absolute; left: 0; right: 0; bottom: 0; height: 3px; }
+.pc-progress span { display: block; height: 100%; width: 0; background: var(--brand-dark); }
+.pc.is-playing .pc-progress span { width: var(--pc-p, 0%); }
+@media (max-width: 1023px) { .phrase-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 639px) { .phrase-grid { grid-template-columns: 1fr; gap: var(--space-sm); } .pc { padding: var(--space-sm); } .pc-he { font-size: 28px; line-height: 42px; } .pc--long .pc-he { font-size: 24px; line-height: 36px; } }
+@media (prefers-reduced-motion: reduce) { .pc, .pc-play { transition: none; } }
+
+/* ── Site base used by the hero and guide: copied unchanged from global.css + hebrew-phrases.css,
+      scoped to .phrases-page so it can&#x27;t leak into other previews ── */
+:where(.phrases-page, .phrases-page *, .phrases-page *::before, .phrases-page *::after) { box-sizing: border-box; margin: 0; padding: 0; } /* zero specificity, like the site&#x27;s bare * reset */
+.phrases-page { color: var(--ink); background: var(--white); font-family: var(--font-body); font-size: 1rem; line-height: 1.7; -webkit-font-smoothing: antialiased; }
+.phrases-page a { color: inherit; text-decoration: none; }
+.phrases-page .container { width: 100%; max-width: var(--w-content); margin-inline: auto; padding-inline: clamp(1.25rem, 5vw, 2.5rem); }
+.phrases-page .home-section { padding-block: var(--section-y); }
+.phrases-page .home-section--white { background: var(--white); }
+.phrases-page .home-section--soft { background: var(--surface-soft); }
+.phrases-page :focus-visible { outline: 3px solid var(--brand-dark); outline-offset: 4px; }
+.phrases-page .display-md { font-family: var(--font-display); font-size: clamp(1.5rem, 3vw, 2rem); font-weight: 700; line-height: 1.2; letter-spacing: -0.01em; }
+.phrases-page h2, .phrases-page h3 { text-wrap: balance; }
+.phrases-page .btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; border-radius: var(--r-full); font-family: var(--font-body); font-size: 0.9375rem; font-weight: 500; cursor: pointer; border: none; transition: transform 0.15s, box-shadow 0.15s, background 0.15s; text-decoration: none; }
+.phrases-page .btn:hover { transform: translateY(-1px); }
+.phrases-page .phrases-primary { background: var(--brand-dark); color: var(--white); min-height: 48px; font-weight: 600; box-shadow: none; justify-content: center; }
+.phrases-page .phrases-secondary { background: var(--white); color: var(--brand-dark); border: 1px solid var(--brand-dark); min-height: 48px; font-weight: 600; }
+.phrases-page .phrases-text-link { display: inline-flex; align-items: center; min-height: 44px; padding-block: var(--space-xs); color: var(--brand-dark); text-decoration: underline; text-underline-offset: .25em; }
+.phrases-breadcrumbs { margin-bottom: calc(var(--space-sm) * 2); font-size: .875rem; color: var(--ink-light); }
+.phrases-breadcrumbs ol { display: flex; flex-wrap: wrap; align-items: center; list-style: none; gap: calc(var(--space-xs) / 2); }
+.phrases-breadcrumbs a { display: inline-flex; align-items: center; min-height: 44px; padding-right: var(--space-xs); text-decoration: underline; text-underline-offset: .2em; }
+.phrases-breadcrumbs li + li::before { content: &#x27;/&#x27;; margin-inline: var(--space-xs); color: var(--ink-light); }
+.phrases-hero-layout { display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr); gap: clamp(calc(var(--space-sm) * 2), 5vw, var(--space-xl)); align-items: center; }
+.phrases-eyebrow { font-size: .8125rem; font-weight: 700; color: var(--brand-dark); letter-spacing: .035em; margin-bottom: calc(var(--space-xs) * 1.75); }
+.phrases-hero h1 { font-family: var(--font-display); font-weight: 800; font-size: clamp(2.15rem, 4.5vw, 3.5rem); line-height: 1.13; letter-spacing: -.03em; max-width: 18ch; }
+.phrases-lead { color: var(--ink-mid); max-width: 53ch; font-size: 1.125rem; line-height: 1.65; margin-top: calc(var(--space-xs) * 2.5); }
+.phrases-hero-actions { display: flex; align-items: center; flex-wrap: wrap; gap: var(--space-xs) calc(var(--space-xs) * 2.5); margin-block: var(--space-md) var(--space-sm); }
+.phrases-hero-meta { font-size: .875rem; color: var(--ink-light); }
+.phrases-hero-meta span { margin-inline: calc(var(--space-xs) / 2); }
+.phrases-section-heading { max-width: var(--w-narrow); margin-bottom: var(--space-md); }
+.phrases-guide-link { margin-top: var(--space-md); color: var(--ink-mid); }
+.phrases-guide-link a { color: var(--brand-dark); text-decoration: underline; text-underline-offset: .2em; }
+@media (max-width: 767px) {
+  .phrases-hero-layout { grid-template-columns: 1fr; gap: var(--space-md); }
+  .phrases-breadcrumbs { margin-bottom: var(--space-sm); }
+}
+@media (prefers-reduced-motion: reduce) { .phrases-page *, .phrases-page *::before, .phrases-page *::after { animation: none !important; transition: none !important; } .phrases-page .btn:hover { transform: none; } }
+
+/* ══ NEW: Hero card deck + situation tiles + guide anatomy (chosen options H-A, G-B) ══ */
+
+/* Hero: wider right column for the deck (was 1.7fr / 1fr) */
+.phrases-hero--deck .phrases-hero-layout { grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); }
+
+/* Deck: three real PhraseCards; back cards show only their Hebrew panel */
+.phrases-deck { --deck-peek: 124px; position: relative; isolation: isolate; overflow: hidden;
+  padding: var(--space-lg) var(--space-lg); background: var(--brand-light);
+  border: 1px solid var(--brand-line); border-radius: var(--r-xl); }
+.phrases-deck-glyph { position: absolute; z-index: -1; right: -.06em; bottom: -.34em;
+  font: 500 22rem/1 var(--font-hebrew); color: var(--white); pointer-events: none; user-select: none; }
+.phrases-deck-list { list-style: none; position: relative; padding-top: calc(var(--deck-peek) * 2); }
+.phrases-deck-list &gt; li { position: relative; z-index: 3; }
+.phrases-deck-list &gt; li:nth-child(2) { position: absolute; z-index: 2; top: var(--deck-peek); left: var(--space-xs-plus); right: var(--space-xs-plus); }
+.phrases-deck-list &gt; li:nth-child(3) { position: absolute; z-index: 1; top: 0; left: var(--space-md); right: var(--space-md); }
+.phrases-deck .pc { max-width: none; box-shadow: var(--shadow-sm); }
+.phrases-deck-list &gt; li:first-child .pc { box-shadow: var(--shadow-md); }
+
+/* Situation tiles: replace the 01–05 jump links (same component in the hero and above the phrase groups) */
+.phrases-situations { margin-top: var(--space-xl); }
+.phrases-situations-label { font-size: .875rem; line-height: 1.4; font-weight: 600; color: var(--ink-mid); margin-bottom: var(--space-xs-plus); }
+.phrases-situations ul { list-style: none; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: var(--space-xs-plus); }
+.phrases-situation { display: flex; flex-direction: column; justify-content: space-between; gap: var(--space-xs-plus);
+  height: 100%; min-height: 104px; padding: var(--space-sm); background: var(--white); color: var(--ink);
+  border: 1px solid var(--border); border-radius: var(--r-lg); transition: border-color .15s ease, background .15s ease; }
+.phrases-situation-name { font-family: var(--font-display); font-size: 1rem; line-height: 1.35; font-weight: 700; }
+.phrases-situation-meta { display: flex; align-items: center; justify-content: space-between; gap: var(--space-xs); font-size: .875rem; line-height: 1.4; color: var(--ink-mid); }
+.phrases-situation-meta svg { width: 20px; height: 20px; flex: none; fill: none; stroke: var(--brand-dark); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.phrases-situation:hover { border-color: var(--brand-dark); background: var(--brand-light); }
+
+/* Guide: annotated anatomy of one real PhraseCard */
+.phrases-anatomy { display: grid; grid-template-columns: minmax(0, 432px) minmax(0, 1fr); gap: var(--space-xl); align-items: start; }
+.phrases-anatomy-card { --pc-pad: var(--space-sm-plus); padding-left: var(--space-xs-plus); }
+.phrases-anatomy-card .pc { max-width: none; }
+.phrases-anatomy-card .pc-panel { overflow: visible; }             /* markers sit on the card edge; no audio here */
+.phrases-anatomy-card :is(.pc-he, .pc-tr, .pc-en, .pc-note, .pc-var-l) { position: relative; }
+.phrases-anatomy-card :is(.pc-he, .pc-tr, .pc-en, .pc-note, .pc-var-l)::before {
+  position: absolute; width: 24px; height: 24px; border-radius: var(--r-full); display: grid; place-items: center;
+  background: var(--brand-dark); color: var(--white); font: 700 12px/1 var(--font-display);
+  box-shadow: 0 0 0 3px var(--surface-soft); direction: ltr; text-align: center; }
+/* x = centred on the card&#x27;s left border; panel parts sit one panel-padding further in */
+.phrases-anatomy-card :is(.pc-he, .pc-tr)::before { left: calc(-1 * (var(--pc-pad) + var(--space-sm)) - 13px); }
+.phrases-anatomy-card :is(.pc-en, .pc-note, .pc-var-l)::before { left: calc(-1 * var(--pc-pad) - 13px); }
+.phrases-anatomy-card .pc-he::before { content: &quot;1&quot; / &quot;&quot;; top: 12px; }
+.phrases-anatomy-card .pc-tr::before { content: &quot;2&quot; / &quot;&quot;; top: -1px; }
+.phrases-anatomy-card .pc-en::before { content: &quot;3&quot; / &quot;&quot;; top: 0; }
+.phrases-anatomy-card .pc-note::before { content: &quot;4&quot; / &quot;&quot;; top: -1px; }
+.phrases-anatomy-card .pc-var-l::before { content: &quot;5&quot; / &quot;&quot;; top: -4px; }
+
+.phrases-anatomy-legend { list-style: none; }
+.phrases-anatomy-legend li { display: grid; grid-template-columns: 24px minmax(0, 1fr); column-gap: var(--space-xs-plus);
+  padding-block: var(--space-sm); border-top: 1px solid var(--border); }
+.phrases-anatomy-legend li:first-child { padding-top: 0; border-top: 0; }
+.phrases-anatomy-num { flex: none; width: 24px; height: 24px; margin-top: 2px; border-radius: var(--r-full); display: grid; place-items: center;
+  background: var(--brand-dark); color: var(--white); font: 700 12px/1 var(--font-display); }
+.phrases-anatomy-legend h3 { font-family: var(--font-display); font-size: 1.0625rem; line-height: 1.6; font-weight: 700; color: var(--ink); }
+.phrases-anatomy-legend p { margin-top: 2px; font-size: .9375rem; line-height: 1.65; color: var(--ink-mid); }
+.phrases-anatomy-legend p a { color: var(--brand-dark); text-decoration: underline; text-underline-offset: .2em; }
+.phrases-anatomy-legend em { font-style: italic; color: var(--ink); }
+.phrases-page .phrases-secondary:hover { background: var(--brand-light); } /* PROPOSED, as .btn-outline:hover */
+/* Pointer enhancement: hovering a legend row outlines its part of the card */
+.phrases-anatomy:has(li:nth-child(1):hover) .pc-he,
+.phrases-anatomy:has(li:nth-child(2):hover) .pc-tr,
+.phrases-anatomy:has(li:nth-child(3):hover) .pc-en,
+.phrases-anatomy:has(li:nth-child(4):hover) .pc-note,
+.phrases-anatomy:has(li:nth-child(5):hover) .pc-vars { outline: 2px dashed var(--brand-dark); outline-offset: 4px; border-radius: 4px; }
+
+@media (max-width: 1023px) {
+  .phrases-situations ul { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .phrases-anatomy { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: var(--space-lg); }
+}
+@media (max-width: 767px) {
+  .phrases-hero--deck .phrases-hero-layout { grid-template-columns: 1fr; }
+  .phrases-situations { margin-top: var(--space-lg); }
+  .phrases-situations ul { grid-template-columns: 1fr; gap: var(--space-xs); }
+  .phrases-situation { min-height: 56px; flex-direction: row; align-items: center; padding: var(--space-xs-plus) var(--space-sm); }
+  .phrases-situation-name { font-size: .9375rem; }
+  .phrases-situation-meta { flex: none; }
+  .phrases-anatomy { grid-template-columns: 1fr; gap: var(--space-lg); }
+}
+@media (max-width: 639px) {
+  .phrases-deck { --deck-peek: 120px; padding: var(--space-md) var(--space-sm); }
+  .phrases-deck-glyph { font-size: 15rem; }
+  .phrases-deck-list { padding-top: var(--deck-peek); }
+  .phrases-deck-list &gt; li:nth-child(2) { top: 0; }
+  .phrases-deck-list &gt; li:nth-child(3) { display: none; }
+  .phrases-anatomy-card { --pc-pad: var(--space-sm); }
+}
+@media (prefers-reduced-motion: reduce) { .phrases-situation { transition: none; } }
+html,body{margin:0;background:var(--white)}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;div class=&quot;phrases-page&quot;&gt;&lt;section class=&quot;home-section home-section--white phrases-hero phrases-hero--deck&quot; aria-labelledby=&quot;phrases-title&quot;&gt;&lt;div class=&quot;container&quot;&gt;&lt;nav class=&quot;phrases-breadcrumbs&quot; aria-label=&quot;Breadcrumb&quot;&gt;&lt;ol&gt;&lt;li&gt;&lt;a href=&quot;/&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;&lt;li aria-current=&quot;page&quot;&gt;Hebrew Phrases&lt;/li&gt;&lt;/ol&gt;&lt;/nav&gt;&lt;div class=&quot;phrases-hero-layout&quot;&gt;&lt;header&gt;&lt;p class=&quot;phrases-eyebrow&quot;&gt;A little Hebrew for everyday life&lt;/p&gt;&lt;h1 id=&quot;phrases-title&quot;&gt;Useful Hebrew Phrases for Beginners&lt;/h1&gt;&lt;p class=&quot;phrases-lead&quot;&gt;Say hello. Order a coffee. Ask for a little help. Start with 30 practical Modern Hebrew expressions, with English meanings and pronunciation support.&lt;/p&gt;&lt;div class=&quot;phrases-hero-actions&quot;&gt;&lt;a href=&quot;#phrases&quot; class=&quot;btn phrases-primary&quot;&gt;Explore the phrases &lt;span aria-hidden=&quot;true&quot;&gt;↓&lt;/span&gt;&lt;/a&gt;&lt;a href=&quot;#practice&quot; class=&quot;btn phrases-secondary&quot;&gt;Try a quick practice&lt;/a&gt;&lt;/div&gt;&lt;p class=&quot;phrases-hero-meta&quot;&gt;5 everyday situations &lt;span aria-hidden=&quot;true&quot;&gt;·&lt;/span&gt; Free to use here &lt;span aria-hidden=&quot;true&quot;&gt;·&lt;/span&gt; No installation needed&lt;/p&gt;&lt;/header&gt;&lt;aside class=&quot;phrases-deck&quot; aria-label=&quot;Three greetings to start with&quot;&gt;&lt;span class=&quot;phrases-deck-glyph&quot; aria-hidden=&quot;true&quot;&gt;ש&lt;/span&gt;&lt;ul class=&quot;phrases-deck-list&quot;&gt;&lt;li&gt;&lt;article class=&quot;pc&quot;&gt;&lt;div class=&quot;pc-panel&quot;&gt;&lt;div class=&quot;pc-heb&quot; aria-live=&quot;polite&quot;&gt;&lt;p class=&quot;pc-he&quot; lang=&quot;he&quot; dir=&quot;rtl&quot;&gt;&lt;bdi lang=&quot;he&quot; dir=&quot;rtl&quot; class=&quot;hebrew&quot;&gt;שָׁלוֹם&lt;/bdi&gt;&lt;/p&gt;&lt;p class=&quot;pc-tr&quot; lang=&quot;he-Latn&quot;&gt;&lt;span class=&quot;translit-b&quot; aria-hidden=&quot;true&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;translit-t&quot;&gt;shalom&lt;/span&gt;&lt;span class=&quot;translit-b&quot; aria-hidden=&quot;true&quot;&gt;]&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;pc-body&quot;&gt;&lt;p class=&quot;pc-en&quot;&gt;Hello / goodbye&lt;/p&gt;&lt;p class=&quot;pc-note&quot;&gt;A simple greeting when you meet someone. The same word can also be used when leaving.&lt;/p&gt;&lt;/div&gt;&lt;/article&gt;&lt;/li&gt;&lt;li&gt;&lt;article class=&quot;pc&quot;&gt;&lt;div class=&quot;pc-panel&quot;&gt;&lt;div class=&quot;pc-heb&quot; aria-live=&quot;polite&quot;&gt;&lt;p class=&quot;pc-he&quot; lang=&quot;he&quot; dir=&quot;rtl&quot;&gt;&lt;bdi lang=&quot;he&quot; dir=&quot;rtl&quot; class=&quot;hebrew&quot;&gt;בֹּקֶר&lt;/bdi&gt; &lt;bdi lang=&quot;he&quot; dir=&quot;rtl&quot; class=&quot;hebrew&quot;&gt;טוֹב&lt;/bdi&gt;&lt;/p&gt;&lt;p class=&quot;pc-tr&quot; lang=&quot;he-Latn&quot;&gt;&lt;span class=&quot;translit-b&quot; aria-hidden=&quot;true&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;translit-t&quot;&gt;boker tov&lt;/span&gt;&lt;span class=&quot;translit-b&quot; aria-hidden=&quot;true&quot;&gt;]&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;pc-body&quot;&gt;&lt;p class=&quot;pc-en&quot;&gt;Good morning&lt;/p&gt;&lt;p class=&quot;pc-note&quot;&gt;Greet someone in the morning, at a café, at work, or at the start of a conversation.&lt;/p&gt;&lt;/div&gt;&lt;/article&gt;&lt;/li&gt;&lt;li&gt;&lt;article class=&quot;pc&quot;&gt;&lt;div class=&quot;pc-panel&quot;&gt;&lt;div class=&quot;pc-heb&quot; aria-live=&quot;polite&quot;&gt;&lt;p class=&quot;pc-he&quot; lang=&quot;he&quot; dir=&quot;rtl&quot;&gt;&lt;bdi lang=&quot;he&quot; dir=&quot;rtl&quot; class=&quot;hebrew&quot;&gt;לְהִתְרָאוֹת&lt;/bdi&gt;&lt;/p&gt;&lt;p class=&quot;pc-tr&quot; lang=&quot;he-Latn&quot;&gt;&lt;span class=&quot;translit-b&quot; aria-hidden=&quot;true&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;translit-t&quot;&gt;lehitra&amp;#39;ot&lt;/span&gt;&lt;span class=&quot;translit-b&quot; aria-hidden=&quot;true&quot;&gt;]&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;pc-body&quot;&gt;&lt;p class=&quot;pc-en&quot;&gt;Goodbye / see you&lt;/p&gt;&lt;p class=&quot;pc-note&quot;&gt;Say this when you are leaving. It is a farewell, not a first greeting.&lt;/p&gt;&lt;/div&gt;&lt;/article&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/aside&gt;&lt;/div&gt;&lt;nav class=&quot;phrases-situations&quot; aria-labelledby=&quot;situations-label&quot;&gt;&lt;p class=&quot;phrases-situations-label&quot; id=&quot;situations-label&quot;&gt;Jump to a situation&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a class=&quot;phrases-situation&quot; href=&quot;#greetings&quot;&gt;&lt;span class=&quot;phrases-situation-name&quot;&gt;Greetings and introductions&lt;/span&gt;&lt;span class=&quot;phrases-situation-meta&quot;&gt;6 phrases &lt;svg viewBox=&quot;0 0 24 24&quot; aria-hidden=&quot;true&quot;&gt;&lt;path d=&quot;M12 5v14M6 13l6 6 6-6&quot;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class=&quot;phrases-situation&quot; href=&quot;#politeness&quot;&gt;&lt;span class=&quot;phrases-situation-name&quot;&gt;Politeness and everyday replies&lt;/span&gt;&lt;span class=&quot;phrases-situation-meta&quot;&gt;6 phrases &lt;svg viewBox=&quot;0 0 24 24&quot; aria-hidden=&quot;true&quot;&gt;&lt;path d=&quot;M12 5v14M6 13l6 6 6-6&quot;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class=&quot;phrases-situation&quot; href=&quot;#food&quot;&gt;&lt;span class=&quot;phrases-situation-name&quot;&gt;Ordering food and drink&lt;/span&gt;&lt;span class=&quot;phrases-situation-meta&quot;&gt;6 phrases &lt;svg viewBox=&quot;0 0 24 24&quot; aria-hidden=&quot;true&quot;&gt;&lt;path d=&quot;M12 5v14M6 13l6 6 6-6&quot;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class=&quot;phrases-situation&quot; href=&quot;#shopping&quot;&gt;&lt;span class=&quot;phrases-situation-name&quot;&gt;Shopping and paying&lt;/span&gt;&lt;span class=&quot;phrases-situation-meta&quot;&gt;6 phrases &lt;svg viewBox=&quot;0 0 24 24&quot; aria-hidden=&quot;true&quot;&gt;&lt;path d=&quot;M12 5v14M6 13l6 6 6-6&quot;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class=&quot;phrases-situation&quot; href=&quot;#help&quot;&gt;&lt;span class=&quot;phrases-situation-name&quot;&gt;Directions and asking for help&lt;/span&gt;&lt;span class=&quot;phrases-situation-meta&quot;&gt;6 phrases &lt;svg viewBox=&quot;0 0 24 24&quot; aria-hidden=&quot;true&quot;&gt;&lt;path d=&quot;M12 5v14M6 13l6 6 6-6&quot;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/nav&gt;&lt;/div&gt;&lt;/section&gt;&lt;/div&gt;&lt;script&gt;
+/* Variant switch as on the site (radiogroup, roving tabindex). */
+(function(){document.querySelectorAll(&#x27;.pc[data-forms]&#x27;).forEach(function(card){
+ var forms=JSON.parse(card.dataset.forms),he=card.querySelector(&#x27;.pc-he&#x27;),tr=card.querySelector(&#x27;.translit-t&#x27;),groups=[].slice.call(card.querySelectorAll(&#x27;[role=radiogroup]&#x27;));
+ function update(){var k=groups.map(function(g){return g.querySelector(&#x27;[aria-checked=true]&#x27;).dataset.v}).join(&#x27;&#x27;),f=forms[k];if(f){he.textContent=f[0];tr.textContent=f[1];}}
+ groups.forEach(function(g){var o=[].slice.call(g.querySelectorAll(&#x27;[role=radio]&#x27;));
+  function sel(b,f){o.forEach(function(x){var on=x===b;x.setAttribute(&#x27;aria-checked&#x27;,on);x.tabIndex=on?0:-1;});if(f)b.focus();update();}
+  g.addEventListener(&#x27;click&#x27;,function(e){var b=e.target.closest(&#x27;[role=radio]&#x27;);if(b)sel(b);});
+  g.addEventListener(&#x27;keydown&#x27;,function(e){var i=o.indexOf(document.activeElement),n=null,L=o.length;if(i&lt;0)return;
+   if(e.key===&#x27;ArrowRight&#x27;||e.key===&#x27;ArrowDown&#x27;)n=(i+1)%L;else if(e.key===&#x27;ArrowLeft&#x27;||e.key===&#x27;ArrowUp&#x27;)n=(i-1+L)%L;else if(e.key===&#x27;Home&#x27;)n=0;else if(e.key===&#x27;End&#x27;)n=L-1;
+   else if(e.key===&#x27; &#x27;||e.key===&#x27;Enter&#x27;){e.preventDefault();sel(o[i]);return;}if(n!==null){e.preventDefault();sel(o[n],true);}});});});
+ document.querySelectorAll(&#x27;a[href^=&quot;#&quot;]&#x27;).forEach(function(a){a.addEventListener(&#x27;click&#x27;,function(e){e.preventDefault();});});})();
+&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;"></iframe></figure><figure><figcaption>How to use · 360</figcaption><iframe title="360px preview" height="1500" srcdoc="&lt;!doctype html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1&quot;&gt;&lt;title&gt;Phrases hero and guide&lt;/title&gt;&lt;style&gt;:root{
+  --white:#ffffff;
+  --bg:#f8f8ff;
+  --surface-soft:#f7f7fc;
+  --surface:#f1f0ff;
+  --brand-light:#eef2ff;
+  --brand-line:#dbdcfb;
+  --brand:#6366f1;
+  --brand-dark:#4f46e5;
+  --ink:#1f2937;
+  --ink-mid:#374151;
+  --ink-light:#6b7280;
+  --ink-translit:#707070;
+  --ink-subtle:#9ca3af;
+  --border:#e5e7eb;
+  --border-dark:#d1d5db;
+  --emerald:#10b981;
+  --emerald-bg:#ecfdf5;
+  --amber:#f59e0b;
+  --amber-bg:#fffbeb;
+  --focus:var(--brand);
+  --space-2xs:4px;
+  --space-xs:8px;
+  --space-xs-plus:12px;
+  --space-sm:16px;
+  --space-sm-plus:20px;
+  --space-md:24px;
+  --space-lg:40px;
+  --space-xl:64px;
+  --space-2xl:96px;
+  --r-sm:8px;
+  --r-md:12px;
+  --r-lg:20px;
+  --r-xl:28px;
+  --r-full:9999px;
+  --shadow-sm:0 1px 3px rgba(99,102,241,.08), 0 1px 2px rgba(0,0,0,.04);
+  --shadow-md:0 4px 16px rgba(99,102,241,.10), 0 2px 6px rgba(0,0,0,.05);
+  --shadow-lg:0 12px 40px rgba(99,102,241,.14), 0 4px 12px rgba(0,0,0,.06);
+  --shadow-card-hover:0 4px 16px rgba(31,41,55,.08);
+  --w-content:1280px;
+  --w-medium:920px;
+  --w-narrow:720px;
+  --section-y:clamp(4.5rem, 9vw, 8rem);
+  --font-display:Manrope, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body:&quot;DM Sans&quot;, sans-serif;
+  --font-hebrew:&quot;Hebrew Rubik&quot;, Rubik, &quot;Arial Hebrew&quot;, Arial, sans-serif;
+}
+
+/* ── PhraseCard (option B) — exactly as built in hebrew-phrases.css, plus the hit-area fix marked FIX 1 ── */
+.phrase-grid { list-style: none; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-md); align-items: start; }
+.pc { position: relative; display: flex; flex-direction: column; gap: var(--space-sm); max-width: 480px; padding: var(--space-sm-plus); background: var(--white); color: var(--ink); border: 1px solid var(--border); border-radius: var(--r-lg); font-family: var(--font-body); transition: border-color .15s ease, box-shadow .15s ease; }
+.pc:hover, .pc.is-hover { border-color: var(--border-dark); box-shadow: var(--shadow-card-hover); }
+.pc :focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.pc-panel { position: relative; display: grid; grid-template-columns: 1fr; align-items: center; gap: var(--space-xs-plus); min-height: 96px; padding: var(--space-sm); background: var(--surface-soft); border-radius: var(--r-md); overflow: hidden; }
+.pc-heb { min-width: 0; text-align: right; }
+.pc-he { margin: 0; font-family: var(--font-hebrew); font-weight: 500; font-size: 32px; line-height: 48px; color: var(--ink); text-wrap: balance; overflow-wrap: anywhere; }
+.pc--long .pc-he { font-size: 26px; line-height: 40px; }
+.pc-tr { margin: var(--space-2xs) 0 0; font-size: 15px; line-height: 22px; letter-spacing: .01em; }
+.pc-tr .translit-b, .pc-tr .translit-t { color: var(--ink-translit); } /* Transliteration.astro */
+.pc-body { display: flex; flex-direction: column; gap: var(--space-xs); }
+.pc-en { margin: 0; font-family: var(--font-display); font-size: 18px; line-height: 24px; font-weight: 700; color: var(--ink); }
+.pc-note { margin: 0; font-size: 15px; line-height: 22px; color: var(--ink-mid); }
+.pc-vars { display: flex; flex-direction: column; gap: var(--space-xs); padding-top: var(--space-sm); border-top: 1px solid var(--border); }
+.pc-var { display: flex; align-items: center; justify-content: space-between; gap: var(--space-xs-plus); }
+.pc-var-l { font-size: 13px; line-height: 16px; font-weight: 600; color: var(--ink-mid); }
+.pc-seg { display: inline-flex; gap: 2px; padding: 3px; border: 1px solid var(--ink-light); border-radius: var(--r-full); background: var(--surface); }
+.pc-seg button { position: relative; min-height: 38px; min-width: 80px; padding: 0 var(--space-sm); border: 0; border-radius: var(--r-full); background: transparent; font: 600 14px/20px var(--font-body); color: var(--ink-mid); cursor: pointer; }
+/* FIX 1: 38px buttons -&gt; 44px hit area without changing the look (extends over the 3px track padding) */
+.pc-seg button::after { content: &quot;&quot;; position: absolute; inset: -3px 0; }
+.pc-seg button:hover:not([aria-checked=&quot;true&quot;]) { color: var(--ink); background: var(--surface-soft); }
+.pc-seg button[aria-checked=&quot;true&quot;] { background: var(--brand-dark); color: var(--white); }
+/* Audio (spec&#x27;d, not yet on the site) */
+.pc.has-audio .pc-panel { grid-template-columns: 44px 1fr; }
+.pc.has-audio .pc-heb { grid-column: 2; grid-row: 1; }
+.pc-play { grid-column: 1; grid-row: 1; width: 44px; height: 44px; padding: 0; display: grid; place-items: center; border-radius: var(--r-full); border: 1px solid var(--ink-light); background: var(--white); color: var(--ink); cursor: pointer; transition: background .15s, border-color .15s, color .15s; }
+.pc-play svg { width: 20px; height: 20px; fill: currentColor; }
+.pc-play .i-pause { display: none; }
+.pc-play:hover, .pc-play.is-hover { background: var(--brand-light); border-color: var(--brand-dark); color: var(--brand-dark); }
+.pc.is-playing { border-color: var(--brand-dark); }
+.pc.is-playing .pc-play { background: var(--brand-dark); border-color: var(--brand-dark); color: var(--white); }
+.pc.is-playing .pc-play .i-play { display: none; }
+.pc.is-playing .pc-play .i-pause { display: block; }
+.pc-progress { position: absolute; left: 0; right: 0; bottom: 0; height: 3px; }
+.pc-progress span { display: block; height: 100%; width: 0; background: var(--brand-dark); }
+.pc.is-playing .pc-progress span { width: var(--pc-p, 0%); }
+@media (max-width: 1023px) { .phrase-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 639px) { .phrase-grid { grid-template-columns: 1fr; gap: var(--space-sm); } .pc { padding: var(--space-sm); } .pc-he { font-size: 28px; line-height: 42px; } .pc--long .pc-he { font-size: 24px; line-height: 36px; } }
+@media (prefers-reduced-motion: reduce) { .pc, .pc-play { transition: none; } }
+
+/* ── Site base used by the hero and guide: copied unchanged from global.css + hebrew-phrases.css,
+      scoped to .phrases-page so it can&#x27;t leak into other previews ── */
+:where(.phrases-page, .phrases-page *, .phrases-page *::before, .phrases-page *::after) { box-sizing: border-box; margin: 0; padding: 0; } /* zero specificity, like the site&#x27;s bare * reset */
+.phrases-page { color: var(--ink); background: var(--white); font-family: var(--font-body); font-size: 1rem; line-height: 1.7; -webkit-font-smoothing: antialiased; }
+.phrases-page a { color: inherit; text-decoration: none; }
+.phrases-page .container { width: 100%; max-width: var(--w-content); margin-inline: auto; padding-inline: clamp(1.25rem, 5vw, 2.5rem); }
+.phrases-page .home-section { padding-block: var(--section-y); }
+.phrases-page .home-section--white { background: var(--white); }
+.phrases-page .home-section--soft { background: var(--surface-soft); }
+.phrases-page :focus-visible { outline: 3px solid var(--brand-dark); outline-offset: 4px; }
+.phrases-page .display-md { font-family: var(--font-display); font-size: clamp(1.5rem, 3vw, 2rem); font-weight: 700; line-height: 1.2; letter-spacing: -0.01em; }
+.phrases-page h2, .phrases-page h3 { text-wrap: balance; }
+.phrases-page .btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; border-radius: var(--r-full); font-family: var(--font-body); font-size: 0.9375rem; font-weight: 500; cursor: pointer; border: none; transition: transform 0.15s, box-shadow 0.15s, background 0.15s; text-decoration: none; }
+.phrases-page .btn:hover { transform: translateY(-1px); }
+.phrases-page .phrases-primary { background: var(--brand-dark); color: var(--white); min-height: 48px; font-weight: 600; box-shadow: none; justify-content: center; }
+.phrases-page .phrases-secondary { background: var(--white); color: var(--brand-dark); border: 1px solid var(--brand-dark); min-height: 48px; font-weight: 600; }
+.phrases-page .phrases-text-link { display: inline-flex; align-items: center; min-height: 44px; padding-block: var(--space-xs); color: var(--brand-dark); text-decoration: underline; text-underline-offset: .25em; }
+.phrases-breadcrumbs { margin-bottom: calc(var(--space-sm) * 2); font-size: .875rem; color: var(--ink-light); }
+.phrases-breadcrumbs ol { display: flex; flex-wrap: wrap; align-items: center; list-style: none; gap: calc(var(--space-xs) / 2); }
+.phrases-breadcrumbs a { display: inline-flex; align-items: center; min-height: 44px; padding-right: var(--space-xs); text-decoration: underline; text-underline-offset: .2em; }
+.phrases-breadcrumbs li + li::before { content: &#x27;/&#x27;; margin-inline: var(--space-xs); color: var(--ink-light); }
+.phrases-hero-layout { display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr); gap: clamp(calc(var(--space-sm) * 2), 5vw, var(--space-xl)); align-items: center; }
+.phrases-eyebrow { font-size: .8125rem; font-weight: 700; color: var(--brand-dark); letter-spacing: .035em; margin-bottom: calc(var(--space-xs) * 1.75); }
+.phrases-hero h1 { font-family: var(--font-display); font-weight: 800; font-size: clamp(2.15rem, 4.5vw, 3.5rem); line-height: 1.13; letter-spacing: -.03em; max-width: 18ch; }
+.phrases-lead { color: var(--ink-mid); max-width: 53ch; font-size: 1.125rem; line-height: 1.65; margin-top: calc(var(--space-xs) * 2.5); }
+.phrases-hero-actions { display: flex; align-items: center; flex-wrap: wrap; gap: var(--space-xs) calc(var(--space-xs) * 2.5); margin-block: var(--space-md) var(--space-sm); }
+.phrases-hero-meta { font-size: .875rem; color: var(--ink-light); }
+.phrases-hero-meta span { margin-inline: calc(var(--space-xs) / 2); }
+.phrases-section-heading { max-width: var(--w-narrow); margin-bottom: var(--space-md); }
+.phrases-guide-link { margin-top: var(--space-md); color: var(--ink-mid); }
+.phrases-guide-link a { color: var(--brand-dark); text-decoration: underline; text-underline-offset: .2em; }
+@media (max-width: 767px) {
+  .phrases-hero-layout { grid-template-columns: 1fr; gap: var(--space-md); }
+  .phrases-breadcrumbs { margin-bottom: var(--space-sm); }
+}
+@media (prefers-reduced-motion: reduce) { .phrases-page *, .phrases-page *::before, .phrases-page *::after { animation: none !important; transition: none !important; } .phrases-page .btn:hover { transform: none; } }
+
+/* ══ NEW: Hero card deck + situation tiles + guide anatomy (chosen options H-A, G-B) ══ */
+
+/* Hero: wider right column for the deck (was 1.7fr / 1fr) */
+.phrases-hero--deck .phrases-hero-layout { grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); }
+
+/* Deck: three real PhraseCards; back cards show only their Hebrew panel */
+.phrases-deck { --deck-peek: 124px; position: relative; isolation: isolate; overflow: hidden;
+  padding: var(--space-lg) var(--space-lg); background: var(--brand-light);
+  border: 1px solid var(--brand-line); border-radius: var(--r-xl); }
+.phrases-deck-glyph { position: absolute; z-index: -1; right: -.06em; bottom: -.34em;
+  font: 500 22rem/1 var(--font-hebrew); color: var(--white); pointer-events: none; user-select: none; }
+.phrases-deck-list { list-style: none; position: relative; padding-top: calc(var(--deck-peek) * 2); }
+.phrases-deck-list &gt; li { position: relative; z-index: 3; }
+.phrases-deck-list &gt; li:nth-child(2) { position: absolute; z-index: 2; top: var(--deck-peek); left: var(--space-xs-plus); right: var(--space-xs-plus); }
+.phrases-deck-list &gt; li:nth-child(3) { position: absolute; z-index: 1; top: 0; left: var(--space-md); right: var(--space-md); }
+.phrases-deck .pc { max-width: none; box-shadow: var(--shadow-sm); }
+.phrases-deck-list &gt; li:first-child .pc { box-shadow: var(--shadow-md); }
+
+/* Situation tiles: replace the 01–05 jump links (same component in the hero and above the phrase groups) */
+.phrases-situations { margin-top: var(--space-xl); }
+.phrases-situations-label { font-size: .875rem; line-height: 1.4; font-weight: 600; color: var(--ink-mid); margin-bottom: var(--space-xs-plus); }
+.phrases-situations ul { list-style: none; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: var(--space-xs-plus); }
+.phrases-situation { display: flex; flex-direction: column; justify-content: space-between; gap: var(--space-xs-plus);
+  height: 100%; min-height: 104px; padding: var(--space-sm); background: var(--white); color: var(--ink);
+  border: 1px solid var(--border); border-radius: var(--r-lg); transition: border-color .15s ease, background .15s ease; }
+.phrases-situation-name { font-family: var(--font-display); font-size: 1rem; line-height: 1.35; font-weight: 700; }
+.phrases-situation-meta { display: flex; align-items: center; justify-content: space-between; gap: var(--space-xs); font-size: .875rem; line-height: 1.4; color: var(--ink-mid); }
+.phrases-situation-meta svg { width: 20px; height: 20px; flex: none; fill: none; stroke: var(--brand-dark); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.phrases-situation:hover { border-color: var(--brand-dark); background: var(--brand-light); }
+
+/* Guide: annotated anatomy of one real PhraseCard */
+.phrases-anatomy { display: grid; grid-template-columns: minmax(0, 432px) minmax(0, 1fr); gap: var(--space-xl); align-items: start; }
+.phrases-anatomy-card { --pc-pad: var(--space-sm-plus); padding-left: var(--space-xs-plus); }
+.phrases-anatomy-card .pc { max-width: none; }
+.phrases-anatomy-card .pc-panel { overflow: visible; }             /* markers sit on the card edge; no audio here */
+.phrases-anatomy-card :is(.pc-he, .pc-tr, .pc-en, .pc-note, .pc-var-l) { position: relative; }
+.phrases-anatomy-card :is(.pc-he, .pc-tr, .pc-en, .pc-note, .pc-var-l)::before {
+  position: absolute; width: 24px; height: 24px; border-radius: var(--r-full); display: grid; place-items: center;
+  background: var(--brand-dark); color: var(--white); font: 700 12px/1 var(--font-display);
+  box-shadow: 0 0 0 3px var(--surface-soft); direction: ltr; text-align: center; }
+/* x = centred on the card&#x27;s left border; panel parts sit one panel-padding further in */
+.phrases-anatomy-card :is(.pc-he, .pc-tr)::before { left: calc(-1 * (var(--pc-pad) + var(--space-sm)) - 13px); }
+.phrases-anatomy-card :is(.pc-en, .pc-note, .pc-var-l)::before { left: calc(-1 * var(--pc-pad) - 13px); }
+.phrases-anatomy-card .pc-he::before { content: &quot;1&quot; / &quot;&quot;; top: 12px; }
+.phrases-anatomy-card .pc-tr::before { content: &quot;2&quot; / &quot;&quot;; top: -1px; }
+.phrases-anatomy-card .pc-en::before { content: &quot;3&quot; / &quot;&quot;; top: 0; }
+.phrases-anatomy-card .pc-note::before { content: &quot;4&quot; / &quot;&quot;; top: -1px; }
+.phrases-anatomy-card .pc-var-l::before { content: &quot;5&quot; / &quot;&quot;; top: -4px; }
+
+.phrases-anatomy-legend { list-style: none; }
+.phrases-anatomy-legend li { display: grid; grid-template-columns: 24px minmax(0, 1fr); column-gap: var(--space-xs-plus);
+  padding-block: var(--space-sm); border-top: 1px solid var(--border); }
+.phrases-anatomy-legend li:first-child { padding-top: 0; border-top: 0; }
+.phrases-anatomy-num { flex: none; width: 24px; height: 24px; margin-top: 2px; border-radius: var(--r-full); display: grid; place-items: center;
+  background: var(--brand-dark); color: var(--white); font: 700 12px/1 var(--font-display); }
+.phrases-anatomy-legend h3 { font-family: var(--font-display); font-size: 1.0625rem; line-height: 1.6; font-weight: 700; color: var(--ink); }
+.phrases-anatomy-legend p { margin-top: 2px; font-size: .9375rem; line-height: 1.65; color: var(--ink-mid); }
+.phrases-anatomy-legend p a { color: var(--brand-dark); text-decoration: underline; text-underline-offset: .2em; }
+.phrases-anatomy-legend em { font-style: italic; color: var(--ink); }
+.phrases-page .phrases-secondary:hover { background: var(--brand-light); } /* PROPOSED, as .btn-outline:hover */
+/* Pointer enhancement: hovering a legend row outlines its part of the card */
+.phrases-anatomy:has(li:nth-child(1):hover) .pc-he,
+.phrases-anatomy:has(li:nth-child(2):hover) .pc-tr,
+.phrases-anatomy:has(li:nth-child(3):hover) .pc-en,
+.phrases-anatomy:has(li:nth-child(4):hover) .pc-note,
+.phrases-anatomy:has(li:nth-child(5):hover) .pc-vars { outline: 2px dashed var(--brand-dark); outline-offset: 4px; border-radius: 4px; }
+
+@media (max-width: 1023px) {
+  .phrases-situations ul { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .phrases-anatomy { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: var(--space-lg); }
+}
+@media (max-width: 767px) {
+  .phrases-hero--deck .phrases-hero-layout { grid-template-columns: 1fr; }
+  .phrases-situations { margin-top: var(--space-lg); }
+  .phrases-situations ul { grid-template-columns: 1fr; gap: var(--space-xs); }
+  .phrases-situation { min-height: 56px; flex-direction: row; align-items: center; padding: var(--space-xs-plus) var(--space-sm); }
+  .phrases-situation-name { font-size: .9375rem; }
+  .phrases-situation-meta { flex: none; }
+  .phrases-anatomy { grid-template-columns: 1fr; gap: var(--space-lg); }
+}
+@media (max-width: 639px) {
+  .phrases-deck { --deck-peek: 120px; padding: var(--space-md) var(--space-sm); }
+  .phrases-deck-glyph { font-size: 15rem; }
+  .phrases-deck-list { padding-top: var(--deck-peek); }
+  .phrases-deck-list &gt; li:nth-child(2) { top: 0; }
+  .phrases-deck-list &gt; li:nth-child(3) { display: none; }
+  .phrases-anatomy-card { --pc-pad: var(--space-sm); }
+}
+@media (prefers-reduced-motion: reduce) { .phrases-situation { transition: none; } }
+html,body{margin:0;background:var(--white)}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;div class=&quot;phrases-page&quot;&gt;&lt;section id=&quot;how-to-use&quot; class=&quot;home-section home-section--soft&quot;&gt;&lt;div class=&quot;container&quot;&gt;&lt;div class=&quot;phrases-section-heading&quot;&gt;&lt;p class=&quot;phrases-eyebrow&quot;&gt;Read it. Understand it. Use it.&lt;/p&gt;&lt;h2 class=&quot;display-md&quot;&gt;How to use this phrase guide&lt;/h2&gt;&lt;/div&gt;&lt;div class=&quot;phrases-anatomy&quot;&gt;&lt;figure class=&quot;phrases-anatomy-card&quot; aria-label=&quot;Example phrase card. Its parts are numbered 1 to 5 and explained in the list.&quot;&gt;&lt;article class=&quot;pc&quot; data-forms=&quot;{&amp;quot;m&amp;quot;:[&amp;quot;אֲנִי רוֹצֶה קָפֶה, בְּבַקָּשָׁה.&amp;quot;,&amp;quot;ani rotse kafe bevakasha&amp;quot;],&amp;quot;f&amp;quot;:[&amp;quot;אֲנִי רוֹצָה קָפֶה, בְּבַקָּשָׁה.&amp;quot;,&amp;quot;ani rotsa kafe bevakasha&amp;quot;]}&quot;&gt;&lt;div class=&quot;pc-panel&quot;&gt;&lt;div class=&quot;pc-heb&quot; aria-live=&quot;polite&quot;&gt;&lt;p class=&quot;pc-he&quot; lang=&quot;he&quot; dir=&quot;rtl&quot;&gt;&lt;bdi lang=&quot;he&quot; dir=&quot;rtl&quot; class=&quot;hebrew&quot;&gt;אֲנִי&lt;/bdi&gt; &lt;bdi lang=&quot;he&quot; dir=&quot;rtl&quot; class=&quot;hebrew&quot;&gt;רוֹצֶה&lt;/bdi&gt; &lt;bdi lang=&quot;he&quot; dir=&quot;rtl&quot; class=&quot;hebrew&quot;&gt;קָפֶה&lt;/bdi&gt;, &lt;bdi lang=&quot;he&quot; dir=&quot;rtl&quot; class=&quot;hebrew&quot;&gt;בְּבַקָּשָׁה&lt;/bdi&gt;.&lt;/p&gt;&lt;p class=&quot;pc-tr&quot; lang=&quot;he-Latn&quot;&gt;&lt;span class=&quot;translit-b&quot; aria-hidden=&quot;true&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;translit-t&quot;&gt;ani rotse kafe bevakasha&lt;/span&gt;&lt;span class=&quot;translit-b&quot; aria-hidden=&quot;true&quot;&gt;]&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;pc-body&quot;&gt;&lt;p class=&quot;pc-en&quot;&gt;I want coffee, please&lt;/p&gt;&lt;p class=&quot;pc-note&quot;&gt;A simple café order. Choose the form for the speaker; “please” softens the direct request.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;pc-vars&quot;&gt;&lt;div class=&quot;pc-var&quot;&gt;&lt;span class=&quot;pc-var-l&quot; id=&quot;anatomy-coffee-please-by&quot;&gt;Said by&lt;/span&gt;&lt;div class=&quot;pc-seg&quot; role=&quot;radiogroup&quot; aria-labelledby=&quot;anatomy-coffee-please-by&quot;&gt;&lt;button type=&quot;button&quot; role=&quot;radio&quot; data-v=&quot;m&quot; aria-checked=&quot;true&quot; tabindex=&quot;0&quot;&gt;Man&lt;/button&gt;&lt;button type=&quot;button&quot; role=&quot;radio&quot; data-v=&quot;f&quot; aria-checked=&quot;false&quot; tabindex=&quot;-1&quot;&gt;Woman&lt;/button&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/article&gt;&lt;/figure&gt;&lt;ol class=&quot;phrases-anatomy-legend&quot;&gt;&lt;li&gt;&lt;span class=&quot;phrases-anatomy-num&quot; aria-hidden=&quot;true&quot;&gt;1&lt;/span&gt;&lt;div&gt;&lt;h3&gt;Hebrew with nikud&lt;/h3&gt;&lt;p&gt;The dots and marks around the Hebrew letters are nikud, which help show vowel sounds. &lt;a href=&quot;/blog/how-to-read-hebrew-nikud/&quot;&gt;Understand Hebrew vowel marks&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;phrases-anatomy-num&quot; aria-hidden=&quot;true&quot;&gt;2&lt;/span&gt;&lt;div&gt;&lt;h3&gt;[Transliteration]&lt;/h3&gt;&lt;p&gt;Transliteration is an approximation: &lt;em&gt;sh&lt;/em&gt; as in “shoe”, &lt;em&gt;ts&lt;/em&gt; as in “cats”, and &lt;em&gt;kh&lt;/em&gt; for a sound like the ending of Scottish “loch”. An apostrophe separates vowel sounds.&lt;/p&gt;&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;phrases-anatomy-num&quot; aria-hidden=&quot;true&quot;&gt;3&lt;/span&gt;&lt;div&gt;&lt;h3&gt;English meaning&lt;/h3&gt;&lt;p&gt;Follow the meaning, so you know what you are saying.&lt;/p&gt;&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;phrases-anatomy-num&quot; aria-hidden=&quot;true&quot;&gt;4&lt;/span&gt;&lt;div&gt;&lt;h3&gt;Usage note&lt;/h3&gt;&lt;p&gt;The situation the phrase fits, so you know when to use it.&lt;/p&gt;&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;phrases-anatomy-num&quot; aria-hidden=&quot;true&quot;&gt;5&lt;/span&gt;&lt;div&gt;&lt;h3&gt;Said by / Said to&lt;/h3&gt;&lt;p&gt;“Said by” is the person saying the phrase; “Said to” is the person you are speaking to. These examples address one person.&lt;/p&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;&lt;/div&gt;&lt;script&gt;
+/* Variant switch as on the site (radiogroup, roving tabindex). */
+(function(){document.querySelectorAll(&#x27;.pc[data-forms]&#x27;).forEach(function(card){
+ var forms=JSON.parse(card.dataset.forms),he=card.querySelector(&#x27;.pc-he&#x27;),tr=card.querySelector(&#x27;.translit-t&#x27;),groups=[].slice.call(card.querySelectorAll(&#x27;[role=radiogroup]&#x27;));
+ function update(){var k=groups.map(function(g){return g.querySelector(&#x27;[aria-checked=true]&#x27;).dataset.v}).join(&#x27;&#x27;),f=forms[k];if(f){he.textContent=f[0];tr.textContent=f[1];}}
+ groups.forEach(function(g){var o=[].slice.call(g.querySelectorAll(&#x27;[role=radio]&#x27;));
+  function sel(b,f){o.forEach(function(x){var on=x===b;x.setAttribute(&#x27;aria-checked&#x27;,on);x.tabIndex=on?0:-1;});if(f)b.focus();update();}
+  g.addEventListener(&#x27;click&#x27;,function(e){var b=e.target.closest(&#x27;[role=radio]&#x27;);if(b)sel(b);});
+  g.addEventListener(&#x27;keydown&#x27;,function(e){var i=o.indexOf(document.activeElement),n=null,L=o.length;if(i&lt;0)return;
+   if(e.key===&#x27;ArrowRight&#x27;||e.key===&#x27;ArrowDown&#x27;)n=(i+1)%L;else if(e.key===&#x27;ArrowLeft&#x27;||e.key===&#x27;ArrowUp&#x27;)n=(i-1+L)%L;else if(e.key===&#x27;Home&#x27;)n=0;else if(e.key===&#x27;End&#x27;)n=L-1;
+   else if(e.key===&#x27; &#x27;||e.key===&#x27;Enter&#x27;){e.preventDefault();sel(o[i]);return;}if(n!==null){e.preventDefault();sel(o[n],true);}});});});
+ document.querySelectorAll(&#x27;a[href^=&quot;#&quot;]&#x27;).forEach(function(a){a.addEventListener(&#x27;click&#x27;,function(e){e.preventDefault();});});})();
+&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;"></iframe></figure></div></div>
+<script>
+/* Variant switch as on the site (radiogroup, roving tabindex). */
+(function(){document.querySelectorAll('.pc[data-forms]').forEach(function(card){
+ var forms=JSON.parse(card.dataset.forms),he=card.querySelector('.pc-he'),tr=card.querySelector('.translit-t'),groups=[].slice.call(card.querySelectorAll('[role=radiogroup]'));
+ function update(){var k=groups.map(function(g){return g.querySelector('[aria-checked=true]').dataset.v}).join(''),f=forms[k];if(f){he.textContent=f[0];tr.textContent=f[1];}}
+ groups.forEach(function(g){var o=[].slice.call(g.querySelectorAll('[role=radio]'));
+  function sel(b,f){o.forEach(function(x){var on=x===b;x.setAttribute('aria-checked',on);x.tabIndex=on?0:-1;});if(f)b.focus();update();}
+  g.addEventListener('click',function(e){var b=e.target.closest('[role=radio]');if(b)sel(b);});
+  g.addEventListener('keydown',function(e){var i=o.indexOf(document.activeElement),n=null,L=o.length;if(i<0)return;
+   if(e.key==='ArrowRight'||e.key==='ArrowDown')n=(i+1)%L;else if(e.key==='ArrowLeft'||e.key==='ArrowUp')n=(i-1+L)%L;else if(e.key==='Home')n=0;else if(e.key==='End')n=L-1;
+   else if(e.key===' '||e.key==='Enter'){e.preventDefault();sel(o[i]);return;}if(n!==null){e.preventDefault();sel(o[n],true);}});});});
+ document.querySelectorAll('a[href^="#"]').forEach(function(a){a.addEventListener('click',function(e){e.preventDefault();});});})();
+</script>
+<script>document.querySelectorAll('iframe').forEach(function(f){f.addEventListener('load',function(){try{f.style.height=f.contentDocument.documentElement.scrollHeight+'px'}catch(e){}});});</script>
+</body></html>

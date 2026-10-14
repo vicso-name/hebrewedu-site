@@ -39,7 +39,19 @@ of a shared block.
 
 - **`src/components/phrases/PhraseCard.astro`** — one phrase card (Hebrew,
   transliteration, meaning, optional speaker/addressee variant). Props:
-  `phrase: Phrase` (from `src/data/hebrew-phrases`).
+  `phrase: Phrase` (from `src/data/hebrew-phrases`); `id?` (article id —
+  omit where the same phrase's card repeats elsewhere on the page, e.g. a
+  hero deck or an anatomy illustration, to avoid a duplicate id);
+  `meaningTag?: 'h3' | 'p'` (default `'h3'` — use `'p'` where an `h3`
+  would duplicate the page's heading outline); `idPrefix?` (prefix for the
+  "Said by/to" label id, so it stays unique when a phrase's card appears
+  more than once on the page, e.g. `"anatomy-"`).
+- **`src/components/phrases/SituationTiles.astro`** — grid of situation
+  tiles linking to each phrase group, with phrase counts computed from
+  the data. Props: `groups: PhraseGroup[]`, `ariaLabel: string` (nav
+  label, used when `label` is omitted), `label?: string` (visible label
+  above the tiles — omit when a heading above the tiles already names
+  them).
 - **`src/components/phrases/Transliteration.astro`** — shared
   `[bracketed]` transliteration rendering used by cards, dialogues and
   practice. Props: `text: string`.

@@ -24,24 +24,12 @@
 .phrases-hero-actions { display: flex; align-items: center; flex-wrap: wrap; gap: var(--space-xs) calc(var(--space-xs) * 2.5); margin-block: var(--space-md) var(--space-sm); }
 .phrases-page .phrases-primary { background: var(--brand-dark); color: var(--white); min-height: 48px; font-weight: 600; box-shadow: none; justify-content: center; }
 .phrases-page .phrases-secondary { background: var(--white); color: var(--brand-dark); border: 1px solid var(--brand-dark); min-height: 48px; font-weight: 600; }
-.phrases-page .phrases-text-link { display: inline-flex; align-items: center; min-height: 44px; padding-block: var(--space-xs); color: var(--brand-dark); text-decoration: underline; text-underline-offset: .25em; }
+.phrases-page .phrases-secondary:hover { background: var(--brand-light); }
 .phrases-hero-meta { font-size: .875rem; color: var(--ink-light); }
 .phrases-hero-meta span { margin-inline: calc(var(--space-xs) / 2); }
-.phrases-first-card { background: var(--brand-light); padding: calc(var(--space-sm) * 2); border-radius: var(--r-xl); border: 1px solid #dbdcfb; }
-.phrases-first-card .phrases-hebrew { display: block; font-size: 3.5rem; line-height: 1.6; }
-.phrases-first-card .phrase-transliteration { color: var(--brand-dark); font-size: 1.125rem; }
-.phrases-first-meaning { margin-block: calc(var(--space-xs) * 1.5); }
 .phrases-section-heading { max-width: var(--w-narrow); margin-bottom: var(--space-md); }
 .phrases-section-heading > p:last-child { margin-top: calc(var(--space-xs) * 1.3); color: var(--ink-mid); font-size: 1.0625rem; }
-.phrases-guide-notes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-md); }
-.phrases-guide-notes p { color: var(--ink-mid); }
-.phrases-guide-notes strong { display: block; color: var(--ink); margin-bottom: calc(var(--space-xs) * .8); }
-.phrases-guide-link { margin-top: var(--space-md); color: var(--ink-mid); }
-.phrases-guide-link a, .phrase-fallback-answer a { color: var(--brand-dark); text-decoration: underline; text-underline-offset: .2em; }
-.phrases-jump-links ul { display: flex; flex-wrap: wrap; gap: var(--space-xs); list-style: none; }
-.phrases-jump-links a { display: inline-flex; align-items: center; gap: var(--space-xs); min-height: 44px; border: 1px solid var(--border); border-radius: var(--r-full); padding: calc(var(--space-xs) * 1.1) calc(var(--space-xs) * 1.7); font-size: .875rem; color: var(--ink-mid); }
-.phrases-jump-links a:hover { border-color: var(--brand-dark); background: var(--brand-light); }
-.phrases-jump-links a span { color: var(--brand-dark); font-weight: 700; }
+.phrase-fallback-answer a { color: var(--brand-dark); text-decoration: underline; text-underline-offset: .2em; }
 .phrase-group { margin-top: var(--space-lg); }
 .phrase-group-heading { margin-bottom: calc(var(--space-xs) * 2.5); }
 .phrase-group-heading h3 { font-family: var(--font-display); font-size: clamp(1.3rem, 2.5vw, 1.6rem); line-height: 1.3; font-weight: 700; }
@@ -78,12 +66,61 @@
 @media (max-width: 639px) { .phrase-grid { grid-template-columns: 1fr; gap: var(--space-sm); } .pc { padding: var(--space-sm); } .pc-he { font-size: 28px; line-height: 42px; } .pc--long .pc-he { font-size: 24px; line-height: 36px; } }
 @media (prefers-reduced-motion: reduce) { .pc { transition: none; } }
 
+/* Hero: card deck (option H-A) */
+.phrases-hero--deck .phrases-hero-layout { grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); }
+.phrases-hero .phrases-situations { margin-top: var(--space-xl); }
+.phrases-deck { --deck-peek: 124px; position: relative; isolation: isolate; overflow: hidden;
+  padding: var(--space-lg) var(--space-lg); background: var(--brand-light);
+  border: 1px solid var(--brand-line); border-radius: var(--r-xl); }
+.phrases-deck-glyph { position: absolute; z-index: -1; right: -.06em; bottom: -.34em;
+  font: 500 22rem/1 var(--font-hebrew); color: var(--white); pointer-events: none; user-select: none; }
+.phrases-deck-list { list-style: none; position: relative; padding-top: calc(var(--deck-peek) * 2); }
+.phrases-deck-list > li { position: relative; z-index: 3; }
+.phrases-deck-list > li:nth-child(2) { position: absolute; z-index: 2; top: var(--deck-peek); left: var(--space-xs-plus); right: var(--space-xs-plus); }
+.phrases-deck-list > li:nth-child(3) { position: absolute; z-index: 1; top: 0; left: var(--space-md); right: var(--space-md); }
+.phrases-deck .pc { max-width: none; box-shadow: var(--shadow-sm); }
+.phrases-deck-list > li:first-child .pc { box-shadow: var(--shadow-md); }
+
+/* Guide: numbered anatomy of one real PhraseCard (option G-B) */
+.phrases-anatomy { display: grid; grid-template-columns: minmax(0, 432px) minmax(0, 1fr); gap: var(--space-xl); align-items: start; }
+.phrases-anatomy-card { --pc-pad: var(--space-sm-plus); padding-left: var(--space-xs-plus); }
+.phrases-anatomy-card .pc { max-width: none; }
+.phrases-anatomy-card .pc-panel { overflow: visible; }
+.phrases-anatomy-card :is(.pc-he, .pc-tr, .pc-en, .pc-note, .pc-var-l) { position: relative; }
+.phrases-anatomy-card :is(.pc-he, .pc-tr, .pc-en, .pc-note, .pc-var-l)::before {
+  position: absolute; width: 24px; height: 24px; border-radius: var(--r-full); display: grid; place-items: center;
+  background: var(--brand-dark); color: var(--white); font: 700 12px/1 var(--font-display);
+  box-shadow: 0 0 0 3px var(--surface-soft); direction: ltr; text-align: center; }
+.phrases-anatomy-card :is(.pc-he, .pc-tr)::before { left: calc(-1 * (var(--pc-pad) + var(--space-sm)) - 13px); }
+.phrases-anatomy-card :is(.pc-en, .pc-note, .pc-var-l)::before { left: calc(-1 * var(--pc-pad) - 13px); }
+.phrases-anatomy-card .pc-he::before { content: "1" / ""; top: 12px; }
+.phrases-anatomy-card .pc-tr::before { content: "2" / ""; top: -1px; }
+.phrases-anatomy-card .pc-en::before { content: "3" / ""; top: 0; }
+.phrases-anatomy-card .pc-note::before { content: "4" / ""; top: -1px; }
+.phrases-anatomy-card .pc-var-l::before { content: "5" / ""; top: -4px; }
+.phrases-anatomy-legend { list-style: none; }
+.phrases-anatomy-legend li { display: grid; grid-template-columns: 24px minmax(0, 1fr); column-gap: var(--space-xs-plus);
+  padding-block: var(--space-sm); border-top: 1px solid var(--border); }
+.phrases-anatomy-legend li:first-child { padding-top: 0; border-top: 0; }
+.phrases-anatomy-num { flex: none; width: 24px; height: 24px; margin-top: 2px; border-radius: var(--r-full); display: grid; place-items: center;
+  background: var(--brand-dark); color: var(--white); font: 700 12px/1 var(--font-display); }
+.phrases-anatomy-legend h3 { font-family: var(--font-display); font-size: 1.0625rem; line-height: 1.6; font-weight: 700; color: var(--ink); }
+.phrases-anatomy-legend p { margin-top: 2px; font-size: .9375rem; line-height: 1.65; color: var(--ink-mid); }
+.phrases-anatomy-legend p a { color: var(--brand-dark); text-decoration: underline; text-underline-offset: .2em; }
+.phrases-anatomy-legend em { font-style: italic; color: var(--ink); }
+/* Pointer enhancement: hovering a legend row outlines its part of the card */
+.phrases-anatomy:has(li:nth-child(1):hover) .pc-he,
+.phrases-anatomy:has(li:nth-child(2):hover) .pc-tr,
+.phrases-anatomy:has(li:nth-child(3):hover) .pc-en,
+.phrases-anatomy:has(li:nth-child(4):hover) .pc-note,
+.phrases-anatomy:has(li:nth-child(5):hover) .pc-vars { outline: 2px dashed var(--brand-dark); outline-offset: 4px; border-radius: 4px; }
+
 .phrase-hebrew-line { margin-top: calc(var(--space-xs) * .3); }
 .phrase-transliteration { color: var(--ink-mid); font-size: 1rem; line-height: 1.6; }
 .phrase-form-label { color: var(--brand-dark); font-size: .8125rem; font-weight: 600; }
 .phrase-usage { margin-top: var(--space-sm); color: var(--ink-mid); line-height: 1.65; }
 .phrase-gender-note { margin-top: calc(var(--space-xs) * 1.75); padding-top: calc(var(--space-xs) * 1.75); border-top: 1px solid var(--border); font-size: .9375rem; color: var(--ink-mid); }
-.phrases-inline-app { display: flex; align-items: center; justify-content: space-between; gap: var(--space-md); flex-wrap: wrap; border: 1px solid #dbdcfb; border-radius: var(--r-lg); background: var(--brand-light); padding: var(--space-md); margin-top: calc(var(--space-sm) * 2); }
+.phrases-inline-app { display: flex; align-items: center; justify-content: space-between; gap: var(--space-md); flex-wrap: wrap; border: 1px solid var(--brand-line); border-radius: var(--r-lg); background: var(--brand-light); padding: var(--space-md); margin-top: calc(var(--space-sm) * 2); }
 .phrases-inline-app > div:first-child { flex: 1 1 20rem; }
 .phrases-app-label { font-weight: 700; font-size: 1.125rem; margin-bottom: calc(var(--space-xs) * .8); }
 .phrases-inline-app p + p { color: var(--ink-mid); }
@@ -124,16 +161,24 @@
 .phrases-resources p { color: var(--ink-mid); }
 .phrases-editorial { font-size: .875rem; color: var(--ink-light); margin-top: calc(var(--space-sm) * 2); }
 @media (max-width: 1000px) { .phrase-answer-options { grid-template-columns: 1fr; } }
+@media (max-width: 1023px) {
+  .phrases-anatomy { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: var(--space-lg); }
+}
 @media (max-width: 767px) {
-  .phrases-hero-layout, .phrase-grid, .phrase-dialogues, .phrases-guide-notes, .phrases-resources { grid-template-columns: 1fr; }
+  .phrases-hero-layout, .phrase-grid, .phrase-dialogues, .phrases-resources { grid-template-columns: 1fr; }
   .phrases-hero-layout { gap: var(--space-md); }
+  .phrases-hero--deck .phrases-hero-layout { grid-template-columns: 1fr; }
+  .phrases-hero .phrases-situations { margin-top: var(--space-lg); }
   .phrases-breadcrumbs { margin-bottom: var(--space-sm); }
-  .phrases-first-card { padding: calc(var(--space-xs) * 2.5); }
-  .phrases-first-card .phrases-hebrew { font-size: 2.75rem; }
+  .phrases-anatomy { grid-template-columns: 1fr; gap: var(--space-lg); }
 }
 @media (max-width: 639px) {
-  .phrases-jump-links ul { flex-direction: column; }
-  .phrases-jump-links a { width: 100%; }
+  .phrases-deck { --deck-peek: 120px; padding: var(--space-md) var(--space-sm); }
+  .phrases-deck-glyph { font-size: 15rem; }
+  .phrases-deck-list { padding-top: var(--deck-peek); }
+  .phrases-deck-list > li:nth-child(2) { top: 0; }
+  .phrases-deck-list > li:nth-child(3) { display: none; }
+  .phrases-anatomy-card { --pc-pad: var(--space-sm); }
 }
 @media (prefers-reduced-motion: reduce) {
   html:has(.phrases-page) { scroll-behavior: auto; }

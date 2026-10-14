@@ -5,10 +5,11 @@ import CtaPanel from '../../../components/ui/CtaPanel.astro';
 import StoreButtons from '../../../components/ui/StoreButtons.astro';
 import Faq from '../../../components/Faq.astro';
 import PhraseCard from '../../../components/phrases/PhraseCard.astro';
+import SituationTiles from '../../../components/phrases/SituationTiles.astro';
 import PhrasePractice from '../../../components/phrases/PhrasePractice.astro';
 import HebrewText from '../../../components/lessons/HebrewText.astro';
 import Transliteration from '../../../components/phrases/Transliteration.astro';
-import { phraseGroups, phraseDialogues, phraseQuestions, phraseVariant, phraseReview } from '../../../data/hebrew-phrases';
+import { phraseGroups, phrases, phraseDialogues, phraseQuestions, phraseVariant, phraseReview } from '../../../data/hebrew-phrases';
 import { phrasesTitle, phrasesDescription, phrasesSchema, phrasesEnabled, phrasesPublished, localPhrasesPreview } from '../../../lib/hebrew-phrases.mjs';
 import '../../../styles/hebrew-phrases.css';
 
@@ -17,6 +18,7 @@ export function getStaticPaths() {
   return phrasesEnabled(localPhrasesPreview(import.meta.env.DEV)) ? [{ params: { landing: undefined } }] : [];
 }
 const published = phrasesPublished();
+const phraseById = (id: string) => phrases.find(phrase => phrase.id === id)!;
 const resources = [
   { href: '/blog/how-to-learn-hebrew-vocabulary/', title: 'Remember the phrases you learn', description: 'Build a manageable vocabulary and review habit.' },
   { href: '/blog/hebrew-alphabet-complete-guide/', title: 'Look up Hebrew letters', description: 'Keep letter shapes, names and final forms close at hand.' },
@@ -24,7 +26,7 @@ const resources = [
 ];
 ---
 <Layout pageClass="phrases-page" mainId="phrases-content" title={phrasesTitle} description={phrasesDescription} schema={phrasesSchema()} robots={published ? 'index, follow' : 'noindex, nofollow, noarchive'}>
-      <Section class="phrases-hero" aria-labelledby="phrases-title">
+      <Section class="phrases-hero phrases-hero--deck" aria-labelledby="phrases-title">
         {!published && <p class="phrases-preview" role="note">Local editorial preview · Native Hebrew review is pending. This page is excluded from the production build.</p>}
         <nav class="phrases-breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li aria-current="page">Hebrew Phrases</li></ol></nav>
         <div class="phrases-hero-layout">
@@ -32,36 +34,44 @@ const resources = [
             <p class="phrases-eyebrow">A little Hebrew for everyday life</p>
             <h1 id="phrases-title">Useful Hebrew Phrases for Beginners</h1>
             <p class="phrases-lead">Say hello. Order a coffee. Ask for a little help. Start with 30 practical Modern Hebrew expressions, with English meanings and pronunciation support.</p>
-            <div class="phrases-hero-actions"><a href="#phrases" class="btn phrases-primary">Explore the phrases <span aria-hidden="true">↓</span></a><a href="#practice" class="phrases-text-link">Try a quick practice</a></div>
+            <div class="phrases-hero-actions"><a href="#phrases" class="btn phrases-primary">Explore the phrases <span aria-hidden="true">↓</span></a><a href="#practice" class="btn phrases-secondary">Try a quick practice</a></div>
             <p class="phrases-hero-meta">5 everyday situations <span aria-hidden="true">·</span> Free to use here <span aria-hidden="true">·</span> No installation needed</p>
           </header>
-          <aside class="phrases-first-card" aria-label="Your first greeting">
-            <p class="phrases-eyebrow">Start with a greeting</p>
-            <bdi class="phrases-hebrew" lang="he" dir="rtl"><HebrewText text={phraseVariant('hello').hebrew} /></bdi>
-            <p class="phrase-transliteration" lang="he-Latn" dir="ltr"><Transliteration text={phraseVariant('hello').transliteration} /></p>
-            <p class="phrases-first-meaning">Hello. A small word, a useful start.</p>
-            <a class="phrases-text-link" href="#greetings">More ways to begin <span aria-hidden="true">→</span></a>
+          <aside class="phrases-deck" aria-label="Three greetings to start with">
+            <span class="phrases-deck-glyph" aria-hidden="true">ש</span>
+            <ul class="phrases-deck-list">
+              <li><PhraseCard phrase={phraseById('hello')} meaningTag="p" /></li>
+              <li><PhraseCard phrase={phraseById('good-morning')} meaningTag="p" /></li>
+              <li><PhraseCard phrase={phraseById('goodbye')} meaningTag="p" /></li>
+            </ul>
           </aside>
         </div>
+        <SituationTiles groups={phraseGroups} ariaLabel="Jump to a situation" label="Jump to a situation" />
       </Section>
 
       <Section surface="soft" id="how-to-use">
         <div class="phrases-section-heading"><p class="phrases-eyebrow">Read it. Understand it. Use it.</p><h2 class="display-md">How to use this phrase guide</h2></div>
-        <div class="phrases-guide-notes">
-          <p><strong>Follow the meaning.</strong> Each card gives you a situation and an English meaning, so you know when the expression fits.</p>
-          <p><strong>Use the pronunciation help.</strong> Transliteration is an approximation: <em>sh</em> as in “shoe”, <em>ts</em> as in “cats”, and <em>kh</em> for a sound like the ending of Scottish “loch”. An apostrophe separates vowel sounds.</p>
-          <p><strong>Check the form label.</strong> “Speaker” refers to the person saying the phrase; “addressee” is the person you are speaking to. These examples address one person.</p>
+        <div class="phrases-anatomy">
+          <figure class="phrases-anatomy-card" aria-label="Example phrase card. Its parts are numbered 1 to 5 and explained in the list.">
+            <PhraseCard phrase={phraseById('coffee-please')} meaningTag="p" idPrefix="anatomy-" />
+          </figure>
+          <ol class="phrases-anatomy-legend">
+            <li><span class="phrases-anatomy-num" aria-hidden="true">1</span><div><h3>Hebrew with nikud</h3><p>The dots and marks around the Hebrew letters are nikud, which help show vowel sounds. <a href="/blog/how-to-read-hebrew-nikud/">Understand Hebrew vowel marks</a>.</p></div></li>
+            <li><span class="phrases-anatomy-num" aria-hidden="true">2</span><div><h3>[Transliteration]</h3><p>Transliteration is an approximation: <em>sh</em> as in “shoe”, <em>ts</em> as in “cats”, and <em>kh</em> for a sound like the ending of Scottish “loch”. An apostrophe separates vowel sounds.</p></div></li>
+            <li><span class="phrases-anatomy-num" aria-hidden="true">3</span><div><h3>English meaning</h3><p>Follow the meaning, so you know what you are saying.</p></div></li>
+            <li><span class="phrases-anatomy-num" aria-hidden="true">4</span><div><h3>Usage note</h3><p>The situation the phrase fits, so you know when to use it.</p></div></li>
+            <li><span class="phrases-anatomy-num" aria-hidden="true">5</span><div><h3>Said by / Said to</h3><p>“Said by” is the person saying the phrase; “Said to” is the person you are speaking to. These examples address one person.</p></div></li>
+          </ol>
         </div>
-        <p class="phrases-guide-link">The dots and marks around the Hebrew letters are nikud, which help show vowel sounds. <a href="/blog/how-to-read-hebrew-nikud/">Understand Hebrew vowel marks</a>.</p>
       </Section>
 
       <Section id="phrases">
         <div class="phrases-section-heading"><p class="phrases-eyebrow">30 expressions. Plenty of small beginnings.</p><h2 class="display-md">Everyday Hebrew phrases</h2><p>Choose a situation and learn a few phrases you can put to use.</p></div>
-        <nav class="phrases-jump-links" aria-label="Phrase situations"><ul>{phraseGroups.map((group, index) => <li><a href={`#${group.id}`}><span aria-hidden="true">0{index + 1}</span>{group.title}</a></li>)}</ul></nav>
+        <SituationTiles groups={phraseGroups} ariaLabel="Phrase situations" />
         {phraseGroups.map((group, groupIndex) => <>
           <div class="phrase-group" id={group.id} role="region" aria-labelledby={`${group.id}-title`}>
             <header class="phrase-group-heading"><div><h3 id={`${group.id}-title`}>{group.title}</h3><p>{group.description}</p></div></header>
-            <div class="phrase-grid" role="list">{group.phrases.map((phrase) => <PhraseCard phrase={phrase} />)}</div>
+            <div class="phrase-grid" role="list">{group.phrases.map((phrase) => <PhraseCard phrase={phrase} id={`phrase-${phrase.id}`} />)}</div>
           </div>
           {groupIndex === 1 && <aside class="phrases-inline-app" aria-labelledby="phrases-mid-title"><div><p id="phrases-mid-title" class="phrases-app-label">Build a regular Hebrew practice habit</p><p>Keep building with vocabulary review and structured lessons in HebrewEdu.</p></div><StoreButtons location="hebrew_phrases_mid" height={48} /></aside>}
         </>)}
