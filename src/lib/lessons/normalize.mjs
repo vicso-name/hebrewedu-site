@@ -50,16 +50,20 @@ export function normalizeLesson(rawInput, identity, overrides) {
     throw new Error(`Unsupported content without a holdout reason:\n  ${unresolved.join('\n  ')}`);
   }
 
-  const heldOutBlocks = new Set(unsupported.blocks.map(item => item.sourceIndex));
-  const heldOutExercises = new Set(unsupported.exercises.map(item => item.sourceIndex));
+  // A holdout always excludes its item, whether the reason is an unsupported
+  // source type or an editorial decision on otherwise-rendered content (e.g. a
+  // duplicate WORD_EXAMPLE) — see docs/LESSON_PIPELINE.md.
+  const heldOutBlocks = new Set((overrides.holdOuts?.blocks ?? []).map(h => h.sourceIndex));
+  const heldOutExercises = new Set((overrides.holdOuts?.exercises ?? []).map(h => h.sourceIndex));
 
   const blocks = raw.studyMaterials
     .map((item, sourceIndex) => ({ item, sourceIndex }))
     .filter(({ sourceIndex }) => !heldOutBlocks.has(sourceIndex))
     .map(({ item, sourceIndex }) => ({
       id: `${identity.slug}-block-${sourceIndex + 1}`, sourceIndex, type: item.type,
-      text: nfc(item.type === 'MAIN_TITLE' ? item.title : item.content),
+      text: nfc(item.type === 'MAIN_TITLE' ? item.title : item.type === 'WORD_EXAMPLE' ? item.translation : item.content),
       reviewFlags: overrides.blockFlags?.[String(sourceIndex)] ?? [],
+      ...(item.type === 'WORD_EXAMPLE' ? { word: nfc(item.word), transcription: nfc(item.transcription) } : {}),
       ...(item.type === 'TEXT_IMAGE' ? { illustration: { ...overrides.illustrations[String(sourceIndex)], mediaStatus: 'withheld-pending-review' } } : {}),
     }));
   if (blocks.length !== raw.studyMaterials.length - heldOutBlocks.size) throw new Error('Normalized block count does not match the raw source');

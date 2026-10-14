@@ -28,8 +28,8 @@
       "slug": "bet",
       "name": "Bet",
       "sourceImported": true,
-      "webImplemented": false,
-      "previewAvailable": false,
+      "webImplemented": true,
+      "previewAvailable": true,
       "editorialApproved": false,
       "published": false,
       "publishedAt": null

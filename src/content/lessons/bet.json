@@ -1,0 +1,451 @@
+{
+  "id": "bet",
+  "sourceId": 2,
+  "order": 2,
+  "glyph": "ב",
+  "title": "Mastering Bet/Vet (ב/בּ) and Understanding Dual Pronunciations",
+  "description": "Exploring Bet: The Foundation of the Hebrew Alphabet",
+  "status": "local-review-only",
+  "normalizationVersion": 1,
+  "provenance": {
+    "source": "https://api.hebrewedu.com/api/lessons/2/?lang=en",
+    "responseDate": "2026-10-11T12:04:01.840Z",
+    "sha256": "292346e3d7efbd119ddd85102ec527e6545427979802764b85a7b459f5728309"
+  },
+  "editorialIssues": [],
+  "blocks": [
+    {
+      "id": "bet-block-1",
+      "sourceIndex": 0,
+      "text": "Mastering Bet/Vet (ב/בּ) and Understanding Dual Pronunciations",
+      "reviewFlags": [],
+      "type": "MAIN_TITLE"
+    },
+    {
+      "id": "bet-block-2",
+      "sourceIndex": 1,
+      "text": "Bet (בּ) is the second letter of the Hebrew alphabet. It is pronounced like the [b] in the English words \"boat\" and \"boy.\" When pronounced, the lips come together to stop the airflow before releasing it.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "bet-block-3",
+      "sourceIndex": 2,
+      "text": "Double Letters",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "bet-block-4",
+      "sourceIndex": 3,
+      "text": "In modern Hebrew, some letters can be pronounced in two different ways, depending on whether they contain a small dot called a \"dagesh.\" This dot significantly affects pronunciation. One such letter is Bet (בּ).",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "bet-block-5",
+      "sourceIndex": 4,
+      "text": "When Bet has a dagesh, it is pronounced [b] — a strong plosive sound like the \"b\" in \"book.\"",
+      "reviewFlags": [],
+      "type": "TEXT_IMAGE",
+      "illustration": {
+        "glyph": "בּ",
+        "label": "Bet with Dagesh",
+        "equivalent": "Bet with a dot (dagesh) in its center, pronounced [b].",
+        "mediaStatus": "withheld-pending-review"
+      }
+    },
+    {
+      "id": "bet-block-6",
+      "sourceIndex": 5,
+      "text": "come",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "בָּא",
+      "transcription": "ba"
+    },
+    {
+      "id": "bet-block-7",
+      "sourceIndex": 6,
+      "text": "The Hebrew word 'בָּא' [ba] means 'comes' in English. The first letter, Bet (בּ), has a dagesh and a kamatz gadol (ָ) underneath, resulting in the [ba] sound. Aleph (א) is silent in this case, so the correct pronunciation of 'בָּא' is [ba].",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "bet-block-8",
+      "sourceIndex": 7,
+      "text": "Important Note: When Bet appears at the beginning of a word, it is always written with a dagesh and pronounced as [b].",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "bet-block-9",
+      "sourceIndex": 8,
+      "text": "Without a dagesh, Bet is pronounced [v] — a soft sound like the \"v\" in \"video.\"",
+      "reviewFlags": [],
+      "type": "TEXT_IMAGE",
+      "illustration": {
+        "glyph": "ב",
+        "label": "Bet without Dagesh",
+        "equivalent": "Bet without a dot (dagesh), pronounced [v].",
+        "mediaStatus": "withheld-pending-review"
+      }
+    },
+    {
+      "id": "bet-block-10",
+      "sourceIndex": 9,
+      "text": "אֲבָל",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "bet-block-11",
+      "sourceIndex": 10,
+      "text": "The Hebrew word 'אֲבָל' [aval] means \"but\" in English. The first letter, Aleph (א), has a hataf patah (ֲ) underneath, producing the [a] sound. The Bet (ב) without a dagesh, combined with a kamatz gadol (ָ), results in [va]. The final letter, Lamed (ל), completes the word, making the correct pronunciation [a-va-l].",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "bet-block-12",
+      "sourceIndex": 11,
+      "text": "Words to Practice:",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "bet-block-13",
+      "sourceIndex": 12,
+      "text": "father",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "אַבָּא",
+      "transcription": "aba"
+    },
+    {
+      "id": "bet-block-14",
+      "sourceIndex": 13,
+      "text": "The Hebrew word 'אַבָּא' [aba] means \"father.\" It consists of Aleph (א), Bet (בּ), and another Aleph (א). A patach (ַ) under the first Aleph gives the [a] sound, and a kamatz (ָ) under the Bet produces [ba]. The final Aleph is silent.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "bet-block-16",
+      "sourceIndex": 15,
+      "text": "The Hebrew word 'בָּא' [ba] consists of Bet (בּ) and Aleph (א). The Bet has a dagesh, indicating a strong [b] sound. A patach (ַ) beneath it gives the [ba] sound. The Aleph does not have a vowel and remains silent.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "bet-block-17",
+      "sourceIndex": 16,
+      "text": "Father comes",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "אַבָּא בָּא",
+      "transcription": "aba ba"
+    },
+    {
+      "id": "bet-block-18",
+      "sourceIndex": 17,
+      "text": "This phrase consists of two words you have already learned: 'אַבָּא' (father) and 'בָּא' (comes). Try to pronounce them together smoothly.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "bet-block-19",
+      "sourceIndex": 18,
+      "text": "Conclusions",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "bet-block-20",
+      "sourceIndex": 19,
+      "text": "You have now learned the second letter of the Hebrew alphabet and its two pronunciations. With these new letters, you can start forming words! Look at the examples, listen to their pronunciation, and pay attention to the vowels under the letters. Try to remember these words, as we will use them in future lessons.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "bet-exercise-1",
+      "sourceId": "1742223546096",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Find the letter 'Bet' among the given Hebrew letters.",
+      "explanation": "This is too easy a question, so go through it without hints. If you still need help, I have a cousin who knows a guy who can give you a hint… for a small fee!",
+      "options": [
+        {
+          "id": "bet-exercise-1-option-1",
+          "label": "צ"
+        },
+        {
+          "id": "bet-exercise-1-option-2",
+          "label": "ג"
+        },
+        {
+          "id": "bet-exercise-1-option-3",
+          "label": "א"
+        },
+        {
+          "id": "bet-exercise-1-option-4",
+          "label": "ב"
+        }
+      ],
+      "correctOptionId": "bet-exercise-1-option-4",
+      "reviewFlags": []
+    },
+    {
+      "id": "bet-exercise-2",
+      "sourceId": "1742223546097",
+      "type": "TRUE_FALSE",
+      "prompt": "The letter Bet (בּ) with a dot inside it (Dagesh) sounds like the [b] in the English word 'boat.'",
+      "explanation": "When the Hebrew letter Bet (ב) has a Dagesh (dot) inside it, it represents the [b] sound, as in 'boat.'",
+      "options": [
+        {
+          "id": "bet-exercise-2-option-1",
+          "label": "True"
+        },
+        {
+          "id": "bet-exercise-2-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "bet-exercise-2-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "bet-exercise-3",
+      "sourceId": "1742223546098",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "When the Hebrew letter Bet (בָּ) is combined with Kamatz Gadol, what sound does it produce?",
+      "explanation": "When Bet (בּ) is paired with Kamatz Gadol (ָ), it is pronounced [ba], like in 'father.'",
+      "options": [
+        {
+          "id": "bet-exercise-3-option-1",
+          "label": "[bi]"
+        },
+        {
+          "id": "bet-exercise-3-option-2",
+          "label": "[bo]"
+        },
+        {
+          "id": "bet-exercise-3-option-3",
+          "label": "[bu]"
+        },
+        {
+          "id": "bet-exercise-3-option-4",
+          "label": "[ba]"
+        }
+      ],
+      "correctOptionId": "bet-exercise-3-option-4",
+      "reviewFlags": []
+    },
+    {
+      "id": "bet-exercise-4",
+      "sourceId": "1742223546099",
+      "type": "TRUE_FALSE",
+      "prompt": "The letter Bet (ב) without the dot (Dagesh) is pronounced like the [v] in 'vase.'",
+      "explanation": "When Bet (ב) does not have a Dagesh, it represents the [v] sound.",
+      "options": [
+        {
+          "id": "bet-exercise-4-option-1",
+          "label": "True"
+        },
+        {
+          "id": "bet-exercise-4-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "bet-exercise-4-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "bet-exercise-5",
+      "sourceId": "1742223546100",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "What is the Hebrew word for 'father'?",
+      "explanation": "The Hebrew word for 'father' is אַבָּא, pronounced [a-ba].",
+      "options": [
+        {
+          "id": "bet-exercise-5-option-1",
+          "label": "אִמָּא"
+        },
+        {
+          "id": "bet-exercise-5-option-2",
+          "label": "אֲבָל"
+        },
+        {
+          "id": "bet-exercise-5-option-3",
+          "label": "אַבָּא"
+        }
+      ],
+      "correctOptionId": "bet-exercise-5-option-3",
+      "reviewFlags": []
+    },
+    {
+      "id": "bet-exercise-6",
+      "sourceId": "1742223546101",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "What is the Hebrew word for 'come'?",
+      "explanation": "The Hebrew word for 'come' is בּוֹא, pronounced [bo].",
+      "options": [
+        {
+          "id": "bet-exercise-6-option-1",
+          "label": "תֹּפֶס"
+        },
+        {
+          "id": "bet-exercise-6-option-2",
+          "label": "אָכֵל"
+        },
+        {
+          "id": "bet-exercise-6-option-3",
+          "label": "סַבָּא"
+        },
+        {
+          "id": "bet-exercise-6-option-4",
+          "label": "בָּא"
+        }
+      ],
+      "correctOptionId": "bet-exercise-6-option-4",
+      "reviewFlags": []
+    },
+    {
+      "id": "bet-exercise-7",
+      "sourceId": "1742223546102",
+      "type": "TRUE_FALSE",
+      "prompt": "When the letter Bet (ב) appears at the beginning of a word, does it always have a dot (Dagesh) and sound like [b]?",
+      "explanation": "In most cases, Bet at the beginning of a word has a Dagesh inside and is pronounced like [b]. However, exceptions exist in certain grammatical contexts.",
+      "options": [
+        {
+          "id": "bet-exercise-7-option-1",
+          "label": "True"
+        },
+        {
+          "id": "bet-exercise-7-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "bet-exercise-7-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "bet-exercise-8",
+      "sourceId": "1742223546103",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "How do you pronounce the Hebrew word for 'father' (אַבָּא)?",
+      "explanation": "The first letter, Aleph (אָ), with Kamatz Gadol represents the [a] sound. The second letter, Bet (בָּ), with Dagesh and Kamatz Gadol, sounds like [ba]. The final Aleph (א) is silent.",
+      "options": [
+        {
+          "id": "bet-exercise-8-option-1",
+          "label": "[ba-ba]"
+        },
+        {
+          "id": "bet-exercise-8-option-2",
+          "label": "[a-da]"
+        },
+        {
+          "id": "bet-exercise-8-option-3",
+          "label": "[a-ba]"
+        }
+      ],
+      "correctOptionId": "bet-exercise-8-option-3",
+      "reviewFlags": []
+    },
+    {
+      "id": "bet-exercise-9",
+      "sourceId": "1742223546104",
+      "type": "TRUE_FALSE",
+      "prompt": "Does the letter Bet at the end of a word lose its Dagesh and make the [v] sound, like in 'vase'?",
+      "explanation": "In traditional Hebrew, Bet (ב) does not have a Dagesh at the end of a word, so it is pronounced as [v].",
+      "options": [
+        {
+          "id": "bet-exercise-9-option-1",
+          "label": "True"
+        },
+        {
+          "id": "bet-exercise-9-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "bet-exercise-9-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "bet-exercise-10",
+      "sourceId": "1742223546105",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "What sound does Bet (בַּ) make when it has a Dagesh and is combined with Patah?",
+      "explanation": "When Bet (בַּ) has a Dagesh inside and is combined with Patah, it makes the [ba] sound.",
+      "options": [
+        {
+          "id": "bet-exercise-10-option-1",
+          "label": "[bo]"
+        },
+        {
+          "id": "bet-exercise-10-option-2",
+          "label": "[bu]"
+        },
+        {
+          "id": "bet-exercise-10-option-3",
+          "label": "[ba]"
+        },
+        {
+          "id": "bet-exercise-10-option-4",
+          "label": "[bi]"
+        }
+      ],
+      "correctOptionId": "bet-exercise-10-option-3",
+      "reviewFlags": []
+    },
+    {
+      "id": "bet-exercise-11",
+      "sourceId": "1742223546106",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Which Hebrew vowel sign produces the [a] sound and consists of a horizontal line with two dots beside it?",
+      "explanation": "The vowel sign with a horizontal line and two dots beside it is called 'Hataf Patah.' It represents a short, reduced [a] sound.",
+      "options": [
+        {
+          "id": "bet-exercise-11-option-1",
+          "label": "Holam Male"
+        },
+        {
+          "id": "bet-exercise-11-option-2",
+          "label": "Hataf Patah"
+        },
+        {
+          "id": "bet-exercise-11-option-3",
+          "label": "Kamatz Gadol"
+        }
+      ],
+      "correctOptionId": "bet-exercise-11-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "bet-exercise-12",
+      "sourceId": "1742223546107",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Which of the following Hebrew letters is marked with Kamatz Gadol?",
+      "explanation": "Kamatz Gadol appears as a small 'T'-like symbol under the letter. When Bet (בָּ) is marked with Kamatz Gadol, it produces the [ba] sound.",
+      "options": [
+        {
+          "id": "bet-exercise-12-option-1",
+          "label": "צֵ"
+        },
+        {
+          "id": "bet-exercise-12-option-2",
+          "label": "מֻ"
+        },
+        {
+          "id": "bet-exercise-12-option-3",
+          "label": "אִ"
+        },
+        {
+          "id": "bet-exercise-12-option-4",
+          "label": "בָּ"
+        }
+      ],
+      "correctOptionId": "bet-exercise-12-option-4",
+      "reviewFlags": []
+    }
+  ]
+}

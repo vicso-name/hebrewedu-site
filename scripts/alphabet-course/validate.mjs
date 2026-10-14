@@ -1,8 +1,8 @@
 /** Offline source contract. Imported content is never publication approval. */
 export const schemaVersion = 1;
-export const pocStudyTypes = ['MAIN_TITLE', 'SIMPLE_TEXT', 'TEXT_IMAGE', 'BOLD_TEXT', 'SUBTITLE'];
+export const pocStudyTypes = ['MAIN_TITLE', 'SIMPLE_TEXT', 'TEXT_IMAGE', 'BOLD_TEXT', 'SUBTITLE', 'WORD_EXAMPLE'];
 export const pocExerciseTypes = ['TRUE_FALSE', 'MULTIPLE_CHOICE_COLUMN', 'MULTIPLE_CHOICE_GRID'];
-export const studyTypes = [...pocStudyTypes, 'WORD_EXAMPLE', 'TITLE_IMAGE', 'STRIPED_BLOCK', 'ITEMS_LIST'];
+export const studyTypes = [...pocStudyTypes, 'TITLE_IMAGE', 'STRIPED_BLOCK', 'ITEMS_LIST'];
 export const exerciseTypes = [...pocExerciseTypes, 'MATCH_PAIRS'];
 export const normalizeHebrew = value => value.replace(/[\uFB1D-\uFB4F]/gu, c => c.normalize('NFKC')).normalize('NFC');
 const object = value => value !== null && typeof value === 'object' && !Array.isArray(value);

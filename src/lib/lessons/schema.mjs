@@ -16,8 +16,10 @@ export const recognizedExerciseTypes = exerciseTypes;
 
 const strictRenderedBlock = type => z.object({
   type: z.literal(type),
-  ...(type === 'MAIN_TITLE' ? { title: text } : { content: text }),
+  ...(type === 'MAIN_TITLE' ? { title: text } : {}),
+  ...(['SIMPLE_TEXT', 'BOLD_TEXT', 'SUBTITLE', 'TEXT_IMAGE'].includes(type) ? { content: text } : {}),
   ...(type === 'TEXT_IMAGE' ? { description: z.string(), imageUrl: z.string().url() } : {}),
+  ...(type === 'WORD_EXAMPLE' ? { word: text, transcription: text, translation: text, audioUrl: z.string().url() } : {}),
 }).strict();
 // Recognized-but-unrendered types are never read beyond their `type` discriminator
 // (they are only ever held out, not normalized), so their field shape is passthrough.
@@ -57,6 +59,9 @@ const block = z.discriminatedUnion('type', renderedBlockTypes.map(type => z.obje
   ...(type === 'TEXT_IMAGE' ? {
     illustration: z.object({ glyph: nfcText, label: nfcText, equivalent: nfcText, mediaStatus: z.literal('withheld-pending-review') }).strict(),
   } : {}),
+  // Source audio is never carried through (see normalize.mjs); `text` (blockBase)
+  // holds the English translation so generic text consumers (e.g. studyText) still work.
+  ...(type === 'WORD_EXAMPLE' ? { word: nfcText, transcription: nfcText } : {}),
 }).strict()));
 const exercise = z.object({
   id: text, sourceId: text, type: z.enum(renderedExerciseTypes), prompt: nfcText, explanation: nfcText,

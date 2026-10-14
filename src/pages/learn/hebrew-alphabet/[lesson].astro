@@ -32,6 +32,11 @@ const stages = ['Theory', 'Examples', 'Practice', 'Results'];
 // Every source block occurs once. The examples retain their original relative order.
 const theoryIndices = stageMap.theory;
 const exampleIndices = stageMap.examples;
+// Stage-map entries reference a block's raw sourceIndex (see docs/LESSON_PIPELINE.md),
+// not its position in `lesson.blocks` — the two only coincide when nothing is held
+// out. Looking blocks up by sourceIndex keeps this correct once a holdout shifts the
+// normalized array (as Bet's does).
+const blockBySourceIndex = new Map(lesson.blocks.map(block => [block.sourceIndex, block]));
 const preview = localCoursePreview(import.meta.env.DEV);
 function navTarget(meta, directionLabel) {
   if (!meta) return null;
@@ -76,16 +81,16 @@ const schema = {
           <section id="stage-theory" data-stage="theory" class="stage-panel" aria-labelledby="theory-title">
             <div class="stage-heading"><span class="eyebrow">Step 1 of 4</span><h2 id="theory-title" data-stage-heading tabindex="-1">Meet {letterName}</h2><p>The first letter of the <a href="/blog/hebrew-alphabet-complete-guide/">Hebrew alphabet</a>. Start with the letter, then look at the marks around it.</p></div>
             <div class="learning-card">
-              <StudyBlock block={lesson.blocks[theoryIndices[0]]} />
+              <StudyBlock block={blockBySourceIndex.get(theoryIndices[0])} />
               <div class="learning-objectives"><h2>What you’ll learn</h2><ul><li>Recognize Aleph: <bdi class="hebrew" lang="he" dir="rtl">א</bdi>.</li><li>Distinguish Patah, Kamatz Gadol and Hataf Patah by their shapes.</li><li>Identify these vowel marks in beginner practice questions.</li></ul></div>
-              <div class="theory-section"><h2>How vowel marks work</h2><StudyBlock block={lesson.blocks[theoryIndices[1]]} /></div>
-              <div class="theory-section"><h2>Where you’ll see Hataf Patah</h2><StudyBlock block={lesson.blocks[theoryIndices[2]]} /></div>
+              <div class="theory-section"><h2>How vowel marks work</h2><StudyBlock block={blockBySourceIndex.get(theoryIndices[1])} /></div>
+              <div class="theory-section"><h2>Where you’ll see Hataf Patah</h2><StudyBlock block={blockBySourceIndex.get(theoryIndices[2])} /></div>
             </div>
             <div class="stage-actions" data-enhanced hidden><span>Next, compare the three marks.</span><button type="button" class="btn lesson-primary" data-stage-target="examples">Next: Examples <span aria-hidden="true">→</span></button></div>
           </section>
           <section id="stage-examples" data-stage="examples" class="stage-panel" aria-labelledby="examples-title">
             <div class="stage-heading"><span class="eyebrow">Step 2 of 4</span><h2 id="examples-title" data-stage-heading tabindex="-1">One letter, three vowel marks</h2><p>Look beneath Aleph. Notice the line, the T-shaped mark, and the line with two dots.</p></div>
-            <div class="learning-card example-materials">{exampleIndices.map(index => <StudyBlock block={lesson.blocks[index]} />)}</div>
+            <div class="learning-card example-materials">{exampleIndices.map(index => <StudyBlock block={blockBySourceIndex.get(index)} />)}</div>
             <div class="stage-actions" data-enhanced hidden><button type="button" class="btn lesson-secondary" data-stage-target="theory">Back: Theory</button><button type="button" class="btn lesson-primary" data-stage-target="practice">Next: Practice <span aria-hidden="true">→</span></button></div>
           </section>
           <Practice exercises={lesson.exercises} blocks={lesson.blocks} />

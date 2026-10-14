@@ -18,12 +18,14 @@ test('explicit curriculum releases only owner-approved Aleph among 22 verified i
   assert.equal(courseManifest.hub.publishedAt, '2026-10-11');
   assert.equal(courseManifest.lessons[0].publishedAt, '2026-10-11');
   const preview = curriculum(true);
-  assert.equal(preview.filter(l => l.available).length, 1);
+  assert.equal(preview.filter(l => l.available).length, 2);
   assert.equal(preview[0].href, '/learn/hebrew-alphabet/aleph/');
-  assert.ok(preview.slice(1).every(l => l.href === null));
+  assert.equal(preview[1].href, '/learn/hebrew-alphabet/bet/');
+  assert.ok(preview.slice(2).every(l => l.href === null));
   assert.equal(hubEnabled(), true);
   assert.equal(hubEnabled(false, draft()), false);
-  assert.equal(lessonEnabled('bet', true), false);
+  assert.equal(lessonEnabled('bet', true), true);
+  assert.equal(lessonEnabled('bet', false), false);
   assert.equal(lessonEnabled('bogus', true), false);
 });
 test('no preview flag can create sitemap entries or public Course claims', () => {
@@ -47,9 +49,12 @@ test('publication fails closed without independent editorial approval and implem
   assert.equal(validatePublicationManifest(value), value);
   assert.equal(lessonEnabled('aleph', false, value), true);
   assert.deepEqual(courseSitemapEntries(value).map(x => x.url), ['/learn/hebrew-alphabet/', '/learn/hebrew-alphabet/aleph/']);
-  value.lessons[1].editorialApproved = true; value.lessons[1].published = true; value.lessons[1].publishedAt = '2026-10-11';
+  // lessons[1] (bet) is itself implemented and preview-available by this point (see
+  // alphabet-course.json) — exercise the "no implemented route" case on lessons[2]
+  // (gimel), which still has no src/content/lessons/gimel.json.
+  value.lessons[2].editorialApproved = true; value.lessons[2].published = true; value.lessons[2].publishedAt = '2026-10-11';
   assert.throws(() => validatePublicationManifest(value), /implementation/);
-  value.lessons[1].webImplemented = true;
+  value.lessons[2].webImplemented = true;
   assert.throws(() => validatePublicationManifest(value), /No implemented route/);
 });
 test('later approved launch structured data describes only released modules', () => {

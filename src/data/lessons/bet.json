@@ -1,0 +1,28 @@
+{
+  "slug": "bet",
+  "title": "Mastering Bet/Vet (ב/בּ) and Understanding Dual Pronunciations",
+  "editorialIssues": [],
+  "illustrations": {
+    "4": { "glyph": "בּ", "label": "Bet with Dagesh", "equivalent": "Bet with a dot (dagesh) in its center, pronounced [b]." },
+    "8": { "glyph": "ב", "label": "Bet without Dagesh", "equivalent": "Bet without a dot (dagesh), pronounced [v]." }
+  },
+  "blockFlags": {},
+  "exerciseFlags": {},
+  "stageMap": {
+    "theory": [0, 1, 2],
+    "examples": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19]
+  },
+  "holdOuts": {
+    "blocks": [
+      { "sourceIndex": 14, "reason": "Duplicates block 6's בָּא example (same word/transcription, near-identical translation) and its audioUrl is a tokenized Firebase link; held out rather than republishing a duplicate with a credentialed media URL." }
+    ],
+    "exercises": [
+      { "sourceIndex": 12, "reason": "renderer not implemented yet" }
+    ]
+  },
+  "source": {
+    "rawSnapshotPath": ".local/alphabet-course-imports/v1/2026-10-11T12-04-00-552Z-a1dbcc/raw/lesson-2.raw.json",
+    "sha256": "292346e3d7efbd119ddd85102ec527e6545427979802764b85a7b459f5728309",
+    "responseDate": "2026-10-11T12:04:01.840Z"
+  }
+}

@@ -66,6 +66,16 @@ of a shared block.
   `src/data/hebrew-phrases`).
 - **`src/components/lessons/Practice.astro`** / **`StudyBlock.astro`** —
   lesson practice/exercise rendering for `src/content/lessons/*.json`.
+  `StudyBlock.astro` renders a `WORD_EXAMPLE` block through `PhraseCard`
+  (`meaningTag="p"`, no `id`, a single `"same"` variant — i.e. no gender
+  switch): the block's `word` (with nikud) → the Hebrew panel, its
+  `transcription` → `Transliteration`, and its `text` (the normalized
+  block's copy of the source `translation`) → the English meaning. Source
+  `audioUrl` is never read by the normalizer (see `normalize.mjs`) — audio
+  is out of scope for this renderer. No `WORD_EXAMPLE` block in the
+  22-lesson import carries an image/description field, so there is no
+  image path today; one would need a real schema/normalize addition, not
+  a speculative prop, once a source actually has one.
 
 ## Product / marketing
 

@@ -62,12 +62,23 @@ See `src/data/lessons/aleph.json` for a complete, real example.
 **Holdouts are mandatory for unsupported content.** If the raw source has a
 study block or exercise type `StudyBlock.astro`/`Practice.astro` can't
 render (currently anything other than `MAIN_TITLE`/`SIMPLE_TEXT`/
-`TEXT_IMAGE`/`BOLD_TEXT`/`SUBTITLE` blocks or `TRUE_FALSE`/
-`MULTIPLE_CHOICE_COLUMN`/`MULTIPLE_CHOICE_GRID` exercises) and it isn't
-listed in `holdOuts` with a reason, normalization fails closed with a list
-of what's unsupported. Holding an item out drops it from the published
-lesson entirely — it does not appear, even as "unavailable". Building a new
+`TEXT_IMAGE`/`BOLD_TEXT`/`SUBTITLE`/`WORD_EXAMPLE` blocks or `TRUE_FALSE`/
+`MULTIPLE_CHOICE_COLUMN`/`MULTIPLE_CHOICE_GRID` exercises — see `BLOCKS.md`
+for the `WORD_EXAMPLE` → `PhraseCard` mapping; `MATCH_PAIRS` exercises have
+no renderer yet) and it isn't listed in `holdOuts` with a reason,
+normalization fails closed with a list of what's unsupported. Holding an
+item out drops it from the published lesson entirely — it does not appear,
+even as "unavailable". A holdout isn't limited to unsupported types: any
+block/exercise index can be held out for an editorial reason (e.g. a
+duplicate `WORD_EXAMPLE` with a tokenized source audio URL) — `holdOuts`
+always wins, regardless of whether its type has a renderer. Building a new
 renderer for a type is separate work, not part of this pipeline.
+
+Stage-map (`stageMap.theory`/`stageMap.examples`) and holdout entries key
+off a block/exercise's raw `sourceIndex`, not its position in the
+normalized `blocks`/`exercises` array — the two only coincide when nothing
+is held out for that letter. `[lesson].astro` looks blocks up by
+`sourceIndex` for this reason.
 
 ## 5. Normalize and validate
 
