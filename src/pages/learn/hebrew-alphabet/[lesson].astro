@@ -41,8 +41,15 @@ const exampleIndices = stageMap.examples;
 const blockBySourceIndex = new Map(lesson.blocks.map(block => [block.sourceIndex, block]));
 // A copy heading immediately above a SUBTITLE study block would duplicate it as a
 // visible heading pair; keep the source subtitle and drop the copy heading instead.
-const secondSectionBlock = blockBySourceIndex.get(theoryIndices[1]);
-const thirdSectionBlock = blockBySourceIndex.get(theoryIndices[2]);
+// theoryIndices[0] renders directly (no heading); every entry after it is a "section"
+// — the count varies per letter (docs/LESSON_PIPELINE.md: a stage must never end on a
+// heading with no content under it, so a letter whose raw source has only a
+// title+intro before its first examples-introducing heading has just one section here,
+// not the fixed two some other letters have).
+const theorySections = theoryIndices.slice(1).map((sourceIndex, index) => ({
+  block: blockBySourceIndex.get(sourceIndex),
+  heading: index === 0 ? copy.theory.secondSectionHeading : copy.theory.thirdSectionHeading,
+}));
 const preview = localCoursePreview(import.meta.env.DEV);
 // Only a link to an enabled lesson is ever shown — an unpublished neighbor is omitted,
 // not replaced with a placeholder, so the breadcrumb and Results CTA never dead-end.
@@ -111,8 +118,7 @@ const schema = {
             <div class="learning-card">
               <StudyBlock block={blockBySourceIndex.get(theoryIndices[0])} />
               <div class="learning-objectives"><h2>{copy.theory.objectivesHeading}</h2><ul>{copy.theory.objectives.map((item: string) => <li set:html={item} />)}</ul></div>
-              <div class="theory-section">{secondSectionBlock.type !== 'SUBTITLE' && <h2>{copy.theory.secondSectionHeading}</h2>}<StudyBlock block={secondSectionBlock} /></div>
-              <div class="theory-section">{thirdSectionBlock.type !== 'SUBTITLE' && <h2>{copy.theory.thirdSectionHeading}</h2>}<StudyBlock block={thirdSectionBlock} /></div>
+              {theorySections.map(section => <div class="theory-section">{section.block.type !== 'SUBTITLE' && <h2>{section.heading}</h2>}<StudyBlock block={section.block} /></div>)}
             </div>
             <div class="stage-actions" data-enhanced hidden><button type="button" class="btn lesson-primary" data-stage-target="examples">Next: Examples <span aria-hidden="true">→</span></button></div>
           </section>

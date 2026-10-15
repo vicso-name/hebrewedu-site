@@ -70,6 +70,8 @@ lesson JSON and rendered HTML:
   unchanged;
 - Rendered HTML of the new lesson contains no other letter's name or
   letter-specific phrases (grep for all other letter names).
+- No heading may end a step without content; section headings must sit in
+  the same step as their content.
 - Run: node --test tests/*.test.mjs, npm run check:layout, npm run build,
   npm run seo:build, git diff --check. Fix and re-run until clean.
 
