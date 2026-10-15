@@ -1,0 +1,365 @@
+{
+  "id": "gimel",
+  "sourceId": 3,
+  "order": 3,
+  "glyph": "ג",
+  "title": "Gimel Hebrew Letter (ג): Sound & Words",
+  "description": "Learn the Hebrew letter Gimel (ג): its [g] sound, with example words like גַג (roof) and אַגַב (incidentally), plus interactive practice.",
+  "status": "local-review-only",
+  "normalizationVersion": 1,
+  "provenance": {
+    "source": "https://api.hebrewedu.com/api/lessons/3/?lang=en",
+    "responseDate": "2026-10-11T12:04:01.842Z",
+    "sha256": "0aec1f586b0b7ea2e08570532ccfafd93a1dbede4d1358bb81831339f74112d6"
+  },
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Optional practice refinement",
+      "detail": "Some letter-recognition distractors use letters not introduced in this lesson. Beginner scaffolding can be improved separately from the approved source synchronization."
+    },
+    {
+      "id": "vowel-length-matchpairs-holdout",
+      "summary": "MATCH_PAIRS exercise held out",
+      "detail": "The source MATCH_PAIRS exercise keys its answer pairs to 'Short [a]'/'Long [a:]' duration labels, which contradicts the course's vowel-length rule (Modern Hebrew pronounces Patah and Kamatz Gadol identically as [a]). contentOverrides can only patch an exercise's content/tip/correctAnswer, not its pairs data, so there is no override path to fix the labels in place; held out rather than republishing a length claim baked into the graded answer data."
+    }
+  ],
+  "blocks": [
+    {
+      "id": "gimel-block-1",
+      "sourceIndex": 0,
+      "text": "Gimel Hebrew Letter (ג): Sound, Words & Practice",
+      "reviewFlags": [],
+      "type": "MAIN_TITLE"
+    },
+    {
+      "id": "gimel-block-2",
+      "sourceIndex": 1,
+      "text": "Gimel (ג) is the third letter of the Hebrew alphabet. It is pronounced with a hard [g] sound, similar to the [g] in the English word \"good.\" In modern Hebrew, Gimel is generally pronounced consistently, though slight variations may occur depending on the speaker's accent or dialect.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "gimel-block-3",
+      "sourceIndex": 2,
+      "text": "Words to Practice:",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "gimel-block-4",
+      "sourceIndex": 3,
+      "text": "roof",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "גַג",
+      "transcription": "gag"
+    },
+    {
+      "id": "gimel-block-5",
+      "sourceIndex": 4,
+      "text": "The Hebrew word 'גַג' [gag], meaning 'roof,' consists of two Gimel (ג) letters. A patach (ַ) appears under the first Gimel, giving it the [a] sound, similar to the [a] in \"father.\" The second Gimel follows without a vowel, maintaining the [g] sound.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "gimel-block-6",
+      "sourceIndex": 5,
+      "text": "incidentally",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "אַגַב",
+      "transcription": "agav"
+    },
+    {
+      "id": "gimel-block-7",
+      "sourceIndex": 6,
+      "text": "The Hebrew word 'אַגַב' [agav], meaning 'by the way' or 'incidentally,' consists of three letters: Aleph (א), Gimel (ג), and Bet (ב). A patach (ַ) appears under both Aleph and Gimel, giving them the [a] sound. The final Bet (ב) is pronounced as [v] since it lacks a dagesh.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "gimel-block-8",
+      "sourceIndex": 7,
+      "text": "Conclusions",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "gimel-block-9",
+      "sourceIndex": 8,
+      "text": "You've now learned Gimel (ג), the third letter of the Hebrew alphabet. In this lesson, we explored two new words that feature Gimel and reinforced our understanding of previous letters, Aleph (א) and Bet (ב), along with the patach vowel. Keep practicing and listening to the audio examples to solidify your knowledge!",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "gimel-exercise-1",
+      "sourceId": "1742223642478",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Find the letter 'Gimel' among the given Hebrew letters.",
+      "explanation": "The Hebrew letter Gimel (ג) is the third letter of the Hebrew alphabet. It typically represents the [g] sound, as in the English word 'go.'",
+      "options": [
+        {
+          "id": "gimel-exercise-1-option-1",
+          "label": "ל"
+        },
+        {
+          "id": "gimel-exercise-1-option-2",
+          "label": "ג"
+        },
+        {
+          "id": "gimel-exercise-1-option-3",
+          "label": "נ"
+        },
+        {
+          "id": "gimel-exercise-1-option-4",
+          "label": "פּ"
+        }
+      ],
+      "correctOptionId": "gimel-exercise-1-option-2",
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    },
+    {
+      "id": "gimel-exercise-2",
+      "sourceId": "1742223642479",
+      "type": "TRUE_FALSE",
+      "prompt": "The letter Gimel (ג) sounds like the [g] in the English word 'good.'",
+      "explanation": "Gimel typically represents the [g] sound, similar to the English [g] in 'go.'",
+      "options": [
+        {
+          "id": "gimel-exercise-2-option-1",
+          "label": "True"
+        },
+        {
+          "id": "gimel-exercise-2-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "gimel-exercise-2-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "gimel-exercise-3",
+      "sourceId": "1742223642480",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "What sound does the Hebrew letter Gimel (גָ) make when combined with Kamatz Gadol?",
+      "explanation": "When Gimel (גָ) is paired with Kamatz Gadol, it is pronounced [ga], similar to 'garden.'",
+      "options": [
+        {
+          "id": "gimel-exercise-3-option-1",
+          "label": "[ga]"
+        },
+        {
+          "id": "gimel-exercise-3-option-2",
+          "label": "[go]"
+        },
+        {
+          "id": "gimel-exercise-3-option-3",
+          "label": "[gu]"
+        },
+        {
+          "id": "gimel-exercise-3-option-4",
+          "label": "[gi]"
+        }
+      ],
+      "correctOptionId": "gimel-exercise-3-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "gimel-exercise-4",
+      "sourceId": "1742223642481",
+      "type": "TRUE_FALSE",
+      "prompt": "When Gimel (גָ) is marked with Kamatz Gadol, does it produce the [gu] sound?",
+      "explanation": "When the Hebrew letter Gimel (גָ) is marked with Kamatz Gadol, it produces the [ga] sound, not [gu].",
+      "options": [
+        {
+          "id": "gimel-exercise-4-option-1",
+          "label": "True"
+        },
+        {
+          "id": "gimel-exercise-4-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "gimel-exercise-4-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "gimel-exercise-5",
+      "sourceId": "1742223642482",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "What is the Hebrew word for 'roof'?",
+      "explanation": "The Hebrew word for 'roof' is גַג, pronounced [gag].",
+      "options": [
+        {
+          "id": "gimel-exercise-5-option-1",
+          "label": "אִמָּא"
+        },
+        {
+          "id": "gimel-exercise-5-option-2",
+          "label": "גַג"
+        },
+        {
+          "id": "gimel-exercise-5-option-3",
+          "label": "לִקְרוֹת"
+        }
+      ],
+      "correctOptionId": "gimel-exercise-5-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "gimel-exercise-6",
+      "sourceId": "1742223642483",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "How is the Hebrew word 'אַגַב' pronounced?",
+      "explanation": "The Hebrew word 'אַגַב' (agav), meaning 'by the way' or 'incidentally,' consists of Aleph (א), Gimel (ג), and Bet (ב), with Patah under Aleph and Gimel, both producing the [a] sound.",
+      "options": [
+        {
+          "id": "gimel-exercise-6-option-1",
+          "label": "[o-ra-v]"
+        },
+        {
+          "id": "gimel-exercise-6-option-2",
+          "label": "[a-ga-v]"
+        },
+        {
+          "id": "gimel-exercise-6-option-3",
+          "label": "[a-la-v]"
+        },
+        {
+          "id": "gimel-exercise-6-option-4",
+          "label": "[a-ma-v]"
+        }
+      ],
+      "correctOptionId": "gimel-exercise-6-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "gimel-exercise-7",
+      "sourceId": "1742223642484",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Which Hebrew vowel sign makes the [a] sound and is represented by a horizontal line under a letter?",
+      "explanation": "The vowel sign that produces the [a] sound and appears as a horizontal line under a letter is called 'Patah.'",
+      "options": [
+        {
+          "id": "gimel-exercise-7-option-1",
+          "label": "Tzere"
+        },
+        {
+          "id": "gimel-exercise-7-option-2",
+          "label": "Patah"
+        },
+        {
+          "id": "gimel-exercise-7-option-3",
+          "label": "Hataf Patah"
+        }
+      ],
+      "correctOptionId": "gimel-exercise-7-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "gimel-exercise-8",
+      "sourceId": "1742223642485",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Which of the following Hebrew letters is marked with a Patah?",
+      "explanation": "Patah appears as a small horizontal line under the letter. When Gimel (גַ) is marked with Patah, it produces the [ga] sound.",
+      "options": [
+        {
+          "id": "gimel-exercise-8-option-1",
+          "label": "מֻ"
+        },
+        {
+          "id": "gimel-exercise-8-option-2",
+          "label": "גַ"
+        },
+        {
+          "id": "gimel-exercise-8-option-3",
+          "label": "בָּ"
+        },
+        {
+          "id": "gimel-exercise-8-option-4",
+          "label": "מְ"
+        }
+      ],
+      "correctOptionId": "gimel-exercise-8-option-2",
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    },
+    {
+      "id": "gimel-exercise-9",
+      "sourceId": "1742223642486",
+      "type": "TRUE_FALSE",
+      "prompt": "Does the Hebrew letter Gimel (גָ), when marked with Kamatz Gadol, produce the [ga] sound?",
+      "explanation": "Kamatz Gadol represents the [a] sound. When paired with Gimel (גָ), it produces [ga].",
+      "options": [
+        {
+          "id": "gimel-exercise-9-option-1",
+          "label": "True"
+        },
+        {
+          "id": "gimel-exercise-9-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "gimel-exercise-9-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "gimel-exercise-10",
+      "sourceId": "1742223642487",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Identify the vowel used with the letter 'גָ' and choose its correct name.",
+      "explanation": "The vowel used with the letter גָ is Kamatz Gadol, which produces the [a] sound.",
+      "options": [
+        {
+          "id": "gimel-exercise-10-option-1",
+          "label": "Patah"
+        },
+        {
+          "id": "gimel-exercise-10-option-2",
+          "label": "Kamatz Gadol"
+        },
+        {
+          "id": "gimel-exercise-10-option-3",
+          "label": "Segol"
+        }
+      ],
+      "correctOptionId": "gimel-exercise-10-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "gimel-exercise-11",
+      "sourceId": "1742223642488",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Which of the following letters represents the [g] sound, as in the English word 'good'?",
+      "explanation": "The Hebrew letter Gimel (ג) represents the [g] sound, similar to 'go' in English.",
+      "options": [
+        {
+          "id": "gimel-exercise-11-option-1",
+          "label": "ג"
+        },
+        {
+          "id": "gimel-exercise-11-option-2",
+          "label": "א"
+        },
+        {
+          "id": "gimel-exercise-11-option-3",
+          "label": "נ"
+        },
+        {
+          "id": "gimel-exercise-11-option-4",
+          "label": "כּ"
+        }
+      ],
+      "correctOptionId": "gimel-exercise-11-option-1",
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    }
+  ]
+}

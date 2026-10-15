@@ -1,0 +1,73 @@
+{
+  "slug": "gimel",
+  "title": "Gimel Hebrew Letter (ג): Sound & Words",
+  "description": "Learn the Hebrew letter Gimel (ג): its [g] sound, with example words like גַג (roof) and אַגַב (incidentally), plus interactive practice.",
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Optional practice refinement",
+      "detail": "Some letter-recognition distractors use letters not introduced in this lesson. Beginner scaffolding can be improved separately from the approved source synchronization."
+    },
+    {
+      "id": "vowel-length-matchpairs-holdout",
+      "summary": "MATCH_PAIRS exercise held out",
+      "detail": "The source MATCH_PAIRS exercise keys its answer pairs to 'Short [a]'/'Long [a:]' duration labels, which contradicts the course's vowel-length rule (Modern Hebrew pronounces Patah and Kamatz Gadol identically as [a]). contentOverrides can only patch an exercise's content/tip/correctAnswer, not its pairs data, so there is no override path to fix the labels in place; held out rather than republishing a length claim baked into the graded answer data."
+    }
+  ],
+  "illustrations": {},
+  "blockFlags": {},
+  "exerciseFlags": {
+    "1": ["unintroduced-letters"],
+    "8": ["unintroduced-letters"],
+    "11": ["unintroduced-letters"]
+  },
+  "contentOverrides": {
+    "blocks": {
+      "0": "Gimel Hebrew Letter (ג): Sound, Words & Practice"
+    },
+    "exercises": {
+      "3": {
+        "tip": "When the Hebrew letter Gimel (גָ) is marked with Kamatz Gadol, it produces the [ga] sound, not [gu]."
+      },
+      "8": {
+        "tip": "Kamatz Gadol represents the [a] sound. When paired with Gimel (גָ), it produces [ga]."
+      },
+      "9": {
+        "tip": "The vowel used with the letter גָ is Kamatz Gadol, which produces the [a] sound."
+      }
+    }
+  },
+  "stageMap": {
+    "theory": [0, 1, 2],
+    "examples": [3, 4, 5, 6, 7, 8]
+  },
+  "copy": {
+    "theory": {
+      "heading": "Meet Gimel",
+      "intro": "The third letter of the <a href=\"/blog/hebrew-alphabet-complete-guide/\">Hebrew alphabet</a>. Gimel makes a steady [g] sound, as in “good.”",
+      "objectivesHeading": "What you’ll learn",
+      "objectives": [
+        "Recognize Gimel: <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ג</bdi>.",
+        "Hear its [g] sound, as in “good.”",
+        "Read Gimel in real words like <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">גַג</bdi> (roof)."
+      ],
+      "secondSectionHeading": "How Gimel sounds",
+      "thirdSectionHeading": "Words to practice"
+    },
+    "examples": {
+      "heading": "Gimel in real words",
+      "intro": "See Gimel in two new Hebrew words, and review the Patah and Kamatz Gadol vowel marks from earlier letters."
+    }
+  },
+  "holdOuts": {
+    "blocks": [],
+    "exercises": [
+      { "sourceIndex": 11, "reason": "MATCH_PAIRS pairs its answer labels as 'Short [a]'/'Long [a:]', asserting a vowel-length distinction the course rules disallow (Patah and Kamatz Gadol are both [a] in Modern Hebrew). The pairs data has no contentOverrides path (only content/tip/correctAnswer are patchable), so it is held out rather than republished with a length claim in the graded answer." }
+    ]
+  },
+  "source": {
+    "rawSnapshotPath": ".local/alphabet-course-imports/v1/2026-10-11T12-04-00-552Z-a1dbcc/raw/lesson-3.raw.json",
+    "sha256": "0aec1f586b0b7ea2e08570532ccfafd93a1dbede4d1358bb81831339f74112d6",
+    "responseDate": "2026-10-11T12:04:01.842Z"
+  }
+}

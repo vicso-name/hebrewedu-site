@@ -202,6 +202,8 @@ Hebrew has sounds that don't exist in English — the guttural Chet (ח) and Ayi
 
 Some beginners spend too long admiring the aesthetic of Hebrew letters without actually drilling recognition. The goal is to see ג and immediately think "Gimel, G" without a pause. That automatic recognition only comes from active practice — writing, typing, sounding out syllables — not passive reading. Writing the letters is also good preparation for later, when you'll discover that [Hebrew handwriting looks completely different from the printed forms](/blog/why-hebrew-handwriting-looks-completely-different-from-printed-hebrew/) you've been learning.
 
+→ [Practice Gimel in the Hebrew Alphabet Course](/learn/hebrew-alphabet/gimel/)
+
 ---
 
 ## How Long Does It Actually Take?

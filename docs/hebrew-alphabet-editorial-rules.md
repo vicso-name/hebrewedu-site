@@ -21,6 +21,13 @@ quality distinction, not a timing one. A sentence that explicitly
 long-versus-short contrast here") is fine — it isn't asserting length,
 it's ruling it out.
 
+`contentOverrides.exercises` can only patch `content`, `tip` and
+`correctAnswer` — never a `MATCH_PAIRS` exercise's `pairs` data (see
+`docs/LESSON_PIPELINE.md`). If a vowel-length (or other rule) violation is
+baked into the pairs themselves rather than the prompt/tip, there is no
+in-place fix: hold the exercise out instead of republishing the claim (see
+Gimel's Q12).
+
 ## No absolute "always/never" pronunciation rules without the known exception
 
 Don't state a pronunciation rule as universal ("always," "never") if a

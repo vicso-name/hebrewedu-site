@@ -41,11 +41,11 @@
       "slug": "gimel",
       "name": "Gimel",
       "sourceImported": true,
-      "webImplemented": false,
-      "previewAvailable": false,
-      "editorialApproved": false,
-      "published": false,
-      "publishedAt": null
+      "webImplemented": true,
+      "previewAvailable": true,
+      "editorialApproved": true,
+      "published": true,
+      "publishedAt": "2026-10-15"
     },
     {
       "sourceId": 4,
