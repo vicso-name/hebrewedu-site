@@ -1,0 +1,9 @@
+<!-- GA4 Consent Mode v2 defaults + region-gated gtag.js loading (see
+     src/lib/analytics-consent.ts). Only rendered in production builds —
+     dev/preview never import this component. Must stay the first script
+     in <head> so defaults are pushed before anything else can call gtag. -->
+<script>
+import { bootstrap } from '../lib/analytics-consent';
+import { site } from '../data/site';
+bootstrap(site.analyticsId);
+</script>

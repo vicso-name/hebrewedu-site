@@ -3,8 +3,8 @@ import type { CollectionEntry } from 'astro:content';
 import HebrewText from './HebrewText.astro';
 import { unavailableQuestions, exerciseExplanation, derangedPairOrder } from '../../lib/lessons/presentation.mjs';
 type Lesson = CollectionEntry<'lessons'>['data'];
-interface Props { exercises: Lesson['exercises']; blocks: Lesson['blocks'] }
-const { exercises, blocks } = Astro.props;
+interface Props { exercises: Lesson['exercises']; blocks: Lesson['blocks']; letter: string }
+const { exercises, blocks, letter } = Astro.props;
 const grading = exercises.filter(exercise => !unavailableQuestions.has(exercise.id)).map(exercise => exercise.type === 'MATCH_PAIRS'
   ? { id: exercise.id, type: exercise.type, pairs: exercise.pairs.map(({ id }) => ({ id })) }
   : { id: exercise.id, correctOptionId: exercise.correctOptionId, options: exercise.options.map(({ id }) => ({ id })) });
@@ -14,7 +14,7 @@ const gradingJson = JSON.stringify(grading).replace(/</g, '\\u003c');
   <div class="stage-heading"><span class="eyebrow">Step 3 of 4</span><h2 id="practice-title" data-stage-heading tabindex="-1">Put it into practice</h2><p>Choose an answer, check it, then read the explanation.</p></div>
   <div class="practice-meter" data-enhanced hidden><p data-progress aria-live="polite" aria-atomic="true">0 of 14 answered · 0 correct</p><progress data-practice-progress max="14" value="0" aria-label="Questions answered">0 of 14 answered</progress></div>
   <noscript><p class="no-script">Interactive checking needs JavaScript. All questions remain readable; open “Source answer and explanation” to check your work.</p></noscript>
-  <div data-practice>
+  <div data-practice data-lesson-letter={letter}>
     {exercises.map((exercise, index) => <form class="question-card learning-card" id={exercise.id} data-exercise-id={exercise.id} data-exercise-type={exercise.type} data-unavailable={unavailableQuestions.has(exercise.id) ? 'true' : undefined}>
       <p class="question-count">Question {index + 1} of {exercises.length} <span>{exercise.type === 'MATCH_PAIRS' ? 'Match each pair' : exercise.type === 'TRUE_FALSE' ? 'True or false' : 'Choose one answer'}</span></p>
       {unavailableQuestions.has(exercise.id) ? <>

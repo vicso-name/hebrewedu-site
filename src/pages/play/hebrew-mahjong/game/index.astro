@@ -1,3 +1,7 @@
+---
+import AnalyticsHead from '../../../../components/AnalyticsHead.astro';
+const analyticsEnabled = !import.meta.env.DEV;
+---
 <!doctype html>
 <html lang="en" dir="ltr">
   <head>
@@ -8,6 +12,7 @@
     <title>Hebrew Mahjong | Play</title>
     <link rel="canonical" href="https://hebrewedu.com/play/hebrew-mahjong/" />
     <link rel="icon" type="image/png" href="/favicon.png" />
+    {analyticsEnabled && <AnalyticsHead />}
   </head>
   <body>
     <header>
@@ -20,6 +25,11 @@
     </main>
   </body>
 </html>
+
+<script>
+import { track } from '../../../../lib/analytics';
+track('game_open', { game: 'hebrew-mahjong' });
+</script>
 
 <style>
   :global(*) { box-sizing: border-box; }

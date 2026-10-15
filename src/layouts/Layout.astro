@@ -3,6 +3,11 @@ import '../styles/global.css';
 import { site } from '../data/site';
 import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
+import AnalyticsHead from '../components/AnalyticsHead.astro';
+import ConsentBanner from '../components/ConsentBanner.astro';
+
+// GA is production-only — never wired up in `astro dev`. See docs/ANALYTICS.md.
+const analyticsEnabled = !import.meta.env.DEV;
 
 interface Props {
   title?: string;
@@ -80,6 +85,8 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
     <!-- Page-specific head content (e.g. fonts) -->
     <slot name="head" />
+
+    {analyticsEnabled && <AnalyticsHead />}
   </head>
   <body>
     {pageClass ? <div class={pageClass}>
@@ -88,6 +95,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
       <main id={mainId}><slot /></main>
       <Footer />
     </div> : <slot />}
+    {analyticsEnabled && <ConsentBanner />}
   </body>
 </html>
 

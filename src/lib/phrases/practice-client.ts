@@ -1,4 +1,5 @@
 import { gradeAnswer } from '../lessons/grading.mjs';
+import { track } from '../analytics';
 
 interface Key { id: string; correctOptionId: string; options: { id: string }[]; explanation: string }
 
@@ -24,8 +25,14 @@ export function initPhrasePractice(root: HTMLElement) {
   }));
   if (cards.some(card => !card.key || !card.actions || !card.submit || !card.retry || !card.feedback || !card.inputs.length || !card.inputs.some(input => input.value === card.key?.correctOptionId))) return;
   const answers = new Map<string, boolean>();
+  let completeFired = false;
   function updateProgress() {
-    progress!.textContent = `${[...answers.values()].filter(Boolean).length} of ${keys.length} answers checked correctly`;
+    const correct = [...answers.values()].filter(Boolean).length;
+    progress!.textContent = `${correct} of ${keys.length} answers checked correctly`;
+    if (!completeFired && answers.size === keys.length) {
+      completeFired = true;
+      track('phrases_practice_complete', { score: correct });
+    }
   }
   for (const { form, key, inputs, actions, submit, retry, feedback } of cards) {
     form.addEventListener('submit', event => {

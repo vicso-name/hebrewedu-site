@@ -1,4 +1,5 @@
 import { gradeAnswer, gradeMatchPair, gradeMatchPairs } from './grading.mjs';
+import { track } from '../analytics';
 
 interface ChoiceKey { id: string; correctOptionId: string; options: { id: string }[] }
 interface MatchPairsKey { id: string; type: 'MATCH_PAIRS'; pairs: { id: string }[] }
@@ -9,6 +10,9 @@ export function initPractice() {
   const container = document.querySelector<HTMLElement>('[data-practice]');
   const payload = document.getElementById('lesson-grading');
   if (!container || !payload) return;
+  const letter = container.dataset.lessonLetter ?? 'unknown';
+  const firedStages = new Set<string>();
+  track('lesson_start', { letter });
   const keys: Key[] = JSON.parse(payload.textContent ?? '[]');
   const forms = Array.from(container.querySelectorAll<HTMLFormElement>('form'));
   const panels = Array.from(document.querySelectorAll<HTMLElement>('[data-stage]'));
@@ -81,6 +85,11 @@ export function initPractice() {
     if (!panel) return;
     stage = target;
     updateResults();
+    if (!firedStages.has(target)) {
+      firedStages.add(target);
+      if (target === 'practice') track('practice_start', { letter });
+      if (target === 'results') track('lesson_complete', { letter, score: [...results.values()].filter(Boolean).length, total: availableCount });
+    }
     panels.forEach(item => { item.hidden = item !== panel; });
     document.querySelectorAll<HTMLButtonElement>('.stage-navigation button').forEach(button => {
       if (button.dataset.stageTarget === target) button.setAttribute('aria-current', 'step');

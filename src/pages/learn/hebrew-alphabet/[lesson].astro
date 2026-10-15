@@ -121,7 +121,7 @@ const schema = {
             <div class="learning-card example-materials">{exampleIndices.map(index => <StudyBlock block={blockBySourceIndex.get(index)} />)}</div>
             <div class="stage-actions" data-enhanced hidden><button type="button" class="btn lesson-primary" data-stage-target="practice">Next: Practice <span aria-hidden="true">→</span></button></div>
           </section>
-          <Practice exercises={lesson.exercises} blocks={lesson.blocks} />
+          <Practice exercises={lesson.exercises} blocks={lesson.blocks} letter={lesson.id} />
           <section id="stage-results" data-stage="results" class="stage-panel" aria-labelledby="results-title">
             <div class="stage-heading"><span class="eyebrow">Step 4 of 4</span><h2 id="results-title" data-stage-heading tabindex="-1">Your practice results</h2><p>Use your results to decide what to revisit.</p></div>
             <div class="learning-card results-card" data-enhanced hidden>

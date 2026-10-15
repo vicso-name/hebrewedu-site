@@ -62,3 +62,12 @@ Package manager is npm (Node 26, npm 11; CI uses the same). Never use
 pnpm or yarn here. After adding or removing a dependency, run
 `npm install` and commit `package.json` and `package-lock.json`
 together.
+
+# Analytics
+
+Analytics only through `src/lib/analytics.ts`'s `track()`; never add
+other trackers or third-party scripts without asking. GA4 bootstrap
+(Consent Mode v2, region-gated loading, the consent banner) lives in
+`src/lib/analytics-consent.ts`, `AnalyticsHead.astro` and
+`ConsentBanner.astro` — read `docs/ANALYTICS.md` before touching any of
+it. GA is production-only; it is never wired up in `astro dev`.

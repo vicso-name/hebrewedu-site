@@ -32,6 +32,8 @@ export const site = {
   // Default <title> / meta description, and the homepage's own.
   title: 'Learn the Hebrew Alphabet & Read Hebrew | HebrewEdu',
   description: 'Learn the Hebrew alphabet step by step, practise vocabulary and verbs, and start reading beginner Hebrew with audio and translation.',
+  // Public GA4 Web Measurement ID. See src/lib/analytics-consent.ts for when it loads.
+  analyticsId: 'G-P7MLCPECXE',
   stores: { googlePlay, appStore },
   // Let visitors choose the store for their device.
   appDownloadUrl: '/#download',

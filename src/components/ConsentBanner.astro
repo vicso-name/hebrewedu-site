@@ -1,0 +1,100 @@
+---
+import { site } from '../data/site';
+---
+
+<!-- Analytics consent banner. Auto-shown only for visitors in the EEA/UK/CH
+     region (see analytics-consent.ts) with no stored choice yet. The footer's
+     "Privacy choices" button (Footer.astro) reopens it for anyone, anywhere,
+     to change their choice. -->
+<div id="consent-banner" class="consent-banner" role="region" aria-label="Analytics consent" hidden>
+  <p class="consent-banner-text">
+    We use Google Analytics to understand how this site is used. In your region, it only runs if you accept.
+    <a href="/website-privacy/">Privacy policy</a>
+  </p>
+  <div class="consent-banner-actions">
+    <button type="button" class="consent-banner-btn" data-consent-choice="denied">Decline</button>
+    <button type="button" class="consent-banner-btn" data-consent-choice="granted">Accept</button>
+  </div>
+</div>
+
+<style>
+.consent-banner {
+  position: fixed;
+  left: var(--space-sm);
+  right: var(--space-sm);
+  bottom: var(--space-sm);
+  z-index: 300;
+  margin-inline: auto;
+  max-width: var(--w-narrow);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-xs) var(--space-sm);
+  padding: var(--space-sm-plus) var(--space-md);
+  background: var(--white);
+  color: var(--ink-mid);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  box-shadow: var(--shadow-lg);
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+.consent-banner[hidden] { display: none; }
+.consent-banner-text { margin: 0; flex: 1 1 16rem; }
+.consent-banner-text a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+.consent-banner-actions { display: flex; gap: var(--space-xs); flex-shrink: 0; }
+.consent-banner-btn {
+  font: inherit;
+  font-weight: 600;
+  padding: var(--space-xs) var(--space-sm-plus);
+  color: var(--ink);
+  background: var(--white);
+  border: 1px solid var(--border-dark);
+  border-radius: var(--r-full);
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.consent-banner-btn:hover { background: var(--border); }
+.consent-banner-btn:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
+@media (max-width: 480px) {
+  .consent-banner-actions { width: 100%; }
+  .consent-banner-btn { flex: 1; }
+}
+</style>
+
+<script>
+import { site } from '../data/site';
+import { applyChoice, getStoredChoice, inConsentRegion } from '../lib/analytics-consent';
+import { track } from '../lib/analytics';
+
+const banner = document.getElementById('consent-banner') as HTMLElement;
+
+function show() { banner.hidden = false; }
+function hide() { banner.hidden = true; }
+
+if (inConsentRegion() && !getStoredChoice()) show();
+
+banner.addEventListener('click', (e) => {
+  const button = (e.target as Element).closest<HTMLElement>('[data-consent-choice]');
+  if (!button) return;
+  applyChoice(site.analyticsId, button.dataset.consentChoice as 'granted' | 'denied');
+  hide();
+});
+
+// "Privacy choices" (footer, every page) reopens the banner for anyone.
+document.addEventListener('click', (e) => {
+  const el = (e.target as Element).closest('[data-privacy-choices]');
+  if (!el) return;
+  show();
+  banner.querySelector<HTMLElement>('[data-consent-choice="granted"]')?.focus();
+});
+
+// Delegated store/CTA tracking (StoreButtons.astro sets data-store/data-cta-location).
+document.addEventListener('click', (e) => {
+  const el = (e.target as Element).closest<HTMLElement>('[data-store]');
+  if (!el) return;
+  const sourcePath = location.pathname;
+  track(`${el.dataset.store}_click`, { cta_location: el.dataset.ctaLocation ?? 'unknown', source_path: sourcePath });
+  if (el.dataset.trackAlso) track(el.dataset.trackAlso, { source_path: sourcePath });
+});
+</script>
