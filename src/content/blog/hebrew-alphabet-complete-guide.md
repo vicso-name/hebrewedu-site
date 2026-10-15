@@ -125,6 +125,10 @@ Sound notes describe common Modern Israeli Hebrew; historical and traditional pr
 
 The chart lists 22 base letters. Five of those letters also have a distinct form used at the end of a word; these are variants, not five additional base letters.
 
+Dalet (ד) is a good example of how a letter's name carries its own meaning: *dalet* means "door" in Hebrew, and tradition holds that the letter's shape echoes one.
+
+→ [Practice Dalet in the Hebrew Alphabet Course](/learn/hebrew-alphabet/dalet/)
+
 ## The Five Final Letters
 
 Five Hebrew letters have a different written form when they appear at the **end of a word**. These are called *sofit* forms (סופית — “final”). The shape change is different for each pair.

@@ -1,0 +1,69 @@
+{
+  "slug": "dalet",
+  "title": "Dalet Hebrew Letter (ד): Sound & Words",
+  "description": "Learn the Hebrew letter Dalet (ד): its [d] sound, with example words like דַג (fish) and אָבַד (lost), plus interactive practice.",
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Optional practice refinement",
+      "detail": "Some letter-recognition distractors use letters not introduced in this lesson. Beginner scaffolding can be improved separately from the approved source synchronization."
+    }
+  ],
+  "illustrations": {},
+  "blockFlags": {},
+  "exerciseFlags": {
+    "1": ["unintroduced-letters"],
+    "8": ["unintroduced-letters"],
+    "11": ["unintroduced-letters"]
+  },
+  "contentOverrides": {
+    "blocks": {
+      "0": "Dalet Hebrew Letter (ד): Sound, Words & Practice"
+    },
+    "exercises": {
+      "2": {
+        "tip": "Patah represents the [a] sound. When combined with Dalet (דַ), it produces [da], like in 'dance.'"
+      },
+      "4": {
+        "tip": "Patah represents the [a] sound. When combined with Dalet (דַ), it produces [da]."
+      },
+      "8": {
+        "tip": "Patah represents the [a] sound. When combined with Dalet (דַ), it produces [da]."
+      },
+      "12": {
+        "tip": "The vowel under the letter דַ is Patah, which produces the [a] sound."
+      }
+    }
+  },
+  "stageMap": {
+    "theory": [0, 1, 2],
+    "examples": [3, 4, 5, 6, 7, 8, 9]
+  },
+  "copy": {
+    "theory": {
+      "heading": "Meet Dalet",
+      "intro": "The fourth letter of the <a href=\"/blog/hebrew-alphabet-complete-guide/\">Hebrew alphabet</a>. Dalet makes a [d] sound, as in “dog,” and its name means “door.”",
+      "objectivesHeading": "What you’ll learn",
+      "objectives": [
+        "Recognize Dalet: <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ד</bdi>.",
+        "Hear its [d] sound, as in “dog.”",
+        "Read Dalet in real words like <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">דַג</bdi> (fish)."
+      ],
+      "secondSectionHeading": "How Dalet sounds",
+      "thirdSectionHeading": "What Dalet symbolizes"
+    },
+    "examples": {
+      "heading": "Dalet in real words",
+      "intro": "See Dalet in two new Hebrew words, and review the Patah and Kamatz Gadol vowel marks from earlier letters."
+    }
+  },
+  "holdOuts": {
+    "blocks": [],
+    "exercises": []
+  },
+  "source": {
+    "rawSnapshotPath": ".local/alphabet-course-imports/v1/2026-10-11T12-04-00-552Z-a1dbcc/raw/lesson-4.raw.json",
+    "sha256": "dbf0b37de9f41a16684da47296963451f0d9fef590df6a8832339a049edbb7cf",
+    "responseDate": "2026-10-11T12:04:01.844Z"
+  }
+}
