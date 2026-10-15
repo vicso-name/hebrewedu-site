@@ -1,0 +1,71 @@
+{
+  "slug": "he",
+  "title": "Hey Hebrew Letter (ה): Sound & Vowels",
+  "description": "Learn the Hebrew letter Hey (ה): its soft [h] sound, the Tsere and Segol [e] vowels, and example words like הֶגֶה (steering wheel), plus practice.",
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Optional practice refinement",
+      "detail": "Some letter-recognition distractors use letters not introduced in this lesson. Beginner scaffolding can be improved separately from the approved source synchronization."
+    },
+    {
+      "id": "unsupported-title-image",
+      "summary": "Two empty TITLE_IMAGE blocks held out",
+      "detail": "The raw source has two TITLE_IMAGE study blocks (sourceIndex 5 and 7) with no content, title, or image URL — empty placeholders with nothing to render. StudyBlock.astro has no TITLE_IMAGE renderer. This type also appears (equally empty) in Vav, Pe and Tsadi's unpublished raw sources (4 unpublished lessons total); recommend a separate task to confirm whether the source API ever populates this type before building a renderer for it."
+    }
+  ],
+  "illustrations": {},
+  "blockFlags": {},
+  "exerciseFlags": {
+    "1": ["unintroduced-letters"],
+    "9": ["unintroduced-letters"]
+  },
+  "contentOverrides": {
+    "blocks": {
+      "0": "Hey Hebrew Letter (ה): Sound, Vowels & Practice",
+      "6": "Tsere consists of two horizontal dots (צֵ) placed beneath a letter. It produces an [e] sound, similar to the [e] in 'they.'"
+    },
+    "exercises": {
+      "3": {
+        "tip": "Tsere represents the [e] sound. When combined with Hey (הֵ), it produces [he], like in 'hey.'"
+      },
+      "12": {
+        "tip": "Kamatz Gadol represents the [a] sound. When the letter Hey (הָ) is marked with Kamatz Gadol, it produces [ha]."
+      }
+    }
+  },
+  "stageMap": {
+    "theory": [0, 1, 2],
+    "examples": [3, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+  },
+  "copy": {
+    "theory": {
+      "heading": "Meet Hey",
+      "intro": "The fifth letter of the <a href=\"/blog/hebrew-alphabet-complete-guide/\">Hebrew alphabet</a>. Hey makes a soft [h] sound, and is often silent at the end of a word.",
+      "objectivesHeading": "What you’ll learn",
+      "objectives": [
+        "Recognize Hey: <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ה</bdi>.",
+        "Hear its soft [h] sound, and notice when it's silent.",
+        "Meet two new vowel marks, Tsere and Segol, both pronounced [e]."
+      ],
+      "secondSectionHeading": "How Hey sounds",
+      "thirdSectionHeading": "Hey as “the”"
+    },
+    "examples": {
+      "heading": "Tsere, Segol and new words",
+      "intro": "Meet two new vowel marks that both make an [e] sound, then see Hey in real Hebrew words."
+    }
+  },
+  "holdOuts": {
+    "blocks": [
+      { "sourceIndex": 5, "reason": "Unsupported TITLE_IMAGE block type with no content, title, or image URL in the raw source — an empty placeholder with nothing to render; no renderer exists for TITLE_IMAGE." },
+      { "sourceIndex": 7, "reason": "Unsupported TITLE_IMAGE block type with no content, title, or image URL in the raw source — an empty placeholder with nothing to render; no renderer exists for TITLE_IMAGE." }
+    ],
+    "exercises": []
+  },
+  "source": {
+    "rawSnapshotPath": ".local/alphabet-course-imports/v1/2026-10-11T12-04-00-552Z-a1dbcc/raw/lesson-5.raw.json",
+    "sha256": "3ccd553dde38c225dd7c476bc0f6489910e219902656de62aba72ca5933240db",
+    "responseDate": "2026-10-11T12:04:01.846Z"
+  }
+}

@@ -21,12 +21,13 @@ test('explicit curriculum releases only owner-approved Aleph among 22 verified i
   assert.equal(courseManifest.lessons[2].publishedAt, '2026-10-15');
   assert.equal(courseManifest.lessons[3].publishedAt, '2026-10-15');
   const preview = curriculum(true);
-  assert.equal(preview.filter(l => l.available).length, 4);
+  assert.equal(preview.filter(l => l.available).length, 5);
   assert.equal(preview[0].href, '/learn/hebrew-alphabet/aleph/');
   assert.equal(preview[1].href, '/learn/hebrew-alphabet/bet/');
   assert.equal(preview[2].href, '/learn/hebrew-alphabet/gimel/');
   assert.equal(preview[3].href, '/learn/hebrew-alphabet/dalet/');
-  assert.ok(preview.slice(4).every(l => l.href === null));
+  assert.equal(preview[4].href, '/learn/hebrew-alphabet/he/');
+  assert.ok(preview.slice(5).every(l => l.href === null));
   assert.equal(hubEnabled(), true);
   assert.equal(hubEnabled(false, draft()), false);
   assert.equal(lessonEnabled('bet', true), true);
@@ -54,13 +55,13 @@ test('publication fails closed without independent editorial approval and implem
   assert.equal(validatePublicationManifest(value), value);
   assert.equal(lessonEnabled('aleph', false, value), true);
   assert.deepEqual(courseSitemapEntries(value).map(x => x.url), ['/learn/hebrew-alphabet/', '/learn/hebrew-alphabet/aleph/']);
-  // lessons[1]/[2]/[3] (bet, gimel, dalet) are themselves implemented and
-  // preview-available by this point (see alphabet-course.json) — exercise the
-  // "no implemented route" case on lessons[4] (he), which still has no
-  // src/content/lessons/he.json.
-  value.lessons[4].editorialApproved = true; value.lessons[4].published = true; value.lessons[4].publishedAt = '2026-10-11';
+  // lessons[1]/[2]/[3]/[4] (bet, gimel, dalet, he) are themselves implemented
+  // and preview-available by this point (see alphabet-course.json) — exercise
+  // the "no implemented route" case on lessons[5] (vav), which still has no
+  // src/content/lessons/vav.json.
+  value.lessons[5].editorialApproved = true; value.lessons[5].published = true; value.lessons[5].publishedAt = '2026-10-11';
   assert.throws(() => validatePublicationManifest(value), /implementation/);
-  value.lessons[4].webImplemented = true;
+  value.lessons[5].webImplemented = true;
   assert.throws(() => validatePublicationManifest(value), /No implemented route/);
 });
 test('later approved launch structured data describes only released modules', () => {

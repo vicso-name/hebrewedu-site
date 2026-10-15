@@ -1,0 +1,467 @@
+{
+  "id": "he",
+  "sourceId": 5,
+  "order": 5,
+  "glyph": "ה",
+  "title": "Hey Hebrew Letter (ה): Sound & Vowels",
+  "description": "Learn the Hebrew letter Hey (ה): its soft [h] sound, the Tsere and Segol [e] vowels, and example words like הֶגֶה (steering wheel), plus practice.",
+  "status": "local-review-only",
+  "normalizationVersion": 1,
+  "provenance": {
+    "source": "https://api.hebrewedu.com/api/lessons/5/?lang=en",
+    "responseDate": "2026-10-11T12:04:01.846Z",
+    "sha256": "3ccd553dde38c225dd7c476bc0f6489910e219902656de62aba72ca5933240db"
+  },
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Optional practice refinement",
+      "detail": "Some letter-recognition distractors use letters not introduced in this lesson. Beginner scaffolding can be improved separately from the approved source synchronization."
+    },
+    {
+      "id": "unsupported-title-image",
+      "summary": "Two empty TITLE_IMAGE blocks held out",
+      "detail": "The raw source has two TITLE_IMAGE study blocks (sourceIndex 5 and 7) with no content, title, or image URL — empty placeholders with nothing to render. StudyBlock.astro has no TITLE_IMAGE renderer. This type also appears (equally empty) in Vav, Pe and Tsadi's unpublished raw sources (4 unpublished lessons total); recommend a separate task to confirm whether the source API ever populates this type before building a renderer for it."
+    }
+  ],
+  "blocks": [
+    {
+      "id": "he-block-1",
+      "sourceIndex": 0,
+      "text": "Hey Hebrew Letter (ה): Sound, Vowels & Practice",
+      "reviewFlags": [],
+      "type": "MAIN_TITLE"
+    },
+    {
+      "id": "he-block-2",
+      "sourceIndex": 1,
+      "text": "The fifth letter of the Hebrew alphabet is called 'Hey' (ה). It represents a soft [h] sound, like the [h] in 'he' in English. However, when Hey (ה) appears at the end of a word, it is often silent.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "he-block-3",
+      "sourceIndex": 2,
+      "text": "Hey (ה) frequently serves as a prefix in Hebrew, indicating the definite article 'the.' For example, in the word 'הָאָרֶץ' [haaretz], the Hey at the beginning transforms 'אָרֶץ' [aretz] ('land') into 'הָאָרֶץ' ('the land').",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "he-block-4",
+      "sourceIndex": 3,
+      "text": "Introducing Hebrew Symbols for the [e] Sound",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "he-block-5",
+      "sourceIndex": 4,
+      "text": "In previous lessons, you became familiar with the vowel symbol representing the [a] sound. Today, we will introduce two additional symbols that represent the [e] sound: Tsere and Segol.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "he-block-7",
+      "sourceIndex": 6,
+      "text": "Tsere consists of two horizontal dots (צֵ) placed beneath a letter. It produces an [e] sound, similar to the [e] in 'they.'",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "he-block-9",
+      "sourceIndex": 8,
+      "text": "Segol consists of three dots arranged in a downward-pointing triangle (סֶ). It appears beneath a consonant and produces an [e] sound, similar to the [e] in 'bed.'",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "he-block-10",
+      "sourceIndex": 9,
+      "text": "Words to Practice:",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "he-block-11",
+      "sourceIndex": 10,
+      "text": "flag",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "דֶגֶל",
+      "transcription": "degel"
+    },
+    {
+      "id": "he-block-12",
+      "sourceIndex": 11,
+      "text": "The Hebrew word 'דֶגֶל' [degel], meaning 'flag,' consists of three letters: Dalet (ד), Gimel (ג), and Lamed (ל). A Segol appears beneath both the Dalet and the Gimel, producing the [e] sound.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "he-block-13",
+      "sourceIndex": 12,
+      "text": "rope",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "חֶבֶל",
+      "transcription": "chevel"
+    },
+    {
+      "id": "he-block-14",
+      "sourceIndex": 13,
+      "text": "The Hebrew word 'חֶבֶל' [chevel] translates to 'rope' or 'cord' in English. It consists of three letters: Chet (ח), Bet (ב), and Lamed (ל). A Segol appears beneath both the Chet and the Bet, producing the [e] sound.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "he-block-15",
+      "sourceIndex": 14,
+      "text": "steering wheel",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "הֶגֶה",
+      "transcription": "hege"
+    },
+    {
+      "id": "he-block-16",
+      "sourceIndex": 15,
+      "text": "The Hebrew word 'הֶגֶה' [hege], meaning 'steering wheel,' consists of three letters: Hey (ה), Gimel (ג), and another Hey (ה). A Segol appears beneath both the first Hey and the Gimel, producing the [e] sound.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "he-block-17",
+      "sourceIndex": 16,
+      "text": "Conclusions",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "he-block-18",
+      "sourceIndex": 17,
+      "text": "Today, you learned the fifth letter of the Hebrew alphabet. We introduced two new vowels, Tsere and Segol, which produce an [e] sound when placed under consonants. You also expanded your vocabulary with three new words. Keep practicing, and reinforce what you've learned through exercises!",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "he-exercise-1",
+      "sourceId": "1742223805468",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Find the letter 'Hey' among the given Hebrew letters.",
+      "explanation": "The Hebrew letter Hey (ה) is the fifth letter of the Hebrew alphabet. It typically represents a soft [h] sound, like in the English word 'hello.'",
+      "options": [
+        {
+          "id": "he-exercise-1-option-1",
+          "label": "נ"
+        },
+        {
+          "id": "he-exercise-1-option-2",
+          "label": "פּ"
+        },
+        {
+          "id": "he-exercise-1-option-3",
+          "label": "ק"
+        },
+        {
+          "id": "he-exercise-1-option-4",
+          "label": "ה"
+        }
+      ],
+      "correctOptionId": "he-exercise-1-option-4",
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    },
+    {
+      "id": "he-exercise-2",
+      "sourceId": "1742223805469",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Which Hebrew vowel is represented by two horizontal dots beneath the letter and produces the [e] sound?",
+      "explanation": "The Hebrew vowel Tsere consists of two horizontal dots beneath a letter and represents the [e] sound.",
+      "options": [
+        {
+          "id": "he-exercise-2-option-1",
+          "label": "Tsere"
+        },
+        {
+          "id": "he-exercise-2-option-2",
+          "label": "Shuruk"
+        },
+        {
+          "id": "he-exercise-2-option-3",
+          "label": "Patah"
+        }
+      ],
+      "correctOptionId": "he-exercise-2-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "he-exercise-3",
+      "sourceId": "1742223805470",
+      "type": "TRUE_FALSE",
+      "prompt": "The fifth letter of the Hebrew alphabet is called Hey (ה), and it produces the [h] sound, as in 'hello.'",
+      "explanation": "Hey (ה) is the fifth letter of the Hebrew alphabet. It produces a soft [h] sound, but at the end of a word, it is often silent.",
+      "options": [
+        {
+          "id": "he-exercise-3-option-1",
+          "label": "True"
+        },
+        {
+          "id": "he-exercise-3-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "he-exercise-3-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "he-exercise-4",
+      "sourceId": "1742223805471",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "What sound does the Hebrew letter Hey (הֵ) make when combined with Tsere?",
+      "explanation": "Tsere represents the [e] sound. When combined with Hey (הֵ), it produces [he], like in 'hey.'",
+      "options": [
+        {
+          "id": "he-exercise-4-option-1",
+          "label": "[ho]"
+        },
+        {
+          "id": "he-exercise-4-option-2",
+          "label": "[ha]"
+        },
+        {
+          "id": "he-exercise-4-option-3",
+          "label": "[se]"
+        },
+        {
+          "id": "he-exercise-4-option-4",
+          "label": "[he]"
+        }
+      ],
+      "correctOptionId": "he-exercise-4-option-4",
+      "reviewFlags": []
+    },
+    {
+      "id": "he-exercise-5",
+      "sourceId": "1742223805472",
+      "type": "TRUE_FALSE",
+      "prompt": "Does the letter Alef (אֵ) marked with Tsere produce the [e] sound?",
+      "explanation": "Tsere represents the [e] sound. When combined with Alef (אֵ), it produces [e] since Alef itself is silent.",
+      "options": [
+        {
+          "id": "he-exercise-5-option-1",
+          "label": "True"
+        },
+        {
+          "id": "he-exercise-5-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "he-exercise-5-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "he-exercise-6",
+      "sourceId": "1742223805473",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Which Hebrew vowel consists of three dots arranged in a triangle beneath the letter and produces the [e] sound?",
+      "explanation": "The Hebrew vowel Segol consists of three dots arranged in a triangle beneath a letter and produces the [e] sound.",
+      "options": [
+        {
+          "id": "he-exercise-6-option-1",
+          "label": "Hirik Male"
+        },
+        {
+          "id": "he-exercise-6-option-2",
+          "label": "Segol"
+        },
+        {
+          "id": "he-exercise-6-option-3",
+          "label": "Tsere"
+        }
+      ],
+      "correctOptionId": "he-exercise-6-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "he-exercise-7",
+      "sourceId": "1742223805474",
+      "type": "TRUE_FALSE",
+      "prompt": "Does the letter Bet (בֶּ) marked with Segol produce the [be] sound?",
+      "explanation": "Segol represents the [e] sound. When combined with Bet (בֶּ), it produces [be], like in 'bet.'",
+      "options": [
+        {
+          "id": "he-exercise-7-option-1",
+          "label": "True"
+        },
+        {
+          "id": "he-exercise-7-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "he-exercise-7-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "he-exercise-8",
+      "sourceId": "1742223805475",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "How is the word (הֶגֶה) pronounced?",
+      "explanation": "The Hebrew word 'הֶגֶה' (he-ge), meaning 'steering wheel,' consists of Hey (ה), Gimel (ג), and Hey (ה). Segol under both Hey and Gimel produces the [e] sound.",
+      "options": [
+        {
+          "id": "he-exercise-8-option-1",
+          "label": "[hu-ga]"
+        },
+        {
+          "id": "he-exercise-8-option-2",
+          "label": "[he-ge]"
+        },
+        {
+          "id": "he-exercise-8-option-3",
+          "label": "[hi-ga]"
+        }
+      ],
+      "correctOptionId": "he-exercise-8-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "he-exercise-9",
+      "sourceId": "1742223805476",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Which of the following Hebrew letters is marked with a Segol?",
+      "explanation": "Among the given options, the letter marked with Segol is (הֶ), which produces the [he] sound.",
+      "options": [
+        {
+          "id": "he-exercise-9-option-1",
+          "label": "הֶ"
+        },
+        {
+          "id": "he-exercise-9-option-2",
+          "label": "בִ"
+        },
+        {
+          "id": "he-exercise-9-option-3",
+          "label": "קָ"
+        },
+        {
+          "id": "he-exercise-9-option-4",
+          "label": "עֲ"
+        }
+      ],
+      "correctOptionId": "he-exercise-9-option-1",
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    },
+    {
+      "id": "he-exercise-10",
+      "sourceId": "1742223805477",
+      "type": "TRUE_FALSE",
+      "prompt": "Does the letter Hey (הֶ) marked with Segol produce the [ha] sound?",
+      "explanation": "Segol represents the [e] sound. When Hey (הֶ) is marked with Segol, it produces [he], not [ha].",
+      "options": [
+        {
+          "id": "he-exercise-10-option-1",
+          "label": "True"
+        },
+        {
+          "id": "he-exercise-10-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "he-exercise-10-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "he-exercise-11",
+      "sourceId": "1742223805478",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "What is the Hebrew word for 'steering wheel'?",
+      "explanation": "The Hebrew word for 'steering wheel' is הֶגֶה (he-ge).",
+      "options": [
+        {
+          "id": "he-exercise-11-option-1",
+          "label": "רִכְבָּן"
+        },
+        {
+          "id": "he-exercise-11-option-2",
+          "label": "הֶגֶה"
+        },
+        {
+          "id": "he-exercise-11-option-3",
+          "label": "איש"
+        }
+      ],
+      "correctOptionId": "he-exercise-11-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "he-exercise-12",
+      "sourceId": "1742223805479",
+      "type": "TRUE_FALSE",
+      "prompt": "Does the letter Hey (הֶ) marked with Segol produce the [he] sound?",
+      "explanation": "Segol consists of three dots arranged in a triangle beneath a letter. When Hey (הֶ) is marked with Segol, it produces [he].",
+      "options": [
+        {
+          "id": "he-exercise-12-option-1",
+          "label": "True"
+        },
+        {
+          "id": "he-exercise-12-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "he-exercise-12-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "he-exercise-13",
+      "sourceId": "1742223805480",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "How is the letter Hey (הָ) pronounced when marked with Kamatz Gadol?",
+      "explanation": "Kamatz Gadol represents the [a] sound. When the letter Hey (הָ) is marked with Kamatz Gadol, it produces [ha].",
+      "options": [
+        {
+          "id": "he-exercise-13-option-1",
+          "label": "[ha]"
+        },
+        {
+          "id": "he-exercise-13-option-2",
+          "label": "[bo]"
+        },
+        {
+          "id": "he-exercise-13-option-3",
+          "label": "[hi]"
+        },
+        {
+          "id": "he-exercise-13-option-4",
+          "label": "[hu]"
+        }
+      ],
+      "correctOptionId": "he-exercise-13-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "he-exercise-14",
+      "sourceId": "1742223805481",
+      "type": "TRUE_FALSE",
+      "prompt": "Is the letter Hey (ה) at the end of a word usually silent?",
+      "explanation": "Hey (ה) is often silent when it appears at the end of a word.",
+      "options": [
+        {
+          "id": "he-exercise-14-option-1",
+          "label": "True"
+        },
+        {
+          "id": "he-exercise-14-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "he-exercise-14-option-1",
+      "reviewFlags": []
+    }
+  ]
+}
