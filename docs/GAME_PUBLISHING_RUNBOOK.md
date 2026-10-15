@@ -45,7 +45,7 @@ Set `GAME=<game-slug>`; production examples are `alef-bet-rush` and `hebrew-mahj
 | Site runtime | `public/game-builds/$GAME/` |
 | Site landing | `src/pages/play/$GAME/index.astro` |
 | Site player | `src/pages/play/$GAME/game/index.astro` |
-| Sync script | `scripts/sync-$GAME.mjs` |
+| Sync script | `scripts/sync-game.mjs` (shared; takes the slug as its first argument) |
 | Site package command | `sync:$GAME` |
 
 Each game needs its own stable `gameId`, persistence namespace and analytics location identifiers. Web storage derives `hebrewedu.playables.<encoded-gameId>.save`; new games must not copy Alef Bet Rush's legacy shared-key migration. Landing CTA examples: `alef_bet_rush_continue` and `hebrew_mahjong_continue`.
@@ -82,7 +82,7 @@ The root `pnpm build:web`, `pnpm build` and `pnpm verify` currently target Alef 
 
 ### Phase 2 — Site sync integration
 
-Create `scripts/sync-$GAME.mjs` from the existing [Mahjong sync](../scripts/sync-hebrew-mahjong.mjs) or [Alef sync](../scripts/sync-alef-bet-rush.mjs); change destination, temporary-directory prefix, usage text and diagnostics to the new slug.
+One script, [`scripts/sync-game.mjs`](../scripts/sync-game.mjs), handles every game; it takes the slug as its first argument (`node scripts/sync-game.mjs <slug> <production-build-directory>`) and derives the destination, temporary-directory prefix and diagnostics from it. A new game needs no new sync script — only a `sync:<game>` package alias (below) and, if it genuinely needs game-specific validation, a new entry in that script's `REQUIRES_LETTER_AUDIO_MANIFEST`-style set (keep that scoped to the one game that needs it; do not apply it to every game by default).
 
 Every sync must:
 
@@ -94,12 +94,12 @@ Every sync must:
 - Enforce `<meta name="robots" content="noindex, follow" />` in every runtime HTML document, replacing old crawler tags and removing canonical tags.
 - Leave source files and generated game logic unchanged; fail loudly on invalid artifacts.
 
-Alef Bet Rush's sync additionally requires `letter-audio-manifest.json` with 22 unique entries. Mahjong has local recorded audio but no such manifest requirement. Do not blindly duplicate game-specific validation.
+Alef Bet Rush's sync additionally requires `letter-audio-manifest.json` with 22 unique entries (enforced via `REQUIRES_LETTER_AUDIO_MANIFEST` in `scripts/sync-game.mjs`). Mahjong and Hebrew Word Search have no such manifest requirement. Do not blindly duplicate game-specific validation onto a new game.
 
 Add to site `package.json` scripts:
 
 ```json
-"sync:<game>": "node scripts/sync-<game>.mjs"
+"sync:<game>": "node scripts/sync-game.mjs <game>"
 ```
 
 Replace `<game>` with the slug, then:
@@ -125,6 +125,7 @@ Create `src/pages/play/$GAME/game/index.astro`, using [Mahjong's player](../src/
 - Same-origin iframe source `/game-builds/$GAME/index.html`, descriptive title, no sandbox or extra permissions delegation under the current trusted-artifact architecture.
 - Robots `noindex, follow`; canonical `https://hebrewedu.com/play/$GAME/`.
 - Verify mobile, desktop and orientation changes.
+- Wire up `attachGameMessageListener` (`src/lib/game-messages-listener.ts`) against the player's iframe, passing the game slug as `game_id` — see docs/ANALYTICS.md ("Game events") for the message contract the game side must emit and which events reach analytics.
 
 ### Phase 4 — SEO/product landing
 

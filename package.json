@@ -8,9 +8,10 @@
     "build": "astro build",
     "preview": "astro preview",
     "check:layout": "node scripts/check-layout.mjs",
-    "sync:alef-bet-rush": "node scripts/sync-alef-bet-rush.mjs",
-    "sync:hebrew-mahjong": "node scripts/sync-hebrew-mahjong.mjs",
-    "sync:hebrew-word-search": "node scripts/sync-hebrew-word-search.mjs",
+    "sync:alef-bet-rush": "node scripts/sync-game.mjs alef-bet-rush",
+    "sync:hebrew-mahjong": "node scripts/sync-game.mjs hebrew-mahjong",
+    "sync:hebrew-word-search": "node scripts/sync-game.mjs hebrew-word-search",
+    "test:game-messages": "node scripts/test-game-messages.mjs",
     "seo:build": "node scripts/seo/build-core.mjs"
   },
   "dependencies": {

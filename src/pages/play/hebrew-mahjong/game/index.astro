@@ -21,14 +21,17 @@ const analyticsEnabled = !import.meta.env.DEV;
     <main aria-label="Game player">
       <!-- Trusted same-origin artifact: preserve storage, audio, lifecycle and
            user-triggered Google Play popups without sandbox or extra permissions. -->
-      <iframe src="/game-builds/hebrew-mahjong/index.html" title="Hebrew Mahjong — Hebrew alphabet game"></iframe>
+      <iframe id="game-frame" src="/game-builds/hebrew-mahjong/index.html" title="Hebrew Mahjong — Hebrew alphabet game"></iframe>
     </main>
   </body>
 </html>
 
 <script>
 import { track } from '../../../../lib/analytics';
+import { attachGameMessageListener } from '../../../../lib/game-messages-listener';
 track('game_open', { game: 'hebrew-mahjong' });
+const frame = document.getElementById('game-frame');
+if (frame instanceof HTMLIFrameElement) attachGameMessageListener(frame, 'hebrew-mahjong');
 </script>
 
 <style>

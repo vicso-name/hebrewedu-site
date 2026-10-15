@@ -77,9 +77,69 @@ All go through `track(event, params)`:
 | `lesson_complete` | `letter`, `score`, `total` | `practice-client.ts`, first time the Results stage is shown (`score`/`total` = correct / available questions) |
 | `phrases_practice_complete` | `score` | `phrases/practice-client.ts`, once every phrase question has been checked |
 | `game_open` | `game` | Inline script on each `/play/<game>/game/` player page |
+| `game_start`, `round_start`, `round_complete`, `game_over`, `store_popup_shown` | `game_id`, plus whatever scalar params the game sent | Game iframe message, relayed by `attachGameMessageListener` |
+| `google_play_click` / `app_store_click` (from a game) | `source: "game"`, `game_id`, plus other scalar params | Game iframe `store_click` message, remapped by `attachGameMessageListener` to the existing store CTA events |
 
 `letter` is the lesson's content-collection slug (`lesson.id`, e.g.
 `"aleph"`), not its display name. No event carries free text or PII.
+
+## Game events
+
+A game running inside a `/play/<game>/game/` player's iframe can report
+gameplay events to the parent page via `window.parent.postMessage`. The
+parent page validates and forwards them through `track()` — the game
+never calls `gtag`/`track()` itself, and never gets a reference to
+either.
+
+**Wire format** sent by the game:
+
+```js
+window.parent.postMessage(
+  {
+    source: 'hebrewedu-game', // required, exact match
+    v: 1, // required, exact match (GAME_MESSAGE_VERSION)
+    event: 'round_complete', // required, must be in the allowlist below
+    params: { score: 10, won: true }, // optional, scalars only
+  },
+  window.location.origin,
+);
+```
+
+**Receiver** (`src/lib/game-messages-listener.ts`, wired up once per
+player page by `attachGameMessageListener(iframe, gameId)`): a message is
+only processed if the browser `MessageEvent.origin` equals the page's own
+origin **and** `MessageEvent.source` is that exact iframe's
+`contentWindow` — a message from any other frame, same-origin or not, is
+ignored before the payload is even inspected.
+
+Validation/normalization itself (`src/lib/game-messages.mjs`, pure and
+unit-tested by `scripts/test-game-messages.mjs` /
+`npm run test:game-messages`) then requires `source`/`v` to match exactly
+and `event` to be one of the allowlisted names:
+
+- `game_start`, `round_start`, `round_complete`, `game_over`,
+  `store_popup_shown` — forwarded to `track()` under the same name, with
+  `game_id` added.
+- `store_click` — requires `params.store` to be `"google_play"` or
+  `"app_store"` (otherwise the whole message is dropped); forwarded as
+  the existing `google_play_click` / `app_store_click` event with
+  `source: "game"` and `game_id` added, `store` itself removed from
+  `params`.
+
+Any other `event` name, a missing/wrong `source` or `v`, or a non-object
+payload is dropped silently.
+
+`params` is sanitized before forwarding: only `string`/`number`/`boolean`
+values survive (objects, arrays, functions, `null`, `undefined` are
+dropped), capped at 10 keys. A game must not send free text or PII in
+`params`.
+
+Adding a new game: wire up `attachGameMessageListener` in its player page
+(see docs/GAME_PUBLISHING_RUNBOOK.md Phase 3) — no new receiver code
+needed. Adding a new *event type* the game side can send: add it to
+`ALLOWED_EVENTS` in `src/lib/game-messages.mjs`, extend
+`scripts/test-game-messages.mjs`, and add a row to the events table
+above.
 
 ## Adding a new event
 

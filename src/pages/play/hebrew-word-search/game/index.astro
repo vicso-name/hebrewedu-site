@@ -21,14 +21,17 @@ const analyticsEnabled = !import.meta.env.DEV;
     <main aria-label="Game player">
       <!-- Trusted same-origin artifact: preserve storage, audio, lifecycle and
            user-triggered Google Play popups without sandbox or extra permissions. -->
-      <iframe src="/game-builds/hebrew-word-search/index.html" title="Hebrew Word Search — Hebrew vocabulary game"></iframe>
+      <iframe id="game-frame" src="/game-builds/hebrew-word-search/index.html" title="Hebrew Word Search — Hebrew vocabulary game"></iframe>
     </main>
   </body>
 </html>
 
 <script>
 import { track } from '../../../../lib/analytics';
+import { attachGameMessageListener } from '../../../../lib/game-messages-listener';
 track('game_open', { game: 'hebrew-word-search' });
+const frame = document.getElementById('game-frame');
+if (frame instanceof HTMLIFrameElement) attachGameMessageListener(frame, 'hebrew-word-search');
 </script>
 
 <style>
