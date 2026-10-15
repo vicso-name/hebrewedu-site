@@ -55,6 +55,9 @@ in titles; other published lessons must not change.
   (src/content/blog/hebrew-alphabet-complete-guide.md)'s mention of this
   letter (added at publish, see Bet's "Practice Bet/Vet" link). Check
   conflicts.
+- Register the lesson in docs/seo/core: pages.csv row (url, primary keyword,
+  status) and keyword mapping in keywords.csv; run npm run seo:build - must
+  pass validation.
 
 ## 5. Double check (mandatory, as a reviewer, not as the author)
 Build with HEBREWEDU_LOCAL_COURSE_PREVIEW=1 npm run build and re-read the
@@ -72,6 +75,8 @@ lesson JSON and rendered HTML:
   letter-specific phrases (grep for all other letter names).
 - No heading may end a step without content; section headings must sit in
   the same step as their content.
+- Built HTML: canonical = final URL; title/meta lengths OK; page present in
+  sitemap; prev/next letter links resolve.
 - Run: node --test tests/*.test.mjs, npm run check:layout, npm run build,
   npm run seo:build, git diff --check. Fix and re-run until clean.
 
@@ -87,7 +92,8 @@ needed (with recommendations), title/meta, check results. Ask:
   link; update keywords.csv/clusters.csv/pages.csv; npm run seo:build.
 - Re-run tests and build. Commit on the branch, merge into main, push.
 - Final message: commit hash, URL, and two reminders for the owner: check
-  that GitHub Actions is green; request indexing in Search Console.
+  that GitHub Actions is green; GSC -> URL Inspection -> Request indexing
+  for <url>.
 
 ## Note: raw snapshots
 Raw lesson snapshots live in .local/ (not in git). If the snapshot for the
