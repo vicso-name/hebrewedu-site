@@ -17,7 +17,10 @@ const gradingJson = JSON.stringify(grading).replace(/</g, '\\u003c');
   <div data-practice>
     {exercises.map((exercise, index) => <form class="question-card learning-card" id={exercise.id} data-exercise-id={exercise.id} data-exercise-type={exercise.type} data-unavailable={unavailableQuestions.has(exercise.id) ? 'true' : undefined}>
       <p class="question-count">Question {index + 1} of {exercises.length} <span>{exercise.type === 'MATCH_PAIRS' ? 'Match each pair' : exercise.type === 'TRUE_FALSE' ? 'True or false' : 'Choose one answer'}</span></p>
-      {unavailableQuestions.has(exercise.id) ? <div class="unavailable-question"><p>This question is not available in this preview.</p><p>Continue to the next question.</p></div> : exercise.type === 'MATCH_PAIRS' ? <>
+      {unavailableQuestions.has(exercise.id) ? <>
+      <div class="unavailable-question"><p>This question is not available in this preview.</p><p>Continue to the next question.</p></div>
+      <div class="question-advance" data-enhanced hidden><button type="button" class="btn lesson-primary" data-advance hidden><span data-advance-label>Next question</span> <span aria-hidden="true">→</span></button></div>
+      </> : exercise.type === 'MATCH_PAIRS' ? <>
       <fieldset><legend><HebrewText text={exercise.prompt} /></legend>
         <div class="match-pairs-board" role="group" aria-label="Match each item on the left with its pair on the right">
           <div class="match-pairs-column" data-pairs-side="left">
@@ -30,6 +33,7 @@ const gradingJson = JSON.stringify(grading).replace(/</g, '\\u003c');
       </fieldset>
       <p id={`${exercise.id}-feedback`} class="answer-feedback match-pairs-feedback" role="status" aria-live="polite" aria-atomic="true" tabindex="-1"></p>
       <div class="answer-explanation" data-explanation hidden><p><strong>Explanation</strong></p><p><HebrewText text={exerciseExplanation(exercise, blocks)} /></p></div>
+      <div class="question-advance" data-enhanced hidden><button type="button" class="btn lesson-primary" data-advance hidden><span data-advance-label>Next question</span> <span aria-hidden="true">→</span></button></div>
       <details class="fallback-answer" data-fallback-answer><summary>Source answer and explanation</summary><ul class="match-pairs-answer-key">{exercise.pairs.map(pair => <li><HebrewText text={pair.left} /> matches <HebrewText text={pair.right} /></li>)}</ul><p><HebrewText text={exerciseExplanation(exercise, blocks)} /></p></details>
       </> : <>
       <fieldset><legend><HebrewText text={exercise.prompt} /></legend>
@@ -40,12 +44,11 @@ const gradingJson = JSON.stringify(grading).replace(/</g, '\\u003c');
       <div class="answer-actions" data-enhanced hidden><button type="submit" class="btn lesson-primary">Check answer</button><button type="button" class="btn lesson-secondary" data-retry hidden>Retry this question</button></div>
       <p id={`${exercise.id}-feedback`} class="answer-feedback" role="status" aria-live="polite" aria-atomic="true" tabindex="-1"></p>
       <div class="answer-explanation" data-explanation hidden><p><strong>Explanation</strong></p><p><HebrewText text={exerciseExplanation(exercise, blocks)} /></p></div>
+      <div class="question-advance" data-enhanced hidden><button type="button" class="btn lesson-primary" data-advance hidden><span data-advance-label>Next question</span> <span aria-hidden="true">→</span></button></div>
       <details class="fallback-answer" data-fallback-answer><summary>Source answer and explanation</summary><p><strong>Source answer: </strong><HebrewText text={exercise.options.find(option => option.id === exercise.correctOptionId)!.label} /></p><p><HebrewText text={exerciseExplanation(exercise, blocks)} /></p></details>
       </>}
     </form>)}
   </div>
-  <div class="practice-navigation" data-enhanced hidden><button type="button" class="btn lesson-secondary" data-previous>Back: Examples</button><p data-question-position>Question 1 of 14</p><button type="button" class="btn lesson-secondary" data-next>Skip question <span aria-hidden="true">→</span></button></div>
-  <div class="practice-tools" data-enhanced hidden><button type="button" class="text-button" data-stage-target="examples">Revisit examples</button><button type="button" class="text-button" data-stage-target="results">See results</button></div>
   <script type="application/json" id="lesson-grading" set:html={gradingJson} />
 </section>
 <script>

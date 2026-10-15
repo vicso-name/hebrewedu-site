@@ -67,7 +67,9 @@ lesson JSON and rendered HTML:
 - MATCH_PAIRS order is a derangement, not a rotation; exercise count = data
   minus holdouts;
 - prev/next links, title, H1, meta as decided; other lessons' content JSON
-  unchanged.
+  unchanged;
+- Rendered HTML of the new lesson contains no other letter's name or
+  letter-specific phrases (grep for all other letter names).
 - Run: node --test tests/*.test.mjs, npm run check:layout, npm run build,
   npm run seo:build, git diff --check. Fix and re-run until clean.
 

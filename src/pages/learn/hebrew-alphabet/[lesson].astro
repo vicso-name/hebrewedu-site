@@ -39,26 +39,45 @@ const exampleIndices = stageMap.examples;
 // out. Looking blocks up by sourceIndex keeps this correct once a holdout shifts the
 // normalized array (as Bet's does).
 const blockBySourceIndex = new Map(lesson.blocks.map(block => [block.sourceIndex, block]));
+// A copy heading immediately above a SUBTITLE study block would duplicate it as a
+// visible heading pair; keep the source subtitle and drop the copy heading instead.
+const secondSectionBlock = blockBySourceIndex.get(theoryIndices[1]);
+const thirdSectionBlock = blockBySourceIndex.get(theoryIndices[2]);
 const preview = localCoursePreview(import.meta.env.DEV);
-function navTarget(meta, directionLabel) {
-  if (!meta) return null;
-  return lessonEnabled(meta.slug, preview)
-    ? { href: `${coursePath}${meta.slug}/`, label: `${directionLabel}: ${meta.name} ${meta.letter}` }
-    : { href: coursePath, label: 'Back to all lessons' };
+// Only a link to an enabled lesson is ever shown — an unpublished neighbor is omitted,
+// not replaced with a placeholder, so the breadcrumb and Results CTA never dead-end.
+function navTarget(meta) {
+  if (!meta || !lessonEnabled(meta.slug, preview)) return null;
+  return { href: `${coursePath}${meta.slug}/`, label: meta.name };
 }
 const previousLessonMeta = courseManifest.lessons.find(item => item.order === lessonMeta.order - 1) ?? null;
 const nextLessonMeta = courseManifest.lessons.find(item => item.order === lessonMeta.order + 1) ?? null;
-const previousNav = navTarget(previousLessonMeta, 'Previous');
-const nextNav = navTarget(nextLessonMeta, 'Next');
+const previousNav = navTarget(previousLessonMeta);
+const nextNav = navTarget(nextLessonMeta);
+const pageUrl = `https://hebrewedu.com${coursePath}${lesson.id}/`;
 const schema = {
   '@context': 'https://schema.org',
-  '@type': 'LearningResource',
-  name: lesson.title,
-  description: lesson.description,
-  inLanguage: 'en',
-  educationalLevel: 'Beginner',
-  teaches: `Hebrew alphabet: ${letterName}`,
-  isPartOf: `https://hebrewedu.com${coursePath}`,
+  '@graph': [
+    {
+      '@type': 'LearningResource',
+      '@id': `${pageUrl}#lesson`,
+      url: pageUrl,
+      name: lesson.title,
+      description: lesson.description,
+      inLanguage: 'en',
+      educationalLevel: 'Beginner',
+      teaches: `Hebrew alphabet: ${letterName}`,
+      isPartOf: `https://hebrewedu.com${coursePath}`,
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://hebrewedu.com/' },
+        { '@type': 'ListItem', position: 2, name: 'Hebrew Alphabet', item: `https://hebrewedu.com${coursePath}` },
+        { '@type': 'ListItem', position: 3, name: `Lesson ${lessonMeta.order}: ${letterName}`, item: pageUrl },
+      ],
+    },
+  ],
 };
 ---
 <Layout
@@ -73,6 +92,13 @@ const schema = {
     <main id="lesson-content">
       <Section>
         <div class="lesson-container">
+          <nav class="lesson-breadcrumb" aria-label="Breadcrumb">
+            <p class="lesson-breadcrumb-trail"><a href={coursePath}>Hebrew Alphabet</a> / <span aria-current="page">Lesson {lessonMeta.order}: {letterName}</span></p>
+            {(previousNav || nextNav) && <p class="lesson-breadcrumb-nav">
+              {previousNav && <a href={previousNav.href}><span aria-hidden="true">←</span> {previousNav.label}</a>}
+              {nextNav && <a href={nextNav.href}>{nextNav.label} <span aria-hidden="true">→</span></a>}
+            </p>}
+          </nav>
           <header class="lesson-header"><div class="lesson-identity"><div class="letter-token" aria-hidden="true"><bdi class="hebrew" lang="he" dir="rtl">{lesson.glyph}</bdi></div><div><p class="eyebrow">Hebrew alphabet · Lesson {lessonMeta.order} of {totalLessons}</p><p class="lesson-name">{letterName} <bdi class="hebrew" lang="he" dir="rtl">{lesson.glyph}</bdi></p></div></div>
             {!published && <span class="local-preview-label">Local preview</span>}
           </header>
@@ -85,15 +111,15 @@ const schema = {
             <div class="learning-card">
               <StudyBlock block={blockBySourceIndex.get(theoryIndices[0])} />
               <div class="learning-objectives"><h2>{copy.theory.objectivesHeading}</h2><ul>{copy.theory.objectives.map((item: string) => <li set:html={item} />)}</ul></div>
-              <div class="theory-section"><h2>{copy.theory.secondSectionHeading}</h2><StudyBlock block={blockBySourceIndex.get(theoryIndices[1])} /></div>
-              <div class="theory-section"><h2>{copy.theory.thirdSectionHeading}</h2><StudyBlock block={blockBySourceIndex.get(theoryIndices[2])} /></div>
+              <div class="theory-section">{secondSectionBlock.type !== 'SUBTITLE' && <h2>{copy.theory.secondSectionHeading}</h2>}<StudyBlock block={secondSectionBlock} /></div>
+              <div class="theory-section">{thirdSectionBlock.type !== 'SUBTITLE' && <h2>{copy.theory.thirdSectionHeading}</h2>}<StudyBlock block={thirdSectionBlock} /></div>
             </div>
-            <div class="stage-actions" data-enhanced hidden><span>Next, compare the three marks.</span><button type="button" class="btn lesson-primary" data-stage-target="examples">Next: Examples <span aria-hidden="true">→</span></button></div>
+            <div class="stage-actions" data-enhanced hidden><button type="button" class="btn lesson-primary" data-stage-target="examples">Next: Examples <span aria-hidden="true">→</span></button></div>
           </section>
           <section id="stage-examples" data-stage="examples" class="stage-panel" aria-labelledby="examples-title">
             <div class="stage-heading"><span class="eyebrow">Step 2 of 4</span><h2 id="examples-title" data-stage-heading tabindex="-1">{copy.examples.heading}</h2><p>{copy.examples.intro}</p></div>
             <div class="learning-card example-materials">{exampleIndices.map(index => <StudyBlock block={blockBySourceIndex.get(index)} />)}</div>
-            <div class="stage-actions" data-enhanced hidden><button type="button" class="btn lesson-secondary" data-stage-target="theory">Back: Theory</button><button type="button" class="btn lesson-primary" data-stage-target="practice">Next: Practice <span aria-hidden="true">→</span></button></div>
+            <div class="stage-actions" data-enhanced hidden><button type="button" class="btn lesson-primary" data-stage-target="practice">Next: Practice <span aria-hidden="true">→</span></button></div>
           </section>
           <Practice exercises={lesson.exercises} blocks={lesson.blocks} />
           <section id="stage-results" data-stage="results" class="stage-panel" aria-labelledby="results-title">
@@ -103,16 +129,12 @@ const schema = {
               <dl class="result-stats"><div><dt>Correct</dt><dd data-result-correct>0</dd></div><div><dt>Attempted</dt><dd data-result-attempted>0</dd></div><div><dt>Incorrect</dt><dd data-result-incorrect>0</dd></div><div><dt>Unanswered</dt><dd data-result-unanswered>14</dd></div></dl>
               <p data-results-summary role="status" aria-live="polite" aria-atomic="true"></p>
               <p data-unanswered-list></p>
-              <div class="results-actions"><button type="button" class="btn lesson-primary" data-review-mistakes>Review mistakes</button><button type="button" class="btn lesson-secondary" data-answer-unanswered>Answer unanswered</button><button type="button" class="btn lesson-secondary" data-retry-practice>Retry practice</button></div>
+              <div class="results-actions"><button type="button" class="btn lesson-primary" data-review-mistakes>Review mistakes</button><button type="button" class="btn lesson-secondary" data-answer-unanswered>Answer unanswered</button></div>
               <p class="session-note">Results are saved for this page visit only. They are not synced to the mobile app.</p>
             </div>
             <noscript><p class="no-script">Interactive results need JavaScript. Read the questions above and expand their source answers to check your work.</p></noscript>
-            <div class="stage-actions" data-enhanced hidden><button type="button" class="btn lesson-secondary" data-stage-target="practice">Back: Practice</button><button type="button" class="text-button" data-stage-target="theory">Revisit theory</button></div>
+            <div class="stage-actions" data-enhanced hidden><button type="button" class="btn lesson-secondary" data-retry-practice>Try again</button><a class="btn lesson-primary" href={nextNav ? nextNav.href : coursePath}>{nextNav ? `Next lesson: ${nextNav.label}` : 'Back to the course'} <span aria-hidden="true">→</span></a></div>
           </section>
-          {(previousNav || nextNav) && <nav class="lesson-pagination" aria-label="Lesson navigation">
-            {previousNav ? <a class="btn lesson-secondary" href={previousNav.href}><span aria-hidden="true">←</span> {previousNav.label}</a> : <span />}
-            {nextNav ? <a class="btn lesson-primary" href={nextNav.href}>{nextNav.label} <span aria-hidden="true">→</span></a> : <span />}
-          </nav>}
         </div>
       </Section>
     </main>

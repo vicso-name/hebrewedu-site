@@ -21,6 +21,13 @@
 .lesson-skip { position: fixed; top: -100px; left: var(--space-sm); z-index: 500; background: white; padding: calc(var(--space-xs) * 1.5) var(--space-sm); border-radius: var(--r-sm); }
 .lesson-skip:focus { top: var(--space-sm); }
 .lesson-container { max-width: var(--w-medium); margin-inline: auto; }
+.lesson-breadcrumb { display: flex; align-items: baseline; justify-content: space-between; gap: var(--space-sm); flex-wrap: wrap; margin-block-end: var(--space-sm); font-size: .8125rem; }
+.lesson-breadcrumb-trail { color: var(--ink-light); }
+.lesson-breadcrumb-trail a { color: var(--ink-mid); font-weight: 600; }
+.lesson-breadcrumb-trail [aria-current='page'] { color: var(--ink); font-weight: 600; }
+.lesson-breadcrumb-nav { display: flex; gap: var(--space-sm); }
+.lesson-breadcrumb-nav a { color: var(--ink-mid); font-weight: 600; white-space: nowrap; }
+.lesson-breadcrumb-nav a:hover { color: var(--ink); }
 .lesson-header { display: flex; gap: var(--space-sm); align-items: center; justify-content: space-between; margin-block-end: calc(var(--space-sm) * 1.25); }
 .lesson-identity { display: flex; align-items: center; gap: calc(var(--space-xs) * 1.75); min-width: 0; }
 .lesson-identity .eyebrow { font-size: .6875rem; color: var(--ink-light); letter-spacing: .08em; }
@@ -57,8 +64,7 @@
 .learning-objectives li + li { margin-block-start: calc(var(--space-xs) * 0.75); }
 .theory-section { margin-block-start: var(--space-md); }
 .theory-section p { color: var(--ink-mid); font-size: .9375rem; }
-.stage-actions { display: flex; align-items: center; justify-content: space-between; gap: calc(var(--space-xs) * 1.5); margin-block-start: calc(var(--space-sm) * 1.25); }
-.stage-actions > span { font-size: .8125rem; color: var(--ink-light); }
+.stage-actions { display: flex; align-items: center; justify-content: flex-end; gap: calc(var(--space-xs) * 1.5); margin-block-start: calc(var(--space-sm) * 1.25); }
 .study-block + .study-block { margin-block-start: calc(var(--space-sm) * 1.25); }
 .mark-card { display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: calc(var(--space-sm) * 1.25); align-items: start; }
 .mark-glyph { background: var(--lesson-soft); border-radius: 16px; display: grid; place-items: center; padding-block: calc(var(--space-xs) * 0.6) calc(var(--space-xs) * 1.2); min-height: 116px; }
@@ -100,11 +106,8 @@
 .answer-feedback[data-result='incorrect'] { color: #78350f; background: var(--amber-bg); }
 .answer-explanation { margin-block-start: var(--space-sm); font-size: .9375rem; color: var(--ink-mid); }
 .answer-explanation p:first-child { margin-block-end: calc(var(--space-xs) * 0.5); }
-.practice-navigation { display: flex; align-items: center; justify-content: space-between; gap: calc(var(--space-xs) * 1.5); margin-block-start: calc(var(--space-sm) * 1.25); }
-.practice-navigation p { font-size: .75rem; color: var(--ink-light); text-align: center; }
-.practice-navigation .btn { padding-inline: var(--space-sm); font-size: .875rem; }
-.practice-tools { display: flex; justify-content: space-between; gap: calc(var(--space-xs) * 1.5); margin-block-start: var(--space-xs); }
-.text-button { background: none; border: 0; cursor: pointer; text-decoration: underline; color: var(--ink-mid); padding: calc(var(--space-xs) * 1.5) calc(var(--space-xs) * 0.5); font-size: .8125rem; min-height: 44px; }
+.question-advance { display: flex; justify-content: flex-end; margin-block-start: var(--space-sm); }
+.question-advance .btn { padding-inline: var(--space-sm); font-size: .875rem; }
 .no-script, .fallback-answer { background: var(--lesson-soft); padding: var(--space-sm); border-radius: 12px; margin-block-start: var(--space-sm); font-size: .875rem; }
 .fallback-answer summary { cursor: pointer; }
 .match-pairs-board { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: calc(var(--space-xs) * 1.5); margin-block: calc(var(--space-sm) * 1.25); }
@@ -146,14 +149,10 @@
   .mark-card { grid-template-columns: minmax(0, 1fr); gap: calc(var(--space-xs) * 1.5); }
   .mark-glyph { width: 100px; justify-self: center; }
   .stage-actions { flex-wrap: wrap; }
-  .stage-actions > span { flex-basis: 100%; }
   .stage-actions .btn { flex: 1; padding-inline: var(--space-sm); font-size: .8125rem; }
-  .lesson-pagination { flex-direction: column; align-items: stretch; }
   .question-count { flex-direction: column; gap: calc(var(--space-xs) * 0.5); }
   .answer-option { padding-inline: calc(var(--space-xs) * 1.5); gap: var(--space-xs); }
-  .practice-navigation { flex-wrap: wrap; gap: calc(var(--space-xs) * 1.25); }
-  .practice-navigation p { order: -1; flex-basis: 100%; }
-  .practice-navigation .btn { font-size: .8125rem; flex: 1; padding-inline: calc(var(--space-xs) * 1.25); }
+  .question-advance .btn { flex: 1; }
   .results-card { padding: min(var(--space-md), 5vw); }
   .result-stats { grid-template-columns: repeat(auto-fit, minmax(min(100%, max(40%, var(--space-2xl))), 1fr)); }
   .results-actions { flex-direction: column; }
@@ -162,7 +161,6 @@
   html:has(.lesson-page) { scroll-behavior: auto; }
   .lesson-page * { transition: none !important; }
 }
-.lesson-pagination { display: flex; align-items: center; justify-content: space-between; gap: var(--space-sm); margin-block-start: calc(var(--space-sm) * 2); }
 .unavailable-question { padding-block: var(--space-sm); }
 .unavailable-question p:first-child { font-family: var(--font-display); font-weight: 600; font-size: 1.2rem; }
 .unavailable-question p + p { color: var(--ink-light); margin-block-start: var(--space-xs); }
@@ -176,8 +174,7 @@
   .learning-objectives { padding: calc(var(--space-xs) * 1.5); }
   .lesson-page p, .lesson-page li, .lesson-page legend { overflow-wrap: anywhere; }
   .answer-grid, .result-stats, .match-pairs-board { grid-template-columns: minmax(0, 1fr); }
-  .stage-actions, .practice-navigation, .practice-tools { flex-direction: column; align-items: stretch; }
-  .practice-navigation p { order: -1; }
+  .stage-actions { flex-direction: column; align-items: stretch; }
 }
 @media (max-width: 300px) {
   .lesson-page .btn { min-width: 0; padding-inline: var(--space-xs); font-size: .8125rem; overflow-wrap: anywhere; }

@@ -20,9 +20,6 @@ export function initPractice() {
   const availableCount = forms.filter(form => !form.dataset.unavailable).length;
   const progress = document.querySelector<HTMLElement>('[data-progress]')!;
   const meter = document.querySelector<HTMLProgressElement>('[data-practice-progress]')!;
-  const previous = document.querySelector<HTMLButtonElement>('[data-previous]')!;
-  const next = document.querySelector<HTMLButtonElement>('[data-next]')!;
-  const position = document.querySelector<HTMLElement>('[data-question-position]')!;
   const announcement = document.querySelector<HTMLElement>('[data-stage-announcement]')!;
   let current = 0;
   let reviewQueue: number[] | null = null;
@@ -49,27 +46,35 @@ export function initPractice() {
     meter.value = attempted;
     meter.textContent = `${attempted} of ${availableCount} available questions answered`;
   }
-  function updateNavigation() {
+  // Each question's own forward button (`[data-advance]`) only becomes visible once that
+  // question has been answered (or is marked unavailable, since it can't be answered at
+  // all) — there is no "skip" path. It reads "See results" on the last question/review item.
+  function refreshAdvance() {
+    const form = forms[current];
     const index = reviewQueue ? reviewQueue.indexOf(current) : current;
     const total = reviewQueue?.length ?? forms.length;
     const last = index === total - 1;
-    const submitted = results.has(forms[current].dataset.exerciseId!);
-    previous.textContent = index === 0 ? (reviewQueue ? 'Back: Results' : 'Back: Examples') : 'Previous question';
-    const unavailable = !!forms[current].dataset.unavailable;
-    next.textContent = last ? ((submitted || unavailable) ? 'View results →' : 'Skip & view results →') : ((submitted || unavailable) ? (reviewQueue ? 'Next review question →' : 'Next question →') : 'Skip question →');
-    next.classList.toggle('lesson-primary', submitted || unavailable);
-    next.classList.toggle('lesson-secondary', !submitted && !unavailable);
-    position.textContent = `${reviewQueue ? `Review ${index + 1} of ${total} · ` : ''}Question ${current + 1} of ${forms.length}`;
+    const unavailable = !!form.dataset.unavailable;
+    const submitted = results.has(form.dataset.exerciseId!);
+    const advance = form.querySelector<HTMLButtonElement>('[data-advance]')!;
+    advance.hidden = !(unavailable || submitted);
+    advance.querySelector<HTMLElement>('[data-advance-label]')!.textContent = last ? 'See results' : 'Next question';
   }
   function showQuestion(index: number, focus = true) {
     current = index;
     forms.forEach((form, i) => { form.hidden = i !== index; });
-    updateNavigation();
+    refreshAdvance();
     if (focus) {
       const legend = forms[index].querySelector<HTMLElement>('legend, .unavailable-question')!;
       legend.tabIndex = -1;
       legend.focus();
     }
+  }
+  function advanceFromCurrent() {
+    const index = reviewQueue ? reviewQueue.indexOf(current) : current;
+    const total = reviewQueue?.length ?? forms.length;
+    if (index === total - 1) { reviewQueue = null; showStage('results'); return; }
+    showQuestion(reviewQueue ? reviewQueue[index + 1] : current + 1);
   }
   function showStage(target: string, focus = true) {
     const panel = panels.find(item => item.dataset.stage === target);
@@ -128,7 +133,7 @@ export function initPractice() {
         results.set(key.id, true);
       }
       updateResults();
-      updateNavigation();
+      refreshAdvance();
     }
     function reset() {
       matched.clear();
@@ -139,7 +144,7 @@ export function initPractice() {
       if (explanation) explanation.hidden = true;
       results.delete(key.id);
       updateResults();
-      updateNavigation();
+      refreshAdvance();
     }
     matchPairResets.set(form, reset);
 
@@ -202,7 +207,7 @@ export function initPractice() {
       form.querySelector<HTMLButtonElement>('button[type="submit"]')!.hidden = true;
       form.querySelectorAll<HTMLInputElement>('input').forEach(input => { input.disabled = true; });
       updateResults();
-      updateNavigation();
+      refreshAdvance();
       // A submitted choice is locked; hand focus to readable feedback before navigation.
       feedback.focus({ preventScroll: true });
     });
@@ -210,7 +215,7 @@ export function initPractice() {
       results.delete(key.id);
       clearForm(form);
       updateResults();
-      updateNavigation();
+      refreshAdvance();
       feedback.textContent = 'Choose an answer and check it again.';
       form.querySelector<HTMLInputElement>('input')!.focus();
     });
@@ -219,17 +224,7 @@ export function initPractice() {
     button.disabled = false;
     button.addEventListener('click', () => showStage(button.dataset.stageTarget!));
   });
-  previous.addEventListener('click', () => {
-    const index = reviewQueue ? reviewQueue.indexOf(current) : current;
-    if (index === 0) showStage(reviewQueue ? 'results' : 'examples');
-    else showQuestion(reviewQueue ? reviewQueue[index - 1] : current - 1);
-  });
-  next.addEventListener('click', () => {
-    const index = reviewQueue ? reviewQueue.indexOf(current) : current;
-    const total = reviewQueue?.length ?? forms.length;
-    if (index === total - 1) { reviewQueue = null; showStage('results'); }
-    else showQuestion(reviewQueue ? reviewQueue[index + 1] : current + 1);
-  });
+  forms.forEach(form => form.querySelector<HTMLButtonElement>('[data-advance]')!.addEventListener('click', advanceFromCurrent));
   function startReview(wrongOnly: boolean) {
     reviewQueue = forms.map((form, index) => !form.dataset.unavailable && (wrongOnly ? results.get(form.dataset.exerciseId!) === false : !results.has(form.dataset.exerciseId!)) ? index : -1).filter(index => index >= 0);
     if (!reviewQueue.length) { reviewQueue = null; return; }
