@@ -32,7 +32,7 @@ const EXTRA_CONSENT_REGION_TIMEZONES = [
 function gtagStub(): (...args: unknown[]) => void {
   window.dataLayer = window.dataLayer || [];
   if (!window.gtag) {
-    window.gtag = (...args: unknown[]) => { window.dataLayer!.push(args); };
+    window.gtag = function () { window.dataLayer!.push(arguments); };
   }
   return window.gtag;
 }
