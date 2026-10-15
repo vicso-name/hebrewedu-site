@@ -113,6 +113,19 @@ export function normalizeLesson(rawInput, identity, overrides) {
     });
   if (exercises.length !== raw.exercises.length - heldOutExercises.size) throw new Error('Normalized exercise count does not match the raw source');
 
+  // A stage must never end on a heading with no content under it (see
+  // docs/LESSON_PIPELINE.md and [lesson].astro's rendering of theorySections).
+  const blockBySourceIndex = new Map(blocks.map(block => [block.sourceIndex, block]));
+  for (const stage of ['theory', 'examples']) {
+    const indices = overrides.stageMap?.[stage] ?? [];
+    const lastIndex = indices[indices.length - 1];
+    if (lastIndex === undefined) continue;
+    const lastBlock = blockBySourceIndex.get(lastIndex);
+    if (lastBlock?.type === 'SUBTITLE') {
+      throw new Error(`${identity.slug}: stage "${stage}" ends with a dangling heading (block ${lastBlock.id}, a SUBTITLE with no content under it)`);
+    }
+  }
+
   return lessonSchema.parse({
     id: identity.slug, sourceId: identity.sourceId, order: identity.order, glyph: identity.glyph,
     title: overrides.title, description: nfc(overrides.description ?? raw.description),
