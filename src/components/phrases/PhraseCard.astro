@@ -1,5 +1,6 @@
 ---
 import type { Phrase } from '../../data/hebrew-phrases';
+import { getDictionary, type Locale } from '../../i18n';
 import HebrewText from '../lessons/HebrewText.astro';
 import Transliteration from './Transliteration.astro';
 
@@ -7,26 +8,38 @@ interface Props {
   phrase: Phrase;
   /** Article id. Omit to render no id — used for cards that repeat a phrase elsewhere on the page (deck, anatomy). */
   id?: string;
-  /** Tag for the English meaning. "h3" (default) for a standalone card; "p" where an h3 would duplicate the page's heading outline. */
+  /** Tag for the heading/meaning. "h3" (default) for a standalone card; "p" where an h3 would duplicate the page's heading outline. */
   meaningTag?: 'h3' | 'p';
   /** Prefix for the "Said by/to" label id, so it stays unique when a phrase's card appears more than once on the page. */
   idPrefix?: string;
+  locale?: Locale;
 }
-const { phrase, id, meaningTag: MeaningTag = 'h3', idPrefix = '' } = Astro.props;
+const { phrase, id, meaningTag: MeaningTag = 'h3', idPrefix = '', locale = 'en' } = Astro.props;
+const isFr = locale === 'fr';
+const fr = phrase.fr;
+const t = getDictionary(locale).phrases;
+
+// FR renders phrase.fr's heading ("<Latin spelling> — <French meaning>") and its own
+// full variant set (Hebrew usually unchanged, transliteration always French); EN is untouched.
+const variants = isFr && fr ? fr.variants : phrase.variants;
+const heading = isFr && fr ? fr.heading : phrase.meaning;
+const note = isFr && fr ? fr.usage : phrase.usage;
 
 // Current data only ever has 0 or 1 variant axis (speaker OR addressee),
 // never both at once — so a card has at most one "Said by/to" row.
-const hasVariants = phrase.variants.length > 1;
-const axis: 'by' | 'to' = hasVariants && phrase.variants[0].label.includes('addressee') ? 'to' : 'by';
-const varLabel = axis === 'to' ? 'Said to' : 'Said by';
+const hasVariants = variants.length > 1;
+const axis: 'by' | 'to' = hasVariants && variants[0].label.includes('addressee') ? 'to' : 'by';
+const varLabel = axis === 'to' ? t.saidTo : t.saidBy;
+const toggleGroup = axis === 'to' ? t.variantToggle.addressee : t.variantToggle.speaker;
+const toggleLabels = [toggleGroup.male, toggleGroup.female];
 const labelId = `${idPrefix}${phrase.id}-${axis}`;
 
-const defaultVariant = phrase.variants[0];
+const defaultVariant = variants[0];
 const hebrewLetterCount = (text: string) => (text.match(/[א-ת]/g) ?? []).length;
 const isLong = hebrewLetterCount(defaultVariant.hebrew) >= 18;
 
 const dataForms = hasVariants
-  ? JSON.stringify({ m: [phrase.variants[0].hebrew, phrase.variants[0].transliteration], f: [phrase.variants[1].hebrew, phrase.variants[1].transliteration] })
+  ? JSON.stringify({ m: [variants[0].hebrew, variants[0].transliteration], f: [variants[1].hebrew, variants[1].transliteration] })
   : undefined;
 ---
 <article class={`pc${isLong ? ' pc--long' : ''}`} id={id} role="listitem" data-forms={dataForms}>
@@ -37,15 +50,15 @@ const dataForms = hasVariants
     </div>
   </div>
   <div class="pc-body">
-    <MeaningTag class="pc-en">{phrase.meaning}</MeaningTag>
-    <p class="pc-note">{phrase.usage}</p>
+    <MeaningTag class="pc-en">{heading}</MeaningTag>
+    <p class="pc-note">{note}</p>
   </div>
   {hasVariants && <div class="pc-vars">
     <div class="pc-var">
       <span class="pc-var-l" id={labelId}>{varLabel}</span>
       <div class="pc-seg" role="radiogroup" aria-labelledby={labelId}>
-        <button type="button" role="radio" data-v="m" aria-checked="true" tabindex={0}>Man</button>
-        <button type="button" role="radio" data-v="f" aria-checked="false" tabindex={-1}>Woman</button>
+        <button type="button" role="radio" data-v="m" aria-checked="true" tabindex={0}>{toggleLabels[0]}</button>
+        <button type="button" role="radio" data-v="f" aria-checked="false" tabindex={-1}>{toggleLabels[1]}</button>
       </div>
     </div>
   </div>}

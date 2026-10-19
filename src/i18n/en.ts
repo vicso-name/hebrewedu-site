@@ -18,6 +18,7 @@ export const en: Dictionary = {
     // kept so fr.ts has a same-shaped counterpart to translate.
     application: 'App',
     gamesEnLabel: 'Games',
+    blogEnLabel: 'Blog',
   },
   nav: {
     // Unused on EN pages today (the EN nav reaches home via the logo, not a nav link).
@@ -214,6 +215,14 @@ export const en: Dictionary = {
     downloadCta: {
       heading: 'Ready to start learning Hebrew?',
       lead: 'Begin with the alphabet and build from there.',
+    },
+  },
+  phrases: {
+    saidBy: 'Said by',
+    saidTo: 'Said to',
+    variantToggle: {
+      speaker: { male: 'Man', female: 'Woman' },
+      addressee: { male: 'Man', female: 'Woman' },
     },
   },
 };

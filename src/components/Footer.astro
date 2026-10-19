@@ -1,5 +1,5 @@
 ---
-import { phrasesPath, phrasesPublished } from '../lib/hebrew-phrases.mjs';
+import { phrasesPath, phrasesPublished, phrasesPathFr, phrasesPublishedFr } from '../lib/hebrew-phrases.mjs';
 import { getDictionary, type Locale } from '../i18n';
 
 interface Props {
@@ -9,11 +9,13 @@ const { locale = 'en' } = Astro.props;
 const t = getDictionary(locale);
 const year = new Date().getFullYear();
 
-// FR has no Blog/Hebrew Phrases page yet, so the footer doesn't link to them —
-// only /play/ (labeled as English) and the (English-only) legal pages.
+// FR has no Blog page yet, so the footer doesn't link to it — only /play/
+// (labeled as English), the FR phrases page once published, and the
+// (English-only) legal pages.
 const links = locale === 'fr'
   ? [
       { label: t.common.gamesEnLabel, href: '/play/' },
+      ...(phrasesPublishedFr() ? [{ label: t.footer.hebrewPhrases, href: phrasesPathFr }] : []),
       { label: t.footer.terms,   href: '/terms/'   },
       { label: t.footer.privacy, href: '/website-privacy/' },
     ]

@@ -15,6 +15,7 @@ export const fr: Dictionary = {
     },
     application: 'Application',
     gamesEnLabel: 'Jeux (en anglais)',
+    blogEnLabel: 'Blog (en anglais)',
   },
   nav: {
     home: 'Accueil',
@@ -206,6 +207,14 @@ export const fr: Dictionary = {
     downloadCta: {
       heading: "Prêt à commencer à apprendre l'hébreu ?",
       lead: "Commence par l'alphabet et construis la suite à partir de là.",
+    },
+  },
+  phrases: {
+    saidBy: 'Dit par',
+    saidTo: 'Dit à',
+    variantToggle: {
+      speaker: { male: 'Si c’est un homme qui parle', female: 'Si c’est une femme qui parle' },
+      addressee: { male: 'Si tu parles à un homme', female: 'Si tu parles à une femme' },
     },
   },
 };
