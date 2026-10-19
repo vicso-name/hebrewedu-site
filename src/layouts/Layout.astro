@@ -5,9 +5,17 @@ import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
 import AnalyticsHead from '../components/AnalyticsHead.astro';
 import ConsentBanner from '../components/ConsentBanner.astro';
+import type { Locale } from '../i18n';
 
 // GA is production-only — never wired up in `astro dev`. See docs/ANALYTICS.md.
 const analyticsEnabled = !import.meta.env.DEV;
+
+const OG_LOCALE: Record<Locale, string> = { en: 'en_US', fr: 'fr_FR' };
+
+interface Alternate {
+  hreflang: string;
+  href: string;
+}
 
 interface Props {
   title?: string;
@@ -24,6 +32,11 @@ interface Props {
   /** Opt into shared page chrome; legacy pages retain their existing slotted shell. */
   pageClass?: string;
   mainId?: string;
+  /** Drives <html lang>, og:locale, and which dictionary Nav/Footer/ConsentBanner read. */
+  locale?: Locale;
+  /** hreflang alternates (en, fr, x-default). Omitted entirely when not provided — a
+   *  page with no FR counterpart emits no alternate links. */
+  alternates?: Alternate[];
 }
 
 const {
@@ -36,6 +49,8 @@ const {
   robots = 'index, follow',
   pageClass,
   mainId = 'main-content',
+  locale = 'en',
+  alternates,
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
@@ -43,11 +58,12 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
 <!doctype html>
-<html lang="en" dir="ltr">
+<html lang={locale} dir="ltr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="canonical" href={canonicalURL} />
+    {alternates?.map(alt => <link rel="alternate" hreflang={alt.hreflang} href={alt.href} />)}
 
     <!-- Primary SEO -->
     <title>{seoTitle ?? title}</title>
@@ -64,7 +80,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <meta property="og:image:width"  content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:site_name"   content="HebrewEdu" />
-    <meta property="og:locale"      content="en_US" />
+    <meta property="og:locale"      content={OG_LOCALE[locale]} />
 
     <!-- Twitter -->
     <meta name="twitter:card"        content="summary_large_image" />
@@ -91,11 +107,11 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   <body>
     {pageClass ? <div class={pageClass}>
       <a class="layout-skip" href={`#${mainId}`}>Skip to content</a>
-      <Nav />
+      <Nav locale={locale} />
       <main id={mainId}><slot /></main>
-      <Footer />
+      <Footer locale={locale} />
     </div> : <slot />}
-    {analyticsEnabled && <ConsentBanner />}
+    {analyticsEnabled && <ConsentBanner locale={locale} />}
   </body>
 </html>
 

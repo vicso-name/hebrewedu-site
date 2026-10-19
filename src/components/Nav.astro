@@ -2,20 +2,27 @@
 import { site } from '../data/site';
 import { coursePath, hubEnabled, localCoursePreview } from '../lib/alphabet-course.mjs';
 import { phrasesPath } from '../lib/hebrew-phrases.mjs';
+import { getDictionary, type Locale } from '../i18n';
+
+interface Props {
+  locale?: Locale;
+}
+const { locale = 'en' } = Astro.props;
+const t = getDictionary(locale);
 
 const showCourse = hubEnabled(localCoursePreview(import.meta.env.DEV));
 const links = [
-  { label: 'Play', href: '/play/' },
-  ...(showCourse ? [{ label: 'Alphabet Course', href: coursePath }] : []),
-  { label: 'Phrases', href: phrasesPath },
-  { label: 'Blog',    href: '/blog/'    },
+  { label: t.nav.play, href: '/play/' },
+  ...(showCourse ? [{ label: t.nav.alphabetCourse, href: coursePath }] : []),
+  { label: t.nav.phrases, href: phrasesPath },
+  { label: t.nav.blog,    href: '/blog/'    },
 ];
 ---
 
 <header class:list={['nav-wrap', { 'course-nav': showCourse }]}>
   <nav class="container nav-inner" aria-label="Primary">
     <a href="/" class="nav-logo" aria-label="HebrewEdu home">
-      HEBREWEDU
+      {t.common.brand}
     </a>
 
     <ul class="nav-links" role="list">
@@ -25,17 +32,19 @@ const links = [
     </ul>
 
     <a href={site.appDownloadUrl} class="nav-cta" data-cta-location="nav">
-      Get the app
+      {t.common.getTheApp}
     </a>
 
     <button
       type="button"
       class="nav-burger"
       id="nav-burger"
-      aria-label="Open menu"
+      aria-label={t.common.openMenu}
       aria-expanded="false"
       aria-controls="nav-mobile"
       data-desktop-breakpoint={showCourse ? '1101' : '769'}
+      data-open-label={t.common.openMenu}
+      data-close-label={t.common.closeMenu}
     >
       <span></span><span></span><span></span>
     </button>
@@ -50,7 +59,7 @@ const links = [
       <a href={l.href} class="nav-mobile-link" aria-current={l.href === coursePath && Astro.url.pathname.startsWith(coursePath) ? (Astro.url.pathname === coursePath ? 'page' : 'location') : undefined}>{l.label}</a>
     ))}
     <a href={site.appDownloadUrl} class="nav-mobile-cta" data-cta-location="nav_mobile">
-      Get the app
+      {t.common.getTheApp}
     </a>
   </div>
 </div>
@@ -244,7 +253,7 @@ function setOpen(open: boolean) {
   menu.hidden = !open;
   burger.classList.toggle('is-open', open);
   burger.setAttribute('aria-expanded', String(open));
-  burger.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+  burger.setAttribute('aria-label', open ? burger.dataset.closeLabel ?? 'Close menu' : burger.dataset.openLabel ?? 'Open menu');
 }
 
 burger.addEventListener('click', () => setOpen(!isOpen()));

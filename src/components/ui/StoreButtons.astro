@@ -1,5 +1,6 @@
 ---
-import { site } from '../../data/site';
+import { site, storeHref } from '../../data/site';
+import { getDictionary, type Locale } from '../../i18n';
 
 interface Props {
   /** Where the buttons sit, reported as cta_location on click events. */
@@ -7,16 +8,20 @@ interface Props {
   /** Optional additional click event used by the blog CTA. */
   trackAlso?: string;
   height?: number;
+  locale?: Locale;
 }
-const { location, trackAlso, height = 56 } = Astro.props;
+const { location, trackAlso, height = 56, locale = 'en' } = Astro.props;
+const t = getDictionary(locale);
 
 // Only stores with a live URL are rendered.
-const stores = [site.stores.appStore, site.stores.googlePlay].filter(s => s.url);
+const stores = [site.stores.appStore, site.stores.googlePlay]
+  .filter(s => s.url)
+  .map(s => ({ ...s, href: storeHref(s, locale), label: t.common.storeLabels[s.id] }));
 ---
 
 <div class="store-buttons" style={`--store-badge-height: ${height}px`}>
   {stores.map(s => (
-    <a href={s.url} class="store-link" target="_blank" rel="noopener" data-store={s.id} data-cta-location={location} data-track-also={trackAlso}>
+    <a href={s.href} class="store-link" target="_blank" rel="noopener" data-store={s.id} data-cta-location={location} data-track-also={trackAlso}>
       <img src={s.badge} alt={s.label} width={Math.round(s.width * height / s.height)} height={height} />
     </a>
   ))}

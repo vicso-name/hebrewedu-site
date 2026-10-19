@@ -1,5 +1,12 @@
 ---
 import { site } from '../data/site';
+import { getDictionary, type Locale } from '../i18n';
+
+interface Props {
+  locale?: Locale;
+}
+const { locale = 'en' } = Astro.props;
+const t = getDictionary(locale);
 ---
 
 <!-- Analytics consent banner. Auto-shown only for visitors in the EEA/UK/CH
@@ -8,12 +15,12 @@ import { site } from '../data/site';
      to change their choice. -->
 <div id="consent-banner" class="consent-banner" role="region" aria-label="Analytics consent" hidden>
   <p class="consent-banner-text">
-    We use Google Analytics to understand how this site is used. In your region, it only runs if you accept.
-    <a href="/website-privacy/">Privacy policy</a>
+    {t.consent.text}
+    <a href="/website-privacy/">{t.consent.privacyPolicy}</a>
   </p>
   <div class="consent-banner-actions">
-    <button type="button" class="consent-banner-btn" data-consent-choice="denied">Decline</button>
-    <button type="button" class="consent-banner-btn" data-consent-choice="granted">Accept</button>
+    <button type="button" class="consent-banner-btn" data-consent-choice="denied">{t.consent.decline}</button>
+    <button type="button" class="consent-banner-btn" data-consent-choice="granted">{t.consent.accept}</button>
   </div>
 </div>
 

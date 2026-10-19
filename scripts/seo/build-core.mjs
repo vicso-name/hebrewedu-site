@@ -87,6 +87,7 @@ const REQUIRED_KEYWORD_COLUMNS = [
   "priority_score",
   "source_file",
   "notes",
+  "locale",
 ];
 const REQUIRED_CLUSTER_COLUMNS = [
   "cluster_id",
@@ -115,6 +116,7 @@ const REQUIRED_PAGE_COLUMNS = [
   "gsc_pos_28d",
   "gsc_date",
   "status",
+  "locale",
 ];
 
 function intentWeight(intent) {
@@ -159,22 +161,41 @@ if (errors.length) {
   reportAndExit(errors);
 }
 
-// 2b. Duplicate keywords (case-insensitive)
+// 2b. Duplicate keywords (case-insensitive, scoped per locale — the same
+// string can be a legitimate keyword in two different languages)
 {
-  const seen = new Map(); // lowercase keyword -> first row number (1-indexed, header = row 1)
+  const seen = new Map(); // "locale::lowercase keyword" -> first row number (1-indexed, header = row 1)
   const dupes = new Map();
   keywords.forEach((r, i) => {
     const k = r.keyword.trim().toLowerCase();
     if (!k) return;
-    if (seen.has(k)) {
-      if (!dupes.has(k)) dupes.set(k, [seen.get(k)]);
-      dupes.get(k).push(i + 2);
+    const locale = (r.locale || "en").trim().toLowerCase();
+    const key = `${locale}::${k}`;
+    if (seen.has(key)) {
+      if (!dupes.has(key)) dupes.set(key, [seen.get(key)]);
+      dupes.get(key).push(i + 2);
     } else {
-      seen.set(k, i + 2);
+      seen.set(key, i + 2);
     }
   });
-  for (const [k, rowNums] of dupes) {
-    errors.push(`keywords.csv: duplicate keyword "${k}" on rows ${rowNums.join(", ")}`);
+  for (const [key, rowNums] of dupes) {
+    const [locale, k] = key.split("::");
+    errors.push(`keywords.csv: duplicate keyword "${k}" (locale=${locale}) on rows ${rowNums.join(", ")}`);
+  }
+}
+
+// 2b-bis. locale column must be a known locale
+{
+  const KNOWN_LOCALES = new Set(["en", "fr"]);
+  for (const [label, rows] of [["keywords.csv", keywords], ["pages.csv", pages]]) {
+    const bad = new Set();
+    for (const r of rows) {
+      const locale = (r.locale || "").trim();
+      if (!KNOWN_LOCALES.has(locale)) bad.add(locale || "(empty)");
+    }
+    if (bad.size) {
+      errors.push(`${label}: unknown locale value(s): ${[...bad].join(", ")} — expected one of ${[...KNOWN_LOCALES].join(", ")}`);
+    }
   }
 }
 

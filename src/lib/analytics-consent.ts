@@ -83,13 +83,16 @@ function setStoredChoice(choice: Choice): void {
 
 let gaScriptInjected = false;
 
-/** Queues gtag's `js`/`config` and, once ever, injects the real gtag.js script. */
-export function loadGtag(gaId: string): void {
+/** Queues gtag's `js`/`config` and, once ever, injects the real gtag.js script.
+ *  `locale` is set once here as a GA4 config parameter (page_locale), not
+ *  threaded through every track() call in ./analytics.ts. */
+export function loadGtag(gaId: string, locale: string = 'en'): void {
   const gtag = gtagStub();
   gtag('js', new Date());
   gtag('config', gaId, {
     allow_google_signals: false,
     allow_ad_personalization_signals: false,
+    page_locale: locale,
   });
   if (gaScriptInjected) return;
   gaScriptInjected = true;
@@ -114,13 +117,13 @@ function deleteGaCookies(): void {
 }
 
 /** Called by AnalyticsHead.astro on every GA-enabled page. */
-export function bootstrap(gaId: string): void {
+export function bootstrap(gaId: string, locale: string = 'en'): void {
   pushConsentDefaults();
-  if (!inConsentRegion()) { loadGtag(gaId); return; }
+  if (!inConsentRegion()) { loadGtag(gaId, locale); return; }
   const choice = getStoredChoice();
   if (choice === 'granted') {
     window.gtag!('consent', 'update', { analytics_storage: 'granted' });
-    loadGtag(gaId);
+    loadGtag(gaId, locale);
   } else if (choice === 'denied') {
     window.gtag!('consent', 'update', { analytics_storage: 'denied' });
   }
@@ -134,7 +137,7 @@ export function applyChoice(gaId: string, choice: Choice): void {
   const gtag = gtagStub();
   if (choice === 'granted') {
     gtag('consent', 'update', { analytics_storage: 'granted' });
-    loadGtag(gaId);
+    loadGtag(gaId, document.documentElement.lang || 'en');
   } else {
     gtag('consent', 'update', { analytics_storage: 'denied' });
     deleteGaCookies();

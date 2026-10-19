@@ -6,72 +6,74 @@ import Section from '../../../components/ui/Section.astro';
 import LearningMosaic, { type LearningItem } from '../../../components/play/LearningMosaic.astro';
 import StoreButtons from '../../../components/ui/StoreButtons.astro';
 import { courseManifest, courseTitle, courseDescription, courseSchema, curriculum, hubEnabled, localCoursePreview } from '../../../lib/alphabet-course.mjs';
+import { getDictionary, type Locale } from '../../../i18n';
 import '../../../styles/alphabet-course.css';
+
+interface Props {
+  locale?: Locale;
+}
 
 // A rest parameter can omit even this index route from an ordinary draft build.
 export function getStaticPaths() {
   return hubEnabled(localCoursePreview(import.meta.env.DEV)) ? [{ params: { hub: undefined } }] : [];
 }
+const { locale = 'en' } = Astro.props;
+const t = getDictionary(locale);
 const preview = localCoursePreview(import.meta.env.DEV);
 const letters = curriculum(preview);
 const first = letters.find(letter => letter.available);
 if (!first) throw new Error('Course hub needs an available lesson, not a broken Start link.');
 const stages = [
-  { title: 'Theory', description: ['Meet the letter and understand what you’re learning.'] },
-  { title: 'Examples', description: ['Look closely at Hebrew letters and their vowel marks.'] },
-  { title: 'Practice', description: ['Work through questions one at a time, with feedback.'] },
-  { title: 'Results', description: ['See how you did and revisit questions you missed.'] },
+  t.hub.stages.theory,
+  t.hub.stages.examples,
+  t.hub.stages.practice,
+  t.hub.stages.results,
 ] satisfies [LearningItem, LearningItem, LearningItem, LearningItem];
-const resources = [
-  { href: '/blog/hebrew-alphabet-complete-guide/', label: 'Hebrew Alphabet Guide', tag: 'Letter reference', text: 'Keep a full alphabet chart, letter names and final forms close at hand.' },
-  { href: '/blog/how-to-read-hebrew-nikud/', label: 'Hebrew Vowels & Nikud Guide', tag: 'Vowel reference', text: 'Explore the marks that help you read Hebrew vowel sounds.' },
-  { href: '/play/alef-bet-rush/', label: 'Alef Bet Rush', tag: 'Recognition game', text: 'Review Hebrew letter recognition with a browser game.' },
-  { href: '/play/hebrew-mahjong/', label: 'Hebrew Mahjong', tag: 'Matching game', text: 'Get more familiar with letter shapes through matching.' },
-];
+const resources = t.hub.resources;
 ---
-<Layout title={courseTitle} description={courseDescription} robots={courseManifest.hub.published ? 'index, follow' : 'noindex, nofollow, noarchive'} schema={courseSchema()}>
+<Layout title={courseTitle} description={courseDescription} robots={courseManifest.hub.published ? 'index, follow' : 'noindex, nofollow, noarchive'} schema={courseSchema()} locale={locale}>
   <div class="course-hub">
-    <a class="course-skip" href="#course-content">Skip to course</a>
-    <Nav />
+    <a class="course-skip" href="#course-content">{t.hub.skipToCourse}</a>
+    <Nav locale={locale} />
     <main id="course-content">
       <Section aria-labelledby="course-title">
         <div class="course-hero">
           <div class="course-hero-copy">
-            <p class="course-eyebrow">Hebrew alphabet course · For beginners</p>
-            <h1 id="course-title">Learn the Hebrew Alphabet Step by Step</h1>
-            <p class="course-lead">Start with one letter. Build your understanding through clear explanations, examples and practice, at your own pace.</p>
-            <div class="course-start"><a class="btn course-primary" href={first.href}>Start Learning <span aria-hidden="true">→</span></a><a class="course-secondary" href="#curriculum">Explore the curriculum</a></div>
-            <p class="course-availability">Start with Aleph today. More letter lessons are coming soon.</p>
+            <p class="course-eyebrow">{t.hub.eyebrow}</p>
+            <h1 id="course-title">{t.hub.title}</h1>
+            <p class="course-lead">{t.hub.lead}</p>
+            <div class="course-start"><a class="btn course-primary" href={first.href}>{t.hub.startLearning} <span aria-hidden="true">→</span></a><a class="course-secondary" href="#curriculum">{t.hub.exploreCurriculum}</a></div>
+            <p class="course-availability">{t.hub.availability}</p>
           </div>
           <aside class="course-first-card" aria-labelledby="first-lesson-title">
-            <p class="course-eyebrow">Your first lesson</p>
+            <p class="course-eyebrow">{t.hub.firstLessonEyebrow}</p>
             <div class="course-letter-surface"><bdi class="course-hebrew" lang="he" dir="rtl">א</bdi></div>
-            <h2 id="first-lesson-title">Meet Aleph</h2>
-            <p>Recognize the letter, explore vowel marks and check your understanding.</p>
-            <p class="course-first-meta">Lesson 1 of 22</p>
+            <h2 id="first-lesson-title">{t.hub.meetAleph}</h2>
+            <p>{t.hub.firstLessonText}</p>
+            <p class="course-first-meta">{t.hub.firstLessonMeta}</p>
           </aside>
         </div>
       </Section>
       <Section id="curriculum">
-        <div class="course-section-heading"><p class="course-eyebrow">Your learning path</p><h2 id="curriculum-title">One letter at a time</h2><p>Follow the Hebrew alphabet in order. Aleph is ready to explore; the remaining lessons are coming soon.</p></div>
-        <ol class="course-curriculum" aria-label="Hebrew alphabet curriculum">
+        <div class="course-section-heading"><p class="course-eyebrow">{t.hub.pathEyebrow}</p><h2 id="curriculum-title">{t.hub.pathTitle}</h2><p>{t.hub.pathText}</p></div>
+        <ol class="course-curriculum" aria-label={t.hub.curriculumAriaLabel}>
           {letters.map(letter => <li class:list={['course-letter-card', { 'course-letter-available': letter.available }]} data-course-order={letter.order}>
-            {letter.available ? <a href={letter.href} aria-label={`Start lesson ${letter.order}: ${letter.name}`}><span class="course-letter-order">Lesson {letter.order}</span><bdi class="course-hebrew" lang="he" dir="rtl">{letter.letter}</bdi><h3>{letter.name}</h3><span class="course-letter-status">Start lesson <span aria-hidden="true">→</span></span></a> : <div><span class="course-letter-order">Lesson {letter.order}</span><bdi class="course-hebrew" lang="he" dir="rtl">{letter.letter}</bdi><h3>{letter.name}</h3><span class="course-letter-status">Coming Soon</span></div>}
+            {letter.available ? <a href={letter.href} aria-label={t.hub.startLessonAria(letter.order, letter.name)}><span class="course-letter-order">{t.hub.lessonOrderLabel(letter.order)}</span><bdi class="course-hebrew" lang="he" dir="rtl">{letter.letter}</bdi><h3>{letter.name}</h3><span class="course-letter-status">{t.hub.startLessonCta} <span aria-hidden="true">→</span></span></a> : <div><span class="course-letter-order">{t.hub.lessonOrderLabel(letter.order)}</span><bdi class="course-hebrew" lang="he" dir="rtl">{letter.letter}</bdi><h3>{letter.name}</h3><span class="course-letter-status">{t.hub.comingSoon}</span></div>}
           </li>)}
         </ol>
       </Section>
       <Section surface="white">
-        <div class="course-section-heading"><p class="course-eyebrow">A guided learning experience</p><h2 id="how-title">How lessons work</h2><p>A clear next step, from your first explanation to your practice results.</p></div>
+        <div class="course-section-heading"><p class="course-eyebrow">{t.hub.howEyebrow}</p><h2 id="how-title">{t.hub.howTitle}</h2><p>{t.hub.howText}</p></div>
         <LearningMosaic items={stages} />
       </Section>
       <Section surface="white">
-        <div class="course-section-heading"><p class="course-eyebrow">Keep exploring</p><h2 id="resources-title">Additional learning resources</h2><p>Use a reference when you need it, or try a game for a change of pace.</p></div>
+        <div class="course-section-heading"><p class="course-eyebrow">{t.hub.keepExploringEyebrow}</p><h2 id="resources-title">{t.hub.resourcesTitle}</h2><p>{t.hub.resourcesText}</p></div>
         <div class="course-resources">{resources.map(resource => <a class="course-resource" href={resource.href}><span class="course-eyebrow">{resource.tag}</span><h3>{resource.label} <span aria-hidden="true">↗</span></h3><p>{resource.text}</p></a>)}</div>
       </Section>
       <Section aria-labelledby="app-title">
-        <div class="course-app"><div><p class="course-eyebrow">Keep learning</p><h2 id="app-title">Continue learning in the app</h2><p>Explore HebrewEdu on your phone for more Hebrew learning and practice.</p></div><StoreButtons location="alphabet_course_hub" height={48} /></div>
+        <div class="course-app"><div><p class="course-eyebrow">{t.hub.keepLearningEyebrow}</p><h2 id="app-title">{t.hub.appTitle}</h2><p>{t.hub.appText}</p></div><StoreButtons location="alphabet_course_hub" height={48} locale={locale} /></div>
       </Section>
     </main>
-    <Footer />
+    <Footer locale={locale} />
   </div>
 </Layout>

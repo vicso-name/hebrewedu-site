@@ -1,3 +1,5 @@
+import type { Locale } from '../i18n';
+
 export interface Store {
   /** Stable key, exposed as data-store on store links (hook for future analytics). */
   id: 'google_play' | 'app_store';
@@ -25,6 +27,18 @@ const appStore: Store = {
   width: 168,
   height: 56,
 };
+
+// Locale-aware store link. Google Play honors an &hl= UI-language param;
+// the App Store has no such param — it redirects to the viewer's own
+// storefront from a bare (no two-letter country segment) URL, so a
+// hardcoded country segment is stripped defensively rather than added.
+export function storeHref(store: Store, locale: Locale = 'en'): string | null {
+  if (!store.url) return null;
+  if (store.id === 'app_store') {
+    return store.url.replace(/^(https:\/\/apps\.apple\.com)\/[a-z]{2}(\/app\/)/, '$1$2');
+  }
+  return locale === 'en' ? store.url : `${store.url}&hl=${locale}`;
+}
 
 export const site = {
   name: 'HebrewEdu',

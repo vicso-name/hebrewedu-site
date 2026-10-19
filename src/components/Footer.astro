@@ -1,13 +1,20 @@
 ---
 import { phrasesPath, phrasesPublished } from '../lib/hebrew-phrases.mjs';
+import { getDictionary, type Locale } from '../i18n';
+
+interface Props {
+  locale?: Locale;
+}
+const { locale = 'en' } = Astro.props;
+const t = getDictionary(locale);
 const year = new Date().getFullYear();
 
 const links = [
-  { label: 'Play', href: '/play/' },
-  { label: 'Blog', href: '/blog/' },
-  ...(phrasesPublished() ? [{ label: 'Hebrew Phrases', href: phrasesPath }] : []),
-  { label: 'Terms',   href: '/terms/'   },
-  { label: 'Privacy', href: '/website-privacy/' },
+  { label: t.footer.play, href: '/play/' },
+  { label: t.footer.blog, href: '/blog/' },
+  ...(phrasesPublished() ? [{ label: t.footer.hebrewPhrases, href: phrasesPath }] : []),
+  { label: t.footer.terms,   href: '/terms/'   },
+  { label: t.footer.privacy, href: '/website-privacy/' },
 ];
 ---
 
@@ -16,7 +23,7 @@ const links = [
 
     <!-- Logo -->
     <a href="/" class="footer-logo" aria-label="HebrewEdu">
-      HEBREWEDU
+      {t.common.brand}
     </a>
 
     <!-- Nav links -->
@@ -31,8 +38,8 @@ const links = [
   <!-- Bottom line -->
   <div class="footer-bottom">
     <div class="container footer-bottom-inner">
-      <p class="footer-copy">© {year} HebrewEdu. All rights reserved.</p>
-      <button type="button" class="footer-privacy" data-privacy-choices>Privacy choices</button>
+      <p class="footer-copy">{t.footer.copyright(year)}</p>
+      <button type="button" class="footer-privacy" data-privacy-choices>{t.footer.privacyChoices}</button>
     </div>
   </div>
 </footer>
