@@ -56,7 +56,8 @@ cost cap. When approved, keep a spend ledger alongside the research
 (timestamp, endpoint, params summary, cost) and cache raw responses by
 a hash of the request body so the same request is never paid for
 twice; gitignore the response cache directory (it may carry account
-identifiers).
+identifiers). YepAPI key: `~/.config/yepapi/key` (`x-api-key` header).
+DataForSEO credentials: `~/.config/codex-seo/dataforseo/credentials.json`.
 
 Title tags never include the brand suffix. The site name is carried by
 `og:site_name` / the `WebSite` schema, not by appending it to every
