@@ -271,7 +271,7 @@ export const fr: Dictionary = {
   },
   blog: {
     indexTitle: 'Hébreu : guides de lecture, alphabet et grammaire',
-    indexDescription: "Des guides pratiques pour l'hébreu : l'alphabet, la lecture, le nikoud, le vocabulaire, les racines, les verbes et les binianim.",
+    indexDescription: "Des guides pratiques pour l'hébreu : l'alphabet, la lecture, le nikoud, le vocabulaire, les racines, les verbes et les binyanim.",
     eyebrow: 'Blog',
     h1: "Guides et ressources pour l'hébreu",
     lead: "Des conseils, des guides et des nouveautés pour t'accompagner dans ton apprentissage de l'hébreu.",

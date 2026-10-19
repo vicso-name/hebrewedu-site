@@ -142,6 +142,14 @@ English:
   where the FR source/editorial tradition already has one (e.g. "Kamatz",
   "Patah" are typically left untranslated, as proper names of the marks,
   the same way EN does) — don't invent a French calque for a mark name.
+- This applies to every Latin transliteration of a Hebrew word in FR copy,
+  not just letter/mark names — including blog-post vocabulary examples and
+  pronunciation guides (`michtav` → `mikhtav`, `lalechet` → `lalekhet`). The
+  Hebrew script and nikud themselves are never touched, only the Latin
+  spelling next to them. A pronunciation respelling also drops English-only
+  cues that have no French equivalent (the silent "H" in "PAH-al" → "PA-al")
+  and uses `ou` wherever the EN source wrote a bare "u" for the [u] sound
+  (`pu-AL` → `pou-AL`, `huf-AL` → `houf-AL`) per the `ou` rule above.
 
 ### French typography
 

@@ -24,10 +24,10 @@ batch done.
 |---|---|---|---|
 | `/blog/learn-hebrew-alphabet-7-days/` | `apprendre-alphabet-hebreu-7-jours` | C | `lettres-hebraiques.md` ("Pour un exemple de plan d'étude hebdomadaire…"), `ecriture-hebraique.md` ("maîtriser l'alphabet imprimé de façon méthodique"), `voyelles-hebreu.md` ("Apprendre l'alphabet de façon méthodique…") |
 | `/blog/why-hebrew-without-vowels-looks-impossible-until-your-brain-adapts/` | `lire-hebreu-sans-voyelles` | C | `lettres-hebraiques.md` ("pourquoi l'hébreu courant retire ces signes voyelles"), `ecriture-hebraique.md` ("la lecture de l'hébreu sans voyelles"), `voyelles-hebreu.md` ("pourquoi l'hébreu imprimé abandonne les voyelles"), `racines-hebraiques.md` ("Lire l'hébreu non vocalisé"), `vocabulaire-hebreu.md` ("une approche progressive de la lecture de l'hébreu") |
-| `/blog/how-many-words-are-in-the-modern-hebrew-language/` | `combien-de-mots-hebreu` | C | `conjugaison-hebreu.md` ("le nombre de mots hébreux dont tu as vraiment besoin"), `binianim-hebreu.md` ("le vocabulaire de verbes dont tu as besoin"), `racines-hebraiques.md` ("le nombre de mots dont tu as vraiment besoin"), `vocabulaire-hebreu.md` ("vers lesquels tu avances réellement à chaque étape de l'aisance en hébreu") |
+| `/blog/how-many-words-are-in-the-modern-hebrew-language/` | `combien-de-mots-hebreu` | C | `conjugaison-hebreu.md` ("le nombre de mots hébreux dont tu as vraiment besoin"), `binyanim-hebreu.md` ("le vocabulaire de verbes dont tu as besoin"), `racines-hebraiques.md` ("le nombre de mots dont tu as vraiment besoin"), `vocabulaire-hebreu.md` ("vers lesquels tu avances réellement à chaque étape de l'aisance en hébreu") |
 | `/blog/why-you-can-read-hebrew-but-still-understand-absolutely-nothing/` | `lire-sans-comprendre` | D | `voyelles-hebreu.md` ("L'expérience de lire couramment l'hébreu sans presque rien comprendre"), `conjugaison-hebreu.md` ("dépasser le stade où tu arrives à lire l'hébreu mais à comprendre très peu"), `racines-hebraiques.md` ("passer du déchiffrage mécanique de l'hébreu à sa compréhension réelle"), `vocabulaire-hebreu.md` ("Lire l'hébreu à voix haute sans le comprendre") |
 | `/blog/story-behind-learn-hebrew-read-speak/` | `histoire-de-lapplication` | E | `lettres-hebraiques.md` ("pourquoi l'application a été conçue pour aller des lettres jusqu'à la compréhension"), `voyelles-hebreu.md` ("le créateur de l'application explique comment le nikoud…"), `conjugaison-hebreu.md` ("comment Learn Hebrew – Read & Speak est passé d'un simple entraîneur d'alphabet…") |
-| `/blog/how-not-to-learn-hebrew-a-complete-guide-to-failing-efficiently/` | `erreurs-apprendre-hebreu` | E | `conjugaison-hebreu.md` ("un guide de toutes les erreurs courantes des débutants"), `binianim-hebreu.md` ("erreurs de grammaire qui ralentissent systématiquement les débutants"), `vocabulaire-hebreu.md` ("Les habitudes d'étude qui retardent systématiquement la progression en hébreu") |
+| `/blog/how-not-to-learn-hebrew-a-complete-guide-to-failing-efficiently/` | `erreurs-apprendre-hebreu` | E | `conjugaison-hebreu.md` ("un guide de toutes les erreurs courantes des débutants"), `binyanim-hebreu.md` ("erreurs de grammaire qui ralentissent systématiquement les débutants"), `vocabulaire-hebreu.md` ("Les habitudes d'étude qui retardent systématiquement la progression en hébreu") |
 
 ## Never repointed (no FR counterpart planned)
 
@@ -40,9 +40,9 @@ batch done.
 | EN target | FR URL | Repointed in |
 |---|---|---|
 | `/blog/hebrew-alphabet-complete-guide/` | `/fr/blog/lettres-hebraiques/` | `conjugaison-hebreu.md` links to it directly, no EN fallback ever existed |
-| `/blog/meet-the-new-verb-directory/` | `/fr/blog/conjugaison-hebreu/` | `binianim-hebreu.md`, `racines-hebraiques.md`, `vocabulaire-hebreu.md` all link to it directly |
-| `/blog/hebrew-binyanim-explained/` | `/fr/blog/binianim-hebreu/` | `vocabulaire-hebreu.md` links to it directly |
-| `/blog/how-the-hebrew-root-system-works/` | `/fr/blog/racines-hebraiques/` | `binianim-hebreu.md`, `vocabulaire-hebreu.md` link to it directly |
+| `/blog/meet-the-new-verb-directory/` | `/fr/blog/conjugaison-hebreu/` | `binyanim-hebreu.md`, `racines-hebraiques.md`, `vocabulaire-hebreu.md` all link to it directly |
+| `/blog/hebrew-binyanim-explained/` | `/fr/blog/binyanim-hebreu/` | `vocabulaire-hebreu.md` links to it directly |
+| `/blog/how-the-hebrew-root-system-works/` | `/fr/blog/racines-hebraiques/` | `binyanim-hebreu.md`, `vocabulaire-hebreu.md` link to it directly |
 | `/blog/how-to-read-hebrew-nikud/` | `/fr/blog/voyelles-hebreu/` | Batch-1 gap found this batch: `src/components/phrases/PhrasesPage.astro`'s nikoud legend entry still linked `(en anglais)` to the EN post after batch 1 published its FR counterpart — repointed and the label dropped. Missed in batch 1 because that batch's grep only covered `src/content/blog/fr/**` and `src/i18n/fr.ts`, not the whole `src/` tree. |
 
 ## Closed in batch 1 (for reference)

@@ -504,6 +504,36 @@ for (const page of pages) {
 }
 
 // ───────────────────────────────────────────────────────────────────────────
+// Soft warning (not a `findings` rule — doesn't fail the build): a single-word
+// italic on an FR page spelled with "ch" is usually a Hebrew transliteration
+// that used the English "ch" digraph for the guttural Khet/Kaf sound, which a
+// French reader reads as [ʃ] instead (docs/hebrew-alphabet-editorial-rules.fr.md
+// — it should be "kh"). Scoped to single lowercase-ish tokens (letters,
+// apostrophe, hyphen, no spaces) so it doesn't fire on ordinary italicized
+// French emphasis ("*annuaire de verbes*") or an intentional all-caps sound
+// description ("*CH*", used to describe the Shin sound itself — "ch" is
+// correct there, it's not a transliteration). Still a guess, not a rule: flag
+// it for a human to check rather than failing the build on it.
+// ───────────────────────────────────────────────────────────────────────────
+
+{
+  const transliterationWarnings = [];
+  const TOKEN = /^[a-zàâäéèêëïîôöùûüç'-]+$/;
+  for (const page of pages.filter((p) => p.locale === 'fr')) {
+    for (const m of page.html.matchAll(/<em>([^<]+)<\/em>/g)) {
+      const word = m[1];
+      if (TOKEN.test(word) && word.includes('ch')) {
+        transliterationWarnings.push(`${page.url}  "${word}"`);
+      }
+    }
+  }
+  if (transliterationWarnings.length) {
+    console.warn(`check:i18n — ${transliterationWarnings.length} transliteration warning(s) (not build-failing, review by hand):`);
+    for (const w of transliterationWarnings) console.warn(`  ${w}`);
+  }
+}
+
+// ───────────────────────────────────────────────────────────────────────────
 
 if (findings.length) {
   console.error(`check:i18n — ${findings.length} violation(s):\n`);

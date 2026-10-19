@@ -14,7 +14,7 @@ La plupart des apprenants savent qu'ils doivent se constituer du vocabulaire.
 
 Ils ne savent juste pas par où commencer.
 
-Alors ils téléchargent une appli de vocabulaire, ajoutent une centaine de mots, les révisent de façon inconsistante pendant deux semaines, en oublient la plupart, et se demandent ensuite pourquoi leur hébreu reste bloqué.
+Alors ils téléchargent une appli de vocabulaire, ajoutent une centaine de mots, les révisent de façon irrégulière pendant deux semaines, en oublient la plupart, et se demandent ensuite pourquoi leur hébreu reste bloqué.
 
 Le problème n'est généralement pas l'effort.
 
@@ -30,7 +30,7 @@ La plupart des apprenants se trompent légèrement sur les deux.
 
 Ils apprennent les mots qui se présentent à eux — l'ordre du manuel, des decks d'appli au hasard, des mots qui semblent juste intéressants. Et ils révisent passivement, en relisant des flashcards jusqu'à ce que le mot leur semble vaguement familier.
 
-Vaguement familier, ce n'est pas la même chose que su.
+Vaguement familier, ce n'est pas la même chose que connu.
 
 ---
 
@@ -120,9 +120,9 @@ Une phrase utile en contexte peut valoir plus que de reconnaître à répétitio
 
 Les verbes sont la catégorie de vocabulaire la plus difficile en hébreu — pas parce qu'ils sont plus nombreux, mais parce que chaque verbe a des dizaines de formes fléchies.
 
-[Comprendre les modèles de verbes hébreux, ou binianim](/fr/blog/binianim-hebreu/), donne un cadre à ces formes. Connaître l'infinitif לדבר (*ledaber* — parler) est un début. Connaître le présent מדבר (*medaber*), le futur אדבר (*adaber*) et le passé דיברתי (*dibarti*), c'est ce qui rend le mot utilisable dans de vraies phrases.
+[Comprendre les modèles de verbes hébreux, ou binyanim](/fr/blog/binyanim-hebreu/), donne un cadre à ces formes. Connaître l'infinitif לדבר (*ledaber* — parler) est un début. Connaître le présent מדבר (*medaber*), le futur אדבר (*adaber*) et le passé דיברתי (*dibarti*), c'est ce qui rend le mot utilisable dans de vraies phrases.
 
-C'est pour ça que le vocabulaire des verbes profite d'un apprentissage structuré, conscient des formes, plutôt que de flashcards génériques. L'[annuaire de verbes d'Alef-Bet Tutor classe 334 verbes à haute fréquence par racine et par binian](/fr/blog/conjugaison-hebreu/) — avec les formes de conjugaison — pour que tu voies toute l'image d'un verbe d'un coup, plutôt que d'apprendre ses formes petit à petit sur des mois.
+C'est pour ça que le vocabulaire des verbes profite d'un apprentissage structuré, conscient des formes, plutôt que de flashcards génériques. Le [répertoire de verbes d'Alef-Bet Tutor classe 334 verbes à haute fréquence par racine et par binyan](/fr/blog/conjugaison-hebreu/) — avec les formes de conjugaison — pour que tu voies toute l'image d'un verbe d'un coup, plutôt que d'apprendre ses formes petit à petit sur des mois.
 
 Ce n'est pas quelque chose à mémoriser d'un seul coup. C'est une référence à utiliser pendant que tu construis ton exposition.
 
@@ -138,7 +138,7 @@ La répétition espacée étale les révisions dans le temps, en utilisant tes r
 
 Rate plusieurs jours, et les révisions s'accumulent. La pile devient intimidante. L'appli finit ignorée.
 
-Une courte session quotidienne rend les révisions plus faciles à garder gérables qu'en gardant tout pour une longue session hebdomadaire. [Les habitudes d'étude qui retardent systématiquement la progression en hébreu](/blog/how-not-to-learn-hebrew-a-complete-guide-to-failing-efficiently/) (en anglais) incluent presque toujours l'inconstance en haut de la liste.
+Une courte session quotidienne garde les révisions plus gérables qu'une longue session hebdomadaire. [Les habitudes d'étude qui retardent systématiquement la progression en hébreu](/blog/how-not-to-learn-hebrew-a-complete-guide-to-failing-efficiently/) (en anglais) incluent presque toujours l'inconstance en haut de la liste.
 
 Dix minutes. Chaque jour. Même quand ça ne semble pas productif.
 
@@ -152,7 +152,7 @@ Essaie **5 à 10 nouveaux éléments par jour** comme fourchette de départ, ré
 
 À **5 éléments par jour**, introduire 1 000 éléments prend environ **200 jours**. À **10 par jour**, environ **100 jours**. Ça fait à peu près trois à sept mois d'introductions, en supposant que tu ajoutes des éléments chaque jour.
 
-Introduire n'est pas la même chose que savoir. La rétention à long terme et l'usage avec confiance prennent plus de temps, avec des révisions répétées et des rencontres en lecture, en écoute et en conversation. Si les mots d'hier disparaissent déjà, réduis le nombre de nouveaux éléments. Ton deck n'a pas besoin de gagner un concours de population.
+Introduire n'est pas la même chose que savoir. La rétention à long terme et l'usage avec confiance prennent plus de temps, avec des révisions répétées et des rencontres en lecture, en écoute et en conversation. Si les mots d'hier disparaissent déjà, réduis le nombre de nouveaux éléments. Ton deck n'a pas à battre des records.
 
 Certains jours, n'ajoute rien de nouveau et travaille plutôt sur les mots difficiles. La révision de vocabulaire de HebrewEdu inclut le retour sur les mots difficiles ; l'habitude utile, c'est de t'entraîner à te les rappeler, quel que soit l'outil de révision que tu utilises.
 

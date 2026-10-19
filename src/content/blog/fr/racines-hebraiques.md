@@ -12,7 +12,7 @@ translationKey: "how-the-hebrew-root-system-works"
 
 Il y a un moment précis qui change la façon dont les apprenants d'hébreu voient la langue.
 
-Tu essaies d'apprendre le mot מכתב (*michtav* — une lettre, celle qu'on envoie par la poste). Et tu remarques qu'il contient les mêmes consonnes que לכתוב (*likhtov* — écrire). Et כתיבה (*ktivah* — l'écriture). Et כתב (*katav* — un journaliste).
+Tu essaies d'apprendre le mot מכתב (*mikhtav* — une lettre, celle qu'on envoie par la poste). Et tu remarques qu'il contient les mêmes consonnes que לכתוב (*likhtov* — écrire). Et כתיבה (*ktivah* — l'écriture). Et כתב (*katav* — un journaliste).
 
 Tu t'arrêtes.
 
@@ -39,7 +39,7 @@ Pour la racine כ-ת-ב (k-t-v), ce sens est : **écrire**.
 | לכתוב | likhtov | écrire |
 | כָּתַב | katav | il a écrit (verbe) |
 | כַּתָּב | katav | journaliste (nom) |
-| מכתב | michtav | lettre (courrier) |
+| מכתב | mikhtav | lettre (courrier) |
 | כתיבה | ktivah | l'acte d'écrire |
 | כותב | kotev | écrivain |
 | הִתְכַּתֵּב | hitkatev | il a correspondu |
@@ -131,7 +131,7 @@ Les mêmes trois consonnes qui te ralentissent en tant que débutant deviennent 
 
 C'est dans les verbes que le système des racines devient le plus spectaculaire.
 
-L'hébreu regroupe les verbes en modèles appelés בנינים (*binianim* — modèles de verbes, singulier *binian*). Une même racine peut produire plusieurs verbes à travers ces modèles, chacun avec un sens qui change de façon systématique.
+L'hébreu regroupe les verbes en modèles appelés בנינים (*binyanim* — modèles de verbes, singulier *binyan*). Une même racine peut produire plusieurs verbes à travers ces modèles, chacun avec un sens qui change de façon systématique.
 
 La racine כ-ת-ב à travers quatre modèles :
 
@@ -142,7 +142,7 @@ La racine כ-ת-ב à travers quatre modèles :
 
 Quatre verbes. Une racine. Des changements de sens systématiques.
 
-Si tu veux explorer ça concrètement, [l'annuaire de verbes d'Alef-Bet Tutor classe les verbes hébreux par racine et par binian](/fr/blog/conjugaison-hebreu/) — 334 verbes à haute fréquence, structurés pour que tu voies toute la famille de mots attachée à chaque racine au même endroit.
+Si tu veux explorer ça concrètement, [le répertoire de verbes d'Alef-Bet Tutor classe les verbes hébreux par racine et par binyan](/fr/blog/conjugaison-hebreu/) — 334 verbes à haute fréquence, structurés pour que tu voies toute la famille de mots attachée à chaque racine au même endroit.
 
 ---
 

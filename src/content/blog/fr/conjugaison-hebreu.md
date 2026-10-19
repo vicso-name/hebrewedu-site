@@ -1,12 +1,12 @@
 ---
-title: "Conjugaison hébreu : 334 verbes classés par binian"
-description: "Conjugaison hébreu : 334 verbes classés par binian, avec nikoud complet et toutes les formes, enfin clairs et faciles à chercher."
+title: "Conjugaison hébreu : 334 verbes classés par binyan"
+description: "Conjugaison hébreu : 334 verbes classés par binyan, avec nikoud complet et toutes les formes, enfin clairs et faciles à chercher."
 pubDate: 2026-10-19
 author: "HebrewEdu Team"
 category: "Nouveautés"
 categoryKey: "productUpdates"
 readingTime: "6 min de lecture"
-tags: ["conjugaison hébreu", "verbes hébreux", "binianim", "grammaire hébraïque", "apprendre l'hébreu"]
+tags: ["conjugaison hébreu", "verbes hébreux", "binyanim", "grammaire hébraïque", "apprendre l'hébreu"]
 translationKey: "meet-the-new-verb-directory"
 ---
 
@@ -25,7 +25,7 @@ Soudain, tout le monde parle de :
 - conjugaisons,
 - préfixes,
 - suffixes,
-- et d'un truc appelé les **binianim**, qui sonne à la fois grammatical et vaguement dangereux.
+- et d'un truc appelé les **binyanim**, qui sonne à la fois grammatical et vaguement dangereux.
 
 **PA'AL. PI'EL. HIF'IL. HITPA'EL.**
 
@@ -47,9 +47,9 @@ Cette question est devenue l'une des plus grosses mises à jour qu'on ait jamais
 
 ---
 
-## Découvre le nouvel annuaire de verbes hébreux dans Alef-Bet Tutor
+## Découvre le nouveau répertoire de verbes hébreux dans Alef-Bet Tutor
 
-On est très fiers de lancer le tout nouvel **annuaire de verbes** — un système magnifiquement structuré, pensé pour les débutants, pour que les verbes hébreux donnent enfin l'impression d'être compréhensibles.
+On est très fiers de lancer le tout nouveau **répertoire de verbes** — un système magnifiquement structuré, pensé pour les débutants, pour que les verbes hébreux donnent enfin l'impression d'être compréhensibles.
 
 Pas chaotique.
 Pas intimidant.
@@ -65,7 +65,7 @@ Tout est pensé avec la même philosophie qui anime Alef-Bet Tutor lui-même :
 
 ---
 
-## Ce qui rend l'annuaire de verbes d'Alef-Bet Tutor différent
+## Ce qui rend le répertoire de verbes d'Alef-Bet Tutor différent
 
 ### **334 verbes hébreux essentiels**
 
@@ -81,13 +81,13 @@ Ce sont des verbes à haute fréquence, utilisés :
 
 ---
 
-### **Binianim en couleur**
+### **Binyanim en couleur**
 
-Une des choses les plus difficiles en hébreu, c'est de comprendre les groupes de verbes (*binianim*).
+Une des choses les plus difficiles en hébreu, c'est de comprendre les groupes de verbes (*binyanim*).
 
 Alors on les a rendus visuels.
 
-Chaque verbe est clairement étiqueté et coloré selon son binian :
+Chaque verbe est clairement étiqueté et coloré selon son binyan :
 - **PA'AL**
 - **PI'EL**
 - **HIF'IL**
@@ -125,7 +125,7 @@ Chaque verbe inclut son système de conjugaison complet, pour que les apprenants
 - la personne,
 - et le nombre.
 
-Ça transforme l'annuaire en bien plus qu'une simple liste de vocabulaire.
+Ça transforme le répertoire en bien plus qu'une simple liste de vocabulaire.
 
 Ça devient un vrai système de référence des verbes hébreux, sur lequel tu peux t'appuyer au quotidien. Comprendre la conjugaison des verbes est aussi un facteur majeur pour [dépasser le stade où tu arrives à lire l'hébreu mais à comprendre très peu](/blog/why-you-can-read-hebrew-but-still-understand-absolutely-nothing/) (en anglais) — reconnaître les verbes à lui seul débloque une part importante du texte courant.
 
@@ -150,7 +150,7 @@ Plus de « mais où j'avais vu ce verbe déjà ? ».
 
 ## Conçu pour les apprenants d'hébreu moderne
 
-L'annuaire de verbes fait partie d'une histoire pédagogique plus large. Lis [comment Learn Hebrew – Read & Speak est passé d'un simple entraîneur d'alphabet à un système d'apprentissage plus large](/blog/story-behind-learn-hebrew-read-speak/) (en anglais) pour le point de vue de son créateur.
+Le répertoire de verbes fait partie d'une histoire pédagogique plus large. Lis [comment Learn Hebrew – Read & Speak est passé d'un simple entraîneur d'alphabet à un système d'apprentissage plus large](/blog/story-behind-learn-hebrew-read-speak/) (en anglais) pour le point de vue de son créateur.
 
 Chez Alef-Bet Tutor, on pense que les outils d'apprentissage des langues devraient donner une impression :
 - propre,
@@ -158,11 +158,11 @@ Chez Alef-Bet Tutor, on pense que les outils d'apprentissage des langues devraie
 - visuellement moderne,
 - et réellement agréable à utiliser.
 
-C'est pour ça que le nouvel annuaire de verbes a été conçu avec une interface premium, sans distraction, qui aide les apprenants à se concentrer sur la compréhension des modèles plutôt qu'à se battre avec une mise en page confuse. Si tu veux voir le tableau d'ensemble des habitudes d'apprentissage de l'hébreu, [un guide de toutes les erreurs courantes des débutants](/blog/how-not-to-learn-hebrew-a-complete-guide-to-failing-efficiently/) (en anglais) est une bonne lecture complémentaire.
+C'est pour ça que le nouveau répertoire de verbes a été conçu avec une interface premium, sans distraction, qui aide les apprenants à se concentrer sur la compréhension des modèles plutôt qu'à se battre avec une mise en page confuse. Si tu veux voir le tableau d'ensemble des habitudes d'apprentissage de l'hébreu, [un guide de toutes les erreurs courantes des débutants](/blog/how-not-to-learn-hebrew-a-complete-guide-to-failing-efficiently/) (en anglais) est une bonne lecture complémentaire.
 
 Que tu :
 - débutes tout juste en hébreu,
-- galères avec les binianim,
+- galères avec les binyanim,
 - ou cherches enfin à organiser tes connaissances de verbes dans ta tête…
 
 cette mise à jour a été construite pour toi.
@@ -171,7 +171,7 @@ cette mise à jour a été construite pour toi.
 
 ## Prêt à enfin comprendre les verbes hébreux ?
 
-Le nouvel annuaire de verbes hébreux est maintenant disponible dans **Alef-Bet Tutor** sur Google Play.
+Le nouveau répertoire de verbes hébreux est maintenant disponible dans **Alef-Bet Tutor** sur Google Play.
 
 Mets à jour l'application — ou commence à apprendre dès aujourd'hui — et découvre une façon plus calme et plus claire de maîtriser l'une des parties les plus difficiles de l'hébreu. Si tu commences tout juste le parcours, [le guide des lettres hébraïques](/fr/blog/lettres-hebraiques/) est le bon point de départ avant d'attaquer les verbes.
 
