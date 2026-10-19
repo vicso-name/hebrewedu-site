@@ -8,12 +8,6 @@ interface Props {
 const { locale = 'en' } = Astro.props;
 const t = getDictionary(locale).home.testimonials;
 
-// src/data/testimonials.ts's `translatedFrom` is a plain English language name
-// (its own display convention, e.g. "Russian"). Only this label is translated
-// for fr — the review quotes themselves stay exactly as that file requires.
-const FR_LANGUAGE_NAMES: Record<string, string> = { Russian: 'russe', Spanish: 'espagnol' };
-const languageName = (name: string) => (locale === 'fr' ? FR_LANGUAGE_NAMES[name] ?? name : name);
-
 // "2026-01-15" -> "Jan 2026" ("janv. 2026" in fr). Formatted in UTC so the build
 // machine's timezone can't shift the month.
 const monthYear = (iso: string) =>
@@ -27,7 +21,7 @@ const monthYear = (iso: string) =>
       <p class="home-lead">
         {t.lead}
       </p>
-      {locale !== 'en' && t.enOnlyNote && <p class="reviews-en-note">{t.enOnlyNote}</p>}
+      {locale !== 'en' && t.translationNote && <p class="reviews-translation-note">{t.translationNote}</p>}
     </header>
   </div>
 
@@ -42,11 +36,11 @@ const monthYear = (iso: string) =>
               <span aria-hidden="true">{'★'.repeat(item.rating)}</span>
             </p>
             <blockquote class="review-quote">
-              <p>{item.text}</p>
+              <p>{locale === 'fr' ? item.fr : item.text}</p>
             </blockquote>
             <figcaption class="review-author">
               <cite>{item.source}</cite> · <time datetime={item.date.slice(0, 7)}>{monthYear(item.date)}</time>
-              {item.translatedFrom && <span class="review-translated">{t.translatedFromPrefix} {languageName(item.translatedFrom)}</span>}
+              {locale === 'en' && item.translatedFrom && <span class="review-translated">{t.translatedFromPrefix} {item.translatedFrom}</span>}
             </figcaption>
           </figure>
         </li>
@@ -71,7 +65,7 @@ const monthYear = (iso: string) =>
   text-align: center;
 }
 .reviews-heading p { margin-top: var(--home-stack); }
-.reviews-en-note { margin-top: var(--space-sm); font-size: 0.875rem; color: var(--home-text-tertiary); }
+.reviews-translation-note { margin-top: var(--space-sm); font-size: 0.875rem; color: var(--home-text-tertiary); }
 
 /* The first card lines up with the page container's left edge (same max-width
    and gutter as .container); the row then runs on past the viewport edge. */

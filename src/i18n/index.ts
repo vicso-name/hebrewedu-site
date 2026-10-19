@@ -178,10 +178,9 @@ export interface Dictionary {
     testimonials: {
       heading: string;
       lead: string;
-      /** Disclosure shown once near the heading: the quotes themselves stay in their
-       *  original language (real customer reviews — see src/data/testimonials.ts's own
-       *  "quoted verbatim, do not rewrite" rule) rather than being newly translated. */
-      enOnlyNote: string;
+      /** Disclosure shown once near the heading when the quotes are translated
+       *  for this locale (src/data/testimonials.ts's `fr` field) — empty/unused on en. */
+      translationNote: string;
       translatedFromPrefix: string;
       starsAriaLabel: (rating: number) => string;
     };

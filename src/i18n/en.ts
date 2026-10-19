@@ -199,7 +199,7 @@ export const en: Dictionary = {
       heading: 'What learners say',
       lead: 'Learning Hebrew looks different for everyone. Here’s what our learners say.',
       // Unused on EN (the quotes are already English) — kept for fr.ts's shape.
-      enOnlyNote: '',
+      translationNote: '',
       translatedFromPrefix: 'Translated from',
       starsAriaLabel: (rating) => `${rating} out of 5 stars`,
     },

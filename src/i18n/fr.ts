@@ -191,7 +191,7 @@ export const fr: Dictionary = {
     testimonials: {
       heading: 'Ce que disent les apprenants',
       lead: "Apprendre l'hébreu se vit différemment selon chacun. Voici ce que disent nos apprenants.",
-      enOnlyNote: '(avis Google Play d’origine, en anglais ou traduits vers l’anglais)',
+      translationNote: 'Traduit de l’anglais.',
       translatedFromPrefix: 'Traduit depuis :',
       starsAriaLabel: (rating) => `${rating} étoiles sur 5`,
     },
