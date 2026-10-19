@@ -422,13 +422,11 @@ const SEO_CORE_EXEMPT = new Set(['/fr/conditions/', '/fr/confidentialite/']);
  *  documented FR synonym pairs below. */
 const KEYWORD_SYNONYMS = [['hebreu', 'hebraique']];
 
-// A page whose title deliberately uses a different spelling from its recorded
-// primary keyword. Resolving one needs real search-volume data for both
-// spellings, which is an owner decision (CLAUDE.md gates paid SEO APIs) — not
-// something this check should force either way.
-const KEYWORD_TITLE_ALLOWLIST = new Map([
-  ['/fr/apprendre/alphabet-hebreu/gimel/', 'keywords.csv records "gimel hébreu" (volume 0) while the page uses the FR research spelling "Guimel"; which spelling to target needs volume data for both'],
-]);
+// Empty: every FR letter page's primary keyword now uses the spelling the page
+// itself uses, decided from French volume + SERP data in
+// docs/seo/research/fr/LETTER_SPELLINGS_FR.md. Keep it empty — if a title and
+// its keyword disagree, redo that research rather than allowlisting the gap.
+const KEYWORD_TITLE_ALLOWLIST = new Map([]);
 const fold = (s) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[’']/g, "'");
 
 function titleCoversKeyword(title, keyword) {

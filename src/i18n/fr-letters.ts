@@ -1,8 +1,12 @@
-// French display names for the 22 Hebrew letters, per the preferred SEO spellings
-// in docs/seo/research/fr/FR_RESEARCH.md's per-letter table (Aleph not Alef, Beth
-// not Bet, Guimel not Gimel, Daleth not Dalet, Heth not Het, Noun not Nun, Pé not
-// Pe, etc.). The lesson pipeline's own slug (src/data/alphabet-course.json) stays
-// the EN one — this is display-only, used by the FR hub and FR lesson pages.
+// French display names for the 22 Hebrew letters. Search-validated against
+// French volume + SERP data in docs/seo/research/fr/LETTER_SPELLINGS_FR.md,
+// which is the source of truth for every SEO-facing letter name. The lesson
+// pipeline's own slug (src/data/alphabet-course.json) stays the EN one — this is
+// display-only, used by the FR hub and FR lesson pages.
+//
+// `dalet` still reads "Daleth" although the research picks "Dalet": that page is
+// published, and retitling a live page is an owner decision (see that doc's
+// "Published pages whose title/H1 still uses the old spelling").
 export const frLetterNames: Record<string, string> = {
   aleph: 'Aleph',
   bet: 'Beth',
@@ -20,7 +24,7 @@ export const frLetterNames: Record<string, string> = {
   nun: 'Noun',
   samekh: 'Samekh',
   ayin: 'Ayin',
-  pe: 'Pé',
+  pe: 'Pe',
   tsadi: 'Tsadi',
   qof: 'Qof',
   resh: 'Resh',

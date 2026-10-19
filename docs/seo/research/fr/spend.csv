@@ -81,3 +81,17 @@ timestamp,endpoint,params_summary,cost_usd,note
 2026-10-19T15:24:56.470Z,/v1/serp/google,"{""query"":""au revoir en hébreu"",""location"":""fr"",""language"":""fr"",""depth"":10}",0.0100,serp q='au revoir en hébreu' (phrases page research)
 2026-10-19T15:25:03.460Z,/v1/serp/google,"{""query"":""merci en hébreu"",""location"":""fr"",""language"":""fr"",""depth"":10}",0.0100,serp q='merci en hébreu' (phrases page research)
 2026-10-19T15:25:10.000Z,TOTAL,"Phrases page research: 10 ideas + 1 overview(52 kw) + 10 serp calls",0.4900,"Phrases-page step subtotal $0.49 of $1.00 cap"
+2026-10-19T18:18:34.745Z,/v1/seo/keywords/overview,"208 keywords, location=fr, language=fr",0.0700,FR letter-name spelling research: 208 candidates (22 letters x variants x 4 patterns)
+2026-10-19T18:19:40.419Z,/v1/serp/google,"{""query"":""daleth hébreu"",""location"":""fr"",""language"":""fr"",""depth"":10}",0.0100,FR letter spelling tie-break: dalet (Daleth vs Dalet)
+2026-10-19T18:19:43.854Z,/v1/serp/google,"{""query"":""heth hébreu"",""location"":""fr"",""language"":""fr"",""depth"":10}",0.0100,FR letter spelling tie-break: chet (Heth vs Het)
+2026-10-19T18:19:50.901Z,/v1/serp/google,"{""query"":""teth hébreu"",""location"":""fr"",""language"":""fr"",""depth"":10}",0.0100,FR letter spelling tie-break: tet (Teth vs Tet)
+2026-10-19T18:19:55.949Z,/v1/serp/google,"{""query"":""noun hébreu"",""location"":""fr"",""language"":""fr"",""depth"":10}",0.0100,FR letter spelling tie-break: nun (Noun vs Nun)
+2026-10-19T18:19:58.919Z,/v1/serp/google,"{""query"":""samekh hébreu"",""location"":""fr"",""language"":""fr"",""depth"":10}",0.0100,FR letter spelling tie-break: samekh (Samekh vs Samech)
+2026-10-19T18:20:04.798Z,/v1/serp/google,"{""query"":""ayin hébreu"",""location"":""fr"",""language"":""fr"",""depth"":10}",0.0100,FR letter spelling tie-break: ayin (Ayin vs Aïn)
+2026-10-19T18:20:09.677Z,/v1/serp/google,"{""query"":""pé hébreu"",""location"":""fr"",""language"":""fr"",""depth"":10}",0.0100,FR letter spelling tie-break: pe (Pé vs Pe)
+2026-10-19T18:20:13.756Z,/v1/serp/google,"{""query"":""tsadé hébreu"",""location"":""fr"",""language"":""fr"",""depth"":10}",0.0100,FR letter spelling tie-break: tsadi (Tsadé vs Tsadi)
+2026-10-19T18:20:17.817Z,/v1/serp/google,"{""query"":""qof hébreu"",""location"":""fr"",""language"":""fr"",""depth"":10}",0.0100,FR letter spelling tie-break: qof (Qof vs Kof)
+2026-10-19T18:20:22.118Z,/v1/serp/google,"{""query"":""resh hébreu"",""location"":""fr"",""language"":""fr"",""depth"":10}",0.0100,FR letter spelling tie-break: resh (Resh vs Rech)
+2026-10-19T18:20:29.000Z,/v1/serp/google,"{""query"":""shin hébreu"",""location"":""fr"",""language"":""fr"",""depth"":10}",0.0100,FR letter spelling tie-break: shin (Shin vs Sin)
+2026-10-19T18:20:32.624Z,/v1/serp/google,"{""query"":""tau hébreu"",""location"":""fr"",""language"":""fr"",""depth"":10}",0.0100,FR letter spelling tie-break: tav (Tau vs Tav)
+2026-10-19T21:20:00.000Z,TOTAL,"FR letter-name spelling research: 1 overview(208 kw -> 120 rows) + 12 serp tie-breaks",0.1900,"Letter-spelling step subtotal $0.19 of $0.50 cap; balance $3.1400 -> $2.9500 (verified via free /v1/account/balance)"
