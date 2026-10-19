@@ -160,7 +160,7 @@ export const fr: Dictionary = {
     appText: 'Découvre HebrewEdu sur ton téléphone pour plus d’apprentissage et de pratique de l’hébreu.',
   },
   home: {
-    title: "Apprendre l'alphabet hébreu et lire l'hébreu | HebrewEdu",
+    title: "Apprendre l'alphabet hébreu et lire l'hébreu",
     seoTitle: "Apprendre l'hébreu : alphabet et lecture",
     description: "Apprends l'alphabet hébreu étape par étape, puis le vocabulaire et les verbes, et commence à lire l'hébreu avec audio et traduction.",
     hero: {

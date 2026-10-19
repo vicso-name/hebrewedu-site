@@ -168,7 +168,7 @@ export const en: Dictionary = {
     appText: 'Explore HebrewEdu on your phone for more Hebrew learning and practice.',
   },
   home: {
-    title: 'Learn the Hebrew Alphabet & Read Hebrew | HebrewEdu',
+    title: 'Learn the Hebrew Alphabet & Read Hebrew',
     seoTitle: 'Hebrew Alphabet App & Reading Practice',
     description: 'Learn the Hebrew alphabet step by step, practise vocabulary and verbs, and start reading beginner Hebrew with audio and translation.',
     hero: {

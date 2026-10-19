@@ -3,6 +3,7 @@ import type { CollectionEntry } from 'astro:content';
 import HebrewText from './HebrewText.astro';
 import { unavailableQuestions, exerciseExplanation, derangedPairOrder } from '../../lib/lessons/presentation.mjs';
 import { getDictionary, type Locale } from '../../i18n';
+import { localizeTypography } from '../../lib/fr-typography.mjs';
 type Lesson = CollectionEntry<'lessons'>['data'];
 interface Props { exercises: Lesson['exercises']; blocks: Lesson['blocks']; letter: string; locale?: Locale }
 const { exercises, blocks, letter, locale = 'en' } = Astro.props;
@@ -20,6 +21,9 @@ const fill = (template: string, values: Record<string, string | number>) =>
 // normalize.mjs stores a TRUE_FALSE option's label as the canonical English
 // 'True'/'False' (schema.mjs enforces it), and grading keys off the option id —
 // so the visible wording is chrome and comes from the dictionary.
+// Snapshot text (prompts, option labels, pair labels, explanations) is
+// corrected for French typography here — see src/lib/fr-typography.mjs.
+const fr = (text: string) => localizeTypography(locale, text);
 const optionLabel = (type: string, label: string) =>
   type !== 'TRUE_FALSE' ? label
   : label === 'True' ? p.booleanLabels.true
@@ -63,31 +67,31 @@ const initialMeter = fill(p.meterTemplate, { answered: 0, total: availableCount 
       <div class="unavailable-question"><p>{p.unavailable.title}</p><p>{p.unavailable.body}</p></div>
       <div class="question-advance" data-enhanced hidden><button type="button" class="btn lesson-primary" data-advance hidden><span data-advance-label>{p.nextQuestion}</span> <span aria-hidden="true">→</span></button></div>
       </> : exercise.type === 'MATCH_PAIRS' ? <>
-      <fieldset><legend><HebrewText text={exercise.prompt} /></legend>
+      <fieldset><legend><HebrewText text={fr(exercise.prompt)} /></legend>
         <div class="match-pairs-board" role="group" aria-label={p.matchBoardAria}>
           <div class="match-pairs-column" data-pairs-side="left">
-            {exercise.pairs.map(pair => <button type="button" class="match-pairs-item" data-pair-id={pair.id} data-pair-side="left" aria-pressed="false" aria-label={p.leftAria(pair.left)}><HebrewText text={pair.left} /></button>)}
+            {exercise.pairs.map(pair => <button type="button" class="match-pairs-item" data-pair-id={pair.id} data-pair-side="left" aria-pressed="false" aria-label={p.leftAria(fr(pair.left))}><HebrewText text={fr(pair.left)} /></button>)}
           </div>
           <div class="match-pairs-column" data-pairs-side="right">
-            {derangedPairOrder(exercise.pairs, exercise.id).map(pair => <button type="button" class="match-pairs-item" data-pair-id={pair.id} data-pair-side="right" aria-pressed="false" aria-label={p.rightAria(pair.right)}><HebrewText text={pair.right} /></button>)}
+            {derangedPairOrder(exercise.pairs, exercise.id).map(pair => <button type="button" class="match-pairs-item" data-pair-id={pair.id} data-pair-side="right" aria-pressed="false" aria-label={p.rightAria(fr(pair.right))}><HebrewText text={fr(pair.right)} /></button>)}
           </div>
         </div>
       </fieldset>
       <p id={`${exercise.id}-feedback`} class="answer-feedback match-pairs-feedback" role="status" aria-live="polite" aria-atomic="true" tabindex="-1"></p>
-      <div class="answer-explanation" data-explanation hidden><p><strong>{p.explanation}</strong></p><p><HebrewText text={exerciseExplanation(exercise, blocks)} /></p></div>
+      <div class="answer-explanation" data-explanation hidden><p><strong>{p.explanation}</strong></p><p><HebrewText text={fr(exerciseExplanation(exercise, blocks))} /></p></div>
       <div class="question-advance" data-enhanced hidden><button type="button" class="btn lesson-primary" data-advance hidden><span data-advance-label>{p.nextQuestion}</span> <span aria-hidden="true">→</span></button></div>
-      <details class="fallback-answer" data-fallback-answer><summary>{p.sourceAnswerSummary}</summary><ul class="match-pairs-answer-key">{exercise.pairs.map(pair => <li><HebrewText text={pair.left} /> {p.pairMatches} <HebrewText text={pair.right} /></li>)}</ul><p><HebrewText text={exerciseExplanation(exercise, blocks)} /></p></details>
+      <details class="fallback-answer" data-fallback-answer><summary>{p.sourceAnswerSummary}</summary><ul class="match-pairs-answer-key">{exercise.pairs.map(pair => <li><HebrewText text={fr(pair.left)} /> {p.pairMatches} <HebrewText text={fr(pair.right)} /></li>)}</ul><p><HebrewText text={fr(exerciseExplanation(exercise, blocks))} /></p></details>
       </> : <>
-      <fieldset><legend><HebrewText text={exercise.prompt} /></legend>
+      <fieldset><legend><HebrewText text={fr(exercise.prompt)} /></legend>
         <div class:list={['answer-options', { 'answer-grid': exercise.type === 'MULTIPLE_CHOICE_GRID', 'answer-boolean': exercise.type === 'TRUE_FALSE' }]}>
-          {exercise.options.map(option => <label class="answer-option" for={option.id}><input type="radio" name={exercise.id} id={option.id} value={option.id} required aria-describedby={`${exercise.id}-feedback`} /><span class:list={{ 'glyph-option': /^[\u0590-\u05FF]+$/u.test(option.label) }}><HebrewText text={optionLabel(exercise.type, option.label)} /></span></label>)}
+          {exercise.options.map(option => <label class="answer-option" for={option.id}><input type="radio" name={exercise.id} id={option.id} value={option.id} required aria-describedby={`${exercise.id}-feedback`} /><span class:list={{ 'glyph-option': /^[\u0590-\u05FF]+$/u.test(option.label) }}><HebrewText text={fr(optionLabel(exercise.type, option.label))} /></span></label>)}
         </div>
       </fieldset>
       <div class="answer-actions" data-enhanced hidden><button type="submit" class="btn lesson-primary">{p.checkAnswer}</button><button type="button" class="btn lesson-secondary" data-retry hidden>{p.retryQuestion}</button></div>
       <p id={`${exercise.id}-feedback`} class="answer-feedback" role="status" aria-live="polite" aria-atomic="true" tabindex="-1"></p>
-      <div class="answer-explanation" data-explanation hidden><p><strong>{p.explanation}</strong></p><p><HebrewText text={exerciseExplanation(exercise, blocks)} /></p></div>
+      <div class="answer-explanation" data-explanation hidden><p><strong>{p.explanation}</strong></p><p><HebrewText text={fr(exerciseExplanation(exercise, blocks))} /></p></div>
       <div class="question-advance" data-enhanced hidden><button type="button" class="btn lesson-primary" data-advance hidden><span data-advance-label>{p.nextQuestion}</span> <span aria-hidden="true">→</span></button></div>
-      <details class="fallback-answer" data-fallback-answer><summary>{p.sourceAnswerSummary}</summary><p><strong>{p.sourceAnswerLabel}</strong><HebrewText text={optionLabel(exercise.type, exercise.options.find(option => option.id === exercise.correctOptionId)!.label)} /></p><p><HebrewText text={exerciseExplanation(exercise, blocks)} /></p></details>
+      <details class="fallback-answer" data-fallback-answer><summary>{p.sourceAnswerSummary}</summary><p><strong>{p.sourceAnswerLabel}</strong><HebrewText text={fr(optionLabel(exercise.type, exercise.options.find(option => option.id === exercise.correctOptionId)!.label))} /></p><p><HebrewText text={fr(exerciseExplanation(exercise, blocks))} /></p></details>
       </>}
     </form>)}
   </div>

@@ -20,6 +20,7 @@ import {
   phraseExercises, frPhraseExercises, phraseVariant, phraseVariantFr, phraseReview, phraseReviewFr,
 } from '../../data/hebrew-phrases';
 import { getDictionary, type Locale, type Alternate } from '../../i18n';
+import { localizeTypography } from '../../lib/fr-typography.mjs';
 
 interface Props {
   locale?: Locale;
@@ -33,9 +34,17 @@ interface Props {
 }
 const { locale = 'en', published, title, description, schema, robots, alternates, langSwitch } = Astro.props;
 const isFr = locale === 'fr';
-const phraseById = (id: string) => phrases.find(phrase => phrase.id === id)!;
-const getVariant = isFr ? phraseVariantFr : phraseVariant;
-const faqItems = isFr ? frPhraseQuestions : phraseQuestions;
+// src/data/hebrew-phrases.ts is pinned by phraseReviewFr's editorial sign-off
+// SHA, so its French copy is corrected on the way to the page instead of at
+// rest — see src/lib/fr-typography.mjs. en passes through untouched.
+const fr = <T,>(value: T): T => localizeTypography(locale, value) as T;
+const phraseById = (id: string) => fr(phrases.find(phrase => phrase.id === id)!);
+const rawVariant = isFr ? phraseVariantFr : phraseVariant;
+const getVariant = (phraseId: string, variantId: string) => fr(rawVariant(phraseId, variantId));
+const faqItems = fr(isFr ? frPhraseQuestions : phraseQuestions);
+const groups = fr(phraseGroups);
+const dialogues = fr(phraseDialogues);
+const exercises = fr(isFr ? frPhraseExercises : phraseExercises);
 const review = isFr ? phraseReviewFr : phraseReview;
 
 const resourcesEn = [
@@ -49,9 +58,9 @@ const resourcesFr = [
   { href: '/fr/apprendre/alphabet-hebreu/', title: "Commence par l'alphabet", description: "Découvre Aleph dans la première leçon publiée." },
   { href: '/fr/', title: 'Construis ton hébreu avec HebrewEdu', description: "Vocabulaire, leçons structurées et lecture pour débutants." },
 ];
-const resources = isFr ? resourcesFr : resourcesEn;
+const resources = fr(isFr ? resourcesFr : resourcesEn);
 
-const t = isFr
+const t = fr(isFr
   ? {
       breadcrumbHome: 'Accueil', breadcrumbPage: 'Phrases',
       preview: 'Aperçu éditorial local · La relecture par un locuteur natif est en attente. Cette page est exclue du build de production.',
@@ -134,7 +143,7 @@ const t = isFr
       editorialReviewedPrefix: ' Editorially reviewed ',
       situationsAria: 'Phrase situations',
       unitLabel: 'phrases',
-    };
+    });
 
 // Anatomy figure/legend example card: coffee-please in EN, water-please in FR (its
 // heading/usage read more naturally as the single worked example in French).
@@ -176,8 +185,8 @@ const anatomyPhraseId = isFr ? 'water-please' : 'coffee-please';
 
       <Section id="phrases">
         <div class="phrases-section-heading"><p class="phrases-eyebrow">{t.phrasesEyebrow}</p><h2 class="display-md">{t.phrasesH2}</h2><p>{t.phrasesLead}</p></div>
-        <SituationTiles groups={phraseGroups.map(g => ({ ...g, title: isFr ? g.frTitle ?? g.title : g.title, description: isFr ? g.frDescription ?? g.description : g.description }))} ariaLabel={t.situationsAria} unitLabel={t.unitLabel} />
-        {phraseGroups.map((group, groupIndex) => <>
+        <SituationTiles groups={groups.map(g => ({ ...g, title: isFr ? g.frTitle ?? g.title : g.title, description: isFr ? g.frDescription ?? g.description : g.description }))} ariaLabel={t.situationsAria} unitLabel={t.unitLabel} />
+        {groups.map((group, groupIndex) => <>
           <div class="phrase-group" id={group.id} role="region" aria-labelledby={`${group.id}-title`}>
             <header class="phrase-group-heading"><div><h3 id={`${group.id}-title`}>{isFr ? group.frTitle ?? group.title : group.title}</h3><p>{isFr ? group.frDescription ?? group.description : group.description}</p></div></header>
             <div class="phrase-grid" role="list">{group.phrases.map((phrase) => <PhraseCard phrase={phrase} id={`phrase-${phrase.id}`} locale={locale} />)}</div>
@@ -188,7 +197,7 @@ const anatomyPhraseId = isFr ? 'water-please' : 'coffee-please';
 
       <Section surface="soft" id="examples">
         <div class="phrases-section-heading"><p class="phrases-eyebrow">{t.examplesEyebrow}</p><h2 class="display-md">{t.examplesH2}</h2><p>{t.examplesLead}</p></div>
-        <div class="phrase-dialogues">{phraseDialogues.map(dialogue => <div class="phrase-dialogue" data-phrase-dialogue={dialogue.id}>
+        <div class="phrase-dialogues">{dialogues.map(dialogue => <div class="phrase-dialogue" data-phrase-dialogue={dialogue.id}>
           <h3>{isFr ? dialogue.frTitle : dialogue.title}</h3><p class="phrase-dialogue-setting">{isFr ? dialogue.frSetting : dialogue.setting}</p>
           <ol>{dialogue.turns.map(turn => {
             const variant = getVariant(turn.phraseId, turn.variantId);
@@ -199,7 +208,7 @@ const anatomyPhraseId = isFr ? 'water-please' : 'coffee-please';
 
       <Section id="practice">
         <div class="phrases-section-heading"><p class="phrases-eyebrow">{t.practiceEyebrow}</p><h2 class="display-md">{t.practiceH2}</h2><p>{t.practiceLead}</p></div>
-        <PhrasePractice locale={locale} exercises={isFr ? frPhraseExercises : phraseExercises} />
+        <PhrasePractice locale={locale} exercises={exercises} />
       </Section>
 
       <CtaPanel id="phrases-app" compact>
