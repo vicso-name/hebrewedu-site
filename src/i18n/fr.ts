@@ -63,8 +63,8 @@ export const fr: Dictionary = {
     },
   },
   hub: {
-    pageTitle: 'Alphabet hébreu : les 22 lettres expliquées',
-    pageDescription: "Découvrez les 22 lettres de l'alphabet hébreu, leur prononciation, les lettres finales et des conseils pour apprendre à lire l'hébreu étape par étape.",
+    pageTitle: "Cours d'alphabet hébreu pour débutants",
+    pageDescription: "Apprenez l'alphabet hébreu étape par étape, avec des explications, des exemples et des exercices interactifs pour débutants. Commencez avec Aleph.",
     skipToCourse: 'Aller au cours',
     eyebrow: 'Cours alphabet hébreu · Pour débutants',
     title: "Apprendre l'alphabet hébreu étape par étape",
