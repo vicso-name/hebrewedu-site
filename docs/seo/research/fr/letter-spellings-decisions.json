@@ -1,0 +1,617 @@
+[
+ {
+  "slug": "aleph",
+  "chosen": "Aleph",
+  "primaryKeyword": "lettre aleph",
+  "volume": 70,
+  "runnerUp": "Alef (30)",
+  "basis": "volume",
+  "reason": "Highest qualified volume: \"lettre aleph\" 70 vs Alef 30.",
+  "scored": [
+   {
+    "name": "Aleph",
+    "volume": 70,
+    "keyword": "lettre aleph",
+    "bareVolume": 5400
+   },
+   {
+    "name": "Alef",
+    "volume": 30,
+    "keyword": "alef hébreu",
+    "bareVolume": 4400
+   }
+  ],
+  "secondaryKeywords": [
+   "aleph hébreu",
+   "lettre hébraïque aleph",
+   "alef hébreu"
+  ]
+ },
+ {
+  "slug": "bet",
+  "chosen": "Beth",
+  "primaryKeyword": "lettre beth",
+  "volume": 40,
+  "runnerUp": "Bet (0)",
+  "basis": "volume",
+  "reason": "Highest qualified volume: \"lettre beth\" 40 vs Bet 0.",
+  "scored": [
+   {
+    "name": "Beth",
+    "volume": 40,
+    "keyword": "lettre beth",
+    "bareVolume": 1300
+   },
+   {
+    "name": "Bet",
+    "volume": 0,
+    "keyword": "bet hébreu",
+    "bareVolume": 18100
+   },
+   {
+    "name": "Beit",
+    "volume": 0,
+    "keyword": "beit hébreu",
+    "bareVolume": 170
+   }
+  ],
+  "secondaryKeywords": [
+   "beth hébreu",
+   "lettre hébraïque beth"
+  ]
+ },
+ {
+  "slug": "gimel",
+  "chosen": "Guimel",
+  "primaryKeyword": "lettre guimel",
+  "volume": 30,
+  "runnerUp": "Gimel (0)",
+  "basis": "volume",
+  "reason": "Highest qualified volume: \"lettre guimel\" 30 vs Gimel 0.",
+  "scored": [
+   {
+    "name": "Guimel",
+    "volume": 30,
+    "keyword": "lettre guimel",
+    "bareVolume": 170
+   },
+   {
+    "name": "Gimel",
+    "volume": 0,
+    "keyword": "gimel hébreu",
+    "bareVolume": 1600
+   },
+   {
+    "name": "Ghimel",
+    "volume": 0,
+    "keyword": "ghimel hébreu",
+    "bareVolume": 20
+   }
+  ],
+  "secondaryKeywords": []
+ },
+ {
+  "slug": "dalet",
+  "chosen": "Dalet",
+  "primaryKeyword": "dalet hébreu",
+  "volume": 10,
+  "runnerUp": "Daleth (10)",
+  "basis": "SERP titles",
+  "reason": "Volumes tied or <=10 (Daleth 10, Dalet 10); FR SERP for \"daleth hébreu\" shows Daleth 1, Dalet 3 in top-10 titles.",
+  "scored": [
+   {
+    "name": "Daleth",
+    "volume": 10,
+    "keyword": "lettre hébraïque daleth",
+    "bareVolume": 140
+   },
+   {
+    "name": "Dalet",
+    "volume": 10,
+    "keyword": "dalet hébreu",
+    "bareVolume": 480
+   }
+  ],
+  "secondaryKeywords": [
+   "lettre hébraïque daleth"
+  ]
+ },
+ {
+  "slug": "he",
+  "chosen": "Hé",
+  "primaryKeyword": "lettre hé",
+  "volume": 30,
+  "runnerUp": "He (0)",
+  "basis": "volume",
+  "reason": "Highest qualified volume: \"lettre hé\" 30 vs He 0.",
+  "scored": [
+   {
+    "name": "Hé",
+    "volume": 30,
+    "keyword": "lettre hé",
+    "bareVolume": 2400
+   },
+   {
+    "name": "He",
+    "volume": 0,
+    "keyword": "he hébreu",
+    "bareVolume": 0
+   }
+  ],
+  "secondaryKeywords": [
+   "lettre hébraïque hé"
+  ]
+ },
+ {
+  "slug": "vav",
+  "chosen": "Vav",
+  "primaryKeyword": "lettre vav",
+  "volume": 40,
+  "runnerUp": "Waw (30)",
+  "basis": "volume",
+  "reason": "Highest qualified volume: \"lettre vav\" 40 vs Waw 30.",
+  "scored": [
+   {
+    "name": "Vav",
+    "volume": 40,
+    "keyword": "lettre vav",
+    "bareVolume": 1300
+   },
+   {
+    "name": "Waw",
+    "volume": 30,
+    "keyword": "lettre waw",
+    "bareVolume": 1900
+   }
+  ],
+  "secondaryKeywords": [
+   "vav hébreu",
+   "lettre waw",
+   "lettre hébraïque vav"
+  ]
+ },
+ {
+  "slug": "zayin",
+  "chosen": "Zayin",
+  "primaryKeyword": "lettre zayin",
+  "volume": 20,
+  "runnerUp": "Zain (0)",
+  "basis": "volume",
+  "reason": "Highest qualified volume: \"lettre zayin\" 20 vs Zain 0.",
+  "scored": [
+   {
+    "name": "Zayin",
+    "volume": 20,
+    "keyword": "lettre zayin",
+    "bareVolume": 110
+   },
+   {
+    "name": "Zain",
+    "volume": 0,
+    "keyword": "zain hébreu",
+    "bareVolume": 2400
+   }
+  ],
+  "secondaryKeywords": []
+ },
+ {
+  "slug": "chet",
+  "chosen": "Heth",
+  "primaryKeyword": "heth hébreu",
+  "volume": 0,
+  "runnerUp": "Het (0)",
+  "basis": "SERP titles",
+  "reason": "Volumes tied or <=10 (Heth 0, Het 0, Hhet 0); FR SERP for \"heth hébreu\" shows Heth 3, Het 2, Hhet 0 in top-10 titles.",
+  "scored": [
+   {
+    "name": "Heth",
+    "volume": 0,
+    "keyword": "heth hébreu",
+    "bareVolume": 2400
+   },
+   {
+    "name": "Het",
+    "volume": 0,
+    "keyword": "het hébreu",
+    "bareVolume": 2900
+   },
+   {
+    "name": "Hhet",
+    "volume": 0,
+    "keyword": "hhet hébreu",
+    "bareVolume": 0
+   }
+  ],
+  "secondaryKeywords": []
+ },
+ {
+  "slug": "tet",
+  "chosen": "Teth",
+  "primaryKeyword": "teth hébreu",
+  "volume": 0,
+  "runnerUp": "Tet (0)",
+  "basis": "SERP titles",
+  "reason": "Volumes tied or <=10 (Teth 0, Tet 0); FR SERP for \"teth hébreu\" shows Teth 2, Tet 0 in top-10 titles.",
+  "scored": [
+   {
+    "name": "Teth",
+    "volume": 0,
+    "keyword": "teth hébreu",
+    "bareVolume": 320
+   },
+   {
+    "name": "Tet",
+    "volume": 0,
+    "keyword": "tet hébreu",
+    "bareVolume": 14800
+   }
+  ],
+  "secondaryKeywords": []
+ },
+ {
+  "slug": "yod",
+  "chosen": "Yod",
+  "primaryKeyword": "yod hébreu",
+  "volume": 50,
+  "runnerUp": "Youd (0)",
+  "basis": "volume",
+  "reason": "Highest qualified volume: \"yod hébreu\" 50 vs Youd 0.",
+  "scored": [
+   {
+    "name": "Yod",
+    "volume": 50,
+    "keyword": "yod hébreu",
+    "bareVolume": 1900
+   },
+   {
+    "name": "Youd",
+    "volume": 0,
+    "keyword": "youd hébreu",
+    "bareVolume": 301000
+   }
+  ],
+  "secondaryKeywords": [
+   "lettre yod",
+   "lettre hébraïque yod"
+  ]
+ },
+ {
+  "slug": "kaf",
+  "chosen": "Kaf",
+  "primaryKeyword": "lettre kaf",
+  "volume": 210,
+  "runnerUp": "Kaph (10)",
+  "basis": "volume",
+  "reason": "Highest qualified volume: \"lettre kaf\" 210 vs Kaph 10.",
+  "scored": [
+   {
+    "name": "Kaf",
+    "volume": 210,
+    "keyword": "lettre kaf",
+    "bareVolume": 1300
+   },
+   {
+    "name": "Kaph",
+    "volume": 10,
+    "keyword": "lettre kaph",
+    "bareVolume": 50
+   },
+   {
+    "name": "Khaf",
+    "volume": 0,
+    "keyword": "khaf hébreu",
+    "bareVolume": 260
+   }
+  ],
+  "secondaryKeywords": [
+   "lettre kaph"
+  ]
+ },
+ {
+  "slug": "lamed",
+  "chosen": "Lamed",
+  "primaryKeyword": "lettre lamed",
+  "volume": 40,
+  "runnerUp": "Lamedh (0)",
+  "basis": "volume",
+  "reason": "Highest qualified volume: \"lettre lamed\" 40 vs Lamedh 0.",
+  "scored": [
+   {
+    "name": "Lamed",
+    "volume": 40,
+    "keyword": "lettre lamed",
+    "bareVolume": 480
+   },
+   {
+    "name": "Lamedh",
+    "volume": 0,
+    "keyword": "lamedh hébreu",
+    "bareVolume": 10
+   }
+  ],
+  "secondaryKeywords": [
+   "lettre hébraïque lamed"
+  ]
+ },
+ {
+  "slug": "mem",
+  "chosen": "Mem",
+  "primaryKeyword": "lettre hébraïque mem",
+  "volume": 90,
+  "runnerUp": "—",
+  "basis": "only spelling",
+  "reason": "No competing French spelling in use; volume 90 on \"lettre hébraïque mem\".",
+  "scored": [
+   {
+    "name": "Mem",
+    "volume": 90,
+    "keyword": "lettre hébraïque mem",
+    "bareVolume": 6600
+   }
+  ],
+  "secondaryKeywords": [
+   "lettre mem"
+  ]
+ },
+ {
+  "slug": "nun",
+  "chosen": "Noun",
+  "primaryKeyword": "lettre noun",
+  "volume": 70,
+  "runnerUp": "Nun (20)",
+  "basis": "volume",
+  "reason": "Highest qualified volume: \"lettre noun\" 70 vs Nun 20.",
+  "scored": [
+   {
+    "name": "Noun",
+    "volume": 70,
+    "keyword": "lettre noun",
+    "bareVolume": 3600
+   },
+   {
+    "name": "Nun",
+    "volume": 20,
+    "keyword": "lettre nun",
+    "bareVolume": 2900
+   }
+  ],
+  "secondaryKeywords": [
+   "lettre nun",
+   "lettre hébraïque noun"
+  ]
+ },
+ {
+  "slug": "samekh",
+  "chosen": "Samekh",
+  "primaryKeyword": "samekh hébreu",
+  "volume": 0,
+  "runnerUp": "Samech (0)",
+  "basis": "SERP titles",
+  "reason": "Volumes tied or <=10 (Samekh 0, Samech 0); FR SERP for \"samekh hébreu\" shows Samekh 5, Samech 0 in top-10 titles.",
+  "scored": [
+   {
+    "name": "Samekh",
+    "volume": 0,
+    "keyword": "samekh hébreu",
+    "bareVolume": 50
+   },
+   {
+    "name": "Samech",
+    "volume": 0,
+    "keyword": "samech hébreu",
+    "bareVolume": 30
+   }
+  ],
+  "secondaryKeywords": []
+ },
+ {
+  "slug": "ayin",
+  "chosen": "Ayin",
+  "primaryKeyword": "ayin hébreu",
+  "volume": 10,
+  "runnerUp": "Aïn (0)",
+  "basis": "SERP titles",
+  "reason": "Volumes tied or <=10 (Ayin 10, Aïn 0); FR SERP for \"ayin hébreu\" shows Ayin 6, Aïn 0 in top-10 titles.",
+  "scored": [
+   {
+    "name": "Ayin",
+    "volume": 10,
+    "keyword": "ayin hébreu",
+    "bareVolume": 320
+   },
+   {
+    "name": "Aïn",
+    "volume": 0,
+    "keyword": "aïn hébreu",
+    "bareVolume": 0
+   }
+  ],
+  "secondaryKeywords": [
+   "lettre ayin"
+  ]
+ },
+ {
+  "slug": "pe",
+  "chosen": "Pe",
+  "primaryKeyword": "pe hébreu",
+  "volume": 0,
+  "runnerUp": "Pé (0)",
+  "basis": "SERP titles",
+  "reason": "Volumes tied or <=10 (Pé 0, Pe 0, Fé 0); FR SERP for \"pé hébreu\" shows Pé 1, Pe 2, Fé 0 in top-10 titles.",
+  "scored": [
+   {
+    "name": "Pé",
+    "volume": 0,
+    "keyword": "pé hébreu",
+    "bareVolume": 880
+   },
+   {
+    "name": "Pe",
+    "volume": 0,
+    "keyword": "pe hébreu",
+    "bareVolume": 22200
+   },
+   {
+    "name": "Fé",
+    "volume": 0,
+    "keyword": "fé hébreu",
+    "bareVolume": 22200
+   }
+  ],
+  "secondaryKeywords": []
+ },
+ {
+  "slug": "tsadi",
+  "chosen": "Tsadi",
+  "primaryKeyword": "tsadi hébreu",
+  "volume": 0,
+  "runnerUp": "Tsadé (10)",
+  "basis": "SERP titles",
+  "reason": "Volumes tied or <=10 (Tsadé 10, Tsadi 0, Tsadik 0); FR SERP for \"tsadé hébreu\" shows Tsadé 0, Tsadi 1, Tsadik 0 in top-10 titles.",
+  "scored": [
+   {
+    "name": "Tsadé",
+    "volume": 10,
+    "keyword": "lettre tsadé",
+    "bareVolume": 30
+   },
+   {
+    "name": "Tsadi",
+    "volume": 0,
+    "keyword": "tsadi hébreu",
+    "bareVolume": 20
+   },
+   {
+    "name": "Tsadik",
+    "volume": 0,
+    "keyword": "tsadik hébreu",
+    "bareVolume": 320
+   }
+  ],
+  "secondaryKeywords": [
+   "lettre tsadé"
+  ]
+ },
+ {
+  "slug": "qof",
+  "chosen": "Qof",
+  "primaryKeyword": "lettre qof",
+  "volume": 10,
+  "runnerUp": "Kof (0)",
+  "basis": "SERP titles",
+  "reason": "Volumes tied or <=10 (Qof 10, Kof 0, Koph 0); FR SERP for \"qof hébreu\" shows Qof 8, Kof 0, Koph 0 in top-10 titles.",
+  "scored": [
+   {
+    "name": "Qof",
+    "volume": 10,
+    "keyword": "lettre qof",
+    "bareVolume": 90
+   },
+   {
+    "name": "Kof",
+    "volume": 0,
+    "keyword": "kof hébreu",
+    "bareVolume": 1000
+   },
+   {
+    "name": "Koph",
+    "volume": 0,
+    "keyword": "koph hébreu",
+    "bareVolume": 0
+   }
+  ],
+  "secondaryKeywords": []
+ },
+ {
+  "slug": "resh",
+  "chosen": "Resh",
+  "primaryKeyword": "resh hébreu",
+  "volume": 0,
+  "runnerUp": "Rech (0)",
+  "basis": "SERP titles",
+  "reason": "Volumes tied or <=10 (Resh 0, Rech 0); FR SERP for \"resh hébreu\" shows Resh 6, Rech 0 in top-10 titles.",
+  "scored": [
+   {
+    "name": "Resh",
+    "volume": 0,
+    "keyword": "resh hébreu",
+    "bareVolume": 210
+   },
+   {
+    "name": "Rech",
+    "volume": 0,
+    "keyword": "rech hébreu",
+    "bareVolume": 1900
+   }
+  ],
+  "secondaryKeywords": []
+ },
+ {
+  "slug": "shin",
+  "chosen": "Shin",
+  "primaryKeyword": "lettre shin",
+  "volume": 90,
+  "runnerUp": "Sin (40)",
+  "basis": "volume",
+  "reason": "Highest qualified volume: \"lettre shin\" 90 vs Sin 40.",
+  "scored": [
+   {
+    "name": "Shin",
+    "volume": 90,
+    "keyword": "lettre shin",
+    "bareVolume": 8100
+   },
+   {
+    "name": "Sin",
+    "volume": 40,
+    "keyword": "lettre sin",
+    "bareVolume": 9900
+   },
+   {
+    "name": "Chin",
+    "volume": 0,
+    "keyword": "chin hébreu",
+    "bareVolume": 3600
+   }
+  ],
+  "secondaryKeywords": [
+   "shin hébreu",
+   "lettre sin",
+   "lettre hébraïque shin"
+  ]
+ },
+ {
+  "slug": "tav",
+  "chosen": "Tav",
+  "primaryKeyword": "tav hébreu",
+  "volume": 50,
+  "runnerUp": "Tau (210)",
+  "basis": "relevance override",
+  "reason": "\"lettre tau\" (210) and every \"Tau\" title on the FR SERP are the Greek letter τ, the Tau cross or a dictionary entry — the one Hebrew-letter result (\"127- La lettre Tav\") uses Tav, and fr.wikipedia's article is Tav. The raw volume leader measures Greek demand, not this letter.",
+  "scored": [
+   {
+    "name": "Tau",
+    "volume": 210,
+    "keyword": "lettre tau",
+    "bareVolume": 8100
+   },
+   {
+    "name": "Tav",
+    "volume": 50,
+    "keyword": "tav hébreu",
+    "bareVolume": 2400
+   },
+   {
+    "name": "Thav",
+    "volume": 0,
+    "keyword": "thav hébreu",
+    "bareVolume": 0
+   }
+  ],
+  "secondaryKeywords": [
+   "lettre tau",
+   "lettre tav",
+   "lettre hébraïque tav"
+  ]
+ }
+]
