@@ -14,9 +14,9 @@
       "detail": "Les quatre énoncés vrai/faux de la source brute étaient tous marqués vrai. Q9 (sourceIndex 8) a été reformulé et basculé en faux, pour une vraie réponse fausse, cohérent avec le choix déjà fait côté EN."
     },
     {
-      "id": "english-leftover-matchpairs-holdout",
-      "summary": "Exercice MATCH_PAIRS retiré (reliquat anglais)",
-      "detail": "Les clés de l'exercice MATCH_PAIRS source utilisent les abréviations anglaises « w/ » et « w/o » (ex. « (א) w/ Patah »), affichées telles quelles aux lecteurs francophones. contentOverrides ne permet de corriger que content/tip/correctAnswer, jamais les données pairs ; retiré plutôt que d'afficher un reliquat anglais dans un contenu français."
+      "id": "english-leftover-matchpairs-fixed-upstream",
+      "summary": "Exercice MATCH_PAIRS restauré (clés corrigées côté admin)",
+      "detail": "Les clés de l'exercice MATCH_PAIRS source utilisaient les abréviations anglaises « w/ » et « w/o » (ex. « (א) w/ Patah »), affichées telles quelles aux lecteurs francophones ; auparavant retenu faute de voie de correction (contentOverrides ne patch pas les données pairs). Corrigé en amont dans l'admin (clés désormais language-neutral : אַ, ב, בּ) ; snapshot FR re-synchronisé (2026-10-19T14-27-18-905Z-bdf614-fr) et exercice restauré."
     }
   ],
   "illustrations": {
@@ -99,16 +99,11 @@
         "reason": "Duplique l'exemple בָּא du bloc 5 (même mot, même transcription, traduction quasi identique) ; retenu plutôt que de republier un doublon."
       }
     ],
-    "exercises": [
-      {
-        "sourceIndex": 12,
-        "reason": "MATCH_PAIRS dont les clés affichées contiennent des abréviations anglaises (« w/ », « w/o »). contentOverrides ne peut pas corriger les données pairs ; aucune voie de correction en place, donc retenu plutôt que d'afficher un reliquat anglais."
-      }
-    ]
+    "exercises": []
   },
   "source": {
-    "rawSnapshotPath": ".local/alphabet-course-imports/v1/2026-10-19T13-29-22-681Z-6a7123-fr/raw/lesson-2.raw.json",
-    "sha256": "12fff26133e2b0a740f66ceae8968e8cdf481027260469faa55012f6644a3826",
-    "responseDate": "2026-10-19T13:29:22.683Z"
+    "rawSnapshotPath": ".local/alphabet-course-imports/v1/2026-10-19T14-27-18-905Z-bdf614-fr/raw/lesson-2.raw.json",
+    "sha256": "0726e04d679d8be5b322021567ed606b764bc1936f7079dcbcce830413afae02",
+    "responseDate": "2026-10-19T14:27:20.768Z"
   }
 }
