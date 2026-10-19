@@ -4,11 +4,15 @@ Texte intégral de la leçon FR normalisée (`src/content/lessons/fr/aleph.json`
 rendu en clair pour relecture éditoriale. N'est pas publié : préparé sur la
 branche `feat/fr-backfill`, en attente de validation.
 
+Mis à jour après l'application de la politique éditoriale FR (registre
+"tu", double mention Aleph/Alef, pas de tiret cadratin en meta, "Kamats
+Gadol", "À retenir", parité de durée vocalique avec la version EN).
+
 Title (balise `<title>` / `og:title`) : Aleph (א) : lettre hébraïque, son et
 exemples
 
 Meta description : Apprends la lettre hébraïque Aleph (א) et ses trois
-signes vocaliques — Patah, Kamatz Gadol, Hataf-Patah — avec explications
+signes vocaliques : Patah, Kamats Gadol et Hataf-Patah, avec explications
 simples et exercices.
 
 H1 : Aleph (א) : lettre hébraïque, son et exemples
@@ -17,12 +21,12 @@ H1 : Aleph (א) : lettre hébraïque, son et exemples
 
 **Découvre Aleph**
 
-La première lettre de l'alphabet hébreu. Commence par la lettre elle-même,
-puis observe les signes qui l'accompagnent.
+La première lettre de l'alphabet hébreu : Aleph (Alef). Commence par la
+lettre elle-même, puis observe les signes qui l'accompagnent.
 
 Ce que tu vas apprendre :
 - Reconnaître Aleph : א.
-- Distinguer le Patah, le Kamatz Gadol et le Hataf-Patah par leur forme.
+- Distinguer le Patah, le Kamats Gadol et le Hataf-Patah par leur forme.
 - Identifier ces signes vocaliques dans des exercices pour débutants.
 
 L'hébreu s'écrit généralement avec des lettres consonantiques, mais
@@ -69,12 +73,10 @@ deux points superposés à sa droite. Il se place sous la consonne.
 (Équivalent textuel : Alef avec un trait horizontal accompagné de deux
 points sous la lettre.)
 
-Alef avec un Hataf-Patah (אֲ) se lit [a], comme le « a » dans « sac ». Ce
-signe est traditionnellement associé à une voyelle réduite et très brève.
-Pour lire l'hébreu moderne, tu n'as pas besoin de distinguer ce son de celui
-du Patah par sa durée.
+Avec un Hataf-Patah (אֲ), Alef se lit avec un [a] réduit. En hébreu
+moderne, il se prononce [a], comme avec le Patah et le Kamats Gadol.
 
-**Conclusions**
+**À retenir**
 
 Tu sais maintenant reconnaître trois signes de niqqoud utilisés avec Alef
 (א) : Patah (אַ), Kamats Gadol (אָ) et Hataf-Patah (אֲ). En hébreu moderne
@@ -210,3 +212,8 @@ lire en contexte.
   espace normale — voir `docs/hebrew-alphabet-editorial-rules.fr.md`.
 - Trois illustrations restent provisoires (image retenue en attente
   d'approbation), comme pour Aleph EN.
+- Le bloc "À retenir" (sourceIndex 9) a été renommé depuis la source brute,
+  qui utilisait littéralement "Conclusions" (calque de l'anglais).
+- Le bloc sur le Hataf-Patah (sourceIndex 8) a été réécrit pour retirer
+  l'affirmation de durée ("très brève"), par parité avec la correction déjà
+  approuvée sur la version EN du même bloc.

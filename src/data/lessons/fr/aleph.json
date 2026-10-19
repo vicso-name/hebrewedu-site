@@ -1,7 +1,7 @@
 {
   "slug": "aleph",
   "title": "Aleph (א) : lettre hébraïque, son et exemples",
-  "description": "Apprends la lettre hébraïque Aleph (א) et ses trois signes vocaliques — Patah, Kamatz Gadol, Hataf-Patah — avec explications simples et exercices.",
+  "description": "Apprends la lettre hébraïque Aleph (א) et ses trois signes vocaliques : Patah, Kamats Gadol et Hataf-Patah, avec explications simples et exercices.",
   "editorialIssues": [
     {
       "id": "provisional-media",
@@ -22,6 +22,16 @@
       "id": "fr-typography",
       "summary": "Espaces insécables avant la ponctuation et dans les guillemets français",
       "detail": "La source brute FR utilise par endroits une espace normale avant « : ; ? ! » et autour des guillemets « » au lieu d'une espace insécable (convention typographique française, voir docs/hebrew-alphabet-editorial-rules.fr.md). Corrigé via contentOverrides."
+    },
+    {
+      "id": "vowel-length-en-parity",
+      "summary": "Durée vocalique retirée (parité avec la correction EN)",
+      "detail": "Le bloc 9 (sourceIndex 8) décrivait le Hataf-Patah comme une voyelle « très brève » (une affirmation de durée). La version EN du même bloc a retiré cette affirmation et l'a remplacée par une équivalence simple avec [a]. Appliqué de la même façon en FR via contentOverrides, pour que les deux locales traitent la même affirmation de la même manière (voir docs/hebrew-alphabet-editorial-rules.fr.md)."
+    },
+    {
+      "id": "heading-conclusions-renamed",
+      "summary": "Titre « Conclusions » renommé « À retenir »",
+      "detail": "La source brute FR utilisait littéralement « Conclusions » (calque de l'anglais) comme titre de sous-section. Renommé « À retenir » via contentOverrides, et consigné dans docs/hebrew-alphabet-editorial-rules.fr.md pour s'appliquer à toute future leçon FR dont la source utilise ce même titre."
     }
   ],
   "illustrations": {
@@ -45,9 +55,10 @@
     "blocks": {
       "3": "Alef avec un Patah se prononce [a], comme le « a » dans « sac ». Pour rappel, ce signe se présente comme un simple trait horizontal sous la lettre.",
       "5": "En hébreu moderne, Alef avec un Kamats Gadol se prononce [a], comme le « a » dans « sac » : c'est le même son qu'avec un Patah.",
-      "8": "Alef avec un Hataf-Patah (אֲ) se lit [a], comme le « a » dans « sac ». Ce signe est traditionnellement associé à une voyelle réduite et très brève. Pour lire l'hébreu moderne, tu n'as pas besoin de distinguer ce son de celui du Patah par sa durée.",
+      "8": "Avec un Hataf-Patah (אֲ), Alef se lit avec un [a] réduit. En hébreu moderne, il se prononce [a], comme avec le Patah et le Kamats Gadol.",
       "10": "Tu sais maintenant reconnaître trois signes de niqqoud utilisés avec Alef (א) : Patah (אַ), Kamats Gadol (אָ) et Hataf-Patah (אֲ). En hébreu moderne courant, les trois se lisent ici avec le son [a]. Le Hataf-Patah est un signe de voyelle réduite. Entraîne-toi à reconnaître leurs formes et à les lire en contexte.",
-      "0": "Aleph (א) : lettre hébraïque, son et exemples"
+      "0": "Aleph (א) : lettre hébraïque, son et exemples",
+      "9": "À retenir"
     },
     "exercises": {
       "2": {
@@ -137,11 +148,11 @@
   "copy": {
     "theory": {
       "heading": "Découvre Aleph",
-      "intro": "La première lettre de l'alphabet hébreu. Commence par la lettre elle-même, puis observe les signes qui l'accompagnent.",
+      "intro": "La première lettre de l'alphabet hébreu : Aleph (Alef). Commence par la lettre elle-même, puis observe les signes qui l'accompagnent.",
       "objectivesHeading": "Ce que tu vas apprendre",
       "objectives": [
         "Reconnaître Aleph : <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">א</bdi>.",
-        "Distinguer le Patah, le Kamatz Gadol et le Hataf-Patah par leur forme.",
+        "Distinguer le Patah, le Kamats Gadol et le Hataf-Patah par leur forme.",
         "Identifier ces signes vocaliques dans des exercices pour débutants."
       ],
       "secondSectionHeading": "Comment fonctionnent les signes vocaliques",

@@ -97,8 +97,14 @@ is published (enforced by `validatePublicationManifest` in
 - Write docs/hebrew-alphabet-lesson-<N>-fr-editorial-review.md, same
   original | problem | correction | confidence | decision shape.
 - Apply `docs/hebrew-alphabet-editorial-rules.fr.md`: the EN rules it marks
-  language-neutral, plus its FR-specific rules (letter-name spelling,
-  transliteration conventions, French typography/nbsp, no English
+  language-neutral, plus its FR-specific rules (register — "tu," never
+  "vous," including in `src/i18n/fr.ts` and FR home/hub copy; letter-name
+  spelling, with both spellings on the first mention when the app and SEO
+  spellings differ; vowel-sign names following the app spelling, with the
+  hub's one "niqqoud (nikoud)" cross-reference; no em dash in meta;
+  "Conclusions" → "À retenir"; vowel-length statements mirroring whatever
+  the approved EN `contentOverrides` did for the same `sourceIndex`;
+  transliteration conventions; French typography/nbsp; no English
   leftovers). Do not apply the EN file's English-wording-specific rules
   (e.g. its literal title-pattern string) to FR content.
 - Owner decisions needed list follows the same bar as EN's.

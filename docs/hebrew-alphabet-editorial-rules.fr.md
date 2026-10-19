@@ -43,6 +43,22 @@ FR raw source and FR copy exactly as written in the EN file:
 
 ## FR-specific rules
 
+### Register: "tu," never "vous"
+
+All agent-written FR copy — the dictionary (`src/i18n/fr.ts`), FR home/hub
+page copy, lesson `copy.*` fields, and any future FR-only page — uses the
+informal "tu" register throughout: "tu," "ton/ta/tes," "tu apprends," tu-form
+imperatives ("Télécharge," "Reconnais," "Commence"), never "vous"/"votre"/
+"vos" or vous-conjugated verbs (watch for the "-ez" ending, not just the
+literal word "vous"). Lesson body copy already uses "tu" by convention
+(carried over from the raw source); this rule makes that the same register
+everywhere else the site writes to the reader directly. Short, register-
+neutral UI labels (button captions like "Commencer," "Réessayer," "Retour
+au cours") are unaffected — they're infinitives/nouns with no grammatical
+person, not sentences addressing the reader. Official app-store badge text
+(`storeLabels.*`) stays as published by Apple/Google, not run through this
+rule.
+
 ### Letter-name spellings
 
 Use the French search-preferred spellings from
@@ -58,7 +74,50 @@ never hardcode a spelling inline in a page or editorial file. In-lesson body
 copy (the `copy.*` fields, exercise prompts) stays whatever the FR raw
 snapshot's own editorial text uses, same app-vs-SEO spelling split EN
 already has for other letters (see `docs/hebrew-alphabet-editorial-rules.md`'s
-own letter-name decisions).
+own letter-name decisions). The FR hub's letter table
+(`src/i18n/fr-letters.ts` via
+`src/pages/fr/apprendre/alphabet-hebreu/index.astro`) always shows the
+SEO/search spelling, same as the per-lesson title/H1/meta.
+
+**First mention, both spellings.** When a lesson's app-body spelling differs
+from its SEO spelling (Aleph/Alef, Beth/Beit, Daleth/Dalet, Heth/Het, etc.),
+the *first* mention of the letter's name in that lesson's
+`copy.theory.intro` shows both, SEO-name first: "Aleph (Alef)," "Heth
+(Het)." Every mention after that first one, and every mention inside the
+raw source's own blocks/exercises (`contentOverrides` doesn't touch them for
+this reason alone), keeps the app spelling only. Skip this when the two
+spellings already coincide (e.g. Guimel) — there is nothing to
+disambiguate.
+
+**Vowel-sign names.** Any vowel-sign name that appears in agent-written
+copy or meta (not the raw source's own text) follows the app spelling used
+elsewhere in that lesson's raw source — "Kamats Gadol" (not "Kamatz
+Gadol"), "niqqoud" (not "nikoud"), "Hataf-Patah." The FR hub mentions the
+word "niqqoud (nikoud)" once, cross-referencing the alternate spelling
+readers may search for or recognize from `/blog/how-to-read-hebrew-nikud/`
+— nowhere else needs the parenthetical; use the app spelling alone
+everywhere else.
+
+**No em dashes in meta.** Title, H1, and meta description never use an em
+dash ("—"); use a colon or a comma-joined list instead. (Made explicit for
+Aleph's meta description; applies to every FR lesson's SEO fields.)
+
+**"Conclusions" heading.** If a lesson's raw FR source titles its closing
+`SUBTITLE` block literally "Conclusions" (an English calque), override it to
+"À retenir" via `contentOverrides.blocks`. Leave other French closing
+headings a letter's own source already uses (e.g. "Ce qu'il faut retenir,"
+"Ce qu'on a appris") exactly as they are — only the literal "Conclusions"
+calque gets renamed.
+
+**Vowel length mirrors the EN decision.** Whenever a length/duration
+statement about a vowel mark was removed or rewritten in the approved EN
+`contentOverrides` for the same lesson (`src/data/lessons/<slug>.json`),
+apply the same removal/rewrite to the FR source's equivalent passage if it
+makes the same claim — check the EN file's overrides for that `sourceIndex`
+before signing off on FR. If the FR raw source never made the claim in the
+first place (a different source text can simply avoid the problem EN had to
+fix), there is nothing to mirror; note that in the FR review doc rather
+than inventing a correction with no underlying defect.
 
 ### FR title pattern
 
