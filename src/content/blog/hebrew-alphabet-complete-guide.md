@@ -129,6 +129,10 @@ Dalet (ד) is a good example of how a letter's name carries its own meaning: *da
 
 → [Practice Dalet in the Hebrew Alphabet Course](/learn/hebrew-alphabet/dalet/)
 
+Hey (ה) does double duty: beyond being the fifth letter, it's also the definite article "the" at the start of a word (הַ-), and it's often silent when it ends a word.
+
+→ [Practice Hey in the Hebrew Alphabet Course](/learn/hebrew-alphabet/he/)
+
 ## The Five Final Letters
 
 Five Hebrew letters have a different written form when they appear at the **end of a word**. These are called *sofit* forms (סופית — “final”). The shape change is different for each pair.
