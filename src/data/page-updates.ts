@@ -15,5 +15,5 @@ export const pageUpdatedDates: Record<string, string | undefined> = {
   '/play/hebrew-mahjong/': undefined,
   '/play/hebrew-word-search/': '2026-10-13',
   '/fr/': '2026-10-19',
-  '/fr/alphabet-hebreu/': '2026-10-19',
+  '/fr/apprendre/alphabet-hebreu/': '2026-10-19',
 };

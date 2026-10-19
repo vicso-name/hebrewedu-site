@@ -14,13 +14,13 @@ export function getStaticPaths() {
 const { locale = 'en' } = Astro.props;
 const preview = localCoursePreview(import.meta.env.DEV);
 const letters = curriculum(preview);
-// Stage B: /fr/alphabet-hebreu/ is this page's FR counterpart.
+// Stage B: /fr/apprendre/alphabet-hebreu/ is this page's FR counterpart.
 const alternates = [
   { hreflang: 'en', href: 'https://hebrewedu.com/learn/hebrew-alphabet/' },
-  { hreflang: 'fr', href: 'https://hebrewedu.com/fr/alphabet-hebreu/' },
+  { hreflang: 'fr', href: 'https://hebrewedu.com/fr/apprendre/alphabet-hebreu/' },
   { hreflang: 'x-default', href: 'https://hebrewedu.com/learn/hebrew-alphabet/' },
 ];
-const langSwitch = { href: '/fr/alphabet-hebreu/', label: 'Français' };
+const langSwitch = { href: '/fr/apprendre/alphabet-hebreu/', label: 'Français' };
 ---
 <AlphabetHubPage
   locale={locale}

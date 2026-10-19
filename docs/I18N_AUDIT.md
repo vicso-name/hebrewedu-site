@@ -23,10 +23,10 @@ current routes (`learn/hebrew-alphabet/[lesson].astro`,
 | Current (EN) | Proposed FR | Localized slug |
 |---|---|---|
 | `/` | `/fr/` | — |
-| `/learn/hebrew-alphabet/` (hub) | `/fr/alphabet-hebreu/` | `alphabet-hebreu` |
-| `/learn/hebrew-alphabet/<slug>/` (lesson) | `/fr/alphabet-hebreu/<slug>/` | letter slugs stay Latin-transliterated (`aleph`, `bet`, …) — no French-spelling slug change needed, French *display* name differs from slug (research table: "Aleph (not Alef)" etc.) |
-| none | `/fr/alphabet-hebreu/cursif/` | new page, French-only for pilot |
-| none | `/fr/alphabet-hebreu/pdf-a-imprimer/` | new page, French-only for pilot |
+| `/learn/hebrew-alphabet/` (hub) | `/fr/apprendre/alphabet-hebreu/` | `alphabet-hebreu` |
+| `/learn/hebrew-alphabet/<slug>/` (lesson) | `/fr/apprendre/alphabet-hebreu/<slug>/` | letter slugs stay Latin-transliterated (`aleph`, `bet`, …) — no French-spelling slug change needed, French *display* name differs from slug (research table: "Aleph (not Alef)" etc.) |
+| none | `/fr/apprendre/alphabet-hebreu/cursif/` | new page, French-only for pilot |
+| none | `/fr/apprendre/alphabet-hebreu/pdf-a-imprimer/` | new page, French-only for pilot |
 | `/play/**` | *(unlinked, stays English — §6)* | n/a |
 
 Each `src/pages/fr/...astro` file is a thin wrapper: import the same
@@ -177,9 +177,9 @@ languages.
 | Stage | Scope | Risk | Effort | Shippable alone? |
 |---|---|---|---|---|
 | **A — i18n infra + dictionary** | `src/i18n/{en,fr}.ts`, refactor Nav/Footer/ConsentBanner/lesson route/hub route to read from dictionary with `locale='en'` default; `Layout.astro` takes a `locale` prop (default `en`); no FR pages exist yet, no routes added | Low (pure refactor; EN output must be byte-identical — verify via build diff) | Medium | Yes — ships with zero visible change |
-| **B — FR hub + home** | `/fr/`, `/fr/alphabet-hebreu/` pages; hreflang EN↔FR + x-default; sitemap entries; `docs/seo/core` locale rows for these 2 pages; `og:locale: fr_FR` | Medium (first real FR content, French copywriting needed, legal-adjacent consent banner text) | Medium–High | Yes — hub can retarget existing EN copy's French equivalent without needing lessons yet |
+| **B — FR hub + home** | `/fr/`, `/fr/apprendre/alphabet-hebreu/` pages; hreflang EN↔FR + x-default; sitemap entries; `docs/seo/core` locale rows for these 2 pages; `og:locale: fr_FR` | Medium (first real FR content, French copywriting needed, legal-adjacent consent banner text) | Medium–High | Yes — hub can retarget existing EN copy's French equivalent without needing lessons yet |
 | **C — FR lessons via skill** | Extend `add-letter-lesson` per §7; FR raw snapshots per letter (confirm API `?lang=fr` support first — **blocking unknown**); 22 lesson pages, published incrementally under the per-locale weekly limit | High (depends on unverified API locale support; largest content-translation effort; editorial review doubles) | High | Yes, incrementally — each letter ships independently like EN did |
-| **D — PDF + cursive pages** | New `/fr/alphabet-hebreu/pdf-a-imprimer/` and `/fr/alphabet-hebreu/cursif/` pages | Low-medium (net-new static content, no pipeline dependency) | Medium | Yes |
+| **D — PDF + cursive pages** | New `/fr/apprendre/alphabet-hebreu/pdf-a-imprimer/` and `/fr/apprendre/alphabet-hebreu/cursif/` pages | Low-medium (net-new static content, no pipeline dependency) | Medium | Yes |
 
 **What EN gets for free:** the cursive-script page (Stage D) targets a
 real, unaddressed English-side gap too — nothing in the current EN site

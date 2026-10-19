@@ -60,10 +60,10 @@ export const GET: APIRoute = async () => {
       lastmod: pageUpdatedDates['/fr/'],
     },
     {
-      url: '/fr/alphabet-hebreu/',
+      url: '/fr/apprendre/alphabet-hebreu/',
       priority: '0.8',
       changefreq: 'weekly',
-      lastmod: pageUpdatedDates['/fr/alphabet-hebreu/'],
+      lastmod: pageUpdatedDates['/fr/apprendre/alphabet-hebreu/'],
     },
     {
       url: '/blog/',
