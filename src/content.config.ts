@@ -31,4 +31,12 @@ const lessons = defineCollection({
   schema: lessonSchema,
 });
 
-export const collections = { blog, lessons };
+// FR lesson content lives in its own subdirectory (never mixed with EN files) so
+// this glob can never pick up an EN entry under the 'lessonsFr' collection name —
+// see docs/LESSON_PIPELINE.md and docs/I18N_AUDIT.md §3. Same schema, reused as-is.
+const lessonsFr = defineCollection({
+  loader: glob({ pattern: '*.json', base: './src/content/lessons/fr' }),
+  schema: lessonSchema,
+});
+
+export const collections = { blog, lessons, lessonsFr };

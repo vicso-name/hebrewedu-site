@@ -19,7 +19,17 @@
       "previewAvailable": true,
       "editorialApproved": true,
       "published": true,
-      "publishedAt": "2026-10-11"
+      "publishedAt": "2026-10-11",
+      "locales": {
+        "fr": {
+          "webImplemented": false,
+          "previewAvailable": false,
+          "editorialApproved": false,
+          "published": false,
+          "publishedAt": null,
+          "backfill": false
+        }
+      }
     },
     {
       "sourceId": 2,
@@ -32,7 +42,17 @@
       "previewAvailable": true,
       "editorialApproved": true,
       "published": true,
-      "publishedAt": "2026-10-14"
+      "publishedAt": "2026-10-14",
+      "locales": {
+        "fr": {
+          "webImplemented": false,
+          "previewAvailable": false,
+          "editorialApproved": false,
+          "published": false,
+          "publishedAt": null,
+          "backfill": false
+        }
+      }
     },
     {
       "sourceId": 3,
@@ -45,7 +65,17 @@
       "previewAvailable": true,
       "editorialApproved": true,
       "published": true,
-      "publishedAt": "2026-10-15"
+      "publishedAt": "2026-10-15",
+      "locales": {
+        "fr": {
+          "webImplemented": false,
+          "previewAvailable": false,
+          "editorialApproved": false,
+          "published": false,
+          "publishedAt": null,
+          "backfill": false
+        }
+      }
     },
     {
       "sourceId": 4,
@@ -58,7 +88,17 @@
       "previewAvailable": true,
       "editorialApproved": true,
       "published": true,
-      "publishedAt": "2026-10-15"
+      "publishedAt": "2026-10-15",
+      "locales": {
+        "fr": {
+          "webImplemented": false,
+          "previewAvailable": false,
+          "editorialApproved": false,
+          "published": false,
+          "publishedAt": null,
+          "backfill": false
+        }
+      }
     },
     {
       "sourceId": 5,
@@ -71,7 +111,17 @@
       "previewAvailable": true,
       "editorialApproved": true,
       "published": true,
-      "publishedAt": "2026-10-19"
+      "publishedAt": "2026-10-19",
+      "locales": {
+        "fr": {
+          "webImplemented": false,
+          "previewAvailable": false,
+          "editorialApproved": false,
+          "published": false,
+          "publishedAt": null,
+          "backfill": false
+        }
+      }
     },
     {
       "sourceId": 6,
@@ -84,7 +134,17 @@
       "previewAvailable": true,
       "editorialApproved": true,
       "published": true,
-      "publishedAt": "2026-10-19"
+      "publishedAt": "2026-10-19",
+      "locales": {
+        "fr": {
+          "webImplemented": false,
+          "previewAvailable": false,
+          "editorialApproved": false,
+          "published": false,
+          "publishedAt": null,
+          "backfill": false
+        }
+      }
     },
     {
       "sourceId": 7,
@@ -97,7 +157,17 @@
       "previewAvailable": false,
       "editorialApproved": false,
       "published": false,
-      "publishedAt": null
+      "publishedAt": null,
+      "locales": {
+        "fr": {
+          "webImplemented": false,
+          "previewAvailable": false,
+          "editorialApproved": false,
+          "published": false,
+          "publishedAt": null,
+          "backfill": false
+        }
+      }
     },
     {
       "sourceId": 8,
@@ -110,7 +180,17 @@
       "previewAvailable": false,
       "editorialApproved": false,
       "published": false,
-      "publishedAt": null
+      "publishedAt": null,
+      "locales": {
+        "fr": {
+          "webImplemented": false,
+          "previewAvailable": false,
+          "editorialApproved": false,
+          "published": false,
+          "publishedAt": null,
+          "backfill": false
+        }
+      }
     },
     {
       "sourceId": 9,
@@ -123,7 +203,17 @@
       "previewAvailable": false,
       "editorialApproved": false,
       "published": false,
-      "publishedAt": null
+      "publishedAt": null,
+      "locales": {
+        "fr": {
+          "webImplemented": false,
+          "previewAvailable": false,
+          "editorialApproved": false,
+          "published": false,
+          "publishedAt": null,
+          "backfill": false
+        }
+      }
     },
     {
       "sourceId": 10,
@@ -136,7 +226,17 @@
       "previewAvailable": false,
       "editorialApproved": false,
       "published": false,
-      "publishedAt": null
+      "publishedAt": null,
+      "locales": {
+        "fr": {
+          "webImplemented": false,
+          "previewAvailable": false,
+          "editorialApproved": false,
+          "published": false,
+          "publishedAt": null,
+          "backfill": false
+        }
+      }
     },
     {
       "sourceId": 11,
@@ -149,7 +249,17 @@
       "previewAvailable": false,
       "editorialApproved": false,
       "published": false,
-      "publishedAt": null
+      "publishedAt": null,
+      "locales": {
+        "fr": {
+          "webImplemented": false,
+          "previewAvailable": false,
+          "editorialApproved": false,
+          "published": false,
+          "publishedAt": null,
+          "backfill": false
+        }
+      }
     },
     {
       "sourceId": 12,
@@ -162,7 +272,17 @@
       "previewAvailable": false,
       "editorialApproved": false,
       "published": false,
-      "publishedAt": null
+      "publishedAt": null,
+      "locales": {
+        "fr": {
+          "webImplemented": false,
+          "previewAvailable": false,
+          "editorialApproved": false,
+          "published": false,
+          "publishedAt": null,
+          "backfill": false
+        }
+      }
     },
     {
       "sourceId": 13,
@@ -175,7 +295,17 @@
       "previewAvailable": false,
       "editorialApproved": false,
       "published": false,
-      "publishedAt": null
+      "publishedAt": null,
+      "locales": {
+        "fr": {
+          "webImplemented": false,
+          "previewAvailable": false,
+          "editorialApproved": false,
+          "published": false,
+          "publishedAt": null,
+          "backfill": false
+        }
+      }
     },
     {
       "sourceId": 14,
@@ -188,7 +318,17 @@
       "previewAvailable": false,
       "editorialApproved": false,
       "published": false,
-      "publishedAt": null
+      "publishedAt": null,
+      "locales": {
+        "fr": {
+          "webImplemented": false,
+          "previewAvailable": false,
+          "editorialApproved": false,
+          "published": false,
+          "publishedAt": null,
+          "backfill": false
+        }
+      }
     },
     {
       "sourceId": 15,
@@ -201,7 +341,17 @@
       "previewAvailable": false,
       "editorialApproved": false,
       "published": false,
-      "publishedAt": null
+      "publishedAt": null,
+      "locales": {
+        "fr": {
+          "webImplemented": false,
+          "previewAvailable": false,
+          "editorialApproved": false,
+          "published": false,
+          "publishedAt": null,
+          "backfill": false
+        }
+      }
     },
     {
       "sourceId": 16,
@@ -214,7 +364,17 @@
       "previewAvailable": false,
       "editorialApproved": false,
       "published": false,
-      "publishedAt": null
+      "publishedAt": null,
+      "locales": {
+        "fr": {
+          "webImplemented": false,
+          "previewAvailable": false,
+          "editorialApproved": false,
+          "published": false,
+          "publishedAt": null,
+          "backfill": false
+        }
+      }
     },
     {
       "sourceId": 17,
@@ -227,7 +387,17 @@
       "previewAvailable": false,
       "editorialApproved": false,
       "published": false,
-      "publishedAt": null
+      "publishedAt": null,
+      "locales": {
+        "fr": {
+          "webImplemented": false,
+          "previewAvailable": false,
+          "editorialApproved": false,
+          "published": false,
+          "publishedAt": null,
+          "backfill": false
+        }
+      }
     },
     {
       "sourceId": 18,
@@ -240,7 +410,17 @@
       "previewAvailable": false,
       "editorialApproved": false,
       "published": false,
-      "publishedAt": null
+      "publishedAt": null,
+      "locales": {
+        "fr": {
+          "webImplemented": false,
+          "previewAvailable": false,
+          "editorialApproved": false,
+          "published": false,
+          "publishedAt": null,
+          "backfill": false
+        }
+      }
     },
     {
       "sourceId": 19,
@@ -253,7 +433,17 @@
       "previewAvailable": false,
       "editorialApproved": false,
       "published": false,
-      "publishedAt": null
+      "publishedAt": null,
+      "locales": {
+        "fr": {
+          "webImplemented": false,
+          "previewAvailable": false,
+          "editorialApproved": false,
+          "published": false,
+          "publishedAt": null,
+          "backfill": false
+        }
+      }
     },
     {
       "sourceId": 20,
@@ -266,7 +456,17 @@
       "previewAvailable": false,
       "editorialApproved": false,
       "published": false,
-      "publishedAt": null
+      "publishedAt": null,
+      "locales": {
+        "fr": {
+          "webImplemented": false,
+          "previewAvailable": false,
+          "editorialApproved": false,
+          "published": false,
+          "publishedAt": null,
+          "backfill": false
+        }
+      }
     },
     {
       "sourceId": 21,
@@ -279,7 +479,17 @@
       "previewAvailable": false,
       "editorialApproved": false,
       "published": false,
-      "publishedAt": null
+      "publishedAt": null,
+      "locales": {
+        "fr": {
+          "webImplemented": false,
+          "previewAvailable": false,
+          "editorialApproved": false,
+          "published": false,
+          "publishedAt": null,
+          "backfill": false
+        }
+      }
     },
     {
       "sourceId": 22,
@@ -292,7 +502,17 @@
       "previewAvailable": false,
       "editorialApproved": false,
       "published": false,
-      "publishedAt": null
+      "publishedAt": null,
+      "locales": {
+        "fr": {
+          "webImplemented": false,
+          "previewAvailable": false,
+          "editorialApproved": false,
+          "published": false,
+          "publishedAt": null,
+          "backfill": false
+        }
+      }
     }
   ]
 }

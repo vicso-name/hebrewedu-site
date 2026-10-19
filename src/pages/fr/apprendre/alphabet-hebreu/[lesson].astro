@@ -1,0 +1,67 @@
+---
+// FR counterpart of /learn/hebrew-alphabet/[lesson].astro (Stage C). Same shared
+// template (AlphabetLessonPage.astro) and schema/renderers as EN — only the data
+// loaded (FR content-collection entry, FR editorial overrides, FR publication
+// flags) differs. See docs/LESSON_PIPELINE.md and docs/I18N_AUDIT.md §3/§7.
+import { getEntry } from 'astro:content';
+import AlphabetLessonPage from '../../../../components/lessons/AlphabetLessonPage.astro';
+import { courseManifest, coursePathFr, lessonEnabled, localCoursePreview } from '../../../../lib/alphabet-course.mjs';
+import { loadLessonOverrides } from '../../../../lib/lessons/editorial.mjs';
+import { frLetterNames } from '../../../../i18n/fr-letters';
+
+export async function getStaticPaths() {
+  const preview = localCoursePreview(import.meta.env.DEV);
+  const paths = [];
+  for (const item of courseManifest.lessons) {
+    if (!lessonEnabled(item.slug, preview, courseManifest, 'fr')) continue;
+    const lesson = await getEntry('lessonsFr', item.slug);
+    if (!lesson) throw new Error(`The validated FR content for "${item.slug}" is missing.`);
+    paths.push({ params: { lesson: item.slug }, props: { lesson: lesson.data } });
+  }
+  return paths;
+}
+const { lesson } = Astro.props;
+const lessonMeta = courseManifest.lessons.find(item => item.slug === lesson.id);
+if (!lessonMeta) throw new Error('Lesson has no matching curriculum entry.');
+const totalLessons = courseManifest.lessons.length;
+const overrides = loadLessonOverrides(lesson.id, 'fr');
+const preview = localCoursePreview(import.meta.env.DEV);
+// Only a link to an FR-enabled lesson is ever shown — an unpublished FR neighbor
+// is omitted, not replaced with a placeholder or a link into the EN course.
+function navTarget(meta: { slug: string } | null | undefined) {
+  if (!meta || !lessonEnabled(meta.slug, preview, courseManifest, 'fr')) return null;
+  return { href: `${coursePathFr}${meta.slug}/`, label: frLetterNames[meta.slug] ?? meta.slug };
+}
+const previousLessonMeta = courseManifest.lessons.find(item => item.order === lessonMeta.order - 1) ?? null;
+const nextLessonMeta = courseManifest.lessons.find(item => item.order === lessonMeta.order + 1) ?? null;
+const previousNav = navTarget(previousLessonMeta);
+const nextNav = navTarget(nextLessonMeta);
+
+// hreflang/lang-switch only ever point at the EN lesson once it is itself
+// published — a FR lesson can never be ahead of its EN counterpart (see
+// src/lib/alphabet-course.mjs's validatePublicationManifest), so this is really
+// just "once both exist", but the explicit check stays the single source of truth.
+const enHref = `https://hebrewedu.com/learn/hebrew-alphabet/${lesson.id}/`;
+const hasEnCounterpart = lessonEnabled(lesson.id, preview, courseManifest, 'en');
+const alternates = hasEnCounterpart ? [
+  { hreflang: 'en', href: enHref },
+  { hreflang: 'fr', href: `https://hebrewedu.com${coursePathFr}${lesson.id}/` },
+  { hreflang: 'x-default', href: enHref },
+] : undefined;
+const langSwitch = hasEnCounterpart ? { href: `/learn/hebrew-alphabet/${lesson.id}/` } : undefined;
+
+const lessonMetaFr = { order: lessonMeta.order, name: frLetterNames[lesson.id] ?? lessonMeta.name, published: Boolean(lessonMeta.locales?.fr?.published) };
+---
+<AlphabetLessonPage
+  locale="fr"
+  lesson={lesson}
+  lessonMeta={lessonMetaFr}
+  totalLessons={totalLessons}
+  overrides={overrides}
+  coursePath={coursePathFr}
+  homeHref="https://hebrewedu.com/fr/"
+  previousNav={previousNav}
+  nextNav={nextNav}
+  alternates={alternates}
+  langSwitch={langSwitch}
+/>

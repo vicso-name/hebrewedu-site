@@ -52,6 +52,9 @@ const LAYOUT_WRAPPERS = [
   // Stage B: the shared alphabet-hub template (src/pages/learn/hebrew-alphabet/[...hub].astro
   // and src/pages/fr/alphabet-hebreu/index.astro both render through it).
   'components/hub/AlphabetHubPage.astro',
+  // Stage C: the shared alphabet-lesson template (src/pages/learn/hebrew-alphabet/[lesson].astro
+  // and src/pages/fr/apprendre/alphabet-hebreu/[lesson].astro both render through it).
+  'components/lessons/AlphabetLessonPage.astro',
 ];
 
 const pagesDir = resolve(srcDir, 'pages');

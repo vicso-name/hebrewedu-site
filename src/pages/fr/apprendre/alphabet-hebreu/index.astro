@@ -1,10 +1,12 @@
 ---
 import AlphabetHubPage, { type HubLetter } from '../../../../components/hub/AlphabetHubPage.astro';
-import { courseManifest } from '../../../../lib/alphabet-course.mjs';
+import { courseManifest, coursePathFr, lessonEnabled, localCoursePreview } from '../../../../lib/alphabet-course.mjs';
 import { getDictionary } from '../../../../i18n';
+import { frLetterNames } from '../../../../i18n/fr-letters';
 
 const PAGE_URL = 'https://hebrewedu.com/fr/apprendre/alphabet-hebreu/';
 const t = getDictionary('fr');
+const preview = localCoursePreview(import.meta.env.DEV);
 
 // FR hub = EN hub 1:1 (hero, curriculum, "how lessons work", resources, app
 // CTA — AlphabetHubPage.astro), same sections/order/components as
@@ -14,21 +16,16 @@ const t = getDictionary('fr');
 // a draft for a future FR counterpart of /blog/hebrew-alphabet-complete-guide/.
 //
 // Glyph/order match scripts/alphabet-course/owner-letter-map.v2.json. French
-// display names follow the research's preferred spellings (Aleph not Alef,
-// Heth not Het, Noun not Nun, Pé not Pe, etc.) — the lesson pipeline's own
-// slug stays the EN one for when a FR lesson route is built. None of these
-// 22 letters have a published FR lesson yet, so every curriculum card shows
-// "Bientôt" and none link anywhere — never to the EN lesson.
-const letterNames = [
-  'Aleph', 'Beth', 'Guimel', 'Daleth', 'Hé', 'Vav', 'Zayin', 'Heth', 'Teth', 'Yod',
-  'Kaf', 'Lamed', 'Mem', 'Noun', 'Samekh', 'Ayin', 'Pé', 'Tsadi', 'Qof', 'Resh', 'Shin', 'Tav',
-];
-const letters: HubLetter[] = courseManifest.lessons.map((lesson, i) => ({
+// display names follow the research's preferred spellings (src/i18n/fr-letters.ts)
+// — the lesson pipeline's own slug stays the EN one. A card links to its FR
+// lesson only once that lesson's own `locales.fr.published` flag is true
+// (src/data/alphabet-course.json) — never to the EN lesson.
+const letters: HubLetter[] = courseManifest.lessons.map(lesson => ({
   order: lesson.order,
   letter: lesson.letter,
-  name: letterNames[i],
-  available: false,
-  href: null,
+  name: frLetterNames[lesson.slug] ?? lesson.name,
+  available: lessonEnabled(lesson.slug, preview, courseManifest, 'fr'),
+  href: lessonEnabled(lesson.slug, preview, courseManifest, 'fr') ? `${coursePathFr}${lesson.slug}/` : null,
 }));
 
 const alternates = [

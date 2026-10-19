@@ -1,0 +1,171 @@
+---
+// Shared alphabet-lesson template (Stage C): renders the EN lesson route's
+// full structure — breadcrumb, stage nav, theory/examples/practice/results —
+// through the same components, for both /learn/hebrew-alphabet/<slug>/
+// (locale="en") and /fr/apprendre/alphabet-hebreu/<slug>/ (locale="fr"). Each
+// locale's thin page wrapper loads its own content-collection entry and
+// editorial overrides (see docs/LESSON_PIPELINE.md) and passes the resulting
+// lesson/overrides/nav data in as props — no business logic lives here beyond
+// what the EN route already had.
+import Layout from '../../layouts/Layout.astro';
+import Nav from '../Nav.astro';
+import Footer from '../Footer.astro';
+import Section from '../ui/Section.astro';
+import StudyBlock from './StudyBlock.astro';
+import Practice from './Practice.astro';
+import '../../styles/lesson-poc.css';
+import { getDictionary, type Locale, type Alternate } from '../../i18n';
+
+interface NavTarget {
+  href: string;
+  label: string;
+}
+
+interface Props {
+  locale?: Locale;
+  lesson: any;
+  lessonMeta: { order: number; name: string; published: boolean };
+  totalLessons: number;
+  overrides: any;
+  coursePath: string;
+  homeHref: string;
+  previousNav: NavTarget | null;
+  nextNav: NavTarget | null;
+  alternates?: Alternate[];
+  langSwitch?: { href: string };
+}
+
+const {
+  locale = 'en',
+  lesson,
+  lessonMeta,
+  totalLessons,
+  overrides,
+  coursePath,
+  homeHref,
+  previousNav,
+  nextNav,
+  alternates,
+  langSwitch,
+} = Astro.props;
+const t = getDictionary(locale);
+const letterName = lessonMeta.name;
+const published = lessonMeta.published;
+const stageMap = overrides.stageMap;
+const copy = overrides.copy;
+// `key` is the stable English identifier driving ids/selectors (CSS and the
+// client-side stage-switching script key off these, locale-independent);
+// `label` is the translated text shown to the reader.
+const stages = [
+  { key: 'theory', label: t.lesson.stageNames.theory },
+  { key: 'examples', label: t.lesson.stageNames.examples },
+  { key: 'practice', label: t.lesson.stageNames.practice },
+  { key: 'results', label: t.lesson.stageNames.results },
+];
+// Every source block occurs once. The examples retain their original relative order.
+const theoryIndices = stageMap.theory;
+const exampleIndices = stageMap.examples;
+// Stage-map entries reference a block's raw sourceIndex (see docs/LESSON_PIPELINE.md),
+// not its position in `lesson.blocks` — the two only coincide when nothing is held
+// out. Looking blocks up by sourceIndex keeps this correct once a holdout shifts the
+// normalized array (as Bet's does).
+const blockBySourceIndex = new Map(lesson.blocks.map((block: any) => [block.sourceIndex, block]));
+// A copy heading immediately above a SUBTITLE study block would duplicate it as a
+// visible heading pair; keep the source subtitle and drop the copy heading instead.
+// theoryIndices[0] renders directly (no heading); every entry after it is a "section"
+// — the count varies per letter (docs/LESSON_PIPELINE.md: a stage must never end on a
+// heading with no content under it, so a letter whose raw source has only a
+// title+intro before its first examples-introducing heading has just one section here,
+// not the fixed two some other letters have).
+const theorySections = theoryIndices.slice(1).map((sourceIndex: number, index: number) => ({
+  block: blockBySourceIndex.get(sourceIndex),
+  heading: index === 0 ? copy.theory.secondSectionHeading : copy.theory.thirdSectionHeading,
+}));
+const pageUrl = `https://hebrewedu.com${coursePath}${lesson.id}/`;
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'LearningResource',
+      '@id': `${pageUrl}#lesson`,
+      url: pageUrl,
+      name: lesson.title,
+      description: lesson.description,
+      inLanguage: locale,
+      educationalLevel: 'Beginner',
+      teaches: `Hebrew alphabet: ${letterName}`,
+      isPartOf: `https://hebrewedu.com${coursePath}`,
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: t.nav.home, item: homeHref },
+        { '@type': 'ListItem', position: 2, name: t.lesson.breadcrumbRoot, item: `https://hebrewedu.com${coursePath}` },
+        { '@type': 'ListItem', position: 3, name: t.lesson.lessonLabel(lessonMeta.order, letterName), item: pageUrl },
+      ],
+    },
+  ],
+};
+---
+<Layout
+  title={lesson.title}
+  description={lesson.description}
+  robots={published ? 'index, follow' : 'noindex, nofollow, noarchive'}
+  schema={schema}
+  locale={locale}
+  alternates={alternates}
+>
+  <div class="lesson-page">
+    <a class="lesson-skip" href="#lesson-content">{t.lesson.skipToLesson}</a>
+    <Nav locale={locale} langSwitch={langSwitch} />
+    <main id="lesson-content">
+      <Section>
+        <div class="lesson-container">
+          <nav class="lesson-breadcrumb" aria-label="Breadcrumb">
+            <p class="lesson-breadcrumb-trail"><a href={coursePath}>{t.lesson.breadcrumbRoot}</a> / <span aria-current="page">{t.lesson.lessonLabel(lessonMeta.order, letterName)}</span></p>
+            {(previousNav || nextNav) && <p class="lesson-breadcrumb-nav">
+              {previousNav && <a href={previousNav.href}><span aria-hidden="true">←</span> {previousNav.label}</a>}
+              {nextNav && <a href={nextNav.href}>{nextNav.label} <span aria-hidden="true">→</span></a>}
+            </p>}
+          </nav>
+          <header class="lesson-header"><div class="lesson-identity"><div class="letter-token" aria-hidden="true"><bdi class="hebrew" lang="he" dir="rtl">{lesson.glyph}</bdi></div><div><p class="eyebrow">{t.lesson.eyebrow(lessonMeta.order, totalLessons)}</p><p class="lesson-name">{letterName} <bdi class="hebrew" lang="he" dir="rtl">{lesson.glyph}</bdi></p></div></div>
+            {!published && <span class="local-preview-label">{t.lesson.localPreview}</span>}
+          </header>
+          <nav class="stage-navigation" aria-label="Lesson stages">
+            <ol>{stages.map((stage, index) => <li><button type="button" data-stage-target={stage.key} aria-controls={`stage-${stage.key}`} disabled><span class="stage-number" aria-hidden="true">{index + 1}</span><span>{stage.label}</span></button></li>)}</ol>
+          </nav>
+          <p class="sr-only" data-stage-announcement role="status" aria-live="polite" aria-atomic="true"></p>
+          <section id="stage-theory" data-stage="theory" class="stage-panel" aria-labelledby="theory-title">
+            <div class="stage-heading"><span class="eyebrow">{t.lesson.stepOf(1, 4)}</span><h2 id="theory-title" data-stage-heading tabindex="-1">{copy.theory.heading}</h2><p set:html={copy.theory.intro} /></div>
+            <div class="learning-card">
+              <StudyBlock block={blockBySourceIndex.get(theoryIndices[0])} />
+              <div class="learning-objectives"><h2>{copy.theory.objectivesHeading}</h2><ul>{copy.theory.objectives.map((item: string) => <li set:html={item} />)}</ul></div>
+              {theorySections.map((section: any) => <div class="theory-section">{section.block.type !== 'SUBTITLE' && <h2>{section.heading}</h2>}<StudyBlock block={section.block} /></div>)}
+            </div>
+            <div class="stage-actions" data-enhanced hidden><button type="button" class="btn lesson-primary" data-stage-target="examples">{t.lesson.theory.nextCta} <span aria-hidden="true">→</span></button></div>
+          </section>
+          <section id="stage-examples" data-stage="examples" class="stage-panel" aria-labelledby="examples-title">
+            <div class="stage-heading"><span class="eyebrow">{t.lesson.stepOf(2, 4)}</span><h2 id="examples-title" data-stage-heading tabindex="-1">{copy.examples.heading}</h2><p>{copy.examples.intro}</p></div>
+            <div class="learning-card example-materials">{exampleIndices.map((index: number) => <StudyBlock block={blockBySourceIndex.get(index)} />)}</div>
+            <div class="stage-actions" data-enhanced hidden><button type="button" class="btn lesson-primary" data-stage-target="practice">{t.lesson.examples.nextCta} <span aria-hidden="true">→</span></button></div>
+          </section>
+          <Practice exercises={lesson.exercises} blocks={lesson.blocks} letter={lesson.id} />
+          <section id="stage-results" data-stage="results" class="stage-panel" aria-labelledby="results-title">
+            <div class="stage-heading"><span class="eyebrow">{t.lesson.stepOf(4, 4)}</span><h2 id="results-title" data-stage-heading tabindex="-1">{t.lesson.results.heading}</h2><p>{t.lesson.results.intro}</p></div>
+            <div class="learning-card results-card" data-enhanced hidden>
+              <p class="result-percentage" data-result-percentage>0%</p><p class="percentage-label" data-percentage-label>{t.lesson.results.overallScoreLabel}</p>
+              <dl class="result-stats"><div><dt>{t.lesson.results.stats.correct}</dt><dd data-result-correct>0</dd></div><div><dt>{t.lesson.results.stats.attempted}</dt><dd data-result-attempted>0</dd></div><div><dt>{t.lesson.results.stats.incorrect}</dt><dd data-result-incorrect>0</dd></div><div><dt>{t.lesson.results.stats.unanswered}</dt><dd data-result-unanswered>14</dd></div></dl>
+              <p data-results-summary role="status" aria-live="polite" aria-atomic="true"></p>
+              <p data-unanswered-list></p>
+              <div class="results-actions"><button type="button" class="btn lesson-primary" data-review-mistakes>{t.lesson.results.reviewMistakes}</button><button type="button" class="btn lesson-secondary" data-answer-unanswered>{t.lesson.results.answerUnanswered}</button></div>
+              <p class="session-note">{t.lesson.results.sessionNote}</p>
+            </div>
+            <noscript><p class="no-script">{t.lesson.results.noScript}</p></noscript>
+            <div class="stage-actions" data-enhanced hidden><button type="button" class="btn lesson-secondary" data-retry-practice>{t.lesson.results.tryAgain}</button><a class="btn lesson-primary" href={nextNav ? nextNav.href : coursePath}>{nextNav ? t.lesson.results.nextLesson(nextNav.label) : t.lesson.results.backToCourse} <span aria-hidden="true">→</span></a></div>
+          </section>
+        </div>
+      </Section>
+    </main>
+    <Footer locale={locale} />
+  </div>
+</Layout>

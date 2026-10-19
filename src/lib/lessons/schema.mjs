@@ -100,6 +100,10 @@ const exercise = z.discriminatedUnion('type', [choiceExercise, matchPairsExercis
 // the owner-letter-map below is what actually pins a lesson to its one correct letter.
 export const lessonSchema = z.object({
   id: text, sourceId: z.number().int().positive(), order: z.number().int().positive(), glyph: nfcText,
+  // Optional with a default so every EN content file already on disk (written before
+  // locale support existed) still parses unchanged; a locale-suffixed content file
+  // (src/content/lessons/fr/<slug>.json) sets this explicitly via normalizeLesson.
+  locale: z.enum(['en', 'fr']).default('en'),
   title: nfcText, description: nfcText, status: z.literal('local-review-only'), normalizationVersion: z.literal(1),
   provenance: z.object({ source: z.string().url(), responseDate: text, sha256: z.string().regex(/^[a-f0-9]{64}$/) }).strict(),
   editorialIssues: z.array(z.object({ id: text, summary: nfcText, detail: nfcText }).strict()),
@@ -121,7 +125,10 @@ export const lessonSchema = z.object({
     if (b.id !== `${lesson.id}-block-${b.sourceIndex + 1}`) ctx.addIssue({ code: 'custom', message: 'Study block ID must match its source position' });
   }
   if (lesson.blocks[0]?.type !== 'MAIN_TITLE') ctx.addIssue({ code: 'custom', message: 'First block must be the lesson title' });
-  const identity = identityForSlug(lesson.id);
+  // Identity is looked up per the lesson's own `locale` field (not a fixed default)
+  // so the same generic schema validates both an EN content file and its FR
+  // counterpart — each cross-checked against the matching `?lang=` source URL.
+  const identity = identityForSlug(lesson.id, lesson.locale);
   if (!identity) { ctx.addIssue({ code: 'custom', message: `Unknown lesson slug: ${lesson.id}` }); return; }
   if (lesson.sourceId !== identity.sourceId || lesson.order !== identity.order || lesson.glyph !== identity.glyph || lesson.provenance.source !== identity.sourceUrl) {
     ctx.addIssue({ code: 'custom', message: 'Lesson identity does not match the owner letter map' });

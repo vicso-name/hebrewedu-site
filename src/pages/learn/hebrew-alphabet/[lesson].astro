@@ -1,15 +1,9 @@
 ---
 import { getEntry } from 'astro:content';
-import Layout from '../../../layouts/Layout.astro';
-import Nav from '../../../components/Nav.astro';
-import Footer from '../../../components/Footer.astro';
-import Section from '../../../components/ui/Section.astro';
-import StudyBlock from '../../../components/lessons/StudyBlock.astro';
-import Practice from '../../../components/lessons/Practice.astro';
-import '../../../styles/lesson-poc.css';
-import { courseManifest, coursePath, lessonEnabled, localCoursePreview } from '../../../lib/alphabet-course.mjs';
+import AlphabetLessonPage from '../../../components/lessons/AlphabetLessonPage.astro';
+import { courseManifest, coursePath, coursePathFr, lessonEnabled, localCoursePreview } from '../../../lib/alphabet-course.mjs';
 import { loadLessonOverrides } from '../../../lib/lessons/editorial.mjs';
-import { getDictionary, type Locale } from '../../../i18n';
+import type { Locale } from '../../../i18n';
 
 interface Props {
   locale?: Locale;
@@ -27,47 +21,14 @@ export async function getStaticPaths() {
   return paths;
 }
 const { lesson, locale = 'en' } = Astro.props;
-const t = getDictionary(locale);
 const lessonMeta = courseManifest.lessons.find(item => item.slug === lesson.id);
 if (!lessonMeta) throw new Error('Lesson has no matching curriculum entry.');
-const letterName = lessonMeta.name;
-const published = lessonMeta.published;
 const totalLessons = courseManifest.lessons.length;
 const overrides = loadLessonOverrides(lesson.id);
-const stageMap = overrides.stageMap;
-const copy = overrides.copy;
-// `key` is the stable English identifier driving ids/selectors (CSS and the
-// client-side stage-switching script key off these, locale-independent);
-// `label` is the translated text shown to the reader.
-const stages = [
-  { key: 'theory', label: t.lesson.stageNames.theory },
-  { key: 'examples', label: t.lesson.stageNames.examples },
-  { key: 'practice', label: t.lesson.stageNames.practice },
-  { key: 'results', label: t.lesson.stageNames.results },
-];
-// Every source block occurs once. The examples retain their original relative order.
-const theoryIndices = stageMap.theory;
-const exampleIndices = stageMap.examples;
-// Stage-map entries reference a block's raw sourceIndex (see docs/LESSON_PIPELINE.md),
-// not its position in `lesson.blocks` — the two only coincide when nothing is held
-// out. Looking blocks up by sourceIndex keeps this correct once a holdout shifts the
-// normalized array (as Bet's does).
-const blockBySourceIndex = new Map(lesson.blocks.map(block => [block.sourceIndex, block]));
-// A copy heading immediately above a SUBTITLE study block would duplicate it as a
-// visible heading pair; keep the source subtitle and drop the copy heading instead.
-// theoryIndices[0] renders directly (no heading); every entry after it is a "section"
-// — the count varies per letter (docs/LESSON_PIPELINE.md: a stage must never end on a
-// heading with no content under it, so a letter whose raw source has only a
-// title+intro before its first examples-introducing heading has just one section here,
-// not the fixed two some other letters have).
-const theorySections = theoryIndices.slice(1).map((sourceIndex, index) => ({
-  block: blockBySourceIndex.get(sourceIndex),
-  heading: index === 0 ? copy.theory.secondSectionHeading : copy.theory.thirdSectionHeading,
-}));
 const preview = localCoursePreview(import.meta.env.DEV);
 // Only a link to an enabled lesson is ever shown — an unpublished neighbor is omitted,
 // not replaced with a placeholder, so the breadcrumb and Results CTA never dead-end.
-function navTarget(meta) {
+function navTarget(meta: { slug: string; name: string } | null | undefined) {
   if (!meta || !lessonEnabled(meta.slug, preview)) return null;
   return { href: `${coursePath}${meta.slug}/`, label: meta.name };
 }
@@ -75,90 +36,31 @@ const previousLessonMeta = courseManifest.lessons.find(item => item.order === le
 const nextLessonMeta = courseManifest.lessons.find(item => item.order === lessonMeta.order + 1) ?? null;
 const previousNav = navTarget(previousLessonMeta);
 const nextNav = navTarget(nextLessonMeta);
-const pageUrl = `https://hebrewedu.com${coursePath}${lesson.id}/`;
-const schema = {
-  '@context': 'https://schema.org',
-  '@graph': [
-    {
-      '@type': 'LearningResource',
-      '@id': `${pageUrl}#lesson`,
-      url: pageUrl,
-      name: lesson.title,
-      description: lesson.description,
-      inLanguage: locale,
-      educationalLevel: 'Beginner',
-      teaches: `Hebrew alphabet: ${letterName}`,
-      isPartOf: `https://hebrewedu.com${coursePath}`,
-    },
-    {
-      '@type': 'BreadcrumbList',
-      itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://hebrewedu.com/' },
-        { '@type': 'ListItem', position: 2, name: t.lesson.breadcrumbRoot, item: `https://hebrewedu.com${coursePath}` },
-        { '@type': 'ListItem', position: 3, name: t.lesson.lessonLabel(lessonMeta.order, letterName), item: pageUrl },
-      ],
-    },
-  ],
-};
+
+// hreflang/lang-switch only ever point at the FR lesson once it is itself
+// published — symmetric with the FR route's own check (src/pages/fr/apprendre/
+// alphabet-hebreu/[lesson].astro). None of the 6 currently-published EN lessons
+// have a published FR counterpart yet, so this stays a no-op for them today.
+const hasFrCounterpart = lessonEnabled(lesson.id, preview, courseManifest, 'fr');
+const frHref = `https://hebrewedu.com${coursePathFr}${lesson.id}/`;
+const enHref = `https://hebrewedu.com${coursePath}${lesson.id}/`;
+const alternates = hasFrCounterpart ? [
+  { hreflang: 'en', href: enHref },
+  { hreflang: 'fr', href: frHref },
+  { hreflang: 'x-default', href: enHref },
+] : undefined;
+const langSwitch = hasFrCounterpart ? { href: `${coursePathFr}${lesson.id}/` } : undefined;
 ---
-<Layout
-  title={lesson.title}
-  description={lesson.description}
-  robots={published ? 'index, follow' : 'noindex, nofollow, noarchive'}
-  schema={schema}
+<AlphabetLessonPage
   locale={locale}
->
-  <div class="lesson-page">
-    <a class="lesson-skip" href="#lesson-content">{t.lesson.skipToLesson}</a>
-    <Nav locale={locale} />
-    <main id="lesson-content">
-      <Section>
-        <div class="lesson-container">
-          <nav class="lesson-breadcrumb" aria-label="Breadcrumb">
-            <p class="lesson-breadcrumb-trail"><a href={coursePath}>{t.lesson.breadcrumbRoot}</a> / <span aria-current="page">{t.lesson.lessonLabel(lessonMeta.order, letterName)}</span></p>
-            {(previousNav || nextNav) && <p class="lesson-breadcrumb-nav">
-              {previousNav && <a href={previousNav.href}><span aria-hidden="true">←</span> {previousNav.label}</a>}
-              {nextNav && <a href={nextNav.href}>{nextNav.label} <span aria-hidden="true">→</span></a>}
-            </p>}
-          </nav>
-          <header class="lesson-header"><div class="lesson-identity"><div class="letter-token" aria-hidden="true"><bdi class="hebrew" lang="he" dir="rtl">{lesson.glyph}</bdi></div><div><p class="eyebrow">{t.lesson.eyebrow(lessonMeta.order, totalLessons)}</p><p class="lesson-name">{letterName} <bdi class="hebrew" lang="he" dir="rtl">{lesson.glyph}</bdi></p></div></div>
-            {!published && <span class="local-preview-label">{t.lesson.localPreview}</span>}
-          </header>
-          <nav class="stage-navigation" aria-label="Lesson stages">
-            <ol>{stages.map((stage, index) => <li><button type="button" data-stage-target={stage.key} aria-controls={`stage-${stage.key}`} disabled><span class="stage-number" aria-hidden="true">{index + 1}</span><span>{stage.label}</span></button></li>)}</ol>
-          </nav>
-          <p class="sr-only" data-stage-announcement role="status" aria-live="polite" aria-atomic="true"></p>
-          <section id="stage-theory" data-stage="theory" class="stage-panel" aria-labelledby="theory-title">
-            <div class="stage-heading"><span class="eyebrow">{t.lesson.stepOf(1, 4)}</span><h2 id="theory-title" data-stage-heading tabindex="-1">{copy.theory.heading}</h2><p set:html={copy.theory.intro} /></div>
-            <div class="learning-card">
-              <StudyBlock block={blockBySourceIndex.get(theoryIndices[0])} />
-              <div class="learning-objectives"><h2>{copy.theory.objectivesHeading}</h2><ul>{copy.theory.objectives.map((item: string) => <li set:html={item} />)}</ul></div>
-              {theorySections.map(section => <div class="theory-section">{section.block.type !== 'SUBTITLE' && <h2>{section.heading}</h2>}<StudyBlock block={section.block} /></div>)}
-            </div>
-            <div class="stage-actions" data-enhanced hidden><button type="button" class="btn lesson-primary" data-stage-target="examples">{t.lesson.theory.nextCta} <span aria-hidden="true">→</span></button></div>
-          </section>
-          <section id="stage-examples" data-stage="examples" class="stage-panel" aria-labelledby="examples-title">
-            <div class="stage-heading"><span class="eyebrow">{t.lesson.stepOf(2, 4)}</span><h2 id="examples-title" data-stage-heading tabindex="-1">{copy.examples.heading}</h2><p>{copy.examples.intro}</p></div>
-            <div class="learning-card example-materials">{exampleIndices.map(index => <StudyBlock block={blockBySourceIndex.get(index)} />)}</div>
-            <div class="stage-actions" data-enhanced hidden><button type="button" class="btn lesson-primary" data-stage-target="practice">{t.lesson.examples.nextCta} <span aria-hidden="true">→</span></button></div>
-          </section>
-          <Practice exercises={lesson.exercises} blocks={lesson.blocks} letter={lesson.id} />
-          <section id="stage-results" data-stage="results" class="stage-panel" aria-labelledby="results-title">
-            <div class="stage-heading"><span class="eyebrow">{t.lesson.stepOf(4, 4)}</span><h2 id="results-title" data-stage-heading tabindex="-1">{t.lesson.results.heading}</h2><p>{t.lesson.results.intro}</p></div>
-            <div class="learning-card results-card" data-enhanced hidden>
-              <p class="result-percentage" data-result-percentage>0%</p><p class="percentage-label" data-percentage-label>{t.lesson.results.overallScoreLabel}</p>
-              <dl class="result-stats"><div><dt>{t.lesson.results.stats.correct}</dt><dd data-result-correct>0</dd></div><div><dt>{t.lesson.results.stats.attempted}</dt><dd data-result-attempted>0</dd></div><div><dt>{t.lesson.results.stats.incorrect}</dt><dd data-result-incorrect>0</dd></div><div><dt>{t.lesson.results.stats.unanswered}</dt><dd data-result-unanswered>14</dd></div></dl>
-              <p data-results-summary role="status" aria-live="polite" aria-atomic="true"></p>
-              <p data-unanswered-list></p>
-              <div class="results-actions"><button type="button" class="btn lesson-primary" data-review-mistakes>{t.lesson.results.reviewMistakes}</button><button type="button" class="btn lesson-secondary" data-answer-unanswered>{t.lesson.results.answerUnanswered}</button></div>
-              <p class="session-note">{t.lesson.results.sessionNote}</p>
-            </div>
-            <noscript><p class="no-script">{t.lesson.results.noScript}</p></noscript>
-            <div class="stage-actions" data-enhanced hidden><button type="button" class="btn lesson-secondary" data-retry-practice>{t.lesson.results.tryAgain}</button><a class="btn lesson-primary" href={nextNav ? nextNav.href : coursePath}>{nextNav ? t.lesson.results.nextLesson(nextNav.label) : t.lesson.results.backToCourse} <span aria-hidden="true">→</span></a></div>
-          </section>
-        </div>
-      </Section>
-    </main>
-    <Footer locale={locale} />
-  </div>
-</Layout>
+  lesson={lesson}
+  lessonMeta={lessonMeta}
+  totalLessons={totalLessons}
+  overrides={overrides}
+  coursePath={coursePath}
+  homeHref="https://hebrewedu.com/"
+  previousNav={previousNav}
+  nextNav={nextNav}
+  alternates={alternates}
+  langSwitch={langSwitch}
+/>

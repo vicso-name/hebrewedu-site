@@ -15,15 +15,26 @@ const identities = validateManifest(manifest);
 const digest = bytes => createHash('sha256').update(bytes).digest('hex');
 const api = 'https://api.hebrewedu.com/api/lessons/';
 const alephHash = '0306e249dc168efd7d49e886553f7aa61733cb6ca26307c7cc0a07215b5999a7';
-const mode = process.argv[2];
-if (!['--fetch','--audit'].includes(mode) || (mode === '--fetch' && process.argv.length !== 3) || (mode === '--audit' && process.argv.length !== 4)) throw new Error('Usage: node scripts/import-alphabet-course.mjs --fetch | --audit <run-name>');
+const args = process.argv.slice(2);
+const langFlagIndex = args.indexOf('--lang');
+const lang = langFlagIndex >= 0 ? args[langFlagIndex + 1] : 'en';
+if (!['en', 'fr'].includes(lang)) throw new Error('Supported --lang values: en, fr');
+const rest = langFlagIndex >= 0 ? [...args.slice(0, langFlagIndex), ...args.slice(langFlagIndex + 2)] : args;
+const mode = rest[0];
+if (!['--fetch','--audit'].includes(mode) || (mode === '--fetch' && rest.length !== 1) || (mode === '--audit' && rest.length !== 2)) throw new Error('Usage: node scripts/import-alphabet-course.mjs --fetch | --audit <run-name> [--lang en|fr]');
 process.umask(0o077);
 await mkdir(imports, { recursive: true, mode: 0o700 });
 async function save(path, bytes) { await writeFile(`${path}.tmp`, bytes, { mode: 0o600 }); await rename(`${path}.tmp`, path); }
 async function json(path, value) { await save(path, `${JSON.stringify(value, null, 2)}\n`); }
 const parse = parseJSONBytes;
+// EN keeps detail ids 2–22 only (id 1/Aleph is the separately pinned, reused
+// snapshot below, never refetched). FR has no pinned snapshot to reuse, so all
+// 22 ids are fetched fresh — see docs/I18N_AUDIT.md §3 (API confirmed to serve
+// the same ids/shape under ?lang=fr).
+const detailIdPattern = lang === 'en' ? '(?:[2-9]|1[0-9]|2[0-2])' : '(?:[1-9]|1[0-9]|2[0-2])';
+const detailAllowlist = new RegExp(`^https:\\/\\/api\\.hebrewedu\\.com\\/api\\/lessons\\/${detailIdPattern}\\/\\?lang=${lang}$`);
 async function get(url, destination) {
-  if (!(url === `${api}?category=alphabet-lc&lang=en` || /^https:\/\/api\.hebrewedu\.com\/api\/lessons\/(?:[2-9]|1[0-9]|2[0-2])\/\?lang=en$/.test(url))) throw new Error('Request outside read-only alphabet allowlist');
+  if (!(url === `${api}?category=alphabet-lc&lang=${lang}` || detailAllowlist.test(url))) throw new Error('Request outside read-only alphabet allowlist');
   const startedAt = new Date().toISOString();
   const response = await fetch(url, { method: 'GET', credentials: 'omit', redirect: 'error', signal: AbortSignal.timeout(20_000), headers: { Accept: 'application/json' } });
   if (!response.ok) throw new Error(`Anonymous GET failed: ${response.status} ${url}; stop without credentials or retries`);
@@ -43,28 +54,37 @@ async function get(url, destination) {
 
 let run;
 if (mode === '--fetch') {
-  const name = new Date().toISOString().replace(/[:.]/g, '-') + '-' + Math.random().toString(16).slice(2, 8);
+  // FR (and any future non-EN locale) gets its own `-fr`-suffixed run directory —
+  // never the EN-shaped name — so newestRawSnapshot()-style lookups and manual
+  // inspection can never mistake one locale's raw snapshots for the other's.
+  const name = new Date().toISOString().replace(/[:.]/g, '-') + '-' + Math.random().toString(16).slice(2, 8) + (lang === 'en' ? '' : `-${lang}`);
   run = join(imports, name);
   await mkdir(join(run, 'raw'), { recursive: true, mode: 0o700 });
   await save(join(run, 'owner-letter-map.v2.json'), manifestBytes);
-  const state = { schemaVersion, status: 'fetching', runName: name, manifestSha256: digest(manifestBytes), listGets: 0, detailGets: [], reusedIds: [], startedAt: new Date().toISOString(), productionPublicationAuthorized: false };
+  const state = { schemaVersion, status: 'fetching', runName: name, lang, manifestSha256: digest(manifestBytes), listGets: 0, detailGets: [], reusedIds: [], startedAt: new Date().toISOString(), productionPublicationAuthorized: false };
   await json(join(run, 'import-state.json'), state);
   try {
     state.listGets++;
-    const { value: list, metadata } = await get(`${api}?category=alphabet-lc&lang=en`, join(run, 'raw/list.raw.json'));
+    const { value: list, metadata } = await get(`${api}?category=alphabet-lc&lang=${lang}`, join(run, 'raw/list.raw.json'));
     if (metadata.link) throw new Error('Pagination Link header exposed; importer must be reviewed before following it');
     const sorted = validateList(list, manifest);
     console.log(`List inspected: unpaginated array, ${sorted.length} unique IDs/orders, ${sorted.reduce((n,x) => n+x.studyMaterialsCount,0)} study blocks / ${sorted.reduce((n,x) => n+x.exercisesCount,0)} exercises reported.`);
-    const bytes = await readFile(join(root, '.local/lesson-snapshots/lesson-1.raw.json'));
-    if (digest(bytes) !== alephHash) throw new Error('Approved Aleph snapshot changed; stop without replacing or refetching it');
-    parse(bytes);
-    await save(join(run, 'raw/lesson-1.raw.json'), bytes);
-    await json(join(run, 'raw/lesson-1.raw.json.provenance.json'), { url: `${api}1/?lang=en`, method: 'GET', anonymous: true, retrievedAt: '2026-10-11T05:02:58Z', reusedAt: new Date().toISOString(), reusedFrom: '.local/lesson-snapshots/lesson-1.raw.json', sha256: alephHash, bytes: bytes.length, freshness: 'existing-approved-snapshot' });
-    state.reusedIds.push(1);
-    for (const item of sorted.filter(item => item.id !== 1)) {
+    // Only the EN import reuses the separately pinned, owner-approved Aleph snapshot;
+    // every other locale has no such pin and fetches id 1 like any other detail.
+    let pending = sorted;
+    if (lang === 'en') {
+      const bytes = await readFile(join(root, '.local/lesson-snapshots/lesson-1.raw.json'));
+      if (digest(bytes) !== alephHash) throw new Error('Approved Aleph snapshot changed; stop without replacing or refetching it');
+      parse(bytes);
+      await save(join(run, 'raw/lesson-1.raw.json'), bytes);
+      await json(join(run, 'raw/lesson-1.raw.json.provenance.json'), { url: `${api}1/?lang=en`, method: 'GET', anonymous: true, retrievedAt: '2026-10-11T05:02:58Z', reusedAt: new Date().toISOString(), reusedFrom: '.local/lesson-snapshots/lesson-1.raw.json', sha256: alephHash, bytes: bytes.length, freshness: 'existing-approved-snapshot' });
+      state.reusedIds.push(1);
+      pending = sorted.filter(item => item.id !== 1);
+    }
+    for (const item of pending) {
       state.detailGets.push(item.id);
       await json(join(run, 'import-state.json'), state);
-      const { value } = await get(`${api}${item.id}/?lang=en`, join(run, `raw/lesson-${item.id}.raw.json`));
+      const { value } = await get(`${api}${item.id}/?lang=${lang}`, join(run, `raw/lesson-${item.id}.raw.json`));
       if (value?.id !== item.id) throw new Error(`Detail identity mismatch at ${item.id}; raw retained, stop`);
       console.log(`Saved anonymous detail ${item.id}/22 (${identities[item.id - 1].slug}); not published.`);
     }
@@ -77,7 +97,7 @@ if (mode === '--fetch') {
     throw error;
   }
 } else {
-  const name = process.argv[3];
+  const name = rest[1];
   if (!/^[a-zA-Z0-9-]+$/.test(name)) throw new Error('Audit accepts only a run name under .local/alphabet-course-imports/v1');
   run = resolve(imports, name);
   if (!(await stat(run)).isDirectory()) throw new Error('Run directory missing');

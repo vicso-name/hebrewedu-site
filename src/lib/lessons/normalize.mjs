@@ -128,6 +128,7 @@ export function normalizeLesson(rawInput, identity, overrides) {
 
   return lessonSchema.parse({
     id: identity.slug, sourceId: identity.sourceId, order: identity.order, glyph: identity.glyph,
+    locale: identity.locale,
     title: overrides.title, description: nfc(overrides.description ?? raw.description),
     status: 'local-review-only', normalizationVersion: 1,
     provenance: { source: identity.sourceUrl, responseDate: overrides.source.responseDate, sha256: overrides.source.sha256 },
