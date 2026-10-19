@@ -85,6 +85,7 @@ for (const file of (await walk(distDir)).sort()) {
     canonical: pick(html, /rel="canonical"\s+href="([^"]*)"/),
     ogLocale: pick(html, /property="og:locale"\s+content="([^"]*)"/),
     title: decode(pick(html, /<title>([\s\S]*?)<\/title>/)),
+    ogTitle: decode(pick(html, /property="og:title"\s+content="([^"]*)"/)),
     description: decode(pick(html, /name="description"\s+content="([^"]*)"/)),
     robots: pick(html, /name="robots"\s+content="([^"]*)"/) ?? 'index, follow',
     alternates: [...html.matchAll(/<link rel="alternate" hreflang="([^"]+)" href="([^"]+)"/g)]
@@ -133,12 +134,6 @@ for (const page of pages) {
 // point back (reciprocity). Pages with no counterpart declare none.
 // ───────────────────────────────────────────────────────────────────────────
 
-// A published page whose counterpart does not exist in the other locale yet;
-// it correctly emits no alternates. Remove the entry when the counterpart ships.
-const NO_COUNTERPART_ALLOWLIST = new Map([
-  ['/privacy/', 'app privacy policy — governs the mobile apps, no FR translation commissioned; /fr/confidentialite/ covers the FR site and points at /website-privacy/'],
-]);
-
 for (const page of pages) {
   if (!page.alternates.length) {
     // Only FR pages and their EN counterparts are required to be bilingual.
@@ -176,7 +171,7 @@ for (const page of pages) {
   if (page.alternates.length || page.locale !== 'en') continue;
   // An EN page with a FR counterpart must say so; one without is listed above.
   const frTwin = pages.find((p) => p.locale === 'fr' && p.alternates.some((a) => a.href === `${SITE}${page.url}`));
-  if (frTwin && !NO_COUNTERPART_ALLOWLIST.has(page.url)) {
+  if (frTwin) {
     report('hreflang-missing', page, `${frTwin.url} points here as its en alternate, but this page declares no alternates`);
   }
 }
@@ -220,6 +215,11 @@ for (const page of indexable) {
   if (page.title.length > TITLE_MAX && !lengthExempt(page.url)) report('title-length', page, `<title> is ${page.title.length} chars (max ${TITLE_MAX}): "${page.title}"`);
   if (BRAND_SUFFIX.test(page.title) && !BRAND_SUFFIX_ALLOWLIST.has(page.url)) {
     report('title-brand-suffix', page, `<title> ends in the brand suffix: "${page.title}" — the site name belongs to og:site_name / the WebSite schema`);
+  }
+  // og:title too: og:site_name already carries the brand, so repeating it there
+  // just duplicates the name in every share card.
+  if (page.ogTitle && BRAND_SUFFIX.test(page.ogTitle) && !BRAND_SUFFIX_ALLOWLIST.has(page.url)) {
+    report('og-title-brand-suffix', page, `og:title ends in the brand suffix: "${page.ogTitle}" — og:site_name already carries it`);
   }
   if (titleOwners.has(page.title)) report('title-duplicate', page, `shares its <title> with ${titleOwners.get(page.title)}: "${page.title}"`);
   else titleOwners.set(page.title, page.url);
@@ -372,14 +372,11 @@ for (const page of pages.filter((p) => p.locale === 'fr')) {
 // docs/hebrew-alphabet-editorial-rules.fr.md).
 // ───────────────────────────────────────────────────────────────────────────
 
-// Pages whose remaining plain spaces come from content this repo does not author
-// by hand. Each needs a pipeline/editorial fix, not a lint fix — see docs/I18N.md
-// "Known gaps". Remove an entry once its source is corrected upstream.
-const TYPOGRAPHY_ALLOWLIST = new Map([
-  ['/fr/apprendre/alphabet-hebreu/dalet/', 'body text comes from the FR lesson snapshot; contentOverrides cannot patch exercise pair data (same holdout already recorded in src/data/lessons/fr/gimel.json) — needs an upstream admin fix, then a re-import'],
-  ['/fr/apprendre/alphabet-hebreu/he/', 'body text comes from the FR lesson snapshot — same upstream fix as dalet'],
-  ['/fr/apprendre/phrases-hebreu/', 'FR phrase copy lives in src/data/hebrew-phrases.ts, which is pinned by the editorial sign-off SHA in phraseReviewFr; correcting it requires the owner to re-approve the content'],
-]);
+// Every FR page passes: hand-authored copy carries the no-break space in source,
+// and content this repo cannot edit at rest (FR lesson snapshots, the
+// sign-off-pinned FR phrase copy) is corrected at render time by
+// src/lib/fr-typography.mjs. Keep this empty — fix the source or the filter.
+const TYPOGRAPHY_ALLOWLIST = new Map([]);
 
 for (const page of pages.filter((p) => p.locale === 'fr')) {
   if (TYPOGRAPHY_ALLOWLIST.has(page.url)) continue;

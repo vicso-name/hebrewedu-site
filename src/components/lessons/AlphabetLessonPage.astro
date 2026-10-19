@@ -142,15 +142,15 @@ const schema = {
           <section id="stage-theory" data-stage="theory" class="stage-panel" aria-labelledby="theory-title">
             <div class="stage-heading"><span class="eyebrow">{t.lesson.stepOf(1, 4)}</span><h2 id="theory-title" data-stage-heading tabindex="-1">{copy.theory.heading}</h2><p set:html={copy.theory.intro} /></div>
             <div class="learning-card">
-              <StudyBlock block={blockBySourceIndex.get(theoryIndices[0])} />
+              <StudyBlock block={blockBySourceIndex.get(theoryIndices[0])} locale={locale} />
               <div class="learning-objectives"><h2>{copy.theory.objectivesHeading}</h2><ul>{copy.theory.objectives.map((item: string) => <li set:html={item} />)}</ul></div>
-              {theorySections.map((section: any) => <div class="theory-section">{section.block.type !== 'SUBTITLE' && <h2>{section.heading}</h2>}<StudyBlock block={section.block} /></div>)}
+              {theorySections.map((section: any) => <div class="theory-section">{section.block.type !== 'SUBTITLE' && <h2>{section.heading}</h2>}<StudyBlock block={section.block} locale={locale} /></div>)}
             </div>
             <div class="stage-actions" data-enhanced hidden><button type="button" class="btn lesson-primary" data-stage-target="examples">{t.lesson.theory.nextCta} <span aria-hidden="true">→</span></button></div>
           </section>
           <section id="stage-examples" data-stage="examples" class="stage-panel" aria-labelledby="examples-title">
             <div class="stage-heading"><span class="eyebrow">{t.lesson.stepOf(2, 4)}</span><h2 id="examples-title" data-stage-heading tabindex="-1">{copy.examples.heading}</h2><p>{copy.examples.intro}</p></div>
-            <div class="learning-card example-materials">{exampleIndices.map((index: number) => <StudyBlock block={blockBySourceIndex.get(index)} />)}</div>
+            <div class="learning-card example-materials">{exampleIndices.map((index: number) => <StudyBlock block={blockBySourceIndex.get(index)} locale={locale} />)}</div>
             <div class="stage-actions" data-enhanced hidden><button type="button" class="btn lesson-primary" data-stage-target="practice">{t.lesson.examples.nextCta} <span aria-hidden="true">→</span></button></div>
           </section>
           <Practice exercises={lesson.exercises} blocks={lesson.blocks} letter={lesson.id} locale={locale} />
