@@ -256,7 +256,10 @@ for (const page of pages) {
             if (lang !== page.locale) report('jsonld-inlanguage', page, `JSON-LD inLanguage is "${lang}" on a ${page.locale} page`);
           }
         }
-        if (typeof value === 'string' && value.startsWith(`${SITE}/`)) {
+        // A shared, non-localized static asset (e.g. the one favicon every page
+        // links as its Organization logo) isn't page content — same exemption
+        // Rule 6 above gives these extensions for ordinary links.
+        if (typeof value === 'string' && value.startsWith(`${SITE}/`) && !/\.(css|js|png|jpg|jpeg|webp|svg|ico)$/.test(value)) {
           const path = value.slice(SITE.length).replace(/#.*$/, '');
           const targetLocale = path.startsWith('/fr/') ? 'fr' : 'en';
           if (targetLocale !== page.locale) {

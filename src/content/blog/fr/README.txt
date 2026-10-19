@@ -1,11 +1,13 @@
 FR blog posts live here, one Markdown file per post, named with its French
 slug (the file name becomes /fr/blog/<slug>/).
 
-The directory is intentionally empty for now: src/pages/fr/blog/[...index].astro
-and [slug].astro build nothing until the first file lands, so there is no empty
-FR listing to index and no half-paired hreflang. `astro build` logs
+Until the first post landed (feat/fr-blog-batch-1), this directory was
+intentionally empty: src/pages/fr/blog/[...index].astro and [slug].astro build
+nothing while it is, so there was no empty FR listing to index and no
+half-paired hreflang. `astro build` used to log
   [WARN] [content] The collection "blogFr" does not exist or is empty
-until then — that warning is the expected state, not a problem.
+while empty — expected at the time, not a problem, and not something you'll
+see again now that posts exist.
 
 Adding a post (docs/I18N.md §1 and §3, docs/seo/research/fr/BLOG_FR_PLAN.md):
   - `translationKey` must equal the EN post's id, which is what pairs the two
