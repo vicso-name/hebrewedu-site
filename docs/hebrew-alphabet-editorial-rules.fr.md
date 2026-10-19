@@ -78,13 +78,13 @@ own letter-name decisions). The FR hub's letter table
 SEO/search spelling, same as the per-lesson title/H1/meta.
 
 **First mention, both spellings.** When a lesson's app-body spelling differs
-from its SEO spelling (Aleph/Alef, Beth/Beit, Daleth/Dalet, Heth/Het, etc.),
+from its SEO spelling (Aleph/Alef, Beth/Beit, Heth/Het, etc.),
 the *first* mention of the letter's name in that lesson's
 `copy.theory.intro` shows both, SEO-name first: "Aleph (Alef)," "Heth
 (Het)." Every mention after that first one, and every mention inside the
 raw source's own blocks/exercises (`contentOverrides` doesn't touch them for
 this reason alone), keeps the app spelling only. Skip this when the two
-spellings already coincide (e.g. Guimel) — there is nothing to
+spellings already coincide (e.g. Guimel, Dalet) — there is nothing to
 disambiguate.
 
 **Vowel-sign names.** Any vowel-sign name that appears in agent-written

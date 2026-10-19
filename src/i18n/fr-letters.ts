@@ -3,15 +3,11 @@
 // which is the source of truth for every SEO-facing letter name. The lesson
 // pipeline's own slug (src/data/alphabet-course.json) stays the EN one — this is
 // display-only, used by the FR hub and FR lesson pages.
-//
-// `dalet` still reads "Daleth" although the research picks "Dalet": that page is
-// published, and retitling a live page is an owner decision (see that doc's
-// "Published pages whose title/H1 still uses the old spelling").
 export const frLetterNames: Record<string, string> = {
   aleph: 'Aleph',
   bet: 'Beth',
   gimel: 'Guimel',
-  dalet: 'Daleth',
+  dalet: 'Dalet',
   he: 'Hé',
   vav: 'Vav',
   zayin: 'Zayin',
