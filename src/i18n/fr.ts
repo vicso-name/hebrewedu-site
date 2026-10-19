@@ -34,7 +34,7 @@ export const fr: Dictionary = {
   },
   consent: {
     text: "Nous utilisons Google Analytics pour comprendre l'utilisation de ce site. Dans ta région, il ne fonctionne que si tu l'acceptes.",
-    privacyPolicy: 'Politique de confidentialité',
+    privacyPolicy: 'Politique de confidentialité (en anglais)',
     decline: 'Refuser',
     accept: 'Accepter',
   },

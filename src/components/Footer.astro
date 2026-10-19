@@ -24,13 +24,14 @@ const links = locale === 'fr'
       { label: t.footer.terms,   href: '/terms/'   },
       { label: t.footer.privacy, href: '/website-privacy/' },
     ];
+const homeHref = locale === 'fr' ? '/fr/' : '/';
 ---
 
 <footer class="footer">
   <div class="container footer-inner">
 
     <!-- Logo -->
-    <a href="/" class="footer-logo" aria-label="HebrewEdu">
+    <a href={homeHref} class="footer-logo" aria-label="HebrewEdu">
       {t.common.brand}
     </a>
 
