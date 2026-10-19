@@ -31,11 +31,12 @@ const links = locale === 'fr'
     ];
 const ctaHref = locale === 'fr' ? '/fr/#download' : site.appDownloadUrl;
 const ctaLabel = locale === 'fr' ? t.common.application : t.common.getTheApp;
+const homeHref = locale === 'fr' ? '/fr/' : '/';
 ---
 
 <header class:list={['nav-wrap', { 'course-nav': showCourse }]}>
   <nav class="container nav-inner" aria-label="Primary">
-    <a href="/" class="nav-logo" aria-label="HebrewEdu home">
+    <a href={homeHref} class="nav-logo" aria-label="HebrewEdu home">
       {t.common.brand}
     </a>
 
