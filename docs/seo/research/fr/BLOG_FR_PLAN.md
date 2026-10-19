@@ -9,9 +9,17 @@ reciprocal on both sides.
 
 SEO-adapted, not literal: FR titles and terms come from the French search data
 in `keywords-fr.csv` / `FR_RESEARCH.md` — **voyelles** rather than *nikoud* in
-titles, **conjugaison**, **binian/binianim** (never the EN "binyanim", which
-has no French data in any spelling), **racine**, and the letter spellings in
+titles, **conjugaison**, **racine**, and the letter spellings in
 `LETTER_SPELLINGS_FR.md`.
+
+**Superseded (owner proofread, 2026-10-19, after batch 2 shipped):** this
+paragraph originally read **binian/binianim** (never the EN "binyanim", which
+has no French data in any spelling). The owner proofread reversed that call
+site-wide — the site now uses **binyan/binyanim** everywhere, including the
+blog-2 post's own slug (`binianim-hebreu` → `binyanim-hebreu`). Neither
+spelling carries measurable French search volume in the data this file was
+written from; don't reintroduce "binian"/"binianim" in a later batch on the
+strength of the paragraph above.
 
 URL: `/fr/blog/` (final). FR slugs are French, not transliterated from the EN
 id — the pairing lives in `translationKey`, not in the slug.
