@@ -33,8 +33,13 @@ export interface Dictionary {
       google_play: string;
       app_store: string;
     };
+    /** Nav CTA on locales with no dedicated "get the app" phrase of their own (e.g. fr's "Application"). */
+    application: string;
+    /** "Games" label used where the destination is English-only, suffixed appropriately per locale. */
+    gamesEnLabel: string;
   };
   nav: {
+    home: string;
     play: string;
     alphabetCourse: string;
     phrases: string;

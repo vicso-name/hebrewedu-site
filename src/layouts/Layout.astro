@@ -12,7 +12,7 @@ const analyticsEnabled = !import.meta.env.DEV;
 
 const OG_LOCALE: Record<Locale, string> = { en: 'en_US', fr: 'fr_FR' };
 
-interface Alternate {
+export interface Alternate {
   hreflang: string;
   href: string;
 }

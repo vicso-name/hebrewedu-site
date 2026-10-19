@@ -1,0 +1,77 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Nav from '../../components/Nav.astro';
+import Footer from '../../components/Footer.astro';
+import Section from '../../components/ui/Section.astro';
+import StoreButtons from '../../components/ui/StoreButtons.astro';
+import '../../styles/fr-home.css';
+
+const PAGE_URL = 'https://hebrewedu.com/fr/';
+
+// Stage B pilot: a short FR landing page, not a translation of the EN home
+// page's marketing sections (docs/I18N_AUDIT.md §2) — it only promises what
+// this pilot actually has (the alphabet hub, the app, two EN-only games),
+// no EN-only feature claims (audio, verb dictionary, etc. — see FR_RESEARCH.md).
+const alternates = [
+  { hreflang: 'en', href: 'https://hebrewedu.com/' },
+  { hreflang: 'fr', href: PAGE_URL },
+  { hreflang: 'x-default', href: 'https://hebrewedu.com/' },
+];
+const langSwitch = { href: '/', label: 'English' };
+
+const title = "Apprendre l'hébreu : commencez par l'alphabet";
+const description = "Apprenez l'hébreu pas à pas : commencez par les 22 lettres de l'alphabet hébreu, puis la lecture et le vocabulaire, avec des leçons structurées.";
+
+const pageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  '@id': `${PAGE_URL}#webpage`,
+  url: PAGE_URL,
+  name: title,
+  description,
+  inLanguage: 'fr',
+};
+---
+<Layout title={title} description={description} schema={pageSchema} locale="fr" alternates={alternates}>
+  <div class="fr-home-page">
+    <a class="fr-home-skip" href="#fr-home-content">Aller au contenu</a>
+    <Nav locale="fr" langSwitch={langSwitch} />
+    <main id="fr-home-content">
+      <Section aria-labelledby="fr-home-title">
+        <div class="fr-home-hero">
+          <h1 id="fr-home-title">{title}</h1>
+          <p class="fr-home-lead">HebrewEdu est une application pour apprendre l'hébreu en autodidacte&nbsp;: l'alphabet, la lecture et le vocabulaire, avec des leçons structurées et des exercices de pratique.</p>
+          <div class="fr-home-cta">
+            <a class="btn btn-primary" href="/fr/alphabet-hebreu/">Commencer par l'alphabet hébreu</a>
+          </div>
+        </div>
+      </Section>
+
+      <Section id="download" surface="white">
+        <div class="fr-home-section">
+          <h2>L'application HebrewEdu</h2>
+          <p>Téléchargez l'application pour apprendre l'hébreu sur votre téléphone&nbsp;: leçons, vocabulaire et pratique, à votre rythme.</p>
+          <StoreButtons location="fr_home" locale="fr" height={48} />
+        </div>
+      </Section>
+
+      <Section>
+        <div class="fr-home-section">
+          <h2>Jouer (en anglais)</h2>
+          <p>Deux jeux dans le navigateur pour réviser la reconnaissance des lettres hébraïques (en anglais)&nbsp;:</p>
+          <div class="fr-home-games">
+            <a class="fr-home-game-card" href="/play/alef-bet-rush/">
+              <h3>Alef Bet Rush (en anglais)</h3>
+              <p>Reconnaissez les lettres hébraïques le plus vite possible.</p>
+            </a>
+            <a class="fr-home-game-card" href="/play/hebrew-mahjong/">
+              <h3>Hebrew Mahjong (en anglais)</h3>
+              <p>Associez les lettres hébraïques par paires dans ce jeu de mahjong.</p>
+            </a>
+          </div>
+        </div>
+      </Section>
+    </main>
+    <Footer locale="fr" />
+  </div>
+</Layout>

@@ -14,8 +14,14 @@ export const en: Dictionary = {
       google_play: 'Get it on Google Play',
       app_store: 'Download on the App Store',
     },
+    // Unused on EN pages today (EN nav always renders getTheApp/nav.play) —
+    // kept so fr.ts has a same-shaped counterpart to translate.
+    application: 'App',
+    gamesEnLabel: 'Games',
   },
   nav: {
+    // Unused on EN pages today (the EN nav reaches home via the logo, not a nav link).
+    home: 'Home',
     play: 'Play',
     alphabetCourse: 'Alphabet Course',
     phrases: 'Phrases',

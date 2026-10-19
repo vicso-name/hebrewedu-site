@@ -54,6 +54,18 @@ export const GET: APIRoute = async () => {
       lastmod: pageUpdatedDates['/'],
     },
     {
+      url: '/fr/',
+      priority: '1.0',
+      changefreq: 'weekly',
+      lastmod: pageUpdatedDates['/fr/'],
+    },
+    {
+      url: '/fr/alphabet-hebreu/',
+      priority: '0.8',
+      changefreq: 'weekly',
+      lastmod: pageUpdatedDates['/fr/alphabet-hebreu/'],
+    },
+    {
       url: '/blog/',
       priority: '0.8',
       changefreq: 'weekly',

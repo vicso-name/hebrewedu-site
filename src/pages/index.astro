@@ -16,6 +16,14 @@ import { site } from '../data/site';
 import { appSchema } from '../data/schema';
 import { faqs } from '../data/faq';
 
+// Stage B: /fr/ is this page's FR counterpart.
+const alternates = [
+  { hreflang: 'en', href: 'https://hebrewedu.com/' },
+  { hreflang: 'fr', href: 'https://hebrewedu.com/fr/' },
+  { hreflang: 'x-default', href: 'https://hebrewedu.com/' },
+];
+const langSwitch = { href: '/fr/', label: 'Français' };
+
 const pageSchema = {
   "@context": "https://schema.org",
   "@graph": [
@@ -37,6 +45,7 @@ const pageSchema = {
   seoTitle="Hebrew Alphabet App & Reading Practice"
   description={site.description}
   schema={pageSchema}
+  alternates={alternates}
 >
   <link
     slot="head"
@@ -46,7 +55,7 @@ const pageSchema = {
 
   <!-- .home-page scopes the redesigned homepage tokens (src/styles/home.css) -->
   <div class="home-page">
-    <Nav />
+    <Nav langSwitch={langSwitch} />
     <main>
       <Hero />
       <ProductPillars />

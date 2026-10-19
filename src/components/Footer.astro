@@ -9,13 +9,21 @@ const { locale = 'en' } = Astro.props;
 const t = getDictionary(locale);
 const year = new Date().getFullYear();
 
-const links = [
-  { label: t.footer.play, href: '/play/' },
-  { label: t.footer.blog, href: '/blog/' },
-  ...(phrasesPublished() ? [{ label: t.footer.hebrewPhrases, href: phrasesPath }] : []),
-  { label: t.footer.terms,   href: '/terms/'   },
-  { label: t.footer.privacy, href: '/website-privacy/' },
-];
+// FR has no Blog/Hebrew Phrases page yet, so the footer doesn't link to them —
+// only /play/ (labeled as English) and the (English-only) legal pages.
+const links = locale === 'fr'
+  ? [
+      { label: t.common.gamesEnLabel, href: '/play/' },
+      { label: t.footer.terms,   href: '/terms/'   },
+      { label: t.footer.privacy, href: '/website-privacy/' },
+    ]
+  : [
+      { label: t.footer.play, href: '/play/' },
+      { label: t.footer.blog, href: '/blog/' },
+      ...(phrasesPublished() ? [{ label: t.footer.hebrewPhrases, href: phrasesPath }] : []),
+      { label: t.footer.terms,   href: '/terms/'   },
+      { label: t.footer.privacy, href: '/website-privacy/' },
+    ];
 ---
 
 <footer class="footer">

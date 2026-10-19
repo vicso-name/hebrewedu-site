@@ -30,11 +30,18 @@ const stages = [
   t.hub.stages.results,
 ] satisfies [LearningItem, LearningItem, LearningItem, LearningItem];
 const resources = t.hub.resources;
+// Stage B: /fr/alphabet-hebreu/ is this page's FR counterpart.
+const alternates = [
+  { hreflang: 'en', href: 'https://hebrewedu.com/learn/hebrew-alphabet/' },
+  { hreflang: 'fr', href: 'https://hebrewedu.com/fr/alphabet-hebreu/' },
+  { hreflang: 'x-default', href: 'https://hebrewedu.com/learn/hebrew-alphabet/' },
+];
+const langSwitch = { href: '/fr/alphabet-hebreu/', label: 'Français' };
 ---
-<Layout title={courseTitle} description={courseDescription} robots={courseManifest.hub.published ? 'index, follow' : 'noindex, nofollow, noarchive'} schema={courseSchema()} locale={locale}>
+<Layout title={courseTitle} description={courseDescription} robots={courseManifest.hub.published ? 'index, follow' : 'noindex, nofollow, noarchive'} schema={courseSchema()} locale={locale} alternates={alternates}>
   <div class="course-hub">
     <a class="course-skip" href="#course-content">{t.hub.skipToCourse}</a>
-    <Nav locale={locale} />
+    <Nav locale={locale} langSwitch={langSwitch} />
     <main id="course-content">
       <Section aria-labelledby="course-title">
         <div class="course-hero">
