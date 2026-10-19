@@ -1,21 +1,62 @@
 ---
-import { phraseExercises, phraseVariant } from '../../data/hebrew-phrases';
+import { phraseExercises, phraseVariant, phraseVariantFr } from '../../data/hebrew-phrases';
+import type { Locale } from '../../i18n';
 import HebrewText from '../lessons/HebrewText.astro';
 import Transliteration from './Transliteration.astro';
-const keys = phraseExercises.map(({ id, correctOptionId, options, explanation }) => ({ id, correctOptionId, options: options.map(({ id }) => ({ id })), explanation }));
+
+interface Props {
+  locale?: Locale;
+  exercises?: typeof phraseExercises;
+}
+const { locale = 'en', exercises = phraseExercises } = Astro.props;
+const isFr = locale === 'fr';
+const getVariant = isFr ? phraseVariantFr : phraseVariant;
+const keys = exercises.map(({ id, correctOptionId, options, explanation }) => ({ id, correctOptionId, options: options.map(({ id }) => ({ id })), explanation }));
 const gradingJson = JSON.stringify(keys).replace(/</g, '\\u003c');
+
+const t = isFr
+  ? {
+      intro: "Choisis l'expression que tu utiliserais. Vérifie ta réponse, lis l'explication, et réessaie quand tu veux.",
+      progressTemplate: '{correct} sur {total} réponses vérifiées correctes',
+      progress: (n: number, total: number) => `${n} sur ${total} réponses vérifiées correctes`,
+      situation: (n: number, total: number) => `Situation ${n} sur ${total}`,
+      checkAnswer: 'Vérifier la réponse',
+      tryAgain: 'Réessayer',
+      showAnswer: "Voir la réponse et l'explication",
+      answer: 'Réponse : ',
+      revisit: 'Revoir cette expression',
+      chooseFirst: "Choisis une réponse d'abord, puis vérifie-la.",
+      correct: 'Correct.',
+      incorrect: 'Pas tout à fait.',
+      chooseAgain: 'Choisis une réponse et vérifie-la à nouveau.',
+    }
+  : {
+      intro: 'Choose the expression you would use. Check your answer, read the explanation, and try again whenever you like.',
+      progressTemplate: '{correct} of {total} answers checked correctly',
+      progress: (n: number, total: number) => `${n} of ${total} answers checked correctly`,
+      situation: (n: number, total: number) => `Situation ${n} of ${total}`,
+      checkAnswer: 'Check answer',
+      tryAgain: 'Try again',
+      showAnswer: 'Show answer and explanation',
+      answer: 'Answer: ',
+      revisit: 'Revisit this phrase',
+      chooseFirst: 'Choose an answer first, then check it.',
+      correct: 'Correct.',
+      incorrect: 'Not quite.',
+      chooseAgain: 'Choose an answer and check it again.',
+    };
 ---
-<div class="phrase-practice" data-phrase-practice>
-  <p class="practice-intro">Choose the expression you would use. Check your answer, read the explanation, and try again whenever you like.</p>
-  <p class="phrase-practice-progress" data-phrase-progress role="status" aria-live="polite" aria-atomic="true" hidden>0 of 3 answers checked correctly</p>
+<div class="phrase-practice" data-phrase-practice {...(isFr ? { 'data-phrase-progress-template': t.progressTemplate, 'data-phrase-choose-first': t.chooseFirst, 'data-phrase-correct-word': t.correct, 'data-phrase-incorrect-word': t.incorrect, 'data-phrase-choose-again': t.chooseAgain } : {})}>
+  <p class="practice-intro">{t.intro}</p>
+  <p class="phrase-practice-progress" data-phrase-progress role="status" aria-live="polite" aria-atomic="true" hidden>{t.progress(0, exercises.length)}</p>
   <div class="phrase-practice-questions">
-    {phraseExercises.map((exercise, index) => <form class="phrase-question" data-phrase-question={exercise.id} novalidate>
-      <p class="phrase-question-number">Situation {index + 1} of {phraseExercises.length}</p>
+    {exercises.map((exercise, index) => <form class="phrase-question" data-phrase-question={exercise.id} novalidate>
+      <p class="phrase-question-number">{t.situation(index + 1, exercises.length)}</p>
       <fieldset>
         <legend>{exercise.prompt}</legend>
         <div class="phrase-answer-options">
           {exercise.options.map(option => {
-            const variant = phraseVariant(option.phraseId, option.variantId);
+            const variant = getVariant(option.phraseId, option.variantId);
             return <label class="phrase-answer-option" for={option.id}>
               <input type="radio" id={option.id} name={exercise.id} value={option.id} aria-describedby={`${exercise.id}-feedback`} />
               <span><bdi class="phrases-hebrew" lang="he" dir="rtl"><HebrewText text={variant.hebrew} /></bdi><span class="phrase-option-transliteration" lang="he-Latn" dir="ltr"><Transliteration text={variant.transliteration} /></span></span>
@@ -24,15 +65,15 @@ const gradingJson = JSON.stringify(keys).replace(/</g, '\\u003c');
         </div>
       </fieldset>
       <div class="phrase-answer-actions" data-phrase-actions hidden>
-        <button type="submit" class="btn phrases-primary">Check answer</button>
-        <button type="button" class="btn phrases-secondary" data-phrase-retry hidden>Try again</button>
+        <button type="submit" class="btn phrases-primary">{t.checkAnswer}</button>
+        <button type="button" class="btn phrases-secondary" data-phrase-retry hidden>{t.tryAgain}</button>
       </div>
       <p class="phrase-feedback" id={`${exercise.id}-feedback`} data-phrase-feedback role="status" aria-live="polite" aria-atomic="true" tabindex="-1"></p>
       <details class="phrase-fallback-answer" data-phrase-fallback>
-        <summary>Show answer and explanation</summary>
-        <p><strong>Answer: </strong><bdi class="phrases-hebrew" lang="he" dir="rtl"><HebrewText text={phraseVariant(exercise.options.find(option => option.id === exercise.correctOptionId)!.phraseId, exercise.options.find(option => option.id === exercise.correctOptionId)!.variantId).hebrew} /></bdi></p>
+        <summary>{t.showAnswer}</summary>
+        <p><strong>{t.answer}</strong><bdi class="phrases-hebrew" lang="he" dir="rtl"><HebrewText text={getVariant(exercise.options.find(option => option.id === exercise.correctOptionId)!.phraseId, exercise.options.find(option => option.id === exercise.correctOptionId)!.variantId).hebrew} /></bdi></p>
         <p>{exercise.explanation}</p>
-        <a href={`#phrase-${exercise.options.find(option => option.id === exercise.correctOptionId)!.phraseId}`}>Revisit this phrase</a>
+        <a href={`#phrase-${exercise.options.find(option => option.id === exercise.correctOptionId)!.phraseId}`}>{t.revisit}</a>
       </details>
     </form>)}
   </div>

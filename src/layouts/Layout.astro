@@ -37,6 +37,8 @@ interface Props {
   /** hreflang alternates (en, fr, x-default). Omitted entirely when not provided — a
    *  page with no FR counterpart emits no alternate links. */
   alternates?: Alternate[];
+  /** Forwarded to Nav (pageClass path only); unset reproduces every existing pageClass page's output exactly. */
+  langSwitch?: { href: string };
 }
 
 const {
@@ -51,6 +53,7 @@ const {
   mainId = 'main-content',
   locale = 'en',
   alternates,
+  langSwitch,
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
@@ -107,7 +110,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   <body>
     {pageClass ? <div class={pageClass}>
       <a class="layout-skip" href={`#${mainId}`}>Skip to content</a>
-      <Nav locale={locale} />
+      <Nav locale={locale} langSwitch={langSwitch} />
       <main id={mainId}><slot /></main>
       <Footer locale={locale} />
     </div> : <slot />}

@@ -18,6 +18,7 @@ export const en: Dictionary = {
     // kept so fr.ts has a same-shaped counterpart to translate.
     application: 'App',
     gamesEnLabel: 'Games',
+    blogEnLabel: 'Blog',
   },
   nav: {
     // Unused on EN pages today (the EN nav reaches home via the logo, not a nav link).

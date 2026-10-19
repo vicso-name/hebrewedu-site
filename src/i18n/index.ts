@@ -54,6 +54,8 @@ export interface Dictionary {
     application: string;
     /** "Games" label used where the destination is English-only, suffixed appropriately per locale. */
     gamesEnLabel: string;
+    /** "Blog" label used where the destination is English-only, suffixed appropriately per locale. */
+    blogEnLabel: string;
   };
   nav: {
     home: string;

@@ -55,6 +55,9 @@ const LAYOUT_WRAPPERS = [
   // Stage C: the shared alphabet-lesson template (src/pages/learn/hebrew-alphabet/[lesson].astro
   // and src/pages/fr/apprendre/alphabet-hebreu/[lesson].astro both render through it).
   'components/lessons/AlphabetLessonPage.astro',
+  // FR phrases: the shared phrases-page template (src/pages/learn/hebrew-phrases/[...landing].astro
+  // and src/pages/fr/apprendre/phrases-hebreu/[...landing].astro both render through it).
+  'components/phrases/PhrasesPage.astro',
 ];
 
 const pagesDir = resolve(srcDir, 'pages');

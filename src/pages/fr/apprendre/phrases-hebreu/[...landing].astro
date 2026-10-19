@@ -1,0 +1,32 @@
+---
+import PhrasesPage from '../../../../components/phrases/PhrasesPage.astro';
+import { phrasesTitleFr, phrasesDescriptionFr, phrasesSchemaFr, phrasesEnabledFr, phrasesPublishedFr, localPhrasesPreview } from '../../../../lib/hebrew-phrases.mjs';
+import '../../../../styles/hebrew-phrases.css';
+
+// FR counterpart of /learn/hebrew-phrases/, same approach as the FR alphabet hub:
+// same shared template (PhrasesPage.astro), same sections/order/components — not a
+// separate short landing page. Slug/title/H1/meta from
+// docs/seo/research/fr/PHRASES_FR.md. Rest-param route (like the EN page) so an
+// unapproved FR release is excluded from the production build, not just noindexed.
+export function getStaticPaths() {
+  return phrasesEnabledFr(localPhrasesPreview(import.meta.env.DEV)) ? [{ params: { landing: undefined } }] : [];
+}
+const published = phrasesPublishedFr();
+
+const alternates = [
+  { hreflang: 'en', href: 'https://hebrewedu.com/learn/hebrew-phrases/' },
+  { hreflang: 'fr', href: 'https://hebrewedu.com/fr/apprendre/phrases-hebreu/' },
+  { hreflang: 'x-default', href: 'https://hebrewedu.com/learn/hebrew-phrases/' },
+];
+const langSwitch = { href: '/learn/hebrew-phrases/' };
+---
+<PhrasesPage
+  locale="fr"
+  published={published}
+  title={phrasesTitleFr}
+  description={phrasesDescriptionFr}
+  schema={phrasesSchemaFr()}
+  robots={published ? 'index, follow' : 'noindex, nofollow, noarchive'}
+  alternates={alternates}
+  langSwitch={langSwitch}
+/>

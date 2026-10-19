@@ -15,6 +15,7 @@ export const fr: Dictionary = {
     },
     application: 'Application',
     gamesEnLabel: 'Jeux (en anglais)',
+    blogEnLabel: 'Blog (en anglais)',
   },
   nav: {
     home: 'Accueil',

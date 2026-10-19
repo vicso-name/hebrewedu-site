@@ -1,0 +1,216 @@
+---
+// Shared phrases-page template (same approach as HomePage.astro / AlphabetHubPage.astro):
+// renders the EN page's full structure — hero, how-to-use, 5 situations, dialogues,
+// practice, app CTA, FAQ, keep-learning — in the same order through the same
+// components, for both /learn/hebrew-phrases/ (locale="en") and
+// /fr/apprendre/phrases-hebreu/ (locale="fr"). EN output is unchanged by this
+// refactor except the hreflang alternates passed in from the page file.
+import Layout from '../../layouts/Layout.astro';
+import Section from '../ui/Section.astro';
+import CtaPanel from '../ui/CtaPanel.astro';
+import StoreButtons from '../ui/StoreButtons.astro';
+import Faq from '../Faq.astro';
+import PhraseCard from './PhraseCard.astro';
+import SituationTiles from './SituationTiles.astro';
+import PhrasePractice from './PhrasePractice.astro';
+import HebrewText from '../lessons/HebrewText.astro';
+import Transliteration from './Transliteration.astro';
+import {
+  phraseGroups, phrases, phraseDialogues, phraseQuestions, frPhraseQuestions,
+  phraseExercises, frPhraseExercises, phraseVariant, phraseVariantFr, phraseReview, phraseReviewFr,
+} from '../../data/hebrew-phrases';
+import type { Locale, Alternate } from '../../i18n';
+
+interface Props {
+  locale?: Locale;
+  published: boolean;
+  title: string;
+  description: string;
+  schema: Record<string, unknown>;
+  robots: string;
+  alternates?: Alternate[];
+  langSwitch?: { href: string };
+}
+const { locale = 'en', published, title, description, schema, robots, alternates, langSwitch } = Astro.props;
+const isFr = locale === 'fr';
+const phraseById = (id: string) => phrases.find(phrase => phrase.id === id)!;
+const getVariant = isFr ? phraseVariantFr : phraseVariant;
+const faqItems = isFr ? frPhraseQuestions : phraseQuestions;
+const review = isFr ? phraseReviewFr : phraseReview;
+
+const resourcesEn = [
+  { href: '/blog/how-to-learn-hebrew-vocabulary/', title: 'Remember the phrases you learn', description: 'Build a manageable vocabulary and review habit.' },
+  { href: '/blog/hebrew-alphabet-complete-guide/', title: 'Look up Hebrew letters', description: 'Keep letter shapes, names and final forms close at hand.' },
+  { href: '/learn/hebrew-alphabet/', title: 'Start with the alphabet', description: 'Meet Aleph in the published first alphabet lesson.' },
+];
+// FR "keep learning" links point at FR pages where they exist; the alphabet guide
+// blog post has no FR counterpart yet, so it is omitted rather than linked in English.
+const resourcesFr = [
+  { href: '/fr/apprendre/alphabet-hebreu/', title: "Commence par l'alphabet", description: "Découvre Aleph dans la première leçon publiée." },
+  { href: '/fr/', title: 'Construis ton hébreu avec HebrewEdu', description: "Vocabulaire, leçons structurées et lecture pour débutants." },
+];
+const resources = isFr ? resourcesFr : resourcesEn;
+
+const t = isFr
+  ? {
+      breadcrumbHome: 'Accueil', breadcrumbPage: 'Phrases',
+      preview: 'Aperçu éditorial local · La relecture par un locuteur natif est en attente. Cette page est exclue du build de production.',
+      eyebrowHero: "Un peu d'hébreu pour le quotidien",
+      h1: 'Apprends les phrases en hébreu du quotidien',
+      lead: "Dis bonjour. Commande un café. Demande un peu d'aide. Commence avec 30 expressions pratiques en hébreu moderne, avec leur sens en français et leur prononciation.",
+      explorePhrases: 'Explorer les expressions', tryPractice: 'Essayer un exercice rapide',
+      heroMeta: ['5 situations du quotidien', 'Gratuit ici', 'Aucune installation nécessaire'],
+      deckAria: 'Trois salutations pour commencer',
+      howToUseEyebrow: 'Lis-la. Comprends-la. Utilise-la.',
+      howToUseH2: 'Comment utiliser ce guide de phrases',
+      anatomyAria: 'Exemple de carte de phrase. Ses parties sont expliquées dans la liste.',
+      legend: [
+        { h3: 'Hébreu avec nikoud', p: 'Les points et signes autour des lettres hébraïques sont le nikoud, qui aide à montrer les sons des voyelles. <a href="/blog/how-to-read-hebrew-nikud/">Comprendre les signes voyelles hébreux (en anglais)</a>.' },
+        { h3: '[Transcription]', p: 'La transcription est une approximation : <em>ch</em> comme dans « chat », <em>kh</em> pour un son proche du « r » grasseyé, et <em>ou</em> comme dans « coucou ». Une apostrophe sépare des sons voyelles.' },
+        { h3: 'Sens en français', p: 'Suis le sens, pour savoir ce que tu dis.' },
+        { h3: "Note d'usage", p: 'La situation à laquelle correspond la phrase, pour savoir quand l’utiliser.' },
+        { h3: 'Dit par / Dit à', p: '« Dit par » est la personne qui dit la phrase ; « Dit à » est la personne à qui tu t’adresses. Ces exemples s’adressent à une seule personne.' },
+      ],
+      phrasesEyebrow: '30 expressions. Plein de petits débuts.',
+      phrasesH2: 'Phrases en hébreu du quotidien',
+      phrasesLead: 'Choisis une situation et apprends quelques phrases que tu pourras utiliser.',
+      midAppLabel: 'Construis une pratique régulière de l’hébreu',
+      midAppText: 'Continue avec la révision du vocabulaire et des leçons structurées dans HebrewEdu.',
+      examplesEyebrow: 'Assemble les mots',
+      examplesH2: 'Deux petites conversations',
+      examplesLead: 'Vois comment les phrases que tu viens d’apprendre fonctionnent dans un échange.',
+      practiceEyebrow: 'À toi de jouer',
+      practiceH2: 'Essaie un exercice rapide',
+      practiceLead: 'Trois situations du quotidien. Pas de minuteur, pas de pression.',
+      ctaEyebrow: 'Garde le rythme',
+      ctaH2: 'Continue à apprendre avec HebrewEdu',
+      ctaText: 'Prolonge ces phrases avec la révision du vocabulaire, des leçons structurées et de la lecture pour débutants avec traduction.',
+      faqTitle: 'Questions de débutants',
+      keepLearningH2: "Continuer à apprendre l'hébreu",
+      keepLearningLead: 'Utilise une référence quand tu en as besoin, ou donne un peu de structure à ta pratique.',
+      editorialPrefix: 'Créé par HebrewEdu.',
+      editorialReviewedPrefix: ' Relu éditorialement le ',
+      situationsAria: 'Situations de phrases',
+      unitLabel: 'expressions',
+    }
+  : {
+      breadcrumbHome: 'Home', breadcrumbPage: 'Hebrew Phrases',
+      preview: 'Local editorial preview · Native Hebrew review is pending. This page is excluded from the production build.',
+      eyebrowHero: 'A little Hebrew for everyday life',
+      h1: 'Useful Hebrew Phrases for Beginners',
+      lead: 'Say hello. Order a coffee. Ask for a little help. Start with 30 practical Modern Hebrew expressions, with English meanings and pronunciation support.',
+      explorePhrases: 'Explore the phrases', tryPractice: 'Try a quick practice',
+      heroMeta: ['5 everyday situations', 'Free to use here', 'No installation needed'],
+      deckAria: 'Three greetings to start with',
+      howToUseEyebrow: 'Read it. Understand it. Use it.',
+      howToUseH2: 'How to use this phrase guide',
+      anatomyAria: 'Example phrase card. Its parts are explained in the list.',
+      legend: [
+        { h3: 'Hebrew with nikud', p: 'The dots and marks around the Hebrew letters are nikud, which help show vowel sounds. <a href="/blog/how-to-read-hebrew-nikud/">Understand Hebrew vowel marks</a>.' },
+        { h3: '[Transliteration]', p: 'Transliteration is an approximation: <em>sh</em> as in “shoe”, <em>ts</em> as in “cats”, and <em>kh</em> for a sound like the ending of Scottish “loch”. An apostrophe separates vowel sounds.' },
+        { h3: 'English meaning', p: 'Follow the meaning, so you know what you are saying.' },
+        { h3: 'Usage note', p: 'The situation the phrase fits, so you know when to use it.' },
+        { h3: 'Said by / Said to', p: '“Said by” is the person saying the phrase; “Said to” is the person you are speaking to. These examples address one person.' },
+      ],
+      phrasesEyebrow: '30 expressions. Plenty of small beginnings.',
+      phrasesH2: 'Everyday Hebrew phrases',
+      phrasesLead: 'Choose a situation and learn a few phrases you can put to use.',
+      midAppLabel: 'Build a regular Hebrew practice habit',
+      midAppText: 'Keep building with vocabulary review and structured lessons in HebrewEdu.',
+      examplesEyebrow: 'Put the words together',
+      examplesH2: 'Two small conversations',
+      examplesLead: 'See how phrases you have just learned can work in an exchange.',
+      practiceEyebrow: 'Your turn',
+      practiceH2: 'Try a quick phrase practice',
+      practiceLead: 'Three everyday situations. No timer, no pressure.',
+      ctaEyebrow: 'Keep the habit going',
+      ctaH2: 'Continue learning with HebrewEdu',
+      ctaText: 'Build on these phrases with vocabulary review, structured lessons and beginner reading with audio and translation.',
+      faqTitle: 'Beginner questions',
+      keepLearningH2: 'Keep learning Hebrew',
+      keepLearningLead: 'Use a reference when you need it, or give your practice a little structure.',
+      editorialPrefix: 'Created by HebrewEdu.',
+      editorialReviewedPrefix: ' Editorially reviewed ',
+      situationsAria: 'Phrase situations',
+      unitLabel: 'phrases',
+    };
+
+// Anatomy figure/legend example card: coffee-please in EN, water-please in FR (its
+// heading/usage read more naturally as the single worked example in French).
+const anatomyPhraseId = isFr ? 'water-please' : 'coffee-please';
+---
+<Layout pageClass="phrases-page" mainId="phrases-content" title={title} description={description} schema={schema} robots={robots} locale={locale} alternates={alternates} langSwitch={langSwitch}>
+      <Section class="phrases-hero phrases-hero--deck" aria-labelledby="phrases-title">
+        {!published && <p class="phrases-preview" role="note">{t.preview}</p>}
+        <nav class="phrases-breadcrumbs" aria-label="Breadcrumb"><ol><li><a href={isFr ? '/fr/' : '/'}>{t.breadcrumbHome}</a></li><li aria-current="page">{t.breadcrumbPage}</li></ol></nav>
+        <div class="phrases-hero-layout">
+          <header>
+            <p class="phrases-eyebrow">{t.eyebrowHero}</p>
+            <h1 id="phrases-title">{t.h1}</h1>
+            <p class="phrases-lead">{t.lead}</p>
+            <div class="phrases-hero-actions"><a href="#phrases" class="btn phrases-primary">{t.explorePhrases} <span aria-hidden="true">↓</span></a><a href="#practice" class="btn phrases-secondary">{t.tryPractice}</a></div>
+            <p class="phrases-hero-meta">{t.heroMeta[0]} <span aria-hidden="true">·</span> {t.heroMeta[1]} <span aria-hidden="true">·</span> {t.heroMeta[2]}</p>
+          </header>
+          <aside class="phrases-deck" aria-label={t.deckAria}>
+            <ul class="phrases-deck-list">
+              <li><PhraseCard phrase={phraseById('hello')} meaningTag="p" locale={locale} /></li>
+              <li><PhraseCard phrase={phraseById('good-morning')} meaningTag="p" locale={locale} /></li>
+              <li><PhraseCard phrase={phraseById('goodbye')} meaningTag="p" locale={locale} /></li>
+            </ul>
+          </aside>
+        </div>
+      </Section>
+
+      <Section surface="soft" id="how-to-use">
+        <div class="phrases-section-heading"><p class="phrases-eyebrow">{t.howToUseEyebrow}</p><h2 class="display-md">{t.howToUseH2}</h2></div>
+        <div class="phrases-anatomy">
+          <figure class="phrases-anatomy-card" aria-label={t.anatomyAria}>
+            <PhraseCard phrase={phraseById(anatomyPhraseId)} meaningTag="p" idPrefix="anatomy-" locale={locale} />
+          </figure>
+          <ol class="phrases-anatomy-legend">
+            {t.legend.map(item => <li><div><h3>{item.h3}</h3><p set:html={item.p} /></div></li>)}
+          </ol>
+        </div>
+      </Section>
+
+      <Section id="phrases">
+        <div class="phrases-section-heading"><p class="phrases-eyebrow">{t.phrasesEyebrow}</p><h2 class="display-md">{t.phrasesH2}</h2><p>{t.phrasesLead}</p></div>
+        <SituationTiles groups={phraseGroups.map(g => ({ ...g, title: isFr ? g.frTitle ?? g.title : g.title, description: isFr ? g.frDescription ?? g.description : g.description }))} ariaLabel={t.situationsAria} unitLabel={t.unitLabel} />
+        {phraseGroups.map((group, groupIndex) => <>
+          <div class="phrase-group" id={group.id} role="region" aria-labelledby={`${group.id}-title`}>
+            <header class="phrase-group-heading"><div><h3 id={`${group.id}-title`}>{isFr ? group.frTitle ?? group.title : group.title}</h3><p>{isFr ? group.frDescription ?? group.description : group.description}</p></div></header>
+            <div class="phrase-grid" role="list">{group.phrases.map((phrase) => <PhraseCard phrase={phrase} id={`phrase-${phrase.id}`} locale={locale} />)}</div>
+          </div>
+          {groupIndex === 1 && <aside class="phrases-inline-app" aria-labelledby="phrases-mid-title"><div><p id="phrases-mid-title" class="phrases-app-label">{t.midAppLabel}</p><p>{t.midAppText}</p></div><StoreButtons location="hebrew_phrases_mid" height={48} locale={locale} /></aside>}
+        </>)}
+      </Section>
+
+      <Section surface="soft" id="examples">
+        <div class="phrases-section-heading"><p class="phrases-eyebrow">{t.examplesEyebrow}</p><h2 class="display-md">{t.examplesH2}</h2><p>{t.examplesLead}</p></div>
+        <div class="phrase-dialogues">{phraseDialogues.map(dialogue => <div class="phrase-dialogue" data-phrase-dialogue={dialogue.id}>
+          <h3>{isFr ? dialogue.frTitle : dialogue.title}</h3><p class="phrase-dialogue-setting">{isFr ? dialogue.frSetting : dialogue.setting}</p>
+          <ol>{dialogue.turns.map(turn => {
+            const variant = getVariant(turn.phraseId, turn.variantId);
+            return <li><p class="phrase-form-label">{isFr ? turn.frRole : turn.role}</p><p class="phrase-hebrew-line"><bdi class="phrases-hebrew" lang="he" dir="rtl"><HebrewText text={variant.hebrew} /></bdi></p><p class="phrase-transliteration" lang="he-Latn" dir="ltr"><Transliteration text={variant.transliteration} /></p><p>{isFr ? turn.frTranslation : turn.translation}</p></li>;
+          })}</ol>
+        </div>)}</div>
+      </Section>
+
+      <Section id="practice">
+        <div class="phrases-section-heading"><p class="phrases-eyebrow">{t.practiceEyebrow}</p><h2 class="display-md">{t.practiceH2}</h2><p>{t.practiceLead}</p></div>
+        <PhrasePractice locale={locale} exercises={isFr ? frPhraseExercises : phraseExercises} />
+      </Section>
+
+      <CtaPanel id="phrases-app" compact>
+        <p class="phrases-eyebrow">{t.ctaEyebrow}</p><h2 class="display-md">{t.ctaH2}</h2>
+        <p>{t.ctaText}</p>
+        <StoreButtons location="hebrew_phrases_after_practice" height={48} locale={locale} />
+      </CtaPanel>
+
+      <Faq id="questions" title={t.faqTitle} items={faqItems.map(item => ({ q: item.question, a: item.answer }))} />
+      <Section id="keep-learning">
+        <div class="phrases-section-heading"><h2 class="display-md">{t.keepLearningH2}</h2><p>{t.keepLearningLead}</p></div>
+        <ul class="phrases-resources" role="list">{resources.map(resource => <li><h3><a href={resource.href}>{resource.title} <span aria-hidden="true">→</span></a></h3><p>{resource.description}</p></li>)}</ul>
+        <p class="phrases-editorial">{t.editorialPrefix}{published && review.reviewedAt && <>{t.editorialReviewedPrefix}<time datetime={review.reviewedAt}>{review.reviewedAt}</time>.</>}</p>
+      </Section>
+</Layout>

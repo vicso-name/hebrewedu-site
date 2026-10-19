@@ -1,7 +1,7 @@
 ---
 import { site } from '../data/site';
 import { coursePath, hubEnabled, localCoursePreview } from '../lib/alphabet-course.mjs';
-import { phrasesPath } from '../lib/hebrew-phrases.mjs';
+import { phrasesPath, phrasesPathFr, phrasesPublishedFr } from '../lib/hebrew-phrases.mjs';
 import { getDictionary, type Locale } from '../i18n';
 import LangSwitch from './LangSwitch.astro';
 
@@ -15,13 +15,16 @@ const { locale = 'en', langSwitch } = Astro.props;
 const t = getDictionary(locale);
 
 const showCourse = hubEnabled(localCoursePreview(import.meta.env.DEV));
-// FR has its own, much smaller link set — there's no FR blog/phrases page yet,
-// and /play/ is English-only, so it's labeled as such rather than translated.
+// FR mirrors the EN nav items (play/games, alphabet course, phrases, blog); /play/
+// and /blog/ are English-only destinations, so they're labeled as such rather than
+// translated. Phrases only appears once the FR phrases page is actually published.
 const links = locale === 'fr'
   ? [
       { label: t.nav.home, href: '/fr/' },
       { label: t.nav.alphabetCourse, href: '/fr/apprendre/alphabet-hebreu/' },
       { label: t.common.gamesEnLabel, href: '/play/' },
+      ...(phrasesPublishedFr() ? [{ label: t.nav.phrases, href: phrasesPathFr }] : []),
+      { label: t.common.blogEnLabel, href: '/blog/' },
     ]
   : [
       { label: t.nav.play, href: '/play/' },

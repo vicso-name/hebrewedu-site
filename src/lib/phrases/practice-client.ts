@@ -11,6 +11,15 @@ export function initPhrasePractice(root: HTMLElement) {
   let keys: Key[];
   try { keys = JSON.parse(payload.textContent ?? ''); } catch { return; }
   if (!Array.isArray(keys) || !keys.length) return;
+  // Locale-overridable strings (data-phrase-*), defaulting to the original English copy
+  // so a root with none of these attributes behaves exactly as before.
+  const strings = {
+    progressTemplate: root.dataset.phraseProgressTemplate ?? '{correct} of {total} answers checked correctly',
+    chooseFirst: root.dataset.phraseChooseFirst ?? 'Choose an answer first, then check it.',
+    correctWord: root.dataset.phraseCorrectWord ?? 'Correct.',
+    incorrectWord: root.dataset.phraseIncorrectWord ?? 'Not quite.',
+    chooseAgain: root.dataset.phraseChooseAgain ?? 'Choose an answer and check it again.',
+  };
   const forms = Array.from(root.querySelectorAll<HTMLFormElement>('[data-phrase-question]'));
   if (forms.length !== keys.length) return;
 
@@ -28,7 +37,7 @@ export function initPhrasePractice(root: HTMLElement) {
   let completeFired = false;
   function updateProgress() {
     const correct = [...answers.values()].filter(Boolean).length;
-    progress!.textContent = `${correct} of ${keys.length} answers checked correctly`;
+    progress!.textContent = strings.progressTemplate.replace('{correct}', String(correct)).replace('{total}', String(keys.length));
     if (!completeFired && answers.size === keys.length) {
       completeFired = true;
       track('phrases_practice_complete', { score: correct });
@@ -41,13 +50,13 @@ export function initPhrasePractice(root: HTMLElement) {
       const result = gradeAnswer(key, inputs.find(input => input.checked)?.value);
       if (result.status === 'unanswered') {
         feedback!.dataset.result = 'unanswered';
-        feedback!.textContent = 'Choose an answer first, then check it.';
+        feedback!.textContent = strings.chooseFirst;
         inputs[0].focus();
         return;
       }
       answers.set(key!.id, result.correct);
       feedback!.dataset.result = result.status;
-      feedback!.textContent = `${result.correct ? 'Correct.' : 'Not quite.'} ${key!.explanation}`;
+      feedback!.textContent = `${result.correct ? strings.correctWord : strings.incorrectWord} ${key!.explanation}`;
       inputs.forEach(input => { input.disabled = true; });
       submit!.hidden = true;
       retry!.hidden = false;
@@ -61,7 +70,7 @@ export function initPhrasePractice(root: HTMLElement) {
       submit!.hidden = false;
       retry!.hidden = true;
       delete feedback!.dataset.result;
-      feedback!.textContent = 'Choose an answer and check it again.';
+      feedback!.textContent = strings.chooseAgain;
       updateProgress();
       inputs[0].focus();
     });
