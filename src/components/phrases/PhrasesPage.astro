@@ -63,6 +63,7 @@ const t = isFr
       deckAria: 'Trois salutations pour commencer',
       howToUseEyebrow: 'Lis-la. Comprends-la. Utilise-la.',
       howToUseH2: 'Comment utiliser ce guide de phrases',
+      tuVousNote: "L'hébreu ne distingue pas tu et vous : la même phrase s'emploie avec un ami comme avec un serveur.",
       anatomyAria: 'Exemple de carte de phrase. Ses parties sont expliquées dans la liste.',
       legend: [
         { h3: 'Hébreu avec nikoud', p: 'Les points et signes autour des lettres hébraïques sont le nikoud, qui aide à montrer les sons des voyelles. <a href="/blog/how-to-read-hebrew-nikud/">Comprendre les signes voyelles hébreux (en anglais)</a>.' },
@@ -162,7 +163,7 @@ const anatomyPhraseId = isFr ? 'water-please' : 'coffee-please';
       </Section>
 
       <Section surface="soft" id="how-to-use">
-        <div class="phrases-section-heading"><p class="phrases-eyebrow">{t.howToUseEyebrow}</p><h2 class="display-md">{t.howToUseH2}</h2></div>
+        <div class="phrases-section-heading"><p class="phrases-eyebrow">{t.howToUseEyebrow}</p><h2 class="display-md">{t.howToUseH2}</h2>{isFr && <p>{t.tuVousNote}</p>}</div>
         <div class="phrases-anatomy">
           <figure class="phrases-anatomy-card" aria-label={t.anatomyAria}>
             <PhraseCard phrase={phraseById(anatomyPhraseId)} meaningTag="p" idPrefix="anatomy-" locale={locale} />

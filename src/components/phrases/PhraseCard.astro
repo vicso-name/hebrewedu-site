@@ -1,6 +1,6 @@
 ---
 import type { Phrase } from '../../data/hebrew-phrases';
-import type { Locale } from '../../i18n';
+import { getDictionary, type Locale } from '../../i18n';
 import HebrewText from '../lessons/HebrewText.astro';
 import Transliteration from './Transliteration.astro';
 
@@ -17,6 +17,7 @@ interface Props {
 const { phrase, id, meaningTag: MeaningTag = 'h3', idPrefix = '', locale = 'en' } = Astro.props;
 const isFr = locale === 'fr';
 const fr = phrase.fr;
+const t = getDictionary(locale).phrases;
 
 // FR renders phrase.fr's heading ("<Latin spelling> — <French meaning>") and its own
 // full variant set (Hebrew usually unchanged, transliteration always French); EN is untouched.
@@ -28,8 +29,9 @@ const note = isFr && fr ? fr.usage : phrase.usage;
 // never both at once — so a card has at most one "Said by/to" row.
 const hasVariants = variants.length > 1;
 const axis: 'by' | 'to' = hasVariants && variants[0].label.includes('addressee') ? 'to' : 'by';
-const varLabel = isFr ? (axis === 'to' ? 'Dit à' : 'Dit par') : (axis === 'to' ? 'Said to' : 'Said by');
-const toggleLabels = isFr ? ['Masculin', 'Féminin'] : ['Man', 'Woman'];
+const varLabel = axis === 'to' ? t.saidTo : t.saidBy;
+const toggleGroup = axis === 'to' ? t.variantToggle.addressee : t.variantToggle.speaker;
+const toggleLabels = [toggleGroup.male, toggleGroup.female];
 const labelId = `${idPrefix}${phrase.id}-${axis}`;
 
 const defaultVariant = variants[0];

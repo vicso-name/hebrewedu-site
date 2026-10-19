@@ -9,15 +9,29 @@ localized rather than translated: FR learners ask whether the other person
 speaks French, not English, so the Hebrew changes from אַנְגְּלִית to
 צָרְפָתִית.
 
-Transliteration follows French reading conventions: `ch` for the Hebrew ש
-sound (not `sh`), `kh` unchanged (guttural, as in English), `ou` for the /u/
-("oo") vowel (e.g. `bimezouman`, `hacheroutim`), and `é` on any word-final
-vowel sound that would otherwise read silent in French (`kafé`, `zé`, `olé`,
-`rotsé`).
+Transliteration (the bracketed pronunciation field under the Hebrew) follows
+French reading conventions: `ch` for the Hebrew ש sound (not `sh`), `kh`
+unchanged (guttural, as in English), `ou` for the /u/ ("oo") vowel (e.g.
+`bimezouman`, `hacheroutim`), and `é` on any word-final vowel sound that
+would otherwise read silent in French (`kafé`, `zé`, `olé`, `rotsé`).
 
-Card headings follow the "`<searched Latin spelling>` — `<French meaning>`"
-format from `PHRASES_FR.md` (e.g. "Boker tov — bonjour (le matin)",
-"Toda raba — merci beaucoup").
+Card headings use the **searched Latin spelling** (the same transliteration
+the EN page uses, e.g. "Shalom", "Bevakasha", "Efshar mayim, bevakasha") —
+not the French-reading-convention spelling above, which stays in the
+pronunciation field only. Format: "`<searched Latin spelling>` —
+`<French meaning>`" (e.g. "Boker tov — bonjour (le matin)", "Toda raba —
+merci beaucoup").
+
+**Register (tu/vous):** reader-facing instructions ("Choisis la forme...",
+"Demande...") stay *tu* throughout. The French *meaning* of a phrase said to
+a stranger (waiter, shop assistant, passer-by, asking for help) uses *vous*:
+excusez-moi/pardon, vous avez ça ?, vous pouvez répéter ?, vous pouvez
+parler plus lentement ?, vous parlez français ?, s'il vous plaît (water/menu/
+help/bill/without-milk requests, and the "please" card's heading), je
+voudrais un café s'il vous plaît. Friendly phrases (comment tu t'appelles ?)
+stay *tu*. Hebrew has no tu/vous distinction — the how-to-use section now
+says so explicitly: "L'hébreu ne distingue pas tu et vous : la même phrase
+s'emploie avec un ami comme avec un serveur."
 
 No phrase card has an audio player today (checked against
 `src/components/phrases/PhraseCard.astro`), so there is nothing for the FR
@@ -33,7 +47,7 @@ research) and `keywords-fr.csv` (cluster phrases).
 
 Commence une conversation, présente-toi, ou dis au revoir.
 
-### Chalom — bonjour / au revoir
+### Shalom — bonjour / au revoir
 
 - ID: hello
 - Hébreu: שָׁלוֹם — Transcription: [chalom] (Same form)
@@ -65,7 +79,7 @@ Commence une conversation, présente-toi, ou dis au revoir.
 - Usage: Dis-le en partant. C’est une formule de départ, pas une salutation pour arriver.
 - Accord de genre: L'expression ne change pas selon qui parle ou à qui l'on s'adresse.
 
-### Chmi… — je m’appelle…
+### Shmi… — je m’appelle…
 
 - ID: my-name
 - Hébreu: שְׁמִי… — Transcription: [chmi…] (Same form)
@@ -94,19 +108,19 @@ De petites expressions qui facilitent les échanges du quotidien.
 - Usage: Remercie quelqu'un pour son aide, une réponse, ou quelque chose qu'on vient de te donner.
 - Accord de genre: L'expression ne change pas selon qui parle ou à qui l'on s'adresse.
 
-### Bevakacha — s'il te plaît / je t'en prie
+### Bevakasha — s'il te plaît / s'il vous plaît / de rien
 
 - ID: please
 - Hébreu: בְּבַקָּשָׁה — Transcription: [bevakacha] (Same form)
-- Sens: S'il te plaît / je t'en prie
-- Usage: Ajoute-le à une demande pour dire « s'il te plaît ». En réponse à un merci, cela veut dire « je t'en prie » ; en tendant quelque chose, cela peut vouloir dire « voilà ».
+- Sens: S'il te plaît / s'il vous plaît / de rien
+- Usage: Ajoute-le à une demande pour dire « s'il te plaît » ou « s'il vous plaît ». En réponse à un merci, cela veut dire « de rien » ; en tendant quelque chose, cela peut vouloir dire « voilà ».
 - Accord de genre: L'expression ne change pas selon qui parle ou à qui l'on s'adresse.
 
-### Slikha — excuse-moi / pardon
+### Slikha — excusez-moi / pardon
 
 - ID: excuse-me
 - Hébreu: סְלִיחָה — Transcription: [slikha] (Same form)
-- Sens: Excuse-moi / pardon
+- Sens: Excusez-moi / pardon
 - Usage: Attire poliment l'attention de quelqu'un, ou excuse-toi pour une petite interruption ou une erreur.
 - Accord de genre: L'expression ne change pas selon qui parle ou à qui l'on s'adresse.
 
@@ -138,44 +152,44 @@ De petites expressions qui facilitent les échanges du quotidien.
 
 Fais une demande simple et termine l'échange poliment.
 
-### Efchar mayim, bevakacha ? — je peux avoir de l'eau, s'il te plaît ?
+### Efshar mayim, bevakasha ? — je peux avoir de l'eau, s'il vous plaît ?
 
 - ID: water-please
 - Hébreu: אֶפְשָׁר מַיִם, בְּבַקָּשָׁה? — Transcription: [efchar mayim bevakacha] (Same form)
-- Sens: Je peux avoir de l'eau, s'il te plaît ?
+- Sens: Je peux avoir de l'eau, s'il vous plaît ?
 - Usage: Demande de l'eau en commandant ou à table. La demande ne précise pas de type d'eau.
 - Accord de genre: L'expression ne change pas selon qui parle ou à qui l'on s'adresse.
 
-### Ani rotsé kafé, bevakacha — je veux un café, s'il te plaît
+### Ani rotse kafe, bevakasha — je voudrais un café, s'il vous plaît
 
 - ID: coffee-please
 - Hébreu: אֲנִי רוֹצֶה קָפֶה, בְּבַקָּשָׁה. — Transcription: [ani rotsé kafé bevakacha] (Male speaker)
 - Hébreu: אֲנִי רוֹצָה קָפֶה, בְּבַקָּשָׁה. — Transcription: [ani rotsa kafé bevakacha] (Female speaker)
-- Sens: Je veux un café, s'il te plaît
-- Usage: Une commande simple au café. Choisis la forme selon le locuteur ; « s'il te plaît » adoucit la demande directe.
-- Accord de genre: Rotsé / rotsa change selon le locuteur. Le genre du serveur ne change pas la forme.
+- Sens: Je voudrais un café, s'il vous plaît
+- Usage: Une commande simple au café. Choisis la forme selon le locuteur ; « s'il vous plaît » adoucit la demande directe.
+- Accord de genre: Rotse / rotsa change selon le locuteur. Le genre du serveur ne change pas la forme.
 
-### Efchar tafrit, bevakacha ? — je peux avoir une carte, s'il te plaît ?
+### Efshar tafrit, bevakasha ? — je peux avoir une carte, s'il vous plaît ?
 
 - ID: menu-please
 - Hébreu: אֶפְשָׁר תַּפְרִיט, בְּבַקָּשָׁה? — Transcription: [efchar tafrit bevakacha] (Same form)
-- Sens: Je peux avoir une carte, s'il te plaît ?
+- Sens: Je peux avoir une carte, s'il vous plaît ?
 - Usage: Demande la carte avant de commander.
 - Accord de genre: L'expression ne change pas selon qui parle ou à qui l'on s'adresse.
 
-### Khechbon, bevakacha — l'addition, s'il te plaît
+### Kheshbon, bevakasha — l'addition, s'il vous plaît
 
 - ID: bill-please
 - Hébreu: חֶשְׁבּוֹן, בְּבַקָּשָׁה. — Transcription: [khechbon bevakacha] (Same form)
-- Sens: L'addition, s'il te plaît
+- Sens: L'addition, s'il vous plaît
 - Usage: Demande l'addition quand tu es prêt à payer au café ou au restaurant.
 - Accord de genre: L'expression ne change pas selon qui parle ou à qui l'on s'adresse.
 
-### Bli khalav, bevakacha — sans lait, s'il te plaît
+### Bli khalav, bevakasha — sans lait, s'il vous plaît
 
 - ID: without-milk
 - Hébreu: בְּלִי חָלָב, בְּבַקָּשָׁה. — Transcription: [bli khalav bevakacha] (Same form)
-- Sens: Sans lait, s'il te plaît
+- Sens: Sans lait, s'il vous plaît
 - Usage: Ajoute cette expression en commandant une boisson. Cette courte demande n'est pas une explication complète d'allergie ou de sécurité alimentaire.
 - Accord de genre: L'expression ne change pas selon qui parle ou à qui l'on s'adresse.
 
@@ -191,7 +205,7 @@ Fais une demande simple et termine l'échange poliment.
 
 Demande un article, une taille, ou un moyen de paiement.
 
-### Kama zé olé ? — ça coûte combien ?
+### Kama ze ole ? — ça coûte combien ?
 
 - ID: how-much
 - Hébreu: כַּמָּה זֶה עוֹלֶה? — Transcription: [kama zé olé] (Same form)
@@ -199,16 +213,16 @@ Demande un article, une taille, ou un moyen de paiement.
 - Usage: Montre du doigt un article, ou montre-le, en demandant le prix.
 - Accord de genre: L'expression ne change pas selon qui parle ou à qui l'on s'adresse.
 
-### Yech lekha et zé ? — tu as ça ?
+### Yesh lekha et ze ? — vous avez ça ?
 
 - ID: do-you-have-this
 - Hébreu: יֵשׁ לְךָ אֶת זֶה? — Transcription: [yech lekha et zé] (Male addressee)
 - Hébreu: יֵשׁ לָךְ אֶת זֶה? — Transcription: [yech lakh et zé] (Female addressee)
-- Sens: Tu as ça ?
+- Sens: Vous avez ça ?
 - Usage: Montre l'article ou une photo. Ces formes s'adressent à un seul vendeur, pas à un groupe.
 - Accord de genre: Lekha / lakh change selon la personne à qui l'on s'adresse.
 
-### Efchar mida akheret ? — je peux avoir une autre taille ?
+### Efshar mida akheret ? — je peux avoir une autre taille ?
 
 - ID: another-size
 - Hébreu: אֶפְשָׁר מִדָּה אַחֶרֶת? — Transcription: [efchar mida akheret] (Same form)
@@ -216,7 +230,7 @@ Demande un article, une taille, ou un moyen de paiement.
 - Usage: Utilise cette expression en essayant un vêtement ou en regardant l'article que tu veux dans une autre taille.
 - Accord de genre: L'expression ne change pas selon qui parle ou à qui l'on s'adresse.
 
-### Efchar lechalem be'achraï ? — je peux payer par carte ?
+### Efshar leshalem be'ashrai ? — je peux payer par carte ?
 
 - ID: pay-by-card
 - Hébreu: אֶפְשָׁר לְשַׁלֵּם בְּאַשְׁרַאי? — Transcription: [efchar lechalem be'achraï] (Same form)
@@ -224,7 +238,7 @@ Demande un article, une taille, ou un moyen de paiement.
 - Usage: Demande si le paiement par carte est possible avant de payer.
 - Accord de genre: L'expression ne change pas selon qui parle ou à qui l'on s'adresse.
 
-### Efchar lechalem bimezouman ? — je peux payer en espèces ?
+### Efshar leshalem bimezuman ? — je peux payer en espèces ?
 
 - ID: pay-cash
 - Hébreu: אֶפְשָׁר לְשַׁלֵּם בִּמְזֻמָּן? — Transcription: [efchar lechalem bimezouman] (Same form)
@@ -244,7 +258,7 @@ Demande un article, une taille, ou un moyen de paiement.
 
 Trouve ton chemin ou demande un peu plus de temps pour comprendre.
 
-### Eifo hacheroutim ? — où sont les toilettes ?
+### Eifo hasherutim ? — où sont les toilettes ?
 
 - ID: where-bathroom
 - Hébreu: אֵיפֹה הַשֵּׁרוּתִים? — Transcription: [eifo hacheroutim] (Same form)
@@ -252,11 +266,11 @@ Trouve ton chemin ou demande un peu plus de temps pour comprendre.
 - Usage: Demande où se trouvent les toilettes dans un café, un magasin, ou un lieu public.
 - Accord de genre: L'expression ne change pas selon qui parle ou à qui l'on s'adresse.
 
-### Efchar ezra, bevakacha ? — je peux avoir de l'aide, s'il te plaît ?
+### Efshar ezra, bevakasha ? — je peux avoir de l'aide, s'il vous plaît ?
 
 - ID: help-please
 - Hébreu: אֶפְשָׁר עֶזְרָה, בְּבַקָּשָׁה? — Transcription: [efchar ezra bevakacha] (Same form)
-- Sens: Je peux avoir de l'aide, s'il te plaît ?
+- Sens: Je peux avoir de l'aide, s'il vous plaît ?
 - Usage: Demande de l’aide à quelqu’un à proximité pour une tâche ou une question ordinaire.
 - Accord de genre: L'expression ne change pas selon qui parle ou à qui l'on s'adresse.
 
@@ -269,29 +283,29 @@ Trouve ton chemin ou demande un peu plus de temps pour comprendre.
 - Usage: Dis-le quand tu n’as pas compris ce que quelqu’un a dit. Choisis la forme du locuteur.
 - Accord de genre: Mevin / mevina change selon le locuteur.
 
-### Ata yakhol lakhazor al zé ? — tu peux répéter ?
+### Ata yakhol lakhazor al ze ? — vous pouvez répéter ?
 
 - ID: repeat-please
 - Hébreu: אַתָּה יָכוֹל לַחֲזֹר עַל זֶה? — Transcription: [ata yakhol lakhazor al zé] (Male addressee)
 - Hébreu: אַתְּ יְכוֹלָה לַחֲזֹר עַל זֶה? — Transcription: [at yekhola lakhazor al zé] (Female addressee)
-- Sens: Tu peux répéter ?
+- Sens: Vous pouvez répéter ?
 - Usage: Demande à une personne de répéter ce qu’elle a dit. Choisis la forme selon la personne à qui tu parles.
 - Accord de genre: Ata yakhol / at yekhola change selon la personne à qui l'on s'adresse.
 
-### Efchar ledaber yoter le'at ? — tu peux parler plus lentement ?
+### Efshar ledaber yoter le'at ? — vous pouvez parler plus lentement ?
 
 - ID: more-slowly
 - Hébreu: אֶפְשָׁר לְדַבֵּר יוֹתֵר לְאַט? — Transcription: [efchar ledaber yoter le'at] (Same form)
-- Sens: Tu peux parler plus lentement ?
+- Sens: Vous pouvez parler plus lentement ?
 - Usage: Demande un rythme plus lent quand tu as besoin de plus de temps pour suivre la conversation.
 - Accord de genre: L'expression ne change pas selon qui parle ou à qui l'on s'adresse.
 
-### Ata medaber tsarfatit ? — tu parles français ?
+### Ata medaber tsarfatit ? — vous parlez français ?
 
 - ID: speak-english
 - Hébreu: אַתָּה מְדַבֵּר צָרְפָתִית? — Transcription: [ata medaber tsarfatit] (Male addressee)
 - Hébreu: אַתְּ מְדַבֶּרֶת צָרְפָתִית? — Transcription: [at medaberet tsarfatit] (Female addressee)
-- Sens: Tu parles français ?
+- Sens: Vous parlez français ?
 - Usage: Demande à une personne si tu peux continuer en français.
 - Accord de genre: Medaber / medaberet change selon la personne à qui l'on s'adresse.
 
@@ -308,8 +322,7 @@ Deux personnes se rencontrent au début de la journée.
 
 Une cliente commande un café ; le serveur répond en le lui tendant.
 
-- Cliente: Je veux un café, s'il te plaît. (phrase: coffee-please/female)
+- Cliente: Je voudrais un café, s'il vous plaît. (phrase: coffee-please/female)
 - Serveur: Voilà. (phrase: please/same)
-
 
 

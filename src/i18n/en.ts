@@ -217,4 +217,12 @@ export const en: Dictionary = {
       lead: 'Begin with the alphabet and build from there.',
     },
   },
+  phrases: {
+    saidBy: 'Said by',
+    saidTo: 'Said to',
+    variantToggle: {
+      speaker: { male: 'Man', female: 'Woman' },
+      addressee: { male: 'Man', female: 'Woman' },
+    },
+  },
 };

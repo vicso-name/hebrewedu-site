@@ -189,6 +189,18 @@ export interface Dictionary {
     faq: { title: string; items: { q: string; a: string }[] };
     downloadCta: { heading: string; lead: string };
   };
+  /** PhraseCard.astro's "Said by/to" row and gender-variant toggle — the only
+   *  phrases-page chrome that needs a locale-aware accessible label, since EN's
+   *  axis-agnostic "Man"/"Woman" doesn't fit FR (tu/vous and speaker/addressee
+   *  interact there in a way EN doesn't need to spell out). */
+  phrases: {
+    saidBy: string;
+    saidTo: string;
+    variantToggle: {
+      speaker: { male: string; female: string };
+      addressee: { male: string; female: string };
+    };
+  };
 }
 
 import { en } from './en';

@@ -209,4 +209,12 @@ export const fr: Dictionary = {
       lead: "Commence par l'alphabet et construis la suite à partir de là.",
     },
   },
+  phrases: {
+    saidBy: 'Dit par',
+    saidTo: 'Dit à',
+    variantToggle: {
+      speaker: { male: 'Si c’est un homme qui parle', female: 'Si c’est une femme qui parle' },
+      addressee: { male: 'Si tu parles à un homme', female: 'Si tu parles à une femme' },
+    },
+  },
 };
