@@ -215,7 +215,7 @@ export const fr: Dictionary = {
       lede: 'Consulte une lettre, planifie ta pratique, ou essaie un jeu rapide.',
       items: [
         { href: '/fr/blog/lettres-hebraiques/', title: "Apprendre l'alphabet hébreu", description: "Garde à portée de main les formes des lettres, leurs noms, leurs sons et leurs formes finales." },
-        { href: '/blog/learn-hebrew-alphabet-7-days/', title: "Un plan en sept jours pour l'alphabet (en anglais)", description: "Donne un objectif à chaque jour, avec du temps pour pratiquer et revoir les lettres." },
+        { href: '/fr/blog/apprendre-alphabet-hebreu-7-jours/', title: "Un plan en sept jours pour l'alphabet", description: "Donne un objectif à chaque jour, avec du temps pour pratiquer et revoir les lettres." },
         { href: '/fr/blog/voyelles-hebreu/', title: 'Lire les signes voyelles hébreux', description: 'Découvre comment le nikoud t’aide à prononcer tes premiers mots en hébreu.' },
         { href: '/play/', title: 'Jeux gratuits pour apprendre l’hébreu (en anglais)', description: 'Entraîne-toi à reconnaître les lettres et à retenir leur nom dans ton navigateur.' },
       ],

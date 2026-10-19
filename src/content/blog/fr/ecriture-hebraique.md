@@ -125,7 +125,7 @@ Même au chaos.
 
 ## Pourquoi les débutants ne devraient PAS ignorer l'hébreu manuscrit
 
-Beaucoup d'apprenants repoussent complètement la cursive hébraïque — souvent parce qu'ils sont encore en train de [maîtriser l'alphabet imprimé de façon méthodique](/blog/learn-hebrew-alphabet-7-days/) (en anglais) et ne veulent pas ajouter de complexité. Compréhensible. Mais c'est une erreur.
+Beaucoup d'apprenants repoussent complètement la cursive hébraïque — souvent parce qu'ils sont encore en train de [maîtriser l'alphabet imprimé de façon méthodique](/fr/blog/apprendre-alphabet-hebreu-7-jours/) et ne veulent pas ajouter de complexité. Compréhensible. Mais c'est une erreur.
 
 Parce que la vraie vie israélienne regorge d'hébreu manuscrit :
 - notes,
@@ -163,7 +163,7 @@ Et curieusement, cela rend les apprenants moins confiants, parce que l'écriture
 Beaucoup d'apprenants réalisent soudain :
 > « Oh non. Je mémorisais des formes, je ne lisais pas vraiment à l'aise. »
 
-La même surcharge visuelle s'applique à [la lecture de l'hébreu sans voyelles](/blog/why-hebrew-without-vowels-looks-impossible-until-your-brain-adapts/) (en anglais), où le cerveau doit compenser une information volontairement absente — un défi distinct, mais proche, qui se résout lui aussi avec l'exposition.
+La même surcharge visuelle s'applique à [la lecture de l'hébreu sans voyelles](/fr/blog/lire-hebreu-sans-voyelles/), où le cerveau doit compenser une information volontairement absente — un défi distinct, mais proche, qui se résout lui aussi avec l'exposition.
 
 Ça peut sembler décourageant, mais c'est en réalité une étape importante.
 

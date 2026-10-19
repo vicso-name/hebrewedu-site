@@ -56,7 +56,7 @@ L'hébreu moderne a prolongé cette tradition dans une langue vivante.
 
 Les journaux n'utilisent pas le nikoud. Les sites web non plus. Les textos encore moins.
 
-L'histoire complète de [pourquoi l'hébreu imprimé abandonne les voyelles](/blog/why-hebrew-without-vowels-looks-impossible-until-your-brain-adapts/) (en anglais) — et comment les lecteurs natifs compensent grâce à leur vocabulaire et à la reconnaissance de motifs — vaut la peine d'être comprise avant de passer aux textes pour niveaux plus avancés.
+L'histoire complète de [pourquoi l'hébreu imprimé abandonne les voyelles](/fr/blog/lire-hebreu-sans-voyelles/) — et comment les lecteurs natifs compensent grâce à leur vocabulaire et à la reconnaissance de motifs — vaut la peine d'être comprise avant de passer aux textes pour niveaux plus avancés.
 
 Pour l'instant : le nikoud est ton système d'entraînement. Il te donne une information que les lecteurs natifs portent déjà dans leur tête.
 
@@ -183,7 +183,7 @@ Une progression raisonnable :
 5. **Expose-toi progressivement à des textes partiellement vocalisés** — les mots courants sans nikoud, les mots plus rares encore marqués
 6. **Fais la transition vers l'hébreu moderne authentique**
 
-[Apprendre l'alphabet de façon méthodique](/blog/learn-hebrew-alphabet-7-days/) (en anglais) avant de te lancer dans le nikoud te donne la base la plus claire — ou commence directement par le [guide des 22 lettres hébraïques](/fr/blog/lettres-hebraiques/). D'abord les consonnes, ensuite le système des voyelles — dans cet ordre, chaque couche s'appuyant sur la précédente.
+[Apprendre l'alphabet de façon méthodique](/fr/blog/apprendre-alphabet-hebreu-7-jours/) avant de te lancer dans le nikoud te donne la base la plus claire — ou commence directement par le [guide des 22 lettres hébraïques](/fr/blog/lettres-hebraiques/). D'abord les consonnes, ensuite le système des voyelles — dans cet ordre, chaque couche s'appuyant sur la précédente.
 
 ---
 

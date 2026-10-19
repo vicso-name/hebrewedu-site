@@ -160,7 +160,7 @@ Les textes hébreux classiques — la Torah, les textes liturgiques, la poésie 
 
 L'hébreu moderne, tel qu'il est imprimé dans les journaux, les livres et les panneaux, n'utilise presque jamais le nikoud. Les locuteurs natifs devinent les voyelles grâce au contexte et à leur connaissance du vocabulaire.
 
-Pour un débutant, c'est à la fois un défi et un soulagement. Commence par le nikoud : il te sert des petites roues du vélo. Une fois que tu sais lire correctement les mots hébreux, tu apprends peu à peu à lire sans lui. Comprendre [pourquoi l'hébreu courant retire ces signes voyelles](/blog/why-hebrew-without-vowels-looks-impossible-until-your-brain-adapts/) (en anglais) — et comment les lecteurs natifs les reconstituent automatiquement — est l'une des choses les plus utiles à saisir tôt. Pour une explication pas à pas des signes, continue avec le [Guide des voyelles en hébreu](/fr/blog/voyelles-hebreu/).
+Pour un débutant, c'est à la fois un défi et un soulagement. Commence par le nikoud : il te sert des petites roues du vélo. Une fois que tu sais lire correctement les mots hébreux, tu apprends peu à peu à lire sans lui. Comprendre [pourquoi l'hébreu courant retire ces signes voyelles](/fr/blog/lire-hebreu-sans-voyelles/) — et comment les lecteurs natifs les reconstituent automatiquement — est l'une des choses les plus utiles à saisir tôt. Pour une explication pas à pas des signes, continue avec le [Guide des voyelles en hébreu](/fr/blog/voyelles-hebreu/).
 
 > L'application Hebrew Aleph Bet inclut le nikoud dès la première leçon. Chaque lettre est présentée avec ses signes voyelles, pour que tu construises de bonnes habitudes de prononciation dès le premier jour.
 
@@ -242,6 +242,6 @@ L'approche la plus efficace pour apprendre l'alphabet hébreu est la suivante :
 4. **Lis de vrais mots** — même seulement שָׁלוֹם, תּוֹדָה et אֲנִי, ça va déjà loin
 5. **Ajoute les formes finales** — une fois que les 22 lettres de base te semblent naturelles
 
-L'application Hebrew Aleph Bet sur Android propose une autre façon de t'entraîner. Une courte routine quotidienne peut t'aider à construire de la régularité, mais le rythme et le temps nécessaires pour apprendre les lettres varient d'une personne à l'autre. Pour un exemple de plan d'étude hebdomadaire, voir [une façon d'organiser sept jours de pratique de l'alphabet](/blog/learn-hebrew-alphabet-7-days/) (en anglais).
+L'application Hebrew Aleph Bet sur Android propose une autre façon de t'entraîner. Une courte routine quotidienne peut t'aider à construire de la régularité, mais le rythme et le temps nécessaires pour apprendre les lettres varient d'une personne à l'autre. Pour un exemple de plan d'étude hebdomadaire, voir [une façon d'organiser sept jours de pratique de l'alphabet](/fr/blog/apprendre-alphabet-hebreu-7-jours/).
 
 Les formes qui semblaient impénétrables au début deviennent plus familières avec la pratique, une lettre et un mot à la fois.

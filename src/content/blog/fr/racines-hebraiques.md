@@ -60,7 +60,7 @@ Tu sais déjà que כ-ת-ב évoque des choses liées à l'écriture. Quand tu r
 
 Le nouveau mot coûte moins cher à apprendre.
 
-C'est l'une des raisons pour lesquelles [le nombre de mots dont tu as vraiment besoin](/blog/how-many-words-are-in-the-modern-hebrew-language/) (en anglais) en hébreu est plus bas que ce que la plupart des apprenants imaginent. La connaissance des racines fait que le vocabulaire s'étend plus vite que ne le pourrait jamais la mémorisation isolée : tu apprends une racine et tu gagnes plusieurs mots d'un coup. Pour un cadre complet sur la sélection par fréquence, le rappel actif et le rythme d'étude qui transforme cet avantage en résultats durables, [comment apprendre le vocabulaire hébreu efficacement](/fr/blog/vocabulaire-hebreu/) couvre le côté pratique.
+C'est l'une des raisons pour lesquelles [le nombre de mots dont tu as vraiment besoin](/fr/blog/combien-de-mots-hebreu/) en hébreu est plus bas que ce que la plupart des apprenants imaginent. La connaissance des racines fait que le vocabulaire s'étend plus vite que ne le pourrait jamais la mémorisation isolée : tu apprends une racine et tu gagnes plusieurs mots d'un coup. Pour un cadre complet sur la sélection par fréquence, le rappel actif et le rythme d'étude qui transforme cet avantage en résultats durables, [comment apprendre le vocabulaire hébreu efficacement](/fr/blog/vocabulaire-hebreu/) couvre le côté pratique.
 
 ---
 
@@ -95,7 +95,7 @@ Remarque le schéma commun aux trois. Chaque racine génère des verbes, des nom
 
 Voici une conséquence pratique que la plupart des débutants n'anticipent pas.
 
-[Lire l'hébreu non vocalisé](/blog/why-hebrew-without-vowels-looks-impossible-until-your-brain-adapts/) (en anglais) — ce qui est le cas de presque tous les textes réels — dépend fortement de la reconnaissance des racines.
+[Lire l'hébreu non vocalisé](/fr/blog/lire-hebreu-sans-voyelles/) — ce qui est le cas de presque tous les textes réels — dépend fortement de la reconnaissance des racines.
 
 Tu vois les consonnes כ-ת-ב dans une phrase. Ton cerveau restreint immédiatement le champ : quelque chose lié à l'écriture. Tu utilises les mots alentour pour affiner quel mot lié à l'écriture c'est probablement. Ton cerveau reconstruit les voyelles manquantes à partir de cette prédiction.
 
