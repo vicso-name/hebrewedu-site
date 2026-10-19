@@ -1,19 +1,36 @@
-# FR SEO research — STEP 2: collect, enrich, analyze
+# FR SEO research — STEP 2–3: collect, enrich, analyze, dedupe
 
 Research only. No site pages or `docs/seo/core/*` changed. Raw responses cached
-in `responses/` (gitignored); spend logged in `spend.csv`.
+in `responses/` (gitignored); spend logged in `spend.csv`. STEP 3 made no paid
+API calls — it only deduped variant spellings, fixed a cluster
+misclassification, and ran a free competitor audit via WebFetch.
 
-## GO / NO-GO verdict: **GO**
+## Verdict: **PARTIAL — proceed with a scoped FR pilot**
 
-- **Criterion 1** (≥30 keywords, volume ≥50 and KD ≤25): **52 keywords** meet
-  this literally. Caveat: KD is `0` ("unknown", see below) for 45 of those 52
-  — only **7** have an actually-measured nonzero KD ≤25. The volume side of
-  the criterion is solid regardless (head cluster alone carries ~30k/mo).
-- **Criterion 2** (≥5 clusters with weak top-10 SERP results): **8 distinct
-  clusters** had at least one `weak` SERP verdict in the 40-query sample:
-  `alphabet-hub`, `cursive-script`, `symbolism-gematria`, `biblical-hebrew`,
-  `printable-reference`, `letter-mem`, `letter-shin`, plus one `misc` query
-  (free-learning intent). Clears the threshold comfortably.
+- **Criterion 1** (≥30 keywords, volume ≥50, KD ≤25): **unverified**. 45
+  deduped keyword-groups meet this *literally*, but KD is unknown (`0`) for
+  38 of those 45 — only **7 groups** have an actually-measured nonzero KD.
+  The provider doesn't compute real difficulty for ~97% of this candidate
+  set (confirmed via a US/English control call in STEP 1 and at scale here),
+  so this criterion can't be honestly called met or failed on KD alone.
+- **Criterion 2** (≥5 clusters with weak top-10 SERP results): **met**. 8
+  distinct clusters had at least one `weak` SERP verdict in the 40-query
+  sample: `alphabet-hub`, `cursive-script`, `symbolism-gematria`,
+  `biblical-hebrew`, `printable-reference`, `letter-mem`, `letter-shin`,
+  plus one `misc` query (free-learning intent).
+- **Decision:** the volume side alone (deduped alphabet-hub ≈ 9,070/mo,
+  reading/learning intent ≈ 11,600/mo combined) and the weak-SERP evidence
+  justify a **scoped pilot**, not a blanket GO on the full candidate set.
+
+**FR pilot scope:** alphabet hub (retarget existing page), the 22 letter
+lessons (keyword/meta touch-up, no new pages), a new printable-PDF page, a
+new cursive-script page, and FR-home targeting of "apprendre l'hébreu" as
+the broad entry term.
+
+**Deferred** (real demand, but needs separate validation before building):
+symbolism/guématria, biblical Hebrew, oulpan/modern Hebrew, kids-intent.
+Verify via Google Search Console once the pilot pages are live and indexed,
+rather than committing more paid-API spend now.
 
 ## KD data-quality caveat (carried from STEP 1, confirmed at scale)
 
@@ -45,44 +62,66 @@ have a trustworthy KD value.
   Reddit, Pinterest, Amazon, dictionaries; strong = ≥2 dedicated Hebrew-
   learning competitors in top 10).
 
-## Cluster table (total volume, median known-KD, mapped page)
+## Dedup methodology (STEP 3)
 
-| Cluster | n | Total vol/mo | Median KD (known only) | Mapped page |
-|---|---|---|---|---|
-| alphabet-hub | 67 | 29,800 | 46 (12/67 known) | alphabet hub |
-| misc (incl. "apprendre l'hébreu") | 37 | 1,790 | 44 (9/37) | none — see open Q |
-| oulpan-modern | 52 | 1,640 | 52 (8/52) | none (off-mission) |
-| biblical-hebrew | 47 | 1,030 | 46 (6/47) | none (open Q) |
-| printable-reference | 26 | 930 | 52 (7/26) | new: Alphabet hébreu à imprimer (PDF) |
-| symbolism-gematria | 11 | 910 | 52 (4/11) | new: Signification et guématria |
-| cursive-script | 5 | 860 | 52 (1/5) | new: Écriture cursive hébraïque |
-| app | 5 | 100 | — (0/5) | app |
-| translation-tool | 4 | 60 | 10 (1/4) | none (dictionary intent, off-mission) |
-| reading-nikoud | 2 | 30 | 17 (1/2) | new: Lire l'hébreu avec les voyelles |
-| kids | 1 | 0 | — | games (weak signal — see open Q) |
-| 22 × letter-\<name\> | 1–3 each | see per-letter table below | mostly unknown | lesson:\<Letter\> |
+`keywords-fr.csv` gained a `variant_group` column. Rows with volume ≥50 were
+union-found into one group when two keywords share identical volume *and*
+their 12-month trend arrays agree on every overlapping month (≥8 months
+overlap, to avoid false merges). Below vol 50 the trend field is too coarse
+(many unrelated low-volume keywords collide on an identical rounded trend
+shape) to merge safely, so those stay singleton groups. This found 5 real
+variant clusters, the largest being `alphabet hebreu` / `alphabet hébreu` /
+`alphabet hébraïque` / `hébreu alphabet` (all 6,600/mo — one search concept,
+four spellings). Cluster totals below count each `variant_group` once.
 
-## Top opportunities (volume ÷ max(KD,1)) — top 15 of 30, see CSV for rest
+Also fixed: rows matching "signification" / "valeur numérique" were moved
+out of `alphabet-hub` into `symbolism-gematria` — they're meaning/numerology
+queries, not plain alphabet-learning queries, and were previously inflating
+the hub's volume and diluting its intent profile.
+
+## Cluster table (deduped volume, median known-KD, mapped page)
+
+| Cluster | n rows | n groups | Total vol/mo (deduped) | Median KD (known only) | Mapped page |
+|---|---|---|---|---|---|
+| alphabet-hub | 58 | 53 | **9,070** | 46 (12/58 known) | alphabet hub |
+| oulpan-modern | 52 | 52 | 1,640 | 52 (8/52) | none (off-mission) |
+| misc (incl. "apprendre l'hébreu") | 37 | 37 | 1,790 | 44 (9/37) | none — see open Q |
+| symbolism-gematria | 20 | 20 | 1,470 | 51 (6/20) | new: Signification et guématria des lettres hébraïques |
+| biblical-hebrew | 47 | 46 | 960 | 46 (6/47) | none (open Q) |
+| printable-reference | 26 | 26 | 930 | 52 (7/26) | new: Alphabet hébreu à imprimer (PDF) |
+| cursive-script | 5 | 4 | 470 | 52 (1/5) | new: Écriture cursive hébraïque |
+| app | 5 | 5 | 100 | — (0/5) | app |
+| translation-tool | 4 | 4 | 60 | 10 (1/4) | none (dictionary intent, off-mission) |
+| reading-nikoud | 2 | 2 | 30 | 17 (1/2) | new: Lire l'hébreu avec les voyelles |
+| kids | 1 | 1 | 0 | — | games (weak signal — see open Q) |
+| 22 × letter-\<name\> | 1–3 each | — | see per-letter table below | mostly unknown | lesson:\<Letter\> |
+
+`alphabet-hub` dropped from a (wrong) 29,800 to **9,070** once variant
+spellings were merged and symbolism rows were removed — the previous figure
+quadruple-counted the head term and mixed in off-intent volume.
+
+## Top opportunities (volume ÷ max(KD,1), one row per variant_group) — top 15 of 30, see CSV for rest
 
 | keyword | vol | KD | intent | cluster | SERP |
 |---|---|---|---|---|---|
-| alphabet hebreu / hébreu alphabet / alphabet hébraïque | 6,600 | 0 | informational | alphabet-hub | strong/moderate |
+| alphabet hébreu (4 spellings merged) | 6,600 | 0 | informational | alphabet-hub | strong/moderate |
 | apprendre l'hébreu | 720 | 0 | informational | misc | strong |
 | écriture hébraïque | 720 | 0 | informational | alphabet-hub | strong |
-| alphabet hébreu cursif / cursive | 390 | 0 | informational | cursive-script | strong/weak |
+| alphabet hébreu cursif (incl. cursive) | 390 | 0 | informational | cursive-script | strong/weak |
 | guématria | 390 | 0 | informational | symbolism-gematria | **weak** |
 | lettres hébraïques | 390 | 0 | informational | alphabet-hub | moderate |
 | oulpan lavi | 390 | 0 | informational | oulpan-modern | moderate |
-| alphabet hébreu français(-) | 320 | 0 | informational | alphabet-hub | moderate/strong |
+| alphabet hébreu français (incl. hyphenated) | 320 | 0 | informational | alphabet-hub | moderate/strong |
 | apprendre l'hébreu gratuitement | 260 | 1 | transactional | misc | moderate |
 | les 22 lettres hébraïques pdf | 260 | 0 | informational | printable-reference | strong |
+| les 22 lettres hébraïques signification | 260 | 0 | informational | symbolism-gematria | moderate |
 | oulpan | 260 | 0 | informational | oulpan-modern | moderate |
 | apprendre l'hébreu gratuit | 210 | 1 | transactional | misc | **weak** |
 | guérir avec les lettres hébraïques pdf | 170 | 0 | informational | symbolism-gematria | **weak** |
-| alphabet hébreu biblique | 110 | 0 | informational | biblical-hebrew | **weak** |
 | hébreu biblique | 140 | 2 | informational | biblical-hebrew | moderate |
 
-Full ranked list with all 291 rows (incl. remaining 15 of top 30): `keywords-fr.csv`.
+Full ranked list, one row per keyword (291 rows, 284 variant groups), with
+all remaining top-30 entries: `keywords-fr.csv`.
 
 ## Per-letter table (best FR keyword, volume, preferred spelling)
 
@@ -129,67 +168,93 @@ platform blog) · **fr.vikidia.org** (kids' wiki).
 
 What they lack: no result in the top 8 is a structured, interactive,
 per-letter lesson course — it's reference articles, one PDF, and blog posts.
-`lilmod-aleph-beth.fr` is the one real structured-course competitor and
-should be studied directly before committing to final page scope (not done
-here — budget/scope reasons, see Open questions). Across the wider 40-query
-SERP sample, **fr.scribd.com** (22 appearances) and **youtube.com** (20) are
-the most common thin/low-intent-match results — document dumps and videos,
-not dedicated written lessons — which is the main evidence behind the
-"weak top-10" clusters above.
+Across the wider 40-query SERP sample, **fr.scribd.com** (22 appearances)
+and **youtube.com** (20) are the most common thin/low-intent-match results —
+document dumps and videos, not dedicated written lessons — which is the
+main evidence behind the "weak top-10" clusters above.
 
-## Proposed FR page list
+### Competitor audit: lilmod-aleph-beth.fr (free, via WebFetch)
+
+**Structure:** one long single-page article, not per-letter pages — covers
+all 22 letters + 5 final (*sofit*) forms in one scrolling page with a
+comparison table (name, phonetic transcription, numerical value), linking
+to separate articles for vowels, cursive writing, and reading practice.
+
+**Interactivity:** none — no quizzes, flashcards, or writing practice.
+Three embedded YouTube videos substitute for interactivity.
+
+**Audio:** none detected — no pronunciation clips.
+
+**Pricing/paywall:** free content, one affiliate book link on Amazon. No
+login, no paid tier for the web content.
+
+**Broader site:** full French-Hebrew curriculum beyond the alphabet —
+reading (incl. biblical texts), grammar, verb conjugation (7 binyanim),
+vocabulary, an online Hebrew keyboard tool. A comprehensive free course,
+not just an alphabet guide.
+
+**Our edge:** interactive practice/quizzes and discrete per-letter lessons
+— lilmod has neither. We have no audio either (gap to close before
+claiming that edge). Their topical breadth beyond the alphabet exceeds our
+scope, so expect them to keep ranking for "apprendre l'hébreu" broadly;
+our differentiation is depth and interactivity on the alphabet
+specifically, not language-course breadth.
+
+## Proposed FR page list — pilot scope
 
 | Page | Primary keyword | Title draft (≤60 chars, no brand) | Slug |
 |---|---|---|---|
 | Alphabet hub (existing — retarget copy) | alphabet hébreu | Alphabet hébreu : les 22 lettres expliquées | /alphabet-hebreu |
+| FR home (existing — target broad entry term, no new page) | apprendre l'hébreu | (existing home title, confirm it covers this term) | / |
 | New: cursive script | alphabet hébreu cursif | L'alphabet hébreu cursif, lettre par lettre | /alphabet-hebreu/cursif |
 | New: printable chart | les 22 lettres hébraïques pdf | Alphabet hébreu à imprimer, PDF gratuit | /alphabet-hebreu/pdf-a-imprimer |
-| New: meaning/gematria (flagged intent) | guématria | Guématria : la signification des lettres hébraïques | /guematria-lettres-hebraiques |
 | 22 existing letter lessons (keyword/meta touch-up only, no new pages) | \<letter\> hébreu | (no title change needed — low standalone volume) | — |
 
-Printable/PDF and cursive-script candidates are drawn from real demand
-(930 + 860 vol/mo respectively) that the current alphabet hub does not
-address explicitly — these are the two clearest net-new page opportunities
-with weak-to-moderate competition.
+**Deferred, not in this pilot:** symbolism/guématria (new page idea stays
+on file — "Signification et guématria des lettres hébraïques" — but needs
+GSC-verified demand first), biblical Hebrew, oulpan/modern Hebrew, kids
+pages. Printable/PDF and cursive-script are the two clearest net-new page
+opportunities already in scope: real demand (930 + 470 vol/mo respectively)
+the alphabet hub doesn't address, weak-to-moderate competition.
 
 ## Intent notes
 
 - **Reading/learning** (alphabet-hub, cursive-script, printable-reference,
-  reading-nikoud, app): core mission-aligned demand, ~32,500 vol/mo
-  combined, mostly informational, light competition per the SERP sample.
-- **Symbolism/numerology** (guématria, tarot, "pouvoir/vertus des lettres",
-  "guérir avec les lettres"): distinct, sizeable (~910 vol/mo) but
-  off-mission-adjacent — flagged per the ≥200-volume rule. One dedicated
-  page, not blended into the alphabet hub — the audience/framing
-  (spiritual/divinatory) differs from "learn to read."
+  reading-nikoud, app): core mission-aligned demand, ~10,600 vol/mo
+  combined (deduped), mostly informational, light competition per SERP.
+- **Symbolism/numerology** (guématria, tarot, "signification",
+  "valeur numérique", "guérir avec les lettres"): distinct, sizeable
+  (~1,470 vol/mo after reclassifying the "signification"/numeric-value
+  rows out of alphabet-hub) but off-mission-adjacent — flagged per the
+  ≥200-volume rule, **deferred** pending GSC validation.
 - **Printable/download** ("pdf", "imprimer", "télécharger"): a real,
   separate behavioral cluster (930 vol/mo) — these searchers want an
-  artifact, not a lesson page.
-- **Biblical Hebrew** (1,030 vol/mo, 47 keywords) and **oulpan/modern
-  Hebrew** (1,640 vol/mo, 52 keywords) are adjacent-but-different products
-  (full language courses / religious-text study) — recommend out of scope
-  for now; flagged, not actioned.
+  artifact, not a lesson page. **In pilot scope.**
+- **Biblical Hebrew** (960 vol/mo, 47 keywords) and **oulpan/modern Hebrew**
+  (1,640 vol/mo, 52 keywords) are adjacent-but-different products (full
+  language courses / religious-text study) — **deferred**, not actioned.
 
 ## Open questions
 
 1. **"apprendre l'hébreu"** (720 vol/mo, informational, strong competitors)
-   is broader than "learn the alphabet" — alphabet-hub entry point, or a
-   separate "learn Hebrew" landing page above the course? Not resolved.
+   is broader than "learn the alphabet" — resolved for the pilot as a FR-home
+   targeting decision rather than a new page; revisit if GSC shows it's
+   better served by a dedicated landing page.
 2. **Kids-intent looks like a provider data gap, not zero demand.**
    "hébreu pour enfants", "apprendre l'hébreu aux enfants", "hébreu bar
    mitsva" and the STEP-1 seed "alphabet hébreu pour enfants" all returned
    zero rows/volume — unlikely given real-world bar/bat-mitzvah-prep
-   demand in France. Treat as unverified, not deprioritized; worth a
-   second provider or GSC data if this becomes a priority.
-3. **Zayin and Tsadi** returned no data at all (any spelling).
-4. **`lilmod-aleph-beth.fr`** is the one real structured-course competitor
-   — worth a manual content audit (structure, per-letter coverage,
-   pricing) before finalizing printable/cursive page scope; not done here.
-5. KD is unreliable for ~97% of candidates (see caveat) — lean on SERP
+   demand in France. Deferred; verify via GSC or a second provider before
+   prioritizing.
+3. **Zayin and Tsadi** returned no data at all (any spelling) — can't
+   confirm or deny standalone search volume for these two letters.
+4. KD is unreliable for ~97% of candidates (see caveat) — lean on SERP
    verdicts in `keywords-fr.csv`, not the `kd` column, for prioritization.
+   Re-check via GSC once the pilot pages are indexed.
 
 ## Spend
 
-STEP 2 total: **$1.21** (12 ideas calls $0.60, 4 overview batches $0.2139,
-40 SERP calls $0.40). Combined with STEP 1 ($0.23): **$1.44** of the
-$3.00 STEP-2 cap / cumulative. Full ledger in `spend.csv`.
+STEP 2: $1.21 (12 ideas calls $0.60, 4 overview batches $0.2139, 40 SERP
+calls $0.40). STEP 3 made **zero** paid API calls (dedup + free WebFetch
+audit only). Combined cumulative (STEP 1+2+3): **$1.44** of the $3.00
+STEP-2 cap. Full ledger in `spend.csv`.
