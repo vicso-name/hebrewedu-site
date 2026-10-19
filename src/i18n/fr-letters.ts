@@ -20,7 +20,7 @@ export const frLetterNames: Record<string, string> = {
   nun: 'Noun',
   samekh: 'Samekh',
   ayin: 'Ayin',
-  pe: 'Pe',
+  pe: 'Pé',
   tsadi: 'Tsadi',
   qof: 'Qof',
   resh: 'Resh',

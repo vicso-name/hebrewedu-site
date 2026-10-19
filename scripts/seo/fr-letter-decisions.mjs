@@ -37,6 +37,15 @@ const RELEVANCE_OVERRIDE = {
   },
 };
 
+// Owner overrides: an editorial call that outranks the data, recorded with its
+// reason so the next person can see it was deliberate rather than a mistake.
+const OWNER_OVERRIDE = {
+  pe: {
+    choose: 'Pé',
+    why: 'Series consistency with Hé: the SERP margin that picked Pe was a single title (Pe 2 / Pé 1) on zero measured volume for every qualified pattern, which is noise, so the accented form used across the rest of the FR letter names wins instead.',
+  },
+};
+
 const decisions = [];
 for (const [slug, variants] of Object.entries(VARIANTS)) {
   const scored = variants.map((name) => {
@@ -50,7 +59,12 @@ for (const [slug, variants] of Object.entries(VARIANTS)) {
   const s = serp[slug];
   let chosen, reason, basis;
 
-  if (RELEVANCE_OVERRIDE[slug]) {
+  if (OWNER_OVERRIDE[slug]) {
+    const o = OWNER_OVERRIDE[slug];
+    chosen = scored.find((v) => v.name === o.choose);
+    basis = 'owner override';
+    reason = o.why;
+  } else if (RELEVANCE_OVERRIDE[slug]) {
     const o = RELEVANCE_OVERRIDE[slug];
     chosen = scored.find((v) => v.name === o.choose);
     basis = 'relevance override';
@@ -180,11 +194,13 @@ Their \`docs/seo/core\` rows now carry the chosen spelling's keyword as
   \`lettre nun\` 20, so the volume rule picks **Noun**, which is also what French
   Hebrew-teaching sites use (\`Nun\` would read "nune" in French). fr.wikipedia's
   article is \`Nun\`; the rule only reaches Wikipedia on a tie, so Noun stands.
-- **Tav vs Tau** — the one documented override; see the table.
+- **Tav vs Tau** — a relevance override: see the table.
 - **Heth vs Het** — every qualified pattern is 0 for both. FR SERP titles for
   \`heth hébreu\` run Heth 3 / Het 2, so Heth keeps it, narrowly.
-- **Pe vs Pé** — all qualified patterns 0; SERP titles Pe 2 / Pé 1 and
-  fr.wikipedia's \`Pe (lettre)\` agree on **Pe**, so the accent goes.
+- **Pe vs Pé** — an owner override. Every qualified pattern is 0 for all three
+  variants, and the SERP margin was one title (Pe 2 / Pé 1), which is noise at
+  that sample size; fr.wikipedia's article is \`Pe (lettre)\`. **Pé** is kept
+  instead, for consistency with Hé and the rest of the accented FR series.
 - **Mem** has no competing French spelling at all.
 `;
 

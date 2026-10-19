@@ -432,12 +432,12 @@
  },
  {
   "slug": "pe",
-  "chosen": "Pe",
-  "primaryKeyword": "pe hébreu",
+  "chosen": "Pé",
+  "primaryKeyword": "pé hébreu",
   "volume": 0,
-  "runnerUp": "Pé (0)",
-  "basis": "SERP titles",
-  "reason": "Volumes tied or <=10 (Pé 0, Pe 0, Fé 0); FR SERP for \"pé hébreu\" shows Pé 1, Pe 2, Fé 0 in top-10 titles.",
+  "runnerUp": "Pe (0)",
+  "basis": "owner override",
+  "reason": "Series consistency with Hé: the SERP margin that picked Pe was a single title (Pe 2 / Pé 1) on zero measured volume for every qualified pattern, which is noise, so the accented form used across the rest of the FR letter names wins instead.",
   "scored": [
    {
     "name": "Pé",

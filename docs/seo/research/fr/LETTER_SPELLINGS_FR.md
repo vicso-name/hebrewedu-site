@@ -59,7 +59,7 @@ which is what the rule is actually asking.
 | 14 | `nun` | **Noun** | `lettre noun` | 70 | Nun (20) | volume | Highest qualified volume: "lettre noun" 70 vs Nun 20. |
 | 15 | `samekh` | **Samekh** | `samekh hébreu` | 0 | Samech (0) | SERP titles | Volumes tied or <=10 (Samekh 0, Samech 0); FR SERP for "samekh hébreu" shows Samekh 5, Samech 0 in top-10 titles. |
 | 16 | `ayin` | **Ayin** | `ayin hébreu` | 10 | Aïn (0) | SERP titles | Volumes tied or <=10 (Ayin 10, Aïn 0); FR SERP for "ayin hébreu" shows Ayin 6, Aïn 0 in top-10 titles. |
-| 17 | `pe` | **Pe** | `pe hébreu` | 0 | Pé (0) | SERP titles | Volumes tied or <=10 (Pé 0, Pe 0, Fé 0); FR SERP for "pé hébreu" shows Pé 1, Pe 2, Fé 0 in top-10 titles. |
+| 17 | `pe` | **Pé** | `pé hébreu` | 0 | Pe (0) | owner override | Series consistency with Hé: the SERP margin that picked Pe was a single title (Pe 2 / Pé 1) on zero measured volume for every qualified pattern, which is noise, so the accented form used across the rest of the FR letter names wins instead. |
 | 18 | `tsadi` | **Tsadi** | `tsadi hébreu` | 0 | Tsadé (10) | SERP titles | Volumes tied or <=10 (Tsadé 10, Tsadi 0, Tsadik 0); FR SERP for "tsadé hébreu" shows Tsadé 0, Tsadi 1, Tsadik 0 in top-10 titles. |
 | 19 | `qof` | **Qof** | `lettre qof` | 10 | Kof (0) | SERP titles | Volumes tied or <=10 (Qof 10, Kof 0, Koph 0); FR SERP for "qof hébreu" shows Qof 8, Kof 0, Koph 0 in top-10 titles. |
 | 20 | `resh` | **Resh** | `resh hébreu` | 0 | Rech (0) | SERP titles | Volumes tied or <=10 (Resh 0, Rech 0); FR SERP for "resh hébreu" shows Resh 6, Rech 0 in top-10 titles. |
@@ -95,18 +95,9 @@ which is what the rule is actually asking.
 
 ## Divergences from what the site renders today
 
-| Letter | Rendered today | Chosen | Published? | Action |
-|---|---|---|---|---|
-| `dalet` | Dalet | **Dalet** | **yes** | applied — title, meta, H1, breadcrumb, body copy and `pages.csv` row all now read Dalet |
-| `pe` | Pé | **Pe** | no | `fr-letters.ts` updated |
+None — every chosen spelling already matches `src/i18n/fr-letters.ts`.
 
-### Published pages whose title/H1 still uses the old spelling
 
-None. `dalet` was the only one, and it has since been renamed to **Dalet**
-throughout — title, meta description, H1, breadcrumb, in-lesson copy and its
-`docs/seo/core` row. The app body already said "Dalet", so the two spellings
-now coincide and the first-mention parenthetical ("Daleth (Dalet)") was dropped
-per `docs/hebrew-alphabet-editorial-rules.fr.md`.
 
 ## Notes on individual letters
 
@@ -114,9 +105,11 @@ per `docs/hebrew-alphabet-editorial-rules.fr.md`.
   `lettre nun` 20, so the volume rule picks **Noun**, which is also what French
   Hebrew-teaching sites use (`Nun` would read "nune" in French). fr.wikipedia's
   article is `Nun`; the rule only reaches Wikipedia on a tie, so Noun stands.
-- **Tav vs Tau** — the one documented override; see the table.
+- **Tav vs Tau** — a relevance override: see the table.
 - **Heth vs Het** — every qualified pattern is 0 for both. FR SERP titles for
   `heth hébreu` run Heth 3 / Het 2, so Heth keeps it, narrowly.
-- **Pe vs Pé** — all qualified patterns 0; SERP titles Pe 2 / Pé 1 and
-  fr.wikipedia's `Pe (lettre)` agree on **Pe**, so the accent goes.
+- **Pe vs Pé** — an owner override. Every qualified pattern is 0 for all three
+  variants, and the SERP margin was one title (Pe 2 / Pé 1), which is noise at
+  that sample size; fr.wikipedia's article is `Pe (lettre)`. **Pé** is kept
+  instead, for consistency with Hé and the rest of the accented FR series.
 - **Mem** has no competing French spelling at all.
