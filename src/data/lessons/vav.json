@@ -1,0 +1,86 @@
+{
+  "slug": "vav",
+  "title": "Vav Hebrew Letter (ו): Sound & Vowels",
+  "description": "Learn the Hebrew letter Vav (ו): its [v] sound, the Holam Male and Shuruk vowels ([o]/[u]), and words like דוֹב (bear) and דוּד (boiler), plus practice.",
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Optional practice refinement",
+      "detail": "Some letter-recognition distractors use letters not introduced in this lesson. Beginner scaffolding can be improved separately from the approved source synchronization."
+    },
+    {
+      "id": "unsupported-title-image",
+      "summary": "Two empty TITLE_IMAGE blocks held out",
+      "detail": "The raw source has two TITLE_IMAGE study blocks (sourceIndex 2 and 4) with no content, title, or image URL — empty placeholders with nothing to render. StudyBlock.astro has no TITLE_IMAGE renderer. This type also appears (equally empty) in He, Pe and Tsadi's raw sources — see He's editorial review (docs/hebrew-alphabet-lesson-5-editorial-review.md) for the recommended follow-up task."
+    },
+    {
+      "id": "unsupported-striped-block",
+      "summary": "One STRIPED_BLOCK held out",
+      "detail": "The raw source has one STRIPED_BLOCK study block (sourceIndex 6, a 'Listen up!' callout) with no renderer in StudyBlock.astro. This type also appears in 7 other unpublished raw lessons (Chet, Lamed, Mem, Samekh, Pe, Tsadi, Shin) — 8 total including Vav — meeting the 3+-lesson threshold; recommend a separate task to build a STRIPED_BLOCK renderer (a callout/highlight style block) once more instances are reviewed for their real content shape."
+    }
+  ],
+  "illustrations": {},
+  "blockFlags": {},
+  "exerciseFlags": {
+    "1": ["unintroduced-letters"],
+    "10": ["unintroduced-letters"]
+  },
+  "contentOverrides": {
+    "blocks": {
+      "0": "Vav Hebrew Letter (ו): Sound, Vowels & Practice"
+    },
+    "exercises": {
+      "1": {
+        "tip": "Holam Male represents the [o] sound, similar to the [o] in the English word 'no.'"
+      },
+      "3": {
+        "content": "The letter Bet (ב) at the end of a word is usually pronounced as [v], like in the English word 'vase.'"
+      },
+      "5": {
+        "tip": "Shuruk (וּ) is a vowel mark that produces the [u] sound, similar to the English word 'moon.'"
+      },
+      "7": {
+        "content": "How do you pronounce the Hebrew word for 'hook' (וַו)?",
+        "tip": "The Hebrew word 'וַו' (vav) consists of two Vav letters. The first Vav has a Patach (ַ), producing the [va] sound, while the second Vav is pronounced [v]."
+      },
+      "8": {
+        "tip": "Patah represents the [a] sound. When combined with Vav (וַ), it produces [va]."
+      }
+    }
+  },
+  "stageMap": {
+    "theory": [0, 1],
+    "examples": [3, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+  },
+  "copy": {
+    "theory": {
+      "heading": "Meet Vav",
+      "intro": "The sixth letter of the <a href=\"/blog/hebrew-alphabet-complete-guide/\">Hebrew alphabet</a>. Vav usually makes a [v] sound, and can also work as a vowel letter for [o] or [u].",
+      "objectivesHeading": "What you’ll learn",
+      "objectives": [
+        "Recognize Vav: <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ו</bdi>.",
+        "Hear its [v] sound, and the two vowel marks used only with Vav: Holam Male [o] and Shuruk [u].",
+        "Read Vav in real words like <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">דוֹב</bdi> (bear)."
+      ],
+      "secondSectionHeading": "How Vav sounds",
+      "thirdSectionHeading": "Vav as a vowel"
+    },
+    "examples": {
+      "heading": "Holam Male, Shuruk and new words",
+      "intro": "Meet two vowel marks that appear only with Vav — Holam Male [o] and Shuruk [u] — then see Vav in real Hebrew words."
+    }
+  },
+  "holdOuts": {
+    "blocks": [
+      { "sourceIndex": 2, "reason": "Unsupported TITLE_IMAGE block type with no content, title, or image URL in the raw source — an empty placeholder with nothing to render; no renderer exists for TITLE_IMAGE." },
+      { "sourceIndex": 4, "reason": "Unsupported TITLE_IMAGE block type with no content, title, or image URL in the raw source — an empty placeholder with nothing to render; no renderer exists for TITLE_IMAGE." },
+      { "sourceIndex": 6, "reason": "Unsupported STRIPED_BLOCK study block type ('Listen up! Shuruk and Holam Male are unique...') — StudyBlock.astro has no renderer for STRIPED_BLOCK." }
+    ],
+    "exercises": []
+  },
+  "source": {
+    "rawSnapshotPath": ".local/alphabet-course-imports/v1/2026-10-11T12-04-00-552Z-a1dbcc/raw/lesson-6.raw.json",
+    "sha256": "db69b04a2407039a503d599b2301f8d417a7c62ec92694fac1b64d0f4694b68f",
+    "responseDate": "2026-10-11T12:04:02.752Z"
+  }
+}

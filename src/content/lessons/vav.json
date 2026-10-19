@@ -1,0 +1,430 @@
+{
+  "id": "vav",
+  "sourceId": 6,
+  "order": 6,
+  "glyph": "ו",
+  "title": "Vav Hebrew Letter (ו): Sound & Vowels",
+  "description": "Learn the Hebrew letter Vav (ו): its [v] sound, the Holam Male and Shuruk vowels ([o]/[u]), and words like דוֹב (bear) and דוּד (boiler), plus practice.",
+  "status": "local-review-only",
+  "normalizationVersion": 1,
+  "provenance": {
+    "source": "https://api.hebrewedu.com/api/lessons/6/?lang=en",
+    "responseDate": "2026-10-11T12:04:02.752Z",
+    "sha256": "db69b04a2407039a503d599b2301f8d417a7c62ec92694fac1b64d0f4694b68f"
+  },
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Optional practice refinement",
+      "detail": "Some letter-recognition distractors use letters not introduced in this lesson. Beginner scaffolding can be improved separately from the approved source synchronization."
+    },
+    {
+      "id": "unsupported-title-image",
+      "summary": "Two empty TITLE_IMAGE blocks held out",
+      "detail": "The raw source has two TITLE_IMAGE study blocks (sourceIndex 2 and 4) with no content, title, or image URL — empty placeholders with nothing to render. StudyBlock.astro has no TITLE_IMAGE renderer. This type also appears (equally empty) in He, Pe and Tsadi's raw sources — see He's editorial review (docs/hebrew-alphabet-lesson-5-editorial-review.md) for the recommended follow-up task."
+    },
+    {
+      "id": "unsupported-striped-block",
+      "summary": "One STRIPED_BLOCK held out",
+      "detail": "The raw source has one STRIPED_BLOCK study block (sourceIndex 6, a 'Listen up!' callout) with no renderer in StudyBlock.astro. This type also appears in 7 other unpublished raw lessons (Chet, Lamed, Mem, Samekh, Pe, Tsadi, Shin) — 8 total including Vav — meeting the 3+-lesson threshold; recommend a separate task to build a STRIPED_BLOCK renderer (a callout/highlight style block) once more instances are reviewed for their real content shape."
+    }
+  ],
+  "blocks": [
+    {
+      "id": "vav-block-1",
+      "sourceIndex": 0,
+      "text": "Vav Hebrew Letter (ו): Sound, Vowels & Practice",
+      "reviewFlags": [],
+      "type": "MAIN_TITLE"
+    },
+    {
+      "id": "vav-block-2",
+      "sourceIndex": 1,
+      "text": "\"Vav (ו) is the sixth letter of the Hebrew alphabet. It typically sounds like the [v] in 'vase' in English, but in certain cases, it can also represent the [u] or [o] sound, functioning as a vowel.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "vav-block-4",
+      "sourceIndex": 3,
+      "text": "Holam Male is a dot placed above Vav (וֹ) and produces a sound similar to the [o] in the English word 'no.' It is used exclusively with Vav, and when you see it, remember that Vav functions as a vowel, meaning its usual consonant sound is not pronounced.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "vav-block-6",
+      "sourceIndex": 5,
+      "text": "Shuruk is a dot placed in the middle of the Hebrew letter Vav (וּ), producing the [u] sound, as in the English words 'moon' or 'food.' When Vav has a Shuruk, it functions as a vowel, meaning its usual consonant sound is not pronounced.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "vav-block-8",
+      "sourceIndex": 7,
+      "text": "Words to Practice:",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "vav-block-9",
+      "sourceIndex": 8,
+      "text": "bear",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "דוֹב",
+      "transcription": "dov"
+    },
+    {
+      "id": "vav-block-10",
+      "sourceIndex": 9,
+      "text": "The Hebrew word 'דּוֹב' [dov] consists of three letters: Dalet (ד), Vav (ו), and Bet (ב). The first letter, Dalet, is pronounced with a [d] sound. The following Vav is accompanied by a Holam, which gives it the [o] sound. The final letter, Bet, is pronounced with a [v] sound. Together, they form the word [dov].",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "vav-block-11",
+      "sourceIndex": 10,
+      "text": "boiler",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "דוּד",
+      "transcription": "dud"
+    },
+    {
+      "id": "vav-block-12",
+      "sourceIndex": 11,
+      "text": "The Hebrew word 'דּוּד' [dud] consists of three letters: Dalet (ד), Vav (ו), and Dalet (ד) again. The first Dalet is pronounced with a [d] sound. The middle Vav has a Shuruk, which gives it the [u] sound. The final Dalet repeats the [d] sound.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "vav-block-13",
+      "sourceIndex": 12,
+      "text": "hook",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "וַו",
+      "transcription": "vav"
+    },
+    {
+      "id": "vav-block-14",
+      "sourceIndex": 13,
+      "text": "The Hebrew word 'וַו' [vav] consists of two identical letters—both Vav (ו). The first Vav has a Patach (a horizontal line) beneath it, producing the [va] sound. The second Vav represents the consonant [v]. Therefore, the word is pronounced [vav], with the emphasis on the first syllable.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "vav-block-15",
+      "sourceIndex": 14,
+      "text": "Conclusions",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "vav-block-16",
+      "sourceIndex": 15,
+      "text": "Today, you’ve added a new letter to your arsenal of knowledge, along with a few new words. The letter Vav (ו) is fascinating yet not so simple. I hope you remember its pronunciation nuances, especially how it changes with Holam Male and Shuruk. Now, I recommend reinforcing your knowledge with a few engaging exercises.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "vav-exercise-1",
+      "sourceId": "1742223897666",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Find the letter 'Vav' among the given Hebrew letters.",
+      "explanation": "The Hebrew letter Vav (ו) is the sixth letter of the Hebrew alphabet. It usually represents the consonantal sound [v], but it can also function as a vowel, representing [o] or [u] in specific cases.",
+      "options": [
+        {
+          "id": "vav-exercise-1-option-1",
+          "label": "נ"
+        },
+        {
+          "id": "vav-exercise-1-option-2",
+          "label": "ס"
+        },
+        {
+          "id": "vav-exercise-1-option-3",
+          "label": "ו"
+        },
+        {
+          "id": "vav-exercise-1-option-4",
+          "label": "ר"
+        }
+      ],
+      "correctOptionId": "vav-exercise-1-option-3",
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    },
+    {
+      "id": "vav-exercise-2",
+      "sourceId": "1742223897667",
+      "type": "TRUE_FALSE",
+      "prompt": "Holam Male is a dot above Vav (וֹ), and it makes a sound like [o] in the English word 'no.'",
+      "explanation": "Holam Male represents the [o] sound, similar to the [o] in the English word 'no.'",
+      "options": [
+        {
+          "id": "vav-exercise-2-option-1",
+          "label": "True"
+        },
+        {
+          "id": "vav-exercise-2-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "vav-exercise-2-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "vav-exercise-3",
+      "sourceId": "1742223897668",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "How do you pronounce the Hebrew word for 'bear' (דּוֹב)?",
+      "explanation": "The Hebrew word 'דּוֹב' consists of Dalet (ד), Vav (ו) with Holam Male (וֹ), and Bet (ב) pronounced as [v]. Together, they form the word [dov].",
+      "options": [
+        {
+          "id": "vav-exercise-3-option-1",
+          "label": "[dov]"
+        },
+        {
+          "id": "vav-exercise-3-option-2",
+          "label": "[dav]"
+        },
+        {
+          "id": "vav-exercise-3-option-3",
+          "label": "[dud]"
+        }
+      ],
+      "correctOptionId": "vav-exercise-3-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "vav-exercise-4",
+      "sourceId": "1742223897669",
+      "type": "TRUE_FALSE",
+      "prompt": "The letter Bet (ב) at the end of a word is usually pronounced as [v], like in the English word 'vase.'",
+      "explanation": "In Hebrew, Bet (ב) at the end of a word usually does not have a Dagesh and is pronounced as [v].",
+      "options": [
+        {
+          "id": "vav-exercise-4-option-1",
+          "label": "True"
+        },
+        {
+          "id": "vav-exercise-4-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "vav-exercise-4-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "vav-exercise-5",
+      "sourceId": "1742223897670",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "How do you pronounce the Hebrew word for 'boiler' (דּוּד)?",
+      "explanation": "The Hebrew word 'דּוּד' consists of Dalet (ד), Vav (ו) with Shuruk (וּ), and Dalet (ד). The Shuruk vowel gives the [u] sound, making the pronunciation [dud].",
+      "options": [
+        {
+          "id": "vav-exercise-5-option-1",
+          "label": "[dov]"
+        },
+        {
+          "id": "vav-exercise-5-option-2",
+          "label": "[div]"
+        },
+        {
+          "id": "vav-exercise-5-option-3",
+          "label": "[dva]"
+        },
+        {
+          "id": "vav-exercise-5-option-4",
+          "label": "[dud]"
+        }
+      ],
+      "correctOptionId": "vav-exercise-5-option-4",
+      "reviewFlags": []
+    },
+    {
+      "id": "vav-exercise-6",
+      "sourceId": "1742223897671",
+      "type": "TRUE_FALSE",
+      "prompt": "Shuruk is the letter Vav (וּ) with a dot inside it, representing the [u] sound, like in 'moon.'",
+      "explanation": "Shuruk (וּ) is a vowel mark that produces the [u] sound, similar to the English word 'moon.'",
+      "options": [
+        {
+          "id": "vav-exercise-6-option-1",
+          "label": "True"
+        },
+        {
+          "id": "vav-exercise-6-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "vav-exercise-6-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "vav-exercise-7",
+      "sourceId": "1742223897672",
+      "type": "MATCH_PAIRS",
+      "prompt": "Match each Vav configuration with its corresponding phonetic sound.",
+      "explanation": "For example, a dot above Vav (Holam Male) represents [o], while a dot inside Vav (Shuruk) represents [u].",
+      "pairs": [
+        {
+          "id": "vav-exercise-7-pair-1",
+          "left": "Plain Vav (ו)",
+          "right": "[v]"
+        },
+        {
+          "id": "vav-exercise-7-pair-2",
+          "left": "(וּ) w/ Shuruk",
+          "right": "[u]"
+        },
+        {
+          "id": "vav-exercise-7-pair-3",
+          "left": "(וֹ) w/ Holam Male",
+          "right": "[o]"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "vav-exercise-8",
+      "sourceId": "1742223897673",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "How do you pronounce the Hebrew word for 'hook' (וַו)?",
+      "explanation": "The Hebrew word 'וַו' (vav) consists of two Vav letters. The first Vav has a Patach (ַ), producing the [va] sound, while the second Vav is pronounced [v].",
+      "options": [
+        {
+          "id": "vav-exercise-8-option-1",
+          "label": "[vav]"
+        },
+        {
+          "id": "vav-exercise-8-option-2",
+          "label": "[lav]"
+        },
+        {
+          "id": "vav-exercise-8-option-3",
+          "label": "[vuv]"
+        }
+      ],
+      "correctOptionId": "vav-exercise-8-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "vav-exercise-9",
+      "sourceId": "1742223897674",
+      "type": "TRUE_FALSE",
+      "prompt": "When the letter Vav (וַ) is combined with the Patah vowel sign, it produces the [va] sound.",
+      "explanation": "Patah represents the [a] sound. When combined with Vav (וַ), it produces [va].",
+      "options": [
+        {
+          "id": "vav-exercise-9-option-1",
+          "label": "True"
+        },
+        {
+          "id": "vav-exercise-9-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "vav-exercise-9-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "vav-exercise-10",
+      "sourceId": "1742223897675",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Which of the following letters makes the [u] sound, as in the English word 'moon'?",
+      "explanation": "Shuruk (וּ) is the vowel that produces the [u] sound.",
+      "options": [
+        {
+          "id": "vav-exercise-10-option-1",
+          "label": "ת"
+        },
+        {
+          "id": "vav-exercise-10-option-2",
+          "label": "וּ"
+        },
+        {
+          "id": "vav-exercise-10-option-3",
+          "label": "ה"
+        },
+        {
+          "id": "vav-exercise-10-option-4",
+          "label": "ן"
+        }
+      ],
+      "correctOptionId": "vav-exercise-10-option-2",
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    },
+    {
+      "id": "vav-exercise-11",
+      "sourceId": "1742223897676",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "What is the typical sound of a plain Vav (ו) without vowel markings?",
+      "explanation": "A plain Vav is pronounced as the consonant [v], like in 'vase.'",
+      "options": [
+        {
+          "id": "vav-exercise-11-option-1",
+          "label": "[o] as in 'no'"
+        },
+        {
+          "id": "vav-exercise-11-option-2",
+          "label": "[u] as in 'moon'"
+        },
+        {
+          "id": "vav-exercise-11-option-3",
+          "label": "[v] as in 'vase'"
+        }
+      ],
+      "correctOptionId": "vav-exercise-11-option-3",
+      "reviewFlags": []
+    },
+    {
+      "id": "vav-exercise-12",
+      "sourceId": "1742223897677",
+      "type": "TRUE_FALSE",
+      "prompt": "Does Vav with Shuruk (וּ) produce the [o] sound as in 'no'?",
+      "explanation": "Vav with Shuruk (וּ) produces the [u] sound as in 'moon,' not [o].",
+      "options": [
+        {
+          "id": "vav-exercise-12-option-1",
+          "label": "True"
+        },
+        {
+          "id": "vav-exercise-12-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "vav-exercise-12-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "vav-exercise-13",
+      "sourceId": "1742223897678",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Which of the following sounds is NOT produced by the letter Vav in Hebrew?",
+      "explanation": "Vav with Holam Male gives [o], with Shuruk gives [u], and as a consonant, it sounds [v].",
+      "options": [
+        {
+          "id": "vav-exercise-13-option-1",
+          "label": "[o] as in 'no'"
+        },
+        {
+          "id": "vav-exercise-13-option-2",
+          "label": "[u] as in 'moon'"
+        },
+        {
+          "id": "vav-exercise-13-option-3",
+          "label": "[a] as in 'father'"
+        }
+      ],
+      "correctOptionId": "vav-exercise-13-option-3",
+      "reviewFlags": []
+    }
+  ]
+}
