@@ -213,8 +213,8 @@ export const fr: Dictionary = {
     saidBy: 'Dit par',
     saidTo: 'Dit à',
     variantToggle: {
-      speaker: { male: 'Si c’est un homme qui parle', female: 'Si c’est une femme qui parle' },
-      addressee: { male: 'Si tu parles à un homme', female: 'Si tu parles à une femme' },
+      speaker: { male: 'Homme', female: 'Femme' },
+      addressee: { male: 'Homme', female: 'Femme' },
     },
   },
 };
