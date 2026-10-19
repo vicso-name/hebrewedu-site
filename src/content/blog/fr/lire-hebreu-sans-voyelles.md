@@ -1,7 +1,7 @@
 ---
 title: "Lire l'hébreu sans voyelles, et pourquoi ça vient"
 description: "Lire l'hébreu sans voyelle semble impossible, puis devient automatique : pourquoi le nikoud disparaît à l'usage, et comment ton cerveau s'adapte."
-pubDate: 2026-10-19
+pubDate: 2026-10-20
 author: "HebrewEdu Team"
 category: "Lecture de l'hébreu"
 categoryKey: "hebrewReading"

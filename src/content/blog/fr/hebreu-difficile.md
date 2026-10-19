@@ -1,7 +1,7 @@
 ---
 title: "Combien de temps pour apprendre l'hébreu ?"
 description: "Combien de temps pour apprendre l'hébreu : classification FSI, principales difficultés pour un francophone, et un calendrier réaliste."
-pubDate: 2026-10-19
+pubDate: 2026-10-20
 author: "HebrewEdu Team"
 category: "Apprendre l'hébreu"
 categoryKey: "hebrewLearning"

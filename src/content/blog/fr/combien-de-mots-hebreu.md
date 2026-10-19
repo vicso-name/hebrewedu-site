@@ -1,7 +1,7 @@
 ---
 title: "Combien de mots compte l'hébreu moderne ?"
 description: "Combien de mots compte l'hébreu moderne, et combien t'en faut-il vraiment pour parler, lire et comprendre au quotidien ?"
-pubDate: 2026-10-19
+pubDate: 2026-10-20
 author: "HebrewEdu Team"
 category: "Apprendre l'hébreu"
 categoryKey: "hebrewLearning"

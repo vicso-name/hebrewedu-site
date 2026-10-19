@@ -1,7 +1,7 @@
 ---
 title: "L'alphabet hébreu en 7 jours : un plan réaliste"
 description: "Alphabet hébreu en 7 jours : un programme réaliste, jour par jour, pour reconnaître les 22 lettres et lire tes premiers mots."
-pubDate: 2026-10-19
+pubDate: 2026-10-20
 author: "HebrewEdu Team"
 category: "Guide d'étude"
 categoryKey: "studyGuide"
