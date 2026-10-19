@@ -63,8 +63,8 @@ export const fr: Dictionary = {
     },
   },
   hub: {
-    pageTitle: "Cours d'alphabet hébreu pour débutants",
-    pageDescription: "Apprenez l'alphabet hébreu étape par étape, avec des explications, des exemples et des exercices interactifs pour débutants. Commencez avec Aleph.",
+    pageTitle: "Apprendre l'alphabet hébreu : cours pour débutants",
+    pageDescription: "Apprendre l'alphabet hébreu étape par étape : explications, exemples et exercices interactifs pour débutants. Commencez avec Aleph.",
     skipToCourse: 'Aller au cours',
     eyebrow: 'Cours alphabet hébreu · Pour débutants',
     title: "Apprendre l'alphabet hébreu étape par étape",
