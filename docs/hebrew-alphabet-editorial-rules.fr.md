@@ -64,7 +64,7 @@ rule.
 Use the search-validated French spellings from
 `docs/seo/research/fr/LETTER_SPELLINGS_FR.md` for every SEO-facing field
 (title, meta description, H1, `pages.csv`/`keywords.csv` rows, breadcrumb
-label) — **Aleph** (not Alef), **Beth** (not Bet/Beit), **Guimel** (not Gimel/Ghimel), **Dalet** (not Daleth), **Hé** (not He), **Vav** (not Waw), **Zayin** (not Zain), **Heth** (not Het/Hhet), **Teth** (not Tet), **Yod** (not Youd), **Kaf** (not Kaph/Khaf), **Lamed** (not Lamedh), **Mem**, **Noun** (not Nun), **Samekh** (not Samech), **Ayin** (not Aïn), **Pe** (not Pé/Fé), **Tsadi** (not Tsadé/Tsadik), **Qof** (not Kof/Koph), **Resh** (not Rech), **Shin** (not Sin/Chin), **Tav** (not Tau/Thav). Each one was decided from French volume and SERP data, with
+label) — **Aleph** (not Alef), **Beth** (not Bet/Beit), **Guimel** (not Gimel/Ghimel), **Dalet** (not Daleth), **Hé** (not He), **Vav** (not Waw), **Zayin** (not Zain), **Heth** (not Het/Hhet), **Teth** (not Tet), **Yod** (not Youd), **Kaf** (not Kaph/Khaf), **Lamed** (not Lamedh), **Mem**, **Noun** (not Nun), **Samekh** (not Samech), **Ayin** (not Aïn), **Pé** (not Pe/Fé), **Tsadi** (not Tsadé/Tsadik), **Qof** (not Kof/Koph), **Resh** (not Rech), **Shin** (not Sin/Chin), **Tav** (not Tau/Thav). Each one was decided from French volume and SERP data, with
 the per-letter reason in that doc; do not substitute a different spelling
 without redoing that research. The shared display-name
 map is `src/i18n/fr-letters.ts` — read SEO-facing letter names from there,
