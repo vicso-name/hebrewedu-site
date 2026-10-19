@@ -1,7 +1,8 @@
 ---
-import Layout from '../../layouts/Layout.astro';
+import Layout, { type Alternate } from '../../layouts/Layout.astro';
 import Nav from '../Nav.astro';
 import Footer from '../Footer.astro';
+import type { Locale } from '../../i18n';
 import '../../styles/legal.css';
 
 interface Props {
@@ -11,12 +12,15 @@ interface Props {
   /** Page H1 */
   title: string;
   lastUpdated: string;
+  locale?: Locale;
+  alternates?: Alternate[];
+  langSwitch?: { href: string };
 }
 
-const { metaTitle, description, title, lastUpdated } = Astro.props;
+const { metaTitle, description, title, lastUpdated, locale = 'en', alternates, langSwitch } = Astro.props;
 ---
 
-<Layout title={metaTitle} description={description}>
+<Layout title={metaTitle} description={description} locale={locale} alternates={alternates}>
   <link
     slot="head"
     rel="stylesheet"
@@ -25,7 +29,7 @@ const { metaTitle, description, title, lastUpdated } = Astro.props;
 
   <!-- .legal-page scopes the legal tokens and Nav theming (src/styles/legal.css) -->
   <div class="legal-page">
-    <Nav />
+    <Nav locale={locale} langSwitch={langSwitch} />
     <main>
       <article>
         <header class="legal-intro">
@@ -45,6 +49,6 @@ const { metaTitle, description, title, lastUpdated } = Astro.props;
         </div>
       </article>
     </main>
-    <Footer />
+    <Footer locale={locale} />
   </div>
 </Layout>

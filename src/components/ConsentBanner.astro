@@ -7,6 +7,7 @@ interface Props {
 }
 const { locale = 'en' } = Astro.props;
 const t = getDictionary(locale);
+const privacyHref = locale === 'fr' ? '/fr/confidentialite/' : '/website-privacy/';
 ---
 
 <!-- Analytics consent banner. Auto-shown only for visitors in the EEA/UK/CH
@@ -16,7 +17,7 @@ const t = getDictionary(locale);
 <div id="consent-banner" class="consent-banner" role="region" aria-label="Analytics consent" hidden>
   <p class="consent-banner-text">
     {t.consent.text}
-    <a href="/website-privacy/">{t.consent.privacyPolicy}</a>
+    <a href={privacyHref}>{t.consent.privacyPolicy}</a>
   </p>
   <div class="consent-banner-actions">
     <button type="button" class="consent-banner-btn" data-consent-choice="denied">{t.consent.decline}</button>
