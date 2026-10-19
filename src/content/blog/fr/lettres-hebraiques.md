@@ -127,15 +127,15 @@ Le tableau liste 22 lettres de base. Cinq d'entre elles ont aussi une forme dist
 
 Dalet (ד) illustre bien comment le nom d'une lettre porte son propre sens : *dalet* signifie « porte » en hébreu, et la tradition veut que la forme de la lettre en évoque une.
 
-→ [Pratiquer Dalet dans le cours d'alphabet hébreu](/fr/apprendre/alphabet-hebreu/dalet/)
+→ [Pratiquer Dalet dans le cours interactif](/fr/apprendre/alphabet-hebreu/dalet/)
 
 Hé (ה) fait double usage : en plus d'être la cinquième lettre, c'est aussi l'article défini « le/la » en préfixe (הַ-), et elle est souvent muette en fin de mot.
 
-→ [Pratiquer Hé dans le cours d'alphabet hébreu](/fr/apprendre/alphabet-hebreu/he/)
+→ [Pratiquer Hé dans le cours interactif](/fr/apprendre/alphabet-hebreu/he/)
 
 Vav (ו) est doublement utile : comme consonne elle fait le son [v], mais elle note aussi deux voyelles — Holam Male pour [o] et Shourouk pour [ou] — et comme préfixe (וְ-) elle signifie « et ».
 
-→ [Pratiquer Vav dans le cours d'alphabet hébreu](/fr/apprendre/alphabet-hebreu/vav/)
+→ [Pratiquer Vav dans le cours interactif](/fr/apprendre/alphabet-hebreu/vav/)
 
 ## Les cinq lettres finales
 
@@ -173,7 +173,7 @@ Quelques lettres hébraïques notent **deux sons différents** selon le contexte
 **ב (Beth/Vet)**
 - Avec un point à l'intérieur (בּ) → sonne comme **B** (comme dans « bateau »)
 - Sans le point (ב) → sonne comme **V** (comme dans « vigne »)
-- → [Pratiquer Beth/Vet dans le cours d'alphabet hébreu](/fr/apprendre/alphabet-hebreu/bet/)
+- → [Pratiquer Beth/Vet dans le cours interactif](/fr/apprendre/alphabet-hebreu/bet/)
 
 **ש (Shin/Sin)**
 - Point à droite (שׁ) → sonne comme **CH** (comme dans « chat »)
@@ -214,7 +214,7 @@ L'hébreu a des sons qui n'existent pas en français — en particulier le Heth 
 
 Certains débutants passent trop de temps à admirer l'esthétique des lettres hébraïques sans vraiment s'entraîner à les reconnaître. Le but, c'est de voir ג et de penser immédiatement « Guimel, G », sans hésitation. Cette reconnaissance automatique ne vient que de la pratique active — écrire, taper, décomposer des syllabes — pas de la lecture passive. Écrire les lettres prépare aussi bien pour plus tard, quand tu découvriras que [l'écriture hébraïque manuscrite a l'air complètement différente des formes imprimées](/fr/blog/ecriture-hebraique/) que tu es en train d'apprendre.
 
-→ [Pratiquer Guimel dans le cours d'alphabet hébreu](/fr/apprendre/alphabet-hebreu/gimel/)
+→ [Pratiquer Guimel dans le cours interactif](/fr/apprendre/alphabet-hebreu/gimel/)
 
 ---
 

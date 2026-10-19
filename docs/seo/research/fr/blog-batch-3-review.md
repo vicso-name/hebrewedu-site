@@ -1,29 +1,42 @@
 # FR blog batch 3 — full post text for review
 
-Full FR text of the four posts published on `feat/fr-blog-batch-3`, for owner
-review before merge. Each pairs 1:1 with its EN source via `translationKey`.
-Source files: `src/content/blog/fr/<slug>.md`. Style reference:
-`docs/hebrew-alphabet-editorial-rules.fr.md` (including the new transliteration
-rule distinguishing the blog's "sh" from the phrases page's "ch" — see that
-file's French transliteration section) and the batch 1-2 review files for
-structure/voice.
+Full FR text of the four posts on `feat/fr-blog-batch-3`, for owner review
+before merge. Each pairs 1:1 with its EN source via `translationKey`. Source
+files: `src/content/blog/fr/<slug>.md`.
 
-These are batch C from `BLOG_FR_PLAN.md`'s ordering — the four long-tail posts
-closest to a direct rewrite of their EN original (vs. batch D's
-listening/comprehension trio and batch E's register-heavy satire/founder-story
-posts). None of the four had measurable French search volume at the level of
-batch A/B's biggest posts; two (`lire-hebreu-sans-voyelles`,
-`hebreu-difficile`) have small real volume (10/mo) once retargeted to the
-query the post actually answers, and two
-(`apprendre-alphabet-hebreu-7-jours`, `combien-de-mots-hebreu`) are
-editorial-seed primaries with no measured French volume in any phrasing tried,
-kept because they match the post's actual topic — the same treatment batch
-2's `binyanim-hebreu` post got for the same reason.
+**This revision includes a first owner-proofread pass** (slug rename for post
+3, a site-wide anchor-text rule for the "alphabet hébreu" keyword — see
+below — and the per-post fixes noted in each section). Style reference:
+`docs/hebrew-alphabet-editorial-rules.fr.md` (including the transliteration
+rule distinguishing the blog's "sh" from the phrases page's "ch") and the
+batch 1-2 review files for structure/voice.
 
-All four repoint every link to an already-published FR post (full list in
-`docs/seo/research/fr/blog-link-repoint.md`'s "Closed this batch (batch 3)"
-section) and existing FR posts' `(en anglais)` links to these four topics are
-repointed in the same change — see that file for the complete before/after.
+## New guardrail: the "alphabet hébreu" anchor rule
+
+`docs/seo/research/fr/BLOG_FR_PLAN.md`'s "Keyword ownership" note already
+decided that `alphabet hébreu` belongs exclusively to the hub,
+`/fr/apprendre/alphabet-hebreu/` — but nothing enforced it, and several links
+across batches 1-3 (plus two dictionary entries in `src/i18n/fr.ts`) used that
+exact phrase as anchor text while pointing somewhere else, mostly at the
+`lettres-hebraiques` post or at individual lesson pages. Fixed this revision:
+
+- `src/i18n/fr.ts`: `hub.resources`'s "Guide de l'alphabet hébreu" → "Guide
+  des lettres hébraïques"; `home.resources.items`'s "Apprendre l'alphabet
+  hébreu" → "Le guide des lettres hébraïques." Both still link to
+  `lettres-hebraiques`, just no longer under the hub's own keyword.
+- `lettres-hebraiques.md`: five "Pratiquer `<Letter>` dans le cours
+  d'alphabet hébreu" anchors (linking to that letter's own lesson page, not
+  the hub) reworded to "... dans le cours interactif."
+- The two new anchors this batch introduced pointing at `lettres-hebraiques`
+  (in `lire-hebreu-sans-voyelles.md` and `combien-de-temps-apprendre-hebreu.md`)
+  reworded to "le guide des lettres hébraïques."
+
+`scripts/check-i18n.mjs` gained a matching **FAIL** rule,
+`fr-alphabet-anchor-not-hub` (documented in `docs/I18N.md` §7): any FR anchor
+whose text contains "alphabet hébreu" must link to the hub, unless the anchor
+is simply the destination page's own title (a blog-card link naming itself,
+e.g. the "L'alphabet hébreu en 7 jours : un plan réaliste" card linking to
+that very post) — that's not the cannibalization the rule guards against.
 
 ---
 
@@ -32,10 +45,10 @@ repointed in the same change — see that file for the complete before/after.
 - EN source: `/blog/learn-hebrew-alphabet-7-days/`
 - FR URL: `/fr/blog/apprendre-alphabet-hebreu-7-jours/`
 - Primary: *alphabet hébreu en 7 jours* (editorial-seed, no measured French volume for this long-tail phrasing — same treatment as the batch-2 binyanim post's primary). Secondary: *plan d'étude alphabet hébreu* (same, editorial-seed).
-- 1:1 with the EN day-by-day plan: same seven days, same letter groupings, same final-form call-outs. Letter names use the FR SEO spellings already established in `lettres-hebraiques.md` (Beth not Bet, Heth not Chet, Noun not Nun, Samekh not Samech, Tsadi not Tzadi, Qof not Kuf, Hé not Hey) — matching that post's own usage rather than re-deciding.
-- One factual correction during translation: the EN Day 1 section says "Three of them (א, ה) will appear in almost every word" but only lists two glyphs in the parenthetical. Translated as "Deux d'entre elles (א, ה)" to match what's actually enumerated, rather than carrying the EN mismatch forward.
-- Transliteration per the FR rule: the guttural Heth note drops the EN "like the 'ch' in German Bach" comparison (no French equivalent) in favor of the jota-espagnole comparison `lettres-hebraiques.md` already uses for the same letter. `דּוּ (du)` → `דּוּ (dou)` (ou-rule). The Day 6 word table respells `בְּרָכָה` as `Be-ra-kha` (not the EN "Be-ra-cha") — that syllable is Khaf without dagesh, a guttural sound, not the Shin [ʃ] sound, so it takes `kh`, not `ch`.
-- Links: the complete-letters guide and the reading-without-vowels post are both FR→FR direct (published this batch or earlier). The two "two things that surprise learners" links at the end point to `why-you-can-read-hebrew-...` (batch D, stays `(en anglais)`) and the handwriting post (FR→FR, published).
+- **Owner proofread (this revision):** dropped the "apprendre l'alphabet hébreu" tag (duplicates the hub's own exclusive keyword — docs/seo/research/fr/BLOG_FR_PLAN.md's "Keyword ownership" note) and added one link to the hub itself (`/fr/apprendre/alphabet-hebreu/`) in "Avant de commencer," since the post previously had none. Day 1's "(א, ה) apparaîtront dans presque tous les mots" softened to "apparaissent très souvent" (the EN source's own absolute framing). Day 7's "Lis-la dans un sens puis dans l'autre" → "Relis-la plusieurs fois" (clearer instruction). Tav/Teth's "interchangeables à la lecture" → "se prononcent de la même façon, mais ne s'échangent pas à l'écrit" (the two letters aren't interchangeable in spelling, only in sound). *Ani lomed Ivrit* now notes the feminine form, *lomedet*.
+- 1:1 with the EN day-by-day plan: same seven days, same letter groupings, same final-form call-outs. Letter names use the FR SEO spellings already established in `lettres-hebraiques.md` (Beth not Bet, Heth not Chet, Noun not Nun, Samekh not Samech, Tsadi not Tzadi, Qof not Kuf, Hé not Hey).
+- Transliteration per the FR rule: the guttural Heth note uses the jota-espagnole comparison (no French equivalent for the EN "German Bach" one). `דּוּ (du)` → `דּוּ (dou)` (ou-rule). The Day 6 word table respells `בְּרָכָה` as `Be-ra-kha` (not the EN "Be-ra-cha") — that syllable is Khaf without dagesh, a guttural sound, not Shin, so it takes `kh`, not `ch`.
+- Links: the complete-letters guide, the hub, and the reading-without-vowels post are all FR→FR direct. The two "two things that surprise learners" links at the end point to `why-you-can-read-hebrew-...` (batch D, stays `(en anglais)`) and the handwriting post (FR→FR, published).
 
 ### Frontmatter + body
 
@@ -43,12 +56,12 @@ repointed in the same change — see that file for the complete before/after.
 ---
 title: "L'alphabet hébreu en 7 jours : un plan réaliste"
 description: "Alphabet hébreu en 7 jours : un programme réaliste, jour par jour, pour reconnaître les 22 lettres et lire tes premiers mots."
-pubDate: 2026-10-19
+pubDate: 2026-10-20
 author: "HebrewEdu Team"
 category: "Guide d'étude"
 categoryKey: "studyGuide"
 readingTime: "7 min de lecture"
-tags: ["alphabet hébreu en 7 jours", "apprendre l'alphabet hébreu", "Aleph Bet", "plan d'étude hébreu", "apprendre l'hébreu"]
+tags: ["alphabet hébreu en 7 jours", "Aleph Bet", "plan d'étude hébreu", "apprendre l'hébreu"]
 translationKey: "learn-hebrew-alphabet-7-days"
 ---
 
@@ -70,13 +83,15 @@ Voici exactement comment faire.
 
 **Ne saute pas d'étape.** Ce programme est pensé dans un ordre précis. Si tu apprends ש avant d'avoir bien ancré א, ב, ג, tu travailles contre toi-même.
 
+Si tu préfères un parcours pas à pas avec audio et exercices intégrés, le [cours d'alphabet hébreu](/fr/apprendre/alphabet-hebreu/) suit une progression très proche de celle de ce programme.
+
 ---
 
 ## Jour 1 — Rencontre avec les cinq premières lettres
 
 **Lettres : א ב ג ד ה**
 
-Commence par les cinq premières. Elles sont fondamentales — Aleph, Beth, Guimel, Dalet, Hé. Deux d'entre elles (א, ה) apparaîtront dans presque tous les mots hébreux que tu liras.
+Commence par les cinq premières. Elles sont fondamentales — Aleph, Beth, Guimel, Dalet, Hé. Deux d'entre elles (א, ה) apparaissent très souvent.
 
 **Ce qu'il faut faire :**
 - Apprends le nom, la forme et le son de chaque lettre
@@ -159,7 +174,7 @@ La dernière ligne droite. Ayin, Pé, Tsadi, Qof, Resh, Shin et Tav — et deux 
 **Points à remarquer :**
 - **ע (Ayin)** est comme Aleph — elle porte techniquement un son guttural, mais en hébreu israélien moderne elle est le plus souvent muette. Elle marque la position des voyelles de la même façon qu'Aleph.
 - **ש (Shin/Sin)** note deux sons. Avec un point à droite (שׁ), c'est le son « sh », comme dans « shampooing ». Avec un point à gauche (שׂ), c'est un S, comme dans « sac ». La position du point est facile à manquer au début — fais-y attention.
-- **ת (Tav)** et **ט (Teth)** font toutes les deux un son T en hébreu moderne. Historiquement différentes, elles sont aujourd'hui interchangeables à la lecture.
+- **ת (Tav)** et **ט (Teth)** font toutes les deux un son T en hébreu moderne. Historiquement différentes, elles se prononcent de la même façon, mais ne s'échangent pas à l'écrit.
 
 À la fin du jour 5, tu connais les 22 lettres. Ça mérite un petit moment de satisfaction.
 
@@ -194,8 +209,8 @@ Aujourd'hui, tu assembles tout.
 Tu es prêt pour ça.
 
 **Ce qu'il faut faire :**
-- Essaie de lire cette phrase : **אֲנִי לוֹמֵד עִבְרִית** (*Ani lomed Ivrit* — « J'apprends l'hébreu »)
-- Lis-la dans un sens puis dans l'autre, lettre par lettre, jusqu'à ce qu'elle coule
+- Essaie de lire cette phrase : **אֲנִי לוֹמֵד עִבְרִית** (*Ani lomed Ivrit* — « J'apprends l'hébreu » ; *lomedet* au féminin)
+- Relis-la plusieurs fois, lettre par lettre, jusqu'à ce qu'elle coule
 - Passe du temps sur l'Explorateur de l'alphabet dans l'application — parcours les 22 lettres dans la grille sans regarder les noms ni les sons, et vois combien tu en reconnais
 
 **Puis fixe-toi un nouvel objectif.**
@@ -235,18 +250,18 @@ Sept jours pour l'alphabet. C'était l'objectif. Tu l'as atteint. Deux choses su
 
 - EN source: `/blog/why-hebrew-without-vowels-looks-impossible-until-your-brain-adapts/`
 - FR URL: `/fr/blog/lire-hebreu-sans-voyelles/`
-- Primary: *lire l'hébreu sans voyelle* (10/mo). Secondary: *apprendre a lire l'hébreu sans les voyelles* (10/mo). Both keywords were mapped in the raw research (`keywords-fr.csv`) to the nikoud post (`voyelles-hebreu`), but `BLOG_FR_PLAN.md`'s own batch table assigns the first one to this post by name — reassigned both here since they describe this post's actual topic (reading without points) rather than the nikoud post's (reading the points themselves), and neither was already claimed for `voyelles-hebreu` in `docs/seo/core/keywords.csv`.
-- French sound comparison, localized rather than copied: the EN "remove vowels from English" demonstration ("Ths sntnc lks lke dsstr") is replaced with a French sentence treated the same way ("Le chat mange du pain près de la fenêtre." → "L cht mng d pn prs d l fntr.") so the device actually lands for a French reader.
-- Hebrew script and nikud copied verbatim from the EN post; every Latin transliteration follows the FR rule (none of this post's examples needed a kh/ou correction — the EN source's own transliterations were already vowel-letter-only, e.g. *ani*, *mekhakeh*).
-- Links: nikoud guide, alphabet guide, root-system post, vocabulary post and the handwriting post are all FR→FR direct (published). The vocabulary-size post (`combien-de-mots-hebreu`) is this batch's own sibling post, linked FR→FR directly rather than `(en anglais)`. `why-you-can-read-hebrew-...` stays `(en anglais)` (batch D).
+- Primary: *lire l'hébreu sans voyelle* (10/mo). Secondary: *apprendre a lire l'hébreu sans les voyelles* (10/mo).
+- **Owner proofread (this revision):** title changed from "Lire l'hébreu sans voyelles, et pourquoi ça vient" to "Lire l'hébreu sans voyelles : comment le cerveau s'adapte." The anchor "le guide complet de l'alphabet hébreu" (pointing at `lettres-hebraiques`, not the hub) is reworded to "le guide des lettres hébraïques" — an accurate, non-cannibalizing description of that post. The English tense-ambiguity example ("I read this book") is replaced with the French homograph « Les poules du couvent couvent. » — same written word, two different pronunciations depending on its grammatical role (noun, then verb), resolved by context alone — a closer match to the Hebrew point being made (reading an unvocalized string requires picking the right reading from context) than a tense example was. "Bordélique" → "Brouillon" (more standard register). Dropped "Ce n'est pas tricher à un contrôle organisé par l'alphabet" (an odd metaphor that didn't clarify the point). The closing "reading experience" link — the EN post's own link target, `/` — doesn't have a confirmed FR-language equivalent (the app's own "traduction" content pairs Hebrew with English/Russian, not French, per the already-published `conjugaison-hebreu.md`'s own "traductions en anglais et en russe"); repointed to the EN home page with `(en anglais)`, and the sentence no longer claims French-language texts/audio.
+- Hebrew script and nikud copied verbatim from the EN post; every Latin transliteration follows the FR rule.
+- Links: nikoud guide, alphabet-guide, root-system post, vocabulary post and the handwriting post are all FR→FR direct (published). The vocabulary-size post (`combien-de-mots-hebreu`) is this batch's own sibling post, linked FR→FR directly. `why-you-can-read-hebrew-...` stays `(en anglais)` (batch D).
 
 ### Frontmatter + body
 
 ```markdown
 ---
-title: "Lire l'hébreu sans voyelles, et pourquoi ça vient"
+title: "Lire l'hébreu sans voyelles : comment le cerveau s'adapte"
 description: "Lire l'hébreu sans voyelle semble impossible, puis devient automatique : pourquoi le nikoud disparaît à l'usage, et comment ton cerveau s'adapte."
-pubDate: 2026-10-19
+pubDate: 2026-10-20
 author: "HebrewEdu Team"
 category: "Lecture de l'hébreu"
 categoryKey: "hebrewReading"
@@ -299,7 +314,7 @@ L'hébreu courant omet généralement ces points parce que des mots familiers et
 
 Si les points restent un mystère, [ce guide pour lire le nikoud hébreu](/fr/blog/voyelles-hebreu/) explique comment ils guident la prononciation.
 
-L'hébreu moderne s'appuie fortement sur le contexte et la reconnaissance de motifs plutôt que de marquer visuellement chaque son. Si tu es encore en train de te familiariser avec les lettres elles-mêmes, [le guide complet de l'alphabet hébreu](/fr/blog/lettres-hebraiques/) couvre chaque lettre, son son, et la façon dont le système du nikoud fonctionne avant que les signes voyelles ne disparaissent.
+L'hébreu moderne s'appuie fortement sur le contexte et la reconnaissance de motifs plutôt que de marquer visuellement chaque son. Si tu es encore en train de te familiariser avec les lettres elles-mêmes, [le guide des lettres hébraïques](/fr/blog/lettres-hebraiques/) couvre chaque lettre, son son, et la façon dont le système du nikoud fonctionne avant que les signes voyelles ne disparaissent.
 
 Donc au lieu de :
 > שָׁלוֹם
@@ -371,9 +386,9 @@ selon le contexte.
 Ce qui sonne terrifiant jusqu'à ce que tu réalises que le français fait des choses similaires en permanence.
 
 Prends la phrase :
-> « Je lis ce livre depuis hier. »
+> « Les poules du couvent couvent. »
 
-Ton cerveau sait automatiquement si « lis » renvoie au présent ou au passé composé grâce au contexte, bien avant que tu y réfléchisses consciemment.
+Le même mot écrit « couvent » apparaît deux fois, mais se prononce différemment selon son rôle dans la phrase : un nom la première fois, un verbe la seconde. Ton cerveau choisit automatiquement la bonne lecture grâce au contexte, bien avant que tu y réfléchisses consciemment.
 
 Le cerveau humain est une machine à prédire.
 L'hébreu demande simplement plus de prédiction, plus tôt.
@@ -481,11 +496,11 @@ Le chemin idéal, c'est une exposition progressive. Tu n'as pas besoin de sauter
 2. **Essaie des mots familiers sans nikoud.** Regarde שלום après avoir lu שָׁלוֹם. Utilise des mots que tu connais déjà, pour t'entraîner à la reconnaissance plutôt qu'à deviner la prononciation d'un mot inconnu. [Construire du vocabulaire hébreu](/fr/blog/vocabulaire-hebreu/) te donne plus de mots à reconnaître sur la page.
 3. **Passe à un texte partiellement vocalisé.** Choisis un support qui garde le nikoud sur les mots inconnus ou ambigus. Essaie d'abord la phrase, puis utilise les points restants pour vérifier ta lecture.
 4. **Lis de courts textes hébreux authentiques.** Commence par un message familier, une légende simple, ou quelques lignes sur un sujet que tu connais. Lis la phrase entière avant de décider ce que veut dire un mot incertain. Vérifie un dictionnaire, une traduction ou l'audio quand le contexte ne suffit pas.
-5. **Relis plutôt que de déchiffrer chaque mot depuis zéro.** Reviens sur le même passage après l'avoir vérifié. Relis-le pour le sens, puis à voix haute si tu as un modèle de prononciation. La familiarité, c'est le but. Ce n'est pas tricher à un contrôle organisé par l'alphabet.
+5. **Relis plutôt que de déchiffrer chaque mot depuis zéro.** Reviens sur le même passage après l'avoir vérifié. Relis-le pour le sens, puis à voix haute si tu as un modèle de prononciation. La familiarité, c'est le but.
 
 Garde des passages assez courts pour les finir sans t'effondrer mentalement à mi-chemin.
 
-Bordélique, mais efficace.
+Brouillon, mais efficace.
 
 ---
 
@@ -533,7 +548,7 @@ Deviner à partir d'une racine seule est un autre piège. Des mots liés n'ont p
 
 Et ne retire pas le nikoud d'un mot nouveau avant d'avoir appris comment il se prononce. Vérifie les mots inconnus, puis reviens et relis. Tolérer l'ambiguïté ne veut pas dire répéter la même erreur indéfiniment.
 
-Pour un endroit pratique où t'entraîner, [l'expérience de lecture de HebrewEdu](/fr/) propose des textes hébreux pour débutants, avec traduction et audio. Essaie un court texte, utilise l'aide quand tu en as besoin, et relis-le à mesure que les mots deviennent familiers. Une pratique progressive donne à ton cerveau de quoi travailler.
+Pour un endroit pratique où t'entraîner, [l'expérience de lecture de HebrewEdu](/) (en anglais) propose des textes hébreux pour débutants, avec traduction et audio. Essaie un court texte, utilise l'aide quand tu en as besoin, et relis-le à mesure que les mots deviennent familiers. Une pratique progressive donne à ton cerveau de quoi travailler.
 
 ---
 
@@ -556,12 +571,13 @@ Ce qui est, honnêtement, l'un des aspects les plus satisfaisants de l'apprentis
 
 ---
 
-## 3. hebreu-difficile
+## 3. combien-de-temps-apprendre-hebreu
 
 - EN source: `/blog/how-hard-is-hebrew-to-learn/`
-- FR URL: `/fr/blog/hebreu-difficile/`
-- Primary: *combien de temps pour apprendre l'hébreu* (10/mo). Secondary: *apprendre l'hébreu combien de temps* (10/mo, reordered variant) and *hébreu difficile à apprendre* (0 measured volume, kept for direct topical match, same treatment as the batch-2 binyanim post's *piel hébreu* secondary).
-- Title retargeted from the EN "is Hebrew hard to learn" framing to "Combien de temps pour apprendre l'hébreu ?" — the French queries that carry the EN title's literal "difficile" framing measure **0** volume (`keywords-fr.csv`'s `blog-no-fr-demand` cluster: *hébreu langue difficile*, *hébreu biblique difficile*, *est ce difficile d apprendre l hébreu*), while the "how long does it take" framing the post already answers (FSI hour counts, the practical-timeline table) measures real, if small, volume. `check:i18n`'s `seo-core-keyword-not-in-title` rule requires every primary-keyword token to appear in the title, which this retitle satisfies directly — the EN-literal title would not have.
+- FR URL: `/fr/blog/combien-de-temps-apprendre-hebreu/` — **renamed this revision** from `/fr/blog/hebreu-difficile/` (owner proofread; the file, the `docs/seo/core/*.csv` rows — `cluster_id`, `target_url` — and `docs/seo/research/fr/blog-link-repoint.md`/`BLOG_FR_PLAN.md`'s references all moved together). Not yet on `main`, so this is a plain rename, not a redirect.
+- Primary: *combien de temps pour apprendre l'hébreu* (10/mo). Secondary: *apprendre l'hébreu combien de temps* (10/mo) and *hébreu difficile à apprendre* (0 measured volume, kept for direct topical match).
+- Title retargeted from the EN "is Hebrew hard to learn" framing to "Combien de temps pour apprendre l'hébreu ?" — the French queries carrying the EN title's literal "difficile" framing measure **0** volume (`keywords-fr.csv`'s `blog-no-fr-demand` cluster), while the "how long does it take" framing the post already answers (FSI hour counts, the practical-timeline table) measures real, if small, volume.
+- **Owner proofread (this revision):** the anchor "Apprendre l'alphabet hébreu" (pointing at `lettres-hebraiques`, not the hub) is reworded into plain prose plus a separate anchor, "le guide des lettres hébraïques," naming the destination accurately instead of echoing the hub's own exclusive keyword.
 - FSI/State Department external links kept as-is (English-language government source, no FR equivalent exists). Hour/week figures translated verbatim, no unit conversion needed.
 - Links: alphabet guide, reading-without-vowels and root-system posts are FR→FR direct (published). `why-hebrew-sounds-so-fast` and `how-not-to-learn-hebrew-...` stay `(en anglais)` (both batch D/E).
 
@@ -571,7 +587,7 @@ Ce qui est, honnêtement, l'un des aspects les plus satisfaisants de l'apprentis
 ---
 title: "Combien de temps pour apprendre l'hébreu ?"
 description: "Combien de temps pour apprendre l'hébreu : classification FSI, principales difficultés pour un francophone, et un calendrier réaliste."
-pubDate: 2026-10-19
+pubDate: 2026-10-20
 author: "HebrewEdu Team"
 category: "Apprendre l'hébreu"
 categoryKey: "hebrewLearning"
@@ -616,7 +632,7 @@ L'hébreu utilise une écriture complètement différente — 22 lettres, écrit
 
 C'est aussi un premier obstacle tout à fait gérable.
 
-[Apprendre l'alphabet hébreu](/fr/blog/lettres-hebraiques/) — les lettres, leurs sons, et le système de base des voyelles — peut être un premier objectif utile pour quelques semaines de pratique quotidienne régulière. Ce n'est pas comme apprendre des milliers de caractères chinois. Vingt-deux lettres, avec cinq formes finales en plus. Pas de majuscules, pas de minuscules. Les reconnaître est la première étape ; lire couramment demande encore de la pratique.
+Apprendre l'alphabet hébreu — les lettres, leurs sons, et le système de base des voyelles — peut être un premier objectif utile pour quelques semaines de pratique quotidienne régulière ; [le guide des lettres hébraïques](/fr/blog/lettres-hebraiques/) couvre tout ça en détail. Ce n'est pas comme apprendre des milliers de caractères chinois. Vingt-deux lettres, avec cinq formes finales en plus. Pas de majuscules, pas de minuscules. Les reconnaître est la première étape ; lire couramment demande encore de la pratique.
 
 L'alphabet est conçu pour paraître redoutable de l'extérieur.
 
@@ -758,9 +774,10 @@ En général, parce qu'ils avaient des attentes réalistes, des habitudes quotid
 
 - EN source: `/blog/how-many-words-are-in-the-modern-hebrew-language/`
 - FR URL: `/fr/blog/combien-de-mots-hebreu/`
-- Primary: *combien de mots hébreu* (editorial-seed, no measured French volume — long tail, same treatment as the 7-day-plan post above). Secondary: *vocabulaire hébreu moderne* (same).
-- The כתב (K-T-V) root-family example and the מחשב/לחשב/חישוב example are copied verbatim (Hebrew) with FR-respelled transliterations (*mikhtav*, not *michtav*, following the same rule already applied in batch 2's racines post).
-- "Répertoire de verbes" reused for the Alef-Bet Tutor verb directory reference (not "annuaire"), matching the batch-2 proofread decision; "binyan" (singular) used where the EN says "Binyan" as a count noun.
+- Primary: *combien de mots hébreu* (editorial-seed, no measured French volume). Secondary: *vocabulaire hébreu moderne* (same).
+- **Owner proofread (this revision):** `כותב` — "écrivant / écrivain" → "il écrit / auteur" (a verb form paired with a noun reads more naturally than two near-synonymous nouns). The "vocabulary growth" comparison section had swapped the EN post's own comparison language in translation — it named French learners feeling buried in endless vocabulary, when the point (mirroring the EN post's "Hebrew Vocabulary Growth Feels Different From English") is that English has that problem and Hebrew's root system doesn't; both the heading and the body sentence now say "anglais," not "français," so a French reader gets the intended comparison.
+- The כתב (K-T-V) root-family example and the מחשב/לחשב/חישוב example are copied verbatim (Hebrew) with FR-respelled transliterations (*mikhtav*, not *michtav*).
+- "Répertoire de verbes" reused for the Alef-Bet Tutor verb directory reference (not "annuaire"), matching the batch-2 proofread decision.
 - Links: verb-directory (`conjugaison-hebreu`), vocabulary and alphabet-guide posts are FR→FR direct (published); reading-without-vowels is this batch's own sibling post, linked FR→FR directly. `why-you-can-read-hebrew-...` and `how-not-to-learn-hebrew-...` stay `(en anglais)` (batch D/E).
 
 ### Frontmatter + body
@@ -769,7 +786,7 @@ En général, parce qu'ils avaient des attentes réalistes, des habitudes quotid
 ---
 title: "Combien de mots compte l'hébreu moderne ?"
 description: "Combien de mots compte l'hébreu moderne, et combien t'en faut-il vraiment pour parler, lire et comprendre au quotidien ?"
-pubDate: 2026-10-19
+pubDate: 2026-10-20
 author: "HebrewEdu Team"
 category: "Apprendre l'hébreu"
 categoryKey: "hebrewLearning"
@@ -812,7 +829,7 @@ Par exemple, la racine hébraïque כתב (K-T-V) est liée à l'écriture :
 - כתיבה — l'écriture, l'acte d'écrire
 - כתב — journaliste
 - התכתבות — correspondance
-- כותב — écrivant / écrivain
+- כותב — il écrit / auteur
 
 Tu apprends une racine, et soudain la langue commence à se multiplier toute seule.
 
@@ -961,9 +978,9 @@ Un apprenant qui connaît vraiment 1 500 mots courants dépassera quelqu'un qui 
 
 ---
 
-## La croissance du vocabulaire hébreu ne ressemble pas à celle du français
+## La croissance du vocabulaire hébreu ne ressemble pas à celle de l'anglais
 
-Les apprenants de français se sentent souvent enterrés sous un vocabulaire sans fin.
+Les apprenants d'anglais se sentent souvent enterrés sous un vocabulaire sans fin.
 
 L'hébreu se comporte différemment à cause du système des racines.
 

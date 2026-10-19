@@ -46,7 +46,7 @@ L'hébreu utilise une écriture complètement différente — 22 lettres, écrit
 
 C'est aussi un premier obstacle tout à fait gérable.
 
-[Apprendre l'alphabet hébreu](/fr/blog/lettres-hebraiques/) — les lettres, leurs sons, et le système de base des voyelles — peut être un premier objectif utile pour quelques semaines de pratique quotidienne régulière. Ce n'est pas comme apprendre des milliers de caractères chinois. Vingt-deux lettres, avec cinq formes finales en plus. Pas de majuscules, pas de minuscules. Les reconnaître est la première étape ; lire couramment demande encore de la pratique.
+Apprendre l'alphabet hébreu — les lettres, leurs sons, et le système de base des voyelles — peut être un premier objectif utile pour quelques semaines de pratique quotidienne régulière ; [le guide des lettres hébraïques](/fr/blog/lettres-hebraiques/) couvre tout ça en détail. Ce n'est pas comme apprendre des milliers de caractères chinois. Vingt-deux lettres, avec cinq formes finales en plus. Pas de majuscules, pas de minuscules. Les reconnaître est la première étape ; lire couramment demande encore de la pratique.
 
 L'alphabet est conçu pour paraître redoutable de l'extérieur.
 

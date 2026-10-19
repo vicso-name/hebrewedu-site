@@ -1,5 +1,5 @@
 ---
-title: "Lire l'hébreu sans voyelles, et pourquoi ça vient"
+title: "Lire l'hébreu sans voyelles : comment le cerveau s'adapte"
 description: "Lire l'hébreu sans voyelle semble impossible, puis devient automatique : pourquoi le nikoud disparaît à l'usage, et comment ton cerveau s'adapte."
 pubDate: 2026-10-20
 author: "HebrewEdu Team"
@@ -54,7 +54,7 @@ L'hébreu courant omet généralement ces points parce que des mots familiers et
 
 Si les points restent un mystère, [ce guide pour lire le nikoud hébreu](/fr/blog/voyelles-hebreu/) explique comment ils guident la prononciation.
 
-L'hébreu moderne s'appuie fortement sur le contexte et la reconnaissance de motifs plutôt que de marquer visuellement chaque son. Si tu es encore en train de te familiariser avec les lettres elles-mêmes, [le guide complet de l'alphabet hébreu](/fr/blog/lettres-hebraiques/) couvre chaque lettre, son son, et la façon dont le système du nikoud fonctionne avant que les signes voyelles ne disparaissent.
+L'hébreu moderne s'appuie fortement sur le contexte et la reconnaissance de motifs plutôt que de marquer visuellement chaque son. Si tu es encore en train de te familiariser avec les lettres elles-mêmes, [le guide des lettres hébraïques](/fr/blog/lettres-hebraiques/) couvre chaque lettre, son son, et la façon dont le système du nikoud fonctionne avant que les signes voyelles ne disparaissent.
 
 Donc au lieu de :
 > שָׁלוֹם
@@ -126,9 +126,9 @@ selon le contexte.
 Ce qui sonne terrifiant jusqu'à ce que tu réalises que le français fait des choses similaires en permanence.
 
 Prends la phrase :
-> « Je lis ce livre depuis hier. »
+> « Les poules du couvent couvent. »
 
-Ton cerveau sait automatiquement si « lis » renvoie au présent ou au passé composé grâce au contexte, bien avant que tu y réfléchisses consciemment.
+Le même mot écrit « couvent » apparaît deux fois, mais se prononce différemment selon son rôle dans la phrase : un nom la première fois, un verbe la seconde. Ton cerveau choisit automatiquement la bonne lecture grâce au contexte, bien avant que tu y réfléchisses consciemment.
 
 Le cerveau humain est une machine à prédire.
 L'hébreu demande simplement plus de prédiction, plus tôt.
@@ -236,11 +236,11 @@ Le chemin idéal, c'est une exposition progressive. Tu n'as pas besoin de sauter
 2. **Essaie des mots familiers sans nikoud.** Regarde שלום après avoir lu שָׁלוֹם. Utilise des mots que tu connais déjà, pour t'entraîner à la reconnaissance plutôt qu'à deviner la prononciation d'un mot inconnu. [Construire du vocabulaire hébreu](/fr/blog/vocabulaire-hebreu/) te donne plus de mots à reconnaître sur la page.
 3. **Passe à un texte partiellement vocalisé.** Choisis un support qui garde le nikoud sur les mots inconnus ou ambigus. Essaie d'abord la phrase, puis utilise les points restants pour vérifier ta lecture.
 4. **Lis de courts textes hébreux authentiques.** Commence par un message familier, une légende simple, ou quelques lignes sur un sujet que tu connais. Lis la phrase entière avant de décider ce que veut dire un mot incertain. Vérifie un dictionnaire, une traduction ou l'audio quand le contexte ne suffit pas.
-5. **Relis plutôt que de déchiffrer chaque mot depuis zéro.** Reviens sur le même passage après l'avoir vérifié. Relis-le pour le sens, puis à voix haute si tu as un modèle de prononciation. La familiarité, c'est le but. Ce n'est pas tricher à un contrôle organisé par l'alphabet.
+5. **Relis plutôt que de déchiffrer chaque mot depuis zéro.** Reviens sur le même passage après l'avoir vérifié. Relis-le pour le sens, puis à voix haute si tu as un modèle de prononciation. La familiarité, c'est le but.
 
 Garde des passages assez courts pour les finir sans t'effondrer mentalement à mi-chemin.
 
-Bordélique, mais efficace.
+Brouillon, mais efficace.
 
 ---
 
@@ -288,7 +288,7 @@ Deviner à partir d'une racine seule est un autre piège. Des mots liés n'ont p
 
 Et ne retire pas le nikoud d'un mot nouveau avant d'avoir appris comment il se prononce. Vérifie les mots inconnus, puis reviens et relis. Tolérer l'ambiguïté ne veut pas dire répéter la même erreur indéfiniment.
 
-Pour un endroit pratique où t'entraîner, [l'expérience de lecture de HebrewEdu](/fr/) propose des textes hébreux pour débutants, avec traduction et audio. Essaie un court texte, utilise l'aide quand tu en as besoin, et relis-le à mesure que les mots deviennent familiers. Une pratique progressive donne à ton cerveau de quoi travailler.
+Pour un endroit pratique où t'entraîner, [l'expérience de lecture de HebrewEdu](/) (en anglais) propose des textes hébreux pour débutants, avec traduction et audio. Essaie un court texte, utilise l'aide quand tu en as besoin, et relis-le à mesure que les mots deviennent familiers. Une pratique progressive donne à ton cerveau de quoi travailler.
 
 ---
 

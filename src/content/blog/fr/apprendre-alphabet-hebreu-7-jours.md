@@ -6,7 +6,7 @@ author: "HebrewEdu Team"
 category: "Guide d'étude"
 categoryKey: "studyGuide"
 readingTime: "7 min de lecture"
-tags: ["alphabet hébreu en 7 jours", "apprendre l'alphabet hébreu", "Aleph Bet", "plan d'étude hébreu", "apprendre l'hébreu"]
+tags: ["alphabet hébreu en 7 jours", "Aleph Bet", "plan d'étude hébreu", "apprendre l'hébreu"]
 translationKey: "learn-hebrew-alphabet-7-days"
 ---
 
@@ -28,13 +28,15 @@ Voici exactement comment faire.
 
 **Ne saute pas d'étape.** Ce programme est pensé dans un ordre précis. Si tu apprends ש avant d'avoir bien ancré א, ב, ג, tu travailles contre toi-même.
 
+Si tu préfères un parcours pas à pas avec audio et exercices intégrés, le [cours d'alphabet hébreu](/fr/apprendre/alphabet-hebreu/) suit une progression très proche de celle de ce programme.
+
 ---
 
 ## Jour 1 — Rencontre avec les cinq premières lettres
 
 **Lettres : א ב ג ד ה**
 
-Commence par les cinq premières. Elles sont fondamentales — Aleph, Beth, Guimel, Dalet, Hé. Deux d'entre elles (א, ה) apparaîtront dans presque tous les mots hébreux que tu liras.
+Commence par les cinq premières. Elles sont fondamentales — Aleph, Beth, Guimel, Dalet, Hé. Deux d'entre elles (א, ה) apparaissent très souvent.
 
 **Ce qu'il faut faire :**
 - Apprends le nom, la forme et le son de chaque lettre
@@ -117,7 +119,7 @@ La dernière ligne droite. Ayin, Pé, Tsadi, Qof, Resh, Shin et Tav — et deux 
 **Points à remarquer :**
 - **ע (Ayin)** est comme Aleph — elle porte techniquement un son guttural, mais en hébreu israélien moderne elle est le plus souvent muette. Elle marque la position des voyelles de la même façon qu'Aleph.
 - **ש (Shin/Sin)** note deux sons. Avec un point à droite (שׁ), c'est le son « sh », comme dans « shampooing ». Avec un point à gauche (שׂ), c'est un S, comme dans « sac ». La position du point est facile à manquer au début — fais-y attention.
-- **ת (Tav)** et **ט (Teth)** font toutes les deux un son T en hébreu moderne. Historiquement différentes, elles sont aujourd'hui interchangeables à la lecture.
+- **ת (Tav)** et **ט (Teth)** font toutes les deux un son T en hébreu moderne. Historiquement différentes, elles se prononcent de la même façon, mais ne s'échangent pas à l'écrit.
 
 À la fin du jour 5, tu connais les 22 lettres. Ça mérite un petit moment de satisfaction.
 
@@ -152,8 +154,8 @@ Aujourd'hui, tu assembles tout.
 Tu es prêt pour ça.
 
 **Ce qu'il faut faire :**
-- Essaie de lire cette phrase : **אֲנִי לוֹמֵד עִבְרִית** (*Ani lomed Ivrit* — « J'apprends l'hébreu »)
-- Lis-la dans un sens puis dans l'autre, lettre par lettre, jusqu'à ce qu'elle coule
+- Essaie de lire cette phrase : **אֲנִי לוֹמֵד עִבְרִית** (*Ani lomed Ivrit* — « J'apprends l'hébreu » ; *lomedet* au féminin)
+- Relis-la plusieurs fois, lettre par lettre, jusqu'à ce qu'elle coule
 - Passe du temps sur l'Explorateur de l'alphabet dans l'application — parcours les 22 lettres dans la grille sans regarder les noms ni les sons, et vois combien tu en reconnais
 
 **Puis fixe-toi un nouvel objectif.**

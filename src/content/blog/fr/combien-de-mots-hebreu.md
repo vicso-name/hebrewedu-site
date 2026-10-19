@@ -44,7 +44,7 @@ Par exemple, la racine hébraïque כתב (K-T-V) est liée à l'écriture :
 - כתיבה — l'écriture, l'acte d'écrire
 - כתב — journaliste
 - התכתבות — correspondance
-- כותב — écrivant / écrivain
+- כותב — il écrit / auteur
 
 Tu apprends une racine, et soudain la langue commence à se multiplier toute seule.
 
@@ -193,9 +193,9 @@ Un apprenant qui connaît vraiment 1 500 mots courants dépassera quelqu'un qui 
 
 ---
 
-## La croissance du vocabulaire hébreu ne ressemble pas à celle du français
+## La croissance du vocabulaire hébreu ne ressemble pas à celle de l'anglais
 
-Les apprenants de français se sentent souvent enterrés sous un vocabulaire sans fin.
+Les apprenants d'anglais se sentent souvent enterrés sous un vocabulaire sans fin.
 
 L'hébreu se comporte différemment à cause du système des racines.
 
