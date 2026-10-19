@@ -25,7 +25,7 @@ import { getDictionary, type Locale, type Alternate } from '../../i18n';
 interface Props {
   locale?: Locale;
   alternates?: Alternate[];
-  langSwitch?: { href: string; label: string };
+  langSwitch?: { href: string };
 }
 const { locale = 'en', alternates, langSwitch } = Astro.props;
 const t = getDictionary(locale).home;

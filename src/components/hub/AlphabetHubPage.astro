@@ -29,7 +29,7 @@ interface Props {
   robots: string;
   schema: Record<string, unknown>;
   alternates?: Alternate[];
-  langSwitch?: { href: string; label: string };
+  langSwitch?: { href: string };
 }
 const { locale = 'en', letters, robots, schema, alternates, langSwitch } = Astro.props;
 const t = getDictionary(locale);

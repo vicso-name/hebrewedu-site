@@ -1,0 +1,80 @@
+---
+// Shared EN/FR language switcher: a compact segmented pill, used in both the
+// desktop nav and the mobile menu (see Nav.astro). `href` is the counterpart
+// page when the current page has one; otherwise it falls back to the other
+// locale's home.
+export type SwitchLocale = 'en' | 'fr';
+
+interface Props {
+  locale?: SwitchLocale;
+  href?: string;
+}
+
+const LABEL: Record<SwitchLocale, string> = { en: 'EN', fr: 'FR' };
+const HOME: Record<SwitchLocale, string> = { en: '/', fr: '/fr/' };
+
+const { locale = 'en', href } = Astro.props;
+const other: SwitchLocale = locale === 'en' ? 'fr' : 'en';
+const otherHref = href ?? HOME[other];
+---
+
+<div class="lang-switch" role="group" aria-label="Language">
+  <svg class="lang-switch-globe" viewBox="0 0 24 24" width="15" height="15" aria-hidden="true" focusable="false">
+    <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.5" />
+    <path d="M3 12h18M12 3c2.3 2.5 3.6 5.5 3.6 9s-1.3 6.5-3.6 9c-2.3-2.5-3.6-5.5-3.6-9s1.3-6.5 3.6-9z" fill="none" stroke="currentColor" stroke-width="1.5" />
+  </svg>
+  <span class="lang-switch-item is-active" lang={locale} aria-current="true">{LABEL[locale]}</span>
+  <a class="lang-switch-item" href={otherHref} lang={other} hreflang={other}>{LABEL[other]}</a>
+</div>
+
+<style>
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding: 3px 6px 3px 8px;
+  background: var(--surface-soft);
+  border: 1px solid var(--border);
+  border-radius: var(--r-full);
+  color: var(--ink-light);
+  flex-shrink: 0;
+}
+
+.lang-switch-globe {
+  margin-inline-end: 2px;
+  flex-shrink: 0;
+}
+
+.lang-switch-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: var(--r-full);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--ink-light);
+  transition: color 0.15s, background 0.15s;
+}
+
+.lang-switch-item.is-active {
+  background: var(--white);
+  color: var(--ink);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+}
+
+a.lang-switch-item:hover { color: var(--ink); }
+
+.lang-switch-item:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+/* ≥44px touch target on mobile, where the switcher sits in the menu panel. */
+@media (max-width: 768px) {
+  .lang-switch { padding: 6px 10px; gap: 4px; }
+  .lang-switch-item { min-height: 44px; min-width: 2.75rem; font-size: 0.875rem; }
+}
+</style>
