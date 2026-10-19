@@ -89,6 +89,18 @@ export const GET: APIRoute = async () => {
       changefreq: 'yearly',
       lastmod: legalUpdated.terms,
     },
+    {
+      url: '/fr/conditions/',
+      priority: '0.3',
+      changefreq: 'yearly',
+      lastmod: legalUpdated.terms,
+    },
+    {
+      url: '/fr/confidentialite/',
+      priority: '0.3',
+      changefreq: 'yearly',
+      lastmod: websitePrivacyUpdated,
+    },
   ];
 
   const blogPages = sorted.map((post) => ({

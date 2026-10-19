@@ -5,6 +5,12 @@ import { formatLegalDate } from '../data/legal';
 import { websitePrivacyUpdated } from '../data/website-privacy';
 
 const lastUpdated = formatLegalDate(websitePrivacyUpdated);
+
+const alternates = [
+  { hreflang: 'en', href: 'https://hebrewedu.com/website-privacy/' },
+  { hreflang: 'fr', href: 'https://hebrewedu.com/fr/confidentialite/' },
+  { hreflang: 'x-default', href: 'https://hebrewedu.com/website-privacy/' },
+];
 ---
 
 <LegalPage
@@ -12,6 +18,7 @@ const lastUpdated = formatLegalDate(websitePrivacyUpdated);
   description="How the HebrewEdu website (hebrewedu.com) uses Google Analytics, when consent is asked for, and how to change your choice."
   title="Website Privacy Policy"
   lastUpdated={lastUpdated}
+  alternates={alternates}
 >
     <section>
       <h2>Scope</h2>

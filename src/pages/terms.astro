@@ -4,6 +4,12 @@ import LegalPage from '../components/legal/LegalPage.astro';
 import { legalUpdated, formatLegalDate } from '../data/legal';
 
 const lastUpdated = formatLegalDate(legalUpdated.terms);
+
+const alternates = [
+  { hreflang: 'en', href: 'https://hebrewedu.com/terms/' },
+  { hreflang: 'fr', href: 'https://hebrewedu.com/fr/conditions/' },
+  { hreflang: 'x-default', href: 'https://hebrewedu.com/terms/' },
+];
 ---
 
 <LegalPage
@@ -11,6 +17,7 @@ const lastUpdated = formatLegalDate(legalUpdated.terms);
   description="Terms of Service for the HebrewEdu app and website."
   title="Terms of Service"
   lastUpdated={lastUpdated}
+  alternates={alternates}
 >
     <section>
       <h2>1. Acceptance of Terms</h2>

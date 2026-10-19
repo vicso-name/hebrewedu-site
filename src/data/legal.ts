@@ -10,3 +10,11 @@ export function formatLegalDate(iso: string): string {
     year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC'
   });
 }
+
+/** Same date, French formatting — for the FR legal pages, which keep the
+ *  EN pages' own "Last updated" dates (same documents, translated). */
+export function formatLegalDateFr(iso: string): string {
+  return new Date(iso).toLocaleDateString('fr-FR', {
+    year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC'
+  });
+}
