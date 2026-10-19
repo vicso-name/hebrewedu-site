@@ -49,8 +49,14 @@ never run casually, see `docs/seo/README.md`).
 
 Before creating or retargeting a page, check `docs/seo/core/`: assign
 its cluster, avoid cannibalization; after publishing, update
-`keywords.csv`/`pages.csv` and run `npm run seo:build`. Never call paid
-SEO APIs (DataForSEO or similar) without the user's explicit approval.
+`keywords.csv`/`pages.csv` and run `npm run seo:build`. Never call any
+paid API (DataForSEO, YepAPI, or similar — any provider billed per
+call or per result) without the user's explicit approval and a stated
+cost cap. When approved, keep a spend ledger alongside the research
+(timestamp, endpoint, params summary, cost) and cache raw responses by
+a hash of the request body so the same request is never paid for
+twice; gitignore the response cache directory (it may carry account
+identifiers).
 
 Title tags never include the brand suffix. The site name is carried by
 `og:site_name` / the `WebSite` schema, not by appending it to every
