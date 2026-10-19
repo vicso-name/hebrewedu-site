@@ -20,34 +20,34 @@ const PAGE_URL = 'https://hebrewedu.com/fr/alphabet-hebreu/';
 // French typography (Stage B §6).
 const letters = [
   { order: 1,  slug: 'aleph',   glyph: 'א', name: 'Aleph',   sound: 'muette (porte les voyelles)', final: null },
-  { order: 2,  slug: 'bet',     glyph: 'ב', name: 'Beth',    sound: 'b / v', final: null },
+  { order: 2,  slug: 'bet',     glyph: 'ב', name: 'Beth',    sound: 'b, ou v', final: null },
   { order: 3,  slug: 'gimel',   glyph: 'ג', name: 'Guimel',  sound: 'g dur (comme « gare »)', final: null },
   { order: 4,  slug: 'dalet',   glyph: 'ד', name: 'Daleth',  sound: 'd', final: null },
   { order: 5,  slug: 'he',      glyph: 'ה', name: 'Hé',      sound: 'h (souvent muet en fin de mot)', final: null },
   { order: 6,  slug: 'vav',     glyph: 'ו', name: 'Vav',     sound: 'v, ou « ou »/« o » comme voyelle', final: null },
   { order: 7,  slug: 'zayin',   glyph: 'ז', name: 'Zayin',   sound: 'z', final: null },
-  { order: 8,  slug: 'chet',    glyph: 'ח', name: 'Heth',    sound: '« r » guttural (jota espagnole)', final: null },
-  { order: 9,  slug: 'tet',     glyph: 'ט', name: 'Teth',    sound: 't emphatique', final: null },
+  { order: 8,  slug: 'chet',    glyph: 'ח', name: 'Heth',    sound: 'kh guttural (comme la « jota » espagnole)', final: null },
+  { order: 9,  slug: 'tet',     glyph: 'ט', name: 'Teth',    sound: 't (comme Tav en hébreu moderne)', final: null },
   { order: 10, slug: 'yod',     glyph: 'י', name: 'Yod',     sound: 'y, ou « i » comme voyelle', final: null },
   { order: 11, slug: 'kaf',     glyph: 'כ', name: 'Kaf',     sound: 'k, ou « kh » guttural', final: 'ך' },
   { order: 12, slug: 'lamed',   glyph: 'ל', name: 'Lamed',   sound: 'l', final: null },
   { order: 13, slug: 'mem',     glyph: 'מ', name: 'Mem',     sound: 'm', final: 'ם' },
   { order: 14, slug: 'nun',     glyph: 'נ', name: 'Noun',    sound: 'n', final: 'ן' },
   { order: 15, slug: 'samekh',  glyph: 'ס', name: 'Samekh',  sound: 's', final: null },
-  { order: 16, slug: 'ayin',    glyph: 'ע', name: 'Ayin',    sound: 'guttural, souvent muette', final: null },
+  { order: 16, slug: 'ayin',    glyph: 'ע', name: 'Ayin',    sound: "souvent muet en hébreu moderne (guttural à l'origine)", final: null },
   { order: 17, slug: 'pe',      glyph: 'פ', name: 'Pé',      sound: 'p, ou f', final: 'ף' },
   { order: 18, slug: 'tsadi',   glyph: 'צ', name: 'Tsadi',   sound: 'ts', final: 'ץ' },
-  { order: 19, slug: 'qof',     glyph: 'ק', name: 'Qof',     sound: 'q (k profond)', final: null },
-  { order: 20, slug: 'resh',    glyph: 'ר', name: 'Resh',    sound: 'r (roulé au fond de la gorge)', final: null },
-  { order: 21, slug: 'shin',    glyph: 'ש', name: 'Shin',    sound: 'sh, ou s (sin)', final: null },
+  { order: 19, slug: 'qof',     glyph: 'ק', name: 'Qof',     sound: 'k (comme Kaf en hébreu moderne)', final: null },
+  { order: 20, slug: 'resh',    glyph: 'ר', name: 'Resh',    sound: 'r (proche du r français)', final: null },
+  { order: 21, slug: 'shin',    glyph: 'ש', name: 'Shin',    sound: 'ch (comme dans « chat »), ou s (Sin)', final: null },
   { order: 22, slug: 'tav',     glyph: 'ת', name: 'Tav',     sound: 't', final: null },
 ];
 
 const faqItems = [
   { q: "Combien de lettres compte l'alphabet hébreu ?", a: "L'alphabet hébreu compte 22 lettres, dont 5 ont une forme finale différente en fin de mot : Kaf, Mem, Noun, Pé et Tsadi." },
   { q: "Dans quel sens s'écrit l'hébreu ?", a: "L'hébreu s'écrit et se lit de droite à gauche, à l'opposé du français." },
-  { q: "Qu'est-ce qu'une lettre finale en hébreu ?", a: "Une lettre finale (ou « sofit ») est une forme particulière que prennent cinq lettres — Kaf, Mem, Noun, Pé, Tsadi — quand elles terminent un mot. Elle se prononce comme la lettre habituelle ; seule la forme écrite change." },
-  { q: "Comment prononcer les lettres de l'alphabet hébreu ?", a: "Chaque lettre a un son propre, parfois proche du français (Mem, Lamed), parfois sans équivalent, comme les sons gutturaux de Heth ou Ayin. Les leçons HebrewEdu donnent la prononciation de chaque lettre avec des exemples." },
+  { q: "Qu'est-ce qu'une lettre finale en hébreu ?", a: "Une lettre finale (ou « sofit ») est une forme particulière que prennent cinq lettres — Kaf, Mem, Noun, Pé, Tsadi — quand elles terminent un mot. Elle se prononce comme la lettre de base ; en fin de mot, Kaf et Pé se lisent toujours « kh » et « f »." },
+  { q: "Comment prononcer les lettres de l'alphabet hébreu ?", a: "La plupart des lettres ont un équivalent proche en français (Mem, Lamed, Noun) ; d'autres n'en ont pas, comme le son guttural de Heth. En hébreu moderne, certaines lettres se prononcent de la même façon : Teth et Tav, Kaf et Qof. Les leçons HebrewEdu donnent la prononciation de chaque lettre avec des exemples." },
   { q: "Peut-on apprendre l'alphabet hébreu seul ?", a: "Oui. Avec des leçons structurées lettre par lettre et des exercices de pratique, il est tout à fait possible d'apprendre l'alphabet hébreu seul, à son propre rythme." },
   { q: "Quelle est la différence entre l'hébreu imprimé et l'hébreu cursif ?", a: "L'hébreu imprimé (dit carré) est la forme utilisée dans les livres, sur les claviers et sur cette page. L'écriture cursive, tracée à la main, a des formes assez différentes pour plusieurs lettres." },
 ];
@@ -81,7 +81,7 @@ const pageSchema = {
         <div class="fr-hero">
           <p class="fr-eyebrow">Alphabet hébreu · Guide complet</p>
           <h1 id="fr-hub-title">{title}</h1>
-          <p class="fr-lead">Ce guide de l'alphabet hébreu français présente les 22 lettres hébraïques&nbsp;: leur nom, leur son, et leur forme finale quand elles en ont une. Toutes les lettres sont des consonnes&nbsp;; les voyelles s'ajoutent séparément grâce au nikoud.</p>
+          <p class="fr-lead">Ce guide en français présente les 22 lettres de l'alphabet hébreu&nbsp;: leur nom, leur son et, le cas échéant, leur forme finale. Ces lettres notent surtout des consonnes&nbsp;; quatre d'entre elles (Aleph, Hé, Vav, Yod) peuvent aussi indiquer des voyelles, qui sont précisées par le nikoud.</p>
         </div>
       </Section>
 
@@ -93,11 +93,11 @@ const pageSchema = {
           </div>
           <div>
             <h2>Consonnes et voyelles (le nikoud)</h2>
-            <p>Les 22 lettres de l'alphabet hébreu sont toutes des consonnes. Les voyelles sont indiquées par un système de points et de traits appelé nikoud, placé sous, au-dessus ou à l'intérieur de la lettre. Les textes hébreux courants (livres, journaux) s'écrivent souvent sans nikoud&nbsp;: les lecteurs expérimentés devinent les voyelles grâce au contexte.</p>
+            <p>Les lettres de l'alphabet hébreu notent essentiellement des consonnes. Les voyelles sont indiquées par un système de points et de traits appelé nikoud, placé sous, au-dessus ou à l'intérieur de la lettre. Les textes hébreux courants (livres, journaux) s'écrivent souvent sans nikoud&nbsp;: les lecteurs expérimentés devinent les voyelles grâce au contexte.</p>
           </div>
           <div>
             <h2>Les 5 lettres finales</h2>
-            <p>Cinq lettres changent de forme en fin de mot&nbsp;: Kaf, Mem, Noun, Pé et Tsadi. Cette forme finale, dite «&nbsp;sofit&nbsp;», s'écrit différemment mais se prononce exactement comme la forme habituelle.</p>
+            <p>Cinq lettres changent de forme en fin de mot&nbsp;: Kaf, Mem, Noun, Pé et Tsadi. Cette forme finale, dite «&nbsp;sofit&nbsp;», s'écrit différemment mais se prononce comme la lettre de base&nbsp;; en fin de mot, Kaf et Pé se lisent toujours « kh » et « f ».</p>
           </div>
           <div>
             <h2>Hébreu imprimé et hébreu cursif</h2>
@@ -112,7 +112,7 @@ const pageSchema = {
 
       <Section id="lettres" surface="white">
         <div class="fr-section-heading">
-          <h2>Les 22 lettres hébraïques</h2>
+          <h2>Alphabet hébreu–français&nbsp;: les 22 lettres</h2>
           <p>Lettre, nom, son et forme finale — pour vous repérer d'un coup d'œil. Les leçons détaillées pour chaque lettre arrivent bientôt en français.</p>
         </div>
         <div class="fr-letters-wrap">
@@ -167,7 +167,7 @@ const pageSchema = {
       <Section>
         <div class="fr-app">
           <h2>Continuer sur l'application</h2>
-          <p>Téléchargez HebrewEdu pour continuer à apprendre l'alphabet hébreu sur votre téléphone, où que vous soyez.</p>
+          <p>Téléchargez l'application pour continuer à apprendre l'alphabet hébreu sur votre téléphone, où que vous soyez.</p>
           <StoreButtons location="fr_alphabet_hub" locale="fr" height={48} />
         </div>
       </Section>
