@@ -133,6 +133,10 @@ Hey (ה) does double duty: beyond being the fifth letter, it's also the definite
 
 → [Practice Hey in the Hebrew Alphabet Course](/learn/hebrew-alphabet/he/)
 
+Vav (ו) is doubly useful: as a consonant it makes the [v] sound, but it also stands in for two vowels — Holam Male for [o] and Shuruk for [u] — and as a prefix (וְ-) it means "and."
+
+→ [Practice Vav in the Hebrew Alphabet Course](/learn/hebrew-alphabet/vav/)
+
 ## The Five Final Letters
 
 Five Hebrew letters have a different written form when they appear at the **end of a word**. These are called *sofit* forms (סופית — “final”). The shape change is different for each pair.

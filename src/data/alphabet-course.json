@@ -80,11 +80,11 @@
       "slug": "vav",
       "name": "Vav",
       "sourceImported": true,
-      "webImplemented": false,
-      "previewAvailable": false,
-      "editorialApproved": false,
-      "published": false,
-      "publishedAt": null
+      "webImplemented": true,
+      "previewAvailable": true,
+      "editorialApproved": true,
+      "published": true,
+      "publishedAt": "2026-10-19"
     },
     {
       "sourceId": 7,
