@@ -6,8 +6,8 @@
 // so there is no empty FR listing to index and no half-paired hreflang. Same
 // device as src/pages/learn/hebrew-alphabet/[...hub].astro.
 //
-// When the first FR post lands, this route starts building and needs, in the
-// same change: hreflang alternates here and on /blog/, a row in
+// When the first FR post landed (feat/fr-blog-batch-1), this route started
+// building: hreflang alternates here and on /blog/, a row in
 // docs/seo/core/pages.csv (check:i18n rule 11 requires one for every indexable
 // FR page), and the FR Nav/Footer "Blog (en anglais)" labels flipped to /fr/blog/.
 import { getCollection } from 'astro:content';
@@ -17,5 +17,12 @@ export async function getStaticPaths() {
   const posts = await getCollection('blogFr');
   return posts.length > 0 ? [{ params: { index: undefined } }] : [];
 }
+
+const alternates = [
+  { hreflang: 'en', href: 'https://hebrewedu.com/blog/' },
+  { hreflang: 'fr', href: 'https://hebrewedu.com/fr/blog/' },
+  { hreflang: 'x-default', href: 'https://hebrewedu.com/blog/' },
+];
+const langSwitch = { href: '/blog/' };
 ---
-<BlogIndexPage locale="fr" />
+<BlogIndexPage locale="fr" alternates={alternates} langSwitch={langSwitch} />

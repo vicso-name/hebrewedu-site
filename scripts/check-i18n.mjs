@@ -256,7 +256,10 @@ for (const page of pages) {
             if (lang !== page.locale) report('jsonld-inlanguage', page, `JSON-LD inLanguage is "${lang}" on a ${page.locale} page`);
           }
         }
-        if (typeof value === 'string' && value.startsWith(`${SITE}/`)) {
+        // A shared, non-localized static asset (e.g. the one favicon every page
+        // links as its Organization logo) isn't page content — same exemption
+        // Rule 6 above gives these extensions for ordinary links.
+        if (typeof value === 'string' && value.startsWith(`${SITE}/`) && !/\.(css|js|png|jpg|jpeg|webp|svg|ico)$/.test(value)) {
           const path = value.slice(SITE.length).replace(/#.*$/, '');
           const targetLocale = path.startsWith('/fr/') ? 'fr' : 'en';
           if (targetLocale !== page.locale) {
@@ -479,6 +482,25 @@ for (const page of indexable.filter((p) => p.locale === 'fr')) {
   if (row.title !== page.title) report('seo-core-title-drift', page, `pages.csv title does not match the rendered <title>\n      csv:  "${row.title}"\n      page: "${page.title}"`);
   if (row.meta_description !== page.description) report('seo-core-meta-drift', page, `pages.csv meta_description does not match the rendered meta description\n      csv:  "${row.meta_description}"\n      page: "${page.description}"`);
   if (page.h1s.length === 1 && row.h1 !== page.h1s[0]) report('seo-core-h1-drift', page, `pages.csv h1 does not match the rendered <h1>\n      csv:  "${row.h1}"\n      page: "${page.h1s[0]}"`);
+}
+
+// ───────────────────────────────────────────────────────────────────────────
+// Rule 12: an in-page anchor link (href="#...", e.g. a blog post's jump-nav or
+// an FAQ answer linking back into its own article) must resolve to a real id
+// on that same page. French heading slugs are generated from the rendered
+// heading text (astro's own slugger), so an anchor hand-written against a
+// guessed slug silently rots the moment the heading wording changes — this
+// catches that at build time instead of leaving a dead in-page link live.
+// ───────────────────────────────────────────────────────────────────────────
+
+for (const page of pages) {
+  const ids = new Set([...page.html.matchAll(/\sid="([^"]*)"/g)].map((m) => m[1]));
+  for (const m of page.html.matchAll(/<a\b[^>]*\shref="#([^"]*)"/g)) {
+    const anchor = m[1];
+    if (anchor && !ids.has(anchor)) {
+      report('anchor-missing', page, `in-page link href="#${anchor}" has no matching id="${anchor}" on the page`);
+    }
+  }
 }
 
 // ───────────────────────────────────────────────────────────────────────────

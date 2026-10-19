@@ -1,10 +1,14 @@
 ---
 // EN blog listing — a thin wrapper over the shared template. Its FR
-// counterpart is src/pages/fr/blog/[...index].astro.
-//
-// No hreflang: /fr/blog/ is not built until the first FR post exists, and
-// hreflang is reciprocal or absent (docs/I18N.md §3.3). Both listings declare
-// alternates in the same change that adds the first FR post.
+// counterpart is src/pages/fr/blog/[...index].astro, which now builds since
+// the first FR post landed (feat/fr-blog-batch-1).
 import BlogIndexPage from '../../components/blog/BlogIndexPage.astro';
+
+const alternates = [
+  { hreflang: 'en', href: 'https://hebrewedu.com/blog/' },
+  { hreflang: 'fr', href: 'https://hebrewedu.com/fr/blog/' },
+  { hreflang: 'x-default', href: 'https://hebrewedu.com/blog/' },
+];
+const langSwitch = { href: '/fr/blog/' };
 ---
-<BlogIndexPage locale="en" />
+<BlogIndexPage locale="en" alternates={alternates} langSwitch={langSwitch} />

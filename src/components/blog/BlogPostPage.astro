@@ -66,7 +66,7 @@ const articleSchema = {
   "publisher": {
     "@type": "Organization",
     "name": site.name,
-    "url": `${site.url}/`,
+    "url": `${site.url}${locale === 'fr' ? '/fr/' : '/'}`,
     "logo": { "@type": "ImageObject", "url": `${site.url}/apple-touch-icon.png` }
   },
   "inLanguage": locale
@@ -135,7 +135,7 @@ const phrasesPromptHtml = t.blog.phrasesPrompt.replace(
 
           {post.data.showAppCta && <div class="article-cta">
             <p class="article-cta-text">{t.blog.ctaText}</p>
-            <StoreButtons location="blog_article" trackAlso="blog_cta_click" height={48} />
+            <StoreButtons location="blog_article" trackAlso="blog_cta_click" height={48} locale={locale} />
           </div>}
 
         </div>

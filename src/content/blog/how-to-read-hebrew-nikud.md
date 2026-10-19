@@ -96,14 +96,16 @@ Inside some letters, you will see a dot called a דָּגֵשׁ (*dagesh*).
 
 For most letters, the dagesh doesn't change the sound — it marks certain grammatical patterns that become relevant later.
 
-For two letters, it changes the pronunciation:
+For three letters, it changes the pronunciation:
 
 - **בּ** (Bet with dagesh) → **B** as in "boat"
 - **ב** (Bet without dagesh) → **V** as in "vine"
+- **כּ** (Kaf with dagesh) → **K** as in "kite"
+- **כ** (Kaf without dagesh) → **KH**, a guttural sound with no real English equivalent
 - **פּ** (Pe with dagesh) → **P** as in "pin"
 - **פ** (Pe without dagesh) → **F** as in "fine"
 
-As a beginner, these are the two dagesh cases worth knowing immediately. The others can wait.
+As a beginner, these are the three dagesh cases worth knowing immediately. The others can wait.
 
 ---
 
