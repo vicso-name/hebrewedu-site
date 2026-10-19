@@ -23,6 +23,23 @@ export interface ResourceLink {
   text: string;
 }
 
+export interface FeatureCopy {
+  title: string;
+  description: string;
+}
+
+export interface JourneyStepCopy {
+  title: string;
+  body: string;
+  meta: string[];
+  alt: string;
+}
+
+export interface SupportingFeatureCopy {
+  title: string;
+  desc: string;
+}
+
 export interface Dictionary {
   common: {
     brand: string;
@@ -85,6 +102,9 @@ export interface Dictionary {
     };
   };
   hub: {
+    /** <title>/og:title and meta description for this locale's hub page (mirrors courseTitle/courseDescription). */
+    pageTitle: string;
+    pageDescription: string;
     skipToCourse: string;
     eyebrow: string;
     title: string;
@@ -92,6 +112,8 @@ export interface Dictionary {
     startLearning: string;
     exploreCurriculum: string;
     availability: string;
+    /** Shown instead of `availability` when no lesson is published for this locale yet (no Hero CTA target). */
+    noLessonsYet: string;
     firstLessonEyebrow: string;
     meetAleph: string;
     firstLessonText: string;
@@ -115,6 +137,56 @@ export interface Dictionary {
     keepLearningEyebrow: string;
     appTitle: string;
     appText: string;
+  };
+  /** The full homepage (src/pages/index.astro + src/components/home/*), rendered
+   *  by the shared HomePage.astro for both / and /fr/ (Stage B rework). */
+  home: {
+    /** <title>/og:title fallback and meta description for this locale's home page (mirrors site.title/site.description). */
+    title: string;
+    seoTitle: string;
+    description: string;
+    hero: { eyebrow: string; title: string; lead: string; screenshotAlt: string };
+    pillars: { heading: string; lead: string; features: [FeatureCopy, FeatureCopy, FeatureCopy, FeatureCopy] };
+    journey: {
+      heading: string;
+      lede: string;
+      tabsAriaLabel: string;
+      steps: [JourneyStepCopy, JourneyStepCopy, JourneyStepCopy, JourneyStepCopy];
+    };
+    resources: {
+      heading: string;
+      lede: string;
+      items: { href: string; title: string; description: string }[];
+      /** The 5th card (Hebrew phrases), appended by the component only when phrasesPublished(). */
+      phrasesItem: { title: string; description: string };
+    };
+    reading: {
+      eyebrow: string;
+      heading: string;
+      lead: string;
+      valueHeading: string;
+      valueBody: string;
+      capabilities: [string, string, string];
+      altLibrary: string;
+      altStory: string;
+    };
+    supporting: {
+      heading: string;
+      lede: string;
+      features: [SupportingFeatureCopy, SupportingFeatureCopy, SupportingFeatureCopy];
+    };
+    testimonials: {
+      heading: string;
+      lead: string;
+      /** Disclosure shown once near the heading: the quotes themselves stay in their
+       *  original language (real customer reviews — see src/data/testimonials.ts's own
+       *  "quoted verbatim, do not rewrite" rule) rather than being newly translated. */
+      enOnlyNote: string;
+      translatedFromPrefix: string;
+      starsAriaLabel: (rating: number) => string;
+    };
+    faq: { title: string; items: { q: string; a: string }[] };
+    downloadCta: { heading: string; lead: string };
   };
 }
 

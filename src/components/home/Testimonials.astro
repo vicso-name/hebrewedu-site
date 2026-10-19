@@ -1,18 +1,33 @@
 ---
 import { testimonials } from '../../data/testimonials';
+import { getDictionary, type Locale } from '../../i18n';
 
-// "2026-01-15" -> "Jan 2026". Formatted in UTC so the build machine's timezone can't shift the month.
+interface Props {
+  locale?: Locale;
+}
+const { locale = 'en' } = Astro.props;
+const t = getDictionary(locale).home.testimonials;
+
+// src/data/testimonials.ts's `translatedFrom` is a plain English language name
+// (its own display convention, e.g. "Russian"). Only this label is translated
+// for fr — the review quotes themselves stay exactly as that file requires.
+const FR_LANGUAGE_NAMES: Record<string, string> = { Russian: 'russe', Spanish: 'espagnol' };
+const languageName = (name: string) => (locale === 'fr' ? FR_LANGUAGE_NAMES[name] ?? name : name);
+
+// "2026-01-15" -> "Jan 2026" ("janv. 2026" in fr). Formatted in UTC so the build
+// machine's timezone can't shift the month.
 const monthYear = (iso: string) =>
-  new Date(`${iso}T00:00:00Z`).toLocaleDateString('en-US', { month: 'short', year: 'numeric', timeZone: 'UTC' });
+  new Date(`${iso}T00:00:00Z`).toLocaleDateString(locale === 'fr' ? 'fr-FR' : 'en-US', { month: 'short', year: 'numeric', timeZone: 'UTC' });
 ---
 
 <section id="reviews" class="reviews-section">
   <div class="container">
     <header class="reviews-heading">
-      <h2 class="home-h2">What learners say</h2>
+      <h2 class="home-h2">{t.heading}</h2>
       <p class="home-lead">
-        Learning Hebrew looks different for everyone. Here’s what our learners say.
+        {t.lead}
       </p>
+      {locale !== 'en' && t.enOnlyNote && <p class="reviews-en-note">{t.enOnlyNote}</p>}
     </header>
   </div>
 
@@ -20,18 +35,18 @@ const monthYear = (iso: string) =>
        the script below only mirrors the scroll position into the progress line. -->
   <div class="reviews-viewport" id="reviews-viewport" role="region" aria-label="Learner reviews" tabindex="0">
     <ul class="reviews-track" role="list">
-      {testimonials.map(t => (
+      {testimonials.map(item => (
         <li class="reviews-item">
           <figure class="review">
-            <p class="review-stars" role="img" aria-label={`${t.rating} out of 5 stars`}>
-              <span aria-hidden="true">{'★'.repeat(t.rating)}</span>
+            <p class="review-stars" role="img" aria-label={t.starsAriaLabel(item.rating)}>
+              <span aria-hidden="true">{'★'.repeat(item.rating)}</span>
             </p>
             <blockquote class="review-quote">
-              <p>{t.text}</p>
+              <p>{item.text}</p>
             </blockquote>
             <figcaption class="review-author">
-              <cite>{t.source}</cite> · <time datetime={t.date.slice(0, 7)}>{monthYear(t.date)}</time>
-              {t.translatedFrom && <span class="review-translated">Translated from {t.translatedFrom}</span>}
+              <cite>{item.source}</cite> · <time datetime={item.date.slice(0, 7)}>{monthYear(item.date)}</time>
+              {item.translatedFrom && <span class="review-translated">{t.translatedFromPrefix} {languageName(item.translatedFrom)}</span>}
             </figcaption>
           </figure>
         </li>
@@ -56,6 +71,7 @@ const monthYear = (iso: string) =>
   text-align: center;
 }
 .reviews-heading p { margin-top: var(--home-stack); }
+.reviews-en-note { margin-top: var(--space-sm); font-size: 0.875rem; color: var(--home-text-tertiary); }
 
 /* The first card lines up with the page container's left edge (same max-width
    and gutter as .container); the row then runs on past the viewport edge. */

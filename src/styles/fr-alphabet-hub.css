@@ -1,51 +1,8 @@
-/* /fr/alphabet-hebreu/ — scoped to .fr-hub-page. Follows docs/LAYOUT.md: the
-   shared .container/--section-y come from Section.astro; everything here is
-   inner spacing/typography on top of that, expressed with --space-* tokens. */
-
-.fr-hub-page {
-  --nav-bg: rgba(255, 255, 255, 0.9);
-  --nav-border: var(--border);
-  background: var(--white);
-}
-
-.fr-skip {
-  position: fixed;
-  top: -100px;
-  left: var(--space-sm);
-  z-index: 500;
-  background: var(--white);
-  padding: var(--space-sm);
-  border-radius: var(--r-sm);
-}
-.fr-skip:focus { top: var(--space-sm); }
-
-.fr-eyebrow {
-  font-size: 0.75rem;
-  font-weight: 500;
-  letter-spacing: 0.07em;
-  color: var(--ink-light);
-  line-height: 1.5;
-}
-
-.fr-hero {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-sm);
-  max-width: var(--w-narrow);
-}
-.fr-hero h1 {
-  font-family: var(--font-display);
-  font-size: clamp(2rem, 4vw, 3rem);
-  font-weight: 700;
-  line-height: 1.15;
-  letter-spacing: -0.02em;
-  color: var(--ink);
-}
-.fr-lead {
-  font-size: 1.0625rem;
-  line-height: 1.65;
-  color: var(--ink-mid);
-}
+/* /fr/alphabet-hebreu/'s FR-only extra sections (writing direction, nikoud,
+   finals, printed vs cursive, the 22-letter reference table). Everything
+   else on the page reuses alphabet-course.css's .course-* classes via the
+   shared AlphabetHubPage.astro template. Follows docs/LAYOUT.md: Section.astro
+   supplies .container/--section-y; this is inner spacing/typography only. */
 
 .fr-prose {
   max-width: var(--w-narrow);
@@ -89,41 +46,3 @@
 .fr-letters td.fr-letters-glyph { font-size: 1.25rem; }
 .fr-letters td.fr-letters-glyph bdi { font-family: var(--font-hebrew); }
 .fr-letters-status { color: var(--ink-subtle); }
-
-.fr-games {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: var(--space-md);
-  max-width: var(--w-medium);
-}
-.fr-game-card {
-  display: block;
-  padding: var(--space-md);
-  border: 1px solid var(--border);
-  border-radius: var(--r-md);
-  transition: background 0.15s;
-}
-.fr-game-card:hover { background: var(--border); }
-.fr-game-card h3 {
-  font-family: var(--font-display);
-  font-size: 1.125rem;
-  font-weight: 700;
-  color: var(--ink);
-  margin-block-end: var(--space-2xs);
-}
-.fr-game-card p { color: var(--ink-light); font-size: 0.9375rem; }
-
-.fr-app {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-md);
-  align-items: flex-start;
-  max-width: var(--w-narrow);
-}
-.fr-app h2 {
-  font-family: var(--font-display);
-  font-size: clamp(1.5rem, 2.6vw, 2rem);
-  font-weight: 700;
-  color: var(--ink);
-}
-.fr-app p { color: var(--ink-light); line-height: 1.6; }

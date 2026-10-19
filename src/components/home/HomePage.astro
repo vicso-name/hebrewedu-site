@@ -1,0 +1,93 @@
+---
+// Shared homepage template (Stage B rework): renders the full page — every
+// section, in the same order, through the same components — for both /
+// (locale="en") and /fr/ (locale="fr"). Only this file and the home/*
+// components it composes vary by locale; src/pages/index.astro and
+// src/pages/fr/index.astro are thin wrappers that just set locale/alternates.
+import Layout from '../../layouts/Layout.astro';
+import Nav from '../Nav.astro';
+import Hero from './Hero.astro';
+import ProductPillars from './ProductPillars.astro';
+import LearningJourney from './LearningJourney.astro';
+import LearningResources from './LearningResources.astro';
+import ReadingShowcase from './ReadingShowcase.astro';
+import SupportingFeatures from './SupportingFeatures.astro';
+import Testimonials from './Testimonials.astro';
+import Faq from '../Faq.astro';
+import DownloadCTA from './DownloadCTA.astro';
+import Footer from '../Footer.astro';
+import '../../styles/home.css';
+import { site } from '../../data/site';
+import { appSchema } from '../../data/schema';
+import { faqs } from '../../data/faq';
+import { getDictionary, type Locale, type Alternate } from '../../i18n';
+
+interface Props {
+  locale?: Locale;
+  alternates?: Alternate[];
+  langSwitch?: { href: string; label: string };
+}
+const { locale = 'en', alternates, langSwitch } = Astro.props;
+const t = getDictionary(locale).home;
+
+// EN keeps its exact original data sources (faqs, appSchema) untouched —
+// FR uses the dictionary-driven equivalents built for Stage B.
+const faqItems = locale === 'en' ? faqs : t.faq.items;
+
+const pageSchema = locale === 'en'
+  ? {
+      '@context': 'https://schema.org',
+      '@graph': [
+        {
+          '@type': 'WebSite',
+          '@id': `${site.url}/#website`,
+          'url': `${site.url}/`,
+          'name': site.name,
+          'description': site.description,
+          'inLanguage': 'en',
+        },
+        appSchema,
+      ],
+    }
+  : {
+      '@context': 'https://schema.org',
+      '@type': 'WebSite',
+      '@id': `${site.url}/fr/#website`,
+      'url': `${site.url}/fr/`,
+      'name': site.name,
+      'description': t.description,
+      'inLanguage': 'fr',
+    };
+---
+
+<Layout
+  title={t.title}
+  seoTitle={t.seoTitle}
+  description={t.description}
+  schema={pageSchema}
+  locale={locale}
+  alternates={alternates}
+>
+  <link
+    slot="head"
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+  />
+
+  <!-- .home-page scopes the redesigned homepage tokens (src/styles/home.css) -->
+  <div class="home-page">
+    <Nav locale={locale} langSwitch={langSwitch} />
+    <main>
+      <Hero locale={locale} />
+      <ProductPillars locale={locale} />
+      <LearningJourney locale={locale} />
+      <LearningResources locale={locale} />
+      <ReadingShowcase locale={locale} />
+      <SupportingFeatures locale={locale} />
+      <Testimonials locale={locale} />
+      <Faq title={t.faq.title} items={faqItems} />
+      <DownloadCTA locale={locale} />
+    </main>
+    <Footer locale={locale} />
+  </div>
+</Layout>

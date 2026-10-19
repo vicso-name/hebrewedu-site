@@ -1,0 +1,97 @@
+---
+// Shared alphabet-hub template (Stage B rework): renders the EN hub's full
+// structure — hero, curriculum, "how lessons work", resources, app CTA, in
+// the same order through the same components — for both /learn/hebrew-alphabet/
+// (locale="en") and /fr/alphabet-hebreu/ (locale="fr"). FR-specific extra
+// content (the 22-letter reference table, writing-direction/nikoud/finals/
+// cursive sections, FAQ) is passed in via named slots at the points in the
+// EN flow they extend, rather than duplicating this template.
+import Layout from '../../layouts/Layout.astro';
+import Nav from '../Nav.astro';
+import Footer from '../Footer.astro';
+import Section from '../ui/Section.astro';
+import LearningMosaic, { type LearningItem } from '../play/LearningMosaic.astro';
+import StoreButtons from '../ui/StoreButtons.astro';
+import { getDictionary, type Locale, type Alternate } from '../../i18n';
+import '../../styles/alphabet-course.css';
+
+export interface HubLetter {
+  order: number;
+  letter: string;
+  name: string;
+  available: boolean;
+  href: string | null;
+}
+
+interface Props {
+  locale?: Locale;
+  letters: HubLetter[];
+  robots: string;
+  schema: Record<string, unknown>;
+  alternates?: Alternate[];
+  langSwitch?: { href: string; label: string };
+}
+const { locale = 'en', letters, robots, schema, alternates, langSwitch } = Astro.props;
+const t = getDictionary(locale);
+const first = letters.find(letter => letter.available) ?? null;
+const stages = [
+  t.hub.stages.theory,
+  t.hub.stages.examples,
+  t.hub.stages.practice,
+  t.hub.stages.results,
+] satisfies [LearningItem, LearningItem, LearningItem, LearningItem];
+const resources = t.hub.resources;
+const availabilityText = first ? t.hub.availability : t.hub.noLessonsYet;
+---
+<Layout title={t.hub.pageTitle} description={t.hub.pageDescription} robots={robots} schema={schema} locale={locale} alternates={alternates}>
+  <div class="course-hub">
+    <a class="course-skip" href="#course-content">{t.hub.skipToCourse}</a>
+    <Nav locale={locale} langSwitch={langSwitch} />
+    <main id="course-content">
+      <Section aria-labelledby="course-title">
+        <div class="course-hero">
+          <div class="course-hero-copy">
+            <p class="course-eyebrow">{t.hub.eyebrow}</p>
+            <h1 id="course-title">{t.hub.title}</h1>
+            <p class="course-lead">{t.hub.lead}</p>
+            <div class="course-start">
+              {first && <a class="btn course-primary" href={first.href}>{t.hub.startLearning} <span aria-hidden="true">→</span></a>}
+              <a class="course-secondary" href="#curriculum">{t.hub.exploreCurriculum}</a>
+            </div>
+            <p class="course-availability">{availabilityText}</p>
+          </div>
+          <aside class="course-first-card" aria-labelledby="first-lesson-title">
+            <p class="course-eyebrow">{t.hub.firstLessonEyebrow}</p>
+            <div class="course-letter-surface"><bdi class="course-hebrew" lang="he" dir="rtl">א</bdi></div>
+            <h2 id="first-lesson-title">{t.hub.meetAleph}</h2>
+            <p>{t.hub.firstLessonText}</p>
+            <p class="course-first-meta">{t.hub.firstLessonMeta}</p>
+          </aside>
+        </div>
+      </Section>
+      <slot name="afterHero" />
+      <Section id="curriculum">
+        <div class="course-section-heading"><p class="course-eyebrow">{t.hub.pathEyebrow}</p><h2 id="curriculum-title">{t.hub.pathTitle}</h2><p>{t.hub.pathText}</p></div>
+        <ol class="course-curriculum" aria-label={t.hub.curriculumAriaLabel}>
+          {letters.map(letter => <li class:list={['course-letter-card', { 'course-letter-available': letter.available }]} data-course-order={letter.order}>
+            {letter.available ? <a href={letter.href} aria-label={t.hub.startLessonAria(letter.order, letter.name)}><span class="course-letter-order">{t.hub.lessonOrderLabel(letter.order)}</span><bdi class="course-hebrew" lang="he" dir="rtl">{letter.letter}</bdi><h3>{letter.name}</h3><span class="course-letter-status">{t.hub.startLessonCta} <span aria-hidden="true">→</span></span></a> : <div><span class="course-letter-order">{t.hub.lessonOrderLabel(letter.order)}</span><bdi class="course-hebrew" lang="he" dir="rtl">{letter.letter}</bdi><h3>{letter.name}</h3><span class="course-letter-status">{t.hub.comingSoon}</span></div>}
+          </li>)}
+        </ol>
+      </Section>
+      <slot name="afterCurriculum" />
+      <Section surface="white">
+        <div class="course-section-heading"><p class="course-eyebrow">{t.hub.howEyebrow}</p><h2 id="how-title">{t.hub.howTitle}</h2><p>{t.hub.howText}</p></div>
+        <LearningMosaic items={stages} />
+      </Section>
+      <slot name="beforeResources" />
+      <Section surface="white">
+        <div class="course-section-heading"><p class="course-eyebrow">{t.hub.keepExploringEyebrow}</p><h2 id="resources-title">{t.hub.resourcesTitle}</h2><p>{t.hub.resourcesText}</p></div>
+        <div class="course-resources">{resources.map(resource => <a class="course-resource" href={resource.href}><span class="course-eyebrow">{resource.tag}</span><h3>{resource.label} <span aria-hidden="true">↗</span></h3><p>{resource.text}</p></a>)}</div>
+      </Section>
+      <Section aria-labelledby="app-title">
+        <div class="course-app"><div><p class="course-eyebrow">{t.hub.keepLearningEyebrow}</p><h2 id="app-title">{t.hub.appTitle}</h2><p>{t.hub.appText}</p></div><StoreButtons location="alphabet_course_hub" height={48} locale={locale} /></div>
+      </Section>
+    </main>
+    <Footer locale={locale} />
+  </div>
+</Layout>

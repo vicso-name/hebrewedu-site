@@ -1,37 +1,23 @@
 ---
 import Section from '../ui/Section.astro';
 import FeatureGrid, { type FeatureItem } from '../ui/FeatureGrid.astro';
+import { getDictionary, type Locale } from '../../i18n';
 
-const features = [
-  {
-    icon: 'layers',
-    title: 'Learn the foundations',
-    description: 'Alphabet, sounds and Nikud made clear from the start.',
-  },
-  {
-    icon: 'target',
-    title: 'Practice what you learn',
-    description: 'Focused exercises help turn each lesson into a real skill.',
-  },
-  {
-    icon: 'repeat',
-    title: 'Remember what matters',
-    description: 'Return to words and material that need more practice.',
-  },
-  {
-    icon: 'book',
-    title: 'Read real Hebrew',
-    description: 'Move into beginner texts with translation and audio support.',
-  },
-] satisfies FeatureItem[];
+interface Props {
+  locale?: Locale;
+}
+const { locale = 'en' } = Astro.props;
+const t = getDictionary(locale).home.pillars;
+
+const icons = ['layers', 'target', 'repeat', 'book'] as const;
+const features = t.features.map((f, i) => ({ icon: icons[i], title: f.title, description: f.description })) satisfies FeatureItem[];
 ---
 
 <Section id="features" surface="soft">
   <header class="features-heading">
-    <h2 class="home-h2">Build a foundation in Hebrew</h2>
+    <h2 class="home-h2">{t.heading}</h2>
     <p class="home-lead">
-      Connect letters and sounds with lessons, exercises and vocabulary, then put
-      them to use in beginner reading.
+      {t.lead}
     </p>
   </header>
 

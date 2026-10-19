@@ -1,47 +1,54 @@
 ---
-import Layout from '../../../layouts/Layout.astro';
-import Nav from '../../../components/Nav.astro';
-import Footer from '../../../components/Footer.astro';
+import AlphabetHubPage, { type HubLetter } from '../../../components/hub/AlphabetHubPage.astro';
 import Section from '../../../components/ui/Section.astro';
 import Faq from '../../../components/Faq.astro';
-import StoreButtons from '../../../components/ui/StoreButtons.astro';
+import { courseManifest } from '../../../lib/alphabet-course.mjs';
+import { getDictionary } from '../../../i18n';
 import '../../../styles/fr-alphabet-hub.css';
 
 const PAGE_URL = 'https://hebrewedu.com/fr/alphabet-hebreu/';
+const t = getDictionary('fr');
 
-// Stage B pilot scope (docs/seo/research/fr/FR_RESEARCH.md): this is new FR
-// content, not a translation of the EN hub's cards — the EN hub's own letter
-// cards/curriculum copy stays English-only and unrelated to this page.
-// Order/glyph/final-form data matches scripts/alphabet-course/owner-letter-map.v2.json;
-// French display names follow the research's preferred spellings (Aleph not
-// Alef, Heth not Het, Noun not Nun, Pé not Pe, etc.) — the lesson pipeline's
-// own slug stays the EN one for when a FR lesson route is eventually built.
-// Sound descriptions use a non-breaking space before guillemets, per
-// French typography (Stage B §6).
-const letters = [
-  { order: 1,  slug: 'aleph',   glyph: 'א', name: 'Aleph',   sound: 'muette (porte les voyelles)', final: null },
-  { order: 2,  slug: 'bet',     glyph: 'ב', name: 'Beth',    sound: 'b, ou v', final: null },
-  { order: 3,  slug: 'gimel',   glyph: 'ג', name: 'Guimel',  sound: 'g dur (comme « gare »)', final: null },
-  { order: 4,  slug: 'dalet',   glyph: 'ד', name: 'Daleth',  sound: 'd', final: null },
-  { order: 5,  slug: 'he',      glyph: 'ה', name: 'Hé',      sound: 'h (souvent muet en fin de mot)', final: null },
-  { order: 6,  slug: 'vav',     glyph: 'ו', name: 'Vav',     sound: 'v, ou « ou »/« o » comme voyelle', final: null },
-  { order: 7,  slug: 'zayin',   glyph: 'ז', name: 'Zayin',   sound: 'z', final: null },
-  { order: 8,  slug: 'chet',    glyph: 'ח', name: 'Heth',    sound: 'kh guttural (comme la « jota » espagnole)', final: null },
-  { order: 9,  slug: 'tet',     glyph: 'ט', name: 'Teth',    sound: 't (comme Tav en hébreu moderne)', final: null },
-  { order: 10, slug: 'yod',     glyph: 'י', name: 'Yod',     sound: 'y, ou « i » comme voyelle', final: null },
-  { order: 11, slug: 'kaf',     glyph: 'כ', name: 'Kaf',     sound: 'k, ou « kh » guttural', final: 'ך' },
-  { order: 12, slug: 'lamed',   glyph: 'ל', name: 'Lamed',   sound: 'l', final: null },
-  { order: 13, slug: 'mem',     glyph: 'מ', name: 'Mem',     sound: 'm', final: 'ם' },
-  { order: 14, slug: 'nun',     glyph: 'נ', name: 'Noun',    sound: 'n', final: 'ן' },
-  { order: 15, slug: 'samekh',  glyph: 'ס', name: 'Samekh',  sound: 's', final: null },
-  { order: 16, slug: 'ayin',    glyph: 'ע', name: 'Ayin',    sound: "souvent muet en hébreu moderne (guttural à l'origine)", final: null },
-  { order: 17, slug: 'pe',      glyph: 'פ', name: 'Pé',      sound: 'p, ou f', final: 'ף' },
-  { order: 18, slug: 'tsadi',   glyph: 'צ', name: 'Tsadi',   sound: 'ts', final: 'ץ' },
-  { order: 19, slug: 'qof',     glyph: 'ק', name: 'Qof',     sound: 'k (comme Kaf en hébreu moderne)', final: null },
-  { order: 20, slug: 'resh',    glyph: 'ר', name: 'Resh',    sound: 'r (proche du r français)', final: null },
-  { order: 21, slug: 'shin',    glyph: 'ש', name: 'Shin',    sound: 'ch (comme dans « chat »), ou s (Sin)', final: null },
-  { order: 22, slug: 'tav',     glyph: 'ת', name: 'Tav',     sound: 't', final: null },
+// Stage B rework: this page now mirrors the EN hub 1:1 (hero, curriculum,
+// "how lessons work", resources, app CTA — AlphabetHubPage.astro) and adds
+// the FR-specific content below as extra sections at the points in that
+// flow they extend (docs/I18N_AUDIT.md §1/§4/§6,
+// docs/seo/research/fr/FR_RESEARCH.md). None of these 22 letters have a
+// published FR lesson yet, so every curriculum card shows "Bientôt" and
+// none link anywhere — never to the EN lesson.
+//
+// Glyph/order match scripts/alphabet-course/owner-letter-map.v2.json; French
+// display names and sound notes follow the research's preferred spellings
+// (Aleph not Alef, Heth not Het, Noun not Nun, Pé not Pe, etc.) — the lesson
+// pipeline's own slug stays the EN one for when a FR lesson route is built.
+const letterDetails = [
+  { order: 1,  glyph: 'א', name: 'Aleph',   sound: 'muette (porte les voyelles)', final: null },
+  { order: 2,  glyph: 'ב', name: 'Beth',    sound: 'b, ou v', final: null },
+  { order: 3,  glyph: 'ג', name: 'Guimel',  sound: 'g dur (comme « gare »)', final: null },
+  { order: 4,  glyph: 'ד', name: 'Daleth',  sound: 'd', final: null },
+  { order: 5,  glyph: 'ה', name: 'Hé',      sound: 'h (souvent muet en fin de mot)', final: null },
+  { order: 6,  glyph: 'ו', name: 'Vav',     sound: 'v, ou « ou »/« o » comme voyelle', final: null },
+  { order: 7,  glyph: 'ז', name: 'Zayin',   sound: 'z', final: null },
+  { order: 8,  glyph: 'ח', name: 'Heth',    sound: 'kh guttural (comme la « jota » espagnole)', final: null },
+  { order: 9,  glyph: 'ט', name: 'Teth',    sound: 't (comme Tav en hébreu moderne)', final: null },
+  { order: 10, glyph: 'י', name: 'Yod',     sound: 'y, ou « i » comme voyelle', final: null },
+  { order: 11, glyph: 'כ', name: 'Kaf',     sound: 'k, ou « kh » guttural', final: 'ך' },
+  { order: 12, glyph: 'ל', name: 'Lamed',   sound: 'l', final: null },
+  { order: 13, glyph: 'מ', name: 'Mem',     sound: 'm', final: 'ם' },
+  { order: 14, glyph: 'נ', name: 'Noun',    sound: 'n', final: 'ן' },
+  { order: 15, glyph: 'ס', name: 'Samekh',  sound: 's', final: null },
+  { order: 16, glyph: 'ע', name: 'Ayin',    sound: "souvent muet en hébreu moderne (guttural à l'origine)", final: null },
+  { order: 17, glyph: 'פ', name: 'Pé',      sound: 'p, ou f', final: 'ף' },
+  { order: 18, glyph: 'צ', name: 'Tsadi',   sound: 'ts', final: 'ץ' },
+  { order: 19, glyph: 'ק', name: 'Qof',     sound: 'k (comme Kaf en hébreu moderne)', final: null },
+  { order: 20, glyph: 'ר', name: 'Resh',    sound: 'r (proche du r français)', final: null },
+  { order: 21, glyph: 'ש', name: 'Shin',    sound: 'ch (comme dans « chat »), ou s (Sin)', final: null },
+  { order: 22, glyph: 'ת', name: 'Tav',     sound: 't', final: null },
 ];
+
+// Shape for AlphabetHubPage's shared curriculum grid — same component as EN,
+// every letter unavailable (no FR lesson routes exist yet).
+const letters: HubLetter[] = letterDetails.map(l => ({ order: l.order, letter: l.glyph, name: l.name, available: false, href: null }));
 
 const faqItems = [
   { q: "Combien de lettres compte l'alphabet hébreu ?", a: "L'alphabet hébreu compte 22 lettres, dont 5 ont une forme finale différente en fin de mot : Kaf, Mem, Noun, Pé et Tsadi." },
@@ -59,119 +66,80 @@ const alternates = [
 ];
 const langSwitch = { href: '/learn/hebrew-alphabet/', label: 'English' };
 
-const title = "Alphabet hébreu : les 22 lettres expliquées";
-const description = "Découvrez les 22 lettres de l'alphabet hébreu, leur prononciation, les lettres finales et des conseils pour apprendre à lire l'hébreu étape par étape.";
-
 const pageSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebPage',
   '@id': `${PAGE_URL}#webpage`,
   url: PAGE_URL,
-  name: title,
-  description,
+  name: t.hub.pageTitle,
+  description: t.hub.pageDescription,
   inLanguage: 'fr',
 };
 ---
-<Layout title={title} description={description} schema={pageSchema} locale="fr" alternates={alternates}>
-  <div class="fr-hub-page">
-    <a class="fr-skip" href="#fr-hub-content">Aller au contenu</a>
-    <Nav locale="fr" langSwitch={langSwitch} />
-    <main id="fr-hub-content">
-      <Section aria-labelledby="fr-hub-title">
-        <div class="fr-hero">
-          <p class="fr-eyebrow">Alphabet hébreu · Guide complet</p>
-          <h1 id="fr-hub-title">{title}</h1>
-          <p class="fr-lead">Ce guide en français présente les 22 lettres de l'alphabet hébreu&nbsp;: leur nom, leur son et, le cas échéant, leur forme finale. Ces lettres notent surtout des consonnes&nbsp;; quatre d'entre elles (Aleph, Hé, Vav, Yod) peuvent aussi indiquer des voyelles, qui sont précisées par le nikoud.</p>
-        </div>
-      </Section>
+<AlphabetHubPage
+  locale="fr"
+  letters={letters}
+  robots={courseManifest.hub.published ? 'index, follow' : 'noindex, nofollow, noarchive'}
+  schema={pageSchema}
+  alternates={alternates}
+  langSwitch={langSwitch}
+>
+  <Section slot="afterHero">
+    <div class="fr-prose">
+      <div>
+        <h2>Le sens d'écriture</h2>
+        <p>L'hébreu s'écrit et se lit de droite à gauche, à l'opposé du français. Une page commence donc par son côté droit.</p>
+      </div>
+      <div>
+        <h2>Consonnes et voyelles (le nikoud)</h2>
+        <p>Les lettres de l'alphabet hébreu notent essentiellement des consonnes. Les voyelles sont indiquées par un système de points et de traits appelé nikoud, placé sous, au-dessus ou à l'intérieur de la lettre. Les textes hébreux courants (livres, journaux) s'écrivent souvent sans nikoud&nbsp;: les lecteurs expérimentés devinent les voyelles grâce au contexte.</p>
+      </div>
+      <div>
+        <h2>Les 5 lettres finales</h2>
+        <p>Cinq lettres changent de forme en fin de mot&nbsp;: Kaf, Mem, Noun, Pé et Tsadi. Cette forme finale, dite «&nbsp;sofit&nbsp;», s'écrit différemment mais se prononce comme la lettre de base&nbsp;; en fin de mot, Kaf et Pé se lisent toujours «&nbsp;kh&nbsp;» et «&nbsp;f&nbsp;».</p>
+      </div>
+      <div>
+        <h2>Hébreu imprimé et hébreu cursif</h2>
+        <p>Les lettres présentées ici sont la forme imprimée (dite carrée), utilisée dans les livres et sur les claviers. Il existe aussi une écriture cursive, tracée à la main, dont certaines formes sont assez différentes&nbsp;: nous lui consacrerons une page à part prochainement.</p>
+      </div>
+    </div>
+  </Section>
 
-      <Section>
-        <div class="fr-prose">
-          <div>
-            <h2>Le sens d'écriture</h2>
-            <p>L'hébreu s'écrit et se lit de droite à gauche, à l'opposé du français. Une page commence donc par son côté droit.</p>
-          </div>
-          <div>
-            <h2>Consonnes et voyelles (le nikoud)</h2>
-            <p>Les lettres de l'alphabet hébreu notent essentiellement des consonnes. Les voyelles sont indiquées par un système de points et de traits appelé nikoud, placé sous, au-dessus ou à l'intérieur de la lettre. Les textes hébreux courants (livres, journaux) s'écrivent souvent sans nikoud&nbsp;: les lecteurs expérimentés devinent les voyelles grâce au contexte.</p>
-          </div>
-          <div>
-            <h2>Les 5 lettres finales</h2>
-            <p>Cinq lettres changent de forme en fin de mot&nbsp;: Kaf, Mem, Noun, Pé et Tsadi. Cette forme finale, dite «&nbsp;sofit&nbsp;», s'écrit différemment mais se prononce comme la lettre de base&nbsp;; en fin de mot, Kaf et Pé se lisent toujours « kh » et « f ».</p>
-          </div>
-          <div>
-            <h2>Hébreu imprimé et hébreu cursif</h2>
-            <p>Les lettres présentées ici sont la forme imprimée (dite carrée), utilisée dans les livres et sur les claviers. Il existe aussi une écriture cursive, tracée à la main, dont certaines formes sont assez différentes&nbsp;: nous lui consacrerons une page à part prochainement.</p>
-          </div>
-          <div>
-            <h2>Comment apprendre l'alphabet hébreu</h2>
-            <p>Chaque leçon HebrewEdu suit trois étapes&nbsp;: la théorie pour reconnaître la lettre, des exemples pour la voir dans de vrais mots, puis des exercices de pratique avec correction immédiate. Mieux vaut avancer lettre par lettre, à son propre rythme, plutôt que d'essayer de tout mémoriser d'un coup.</p>
-          </div>
-        </div>
-      </Section>
+  <Section slot="afterCurriculum" id="lettres" surface="white">
+    <div class="fr-section-heading">
+      <h2>Alphabet hébreu–français&nbsp;: les 22 lettres</h2>
+      <p>Lettre, nom, son et forme finale — pour vous repérer d'un coup d'œil. Les leçons détaillées pour chaque lettre arrivent bientôt en français.</p>
+    </div>
+    <div class="fr-letters-wrap">
+      <table class="fr-letters">
+        <thead>
+          <tr>
+            <th scope="col">Lettre</th>
+            <th scope="col">Nom</th>
+            <th scope="col">Son</th>
+            <th scope="col">Forme finale</th>
+            <th scope="col">Leçon</th>
+          </tr>
+        </thead>
+        <tbody>
+          {letterDetails.map(letter => (
+            <tr>
+              <td class="fr-letters-glyph"><bdi lang="he" dir="rtl">{letter.glyph}</bdi></td>
+              <td>{letter.name}</td>
+              <td>{letter.sound}</td>
+              <td>{letter.final ? <bdi lang="he" dir="rtl">{letter.final}</bdi> : '—'}</td>
+              <td class="fr-letters-status">Bientôt</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </Section>
 
-      <Section id="lettres" surface="white">
-        <div class="fr-section-heading">
-          <h2>Alphabet hébreu–français&nbsp;: les 22 lettres</h2>
-          <p>Lettre, nom, son et forme finale — pour vous repérer d'un coup d'œil. Les leçons détaillées pour chaque lettre arrivent bientôt en français.</p>
-        </div>
-        <div class="fr-letters-wrap">
-          <table class="fr-letters">
-            <thead>
-              <tr>
-                <th scope="col">Lettre</th>
-                <th scope="col">Nom</th>
-                <th scope="col">Son</th>
-                <th scope="col">Forme finale</th>
-                <th scope="col">Leçon</th>
-              </tr>
-            </thead>
-            <tbody>
-              {letters.map(letter => (
-                <tr>
-                  <td class="fr-letters-glyph"><bdi lang="he" dir="rtl">{letter.glyph}</bdi></td>
-                  <td>{letter.name}</td>
-                  <td>{letter.sound}</td>
-                  <td>{letter.final ? <bdi lang="he" dir="rtl">{letter.final}</bdi> : '—'}</td>
-                  <td class="fr-letters-status">Bientôt</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      </Section>
-
-      <Faq
-        title="Questions fréquentes"
-        items={faqItems}
-        surface="soft"
-      />
-
-      <Section surface="white">
-        <div class="fr-section-heading">
-          <h2>S'entraîner en jouant</h2>
-          <p>Deux jeux dans le navigateur pour réviser la reconnaissance des lettres hébraïques (en anglais)&nbsp;:</p>
-        </div>
-        <div class="fr-games">
-          <a class="fr-game-card" href="/play/alef-bet-rush/">
-            <h3>Alef Bet Rush (en anglais)</h3>
-            <p>Reconnaissez les lettres hébraïques le plus vite possible.</p>
-          </a>
-          <a class="fr-game-card" href="/play/hebrew-mahjong/">
-            <h3>Hebrew Mahjong (en anglais)</h3>
-            <p>Associez les lettres hébraïques par paires dans ce jeu de mahjong.</p>
-          </a>
-        </div>
-      </Section>
-
-      <Section>
-        <div class="fr-app">
-          <h2>Continuer sur l'application</h2>
-          <p>Téléchargez l'application pour continuer à apprendre l'alphabet hébreu sur votre téléphone, où que vous soyez.</p>
-          <StoreButtons location="fr_alphabet_hub" locale="fr" height={48} />
-        </div>
-      </Section>
-    </main>
-    <Footer locale="fr" />
-  </div>
-</Layout>
+  <Faq
+    slot="beforeResources"
+    title="Questions fréquentes"
+    items={faqItems}
+    surface="soft"
+  />
+</AlphabetHubPage>

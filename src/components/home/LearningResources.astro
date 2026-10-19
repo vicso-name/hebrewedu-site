@@ -2,33 +2,17 @@
 import Section from '../ui/Section.astro';
 import SectionHeading from '../ui/SectionHeading.astro';
 import { phrasesPath, phrasesPublished } from '../../lib/hebrew-phrases.mjs';
+import { getDictionary, type Locale } from '../../i18n';
+
+interface Props {
+  locale?: Locale;
+}
+const { locale = 'en' } = Astro.props;
+const t = getDictionary(locale).home.resources;
 
 const resources = [
-  {
-    href: '/blog/hebrew-alphabet-complete-guide/',
-    title: 'Learn the Hebrew alphabet',
-    description: 'Keep letter shapes, names, sounds and final forms close at hand.',
-  },
-  {
-    href: '/blog/learn-hebrew-alphabet-7-days/',
-    title: 'A seven-day alphabet plan',
-    description: 'Give each day a focus, with time to practise and review the letters.',
-  },
-  {
-    href: '/blog/how-to-read-hebrew-nikud/',
-    title: 'Read Hebrew vowel marks',
-    description: 'See how Nikud helps you sound out your first Hebrew words.',
-  },
-  {
-    href: '/play/',
-    title: 'Free Hebrew learning games',
-    description: 'Practise recognising letters and recalling their names in your browser.',
-  },
-  ...(phrasesPublished() ? [{
-    href: phrasesPath,
-    title: 'Useful Hebrew phrases',
-    description: 'Try everyday expressions, with meanings, pronunciation support and a quick practice.',
-  }] : []),
+  ...t.items,
+  ...(phrasesPublished() ? [{ href: phrasesPath, ...t.phrasesItem }] : []),
 ];
 ---
 
@@ -36,8 +20,8 @@ const resources = [
   <div class="resources-layout">
     <div class="resources-intro">
       <SectionHeading
-        title="A guide for your next step"
-        lede="Look up a letter, plan your practice, or try a short game."
+        title={t.heading}
+        lede={t.lede}
       />
     </div>
 

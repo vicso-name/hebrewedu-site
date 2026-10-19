@@ -1,72 +1,13 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Nav from '../components/Nav.astro';
-import Hero from '../components/home/Hero.astro';
-import ProductPillars from '../components/home/ProductPillars.astro';
-import LearningJourney from '../components/home/LearningJourney.astro';
-import LearningResources from '../components/home/LearningResources.astro';
-import ReadingShowcase from '../components/home/ReadingShowcase.astro';
-import SupportingFeatures from '../components/home/SupportingFeatures.astro';
-import Testimonials from '../components/home/Testimonials.astro';
-import Faq from '../components/Faq.astro';
-import DownloadCTA from '../components/home/DownloadCTA.astro';
-import Footer from '../components/Footer.astro';
-import '../styles/home.css';
-import { site } from '../data/site';
-import { appSchema } from '../data/schema';
-import { faqs } from '../data/faq';
+import HomePage from '../components/home/HomePage.astro';
 
-// Stage B: /fr/ is this page's FR counterpart.
+// Stage B: /fr/ is this page's FR counterpart. See HomePage.astro for the
+// actual shared template both locales render through.
 const alternates = [
   { hreflang: 'en', href: 'https://hebrewedu.com/' },
   { hreflang: 'fr', href: 'https://hebrewedu.com/fr/' },
   { hreflang: 'x-default', href: 'https://hebrewedu.com/' },
 ];
 const langSwitch = { href: '/fr/', label: 'Français' };
-
-const pageSchema = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "WebSite",
-      "@id": `${site.url}/#website`,
-      "url": `${site.url}/`,
-      "name": site.name,
-      "description": site.description,
-      "inLanguage": "en"
-    },
-    appSchema,
-  ]
-};
 ---
-
-<Layout
-  title={site.title}
-  seoTitle="Hebrew Alphabet App & Reading Practice"
-  description={site.description}
-  schema={pageSchema}
-  alternates={alternates}
->
-  <link
-    slot="head"
-    rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
-  />
-
-  <!-- .home-page scopes the redesigned homepage tokens (src/styles/home.css) -->
-  <div class="home-page">
-    <Nav langSwitch={langSwitch} />
-    <main>
-      <Hero />
-      <ProductPillars />
-      <LearningJourney />
-      <LearningResources />
-      <ReadingShowcase />
-      <SupportingFeatures />
-      <Testimonials />
-      <Faq title="Frequently asked questions" items={faqs} />
-      <DownloadCTA />
-    </main>
-    <Footer />
-  </div>
-</Layout>
+<HomePage locale="en" alternates={alternates} langSwitch={langSwitch} />

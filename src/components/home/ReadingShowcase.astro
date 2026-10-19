@@ -4,41 +4,42 @@ import DeviceFrame from '../ui/DeviceFrame.astro';
 import ProductScreenshot from '../ui/ProductScreenshot.astro';
 import storyShot from '../../assets/screenshots/story.jpg';
 import readingShot from '../../assets/screenshots/reading.jpg';
+import { getDictionary, type Locale } from '../../i18n';
 
-const capabilities = ['Reading', 'Translation', 'Audio'];
+interface Props {
+  locale?: Locale;
+}
+const { locale = 'en' } = Astro.props;
+const t = getDictionary(locale).home.reading;
 ---
 
 <Section surface="soft">
   <header class="reading-heading">
-    <p class="home-eyebrow">Start reading</p>
-    <h2 class="home-h2">When you're ready, start reading real Hebrew.</h2>
+    <p class="home-eyebrow">{t.eyebrow}</p>
+    <h2 class="home-h2" set:html={t.heading} />
     <p class="home-lead">
-      Reading is where letters, vocabulary and grammar finally come together.
-      Beginner-friendly texts help you move from recognising words to understanding
-      Hebrew in context.
+      {t.lead}
     </p>
   </header>
 
   <div class="reading-stage">
     <div class="reading-value">
-      <h3 class="home-h3">Read with support, not guesswork</h3>
+      <h3 class="home-h3">{t.valueHeading}</h3>
       <p class="home-body">
-        Follow beginner-friendly Hebrew stories with built-in translation, audio and
-        vocabulary help. Instead of decoding every line on your own, you can understand
-        the text, hear how it sounds and keep moving forward with confidence.
+        {t.valueBody}
       </p>
     </div>
     <div class="reading-visual">
       <div class="reading-device reading-device--back">
         <DeviceFrame variant="secondary">
-          <ProductScreenshot src={readingShot} alt="HebrewEdu Reading Trainer story library" sizes="200px" />
+          <ProductScreenshot src={readingShot} alt={t.altLibrary} sizes="200px" />
         </DeviceFrame>
       </div>
       <div class="reading-device reading-device--main">
         <DeviceFrame>
           <ProductScreenshot
             src={storyShot}
-            alt="Beginner Hebrew story with reading tools in HebrewEdu"
+            alt={t.altStory}
             sizes="(max-width: 900px) 232px, 250px"
           />
         </DeviceFrame>
@@ -47,7 +48,7 @@ const capabilities = ['Reading', 'Translation', 'Audio'];
   </div>
 
   <ul class="reading-capabilities" role="list">
-    {capabilities.map(c => <li>{c}</li>)}
+    {t.capabilities.map(c => <li>{c}</li>)}
   </ul>
 </Section>
 

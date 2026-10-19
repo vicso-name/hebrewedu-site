@@ -1,12 +1,19 @@
 ---
 import StoreButtons from '../ui/StoreButtons.astro';
 import CtaPanel from '../ui/CtaPanel.astro';
+import { getDictionary, type Locale } from '../../i18n';
+
+interface Props {
+  locale?: Locale;
+}
+const { locale = 'en' } = Astro.props;
+const t = getDictionary(locale).home.downloadCta;
 ---
 
 <CtaPanel id="download">
-      <h2 class="home-h2">Ready to start learning Hebrew?</h2>
+      <h2 class="home-h2">{t.heading}</h2>
       <p class="home-lead">
-        Begin with the alphabet and build from there.
+        {t.lead}
       </p>
-      <StoreButtons location="download_cta" />
+      <StoreButtons location="download_cta" locale={locale} />
 </CtaPanel>

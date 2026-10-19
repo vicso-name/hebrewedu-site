@@ -6,6 +6,13 @@ import homeShot from '../../assets/screenshots/home.jpg';
 import lessonsShot from '../../assets/screenshots/lessons.jpg';
 import readingShot from '../../assets/screenshots/reading.jpg';
 import practiceShot from '../../assets/screenshots/practice.jpg';
+import { getDictionary, type Locale } from '../../i18n';
+
+interface Props {
+  locale?: Locale;
+}
+const { locale = 'en' } = Astro.props;
+const t = getDictionary(locale).home.hero;
 
 // The rear phone quietly rotates through these; the front phone never changes.
 const rearShots = [lessonsShot, readingShot, practiceShot];
@@ -15,15 +22,14 @@ const rearShots = [lessonsShot, readingShot, practiceShot];
   <div class="container hero-inner">
 
     <div class="hero-copy">
-      <p class="home-eyebrow">A Hebrew learning app for beginners</p>
+      <p class="home-eyebrow">{t.eyebrow}</p>
       <h1 class="home-h1 hero-title">
-        Learn Hebrew, starting with the alphabet.
+        {t.title}
       </h1>
       <p class="home-lead hero-lead">
-        Start with the Hebrew alphabet and pronunciation, then build vocabulary and
-        grammar through lessons and exercises. Practise reading with audio and translation.
+        {t.lead}
       </p>
-      <StoreButtons location="hero" />
+      <StoreButtons location="hero" locale={locale} />
     </div>
 
     <div class="hero-visual">
@@ -31,7 +37,7 @@ const rearShots = [lessonsShot, readingShot, practiceShot];
         <DeviceFrame>
           <ProductScreenshot
             src={homeShot}
-            alt="HebrewEdu home screen"
+            alt={t.screenshotAlt}
             sizes="(max-width: 560px) 72vw, (max-width: 900px) 300px, 320px"
             loading="eager"
           />

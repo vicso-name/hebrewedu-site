@@ -43,7 +43,16 @@ const PAGE_ALLOWLIST = new Map([
 
 // Components that render Layout.astro internally; a page importing one of
 // these counts as using Layout.
-const LAYOUT_WRAPPERS = ['components/legal/LegalPage.astro'];
+const LAYOUT_WRAPPERS = [
+  'components/legal/LegalPage.astro',
+  // Stage B: the shared home-page template (src/pages/index.astro and
+  // src/pages/fr/index.astro both render through it) — renders Layout.astro
+  // internally, same pattern as LegalPage.astro above.
+  'components/home/HomePage.astro',
+  // Stage B: the shared alphabet-hub template (src/pages/learn/hebrew-alphabet/[...hub].astro
+  // and src/pages/fr/alphabet-hebreu/index.astro both render through it).
+  'components/hub/AlphabetHubPage.astro',
+];
 
 const pagesDir = resolve(srcDir, 'pages');
 const pageFiles = allFiles.filter((p) => p.startsWith(pagesDir) && extname(p) === '.astro');
@@ -128,11 +137,12 @@ for (const { file, text, lineOffset } of cssSources) {
 
 const MAX_WIDTH_PX_THRESHOLD = 900; // 56rem
 const MAX_WIDTH_ALLOWLIST = new Set([
-  'src/components/home/ReadingShowcase.astro:67',
+  'src/components/home/ReadingShowcase.astro:68',
 ]);
-// src/components/home/ReadingShowcase.astro:67 — `.reading-stage` is an inner
-// presentation panel sized on its own terms inside the page's standard
-// .container; it is not a second page-width container.
+// src/components/home/ReadingShowcase.astro:68 (line shifted by the Stage B
+// locale-prop addition above it; same exception as before) — `.reading-stage`
+// is an inner presentation panel sized on its own terms inside the page's
+// standard .container; it is not a second page-width container.
 
 for (const { file, text, lineOffset } of cssSources) {
   const re = /max-width\s*:\s*([0-9.]+)(px|rem)\s*;/g;

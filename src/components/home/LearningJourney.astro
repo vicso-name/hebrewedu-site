@@ -7,6 +7,13 @@ import alphabetShot from '../../assets/screenshots/alphabet.jpg';
 import practiceShot from '../../assets/screenshots/practice.jpg';
 import verbsShot from '../../assets/screenshots/verbs.jpg';
 import vocabularyShot from '../../assets/screenshots/vocabulary.jpg';
+import { getDictionary, type Locale } from '../../i18n';
+
+interface Props {
+  locale?: Locale;
+}
+const { locale = 'en' } = Astro.props;
+const t = getDictionary(locale).home.journey;
 
 // Small outline icons for the meta line (24px grid, drawn with currentColor)
 const icons: Record<string, string> = {
@@ -23,62 +30,29 @@ const icons: Record<string, string> = {
   bookmark: '<path d="M6 3h12v18l-6-4-6 4z"/>',
 };
 
-const steps = [
-  {
-    num: '01',
-    title: 'Start with the foundations',
-    body: 'Learn Hebrew letters, their sounds and the reading patterns you need before moving on.',
-    meta: [
-      { label: 'Alphabet', icon: 'grid' },
-      { label: 'Pronunciation', icon: 'sound' },
-      { label: 'Nikud', icon: 'nikud' },
-    ],
-    image: alphabetShot,
-    alt: 'Hebrew alphabet learning screen in HebrewEdu',
-  },
-  {
-    num: '02',
-    title: 'Turn knowledge into skill',
-    body: 'Practise what you learn with focused exercises instead of simply rereading explanations.',
-    meta: [
-      { label: 'Lessons', icon: 'book' },
-      { label: 'Exercises', icon: 'check' },
-      { label: 'Review', icon: 'repeat' },
-    ],
-    image: practiceShot,
-    alt: 'Alphabet practice hub in HebrewEdu',
-  },
-  {
-    num: '03',
-    title: 'Master verbs and binyanim',
-    body: 'Understand how Hebrew verbs are built, compare binyanim and explore real verb forms in one clear dictionary.',
-    meta: [
-      { label: 'Verbs', icon: 'text' },
-      { label: 'Binyanim', icon: 'layers' },
-      { label: 'Dictionary', icon: 'search' },
-    ],
-    image: verbsShot,
-    alt: 'Hebrew verb dictionary with binyanim filters in HebrewEdu',
-  },
-  {
-    num: '04',
-    title: 'Build vocabulary that stays with you',
-    body: 'Learn useful words, return to difficult ones and reinforce what needs more practice.',
-    meta: [
-      { label: 'Vocabulary', icon: 'tag' },
-      { label: 'Review', icon: 'repeat' },
-      { label: 'Difficult words', icon: 'bookmark' },
-    ],
-    image: vocabularyShot,
-    alt: 'Hebrew vocabulary word card in HebrewEdu',
-  },
+// Icon key order is fixed per step (purely decorative, locale-independent);
+// labels come from the dictionary (t.steps[i].meta), zipped by index.
+const iconsByStep = [
+  ['grid', 'sound', 'nikud'],
+  ['book', 'check', 'repeat'],
+  ['text', 'layers', 'search'],
+  ['tag', 'repeat', 'bookmark'],
 ];
+const images = [alphabetShot, practiceShot, verbsShot, vocabularyShot];
+const steps = t.steps.map((s, i) => ({
+  num: String(i + 1).padStart(2, '0'),
+  title: s.title,
+  body: s.body,
+  meta: s.meta.map((label, j) => ({ label, icon: iconsByStep[i][j] })),
+  image: images[i],
+  alt: s.alt,
+}));
 ---
 
 <Section id="how-it-works" surface="white">
   <SectionHeading
-    title="Build your Hebrew skills step by step"
-    lede="Hebrew can feel difficult when everything is introduced at once. HebrewEdu breaks the process into manageable stages."
+    title={t.heading}
+    lede={t.lede}
   />
 
   <!-- Product tour: one step is active at a time. Tabs pick the step; the copy and
@@ -86,7 +60,7 @@ const steps = [
        are visibility:hidden, so they are out of the tab order and the a11y tree. -->
   <div class="tour" id="journey-tour">
     <div class="tour-main">
-      <div class="tour-tabs" role="tablist" aria-label="Learning path steps">
+      <div class="tour-tabs" role="tablist" aria-label={t.tabsAriaLabel}>
         {steps.map((s, i) => (
           <button
             type="button"
