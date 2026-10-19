@@ -38,8 +38,8 @@ const homeHref = locale === 'fr' ? '/fr/' : '/';
 ---
 
 <header class:list={['nav-wrap', { 'course-nav': showCourse }]}>
-  <nav class="container nav-inner" aria-label="Primary">
-    <a href={homeHref} class="nav-logo" aria-label="HebrewEdu home">
+  <nav class="container nav-inner" aria-label={t.common.aria.primaryNav}>
+    <a href={homeHref} class="nav-logo" aria-label={t.common.aria.homeLink}>
       {t.common.brand}
     </a>
 

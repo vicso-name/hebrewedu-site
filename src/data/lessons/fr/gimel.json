@@ -1,6 +1,6 @@
 {
   "slug": "gimel",
-  "title": "Guimel (ג) : lettre hébraïque, son et exemples",
+  "title": "Guimel (ג) : lettre hébraïque, son et exemples",
   "description": "Apprends la lettre hébraïque Guimel (ג) et son son [g], avec des mots d'exemple comme גַּג (toit) et אַגַּב (au fait), et des exercices.",
   "editorialIssues": [
     {
@@ -11,7 +11,7 @@
     {
       "id": "fr-typography-matchpairs-holdout",
       "summary": "Exercice MATCH_PAIRS retiré (typographie non corrigible)",
-      "detail": "Deux des trois valeurs de l'exercice MATCH_PAIRS source utilisent une espace normale avant « ; » et autour des guillemets « T » au lieu d'une espace insécable (convention typographique française, voir docs/hebrew-alphabet-editorial-rules.fr.md). contentOverrides ne permet de corriger que content/tip/correctAnswer, jamais les données pairs ; retenu plutôt que d'afficher une typographie incorrecte."
+      "detail": "Deux des trois valeurs de l'exercice MATCH_PAIRS source utilisent une espace normale avant « ; » et autour des guillemets « T » au lieu d'une espace insécable (convention typographique française, voir docs/hebrew-alphabet-editorial-rules.fr.md). contentOverrides ne permet de corriger que content/tip/correctAnswer, jamais les données pairs ; retenu plutôt que d'afficher une typographie incorrecte."
     }
   ],
   "illustrations": {},
@@ -29,10 +29,10 @@
   },
   "contentOverrides": {
     "blocks": {
+      "0": "Guimel (ג) : lettre hébraïque, son et exemples",
       "1": "Guimel (ג) est la troisième lettre de l'alphabet hébreu. Elle se prononce [g], comme le « g » de « gare ». En hébreu moderne, ג et גּ ont généralement cette même prononciation [g].",
       "4": "Le mot גַּג [gag] signifie « toit ». Le premier Guimel représente [g], et le Patah (ַ) sous la lettre ajoute [a] : l'ensemble se lit [ga]. Le Guimel final représente [g], sans voyelle supplémentaire. Le mot se lit donc [gag].",
-      "6": "Le mot אַגַּב [agav] signifie « au fait » ou « soit dit en passant ». L'Alef avec Patah (אַ) se lit [a]. Le Guimel avec Patah (גַּ) se lit [ga]. Le Beit final (ב) n'a pas de Dagesh et se prononce comme Veit [v]. Le mot se lit en deux syllabes : [a-gav].",
-      "0": "Guimel (ג) : lettre hébraïque, son et exemples"
+      "6": "Le mot אַגַּב [agav] signifie « au fait » ou « soit dit en passant ». L'Alef avec Patah (אַ) se lit [a]. Le Guimel avec Patah (גַּ) se lit [ga]. Le Beit final (ב) n'a pas de Dagesh et se prononce comme Veit [v]. Le mot se lit en deux syllabes : [a-gav]."
     },
     "exercises": {
       "1": {
@@ -74,11 +74,11 @@
   "copy": {
     "theory": {
       "heading": "Découvre Guimel",
-      "intro": "La troisième lettre de l'alphabet hébreu. Guimel produit un son [g] constant, comme dans « gare ».",
+      "intro": "La troisième lettre de l'alphabet hébreu. Guimel produit un son [g] constant, comme dans « gare ».",
       "objectivesHeading": "Ce que tu vas apprendre",
       "objectives": [
-        "Reconnaître Guimel : <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ג</bdi>.",
-        "Entendre son son [g], comme dans « gare ».",
+        "Reconnaître Guimel : <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ג</bdi>.",
+        "Entendre son son [g], comme dans « gare ».",
         "Lire Guimel dans de vrais mots comme <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">גַּג</bdi> (toit)."
       ],
       "secondSectionHeading": "Comment se prononce Guimel",
@@ -94,7 +94,7 @@
     "exercises": [
       {
         "sourceIndex": 11,
-        "reason": "MATCH_PAIRS dont deux des trois valeurs utilisent une espace normale avant « ; » et autour de « T » au lieu d'une espace insécable. contentOverrides ne peut pas corriger les données pairs ; retenu plutôt que d'afficher une typographie française incorrecte."
+        "reason": "MATCH_PAIRS dont deux des trois valeurs utilisent une espace normale avant « ; » et autour de « T » au lieu d'une espace insécable. contentOverrides ne peut pas corriger les données pairs ; retenu plutôt que d'afficher une typographie française incorrecte."
       }
     ]
   },

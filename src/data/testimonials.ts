@@ -48,7 +48,7 @@ export const testimonials: Testimonial[] = [
     text:   "I just began using this app, and I'm really amazed by it! The app is easy to use, and the lessons are interactive, making learning alphabet a piece of cake.",
     source: 'Google Play',
     date:   '2024-01-28',
-    fr:     "Je viens de commencer à utiliser cette application, et j'en suis vraiment impressionné ! Elle est facile à utiliser, et les leçons sont interactives, ce qui rend l'apprentissage de l'alphabet très simple.",
+    fr:     "Je viens de commencer à utiliser cette application, et j'en suis vraiment impressionné ! Elle est facile à utiliser, et les leçons sont interactives, ce qui rend l'apprentissage de l'alphabet très simple.",
   },
   {
     // First two sentences. Original: «Очень хорошее приложение для начинающих с нуля.

@@ -4,7 +4,7 @@
   "order": 3,
   "glyph": "ג",
   "locale": "fr",
-  "title": "Guimel (ג) : lettre hébraïque, son et exemples",
+  "title": "Guimel (ג) : lettre hébraïque, son et exemples",
   "description": "Apprends la lettre hébraïque Guimel (ג) et son son [g], avec des mots d'exemple comme גַּג (toit) et אַגַּב (au fait), et des exercices.",
   "status": "local-review-only",
   "normalizationVersion": 1,
@@ -22,14 +22,14 @@
     {
       "id": "fr-typography-matchpairs-holdout",
       "summary": "Exercice MATCH_PAIRS retiré (typographie non corrigible)",
-      "detail": "Deux des trois valeurs de l'exercice MATCH_PAIRS source utilisent une espace normale avant « ; » et autour des guillemets « T » au lieu d'une espace insécable (convention typographique française, voir docs/hebrew-alphabet-editorial-rules.fr.md). contentOverrides ne permet de corriger que content/tip/correctAnswer, jamais les données pairs ; retenu plutôt que d'afficher une typographie incorrecte."
+      "detail": "Deux des trois valeurs de l'exercice MATCH_PAIRS source utilisent une espace normale avant « ; » et autour des guillemets « T » au lieu d'une espace insécable (convention typographique française, voir docs/hebrew-alphabet-editorial-rules.fr.md). contentOverrides ne permet de corriger que content/tip/correctAnswer, jamais les données pairs ; retenu plutôt que d'afficher une typographie incorrecte."
     }
   ],
   "blocks": [
     {
       "id": "gimel-block-1",
       "sourceIndex": 0,
-      "text": "Guimel (ג) : lettre hébraïque, son et exemples",
+      "text": "Guimel (ג) : lettre hébraïque, son et exemples",
       "reviewFlags": [],
       "type": "MAIN_TITLE"
     },

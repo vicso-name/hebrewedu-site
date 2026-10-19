@@ -16,12 +16,12 @@
     {
       "id": "unsupported-striped-block",
       "summary": "Un bloc STRIPED_BLOCK retenu",
-      "detail": "La source brute comporte un bloc d'étude STRIPED_BLOCK (sourceIndex 6, un encart « À retenir ») sans moteur de rendu dans StudyBlock.astro. Ce type apparaît aussi dans 7 autres leçons brutes non publiées — voir la revue éditoriale EN de Vav (docs/hebrew-alphabet-lesson-6-editorial-review.md) pour le suivi recommandé."
+      "detail": "La source brute comporte un bloc d'étude STRIPED_BLOCK (sourceIndex 6, un encart « À retenir ») sans moteur de rendu dans StudyBlock.astro. Ce type apparaît aussi dans 7 autres leçons brutes non publiées — voir la revue éditoriale EN de Vav (docs/hebrew-alphabet-lesson-6-editorial-review.md) pour le suivi recommandé."
     },
     {
       "id": "fr-typography",
       "summary": "Espaces insécables avant la ponctuation et dans les guillemets français",
-      "detail": "La source brute FR utilise par endroits une espace normale autour des guillemets « » et avant « : »/« ; »/« ? » au lieu d'une espace insécable. Corrigé via contentOverrides (blocs 1, 11, 13 et exercices 1, 4, 5, 6, 10, 12). Certains libellés de choix (additionalData.choices) présentent la même espace normale mais ne peuvent pas être corrigés via contentOverrides — ce champ n'est pas surchargeable par le pipeline (seuls content/tip/correctAnswer le sont) ; défaut purement cosmétique, sans impact sur l'exactitude."
+      "detail": "La source brute FR utilise par endroits une espace normale autour des guillemets « » et avant « : »/« ; »/« ? » au lieu d'une espace insécable. Corrigé via contentOverrides (blocs 1, 11, 13 et exercices 1, 4, 5, 6, 10, 12). Certains libellés de choix (additionalData.choices) présentent la même espace normale mais ne peuvent pas être corrigés via contentOverrides — ce champ n'est pas surchargeable par le pipeline (seuls content/tip/correctAnswer le sont) ; défaut purement cosmétique, sans impact sur l'exactitude."
     }
   ],
   "illustrations": {},
@@ -104,15 +104,15 @@
     "blocks": [
       {
         "sourceIndex": 2,
-        "reason": "Bloc d'étude TITLE_IMAGE non pris en charge, sans contenu, titre ni URL d'image dans la source brute — un emplacement vide sans rien à afficher ; aucun moteur de rendu n'existe pour TITLE_IMAGE."
+        "reason": "Bloc d'étude TITLE_IMAGE non pris en charge, sans contenu, titre ni URL d'image dans la source brute — un emplacement vide sans rien à afficher ; aucun moteur de rendu n'existe pour TITLE_IMAGE."
       },
       {
         "sourceIndex": 4,
-        "reason": "Bloc d'étude TITLE_IMAGE non pris en charge, sans contenu, titre ni URL d'image dans la source brute — un emplacement vide sans rien à afficher ; aucun moteur de rendu n'existe pour TITLE_IMAGE."
+        "reason": "Bloc d'étude TITLE_IMAGE non pris en charge, sans contenu, titre ni URL d'image dans la source brute — un emplacement vide sans rien à afficher ; aucun moteur de rendu n'existe pour TITLE_IMAGE."
       },
       {
         "sourceIndex": 6,
-        "reason": "Bloc d'étude STRIPED_BLOCK non pris en charge ('À retenir : le Shourouk et le Holam Male...') — StudyBlock.astro n'a pas de moteur de rendu pour STRIPED_BLOCK."
+        "reason": "Bloc d'étude STRIPED_BLOCK non pris en charge ('À retenir : le Shourouk et le Holam Male...') — StudyBlock.astro n'a pas de moteur de rendu pour STRIPED_BLOCK."
       }
     ],
     "exercises": []

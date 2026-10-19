@@ -14,7 +14,7 @@ const privacyHref = locale === 'fr' ? '/fr/confidentialite/' : '/website-privacy
      region (see analytics-consent.ts) with no stored choice yet. The footer's
      "Privacy choices" button (Footer.astro) reopens it for anyone, anywhere,
      to change their choice. -->
-<div id="consent-banner" class="consent-banner" role="region" aria-label="Analytics consent" hidden>
+<div id="consent-banner" class="consent-banner" role="region" aria-label={t.common.aria.consent} hidden>
   <p class="consent-banner-text">
     {t.consent.text}
     <a href={privacyHref}>{t.consent.privacyPolicy}</a>

@@ -35,6 +35,40 @@ If you believe an exception is truly needed, stop and ask the user first.
 If this file or `AGENTS.md` already has other rules when you go to edit
 either one, merge with those rules — don't drop them.
 
+# Bilingual (en / fr)
+
+Read `docs/I18N.md` before adding or changing any page in either
+language — it is the single source of truth for the URL scheme, the
+shared-template + dictionary pattern, parity rules, per-locale SEO rules
+and how to add a letter or page in both languages.
+
+- EN is unprefixed and never changes; FR lives under `/fr/` with
+  localized path segments. Letter slugs are shared across locales;
+  only the display name differs (`src/i18n/fr-letters.ts`).
+- One shared template renders both locales, with a thin per-locale page
+  wrapper passing `locale`. Never fork a page to translate it.
+- All user-visible strings — including `aria-label`, `alt` and `title` —
+  come from `src/i18n/{en,fr}.ts`. Never inline an English literal in a
+  shared component. Client-side modules get their strings from the page
+  (a JSON payload or `data-*` attributes), never a hardcoded language.
+- A FR page links to FR pages; an intentional FR→EN link is labelled
+  `(en anglais)` (or `version anglaise` on the legal pages). hreflang is
+  reciprocal (en + fr + x-default) or absent.
+- French high punctuation takes a no-break space (before `:` `;` `?` `!`
+  `»`, after `«`); FR copy uses `tu`, except the legal pages, which use
+  `vous`. See `docs/hebrew-alphabet-editorial-rules.fr.md`.
+- `src/content/lessons/**` is generated — never hand-edit it. Change the
+  editorial data file and re-run
+  `node scripts/normalize-lesson.mjs <slug> --locale fr`.
+- Run `npm run check:i18n` before reporting any bilingual or SEO task
+  done. It also runs in `postbuild` (so it fails `npm run build`) and in
+  the deploy workflow. It reads `dist/`, which is why it is `postbuild`
+  and not `prebuild` like `check:layout`.
+
+Never add or widen a check-i18n ALLOWLIST entry yourself. Fix the code.
+If you believe an exception is truly needed, stop and ask the user
+first. Open, allowlisted gaps are listed in `docs/I18N.md` §8.
+
 # SEO semantic core
 
 `docs/seo/core/*.csv` (`keywords.csv`, `pages.csv`, `clusters.csv`) is

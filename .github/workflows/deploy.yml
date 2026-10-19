@@ -36,6 +36,11 @@ jobs:
       - name: Build
         run: npm run build
 
+      # `npm run build` already runs this via postbuild; kept as its own step so
+      # a bilingual/SEO violation is reported under its own name in the run log.
+      - name: Check i18n guardrails
+        run: npm run check:i18n
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

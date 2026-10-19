@@ -2,8 +2,8 @@ import { createHash } from 'node:crypto';
 import { phraseGroups, phraseDialogues, phraseExercises, phraseQuestions, phraseReview, frPhraseExercises, frPhraseQuestions, phraseReviewFr } from '../data/hebrew-phrases.ts';
 
 export const phrasesPath = '/learn/hebrew-phrases/';
-export const phrasesTitle = 'Hebrew Phrases for Beginners: 30 Useful Phrases | HebrewEdu';
-export const phrasesDescription = 'Learn 30 everyday Hebrew phrases with English meanings, transliteration and beginner-friendly usage notes. Try a short practice exercise, then keep learning.';
+export const phrasesTitle = 'Hebrew Phrases for Beginners: 30 Useful Phrases';
+export const phrasesDescription = 'Learn 30 everyday Hebrew phrases with English meanings, transliteration and beginner usage notes. Try a short practice exercise, then keep learning.';
 export const phraseContentSha256 = createHash('sha256').update(JSON.stringify({ phraseGroups, phraseDialogues, phraseExercises, phraseQuestions })).digest('hex');
 
 export const phrasesPathFr = '/fr/apprendre/phrases-hebreu/';

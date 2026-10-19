@@ -1,7 +1,7 @@
 {
   "slug": "bet",
-  "title": "Beth (ב) : lettre hébraïque, son et exemples",
-  "description": "Apprends la lettre hébraïque Beth (ב) : comment le Dagesh change sa prononciation entre [b] et [v], avec explications simples, mots d'exemple et exercices.",
+  "title": "Beth (ב) : lettre hébraïque, son et exemples",
+  "description": "Apprends la lettre hébraïque Beth (ב) : comment le Dagesh change sa prononciation entre [b] et [v], avec explications simples, mots d'exemple et exercices.",
   "editorialIssues": [
     {
       "id": "unintroduced-letters",
@@ -16,7 +16,7 @@
     {
       "id": "english-leftover-matchpairs-fixed-upstream",
       "summary": "Exercice MATCH_PAIRS restauré (clés corrigées côté admin)",
-      "detail": "Les clés de l'exercice MATCH_PAIRS source utilisaient les abréviations anglaises « w/ » et « w/o » (ex. « (א) w/ Patah »), affichées telles quelles aux lecteurs francophones ; auparavant retenu faute de voie de correction (contentOverrides ne patch pas les données pairs). Corrigé en amont dans l'admin (clés désormais language-neutral : אַ, ב, בּ) ; snapshot FR re-synchronisé (2026-10-19T14-27-18-905Z-bdf614-fr) et exercice restauré."
+      "detail": "Les clés de l'exercice MATCH_PAIRS source utilisaient les abréviations anglaises « w/ » et « w/o » (ex. « (א) w/ Patah »), affichées telles quelles aux lecteurs francophones ; auparavant retenu faute de voie de correction (contentOverrides ne patch pas les données pairs). Corrigé en amont dans l'admin (clés désormais language-neutral : אַ, ב, בּ) ; snapshot FR re-synchronisé (2026-10-19T14-27-18-905Z-bdf614-fr) et exercice restauré."
     }
   ],
   "illustrations": {
@@ -39,7 +39,7 @@
   },
   "contentOverrides": {
     "blocks": {
-      "0": "Beth (ב) : lettre hébraïque, son et exemples"
+      "0": "Beth (ב) : lettre hébraïque, son et exemples"
     },
     "exercises": {
       "8": {
@@ -77,10 +77,10 @@
   "copy": {
     "theory": {
       "heading": "Découvre Beth",
-      "intro": "La deuxième lettre de l'alphabet hébreu : Beth (Beit). Elle est l'une des rares lettres qui peuvent se prononcer de deux façons différentes.",
+      "intro": "La deuxième lettre de l'alphabet hébreu : Beth (Beit). Elle est l'une des rares lettres qui peuvent se prononcer de deux façons différentes.",
       "objectivesHeading": "Ce que tu vas apprendre",
       "objectives": [
-        "Reconnaître Beth : <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ב</bdi>.",
+        "Reconnaître Beth : <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ב</bdi>.",
         "Distinguer Beth avec un dagesh (<bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">בּ</bdi>, [b]) de Beth sans dagesh (<bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ב</bdi>, [v]).",
         "Lire le dagesh dans de vrais mots comme <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">אַבָּא</bdi> (papa)."
       ],
@@ -96,7 +96,7 @@
     "blocks": [
       {
         "sourceIndex": 14,
-        "reason": "Duplique l'exemple בָּא du bloc 5 (même mot, même transcription, traduction quasi identique) ; retenu plutôt que de republier un doublon."
+        "reason": "Duplique l'exemple בָּא du bloc 5 (même mot, même transcription, traduction quasi identique) ; retenu plutôt que de republier un doublon."
       }
     ],
     "exercises": []

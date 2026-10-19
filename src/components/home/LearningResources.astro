@@ -1,7 +1,7 @@
 ---
 import Section from '../ui/Section.astro';
 import SectionHeading from '../ui/SectionHeading.astro';
-import { phrasesPath, phrasesPublished } from '../../lib/hebrew-phrases.mjs';
+import { phrasesPath, phrasesPublished, phrasesPathFr, phrasesPublishedFr } from '../../lib/hebrew-phrases.mjs';
 import { getDictionary, type Locale } from '../../i18n';
 
 interface Props {
@@ -10,9 +10,16 @@ interface Props {
 const { locale = 'en' } = Astro.props;
 const t = getDictionary(locale).home.resources;
 
+// The phrases card points at this locale's own phrases page, gated on that
+// locale's publication state — a FR home must not send readers to the EN page
+// when /fr/apprendre/phrases-hebreu/ exists (docs/I18N.md: parity rules).
+const phrasesForLocale = locale === 'fr'
+  ? { published: phrasesPublishedFr(), href: phrasesPathFr }
+  : { published: phrasesPublished(), href: phrasesPath };
+
 const resources = [
   ...t.items,
-  ...(phrasesPublished() ? [{ href: phrasesPath, ...t.phrasesItem }] : []),
+  ...(phrasesForLocale.published ? [{ href: phrasesForLocale.href, ...t.phrasesItem }] : []),
 ];
 ---
 
