@@ -1,14 +1,16 @@
 ---
 title: "How to Learn Hebrew Vocabulary That Actually Sticks"
-seoTitle: "How to Learn Hebrew Vocabulary That Sticks | HebrewEdu"
+seoTitle: "How to Learn Hebrew Vocabulary That Sticks"
 description: "Learn Hebrew vocabulary with frequency, roots, active recall, context sentences and spaced repetition techniques designed for long-term retention."
 pubDate: 2026-05-26
 updatedDate: 2026-10-02
 author: "HebrewEdu Team"
 category: "Hebrew Learning"
+categoryKey: "hebrewLearning"
 readingTime: "9 min read"
 featured: false
 tags: ["Hebrew vocabulary", "learn Hebrew", "Hebrew study tips", "vocabulary building", "Hebrew for beginners"]
+translationKey: "how-to-learn-hebrew-vocabulary"
 ---
 
 Most learners know they need to build vocabulary.

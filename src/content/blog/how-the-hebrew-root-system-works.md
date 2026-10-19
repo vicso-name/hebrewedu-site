@@ -4,9 +4,11 @@ description: "Once you understand Hebrew roots (shorashim), vocabulary stops fee
 pubDate: 2026-05-19
 author: "HebrewEdu Team"
 category: "Hebrew Learning"
+categoryKey: "hebrewLearning"
 readingTime: "8 min read"
 featured: false
 tags: ["Hebrew root system", "shorashim", "Hebrew vocabulary", "learn Hebrew", "Hebrew word patterns"]
+translationKey: "how-the-hebrew-root-system-works"
 ---
 
 There is a specific moment that changes how Hebrew learners see the language.

@@ -27,11 +27,13 @@ function validateLastmod(date: string): string {
 
 export const GET: APIRoute = async () => {
   const posts = await getCollection('blog');
+  const postsFr = await getCollection('blogFr');
 
   // New publications change the listing; article body edits do not.
-  const sorted = posts.sort(
-    (a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()
-  );
+  const byNewest = <T extends { data: { pubDate: Date } }>(entries: T[]) =>
+    [...entries].sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+  const sorted = byNewest(posts);
+  const sortedFr = byNewest(postsFr);
 
   const latestPostDate = sorted.length > 0
     ? toDateString(sorted[0].data.pubDate)
@@ -41,6 +43,18 @@ export const GET: APIRoute = async () => {
     .filter((date): date is string => date !== undefined)
     .map(validateLastmod);
   const blogIndexLastmod = listingDates.sort().at(-1);
+
+  // /fr/blog/ only exists once there is an FR post — the route itself is
+  // omitted until then (src/pages/fr/blog/[...index].astro), so the sitemap
+  // must not list it either.
+  const frBlogListing = sortedFr.length > 0
+    ? [{
+        url: '/fr/blog/',
+        priority: '0.8',
+        changefreq: 'weekly',
+        lastmod: toDateString(sortedFr[0].data.pubDate),
+      }]
+    : [];
 
   const staticPages = [
     { url: '/play/', priority: '0.8', changefreq: 'monthly', lastmod: pageUpdatedDates['/play/'] },
@@ -110,8 +124,15 @@ export const GET: APIRoute = async () => {
     lastmod: [toDateString(post.data.updatedDate ?? post.data.pubDate), ...(post.id === 'how-to-learn-hebrew-vocabulary' && pageUpdatedDates['/learn/hebrew-phrases/'] ? [pageUpdatedDates['/learn/hebrew-phrases/']!] : [])].sort().at(-1),
   }));
 
+  const blogPagesFr = sortedFr.map((post) => ({
+    url: `/fr/blog/${post.id}/`,
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: [toDateString(post.data.updatedDate ?? post.data.pubDate), ...(post.data.translationKey === 'how-to-learn-hebrew-vocabulary' && pageUpdatedDates['/fr/apprendre/phrases-hebreu/'] ? [pageUpdatedDates['/fr/apprendre/phrases-hebreu/']!] : [])].sort().at(-1),
+  }));
+
   // Preview flags never affect indexing; only the explicit approved release manifest does.
-  const allPages = [...staticPages, ...blogPages, ...courseSitemapEntries(), ...phrasesSitemapEntries(), ...phrasesSitemapEntriesFr()];
+  const allPages = [...staticPages, ...frBlogListing, ...blogPages, ...blogPagesFr, ...courseSitemapEntries(), ...phrasesSitemapEntries(), ...phrasesSitemapEntriesFr()];
   for (const page of allPages) {
     if (page.lastmod !== undefined) validateLastmod(page.lastmod);
   }

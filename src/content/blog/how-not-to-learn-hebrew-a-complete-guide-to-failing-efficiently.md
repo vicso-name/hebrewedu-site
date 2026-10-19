@@ -4,9 +4,11 @@ description: "A humorous guide to the Hebrew learning habits that keep beginners
 pubDate: 2026-05-13
 author: "HebrewEdu Team"
 category: "Hebrew Learning"
+categoryKey: "hebrewLearning"
 readingTime: "8 min read"
 featured: false
 tags: ["learn Hebrew", "Hebrew learning mistakes", "Hebrew study tips", "beginner Hebrew"]
+translationKey: "how-not-to-learn-hebrew-a-complete-guide-to-failing-efficiently"
 ---
 
 Learning Hebrew is absolutely possible.

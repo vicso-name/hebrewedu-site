@@ -1,14 +1,16 @@
 ---
 title: "How to Read Hebrew Without Vowels (and Why It Gets Easier)"
-seoTitle: "How to Read Hebrew Without Vowels | HebrewEdu"
+seoTitle: "How to Read Hebrew Without Vowels"
 description: "Learn how Hebrew readers understand text without Nikud, why vowel points are usually omitted, and how beginners can practise reading unvoweled Hebrew."
 pubDate: 2026-05-19
 updatedDate: 2026-10-02
 author: "HebrewEdu Team"
 category: "Hebrew Reading"
+categoryKey: "hebrewReading"
 readingTime: "10 min read"
 featured: true
 tags: ["Hebrew vowels", "nikud", "Hebrew reading", "learn Hebrew", "Hebrew for beginners"]
+translationKey: "why-hebrew-without-vowels-looks-impossible-until-your-brain-adapts"
 ---
 
 There is a specific moment that emotionally damages almost every Hebrew learner.

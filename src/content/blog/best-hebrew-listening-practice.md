@@ -4,9 +4,11 @@ description: "What Hebrew listening practice actually works for beginners? A lev
 pubDate: 2026-05-25
 author: "HebrewEdu Team"
 category: "Hebrew Learning"
+categoryKey: "hebrewLearning"
 readingTime: "8 min read"
 featured: false
 tags: ["Hebrew listening practice", "Hebrew for beginners", "spoken Hebrew", "Hebrew comprehension", "learn Hebrew"]
+translationKey: "best-hebrew-listening-practice"
 ---
 
 There is a version of Hebrew listening practice that feels deeply productive and produces almost no results.

@@ -4,9 +4,11 @@ description: "Many beginners think they accidentally started learning a second a
 pubDate: 2026-05-22
 author: "HebrewEdu Team"
 category: "Hebrew Alphabet"
+categoryKey: "hebrewAlphabet"
 readingTime: "9 min read"
 featured: true
 tags: ["Hebrew handwriting", "Hebrew cursive", "ktav yad", "Hebrew alphabet", "learn Hebrew"]
+translationKey: "why-hebrew-handwriting-looks-completely-different-from-printed-hebrew"
 ---
 
 There’s a very specific emotional experience almost every Hebrew learner eventually goes through.

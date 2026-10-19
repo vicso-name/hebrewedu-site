@@ -1,24 +1,32 @@
 ---
-import { formatPostDate, type BlogPost } from '../../lib/blog';
+import { blogPath, formatPostDate, type BlogPost } from '../../lib/blog';
+import { getDictionary, type Locale } from '../../i18n';
 
 interface Props {
   post: BlogPost;
+  locale?: Locale;
 }
 
-const { post } = Astro.props;
-const { title, description, pubDate, category, readingTime } = post.data;
+const { post, locale = 'en' } = Astro.props;
+const { title, description, pubDate, category, categoryKey, readingTime } = post.data;
+const t = getDictionary(locale);
+// `categoryKey` keeps the two locales on one taxonomy; `category` is the label
+// for a post that predates the key (src/content.config.ts).
+const categoryLabel = categoryKey
+  ? t.blog.categories[categoryKey as keyof typeof t.blog.categories] ?? category
+  : category;
 ---
 
 <!-- Styles live in src/styles/blog.css. The title link is stretched over the
      whole card, so the card is clickable without nesting links. -->
 <article class="blog-card">
   <div class="blog-card-top">
-    <span class="blog-label">{category}</span>
+    <span class="blog-label">{categoryLabel}</span>
     <span class="blog-card-reading">{readingTime}</span>
   </div>
   <h3 class="blog-card-title">
-    <a href={`/blog/${post.id}/`} class="blog-card-link">{title}</a>
+    <a href={`${blogPath(locale)}${post.id}/`} class="blog-card-link">{title}</a>
   </h3>
   <p class="blog-card-excerpt">{description}</p>
-  <time class="blog-card-date" datetime={pubDate.toISOString()}>{formatPostDate(pubDate)}</time>
+  <time class="blog-card-date" datetime={pubDate.toISOString()}>{formatPostDate(pubDate, locale)}</time>
 </article>

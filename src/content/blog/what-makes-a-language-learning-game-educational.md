@@ -1,13 +1,15 @@
 ---
 title: "What Makes a Language-Learning Game Educational?"
-seoTitle: "What Makes a Language-Learning Game Educational? | HebrewEdu"
+seoTitle: "What Makes a Language-Learning Game Educational?"
 description: "Beyond rewards and level counts: a founder’s practical framework for language-learning games, from meaningful actions to recognizing language outside the game."
 pubDate: 2026-10-08
 author: "HebrewEdu Team"
 category: "Learning Design"
+categoryKey: "learningDesign"
 readingTime: "13 min read"
 showAppCta: false
 tags: ["language-learning games", "educational game design", "teaching philosophy"]
+translationKey: "what-makes-a-language-learning-game-educational"
 ---
 
 “Dad, now I’ll be able to read Hebrew.”

@@ -189,30 +189,38 @@ const BRAND_SUFFIX = /\s[|–—-]\s*HebrewEdu(\s+Blog)?\s*$/;
 // counterparts) whose titles still carry the brand suffix. Retargeting a
 // ranking page's <title> is an SEO decision, not a lint fix — tracked for the
 // owner, see docs/I18N.md.
+//
+// The blog-wide "… | HebrewEdu Blog" convention is gone (the FR-blog
+// infrastructure step dropped it from the shared template, from the
+// hand-written seoTitles and from the listing), so only the one post the owner
+// held back is still listed here.
 const BRAND_SUFFIX_ALLOWLIST = new Map([
-  ['/blog/', 'blog listing — pre-existing, pending an owner SEO decision'],
+  ['/blog/hebrew-alphabet-complete-guide/', 'owner decision: this post keeps the brand suffix until end of October 2026'],
   ['/play/', 'games hub — pre-existing, pending an owner SEO decision'],
   ['/play/alef-bet-rush/', 'game page — pre-existing, pending an owner SEO decision'],
 ]);
-for (const page of indexable) {
-  if (page.url.startsWith('/blog/') && page.url !== '/blog/') {
-    BRAND_SUFFIX_ALLOWLIST.set(page.url, 'blog post — pre-existing "| HebrewEdu Blog" convention, pending an owner SEO decision');
-  }
-}
 
-// The blog predates this guardrail: 19 posts share a "… | HebrewEdu Blog"
-// convention that pushes most titles past 60 chars, and several meta
-// descriptions sit a few chars over. Retitling ranking posts is a blog-wide SEO
-// pass the owner has to sign off on, so the blog is exempt from the length and
-// h1-count rules (not from the locale/canonical/hreflang rules above).
-// Tracked in docs/I18N.md "Known gaps".
-const LENGTH_EXEMPT_PREFIXES = ['/blog/'];
-const lengthExempt = (url) => LENGTH_EXEMPT_PREFIXES.some((p) => url.startsWith(p));
+// Per-URL, not per-prefix: dropping the brand suffix brought every blog title
+// but one under 60, and gave every post exactly one <h1>, so the blog now
+// passes the h1 rule outright and needs no length exemption beyond these rows.
+// A FR post gets no exemption at all — FR titles are written to the limit.
+const TITLE_LENGTH_ALLOWLIST = new Map([
+  ['/blog/hebrew-alphabet-complete-guide/', 'owner-held brand suffix (above) is what pushes it to 72; the title itself is 55'],
+]);
+// Meta descriptions a few characters over, from before this guardrail existed.
+// Trimming a ranking post's description is an SEO edit, not a lint fix.
+const DESCRIPTION_LENGTH_ALLOWLIST = new Map([
+  ['/blog/how-to-read-hebrew-nikud/', 'pre-existing 159-char description, pending an owner SEO decision'],
+  ['/blog/learn-hebrew-alphabet-7-days/', 'pre-existing 158-char description, pending an owner SEO decision'],
+  ['/blog/meet-the-new-verb-directory/', 'pre-existing 159-char description, pending an owner SEO decision'],
+  ['/blog/what-makes-a-language-learning-game-educational/', 'pre-existing 159-char description, pending an owner SEO decision'],
+  ['/blog/why-hebrew-sounds-so-fast/', 'pre-existing 157-char description, pending an owner SEO decision'],
+]);
 
 const titleOwners = new Map();
 for (const page of indexable) {
   if (!page.title) { report('title-missing', page, 'no <title>'); continue; }
-  if (page.title.length > TITLE_MAX && !lengthExempt(page.url)) report('title-length', page, `<title> is ${page.title.length} chars (max ${TITLE_MAX}): "${page.title}"`);
+  if (page.title.length > TITLE_MAX && !TITLE_LENGTH_ALLOWLIST.has(page.url)) report('title-length', page, `<title> is ${page.title.length} chars (max ${TITLE_MAX}): "${page.title}"`);
   if (BRAND_SUFFIX.test(page.title) && !BRAND_SUFFIX_ALLOWLIST.has(page.url)) {
     report('title-brand-suffix', page, `<title> ends in the brand suffix: "${page.title}" — the site name belongs to og:site_name / the WebSite schema`);
   }
@@ -225,9 +233,9 @@ for (const page of indexable) {
   else titleOwners.set(page.title, page.url);
 
   if (!page.description) report('description-missing', page, 'no meta description');
-  else if (page.description.length > DESCRIPTION_MAX && !lengthExempt(page.url)) report('description-length', page, `meta description is ${page.description.length} chars (max ${DESCRIPTION_MAX})`);
+  else if (page.description.length > DESCRIPTION_MAX && !DESCRIPTION_LENGTH_ALLOWLIST.has(page.url)) report('description-length', page, `meta description is ${page.description.length} chars (max ${DESCRIPTION_MAX})`);
 
-  if (page.h1s.length !== 1 && !lengthExempt(page.url)) report('h1-count', page, `${page.h1s.length} <h1> elements, expected exactly 1`);
+  if (page.h1s.length !== 1) report('h1-count', page, `${page.h1s.length} <h1> elements, expected exactly 1`);
 }
 
 // ───────────────────────────────────────────────────────────────────────────
@@ -378,13 +386,29 @@ for (const page of pages.filter((p) => p.locale === 'fr')) {
 // src/lib/fr-typography.mjs. Keep this empty — fix the source or the filter.
 const TYPOGRAPHY_ALLOWLIST = new Map([]);
 
-for (const page of pages.filter((p) => p.locale === 'fr')) {
-  if (TYPOGRAPHY_ALLOWLIST.has(page.url)) continue;
-  const text = visibleText(page.html).replace(/[ \t]+/g, ' ');
+/** The same two rules, over one string. Returns human-readable hits. */
+function typographyHits(raw) {
+  const text = raw.replace(/[ \t]+/g, ' ');
   const hits = new Set();
   for (const m of text.matchAll(/\S ([:;?!»])/g)) hits.add(`a plain space before "${m[1]}" near "${text.slice(Math.max(0, m.index - 40), m.index + 10).trim()}"`);
   for (const m of text.matchAll(/« /g)) hits.add(`a plain space after "«" near "${text.slice(Math.max(0, m.index - 10), m.index + 40).trim()}"`);
-  for (const hit of hits) report('fr-typography', page, `${hit} — French high punctuation takes a no-break space (\\u00A0)`);
+  return hits;
+}
+
+for (const page of pages.filter((p) => p.locale === 'fr')) {
+  if (TYPOGRAPHY_ALLOWLIST.has(page.url)) continue;
+  // Body copy. visibleText() strips <head>, so the metadata below is checked
+  // separately — a blog post's title and description come from its frontmatter,
+  // which never reaches the page body and so would otherwise go unchecked.
+  for (const hit of typographyHits(visibleText(page.html))) {
+    report('fr-typography', page, `${hit} — French high punctuation takes a no-break space (\\u00A0)`);
+  }
+  for (const [field, value] of [['<title>', page.title], ['meta description', page.description], ['og:title', page.ogTitle]]) {
+    if (!value) continue;
+    for (const hit of typographyHits(value)) {
+      report('fr-typography-head', page, `${field}: ${hit} — French high punctuation takes a no-break space (\\u00A0)`);
+    }
+  }
 }
 
 // ───────────────────────────────────────────────────────────────────────────

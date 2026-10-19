@@ -267,6 +267,47 @@ export interface Dictionary {
       addressee: { male: string; female: string };
     };
   };
+  /** Blog chrome, rendered by the shared BlogIndexPage/BlogPostPage templates
+   *  for both /blog/ and /fr/blog/. Article bodies are content (the `blog` /
+   *  `blogFr` collections), never dictionary entries. */
+  blog: {
+    /** <title>/og:title and meta description for this locale's listing page. */
+    indexTitle: string;
+    indexDescription: string;
+    eyebrow: string;
+    h1: string;
+    lead: string;
+    /** Shown instead of the listing when this locale has no published post yet. */
+    emptyTitle: string;
+    emptyBody: string;
+    latestHeading: string;
+    featuredFlag: string;
+    readArticle: string;
+    /** Separator between `readArticle` and the post title in the featured
+     *  card's screen-reader-only suffix. Locale-dependent typography: French
+     *  high punctuation takes a no-break space before the colon. */
+    readArticleTitlePrefix: string;
+    allArticles: string;
+    relatedHeading: string;
+    faqTitle: string;
+    ctaText: string;
+    /** Cross-link the vocabulary post adds to this locale's phrases page.
+     *  `{link}` is replaced with an <a> whose label is `phrasesPromptLink`. */
+    phrasesPrompt: string;
+    phrasesPromptLink: string;
+    /** `categoryKey` in a post's frontmatter resolves here, so the EN and FR
+     *  category taxonomies stay a single list instead of two free-text sets. */
+    categories: {
+      hebrewLearning: string;
+      hebrewReading: string;
+      hebrewAlphabet: string;
+      alphabetGuide: string;
+      studyGuide: string;
+      productUpdates: string;
+      founderStory: string;
+      learningDesign: string;
+    };
+  };
 }
 
 import { en } from './en';

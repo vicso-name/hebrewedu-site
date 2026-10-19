@@ -1,0 +1,21 @@
+---
+// FR blog listing (/fr/blog/) — a thin wrapper over the shared template.
+//
+// A rest parameter lets this index route be omitted entirely: until the first
+// FR post exists, `getStaticPaths` returns no path and /fr/blog/ is not built,
+// so there is no empty FR listing to index and no half-paired hreflang. Same
+// device as src/pages/learn/hebrew-alphabet/[...hub].astro.
+//
+// When the first FR post lands, this route starts building and needs, in the
+// same change: hreflang alternates here and on /blog/, a row in
+// docs/seo/core/pages.csv (check:i18n rule 11 requires one for every indexable
+// FR page), and the FR Nav/Footer "Blog (en anglais)" labels flipped to /fr/blog/.
+import { getCollection } from 'astro:content';
+import BlogIndexPage from '../../../components/blog/BlogIndexPage.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blogFr');
+  return posts.length > 0 ? [{ params: { index: undefined } }] : [];
+}
+---
+<BlogIndexPage locale="fr" />

@@ -58,6 +58,10 @@ const LAYOUT_WRAPPERS = [
   // FR phrases: the shared phrases-page template (src/pages/learn/hebrew-phrases/[...landing].astro
   // and src/pages/fr/apprendre/phrases-hebreu/[...landing].astro both render through it).
   'components/phrases/PhrasesPage.astro',
+  // FR blog: the shared blog templates (src/pages/blog/{index,[slug]}.astro and
+  // src/pages/fr/blog/{[...index],[slug]}.astro render through them).
+  'components/blog/BlogIndexPage.astro',
+  'components/blog/BlogPostPage.astro',
 ];
 
 const pagesDir = resolve(srcDir, 'pages');

@@ -4,9 +4,11 @@ description: "A practical, day-by-day plan for learning all 22 Hebrew letters in
 pubDate: 2025-07-08
 author: "HebrewEdu Team"
 category: "Study Guide"
+categoryKey: "studyGuide"
 readingTime: "7 min read"
 featured: false
 tags: ["Hebrew alphabet", "learn Hebrew", "Hebrew study plan", "Aleph Bet", "Hebrew for beginners"]
+translationKey: "learn-hebrew-alphabet-7-days"
 ---
 
 Seven days is a bold claim. Let's be honest about what it means.

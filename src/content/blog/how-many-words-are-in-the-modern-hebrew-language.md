@@ -4,9 +4,11 @@ description: "A realistic look at the size of Modern Hebrew vocabulary — and h
 pubDate: 2026-05-15
 author: "HebrewEdu Team"
 category: "Hebrew Learning"
+categoryKey: "hebrewLearning"
 readingTime: "11 min read"
 featured: true
 tags: ["Hebrew vocabulary", "modern Hebrew", "learn Hebrew", "Hebrew words", "Hebrew fluency"]
+translationKey: "how-many-words-are-in-the-modern-hebrew-language"
 ---
 
 There’s a strange obsession language learners have with numbers.

@@ -14,6 +14,7 @@ import Section from '../ui/Section.astro';
 import StudyBlock from './StudyBlock.astro';
 import Practice from './Practice.astro';
 import { unavailableQuestions } from '../../lib/lessons/presentation.mjs';
+import { localizeTypography } from '../../lib/fr-typography.mjs';
 import '../../styles/lesson-poc.css';
 import { getDictionary, type Locale, type Alternate } from '../../i18n';
 
@@ -85,6 +86,12 @@ const theorySections = theoryIndices.slice(1).map((sourceIndex: number, index: n
 // Gradeable question count, mirroring Practice.astro — the results panel's initial
 // "unanswered" figure must match the lesson's real exercise count, not a fixed one.
 const availableCount = lesson.exercises.filter((exercise: any) => !unavailableQuestions.has(exercise.id)).length;
+// The lesson snapshot is generated (src/content/lessons/fr/**) and verified
+// against a pinned raw SHA, so its French typography is corrected on the way to
+// the page, exactly as StudyBlock/Practice do for the body copy it feeds them.
+const lessonTitle = localizeTypography(locale, lesson.title);
+const lessonDescription = localizeTypography(locale, lesson.description);
+
 const pageUrl = `https://hebrewedu.com${coursePath}${lesson.id}/`;
 const schema = {
   '@context': 'https://schema.org',
@@ -93,11 +100,11 @@ const schema = {
       '@type': 'LearningResource',
       '@id': `${pageUrl}#lesson`,
       url: pageUrl,
-      name: lesson.title,
-      description: lesson.description,
+      name: lessonTitle,
+      description: lessonDescription,
       inLanguage: locale,
       educationalLevel: 'Beginner',
-      teaches: `${t.lesson.breadcrumbRoot}: ${letterName}`,
+      teaches: localizeTypography(locale, `${t.lesson.breadcrumbRoot}: ${letterName}`),
       isPartOf: `https://hebrewedu.com${coursePath}`,
     },
     {
@@ -112,8 +119,8 @@ const schema = {
 };
 ---
 <Layout
-  title={lesson.title}
-  description={lesson.description}
+  title={lessonTitle}
+  description={lessonDescription}
   robots={published ? 'index, follow' : 'noindex, nofollow, noarchive'}
   schema={schema}
   locale={locale}

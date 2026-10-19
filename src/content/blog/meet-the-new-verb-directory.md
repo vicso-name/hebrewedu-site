@@ -4,12 +4,14 @@ description: "The new Alef-Bet Tutor Verb Directory organizes 334 essential Hebr
 pubDate: 2026-05-17
 author: "HebrewEdu Team"
 category: "Product Updates"
+categoryKey: "productUpdates"
 readingTime: "6 min read"
 featured: true
 tags: ["Hebrew verbs", "Binyanim", "Hebrew grammar", "Alef-Bet Tutor", "learn Hebrew"]
+translationKey: "meet-the-new-verb-directory"
 ---
 
-# Hebrew Verbs Are Hard. We Decided to Fix That.
+## Hebrew Verbs Are Hard. We Decided to Fix That.
 
 If you’ve ever tried learning Hebrew seriously, you probably know the exact moment things get intimidating. It usually arrives after the alphabet and core vocabulary phases — and [how many Hebrew words you actually need](/blog/how-many-words-are-in-the-modern-hebrew-language/) before verbs become the real bottleneck is a more manageable number than most learners expect.
 
@@ -46,7 +48,7 @@ That question became one of the biggest updates we’ve ever built for **Alef-Be
 
 ---
 
-# Introducing the New Hebrew Verb Directory in Alef-Bet Tutor
+## Introducing the New Hebrew Verb Directory in Alef-Bet Tutor
 
 We’re incredibly excited to launch the brand-new **Verb Directory** — a beautifully structured, beginner-friendly system designed to make Hebrew verbs finally feel understandable.
 
@@ -64,9 +66,9 @@ Everything is designed with the same philosophy behind Alef-Bet Tutor itself:
 
 ---
 
-# What Makes the Alef-Bet Tutor Verb Directory Different?
+## What Makes the Alef-Bet Tutor Verb Directory Different?
 
-## **334 Essential Hebrew Verbs**
+### **334 Essential Hebrew Verbs**
 
 We focused on the verbs learners actually need most.
 
@@ -80,7 +82,7 @@ These are high-frequency verbs used in:
 
 ---
 
-## **Color-Coded Binyanim**
+### **Color-Coded Binyanim**
 
 One of the hardest parts of Hebrew is understanding verb groups (*Binyanim*).
 
@@ -100,7 +102,7 @@ Your brain starts seeing structure instead of chaos.
 
 ---
 
-## **Roots, Nikud & Better Pronunciation**
+### **Roots, Nikud & Better Pronunciation**
 
 Every verb card includes:
 - the **Hebrew root**,
@@ -114,7 +116,7 @@ Hebrew is challenging enough already.
 
 ---
 
-## **All 28 Conjugation Forms**
+### **All 28 Conjugation Forms**
 
 Yes — all of them.
 
@@ -130,7 +132,7 @@ It becomes a real Hebrew verb reference system you can rely on daily. Understand
 
 ---
 
-## **Instant Smart Search**
+### **Instant Smart Search**
 
 Need a specific verb?
 
@@ -147,7 +149,7 @@ No “where did I see that verb again?” moments.
 
 ---
 
-# Built for Modern Hebrew Learners
+## Built for Modern Hebrew Learners
 
 The verb directory is part of a longer teaching story. Read [how Learn Hebrew – Read & Speak grew from an alphabet trainer into a broader learning system](/blog/story-behind-learn-hebrew-read-speak/) for the creator’s perspective.
 
@@ -168,7 +170,7 @@ this update was built for you.
 
 ---
 
-# Ready to Finally Understand Hebrew Verbs?
+## Ready to Finally Understand Hebrew Verbs?
 
 The new Hebrew Verb Directory is now available in **Alef-Bet Tutor** on Google Play.
 
