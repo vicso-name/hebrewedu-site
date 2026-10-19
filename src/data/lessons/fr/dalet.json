@@ -1,0 +1,82 @@
+{
+  "slug": "dalet",
+  "title": "Daleth (ד) : lettre hébraïque, son et exemples",
+  "description": "Apprends la lettre hébraïque Daleth (ד) et son son [d], avec des mots comme דָּג (poisson) et אָבַד (perdu), et des exercices interactifs.",
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Affinage optionnel des exercices",
+      "detail": "Certains distracteurs de reconnaissance utilisent des lettres non encore introduites dans cette leçon. Le guidage pour débutants pourra être amélioré séparément de la synchronisation avec la source approuvée."
+    },
+    {
+      "id": "fr-typography",
+      "summary": "Espaces insécables avant la ponctuation et dans les guillemets français",
+      "detail": "La source brute FR utilise par endroits une espace normale avant les guillemets « » et avant « : » au lieu d'une espace insécable (convention typographique française, voir docs/hebrew-alphabet-editorial-rules.fr.md). Corrigé via contentOverrides (blocs 1, 5 et 7)."
+    }
+  ],
+  "illustrations": {},
+  "blockFlags": {},
+  "exerciseFlags": {
+    "1": [
+      "unintroduced-letters"
+    ],
+    "8": [
+      "unintroduced-letters"
+    ],
+    "11": [
+      "unintroduced-letters"
+    ]
+  },
+  "contentOverrides": {
+    "blocks": {
+      "0": "Daleth (ד) : lettre hébraïque, son et exemples",
+      "1": "Dalet (ד) est la quatrième lettre de l'alphabet hébreu. Elle représente le son [d]. En hébreu moderne, ד et דּ ont généralement cette même prononciation [d]. Le mot דֶּלֶת [delet] signifie « porte ». Sa prononciation diffère du nom de la lettre Dalet.",
+      "5": "Le mot דָּג [dag] signifie « poisson ». Dalet représente [d], et le Kamats Gadol (ָ) sous la lettre ajoute [a] : l'ensemble se lit [da]. Le Guimel final représente [g]. Le mot se lit [dag].",
+      "7": "Le mot אָבַד [avad] signifie « il s'est perdu » ou « il a disparu ». L'Alef avec Kamats Gadol (אָ) se lit [a]. Le Beit sans Dagesh se prononce [v] ; avec le Patah sous la lettre, il se lit [va]. Le Dalet final donne [d]. Le mot se lit en deux syllabes : [a-vad]."
+    },
+    "exercises": {}
+  },
+  "stageMap": {
+    "theory": [
+      0,
+      1,
+      2
+    ],
+    "examples": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "copy": {
+    "theory": {
+      "heading": "Découvre Daleth",
+      "intro": "La quatrième lettre de l'alphabet hébreu : Daleth (Dalet). Elle produit le son [d], et son nom signifie « porte ».",
+      "objectivesHeading": "Ce que tu vas apprendre",
+      "objectives": [
+        "Reconnaître Daleth : <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ד</bdi>.",
+        "Entendre son son [d], comme dans « danse ».",
+        "Lire Daleth dans de vrais mots comme <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">דָּג</bdi> (poisson)."
+      ],
+      "secondSectionHeading": "Comment se prononce Daleth",
+      "thirdSectionHeading": "Ce que symbolise Daleth"
+    },
+    "examples": {
+      "heading": "Daleth dans de vrais mots",
+      "intro": "Découvre Daleth dans deux nouveaux mots hébreux, et révise les signes vocaliques Patah et Kamats Gadol vus avec les lettres précédentes."
+    }
+  },
+  "holdOuts": {
+    "blocks": [],
+    "exercises": []
+  },
+  "source": {
+    "rawSnapshotPath": ".local/alphabet-course-imports/v1/2026-10-19T14-27-18-905Z-bdf614-fr/raw/lesson-4.raw.json",
+    "sha256": "e8aa2ff8c44818719a900c66d25b1dacf7f07d41bd229d8aa46723fa41cab8d1",
+    "responseDate": "2026-10-19T14:27:18.907Z"
+  }
+}

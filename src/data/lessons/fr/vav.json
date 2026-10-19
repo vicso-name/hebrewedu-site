@@ -1,0 +1,125 @@
+{
+  "slug": "vav",
+  "title": "Vav (ו) : lettre hébraïque, son et exemples",
+  "description": "Apprends la lettre hébraïque Vav (ו) et son [v], les signes vocaliques Holam Male et Shourouk ([o]/[u]), et des mots comme דּוֹב (ours), avec exercices.",
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Affinage optionnel des exercices",
+      "detail": "Certains distracteurs de reconnaissance utilisent des lettres non encore introduites dans cette leçon. Le guidage pour débutants pourra être amélioré séparément de la synchronisation avec la source approuvée."
+    },
+    {
+      "id": "unsupported-title-image",
+      "summary": "Deux blocs TITLE_IMAGE vides retenus",
+      "detail": "La source brute comporte deux blocs d'étude TITLE_IMAGE (sourceIndex 2 et 4) sans contenu, titre ni URL d'image — des emplacements vides sans rien à afficher. StudyBlock.astro n'a pas de moteur de rendu pour TITLE_IMAGE. Voir la revue éditoriale EN de He pour le suivi recommandé (docs/hebrew-alphabet-lesson-5-editorial-review.md)."
+    },
+    {
+      "id": "unsupported-striped-block",
+      "summary": "Un bloc STRIPED_BLOCK retenu",
+      "detail": "La source brute comporte un bloc d'étude STRIPED_BLOCK (sourceIndex 6, un encart « À retenir ») sans moteur de rendu dans StudyBlock.astro. Ce type apparaît aussi dans 7 autres leçons brutes non publiées — voir la revue éditoriale EN de Vav (docs/hebrew-alphabet-lesson-6-editorial-review.md) pour le suivi recommandé."
+    },
+    {
+      "id": "fr-typography",
+      "summary": "Espaces insécables avant la ponctuation et dans les guillemets français",
+      "detail": "La source brute FR utilise par endroits une espace normale autour des guillemets « » et avant « : »/« ; »/« ? » au lieu d'une espace insécable. Corrigé via contentOverrides (blocs 1, 11, 13 et exercices 1, 4, 5, 6, 10, 12). Certains libellés de choix (additionalData.choices) présentent la même espace normale mais ne peuvent pas être corrigés via contentOverrides — ce champ n'est pas surchargeable par le pipeline (seuls content/tip/correctAnswer le sont) ; défaut purement cosmétique, sans impact sur l'exactitude."
+    }
+  ],
+  "illustrations": {},
+  "blockFlags": {},
+  "exerciseFlags": {
+    "1": [
+      "unintroduced-letters"
+    ],
+    "10": [
+      "unintroduced-letters"
+    ]
+  },
+  "contentOverrides": {
+    "blocks": {
+      "0": "Vav (ו) : lettre hébraïque, son et exemples",
+      "1": "Vav (ו) est la sixième lettre de l'alphabet hébreu. Elle représente généralement la consonne [v]. Dans certains cas, elle peut aussi représenter [o] ou le son « ou » français. Dans les transcriptions de ce cours, ce son « ou » est noté [u], comme dans « loup ».",
+      "11": "Le mot דּוּד [dud] est composé de trois lettres : Dalet (ד), Vav (ו) et Dalet (ד). Dans cette transcription, [u] correspond au « ou » français : lis donc « doud ». Le premier Dalet se prononce [d], le Vav porte un Shourouk qui représente [u], et le dernier Dalet donne [d].",
+      "13": "Le mot וָו [vav] signifie « crochet ». Il est composé de deux Vav (ו). Le premier porte un Kamats Gadol (ָ), qui donne [va]. Le second représente la consonne [v]. Le mot se lit en une seule syllabe : [vav]."
+    },
+    "exercises": {
+      "1": {
+        "tip": "Le Holam Male (וֹ) représente [o], proche de la voyelle dans « mot » ou « dos ». Le Vav dans cette forme vocalique ne se prononce pas [v]."
+      },
+      "4": {
+        "tip": "Le mot דּוּד se lit [dud]. Dans cette transcription, [u] représente le « ou » français : lis « doud », en une seule syllabe. Le premier Dalet donne [d], le Shourouk (וּ) donne [u], et le dernier Dalet donne [d]."
+      },
+      "5": {
+        "tip": "Le Shourouk (וּ) représente [u], le son « ou » dans « fou » ou « loup ». Ici, le Vav ne se prononce pas [v]."
+      },
+      "6": {
+        "tip": "Comme consonne, Vav (ו) représente [v]. Avec Holam Male (וֹ), il représente [o]. Avec Shourouk (וּ), il représente [u], le son « ou » français."
+      },
+      "10": {
+        "content": "Quel son Vav (ו) représente-t-il quand il est utilisé comme consonne ?",
+        "tip": "Comme consonne, Vav représente [v], comme dans « vase ». Dans un texte sans signes vocaliques, Vav peut aussi servir à écrire [o] ou [u] (« ou »). Lis-le donc dans le contexte du mot."
+      },
+      "12": {
+        "tip": "Comme consonne, Vav représente [v]. Avec Holam Male, il représente [o] ; avec Shourouk, [u], le son « ou ». Dans וַ, le son [a] vient du Patah, et non du Vav lui-même."
+      }
+    }
+  },
+  "stageMap": {
+    "theory": [
+      0,
+      1
+    ],
+    "examples": [
+      3,
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  "copy": {
+    "theory": {
+      "heading": "Découvre Vav",
+      "intro": "La sixième lettre de l'alphabet hébreu : Vav. Elle représente généralement [v], et peut aussi servir de voyelle pour [o] ou [u].",
+      "objectivesHeading": "Ce que tu vas apprendre",
+      "objectives": [
+        "Reconnaître Vav : <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ו</bdi>.",
+        "Entendre son [v], et les deux signes vocaliques réservés à Vav : Holam Male [o] et Shourouk [u].",
+        "Lire Vav dans de vrais mots comme <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">דּוֹב</bdi> (ours)."
+      ],
+      "secondSectionHeading": "Comment se prononce Vav",
+      "thirdSectionHeading": "Vav comme voyelle"
+    },
+    "examples": {
+      "heading": "Holam Male, Shourouk et nouveaux mots",
+      "intro": "Découvre deux signes vocaliques qui n'apparaissent qu'avec Vav — Holam Male [o] et Shourouk [u] — puis observe Vav dans de vrais mots hébreux."
+    }
+  },
+  "holdOuts": {
+    "blocks": [
+      {
+        "sourceIndex": 2,
+        "reason": "Bloc d'étude TITLE_IMAGE non pris en charge, sans contenu, titre ni URL d'image dans la source brute — un emplacement vide sans rien à afficher ; aucun moteur de rendu n'existe pour TITLE_IMAGE."
+      },
+      {
+        "sourceIndex": 4,
+        "reason": "Bloc d'étude TITLE_IMAGE non pris en charge, sans contenu, titre ni URL d'image dans la source brute — un emplacement vide sans rien à afficher ; aucun moteur de rendu n'existe pour TITLE_IMAGE."
+      },
+      {
+        "sourceIndex": 6,
+        "reason": "Bloc d'étude STRIPED_BLOCK non pris en charge ('À retenir : le Shourouk et le Holam Male...') — StudyBlock.astro n'a pas de moteur de rendu pour STRIPED_BLOCK."
+      }
+    ],
+    "exercises": []
+  },
+  "source": {
+    "rawSnapshotPath": ".local/alphabet-course-imports/v1/2026-10-19T14-27-18-905Z-bdf614-fr/raw/lesson-6.raw.json",
+    "sha256": "6d4a9a989093c6fa22b6e8b7a35dee2182b39dc187da57326943d691ec3134a0",
+    "responseDate": "2026-10-19T14:27:18.907Z"
+  }
+}

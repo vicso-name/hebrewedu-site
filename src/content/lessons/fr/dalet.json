@@ -1,0 +1,417 @@
+{
+  "id": "dalet",
+  "sourceId": 4,
+  "order": 4,
+  "glyph": "ד",
+  "locale": "fr",
+  "title": "Daleth (ד) : lettre hébraïque, son et exemples",
+  "description": "Apprends la lettre hébraïque Daleth (ד) et son son [d], avec des mots comme דָּג (poisson) et אָבַד (perdu), et des exercices interactifs.",
+  "status": "local-review-only",
+  "normalizationVersion": 1,
+  "provenance": {
+    "source": "https://api.hebrewedu.com/api/lessons/4/?lang=fr",
+    "responseDate": "2026-10-19T14:27:18.907Z",
+    "sha256": "e8aa2ff8c44818719a900c66d25b1dacf7f07d41bd229d8aa46723fa41cab8d1"
+  },
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Affinage optionnel des exercices",
+      "detail": "Certains distracteurs de reconnaissance utilisent des lettres non encore introduites dans cette leçon. Le guidage pour débutants pourra être amélioré séparément de la synchronisation avec la source approuvée."
+    },
+    {
+      "id": "fr-typography",
+      "summary": "Espaces insécables avant la ponctuation et dans les guillemets français",
+      "detail": "La source brute FR utilise par endroits une espace normale avant les guillemets « » et avant « : » au lieu d'une espace insécable (convention typographique française, voir docs/hebrew-alphabet-editorial-rules.fr.md). Corrigé via contentOverrides (blocs 1, 5 et 7)."
+    }
+  ],
+  "blocks": [
+    {
+      "id": "dalet-block-1",
+      "sourceIndex": 0,
+      "text": "Daleth (ד) : lettre hébraïque, son et exemples",
+      "reviewFlags": [],
+      "type": "MAIN_TITLE"
+    },
+    {
+      "id": "dalet-block-2",
+      "sourceIndex": 1,
+      "text": "Dalet (ד) est la quatrième lettre de l'alphabet hébreu. Elle représente le son [d]. En hébreu moderne, ד et דּ ont généralement cette même prononciation [d]. Le mot דֶּלֶת [delet] signifie « porte ». Sa prononciation diffère du nom de la lettre Dalet.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "dalet-block-3",
+      "sourceIndex": 2,
+      "text": "Dalet a aussi la valeur numérique 4 dans le système traditionnel de numération hébraïque. Cela correspond à sa place de quatrième lettre de l'alphabet.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "dalet-block-4",
+      "sourceIndex": 3,
+      "text": "Mots à pratiquer :",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "dalet-block-5",
+      "sourceIndex": 4,
+      "text": "poisson",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "דָּג",
+      "transcription": "dag"
+    },
+    {
+      "id": "dalet-block-6",
+      "sourceIndex": 5,
+      "text": "Le mot דָּג [dag] signifie « poisson ». Dalet représente [d], et le Kamats Gadol (ָ) sous la lettre ajoute [a] : l'ensemble se lit [da]. Le Guimel final représente [g]. Le mot se lit [dag].",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "dalet-block-7",
+      "sourceIndex": 6,
+      "text": "s'est perdu",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "אָבַד",
+      "transcription": "avad"
+    },
+    {
+      "id": "dalet-block-8",
+      "sourceIndex": 7,
+      "text": "Le mot אָבַד [avad] signifie « il s'est perdu » ou « il a disparu ». L'Alef avec Kamats Gadol (אָ) se lit [a]. Le Beit sans Dagesh se prononce [v] ; avec le Patah sous la lettre, il se lit [va]. Le Dalet final donne [d]. Le mot se lit en deux syllabes : [a-vad].",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "dalet-block-9",
+      "sourceIndex": 8,
+      "text": "Ce qu'on retient",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "dalet-block-10",
+      "sourceIndex": 9,
+      "text": "Dans cette leçon, tu as découvert Dalet (ד), la quatrième lettre de l'alphabet hébreu, et appris deux nouveaux mots. Continue comme ça ! Prends le temps de revoir les notions de chaque leçon. Les exercices t'aideront à consolider tes acquis et à suivre ta progression.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "dalet-exercise-1",
+      "sourceId": "1742494470559",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Trouve la lettre Dalet parmi les lettres hébraïques suivantes.",
+      "explanation": "Dalet (ד) est la quatrième lettre de l'alphabet hébreu. Elle représente le son [d].",
+      "options": [
+        {
+          "id": "dalet-exercise-1-option-1",
+          "label": "ד"
+        },
+        {
+          "id": "dalet-exercise-1-option-2",
+          "label": "צ"
+        },
+        {
+          "id": "dalet-exercise-1-option-3",
+          "label": "נ"
+        },
+        {
+          "id": "dalet-exercise-1-option-4",
+          "label": "פּ"
+        }
+      ],
+      "correctOptionId": "dalet-exercise-1-option-1",
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    },
+    {
+      "id": "dalet-exercise-2",
+      "sourceId": "1742494470560",
+      "type": "TRUE_FALSE",
+      "prompt": "La lettre Dalet (ד) se prononce [d], comme dans « danse » ou « dos ».",
+      "explanation": "Dalet représente le son [d].",
+      "options": [
+        {
+          "id": "dalet-exercise-2-option-1",
+          "label": "True"
+        },
+        {
+          "id": "dalet-exercise-2-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "dalet-exercise-2-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "dalet-exercise-3",
+      "sourceId": "1742494470561",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Quel son produit la lettre Dalet (דַ) avec le Patah ?",
+      "explanation": "Le Patah donne le son [a]. Sous Dalet (דַ), il produit [da].",
+      "options": [
+        {
+          "id": "dalet-exercise-3-option-1",
+          "label": "[sa]"
+        },
+        {
+          "id": "dalet-exercise-3-option-2",
+          "label": "[do]"
+        },
+        {
+          "id": "dalet-exercise-3-option-3",
+          "label": "[da]"
+        },
+        {
+          "id": "dalet-exercise-3-option-4",
+          "label": "[su]"
+        }
+      ],
+      "correctOptionId": "dalet-exercise-3-option-3",
+      "reviewFlags": []
+    },
+    {
+      "id": "dalet-exercise-4",
+      "sourceId": "1742494470562",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Quel est le mot hébreu pour « poisson » ?",
+      "explanation": "Le mot hébreu pour « poisson » est דָּג, qui se prononce [dag].",
+      "options": [
+        {
+          "id": "dalet-exercise-4-option-1",
+          "label": "כִּיסֵּא"
+        },
+        {
+          "id": "dalet-exercise-4-option-2",
+          "label": "דָּג"
+        },
+        {
+          "id": "dalet-exercise-4-option-3",
+          "label": "לִקְרוֹת"
+        }
+      ],
+      "correctOptionId": "dalet-exercise-4-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "dalet-exercise-5",
+      "sourceId": "1742494470563",
+      "type": "TRUE_FALSE",
+      "prompt": "La lettre Dalet (דַ) avec un Patah produit-elle le son [da] ?",
+      "explanation": "Le Patah donne le son [a]. Sous Dalet (דַ), il produit [da].",
+      "options": [
+        {
+          "id": "dalet-exercise-5-option-1",
+          "label": "True"
+        },
+        {
+          "id": "dalet-exercise-5-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "dalet-exercise-5-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "dalet-exercise-6",
+      "sourceId": "1742494470564",
+      "type": "MATCH_PAIRS",
+      "prompt": "Associe chaque nom de lettre hébraïque à sa forme correcte.",
+      "explanation": "Ces trois lettres font partie des quatre premières de l'alphabet hébreu : Beit est la deuxième, Guimel la troisième et Dalet la quatrième.",
+      "pairs": [
+        {
+          "id": "dalet-exercise-6-pair-1",
+          "left": "Bet",
+          "right": "(ב)"
+        },
+        {
+          "id": "dalet-exercise-6-pair-2",
+          "left": "Dalet",
+          "right": "(ד)"
+        },
+        {
+          "id": "dalet-exercise-6-pair-3",
+          "left": "Gimel",
+          "right": "(ג)"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "dalet-exercise-7",
+      "sourceId": "1742494470565",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Quelle suite de sons correspond à la prononciation de אָבַד ?",
+      "explanation": "Le mot אָבַד se prononce [avad], en deux syllabes : [a-vad]. Il signifie « il s'est perdu » ou « il a disparu ». L'Alef avec Kamats Gadol donne [a], le Beit sans Dagesh avec Patah donne [va], et le Dalet final donne [d].",
+      "options": [
+        {
+          "id": "dalet-exercise-7-option-1",
+          "label": "[a-va-d]"
+        },
+        {
+          "id": "dalet-exercise-7-option-2",
+          "label": "[o-va-d]"
+        },
+        {
+          "id": "dalet-exercise-7-option-3",
+          "label": "[u-va-l]"
+        }
+      ],
+      "correctOptionId": "dalet-exercise-7-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "dalet-exercise-8",
+      "sourceId": "1742494470566",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Laquelle de ces lettres hébraïques porte un Hataf-Patah ?",
+      "explanation": "Le Hataf-Patah se place généralement sous Alef (אֲ), Het (חֲ), Hé (הֲ) et Ayin (עֲ).",
+      "options": [
+        {
+          "id": "dalet-exercise-8-option-1",
+          "label": "עֲ"
+        },
+        {
+          "id": "dalet-exercise-8-option-2",
+          "label": "פֶּ"
+        },
+        {
+          "id": "dalet-exercise-8-option-3",
+          "label": "מֻ"
+        },
+        {
+          "id": "dalet-exercise-8-option-4",
+          "label": "גַ"
+        }
+      ],
+      "correctOptionId": "dalet-exercise-8-option-1",
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    },
+    {
+      "id": "dalet-exercise-9",
+      "sourceId": "1742494470567",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Quel son produit Dalet (דַ) avec un Patah ?",
+      "explanation": "Le Patah donne le son [a]. Sous Dalet (דַ), il produit [da].",
+      "options": [
+        {
+          "id": "dalet-exercise-9-option-1",
+          "label": "[du]"
+        },
+        {
+          "id": "dalet-exercise-9-option-2",
+          "label": "[da]"
+        },
+        {
+          "id": "dalet-exercise-9-option-3",
+          "label": "[ba]"
+        }
+      ],
+      "correctOptionId": "dalet-exercise-9-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "dalet-exercise-10",
+      "sourceId": "1742494470568",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Comment se prononce Beit (בָּ) avec un Kamats Gadol ?",
+      "explanation": "Le Kamats Gadol ressemble à un petit « T » sous la lettre. Sous Beit (בָּ), il produit le son [ba].",
+      "options": [
+        {
+          "id": "dalet-exercise-10-option-1",
+          "label": "[gu]"
+        },
+        {
+          "id": "dalet-exercise-10-option-2",
+          "label": "[bu]"
+        },
+        {
+          "id": "dalet-exercise-10-option-3",
+          "label": "[ba]"
+        },
+        {
+          "id": "dalet-exercise-10-option-4",
+          "label": "[be]"
+        }
+      ],
+      "correctOptionId": "dalet-exercise-10-option-3",
+      "reviewFlags": []
+    },
+    {
+      "id": "dalet-exercise-11",
+      "sourceId": "1742494470569",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Laquelle de ces lettres représente le son [d] ?",
+      "explanation": "Dalet (ד) se prononce [d], comme dans « danse » ou « dos ».",
+      "options": [
+        {
+          "id": "dalet-exercise-11-option-1",
+          "label": "ד"
+        },
+        {
+          "id": "dalet-exercise-11-option-2",
+          "label": "בּ"
+        },
+        {
+          "id": "dalet-exercise-11-option-3",
+          "label": "נ"
+        }
+      ],
+      "correctOptionId": "dalet-exercise-11-option-1",
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    },
+    {
+      "id": "dalet-exercise-12",
+      "sourceId": "1742494470570",
+      "type": "TRUE_FALSE",
+      "prompt": "La lettre Guimel (גַ) avec un Patah produit-elle le son [du] ?",
+      "explanation": "Le Patah sous Guimel (גַ) produit [ga], et non [du].",
+      "options": [
+        {
+          "id": "dalet-exercise-12-option-1",
+          "label": "True"
+        },
+        {
+          "id": "dalet-exercise-12-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "dalet-exercise-12-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "dalet-exercise-13",
+      "sourceId": "1742494470571",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Identifie le signe vocalique sous la lettre (דַ) et choisis son nom.",
+      "explanation": "Le signe vocalique sous דַ est le Patah. Il donne le son [a].",
+      "options": [
+        {
+          "id": "dalet-exercise-13-option-1",
+          "label": "Patah"
+        },
+        {
+          "id": "dalet-exercise-13-option-2",
+          "label": "Ségol"
+        },
+        {
+          "id": "dalet-exercise-13-option-3",
+          "label": "Shourouk"
+        }
+      ],
+      "correctOptionId": "dalet-exercise-13-option-1",
+      "reviewFlags": []
+    }
+  ]
+}

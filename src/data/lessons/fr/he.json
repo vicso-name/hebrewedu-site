@@ -1,0 +1,110 @@
+{
+  "slug": "he",
+  "title": "Hé (ה) : lettre hébraïque, son et exemples",
+  "description": "Apprends la lettre hébraïque Hé (ה) et son [h] léger, les signes vocaliques Tséré et Ségol, et des mots comme הֶגֶה (volant), avec des exercices.",
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Affinage optionnel des exercices",
+      "detail": "Certains distracteurs de reconnaissance utilisent des lettres non encore introduites dans cette leçon. Le guidage pour débutants pourra être amélioré séparément de la synchronisation avec la source approuvée."
+    },
+    {
+      "id": "unsupported-title-image",
+      "summary": "Deux blocs TITLE_IMAGE vides retenus",
+      "detail": "La source brute comporte deux blocs d'étude TITLE_IMAGE (sourceIndex 5 et 7) sans contenu, titre ni URL d'image — des emplacements vides sans rien à afficher. StudyBlock.astro n'a pas de moteur de rendu pour TITLE_IMAGE. Ce type apparaît aussi (également vide) dans les sources brutes de Vav, Pe et Tsadi — voir la revue éditoriale EN de He (docs/hebrew-alphabet-lesson-5-editorial-review.md) pour la tâche de suivi recommandée."
+    },
+    {
+      "id": "fr-typography",
+      "summary": "Espaces insécables avant la ponctuation et dans les guillemets français",
+      "detail": "La source brute FR utilise par endroits une espace normale autour des guillemets « » au lieu d'une espace insécable (convention typographique française, voir docs/hebrew-alphabet-editorial-rules.fr.md). Corrigé via contentOverrides (blocs 1, 2, 6, 8, 11, 13, 15 et exercices 0, 2)."
+    }
+  ],
+  "illustrations": {},
+  "blockFlags": {},
+  "exerciseFlags": {
+    "1": [
+      "unintroduced-letters"
+    ],
+    "9": [
+      "unintroduced-letters"
+    ]
+  },
+  "contentOverrides": {
+    "blocks": {
+      "0": "Hé (ה) : lettre hébraïque, son et exemples",
+      "1": "La cinquième lettre de l'alphabet hébreu s'appelle Hé (ה). Elle représente généralement [h], un son produit avec un souffle, comme le « h » du mot anglais « hello ». En fin de mot, elle est souvent muette.",
+      "2": "Hé peut être ajoutée au début d'un nom comme article défini, équivalent de « le », « la » ou « les ». Par exemple, אֶרֶץ [eretz] signifie « terre », et הָאָרֶץ [haaretz] signifie « la terre ». Dans cet exemple, la voyelle sous l'Alef passe aussi du Ségol [e] au Kamats Gadol [a].",
+      "6": "Le Tséré se compose de deux points côte à côte sous une lettre, comme dans הֵ. En hébreu moderne, le Tséré et le Ségol représentent généralement le même son [e], proche du « é » français dans « été ». הֵ se lit [he], avec une seule voyelle stable.",
+      "8": "Le Ségol se compose de trois points disposés en triangle pointant vers le bas sous une lettre, comme dans הֶ. En hébreu moderne, il représente généralement le même [e] que le Tséré, proche du « é » dans « été ».",
+      "11": "Le mot דֶּגֶל [degel] signifie « drapeau ». Dalet avec Ségol se lit [de], et Guimel avec Ségol se lit [ge]. Le Lamed final donne [l]. Le mot se lit en deux syllabes : [de-gel].",
+      "13": "Le mot חֶבֶל [chevel] signifie « corde ». Dans cette transcription, « ch » note le son guttural de Het (ח), à écouter dans l'audio. Beit sans Dagesh se prononce [v] ; avec Ségol, il se lit [ve]. Lamed donne [l]. Le mot se lit en deux syllabes : [che-vel].",
+      "15": "Le mot הֶגֶה [hege] signifie « volant » de voiture. Le premier Hé avec Ségol se lit [he], et Guimel avec Ségol se lit [ge]. Le Hé final est muet dans ce mot. Lis-le en deux syllabes : [he-ge]."
+    },
+    "exercises": {
+      "0": {
+        "tip": "Hé (ה) est la cinquième lettre de l'alphabet hébreu. Elle représente généralement [h], comme le « h » du mot anglais « hello »."
+      },
+      "2": {
+        "content": "La cinquième lettre de l'alphabet hébreu s'appelle Hé (ה) et représente généralement [h], comme le « h » du mot anglais « hello »."
+      }
+    }
+  },
+  "stageMap": {
+    "theory": [
+      0,
+      1,
+      2
+    ],
+    "examples": [
+      3,
+      4,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  "copy": {
+    "theory": {
+      "heading": "Découvre Hé",
+      "intro": "La cinquième lettre de l'alphabet hébreu : Hé. Elle représente un [h] léger, souvent muet en fin de mot.",
+      "objectivesHeading": "Ce que tu vas apprendre",
+      "objectives": [
+        "Reconnaître Hé : <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ה</bdi>.",
+        "Entendre son [h] léger, et repérer quand elle est muette.",
+        "Découvrir deux nouveaux signes vocaliques, Tséré et Ségol, tous deux prononcés [e]."
+      ],
+      "secondSectionHeading": "Comment se prononce Hé",
+      "thirdSectionHeading": "Hé comme article défini"
+    },
+    "examples": {
+      "heading": "Tséré, Ségol et nouveaux mots",
+      "intro": "Découvre deux nouveaux signes vocaliques qui produisent tous deux le son [e], puis observe Hé dans de vrais mots hébreux."
+    }
+  },
+  "holdOuts": {
+    "blocks": [
+      {
+        "sourceIndex": 5,
+        "reason": "Bloc d'étude TITLE_IMAGE non pris en charge, sans contenu, titre ni URL d'image dans la source brute — un emplacement vide sans rien à afficher ; aucun moteur de rendu n'existe pour TITLE_IMAGE."
+      },
+      {
+        "sourceIndex": 7,
+        "reason": "Bloc d'étude TITLE_IMAGE non pris en charge, sans contenu, titre ni URL d'image dans la source brute — un emplacement vide sans rien à afficher ; aucun moteur de rendu n'existe pour TITLE_IMAGE."
+      }
+    ],
+    "exercises": []
+  },
+  "source": {
+    "rawSnapshotPath": ".local/alphabet-course-imports/v1/2026-10-19T14-27-18-905Z-bdf614-fr/raw/lesson-5.raw.json",
+    "sha256": "c165385fe990aeca2ce8926116bf400841038fe86e08a6398d6dc27046b79ee9",
+    "responseDate": "2026-10-19T14:27:18.907Z"
+  }
+}

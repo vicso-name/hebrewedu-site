@@ -5,6 +5,15 @@ import { courseManifest, validatePublicationManifest, validateWeeklyReleaseLimit
 const draft = () => {
   const value = structuredClone(courseManifest);
   for (const item of [value.hub, ...value.lessons]) Object.assign(item, { editorialApproved: false, published: false, publishedAt: null });
+  // This file only exercises the EN-side manifest logic — reset each lesson's
+  // locales.fr publication state too, so the real FR backfill state (aleph,
+  // bet, gimel, dalet, he, vav all published in FR) doesn't trip the
+  // FR-can't-publish-ahead-of-EN guard once this draft() resets EN back to
+  // unpublished. FR-specific behavior has its own coverage in
+  // alphabet-course-fr.test.mjs.
+  for (const lesson of value.lessons) {
+    if (lesson.locales?.fr) Object.assign(lesson.locales.fr, { editorialApproved: false, published: false, publishedAt: null });
+  }
   return value;
 };
 
@@ -42,7 +51,9 @@ test('no preview flag can create sitemap entries or public Course claims', () =>
   assert.equal(localCoursePreview(false, { HEBREWEDU_LOCAL_COURSE_PREVIEW: '1' }), true);
   assert.equal(localCoursePreview(false, { HEBREWEDU_LOCAL_LESSON_POC: '1' }), true);
   assert.deepEqual(courseSitemapEntries(draft()), []);
-  assert.deepEqual(courseSitemapEntries().map(x => x.url), ['/learn/hebrew-alphabet/', '/learn/hebrew-alphabet/aleph/', '/learn/hebrew-alphabet/bet/', '/learn/hebrew-alphabet/gimel/', '/learn/hebrew-alphabet/dalet/', '/learn/hebrew-alphabet/he/', '/learn/hebrew-alphabet/vav/']);
+  // aleph/bet/gimel/dalet/he/vav are now published in FR too (the FR backfill),
+  // alongside their EN routes.
+  assert.deepEqual(courseSitemapEntries().map(x => x.url), ['/learn/hebrew-alphabet/', '/learn/hebrew-alphabet/aleph/', '/learn/hebrew-alphabet/bet/', '/learn/hebrew-alphabet/gimel/', '/learn/hebrew-alphabet/dalet/', '/learn/hebrew-alphabet/he/', '/learn/hebrew-alphabet/vav/', '/fr/apprendre/alphabet-hebreu/aleph/', '/fr/apprendre/alphabet-hebreu/bet/', '/fr/apprendre/alphabet-hebreu/gimel/', '/fr/apprendre/alphabet-hebreu/dalet/', '/fr/apprendre/alphabet-hebreu/he/', '/fr/apprendre/alphabet-hebreu/vav/']);
   const schema = courseSchema(draft());
   assert.equal(schema['@type'], 'WebPage');
   assert.equal(schema.url, 'https://hebrewedu.com/learn/hebrew-alphabet/');

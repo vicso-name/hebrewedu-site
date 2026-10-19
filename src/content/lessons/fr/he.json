@@ -1,0 +1,473 @@
+{
+  "id": "he",
+  "sourceId": 5,
+  "order": 5,
+  "glyph": "ה",
+  "locale": "fr",
+  "title": "Hé (ה) : lettre hébraïque, son et exemples",
+  "description": "Apprends la lettre hébraïque Hé (ה) et son [h] léger, les signes vocaliques Tséré et Ségol, et des mots comme הֶגֶה (volant), avec des exercices.",
+  "status": "local-review-only",
+  "normalizationVersion": 1,
+  "provenance": {
+    "source": "https://api.hebrewedu.com/api/lessons/5/?lang=fr",
+    "responseDate": "2026-10-19T14:27:18.907Z",
+    "sha256": "c165385fe990aeca2ce8926116bf400841038fe86e08a6398d6dc27046b79ee9"
+  },
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Affinage optionnel des exercices",
+      "detail": "Certains distracteurs de reconnaissance utilisent des lettres non encore introduites dans cette leçon. Le guidage pour débutants pourra être amélioré séparément de la synchronisation avec la source approuvée."
+    },
+    {
+      "id": "unsupported-title-image",
+      "summary": "Deux blocs TITLE_IMAGE vides retenus",
+      "detail": "La source brute comporte deux blocs d'étude TITLE_IMAGE (sourceIndex 5 et 7) sans contenu, titre ni URL d'image — des emplacements vides sans rien à afficher. StudyBlock.astro n'a pas de moteur de rendu pour TITLE_IMAGE. Ce type apparaît aussi (également vide) dans les sources brutes de Vav, Pe et Tsadi — voir la revue éditoriale EN de He (docs/hebrew-alphabet-lesson-5-editorial-review.md) pour la tâche de suivi recommandée."
+    },
+    {
+      "id": "fr-typography",
+      "summary": "Espaces insécables avant la ponctuation et dans les guillemets français",
+      "detail": "La source brute FR utilise par endroits une espace normale autour des guillemets « » au lieu d'une espace insécable (convention typographique française, voir docs/hebrew-alphabet-editorial-rules.fr.md). Corrigé via contentOverrides (blocs 1, 2, 6, 8, 11, 13, 15 et exercices 0, 2)."
+    }
+  ],
+  "blocks": [
+    {
+      "id": "he-block-1",
+      "sourceIndex": 0,
+      "text": "Hé (ה) : lettre hébraïque, son et exemples",
+      "reviewFlags": [],
+      "type": "MAIN_TITLE"
+    },
+    {
+      "id": "he-block-2",
+      "sourceIndex": 1,
+      "text": "La cinquième lettre de l'alphabet hébreu s'appelle Hé (ה). Elle représente généralement [h], un son produit avec un souffle, comme le « h » du mot anglais « hello ». En fin de mot, elle est souvent muette.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "he-block-3",
+      "sourceIndex": 2,
+      "text": "Hé peut être ajoutée au début d'un nom comme article défini, équivalent de « le », « la » ou « les ». Par exemple, אֶרֶץ [eretz] signifie « terre », et הָאָרֶץ [haaretz] signifie « la terre ». Dans cet exemple, la voyelle sous l'Alef passe aussi du Ségol [e] au Kamats Gadol [a].",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "he-block-4",
+      "sourceIndex": 3,
+      "text": "Les signes vocaliques du son [e]",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "he-block-5",
+      "sourceIndex": 4,
+      "text": "Dans les leçons précédentes, tu as découvert des signes vocaliques pour [a]. Aujourd'hui, tu vas apprendre le Tséré et le Ségol, deux signes qui représentent généralement [e] en hébreu moderne.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "he-block-7",
+      "sourceIndex": 6,
+      "text": "Le Tséré se compose de deux points côte à côte sous une lettre, comme dans הֵ. En hébreu moderne, le Tséré et le Ségol représentent généralement le même son [e], proche du « é » français dans « été ». הֵ se lit [he], avec une seule voyelle stable.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "he-block-9",
+      "sourceIndex": 8,
+      "text": "Le Ségol se compose de trois points disposés en triangle pointant vers le bas sous une lettre, comme dans הֶ. En hébreu moderne, il représente généralement le même [e] que le Tséré, proche du « é » dans « été ».",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "he-block-10",
+      "sourceIndex": 9,
+      "text": "Mots à pratiquer :",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "he-block-11",
+      "sourceIndex": 10,
+      "text": "drapeau",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "דֶּגֶל",
+      "transcription": "degel"
+    },
+    {
+      "id": "he-block-12",
+      "sourceIndex": 11,
+      "text": "Le mot דֶּגֶל [degel] signifie « drapeau ». Dalet avec Ségol se lit [de], et Guimel avec Ségol se lit [ge]. Le Lamed final donne [l]. Le mot se lit en deux syllabes : [de-gel].",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "he-block-13",
+      "sourceIndex": 12,
+      "text": "corde",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "חֶבֶל",
+      "transcription": "chevel"
+    },
+    {
+      "id": "he-block-14",
+      "sourceIndex": 13,
+      "text": "Le mot חֶבֶל [chevel] signifie « corde ». Dans cette transcription, « ch » note le son guttural de Het (ח), à écouter dans l'audio. Beit sans Dagesh se prononce [v] ; avec Ségol, il se lit [ve]. Lamed donne [l]. Le mot se lit en deux syllabes : [che-vel].",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "he-block-15",
+      "sourceIndex": 14,
+      "text": "volant",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "הֶגֶה",
+      "transcription": "hege"
+    },
+    {
+      "id": "he-block-16",
+      "sourceIndex": 15,
+      "text": "Le mot הֶגֶה [hege] signifie « volant » de voiture. Le premier Hé avec Ségol se lit [he], et Guimel avec Ségol se lit [ge]. Le Hé final est muet dans ce mot. Lis-le en deux syllabes : [he-ge].",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "he-block-17",
+      "sourceIndex": 16,
+      "text": "Ce que tu as appris",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "he-block-18",
+      "sourceIndex": 17,
+      "text": "Dans cette leçon, tu as découvert la cinquième lettre de l'alphabet hébreu : Hé. Tu as aussi appris deux nouveaux signes vocaliques — le Tséré et le Ségol — qui donnent tous les deux le son [e]. Enfin, tu as enrichi ton vocabulaire avec trois nouveaux mots. Continue à t'entraîner et retrouve les exercices pour consolider tout ça !",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "he-exercise-1",
+      "sourceId": "1742223805468",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Trouve la lettre Hé parmi les lettres hébraïques suivantes.",
+      "explanation": "Hé (ה) est la cinquième lettre de l'alphabet hébreu. Elle représente généralement [h], comme le « h » du mot anglais « hello ».",
+      "options": [
+        {
+          "id": "he-exercise-1-option-1",
+          "label": "נ"
+        },
+        {
+          "id": "he-exercise-1-option-2",
+          "label": "פּ"
+        },
+        {
+          "id": "he-exercise-1-option-3",
+          "label": "ק"
+        },
+        {
+          "id": "he-exercise-1-option-4",
+          "label": "ה"
+        }
+      ],
+      "correctOptionId": "he-exercise-1-option-4",
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    },
+    {
+      "id": "he-exercise-2",
+      "sourceId": "1742223805469",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Quel signe vocalique hébreu est formé de deux points horizontaux sous la lettre et donne le son [e] ?",
+      "explanation": "Le Tséré est formé de deux points horizontaux placés sous la lettre. Il représente le son [e].",
+      "options": [
+        {
+          "id": "he-exercise-2-option-1",
+          "label": "Tséré"
+        },
+        {
+          "id": "he-exercise-2-option-2",
+          "label": "Shourouk"
+        },
+        {
+          "id": "he-exercise-2-option-3",
+          "label": "Patah"
+        }
+      ],
+      "correctOptionId": "he-exercise-2-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "he-exercise-3",
+      "sourceId": "1742223805470",
+      "type": "TRUE_FALSE",
+      "prompt": "La cinquième lettre de l'alphabet hébreu s'appelle Hé (ה) et représente généralement [h], comme le « h » du mot anglais « hello ».",
+      "explanation": "Hé (ה) est la cinquième lettre de l'alphabet hébreu. Elle représente généralement [h]. En fin de mot, elle est souvent muette.",
+      "options": [
+        {
+          "id": "he-exercise-3-option-1",
+          "label": "True"
+        },
+        {
+          "id": "he-exercise-3-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "he-exercise-3-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "he-exercise-4",
+      "sourceId": "1742223805471",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Quel son produit la lettre Hé (הֵ) combinée avec le Tséré ?",
+      "explanation": "Le Tséré représente le son [e]. Combiné avec Hé (הֵ), il donne [he].",
+      "options": [
+        {
+          "id": "he-exercise-4-option-1",
+          "label": "[ho]"
+        },
+        {
+          "id": "he-exercise-4-option-2",
+          "label": "[ha]"
+        },
+        {
+          "id": "he-exercise-4-option-3",
+          "label": "[se]"
+        },
+        {
+          "id": "he-exercise-4-option-4",
+          "label": "[he]"
+        }
+      ],
+      "correctOptionId": "he-exercise-4-option-4",
+      "reviewFlags": []
+    },
+    {
+      "id": "he-exercise-5",
+      "sourceId": "1742223805472",
+      "type": "TRUE_FALSE",
+      "prompt": "La lettre Alef (אֵ), avec un Tséré placé dessous, se lit-elle [e] ?",
+      "explanation": "Le Tséré représente le son [e]. Combiné avec Alef (אֵ), il donne [e], car Alef est muette.",
+      "options": [
+        {
+          "id": "he-exercise-5-option-1",
+          "label": "True"
+        },
+        {
+          "id": "he-exercise-5-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "he-exercise-5-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "he-exercise-6",
+      "sourceId": "1742223805473",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Quel signe vocalique hébreu est formé de trois points disposés en triangle sous la lettre et donne le son [e] ?",
+      "explanation": "Le Ségol est formé de trois points disposés en triangle sous la lettre. Il représente le son [e].",
+      "options": [
+        {
+          "id": "he-exercise-6-option-1",
+          "label": "Hiriq Male"
+        },
+        {
+          "id": "he-exercise-6-option-2",
+          "label": "Ségol"
+        },
+        {
+          "id": "he-exercise-6-option-3",
+          "label": "Tséré"
+        }
+      ],
+      "correctOptionId": "he-exercise-6-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "he-exercise-7",
+      "sourceId": "1742223805474",
+      "type": "TRUE_FALSE",
+      "prompt": "La lettre Beit (בֶּ) marquée d'un Ségol produit-elle le son [be] ?",
+      "explanation": "Le Ségol représente le son [e]. Combiné avec Beit (בֶּ), il donne [be].",
+      "options": [
+        {
+          "id": "he-exercise-7-option-1",
+          "label": "True"
+        },
+        {
+          "id": "he-exercise-7-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "he-exercise-7-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "he-exercise-8",
+      "sourceId": "1742223805475",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Comment se prononce le mot (הֶגֶה) ?",
+      "explanation": "Le mot הֶגֶה signifie « volant » et se lit [he-ge], en deux syllabes. Le Ségol sous le premier Hé et sous Guimel représente [e]. Le Hé final est muet.",
+      "options": [
+        {
+          "id": "he-exercise-8-option-1",
+          "label": "[hu-ga]"
+        },
+        {
+          "id": "he-exercise-8-option-2",
+          "label": "[he-ge]"
+        },
+        {
+          "id": "he-exercise-8-option-3",
+          "label": "[hi-ga]"
+        }
+      ],
+      "correctOptionId": "he-exercise-8-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "he-exercise-9",
+      "sourceId": "1742223805476",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Laquelle de ces lettres hébraïques est marquée d'un Ségol ?",
+      "explanation": "Parmi les options proposées, la lettre marquée d'un Ségol est (הֶ), qui produit le son [he].",
+      "options": [
+        {
+          "id": "he-exercise-9-option-1",
+          "label": "הֶ"
+        },
+        {
+          "id": "he-exercise-9-option-2",
+          "label": "בִ"
+        },
+        {
+          "id": "he-exercise-9-option-3",
+          "label": "קָ"
+        },
+        {
+          "id": "he-exercise-9-option-4",
+          "label": "עֲ"
+        }
+      ],
+      "correctOptionId": "he-exercise-9-option-1",
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    },
+    {
+      "id": "he-exercise-10",
+      "sourceId": "1742223805477",
+      "type": "TRUE_FALSE",
+      "prompt": "La lettre Hé (הֶ) marquée d'un Ségol produit-elle le son [ha] ?",
+      "explanation": "Le Ségol représente le son [e]. Hé (הֶ) marquée d'un Ségol produit [he], et non [ha].",
+      "options": [
+        {
+          "id": "he-exercise-10-option-1",
+          "label": "True"
+        },
+        {
+          "id": "he-exercise-10-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "he-exercise-10-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "he-exercise-11",
+      "sourceId": "1742223805478",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Quel est le mot hébreu pour « volant » ?",
+      "explanation": "Le mot hébreu pour « volant » est הֶגֶה (he-ge).",
+      "options": [
+        {
+          "id": "he-exercise-11-option-1",
+          "label": "רִכְבָּן"
+        },
+        {
+          "id": "he-exercise-11-option-2",
+          "label": "הֶגֶה"
+        },
+        {
+          "id": "he-exercise-11-option-3",
+          "label": "איש"
+        }
+      ],
+      "correctOptionId": "he-exercise-11-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "he-exercise-12",
+      "sourceId": "1742223805479",
+      "type": "TRUE_FALSE",
+      "prompt": "La lettre Hé (הֶ) marquée d'un Ségol produit-elle le son [he] ?",
+      "explanation": "Le Ségol est formé de trois points en triangle sous la lettre. Combiné avec Hé (הֶ), il donne [he].",
+      "options": [
+        {
+          "id": "he-exercise-12-option-1",
+          "label": "True"
+        },
+        {
+          "id": "he-exercise-12-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "he-exercise-12-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "he-exercise-13",
+      "sourceId": "1742223805480",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Comment se prononce la lettre Hé (הָ) marquée d'un Kamats Gadol ?",
+      "explanation": "Le Kamats Gadol représente [a] ici. Avec Hé [h], הָ se lit [ha].",
+      "options": [
+        {
+          "id": "he-exercise-13-option-1",
+          "label": "[ha]"
+        },
+        {
+          "id": "he-exercise-13-option-2",
+          "label": "[bo]"
+        },
+        {
+          "id": "he-exercise-13-option-3",
+          "label": "[hi]"
+        },
+        {
+          "id": "he-exercise-13-option-4",
+          "label": "[hu]"
+        }
+      ],
+      "correctOptionId": "he-exercise-13-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "he-exercise-14",
+      "sourceId": "1742223805481",
+      "type": "TRUE_FALSE",
+      "prompt": "La lettre Hé (ה) en fin de mot est-elle généralement muette ?",
+      "explanation": "Oui, Hé (ה) est le plus souvent muette lorsqu'elle apparaît en fin de mot.",
+      "options": [
+        {
+          "id": "he-exercise-14-option-1",
+          "label": "True"
+        },
+        {
+          "id": "he-exercise-14-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "he-exercise-14-option-1",
+      "reviewFlags": []
+    }
+  ]
+}

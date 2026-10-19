@@ -1,0 +1,436 @@
+{
+  "id": "vav",
+  "sourceId": 6,
+  "order": 6,
+  "glyph": "ו",
+  "locale": "fr",
+  "title": "Vav (ו) : lettre hébraïque, son et exemples",
+  "description": "Apprends la lettre hébraïque Vav (ו) et son [v], les signes vocaliques Holam Male et Shourouk ([o]/[u]), et des mots comme דּוֹב (ours), avec exercices.",
+  "status": "local-review-only",
+  "normalizationVersion": 1,
+  "provenance": {
+    "source": "https://api.hebrewedu.com/api/lessons/6/?lang=fr",
+    "responseDate": "2026-10-19T14:27:18.907Z",
+    "sha256": "6d4a9a989093c6fa22b6e8b7a35dee2182b39dc187da57326943d691ec3134a0"
+  },
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Affinage optionnel des exercices",
+      "detail": "Certains distracteurs de reconnaissance utilisent des lettres non encore introduites dans cette leçon. Le guidage pour débutants pourra être amélioré séparément de la synchronisation avec la source approuvée."
+    },
+    {
+      "id": "unsupported-title-image",
+      "summary": "Deux blocs TITLE_IMAGE vides retenus",
+      "detail": "La source brute comporte deux blocs d'étude TITLE_IMAGE (sourceIndex 2 et 4) sans contenu, titre ni URL d'image — des emplacements vides sans rien à afficher. StudyBlock.astro n'a pas de moteur de rendu pour TITLE_IMAGE. Voir la revue éditoriale EN de He pour le suivi recommandé (docs/hebrew-alphabet-lesson-5-editorial-review.md)."
+    },
+    {
+      "id": "unsupported-striped-block",
+      "summary": "Un bloc STRIPED_BLOCK retenu",
+      "detail": "La source brute comporte un bloc d'étude STRIPED_BLOCK (sourceIndex 6, un encart « À retenir ») sans moteur de rendu dans StudyBlock.astro. Ce type apparaît aussi dans 7 autres leçons brutes non publiées — voir la revue éditoriale EN de Vav (docs/hebrew-alphabet-lesson-6-editorial-review.md) pour le suivi recommandé."
+    },
+    {
+      "id": "fr-typography",
+      "summary": "Espaces insécables avant la ponctuation et dans les guillemets français",
+      "detail": "La source brute FR utilise par endroits une espace normale autour des guillemets « » et avant « : »/« ; »/« ? » au lieu d'une espace insécable. Corrigé via contentOverrides (blocs 1, 11, 13 et exercices 1, 4, 5, 6, 10, 12). Certains libellés de choix (additionalData.choices) présentent la même espace normale mais ne peuvent pas être corrigés via contentOverrides — ce champ n'est pas surchargeable par le pipeline (seuls content/tip/correctAnswer le sont) ; défaut purement cosmétique, sans impact sur l'exactitude."
+    }
+  ],
+  "blocks": [
+    {
+      "id": "vav-block-1",
+      "sourceIndex": 0,
+      "text": "Vav (ו) : lettre hébraïque, son et exemples",
+      "reviewFlags": [],
+      "type": "MAIN_TITLE"
+    },
+    {
+      "id": "vav-block-2",
+      "sourceIndex": 1,
+      "text": "Vav (ו) est la sixième lettre de l'alphabet hébreu. Elle représente généralement la consonne [v]. Dans certains cas, elle peut aussi représenter [o] ou le son « ou » français. Dans les transcriptions de ce cours, ce son « ou » est noté [u], comme dans « loup ».",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "vav-block-4",
+      "sourceIndex": 3,
+      "text": "Le Holam Male est un point placé au-dessus du Vav (וֹ). Il produit le son [o], comme dans « mot » ou « dos ». Il s'utilise uniquement avec le Vav. Quand tu le vois, souviens-toi : le Vav devient une voyelle et ne se prononce plus comme un [v].",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "vav-block-6",
+      "sourceIndex": 5,
+      "text": "Le Shourouk est un point placé à l'intérieur du Vav (וּ). Il produit le son [ou], comme dans « fou » ou « loup ». Quand le Vav porte un Shourouk, il devient une voyelle et ne se prononce plus comme un [v].",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "vav-block-8",
+      "sourceIndex": 7,
+      "text": "Mots à pratiquer :",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "vav-block-9",
+      "sourceIndex": 8,
+      "text": "ours",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "דּוֹב",
+      "transcription": "dov"
+    },
+    {
+      "id": "vav-block-10",
+      "sourceIndex": 9,
+      "text": "Le mot דּוֹב [dov] est composé de trois lettres : Dalet (ד), Vav (ו) et Beit (ב). Le Dalet se prononce [d]. Le Vav est accompagné d'un Holam, qui lui donne le son [o]. Le Beit final se prononce [v]. Ensemble, ils forment le mot [dov].",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "vav-block-11",
+      "sourceIndex": 10,
+      "text": "chauffe-eau",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "דּוּד",
+      "transcription": "dud"
+    },
+    {
+      "id": "vav-block-12",
+      "sourceIndex": 11,
+      "text": "Le mot דּוּד [dud] est composé de trois lettres : Dalet (ד), Vav (ו) et Dalet (ד). Dans cette transcription, [u] correspond au « ou » français : lis donc « doud ». Le premier Dalet se prononce [d], le Vav porte un Shourouk qui représente [u], et le dernier Dalet donne [d].",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "vav-block-13",
+      "sourceIndex": 12,
+      "text": "crochet",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "וָו",
+      "transcription": "vav"
+    },
+    {
+      "id": "vav-block-14",
+      "sourceIndex": 13,
+      "text": "Le mot וָו [vav] signifie « crochet ». Il est composé de deux Vav (ו). Le premier porte un Kamats Gadol (ָ), qui donne [va]. Le second représente la consonne [v]. Le mot se lit en une seule syllabe : [vav].",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "vav-block-15",
+      "sourceIndex": 14,
+      "text": "Ce qu'on retient",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "vav-block-16",
+      "sourceIndex": 15,
+      "text": "Tu viens d'ajouter une nouvelle lettre à ton répertoire, ainsi que quelques nouveaux mots. Le Vav (ו) est une lettre fascinante — et pas si simple ! N'oublie pas ses nuances : avec le Holam Male, il donne [o] ; avec le Shourouk, il donne [ou]. Mets maintenant tes connaissances à l'épreuve avec quelques exercices.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "vav-exercise-1",
+      "sourceId": "1742223897666",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Trouve la lettre Vav parmi les lettres hébraïques suivantes.",
+      "explanation": "Le Vav (ו) est la sixième lettre de l'alphabet hébreu. Il se prononce généralement [v], mais peut aussi jouer le rôle d'une voyelle et donner les sons [o] ou [ou].",
+      "options": [
+        {
+          "id": "vav-exercise-1-option-1",
+          "label": "נ"
+        },
+        {
+          "id": "vav-exercise-1-option-2",
+          "label": "ס"
+        },
+        {
+          "id": "vav-exercise-1-option-3",
+          "label": "ו"
+        },
+        {
+          "id": "vav-exercise-1-option-4",
+          "label": "ר"
+        }
+      ],
+      "correctOptionId": "vav-exercise-1-option-3",
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    },
+    {
+      "id": "vav-exercise-2",
+      "sourceId": "1742223897667",
+      "type": "TRUE_FALSE",
+      "prompt": "Le Holam Male est un point placé au-dessus du Vav (וֹ). Il produit le son [o], comme dans « mot ».",
+      "explanation": "Le Holam Male (וֹ) représente [o], proche de la voyelle dans « mot » ou « dos ». Le Vav dans cette forme vocalique ne se prononce pas [v].",
+      "options": [
+        {
+          "id": "vav-exercise-2-option-1",
+          "label": "True"
+        },
+        {
+          "id": "vav-exercise-2-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "vav-exercise-2-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "vav-exercise-3",
+      "sourceId": "1742223897668",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Comment se prononce le mot hébreu « ours » (דּוֹב) ?",
+      "explanation": "Le mot דּוֹב est composé de Dalet (ד), de Vav avec Holam Male (וֹ) qui donne le son [o], et de Beit (ב) prononcé [v]. Ensemble, ils forment le mot [dov].",
+      "options": [
+        {
+          "id": "vav-exercise-3-option-1",
+          "label": "[dov]"
+        },
+        {
+          "id": "vav-exercise-3-option-2",
+          "label": "[dav]"
+        },
+        {
+          "id": "vav-exercise-3-option-3",
+          "label": "[dud]"
+        }
+      ],
+      "correctOptionId": "vav-exercise-3-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "vav-exercise-4",
+      "sourceId": "1742223897669",
+      "type": "TRUE_FALSE",
+      "prompt": "Dans le mot דּוֹב [dov], le Beit final (ב), sans Dagesh, se prononce [v].",
+      "explanation": "Beit sans Dagesh (ב) se prononce [v], comme dans דּוֹב [dov]. Beit avec Dagesh (בּ) se prononce [b]. Sa position en fin de mot ne suffit pas, à elle seule, à déterminer le son.",
+      "options": [
+        {
+          "id": "vav-exercise-4-option-1",
+          "label": "True"
+        },
+        {
+          "id": "vav-exercise-4-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "vav-exercise-4-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "vav-exercise-5",
+      "sourceId": "1742223897670",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Comment se prononce le mot hébreu « chauffe-eau » (דּוּד) ?",
+      "explanation": "Le mot דּוּד se lit [dud]. Dans cette transcription, [u] représente le « ou » français : lis « doud », en une seule syllabe. Le premier Dalet donne [d], le Shourouk (וּ) donne [u], et le dernier Dalet donne [d].",
+      "options": [
+        {
+          "id": "vav-exercise-5-option-1",
+          "label": "[dov]"
+        },
+        {
+          "id": "vav-exercise-5-option-2",
+          "label": "[div]"
+        },
+        {
+          "id": "vav-exercise-5-option-3",
+          "label": "[dva]"
+        },
+        {
+          "id": "vav-exercise-5-option-4",
+          "label": "[dud]"
+        }
+      ],
+      "correctOptionId": "vav-exercise-5-option-4",
+      "reviewFlags": []
+    },
+    {
+      "id": "vav-exercise-6",
+      "sourceId": "1742223897671",
+      "type": "TRUE_FALSE",
+      "prompt": "Le Shourouk, c'est le Vav (וּ) avec un point à l'intérieur. Il représente le son [ou], comme dans « loup ».",
+      "explanation": "Le Shourouk (וּ) représente [u], le son « ou » dans « fou » ou « loup ». Ici, le Vav ne se prononce pas [v].",
+      "options": [
+        {
+          "id": "vav-exercise-6-option-1",
+          "label": "True"
+        },
+        {
+          "id": "vav-exercise-6-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "vav-exercise-6-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "vav-exercise-7",
+      "sourceId": "1742223897672",
+      "type": "MATCH_PAIRS",
+      "prompt": "Associe chaque forme du Vav au son qu'elle produit.",
+      "explanation": "Comme consonne, Vav (ו) représente [v]. Avec Holam Male (וֹ), il représente [o]. Avec Shourouk (וּ), il représente [u], le son « ou » français.",
+      "pairs": [
+        {
+          "id": "vav-exercise-7-pair-1",
+          "left": "ו",
+          "right": "[v]"
+        },
+        {
+          "id": "vav-exercise-7-pair-2",
+          "left": "וֹ",
+          "right": "[o]"
+        },
+        {
+          "id": "vav-exercise-7-pair-3",
+          "left": "וּ",
+          "right": "[u]"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "vav-exercise-8",
+      "sourceId": "1742223897673",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Comment se prononce le mot hébreu « crochet » (וָו) ?",
+      "explanation": "Le mot וָו est composé de deux Vav. Le premier porte un Kamats (ָ) qui donne le son [va]. Le second se prononce [v]. Le mot se lit donc [vav].",
+      "options": [
+        {
+          "id": "vav-exercise-8-option-1",
+          "label": "[vav]"
+        },
+        {
+          "id": "vav-exercise-8-option-2",
+          "label": "[lav]"
+        },
+        {
+          "id": "vav-exercise-8-option-3",
+          "label": "[vuv]"
+        }
+      ],
+      "correctOptionId": "vav-exercise-8-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "vav-exercise-9",
+      "sourceId": "1742223897674",
+      "type": "TRUE_FALSE",
+      "prompt": "Quand le Vav (וַ) est combiné avec le signe vocalique Patah, il produit le son [va].",
+      "explanation": "Le Patah représente [a]. Avec Vav [v], וַ se lit [va].",
+      "options": [
+        {
+          "id": "vav-exercise-9-option-1",
+          "label": "True"
+        },
+        {
+          "id": "vav-exercise-9-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "vav-exercise-9-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "vav-exercise-10",
+      "sourceId": "1742223897675",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Laquelle de ces lettres produit le son [ou], comme dans « loup » ?",
+      "explanation": "Le Shourouk (וּ) est le signe vocalique qui produit le son [ou].",
+      "options": [
+        {
+          "id": "vav-exercise-10-option-1",
+          "label": "ת"
+        },
+        {
+          "id": "vav-exercise-10-option-2",
+          "label": "וּ"
+        },
+        {
+          "id": "vav-exercise-10-option-3",
+          "label": "ה"
+        },
+        {
+          "id": "vav-exercise-10-option-4",
+          "label": "ן"
+        }
+      ],
+      "correctOptionId": "vav-exercise-10-option-2",
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    },
+    {
+      "id": "vav-exercise-11",
+      "sourceId": "1742223897676",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Quel son Vav (ו) représente-t-il quand il est utilisé comme consonne ?",
+      "explanation": "Comme consonne, Vav représente [v], comme dans « vase ». Dans un texte sans signes vocaliques, Vav peut aussi servir à écrire [o] ou [u] (« ou »). Lis-le donc dans le contexte du mot.",
+      "options": [
+        {
+          "id": "vav-exercise-11-option-1",
+          "label": "[o] comme dans « dos »"
+        },
+        {
+          "id": "vav-exercise-11-option-2",
+          "label": "[ou] comme dans « loup »"
+        },
+        {
+          "id": "vav-exercise-11-option-3",
+          "label": "[v] comme dans « vase »"
+        }
+      ],
+      "correctOptionId": "vav-exercise-11-option-3",
+      "reviewFlags": []
+    },
+    {
+      "id": "vav-exercise-12",
+      "sourceId": "1742223897677",
+      "type": "TRUE_FALSE",
+      "prompt": "Le Vav avec Shourouk (וּ) produit-il le son [o] comme dans « dos » ?",
+      "explanation": "Le Vav avec Shourouk (וּ) produit le son [ou] comme dans « loup », et non le son [o].",
+      "options": [
+        {
+          "id": "vav-exercise-12-option-1",
+          "label": "True"
+        },
+        {
+          "id": "vav-exercise-12-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "vav-exercise-12-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "vav-exercise-13",
+      "sourceId": "1742223897678",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Lequel de ces sons n'est PAS produit par la lettre Vav en hébreu ?",
+      "explanation": "Comme consonne, Vav représente [v]. Avec Holam Male, il représente [o] ; avec Shourouk, [u], le son « ou ». Dans וַ, le son [a] vient du Patah, et non du Vav lui-même.",
+      "options": [
+        {
+          "id": "vav-exercise-13-option-1",
+          "label": "[o] comme dans « dos »"
+        },
+        {
+          "id": "vav-exercise-13-option-2",
+          "label": "[ou] comme dans « loup »"
+        },
+        {
+          "id": "vav-exercise-13-option-3",
+          "label": "[a] comme dans « patte »"
+        }
+      ],
+      "correctOptionId": "vav-exercise-13-option-3",
+      "reviewFlags": []
+    }
+  ]
+}

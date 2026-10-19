@@ -1,23 +1,26 @@
 // Per-locale (FR) tests for src/lib/alphabet-course.mjs — see docs/I18N_AUDIT.md §3/§7
 // and the FR localization infra brief. `supportedLessonRoutesFr` is computed once,
 // at module-load time, from the real contents of src/content/lessons/fr/ — which
-// holds real aleph/bet/gimel fixtures as of the FR backfill in progress (prepared,
-// not yet published) plus this file's own placeholders for the rest. To
-// integration-test the "FR route exists" gate itself (not just the locale-agnostic
-// `validateWeeklyReleaseLimit` function), this file writes a handful of empty
-// placeholder files there *before* importing the module (so its module-scope
-// readdirSync sees them) for any fixture slug lacking a real file already, then
-// removes only the ones it created once every test in this file has run — nothing
-// is left behind, and the module cache for this file's own process is the only
-// thing that ever observes the placeholders (`node --test` runs each test file in
-// its own process).
+// holds real aleph/bet/gimel/dalet/he/vav fixtures as of the FR backfill in
+// progress (prepared, not yet published) plus this file's own placeholders for
+// the rest. To integration-test the "FR route exists" gate itself (not just the
+// locale-agnostic `validateWeeklyReleaseLimit` function), this file writes a
+// handful of empty placeholder files there *before* importing the module (so its
+// module-scope readdirSync sees them) for any fixture slug lacking a real file
+// already, then removes only the ones it created once every test in this file
+// has run — nothing is left behind, and the module cache for this file's own
+// process is the only thing that ever observes the placeholders (`node --test`
+// runs each test file in its own process).
 import { writeFileSync, rmSync, existsSync, mkdirSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import test, { after } from 'node:test';
 import assert from 'node:assert/strict';
 
 const FR_CONTENT_DIR = fileURLToPath(new URL('../src/content/lessons/fr/', import.meta.url));
-const FIXTURE_SLUGS = ['aleph', 'bet', 'gimel', 'dalet'];
+// 'chet' has no real FR fixture — kept only as a placeholder slug for the
+// "has a route but no webImplemented flag" case below; 'zayin' is deliberately
+// left out of this list so it stays the "no FR route at all" baseline.
+const FIXTURE_SLUGS = ['aleph', 'bet', 'gimel', 'dalet', 'he', 'vav', 'chet'];
 mkdirSync(FR_CONTENT_DIR, { recursive: true });
 const createdFixtures = FIXTURE_SLUGS
   .map(slug => `${FR_CONTENT_DIR}${slug}.json`)
@@ -30,18 +33,24 @@ const { courseManifest, validatePublicationManifest, validateWeeklyReleaseLimit,
 const draft = () => {
   const value = structuredClone(courseManifest);
   for (const item of [value.hub, ...value.lessons]) Object.assign(item, { editorialApproved: false, published: false, publishedAt: null });
+  // aleph/bet/gimel/dalet/he/vav are now actually published in FR (the FR
+  // backfill) — reset locales.fr publication state too, so each test below
+  // starts from a clean slate and sets up exactly the FR state it needs.
+  for (const lesson of value.lessons) {
+    if (lesson.locales?.fr) Object.assign(lesson.locales.fr, { editorialApproved: false, published: false, publishedAt: null });
+  }
   return value;
 };
 
 test('a lesson with no locales map, or an all-false locales.fr, behaves exactly as before for non-en locales', () => {
-  // aleph/bet/gimel are mid-backfill as of this checkout (real FR fixtures,
-  // webImplemented/previewAvailable flipped) — use a still-untouched lesson
-  // (dalet) for the "nothing implemented yet" baseline instead.
-  assert.equal(lessonEnabled('dalet', false, courseManifest, 'fr'), false);
-  assert.equal(lessonEnabled('dalet', true, courseManifest, 'fr'), false);
+  // aleph/bet/gimel/dalet/he/vav are mid-backfill as of this checkout (real FR
+  // fixtures, webImplemented/previewAvailable flipped) — use a still-untouched
+  // lesson (zayin) for the "nothing implemented yet" baseline instead.
+  assert.equal(lessonEnabled('zayin', false, courseManifest, 'fr'), false);
+  assert.equal(lessonEnabled('zayin', true, courseManifest, 'fr'), false);
   // Scaffolded locales.fr (all false) on every not-yet-backfilled lesson in
   // src/data/alphabet-course.json must behave the same as no locales map at all.
-  const notYetBackfilled = courseManifest.lessons.filter(l => !['aleph', 'bet', 'gimel'].includes(l.slug));
+  const notYetBackfilled = courseManifest.lessons.filter(l => !['aleph', 'bet', 'gimel', 'dalet', 'he', 'vav'].includes(l.slug));
   assert.ok(notYetBackfilled.every(l => l.locales?.fr && Object.values(l.locales.fr).every(v => v === false || v === null)));
   assert.doesNotThrow(() => validatePublicationManifest(courseManifest));
 });
@@ -60,18 +69,20 @@ test('FR cannot publish ahead of its EN lesson, even with a real FR route and fu
 test('FR publication needs its own implemented route, independent of whether EN has one', () => {
   const value = draft();
   Object.assign(value.lessons[0], { editorialApproved: true, published: true, publishedAt: '2026-10-11' });
-  // he (lessons[4]) has an EN route but is not one of this file's FR fixture
-  // slugs — flipping FR webImplemented for it must fail closed on the route check.
-  value.lessons[4].locales.fr.webImplemented = true;
-  assert.throws(() => validatePublicationManifest(value), /No implemented FR route for he/);
-  value.lessons[4].locales.fr.webImplemented = false;
-  // dalet *does* have an FR fixture route here (this file's placeholder) but no
+  // zayin (lessons[6]) has an EN route but no FR fixture at all (not in this
+  // file's FIXTURE_SLUGS) — flipping FR webImplemented for it must fail closed
+  // on the route check.
+  const zayin = value.lessons.find(l => l.slug === 'zayin');
+  zayin.locales.fr.webImplemented = true;
+  assert.throws(() => validatePublicationManifest(value), /No implemented FR route for zayin/);
+  zayin.locales.fr.webImplemented = false;
+  // chet *does* have an FR fixture route here (this file's placeholder) but no
   // webImplemented flag of its own — previewAvailable without webImplemented is
-  // still rejected, same rule as EN's own. (aleph/bet/gimel are excluded from
-  // this check since they are mid-backfill and already have webImplemented: true
-  // in the real manifest.)
-  const dalet = value.lessons.find(l => l.slug === 'dalet');
-  dalet.locales.fr.previewAvailable = true;
+  // still rejected, same rule as EN's own. (aleph/bet/gimel/dalet/he/vav are
+  // excluded from this check since they are mid-backfill and already have
+  // webImplemented: true in the real manifest.)
+  const chet = value.lessons.find(l => l.slug === 'chet');
+  chet.locales.fr.previewAvailable = true;
   assert.throws(() => validatePublicationManifest(value), /FR preview requires an implemented route/);
 });
 
