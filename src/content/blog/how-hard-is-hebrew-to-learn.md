@@ -1,14 +1,16 @@
 ---
 title: "Is Hebrew Hard to Learn? A Realistic Guide for Beginners"
-seoTitle: "Is Hebrew Hard to Learn? A Beginner's Guide | HebrewEdu"
+seoTitle: "Is Hebrew Hard to Learn? A Beginner's Guide"
 description: "Is Hebrew hard to learn? See the main challenges for English speakers, how long Hebrew takes to learn, and what actually makes progress easier."
 pubDate: 2026-05-21
 updatedDate: 2026-10-02
 author: "HebrewEdu Team"
 category: "Hebrew Learning"
+categoryKey: "hebrewLearning"
 readingTime: "9 min read"
 featured: true
 tags: ["how hard is Hebrew", "learn Hebrew", "Hebrew difficulty", "Hebrew for beginners", "Hebrew vs other languages"]
+translationKey: "how-hard-is-hebrew-to-learn"
 ---
 
 People ask this question constantly.

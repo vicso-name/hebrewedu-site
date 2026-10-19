@@ -8,7 +8,7 @@ export const phraseContentSha256 = createHash('sha256').update(JSON.stringify({ 
 
 export const phrasesPathFr = '/fr/apprendre/phrases-hebreu/';
 export const phrasesTitleFr = 'Phrases et expressions en hébreu pour débutants';
-export const phrasesDescriptionFr = "Apprends les phrases en hébreu essentielles : salutations, politesse, repas, achats et directions, avec transcription phonétique et dialogues.";
+export const phrasesDescriptionFr = "Apprends les phrases en hébreu essentielles : salutations, politesse, repas, achats et directions, avec transcription phonétique et dialogues.";
 export const frPhraseContentSha256 = createHash('sha256').update(JSON.stringify({ phraseGroups, phraseDialogues, frPhraseExercises, frPhraseQuestions })).digest('hex');
 
 function realDate(value) {

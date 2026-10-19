@@ -4,9 +4,11 @@ description: "Hebrew Binyanim are the 7 verb pattern groups that shape how Hebre
 pubDate: 2026-05-23
 author: "HebrewEdu Team"
 category: "Hebrew Learning"
+categoryKey: "hebrewLearning"
 readingTime: "9 min read"
 featured: false
 tags: ["Hebrew Binyanim", "Hebrew verbs", "Hebrew grammar", "learn Hebrew", "Hebrew for beginners"]
+translationKey: "hebrew-binyanim-explained"
 ---
 
 There is a specific moment Hebrew learners dread.

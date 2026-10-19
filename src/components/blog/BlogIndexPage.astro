@@ -1,0 +1,84 @@
+---
+// Shared blog-listing template: src/pages/blog/index.astro and
+// src/pages/fr/blog/[...index].astro both render through it, so neither owns a
+// page shell of its own (docs/I18N.md §2, LAYOUT_WRAPPERS in
+// scripts/check-layout.mjs). It renders Layout.astro internally, the same
+// pattern as HomePage.astro / AlphabetHubPage.astro.
+import Layout, { type Alternate } from '../../layouts/Layout.astro';
+import Nav from '../Nav.astro';
+import Footer from '../Footer.astro';
+import FeaturedPost from './FeaturedPost.astro';
+import BlogCard from './BlogCard.astro';
+import { getSortedPosts } from '../../lib/blog';
+import { getDictionary, type Locale } from '../../i18n';
+import '../../styles/blog.css';
+
+interface Props {
+  locale?: Locale;
+  /** hreflang alternates; omitted when this locale's listing has no counterpart. */
+  alternates?: Alternate[];
+  langSwitch?: { href: string };
+  schema?: Record<string, unknown>;
+}
+
+const { locale = 'en', alternates, langSwitch, schema } = Astro.props;
+const t = getDictionary(locale);
+
+// A locale lists only its own posts. Newest is featured; the rest fill the
+// grid, so nothing renders twice.
+const [featured, ...rest] = await getSortedPosts(locale);
+---
+
+<Layout
+  title={t.blog.indexTitle}
+  description={t.blog.indexDescription}
+  locale={locale}
+  alternates={alternates}
+  langSwitch={langSwitch}
+  schema={schema}
+>
+  <link
+    slot="head"
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+  />
+
+  <!-- .blog-page scopes the blog tokens and Nav theming (src/styles/blog.css) -->
+  <div class="blog-page">
+    <Nav locale={locale} langSwitch={langSwitch} />
+    <main class="blog-main">
+      <div class="container">
+        <header class="blog-header">
+          <p class="blog-eyebrow">{t.blog.eyebrow}</p>
+          <h1 class="blog-h1">{t.blog.h1}</h1>
+          <p class="blog-lead">
+            {t.blog.lead}
+          </p>
+        </header>
+
+        {!featured ? (
+          <div class="blog-empty">
+            <h2 class="blog-section-title">{t.blog.emptyTitle}</h2>
+            <p class="blog-lead">
+              {t.blog.emptyBody}
+            </p>
+          </div>
+        ) : (
+          <FeaturedPost post={featured} locale={locale} />
+        )}
+
+        {rest.length > 0 && (
+          <section class="blog-latest" aria-labelledby="latest-heading">
+            <h2 class="blog-section-title" id="latest-heading">{t.blog.latestHeading}</h2>
+            <ul class="blog-grid" role="list">
+              {rest.map(post => (
+                <li><BlogCard post={post} locale={locale} /></li>
+              ))}
+            </ul>
+          </section>
+        )}
+      </div>
+    </main>
+    <Footer locale={locale} />
+  </div>
+</Layout>

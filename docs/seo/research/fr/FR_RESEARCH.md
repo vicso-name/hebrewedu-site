@@ -23,9 +23,17 @@ misclassification, and ran a free competitor audit via WebFetch.
   justify a **scoped pilot**, not a blanket GO on the full candidate set.
 
 **FR pilot scope:** alphabet hub (retarget existing page), the 22 letter
-lessons (keyword/meta touch-up, no new pages), a new printable-PDF page, a
-new cursive-script page, and FR-home targeting of "apprendre l'hébreu" as
-the broad entry term.
+lessons (keyword/meta touch-up, no new pages), a new printable-PDF page, and
+FR-home targeting of "apprendre l'hébreu" as the broad entry term.
+
+> **Superseded, 2026-10-19 (owner).** The planned standalone cursive page
+> (`/alphabet-hebreu/cursif`) is **dropped**: the FR counterpart of
+> `/blog/why-hebrew-handwriting-looks-completely-different-from-printed-hebrew/`
+> takes that demand instead, at `/fr/blog/ecriture-hebraique/`, targeting
+> `écriture hébraïque` (720) + `alphabet hébreu cursif` (390). The hub keeps
+> `alphabet hébreu` (owner rule); the alphabet **guide** is a blog post at
+> `/fr/blog/lettres-hebraiques/` targeting `lettres hébraïques` (390).
+> See `BLOG_FR_PLAN.md`; `docs/seo/core/` already reflects all three.
 
 **Deferred** (real demand, but needs separate validation before building):
 symbolism/guématria, biblical Hebrew, oulpan/modern Hebrew, kids-intent.
@@ -89,7 +97,7 @@ the hub's volume and diluting its intent profile.
 | symbolism-gematria | 20 | 20 | 1,470 | 51 (6/20) | new: Signification et guématria des lettres hébraïques |
 | biblical-hebrew | 47 | 46 | 960 | 46 (6/47) | none (open Q) |
 | printable-reference | 26 | 26 | 930 | 52 (7/26) | new: Alphabet hébreu à imprimer (PDF) |
-| cursive-script | 5 | 4 | 470 | 52 (1/5) | new: Écriture cursive hébraïque |
+| cursive-script | 5 | 4 | 470 | 52 (1/5) | blog:/fr/blog/ecriture-hebraique/ |
 | app | 5 | 5 | 100 | — (0/5) | app |
 | translation-tool | 4 | 4 | 60 | 10 (1/4) | none (dictionary intent, off-mission) |
 | reading-nikoud | 2 | 2 | 30 | 17 (1/2) | new: Lire l'hébreu avec les voyelles |
@@ -136,7 +144,7 @@ all remaining top-30 entries: `keywords-fr.csv`.
 | Vav | vav hébreu | 30 |
 | Hé | lettre hébraïque hé | 20 |
 | Ayin | ayin hébreu | 10 |
-| Daleth | lettre hébraïque daleth | 10 |
+| Dalet (not Daleth) | dalet hébreu | 10 |
 | Lamed | lettre hébraïque lamed | 10 |
 | Noun | lettre hébraïque noun | 10 |
 | Guimel (not Gimel) | gimel hébreu | 0 |
@@ -206,16 +214,17 @@ specifically, not language-course breadth.
 |---|---|---|---|
 | Alphabet hub (existing — retarget copy) | alphabet hébreu | Alphabet hébreu : les 22 lettres expliquées | /alphabet-hebreu |
 | FR home (existing — target broad entry term, no new page) | apprendre l'hébreu | (existing home title, confirm it covers this term) | / |
-| New: cursive script | alphabet hébreu cursif | L'alphabet hébreu cursif, lettre par lettre | /alphabet-hebreu/cursif |
 | New: printable chart | les 22 lettres hébraïques pdf | Alphabet hébreu à imprimer, PDF gratuit | /alphabet-hebreu/pdf-a-imprimer |
 | 22 existing letter lessons (keyword/meta touch-up only, no new pages) | \<letter\> hébreu | (no title change needed — low standalone volume) | — |
 
 **Deferred, not in this pilot:** symbolism/guématria (new page idea stays
 on file — "Signification et guématria des lettres hébraïques" — but needs
 GSC-verified demand first), biblical Hebrew, oulpan/modern Hebrew, kids
-pages. Printable/PDF and cursive-script are the two clearest net-new page
-opportunities already in scope: real demand (930 + 470 vol/mo respectively)
-the alphabet hub doesn't address, weak-to-moderate competition.
+pages. Printable/PDF is the clearest net-new page opportunity still in this
+pilot's scope: real demand (930 vol/mo) the alphabet hub doesn't address, at
+weak-to-moderate competition. Cursive-script demand (470 vol/mo here, 1,110
+once `écriture hébraïque` is counted with it) moved to the FR blog — see the
+superseded note above.
 
 ## Intent notes
 

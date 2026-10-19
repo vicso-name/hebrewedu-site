@@ -5,9 +5,11 @@ pubDate: 2026-05-18
 updatedDate: 2026-10-10
 author: "HebrewEdu Team"
 category: "Hebrew Reading"
+categoryKey: "hebrewReading"
 readingTime: "8 min read"
 featured: false
 tags: ["Hebrew Nikud", "Hebrew vowel marks", "Hebrew reading", "learn Hebrew", "Hebrew for beginners"]
+translationKey: "how-to-read-hebrew-nikud"
 ---
 
 Most learners discover Hebrew Nikud the same way.

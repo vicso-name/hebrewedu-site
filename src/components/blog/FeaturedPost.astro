@@ -1,12 +1,15 @@
 ---
-import { formatPostDate, type BlogPost } from '../../lib/blog';
+import { blogPath, formatPostDate, type BlogPost } from '../../lib/blog';
+import { getDictionary, type Locale } from '../../i18n';
 
 interface Props {
   post: BlogPost;
+  locale?: Locale;
 }
 
-const { post } = Astro.props;
+const { post, locale = 'en' } = Astro.props;
 const { title, description, pubDate, readingTime } = post.data;
+const t = getDictionary(locale);
 ---
 
 <!-- Styles live in src/styles/blog.css. The "Read article" link is stretched
@@ -14,19 +17,19 @@ const { title, description, pubDate, readingTime } = post.data;
 <article class="blog-featured">
   <div class="blog-featured-main">
     <p class="blog-featured-kicker">
-      <span class="blog-featured-flag">Featured article</span>
+      <span class="blog-featured-flag">{t.blog.featuredFlag}</span>
     </p>
     <h2 class="blog-featured-title">{title}</h2>
   </div>
   <div class="blog-featured-side">
     <p class="blog-featured-excerpt">{description}</p>
     <p class="blog-meta">
-      <time datetime={pubDate.toISOString()}>{formatPostDate(pubDate)}</time>
+      <time datetime={pubDate.toISOString()}>{formatPostDate(pubDate, locale)}</time>
       <span aria-hidden="true">·</span>
       <span>{readingTime}</span>
     </p>
-    <a href={`/blog/${post.id}/`} class="blog-featured-link">
-      Read article<span class="blog-sr-only">: {title}</span>
+    <a href={`${blogPath(locale)}${post.id}/`} class="blog-featured-link">
+      {t.blog.readArticle}<span class="blog-sr-only">{t.blog.readArticleTitlePrefix}{title}</span>
       <span class="blog-featured-arrow" aria-hidden="true">→</span>
     </a>
   </div>

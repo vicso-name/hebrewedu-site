@@ -1,0 +1,47 @@
+---
+// FR blog article (/fr/blog/<slug-français>/) — a thin wrapper over the shared
+// template. Nothing is built until src/content/blog/fr/ has a post.
+//
+// FR slugs are French and are not derived from the EN id; the two posts are
+// paired by `translationKey` instead (src/content.config.ts), which is what
+// drives reciprocal hreflang.
+import { getCollection } from 'astro:content';
+import BlogPostPage from '../../../components/blog/BlogPostPage.astro';
+import { getSortedPosts, getTranslation, postUrl, type BlogPost } from '../../../lib/blog';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blogFr');
+  return posts.map(post => ({
+    params: { slug: post.id },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props as { post: BlogPost };
+
+// hreflang is reciprocal or absent (docs/I18N.md §3.3). An FR post without an
+// EN counterpart would also breach §3.4 (FR never publishes ahead of EN), so
+// check:i18n reports the missing alternates rather than this route guessing.
+const twin = await getTranslation('fr', post);
+const alternates = twin
+  ? [
+      { hreflang: 'en', href: postUrl('en', twin.id) },
+      { hreflang: 'fr', href: postUrl('fr', post.id) },
+      { hreflang: 'x-default', href: postUrl('en', twin.id) },
+    ]
+  : undefined;
+const langSwitch = twin ? { href: `/blog/${twin.id}/` } : undefined;
+
+// Latest three FR posts, excluding the one being read — a FR page links to FR
+// pages (docs/I18N.md §3.1), never to EN articles.
+const related = (await getSortedPosts('fr'))
+  .filter(p => p.id !== post.id)
+  .slice(0, 3);
+---
+<BlogPostPage
+  post={post}
+  related={related}
+  locale="fr"
+  alternates={alternates}
+  langSwitch={langSwitch}
+/>

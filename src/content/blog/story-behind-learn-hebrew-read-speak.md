@@ -6,8 +6,10 @@ pubDate: 2026-10-07
 updatedDate: 2026-10-10
 author: "HebrewEdu Team"
 category: "Founder Story"
+categoryKey: "founderStory"
 readingTime: "12 min read"
 tags: ["Learn Hebrew – Read & Speak", "teaching philosophy", "beginner Hebrew", "Hebrew reading", "Nikud"]
+translationKey: "story-behind-learn-hebrew-read-speak"
 ---
 
 There are three people making decisions inside the app project, according to its creator: a teacher, an indie developer, and a product owner who has to think about marketing. They happen to be the same person. They also tend to disagree.

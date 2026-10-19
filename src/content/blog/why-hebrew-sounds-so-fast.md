@@ -4,9 +4,11 @@ description: "Why spoken Hebrew feels impossibly fast to beginners — a realist
 pubDate: 2026-05-12
 author: "HebrewEdu Team"
 category: "Hebrew Learning"
+categoryKey: "hebrewLearning"
 readingTime: "9 min read"
 featured: true
 tags: ["Hebrew listening", "spoken Hebrew", "Hebrew comprehension", "learn Hebrew", "Hebrew for beginners"]
+translationKey: "why-hebrew-sounds-so-fast"
 ---
 
 Every Hebrew learner eventually experiences the same emotional journey.

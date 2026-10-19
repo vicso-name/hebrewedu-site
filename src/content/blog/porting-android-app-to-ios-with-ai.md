@@ -1,10 +1,11 @@
 ---
 title: "What It Took to Bring a Mature Android App to iOS"
-seoTitle: "Porting a Mature Android App to iOS with AI | HebrewEdu"
+seoTitle: "Porting a Mature Android App to iOS with AI"
 description: "An indie founder’s Android-to-iOS port: five years of infrastructure, months of AI-assisted Swift development, product improvements, and App Store review."
 pubDate: 2026-10-10
 author: "HebrewEdu Team"
 category: "Founder Story"
+categoryKey: "founderStory"
 readingTime: "11 min read"
 showAppCta: false
 tags: ["Android to iOS", "indie app development", "AI-assisted development", "Swift", "Learn Hebrew – Read & Speak"]

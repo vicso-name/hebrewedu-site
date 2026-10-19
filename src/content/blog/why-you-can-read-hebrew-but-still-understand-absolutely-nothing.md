@@ -1,14 +1,16 @@
 ---
 title: "Why You Can Read Hebrew but Still Not Understand It"
-seoTitle: "Why You Can Read Hebrew but Not Understand It | HebrewEdu"
+seoTitle: "Why You Can Read Hebrew but Not Understand It"
 description: "One of the strangest stages in learning Hebrew: when you can technically read the words, but your brain still refuses to turn them into meaning."
 pubDate: 2026-05-16
 updatedDate: 2026-10-02
 author: "HebrewEdu Team"
 category: "Hebrew Learning"
+categoryKey: "hebrewLearning"
 readingTime: "10 min read"
 featured: true
 tags: ["Hebrew reading", "Hebrew comprehension", "learn Hebrew", "Hebrew for beginners", "Hebrew vocabulary"]
+translationKey: "why-you-can-read-hebrew-but-still-understand-absolutely-nothing"
 ---
 
 There is a deeply confusing moment almost every Hebrew learner experiences.

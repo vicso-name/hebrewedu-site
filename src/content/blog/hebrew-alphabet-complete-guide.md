@@ -1,10 +1,14 @@
 ---
 title: "The Hebrew Alphabet: A Complete Guide to All 22 Letters"
+# Owner exception: this post keeps the brand suffix until end of October 2026;
+# every other blog title dropped it (docs/I18N.md "Known gaps").
+seoTitle: "The Hebrew Alphabet: A Complete Guide to All 22 Letters | HebrewEdu Blog"
 description: "Everything you need to know about the Hebrew alphabet — letter shapes, names, sounds, and practical tips for learning Aleph Bet from scratch."
 pubDate: 2025-07-01
 updatedDate: 2026-10-10
 author: "HebrewEdu Team"
 category: "Alphabet Guide"
+categoryKey: "alphabetGuide"
 readingTime: "9 min read"
 featured: true
 tags: ["Hebrew alphabet", "Aleph Bet", "Hebrew letters", "learn Hebrew", "Hebrew reading"]
@@ -21,6 +25,7 @@ faq:
     a: 'Modern Hebrew uses most of the same punctuation marks as English — periods, commas, question marks, and quotation marks — adapted into its right-to-left script. Classical and liturgical Hebrew texts instead rely on a separate system of cantillation and accent marks, which serve a different purpose than modern punctuation.'
   - q: 'Why does Hebrew use a square script?'
     a: 'The square script used in Hebrew today descends from the Aramaic alphabet, adopted by Jewish scribes after the Babylonian exile in the 6th century BCE. It gradually replaced the older, more angular Paleo-Hebrew script, which by then was already falling out of everyday use. Paleo-Hebrew survives today mainly in ancient inscriptions, not in the Aleph Bet taught in this guide.'
+translationKey: "hebrew-alphabet-complete-guide"
 ---
 
 There's a moment every Hebrew learner knows. You're staring at a page of text and instead of seeing words, you see shapes — beautiful, strange, completely unreadable shapes. The letters curl and spike in directions you're not expecting. Nothing connects to anything you know.

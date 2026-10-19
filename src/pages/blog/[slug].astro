@@ -1,16 +1,9 @@
 ---
-import { getCollection, render } from 'astro:content';
-import Layout from '../../layouts/Layout.astro';
-import Nav from '../../components/Nav.astro';
-import Footer from '../../components/Footer.astro';
-import RelatedPosts from '../../components/blog/RelatedPosts.astro';
-import StoreButtons from '../../components/ui/StoreButtons.astro';
-import Faq from '../../components/Faq.astro';
-import { getSortedPosts, formatPostDate } from '../../lib/blog';
-import { site } from '../../data/site';
-import { phrasesPath, phrasesPublished } from '../../lib/hebrew-phrases.mjs';
-import { phraseReview } from '../../data/hebrew-phrases';
-import '../../styles/blog.css';
+// EN blog article — a thin wrapper over the shared template. Its FR
+// counterpart is src/pages/fr/blog/[slug].astro.
+import { getCollection } from 'astro:content';
+import BlogPostPage from '../../components/blog/BlogPostPage.astro';
+import { getSortedPosts, getTranslation, postUrl, type BlogPost } from '../../lib/blog';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
@@ -20,106 +13,29 @@ export async function getStaticPaths() {
   }));
 }
 
-const { post } = Astro.props;
-const { Content } = await render(post);
-const { title, description, pubDate, updatedDate, author, category, readingTime } = post.data;
-const showPhrasesLink = post.id === 'how-to-learn-hebrew-vocabulary' && phrasesPublished();
-const contentDates = [updatedDate, ...(showPhrasesLink ? [new Date(phraseReview.publishedAt!)] : [])].filter((date): date is Date => date !== undefined);
-const contentUpdatedDate = contentDates.sort((a, b) => b.getTime() - a.getTime())[0];
+const { post } = Astro.props as { post: BlogPost };
 
-const formattedDate = formatPostDate(pubDate);
-
-// BlogPosting JSON-LD, from frontmatter only. dateModified is included only
-// when the post has a real updatedDate; there are no article images.
-const pageUrl = new URL(Astro.url.pathname, Astro.site).href;
-const articleSchema = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": title,
-  "description": description,
-  "datePublished": pubDate.toISOString(),
-  ...(contentUpdatedDate && { "dateModified": contentUpdatedDate.toISOString() }),
-  "url": pageUrl,
-  "mainEntityOfPage": { "@type": "WebPage", "@id": pageUrl },
-  "author": { "@type": "Organization", "name": author },
-  "publisher": {
-    "@type": "Organization",
-    "name": site.name,
-    "url": `${site.url}/`,
-    "logo": { "@type": "ImageObject", "url": `${site.url}/apple-touch-icon.png` }
-  },
-  "inLanguage": "en"
-};
+// hreflang is reciprocal or absent (docs/I18N.md §3.3): a post declares
+// alternates only once a FR post shares its `translationKey`.
+const twin = await getTranslation('en', post);
+const alternates = twin
+  ? [
+      { hreflang: 'en', href: postUrl('en', post.id) },
+      { hreflang: 'fr', href: postUrl('fr', twin.id) },
+      { hreflang: 'x-default', href: postUrl('en', post.id) },
+    ]
+  : undefined;
+const langSwitch = twin ? { href: `/fr/blog/${twin.id}/` } : undefined;
 
 // Latest three posts, excluding the one being read.
-const related = (await getSortedPosts())
+const related = (await getSortedPosts('en'))
   .filter(p => p.id !== post.id)
   .slice(0, 3);
 ---
-
-<Layout
-  title={`${title} | HebrewEdu Blog`}
-  seoTitle={post.data.seoTitle}
-  description={description}
-  ogType="article"
-  schema={articleSchema}
->
-  <link
-    slot="head"
-    rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
-  />
-
-  <!-- .article-page scopes the blog tokens and Nav theming (src/styles/blog.css) -->
-  <div class="article-page">
-    <Nav />
-
-    <main>
-      <article class="container article">
-        <div class="article-inner">
-
-          <a href="/blog/" class="article-back">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-              <path d="M19 12H5M12 5l-7 7 7 7"/>
-            </svg>
-            All articles
-          </a>
-
-          <header class="article-header">
-            <p><span class="blog-label">{category}</span></p>
-            <h1 class="article-title">{title}</h1>
-            <p class="article-description">{description}</p>
-            <p class="blog-meta">
-              <span>{author}</span>
-              <span aria-hidden="true">·</span>
-              <time datetime={pubDate.toISOString()}>{formattedDate}</time>
-              <span aria-hidden="true">·</span>
-              <span>{readingTime}</span>
-            </p>
-          </header>
-
-          <div class:list={["article-body", { "hebrew-alphabet-guide": post.id === "hebrew-alphabet-complete-guide" }]}>
-            <Content />
-            {showPhrasesLink && <p>Put your review routine to work with <a href={phrasesPath}>useful Hebrew phrases for everyday situations</a>. Learn an expression in context, then try a short practice.</p>}
-          </div>
-
-          {post.data.faq && <Faq
-            title="Frequently Asked Questions"
-            items={post.data.faq}
-            surface="white"
-          />}
-
-          {post.data.showAppCta && <div class="article-cta">
-            <p class="article-cta-text">Ready to start reading Hebrew?</p>
-            <StoreButtons location="blog_article" trackAlso="blog_cta_click" height={48} />
-          </div>}
-
-        </div>
-      </article>
-
-      <RelatedPosts posts={related} />
-    </main>
-
-    <Footer />
-  </div>
-</Layout>
+<BlogPostPage
+  post={post}
+  related={related}
+  locale="en"
+  alternates={alternates}
+  langSwitch={langSwitch}
+/>

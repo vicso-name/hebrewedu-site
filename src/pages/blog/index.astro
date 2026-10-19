@@ -1,62 +1,10 @@
 ---
-import Layout from '../../layouts/Layout.astro';
-import Nav from '../../components/Nav.astro';
-import Footer from '../../components/Footer.astro';
-import FeaturedPost from '../../components/blog/FeaturedPost.astro';
-import BlogCard from '../../components/blog/BlogCard.astro';
-import { getSortedPosts } from '../../lib/blog';
-import '../../styles/blog.css';
-
-// Newest post is featured; the rest fill the grid, so nothing renders twice.
-const [featured, ...rest] = await getSortedPosts();
+// EN blog listing — a thin wrapper over the shared template. Its FR
+// counterpart is src/pages/fr/blog/[...index].astro.
+//
+// No hreflang: /fr/blog/ is not built until the first FR post exists, and
+// hreflang is reciprocal or absent (docs/I18N.md §3.3). Both listings declare
+// alternates in the same change that adds the first FR post.
+import BlogIndexPage from '../../components/blog/BlogIndexPage.astro';
 ---
-
-<Layout
-  title="Hebrew Learning Resources – Alphabet, Reading & Grammar | HebrewEdu"
-  description="Practical guides for learning Hebrew: the alphabet, reading, Nikud, vocabulary, roots, verbs, binyanim and study strategies for beginners."
->
-  <link
-    slot="head"
-    rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
-  />
-
-  <!-- .blog-page scopes the blog tokens and Nav theming (src/styles/blog.css) -->
-  <div class="blog-page">
-    <Nav />
-    <main class="blog-main">
-      <div class="container">
-        <header class="blog-header">
-          <p class="blog-eyebrow">Blog</p>
-          <h1 class="blog-h1">Hebrew learning resources</h1>
-          <p class="blog-lead">
-            Tips, guides, and updates to help you on your Hebrew learning journey.
-          </p>
-        </header>
-
-        {!featured ? (
-          <div class="blog-empty">
-            <h2 class="blog-section-title">Coming soon</h2>
-            <p class="blog-lead">
-              We're working on our first articles. Check back soon!
-            </p>
-          </div>
-        ) : (
-          <FeaturedPost post={featured} />
-        )}
-
-        {rest.length > 0 && (
-          <section class="blog-latest" aria-labelledby="latest-heading">
-            <h2 class="blog-section-title" id="latest-heading">Latest articles</h2>
-            <ul class="blog-grid" role="list">
-              {rest.map(post => (
-                <li><BlogCard post={post} /></li>
-              ))}
-            </ul>
-          </section>
-        )}
-      </div>
-    </main>
-    <Footer />
-  </div>
-</Layout>
+<BlogIndexPage locale="en" />

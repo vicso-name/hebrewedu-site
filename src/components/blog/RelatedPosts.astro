@@ -1,21 +1,24 @@
 ---
 import BlogCard from './BlogCard.astro';
 import type { BlogPost } from '../../lib/blog';
+import { getDictionary, type Locale } from '../../i18n';
 
 interface Props {
   posts: BlogPost[];
+  locale?: Locale;
 }
 
-const { posts } = Astro.props;
+const { posts, locale = 'en' } = Astro.props;
+const t = getDictionary(locale);
 ---
 
 {posts.length > 0 && (
   <aside class="blog-related" aria-labelledby="related-heading">
     <div class="container">
-      <h2 class="blog-section-title" id="related-heading">Continue learning</h2>
+      <h2 class="blog-section-title" id="related-heading">{t.blog.relatedHeading}</h2>
       <ul class="blog-grid" role="list">
         {posts.map(post => (
-          <li><BlogCard post={post} /></li>
+          <li><BlogCard post={post} locale={locale} /></li>
         ))}
       </ul>
     </div>
