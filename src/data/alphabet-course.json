@@ -22,8 +22,8 @@
       "publishedAt": "2026-10-11",
       "locales": {
         "fr": {
-          "webImplemented": false,
-          "previewAvailable": false,
+          "webImplemented": true,
+          "previewAvailable": true,
           "editorialApproved": false,
           "published": false,
           "publishedAt": null,
@@ -45,8 +45,8 @@
       "publishedAt": "2026-10-14",
       "locales": {
         "fr": {
-          "webImplemented": false,
-          "previewAvailable": false,
+          "webImplemented": true,
+          "previewAvailable": true,
           "editorialApproved": false,
           "published": false,
           "publishedAt": null,
@@ -68,8 +68,8 @@
       "publishedAt": "2026-10-15",
       "locales": {
         "fr": {
-          "webImplemented": false,
-          "previewAvailable": false,
+          "webImplemented": true,
+          "previewAvailable": true,
           "editorialApproved": false,
           "published": false,
           "publishedAt": null,

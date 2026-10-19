@@ -1,0 +1,485 @@
+{
+  "id": "aleph",
+  "sourceId": 1,
+  "order": 1,
+  "glyph": "א",
+  "locale": "fr",
+  "title": "Aleph (א) : lettre hébraïque, son et exemples",
+  "description": "Apprends la lettre hébraïque Aleph (א) et ses trois signes vocaliques — Patah, Kamatz Gadol, Hataf-Patah — avec explications simples et exercices.",
+  "status": "local-review-only",
+  "normalizationVersion": 1,
+  "provenance": {
+    "source": "https://api.hebrewedu.com/api/lessons/1/?lang=fr",
+    "responseDate": "2026-10-19T13:29:22.683Z",
+    "sha256": "301d702a610600b225594005d88d7cb288e5beab1e27b591a054ed1111c782bc"
+  },
+  "editorialIssues": [
+    {
+      "id": "provisional-media",
+      "summary": "Illustration en attente d'approbation",
+      "detail": "L'image d'origine est retenue jusqu'à validation de son exactitude et de son droit de réemploi. La forme Unicode et la description écrite fournissent un équivalent textuel provisoire."
+    },
+    {
+      "id": "unintroduced-letters",
+      "summary": "Affinage optionnel des exercices",
+      "detail": "Certains distracteurs de reconnaissance utilisent des lettres non encore introduites dans cette leçon. Le guidage pour débutants pourra être amélioré séparément de la synchronisation avec la source approuvée."
+    },
+    {
+      "id": "true-false-balance",
+      "summary": "Affinage optionnel de l'équilibre des questions",
+      "detail": "Les cinq énoncés vrai/faux de la source sont tous marqués vrai. Le propriétaire conserve explicitement Q4 Vrai ; ce n'est pas un défaut d'intégrité des réponses ni un motif de blocage de publication (décision déjà actée pour la version EN)."
+    },
+    {
+      "id": "fr-typography",
+      "summary": "Espaces insécables avant la ponctuation et dans les guillemets français",
+      "detail": "La source brute FR utilise par endroits une espace normale avant « : ; ? ! » et autour des guillemets « » au lieu d'une espace insécable (convention typographique française, voir docs/hebrew-alphabet-editorial-rules.fr.md). Corrigé via contentOverrides."
+    }
+  ],
+  "blocks": [
+    {
+      "id": "aleph-block-1",
+      "sourceIndex": 0,
+      "text": "Aleph (א) : lettre hébraïque, son et exemples",
+      "reviewFlags": [],
+      "type": "MAIN_TITLE"
+    },
+    {
+      "id": "aleph-block-2",
+      "sourceIndex": 1,
+      "text": "L'hébreu s'écrit généralement avec des lettres consonantiques, mais certaines lettres, comme ו et י, peuvent aussi indiquer des voyelles. Pour préciser la prononciation des voyelles, on utilise des signes appelés niqqoud. Ils peuvent se placer sous les lettres, au-dessus ou à l'intérieur. Dans cette leçon, tu vas découvrir trois signes qui indiquent le son [a] avec Alef (א).",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "aleph-block-3",
+      "sourceIndex": 2,
+      "text": "Le Patah est un petit trait horizontal placé sous une consonne. Sa forme simple et épurée en fait l'un des signes vocaliques les plus faciles à reconnaître.",
+      "reviewFlags": [
+        "provisional-media"
+      ],
+      "type": "TEXT_IMAGE",
+      "illustration": {
+        "glyph": "אַ",
+        "label": "Patah",
+        "equivalent": "Alef avec un simple trait horizontal sous la lettre.",
+        "mediaStatus": "withheld-pending-review"
+      }
+    },
+    {
+      "id": "aleph-block-4",
+      "sourceIndex": 3,
+      "text": "Alef avec un Patah se prononce [a], comme le « a » dans « sac ». Pour rappel, ce signe se présente comme un simple trait horizontal sous la lettre.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "aleph-block-5",
+      "sourceIndex": 4,
+      "text": "Le Kamats Gadol ressemble à un petit « T » : un trait horizontal avec un court trait vertical qui descend vers le bas. Comme la plupart des signes vocaliques, il se place directement sous la consonne.",
+      "reviewFlags": [
+        "provisional-media"
+      ],
+      "type": "TEXT_IMAGE",
+      "illustration": {
+        "glyph": "אָ",
+        "label": "Kamats Gadol",
+        "equivalent": "Alef avec un signe en forme de petit T sous la lettre.",
+        "mediaStatus": "withheld-pending-review"
+      }
+    },
+    {
+      "id": "aleph-block-6",
+      "sourceIndex": 5,
+      "text": "En hébreu moderne, Alef avec un Kamats Gadol se prononce [a], comme le « a » dans « sac » : c'est le même son qu'avec un Patah.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "aleph-block-7",
+      "sourceIndex": 6,
+      "text": "Le Hataf-Patah combine un Patah et un Chva (deux points superposés). Il se présente comme un trait horizontal accompagné de deux points superposés à sa droite. Il se place sous la consonne.",
+      "reviewFlags": [
+        "provisional-media"
+      ],
+      "type": "TEXT_IMAGE",
+      "illustration": {
+        "glyph": "אֲ",
+        "label": "Hataf-Patah",
+        "equivalent": "Alef avec un trait horizontal accompagné de deux points sous la lettre.",
+        "mediaStatus": "withheld-pending-review"
+      }
+    },
+    {
+      "id": "aleph-block-8",
+      "sourceIndex": 7,
+      "text": "Le Hataf-Patah s'utilise principalement avec les lettres Alef (אֲ), Het (חֲ), Hé (הֲ) et Ayin (עֲ). Dans de rares cas, il peut aussi apparaître sous d'autres consonnes.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "aleph-block-9",
+      "sourceIndex": 8,
+      "text": "Alef avec un Hataf-Patah (אֲ) se lit [a], comme le « a » dans « sac ». Ce signe est traditionnellement associé à une voyelle réduite et très brève. Pour lire l'hébreu moderne, tu n'as pas besoin de distinguer ce son de celui du Patah par sa durée.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "aleph-block-10",
+      "sourceIndex": 9,
+      "text": "Conclusions",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "aleph-block-11",
+      "sourceIndex": 10,
+      "text": "Tu sais maintenant reconnaître trois signes de niqqoud utilisés avec Alef (א) : Patah (אַ), Kamats Gadol (אָ) et Hataf-Patah (אֲ). En hébreu moderne courant, les trois se lisent ici avec le son [a]. Le Hataf-Patah est un signe de voyelle réduite. Entraîne-toi à reconnaître leurs formes et à les lire en contexte.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "aleph-exercise-1",
+      "sourceId": "1742106507817",
+      "type": "TRUE_FALSE",
+      "prompt": "En hébreu, les voyelles sont représentées par de petits signes placés sous, au-dessus ou à l'intérieur des lettres. Ces signes indiquent comment prononcer chaque lettre.",
+      "explanation": "Le niqqoud indique les voyelles à prononcer. Des lettres comme ו et י peuvent aussi aider à représenter certaines voyelles. Les signes de niqqoud peuvent se placer sous, au-dessus ou à l'intérieur des lettres.",
+      "options": [
+        {
+          "id": "aleph-exercise-1-option-1",
+          "label": "True"
+        },
+        {
+          "id": "aleph-exercise-1-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "aleph-exercise-1-option-1",
+      "reviewFlags": [
+        "true-false-balance"
+      ]
+    },
+    {
+      "id": "aleph-exercise-2",
+      "sourceId": "1742106507818",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Quel signe vocalique ressemble à un petit « T » et ajoute un son [a] à une consonne ?",
+      "explanation": "C'est le Kamats Gadol ! Il se présente comme un trait horizontal avec un court trait vertical qui descend. Comme la plupart des signes vocaliques, il se place directement sous la consonne.",
+      "options": [
+        {
+          "id": "aleph-exercise-2-option-1",
+          "label": "Kamats Gadol"
+        },
+        {
+          "id": "aleph-exercise-2-option-2",
+          "label": "Patah"
+        },
+        {
+          "id": "aleph-exercise-2-option-3",
+          "label": "Ségol"
+        }
+      ],
+      "correctOptionId": "aleph-exercise-2-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "aleph-exercise-3",
+      "sourceId": "1742106507819",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Laquelle de ces lettres hébraïques est marquée d'un Kamats Gadol ?",
+      "explanation": "Le Kamats Gadol ressemble à un petit « T » sous la lettre. Sous Alef, אָ se lit [a], comme le « a » dans « sac ». En hébreu moderne, on ne distingue pas ici un [a] long d'un [a] court.",
+      "options": [
+        {
+          "id": "aleph-exercise-3-option-1",
+          "label": "צֵ"
+        },
+        {
+          "id": "aleph-exercise-3-option-2",
+          "label": "גַ"
+        },
+        {
+          "id": "aleph-exercise-3-option-3",
+          "label": "מֻ"
+        },
+        {
+          "id": "aleph-exercise-3-option-4",
+          "label": "אָ"
+        }
+      ],
+      "correctOptionId": "aleph-exercise-3-option-4",
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    },
+    {
+      "id": "aleph-exercise-4",
+      "sourceId": "1742106507820",
+      "type": "TRUE_FALSE",
+      "prompt": "En hébreu moderne courant, la lettre Alef est généralement muette ; les signes de niqqoud peuvent indiquer la voyelle à prononcer avec elle.",
+      "explanation": "Vrai ! Dans la langue courante, Alef ne produit généralement pas de son consonantique audible. Le niqqoud peut indiquer la voyelle à lire avec elle, comme dans אַ, אָ ou אֲ.",
+      "options": [
+        {
+          "id": "aleph-exercise-4-option-1",
+          "label": "True"
+        },
+        {
+          "id": "aleph-exercise-4-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "aleph-exercise-4-option-1",
+      "reviewFlags": [
+        "true-false-balance"
+      ]
+    },
+    {
+      "id": "aleph-exercise-5",
+      "sourceId": "1742106507821",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Quel son produit la lettre Alef (אָ) avec un Kamats Gadol ?",
+      "explanation": "Elle donne le son [a], comme le « a » dans « sac ».",
+      "options": [
+        {
+          "id": "aleph-exercise-5-option-1",
+          "label": "[a]"
+        },
+        {
+          "id": "aleph-exercise-5-option-2",
+          "label": "[o]"
+        },
+        {
+          "id": "aleph-exercise-5-option-3",
+          "label": "[u]"
+        },
+        {
+          "id": "aleph-exercise-5-option-4",
+          "label": "[e]"
+        }
+      ],
+      "correctOptionId": "aleph-exercise-5-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "aleph-exercise-6",
+      "sourceId": "1742106507822",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Quel signe vocalique ressemble à un simple trait horizontal et ajoute un son [a] à une consonne ?",
+      "explanation": "C'est le Patah ! Ce trait horizontal se place directement sous la consonne pour produire le son [a].",
+      "options": [
+        {
+          "id": "aleph-exercise-6-option-1",
+          "label": "Kamats Gadol"
+        },
+        {
+          "id": "aleph-exercise-6-option-2",
+          "label": "Ségol"
+        },
+        {
+          "id": "aleph-exercise-6-option-3",
+          "label": "Patah"
+        }
+      ],
+      "correctOptionId": "aleph-exercise-6-option-3",
+      "reviewFlags": []
+    },
+    {
+      "id": "aleph-exercise-7",
+      "sourceId": "1742106507823",
+      "type": "TRUE_FALSE",
+      "prompt": "Le Patah se présente comme un trait horizontal sous la lettre et correspond au son [a], comme le « a » dans « sac ».",
+      "explanation": "Vrai ! Le Patah est un simple trait horizontal sous la lettre qui indique le son [a], comme le « a » dans « sac ».",
+      "options": [
+        {
+          "id": "aleph-exercise-7-option-1",
+          "label": "True"
+        },
+        {
+          "id": "aleph-exercise-7-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "aleph-exercise-7-option-1",
+      "reviewFlags": [
+        "true-false-balance"
+      ]
+    },
+    {
+      "id": "aleph-exercise-8",
+      "sourceId": "1742106507824",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Laquelle de ces lettres hébraïques est marquée d'un Patah ?",
+      "explanation": "Repère le petit trait horizontal sous la lettre : c'est le Patah, qui indique le son [a]. Dans פַּ, la lettre Pé avec un daguech (le point à l'intérieur) indique [p] : on lit donc [pa], comme dans « papa ».",
+      "options": [
+        {
+          "id": "aleph-exercise-8-option-1",
+          "label": "פַּ"
+        },
+        {
+          "id": "aleph-exercise-8-option-2",
+          "label": "שׂ"
+        },
+        {
+          "id": "aleph-exercise-8-option-3",
+          "label": "מֻ"
+        },
+        {
+          "id": "aleph-exercise-8-option-4",
+          "label": "טָ"
+        }
+      ],
+      "correctOptionId": "aleph-exercise-8-option-1",
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    },
+    {
+      "id": "aleph-exercise-9",
+      "sourceId": "1742106507825",
+      "type": "TRUE_FALSE",
+      "prompt": "La lettre Alef (אַ) avec un Patah se prononce comme le « a » dans « sac ».",
+      "explanation": "Vrai ! Alef avec un Patah se lit [a], comme le « a » dans « sac ».",
+      "options": [
+        {
+          "id": "aleph-exercise-9-option-1",
+          "label": "True"
+        },
+        {
+          "id": "aleph-exercise-9-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "aleph-exercise-9-option-1",
+      "reviewFlags": [
+        "true-false-balance"
+      ]
+    },
+    {
+      "id": "aleph-exercise-10",
+      "sourceId": "1742106507826",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Quel son produit la lettre Alef (אַ) avec un Patah ?",
+      "explanation": "Avec un Patah, אַ se lit [a], comme le « a » dans « sac ». En hébreu moderne, ce son ne se distingue pas de celui du Kamats Gadol par sa durée.",
+      "options": [
+        {
+          "id": "aleph-exercise-10-option-1",
+          "label": "[e]"
+        },
+        {
+          "id": "aleph-exercise-10-option-2",
+          "label": "[o]"
+        },
+        {
+          "id": "aleph-exercise-10-option-3",
+          "label": "[u]"
+        },
+        {
+          "id": "aleph-exercise-10-option-4",
+          "label": "[a]"
+        }
+      ],
+      "correctOptionId": "aleph-exercise-10-option-4",
+      "reviewFlags": []
+    },
+    {
+      "id": "aleph-exercise-11",
+      "sourceId": "1742106507827",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Quel est le nom du signe vocalique traditionnellement associé à une voyelle [a] réduite et formé d'un trait horizontal accompagné de deux points superposés ?",
+      "explanation": "C'est le Hataf-Patah ! Il combine le trait du Patah avec les deux points du Chva. En hébreu moderne courant, il se lit [a] ; repère surtout sa forme.",
+      "options": [
+        {
+          "id": "aleph-exercise-11-option-1",
+          "label": "Holam Male"
+        },
+        {
+          "id": "aleph-exercise-11-option-2",
+          "label": "Shourouk"
+        },
+        {
+          "id": "aleph-exercise-11-option-3",
+          "label": "Hataf-Patah"
+        }
+      ],
+      "correctOptionId": "aleph-exercise-11-option-3",
+      "reviewFlags": []
+    },
+    {
+      "id": "aleph-exercise-12",
+      "sourceId": "1742106507828",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Laquelle de ces lettres hébraïques est marquée d'un Hataf-Patah ?",
+      "explanation": "Repère le trait horizontal accompagné de deux points verticaux. Ce signe s'utilise presque exclusivement avec les lettres gutturales : Alef (אֲ), Het (חֲ), Hé (הֲ) et Ayin (עֲ).",
+      "options": [
+        {
+          "id": "aleph-exercise-12-option-1",
+          "label": "הָ"
+        },
+        {
+          "id": "aleph-exercise-12-option-2",
+          "label": "סַ"
+        },
+        {
+          "id": "aleph-exercise-12-option-3",
+          "label": "טְ"
+        },
+        {
+          "id": "aleph-exercise-12-option-4",
+          "label": "עֲ"
+        }
+      ],
+      "correctOptionId": "aleph-exercise-12-option-4",
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    },
+    {
+      "id": "aleph-exercise-13",
+      "sourceId": "1742106507829",
+      "type": "TRUE_FALSE",
+      "prompt": "Le Hataf-Patah s'utilise principalement avec les quatre lettres gutturales : Alef (אֲ), Het (חֲ), Hé (הֲ) et Ayin (עֲ).",
+      "explanation": "Vrai ! Il apparaît presque toujours avec ces lettres spécifiques, même si, dans de très rares cas, on peut le trouver sous d'autres consonnes.",
+      "options": [
+        {
+          "id": "aleph-exercise-13-option-1",
+          "label": "True"
+        },
+        {
+          "id": "aleph-exercise-13-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "aleph-exercise-13-option-1",
+      "reviewFlags": [
+        "true-false-balance"
+      ]
+    },
+    {
+      "id": "aleph-exercise-14",
+      "sourceId": "1742106507830",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Quel son produit la lettre Alef (אֲ) avec un Hataf-Patah ?",
+      "explanation": "Avec un Hataf-Patah, אֲ se lit [a]. Ce signe est traditionnellement associé à une voyelle réduite. Pour lire l'hébreu moderne, tu n'as pas besoin de le distinguer du Patah par la durée du son.",
+      "options": [
+        {
+          "id": "aleph-exercise-14-option-1",
+          "label": "[a]"
+        },
+        {
+          "id": "aleph-exercise-14-option-2",
+          "label": "[o]"
+        },
+        {
+          "id": "aleph-exercise-14-option-3",
+          "label": "[u]"
+        },
+        {
+          "id": "aleph-exercise-14-option-4",
+          "label": "[e]"
+        }
+      ],
+      "correctOptionId": "aleph-exercise-14-option-1",
+      "reviewFlags": []
+    }
+  ]
+}

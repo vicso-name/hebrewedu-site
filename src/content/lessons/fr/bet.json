@@ -1,0 +1,472 @@
+{
+  "id": "bet",
+  "sourceId": 2,
+  "order": 2,
+  "glyph": "ב",
+  "locale": "fr",
+  "title": "Beth (ב) : lettre hébraïque, son et exemples",
+  "description": "Apprends la lettre hébraïque Beth (ב) : comment le Dagesh change sa prononciation entre [b] et [v], avec explications simples, mots d'exemple et exercices.",
+  "status": "local-review-only",
+  "normalizationVersion": 1,
+  "provenance": {
+    "source": "https://api.hebrewedu.com/api/lessons/2/?lang=fr",
+    "responseDate": "2026-10-19T13:29:22.683Z",
+    "sha256": "12fff26133e2b0a740f66ceae8968e8cdf481027260469faa55012f6644a3826"
+  },
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Affinage optionnel des exercices",
+      "detail": "Certains distracteurs de reconnaissance utilisent des lettres non encore introduites dans cette leçon. Le guidage pour débutants pourra être amélioré séparément de la synchronisation avec la source approuvée."
+    },
+    {
+      "id": "true-false-balance",
+      "summary": "Équilibre des vrai/faux corrigé",
+      "detail": "Les quatre énoncés vrai/faux de la source brute étaient tous marqués vrai. Q9 (sourceIndex 8) a été reformulé et basculé en faux, pour une vraie réponse fausse, cohérent avec le choix déjà fait côté EN."
+    },
+    {
+      "id": "english-leftover-matchpairs-holdout",
+      "summary": "Exercice MATCH_PAIRS retiré (reliquat anglais)",
+      "detail": "Les clés de l'exercice MATCH_PAIRS source utilisent les abréviations anglaises « w/ » et « w/o » (ex. « (א) w/ Patah »), affichées telles quelles aux lecteurs francophones. contentOverrides ne permet de corriger que content/tip/correctAnswer, jamais les données pairs ; retiré plutôt que d'afficher un reliquat anglais dans un contenu français."
+    }
+  ],
+  "blocks": [
+    {
+      "id": "bet-block-1",
+      "sourceIndex": 0,
+      "text": "Beth (ב) : lettre hébraïque, son et exemples",
+      "reviewFlags": [],
+      "type": "MAIN_TITLE"
+    },
+    {
+      "id": "bet-block-2",
+      "sourceIndex": 1,
+      "text": "Beit (בּ) est la deuxième lettre de l'alphabet hébreu. Elle se prononce [b] : les lèvres se ferment, puis s'ouvrent pour laisser passer l'air.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "bet-block-3",
+      "sourceIndex": 2,
+      "text": "Les lettres doubles",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "bet-block-4",
+      "sourceIndex": 3,
+      "text": "Dans un texte hébreu vocalisé, la lettre ב a deux prononciations : avec un Dagesh (un point à l'intérieur), בּ se lit Beit [b] ; sans Dagesh, ב se lit Veit [v]. Dans l'écriture courante sans signes de vocalisation, le point est généralement omis : il faut alors connaître la prononciation du mot.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "bet-block-5",
+      "sourceIndex": 4,
+      "text": "Avec un Dagesh, Beit (בּ) se prononce [b], comme le « b » de « bateau ».",
+      "reviewFlags": [],
+      "type": "TEXT_IMAGE",
+      "illustration": {
+        "glyph": "בּ",
+        "label": "Beit avec Dagesh",
+        "equivalent": "Beit avec un point (dagesh) au centre, prononcé [b].",
+        "mediaStatus": "withheld-pending-review"
+      }
+    },
+    {
+      "id": "bet-block-6",
+      "sourceIndex": 5,
+      "text": "vient",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "בָּא",
+      "transcription": "ba"
+    },
+    {
+      "id": "bet-block-7",
+      "sourceIndex": 6,
+      "text": "Le mot hébreu « בָּא » se prononce [ba] et signifie « vient ». La première lettre, Beit (בּ), porte un Dagesh et un Kamats Gadol (ָ) en dessous : elle donne le son [ba]. La lettre Alef (א) qui suit est muette. La prononciation correcte est donc [ba].",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "bet-block-8",
+      "sourceIndex": 7,
+      "text": "En début de mot, Beit porte souvent un Dagesh et se prononce [b], comme dans בָּא [ba]. Dans un texte vocalisé, regarde le point à l'intérieur de la lettre pour distinguer [b] de [v].",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "bet-block-9",
+      "sourceIndex": 8,
+      "text": "Dans un texte vocalisé, ב sans Dagesh se lit Veit [v], comme le « v » de « vite ».",
+      "reviewFlags": [],
+      "type": "TEXT_IMAGE",
+      "illustration": {
+        "glyph": "ב",
+        "label": "Beit sans Dagesh",
+        "equivalent": "Beit sans point (dagesh), prononcé [v].",
+        "mediaStatus": "withheld-pending-review"
+      }
+    },
+    {
+      "id": "bet-block-10",
+      "sourceIndex": 9,
+      "text": "mais",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "אֲבָל",
+      "transcription": "avál"
+    },
+    {
+      "id": "bet-block-11",
+      "sourceIndex": 10,
+      "text": "Le mot hébreu « אֲבָל » se prononce [a-val] et signifie « mais ». La première lettre, Alef (א), porte un Hataf-Patah (ֲ) en dessous : elle donne le son [a]. Beit (ב) sans Dagesh, combinée à un Kamats Gadol (ָ), donne [va]. La dernière lettre, Lamed (ל), complète le mot. La prononciation correcte est [a-val].",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "bet-block-12",
+      "sourceIndex": 11,
+      "text": "Mots à pratiquer :",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "bet-block-13",
+      "sourceIndex": 12,
+      "text": "papa",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "אַבָּא",
+      "transcription": "aba"
+    },
+    {
+      "id": "bet-block-14",
+      "sourceIndex": 13,
+      "text": "Le mot hébreu « אַבָּא » se prononce [a-ba] et signifie « papa ». Il est formé d'un Alef (א), d'un Beit (בּ) et d'un autre Alef (א). Un Patah (ַ) sous le premier Alef donne le son [a]. Un Kamats (ָ) sous le Beit avec Dagesh donne [ba]. Le dernier Alef est muet.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "bet-block-16",
+      "sourceIndex": 15,
+      "text": "Le mot hébreu « בָּא » se prononce [ba] et signifie « vient ». Il est formé de Beit (בּ) et d'Alef (א). Le Dagesh à l'intérieur de Beit indique [b], et le Kamats Gadol (ָ) sous la lettre indique [a]. Ensemble, ils donnent [ba]. L'Alef final est muet.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "bet-block-17",
+      "sourceIndex": 16,
+      "text": "Papa vient",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "אַבָּא בָּא",
+      "transcription": "aba ba"
+    },
+    {
+      "id": "bet-block-18",
+      "sourceIndex": 17,
+      "text": "Cette phrase réunit deux mots que tu connais déjà : « אַבָּא » (papa) et « בָּא » (vient). Essaie de les prononcer ensemble, de façon fluide.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "bet-block-19",
+      "sourceIndex": 18,
+      "text": "Ce qu'il faut retenir",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "bet-block-20",
+      "sourceIndex": 19,
+      "text": "Tu connais maintenant la deuxième lettre de l'alphabet hébreu et ses deux prononciations. Avec ces lettres, tu peux déjà former des mots ! Observe les exemples, écoute leur prononciation et fais attention aux signes vocaliques sous les lettres. Mémorise ces mots — tu les retrouveras dans les prochaines leçons.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "bet-exercise-1",
+      "sourceId": "1742223546096",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Trouve la lettre Beit parmi les lettres hébraïques suivantes.",
+      "explanation": "Repère ב, la deuxième lettre de l'alphabet hébreu. Beit et Veit ont la même forme de base ; le Dagesh distingue leurs sons dans un texte vocalisé.",
+      "options": [
+        {
+          "id": "bet-exercise-1-option-1",
+          "label": "צ"
+        },
+        {
+          "id": "bet-exercise-1-option-2",
+          "label": "ג"
+        },
+        {
+          "id": "bet-exercise-1-option-3",
+          "label": "א"
+        },
+        {
+          "id": "bet-exercise-1-option-4",
+          "label": "ב"
+        }
+      ],
+      "correctOptionId": "bet-exercise-1-option-4",
+      "reviewFlags": []
+    },
+    {
+      "id": "bet-exercise-2",
+      "sourceId": "1742223546097",
+      "type": "TRUE_FALSE",
+      "prompt": "La lettre Beit (בּ) avec un Dagesh à l'intérieur se prononce [b], comme dans « bateau ».",
+      "explanation": "Quand Beit (ב) porte un Dagesh à l'intérieur, elle donne le son [b].",
+      "options": [
+        {
+          "id": "bet-exercise-2-option-1",
+          "label": "True"
+        },
+        {
+          "id": "bet-exercise-2-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "bet-exercise-2-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "bet-exercise-3",
+      "sourceId": "1742223546098",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Quel son produit la lettre Beit (בָּ) combinée au Kamats Gadol ?",
+      "explanation": "Beit (בּ) avec un Kamats Gadol (ָ) se prononce [ba], comme le début de « bateau ».",
+      "options": [
+        {
+          "id": "bet-exercise-3-option-1",
+          "label": "[bi]"
+        },
+        {
+          "id": "bet-exercise-3-option-2",
+          "label": "[bo]"
+        },
+        {
+          "id": "bet-exercise-3-option-3",
+          "label": "[bou]"
+        },
+        {
+          "id": "bet-exercise-3-option-4",
+          "label": "[ba]"
+        }
+      ],
+      "correctOptionId": "bet-exercise-3-option-4",
+      "reviewFlags": []
+    },
+    {
+      "id": "bet-exercise-4",
+      "sourceId": "1742223546099",
+      "type": "TRUE_FALSE",
+      "prompt": "Dans un texte vocalisé, la lettre ב sans Dagesh se prononce [v], comme le « v » de « vite ».",
+      "explanation": "Dans un texte vocalisé, ב sans Dagesh se lit Veit [v], comme le « v » de « vite ».",
+      "options": [
+        {
+          "id": "bet-exercise-4-option-1",
+          "label": "True"
+        },
+        {
+          "id": "bet-exercise-4-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "bet-exercise-4-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "bet-exercise-5",
+      "sourceId": "1742223546100",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Quel est le mot hébreu pour « papa » ?",
+      "explanation": "Le mot hébreu pour « papa » est אַבָּא, qui se prononce [a-ba].",
+      "options": [
+        {
+          "id": "bet-exercise-5-option-1",
+          "label": "אִמָּא"
+        },
+        {
+          "id": "bet-exercise-5-option-2",
+          "label": "אֲבָל"
+        },
+        {
+          "id": "bet-exercise-5-option-3",
+          "label": "אַבָּא"
+        }
+      ],
+      "correctOptionId": "bet-exercise-5-option-3",
+      "reviewFlags": []
+    },
+    {
+      "id": "bet-exercise-6",
+      "sourceId": "1742223546101",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Quel est le mot hébreu pour « vient » ?",
+      "explanation": "Le mot hébreu pour « vient » est בָּא, qui se prononce [ba].",
+      "options": [
+        {
+          "id": "bet-exercise-6-option-1",
+          "label": "תֹּפֶס"
+        },
+        {
+          "id": "bet-exercise-6-option-2",
+          "label": "אָכֵל"
+        },
+        {
+          "id": "bet-exercise-6-option-3",
+          "label": "סַבָּא"
+        },
+        {
+          "id": "bet-exercise-6-option-4",
+          "label": "בָּא"
+        }
+      ],
+      "correctOptionId": "bet-exercise-6-option-4",
+      "reviewFlags": []
+    },
+    {
+      "id": "bet-exercise-7",
+      "sourceId": "1742223546102",
+      "type": "TRUE_FALSE",
+      "prompt": "Au début de nombreux mots hébreux, Beit porte un Dagesh et se prononce [b].",
+      "explanation": "C'est souvent le cas, comme dans בָּא [ba]. Dans un texte vocalisé, le point à l'intérieur de la lettre permet de distinguer בּ [b] de ב [v].",
+      "options": [
+        {
+          "id": "bet-exercise-7-option-1",
+          "label": "True"
+        },
+        {
+          "id": "bet-exercise-7-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "bet-exercise-7-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "bet-exercise-8",
+      "sourceId": "1742223546103",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Comment prononce-t-on le mot hébreu « papa » (אַבָּא) ?",
+      "explanation": "Le premier Alef (א) avec un Patah donne le son [a]. Le Beit (בּ) avec Dagesh et Kamats Gadol donne [ba]. Le dernier Alef (א) est muet.",
+      "options": [
+        {
+          "id": "bet-exercise-8-option-1",
+          "label": "[ba-ba]"
+        },
+        {
+          "id": "bet-exercise-8-option-2",
+          "label": "[a-da]"
+        },
+        {
+          "id": "bet-exercise-8-option-3",
+          "label": "[a-ba]"
+        }
+      ],
+      "correctOptionId": "bet-exercise-8-option-3",
+      "reviewFlags": []
+    },
+    {
+      "id": "bet-exercise-9",
+      "sourceId": "1742223546104",
+      "type": "TRUE_FALSE",
+      "prompt": "En fin de mot, Beit se prononce généralement [b].",
+      "explanation": "En fin de mot, Beit se prononce presque toujours [v], comme dans לֵב [lev]. Dans un texte vocalisé, le Dagesh distingue בּ [b] de ב [v].",
+      "options": [
+        {
+          "id": "bet-exercise-9-option-1",
+          "label": "True"
+        },
+        {
+          "id": "bet-exercise-9-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "bet-exercise-9-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "bet-exercise-10",
+      "sourceId": "1742223546105",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Quel son produit Beit (בַּ) avec un Dagesh et un Patah ?",
+      "explanation": "Beit (בַּ) avec un Dagesh à l'intérieur et un Patah en dessous donne le son [ba].",
+      "options": [
+        {
+          "id": "bet-exercise-10-option-1",
+          "label": "[bo]"
+        },
+        {
+          "id": "bet-exercise-10-option-2",
+          "label": "[bou]"
+        },
+        {
+          "id": "bet-exercise-10-option-3",
+          "label": "[ba]"
+        },
+        {
+          "id": "bet-exercise-10-option-4",
+          "label": "[bi]"
+        }
+      ],
+      "correctOptionId": "bet-exercise-10-option-3",
+      "reviewFlags": []
+    },
+    {
+      "id": "bet-exercise-11",
+      "sourceId": "1742223546106",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Quel signe vocalique produit le son [a] et se présente sous la forme d'un trait horizontal accompagné de deux points ?",
+      "explanation": "Le Hataf-Patah associe un trait horizontal à deux points disposés l'un au-dessus de l'autre, à côté du trait. Le signe se place sous la lettre. Il note traditionnellement une voyelle réduite ; dans les exemples étudiés ici, il se lit [a].",
+      "options": [
+        {
+          "id": "bet-exercise-11-option-1",
+          "label": "Holam Male"
+        },
+        {
+          "id": "bet-exercise-11-option-2",
+          "label": "Hataf-Patah"
+        },
+        {
+          "id": "bet-exercise-11-option-3",
+          "label": "Kamats Gadol"
+        }
+      ],
+      "correctOptionId": "bet-exercise-11-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "bet-exercise-12",
+      "sourceId": "1742223546107",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Laquelle de ces lettres hébraïques est marquée du Kamats Gadol ?",
+      "explanation": "Le Kamats Gadol ressemble à un petit « T » sous la lettre et indique [a]. Avec Beit portant un Dagesh, בָּ se lit [ba].",
+      "options": [
+        {
+          "id": "bet-exercise-12-option-1",
+          "label": "צֵ"
+        },
+        {
+          "id": "bet-exercise-12-option-2",
+          "label": "מֻ"
+        },
+        {
+          "id": "bet-exercise-12-option-3",
+          "label": "אִ"
+        },
+        {
+          "id": "bet-exercise-12-option-4",
+          "label": "בָּ"
+        }
+      ],
+      "correctOptionId": "bet-exercise-12-option-4",
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    }
+  ]
+}

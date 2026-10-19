@@ -1,0 +1,366 @@
+{
+  "id": "gimel",
+  "sourceId": 3,
+  "order": 3,
+  "glyph": "ג",
+  "locale": "fr",
+  "title": "Guimel (ג) : lettre hébraïque, son et exemples",
+  "description": "Apprends la lettre hébraïque Guimel (ג) et son son [g], avec des mots d'exemple comme גַּג (toit) et אַגַּב (au fait), et des exercices.",
+  "status": "local-review-only",
+  "normalizationVersion": 1,
+  "provenance": {
+    "source": "https://api.hebrewedu.com/api/lessons/3/?lang=fr",
+    "responseDate": "2026-10-19T13:29:22.683Z",
+    "sha256": "c978416e6e98a1030dde64aac2a494350e5de0874ea304dedd6c3e4c37fa75ea"
+  },
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Affinage optionnel des exercices",
+      "detail": "Certains distracteurs de reconnaissance de lettres utilisent des lettres non encore introduites dans cette leçon. Le guidage pour débutants pourra être amélioré séparément de la synchronisation avec la source approuvée."
+    },
+    {
+      "id": "fr-typography-matchpairs-holdout",
+      "summary": "Exercice MATCH_PAIRS retiré (typographie non corrigible)",
+      "detail": "Deux des trois valeurs de l'exercice MATCH_PAIRS source utilisent une espace normale avant « ; » et autour des guillemets « T » au lieu d'une espace insécable (convention typographique française, voir docs/hebrew-alphabet-editorial-rules.fr.md). contentOverrides ne permet de corriger que content/tip/correctAnswer, jamais les données pairs ; retenu plutôt que d'afficher une typographie incorrecte."
+    }
+  ],
+  "blocks": [
+    {
+      "id": "gimel-block-1",
+      "sourceIndex": 0,
+      "text": "Guimel (ג) : lettre hébraïque, son et exemples",
+      "reviewFlags": [],
+      "type": "MAIN_TITLE"
+    },
+    {
+      "id": "gimel-block-2",
+      "sourceIndex": 1,
+      "text": "Guimel (ג) est la troisième lettre de l'alphabet hébreu. Elle se prononce [g], comme le « g » de « gare ». En hébreu moderne, ג et גּ ont généralement cette même prononciation [g].",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "gimel-block-3",
+      "sourceIndex": 2,
+      "text": "Mots à pratiquer :",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "gimel-block-4",
+      "sourceIndex": 3,
+      "text": "toit",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "גַּג",
+      "transcription": "gag"
+    },
+    {
+      "id": "gimel-block-5",
+      "sourceIndex": 4,
+      "text": "Le mot גַּג [gag] signifie « toit ». Le premier Guimel représente [g], et le Patah (ַ) sous la lettre ajoute [a] : l'ensemble se lit [ga]. Le Guimel final représente [g], sans voyelle supplémentaire. Le mot se lit donc [gag].",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "gimel-block-6",
+      "sourceIndex": 5,
+      "text": "au fait",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "אַגַּב",
+      "transcription": "agav"
+    },
+    {
+      "id": "gimel-block-7",
+      "sourceIndex": 6,
+      "text": "Le mot אַגַּב [agav] signifie « au fait » ou « soit dit en passant ». L'Alef avec Patah (אַ) se lit [a]. Le Guimel avec Patah (גַּ) se lit [ga]. Le Beit final (ב) n'a pas de Dagesh et se prononce comme Veit [v]. Le mot se lit en deux syllabes : [a-gav].",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "gimel-block-8",
+      "sourceIndex": 7,
+      "text": "Ce qu'on a appris",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "gimel-block-9",
+      "sourceIndex": 8,
+      "text": "Tu connais maintenant Guimel (ג), la troisième lettre de l'alphabet hébreu. Dans cette leçon, tu as découvert deux nouveaux mots avec Guimel, et tu as revu Alef (א), Beit (ב) ainsi que le signe vocalique Patah. Continue à t'entraîner et écoute les exemples audio pour bien ancrer tout ça !",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "gimel-exercise-1",
+      "sourceId": "1742223642478",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Trouve la lettre Guimel parmi les lettres hébraïques suivantes.",
+      "explanation": "Guimel (ג) est la troisième lettre de l'alphabet hébreu. Elle représente le son [g], comme dans « gare ».",
+      "options": [
+        {
+          "id": "gimel-exercise-1-option-1",
+          "label": "ל"
+        },
+        {
+          "id": "gimel-exercise-1-option-2",
+          "label": "ג"
+        },
+        {
+          "id": "gimel-exercise-1-option-3",
+          "label": "נ"
+        },
+        {
+          "id": "gimel-exercise-1-option-4",
+          "label": "פּ"
+        }
+      ],
+      "correctOptionId": "gimel-exercise-1-option-2",
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    },
+    {
+      "id": "gimel-exercise-2",
+      "sourceId": "1742223642479",
+      "type": "TRUE_FALSE",
+      "prompt": "La lettre Guimel (ג) se prononce [g], comme dans « gare ».",
+      "explanation": "Guimel représente le son [g], comme le « g » de « gare ».",
+      "options": [
+        {
+          "id": "gimel-exercise-2-option-1",
+          "label": "True"
+        },
+        {
+          "id": "gimel-exercise-2-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "gimel-exercise-2-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "gimel-exercise-3",
+      "sourceId": "1742223642480",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Quel son produit la lettre Guimel (גָ) combinée avec le Kamats Gadol ?",
+      "explanation": "Avec le Kamats Gadol, Guimel (גָ) se prononce [ga], comme dans « gare ».",
+      "options": [
+        {
+          "id": "gimel-exercise-3-option-1",
+          "label": "[ga]"
+        },
+        {
+          "id": "gimel-exercise-3-option-2",
+          "label": "[go]"
+        },
+        {
+          "id": "gimel-exercise-3-option-3",
+          "label": "[gu]"
+        },
+        {
+          "id": "gimel-exercise-3-option-4",
+          "label": "[gi]"
+        }
+      ],
+      "correctOptionId": "gimel-exercise-3-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "gimel-exercise-4",
+      "sourceId": "1742223642481",
+      "type": "TRUE_FALSE",
+      "prompt": "Guimel (גָ) avec le Kamats Gadol produit-il le son [gu] ?",
+      "explanation": "Faux. Le Kamats Gadol représente [a] ici. Avec Guimel (גָ), il donne [ga].",
+      "options": [
+        {
+          "id": "gimel-exercise-4-option-1",
+          "label": "True"
+        },
+        {
+          "id": "gimel-exercise-4-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "gimel-exercise-4-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "gimel-exercise-5",
+      "sourceId": "1742223642482",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Quel est le mot hébreu qui signifie « toit » ?",
+      "explanation": "Le mot hébreu pour « toit » est גַּג, qui se prononce [gag].",
+      "options": [
+        {
+          "id": "gimel-exercise-5-option-1",
+          "label": "אִמָּא"
+        },
+        {
+          "id": "gimel-exercise-5-option-2",
+          "label": "גַּג"
+        },
+        {
+          "id": "gimel-exercise-5-option-3",
+          "label": "לִקְרוֹת"
+        }
+      ],
+      "correctOptionId": "gimel-exercise-5-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "gimel-exercise-6",
+      "sourceId": "1742223642483",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Quelle suite de sons correspond à la prononciation de אַגַּב ?",
+      "explanation": "Le mot אַגַּב se prononce [agav], en deux syllabes : [a-gav]. L'Alef avec Patah donne [a], le Guimel avec Patah donne [ga], et le Beit final sans Dagesh donne [v].",
+      "options": [
+        {
+          "id": "gimel-exercise-6-option-1",
+          "label": "[o-ra-v]"
+        },
+        {
+          "id": "gimel-exercise-6-option-2",
+          "label": "[a-ga-v]"
+        },
+        {
+          "id": "gimel-exercise-6-option-3",
+          "label": "[a-la-v]"
+        },
+        {
+          "id": "gimel-exercise-6-option-4",
+          "label": "[a-ma-v]"
+        }
+      ],
+      "correctOptionId": "gimel-exercise-6-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "gimel-exercise-7",
+      "sourceId": "1742223642484",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Quel signe vocalique produit le son [a] et se présente comme un trait horizontal sous la lettre ?",
+      "explanation": "Le signe vocalique qui donne le son [a] et ressemble à un petit trait horizontal sous la lettre s'appelle le Patah.",
+      "options": [
+        {
+          "id": "gimel-exercise-7-option-1",
+          "label": "Tséré"
+        },
+        {
+          "id": "gimel-exercise-7-option-2",
+          "label": "Patah"
+        },
+        {
+          "id": "gimel-exercise-7-option-3",
+          "label": "Hataf-Patah"
+        }
+      ],
+      "correctOptionId": "gimel-exercise-7-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "gimel-exercise-8",
+      "sourceId": "1742223642485",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Laquelle de ces lettres hébraïques est marquée d'un Patah ?",
+      "explanation": "Le Patah est un petit trait horizontal sous la lettre. Avec Guimel (גַ), il donne le son [ga].",
+      "options": [
+        {
+          "id": "gimel-exercise-8-option-1",
+          "label": "מֻ"
+        },
+        {
+          "id": "gimel-exercise-8-option-2",
+          "label": "גַ"
+        },
+        {
+          "id": "gimel-exercise-8-option-3",
+          "label": "בָּ"
+        },
+        {
+          "id": "gimel-exercise-8-option-4",
+          "label": "מְ"
+        }
+      ],
+      "correctOptionId": "gimel-exercise-8-option-2",
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    },
+    {
+      "id": "gimel-exercise-9",
+      "sourceId": "1742223642486",
+      "type": "TRUE_FALSE",
+      "prompt": "Guimel (גָ) avec le Kamats Gadol produit-il le son [ga] ?",
+      "explanation": "Le Kamats Gadol représente [a] dans cet exemple. Associé à Guimel (גָ), il donne bien [ga].",
+      "options": [
+        {
+          "id": "gimel-exercise-9-option-1",
+          "label": "True"
+        },
+        {
+          "id": "gimel-exercise-9-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "gimel-exercise-9-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "gimel-exercise-10",
+      "sourceId": "1742223642487",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Identifie le signe vocalique utilisé avec la lettre « גָ » et choisis son nom correct.",
+      "explanation": "Le signe vocalique sous גָ est le Kamats Gadol. Il ressemble à un petit « T » et représente [a] ici.",
+      "options": [
+        {
+          "id": "gimel-exercise-10-option-1",
+          "label": "Patah"
+        },
+        {
+          "id": "gimel-exercise-10-option-2",
+          "label": "Kamats Gadol"
+        },
+        {
+          "id": "gimel-exercise-10-option-3",
+          "label": "Ségol"
+        }
+      ],
+      "correctOptionId": "gimel-exercise-10-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "gimel-exercise-11",
+      "sourceId": "1742223642488",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Laquelle de ces lettres représente le son [g], comme dans « gare » ?",
+      "explanation": "La lettre hébraïque Guimel (ג) représente le son [g], comme le « g » de « gare ».",
+      "options": [
+        {
+          "id": "gimel-exercise-11-option-1",
+          "label": "ג"
+        },
+        {
+          "id": "gimel-exercise-11-option-2",
+          "label": "א"
+        },
+        {
+          "id": "gimel-exercise-11-option-3",
+          "label": "נ"
+        },
+        {
+          "id": "gimel-exercise-11-option-4",
+          "label": "כּ"
+        }
+      ],
+      "correctOptionId": "gimel-exercise-11-option-1",
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    }
+  ]
+}

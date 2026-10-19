@@ -1,0 +1,114 @@
+{
+  "slug": "bet",
+  "title": "Beth (ב) : lettre hébraïque, son et exemples",
+  "description": "Apprends la lettre hébraïque Beth (ב) : comment le Dagesh change sa prononciation entre [b] et [v], avec explications simples, mots d'exemple et exercices.",
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Affinage optionnel des exercices",
+      "detail": "Certains distracteurs de reconnaissance utilisent des lettres non encore introduites dans cette leçon. Le guidage pour débutants pourra être amélioré séparément de la synchronisation avec la source approuvée."
+    },
+    {
+      "id": "true-false-balance",
+      "summary": "Équilibre des vrai/faux corrigé",
+      "detail": "Les quatre énoncés vrai/faux de la source brute étaient tous marqués vrai. Q9 (sourceIndex 8) a été reformulé et basculé en faux, pour une vraie réponse fausse, cohérent avec le choix déjà fait côté EN."
+    },
+    {
+      "id": "english-leftover-matchpairs-holdout",
+      "summary": "Exercice MATCH_PAIRS retiré (reliquat anglais)",
+      "detail": "Les clés de l'exercice MATCH_PAIRS source utilisent les abréviations anglaises « w/ » et « w/o » (ex. « (א) w/ Patah »), affichées telles quelles aux lecteurs francophones. contentOverrides ne permet de corriger que content/tip/correctAnswer, jamais les données pairs ; retiré plutôt que d'afficher un reliquat anglais dans un contenu français."
+    }
+  ],
+  "illustrations": {
+    "4": {
+      "glyph": "בּ",
+      "label": "Beit avec Dagesh",
+      "equivalent": "Beit avec un point (dagesh) au centre, prononcé [b]."
+    },
+    "8": {
+      "glyph": "ב",
+      "label": "Beit sans Dagesh",
+      "equivalent": "Beit sans point (dagesh), prononcé [v]."
+    }
+  },
+  "blockFlags": {},
+  "exerciseFlags": {
+    "12": [
+      "unintroduced-letters"
+    ]
+  },
+  "contentOverrides": {
+    "blocks": {
+      "0": "Beth (ב) : lettre hébraïque, son et exemples"
+    },
+    "exercises": {
+      "8": {
+        "content": "En fin de mot, Beit se prononce généralement [b].",
+        "tip": "En fin de mot, Beit se prononce presque toujours [v], comme dans לֵב [lev]. Dans un texte vocalisé, le Dagesh distingue בּ [b] de ב [v].",
+        "correctAnswer": "false"
+      }
+    }
+  },
+  "stageMap": {
+    "theory": [
+      0,
+      1
+    ],
+    "examples": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  "copy": {
+    "theory": {
+      "heading": "Découvre Beth",
+      "intro": "La deuxième lettre de l'alphabet hébreu. Beth est l'une des rares lettres qui peuvent se prononcer de deux façons différentes.",
+      "objectivesHeading": "Ce que tu vas apprendre",
+      "objectives": [
+        "Reconnaître Beth : <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ב</bdi>.",
+        "Distinguer Beth avec un dagesh (<bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">בּ</bdi>, [b]) de Beth sans dagesh (<bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ב</bdi>, [v]).",
+        "Lire le dagesh dans de vrais mots comme <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">אַבָּא</bdi> (papa)."
+      ],
+      "secondSectionHeading": "Comment se prononce Beth",
+      "thirdSectionHeading": "Les lettres doubles"
+    },
+    "examples": {
+      "heading": "Beth avec et sans dagesh",
+      "intro": "Compare Beth avec le point du dagesh et sans lui, puis observe les deux formes dans de vrais mots hébreux."
+    }
+  },
+  "holdOuts": {
+    "blocks": [
+      {
+        "sourceIndex": 14,
+        "reason": "Duplique l'exemple בָּא du bloc 5 (même mot, même transcription, traduction quasi identique) ; retenu plutôt que de republier un doublon."
+      }
+    ],
+    "exercises": [
+      {
+        "sourceIndex": 12,
+        "reason": "MATCH_PAIRS dont les clés affichées contiennent des abréviations anglaises (« w/ », « w/o »). contentOverrides ne peut pas corriger les données pairs ; aucune voie de correction en place, donc retenu plutôt que d'afficher un reliquat anglais."
+      }
+    ]
+  },
+  "source": {
+    "rawSnapshotPath": ".local/alphabet-course-imports/v1/2026-10-19T13-29-22-681Z-6a7123-fr/raw/lesson-2.raw.json",
+    "sha256": "12fff26133e2b0a740f66ceae8968e8cdf481027260469faa55012f6644a3826",
+    "responseDate": "2026-10-19T13:29:22.683Z"
+  }
+}

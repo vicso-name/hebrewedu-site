@@ -1,0 +1,106 @@
+{
+  "slug": "gimel",
+  "title": "Guimel (ג) : lettre hébraïque, son et exemples",
+  "description": "Apprends la lettre hébraïque Guimel (ג) et son son [g], avec des mots d'exemple comme גַּג (toit) et אַגַּב (au fait), et des exercices.",
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Affinage optionnel des exercices",
+      "detail": "Certains distracteurs de reconnaissance de lettres utilisent des lettres non encore introduites dans cette leçon. Le guidage pour débutants pourra être amélioré séparément de la synchronisation avec la source approuvée."
+    },
+    {
+      "id": "fr-typography-matchpairs-holdout",
+      "summary": "Exercice MATCH_PAIRS retiré (typographie non corrigible)",
+      "detail": "Deux des trois valeurs de l'exercice MATCH_PAIRS source utilisent une espace normale avant « ; » et autour des guillemets « T » au lieu d'une espace insécable (convention typographique française, voir docs/hebrew-alphabet-editorial-rules.fr.md). contentOverrides ne permet de corriger que content/tip/correctAnswer, jamais les données pairs ; retenu plutôt que d'afficher une typographie incorrecte."
+    }
+  ],
+  "illustrations": {},
+  "blockFlags": {},
+  "exerciseFlags": {
+    "1": [
+      "unintroduced-letters"
+    ],
+    "8": [
+      "unintroduced-letters"
+    ],
+    "11": [
+      "unintroduced-letters"
+    ]
+  },
+  "contentOverrides": {
+    "blocks": {
+      "1": "Guimel (ג) est la troisième lettre de l'alphabet hébreu. Elle se prononce [g], comme le « g » de « gare ». En hébreu moderne, ג et גּ ont généralement cette même prononciation [g].",
+      "4": "Le mot גַּג [gag] signifie « toit ». Le premier Guimel représente [g], et le Patah (ַ) sous la lettre ajoute [a] : l'ensemble se lit [ga]. Le Guimel final représente [g], sans voyelle supplémentaire. Le mot se lit donc [gag].",
+      "6": "Le mot אַגַּב [agav] signifie « au fait » ou « soit dit en passant ». L'Alef avec Patah (אַ) se lit [a]. Le Guimel avec Patah (גַּ) se lit [ga]. Le Beit final (ב) n'a pas de Dagesh et se prononce comme Veit [v]. Le mot se lit en deux syllabes : [a-gav].",
+      "0": "Guimel (ג) : lettre hébraïque, son et exemples"
+    },
+    "exercises": {
+      "1": {
+        "tip": "Guimel représente le son [g], comme le « g » de « gare »."
+      },
+      "4": {
+        "tip": "Le mot hébreu pour « toit » est גַּג, qui se prononce [gag]."
+      },
+      "5": {
+        "content": "Quelle suite de sons correspond à la prononciation de אַגַּב ?",
+        "tip": "Le mot אַגַּב se prononce [agav], en deux syllabes : [a-gav]. L'Alef avec Patah donne [a], le Guimel avec Patah donne [ga], et le Beit final sans Dagesh donne [v]."
+      },
+      "9": {
+        "tip": "Le signe vocalique sous גָ est le Kamats Gadol. Il ressemble à un petit « T » et représente [a] ici."
+      },
+      "10": {
+        "tip": "La lettre hébraïque Guimel (ג) représente le son [g], comme le « g » de « gare »."
+      },
+      "11": {
+        "tip": "En hébreu moderne, le Patah et le Kamats Gadol représentent tous deux [a] dans ces exemples. Le Patah est un trait horizontal, le Kamats Gadol ressemble à un petit « T », et le Ségol est formé de trois points et représente [e]."
+      }
+    }
+  },
+  "stageMap": {
+    "theory": [
+      0,
+      1
+    ],
+    "examples": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "copy": {
+    "theory": {
+      "heading": "Découvre Guimel",
+      "intro": "La troisième lettre de l'alphabet hébreu. Guimel produit un son [g] constant, comme dans « gare ».",
+      "objectivesHeading": "Ce que tu vas apprendre",
+      "objectives": [
+        "Reconnaître Guimel : <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ג</bdi>.",
+        "Entendre son son [g], comme dans « gare ».",
+        "Lire Guimel dans de vrais mots comme <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">גַּג</bdi> (toit)."
+      ],
+      "secondSectionHeading": "Comment se prononce Guimel",
+      "thirdSectionHeading": "Des mots pour t'entraîner"
+    },
+    "examples": {
+      "heading": "Guimel dans de vrais mots",
+      "intro": "Découvre Guimel dans deux nouveaux mots hébreux, et révise les signes vocaliques Patah et Kamats Gadol vus avec les lettres précédentes."
+    }
+  },
+  "holdOuts": {
+    "blocks": [],
+    "exercises": [
+      {
+        "sourceIndex": 11,
+        "reason": "MATCH_PAIRS dont deux des trois valeurs utilisent une espace normale avant « ; » et autour de « T » au lieu d'une espace insécable. contentOverrides ne peut pas corriger les données pairs ; retenu plutôt que d'afficher une typographie française incorrecte."
+      }
+    ]
+  },
+  "source": {
+    "rawSnapshotPath": ".local/alphabet-course-imports/v1/2026-10-19T13-29-22-681Z-6a7123-fr/raw/lesson-3.raw.json",
+    "sha256": "c978416e6e98a1030dde64aac2a494350e5de0874ea304dedd6c3e4c37fa75ea",
+    "responseDate": "2026-10-19T13:29:22.683Z"
+  }
+}
