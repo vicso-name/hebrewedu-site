@@ -4,8 +4,8 @@
   "order": 4,
   "glyph": "ד",
   "locale": "fr",
-  "title": "Daleth (ד) : lettre hébraïque, son et exemples",
-  "description": "Apprends la lettre hébraïque Daleth (ד) et son son [d], avec des mots comme דָּג (poisson) et אָבַד (perdu), et des exercices interactifs.",
+  "title": "Dalet (ד) : lettre hébraïque, son et exemples",
+  "description": "Apprends la lettre hébraïque Dalet (ד) et son son [d], avec des mots comme דָּג (poisson) et אָבַד (perdu), et des exercices interactifs.",
   "status": "local-review-only",
   "normalizationVersion": 1,
   "provenance": {
@@ -22,14 +22,14 @@
     {
       "id": "fr-typography",
       "summary": "Espaces insécables avant la ponctuation et dans les guillemets français",
-      "detail": "La source brute FR utilise par endroits une espace normale avant les guillemets « » et avant « : » au lieu d'une espace insécable (convention typographique française, voir docs/hebrew-alphabet-editorial-rules.fr.md). Corrigé via contentOverrides (blocs 1, 5 et 7)."
+      "detail": "La source brute FR utilise par endroits une espace normale avant les guillemets « » et avant « : » au lieu d'une espace insécable (convention typographique française, voir docs/hebrew-alphabet-editorial-rules.fr.md). Corrigé via contentOverrides (blocs 1, 5 et 7)."
     }
   ],
   "blocks": [
     {
       "id": "dalet-block-1",
       "sourceIndex": 0,
-      "text": "Daleth (ד) : lettre hébraïque, son et exemples",
+      "text": "Dalet (ד) : lettre hébraïque, son et exemples",
       "reviewFlags": [],
       "type": "MAIN_TITLE"
     },

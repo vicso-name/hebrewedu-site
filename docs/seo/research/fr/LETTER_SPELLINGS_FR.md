@@ -97,17 +97,16 @@ which is what the rule is actually asking.
 
 | Letter | Rendered today | Chosen | Published? | Action |
 |---|---|---|---|---|
-| `dalet` | Daleth | **Dalet** | **yes** | title/H1 change deferred — owner decision, not made in this step |
+| `dalet` | Dalet | **Dalet** | **yes** | applied — title, meta, H1, breadcrumb, body copy and `pages.csv` row all now read Dalet |
 | `pe` | Pé | **Pe** | no | `fr-letters.ts` updated |
 
 ### Published pages whose title/H1 still uses the old spelling
 
-Listed, **not changed** — retitling a live page is the owner's call:
-
-- `/fr/apprendre/alphabet-hebreu/dalet/` renders "Daleth" in its `<title>`, H1 and breadcrumb; research picks **Dalet** (Volumes tied or <=10 (Daleth 10, Dalet 10); FR SERP for "daleth hébreu" shows Daleth 1, Dalet 3 in top-10 titles.)
-
-Their `docs/seo/core` rows now carry the chosen spelling's keyword as
-`primary_keyword` regardless, so the gap is visible in the semantic core.
+None. `dalet` was the only one, and it has since been renamed to **Dalet**
+throughout — title, meta description, H1, breadcrumb, in-lesson copy and its
+`docs/seo/core` row. The app body already said "Dalet", so the two spellings
+now coincide and the first-mention parenthetical ("Daleth (Dalet)") was dropped
+per `docs/hebrew-alphabet-editorial-rules.fr.md`.
 
 ## Notes on individual letters
 

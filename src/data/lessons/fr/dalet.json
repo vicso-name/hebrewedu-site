@@ -1,7 +1,7 @@
 {
   "slug": "dalet",
-  "title": "Daleth (ד) : lettre hébraïque, son et exemples",
-  "description": "Apprends la lettre hébraïque Daleth (ד) et son son [d], avec des mots comme דָּג (poisson) et אָבַד (perdu), et des exercices interactifs.",
+  "title": "Dalet (ד) : lettre hébraïque, son et exemples",
+  "description": "Apprends la lettre hébraïque Dalet (ד) et son son [d], avec des mots comme דָּג (poisson) et אָבַד (perdu), et des exercices interactifs.",
   "editorialIssues": [
     {
       "id": "unintroduced-letters",
@@ -29,7 +29,7 @@
   },
   "contentOverrides": {
     "blocks": {
-      "0": "Daleth (ד) : lettre hébraïque, son et exemples",
+      "0": "Dalet (ד) : lettre hébraïque, son et exemples",
       "1": "Dalet (ד) est la quatrième lettre de l'alphabet hébreu. Elle représente le son [d]. En hébreu moderne, ד et דּ ont généralement cette même prononciation [d]. Le mot דֶּלֶת [delet] signifie « porte ». Sa prononciation diffère du nom de la lettre Dalet.",
       "5": "Le mot דָּג [dag] signifie « poisson ». Dalet représente [d], et le Kamats Gadol (ָ) sous la lettre ajoute [a] : l'ensemble se lit [da]. Le Guimel final représente [g]. Le mot se lit [dag].",
       "7": "Le mot אָבַד [avad] signifie « il s'est perdu » ou « il a disparu ». L'Alef avec Kamats Gadol (אָ) se lit [a]. Le Beit sans Dagesh se prononce [v] ; avec le Patah sous la lettre, il se lit [va]. Le Dalet final donne [d]. Le mot se lit en deux syllabes : [a-vad]."
@@ -54,20 +54,20 @@
   },
   "copy": {
     "theory": {
-      "heading": "Découvre Daleth",
-      "intro": "La quatrième lettre de l'alphabet hébreu : Daleth (Dalet). Elle produit le son [d], et son nom signifie « porte ».",
+      "heading": "Découvre Dalet",
+      "intro": "La quatrième lettre de l'alphabet hébreu : Dalet. Elle produit le son [d], et son nom signifie « porte ».",
       "objectivesHeading": "Ce que tu vas apprendre",
       "objectives": [
-        "Reconnaître Daleth : <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ד</bdi>.",
+        "Reconnaître Dalet : <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ד</bdi>.",
         "Entendre son son [d], comme dans « danse ».",
-        "Lire Daleth dans de vrais mots comme <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">דָּג</bdi> (poisson)."
+        "Lire Dalet dans de vrais mots comme <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">דָּג</bdi> (poisson)."
       ],
-      "secondSectionHeading": "Comment se prononce Daleth",
-      "thirdSectionHeading": "Ce que symbolise Daleth"
+      "secondSectionHeading": "Comment se prononce Dalet",
+      "thirdSectionHeading": "Ce que symbolise Dalet"
     },
     "examples": {
-      "heading": "Daleth dans de vrais mots",
-      "intro": "Découvre Daleth dans deux nouveaux mots hébreux, et révise les signes vocaliques Patah et Kamats Gadol vus avec les lettres précédentes."
+      "heading": "Dalet dans de vrais mots",
+      "intro": "Découvre Dalet dans deux nouveaux mots hébreux, et révise les signes vocaliques Patah et Kamats Gadol vus avec les lettres précédentes."
     }
   },
   "holdOuts": {
