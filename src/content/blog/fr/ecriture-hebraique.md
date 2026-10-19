@@ -1,6 +1,6 @@
 ---
 title: "Écriture hébraïque : du texte imprimé au cursif"
-description: "Beaucoup de débutants ont l'impression d'apprendre un second alphabet en découvrant l'écriture hébraïque manuscrite. Ça fait vraiment cet effet-là."
+description: "L'écriture hébraïque manuscrite (cursif) ressemble à un second alphabet : pourquoi les lettres changent autant, et comment apprendre à les lire."
 pubDate: 2026-10-19
 author: "HebrewEdu Team"
 category: "Alphabet hébreu"
@@ -38,7 +38,7 @@ Techniquement.
 
 L'hébreu a deux formes visuelles principales :
 - l'hébreu imprimé (*ktav dfus*),
-- et l'hébreu manuscrit / cursif (*ktav yad*).
+- et l'alphabet hébreu cursif, sa forme manuscrite (*ktav yad*).
 
 Le problème, c'est que certaines lettres manuscrites ont l'air si différentes de leur version imprimée que les débutants pensent sincèrement regarder un second alphabet.
 
@@ -51,11 +51,11 @@ Il s'avère que si, pourtant.
 
 ---
 
-## Pourquoi l'écriture manuscrite hébraïque change autant
+## Pourquoi l'écriture hébraïque manuscrite change autant
 
 La cursive anglaise ou française ressemble encore vaguement à sa version imprimée.
 
-L'écriture manuscrite hébraïque a évolué différemment.
+L'écriture hébraïque manuscrite a évolué différemment.
 
 L'hébreu manuscrit moderne est devenu :
 - plus rapide,
@@ -125,9 +125,7 @@ Même au chaos.
 
 ## Pourquoi les débutants ne devraient PAS ignorer l'hébreu manuscrit
 
-Beaucoup d'apprenants repoussent complètement la cursive hébraïque — souvent parce qu'ils sont encore en train de [maîtriser l'alphabet imprimé de façon méthodique](/blog/learn-hebrew-alphabet-7-days/) (en anglais) et ne veulent pas ajouter de complexité. C'est raisonnable, pour un temps.
-
-Grosse erreur.
+Beaucoup d'apprenants repoussent complètement la cursive hébraïque — souvent parce qu'ils sont encore en train de [maîtriser l'alphabet imprimé de façon méthodique](/blog/learn-hebrew-alphabet-7-days/) (en anglais) et ne veulent pas ajouter de complexité. Compréhensible. Mais c'est une erreur.
 
 Parce que la vraie vie israélienne regorge d'hébreu manuscrit :
 - notes,
@@ -175,7 +173,7 @@ Parce que la vraie lecture, c'est justement savoir gérer la variation naturelle
 
 ## Voici ce qui aide vraiment
 
-Pas mémoriser des tableaux de cursive pendant six heures en se décourageant progressivement.
+Ce qui aide, ce n'est pas de mémoriser des tableaux de cursive pendant six heures en se décourageant progressivement.
 
 En général, la meilleure approche est :
 - une exposition régulière,
@@ -237,7 +235,7 @@ Ce moment est étonnamment satisfaisant, tant l'hébreu manuscrit semblait au d�
 
 Le premier contact avec l'hébreu manuscrit peut être vraiment décourageant.
 
-C'est l'un de ces moments où l'on se demande si on n'a pas sous-estimé la langue de plusieurs milliers de pour cent.
+C'est l'un de ces moments où l'on se demande si on n'a pas largement sous-estimé la langue.
 
 Mais l'hébreu manuscrit n'est pas un second alphabet.
 

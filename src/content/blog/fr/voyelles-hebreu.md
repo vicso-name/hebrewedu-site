@@ -1,6 +1,6 @@
 ---
 title: "Les voyelles en hébreu : lire le nikoud pas à pas"
-description: "Le nikoud, les signes voyelles hébreux, rend la lecture possible pour les débutants : comment chaque signe fonctionne, et pourquoi on l'abandonne ensuite."
+description: "Les voyelles en hébreu (le nikoud) : comment lire chaque signe, le rôle du dagesh et quand passer à l'hébreu sans voyelles."
 pubDate: 2026-10-19
 author: "HebrewEdu Team"
 category: "Lecture de l'hébreu"
@@ -74,15 +74,15 @@ Voici les signes voyelles que tout débutant doit reconnaître, classés par son
 |---|---|---|---|
 | בַ | Patah | « a » | p**a**tte |
 | בָ | Kamats Gadol | « a » (identique) | p**a**tte |
-| בֶ | Ségol | « è » | f**ê**te |
-| בֵ | Tséré | « é » | ann**é**e |
+| בֶ | Ségol | « é » | f**ê**te |
+| בֵ | Tséré | « é » (identique) | ann**é**e |
 | בִ | Hiriq | « i » | m**i**di |
 | בֹ | Holam | « o » | p**o**t |
 | בוּ | Shourouk | « ou » | r**ou**e |
 | בֻ | Kubutz | « ou » (identique) | r**ou**e |
-| בְ | Chva | muet ou très bref | une amorce de « e » |
+| בְ | Chva | muet ou très bref | le « e » de « petit » |
 
-Petite précision pour les débutants : en hébreu parlé moderne, Patah et Kamats Gadol se prononcent de façon identique — tous deux « a ». Tu n'as pas besoin de les distinguer à l'oral. Apprends à les reconnaître visuellement, et laisse-les simplement te renvoyer vers le bon son.
+Petite précision pour les débutants : en hébreu parlé moderne, Patah et Kamats Gadol se prononcent de façon identique — tous deux « a ». Ségol et Tséré se prononcent eux aussi de façon identique, tous deux /e/. Shourouk et Kubutz se prononcent tous deux « ou ». Tu n'as pas besoin de les distinguer à l'oral. Apprends à les reconnaître visuellement, et laisse-les simplement te renvoyer vers le bon son.
 
 Le Chva (שְׁ) est un peu particulier. En fin de syllabe, il est muet. En début de syllabe, il note un son très bref et non accentué — comme le « e » à peine audible de « le ». Les supports pour débutants t'accompagnent pour les cas particuliers. Ne te prends pas trop la tête avec ça au début.
 
@@ -94,20 +94,22 @@ Le Chva (שְׁ) est un peu particulier. En fin de syllabe, il est muet. En déb
 
 Pour la plupart des lettres, le dagesh ne change pas le son : il marque certains schémas grammaticaux qui deviennent pertinents plus tard.
 
-Pour deux lettres, il change la prononciation :
+Pour trois lettres, il change la prononciation :
 
 - **בּ** (Beth avec dagesh) → **B** comme dans « bateau »
 - **ב** (Beth sans dagesh) → **V** comme dans « vigne »
+- **כּ** (Kaf avec dagesh) → **K** comme dans « kilo »
+- **כ** (Kaf sans dagesh) → **KH**, un son guttural qui n'existe pas en français
 - **פּ** (Pé avec dagesh) → **P** comme dans « porte »
 - **פ** (Pé sans dagesh) → **F** comme dans « fenêtre »
 
-En tant que débutant, ce sont les deux cas de dagesh à connaître tout de suite. Les autres peuvent attendre.
+En tant que débutant, ce sont les trois cas de dagesh à connaître tout de suite. Les autres peuvent attendre.
 
 ---
 
 ## Comment lire concrètement le nikoud
 
-La méthode pour lire un mot marqué de nikoud est la suivante :
+La méthode pour lire un mot vocalisé est la suivante :
 
 1. Identifie la lettre consonne
 2. Repère le signe du nikoud en dessous, au-dessus ou à l'intérieur
@@ -124,7 +126,7 @@ Appliquons ça à שָׁלוֹם :
 
 Résultat : *sha-lom*.
 
-Une fois que ce schéma devient un réflexe, la plupart des apprenants sont surpris de la vitesse à laquelle ils arrivent à déchiffrer des mots hébreux. [Les 22 lettres hébraïques](/fr/blog/lettres-hebraiques/) s'apprennent vraiment en peu de temps, et le nikoud complète le reste avec une clarté totale.
+Une fois que ce schéma devient un réflexe, la plupart des apprenants sont surpris de la vitesse à laquelle ils arrivent à déchiffrer des mots hébreux. [Les 22 lettres hébraïques](/fr/blog/lettres-hebraiques/) s'apprennent plus vite qu'on ne le croit, et le nikoud complète le reste avec une clarté totale.
 
 ---
 
@@ -146,7 +148,7 @@ Le nikoud est généralement absent de :
 - les panneaux, les emballages, les menus ;
 - tout ce qui est imprimé pour des locuteurs natifs.
 
-Ça veut dire que tu passeras ta première période d'apprentissage à lire de l'hébreu entièrement marqué par le nikoud, puis tu rencontreras peu à peu le vrai monde de l'hébreu — qui n'en utilise aucun.
+Ça veut dire que tu passeras ta première période d'apprentissage à lire de l'hébreu entièrement vocalisé, puis tu rencontreras peu à peu le vrai monde de l'hébreu — qui n'en utilise aucun.
 
 Cette transition est moins terrifiante qu'elle n'en a l'air. Le temps que tu l'atteignes, ta connaissance du vocabulaire commence à remplacer les signes que tu n'as plus.
 
@@ -154,13 +156,13 @@ Cette transition est moins terrifiante qu'elle n'en a l'air. Le temps que tu l'a
 
 ## L'étrange étape intermédiaire
 
-À un moment donné, tu te retrouveras à lire à voix haute de l'hébreu marqué par le nikoud, avec une précision raisonnable, sans avoir la moindre idée de ce que tu viens de dire.
+À un moment donné, tu te retrouveras à lire à voix haute de l'hébreu vocalisé, avec une précision raisonnable, sans avoir la moindre idée de ce que tu viens de dire.
 
 C'est normal.
 
 C'est aussi une distinction importante : **la prononciation et la compréhension sont deux compétences séparées**.
 
-[L'expérience de lire couramment l'hébreu en comprenant presque rien](/blog/why-you-can-read-hebrew-but-still-understand-absolutely-nothing/) (en anglais) est frustrante, mais elle signifie que la couche de déchiffrage fonctionne correctement. Cette couche est précisément la fondation sur laquelle se construit la compréhension.
+[L'expérience de lire couramment l'hébreu sans presque rien comprendre](/blog/why-you-can-read-hebrew-but-still-understand-absolutely-nothing/) (en anglais) est frustrante, mais elle signifie que la couche de déchiffrage fonctionne correctement. Cette couche est précisément la fondation sur laquelle se construit la compréhension.
 
 La compétence de lecture et la connaissance du vocabulaire se développent plus ou moins en parallèle. Les deux comptent. Aucune des deux ne suffit seule.
 

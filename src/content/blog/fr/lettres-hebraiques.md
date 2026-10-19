@@ -1,6 +1,6 @@
 ---
 title: "Les 22 lettres hébraïques : formes, noms et sons"
-description: "Les 22 lettres hébraïques : formes, noms, sons et astuces pratiques pour apprendre l'alphabet hébreu (l'Aleph Bet) à partir de zéro."
+description: "Les 22 lettres hébraïques : formes, noms, sons et astuces pratiques pour apprendre l'Aleph Bet à partir de zéro."
 pubDate: 2026-10-19
 author: "HebrewEdu Team"
 category: "Guide de l'alphabet"
@@ -102,7 +102,7 @@ Les sons indiqués correspondent à l'hébreu israélien courant ; les prononci
 <tr><td><bdi lang="he" dir="rtl">ב</bdi></td><td>Beth / Vet</td><td>b / v</td><td>Deux sons, une seule lettre</td></tr>
 <tr><td><bdi lang="he" dir="rtl">ג</bdi></td><td>Guimel</td><td>g</td><td>Toujours dur, comme dans « gare » — jamais comme dans « page »</td></tr>
 <tr><td><bdi lang="he" dir="rtl">ד</bdi></td><td>Dalet</td><td>d</td><td>Comme dans « dalle »</td></tr>
-<tr><td><bdi lang="he" dir="rtl">ה</bdi></td><td>Hé</td><td>h</td><td>Souvent muette en fin de mot</td></tr>
+<tr><td><bdi lang="he" dir="rtl">ה</bdi></td><td>Hé</td><td>h</td><td>H expiré, absent du français ; souvent muette en fin de mot</td></tr>
 <tr><td><bdi lang="he" dir="rtl">ו</bdi></td><td>Vav</td><td>v</td><td>Note aussi les voyelles o et ou</td></tr>
 <tr><td><bdi lang="he" dir="rtl">ז</bdi></td><td>Zayin</td><td>z</td><td>Comme dans « zèbre »</td></tr>
 <tr><td><bdi lang="he" dir="rtl">ח</bdi></td><td>Heth</td><td>kh guttural</td><td>Proche de la jota espagnole ; ce son n'existe pas en français</td></tr>
@@ -160,7 +160,7 @@ Les textes hébreux classiques — la Torah, les textes liturgiques, la poésie 
 
 L'hébreu moderne, tel qu'il est imprimé dans les journaux, les livres et les panneaux, n'utilise presque jamais le nikoud. Les locuteurs natifs devinent les voyelles grâce au contexte et à leur connaissance du vocabulaire.
 
-Pour un débutant, c'est à la fois un défi et un soulagement. Commence par le nikoud : il te sert de roues stabilisatrices. Une fois que tu sais lire correctement les mots hébreux, tu apprends peu à peu à lire sans lui. Comprendre [pourquoi l'hébreu courant retire ces signes voyelles](/blog/why-hebrew-without-vowels-looks-impossible-until-your-brain-adapts/) (en anglais) — et comment les lecteurs natifs les reconstituent automatiquement — est l'une des choses les plus utiles à saisir tôt. Pour une explication pas à pas des signes, continue avec le [Guide des voyelles en hébreu](/fr/blog/voyelles-hebreu/).
+Pour un débutant, c'est à la fois un défi et un soulagement. Commence par le nikoud : il te sert des petites roues du vélo. Une fois que tu sais lire correctement les mots hébreux, tu apprends peu à peu à lire sans lui. Comprendre [pourquoi l'hébreu courant retire ces signes voyelles](/blog/why-hebrew-without-vowels-looks-impossible-until-your-brain-adapts/) (en anglais) — et comment les lecteurs natifs les reconstituent automatiquement — est l'une des choses les plus utiles à saisir tôt. Pour une explication pas à pas des signes, continue avec le [Guide des voyelles en hébreu](/fr/blog/voyelles-hebreu/).
 
 > L'application Hebrew Aleph Bet inclut le nikoud dès la première leçon. Chaque lettre est présentée avec ses signes voyelles, pour que tu construises de bonnes habitudes de prononciation dès le premier jour.
 
@@ -190,7 +190,7 @@ Une fois que tu connais les lettres et le système des voyelles, la lecture de l
 Lis les lettres hébraïques de droite à gauche, en t'appuyant sur les signes voyelles pour trouver les sons.
 
 Ainsi, le mot שָׁלוֹם (shalom — paix) se décompose ainsi :
-- שׁ (ch) + ָ (a) = sha
+- שׁ (sh, le « ch » de « chat ») + ָ (a) = sha
 - ל (l) + וֹ (o) = lo
 - ם (Mem final) = /m/ — prononcé en fin de mot, sans voyelle qui suit
 

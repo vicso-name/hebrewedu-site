@@ -485,6 +485,25 @@ for (const page of indexable.filter((p) => p.locale === 'fr')) {
 }
 
 // ───────────────────────────────────────────────────────────────────────────
+// Rule 12: an in-page anchor link (href="#...", e.g. a blog post's jump-nav or
+// an FAQ answer linking back into its own article) must resolve to a real id
+// on that same page. French heading slugs are generated from the rendered
+// heading text (astro's own slugger), so an anchor hand-written against a
+// guessed slug silently rots the moment the heading wording changes — this
+// catches that at build time instead of leaving a dead in-page link live.
+// ───────────────────────────────────────────────────────────────────────────
+
+for (const page of pages) {
+  const ids = new Set([...page.html.matchAll(/\sid="([^"]*)"/g)].map((m) => m[1]));
+  for (const m of page.html.matchAll(/<a\b[^>]*\shref="#([^"]*)"/g)) {
+    const anchor = m[1];
+    if (anchor && !ids.has(anchor)) {
+      report('anchor-missing', page, `in-page link href="#${anchor}" has no matching id="${anchor}" on the page`);
+    }
+  }
+}
+
+// ───────────────────────────────────────────────────────────────────────────
 
 if (findings.length) {
   console.error(`check:i18n — ${findings.length} violation(s):\n`);
