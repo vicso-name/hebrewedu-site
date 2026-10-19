@@ -4,8 +4,8 @@
   "order": 2,
   "glyph": "ב",
   "locale": "fr",
-  "title": "Beth (ב) : lettre hébraïque, son et exemples",
-  "description": "Apprends la lettre hébraïque Beth (ב) : comment le Dagesh change sa prononciation entre [b] et [v], avec explications simples, mots d'exemple et exercices.",
+  "title": "Beth (ב) : lettre hébraïque, son et exemples",
+  "description": "Apprends la lettre hébraïque Beth (ב) : comment le Dagesh change sa prononciation entre [b] et [v], avec explications simples, mots d'exemple et exercices.",
   "status": "local-review-only",
   "normalizationVersion": 1,
   "provenance": {
@@ -27,14 +27,14 @@
     {
       "id": "english-leftover-matchpairs-fixed-upstream",
       "summary": "Exercice MATCH_PAIRS restauré (clés corrigées côté admin)",
-      "detail": "Les clés de l'exercice MATCH_PAIRS source utilisaient les abréviations anglaises « w/ » et « w/o » (ex. « (א) w/ Patah »), affichées telles quelles aux lecteurs francophones ; auparavant retenu faute de voie de correction (contentOverrides ne patch pas les données pairs). Corrigé en amont dans l'admin (clés désormais language-neutral : אַ, ב, בּ) ; snapshot FR re-synchronisé (2026-10-19T14-27-18-905Z-bdf614-fr) et exercice restauré."
+      "detail": "Les clés de l'exercice MATCH_PAIRS source utilisaient les abréviations anglaises « w/ » et « w/o » (ex. « (א) w/ Patah »), affichées telles quelles aux lecteurs francophones ; auparavant retenu faute de voie de correction (contentOverrides ne patch pas les données pairs). Corrigé en amont dans l'admin (clés désormais language-neutral : אַ, ב, בּ) ; snapshot FR re-synchronisé (2026-10-19T14-27-18-905Z-bdf614-fr) et exercice restauré."
     }
   ],
   "blocks": [
     {
       "id": "bet-block-1",
       "sourceIndex": 0,
-      "text": "Beth (ב) : lettre hébraïque, son et exemples",
+      "text": "Beth (ב) : lettre hébraïque, son et exemples",
       "reviewFlags": [],
       "type": "MAIN_TITLE"
     },

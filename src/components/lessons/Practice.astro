@@ -2,54 +2,97 @@
 import type { CollectionEntry } from 'astro:content';
 import HebrewText from './HebrewText.astro';
 import { unavailableQuestions, exerciseExplanation, derangedPairOrder } from '../../lib/lessons/presentation.mjs';
+import { getDictionary, type Locale } from '../../i18n';
 type Lesson = CollectionEntry<'lessons'>['data'];
-interface Props { exercises: Lesson['exercises']; blocks: Lesson['blocks']; letter: string }
-const { exercises, blocks, letter } = Astro.props;
+interface Props { exercises: Lesson['exercises']; blocks: Lesson['blocks']; letter: string; locale?: Locale }
+const { exercises, blocks, letter, locale = 'en' } = Astro.props;
+const t = getDictionary(locale);
+const p = t.lesson.practice;
 const grading = exercises.filter(exercise => !unavailableQuestions.has(exercise.id)).map(exercise => exercise.type === 'MATCH_PAIRS'
   ? { id: exercise.id, type: exercise.type, pairs: exercise.pairs.map(({ id }) => ({ id })) }
   : { id: exercise.id, correctOptionId: exercise.correctOptionId, options: exercise.options.map(({ id }) => ({ id })) });
 const gradingJson = JSON.stringify(grading).replace(/</g, '\\u003c');
+// Available = gradeable. The client derives the same count from the DOM; rendering it
+// here keeps the pre-enhancement markup honest for the real exercise count.
+const availableCount = exercises.filter(exercise => !unavailableQuestions.has(exercise.id)).length;
+const fill = (template: string, values: Record<string, string | number>) =>
+  template.replace(/\{(\w+)\}/g, (match, key) => (key in values ? String(values[key]) : match));
+// normalize.mjs stores a TRUE_FALSE option's label as the canonical English
+// 'True'/'False' (schema.mjs enforces it), and grading keys off the option id —
+// so the visible wording is chrome and comes from the dictionary.
+const optionLabel = (type: string, label: string) =>
+  type !== 'TRUE_FALSE' ? label
+  : label === 'True' ? p.booleanLabels.true
+  : label === 'False' ? p.booleanLabels.false
+  : label;
+// Runtime strings for src/lib/lessons/practice-client.ts. A client module can't
+// import a dictionary per locale, so the page hands them over as JSON — same
+// transport as the `lesson-grading` payload below.
+const stringsJson = JSON.stringify({
+  progressTemplate: p.progressTemplate,
+  meterTemplate: p.meterTemplate,
+  overallScoreTemplate: p.overallScoreTemplate,
+  resultsSummaryTemplate: p.resultsSummaryTemplate,
+  skippedTemplate: p.skippedTemplate,
+  noneSkipped: p.noneSkipped,
+  unavailableNoteTemplate: p.unavailableNoteTemplate,
+  stageAnnouncementTemplate: p.stageAnnouncementTemplate,
+  stageNames: t.lesson.stageNames,
+  nextQuestion: p.nextQuestion,
+  seeResults: p.seeResults,
+  pairsAllMatched: p.pairsAllMatched,
+  pairsPartialTemplate: p.pairsPartialTemplate,
+  pairsNotAMatch: p.pairsNotAMatch,
+  chooseFirst: p.chooseFirst,
+  answerCorrect: p.answerCorrect,
+  answerIncorrectWithExplanation: p.answerIncorrectWithExplanation,
+  answerIncorrect: p.answerIncorrect,
+  chooseAgain: p.chooseAgain,
+}).replace(/</g, '\\u003c');
+const initialProgress = fill(p.progressTemplate, { answered: 0, total: availableCount, correct: 0 });
+const initialMeter = fill(p.meterTemplate, { answered: 0, total: availableCount });
 ---
 <section id="stage-practice" data-stage="practice" class="stage-panel" aria-labelledby="practice-title">
-  <div class="stage-heading"><span class="eyebrow">Step 3 of 4</span><h2 id="practice-title" data-stage-heading tabindex="-1">Put it into practice</h2><p>Choose an answer, check it, then read the explanation.</p></div>
-  <div class="practice-meter" data-enhanced hidden><p data-progress aria-live="polite" aria-atomic="true">0 of 14 answered · 0 correct</p><progress data-practice-progress max="14" value="0" aria-label="Questions answered">0 of 14 answered</progress></div>
-  <noscript><p class="no-script">Interactive checking needs JavaScript. All questions remain readable; open “Source answer and explanation” to check your work.</p></noscript>
+  <div class="stage-heading"><span class="eyebrow">{t.lesson.stepOf(3, 4)}</span><h2 id="practice-title" data-stage-heading tabindex="-1">{p.heading}</h2><p>{p.intro}</p></div>
+  <div class="practice-meter" data-enhanced hidden><p data-progress aria-live="polite" aria-atomic="true">{initialProgress}</p><progress data-practice-progress max={availableCount} value="0" aria-label={p.progressAria}>{initialMeter}</progress></div>
+  <noscript><p class="no-script">{p.noScript}</p></noscript>
   <div data-practice data-lesson-letter={letter}>
     {exercises.map((exercise, index) => <form class="question-card learning-card" id={exercise.id} data-exercise-id={exercise.id} data-exercise-type={exercise.type} data-unavailable={unavailableQuestions.has(exercise.id) ? 'true' : undefined}>
-      <p class="question-count">Question {index + 1} of {exercises.length} <span>{exercise.type === 'MATCH_PAIRS' ? 'Match each pair' : exercise.type === 'TRUE_FALSE' ? 'True or false' : 'Choose one answer'}</span></p>
+      <p class="question-count">{p.questionCount(index + 1, exercises.length)} <span>{exercise.type === 'MATCH_PAIRS' ? p.types.matchPairs : exercise.type === 'TRUE_FALSE' ? p.types.trueFalse : p.types.choice}</span></p>
       {unavailableQuestions.has(exercise.id) ? <>
-      <div class="unavailable-question"><p>This question is not available in this preview.</p><p>Continue to the next question.</p></div>
-      <div class="question-advance" data-enhanced hidden><button type="button" class="btn lesson-primary" data-advance hidden><span data-advance-label>Next question</span> <span aria-hidden="true">→</span></button></div>
+      <div class="unavailable-question"><p>{p.unavailable.title}</p><p>{p.unavailable.body}</p></div>
+      <div class="question-advance" data-enhanced hidden><button type="button" class="btn lesson-primary" data-advance hidden><span data-advance-label>{p.nextQuestion}</span> <span aria-hidden="true">→</span></button></div>
       </> : exercise.type === 'MATCH_PAIRS' ? <>
       <fieldset><legend><HebrewText text={exercise.prompt} /></legend>
-        <div class="match-pairs-board" role="group" aria-label="Match each item on the left with its pair on the right">
+        <div class="match-pairs-board" role="group" aria-label={p.matchBoardAria}>
           <div class="match-pairs-column" data-pairs-side="left">
-            {exercise.pairs.map(pair => <button type="button" class="match-pairs-item" data-pair-id={pair.id} data-pair-side="left" aria-pressed="false" aria-label={`Left: ${pair.left}`}><HebrewText text={pair.left} /></button>)}
+            {exercise.pairs.map(pair => <button type="button" class="match-pairs-item" data-pair-id={pair.id} data-pair-side="left" aria-pressed="false" aria-label={p.leftAria(pair.left)}><HebrewText text={pair.left} /></button>)}
           </div>
           <div class="match-pairs-column" data-pairs-side="right">
-            {derangedPairOrder(exercise.pairs, exercise.id).map(pair => <button type="button" class="match-pairs-item" data-pair-id={pair.id} data-pair-side="right" aria-pressed="false" aria-label={`Right: ${pair.right}`}><HebrewText text={pair.right} /></button>)}
+            {derangedPairOrder(exercise.pairs, exercise.id).map(pair => <button type="button" class="match-pairs-item" data-pair-id={pair.id} data-pair-side="right" aria-pressed="false" aria-label={p.rightAria(pair.right)}><HebrewText text={pair.right} /></button>)}
           </div>
         </div>
       </fieldset>
       <p id={`${exercise.id}-feedback`} class="answer-feedback match-pairs-feedback" role="status" aria-live="polite" aria-atomic="true" tabindex="-1"></p>
-      <div class="answer-explanation" data-explanation hidden><p><strong>Explanation</strong></p><p><HebrewText text={exerciseExplanation(exercise, blocks)} /></p></div>
-      <div class="question-advance" data-enhanced hidden><button type="button" class="btn lesson-primary" data-advance hidden><span data-advance-label>Next question</span> <span aria-hidden="true">→</span></button></div>
-      <details class="fallback-answer" data-fallback-answer><summary>Source answer and explanation</summary><ul class="match-pairs-answer-key">{exercise.pairs.map(pair => <li><HebrewText text={pair.left} /> matches <HebrewText text={pair.right} /></li>)}</ul><p><HebrewText text={exerciseExplanation(exercise, blocks)} /></p></details>
+      <div class="answer-explanation" data-explanation hidden><p><strong>{p.explanation}</strong></p><p><HebrewText text={exerciseExplanation(exercise, blocks)} /></p></div>
+      <div class="question-advance" data-enhanced hidden><button type="button" class="btn lesson-primary" data-advance hidden><span data-advance-label>{p.nextQuestion}</span> <span aria-hidden="true">→</span></button></div>
+      <details class="fallback-answer" data-fallback-answer><summary>{p.sourceAnswerSummary}</summary><ul class="match-pairs-answer-key">{exercise.pairs.map(pair => <li><HebrewText text={pair.left} /> {p.pairMatches} <HebrewText text={pair.right} /></li>)}</ul><p><HebrewText text={exerciseExplanation(exercise, blocks)} /></p></details>
       </> : <>
       <fieldset><legend><HebrewText text={exercise.prompt} /></legend>
         <div class:list={['answer-options', { 'answer-grid': exercise.type === 'MULTIPLE_CHOICE_GRID', 'answer-boolean': exercise.type === 'TRUE_FALSE' }]}>
-          {exercise.options.map(option => <label class="answer-option" for={option.id}><input type="radio" name={exercise.id} id={option.id} value={option.id} required aria-describedby={`${exercise.id}-feedback`} /><span class:list={{ 'glyph-option': /^[\u0590-\u05FF]+$/u.test(option.label) }}><HebrewText text={option.label} /></span></label>)}
+          {exercise.options.map(option => <label class="answer-option" for={option.id}><input type="radio" name={exercise.id} id={option.id} value={option.id} required aria-describedby={`${exercise.id}-feedback`} /><span class:list={{ 'glyph-option': /^[\u0590-\u05FF]+$/u.test(option.label) }}><HebrewText text={optionLabel(exercise.type, option.label)} /></span></label>)}
         </div>
       </fieldset>
-      <div class="answer-actions" data-enhanced hidden><button type="submit" class="btn lesson-primary">Check answer</button><button type="button" class="btn lesson-secondary" data-retry hidden>Retry this question</button></div>
+      <div class="answer-actions" data-enhanced hidden><button type="submit" class="btn lesson-primary">{p.checkAnswer}</button><button type="button" class="btn lesson-secondary" data-retry hidden>{p.retryQuestion}</button></div>
       <p id={`${exercise.id}-feedback`} class="answer-feedback" role="status" aria-live="polite" aria-atomic="true" tabindex="-1"></p>
-      <div class="answer-explanation" data-explanation hidden><p><strong>Explanation</strong></p><p><HebrewText text={exerciseExplanation(exercise, blocks)} /></p></div>
-      <div class="question-advance" data-enhanced hidden><button type="button" class="btn lesson-primary" data-advance hidden><span data-advance-label>Next question</span> <span aria-hidden="true">→</span></button></div>
-      <details class="fallback-answer" data-fallback-answer><summary>Source answer and explanation</summary><p><strong>Source answer: </strong><HebrewText text={exercise.options.find(option => option.id === exercise.correctOptionId)!.label} /></p><p><HebrewText text={exerciseExplanation(exercise, blocks)} /></p></details>
+      <div class="answer-explanation" data-explanation hidden><p><strong>{p.explanation}</strong></p><p><HebrewText text={exerciseExplanation(exercise, blocks)} /></p></div>
+      <div class="question-advance" data-enhanced hidden><button type="button" class="btn lesson-primary" data-advance hidden><span data-advance-label>{p.nextQuestion}</span> <span aria-hidden="true">→</span></button></div>
+      <details class="fallback-answer" data-fallback-answer><summary>{p.sourceAnswerSummary}</summary><p><strong>{p.sourceAnswerLabel}</strong><HebrewText text={optionLabel(exercise.type, exercise.options.find(option => option.id === exercise.correctOptionId)!.label)} /></p><p><HebrewText text={exerciseExplanation(exercise, blocks)} /></p></details>
       </>}
     </form>)}
   </div>
   <script type="application/json" id="lesson-grading" set:html={gradingJson} />
+  <script type="application/json" id="lesson-practice-strings" set:html={stringsJson} />
 </section>
 <script>
 import { initPractice } from '../../lib/lessons/practice-client';

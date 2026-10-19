@@ -13,6 +13,7 @@ import Footer from '../Footer.astro';
 import Section from '../ui/Section.astro';
 import StudyBlock from './StudyBlock.astro';
 import Practice from './Practice.astro';
+import { unavailableQuestions } from '../../lib/lessons/presentation.mjs';
 import '../../styles/lesson-poc.css';
 import { getDictionary, type Locale, type Alternate } from '../../i18n';
 
@@ -81,6 +82,9 @@ const theorySections = theoryIndices.slice(1).map((sourceIndex: number, index: n
   block: blockBySourceIndex.get(sourceIndex),
   heading: index === 0 ? copy.theory.secondSectionHeading : copy.theory.thirdSectionHeading,
 }));
+// Gradeable question count, mirroring Practice.astro — the results panel's initial
+// "unanswered" figure must match the lesson's real exercise count, not a fixed one.
+const availableCount = lesson.exercises.filter((exercise: any) => !unavailableQuestions.has(exercise.id)).length;
 const pageUrl = `https://hebrewedu.com${coursePath}${lesson.id}/`;
 const schema = {
   '@context': 'https://schema.org',
@@ -93,7 +97,7 @@ const schema = {
       description: lesson.description,
       inLanguage: locale,
       educationalLevel: 'Beginner',
-      teaches: `Hebrew alphabet: ${letterName}`,
+      teaches: `${t.lesson.breadcrumbRoot}: ${letterName}`,
       isPartOf: `https://hebrewedu.com${coursePath}`,
     },
     {
@@ -121,7 +125,7 @@ const schema = {
     <main id="lesson-content">
       <Section>
         <div class="lesson-container">
-          <nav class="lesson-breadcrumb" aria-label="Breadcrumb">
+          <nav class="lesson-breadcrumb" aria-label={t.common.aria.breadcrumb}>
             <p class="lesson-breadcrumb-trail"><a href={coursePath}>{t.lesson.breadcrumbRoot}</a> / <span aria-current="page">{t.lesson.lessonLabel(lessonMeta.order, letterName)}</span></p>
             {(previousNav || nextNav) && <p class="lesson-breadcrumb-nav">
               {previousNav && <a href={previousNav.href}><span aria-hidden="true">←</span> {previousNav.label}</a>}
@@ -131,7 +135,7 @@ const schema = {
           <header class="lesson-header"><div class="lesson-identity"><div class="letter-token" aria-hidden="true"><bdi class="hebrew" lang="he" dir="rtl">{lesson.glyph}</bdi></div><div><p class="eyebrow">{t.lesson.eyebrow(lessonMeta.order, totalLessons)}</p><p class="lesson-name">{letterName} <bdi class="hebrew" lang="he" dir="rtl">{lesson.glyph}</bdi></p></div></div>
             {!published && <span class="local-preview-label">{t.lesson.localPreview}</span>}
           </header>
-          <nav class="stage-navigation" aria-label="Lesson stages">
+          <nav class="stage-navigation" aria-label={t.lesson.stagesAria}>
             <ol>{stages.map((stage, index) => <li><button type="button" data-stage-target={stage.key} aria-controls={`stage-${stage.key}`} disabled><span class="stage-number" aria-hidden="true">{index + 1}</span><span>{stage.label}</span></button></li>)}</ol>
           </nav>
           <p class="sr-only" data-stage-announcement role="status" aria-live="polite" aria-atomic="true"></p>
@@ -149,12 +153,12 @@ const schema = {
             <div class="learning-card example-materials">{exampleIndices.map((index: number) => <StudyBlock block={blockBySourceIndex.get(index)} />)}</div>
             <div class="stage-actions" data-enhanced hidden><button type="button" class="btn lesson-primary" data-stage-target="practice">{t.lesson.examples.nextCta} <span aria-hidden="true">→</span></button></div>
           </section>
-          <Practice exercises={lesson.exercises} blocks={lesson.blocks} letter={lesson.id} />
+          <Practice exercises={lesson.exercises} blocks={lesson.blocks} letter={lesson.id} locale={locale} />
           <section id="stage-results" data-stage="results" class="stage-panel" aria-labelledby="results-title">
             <div class="stage-heading"><span class="eyebrow">{t.lesson.stepOf(4, 4)}</span><h2 id="results-title" data-stage-heading tabindex="-1">{t.lesson.results.heading}</h2><p>{t.lesson.results.intro}</p></div>
             <div class="learning-card results-card" data-enhanced hidden>
               <p class="result-percentage" data-result-percentage>0%</p><p class="percentage-label" data-percentage-label>{t.lesson.results.overallScoreLabel}</p>
-              <dl class="result-stats"><div><dt>{t.lesson.results.stats.correct}</dt><dd data-result-correct>0</dd></div><div><dt>{t.lesson.results.stats.attempted}</dt><dd data-result-attempted>0</dd></div><div><dt>{t.lesson.results.stats.incorrect}</dt><dd data-result-incorrect>0</dd></div><div><dt>{t.lesson.results.stats.unanswered}</dt><dd data-result-unanswered>14</dd></div></dl>
+              <dl class="result-stats"><div><dt>{t.lesson.results.stats.correct}</dt><dd data-result-correct>0</dd></div><div><dt>{t.lesson.results.stats.attempted}</dt><dd data-result-attempted>0</dd></div><div><dt>{t.lesson.results.stats.incorrect}</dt><dd data-result-incorrect>0</dd></div><div><dt>{t.lesson.results.stats.unanswered}</dt><dd data-result-unanswered>{availableCount}</dd></div></dl>
               <p data-results-summary role="status" aria-live="polite" aria-atomic="true"></p>
               <p data-unanswered-list></p>
               <div class="results-actions"><button type="button" class="btn lesson-primary" data-review-mistakes>{t.lesson.results.reviewMistakes}</button><button type="button" class="btn lesson-secondary" data-answer-unanswered>{t.lesson.results.answerUnanswered}</button></div>

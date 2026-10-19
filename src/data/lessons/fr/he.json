@@ -16,7 +16,7 @@
     {
       "id": "fr-typography",
       "summary": "Espaces insécables avant la ponctuation et dans les guillemets français",
-      "detail": "La source brute FR utilise par endroits une espace normale autour des guillemets « » au lieu d'une espace insécable (convention typographique française, voir docs/hebrew-alphabet-editorial-rules.fr.md). Corrigé via contentOverrides (blocs 1, 2, 6, 8, 11, 13, 15 et exercices 0, 2)."
+      "detail": "La source brute FR utilise par endroits une espace normale autour des guillemets « » au lieu d'une espace insécable (convention typographique française, voir docs/hebrew-alphabet-editorial-rules.fr.md). Corrigé via contentOverrides (blocs 1, 2, 6, 8, 11, 13, 15 et exercices 0, 2)."
     }
   ],
   "illustrations": {},
@@ -93,11 +93,11 @@
     "blocks": [
       {
         "sourceIndex": 5,
-        "reason": "Bloc d'étude TITLE_IMAGE non pris en charge, sans contenu, titre ni URL d'image dans la source brute — un emplacement vide sans rien à afficher ; aucun moteur de rendu n'existe pour TITLE_IMAGE."
+        "reason": "Bloc d'étude TITLE_IMAGE non pris en charge, sans contenu, titre ni URL d'image dans la source brute — un emplacement vide sans rien à afficher ; aucun moteur de rendu n'existe pour TITLE_IMAGE."
       },
       {
         "sourceIndex": 7,
-        "reason": "Bloc d'étude TITLE_IMAGE non pris en charge, sans contenu, titre ni URL d'image dans la source brute — un emplacement vide sans rien à afficher ; aucun moteur de rendu n'existe pour TITLE_IMAGE."
+        "reason": "Bloc d'étude TITLE_IMAGE non pris en charge, sans contenu, titre ni URL d'image dans la source brute — un emplacement vide sans rien à afficher ; aucun moteur de rendu n'existe pour TITLE_IMAGE."
       }
     ],
     "exercises": []

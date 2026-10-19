@@ -11,7 +11,7 @@
     {
       "id": "fr-typography",
       "summary": "Espaces insécables avant la ponctuation et dans les guillemets français",
-      "detail": "La source brute FR utilise par endroits une espace normale avant les guillemets « » et avant « : » au lieu d'une espace insécable (convention typographique française, voir docs/hebrew-alphabet-editorial-rules.fr.md). Corrigé via contentOverrides (blocs 1, 5 et 7)."
+      "detail": "La source brute FR utilise par endroits une espace normale avant les guillemets « » et avant « : » au lieu d'une espace insécable (convention typographique française, voir docs/hebrew-alphabet-editorial-rules.fr.md). Corrigé via contentOverrides (blocs 1, 5 et 7)."
     }
   ],
   "illustrations": {},

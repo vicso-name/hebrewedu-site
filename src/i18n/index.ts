@@ -56,6 +56,22 @@ export interface Dictionary {
     gamesEnLabel: string;
     /** "Blog" label used where the destination is English-only, suffixed appropriately per locale. */
     blogEnLabel: string;
+    /** Layout.astro's skip link (pageClass path). Lesson/hub routes use their own
+     *  skipToLesson/skipToCourse instead. */
+    skipToContent: string;
+    /** Landmark/region labels read only by assistive tech — translated for the
+     *  same reason visible chrome is (docs/I18N.md: parity rules). */
+    aria: {
+      primaryNav: string;
+      homeLink: string;
+      footerNav: string;
+      breadcrumb: string;
+      langSwitch: string;
+      consent: string;
+    };
+    /** Suffix marking a link whose destination is English-only ("(en anglais)"),
+     *  appended where the link's own label is otherwise fully translated. Empty on en. */
+    enOnlySuffix: string;
   };
   nav: {
     home: string;
@@ -89,6 +105,54 @@ export interface Dictionary {
     stepOf: (step: number, total: number) => string;
     theory: { nextCta: string };
     examples: { nextCta: string };
+    stagesAria: string;
+    /** Practice stage. The `*Template` entries are consumed by
+     *  src/lib/lessons/practice-client.ts at runtime — Practice.astro forwards them
+     *  as the #lesson-practice-strings JSON payload (same transport as that
+     *  component's #lesson-grading payload), since a client module can't import a
+     *  dictionary per locale. Placeholders: {answered} {total} {correct} {attempted}
+     *  {unanswered} {list} {count} {matched} {step} {stage}. */
+    practice: {
+      heading: string;
+      intro: string;
+      noScript: string;
+      progressAria: string;
+      progressTemplate: string;
+      meterTemplate: string;
+      questionCount: (index: number, total: number) => string;
+      types: { matchPairs: string; trueFalse: string; choice: string };
+      /** Display text for a TRUE_FALSE exercise's two options. The normalized
+       *  lesson stores the canonical English 'True'/'False' as the option label
+       *  (src/lib/lessons/normalize.mjs synthesizes them, and grading keys off the
+       *  option id, never the label), so the visible wording is UI chrome. */
+      booleanLabels: { true: string; false: string };
+      unavailable: { title: string; body: string };
+      matchBoardAria: string;
+      leftAria: (label: string) => string;
+      rightAria: (label: string) => string;
+      pairMatches: string;
+      explanation: string;
+      nextQuestion: string;
+      seeResults: string;
+      checkAnswer: string;
+      retryQuestion: string;
+      sourceAnswerSummary: string;
+      sourceAnswerLabel: string;
+      overallScoreTemplate: string;
+      resultsSummaryTemplate: string;
+      skippedTemplate: string;
+      noneSkipped: string;
+      unavailableNoteTemplate: string;
+      stageAnnouncementTemplate: string;
+      pairsAllMatched: string;
+      pairsPartialTemplate: string;
+      pairsNotAMatch: string;
+      chooseFirst: string;
+      answerCorrect: string;
+      answerIncorrectWithExplanation: string;
+      answerIncorrect: string;
+      chooseAgain: string;
+    };
     results: {
       heading: string;
       intro: string;
@@ -183,6 +247,8 @@ export interface Dictionary {
       /** Disclosure shown once near the heading when the quotes are translated
        *  for this locale (src/data/testimonials.ts's `fr` field) — empty/unused on en. */
       translationNote: string;
+      /** Label for the scrollable reviews region (assistive tech only). */
+      reviewsAria: string;
       translatedFromPrefix: string;
       starsAriaLabel: (rating: number) => string;
     };

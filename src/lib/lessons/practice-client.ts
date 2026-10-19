@@ -6,10 +6,68 @@ interface MatchPairsKey { id: string; type: 'MATCH_PAIRS'; pairs: { id: string }
 type Key = ChoiceKey | MatchPairsKey;
 const isMatchPairsKey = (key: Key): key is MatchPairsKey => 'pairs' in key;
 
+/** Runtime strings handed over by Practice.astro as JSON (#lesson-practice-strings),
+ *  since this module can't import a per-locale dictionary. The English defaults
+ *  below keep the module standalone-testable and are what every en page sends. */
+interface PracticeStrings {
+  progressTemplate: string;
+  meterTemplate: string;
+  overallScoreTemplate: string;
+  resultsSummaryTemplate: string;
+  skippedTemplate: string;
+  noneSkipped: string;
+  unavailableNoteTemplate: string;
+  stageAnnouncementTemplate: string;
+  stageNames: Record<string, string>;
+  nextQuestion: string;
+  seeResults: string;
+  pairsAllMatched: string;
+  pairsPartialTemplate: string;
+  pairsNotAMatch: string;
+  chooseFirst: string;
+  answerCorrect: string;
+  answerIncorrectWithExplanation: string;
+  answerIncorrect: string;
+  chooseAgain: string;
+}
+
+const DEFAULT_STRINGS: PracticeStrings = {
+  progressTemplate: '{answered} of {total} available questions answered · {correct} correct',
+  meterTemplate: '{answered} of {total} available questions answered',
+  overallScoreTemplate: 'Overall score · correct answers out of {total} available questions',
+  resultsSummaryTemplate: '{correct} correct out of {total} available questions. {attempted} attempted; {unanswered} unanswered.',
+  skippedTemplate: 'Skipped questions: {list}.',
+  noneSkipped: 'No questions were skipped.',
+  unavailableNoteTemplate: ' Unavailable in this preview: {list}. These {count} questions are not scored.',
+  stageAnnouncementTemplate: 'Step {step} of 4: {stage}',
+  stageNames: { theory: 'Theory', examples: 'Examples', practice: 'Practice', results: 'Results' },
+  nextQuestion: 'Next question',
+  seeResults: 'See results',
+  pairsAllMatched: 'All pairs matched. Well done!',
+  pairsPartialTemplate: '{matched} of {total} pairs matched.',
+  pairsNotAMatch: 'Not a match. Try again.',
+  chooseFirst: 'Choose an answer first.',
+  answerCorrect: 'Correct. Well done!',
+  answerIncorrectWithExplanation: 'Not quite. Read the explanation, then retry or continue.',
+  answerIncorrect: 'Not quite. Retry this question or continue.',
+  chooseAgain: 'Choose an answer and check it again.',
+};
+
+/** Replaces {placeholder} tokens; an unknown token is left verbatim so a
+ *  mistyped dictionary entry is visible rather than silently blank. */
+export function fillTemplate(template: string, values: Record<string, string | number>): string {
+  return template.replace(/\{(\w+)\}/g, (match, key) => (key in values ? String(values[key]) : match));
+}
+
 export function initPractice() {
   const container = document.querySelector<HTMLElement>('[data-practice]');
   const payload = document.getElementById('lesson-grading');
   if (!container || !payload) return;
+  const stringsPayload = document.getElementById('lesson-practice-strings');
+  let s = DEFAULT_STRINGS;
+  if (stringsPayload) {
+    try { s = { ...DEFAULT_STRINGS, ...JSON.parse(stringsPayload.textContent ?? '{}') }; } catch { /* keep defaults */ }
+  }
   const letter = container.dataset.lessonLetter ?? 'unknown';
   const firedStages = new Set<string>();
   track('lesson_start', { letter });
@@ -35,20 +93,22 @@ export function initPractice() {
     const unanswered = forms.map((form, index) => results.has(form.dataset.exerciseId!) ? null : index + 1).filter(value => value !== null);
     const skippedCount = availableCount - attempted;
     document.querySelector<HTMLElement>('[data-result-percentage]')!.textContent = `${Math.round(correct / availableCount * 100)}%`;
-    document.querySelector<HTMLElement>('[data-percentage-label]')!.textContent = `Overall score · correct answers out of ${availableCount} available questions`;
+    document.querySelector<HTMLElement>('[data-percentage-label]')!.textContent = fillTemplate(s.overallScoreTemplate, { total: availableCount });
     for (const [field, count] of Object.entries({ correct, attempted, incorrect: attempted - correct, unanswered: skippedCount })) {
       document.querySelector<HTMLElement>(`[data-result-${field}]`)!.textContent = String(count);
     }
-    document.querySelector<HTMLElement>('[data-results-summary]')!.textContent = `${correct} correct out of ${availableCount} available questions. ${attempted} attempted; ${skippedCount} unanswered.`;
+    document.querySelector<HTMLElement>('[data-results-summary]')!.textContent = fillTemplate(s.resultsSummaryTemplate, { correct, total: availableCount, attempted, unanswered: skippedCount });
     const unavailable = forms.map((form, index) => form.dataset.unavailable ? index + 1 : null).filter(value => value !== null);
     const skipped = unanswered.filter(index => !unavailable.includes(index));
-    document.querySelector<HTMLElement>('[data-unanswered-list]')!.textContent = `${skipped.length ? `Skipped questions: ${skipped.join(', ')}.` : 'No questions were skipped.'}${unavailable.length ? ` Unavailable in this preview: ${unavailable.join(', ')}. These ${unavailable.length} questions are not scored.` : ''}`;
+    document.querySelector<HTMLElement>('[data-unanswered-list]')!.textContent =
+      (skipped.length ? fillTemplate(s.skippedTemplate, { list: skipped.join(', ') }) : s.noneSkipped) +
+      (unavailable.length ? fillTemplate(s.unavailableNoteTemplate, { list: unavailable.join(', '), count: unavailable.length }) : '');
     document.querySelector<HTMLButtonElement>('[data-review-mistakes]')!.disabled = attempted === correct;
     document.querySelector<HTMLButtonElement>('[data-answer-unanswered]')!.hidden = skipped.length === 0;
-    progress.textContent = `${attempted} of ${availableCount} available questions answered · ${correct} correct`;
+    progress.textContent = fillTemplate(s.progressTemplate, { answered: attempted, total: availableCount, correct });
     meter.max = availableCount;
     meter.value = attempted;
-    meter.textContent = `${attempted} of ${availableCount} available questions answered`;
+    meter.textContent = fillTemplate(s.meterTemplate, { answered: attempted, total: availableCount });
   }
   // Each question's own forward button (`[data-advance]`) only becomes visible once that
   // question has been answered (or is marked unavailable, since it can't be answered at
@@ -62,7 +122,7 @@ export function initPractice() {
     const submitted = results.has(form.dataset.exerciseId!);
     const advance = form.querySelector<HTMLButtonElement>('[data-advance]')!;
     advance.hidden = !(unavailable || submitted);
-    advance.querySelector<HTMLElement>('[data-advance-label]')!.textContent = last ? 'See results' : 'Next question';
+    advance.querySelector<HTMLElement>('[data-advance-label]')!.textContent = last ? s.seeResults : s.nextQuestion;
   }
   function showQuestion(index: number, focus = true) {
     current = index;
@@ -95,7 +155,7 @@ export function initPractice() {
       if (button.dataset.stageTarget === target) button.setAttribute('aria-current', 'step');
       else button.removeAttribute('aria-current');
     });
-    announcement.textContent = `Step ${panels.indexOf(panel) + 1} of 4: ${target[0].toUpperCase() + target.slice(1)}`;
+    announcement.textContent = fillTemplate(s.stageAnnouncementTemplate, { step: panels.indexOf(panel) + 1, stage: s.stageNames[target] ?? target });
     if (focus) {
       const heading = panel.querySelector<HTMLElement>('[data-stage-heading]')!;
       heading.focus({ preventScroll: true });
@@ -135,7 +195,7 @@ export function initPractice() {
     }
     function announceProgress() {
       const { status, matched: matchedCount, total } = gradeMatchPairs(key, matched);
-      feedback.textContent = status === 'correct' ? 'All pairs matched. Well done!' : `${matchedCount} of ${total} pairs matched.`;
+      feedback.textContent = status === 'correct' ? s.pairsAllMatched : fillTemplate(s.pairsPartialTemplate, { matched: matchedCount, total });
       if (status === 'correct') {
         feedback.dataset.result = 'correct';
         if (explanation) explanation.hidden = false;
@@ -184,7 +244,7 @@ export function initPractice() {
         announceProgress();
       } else {
         feedback.dataset.result = 'incorrect';
-        feedback.textContent = 'Not a match. Try again.';
+        feedback.textContent = s.pairsNotAMatch;
         deselect(previouslySelected);
         [left, right].forEach(el => el.classList.add('is-wrong'));
         window.setTimeout(() => [left, right].forEach(el => el.classList.remove('is-wrong')), 500);
@@ -203,14 +263,14 @@ export function initPractice() {
       const selected = form.querySelector<HTMLInputElement>('input:checked')?.value;
       const result = gradeAnswer(key, selected);
       if (result.status === 'unanswered') {
-        feedback.textContent = 'Choose an answer first.';
+        feedback.textContent = s.chooseFirst;
         form.querySelector<HTMLInputElement>('input')!.focus();
         return;
       }
       results.set(key.id, result.correct);
       feedback.dataset.result = result.status;
       const explanation = form.querySelector<HTMLElement>('[data-explanation]');
-      feedback.textContent = result.correct ? 'Correct. Well done!' : (explanation ? 'Not quite. Read the explanation, then retry or continue.' : 'Not quite. Retry this question or continue.');
+      feedback.textContent = result.correct ? s.answerCorrect : (explanation ? s.answerIncorrectWithExplanation : s.answerIncorrect);
       if (explanation) explanation.hidden = false;
       form.querySelector<HTMLElement>('[data-retry]')!.hidden = result.correct;
       form.querySelector<HTMLButtonElement>('button[type="submit"]')!.hidden = true;
@@ -225,7 +285,7 @@ export function initPractice() {
       clearForm(form);
       updateResults();
       refreshAdvance();
-      feedback.textContent = 'Choose an answer and check it again.';
+      feedback.textContent = s.chooseAgain;
       form.querySelector<HTMLInputElement>('input')!.focus();
     });
   });

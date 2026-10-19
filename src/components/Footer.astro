@@ -38,7 +38,7 @@ const homeHref = locale === 'fr' ? '/fr/' : '/';
     </a>
 
     <!-- Nav links -->
-    <nav class="footer-nav" aria-label="Footer">
+    <nav class="footer-nav" aria-label={t.common.aria.footerNav}>
       {links.map(l => (
         <a href={l.href} class="footer-link">{l.label}</a>
       ))}

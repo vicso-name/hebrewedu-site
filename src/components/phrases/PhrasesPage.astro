@@ -19,7 +19,7 @@ import {
   phraseGroups, phrases, phraseDialogues, phraseQuestions, frPhraseQuestions,
   phraseExercises, frPhraseExercises, phraseVariant, phraseVariantFr, phraseReview, phraseReviewFr,
 } from '../../data/hebrew-phrases';
-import type { Locale, Alternate } from '../../i18n';
+import { getDictionary, type Locale, type Alternate } from '../../i18n';
 
 interface Props {
   locale?: Locale;
@@ -143,7 +143,7 @@ const anatomyPhraseId = isFr ? 'water-please' : 'coffee-please';
 <Layout pageClass="phrases-page" mainId="phrases-content" title={title} description={description} schema={schema} robots={robots} locale={locale} alternates={alternates} langSwitch={langSwitch}>
       <Section class="phrases-hero phrases-hero--deck" aria-labelledby="phrases-title">
         {!published && <p class="phrases-preview" role="note">{t.preview}</p>}
-        <nav class="phrases-breadcrumbs" aria-label="Breadcrumb"><ol><li><a href={isFr ? '/fr/' : '/'}>{t.breadcrumbHome}</a></li><li aria-current="page">{t.breadcrumbPage}</li></ol></nav>
+        <nav class="phrases-breadcrumbs" aria-label={getDictionary(locale).common.aria.breadcrumb}><ol><li><a href={isFr ? '/fr/' : '/'}>{t.breadcrumbHome}</a></li><li aria-current="page">{t.breadcrumbPage}</li></ol></nav>
         <div class="phrases-hero-layout">
           <header>
             <p class="phrases-eyebrow">{t.eyebrowHero}</p>

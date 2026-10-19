@@ -27,7 +27,7 @@ const monthYear = (iso: string) =>
 
   <!-- Full-bleed, natively scrollable row. Scrolling and snapping are pure CSS;
        the script below only mirrors the scroll position into the progress line. -->
-  <div class="reviews-viewport" id="reviews-viewport" role="region" aria-label="Learner reviews" tabindex="0">
+  <div class="reviews-viewport" id="reviews-viewport" role="region" aria-label={t.reviewsAria} tabindex="0">
     <ul class="reviews-track" role="list">
       {testimonials.map(item => (
         <li class="reviews-item">
