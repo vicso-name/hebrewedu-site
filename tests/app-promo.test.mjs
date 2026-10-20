@@ -40,6 +40,10 @@ test('legal and privacy pages are excluded, in both locales', () => {
   }
 });
 
+test('the 404 page is excluded', () => {
+  assert.equal(appPromoEnabled('/404'), false);
+});
+
 test('fullscreen game players are excluded, hub and landing pages are not', () => {
   assert.equal(appPromoEnabled('/play/alef-bet-rush/game/'), false);
   assert.equal(appPromoEnabled('/play/hebrew-mahjong/game/'), false);

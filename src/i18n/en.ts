@@ -282,6 +282,15 @@ export const en: Dictionary = {
     later: 'Maybe later',
     close: 'Close',
   },
+  notFound: {
+    title: 'Page not found',
+    description: 'This page does not exist or has moved. Pick up the Hebrew alphabet course, the phrase guide, the blog or the games from here.',
+    eyebrow: 'Error 404',
+    heading: "This page doesn't exist",
+    lead: 'The link may be out of date, or the address may have a typo in it. Everything else is still here.',
+    home: 'Back to home',
+    suggestions: 'Or carry on with',
+  },
   phrases: {
     saidBy: 'Said by',
     saidTo: 'Said to',

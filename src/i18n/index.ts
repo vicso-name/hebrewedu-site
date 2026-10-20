@@ -268,6 +268,20 @@ export interface Dictionary {
     /** aria-label on the icon close button. */
     close: string;
   };
+  /** The 404 page (`src/pages/404.astro`). Link labels come from `nav`, so
+   *  this is only the page's own copy. */
+  notFound: {
+    /** <title> and meta description — noindex, but both still show in a tab. */
+    title: string;
+    description: string;
+    eyebrow: string;
+    heading: string;
+    lead: string;
+    /** Primary CTA back to the home page. */
+    home: string;
+    /** Small heading above the suggested links. */
+    suggestions: string;
+  };
   /** PhraseCard.astro's "Said by/to" row and gender-variant toggle — the only
    *  phrases-page chrome that needs a locale-aware accessible label, since EN's
    *  axis-agnostic "Man"/"Woman" doesn't fit FR (tu/vous and speaker/addressee
