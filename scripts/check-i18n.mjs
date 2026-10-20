@@ -35,7 +35,15 @@ try {
 const SKIP_PREFIXES = ['/game-builds/', '/google'];
 // Fullscreen game canvases intentionally bypass the marketing shell (same reason
 // they're allowlisted in scripts/check-layout.mjs), so they carry no SEO head.
-const SKIP_EXACT = new Set(['/play/alef-bet-rush/game/', '/play/hebrew-mahjong/game/', '/play/hebrew-word-search/game/']);
+// /404 is the error document GitHub Pages serves for every unknown path, not a
+// page at a URL of its own — canonical, hreflang and sitemap coverage have no
+// meaning for it (owner decision, docs/I18N.md §7).
+const SKIP_EXACT = new Set([
+  '/play/alef-bet-rush/game/',
+  '/play/hebrew-mahjong/game/',
+  '/play/hebrew-word-search/game/',
+  '/404',
+]);
 
 async function walk(dir) {
   const out = [];

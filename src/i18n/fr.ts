@@ -273,6 +273,15 @@ export const fr: Dictionary = {
     later: 'Plus tard',
     close: 'Fermer',
   },
+  notFound: {
+    title: 'Page introuvable',
+    description: "Cette page n'existe pas ou a été déplacée. Reprends le cours d'alphabet hébreu, le guide de phrases, le blog ou les jeux depuis cette page.",
+    eyebrow: 'Erreur 404',
+    heading: "Cette page n'existe pas",
+    lead: "Le lien est peut-être périmé, ou l'adresse contient une faute de frappe. Tout le reste est toujours là.",
+    home: "Retour à l'accueil",
+    suggestions: 'Ou continue avec',
+  },
   phrases: {
     saidBy: 'Dit par',
     saidTo: 'Dit à',

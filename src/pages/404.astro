@@ -1,0 +1,99 @@
+---
+// Custom 404. GitHub Pages serves dist/404.html for every unknown path on the
+// site, so there is exactly one of these and it is English: a per-directory
+// /fr/404.html is not something GitHub Pages honours. A French visitor who
+// lands here reaches the French site in one click through the nav's EN/FR
+// switcher, which falls back to /fr/ when a page has no counterpart
+// (LangSwitch.astro).
+import Layout from '../layouts/Layout.astro';
+import Section from '../components/ui/Section.astro';
+import { getDictionary } from '../i18n';
+import { coursePath, hubEnabled, localCoursePreview } from '../lib/alphabet-course.mjs';
+import { phrasesPath } from '../lib/hebrew-phrases.mjs';
+import { blogPath } from '../lib/blog';
+import '../styles/home.css';
+
+const t = getDictionary('en');
+
+// Same destinations and the same publication gate as the nav (Nav.astro) — a
+// 404 must never offer a link that 404s in turn.
+const suggestions = [
+  ...(hubEnabled(localCoursePreview(import.meta.env.DEV)) ? [{ href: coursePath, label: t.nav.alphabetCourse }] : []),
+  { href: phrasesPath, label: t.nav.phrases },
+  { href: blogPath('en'), label: t.nav.blog },
+  { href: '/play/', label: t.nav.play },
+];
+---
+
+<Layout
+  pageClass="home-page error-page"
+  title={t.notFound.title}
+  description={t.notFound.description}
+  robots="noindex, follow"
+>
+  <link
+    slot="head"
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+  />
+
+  <Section>
+    <div class="error-inner">
+      <p class="home-eyebrow">{t.notFound.eyebrow}</p>
+      <h1 class="home-h1">{t.notFound.heading}</h1>
+      <p class="home-lead">{t.notFound.lead}</p>
+
+      <a class="btn btn-primary error-cta" href="/">{t.notFound.home}</a>
+
+      <nav class="error-suggestions" aria-labelledby="error-suggestions-title">
+        <p class="error-suggestions-title" id="error-suggestions-title">{t.notFound.suggestions}</p>
+        <ul role="list">
+          {suggestions.map(link => (
+            <li><a href={link.href}>{link.label}</a></li>
+          ))}
+        </ul>
+      </nav>
+    </div>
+  </Section>
+</Layout>
+
+<style>
+.error-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: var(--w-narrow);
+  margin-inline: auto;
+  text-align: center;
+}
+.error-inner .home-lead { margin-block-start: var(--space-sm); }
+.error-cta { margin-block-start: var(--space-lg); }
+
+.error-suggestions { margin-block-start: var(--space-xl); }
+.error-suggestions-title {
+  font-size: 0.875rem;
+  color: var(--home-text-tertiary);
+}
+.error-suggestions ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-xs) var(--space-sm);
+  margin-block-start: var(--space-sm);
+  list-style: none;
+}
+.error-suggestions a {
+  display: inline-block;
+  padding: var(--space-2xs) var(--space-xs-plus);
+  border: 1px solid var(--home-border-subtle);
+  border-radius: var(--r-full);
+  font-size: 0.9375rem;
+  color: var(--home-text-secondary);
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
+}
+.error-suggestions a:hover {
+  color: var(--home-brand-text);
+  border-color: var(--home-brand-soft);
+  background: var(--home-brand-soft);
+}
+</style>

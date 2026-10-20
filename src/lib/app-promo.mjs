@@ -24,6 +24,7 @@ export const APP_PROMO = {
 const EXCLUDED_PAGES = new Set([
   '/', // home: hero, download section and nav CTA already ask three times
   '/fr/',
+  '/404/', // someone who just hit a dead link is not a visitor to interrupt
 ]);
 
 const EXCLUDED_PREFIXES = [
