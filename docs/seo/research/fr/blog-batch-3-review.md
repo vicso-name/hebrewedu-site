@@ -23,20 +23,26 @@ exact phrase as anchor text while pointing somewhere else, mostly at the
 - `src/i18n/fr.ts`: `hub.resources`'s "Guide de l'alphabet hébreu" → "Guide
   des lettres hébraïques"; `home.resources.items`'s "Apprendre l'alphabet
   hébreu" → "Le guide des lettres hébraïques." Both still link to
-  `lettres-hebraiques`, just no longer under the hub's own keyword.
-- `lettres-hebraiques.md`: five "Pratiquer `<Letter>` dans le cours
-  d'alphabet hébreu" anchors (linking to that letter's own lesson page, not
-  the hub) reworded to "... dans le cours interactif."
+  `lettres-hebraiques`, just no longer under the hub's own keyword — that
+  post is a genuinely separate page from the hub, so the anchor had to change.
 - The two new anchors this batch introduced pointing at `lettres-hebraiques`
   (in `lire-hebreu-sans-voyelles.md` and `combien-de-temps-apprendre-hebreu.md`)
-  reworded to "le guide des lettres hébraïques."
+  reworded to "le guide des lettres hébraïques," for the same reason.
+- `lettres-hebraiques.md`'s five "Pratiquer `<Letter>` dans le cours
+  d'alphabet hébreu" anchors were briefly reworded, then **restored to this
+  original wording** (owner review): their targets
+  (`/fr/apprendre/alphabet-hebreu/<slug>/`) are letter lessons *inside* the
+  hub's own course, not a competing page, so the rule below now treats any
+  URL under the hub's own path as compliant — no rewording needed there.
 
 `scripts/check-i18n.mjs` gained a matching **FAIL** rule,
 `fr-alphabet-anchor-not-hub` (documented in `docs/I18N.md` §7): any FR anchor
-whose text contains "alphabet hébreu" must link to the hub, unless the anchor
-is simply the destination page's own title (a blog-card link naming itself,
-e.g. the "L'alphabet hébreu en 7 jours : un plan réaliste" card linking to
-that very post) — that's not the cannibalization the rule guards against.
+whose text contains "alphabet hébreu" must link to the hub or one of its own
+pages (a letter lesson), unless the anchor is simply the destination page's
+own title (a blog-card link naming itself, e.g. the "L'alphabet hébreu en 7
+jours : un plan réaliste" card linking to that very post) — neither case is
+the cannibalization the rule guards against; only a link to a genuinely
+separate page (like the `lettres-hebraiques` blog post) is.
 
 ---
 

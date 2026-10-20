@@ -505,11 +505,16 @@ for (const page of pages) {
 
 // ───────────────────────────────────────────────────────────────────────────
 // Rule 13: an FR anchor whose visible text contains "alphabet hébreu" must
-// link to the hub (/fr/apprendre/alphabet-hebreu/), which owns that keyword
-// exclusively (docs/seo/research/fr/BLOG_FR_PLAN.md's "Keyword ownership"
-// note). Any other destination dilutes the hub's claim on the phrase with
-// competing anchor-text signal — fix it by rewording the anchor (keep the
-// link where it already points) or by retargeting the link to the hub.
+// link to the hub (/fr/apprendre/alphabet-hebreu/) or one of its own pages
+// (a letter lesson, e.g. /fr/apprendre/alphabet-hebreu/dalet/) — the hub owns
+// that keyword exclusively (docs/seo/research/fr/BLOG_FR_PLAN.md's "Keyword
+// ownership" note), but a lesson page is part of the hub's own course, not a
+// competing page, so an anchor pointing into that same URL tree reinforces
+// the hub's topic cluster rather than diluting it. Any destination outside
+// that tree (a blog post, a different section) dilutes the hub's claim on
+// the phrase with competing anchor-text signal — fix it by rewording the
+// anchor (keep the link where it already points) or by retargeting the link
+// into the hub's own tree.
 //
 // Exempt: an anchor that is simply the destination page's own title (a blog
 // post card/featured-post link naming itself, e.g. "L'alphabet hébreu en 7
@@ -530,7 +535,7 @@ for (const page of pages.filter((p) => p.locale === 'fr')) {
   for (const m of page.html.matchAll(/<a\b([^>]*)>([\s\S]*?)<\/a>/g)) {
     const attrs = m[1];
     const href = (attrs.match(/href="([^"]*)"/) || [])[1];
-    if (!href || !href.startsWith('/') || href === ALPHABET_HUB_URL) continue;
+    if (!href || !href.startsWith('/') || href.startsWith(ALPHABET_HUB_URL)) continue;
     const label = collapseSpace(decode(m[2].replace(/<[^>]+>/g, ' ')));
     if (!ALPHABET_PHRASE.test(label)) continue;
     const target = byUrl.get(href.replace(/#.*$/, ''));
@@ -539,7 +544,7 @@ for (const page of pages.filter((p) => p.locale === 'fr')) {
       target.h1s.some((h1) => label.includes(collapseSpace(h1)))
     );
     if (!selfTitled) {
-      report('fr-alphabet-anchor-not-hub', page, `anchor "${label}" contains "alphabet hébreu" but links to "${href}", not the hub (${ALPHABET_HUB_URL})`);
+      report('fr-alphabet-anchor-not-hub', page, `anchor "${label}" contains "alphabet hébreu" but links to "${href}", outside the hub's own pages (${ALPHABET_HUB_URL})`);
     }
   }
 }
