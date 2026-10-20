@@ -90,7 +90,7 @@ Il contient les verbes les plus fréquents de l'hébreu parlé et écrit. Les mo
 - לראות (*lirot*) — voir
 - לשמוע (*lishmoa*) — entendre
 
-Si tu débutes, les verbes Pa'al constituent le [vocabulaire de verbes dont tu as besoin](/blog/how-many-words-are-in-the-modern-hebrew-language/) (en anglais) à chaque niveau. La plupart des phrases du quotidien fonctionnent entièrement avec le Pa'al.
+Si tu débutes, les verbes Pa'al constituent le [vocabulaire de verbes dont tu as besoin](/fr/blog/combien-de-mots-hebreu/) à chaque niveau. La plupart des phrases du quotidien fonctionnent entièrement avec le Pa'al.
 
 Apprends le Pa'al en premier. Mets-toi à l'aise avec lui. Laisse les six autres émerger en temps voulu.
 

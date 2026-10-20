@@ -150,6 +150,16 @@ English:
   cues that have no French equivalent (the silent "H" in "PAH-al" → "PA-al")
   and uses `ou` wherever the EN source wrote a bare "u" for the [u] sound
   (`pu-AL` → `pou-AL`, `huf-AL` → `houf-AL`) per the `ou` rule above.
+- **Exception: the phrases page keeps "ch" for ש.** `src/data/hebrew-phrases.ts`
+  transliterates Shin-sound words with "ch" (`chalom`, not `shalom`) —
+  a deliberate, search-driven spelling chosen because that is how French
+  speakers actually type the greeting. This is older than, and narrower
+  than, the blog's own convention: blog posts transliterate the Shin sound
+  as "sh" (`shamar`, `lishmor`, `mishmar`, batch 2's racines post), matching
+  the academic transliteration style the blog otherwise uses. Don't
+  "fix" the phrases page to match the blog's "sh," and don't carry the
+  phrases page's "ch" into a new blog post — each surface keeps its own,
+  already-settled spelling.
 
 ### French typography
 

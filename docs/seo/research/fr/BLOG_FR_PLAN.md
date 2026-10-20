@@ -58,7 +58,7 @@ rank on a head term. Volumes are per `keywords-fr.csv`.
 | 7 | hebrew-binyanim-explained | `binianim-hebreu` | grammaire hébreu moderne | 10 | Les 7 binianim : comprendre les verbes hébreux |
 | 8 | how-the-hebrew-root-system-works | `racines-hebraiques` | racines hébraïques | 10 | Les racines hébraïques : une racine, dix mots |
 | 9 | learn-hebrew-alphabet-7-days | `apprendre-alphabet-hebreu-7-jours` | long tail | — | L'alphabet hébreu en 7 jours : un plan réaliste |
-| 10 | how-hard-is-hebrew-to-learn | `hebreu-difficile` | combien de temps pour apprendre l'hébreu | 10 | L'hébreu est-il difficile à apprendre ? |
+| 10 | how-hard-is-hebrew-to-learn | `combien-de-temps-apprendre-hebreu` | combien de temps pour apprendre l'hébreu | 10 | Combien de temps pour apprendre l'hébreu ? |
 | 11 | how-not-to-learn-hebrew-… | `erreurs-apprendre-hebreu` | apprendre l'hébreu seul | 10 | Comment ne pas apprendre l'hébreu : 10 erreurs |
 | 12 | story-behind-learn-hebrew-read-speak | `histoire-de-lapplication` | meilleure application pour apprendre l'hébreu | 10 | Des lettres à la compréhension : notre histoire |
 | 13 | what-makes-a-language-learning-game-educational | `jeux-educatifs-langues` | jeux pour apprendre l'hébreu | 0 | Qu'est-ce qui rend un jeu de langue éducatif ? |
@@ -88,7 +88,7 @@ how much net-new French writing they need.
 |---|---|---|---|
 | **A** | `lettres-hebraiques`, `ecriture-hebraique`, `voyelles-hebreu` | The three biggest volumes (390 / 720 / 210) and the three heaviest content lifts: a 22-letter table, a printed-vs-cursive comparison, a full vowel table. Start from the proofread draft `fr-guide-draft.md` for post 1 — do not re-translate the EN article. | Opus 5, high |
 | **B** | `conjugaison-hebreu`, `binianim-hebreu`, `racines-hebraiques`, `vocabulaire-hebreu` | The verb/root/vocabulary block, written together so the three share one terminology set (racine, binian, modèle) and link to each other rather than overlap. Post 4 needs real conjugation tables, which have no EN source copy. | Opus 5, high |
-| **C** | `apprendre-alphabet-hebreu-7-jours`, `lire-hebreu-sans-voyelles`, `hebreu-difficile`, `combien-de-mots-hebreu` | Long tail, but all four are close rewrites of their EN originals with FR-localized examples and figures. | Opus 5, medium |
+| **C** | `apprendre-alphabet-hebreu-7-jours`, `lire-hebreu-sans-voyelles`, `combien-de-temps-apprendre-hebreu`, `combien-de-mots-hebreu` | Long tail, but all four are close rewrites of their EN originals with FR-localized examples and figures. | Opus 5, medium |
 | **D** | `hebreu-parle-vite`, `comprehension-orale-hebreu`, `lire-sans-comprendre` | The listening/comprehension trio — one voice, one set of audio recommendations, all three French-sourced. | Opus 5, medium |
 | **E** | `erreurs-apprendre-hebreu`, `jeux-educatifs-langues`, `histoire-de-lapplication` | Register-heavy: satire (post 11) and first-person founder voice (post 12) are the hardest things to carry into French, and are worth least in search, so they go last. Post 13 must say `(en anglais)` on every `/play/**` link — the games are EN-only. | Opus 5, high |
 

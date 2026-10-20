@@ -150,7 +150,7 @@ export const fr: Dictionary = {
     resourcesTitle: 'Ressources complémentaires',
     resourcesText: 'Consulte une référence quand tu en as besoin, ou change de rythme avec un jeu.',
     resources: [
-      { href: '/fr/blog/lettres-hebraiques/', label: "Guide de l'alphabet hébreu", tag: 'Référence des lettres', text: 'Garde à portée de main un tableau complet de l’alphabet, les noms des lettres et leurs formes finales.' },
+      { href: '/fr/blog/lettres-hebraiques/', label: 'Guide des lettres hébraïques', tag: 'Référence des lettres', text: 'Garde à portée de main un tableau complet de l’alphabet, les noms des lettres et leurs formes finales.' },
       { href: '/fr/blog/voyelles-hebreu/', label: 'Guide des voyelles et du nikoud', tag: 'Référence des voyelles', text: 'Découvre les signes qui t’aident à lire les sons voyelles en hébreu.' },
       { href: '/play/alef-bet-rush/', label: 'Alef Bet Rush', tag: 'Jeu de reconnaissance (en anglais)', text: 'Révise la reconnaissance des lettres hébraïques avec un jeu dans le navigateur.' },
       { href: '/play/hebrew-mahjong/', label: 'Hebrew Mahjong', tag: 'Jeu d’association (en anglais)', text: 'Familiarise-toi davantage avec la forme des lettres grâce à un jeu d’association.' },
@@ -214,8 +214,8 @@ export const fr: Dictionary = {
       heading: 'Un guide pour ta prochaine étape',
       lede: 'Consulte une lettre, planifie ta pratique, ou essaie un jeu rapide.',
       items: [
-        { href: '/fr/blog/lettres-hebraiques/', title: "Apprendre l'alphabet hébreu", description: "Garde à portée de main les formes des lettres, leurs noms, leurs sons et leurs formes finales." },
-        { href: '/blog/learn-hebrew-alphabet-7-days/', title: "Un plan en sept jours pour l'alphabet (en anglais)", description: "Donne un objectif à chaque jour, avec du temps pour pratiquer et revoir les lettres." },
+        { href: '/fr/blog/lettres-hebraiques/', title: 'Le guide des lettres hébraïques', description: "Garde à portée de main les formes des lettres, leurs noms, leurs sons et leurs formes finales." },
+        { href: '/fr/blog/apprendre-alphabet-hebreu-7-jours/', title: "Un plan en sept jours pour l'alphabet", description: "Donne un objectif à chaque jour, avec du temps pour pratiquer et revoir les lettres." },
         { href: '/fr/blog/voyelles-hebreu/', title: 'Lire les signes voyelles hébreux', description: 'Découvre comment le nikoud t’aide à prononcer tes premiers mots en hébreu.' },
         { href: '/play/', title: 'Jeux gratuits pour apprendre l’hébreu (en anglais)', description: 'Entraîne-toi à reconnaître les lettres et à retenir leur nom dans ton navigateur.' },
       ],

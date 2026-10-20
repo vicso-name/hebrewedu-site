@@ -12,7 +12,7 @@ translationKey: "meet-the-new-verb-directory"
 
 ## Les verbes hébreux sont durs. On a décidé de régler ça.
 
-Si tu as déjà essayé d'apprendre l'hébreu sérieusement, tu connais sûrement le moment précis où les choses deviennent intimidantes. Il arrive en général après l'alphabet et le vocabulaire de base — et [le nombre de mots hébreux dont tu as vraiment besoin](/blog/how-many-words-are-in-the-modern-hebrew-language/) (en anglais) avant que les verbes ne deviennent le vrai goulot d'étranglement est plus raisonnable que ce que la plupart des apprenants imaginent.
+Si tu as déjà essayé d'apprendre l'hébreu sérieusement, tu connais sûrement le moment précis où les choses deviennent intimidantes. Il arrive en général après l'alphabet et le vocabulaire de base — et [le nombre de mots hébreux dont tu as vraiment besoin](/fr/blog/combien-de-mots-hebreu/) avant que les verbes ne deviennent le vrai goulot d'étranglement est plus raisonnable que ce que la plupart des apprenants imaginent.
 
 Pas l'alphabet.
 Pas la lecture de droite à gauche.

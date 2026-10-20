@@ -42,7 +42,7 @@ La chose la plus utile à faire avant d'apprendre un seul mot hébreu, c'est de 
 
 Tout le vocabulaire ne se vaut pas. Les mots hébreux courants reviennent sans cesse dans la lecture et la conversation du quotidien. Les apprendre en premier te donne plus d'occasions de les reconnaître et de les pratiquer en contexte.
 
-Les paliers de vocabulaire [vers lesquels tu avances réellement à chaque étape de l'aisance en hébreu](/blog/how-many-words-are-in-the-modern-hebrew-language/) (en anglais) commencent par la fréquence, pas par l'exhaustivité.
+Les paliers de vocabulaire [vers lesquels tu avances réellement à chaque étape de l'aisance en hébreu](/fr/blog/combien-de-mots-hebreu/) commencent par la fréquence, pas par l'exhaustivité.
 
 Apprendre du vocabulaire rare avant le vocabulaire courant est l'une des façons les plus efficaces de rendre l'hébreu plus difficile qu'il ne l'est.
 
@@ -163,7 +163,7 @@ Certains jours, n'ajoute rien de nouveau et travaille plutôt sur les mots diffi
 Si tu veux une structure concrète :
 
 - **Quotidien (10 à 15 min) :** révision en répétition espacée des cartes existantes. Ajoute jusqu'à 5 à 10 nouveaux éléments utiles si les révisions restent gérables.
-- **3 fois par semaine (10 min) :** lis un court texte en hébreu (avec le nikoud si tu débutes), en suivant [une approche progressive de la lecture de l'hébreu](/blog/why-hebrew-without-vowels-looks-impossible-until-your-brain-adapts/) (en anglais). Note les mots inconnus, cherche-les en contexte, ajoute les plus utiles à ton deck avec une phrase complète.
+- **3 fois par semaine (10 min) :** lis un court texte en hébreu (avec le nikoud si tu débutes), en suivant [une approche progressive de la lecture de l'hébreu](/fr/blog/lire-hebreu-sans-voyelles/). Note les mots inconnus, cherche-les en contexte, ajoute les plus utiles à ton deck avec une phrase complète.
 - **Hebdomadaire (10 min) :** révise les familles de racines de la semaine précédente. Peux-tu générer des mots liés à partir des racines que tu as rencontrées ?
 
 Ça fait environ 110 à 145 minutes par semaine, selon la durée de tes sessions quotidiennes.
