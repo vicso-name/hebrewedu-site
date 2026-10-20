@@ -1,0 +1,447 @@
+{
+  "id": "zayin",
+  "sourceId": 7,
+  "order": 7,
+  "glyph": "ז",
+  "locale": "fr",
+  "title": "Zayin (ז) : lettre hébraïque, son et exemples",
+  "description": "Apprends la lettre hébraïque Zayin (ז) et son son [z], avec des mots comme זְבוּב (mouche) et זֶה (ceci), ainsi que des exercices interactifs.",
+  "status": "local-review-only",
+  "normalizationVersion": 1,
+  "provenance": {
+    "source": "https://api.hebrewedu.com/api/lessons/7/?lang=fr",
+    "responseDate": "2026-10-19T14:27:18.907Z",
+    "sha256": "fa2003b50b09891d1f738456083cc2d6ca6d378ddb021564e60d3fa9ac84d469"
+  },
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Affinage optionnel des exercices",
+      "detail": "Un distracteur de reconnaissance de lettre utilise des lettres (Resh, Noun) non encore introduites dans cette leçon. Le guidage pour débutants pourra être amélioré séparément de la synchronisation avec la source approuvée."
+    },
+    {
+      "id": "fr-typography",
+      "summary": "Espaces insécables avant la ponctuation et dans les guillemets français",
+      "detail": "La source brute FR utilise une espace normale autour des guillemets « » et avant « : »/« ; »/« ? » au lieu d'une espace insécable (StudyBlock.astro/Practice.astro corrigent cela au rendu via src/lib/fr-typography.mjs ; voir la revue éditoriale EN de Vav pour le même constat sur la source FR, docs/hebrew-alphabet-lesson-6-fr-editorial-review.md). Aucune contentOverride n'est nécessaire ici : le texte brut est republié tel quel et corrigé au rendu."
+    }
+  ],
+  "blocks": [
+    {
+      "id": "zayin-block-1",
+      "sourceIndex": 0,
+      "text": "Zayin (ז) : lettre hébraïque, son et exemples",
+      "reviewFlags": [],
+      "type": "MAIN_TITLE"
+    },
+    {
+      "id": "zayin-block-2",
+      "sourceIndex": 1,
+      "text": "Zayin (ז) est la septième lettre de l'alphabet hébreu. En hébreu moderne, elle représente le son [z], comme le « z » dans « zèbre » ou « zéro ».",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "zayin-block-3",
+      "sourceIndex": 2,
+      "text": "Mots à pratiquer :",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "zayin-block-4",
+      "sourceIndex": 3,
+      "text": "mouche",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "זְבוּב",
+      "transcription": "zvuv"
+    },
+    {
+      "id": "zayin-block-5",
+      "sourceIndex": 4,
+      "text": "Le mot זְבוּב signifie « mouche » et se prononce en une seule syllabe. La transcription zvuv se lit « zvouv » pour un francophone : [u] correspond au « ou » de « loup ». Le mot comporte quatre lettres : Zayin (ז), Beit (ב), Vav (ו) et Beit (ב). Ici, en hébreu moderne, le Shva sous la Zayin n'ajoute pas de voyelle : le mot commence par [zv]. Les deux Beit, sans Dagesh, donnent [v]. Le Vav avec Shourouk (וּ) donne [u].",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "zayin-block-6",
+      "sourceIndex": 5,
+      "text": "ceci / c'est",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "זֶה",
+      "transcription": "ze"
+    },
+    {
+      "id": "zayin-block-7",
+      "sourceIndex": 6,
+      "text": "Le mot זֶה [ze], à lire « zé » pour un francophone, signifie « ceci » ou, selon le contexte, « c'est ». Il est formé de deux lettres : Zayin (ז) et Hé (ה). Le Ségol sous la Zayin donne [e], comme le « é » dans « été ». Le Hé est muet dans ce mot.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "zayin-block-8",
+      "sourceIndex": 7,
+      "text": "c'est papa",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "זֶה אַבָּא",
+      "transcription": "ze aba"
+    },
+    {
+      "id": "zayin-block-9",
+      "sourceIndex": 8,
+      "text": "La phrase זֶה אַבָּא [ze a-ba] se lit approximativement « zé a-ba » et signifie « C'est papa ». Elle réunit deux mots : זֶה (« ceci ») et אַבָּא (« papa »).",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "zayin-block-10",
+      "sourceIndex": 9,
+      "text": "À retenir",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "zayin-block-11",
+      "sourceIndex": 10,
+      "text": "Tu connais maintenant Zayin, la septième lettre de l'alphabet hébreu. Tu as découvert deux nouveaux mots et une phrase qui l'utilisent. Place à la pratique pour bien la retenir !",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "zayin-exercise-1",
+      "sourceId": "1742223990039",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Trouve la lettre Zayin parmi les lettres hébraïques proposées.",
+      "explanation": "La lettre hébraïque Zayin (ז) est la septième de l'alphabet. Elle représente le son [z], comme dans « zèbre ».",
+      "options": [
+        {
+          "id": "zayin-exercise-1-option-1",
+          "label": "ז"
+        },
+        {
+          "id": "zayin-exercise-1-option-2",
+          "label": "ר"
+        },
+        {
+          "id": "zayin-exercise-1-option-3",
+          "label": "נ"
+        },
+        {
+          "id": "zayin-exercise-1-option-4",
+          "label": "וֹ"
+        }
+      ],
+      "correctOptionId": "zayin-exercise-1-option-1",
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    },
+    {
+      "id": "zayin-exercise-2",
+      "sourceId": "1742223990040",
+      "type": "TRUE_FALSE",
+      "prompt": "La lettre Zayin avec un Ségol (זֶ) produit-elle le son [ze] ?",
+      "explanation": "Le Ségol représente le son [e]. Combiné à la Zayin (זֶ), il donne [ze].",
+      "options": [
+        {
+          "id": "zayin-exercise-2-option-1",
+          "label": "True"
+        },
+        {
+          "id": "zayin-exercise-2-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "zayin-exercise-2-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "zayin-exercise-3",
+      "sourceId": "1742223990041",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Comment se prononce le mot hébreu « ceci » (זֶה) ?",
+      "explanation": "Le mot זֶה se lit [ze], soit « zé » pour un francophone. La Zayin avec Ségol donne [ze] ; le Hé final est muet dans ce mot.",
+      "options": [
+        {
+          "id": "zayin-exercise-3-option-1",
+          "label": "[zi]"
+        },
+        {
+          "id": "zayin-exercise-3-option-2",
+          "label": "[zu]"
+        },
+        {
+          "id": "zayin-exercise-3-option-3",
+          "label": "[za]"
+        },
+        {
+          "id": "zayin-exercise-3-option-4",
+          "label": "[ze]"
+        }
+      ],
+      "correctOptionId": "zayin-exercise-3-option-4",
+      "reviewFlags": []
+    },
+    {
+      "id": "zayin-exercise-4",
+      "sourceId": "1742223990042",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Comment se prononce la lettre Hé (הָ) avec un Kamats Gadol ?",
+      "explanation": "Le Kamats Gadol représente le son [a]. Combiné au Hé (הָ), il donne [ha].",
+      "options": [
+        {
+          "id": "zayin-exercise-4-option-1",
+          "label": "[ha]"
+        },
+        {
+          "id": "zayin-exercise-4-option-2",
+          "label": "[bo]"
+        },
+        {
+          "id": "zayin-exercise-4-option-3",
+          "label": "[ho]"
+        }
+      ],
+      "correctOptionId": "zayin-exercise-4-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "zayin-exercise-5",
+      "sourceId": "1742223990043",
+      "type": "TRUE_FALSE",
+      "prompt": "La lettre Zayin avec un Kamats Gadol (זָ) produit-elle le son [za] ?",
+      "explanation": "Le Kamats Gadol représente le son [a]. Combiné à la Zayin (זָ), il donne [za].",
+      "options": [
+        {
+          "id": "zayin-exercise-5-option-1",
+          "label": "True"
+        },
+        {
+          "id": "zayin-exercise-5-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "zayin-exercise-5-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "zayin-exercise-6",
+      "sourceId": "1742223990044",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Comment se prononce le Beit (ב) sans Dagesh, comme à la fin de זְבוּב ?",
+      "explanation": "Le Beit sans Dagesh donne [v], comme le son final de « rêve ». Avec un Dagesh (בּ), il donne [b].",
+      "options": [
+        {
+          "id": "zayin-exercise-6-option-1",
+          "label": "[v]"
+        },
+        {
+          "id": "zayin-exercise-6-option-2",
+          "label": "[b]"
+        },
+        {
+          "id": "zayin-exercise-6-option-3",
+          "label": "[m]"
+        },
+        {
+          "id": "zayin-exercise-6-option-4",
+          "label": "[d]"
+        }
+      ],
+      "correctOptionId": "zayin-exercise-6-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "zayin-exercise-7",
+      "sourceId": "1742223990045",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Comment se prononce le mot « זָהָב » ?",
+      "explanation": "Le mot זָהָב signifie « or » et se prononce en deux syllabes : [za-hav]. Zayin avec Kamats Gadol (זָ) donne [za], Hé avec Kamats Gadol (הָ) donne [ha], et le Beit final, sans Dagesh, donne [v]. Le [v] termine la deuxième syllabe.",
+      "options": [
+        {
+          "id": "zayin-exercise-7-option-1",
+          "label": "[za-hav]"
+        },
+        {
+          "id": "zayin-exercise-7-option-2",
+          "label": "[zo-huv]"
+        },
+        {
+          "id": "zayin-exercise-7-option-3",
+          "label": "[ze-hev]"
+        }
+      ],
+      "correctOptionId": "zayin-exercise-7-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "zayin-exercise-8",
+      "sourceId": "1742223990046",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Comment se prononce la lettre Beit sans Dagesh avec un Patah (בַ) ?",
+      "explanation": "Le Patah représente le son [a]. Combiné au Beit (בַ) sans Dagesh, il donne [va].",
+      "options": [
+        {
+          "id": "zayin-exercise-8-option-1",
+          "label": "[vi]"
+        },
+        {
+          "id": "zayin-exercise-8-option-2",
+          "label": "[vo]"
+        },
+        {
+          "id": "zayin-exercise-8-option-3",
+          "label": "[bu]"
+        },
+        {
+          "id": "zayin-exercise-8-option-4",
+          "label": "[va]"
+        }
+      ],
+      "correctOptionId": "zayin-exercise-8-option-4",
+      "reviewFlags": []
+    },
+    {
+      "id": "zayin-exercise-9",
+      "sourceId": "1742223990047",
+      "type": "TRUE_FALSE",
+      "prompt": "Le Vav avec un Holam Male (וֹ) produit-il le son [vi] ?",
+      "explanation": "Le Holam Male (וֹ) représente [o], comme dans « eau ». Cette forme ne produit pas [vi].",
+      "options": [
+        {
+          "id": "zayin-exercise-9-option-1",
+          "label": "True"
+        },
+        {
+          "id": "zayin-exercise-9-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "zayin-exercise-9-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "zayin-exercise-10",
+      "sourceId": "1742223990048",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Comment se prononce la lettre Guimel (גָ) avec un Kamats Gadol ?",
+      "explanation": "Le Kamats Gadol représente le son [a]. Combiné au Guimel (גָ), il donne [ga].",
+      "options": [
+        {
+          "id": "zayin-exercise-10-option-1",
+          "label": "[gi]"
+        },
+        {
+          "id": "zayin-exercise-10-option-2",
+          "label": "[go]"
+        },
+        {
+          "id": "zayin-exercise-10-option-3",
+          "label": "[gu]"
+        },
+        {
+          "id": "zayin-exercise-10-option-4",
+          "label": "[ga]"
+        }
+      ],
+      "correctOptionId": "zayin-exercise-10-option-4",
+      "reviewFlags": []
+    },
+    {
+      "id": "zayin-exercise-11",
+      "sourceId": "1742223990049",
+      "type": "TRUE_FALSE",
+      "prompt": "En hébreu moderne, Zayin (ז) produit-elle le son [ts] ?",
+      "explanation": "En hébreu moderne, Zayin (ז) représente [z], comme le « z » de « zèbre ». Elle ne représente pas [ts].",
+      "options": [
+        {
+          "id": "zayin-exercise-11-option-1",
+          "label": "True"
+        },
+        {
+          "id": "zayin-exercise-11-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "zayin-exercise-11-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "zayin-exercise-12",
+      "sourceId": "1742223990050",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Quel mot hébreu signifie « mouche » ?",
+      "explanation": "Le mot hébreu pour « mouche » est זְבוּב, transcrit zvuv. Pour un francophone, il se lit « zvouv », en une seule syllabe.",
+      "options": [
+        {
+          "id": "zayin-exercise-12-option-1",
+          "label": "זְבוּב"
+        },
+        {
+          "id": "zayin-exercise-12-option-2",
+          "label": "זֶה"
+        },
+        {
+          "id": "zayin-exercise-12-option-3",
+          "label": "אַבָּא"
+        }
+      ],
+      "correctOptionId": "zayin-exercise-12-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "zayin-exercise-13",
+      "sourceId": "1742223990051",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Quelle est la translittération correcte du mot hébreu זֶה ?",
+      "explanation": "Le mot זֶה se translittère « ze » et se prononce « zé » pour un francophone. Il signifie « ceci » ou, selon le contexte, « c'est ».",
+      "options": [
+        {
+          "id": "zayin-exercise-13-option-1",
+          "label": "[ze]"
+        },
+        {
+          "id": "zayin-exercise-13-option-2",
+          "label": "[zay]"
+        },
+        {
+          "id": "zayin-exercise-13-option-3",
+          "label": "[zayin]"
+        },
+        {
+          "id": "zayin-exercise-13-option-4",
+          "label": "[zoo]"
+        }
+      ],
+      "correctOptionId": "zayin-exercise-13-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "zayin-exercise-14",
+      "sourceId": "1742223990052",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Quelle phrase signifie « c'est papa » ?",
+      "explanation": "La phrase hébraïque זֶה אַבָּא [ze a-ba] signifie « C'est papa ». Pour un francophone, elle se lit approximativement « zé a-ba ».",
+      "options": [
+        {
+          "id": "zayin-exercise-14-option-1",
+          "label": "זֶה"
+        },
+        {
+          "id": "zayin-exercise-14-option-2",
+          "label": "זֶה אַבָּא"
+        },
+        {
+          "id": "zayin-exercise-14-option-3",
+          "label": "אַבָּא"
+        }
+      ],
+      "correctOptionId": "zayin-exercise-14-option-2",
+      "reviewFlags": []
+    }
+  ]
+}

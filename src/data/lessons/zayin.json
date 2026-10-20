@@ -1,0 +1,53 @@
+{
+  "slug": "zayin",
+  "title": "Zayin Hebrew Letter (ז): Sound & Words",
+  "description": "Learn the Hebrew letter Zayin (ז): its [z] sound, with example words like זְבוּב (fly) and זֶה (this), plus interactive practice.",
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Optional practice refinement",
+      "detail": "One letter-recognition distractor set uses letters (Resh, Nun) not introduced in this lesson. Beginner scaffolding can be improved separately from the approved source synchronization."
+    }
+  ],
+  "illustrations": {},
+  "blockFlags": {},
+  "exerciseFlags": {
+    "1": ["unintroduced-letters"]
+  },
+  "contentOverrides": {
+    "blocks": {
+      "0": "Zayin Hebrew Letter (ז): Sound, Words & Practice"
+    }
+  },
+  "stageMap": {
+    "theory": [0, 1],
+    "examples": [2, 3, 4, 5, 6, 7, 8, 9, 10]
+  },
+  "copy": {
+    "theory": {
+      "heading": "Meet Zayin",
+      "intro": "The seventh letter of the <a href=\"/blog/hebrew-alphabet-complete-guide/\">Hebrew alphabet</a>. Zayin makes a [z] sound, as in “zoo.”",
+      "objectivesHeading": "What you’ll learn",
+      "objectives": [
+        "Recognize Zayin: <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ז</bdi>.",
+        "Hear its [z] sound, as in “zoo.”",
+        "Read Zayin in real words like <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">זְבוּב</bdi> (fly)."
+      ],
+      "secondSectionHeading": "How Zayin sounds",
+      "thirdSectionHeading": "Words to practice"
+    },
+    "examples": {
+      "heading": "Zayin in real words",
+      "intro": "See Zayin in two new Hebrew words and a phrase, and review the Segol, Shuruk, Patah and Kamatz Gadol vowel marks from earlier letters."
+    }
+  },
+  "holdOuts": {
+    "blocks": [],
+    "exercises": []
+  },
+  "source": {
+    "rawSnapshotPath": ".local/alphabet-course-imports/v1/2026-10-19T14-27-01-990Z-cc446f/raw/lesson-7.raw.json",
+    "sha256": "3d5c6d89505da34302a33b4effe86bd95e178651fdeb3627761d5849cf474b2a",
+    "responseDate": "2026-10-19T14:27:06.399Z"
+  }
+}

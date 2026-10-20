@@ -1,0 +1,442 @@
+{
+  "id": "zayin",
+  "sourceId": 7,
+  "order": 7,
+  "glyph": "ז",
+  "locale": "en",
+  "title": "Zayin Hebrew Letter (ז): Sound & Words",
+  "description": "Learn the Hebrew letter Zayin (ז): its [z] sound, with example words like זְבוּב (fly) and זֶה (this), plus interactive practice.",
+  "status": "local-review-only",
+  "normalizationVersion": 1,
+  "provenance": {
+    "source": "https://api.hebrewedu.com/api/lessons/7/?lang=en",
+    "responseDate": "2026-10-19T14:27:06.399Z",
+    "sha256": "3d5c6d89505da34302a33b4effe86bd95e178651fdeb3627761d5849cf474b2a"
+  },
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Optional practice refinement",
+      "detail": "One letter-recognition distractor set uses letters (Resh, Nun) not introduced in this lesson. Beginner scaffolding can be improved separately from the approved source synchronization."
+    }
+  ],
+  "blocks": [
+    {
+      "id": "zayin-block-1",
+      "sourceIndex": 0,
+      "text": "Zayin Hebrew Letter (ז): Sound, Words & Practice",
+      "reviewFlags": [],
+      "type": "MAIN_TITLE"
+    },
+    {
+      "id": "zayin-block-2",
+      "sourceIndex": 1,
+      "text": "Zayin (ז) is the seventh letter of the Hebrew alphabet. Its name is pronounced 'zayin.' In modern Hebrew, the letter represents [z], like the 'z' in the English word 'zoo.'",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "zayin-block-3",
+      "sourceIndex": 2,
+      "text": "Words to Practice:",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "zayin-block-4",
+      "sourceIndex": 3,
+      "text": "fly (insect)",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "זְבוּב",
+      "transcription": "zvuv"
+    },
+    {
+      "id": "zayin-block-5",
+      "sourceIndex": 4,
+      "text": "The Hebrew word זְבוּב [zvuv] means 'fly' (the insect) and has one syllable. It has four letters: Zayin (ז), Bet (ב), Vav (ו), and Bet (ב) again. In modern Hebrew, the initial Sheva is not pronounced as a separate vowel here, so the word begins [zv]. Both Bet letters have no Dagesh and represent [v]. Vav with Shuruk (וּ) supplies the vowel [u].",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "zayin-block-6",
+      "sourceIndex": 5,
+      "text": "this/this is",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "זֶה",
+      "transcription": "ze"
+    },
+    {
+      "id": "zayin-block-7",
+      "sourceIndex": 6,
+      "text": "The Hebrew word (זֶה) [ze], which translates to 'this' or 'this is' in English, consists of only two distinct letters: Zayin (ז) and Hey (ה). A Segol beneath the Zayin produces the [e] sound. The letter Hey has no vowel and, in this case, is silent at the end of the word.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "zayin-block-8",
+      "sourceIndex": 7,
+      "text": "This is Dad.",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "זֶה אַבָּא",
+      "transcription": "ze aba"
+    },
+    {
+      "id": "zayin-block-9",
+      "sourceIndex": 8,
+      "text": "The Hebrew phrase זֶה אַבָּא [ze a-ba] consists of two familiar words: זֶה ('this') and אַבָּא ('dad' or 'father'). Together, they mean 'This is Dad.'",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "zayin-block-10",
+      "sourceIndex": 9,
+      "text": "Conclusions",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "zayin-block-11",
+      "sourceIndex": 10,
+      "text": "You've learned the seventh letter of the Hebrew alphabet, Zayin. We've learned two new words and a phrase that use Zayin. Now, let's practice to really remember it.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "zayin-exercise-1",
+      "sourceId": "1742223990039",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Find the letter 'Zayin' among the given Hebrew letters.",
+      "explanation": "The Hebrew letter Zayin (ז) is the seventh letter of the Hebrew alphabet. It represents the [z] sound, like in the English word 'zebra.'",
+      "options": [
+        {
+          "id": "zayin-exercise-1-option-1",
+          "label": "ז"
+        },
+        {
+          "id": "zayin-exercise-1-option-2",
+          "label": "ר"
+        },
+        {
+          "id": "zayin-exercise-1-option-3",
+          "label": "נ"
+        },
+        {
+          "id": "zayin-exercise-1-option-4",
+          "label": "וֹ"
+        }
+      ],
+      "correctOptionId": "zayin-exercise-1-option-1",
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    },
+    {
+      "id": "zayin-exercise-2",
+      "sourceId": "1742223990040",
+      "type": "TRUE_FALSE",
+      "prompt": "Does the letter Zayin (זֶ) marked with Segol produce the [ze] sound?",
+      "explanation": "Segol represents the [e] sound, and when combined with Zayin (זֶ), it produces [ze].",
+      "options": [
+        {
+          "id": "zayin-exercise-2-option-1",
+          "label": "True"
+        },
+        {
+          "id": "zayin-exercise-2-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "zayin-exercise-2-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "zayin-exercise-3",
+      "sourceId": "1742223990041",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "How do you pronounce the Hebrew word for 'this' (זֶה)?",
+      "explanation": "The Hebrew word 'זֶה' consists of Zayin (ז) with Segol, producing [ze], and Hey (ה), which is silent in this case. Together, they form [ze].",
+      "options": [
+        {
+          "id": "zayin-exercise-3-option-1",
+          "label": "[zi]"
+        },
+        {
+          "id": "zayin-exercise-3-option-2",
+          "label": "[zu]"
+        },
+        {
+          "id": "zayin-exercise-3-option-3",
+          "label": "[za]"
+        },
+        {
+          "id": "zayin-exercise-3-option-4",
+          "label": "[ze]"
+        }
+      ],
+      "correctOptionId": "zayin-exercise-3-option-4",
+      "reviewFlags": []
+    },
+    {
+      "id": "zayin-exercise-4",
+      "sourceId": "1742223990042",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "How do you pronounce the letter Hey (הָ) when marked with Kamatz Gadol?",
+      "explanation": "Kamatz Gadol represents [a] in modern Hebrew. When combined with Hey (הָ), it produces [ha].",
+      "options": [
+        {
+          "id": "zayin-exercise-4-option-1",
+          "label": "[ha]"
+        },
+        {
+          "id": "zayin-exercise-4-option-2",
+          "label": "[bo]"
+        },
+        {
+          "id": "zayin-exercise-4-option-3",
+          "label": "[ho]"
+        }
+      ],
+      "correctOptionId": "zayin-exercise-4-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "zayin-exercise-5",
+      "sourceId": "1742223990043",
+      "type": "TRUE_FALSE",
+      "prompt": "Does the letter Zayin (זָ) marked with Kamatz Gadol produce the [za] sound?",
+      "explanation": "Kamatz Gadol represents the [a] sound. When combined with Zayin (זָ), it produces [za].",
+      "options": [
+        {
+          "id": "zayin-exercise-5-option-1",
+          "label": "True"
+        },
+        {
+          "id": "zayin-exercise-5-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "zayin-exercise-5-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "zayin-exercise-6",
+      "sourceId": "1742223990044",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "How is Bet (ב) without Dagesh pronounced, as at the end of זְבוּב?",
+      "explanation": "Bet without Dagesh represents [v], like the final sound in 'love.' Bet with Dagesh (בּ) represents [b].",
+      "options": [
+        {
+          "id": "zayin-exercise-6-option-1",
+          "label": "[v]"
+        },
+        {
+          "id": "zayin-exercise-6-option-2",
+          "label": "[b]"
+        },
+        {
+          "id": "zayin-exercise-6-option-3",
+          "label": "[m]"
+        },
+        {
+          "id": "zayin-exercise-6-option-4",
+          "label": "[d]"
+        }
+      ],
+      "correctOptionId": "zayin-exercise-6-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "zayin-exercise-7",
+      "sourceId": "1742223990045",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "How is the word 'זָהָב' pronounced?",
+      "explanation": "The word זָהָב means 'gold' and has two syllables: [za-hav]. Zayin with Kamatz Gadol (זָ) produces [za], Hey with Kamatz Gadol (הָ) produces [ha], and the final Bet without Dagesh represents [v]. The final [v] closes the second syllable.",
+      "options": [
+        {
+          "id": "zayin-exercise-7-option-1",
+          "label": "[za-hav]"
+        },
+        {
+          "id": "zayin-exercise-7-option-2",
+          "label": "[zo-huv]"
+        },
+        {
+          "id": "zayin-exercise-7-option-3",
+          "label": "[ze-hev]"
+        }
+      ],
+      "correctOptionId": "zayin-exercise-7-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "zayin-exercise-8",
+      "sourceId": "1742223990046",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "How is the letter Bet (בַ) without Dagesh and marked with Patah pronounced?",
+      "explanation": "Patah represents [a] in modern Hebrew. When combined with Bet (בַ) without Dagesh, it produces [va].",
+      "options": [
+        {
+          "id": "zayin-exercise-8-option-1",
+          "label": "[vi]"
+        },
+        {
+          "id": "zayin-exercise-8-option-2",
+          "label": "[vo]"
+        },
+        {
+          "id": "zayin-exercise-8-option-3",
+          "label": "[bu]"
+        },
+        {
+          "id": "zayin-exercise-8-option-4",
+          "label": "[va]"
+        }
+      ],
+      "correctOptionId": "zayin-exercise-8-option-4",
+      "reviewFlags": []
+    },
+    {
+      "id": "zayin-exercise-9",
+      "sourceId": "1742223990047",
+      "type": "TRUE_FALSE",
+      "prompt": "Does Vav (וֹ) with Holam Male produce the [vi] sound?",
+      "explanation": "Holam Male (וֹ) represents [o]. Keep the vowel steady; the English vowel in 'goat' is only an approximation. This form does not produce [vi].",
+      "options": [
+        {
+          "id": "zayin-exercise-9-option-1",
+          "label": "True"
+        },
+        {
+          "id": "zayin-exercise-9-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "zayin-exercise-9-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "zayin-exercise-10",
+      "sourceId": "1742223990048",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "How is the letter Gimel (גָ) pronounced when marked with Kamatz Gadol?",
+      "explanation": "Kamatz Gadol represents the [a] sound. When combined with Gimel (גָ), it produces [ga].",
+      "options": [
+        {
+          "id": "zayin-exercise-10-option-1",
+          "label": "[gi]"
+        },
+        {
+          "id": "zayin-exercise-10-option-2",
+          "label": "[go]"
+        },
+        {
+          "id": "zayin-exercise-10-option-3",
+          "label": "[gu]"
+        },
+        {
+          "id": "zayin-exercise-10-option-4",
+          "label": "[ga]"
+        }
+      ],
+      "correctOptionId": "zayin-exercise-10-option-4",
+      "reviewFlags": []
+    },
+    {
+      "id": "zayin-exercise-11",
+      "sourceId": "1742223990049",
+      "type": "TRUE_FALSE",
+      "prompt": "In modern Hebrew, does Zayin (ז) represent the [ts] sound?",
+      "explanation": "In modern Hebrew, Zayin (ז) represents [z], like the 'z' in 'zoo.' It does not represent [ts].",
+      "options": [
+        {
+          "id": "zayin-exercise-11-option-1",
+          "label": "True"
+        },
+        {
+          "id": "zayin-exercise-11-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "zayin-exercise-11-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "zayin-exercise-12",
+      "sourceId": "1742223990050",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Which Hebrew word means 'fly' (the insect)?",
+      "explanation": "The Hebrew word for 'fly' (the insect) is זְבוּב [zvuv]. It has one syllable.",
+      "options": [
+        {
+          "id": "zayin-exercise-12-option-1",
+          "label": "זְבוּב"
+        },
+        {
+          "id": "zayin-exercise-12-option-2",
+          "label": "זֶה"
+        },
+        {
+          "id": "zayin-exercise-12-option-3",
+          "label": "אַבָּא"
+        }
+      ],
+      "correctOptionId": "zayin-exercise-12-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "zayin-exercise-13",
+      "sourceId": "1742223990051",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "What is the correct transliteration of the Hebrew word זֶה?",
+      "explanation": "The word זֶה is transliterated as 'ze,' meaning 'this' or 'this is.'",
+      "options": [
+        {
+          "id": "zayin-exercise-13-option-1",
+          "label": "[ze]"
+        },
+        {
+          "id": "zayin-exercise-13-option-2",
+          "label": "[zay]"
+        },
+        {
+          "id": "zayin-exercise-13-option-3",
+          "label": "[zayin]"
+        },
+        {
+          "id": "zayin-exercise-13-option-4",
+          "label": "[zoo]"
+        }
+      ],
+      "correctOptionId": "zayin-exercise-13-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "zayin-exercise-14",
+      "sourceId": "1742223990052",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Which Hebrew phrase means 'This is Dad'?",
+      "explanation": "The Hebrew phrase זֶה אַבָּא [ze a-ba] means 'This is Dad.'",
+      "options": [
+        {
+          "id": "zayin-exercise-14-option-1",
+          "label": "זֶה"
+        },
+        {
+          "id": "zayin-exercise-14-option-2",
+          "label": "זֶה אַבָּא"
+        },
+        {
+          "id": "zayin-exercise-14-option-3",
+          "label": "אַבָּא"
+        }
+      ],
+      "correctOptionId": "zayin-exercise-14-option-2",
+      "reviewFlags": []
+    }
+  ]
+}
