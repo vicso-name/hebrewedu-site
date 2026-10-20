@@ -1,5 +1,9 @@
 ---
+import { Image } from 'astro:assets';
 import StoreButtons from './StoreButtons.astro';
+// The app icon, same artwork as public/favicon.png — the copy here is what lets
+// Astro's image pipeline emit it at the size this modal actually displays.
+import appIcon from '../../assets/app-icon.png';
 import { getDictionary, type Locale } from '../../i18n';
 
 interface Props {
@@ -22,7 +26,18 @@ const t = getDictionary(locale).appPromo;
       </svg>
     </button>
 
-    <span class="app-promo-glyph" aria-hidden="true">א</span>
+    {/* Decorative: the eyebrow and heading below already name the app. */}
+    <Image
+      src={appIcon}
+      alt=""
+      aria-hidden="true"
+      class="app-promo-logo"
+      width={60}
+      height={60}
+      densities={[1, 2]}
+      loading="lazy"
+      decoding="async"
+    />
     <p class="eyebrow">{t.eyebrow}</p>
     <h2 id="app-promo-title" class="app-promo-title">{t.title}</h2>
     <p class="app-promo-lead">{t.lead}</p>
@@ -90,18 +105,11 @@ const t = getDictionary(locale).appPromo;
 }
 .app-promo-close:hover { color: var(--ink); background: var(--surface-soft); }
 
-.app-promo-glyph {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 3.25rem;
-  height: 3.25rem;
-  font-family: var(--font-hebrew);
-  font-size: 1.75rem;
-  line-height: 1;
-  color: var(--brand-dark);
-  background: var(--brand-light);
-  border-radius: var(--r-lg);
+/* The icon's own artwork is a rounded square on transparency — it needs no
+   tile, radius or border behind it. */
+.app-promo-logo {
+  width: 60px;
+  height: auto;
 }
 
 .app-promo-title {
