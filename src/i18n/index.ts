@@ -255,6 +255,19 @@ export interface Dictionary {
     faq: { title: string; items: { q: string; a: string }[] };
     downloadCta: { heading: string; lead: string };
   };
+  /** The app-download modal (`AppPromoModal.astro`), shown once per session on
+   *  content pages. Which routes it appears on and how often is policy, not
+   *  copy — that lives in `src/lib/app-promo.mjs` (docs/APP_PROMO.md). */
+  appPromo: {
+    eyebrow: string;
+    title: string;
+    lead: string;
+    points: [string, string, string];
+    /** Dismiss action, worded as a deferral rather than a refusal. */
+    later: string;
+    /** aria-label on the icon close button. */
+    close: string;
+  };
   /** PhraseCard.astro's "Said by/to" row and gender-variant toggle — the only
    *  phrases-page chrome that needs a locale-aware accessible label, since EN's
    *  axis-agnostic "Man"/"Woman" doesn't fit FR (tu/vous and speaker/addressee

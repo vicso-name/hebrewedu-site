@@ -23,6 +23,13 @@ One container, one section rhythm, one spacing scale — applied to every page's
 ## Shared header, footer and page background
 
 - `Nav.astro` and `Footer.astro` are rendered as-is on every page. A page may set the documented theming hooks (`--nav-bg`, `--nav-border`, `--nav-link-hover-bg`) to the site's standard values — `--nav-bg: rgba(255, 255, 255, 0.9)` and `--nav-border` pointing at that page's border token — the same way `home.css`, `blog.css`, `legal.css` and `alphabet-course.css` already do. A page must never redeclare `Nav`'s own selectors (`.nav-inner`, `.nav-links`, `.nav-logo`, …) to change their background, border, height or padding — that makes one page's header a different shape from every other page's.
+- `Layout.astro` also owns the two page-level overlays — the consent banner
+  (`ConsentBanner.astro`, `docs/ANALYTICS.md`) and the app-download modal
+  (`AppPromoModal.astro`, `docs/APP_PROMO.md`). A page never renders its own
+  popup, lightbox or install banner; it opts out of the modal with
+  `appPromo={false}`, or the route policy in `src/lib/app-promo.mjs` is
+  changed. Both are in the top layer / fixed, so neither needs a page to
+  manage `z-index`, and neither may scroll-lock `html`/`body`.
 - The page background is the one white surface shared by every page (e.g. `background: var(--white)` on the page's root class). A page must not leave its root background unset and rely on `body`'s `--bg` token, and must not pick a different background color than the rest of the site.
 
 ## What changed in this pass

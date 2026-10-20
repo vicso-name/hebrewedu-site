@@ -261,6 +261,18 @@ export const fr: Dictionary = {
       lead: "Commence par l'alphabet et construis la suite à partir de là.",
     },
   },
+  appPromo: {
+    eyebrow: 'Application HebrewEdu',
+    title: "Emporte l'hébreu avec toi",
+    lead: "Transforme ta lecture en pratique : des leçons guidées, des exercices et de la lecture pour débutants, sur iPhone et Android.",
+    points: [
+      "L'alphabet et le nikoud expliqués clairement dès le départ",
+      'Des exercices après chaque leçon',
+      'De la lecture pour débutants avec audio et traduction',
+    ],
+    later: 'Plus tard',
+    close: 'Fermer',
+  },
   phrases: {
     saidBy: 'Dit par',
     saidTo: 'Dit à',
