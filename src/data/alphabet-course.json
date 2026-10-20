@@ -153,18 +153,18 @@
       "slug": "zayin",
       "name": "Zayin",
       "sourceImported": true,
-      "webImplemented": false,
-      "previewAvailable": false,
-      "editorialApproved": false,
-      "published": false,
-      "publishedAt": null,
+      "webImplemented": true,
+      "previewAvailable": true,
+      "editorialApproved": true,
+      "published": true,
+      "publishedAt": "2026-10-20",
       "locales": {
         "fr": {
-          "webImplemented": false,
-          "previewAvailable": false,
-          "editorialApproved": false,
-          "published": false,
-          "publishedAt": null,
+          "webImplemented": true,
+          "previewAvailable": true,
+          "editorialApproved": true,
+          "published": true,
+          "publishedAt": "2026-10-20",
           "backfill": false
         }
       }

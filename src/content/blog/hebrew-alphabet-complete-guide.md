@@ -142,6 +142,10 @@ Vav (ו) is doubly useful: as a consonant it makes the [v] sound, but it also st
 
 → [Practice Vav in the Hebrew Alphabet Course](/learn/hebrew-alphabet/vav/)
 
+Zayin (ז) is one of the more straightforward letters: it consistently represents the [z] sound, as in the English word "zebra," with no alternate pronunciation to track.
+
+→ [Practice Zayin in the Hebrew Alphabet Course](/learn/hebrew-alphabet/zayin/)
+
 ## The Five Final Letters
 
 Five Hebrew letters have a different written form when they appear at the **end of a word**. These are called *sofit* forms (סופית — “final”). The shape change is different for each pair.

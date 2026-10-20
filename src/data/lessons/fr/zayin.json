@@ -1,0 +1,74 @@
+{
+  "slug": "zayin",
+  "title": "Zayin (ז) : lettre hébraïque, son et exemples",
+  "description": "Apprends la lettre hébraïque Zayin (ז) et son son [z], avec des mots comme זְבוּב (mouche) et זֶה (ceci), ainsi que des exercices interactifs.",
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Affinage optionnel des exercices",
+      "detail": "Un distracteur de reconnaissance de lettre utilise des lettres (Resh, Noun) non encore introduites dans cette leçon. Le guidage pour débutants pourra être amélioré séparément de la synchronisation avec la source approuvée."
+    },
+    {
+      "id": "fr-typography",
+      "summary": "Espaces insécables avant la ponctuation et dans les guillemets français",
+      "detail": "La source brute FR utilise une espace normale autour des guillemets « » et avant « : »/« ; »/« ? » au lieu d'une espace insécable (StudyBlock.astro/Practice.astro corrigent cela au rendu via src/lib/fr-typography.mjs ; voir la revue éditoriale EN de Vav pour le même constat sur la source FR, docs/hebrew-alphabet-lesson-6-fr-editorial-review.md). Aucune contentOverride n'est nécessaire ici : le texte brut est republié tel quel et corrigé au rendu."
+    }
+  ],
+  "illustrations": {},
+  "blockFlags": {},
+  "exerciseFlags": {
+    "1": [
+      "unintroduced-letters"
+    ]
+  },
+  "contentOverrides": {
+    "blocks": {
+      "0": "Zayin (ז) : lettre hébraïque, son et exemples",
+      "9": "À retenir"
+    }
+  },
+  "stageMap": {
+    "theory": [
+      0,
+      1
+    ],
+    "examples": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "copy": {
+    "theory": {
+      "heading": "Découvre Zayin",
+      "intro": "La septième lettre de l'alphabet hébreu. Zayin produit le son [z], comme dans « zèbre ».",
+      "objectivesHeading": "Ce que tu vas apprendre",
+      "objectives": [
+        "Reconnaître Zayin : <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ז</bdi>.",
+        "Entendre son son [z], comme dans « zèbre ».",
+        "Lire Zayin dans de vrais mots comme <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">זְבוּב</bdi> (mouche)."
+      ],
+      "secondSectionHeading": "Comment se prononce Zayin",
+      "thirdSectionHeading": "Mots à pratiquer"
+    },
+    "examples": {
+      "heading": "Zayin dans de vrais mots",
+      "intro": "Découvre Zayin dans deux nouveaux mots hébreux et une phrase, et révise les signes vocaliques Ségol, Shourouk, Patah et Kamats Gadol vus avec les lettres précédentes."
+    }
+  },
+  "holdOuts": {
+    "blocks": [],
+    "exercises": []
+  },
+  "source": {
+    "rawSnapshotPath": ".local/alphabet-course-imports/v1/2026-10-19T14-27-18-905Z-bdf614-fr/raw/lesson-7.raw.json",
+    "sha256": "fa2003b50b09891d1f738456083cc2d6ca6d378ddb021564e60d3fa9ac84d469",
+    "responseDate": "2026-10-19T14:27:18.907Z"
+  }
+}
