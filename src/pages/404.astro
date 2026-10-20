@@ -58,6 +58,24 @@ const suggestions = [
 </Layout>
 
 <style>
+/* The copy on this page is short, so without this the footer rides up under
+   it instead of sitting on the bottom edge of the viewport. Layout.astro owns
+   .error-page and <main> (the pageClass path), hence :global — the selectors
+   are still scoped to this page's own class, the same way home.css scopes
+   .home-page. 100dvh, not 100vh, so mobile browser chrome doesn't push the
+   footer out of view (same unit Nav.astro uses for the mobile menu). */
+:global(.error-page) {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
+:global(.error-page main) {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+:global(.error-page main > section) { width: 100%; }
+
 .error-inner {
   display: flex;
   flex-direction: column;
