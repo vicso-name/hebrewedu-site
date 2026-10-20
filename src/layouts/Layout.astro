@@ -5,6 +5,8 @@ import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
 import AnalyticsHead from '../components/AnalyticsHead.astro';
 import ConsentBanner from '../components/ConsentBanner.astro';
+import AppPromoModal from '../components/ui/AppPromoModal.astro';
+import { appPromoEnabled } from '../lib/app-promo.mjs';
 import { getDictionary, type Locale } from '../i18n';
 
 // GA is production-only — never wired up in `astro dev`. See docs/ANALYTICS.md.
@@ -39,6 +41,10 @@ interface Props {
   alternates?: Alternate[];
   /** Forwarded to Nav (pageClass path only); unset reproduces every existing pageClass page's output exactly. */
   langSwitch?: { href: string };
+  /** Opt a single page out of the app-download modal. Which routes carry it is
+   *  route policy (src/lib/app-promo.mjs, docs/APP_PROMO.md); this is the
+   *  per-page escape hatch, not the place to add a new rule. */
+  appPromo?: boolean;
 }
 
 const {
@@ -54,9 +60,12 @@ const {
   locale = 'en',
   alternates,
   langSwitch,
+  appPromo,
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+
+const showAppPromo = (appPromo ?? true) && appPromoEnabled(Astro.url.pathname);
 
 ---
 
@@ -115,6 +124,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
       <Footer locale={locale} />
     </div> : <slot />}
     {analyticsEnabled && <ConsentBanner locale={locale} />}
+    {showAppPromo && <AppPromoModal locale={locale} />}
   </body>
 </html>
 

@@ -1,0 +1,329 @@
+---
+import { Image } from 'astro:assets';
+import StoreButtons from './StoreButtons.astro';
+// The app icon, same artwork as public/favicon.png — the copy here is what lets
+// Astro's image pipeline emit it at the size this modal actually displays.
+import appIcon from '../../assets/app-icon.png';
+import { getDictionary, type Locale } from '../../i18n';
+
+interface Props {
+  locale?: Locale;
+}
+const { locale = 'en' } = Astro.props;
+const t = getDictionary(locale).appPromo;
+---
+
+{/* App-download CTA. Mounted by Layout.astro on content pages only
+    (src/lib/app-promo.mjs decides which) and opened by the client script below
+    once the visitor is engaged — never on arrival. A native <dialog> is closed
+    until `showModal()`, so with JS off nothing renders and nothing is
+    announced. See docs/APP_PROMO.md. */}
+<dialog id="app-promo" class="app-promo" aria-labelledby="app-promo-title">
+  <div class="app-promo-inner" tabindex="-1" autofocus>
+    <button type="button" class="app-promo-close" data-app-promo-dismiss="close" aria-label={t.close}>
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+        <path d="M6 6l12 12M18 6L6 18" />
+      </svg>
+    </button>
+
+    {/* Decorative: the eyebrow and heading below already name the app. */}
+    <Image
+      src={appIcon}
+      alt=""
+      aria-hidden="true"
+      class="app-promo-logo"
+      width={60}
+      height={60}
+      densities={[1, 2]}
+      loading="lazy"
+      decoding="async"
+    />
+    <p class="eyebrow">{t.eyebrow}</p>
+    <h2 id="app-promo-title" class="app-promo-title">{t.title}</h2>
+    <p class="app-promo-lead">{t.lead}</p>
+
+    <ul class="app-promo-points" role="list">
+      {t.points.map(point => (
+        <li>
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M20 6L9 17l-5-5" />
+          </svg>
+          <span>{point}</span>
+        </li>
+      ))}
+    </ul>
+
+    <StoreButtons location="app_promo_modal" locale={locale} height={48} />
+
+    <button type="button" class="app-promo-later" data-app-promo-dismiss="later">{t.later}</button>
+  </div>
+</dialog>
+
+<style>
+.app-promo {
+  margin: auto;
+  width: min(100% - var(--space-md), 30rem);
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: var(--r-xl);
+  background: var(--white);
+  color: var(--ink);
+  box-shadow: var(--shadow-lg);
+}
+.app-promo::backdrop {
+  background: rgba(31, 41, 55, 0.4);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+}
+
+.app-promo-inner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-xs-plus);
+  padding: var(--space-lg) var(--space-md) var(--space-md);
+  text-align: center;
+}
+.app-promo-inner:focus { outline: none; }
+
+.app-promo-close {
+  position: absolute;
+  top: var(--space-xs);
+  inset-inline-end: var(--space-xs);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  color: var(--ink-light);
+  background: none;
+  border: none;
+  border-radius: var(--r-full);
+  cursor: pointer;
+  transition: color 0.15s, background 0.15s;
+}
+.app-promo-close:hover { color: var(--ink); background: var(--surface-soft); }
+
+/* The icon's own artwork is a rounded square on transparency — it needs no
+   tile, radius or border behind it. */
+.app-promo-logo {
+  width: 60px;
+  height: auto;
+}
+
+.app-promo-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.375rem, 4vw, 1.625rem);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+.app-promo-lead {
+  max-width: 26rem;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: var(--ink-light);
+}
+
+.app-promo-points {
+  display: inline-flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  margin-block: var(--space-2xs);
+  list-style: none;
+  text-align: start;
+}
+.app-promo-points li {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-xs);
+  font-size: 0.9375rem;
+  line-height: 1.45;
+  color: var(--ink-mid);
+}
+.app-promo-points svg {
+  flex-shrink: 0;
+  margin-block-start: 0.2em;
+  color: var(--emerald);
+}
+
+/* Positioning a child component's own block, the way CtaPanel does. */
+.app-promo-inner :global(.store-buttons) {
+  justify-content: center;
+  margin-block-start: var(--space-xs);
+}
+
+.app-promo-later {
+  font: inherit;
+  font-size: 0.875rem;
+  padding: var(--space-2xs) var(--space-xs);
+  color: var(--ink-light);
+  background: none;
+  border: none;
+  border-radius: var(--r-sm);
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.15s;
+}
+.app-promo-later:hover { color: var(--ink); }
+
+.app-promo-close:focus-visible,
+.app-promo-later:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+}
+
+/* Entrance. The dialog is in the top layer, so there is no z-index to manage. */
+@keyframes app-promo-rise {
+  from { opacity: 0; transform: translateY(12px) scale(0.98); }
+  to   { opacity: 1; transform: none; }
+}
+@keyframes app-promo-fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes app-promo-sheet {
+  from { opacity: 0; transform: translateY(100%); }
+  to   { opacity: 1; transform: none; }
+}
+
+.app-promo[open] { animation: app-promo-rise 0.28s ease-out both; }
+.app-promo[open]::backdrop { animation: app-promo-fade 0.28s ease-out both; }
+
+/* Phones: a bottom sheet reaches the thumb and leaves the page visible above it. */
+@media (max-width: 480px) {
+  .app-promo {
+    width: 100%;
+    margin: auto auto 0;
+    border-inline-width: 0;
+    border-block-end-width: 0;
+    border-start-start-radius: var(--r-xl);
+    border-start-end-radius: var(--r-xl);
+    border-end-start-radius: 0;
+    border-end-end-radius: 0;
+  }
+  .app-promo[open] { animation-name: app-promo-sheet; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .app-promo[open],
+  .app-promo[open]::backdrop { animation: none; }
+}
+</style>
+
+<script>
+import { track } from '../../lib/analytics';
+import { APP_PROMO } from '../../lib/app-promo.mjs';
+
+const dialog = document.getElementById('app-promo') as HTMLDialogElement | null;
+
+if (dialog) {
+  const started = Date.now();
+  const elapsed = () => Date.now() - started;
+  let armed = true;
+  /** Trigger held back because the tab was in the background. */
+  let pending: string | null = null;
+  /** Why the dialog closed, read by the one `close` listener below. */
+  let closeReason = 'dismiss';
+  let dwellTimer = 0;
+  let scrollTimer = 0;
+
+  /** Storage is the frequency cap; when it's unavailable, fail closed rather
+   *  than show the modal on every page view. */
+  function suppressed(): boolean {
+    try {
+      if (sessionStorage.getItem(APP_PROMO.sessionKey)) return true;
+      return Date.now() < Number(localStorage.getItem(APP_PROMO.snoozeKey) ?? 0);
+    } catch {
+      return true;
+    }
+  }
+
+  function snooze(days: number) {
+    try {
+      localStorage.setItem(APP_PROMO.snoozeKey, String(Date.now() + days * 86_400_000));
+    } catch {
+      /* private mode / storage disabled — the session guard still applies */
+    }
+  }
+
+  /** One overlay at a time: the consent banner (ConsentBanner.astro) asks first. */
+  const consentBannerOpen = () => document.getElementById('consent-banner')?.hidden === false;
+
+  function maybeOpen(trigger: string) {
+    // Never interrupt someone who has only just arrived.
+    if (!armed || elapsed() < APP_PROMO.minDwellMs || suppressed() || consentBannerOpen()) return;
+    // Don't spend the one showing on a backgrounded tab; retry when it's looked at.
+    if (document.hidden) { pending = trigger; return; }
+
+    armed = false;
+    stopTriggers();
+    try { sessionStorage.setItem(APP_PROMO.sessionKey, '1'); } catch { /* see suppressed() */ }
+    dialog.showModal();
+    track('app_promo_shown', { trigger, source_path: location.pathname });
+  }
+
+  function stopTriggers() {
+    clearTimeout(dwellTimer);
+    clearTimeout(scrollTimer);
+    window.removeEventListener('scroll', onScroll);
+    document.removeEventListener('mouseout', onMouseOut);
+    document.removeEventListener('visibilitychange', onVisibilityChange);
+  }
+
+  /** Trigger 2 — scroll depth. A page too short to scroll counts as read. */
+  function onScroll() {
+    const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+    if (scrollable > 0 && window.scrollY / scrollable < APP_PROMO.scrollFraction) return;
+    window.removeEventListener('scroll', onScroll);
+    scrollTimer = window.setTimeout(() => maybeOpen('scroll'), Math.max(0, APP_PROMO.minDwellMs - elapsed()));
+  }
+
+  /** Trigger 3 — exit intent: the cursor leaves the viewport upwards. */
+  function onMouseOut(event: MouseEvent) {
+    if (!event.relatedTarget && event.clientY <= 0) maybeOpen('exit_intent');
+  }
+
+  function onVisibilityChange() {
+    if (!document.hidden && pending) maybeOpen(pending);
+  }
+
+  // Trigger 1 — dwell: still on the page half a minute in.
+  dwellTimer = window.setTimeout(() => maybeOpen('dwell'), APP_PROMO.dwellMs);
+  window.addEventListener('scroll', onScroll, { passive: true });
+  document.addEventListener('visibilitychange', onVisibilityChange);
+  // Exit intent is a pointer gesture; on touch it would never fire.
+  if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    document.addEventListener('mouseout', onMouseOut);
+  }
+
+  dialog.addEventListener('click', (event) => {
+    const target = event.target as Element;
+    // A click on the backdrop is dispatched to the dialog element itself.
+    if (target === dialog) {
+      closeReason = 'backdrop';
+      dialog.close();
+      return;
+    }
+    if (target.closest('[data-store]')) {
+      // They're on their way to a store listing — assume the app is installed.
+      closeReason = 'store_click';
+      dialog.close();
+      return;
+    }
+    const dismiss = target.closest<HTMLElement>('[data-app-promo-dismiss]');
+    if (dismiss) {
+      closeReason = dismiss.dataset.appPromoDismiss ?? 'dismiss';
+      dialog.close();
+    }
+  });
+
+  // Esc.
+  dialog.addEventListener('cancel', () => { closeReason = 'escape'; });
+
+  dialog.addEventListener('close', () => {
+    snooze(closeReason === 'store_click' ? APP_PROMO.snoozeDaysStoreClick : APP_PROMO.snoozeDaysDismissed);
+    track('app_promo_dismissed', { reason: closeReason, source_path: location.pathname });
+  });
+}
+</script>

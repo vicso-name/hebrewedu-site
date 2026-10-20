@@ -270,6 +270,18 @@ export const en: Dictionary = {
       lead: 'Begin with the alphabet and build from there.',
     },
   },
+  appPromo: {
+    eyebrow: 'HebrewEdu app',
+    title: 'Take Hebrew with you',
+    lead: "Turn what you're reading into practice — guided lessons, exercises and beginner reading, on iPhone and Android.",
+    points: [
+      'The alphabet and Nikud, made clear from the start',
+      'Exercises after every lesson',
+      'Beginner reading with audio and translation',
+    ],
+    later: 'Maybe later',
+    close: 'Close',
+  },
   phrases: {
     saidBy: 'Said by',
     saidTo: 'Said to',

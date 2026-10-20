@@ -100,6 +100,12 @@ of a shared block.
 - **`src/components/ui/StoreButtons.astro`** — App Store / Google Play
   badges. Props: `location: string` (click-tracking label), `trackAlso?`,
   `height?` (default `56`).
+- **`src/components/ui/AppPromoModal.astro`** — the one app-download CTA
+  modal (native `<dialog>`, two store buttons). Props: `locale?`. Mounted by
+  `Layout.astro` on the routes `src/lib/app-promo.mjs` allows, opened once per
+  session after the reader engages. **There is only ever one of these** — a
+  second popup, lightbox or install banner is not a new component, it's a
+  change to this one. Read `docs/APP_PROMO.md` first.
 - **`src/components/ui/DeviceFrame.astro`** — device bezel shell around a
   screenshot. Props: `variant?: 'primary' | 'secondary'`.
 - **`src/components/ui/ProductScreenshot.astro`** — real app screenshot

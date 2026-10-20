@@ -72,6 +72,8 @@ All go through `track(event, params)`:
 | Event | Params | Fired from |
 |---|---|---|
 | `google_play_click` / `app_store_click` | `cta_location`, `source_path` | Delegated `[data-store]` listener in `ConsentBanner.astro`, reading attributes `StoreButtons.astro`/`Nav.astro`/the blog CTA already set |
+| `app_promo_shown` | `trigger` (`scroll`/`dwell`/`exit_intent`), `source_path` | `AppPromoModal.astro`, once per session at most (docs/APP_PROMO.md) |
+| `app_promo_dismissed` | `reason` (`later`/`close`/`escape`/`backdrop`/`store_click`), `source_path` | `AppPromoModal.astro`, on every close of that modal |
 | `lesson_start` | `letter` | `practice-client.ts`, once per lesson page load |
 | `practice_start` | `letter` | `practice-client.ts`, first time the Practice stage is shown |
 | `lesson_complete` | `letter`, `score`, `total` | `practice-client.ts`, first time the Results stage is shown (`score`/`total` = correct / available questions) |
