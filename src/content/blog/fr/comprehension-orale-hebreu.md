@@ -76,11 +76,11 @@ Tu connais [quelques lettres](/fr/blog/lettres-hebraiques/). Tu reconnais שלו
 - Lis d'abord la transcription si elle est disponible, puis écoute sans elle
 - Concentre-toi sur la reconnaissance des mots que tu connais déjà — pas sur la compréhension de tout
 
-L'objectif au niveau A1 n'est pas la compréhension. C'est la **reconnaissance auditive des lettres** — entraîner ton oreille à repérer où les mots commencent et finissent dans le flux sonore, et à identifier les sons que tu t'entraînes à lire sur le papier.
+L'objectif au niveau A1 n'est pas la compréhension. C'est la **reconnaissance des sons** — entraîner ton oreille à repérer où les mots commencent et finissent dans le flux sonore, et à identifier les sons que tu t'entraînes à lire sur le papier.
 
 ---
 
-## Niveau A2 : intermédiaire précoce
+## Niveau A2 : pré-intermédiaire
 
 Tu connais environ 500 à 1 000 mots. Les phrases simples deviennent lisibles. Tu peux suivre un hébreu très lent et très clairement articulé.
 

@@ -88,7 +88,7 @@ en traitant mentalement chaque lettre une par une, comme un cryptographe victori
 
 Tu reconnais la forme entière, instantanément.
 
-Cette reconnaissance automatique prend simplement du temps à se construire en hébreu. Si tu n'as pas encore travaillé [les 22 lettres et le système de voyelles du nikoud](/fr/blog/lettres-hebraiques/), cette base vaut la peine d'être posée correctement avant de te concentrer sur la compréhension.
+Cette reconnaissance automatique prend simplement du temps à se construire en hébreu. Si tu n'as pas encore travaillé [les 22 lettres](/fr/blog/lettres-hebraiques/) et [le système de voyelles du nikoud](/fr/blog/voyelles-hebreu/), cette base vaut la peine d'être posée correctement avant de te concentrer sur la compréhension.
 
 ---
 
@@ -111,7 +111,7 @@ Même si tu connais toutes les lettres, ton cerveau doit encore :
 4. traiter la grammaire,
 5. et suivre la phrase en temps réel, d'une façon ou d'une autre.
 
-C'est pour ça que la lecture de l'hébreu débutant peut être mentalement épuisante, d'une façon que le français n'est jamais.
+C'est pour ça que la lecture de l'hébreu débutant peut être mentalement épuisante, comme le français ne l'est jamais.
 
 ---
 
@@ -159,7 +159,7 @@ parfaitement...
 tout en pensant intérieurement :
 > « Belle phrase. Aucune idée de ce qui vient de se passer. »
 
-Parce que déchiffrer les mots hébreux et comprendre le vocabulaire hébreu sont deux processus complètement différents. [Combien de mots hébreu il te faut vraiment](/fr/blog/combien-de-mots-hebreu/) pour différents niveaux de compréhension est une question plus concrète et plus encourageante qu'elle n'en a l'air.
+Parce que déchiffrer les mots hébreux et comprendre le vocabulaire hébreu sont deux processus complètement différents. [Combien de mots hébreux il te faut vraiment](/fr/blog/combien-de-mots-hebreu/) pour différents niveaux de compréhension est une question plus concrète et plus encourageante qu'elle n'en a l'air.
 
 La bonne nouvelle :
 une fois que le vocabulaire atteint une certaine masse critique, la compréhension s'accélère de façon spectaculaire.
@@ -239,7 +239,7 @@ Parce que beaucoup d'apprenants croient inconsciemment :
 
 Non.
 
-La compréhension partielle, c'est littéralement comment fonctionne l'acquisition d'une langue.
+La compréhension partielle, c'est littéralement ainsi que fonctionne l'acquisition d'une langue.
 
 Ton cerveau construit la compréhension par une exposition répétée à des motifs qui deviennent progressivement familiers.
 

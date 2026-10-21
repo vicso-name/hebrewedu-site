@@ -103,8 +103,8 @@ Un système magnifiquement inefficace.
 
 ## L'hébreu retire des repères familiers
 
-Le français offre aux apprenants beaucoup de repères :
-- un [alphabet familier](/fr/blog/lettres-hebraiques/),
+Quand un francophone apprend l'espagnol ou l'anglais, il a beaucoup de repères :
+- un alphabet familier,
 - des racines de mots reconnaissables,
 - un rythme de phrase prévisible,
 - une quantité de vocabulaire international qui se répète d'une langue à l'autre.
@@ -138,7 +138,7 @@ Le véritable hébreu parlé est plus brouillon.
 
 Les gens raccourcissent les choses en permanence :
 - אני לא יודע → אנלא יודע
-- בסדר → סבבה → טוב → יאללה, qui veulent tous dire des choses différentes selon le ton (un peu comme la différence entre « ça va », « ça roule » et « nickel » en français — même idée, intensité différente)
+- בסדר → סבבה → טוב → יאללה (*beseder, sababa, tov, yalla*), chacun avec sa propre nuance de ton, un peu comme « d'accord », « ça marche », « nickel » et « allez ! » en français
 
 Au début, ça paraît injuste.
 
@@ -157,8 +157,6 @@ Pendant des semaines, peut-être des mois, tu te sens perdu.
 Puis, un jour, ton cerveau attrape soudain une phrase entière, naturellement.
 
 Pas parce que la phrase était plus facile. Parce que ta reconnaissance de motifs s'est enfin mise à fonctionner automatiquement. La compréhension à la lecture en hébreu suit [le même schéma](/fr/blog/lire-sans-comprendre/) — une longue période confuse suivie d'un basculement qui semble presque suspect quand il arrive.
-
-Ce moment paraît presque suspect.
 
 Comme si ton cerveau s'était mis à jour tout seul, pendant la nuit, sans ta permission.
 
@@ -202,7 +200,7 @@ Ce dernier point est important.
 Parce que les débutants croient souvent :
 > « Si je n'ai pas tout compris, je n'ai rien compris. »
 
-En réalité, comprendre 40 à 60 % du contenu est souvent exactement à quoi ressemble le progrès.
+En réalité, comprendre 40 à 60 % du contenu c'est souvent exactement ce à quoi ressemble le progrès.
 
 Une compréhension partielle et brouillonne n'est pas un échec.
 
