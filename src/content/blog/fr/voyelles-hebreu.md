@@ -162,7 +162,7 @@ C'est normal.
 
 C'est aussi une distinction importante : **la prononciation et la compréhension sont deux compétences séparées**.
 
-[L'expérience de lire couramment l'hébreu sans presque rien comprendre](/blog/why-you-can-read-hebrew-but-still-understand-absolutely-nothing/) (en anglais) est frustrante, mais elle signifie que la couche de déchiffrage fonctionne correctement. Cette couche est précisément la fondation sur laquelle se construit la compréhension.
+[L'expérience de lire couramment l'hébreu sans presque rien comprendre](/fr/blog/lire-sans-comprendre/) est frustrante, mais elle signifie que la couche de déchiffrage fonctionne correctement. Cette couche est précisément la fondation sur laquelle se construit la compréhension.
 
 La compétence de lecture et la connaissance du vocabulaire se développent plus ou moins en parallèle. Les deux comptent. Aucune des deux ne suffit seule.
 

@@ -130,7 +130,7 @@ Très répétitive.
 
 La lecture est une tout autre bête.
 
-Les journaux, blogs, romans et applis d'actualités en hébreu moderne omettent souvent les signes voyelles (le *nikoud*), ce qui veut dire que le vocabulaire compte bien plus que les règles de prononciation. Ça crée une expérience déroutante pour beaucoup d'apprenants — [lire l'hébreu couramment en ne comprenant presque rien](/blog/why-you-can-read-hebrew-but-still-understand-absolutely-nothing/) (en anglais) — parce que déchiffrer les lettres et saisir le sens sont de vraies compétences distinctes.
+Les journaux, blogs, romans et applis d'actualités en hébreu moderne omettent souvent les signes voyelles (le *nikoud*), ce qui veut dire que le vocabulaire compte bien plus que les règles de prononciation. Ça crée une expérience déroutante pour beaucoup d'apprenants — [lire l'hébreu couramment en ne comprenant presque rien](/fr/blog/lire-sans-comprendre/) — parce que déchiffrer les lettres et saisir le sens sont de vraies compétences distinctes.
 
 Si parler hébreu, c'est comme reconnaître des visages, lire l'hébreu sans nikoud, c'est comme reconnaître des visages dans le brouillard. Les mécanismes derrière [la lecture de l'hébreu non vocalisé](/fr/blog/lire-hebreu-sans-voyelles/) sont en fait plus logiques qu'ils n'en ont l'air au premier abord — le système des racines et la reconnaissance de motifs font l'essentiel du travail.
 

@@ -121,7 +121,7 @@ Apprendre les exceptions devient facile une fois la règle bien établie.
 
 Ça ne concerne pas que la lecture.
 
-La reconnaissance des racines est un facteur important pour [passer du déchiffrage mécanique de l'hébreu à sa compréhension réelle](/blog/why-you-can-read-hebrew-but-still-understand-absolutely-nothing/) (en anglais). Quand ton cerveau commence à relier automatiquement les motifs de consonnes à des familles de sens, la charge de traitement diminue. Les mots arrêtent d'être des énigmes. La compréhension devient possible, et rapide.
+La reconnaissance des racines est un facteur important pour [passer du déchiffrage mécanique de l'hébreu à sa compréhension réelle](/fr/blog/lire-sans-comprendre/). Quand ton cerveau commence à relier automatiquement les motifs de consonnes à des familles de sens, la charge de traitement diminue. Les mots arrêtent d'être des énigmes. La compréhension devient possible, et rapide.
 
 Les mêmes trois consonnes qui te ralentissent en tant que débutant deviennent plus tard des raccourcis automatiques.
 

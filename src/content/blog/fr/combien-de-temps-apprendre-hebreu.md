@@ -96,7 +96,7 @@ Les locuteurs natifs fusionnent les sons, raccourcissent les syllabes, et utilis
 
 En général, ce n'est pas un problème d'aptitude.
 
-Comprendre [pourquoi l'hébreu parlé semble si rapide aux apprenants](/blog/why-hebrew-sounds-so-fast/) (en anglais) — et pourquoi ne pas comprendre une conversation native est une phase normale de l'acquisition, pas un plafond permanent — rend cette étape nettement moins décourageante.
+Comprendre [pourquoi l'hébreu parlé semble si rapide aux apprenants](/fr/blog/hebreu-parle-vite/) — et pourquoi ne pas comprendre une conversation native est une phase normale de l'acquisition, pas un plafond permanent — rend cette étape nettement moins décourageante.
 
 La compréhension orale se construit par une exposition et une pratique répétées. Les progrès peuvent sembler irréguliers, surtout quand un sujet familier laisse soudain place à un vocabulaire inconnu.
 

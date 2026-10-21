@@ -22,16 +22,23 @@ batch done.
 
 | EN target | Planned FR slug | Batch | Linked from |
 |---|---|---|---|
-| `/blog/why-you-can-read-hebrew-but-still-understand-absolutely-nothing/` | `lire-sans-comprendre` | D | `voyelles-hebreu.md` ("L'expérience de lire couramment l'hébreu sans presque rien comprendre"), `conjugaison-hebreu.md` ("dépasser le stade où tu arrives à lire l'hébreu mais à comprendre très peu"), `racines-hebraiques.md` ("passer du déchiffrage mécanique de l'hébreu à sa compréhension réelle"), `vocabulaire-hebreu.md` ("Lire l'hébreu à voix haute sans le comprendre"), `apprendre-alphabet-hebreu-7-jours.md` ("déchiffrer des mots et les comprendre vraiment sont deux compétences différentes"), `lire-hebreu-sans-voyelles.md` ("savoir lire l'hébreu à voix haute en ne comprenant presque rien"), `combien-de-mots-hebreu.md` ("lire l'hébreu couramment en ne comprenant presque rien") |
-| `/blog/why-hebrew-sounds-so-fast/` | `hebreu-parle-vite` | D | `combien-de-temps-apprendre-hebreu.md` ("pourquoi l'hébreu parlé semble si rapide aux apprenants") |
 | `/blog/story-behind-learn-hebrew-read-speak/` | `histoire-de-lapplication` | E | `lettres-hebraiques.md` ("pourquoi l'application a été conçue pour aller des lettres jusqu'à la compréhension"), `voyelles-hebreu.md` ("le créateur de l'application explique comment le nikoud…"), `conjugaison-hebreu.md` ("comment Learn Hebrew – Read & Speak est passé d'un simple entraîneur d'alphabet…") |
-| `/blog/how-not-to-learn-hebrew-a-complete-guide-to-failing-efficiently/` | `erreurs-apprendre-hebreu` | E | `conjugaison-hebreu.md` ("un guide de toutes les erreurs courantes des débutants"), `binyanim-hebreu.md` ("erreurs de grammaire qui ralentissent systématiquement les débutants"), `vocabulaire-hebreu.md` ("Les habitudes d'étude qui retardent systématiquement la progression en hébreu"), `combien-de-temps-apprendre-hebreu.md` ("un guide des erreurs courantes qui ralentissent la progression"), `combien-de-mots-hebreu.md` ("un guide de toutes les erreurs courantes des apprenants") |
+| `/blog/how-not-to-learn-hebrew-a-complete-guide-to-failing-efficiently/` | `erreurs-apprendre-hebreu` | E | `conjugaison-hebreu.md` ("un guide de toutes les erreurs courantes des débutants"), `binyanim-hebreu.md` ("erreurs de grammaire qui ralentissent systématiquement les débutants"), `vocabulaire-hebreu.md` ("Les habitudes d'étude qui retardent systématiquement la progression en hébreu"), `combien-de-temps-apprendre-hebreu.md` ("un guide des erreurs courantes qui ralentissent la progression"), `combien-de-mots-hebreu.md` ("un guide de toutes les erreurs courantes des apprenants"), `hebreu-parle-vite.md` ("habitudes d'apprentissage de l'hébreu qui retardent la progression") |
 
 ## Never repointed (no FR counterpart planned)
 
 | EN target | Why | Linked from |
 |---|---|---|
 | `/play/alef-bet-rush/` | `/play/**` is an English-only destination site-wide (`docs/I18N.md` §1) — stays `(en anglais)` forever | `lettres-hebraiques.md` ("Alef Bet Rush") |
+
+## Closed this batch (batch 4)
+
+| EN target | FR URL | Repointed in |
+|---|---|---|
+| `/blog/why-you-can-read-hebrew-but-still-understand-absolutely-nothing/` | `/fr/blog/lire-sans-comprendre/` | `voyelles-hebreu.md`, `conjugaison-hebreu.md`, `racines-hebraiques.md`, `vocabulaire-hebreu.md`, `apprendre-alphabet-hebreu-7-jours.md`, `lire-hebreu-sans-voyelles.md`, `combien-de-mots-hebreu.md` |
+| `/blog/why-hebrew-sounds-so-fast/` | `/fr/blog/hebreu-parle-vite/` | `combien-de-temps-apprendre-hebreu.md` |
+
+No new `(en anglais)` links introduced this batch, except one: `hebreu-parle-vite.md` links to `how-not-to-learn-hebrew-a-complete-guide-to-failing-efficiently/` (batch E) — added to that target's existing "Linked from" list above rather than a new row. `best-hebrew-listening-practice`'s FR counterpart (`comprehension-orale-hebreu`) had no prior inbound `(en anglais)` links to repoint — confirmed by grepping `src/` (not just `src/content/blog/fr/`) for all three EN filenames before closing this batch.
 
 ## Closed this batch (batch 3)
 

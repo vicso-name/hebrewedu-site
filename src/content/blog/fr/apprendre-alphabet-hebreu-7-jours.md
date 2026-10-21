@@ -172,7 +172,7 @@ Apprendre à lire l'hébreu est un processus en deux phases. La première phase 
 
 L'application Hebrew Aleph Bet continue exactement là où ce programme s'arrête — avec la construction du vocabulaire, des histoires d'entraînement à la lecture, et des sessions de révision structurées qui gardent les lettres bien ancrées pendant que tu construis ta connaissance des mots.
 
-Sept jours pour l'alphabet. C'était l'objectif. Tu l'as atteint. Deux choses surprennent souvent les apprenants à ce stade : [déchiffrer des mots et les comprendre vraiment sont deux compétences différentes](/blog/why-you-can-read-hebrew-but-still-understand-absolutely-nothing/) (en anglais), et [l'écriture hébraïque manuscrite ne ressemble presque en rien aux formes imprimées](/fr/blog/ecriture-hebraique/) que tu viens d'apprendre — les deux valent la peine d'être connus avant d'avancer.
+Sept jours pour l'alphabet. C'était l'objectif. Tu l'as atteint. Deux choses surprennent souvent les apprenants à ce stade : [déchiffrer des mots et les comprendre vraiment sont deux compétences différentes](/fr/blog/lire-sans-comprendre/), et [l'écriture hébraïque manuscrite ne ressemble presque en rien aux formes imprimées](/fr/blog/ecriture-hebraique/) que tu viens d'apprendre — les deux valent la peine d'être connus avant d'avancer.
 
 ---
 

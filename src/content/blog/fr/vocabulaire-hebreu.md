@@ -174,7 +174,7 @@ Rien de spectaculaire.
 
 Mais un rythme pratique pour donner au vocabulaire une attention répétée, plutôt que de le laisser s'évaporer entre les sessions.
 
-Vérifie ta progression en te demandant ce qu'un court passage veut dire, pas seulement si tu sais prononcer ses mots. [Lire l'hébreu à voix haute sans le comprendre](/blog/why-you-can-read-hebrew-but-still-understand-absolutely-nothing/) (en anglais) est une étape familière ; utiliser le vocabulaire pour suivre le message est l'étape suivante.
+Vérifie ta progression en te demandant ce qu'un court passage veut dire, pas seulement si tu sais prononcer ses mots. [Lire l'hébreu à voix haute sans le comprendre](/fr/blog/lire-sans-comprendre/) est une étape familière ; utiliser le vocabulaire pour suivre le message est l'étape suivante.
 
 ---
 

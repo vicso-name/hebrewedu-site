@@ -127,7 +127,7 @@ Chaque verbe inclut son système de conjugaison complet, pour que les apprenants
 
 Ça transforme le répertoire en bien plus qu'une simple liste de vocabulaire.
 
-Ça devient un vrai système de référence des verbes hébreux, sur lequel tu peux t'appuyer au quotidien. Comprendre la conjugaison des verbes est aussi un facteur majeur pour [dépasser le stade où tu arrives à lire l'hébreu mais à comprendre très peu](/blog/why-you-can-read-hebrew-but-still-understand-absolutely-nothing/) (en anglais) — reconnaître les verbes à lui seul débloque une part importante du texte courant.
+Ça devient un vrai système de référence des verbes hébreux, sur lequel tu peux t'appuyer au quotidien. Comprendre la conjugaison des verbes est aussi un facteur majeur pour [dépasser le stade où tu arrives à lire l'hébreu mais à comprendre très peu](/fr/blog/lire-sans-comprendre/) — reconnaître les verbes à lui seul débloque une part importante du texte courant.
 
 ---
 

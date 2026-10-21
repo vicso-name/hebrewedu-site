@@ -257,7 +257,7 @@ Il n'y a pas de date limite unique pour l'abandonner. Commence à essayer des mo
 
 Tu n'as pas besoin d'abandonner le nikoud partout d'un coup. Garde-le pour le nouveau vocabulaire tout en t'entraînant sur des phrases familières sans lui. Augmente progressivement la part de lecture non vocalisée à mesure que la reconnaissance devient plus fiable.
 
-Il existe une expérience apparentée que beaucoup d'apprenants traversent : [savoir lire l'hébreu à voix haute en ne comprenant presque rien](/blog/why-you-can-read-hebrew-but-still-understand-absolutely-nothing/) (en anglais). Si ça t'arrive, consacre du temps au sens et au vocabulaire en parallèle de la prononciation.
+Il existe une expérience apparentée que beaucoup d'apprenants traversent : [savoir lire l'hébreu à voix haute en ne comprenant presque rien](/fr/blog/lire-sans-comprendre/). Si ça t'arrive, consacre du temps au sens et au vocabulaire en parallèle de la prononciation.
 
 ---
 
