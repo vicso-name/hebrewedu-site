@@ -30,3 +30,6 @@ docs/seo/research/rank-tracker/data/responses/
 
 # SEO research FR: cached paid-API responses (may contain account identifiers)
 docs/seo/research/fr/responses/
+
+# SEO research games: cached paid-API responses (may contain account identifiers)
+docs/seo/research/games/responses/
