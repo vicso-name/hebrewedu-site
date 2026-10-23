@@ -20,16 +20,27 @@ batch done.
 
 ## Open (target not yet published in FR)
 
-| EN target | Planned FR slug | Batch | Linked from |
-|---|---|---|---|
-| `/blog/story-behind-learn-hebrew-read-speak/` | `histoire-de-lapplication` | E | `lettres-hebraiques.md` ("pourquoi l'application a été conçue pour aller des lettres jusqu'à la compréhension"), `voyelles-hebreu.md` ("le créateur de l'application explique comment le nikoud…"), `conjugaison-hebreu.md` ("comment Learn Hebrew – Read & Speak est passé d'un simple entraîneur d'alphabet…") |
-| `/blog/how-not-to-learn-hebrew-a-complete-guide-to-failing-efficiently/` | `erreurs-apprendre-hebreu` | E | `conjugaison-hebreu.md` ("un guide de toutes les erreurs courantes des débutants"), `binyanim-hebreu.md` ("erreurs de grammaire qui ralentissent systématiquement les débutants"), `vocabulaire-hebreu.md` ("Les habitudes d'étude qui retardent systématiquement la progression en hébreu"), `combien-de-temps-apprendre-hebreu.md` ("un guide des erreurs courantes qui ralentissent la progression"), `combien-de-mots-hebreu.md` ("un guide de toutes les erreurs courantes des apprenants"), `hebreu-parle-vite.md` ("habitudes d'apprentissage de l'hébreu qui retardent la progression") |
+None. 0 open rows after batch 5 (batch E).
 
 ## Never repointed (no FR counterpart planned)
 
 | EN target | Why | Linked from |
 |---|---|---|
-| `/play/alef-bet-rush/` | `/play/**` is an English-only destination site-wide (`docs/I18N.md` §1) — stays `(en anglais)` forever | `lettres-hebraiques.md` ("Alef Bet Rush") |
+| `/play/alef-bet-rush/` | `/play/**` is an English-only destination site-wide (`docs/I18N.md` §1) — stays `(en anglais)` forever | `lettres-hebraiques.md`, `jeux-educatifs-langues.md` ("Alef Bet Rush") |
+| `/play/hebrew-mahjong/` | same: `/play/**` is English-only | `jeux-educatifs-langues.md` ("Hebrew Mahjong") |
+| `/play/` | same: `/play/**` is English-only | `jeux-educatifs-langues.md`, `histoire-de-lapplication.md` ("section Play") |
+| `/blog/porting-android-app-to-ios-with-ai/` | EN-specific dev story, excluded from FR by owner decision (`BLOG_FR_PLAN.md`) — the one allowed `(en anglais)` blog survivor | `histoire-de-lapplication.md` (opening, "le récit du fondateur sur le portage…") |
+
+## Closed this batch (batch 5)
+
+| EN target | FR URL | Repointed in |
+|---|---|---|
+| `/blog/story-behind-learn-hebrew-read-speak/` | `/fr/blog/histoire-de-lapplication/` | `lettres-hebraiques.md`, `voyelles-hebreu.md`, `conjugaison-hebreu.md` |
+| `/blog/how-not-to-learn-hebrew-a-complete-guide-to-failing-efficiently/` | `/fr/blog/erreurs-apprendre-hebreu/` | `conjugaison-hebreu.md`, `binyanim-hebreu.md`, `vocabulaire-hebreu.md`, `combien-de-temps-apprendre-hebreu.md`, `combien-de-mots-hebreu.md`, `hebreu-parle-vite.md` |
+| `/blog/what-makes-a-language-learning-game-educational/` | `/fr/blog/jeux-educatifs-langues/` | no prior inbound `(en anglais)` link; `histoire-de-lapplication.md` links to it FR→FR |
+| `/` (EN homepage, labelled `(en anglais)`) | `/fr/` | `lire-hebreu-sans-voyelles.md` ("l'expérience de lecture de HebrewEdu") — a leftover found by grepping every `(en anglais)` link |
+
+Survivors after this batch (all listed in "Never repointed" above): `/play/**` ×5 links in 3 posts (EN-only destination) and `porting-android-app-to-ios-with-ai` ×1. A whole-`src/` grep for the three EN filenames found nothing outside `src/content/blog/` (EN originals), `src/lib/blog.ts` and `src/pages/play/index.astro` (both EN-side).
 
 ## Closed this batch (batch 4)
 

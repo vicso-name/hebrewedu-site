@@ -122,7 +122,7 @@ Une partie de la difficulté que ressentent les apprenants est inhérente à la 
 
 Une autre partie est auto-infligée.
 
-Les habitudes qui retardent systématiquement les progrès — étudier par à-coups puis disparaître pendant des semaines, refuser de parler tant que la grammaire n'est pas parfaite, apprendre du vocabulaire rare avant le vocabulaire courant, éviter la pratique de l'écoute parce que c'est inconfortable — sont toutes détaillées dans [un guide des erreurs courantes qui ralentissent la progression](/blog/how-not-to-learn-hebrew-a-complete-guide-to-failing-efficiently/) (en anglais).
+Les habitudes qui retardent systématiquement les progrès — étudier par à-coups puis disparaître pendant des semaines, refuser de parler tant que la grammaire n'est pas parfaite, apprendre du vocabulaire rare avant le vocabulaire courant, éviter la pratique de l'écoute parce que c'est inconfortable — sont toutes détaillées dans [un guide des erreurs courantes qui ralentissent la progression](/fr/blog/erreurs-apprendre-hebreu/).
 
 Si l'une de ces habitudes te paraît familière, en changer une seule peut rendre ta pratique plus utile. La difficulté n'est pas la preuve que tu manques d'aptitude.
 
