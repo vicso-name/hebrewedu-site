@@ -39,6 +39,7 @@ const PAGE_ALLOWLIST = new Map([
   ['src/pages/play/alef-bet-rush/game/index.astro', 'fullscreen game canvas — intentionally bypasses the marketing Nav/Footer shell for an immersive player'],
   ['src/pages/play/hebrew-mahjong/game/index.astro', 'fullscreen game canvas — intentionally bypasses the marketing Nav/Footer shell for an immersive player'],
   ['src/pages/play/hebrew-word-search/game/index.astro', 'fullscreen game canvas — intentionally bypasses the marketing Nav/Footer shell for an immersive player'],
+  ['src/pages/play/hebrew-word-builder/game/index.astro', 'fullscreen game canvas — intentionally bypasses the marketing Nav/Footer shell for an immersive player'],
 ]);
 
 // Components that render Layout.astro internally; a page importing one of
