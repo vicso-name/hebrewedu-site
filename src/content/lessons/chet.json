@@ -1,0 +1,453 @@
+{
+  "id": "chet",
+  "sourceId": 8,
+  "order": 8,
+  "glyph": "ח",
+  "locale": "en",
+  "title": "Chet Hebrew Letter (ח): Sound & Furtive Patah",
+  "description": "Learn the Hebrew letter Chet (ח): its guttural [ch] sound, the furtive Patah in כּוֹחַ (strength), words like אָח (brother), plus interactive practice.",
+  "status": "local-review-only",
+  "normalizationVersion": 1,
+  "provenance": {
+    "source": "https://api.hebrewedu.com/api/lessons/8/?lang=en",
+    "responseDate": "2026-10-19T14:27:06.404Z",
+    "sha256": "065bf7a4a925a386204620959285b0ff41c7ac3928b60a15b7bcfee64dc841d0"
+  },
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Optional practice refinement",
+      "detail": "Several letter-recognition distractors use letters (Nun, Lamed, Samekh, Ayin, Tav) not introduced in this lesson. Beginner scaffolding can be improved separately from the approved source synchronization."
+    }
+  ],
+  "blocks": [
+    {
+      "id": "chet-block-1",
+      "sourceIndex": 0,
+      "text": "Chet Hebrew Letter (ח): Sound, Furtive Patah & Practice",
+      "reviewFlags": [],
+      "type": "MAIN_TITLE"
+    },
+    {
+      "id": "chet-block-2",
+      "sourceIndex": 1,
+      "text": "Chet (ח) is the eighth letter of the Hebrew alphabet. In common modern Hebrew pronunciation, its sound is similar to the ch in German 'Bach' or Scottish 'loch.' Let air flow continuously through a narrow space at the back of the mouth. In this lesson, ch represents this sound, rather than the English ch in 'chair.'",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "chet-block-4",
+      "sourceIndex": 3,
+      "text": "Words to Practice:",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "chet-block-5",
+      "sourceIndex": 4,
+      "text": "brother",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "אָח",
+      "transcription": "ach"
+    },
+    {
+      "id": "chet-block-6",
+      "sourceIndex": 5,
+      "text": "The word אָח [ach] means 'brother' and has one syllable. Kamatz Gadol under Aleph (אָ) represents [a]. Chet at the end of the word (ח) supplies [ch]. There is no vowel sign under Chet in this word.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "chet-block-7",
+      "sourceIndex": 6,
+      "text": "holiday",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "חַג",
+      "transcription": "chag"
+    },
+    {
+      "id": "chet-block-8",
+      "sourceIndex": 7,
+      "text": "The word חַג [chag] means 'holiday' or 'festival' and has one syllable. It consists of Chet (ח) and Gimel (ג). Chet represents [ch]; with Patah beneath it (חַ), it is read [cha]. Gimel adds [g], giving [chag].",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "chet-block-9",
+      "sourceIndex": 8,
+      "text": "Conclusions",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "chet-block-10",
+      "sourceIndex": 9,
+      "text": "Today, you learned the eighth letter of the Hebrew alphabet and expanded your vocabulary with two new words. You've made great progress—now it's time to practice and reinforce what you've learned.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "chet-exercise-1",
+      "sourceId": "1742224241367",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "What sound does the letter Chet (ח) produce in the word 'אָח'?",
+      "explanation": "Chet is pronounced as a guttural [ch] sound, similar to the German 'Bach' or the Scottish 'loch.'",
+      "options": [
+        {
+          "id": "chet-exercise-1-option-1",
+          "label": "[ch] as in 'Bach'"
+        },
+        {
+          "id": "chet-exercise-1-option-2",
+          "label": "[h] as in 'hat'"
+        },
+        {
+          "id": "chet-exercise-1-option-3",
+          "label": "[t] as in 'top'"
+        }
+      ],
+      "correctOptionId": "chet-exercise-1-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "chet-exercise-2",
+      "sourceId": "1742224241368",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "How is the final חַ read when it has a furtive Patah, as in כּוֹחַ?",
+      "explanation": "With a furtive Patah, [a] is pronounced before the final Chet, giving [ach]. For example, כּוֹחַ [ko-ach] means 'strength.'",
+      "options": [
+        {
+          "id": "chet-exercise-2-option-1",
+          "label": "[cha]"
+        },
+        {
+          "id": "chet-exercise-2-option-2",
+          "label": "[ach]"
+        },
+        {
+          "id": "chet-exercise-2-option-3",
+          "label": "[chah]"
+        },
+        {
+          "id": "chet-exercise-2-option-4",
+          "label": "[hcha]"
+        }
+      ],
+      "correctOptionId": "chet-exercise-2-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "chet-exercise-3",
+      "sourceId": "1742224241369",
+      "type": "TRUE_FALSE",
+      "prompt": "Does Chet (ח) have the same sound as the h in English 'hat'?",
+      "explanation": "Chet is produced with friction at the back of the mouth. Its sound is similar to ch in German 'Bach' or Scottish 'loch', and differs from h in English 'hat'.",
+      "options": [
+        {
+          "id": "chet-exercise-3-option-1",
+          "label": "True"
+        },
+        {
+          "id": "chet-exercise-3-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "chet-exercise-3-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "chet-exercise-4",
+      "sourceId": "1742224241372",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Which Hebrew word means 'brother'?",
+      "explanation": "The Hebrew word 'אָח' means 'brother.'",
+      "options": [
+        {
+          "id": "chet-exercise-4-option-1",
+          "label": "אָח"
+        },
+        {
+          "id": "chet-exercise-4-option-2",
+          "label": "חג"
+        },
+        {
+          "id": "chet-exercise-4-option-3",
+          "label": "חול"
+        }
+      ],
+      "correctOptionId": "chet-exercise-4-option-1",
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    },
+    {
+      "id": "chet-exercise-5",
+      "sourceId": "1742224241373",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Which Hebrew word means 'holiday'?",
+      "explanation": "The Hebrew word 'חג' means 'holiday.'",
+      "options": [
+        {
+          "id": "chet-exercise-5-option-1",
+          "label": "חג"
+        },
+        {
+          "id": "chet-exercise-5-option-2",
+          "label": "אָח"
+        },
+        {
+          "id": "chet-exercise-5-option-3",
+          "label": "חן"
+        },
+        {
+          "id": "chet-exercise-5-option-4",
+          "label": "חול"
+        }
+      ],
+      "correctOptionId": "chet-exercise-5-option-1",
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    },
+    {
+      "id": "chet-exercise-6",
+      "sourceId": "1742224241374",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Which description best matches the sound of Chet (ח)?",
+      "explanation": "Chet has a guttural pronunciation, unlike the soft [h] sound.",
+      "options": [
+        {
+          "id": "chet-exercise-6-option-1",
+          "label": "A soft [h] sound"
+        },
+        {
+          "id": "chet-exercise-6-option-2",
+          "label": "A guttural [ch]"
+        },
+        {
+          "id": "chet-exercise-6-option-3",
+          "label": "A nasal [n] sound"
+        }
+      ],
+      "correctOptionId": "chet-exercise-6-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "chet-exercise-7",
+      "sourceId": "1742224241375",
+      "type": "TRUE_FALSE",
+      "prompt": "In the word 'אָח', does Aleph carry the [a] sound while Chet produces a guttural [ch] sound?",
+      "explanation": "In אָח, Kamatz Gadol under Aleph represents [a], and Chet gives [ch]. Together they form [ach].",
+      "options": [
+        {
+          "id": "chet-exercise-7-option-1",
+          "label": "True"
+        },
+        {
+          "id": "chet-exercise-7-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "chet-exercise-7-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "chet-exercise-8",
+      "sourceId": "1742224241376",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "What effect does a Patah vowel have on the pronunciation of Chet?",
+      "explanation": "Patah represents [a]. In חַג [chag], it is read after Chet: [cha]. With a furtive Patah under final Chet, the vowel comes first: [ach].",
+      "options": [
+        {
+          "id": "chet-exercise-8-option-1",
+          "label": "It adds an [a] sound"
+        },
+        {
+          "id": "chet-exercise-8-option-2",
+          "label": "It makes (ח) silent"
+        },
+        {
+          "id": "chet-exercise-8-option-3",
+          "label": "It changes (ח) to a [k]"
+        }
+      ],
+      "correctOptionId": "chet-exercise-8-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "chet-exercise-9",
+      "sourceId": "1742224241377",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "In the word 'חג', which letter produces the [g] sound?",
+      "explanation": "In 'חג', the letter Gimel (ג) provides the [g] sound.",
+      "options": [
+        {
+          "id": "chet-exercise-9-option-1",
+          "label": "ח"
+        },
+        {
+          "id": "chet-exercise-9-option-2",
+          "label": "ג"
+        },
+        {
+          "id": "chet-exercise-9-option-3",
+          "label": "א"
+        },
+        {
+          "id": "chet-exercise-9-option-4",
+          "label": "ב"
+        }
+      ],
+      "correctOptionId": "chet-exercise-9-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "chet-exercise-10",
+      "sourceId": "1742224241378",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "What sound does Vav produce when marked with Holam Male (וֹ)?",
+      "explanation": "Holam Male (וֹ) represents [o]. Keep the vowel steady. The vowel in English 'no' is only an approximation because it often glides.",
+      "options": [
+        {
+          "id": "chet-exercise-10-option-1",
+          "label": "[o]"
+        },
+        {
+          "id": "chet-exercise-10-option-2",
+          "label": "[u]"
+        },
+        {
+          "id": "chet-exercise-10-option-3",
+          "label": "[a]"
+        }
+      ],
+      "correctOptionId": "chet-exercise-10-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "chet-exercise-11",
+      "sourceId": "1742224241379",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "What sound does Vav produce when it has a Shuruk (וּ)?",
+      "explanation": "With Shuruk, Vav gives a [u] sound, as in 'moon.'",
+      "options": [
+        {
+          "id": "chet-exercise-11-option-1",
+          "label": "[o]"
+        },
+        {
+          "id": "chet-exercise-11-option-2",
+          "label": "[u]"
+        },
+        {
+          "id": "chet-exercise-11-option-3",
+          "label": "[v]"
+        },
+        {
+          "id": "chet-exercise-11-option-4",
+          "label": "[a]"
+        }
+      ],
+      "correctOptionId": "chet-exercise-11-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "chet-exercise-12",
+      "sourceId": "1742224241380",
+      "type": "TRUE_FALSE",
+      "prompt": "Does Chet (ח) sound like [k] in 'kite'?",
+      "explanation": "Chet is a guttural sound, unlike the hard [k] in 'kite.'",
+      "options": [
+        {
+          "id": "chet-exercise-12-option-1",
+          "label": "True"
+        },
+        {
+          "id": "chet-exercise-12-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "chet-exercise-12-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "chet-exercise-13",
+      "sourceId": "1742224241381",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "How do you translate the word 'אָח' [ach] into English?",
+      "explanation": "The Hebrew word 'אָח' translates to 'brother.'",
+      "options": [
+        {
+          "id": "chet-exercise-13-option-1",
+          "label": "brother"
+        },
+        {
+          "id": "chet-exercise-13-option-2",
+          "label": "sister"
+        },
+        {
+          "id": "chet-exercise-13-option-3",
+          "label": "friend"
+        }
+      ],
+      "correctOptionId": "chet-exercise-13-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "chet-exercise-14",
+      "sourceId": "1742224241382",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Which of the following Hebrew letters is marked with a Segol?",
+      "explanation": "Segol consists of three dots arranged in a triangle beneath a letter and represents [e] in modern Hebrew.",
+      "options": [
+        {
+          "id": "chet-exercise-14-option-1",
+          "label": "חֶ"
+        },
+        {
+          "id": "chet-exercise-14-option-2",
+          "label": "סַ"
+        },
+        {
+          "id": "chet-exercise-14-option-3",
+          "label": "ת"
+        },
+        {
+          "id": "chet-exercise-14-option-4",
+          "label": "עֲ"
+        }
+      ],
+      "correctOptionId": "chet-exercise-14-option-1",
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    },
+    {
+      "id": "chet-exercise-15",
+      "sourceId": "1742224241383",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "How is the ending חַ read with a furtive Patah in כּוֹחַ?",
+      "explanation": "In כּוֹחַ [ko-ach], meaning 'strength,' the Patah is read before Chet. The ending is [ach], with [a] followed by the Chet sound [ch].",
+      "options": [
+        {
+          "id": "chet-exercise-15-option-1",
+          "label": "[cha]"
+        },
+        {
+          "id": "chet-exercise-15-option-2",
+          "label": "[ah]"
+        },
+        {
+          "id": "chet-exercise-15-option-3",
+          "label": "[ach]"
+        }
+      ],
+      "correctOptionId": "chet-exercise-15-option-3",
+      "reviewFlags": []
+    }
+  ]
+}

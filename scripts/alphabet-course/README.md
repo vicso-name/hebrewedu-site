@@ -89,7 +89,7 @@ without publication approval. This checkpoint intentionally exits 2 for 11 empty
   remain unverified; no URL was fetched during this audit.
 - Builds cannot import newly saved lessons automatically. Publication requires a separate
   reviewed normalization, explicit route allowlist and editorial/media approvals. Enforce
-  the product limit of three new lessons per week at that later release gate.
+  the product limit of five new lessons per week at that later release gate.
 
 ## Import tests and current publication validation
 

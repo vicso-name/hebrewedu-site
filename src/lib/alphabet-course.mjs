@@ -20,6 +20,11 @@ const supportedLessonRoutesFr = new Set(
     : [],
 );
 
+// Product cap on new lessons per ISO week, per locale (owner decision
+// 2026-10-23: raised from 3 to 5). src/data/alphabet-course.json must carry
+// the same number.
+export const maximumNewLessonsPerWeek = 5;
+
 function weekKey(value) {
   const d = new Date(`${value}T00:00:00Z`);
   if (!/^\d{4}-\d{2}-\d{2}$/.test(value) || !Number.isFinite(d.getTime()) || d.toISOString().slice(0, 10) !== value) throw new Error('A real publication date is required');
@@ -33,13 +38,13 @@ export function validateWeeklyReleaseLimit(dates) {
     const week = weekKey(date);
     weeks.set(week, (weeks.get(week) ?? 0) + 1);
   }
-  if ([...weeks.values()].some(count => count > 3)) throw new Error('Maximum three new lessons per ISO week');
+  if ([...weeks.values()].some(count => count > maximumNewLessonsPerWeek)) throw new Error('Maximum five new lessons per ISO week');
 }
 
 const SUPPORTED_EXTRA_LOCALES = ['fr'];
 
 export function validatePublicationManifest(value) {
-  if (value.schemaVersion !== 1 || value.maximumNewLessonsPerWeek !== 3 || value.hub.path !== coursePath || value.lessons.length !== 22) throw new Error('Invalid course publication manifest');
+  if (value.schemaVersion !== 1 || value.maximumNewLessonsPerWeek !== maximumNewLessonsPerWeek || value.hub.path !== coursePath || value.lessons.length !== 22) throw new Error('Invalid course publication manifest');
   const glyphs = [...'אבגדהוזחטיכלמנסעפצקרשת'];
   const slugs = ['aleph','bet','gimel','dalet','he','vav','zayin','chet','tet','yod','kaf','lamed','mem','nun','samekh','ayin','pe','tsadi','qof','resh','shin','tav'];
   for (const [i, lesson] of value.lessons.entries()) {

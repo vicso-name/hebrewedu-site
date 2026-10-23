@@ -1,0 +1,78 @@
+{
+  "slug": "chet",
+  "title": "Chet Hebrew Letter (ח): Sound & Furtive Patah",
+  "description": "Learn the Hebrew letter Chet (ח): its guttural [ch] sound, the furtive Patah in כּוֹחַ (strength), words like אָח (brother), plus interactive practice.",
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Optional practice refinement",
+      "detail": "Several letter-recognition distractors use letters (Nun, Lamed, Samekh, Ayin, Tav) not introduced in this lesson. Beginner scaffolding can be improved separately from the approved source synchronization."
+    }
+  ],
+  "illustrations": {},
+  "blockFlags": {},
+  "exerciseFlags": {
+    "4": [
+      "unintroduced-letters"
+    ],
+    "5": [
+      "unintroduced-letters"
+    ],
+    "14": [
+      "unintroduced-letters"
+    ]
+  },
+  "contentOverrides": {
+    "blocks": {
+      "0": "Chet Hebrew Letter (ח): Sound, Furtive Patah & Practice",
+      "5": "The word אָח [ach] means 'brother' and has one syllable. Kamatz Gadol under Aleph (אָ) represents [a]. Chet at the end of the word (ח) supplies [ch]. There is no vowel sign under Chet in this word."
+    }
+  },
+  "stageMap": {
+    "theory": [
+      0,
+      1
+    ],
+    "examples": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "copy": {
+    "theory": {
+      "heading": "Meet Chet",
+      "intro": "The eighth letter of the <a href=\"/blog/hebrew-alphabet-complete-guide/\">Hebrew alphabet</a>. Chet makes a guttural [ch] sound, as in German “Bach” or Scottish “loch” — air flows continuously through a narrow space at the back of the mouth.",
+      "objectivesHeading": "What you’ll learn",
+      "objectives": [
+        "Recognize Chet: <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ח</bdi>.",
+        "Hear its guttural [ch] sound, as in “Bach.”",
+        "Read Chet in real words like <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">אָח</bdi> (brother)."
+      ],
+      "secondSectionHeading": "How Chet sounds",
+      "thirdSectionHeading": "Words to practice"
+    },
+    "examples": {
+      "heading": "Chet in real words",
+      "intro": "See Chet in two new Hebrew words, and review the Segol, Holam Male and Shuruk vowel marks from earlier letters."
+    }
+  },
+  "holdOuts": {
+    "blocks": [
+      {
+        "sourceIndex": 2,
+        "reason": "Unsupported STRIPED_BLOCK study block type (the furtive-Patah explanation) — recognized by the source contract, but StudyBlock.astro has no STRIPED_BLOCK renderer. The furtive-Patah concept is still taught self-contained in exercise 1 and 14's tips."
+      }
+    ],
+    "exercises": []
+  },
+  "source": {
+    "rawSnapshotPath": ".local/alphabet-course-imports/v1/2026-10-19T14-27-01-990Z-cc446f/raw/lesson-8.raw.json",
+    "sha256": "065bf7a4a925a386204620959285b0ff41c7ac3928b60a15b7bcfee64dc841d0",
+    "responseDate": "2026-10-19T14:27:06.404Z"
+  }
+}

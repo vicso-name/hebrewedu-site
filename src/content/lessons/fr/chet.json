@@ -1,0 +1,458 @@
+{
+  "id": "chet",
+  "sourceId": 8,
+  "order": 8,
+  "glyph": "ח",
+  "locale": "fr",
+  "title": "Heth (ח) : lettre hébraïque, son et exemples",
+  "description": "Apprends la lettre hébraïque Heth (ח) et son son guttural [kh], avec des mots comme אָח (frère) et חַג (fête), ainsi que des exercices interactifs.",
+  "status": "local-review-only",
+  "normalizationVersion": 1,
+  "provenance": {
+    "source": "https://api.hebrewedu.com/api/lessons/8/?lang=fr",
+    "responseDate": "2026-10-19T14:27:22.664Z",
+    "sha256": "beaa0f3754d1795dc6146cc76e8e803615868e5c048bba561d8ad7533747ab5d"
+  },
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Affinage optionnel des exercices",
+      "detail": "Plusieurs distracteurs de reconnaissance de lettre utilisent des lettres (Noun, Lamed, Samekh, Ayin, Tav) non encore introduites dans cette leçon. Le guidage pour débutants pourra être amélioré séparément de la synchronisation avec la source approuvée."
+    },
+    {
+      "id": "fr-transliteration-kh",
+      "summary": "« ch » remplacé par « kh » pour le son guttural de Het",
+      "detail": "La source brute FR transcrit le son guttural de Het avec « ch » (ach, chag, ko-ach), ce qui se lit [ʃ] en français — contraire à la règle de transliteration FR (docs/hebrew-alphabet-editorial-rules.fr.md : « kh » pour le son guttural Khet/Khaf, jamais « ch »). Corrigé via contentOverrides.blocks (le paragraphe d'intro théorique), contentOverrides.transcriptions (les deux WORD_EXAMPLE, dont le champ transcription n'a pas d'autre chemin d'override) et contentOverrides.choices/contentOverrides.exercises (les questions 1, 2, 6, 7, 12, 15 dont les choix ou l'énoncé portaient la même transcription). Ces deux derniers mécanismes (transcriptions, choices) ont été ajoutés à src/lib/lessons/normalize.mjs pour cette leçon — voir docs/LESSON_PIPELINE.md."
+    }
+  ],
+  "blocks": [
+    {
+      "id": "chet-block-1",
+      "sourceIndex": 0,
+      "text": "Heth (ח) : lettre hébraïque, son et exemples",
+      "reviewFlags": [],
+      "type": "MAIN_TITLE"
+    },
+    {
+      "id": "chet-block-2",
+      "sourceIndex": 1,
+      "text": "Het (ח) est la huitième lettre de l'alphabet hébreu. Dans la prononciation courante de l'hébreu moderne, elle produit un son proche du « ch » de l'allemand « Bach » ou de l'écossais « loch ». Fais passer l'air de façon continue dans un passage étroit à l'arrière de la bouche. Dans les transcriptions de cette leçon, kh désigne ce son ; il ne se lit pas comme le « ch » français de « chat ».",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "chet-block-4",
+      "sourceIndex": 3,
+      "text": "Mots à pratiquer :",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "chet-block-5",
+      "sourceIndex": 4,
+      "text": "frère",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "אָח",
+      "transcription": "akh"
+    },
+    {
+      "id": "chet-block-6",
+      "sourceIndex": 5,
+      "text": "Le mot אָח [akh] signifie « frère » et se prononce en une seule syllabe. Le Kamats Gadol sous Alef (אָ) donne [a], et Het (ח) donne le son noté [kh]. Dans ce mot, il n'y a pas de signe vocalique sous Het.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "chet-block-7",
+      "sourceIndex": 6,
+      "text": "fête",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "חַג",
+      "transcription": "khag"
+    },
+    {
+      "id": "chet-block-8",
+      "sourceIndex": 7,
+      "text": "Le mot חַג [khag] signifie « fête » et se prononce en une seule syllabe. Il comporte deux lettres : Het (ח) et Guimel (ג). Het avec un Patah (חַ) se lit [kha]. Guimel donne [g], comme dans « gare ». Ensemble, les deux lettres forment [khag].",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "chet-block-9",
+      "sourceIndex": 8,
+      "text": "Ce qu'on retient",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "chet-block-10",
+      "sourceIndex": 9,
+      "text": "Tu viens d'apprendre la huitième lettre de l'alphabet hébreu et deux nouveaux mots. C'est un beau progrès ! Place maintenant aux exercices pour ancrer tout ça.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "chet-exercise-1",
+      "sourceId": "1742224241367",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Quel son produit la lettre Het (ח) dans le mot אָח ?",
+      "explanation": "Het se prononce avec un son guttural [kh], semblable au « ch » de l'allemand « Bach » ou de l'écossais « loch ».",
+      "options": [
+        {
+          "id": "chet-exercise-1-option-1",
+          "label": "[kh] comme dans « Bach »"
+        },
+        {
+          "id": "chet-exercise-1-option-2",
+          "label": "[h] comme dans le mot anglais « hat »"
+        },
+        {
+          "id": "chet-exercise-1-option-3",
+          "label": "[t] comme dans « top »"
+        }
+      ],
+      "correctOptionId": "chet-exercise-1-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "chet-exercise-2",
+      "sourceId": "1742224241368",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Comment se lit la finale חַ avec un Patah furtif, comme dans כּוֹחַ ?",
+      "explanation": "Avec un Patah furtif, [a] se prononce avant le Het final : la finale se lit [akh]. Par exemple, כּוֹחַ [ko-akh] signifie « force ».",
+      "options": [
+        {
+          "id": "chet-exercise-2-option-1",
+          "label": "[kha]"
+        },
+        {
+          "id": "chet-exercise-2-option-2",
+          "label": "[akh]"
+        },
+        {
+          "id": "chet-exercise-2-option-3",
+          "label": "[khah]"
+        },
+        {
+          "id": "chet-exercise-2-option-4",
+          "label": "[hkha]"
+        }
+      ],
+      "correctOptionId": "chet-exercise-2-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "chet-exercise-3",
+      "sourceId": "1742224241369",
+      "type": "TRUE_FALSE",
+      "prompt": "Het (ח) se prononce-t-elle comme le [h] anglais ?",
+      "explanation": "Le son de Het se forme par un resserrement à l'arrière de la bouche, comme le « ch » allemand de « Bach ». Ce n'est pas le [h] soufflé du mot anglais « hat ».",
+      "options": [
+        {
+          "id": "chet-exercise-3-option-1",
+          "label": "True"
+        },
+        {
+          "id": "chet-exercise-3-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "chet-exercise-3-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "chet-exercise-4",
+      "sourceId": "1742224241372",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Quel mot hébraïque signifie « frère » ?",
+      "explanation": "Le mot hébraïque אָח signifie « frère ».",
+      "options": [
+        {
+          "id": "chet-exercise-4-option-1",
+          "label": "אָח"
+        },
+        {
+          "id": "chet-exercise-4-option-2",
+          "label": "חג"
+        },
+        {
+          "id": "chet-exercise-4-option-3",
+          "label": "חול"
+        }
+      ],
+      "correctOptionId": "chet-exercise-4-option-1",
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    },
+    {
+      "id": "chet-exercise-5",
+      "sourceId": "1742224241373",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Quel mot hébraïque signifie « fête » ?",
+      "explanation": "Le mot hébraïque חג signifie « fête ».",
+      "options": [
+        {
+          "id": "chet-exercise-5-option-1",
+          "label": "חג"
+        },
+        {
+          "id": "chet-exercise-5-option-2",
+          "label": "אָח"
+        },
+        {
+          "id": "chet-exercise-5-option-3",
+          "label": "חן"
+        },
+        {
+          "id": "chet-exercise-5-option-4",
+          "label": "חול"
+        }
+      ],
+      "correctOptionId": "chet-exercise-5-option-1",
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    },
+    {
+      "id": "chet-exercise-6",
+      "sourceId": "1742224241374",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Quelle description correspond le mieux au son de Het (ח) ?",
+      "explanation": "Het est un son guttural, produit avec un frottement à l'arrière de la bouche. Le [h] soufflé de l'anglais « hat » est différent.",
+      "options": [
+        {
+          "id": "chet-exercise-6-option-1",
+          "label": "Un [h] soufflé"
+        },
+        {
+          "id": "chet-exercise-6-option-2",
+          "label": "Un [kh] guttural"
+        },
+        {
+          "id": "chet-exercise-6-option-3",
+          "label": "Un [n] nasal"
+        }
+      ],
+      "correctOptionId": "chet-exercise-6-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "chet-exercise-7",
+      "sourceId": "1742224241375",
+      "type": "TRUE_FALSE",
+      "prompt": "Dans le mot אָח, l'Alef porte-t-elle le son [a] tandis que Het produit le son guttural [kh] ?",
+      "explanation": "Dans אָח, le Kamats Gadol sous Alef donne [a], et Het donne [kh]. Ensemble, on lit [akh].",
+      "options": [
+        {
+          "id": "chet-exercise-7-option-1",
+          "label": "True"
+        },
+        {
+          "id": "chet-exercise-7-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "chet-exercise-7-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "chet-exercise-8",
+      "sourceId": "1742224241376",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Quel effet le Patah a-t-il sur la prononciation de Het ?",
+      "explanation": "Le Patah représente [a]. Dans חַג [khag], il se lit après Het : [kha]. Avec un Patah furtif sous un Het final, la voyelle se lit avant la consonne : [akh].",
+      "options": [
+        {
+          "id": "chet-exercise-8-option-1",
+          "label": "Il ajoute un son [a]"
+        },
+        {
+          "id": "chet-exercise-8-option-2",
+          "label": "Il rend (ח) muette"
+        },
+        {
+          "id": "chet-exercise-8-option-3",
+          "label": "Il transforme (ח) en [k]"
+        }
+      ],
+      "correctOptionId": "chet-exercise-8-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "chet-exercise-9",
+      "sourceId": "1742224241377",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Dans le mot חג, quelle lettre produit le son [g] ?",
+      "explanation": "Dans חג, c'est la lettre Guimel (ג) qui donne le son [g].",
+      "options": [
+        {
+          "id": "chet-exercise-9-option-1",
+          "label": "ח"
+        },
+        {
+          "id": "chet-exercise-9-option-2",
+          "label": "ג"
+        },
+        {
+          "id": "chet-exercise-9-option-3",
+          "label": "א"
+        },
+        {
+          "id": "chet-exercise-9-option-4",
+          "label": "ב"
+        }
+      ],
+      "correctOptionId": "chet-exercise-9-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "chet-exercise-10",
+      "sourceId": "1742224241378",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Quel son produit Vav avec un Holam Male (וֹ) ?",
+      "explanation": "Le Holam Male (וֹ) donne [o], comme dans le mot français « eau ».",
+      "options": [
+        {
+          "id": "chet-exercise-10-option-1",
+          "label": "[o] comme dans « eau »"
+        },
+        {
+          "id": "chet-exercise-10-option-2",
+          "label": "[ou] comme dans « loup »"
+        },
+        {
+          "id": "chet-exercise-10-option-3",
+          "label": "[a] comme dans « papa »"
+        }
+      ],
+      "correctOptionId": "chet-exercise-10-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "chet-exercise-11",
+      "sourceId": "1742224241379",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Quel son produit Vav avec un Shourouk (וּ) ?",
+      "explanation": "Le Shourouk (וּ) donne le son [ou], comme dans le mot français « loup ».",
+      "options": [
+        {
+          "id": "chet-exercise-11-option-1",
+          "label": "[o]"
+        },
+        {
+          "id": "chet-exercise-11-option-2",
+          "label": "[ou]"
+        },
+        {
+          "id": "chet-exercise-11-option-3",
+          "label": "[v]"
+        },
+        {
+          "id": "chet-exercise-11-option-4",
+          "label": "[a]"
+        }
+      ],
+      "correctOptionId": "chet-exercise-11-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "chet-exercise-12",
+      "sourceId": "1742224241380",
+      "type": "TRUE_FALSE",
+      "prompt": "Het (ח) se prononce-t-elle comme le [k] de « café » ?",
+      "explanation": "Het représente le son guttural noté [kh], comme dans l'allemand « Bach ». Le [k] de « café » est un autre son.",
+      "options": [
+        {
+          "id": "chet-exercise-12-option-1",
+          "label": "True"
+        },
+        {
+          "id": "chet-exercise-12-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "chet-exercise-12-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "chet-exercise-13",
+      "sourceId": "1742224241381",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Que signifie le mot אָח [akh] ?",
+      "explanation": "Le mot hébraïque אָח signifie « frère ».",
+      "options": [
+        {
+          "id": "chet-exercise-13-option-1",
+          "label": "frère"
+        },
+        {
+          "id": "chet-exercise-13-option-2",
+          "label": "sœur"
+        },
+        {
+          "id": "chet-exercise-13-option-3",
+          "label": "ami"
+        }
+      ],
+      "correctOptionId": "chet-exercise-13-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "chet-exercise-14",
+      "sourceId": "1742224241382",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Laquelle de ces lettres hébraïques porte un Ségol ?",
+      "explanation": "Le Ségol est formé de trois points disposés en triangle sous la lettre. En hébreu moderne, il représente [e], proche du « é » dans « été ».",
+      "options": [
+        {
+          "id": "chet-exercise-14-option-1",
+          "label": "חֶ"
+        },
+        {
+          "id": "chet-exercise-14-option-2",
+          "label": "סַ"
+        },
+        {
+          "id": "chet-exercise-14-option-3",
+          "label": "ת"
+        },
+        {
+          "id": "chet-exercise-14-option-4",
+          "label": "עֲ"
+        }
+      ],
+      "correctOptionId": "chet-exercise-14-option-1",
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    },
+    {
+      "id": "chet-exercise-15",
+      "sourceId": "1742224241383",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Comment se lit la finale חַ avec un Patah furtif dans כּוֹחַ ?",
+      "explanation": "Dans כּוֹחַ [ko-akh], « force », le Patah se prononce avant Het. La finale se lit [akh] : [a], puis le son de Het noté [kh].",
+      "options": [
+        {
+          "id": "chet-exercise-15-option-1",
+          "label": "[kha]"
+        },
+        {
+          "id": "chet-exercise-15-option-2",
+          "label": "[ah]"
+        },
+        {
+          "id": "chet-exercise-15-option-3",
+          "label": "[akh]"
+        }
+      ],
+      "correctOptionId": "chet-exercise-15-option-3",
+      "reviewFlags": []
+    }
+  ]
+}

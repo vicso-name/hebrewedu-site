@@ -69,8 +69,8 @@ validation; lessons 2–22 have no generated pages or public links.
 
 `src/lib/alphabet-course.mjs` is shared by route gating, navigation, curriculum and sitemap
 integration. A lesson cannot publish without source availability, implemented route and
-independent editorial approval. Release-date validation enforces at most **three new lessons
-per Monday–Sunday ISO week**, including weeks crossing a year boundary. Future releases
+independent editorial approval. Release-date validation enforces at most **five new lessons
+per Monday–Sunday ISO week** (raised from three on 2026-10-23), including weeks crossing a year boundary. Future releases
 must maintain accurate publication records and explicitly implement/allowlist each new route.
 No imported JSON snapshot is consulted by this release gate.
 

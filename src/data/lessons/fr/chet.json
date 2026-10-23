@@ -1,0 +1,142 @@
+{
+  "slug": "chet",
+  "title": "Heth (ח) : lettre hébraïque, son et exemples",
+  "description": "Apprends la lettre hébraïque Heth (ח) et son son guttural [kh], avec des mots comme אָח (frère) et חַג (fête), ainsi que des exercices interactifs.",
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Affinage optionnel des exercices",
+      "detail": "Plusieurs distracteurs de reconnaissance de lettre utilisent des lettres (Noun, Lamed, Samekh, Ayin, Tav) non encore introduites dans cette leçon. Le guidage pour débutants pourra être amélioré séparément de la synchronisation avec la source approuvée."
+    },
+    {
+      "id": "fr-transliteration-kh",
+      "summary": "« ch » remplacé par « kh » pour le son guttural de Het",
+      "detail": "La source brute FR transcrit le son guttural de Het avec « ch » (ach, chag, ko-ach), ce qui se lit [ʃ] en français — contraire à la règle de transliteration FR (docs/hebrew-alphabet-editorial-rules.fr.md : « kh » pour le son guttural Khet/Khaf, jamais « ch »). Corrigé via contentOverrides.blocks (le paragraphe d'intro théorique), contentOverrides.transcriptions (les deux WORD_EXAMPLE, dont le champ transcription n'a pas d'autre chemin d'override) et contentOverrides.choices/contentOverrides.exercises (les questions 1, 2, 6, 7, 12, 15 dont les choix ou l'énoncé portaient la même transcription). Ces deux derniers mécanismes (transcriptions, choices) ont été ajoutés à src/lib/lessons/normalize.mjs pour cette leçon — voir docs/LESSON_PIPELINE.md."
+    }
+  ],
+  "illustrations": {},
+  "blockFlags": {},
+  "exerciseFlags": {
+    "4": [
+      "unintroduced-letters"
+    ],
+    "5": [
+      "unintroduced-letters"
+    ],
+    "14": [
+      "unintroduced-letters"
+    ]
+  },
+  "contentOverrides": {
+    "blocks": {
+      "0": "Heth (ח) : lettre hébraïque, son et exemples",
+      "1": "Het (ח) est la huitième lettre de l'alphabet hébreu. Dans la prononciation courante de l'hébreu moderne, elle produit un son proche du « ch » de l'allemand « Bach » ou de l'écossais « loch ». Fais passer l'air de façon continue dans un passage étroit à l'arrière de la bouche. Dans les transcriptions de cette leçon, kh désigne ce son ; il ne se lit pas comme le « ch » français de « chat ».",
+      "5": "Le mot אָח [akh] signifie « frère » et se prononce en une seule syllabe. Le Kamats Gadol sous Alef (אָ) donne [a], et Het (ח) donne le son noté [kh]. Dans ce mot, il n'y a pas de signe vocalique sous Het.",
+      "7": "Le mot חַג [khag] signifie « fête » et se prononce en une seule syllabe. Il comporte deux lettres : Het (ח) et Guimel (ג). Het avec un Patah (חַ) se lit [kha]. Guimel donne [g], comme dans « gare ». Ensemble, les deux lettres forment [khag]."
+    },
+    "transcriptions": {
+      "4": "akh",
+      "6": "khag"
+    },
+    "choices": {
+      "0": [
+        "[kh] comme dans « Bach »",
+        "[h] comme dans le mot anglais « hat »",
+        "[t] comme dans « top »"
+      ],
+      "1": [
+        "[kha]",
+        "[akh]",
+        "[khah]",
+        "[hkha]"
+      ],
+      "5": [
+        "Un [h] soufflé",
+        "Un [kh] guttural",
+        "Un [n] nasal"
+      ],
+      "14": [
+        "[kha]",
+        "[ah]",
+        "[akh]"
+      ]
+    },
+    "exercises": {
+      "0": {
+        "tip": "Het se prononce avec un son guttural [kh], semblable au « ch » de l'allemand « Bach » ou de l'écossais « loch ».",
+        "correctAnswer": "[kh] comme dans « Bach »"
+      },
+      "1": {
+        "tip": "Avec un Patah furtif, [a] se prononce avant le Het final : la finale se lit [akh]. Par exemple, כּוֹחַ [ko-akh] signifie « force ».",
+        "correctAnswer": "[akh]"
+      },
+      "5": {
+        "correctAnswer": "Un [kh] guttural"
+      },
+      "6": {
+        "content": "Dans le mot אָח, l'Alef porte-t-elle le son [a] tandis que Het produit le son guttural [kh] ?",
+        "tip": "Dans אָח, le Kamats Gadol sous Alef donne [a], et Het donne [kh]. Ensemble, on lit [akh]."
+      },
+      "7": {
+        "tip": "Le Patah représente [a]. Dans חַג [khag], il se lit après Het : [kha]. Avec un Patah furtif sous un Het final, la voyelle se lit avant la consonne : [akh]."
+      },
+      "11": {
+        "tip": "Het représente le son guttural noté [kh], comme dans l'allemand « Bach ». Le [k] de « café » est un autre son."
+      },
+      "12": {
+        "content": "Que signifie le mot אָח [akh] ?"
+      },
+      "14": {
+        "tip": "Dans כּוֹחַ [ko-akh], « force », le Patah se prononce avant Het. La finale se lit [akh] : [a], puis le son de Het noté [kh].",
+        "correctAnswer": "[akh]"
+      }
+    }
+  },
+  "stageMap": {
+    "theory": [
+      0,
+      1
+    ],
+    "examples": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "copy": {
+    "theory": {
+      "heading": "Découvre Het",
+      "intro": "La huitième lettre de l'alphabet hébreu. Heth (Het) produit un son guttural [kh], comme dans l'allemand « Bach » ou l'écossais « loch » : l'air passe en continu dans un passage étroit à l'arrière de la bouche.",
+      "objectivesHeading": "Ce que tu vas apprendre",
+      "objectives": [
+        "Reconnaître Het : <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ח</bdi>.",
+        "Entendre son son guttural [kh], comme dans « Bach ».",
+        "Lire Het dans de vrais mots comme <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">אָח</bdi> (frère)."
+      ],
+      "secondSectionHeading": "Comment se prononce Het",
+      "thirdSectionHeading": "Mots à pratiquer"
+    },
+    "examples": {
+      "heading": "Het dans de vrais mots",
+      "intro": "Découvre Het dans deux nouveaux mots hébreux, et révise les signes vocaliques Ségol, Holam Male et Shourouk vus avec les lettres précédentes."
+    }
+  },
+  "holdOuts": {
+    "blocks": [
+      {
+        "sourceIndex": 2,
+        "reason": "Type de bloc d'étude STRIPED_BLOCK non pris en charge (l'explication du Patah furtif) — reconnu par le contrat source, mais StudyBlock.astro n'a pas de rendu pour STRIPED_BLOCK. Le concept de Patah furtif reste enseigné de façon autonome dans les questions 2 et 15."
+      }
+    ],
+    "exercises": []
+  },
+  "source": {
+    "rawSnapshotPath": ".local/alphabet-course-imports/v1/2026-10-19T14-27-18-905Z-bdf614-fr/raw/lesson-8.raw.json",
+    "sha256": "beaa0f3754d1795dc6146cc76e8e803615868e5c048bba561d8ad7533747ab5d",
+    "responseDate": "2026-10-19T14:27:22.664Z"
+  }
+}

@@ -123,6 +123,18 @@ changing a prompt and its answer key in the same edit. See
 `docs/hebrew-alphabet-editorial-rules.md` for the course-wide editorial rules
 these corrections typically enforce.
 
+Two narrower overrides cover fields the above don't reach: `transcriptions`
+(keyed by a `WORD_EXAMPLE` block's `sourceIndex`) replaces that block's
+`transcription` field, and `choices` (keyed by a choice exercise's
+`sourceIndex`) replaces its whole `choices` array — a correction to a
+multiple-choice exercise's answer key is otherwise blocked when the bad text
+sits inside `choices` rather than `content`/`tip`/`correctAnswer` alone (the
+`correctAnswer` override still has to name one of the replacement `choices`
+exactly, so patch both together). Added for FR Chet/Het, where the FR
+transliteration rule (`kh` for the guttural sound, never `ch` — see
+`docs/hebrew-alphabet-editorial-rules.fr.md`) landed on exactly these two
+fields in both vocabulary `WORD_EXAMPLE`s and several exercises' `choices`.
+
 Stage-map (`stageMap.theory`/`stageMap.examples`) and holdout entries key
 off a block/exercise's raw `sourceIndex`, not its position in the
 normalized `blocks`/`exercises` array — the two only coincide when nothing
