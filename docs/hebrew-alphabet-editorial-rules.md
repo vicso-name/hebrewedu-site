@@ -71,6 +71,14 @@ already drops all raw media fields, but a `WORD_EXAMPLE` block whose
 only point is to attach that audio should be held out rather than
 republished without it.
 
+## "Final" means a final form, not word-final position
+
+Don't write "final <Letter>" for a letter that merely sits at the end of a
+word: the course teaches the five final forms (ך ם ן ף ץ) as distinct
+letter shapes, so "Final Chet" reads as a form Chet doesn't have. Say "<Letter>
+at the end of the word" instead (owner decision, Chet review 2026-10-23).
+Keep "final" for the five letters that really have a final form.
+
 ## Title pattern
 
 Lesson title tags follow `<Letter> Hebrew Letter (<glyph>): <topic>` —

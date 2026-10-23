@@ -146,6 +146,10 @@ Zayin (ז) is one of the more straightforward letters: it consistently represent
 
 → [Practice Zayin in the Hebrew Alphabet Course](/learn/hebrew-alphabet/zayin/)
 
+Chet (ח) is often the first sound English speakers have to practise: in modern Hebrew it sounds like the ch in German "Bach," not the ch in English "chair." At the end of a word, a Patah under it is read before the letter, as in כּוֹחַ [ko-ach], "strength."
+
+→ [Practice Chet in the Hebrew Alphabet Course](/learn/hebrew-alphabet/chet/)
+
 ## The Five Final Letters
 
 Five Hebrew letters have a different written form when they appear at the **end of a word**. These are called *sofit* forms (סופית — “final”). The shape change is different for each pair.
