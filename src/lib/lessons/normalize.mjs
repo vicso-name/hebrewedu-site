@@ -42,6 +42,13 @@ export function proposeStageMap(raw, overrides = {}) {
 function applyContentOverride(item, overrideText, field) {
   return overrideText === undefined ? item : { ...item, [field]: overrideText };
 }
+// Two narrower override paths beyond contentOverrides.blocks/exercises above: a
+// WORD_EXAMPLE's `transcription` field (contentOverrides.transcriptions, keyed by
+// block sourceIndex) and a choice exercise's `choices` array (contentOverrides.choices,
+// keyed by exercise sourceIndex, full replacement array). Needed because the raw
+// translation/content/tip/correctAnswer fields above don't cover every text-bearing
+// field a correction might touch (e.g. a transliteration convention fix) — see
+// docs/LESSON_PIPELINE.md.
 // An exercise override may patch the prompt (`content`), the explanation (`tip`)
 // and/or the TRUE_FALSE answer key (`correctAnswer`) together, since correcting an
 // absolute claim often means changing the prompt and the answer in the same edit.
@@ -54,6 +61,38 @@ function applyExerciseOverride(item, override) {
     ...(tip !== undefined ? { tip } : {}),
     ...(correctAnswer !== undefined ? { additionalData: { ...item.additionalData, correctAnswer } } : {}),
   };
+}
+
+// Finds overrides whose value now equals the current raw source value — a sign the
+// upstream source (the admin) was fixed and the override is now dead weight. Doesn't
+// fail anything; the caller (scripts/normalize-lesson.mjs) just warns so overrides get
+// cleaned up after an admin-side correction (see docs/lessons/fr-translit-fixes.md).
+export function findRedundantOverrides(raw, overrides = {}) {
+  const redundant = [];
+  const blockTextField = type => type === 'MAIN_TITLE' ? 'title' : type === 'WORD_EXAMPLE' ? 'translation' : 'content';
+  for (const [key, value] of Object.entries(overrides.contentOverrides?.blocks ?? {})) {
+    const item = raw.studyMaterials[Number(key)];
+    if (item && value === item[blockTextField(item.type)]) redundant.push(`contentOverrides.blocks["${key}"]`);
+  }
+  for (const [key, value] of Object.entries(overrides.contentOverrides?.transcriptions ?? {})) {
+    const item = raw.studyMaterials[Number(key)];
+    if (item?.type === 'WORD_EXAMPLE' && value === item.transcription) redundant.push(`contentOverrides.transcriptions["${key}"]`);
+  }
+  for (const [key, value] of Object.entries(overrides.contentOverrides?.choices ?? {})) {
+    const item = raw.exercises[Number(key)];
+    const current = item?.additionalData?.choices;
+    if (current && Array.isArray(value) && current.length === value.length && current.every((c, i) => c === value[i])) {
+      redundant.push(`contentOverrides.choices["${key}"]`);
+    }
+  }
+  for (const [key, override] of Object.entries(overrides.contentOverrides?.exercises ?? {})) {
+    const item = raw.exercises[Number(key)];
+    if (!item) continue;
+    if (override.content !== undefined && override.content === item.content) redundant.push(`contentOverrides.exercises["${key}"].content`);
+    if (override.tip !== undefined && override.tip === item.tip) redundant.push(`contentOverrides.exercises["${key}"].tip`);
+    if (override.correctAnswer !== undefined && override.correctAnswer === item.additionalData?.correctAnswer) redundant.push(`contentOverrides.exercises["${key}"].correctAnswer`);
+  }
+  return redundant;
 }
 
 export function normalizeLesson(rawInput, identity, overrides) {
@@ -84,7 +123,7 @@ export function normalizeLesson(rawInput, identity, overrides) {
       id: `${identity.slug}-block-${sourceIndex + 1}`, sourceIndex, type: item.type,
       text: nfc(item.type === 'MAIN_TITLE' ? item.title : item.type === 'WORD_EXAMPLE' ? item.translation : item.content),
       reviewFlags: overrides.blockFlags?.[String(sourceIndex)] ?? [],
-      ...(item.type === 'WORD_EXAMPLE' ? { word: nfc(item.word), transcription: nfc(item.transcription) } : {}),
+      ...(item.type === 'WORD_EXAMPLE' ? { word: nfc(item.word), transcription: nfc(overrides.contentOverrides?.transcriptions?.[String(sourceIndex)] ?? item.transcription) } : {}),
       ...(item.type === 'TEXT_IMAGE' ? { illustration: { ...overrides.illustrations[String(sourceIndex)], mediaStatus: 'withheld-pending-review' } } : {}),
     }));
   if (blocks.length !== raw.studyMaterials.length - heldOutBlocks.size) throw new Error('Normalized block count does not match the raw source');
@@ -102,7 +141,8 @@ export function normalizeLesson(rawInput, identity, overrides) {
         return { id, sourceId: item.id, type: item.type, prompt: nfc(item.content), explanation: nfc(item.tip), pairs, reviewFlags };
       }
       const isBoolean = item.type === 'TRUE_FALSE';
-      const labels = isBoolean ? ['True', 'False'] : item.additionalData.choices.map(nfc);
+      const choicesOverride = overrides.contentOverrides?.choices?.[String(sourceIndex)];
+      const labels = isBoolean ? ['True', 'False'] : (choicesOverride ?? item.additionalData.choices).map(nfc);
       const answerIndex = isBoolean ? (item.additionalData.correctAnswer === 'true' ? 0 : 1) : labels.indexOf(nfc(item.additionalData.correctAnswer));
       if (answerIndex < 0) throw new Error(`No answer match for ${item.id}`);
       return {

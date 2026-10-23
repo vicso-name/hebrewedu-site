@@ -7,7 +7,7 @@
 import { readFile, writeFile, rename, readdir, mkdir } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { resolve, dirname } from 'node:path';
-import { normalizeLesson, findUnsupportedItems, proposeStageMap } from '../src/lib/lessons/normalize.mjs';
+import { normalizeLesson, findUnsupportedItems, proposeStageMap, findRedundantOverrides } from '../src/lib/lessons/normalize.mjs';
 import { identityForSlug } from '../src/lib/lessons/identity.mjs';
 import { hasLessonOverrides, loadLessonOverrides } from '../src/lib/lessons/editorial.mjs';
 import { parseJSONBytes } from './alphabet-course/json.mjs';
@@ -65,12 +65,14 @@ if (hasLessonOverrides(slug, locale)) {
   }
   const raw = parseJSONBytes(bytes);
   const unsupported = findUnsupportedItems(raw, overrides);
+  const redundant = findRedundantOverrides(raw, overrides);
 
   if (dryRun) {
     report(`${slug} (${locale}): unsupported study blocks`, unsupported.blocks.map(item => `#${item.sourceIndex} (${item.type})${item.heldOut ? ` — held out: ${item.reason}` : ' — NOT held out, write mode would fail'}`));
     report(`${slug} (${locale}): unsupported exercises`, unsupported.exercises.map(item => `#${item.sourceIndex} (${item.type})${item.heldOut ? ` — held out: ${item.reason}` : ' — NOT held out, write mode would fail'}`));
     const configured = overrides.stageMap ?? { theory: [], examples: [] };
     report(`${slug} (${locale}): configured stage map`, [`theory: [${configured.theory.join(', ')}]`, `examples: [${configured.examples.join(', ')}]`]);
+    if (redundant.length) report(`${slug} (${locale}): WARNING — override now redundant, remove`, redundant);
     process.exit(0);
   }
 
@@ -80,6 +82,7 @@ if (hasLessonOverrides(slug, locale)) {
   await writeFile(staged, `${JSON.stringify(lesson, null, 2)}\n`);
   await rename(staged, contentDestination);
   console.log(`Validated ${lesson.blocks.length} study blocks and ${lesson.exercises.length} exercises; raw/media fields excluded.`);
+  if (redundant.length) report(`${slug} (${locale}): WARNING — override now redundant, remove`, redundant);
 } else {
   if (!dryRun) throw new Error(`${slug} (${locale}): no editorial data file — write mode needs editorial overrides. Run with --dry-run to explore the raw source first.`);
   const rawPath = rawPathArg ?? await newestRawSnapshot(identity.sourceId, locale);
