@@ -3,3 +3,16 @@ timestamp,endpoint,params_summary,cost_usd,cache_file
 2026-10-23T12:46:59.124Z,/v3/dataforseo_labs/google/keyword_suggestions/live,suggestions "hebrew game" limit 100 US/en,0,failed 40200
 2026-10-23T12:46:59.197Z,/v3/dataforseo_labs/google/keyword_suggestions/live,suggestions "hebrew games" limit 100 US/en,0,failed 40200
 2026-10-23T12:46:59.319Z,/v3/dataforseo_labs/google/keyword_suggestions/live,suggestions "aleph bet game" limit 100 US/en,0,failed 40200
+2026-10-23T12:52:13.213Z,/v1/seo/keywords/ideas,"ideas ""hebrew game"" us/en",0.0500,games ideas seed hebrew game
+2026-10-23T12:52:13.574Z,/v1/seo/keywords/ideas,"ideas ""hebrew games"" us/en",0.0500,games ideas seed hebrew games
+2026-10-23T12:52:13.850Z,/v1/seo/keywords/ideas,"ideas ""aleph bet game"" us/en",0.0400,games ideas seed aleph bet game
+2026-10-23T12:52:33.929Z,/v1/serp/google,"serp ""hebrew wordle"" us/en depth 10",0.0100,games serp hebrew wordle
+2026-10-23T12:52:38.321Z,/v1/serp/google,"serp ""hebrew games"" us/en depth 10",0.0100,games serp hebrew games
+2026-10-23T12:52:51.085Z,/v1/serp/google,"serp ""hebrew game"" us/en depth 10",0.0100,games serp hebrew game
+2026-10-23T12:52:55.380Z,/v1/serp/google,"serp ""hebrew flashcards"" us/en depth 10",0.0100,games serp hebrew flashcards
+2026-10-23T12:53:07.966Z,/v1/serp/google,"serp ""hebrew reading practice"" us/en depth 10",0.0100,games serp hebrew reading practice
+2026-10-23T12:53:11.803Z,/v1/serp/google,"serp ""nikud"" us/en depth 10",0.0100,games serp nikud
+2026-10-23T12:53:15.534Z,/v1/serp/google,"serp ""hebrew crossword"" us/en depth 10",0.0100,games serp hebrew crossword
+2026-10-23T12:53:18.582Z,/v1/serp/google,"serp ""hebrew word search"" us/en depth 10",0.0100,games serp hebrew word search
+2026-10-23T12:53:23.206Z,/v1/serp/google,"serp ""hebrew alphabet game"" us/en depth 10",0.0100,games serp hebrew alphabet game
+2026-10-23T12:53:26.982Z,/v1/serp/google,"serp ""hebrew alphabet games"" us/en depth 10",0.0100,games serp hebrew alphabet games

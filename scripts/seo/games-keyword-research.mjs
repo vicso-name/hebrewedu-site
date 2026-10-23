@@ -3,6 +3,11 @@
 //   node scripts/seo/games-keyword-research.mjs volume    # one Google Ads volume batch
 //   node scripts/seo/games-keyword-research.mjs suggest   # Labs suggestions for 3 seeds
 //   node scripts/seo/games-keyword-research.mjs serp      # top-10 SERPs by volume
+//   node scripts/seo/games-keyword-research.mjs yep-ideas # YepAPI ideas for the 3 seeds
+//   node scripts/seo/games-keyword-research.mjs yep-serp  # YepAPI top-10 SERPs by volume
+//
+// The DataForSEO Labs/SERP steps hit 40200 (balance below zero), so the owner
+// pointed the rest of the same $1 cap at YepAPI.
 //
 // Every response is cached by a hash of its request body (responses/, gitignored:
 // it may carry account identifiers), so re-running never pays twice. Every paid
@@ -13,6 +18,7 @@ import { mkdir, readFile, writeFile, appendFile } from 'node:fs/promises';
 import { existsSync, readFileSync } from 'node:fs';
 import { homedir } from 'node:os';
 import { resolve } from 'node:path';
+import { createCaller, serpPricing } from './yepapi-client.mjs';
 
 const ROOT = resolve(new URL('../..', import.meta.url).pathname);
 const OUT = resolve(ROOT, 'docs/seo/research/games/2026-10-23');
@@ -125,9 +131,53 @@ async function serp() {
   console.log(`serp: ${out.length} keywords, spent ${spent().toFixed(4)}`);
 }
 
+// $0.03 per call + $0.03 per 100 ideas returned, rounded up to the cent.
+const ideasPricing = {
+  worstCase: 0.1,
+  price: (data) => Math.ceil((0.03 + 0.03 * ((data.keywords?.length ?? 0) / 100)) * 100) / 100,
+};
+const yep = () => createCaller({ capUsd: CAP_USD, cacheDir: CACHE, ledger: LEDGER, spentUsd: spent() });
+
+async function yepIdeas() {
+  const caller = yep();
+  const out = [];
+  for (const seed of SEEDS) {
+    const body = { keyword: seed, location: 'us', language: 'en' };
+    const { data } = await caller.call('/v1/seo/keywords/ideas', body,
+      { note: `games ideas seed ${seed}`, paramsSummary: `ideas "${seed}" us/en`, estimateCost: ideasPricing });
+    for (const k of data.keywords ?? []) {
+      out.push({ seed, keyword: k.keyword, volume: k.volume ?? k.searchVolume ?? null, kd: k.difficulty ?? null, intent: k.intent ?? null });
+    }
+  }
+  await writeFile(resolve(OUT, 'ideas.json'), JSON.stringify(out, null, 2) + '\n');
+  console.log(`yep-ideas: ${out.length} rows, spent ${spent().toFixed(4)}`);
+}
+
+async function yepSerp() {
+  const caller = yep();
+  const vol = JSON.parse(await readFile(resolve(OUT, 'volume.json'), 'utf8'));
+  const top = vol.filter((r) => r.volume).sort((a, b) => b.volume - a.volume).slice(0, 10);
+  const out = [];
+  for (const { keyword, volume: v } of top) {
+    const body = { query: keyword, location: 'us', language: 'en', depth: 10 };
+    const { data } = await caller.call('/v1/serp/google', body,
+      { note: `games serp ${keyword}`, paramsSummary: `serp "${keyword}" us/en depth 10`, estimateCost: serpPricing(10) });
+    const organic = (data.results ?? []).filter((r) => r.type === 'organic');
+    out.push({
+      keyword, volume: v,
+      hebrewedu: organic.findIndex((r) => r.domain?.includes('hebrewedu.com')) + 1 || null,
+      top: organic.slice(0, 10).map((r, i) => ({ rank: i + 1, domain: r.domain, title: r.title })),
+    });
+  }
+  await writeFile(resolve(OUT, 'serp.json'), JSON.stringify(out, null, 2) + '\n');
+  console.log(`yep-serp: ${out.length} keywords, spent ${spent().toFixed(4)}`);
+}
+
 const cmd = process.argv[2];
 await mkdir(OUT, { recursive: true });
 if (cmd === 'volume') await volume();
 else if (cmd === 'suggest') await suggest();
 else if (cmd === 'serp') await serp();
-else { console.error('usage: volume | suggest | serp'); process.exit(1); }
+else if (cmd === 'yep-ideas') await yepIdeas();
+else if (cmd === 'yep-serp') await yepSerp();
+else { console.error('usage: volume | suggest | serp | yep-ideas | yep-serp'); process.exit(1); }
