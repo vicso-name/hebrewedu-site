@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="robots" content="noindex, follow" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="light" />
+    <meta name="theme-color" content="#cfe2ec" />
+    <title>Hebrew Crossword</title>
+    <style>:root{--boot-bg:#f6ead2;--boot-sky-top:#cfe2ec;--boot-text:#1e2a47;--boot-text-muted:#56607a;--boot-surface:#fbf6ec;--boot-sunken:#efe5d0;--boot-disabled:#e4dccd;--boot-accent:#a84b2a;--boot-accent-text:#fff;--boot-board:#d6c4a0;--boot-cell:#fffdf7;--boot-cell-line:#8c8170;--boot-cursor:#ebc560;--boot-scrim:#2e221480}html,body,#game-root{background:var(--boot-bg);width:100%;height:100%;margin:0;overflow:hidden}html,body{overscroll-behavior:none;touch-action:manipulation}body{color:var(--boot-text);font-family:Rubik,Arial,Helvetica,sans-serif}canvas{display:block}#boot-loader{z-index:10;box-sizing:border-box;background:linear-gradient(var(--boot-sky-top) 0%, var(--boot-bg) 70%, var(--boot-bg) 100%);opacity:1;flex-direction:column;align-items:center;padding:26vh 24px 0;transition:opacity .25s;display:flex;position:fixed;inset:0}#boot-loader[data-state=ready]{opacity:0;pointer-events:none}#boot-progress,#boot-error{box-sizing:border-box;background:var(--boot-surface);text-align:center;border-radius:16px;flex-direction:column;gap:14px;width:100%;max-width:320px;padding:24px;display:flex;box-shadow:0 6px 20px #2e221433}@media (min-width:1000px){#boot-loader{padding-top:22vh}#boot-progress,#boot-error{max-width:440px}.boot-title{font-size:36px;line-height:42px}}.boot-tiles{background:var(--boot-board);direction:rtl;border-radius:8px;justify-content:center;align-self:center;gap:4px;padding:4px;display:flex}.boot-tile{background:var(--boot-cell);width:40px;height:40px;box-shadow:inset 0 0 0 1px var(--boot-cell-line);color:var(--boot-text);border-radius:5px;place-items:center;font:600 22px/1 Rubik,Arial,sans-serif;display:grid}.boot-tile.is-cursor{background:var(--boot-cursor);box-shadow:inset 0 0 0 2px var(--boot-text)}.boot-title{color:var(--boot-text);margin:0;font:700 28px/34px Rubik,Arial,Helvetica,sans-serif}.boot-track{background:var(--boot-sunken);border-radius:4px;height:8px;overflow:hidden}.boot-track i{background:var(--boot-accent);border-radius:4px;width:40%;height:100%;animation:1.4s ease-in-out infinite boot-track;display:block}@keyframes boot-track{0%{transform:translate(-100%)}to{transform:translate(250%)}}.boot-caption{color:var(--boot-text-muted);margin:0;font:500 13px/18px Rubik,Arial,Helvetica,sans-serif}#boot-error{align-items:center;display:none}#boot-error p{color:var(--boot-text);margin:0}#boot-retry{background:var(--boot-accent);min-height:48px;color:var(--boot-accent-text);cursor:pointer;border:none;border-radius:12px;padding:0 24px;font:600 16px Rubik,Arial,Helvetica,sans-serif}#boot-loader[data-state=error] #boot-progress{display:none}#boot-loader[data-state=error] #boot-error{display:flex}@media (prefers-reduced-motion:reduce){.boot-track i{width:100%;animation:none}}</style>
+    <script type="module" crossorigin src="./assets/index-e-pb-1UD.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DmyFLFHT.css">
+  </head>
+  <body>
+    <main id="game-root" aria-label="HebrewEdu learning game"></main>
+    <div id="boot-loader" role="status" aria-live="polite" data-state="loading">
+      <div id="boot-progress">
+        <div class="boot-tiles" lang="he" dir="rtl" aria-hidden="true">
+          <span class="boot-tile">ת</span>
+          <span class="boot-tile">ש</span>
+          <span class="boot-tile">ב</span>
+          <span class="boot-tile is-cursor">ץ</span>
+        </div>
+        <p class="boot-title">Hebrew Crossword</p>
+        <div class="boot-track" aria-hidden="true"><i></i></div>
+        <p class="boot-caption">Loading words and audio</p>
+      </div>
+      <div id="boot-error">
+        <p>Couldn't load the game</p>
+        <button id="boot-retry" type="button">Try again</button>
+      </div>
+    </div>
+  </body>
+</html>

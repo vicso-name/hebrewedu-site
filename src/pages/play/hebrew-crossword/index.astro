@@ -1,0 +1,167 @@
+---
+import Faq from '../../../components/Faq.astro';
+import Layout from '../../../layouts/Layout.astro';
+import Nav from '../../../components/Nav.astro';
+import Footer from '../../../components/Footer.astro';
+import Section from '../../../components/ui/Section.astro';
+import FeatureGrid, { type FeatureItem } from '../../../components/ui/FeatureGrid.astro';
+import LearningMosaic, { type LearningItem } from '../../../components/play/LearningMosaic.astro';
+import CtaPanel from '../../../components/ui/CtaPanel.astro';
+import StoreButtons from '../../../components/ui/StoreButtons.astro';
+import '../../../styles/home.css';
+import '../../../styles/play.css';
+
+const howItWorks = [
+  { icon: 'target', title: 'Read the clue, hear the word', description: 'Every clue is an English word with native-speaker audio. New words get a preview card first, with the Hebrew spelling and full niqqud.' },
+  { icon: 'book', title: 'Type it right to left', description: 'Across answers start at the numbered cell on the right and run left; down answers run top to bottom. Type on the on-screen Hebrew keyboard, laid out in alphabetical order.' },
+  { icon: 'repeat', title: 'Let the crossings help', description: 'A word is checked as soon as it is full. Correct words lock in with their niqqud and audio; wrong letters are marked so you can fix them, and every crossing letter is a clue.' },
+] satisfies FeatureItem[];
+
+const whyItWorks = [
+  {
+    title: 'Recall From Meaning',
+    description: ['There are no letter tiles to choose from: you see the English, hear the Hebrew and write the word yourself. That is the step after recognising a word and after building it from given letters.'],
+  },
+  {
+    title: 'Crossings Check Your Spelling',
+    description: ['Shared letters confirm a guess or show where it went wrong. A crossword gives you feedback on every letter without ever just telling you the answer.'],
+  },
+  {
+    title: 'Final Forms in Context',
+    description: ['The five final letters ך ם ן ף ץ only appear at the end of a word, and the keyboard has them on their own row. Type a regular letter in a final position and the game tells you this letter has a final form there.'],
+  },
+  {
+    title: 'No Hearts, No Timer',
+    description: ['A crossword is for thinking, so nothing is lost for a wrong guess. Check word and Reveal letter are free and unlimited; solving without reveals earns three stars.'],
+  },
+] satisfies [LearningItem, LearningItem, LearningItem, LearningItem];
+
+const url = 'https://hebrewedu.com/play/hebrew-crossword/';
+const hebrewWordBuilderUrl = 'https://hebrewedu.com/play/hebrew-word-builder/';
+const hebrewWordSearchUrl = 'https://hebrewedu.com/play/hebrew-word-search/';
+const playUrl = 'https://hebrewedu.com/play/';
+
+const faqItems = [
+  { q: 'Is Hebrew Crossword free?', a: 'Yes. It runs in your browser with no account, download or payment, and there are no coins or paid hints.' },
+  { q: 'I don\'t have a Hebrew keyboard. Can I still play?', a: 'Yes. The game has its own on-screen Hebrew keyboard in alphabetical order, on phones and computers. If your computer already has a Hebrew keyboard layout, you can type with it too.' },
+  { q: 'Do I need to already read Hebrew?', a: 'You should know the Hebrew letters and a few first words. If you are starting from zero, try Alef Bet Rush or Hebrew Mahjong first, then Hebrew Word Search and Hebrew Word Builder.' },
+  { q: 'How many words are in the crosswords?', a: 'Each mini crossword has 5 to 7 words, drawn from 184 everyday Hebrew words across 13 themes, each with native-speaker audio and niqqud. Your first puzzle is a short one with 4 words.' },
+  { q: 'Are the answers written with niqqud?', a: 'The grid uses plain letters, as Hebrew crosswords do. Each word appears with full niqqud on its preview card and in the clue list once you solve it.' },
+  { q: 'What if I get stuck?', a: 'Use Check word to mark wrong letters, or Reveal letter to fill one cell. Both are free and unlimited, and there are no hearts to lose, so every puzzle ends in a finished grid.' },
+];
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    { '@type': 'WebPage', '@id': url, url, name: 'Hebrew Crossword: Mini Crossword Puzzles for Hebrew Learners' },
+    {
+      '@type': ['VideoGame', 'WebApplication'],
+      name: 'Hebrew Crossword',
+      url,
+      applicationCategory: 'EducationalApplication',
+      operatingSystem: 'Web',
+      isAccessibleForFree: true,
+      educationalLevel: 'Beginner',
+      inLanguage: 'en',
+      offers: { '@type': 'Offer', price: 0, priceCurrency: 'USD' },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: ['Home', 'Play', 'Hebrew Crossword'].map((name, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name,
+        item: ['https://hebrewedu.com/', playUrl, url][i],
+      })),
+    },
+  ],
+};
+---
+<Layout title="Hebrew Crossword – Free Mini Crossword Puzzles Online" description="Solve mini Hebrew crosswords: English clues with audio, Hebrew answers typed right to left. 184 everyday words in 13 themes. Free, no sign-up." schema={schema}>
+  <link slot="head" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" />
+  <div class="home-page play-page">
+    <Nav />
+    <main>
+      <section class="play-hero">
+        <div class="container">
+          <nav class="play-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/play/">Play</a> / Hebrew Crossword</nav>
+          <div class="play-copy">
+            <p class="home-eyebrow">Hebrew crossword puzzle</p>
+            <h1 class="home-h1">Hebrew Crossword: Mini Puzzles for Hebrew Learners</h1>
+            <p class="home-lead">English clues with audio, Hebrew answers written right to left. Solve short crosswords built from 184 everyday words across 13 themes, with native-speaker audio and niqqud.</p>
+            <a class="btn btn-primary play-launch" href="/play/hebrew-crossword/game/">Play Free Now</a>
+            <p class="play-hero-note">No download, no account. Works on phone and computer, with a built-in Hebrew keyboard.</p>
+          </div>
+        </div>
+      </section>
+
+      <Section surface="soft">
+        <div class="play-section">
+          <h2 class="home-h2">A Hebrew Crossword Made for Learners</h2>
+          <p>Hebrew Crossword is a free hebrew crossword puzzle game you play online: every clue is an English word you can listen to, and every answer is a real Hebrew word you type into the grid, right to left. The puzzles are small, 5 to 7 words, so one takes a few minutes.</p>
+          <p>Each puzzle mixes words you are still learning with a couple of new ones, and new words get a preview card before you start. For background reading alongside the game, see our <a href="/blog/hebrew-alphabet-complete-guide/">Hebrew alphabet guide</a>.</p>
+        </div>
+        <h3 class="play-subsection-title">How Hebrew Crossword Works</h3>
+        <FeatureGrid items={howItWorks} headingLevel="h4" />
+      </Section>
+
+      <Section>
+        <h2 class="home-h2 play-why-heading">Why It Works</h2>
+        <LearningMosaic items={whyItWorks} />
+      </Section>
+
+      <Section surface="soft">
+        <div class="play-section">
+          <h2 class="home-h2">What You'll Learn</h2>
+          <p>Hebrew Crossword draws on 184 everyday Hebrew words across 13 themes, from family and food to weather and transport. You pick a theme on the home screen; Family, with its short words, is marked as the place to start. Every word has native-speaker audio and is shown with full niqqud once you solve it.</p>
+          <p><strong>This game assumes you already know the Hebrew letters.</strong> If you're still learning them, start with Alef Bet Rush or Hebrew Mahjong, then continue with grammar and sentence-level reading in the HebrewEdu app.</p>
+        </div>
+      </Section>
+
+      <Section>
+        <div class="play-section">
+          <h2 class="home-h2">Who It's For</h2>
+          <p>Hebrew Crossword is for adults and teens who can read the Hebrew letters and want to practise writing real words from memory, for bar and bat mitzvah students, and for anyone learning modern Hebrew. It uses the same word list as <a href={hebrewWordSearchUrl}>Hebrew Word Search</a> and <a href={hebrewWordBuilderUrl}>Hebrew Word Builder</a>: find a word's shape there, build it from tiles, then write it here from memory.</p>
+        </div>
+      </Section>
+
+      <Faq title="Frequently Asked Questions" items={faqItems} />
+
+      <CtaPanel compact>
+        <h2 class="home-h2">Continue Learning Hebrew</h2>
+        <p class="home-lead">After your first crosswords, continue with grammar, sentences and beginner reading in the HebrewEdu app.</p>
+        <StoreButtons location="hebrew_crossword_continue" />
+      </CtaPanel>
+    </main>
+    <Footer />
+  </div>
+</Layout>
+
+<style>
+  .play-subsection-title {
+    margin-top: var(--space-lg);
+    margin-bottom: var(--space-md);
+    font-family: var(--font-display);
+    font-size: clamp(1.75rem, 2.2vw, 2rem);
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: var(--home-text-primary);
+  }
+
+  .play-why-heading {
+    margin-bottom: var(--space-md);
+  }
+
+  .play-launch {
+    min-height: 56px;
+    padding-inline: var(--space-md);
+    justify-content: center;
+  }
+
+  .play-hero-note {
+    margin-top: var(--space-xs-plus);
+    font-size: 0.9375rem;
+    color: var(--home-text-tertiary);
+  }
+</style>

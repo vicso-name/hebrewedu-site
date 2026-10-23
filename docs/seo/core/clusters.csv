@@ -117,4 +117,5 @@ fr-blog-erreurs--erreurs-apprendre-hebreu,FR Blog — Erreurs pour apprendre l'h
 fr-blog-jeux--jeux-educatifs-langues,FR Blog — Jeux éducatifs de langue,jeu éducatif langue,,,https://hebrewedu.com/fr/blog/jeux-educatifs-langues/,published,no,
 fr-blog-histoire--histoire-de-lapplication,FR Blog — Histoire de l'application,application pour apprendre l'hébreu,40,0,https://hebrewedu.com/fr/blog/histoire-de-lapplication/,published,no,
 hebrew-word-builder-game-provisional,Hebrew word builder game (provisional),hebrew spelling game,,,https://hebrewedu.com/play/hebrew-word-builder/,candidate,no,Do not target hebrew vocabulary game (primary of hebrew-word-search-game-provisional).
-hebrew-game-ideas-unvalidated,Hebrew game ideas (unvalidated),hebrew wordle,1310,,,candidate,yes,Backlog of game queries with no page yet; pick the next game from here.
+hebrew-game-ideas-unvalidated,Hebrew game ideas (unvalidated),hebrew wordle,1140,,,candidate,yes,Backlog of game queries with no page yet; pick the next game from here.
+hebrew-crossword-game,Hebrew crossword game,hebrew crossword,170,,https://hebrewedu.com/play/hebrew-crossword/,published,yes,Do not target hebrew games (/play/ hub) or hebrew word search (Word Search).

@@ -14,6 +14,7 @@
     "sync:hebrew-mahjong": "node scripts/sync-game.mjs hebrew-mahjong",
     "sync:hebrew-word-search": "node scripts/sync-game.mjs hebrew-word-search",
     "sync:hebrew-word-builder": "node scripts/sync-game.mjs hebrew-word-builder",
+    "sync:hebrew-crossword": "node scripts/sync-game.mjs hebrew-crossword",
     "test:game-messages": "node scripts/test-game-messages.mjs",
     "seo:build": "node scripts/seo/build-core.mjs"
   },

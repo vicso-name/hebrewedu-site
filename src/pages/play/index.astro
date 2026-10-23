@@ -42,7 +42,9 @@ const learningTopics = [
       { text: 'Hebrew Word Search', href: '/play/hebrew-word-search/' },
       ' teaches you to recognise them, and ',
       { text: 'Hebrew Word Builder', href: '/play/hebrew-word-builder/' },
-      ' to spell them right to left.',
+      ' to spell them right to left, and ',
+      { text: 'Hebrew Crossword', href: '/play/hebrew-crossword/' },
+      ' to write them from memory.',
     ],
   },
 ] satisfies [LearningItem, LearningItem, LearningItem, LearningItem];
@@ -52,7 +54,7 @@ const learningTopics = [
   <div class="home-page play-page"><Nav /><main>
     <section class="play-hero"><div class="container"><div class="play-copy play-hub-copy">
       <p class="home-eyebrow">Learn Hebrew by playing</p><h1 class="home-h1">Free Hebrew Games for Beginners</h1>
-      <p class="home-lead">Four short browser games that take you from the Hebrew alphabet to your first real words. Start with the Alef Bet, then find and spell everyday Hebrew vocabulary, all with native audio.</p>
+      <p class="home-lead">Five short browser games that take you from the Hebrew alphabet to your first real words. Start with the Alef Bet, then find, spell and write everyday Hebrew vocabulary, all with native audio.</p>
     </div></div></section>
     <Section surface="soft" class="play-hub-games"><div class="play-catalog">
       <article class="play-card play-catalog-card">
@@ -101,12 +103,24 @@ const learningTopics = [
           <a class="btn btn-primary" href="/play/hebrew-word-builder/game/">Play Now</a>
         </div>
       </article>
+      <article class="play-card play-catalog-card">
+        <div class="play-catalog-art">
+          <img src="/images/play/hebrew-crossword-key-art.jpg" alt="Hebrew Crossword: stone letter tiles forming a mini Hebrew crossword, with a hoopoe in a sunlit Jerusalem courtyard" width="1200" height="675" loading="lazy" decoding="async" />
+        </div>
+        <p class="home-eyebrow">Hebrew vocabulary · Mini crossword</p><h2 class="home-h2">Hebrew Crossword</h2>
+        <p>Solve mini Hebrew crosswords: English clues with audio, Hebrew answers typed right to left on a built-in Hebrew keyboard.</p>
+        <p>Short puzzles from 184 everyday words in 13 themes. Crossings check your spelling, and there are no hearts to lose.</p>
+        <div class="play-catalog-cta">
+          <a class="btn btn-outline" href="/play/hebrew-crossword/">Read More</a>
+          <a class="btn btn-primary" href="/play/hebrew-crossword/game/">Play Now</a>
+        </div>
+      </article>
     </div></Section>
     <Section>
       <LearningMosaic items={learningTopics} />
     </Section>
     <Faq title="Frequently Asked Questions" items={[
-      { q: 'Are these Hebrew games free?', a: 'Yes. Alef Bet Rush, Hebrew Mahjong, Hebrew Word Search and Hebrew Word Builder are all free to play in your browser, with no account required.' },
+      { q: 'Are these Hebrew games free?', a: 'Yes. Alef Bet Rush, Hebrew Mahjong, Hebrew Word Search, Hebrew Word Builder and Hebrew Crossword are all free to play in your browser, with no account required.' },
       { q: 'Which game should beginners start with?', a: '<a href="/play/alef-bet-rush/">Alef Bet Rush</a> gives you a guided introduction to each letter before practice, while <a href="/play/hebrew-mahjong/">Hebrew Mahjong</a> leans on matching and recognition across a broader board. Either is a reasonable starting point; try both and see which style you enjoy more. Once you know the letters, <a href="/play/hebrew-word-search/">Hebrew Word Search</a> and <a href="/play/hebrew-word-builder/">Hebrew Word Builder</a> move on to real words.' },
       { q: 'Do games replace a Hebrew course?', a: 'Games help you practise a specific skill. Combine them with structured lessons and reading for a broader learning path.' },
     ]} />
