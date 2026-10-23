@@ -9,6 +9,7 @@ import LearningMosaic, { type LearningItem } from '../../../components/play/Lear
 import CtaPanel from '../../../components/ui/CtaPanel.astro';
 import StoreButtons from '../../../components/ui/StoreButtons.astro';
 import KeyArt from '../../../components/play/KeyArt.astro';
+import ShareButtons from '../../../components/ui/ShareButtons.astro';
 import keyArt from '../../../assets/play/hebrew-mahjong-key-art.png';
 import '../../../styles/home.css';
 import '../../../styles/play.css';
@@ -93,6 +94,7 @@ const schema = {
               <p class="home-lead">A calm Mahjong solitaire where every pair is a Hebrew letter and its name. Master all 22 letters of the aleph-bet in short, relaxing games.</p>
               <a class="btn btn-primary play-launch" href="/play/hebrew-mahjong/game/">Play Free Now</a>
               <p class="play-hero-note">No download, no account. Works on phone and computer.</p>
+              <ShareButtons url="https://hebrewedu.com/play/hebrew-mahjong/" text="Hebrew Mahjong: match Hebrew letters with their names, free in your browser" item="hebrew-mahjong" location="hebrew_mahjong_hero" />
             </div>
             <div class="play-hero-art"><KeyArt src={keyArt} alt="Hebrew Mahjong: stacked tiles showing Hebrew letters and their names, such as Alef, Shin and Lamed, in a Jerusalem garden" loading="eager" sizes="(max-width: 900px) min(640px, 90vw), 46vw" /></div>
           </div>

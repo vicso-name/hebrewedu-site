@@ -1,0 +1,196 @@
+---
+import { getDictionary, type Locale } from '../../i18n';
+
+interface Props {
+  /** Absolute URL to share (a landing page, never a /game/ player). */
+  url: string;
+  /** Message prefilled in WhatsApp and Telegram, from the page. */
+  text: string;
+  /** Reported as item_id on the GA4 `share` event, e.g. the game slug. */
+  item: string;
+  /** Where the buttons sit, reported as cta_location. */
+  location: string;
+  /** `row`: labelled row of buttons. `menu`: one button that opens the same list. */
+  variant?: 'row' | 'menu';
+  locale?: Locale;
+}
+const { url, text, item, location, variant = 'row', locale = 'en' } = Astro.props;
+const t = getDictionary(locale);
+
+const enc = encodeURIComponent;
+// Plain share links only: no SDK, no third-party script, nothing loads until a click.
+const links = [
+  { method: 'facebook', label: t.share.facebook, href: `https://www.facebook.com/sharer/sharer.php?u=${enc(url)}` },
+  { method: 'whatsapp', label: t.share.whatsapp, href: `https://wa.me/?text=${enc(`${text} ${url}`)}` },
+  { method: 'telegram', label: t.share.telegram, href: `https://t.me/share/url?url=${enc(url)}&text=${enc(text)}` },
+];
+const data = { 'data-share-item': item, 'data-share-location': location };
+---
+
+{variant === 'row' ? (
+  <div class="share share--row" {...data}>
+    <span class="share-label">{t.share.label}</span>
+    <ul class="share-list">
+      {links.map((l) => (
+        <li><a class="share-btn" href={l.href} target="_blank" rel="noopener noreferrer" aria-label={l.label} title={l.label} data-share-method={l.method}><span class={`share-icon share-icon--${l.method}`} aria-hidden="true" /></a></li>
+      ))}
+      <li><button class="share-btn" type="button" aria-label={t.share.copyLink} title={t.share.copyLink} data-share-method="copy" data-share-url={url} data-share-copied={t.share.copied}><span class="share-icon share-icon--copy" aria-hidden="true" /></button></li>
+    </ul>
+    <span class="share-status" role="status" aria-live="polite"></span>
+  </div>
+) : (
+  <details class="share share--menu" {...data}>
+    <summary class="share-btn share-toggle" aria-label={t.share.menu} title={t.share.menu}><span class="share-icon share-icon--share" aria-hidden="true" /></summary>
+    <ul class="share-pop">
+      {links.map((l) => (
+        <li><a class="share-item" href={l.href} target="_blank" rel="noopener noreferrer" data-share-method={l.method}><span class={`share-icon share-icon--${l.method}`} aria-hidden="true" />{l.label}</a></li>
+      ))}
+      <li><button class="share-item" type="button" data-share-method="copy" data-share-url={url} data-share-copied={t.share.copied}><span class="share-icon share-icon--copy" aria-hidden="true" />{t.share.copyLink}</button></li>
+    </ul>
+    <span class="share-status" role="status" aria-live="polite"></span>
+  </details>
+)}
+
+<script>
+  import { track } from '../../lib/analytics';
+
+  async function copy(value: string): Promise<boolean> {
+    try {
+      await navigator.clipboard.writeText(value);
+      return true;
+    } catch {
+      // Older browsers or a denied permission: fall back to a temporary textarea.
+      const area = document.createElement('textarea');
+      area.value = value;
+      area.setAttribute('readonly', '');
+      area.style.position = 'fixed';
+      area.style.opacity = '0';
+      document.body.append(area);
+      area.select();
+      const ok = document.execCommand('copy');
+      area.remove();
+      return ok;
+    }
+  }
+
+  document.addEventListener('click', async (e) => {
+    const target = e.target as Element;
+    const el = target.closest<HTMLElement>('[data-share-method]');
+    // A click outside an open share menu closes it.
+    document.querySelectorAll<HTMLDetailsElement>('details.share--menu[open]').forEach((d) => {
+      if (!d.contains(target)) d.open = false;
+    });
+    if (!el) return;
+    const root = el.closest<HTMLElement>('.share');
+    const method = el.dataset.shareMethod ?? 'unknown';
+    track('share', {
+      method,
+      content_type: 'game',
+      item_id: root?.dataset.shareItem ?? 'unknown',
+      cta_location: root?.dataset.shareLocation ?? 'unknown',
+    });
+    if (method !== 'copy') return;
+    e.preventDefault();
+    const status = root?.querySelector<HTMLElement>('.share-status');
+    if (await copy(el.dataset.shareUrl ?? location.href) && status) {
+      status.textContent = el.dataset.shareCopied ?? '';
+      window.setTimeout(() => { status.textContent = ''; }, 2500);
+    }
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key !== 'Escape') return;
+    document.querySelectorAll<HTMLDetailsElement>('details.share--menu[open]').forEach((d) => {
+      d.open = false;
+      d.querySelector<HTMLElement>('summary')?.focus();
+    });
+  });
+</script>
+
+<style>
+  .share { display: flex; align-items: center; flex-wrap: wrap; gap: var(--space-xs-plus); }
+  .share-label { font-size: 0.9375rem; font-weight: 600; color: var(--home-text-secondary); }
+  .share-list, .share-pop { list-style: none; margin: 0; padding: 0; }
+  .share-list { display: flex; gap: var(--space-xs); }
+
+  .share-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    border: 1px solid var(--home-border-subtle);
+    border-radius: 50%;
+    background: var(--home-surface-white);
+    color: var(--home-text-primary);
+    cursor: pointer;
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .share-btn:hover { color: var(--home-brand-text); border-color: currentColor; }
+  .share-btn:focus-visible, .share-item:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
+
+  .share-status { font-size: 0.875rem; color: var(--home-text-secondary); }
+  .share-status:empty { display: none; }
+
+  /* Menu variant: a details/summary disclosure, so it opens without JS. */
+  .share--menu { position: relative; display: inline-block; }
+  .share-toggle { list-style: none; }
+  .share-toggle::-webkit-details-marker { display: none; }
+  .share-pop {
+    position: absolute;
+    top: calc(100% + var(--space-xs));
+    right: 0;
+    z-index: 5;
+    min-width: 13.5rem;
+    padding: var(--space-xs);
+    border: 1px solid var(--home-border-subtle);
+    border-radius: var(--home-radius-md);
+    background: var(--home-surface-white);
+    box-shadow: 0 12px 32px rgba(15, 23, 42, 0.16);
+  }
+  .share-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs-plus);
+    width: 100%;
+    min-height: 44px;
+    padding: 0 var(--space-xs-plus);
+    border: 0;
+    border-radius: var(--home-radius-sm);
+    background: none;
+    color: var(--home-text-primary);
+    font: inherit;
+    font-size: 0.9375rem;
+    text-align: left;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .share-item:hover { background: var(--home-surface-soft, rgba(15, 23, 42, 0.05)); }
+  .share--menu .share-status {
+    position: absolute;
+    top: calc(100% + var(--space-xs));
+    right: 0;
+    white-space: nowrap;
+    padding: var(--space-2xs) var(--space-xs);
+    border-radius: var(--home-radius-sm);
+    background: var(--home-surface-white);
+  }
+  .share--menu[open] .share-status { display: none; }
+
+  /* Icons as masks so they take currentColor. Brand marks are single-colour glyphs;
+     WhatsApp's path is from Simple Icons (CC0). */
+  .share-icon {
+    flex: none;
+    width: 20px;
+    height: 20px;
+    background: currentColor;
+    -webkit-mask: var(--icon) center / contain no-repeat;
+    mask: var(--icon) center / contain no-repeat;
+  }
+  .share-icon--facebook { --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M13.5 22v-8.2h2.8l.4-3.3h-3.2V8.4c0-.9.3-1.6 1.6-1.6h1.7V3.9a23 23 0 0 0-2.5-.1c-2.5 0-4.2 1.5-4.2 4.3v2.4H7.3v3.3h2.8V22z'/%3E%3C/svg%3E"); }
+  .share-icon--whatsapp { --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z'/%3E%3C/svg%3E"); }
+  .share-icon--telegram { --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M21.2 3.4 2.9 10.5c-1.2.5-1.2 1.2-.2 1.5l4.7 1.5 1.8 5.5c.2.6.4.8.8.8.4 0 .6-.2.9-.5l2.3-2.2 4.7 3.5c.9.5 1.5.2 1.7-.8l3.1-14.6c.3-1.3-.5-1.9-1.5-1.4zM8.6 13.2l9.8-6.2c.5-.3.9-.1.5.2l-8.1 7.3-.3 3.4z'/%3E%3C/svg%3E"); }
+  .share-icon--copy { --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 13a5 5 0 0 0 7.1.5l3-3a5 5 0 0 0-7.1-7.1l-1.7 1.7'/%3E%3Cpath d='M14 11a5 5 0 0 0-7.1-.5l-3 3a5 5 0 0 0 7.1 7.1l1.7-1.7'/%3E%3C/svg%3E"); }
+  .share-icon--share { --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='18' cy='5' r='3'/%3E%3Ccircle cx='6' cy='12' r='3'/%3E%3Ccircle cx='18' cy='19' r='3'/%3E%3Cpath d='m8.6 13.5 6.8 4M15.4 6.5l-6.8 4'/%3E%3C/svg%3E"); }
+</style>
