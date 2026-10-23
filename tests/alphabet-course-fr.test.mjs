@@ -89,43 +89,43 @@ test('FR publication needs its own implemented route, independent of whether EN 
 
 test('FR and EN weekly-release caps are independent counters', () => {
   const value = draft();
-  const enDates = { aleph: '2026-10-11', bet: '2026-10-14', gimel: '2026-10-15', dalet: '2026-10-15' };
+  const enDates = { aleph: '2026-10-11', bet: '2026-10-14', gimel: '2026-10-15', dalet: '2026-10-15', he: '2026-10-19', vav: '2026-10-19' };
   for (const lesson of value.lessons) {
     if (!(lesson.slug in enDates)) continue;
     Object.assign(lesson, { editorialApproved: true, published: true, publishedAt: enDates[lesson.slug] });
   }
-  // All four FR publications land in the same ISO week (2026-10-05..10-11) — that
-  // alone is fine, since EN's own dates above are spread across two different
-  // weeks (none exceeding 3) and FR's cap is counted completely separately.
-  const frDates = { aleph: '2026-10-05', bet: '2026-10-06', gimel: '2026-10-07' };
+  // All five FR publications land in the same ISO week (2026-10-05..10-11) — that
+  // alone is fine, since EN's own dates above are spread across different
+  // weeks (none exceeding 5) and FR's cap is counted completely separately.
+  const frDates = { aleph: '2026-10-05', bet: '2026-10-06', gimel: '2026-10-07', dalet: '2026-10-08', he: '2026-10-09' };
   for (const lesson of value.lessons) {
     if (!(lesson.slug in frDates)) continue;
     Object.assign(lesson.locales.fr, { webImplemented: true, editorialApproved: true, published: true, publishedAt: frDates[lesson.slug], backfill: false });
   }
   assert.doesNotThrow(() => validatePublicationManifest(value));
-  // A 4th FR publication in that same ISO week exceeds FR's cap, while EN's own
+  // A 6th FR publication in that same ISO week exceeds FR's cap, while EN's own
   // cap (untouched here) stays satisfied.
-  Object.assign(value.lessons.find(l => l.slug === 'dalet').locales.fr, { webImplemented: true, editorialApproved: true, published: true, publishedAt: '2026-10-08', backfill: false });
-  assert.throws(() => validatePublicationManifest(value), /Maximum three new lessons per ISO week/);
+  Object.assign(value.lessons.find(l => l.slug === 'vav').locales.fr, { webImplemented: true, editorialApproved: true, published: true, publishedAt: '2026-10-10', backfill: false });
+  assert.throws(() => validatePublicationManifest(value), /Maximum five new lessons per ISO week/);
 });
 
 test('a backfill FR publication is exempt from the FR weekly-release cap', () => {
-  const dates = ['2026-10-05', '2026-10-06', '2026-10-07', '2026-10-08'];
-  assert.throws(() => validateWeeklyReleaseLimit(dates), /Maximum three/);
+  const dates = ['2026-10-05', '2026-10-06', '2026-10-07', '2026-10-08', '2026-10-09', '2026-10-10'];
+  assert.throws(() => validateWeeklyReleaseLimit(dates), /Maximum five/);
   const value = draft();
-  const enDates = { aleph: '2026-10-11', bet: '2026-10-14', gimel: '2026-10-15', dalet: '2026-10-15' };
+  const enDates = { aleph: '2026-10-11', bet: '2026-10-14', gimel: '2026-10-15', dalet: '2026-10-15', he: '2026-10-19', vav: '2026-10-19' };
   for (const lesson of value.lessons) {
     if (!(lesson.slug in enDates)) continue;
     Object.assign(lesson, { editorialApproved: true, published: true, publishedAt: enDates[lesson.slug] });
   }
-  // Same 4-in-one-week FR shape as `dates` above, marked non-backfill: must fail.
+  // Same 6-in-one-week FR shape as `dates` above, marked non-backfill: must fail.
   const slugs = Object.keys(enDates);
   slugs.forEach((slug, i) => {
     Object.assign(value.lessons.find(l => l.slug === slug).locales.fr, { webImplemented: true, editorialApproved: true, published: true, publishedAt: dates[i], backfill: false });
   });
-  assert.throws(() => validatePublicationManifest(value), /Maximum three new lessons per ISO week/);
+  assert.throws(() => validatePublicationManifest(value), /Maximum five new lessons per ISO week/);
   // Marked as backfill (clearing an FR backlog for letters already published in
-  // EN), the same 4-in-one-week shape is exempt from the FR cap.
+  // EN), the same 6-in-one-week shape is exempt from the FR cap.
   slugs.forEach(slug => { value.lessons.find(l => l.slug === slug).locales.fr.backfill = true; });
   assert.doesNotThrow(() => validatePublicationManifest(value));
 });

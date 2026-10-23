@@ -92,9 +92,10 @@ test('later approved launch structured data describes only released modules', ()
   assert.equal(list.itemListElement[0].item.url,'https://hebrewedu.com/learn/hebrew-alphabet/aleph/');
   assert.equal(/rating|certificate|duration|instructor|\/bet\//i.test(JSON.stringify(graph)),false);
 });
-test('three-new-lessons limit is enforced per Monday–Sunday week, including year boundaries', () => {
-  assert.doesNotThrow(() => validateWeeklyReleaseLimit(['2026-10-05','2026-10-07','2026-10-11','2026-10-12']));
-  assert.throws(() => validateWeeklyReleaseLimit(['2026-10-05','2026-10-06','2026-10-07','2026-10-11']), /Maximum three/);
-  assert.throws(() => validateWeeklyReleaseLimit(['2026-12-28','2026-12-29','2026-12-31','2027-01-03']), /Maximum three/);
+test('five-new-lessons limit is enforced per Monday–Sunday week, including year boundaries', () => {
+  assert.equal(courseManifest.maximumNewLessonsPerWeek, 5);
+  assert.doesNotThrow(() => validateWeeklyReleaseLimit(['2026-10-05','2026-10-06','2026-10-07','2026-10-08','2026-10-11','2026-10-12']));
+  assert.throws(() => validateWeeklyReleaseLimit(['2026-10-05','2026-10-06','2026-10-07','2026-10-08','2026-10-09','2026-10-11']), /Maximum five/);
+  assert.throws(() => validateWeeklyReleaseLimit(['2026-12-28','2026-12-29','2026-12-30','2026-12-31','2027-01-01','2027-01-03']), /Maximum five/);
   assert.throws(() => validateWeeklyReleaseLimit(['2026-02-30']), /real publication date/);
 });

@@ -26,7 +26,7 @@ is published (enforced by `validatePublicationManifest` in
   below instead of steps 1–7.
 - Weekly limit bookkeeping counts **letters**, not locale-flips: preparing
   and publishing one letter in both EN and FR today uses one slot in EN's
-  3/week cap and one slot in FR's 3/week cap (the two caps are independent,
+  5/week cap and one slot in FR's 5/week cap (the two caps are independent,
   `validateWeeklyReleaseLimit` is called once per locale) — it is not "2
   lessons" against either cap.
 
@@ -38,7 +38,7 @@ is published (enforced by `validatePublicationManifest` in
 - Weekly limit: check each locale being built against its own counter in
   src/data/alphabet-course.json (EN: top-level `publishedAt`; FR:
   `locales.fr.publishedAt`, excluding any `locales.fr.backfill: true`
-  entries). If publishing today would exceed 3 in either locale's ISO week,
+  entries). If publishing today would exceed 5 in either locale's ISO week,
   prepare everything for that locale, stop before publishing it, and name
   the first allowed date. The other locale may still publish on schedule.
 - Stop if the working tree is dirty. From an up-to-date main create branch

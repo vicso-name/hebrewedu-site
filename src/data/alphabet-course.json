@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "maximumNewLessonsPerWeek": 3,
+  "maximumNewLessonsPerWeek": 5,
   "hub": {
     "path": "/learn/hebrew-alphabet/",
     "editorialApproved": true,
