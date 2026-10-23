@@ -288,7 +288,7 @@ Deviner à partir d'une racine seule est un autre piège. Des mots liés n'ont p
 
 Et ne retire pas le nikoud d'un mot nouveau avant d'avoir appris comment il se prononce. Vérifie les mots inconnus, puis reviens et relis. Tolérer l'ambiguïté ne veut pas dire répéter la même erreur indéfiniment.
 
-Pour un endroit pratique où t'entraîner, [l'expérience de lecture de HebrewEdu](/) (en anglais) propose des textes hébreux pour débutants, avec traduction et audio. Essaie un court texte, utilise l'aide quand tu en as besoin, et relis-le à mesure que les mots deviennent familiers. Une pratique progressive donne à ton cerveau de quoi travailler.
+Pour un endroit pratique où t'entraîner, [l'expérience de lecture de HebrewEdu](/fr/) propose des textes hébreux pour débutants, avec traduction et audio. Essaie un court texte, utilise l'aide quand tu en as besoin, et relis-le à mesure que les mots deviennent familiers. Une pratique progressive donne à ton cerveau de quoi travailler.
 
 ---
 

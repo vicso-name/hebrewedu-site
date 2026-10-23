@@ -62,7 +62,7 @@ Pour l'instant : le nikoud est ton système d'entraînement. Il te donne une in
 
 Utilise-le pleinement.
 
-Pour un point de vue produit sur cette transition, [le créateur de l'application explique comment le nikoud et la lecture accompagnée sont nés d'un simple entraîneur d'alphabet](/blog/story-behind-learn-hebrew-read-speak/) (en anglais).
+Pour un point de vue produit sur cette transition, [le créateur de l'application explique comment le nikoud et la lecture accompagnée sont nés d'un simple entraîneur d'alphabet](/fr/blog/histoire-de-lapplication/).
 
 ---
 

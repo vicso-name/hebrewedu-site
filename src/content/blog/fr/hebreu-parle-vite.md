@@ -164,7 +164,7 @@ Comme si ton cerveau s'était mis à jour tout seul, pendant la nuit, sans ta pe
 
 ## La plus grosse erreur des apprenants
 
-La plupart des apprenants réagissent à une écoute difficile en écoutant moins. C'est l'une des nombreuses [habitudes d'apprentissage de l'hébreu qui retardent la progression](/blog/how-not-to-learn-hebrew-a-complete-guide-to-failing-efficiently/) (en anglais) — la plupart semblent tout à fait raisonnables sur le moment.
+La plupart des apprenants réagissent à une écoute difficile en écoutant moins. C'est l'une des nombreuses [habitudes d'apprentissage de l'hébreu qui retardent la progression](/fr/blog/erreurs-apprendre-hebreu/) — la plupart semblent tout à fait raisonnables sur le moment.
 
 C'est compréhensible.
 

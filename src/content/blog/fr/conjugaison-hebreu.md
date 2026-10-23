@@ -150,7 +150,7 @@ Plus de « mais où j'avais vu ce verbe déjà ? ».
 
 ## Conçu pour les apprenants d'hébreu moderne
 
-Le répertoire de verbes fait partie d'une histoire pédagogique plus large. Lis [comment Learn Hebrew – Read & Speak est passé d'un simple entraîneur d'alphabet à un système d'apprentissage plus large](/blog/story-behind-learn-hebrew-read-speak/) (en anglais) pour le point de vue de son créateur.
+Le répertoire de verbes fait partie d'une histoire pédagogique plus large. Lis [comment Learn Hebrew – Read & Speak est passé d'un simple entraîneur d'alphabet à un système d'apprentissage plus large](/fr/blog/histoire-de-lapplication/) pour le point de vue de son créateur.
 
 Chez Alef-Bet Tutor, on pense que les outils d'apprentissage des langues devraient donner une impression :
 - propre,
@@ -158,7 +158,7 @@ Chez Alef-Bet Tutor, on pense que les outils d'apprentissage des langues devraie
 - visuellement moderne,
 - et réellement agréable à utiliser.
 
-C'est pour ça que le nouveau répertoire de verbes a été conçu avec une interface premium, sans distraction, qui aide les apprenants à se concentrer sur la compréhension des modèles plutôt qu'à se battre avec une mise en page confuse. Si tu veux voir le tableau d'ensemble des habitudes d'apprentissage de l'hébreu, [un guide de toutes les erreurs courantes des débutants](/blog/how-not-to-learn-hebrew-a-complete-guide-to-failing-efficiently/) (en anglais) est une bonne lecture complémentaire.
+C'est pour ça que le nouveau répertoire de verbes a été conçu avec une interface premium, sans distraction, qui aide les apprenants à se concentrer sur la compréhension des modèles plutôt qu'à se battre avec une mise en page confuse. Si tu veux voir le tableau d'ensemble des habitudes d'apprentissage de l'hébreu, [un guide de toutes les erreurs courantes des débutants](/fr/blog/erreurs-apprendre-hebreu/) est une bonne lecture complémentaire.
 
 Que tu :
 - débutes tout juste en hébreu,

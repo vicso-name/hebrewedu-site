@@ -232,7 +232,7 @@ La seconde phase — comprendre ce que tu lis — prend plus de temps. Mais tout
 
 ## Par où commencer aujourd'hui
 
-Pour une séquence structurée de leçons guidées, commence par le [cours d'alphabet hébreu](/fr/apprendre/alphabet-hebreu/). Pour pratiquer la première lettre en profondeur, essaie la leçon [Aleph](/fr/apprendre/alphabet-hebreu/aleph/), déjà publiée. Pour un entraînement à la reconnaissance des lettres dans le navigateur, visite [Alef Bet Rush](/play/alef-bet-rush/) (en anglais). L'idée pédagogique derrière cette progression est aussi expliquée dans [pourquoi l'application a été conçue pour aller des lettres jusqu'à la compréhension](/blog/story-behind-learn-hebrew-read-speak/) (en anglais).
+Pour une séquence structurée de leçons guidées, commence par le [cours d'alphabet hébreu](/fr/apprendre/alphabet-hebreu/). Pour pratiquer la première lettre en profondeur, essaie la leçon [Aleph](/fr/apprendre/alphabet-hebreu/aleph/), déjà publiée. Pour un entraînement à la reconnaissance des lettres dans le navigateur, visite [Alef Bet Rush](/play/alef-bet-rush/) (en anglais). L'idée pédagogique derrière cette progression est aussi expliquée dans [pourquoi l'application a été conçue pour aller des lettres jusqu'à la compréhension](/fr/blog/histoire-de-lapplication/).
 
 L'approche la plus efficace pour apprendre l'alphabet hébreu est la suivante :
 

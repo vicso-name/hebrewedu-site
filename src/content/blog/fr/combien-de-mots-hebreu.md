@@ -173,7 +173,7 @@ Exactement comme un lecteur francophone arrête d'épeler les mots lettre par le
 
 Voici la vérité inconfortable que personne ne veut entendre :
 
-Apprendre du vocabulaire rare trop tôt, c'est surtout de la procrastination déguisée en productivité. Si tu ne sais pas à quoi ressemblent de bonnes habitudes d'apprentissage de l'hébreu, [un guide de toutes les erreurs courantes des apprenants](/blog/how-not-to-learn-hebrew-a-complete-guide-to-failing-efficiently/) (en anglais) couvre ce terrain avec un luxe de détails inhabituel et utile.
+Apprendre du vocabulaire rare trop tôt, c'est surtout de la procrastination déguisée en productivité. Si tu ne sais pas à quoi ressemblent de bonnes habitudes d'apprentissage de l'hébreu, [un guide de toutes les erreurs courantes des apprenants](/fr/blog/erreurs-apprendre-hebreu/) couvre ce terrain avec un luxe de détails inhabituel et utile.
 
 Tu n'as pas besoin de mots comme :
 - « photosynthèse »,
