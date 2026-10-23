@@ -135,7 +135,7 @@ Les binyanim sont un cadre utile. Ce n'est pas ce qui crée l'aisance.
 
 La vraie aisance avec les verbes hébreux vient du fait de les rencontrer à répétition en contexte — en lisant, en écoutant, en parlant — jusqu'à ce que les modèles deviennent intuitifs plutôt qu'analytiques.
 
-C'est l'une des [erreurs de grammaire qui ralentissent systématiquement les débutants](/blog/how-not-to-learn-hebrew-a-complete-guide-to-failing-efficiently/) (en anglais) : traiter les binyanim comme quelque chose à maîtriser depuis un tableau avant même d'utiliser de vrais verbes dans de vraies phrases.
+C'est l'une des [erreurs de grammaire qui ralentissent systématiquement les débutants](/fr/blog/erreurs-apprendre-hebreu/) : traiter les binyanim comme quelque chose à maîtriser depuis un tableau avant même d'utiliser de vrais verbes dans de vraies phrases.
 
 Les tableaux sont des documents de référence. Ils décrivent un système.
 

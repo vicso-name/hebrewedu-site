@@ -138,7 +138,7 @@ La répétition espacée étale les révisions dans le temps, en utilisant tes r
 
 Rate plusieurs jours, et les révisions s'accumulent. La pile devient intimidante. L'appli finit ignorée.
 
-Une courte session quotidienne garde les révisions plus gérables qu'une longue session hebdomadaire. [Les habitudes d'étude qui retardent systématiquement la progression en hébreu](/blog/how-not-to-learn-hebrew-a-complete-guide-to-failing-efficiently/) (en anglais) incluent presque toujours l'inconstance en haut de la liste.
+Une courte session quotidienne garde les révisions plus gérables qu'une longue session hebdomadaire. [Les habitudes d'étude qui retardent systématiquement la progression en hébreu](/fr/blog/erreurs-apprendre-hebreu/) incluent presque toujours l'inconstance en haut de la liste.
 
 Dix minutes. Chaque jour. Même quand ça ne semble pas productif.
 
