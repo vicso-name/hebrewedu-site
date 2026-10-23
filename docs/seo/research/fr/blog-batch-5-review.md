@@ -358,8 +358,8 @@ Et là, malheureusement, il est trop tard.
 
 ```markdown
 ---
-title: "Qu'est-ce qui rend un jeu de langue éducatif ?"
-seoTitle: "Qu'est-ce qui rend un jeu de langue éducatif ?"
+title: "Jeu éducatif pour apprendre une langue : ce qui compte"
+seoTitle: "Jeu éducatif pour apprendre une langue : ce qui compte"
 description: "Au-delà des récompenses et des niveaux : le cadre pratique d'un fondateur pour les jeux de langue, des actions utiles à la reconnaissance hors du jeu."
 pubDate: 2026-10-23
 author: "HebrewEdu Team"
@@ -371,9 +371,9 @@ tags: ["jeu éducatif langue", "jeux pour apprendre une langue", "conception de 
 translationKey: "what-makes-a-language-learning-game-educational"
 ---
 
-« Papa, maintenant je vais savoir lire l'hébreu. »
+Un garçon de neuf ans, le fils du fondateur de HebrewEdu, venait de jouer à Hebrew Mahjong avec son père. Il était enthousiaste de ce qu'il avait appris : « Papa, maintenant je vais savoir lire l'hébreu. »
 
-Après avoir joué à Hebrew Mahjong avec son père, le fondateur de HebrewEdu, un garçon de neuf ans était enthousiaste de ce qu'il avait appris. Il ne savait pas encore lire l'hébreu et ne connaissait pas le système de voyelles du nikoud. Mais plus tard, quand son père lui a montré <bdi lang="he" dir="rtl">שלום</bdi>, il a reconnu des lettres rencontrées dans le jeu, dont <bdi lang="he" dir="rtl">ש</bdi> et <bdi lang="he" dir="rtl">ל</bdi>.
+Il ne savait pas encore lire l'hébreu et ne connaissait pas le système de voyelles du nikoud. Mais plus tard, quand son père lui a montré <bdi lang="he" dir="rtl">שלום</bdi>, il a reconnu des lettres rencontrées dans le jeu, dont <bdi lang="he" dir="rtl">ש</bdi> et <bdi lang="he" dir="rtl">ל</bdi>.
 
 C'est un résultat plus modeste que « un jeu a appris à un enfant à lire l'hébreu ». C'est aussi un résultat plus intéressant. Des formes jusque-là inconnues devenaient reconnaissables dans un mot, loin du plateau sur lequel il s'était entraîné.
 
@@ -620,7 +620,7 @@ tags: ["Learn Hebrew – Read & Speak", "application pour apprendre l'hébreu", 
 translationKey: "story-behind-learn-hebrew-read-speak"
 ---
 
-Trois personnes prennent des décisions au sein du projet d'application, selon son créateur : un enseignant, un développeur indépendant et un product owner qui doit penser au marketing. Ce sont la même personne. Et ils ne sont pas toujours d'accord.
+Trois personnes prennent des décisions au sein du projet d'application, selon son créateur : un enseignant, un développeur indépendant et un product owner qui doit penser au marketing. C'est la même personne. Et ils ne sont pas toujours d'accord.
 
 Le développeur voit quelque chose d'intéressant à construire. Le product owner voit quelque chose qui pourrait convaincre un apprenant de rester. L'enseignant pose une question moins confortable : est-ce que cela va vraiment apprendre quelque chose ?
 
@@ -634,11 +634,11 @@ Le chapitre suivant consiste à porter ce produit d'apprentissage déjà établi
 
 ## Une phrase dont tu te souviens, ou un mot que tu sais reconnaître ?
 
-L'objection du fondateur à l'idée de commencer l'hébreu par des phrases toutes faites est très concrète. Imagine apprendre à dire *Shalom ! Shemi Victor…* à partir d'une ligne de transcription en lettres latines. Tu peux répéter une salutation et te présenter. C'est utile, et le plaisir de dire quelque chose de nouveau est réel.
+L'objection du fondateur à l'idée de commencer l'hébreu par des phrases toutes faites est très concrète. Imagine apprendre à dire *Shalom! Shemi Victor…* à partir d'une ligne de transcription en lettres latines. Tu peux répéter une salutation et te présenter. C'est utile, et le plaisir de dire quelque chose de nouveau est réel.
 
 Mais que se passe-t-il quand la transcription disparaît ? Peux-tu reconnaître la salutation en écriture hébraïque ? Retrouver le mot dans un texte ? Le lire sur une enseigne ? Ou as-tu appris une suite de sons restée déconnectée de la langue écrite ?
 
-Pour quelqu'un qui apprend une langue dans une écriture déjà familière, commencer par des phrases peut laisser moins d'obstacles. Pour un débutant en hébreu qui ne sait pas encore reconnaître les lettres, cela peut laisser le fondement intact.
+Pour quelqu'un qui apprend une langue dans une écriture déjà familière, commencer par des phrases peut laisser moins d'obstacles. Pour un débutant en hébreu qui ne sait pas encore reconnaître les lettres, cela peut laisser les bases de côté.
 
 Le fondateur décrit la distinction ainsi :
 
@@ -797,15 +797,15 @@ Commence par l'alphabet, puis ajoute progressivement les mots, le nikoud, la lec
 
 Quand quelqu'un trouve l'hébreu intimidant, le fondateur veut d'abord savoir pourquoi cette personne veut l'apprendre. La motivation donne un but à l'effort. L'écriture peut d'abord ressembler à des symboles incompréhensibles ; étudier l'alphabet commence à les transformer en système. Le nikoud demande plus de travail, et un vocabulaire qui s'enrichit rend peu à peu plus de choses reconnaissables dans la langue.
 
-## Le temps d'écran aurait dû valoir la peine
+## Que le temps d'écran en vaille la peine
 
 Près de cinq ans passés à faire une application apportent des éloges, des critiques, des suggestions, des rapports de bugs et, parfois, des plaintes difficiles à exploiter. Le fondateur accepte ce mélange comme faisant partie de la création d'un produit.
 
-Ce qui reste le plus positivement en lui, ce sont les messages directs envoyés à l'assistance. Certains utilisateurs en Israël lui ont écrit pour le remercier d'aider des gens à apprendre l'hébreu ; certains utilisateurs religieux lui ont envoyé des bénédictions. Ce sont le genre de messages qu'il a décrits pendant l'entretien, et non des témoignages reproduits ici. Ils comptent parce qu'ils suggèrent que l'enseignement atteint quelqu'un au-delà de l'écran.
+Ce qui le touche le plus, ce sont les messages directs envoyés à l'assistance. Certains utilisateurs en Israël lui ont écrit pour le remercier d'aider des gens à apprendre l'hébreu ; certains utilisateurs religieux lui ont envoyé des bénédictions. Ce sont le genre de messages qu'il a décrits pendant l'entretien, et non des témoignages reproduits ici. Ils comptent parce qu'ils suggèrent que l'enseignement atteint quelqu'un au-delà de l'écran.
 
 Au moment de l'entretien, il faisait état d'un peu plus de 3 000 utilisateurs actifs. Atteindre au moins 10 000 dans le monde est une ambition à plus long terme. Aucun de ces chiffres ne dit à lui seul si le temps d'un apprenant a été bien employé.
 
-L'objectif plus profond, c'est ce qui se passe quand quelqu'un termine la dernière leçon. Il veut qu'il ait le sentiment que le temps d'écran en valait la peine : qu'il reconnaît plus de choses, comprend plus de choses et commence à faire seul ce qui demandait de l'aide auparavant.
+L'objectif plus profond, c'est ce qui se passe quand quelqu'un termine la dernière leçon. Il veut que l'apprenant ait le sentiment que le temps d'écran en valait la peine : qu'il reconnaît plus de choses, comprend plus de choses et commence à faire seul ce qui demandait de l'aide auparavant.
 
 C'est le fil qui relie l'entraîneur d'alphabet d'origine à l'application plus large. Mémoriser quelque chose peut être un début. Le reconnaître est une autre étape. Comprendre pourquoi cela fonctionne ouvre la possibilité d'utiliser ce savoir ailleurs.
 

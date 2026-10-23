@@ -1,6 +1,6 @@
 ---
-title: "Qu'est-ce qui rend un jeu de langue éducatif ?"
-seoTitle: "Qu'est-ce qui rend un jeu de langue éducatif ?"
+title: "Jeu éducatif pour apprendre une langue : ce qui compte"
+seoTitle: "Jeu éducatif pour apprendre une langue : ce qui compte"
 description: "Au-delà des récompenses et des niveaux : le cadre pratique d'un fondateur pour les jeux de langue, des actions utiles à la reconnaissance hors du jeu."
 pubDate: 2026-10-23
 author: "HebrewEdu Team"
@@ -12,9 +12,9 @@ tags: ["jeu éducatif langue", "jeux pour apprendre une langue", "conception de 
 translationKey: "what-makes-a-language-learning-game-educational"
 ---
 
-« Papa, maintenant je vais savoir lire l'hébreu. »
+Un garçon de neuf ans, le fils du fondateur de HebrewEdu, venait de jouer à Hebrew Mahjong avec son père. Il était enthousiaste de ce qu'il avait appris : « Papa, maintenant je vais savoir lire l'hébreu. »
 
-Après avoir joué à Hebrew Mahjong avec son père, le fondateur de HebrewEdu, un garçon de neuf ans était enthousiaste de ce qu'il avait appris. Il ne savait pas encore lire l'hébreu et ne connaissait pas le système de voyelles du nikoud. Mais plus tard, quand son père lui a montré <bdi lang="he" dir="rtl">שלום</bdi>, il a reconnu des lettres rencontrées dans le jeu, dont <bdi lang="he" dir="rtl">ש</bdi> et <bdi lang="he" dir="rtl">ל</bdi>.
+Il ne savait pas encore lire l'hébreu et ne connaissait pas le système de voyelles du nikoud. Mais plus tard, quand son père lui a montré <bdi lang="he" dir="rtl">שלום</bdi>, il a reconnu des lettres rencontrées dans le jeu, dont <bdi lang="he" dir="rtl">ש</bdi> et <bdi lang="he" dir="rtl">ל</bdi>.
 
 C'est un résultat plus modeste que « un jeu a appris à un enfant à lire l'hébreu ». C'est aussi un résultat plus intéressant. Des formes jusque-là inconnues devenaient reconnaissables dans un mot, loin du plateau sur lequel il s'était entraîné.
 
