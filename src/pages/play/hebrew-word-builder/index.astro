@@ -1,0 +1,166 @@
+---
+import Faq from '../../../components/Faq.astro';
+import Layout from '../../../layouts/Layout.astro';
+import Nav from '../../../components/Nav.astro';
+import Footer from '../../../components/Footer.astro';
+import Section from '../../../components/ui/Section.astro';
+import FeatureGrid, { type FeatureItem } from '../../../components/ui/FeatureGrid.astro';
+import LearningMosaic, { type LearningItem } from '../../../components/play/LearningMosaic.astro';
+import CtaPanel from '../../../components/ui/CtaPanel.astro';
+import StoreButtons from '../../../components/ui/StoreButtons.astro';
+import '../../../styles/home.css';
+import '../../../styles/play.css';
+
+const howItWorks = [
+  { icon: 'target', title: 'See the meaning', description: 'Each word starts with its English meaning and native-speaker audio. New words get a preview card first, with the Hebrew spelling and full niqqud.' },
+  { icon: 'book', title: 'Build it right to left', description: 'Tap the shuffled letter tiles to fill the slots from the right, exactly as Hebrew is written. Tap a placed tile to send it back. The last letter checks the word.' },
+  { icon: 'repeat', title: 'Finish the round', description: 'A round is 8 words from one theme and takes about 2 minutes. Get one wrong and the tiles slide into the correct order, with niqqud and audio, before you move on.' },
+] satisfies FeatureItem[];
+
+const whyItWorks = [
+  {
+    title: 'Spelling, Not Just Spotting',
+    description: ['Recognising a word is one skill; writing it is the next. You choose every letter and put it in order yourself, including the final forms ך ם ן ף ץ.'],
+  },
+  {
+    title: 'From Copying to Recall',
+    description: ['New words show the Hebrew so you can copy it. After two correct builds, a word moves to recall: only the English and the audio, and you spell it from memory.'],
+  },
+  {
+    title: 'Decoys That Teach',
+    description: ['Recall rounds add one or two extra tiles, never random ones: the regular partner of a final letter (מ or ם) or a look-alike letter such as ד and ר.'],
+  },
+  {
+    title: 'No Timer, No Coins',
+    description: ['Hints, shuffles and audio replays are free and unlimited. Three hearts give you room for mistakes, and the first two rounds have no hearts at all.'],
+  },
+] satisfies [LearningItem, LearningItem, LearningItem, LearningItem];
+
+const url = 'https://hebrewedu.com/play/hebrew-word-builder/';
+const hebrewWordSearchUrl = 'https://hebrewedu.com/play/hebrew-word-search/';
+const playUrl = 'https://hebrewedu.com/play/';
+
+const faqItems = [
+  { q: 'Is Hebrew Word Builder free?', a: 'Yes. It runs in your browser with no account, download or payment, and there are no coins or paid hints.' },
+  { q: 'Do I need to already read Hebrew?', a: 'You should know most of the Hebrew letters. If you are just starting out, try Alef Bet Rush or Hebrew Mahjong for the aleph-bet first, and Hebrew Word Search to meet your first words.' },
+  { q: 'How many words can I practise?', a: '184 everyday Hebrew words across 13 themes, such as family, food and animals, each with native-speaker audio and niqqud.' },
+  { q: 'Do the tiles show niqqud (vowel marks)?', a: 'No. The tiles carry plain letters, so you practise the spelling itself. The full word with niqqud appears on the preview card and after every build.' },
+  { q: 'Can I play with a keyboard?', a: 'Yes. On a computer, type a Hebrew letter to place its tile, press Backspace to take the last one back, or move between tiles with the arrow keys and place one with Enter or Space.' },
+  { q: 'What happens if I run out of hearts?', a: 'You get 3 hearts per round, and 5 correct words in a row restore one. If you lose them all, Try again brings back the same 8 words with freshly shuffled tiles.' },
+];
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    { '@type': 'WebPage', '@id': url, url, name: 'Hebrew Word Builder: Spell Hebrew Words from Shuffled Letters' },
+    {
+      '@type': ['VideoGame', 'WebApplication'],
+      name: 'Hebrew Word Builder',
+      url,
+      applicationCategory: 'EducationalApplication',
+      operatingSystem: 'Web',
+      isAccessibleForFree: true,
+      educationalLevel: 'Beginner',
+      inLanguage: 'en',
+      offers: { '@type': 'Offer', price: 0, priceCurrency: 'USD' },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: ['Home', 'Play', 'Hebrew Word Builder'].map((name, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name,
+        item: ['https://hebrewedu.com/', playUrl, url][i],
+      })),
+    },
+  ],
+};
+---
+<Layout title="Hebrew Word Builder – Free Hebrew Spelling Game Online" description="Build Hebrew words from shuffled letters. Practise spelling 184 everyday words right to left, with native audio and niqqud. Free, no sign-up." schema={schema}>
+  <link slot="head" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" />
+  <div class="home-page play-page">
+    <Nav />
+    <main>
+      <section class="play-hero">
+        <div class="container">
+          <nav class="play-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/play/">Play</a> / Hebrew Word Builder</nav>
+          <div class="play-copy">
+            <p class="home-eyebrow">Hebrew spelling game</p>
+            <h1 class="home-h1">Hebrew Word Builder: Spell Hebrew Words Right to Left</h1>
+            <p class="home-lead">See the English, hear the word, then build its Hebrew spelling from shuffled letter tiles. Practise 184 everyday words across 13 themes, with native-speaker audio and niqqud.</p>
+            <a class="btn btn-primary play-launch" href="/play/hebrew-word-builder/game/">Play Free Now</a>
+            <p class="play-hero-note">No download, no account. Works on phone and computer.</p>
+          </div>
+        </div>
+      </section>
+
+      <Section surface="soft">
+        <div class="play-section">
+          <h2 class="home-h2">A Hebrew Spelling Game Built on Real Words</h2>
+          <p>Hebrew Word Builder is a free hebrew spelling game: you get a word's meaning and its audio, and you put its letters in order, right to left, from a tray of shuffled tiles. It works like a hebrew word scramble, except every puzzle is a real everyday word and the game checks the exact spelling, final forms included.</p>
+          <p>New words start in guided mode, with the Hebrew shown so you can copy it. Once you have built a word correctly twice, it moves to recall and you spell it from the English and the audio alone. For background reading alongside the game, see our <a href="/blog/hebrew-alphabet-complete-guide/">Hebrew alphabet guide</a>.</p>
+        </div>
+        <h3 class="play-subsection-title">How Hebrew Word Builder Works</h3>
+        <FeatureGrid items={howItWorks} headingLevel="h4" />
+      </Section>
+
+      <Section>
+        <h2 class="home-h2 play-why-heading">Why It Works</h2>
+        <LearningMosaic items={whyItWorks} />
+      </Section>
+
+      <Section surface="soft">
+        <div class="play-section">
+          <h2 class="home-h2">What You'll Learn</h2>
+          <p>Hebrew Word Builder covers 184 everyday Hebrew words across 13 themes, from family and food to weather and transport. You pick a theme on the home screen; Family, with its short words, is marked as the place to start. Every word has native-speaker audio and is shown with full niqqud once you have built it.</p>
+          <p><strong>This game assumes you already know most Hebrew letters.</strong> If you're still learning them, start with Alef Bet Rush or Hebrew Mahjong, then continue with grammar and sentence-level reading in the HebrewEdu app.</p>
+        </div>
+      </Section>
+
+      <Section>
+        <div class="play-section">
+          <h2 class="home-h2">Who It's For</h2>
+          <p>Hebrew Word Builder is for adults and teens who can read the Hebrew letters and want to start writing real words, for bar and bat mitzvah students, and for anyone learning modern Hebrew. It uses the same word list as <a href={hebrewWordSearchUrl}>Hebrew Word Search</a>, so the two work well together: find a word's shape there, then spell it here.</p>
+        </div>
+      </Section>
+
+      <Faq title="Frequently Asked Questions" items={faqItems} />
+
+      <CtaPanel compact>
+        <h2 class="home-h2">Continue Learning Hebrew</h2>
+        <p class="home-lead">After spelling your first words, continue with grammar, sentences and beginner reading in the HebrewEdu app.</p>
+        <StoreButtons location="hebrew_word_builder_continue" />
+      </CtaPanel>
+    </main>
+    <Footer />
+  </div>
+</Layout>
+
+<style>
+  .play-subsection-title {
+    margin-top: var(--space-lg);
+    margin-bottom: var(--space-md);
+    font-family: var(--font-display);
+    font-size: clamp(1.75rem, 2.2vw, 2rem);
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: var(--home-text-primary);
+  }
+
+  .play-why-heading {
+    margin-bottom: var(--space-md);
+  }
+
+  .play-launch {
+    min-height: 56px;
+    padding-inline: var(--space-md);
+    justify-content: center;
+  }
+
+  .play-hero-note {
+    margin-top: var(--space-xs-plus);
+    font-size: 0.9375rem;
+    color: var(--home-text-tertiary);
+  }
+</style>
