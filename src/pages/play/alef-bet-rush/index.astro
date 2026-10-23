@@ -9,6 +9,7 @@ import LearningMosaic, { type LearningItem } from '../../../components/play/Lear
 import CtaPanel from '../../../components/ui/CtaPanel.astro';
 import StoreButtons from '../../../components/ui/StoreButtons.astro';
 import KeyArt from '../../../components/play/KeyArt.astro';
+import ShareButtons from '../../../components/ui/ShareButtons.astro';
 import keyArt from '../../../assets/play/alef-bet-rush-key-art.png';
 import '../../../styles/home.css';
 import '../../../styles/play.css';
@@ -59,6 +60,7 @@ const schema = {
               <h1 class="home-h1">Alef Bet Rush: Free Hebrew Alphabet Game</h1>
               <p class="home-lead">Learn all 22 Hebrew letters through a space adventure with native Hebrew letter-name audio. Start with the first letters, practise recognising their shapes, and return to the ones that need another look. Play free in your browser, with no account required.</p>
               <a class="btn btn-primary play-launch" href="/play/alef-bet-rush/game/">Play Now</a>
+              <ShareButtons url="https://hebrewedu.com/play/alef-bet-rush/" text="Alef Bet Rush: learn the 22 Hebrew letters in a free browser game" item="alef-bet-rush" location="alef_bet_rush_hero" />
             </div>
             <div class="play-hero-art"><KeyArt src={keyArt} alt="Alef Bet Rush: a rocket flies between floating islands carved with Hebrew letters, from Alef to He" loading="eager" sizes="(max-width: 900px) min(640px, 90vw), 46vw" /></div>
           </div>

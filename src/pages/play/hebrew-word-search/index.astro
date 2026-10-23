@@ -9,6 +9,7 @@ import LearningMosaic, { type LearningItem } from '../../../components/play/Lear
 import CtaPanel from '../../../components/ui/CtaPanel.astro';
 import StoreButtons from '../../../components/ui/StoreButtons.astro';
 import KeyArt from '../../../components/play/KeyArt.astro';
+import ShareButtons from '../../../components/ui/ShareButtons.astro';
 import keyArt from '../../../assets/play/hebrew-word-search-key-art.jpg';
 import '../../../styles/home.css';
 import '../../../styles/play.css';
@@ -93,6 +94,7 @@ const schema = {
               <p class="home-lead">A calm word search where every hidden word is real Hebrew vocabulary. Learn 185 everyday words across 13 themes, with native-speaker audio and niqqud.</p>
               <a class="btn btn-primary play-launch" href="/play/hebrew-word-search/game/">Play Free Now</a>
               <p class="play-hero-note">No download, no account. Works on phone and computer.</p>
+              <ShareButtons url="https://hebrewedu.com/play/hebrew-word-search/" text="Hebrew Word Search: find real Hebrew words in a letter grid, free in your browser" item="hebrew-word-search" location="hebrew_word_search_hero" />
             </div>
             <div class="play-hero-art"><KeyArt src={keyArt} alt="Hebrew Word Search: a grid of Hebrew letters with one word highlighted, watched by a puppy, a kitten, a bird and an elephant" loading="eager" sizes="(max-width: 900px) min(640px, 90vw), 46vw" /></div>
           </div>

@@ -273,6 +273,15 @@ export const fr: Dictionary = {
     later: 'Plus tard',
     close: 'Fermer',
   },
+  share: {
+    label: 'Partager',
+    menu: 'Partager ce jeu',
+    facebook: 'Partager sur Facebook',
+    whatsapp: 'Partager sur WhatsApp',
+    telegram: 'Partager sur Telegram',
+    copyLink: 'Copier le lien',
+    copied: 'Lien copié',
+  },
   notFound: {
     title: 'Page introuvable',
     description: "Cette page n'existe pas ou a été déplacée. Reprends le cours d'alphabet hébreu, le guide de phrases, le blog ou les jeux depuis cette page.",

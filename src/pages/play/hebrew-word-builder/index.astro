@@ -9,6 +9,7 @@ import LearningMosaic, { type LearningItem } from '../../../components/play/Lear
 import CtaPanel from '../../../components/ui/CtaPanel.astro';
 import StoreButtons from '../../../components/ui/StoreButtons.astro';
 import KeyArt from '../../../components/play/KeyArt.astro';
+import ShareButtons from '../../../components/ui/ShareButtons.astro';
 import keyArt from '../../../assets/play/hebrew-word-builder-key-art.jpg';
 import '../../../styles/home.css';
 import '../../../styles/play.css';
@@ -93,6 +94,7 @@ const schema = {
               <p class="home-lead">See the English, hear the word, then build its Hebrew spelling from shuffled letter tiles. Practise 184 everyday words across 13 themes, with native-speaker audio and niqqud.</p>
               <a class="btn btn-primary play-launch" href="/play/hebrew-word-builder/game/">Play Free Now</a>
               <p class="play-hero-note">No download, no account. Works on phone and computer.</p>
+              <ShareButtons url="https://hebrewedu.com/play/hebrew-word-builder/" text="Hebrew Word Builder: spell Hebrew words from shuffled letters, free in your browser" item="hebrew-word-builder" location="hebrew_word_builder_hero" />
             </div>
             <div class="play-hero-art"><KeyArt src={keyArt} alt="Hebrew Word Builder: sandstone letter tiles spelling the Hebrew word for house, right to left, with a fox at a mountain sunset" loading="eager" sizes="(max-width: 900px) min(640px, 90vw), 46vw" /></div>
           </div>

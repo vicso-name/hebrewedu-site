@@ -268,6 +268,19 @@ export interface Dictionary {
     /** aria-label on the icon close button. */
     close: string;
   };
+  /** ShareButtons.astro: plain share links (no third-party scripts). */
+  share: {
+    /** Visible label before the row of share buttons. */
+    label: string;
+    /** aria-label of the single share button that opens the menu. */
+    menu: string;
+    facebook: string;
+    whatsapp: string;
+    telegram: string;
+    copyLink: string;
+    /** Announced (and shown) after the link is copied. */
+    copied: string;
+  };
   /** The 404 page (`src/pages/404.astro`). Link labels come from `nav`, so
    *  this is only the page's own copy. */
   notFound: {

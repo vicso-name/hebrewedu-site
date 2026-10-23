@@ -1,6 +1,7 @@
 ---
 import Faq from '../../components/Faq.astro';
 import KeyArt from '../../components/play/KeyArt.astro';
+import ShareButtons from '../../components/ui/ShareButtons.astro';
 import alefBetRushKeyArt from '../../assets/play/alef-bet-rush-key-art.png';
 import Layout from '../../layouts/Layout.astro';
 import Nav from '../../components/Nav.astro';
@@ -59,7 +60,10 @@ const learningTopics = [
     </div></div></section>
     <Section surface="soft" class="play-hub-games"><div class="play-catalog">
       <article class="play-card play-catalog-card">
-        <div class="play-catalog-art"><KeyArt src={alefBetRushKeyArt} alt="Alef Bet Rush: a rocket flies between floating islands carved with Hebrew letters" fit="cover" sizes="(max-width: 900px) min(640px, 90vw), (max-width: 1280px) 42vw, 420px" /></div>
+        <div class="play-catalog-media">
+          <div class="play-catalog-art"><KeyArt src={alefBetRushKeyArt} alt="Alef Bet Rush: a rocket flies between floating islands carved with Hebrew letters" fit="cover" sizes="(max-width: 900px) min(640px, 90vw), (max-width: 1280px) 42vw, 420px" /></div>
+          <div class="play-catalog-share"><ShareButtons url="https://hebrewedu.com/play/alef-bet-rush/" text="Alef Bet Rush: learn the 22 Hebrew letters in a free browser game" item="alef-bet-rush" location="play_catalog" variant="menu" /></div>
+        </div>
         <p class="home-eyebrow">Hebrew alphabet · Free browser game</p><h2 class="home-h2">Alef Bet Rush</h2>
         <p>Learn and recognise all 22 Hebrew letters through 24 missions across 8 planets, with native Hebrew letter-name audio.</p>
         <p>Learn, Recognize, Rush and Review: meet the letters, recall their shapes, and revisit what needs more practice.</p>
@@ -69,8 +73,11 @@ const learningTopics = [
         </div>
       </article>
       <article class="play-card play-catalog-card">
-        <div class="play-catalog-art">
-          <img src="/images/play/hebrew-mahjong-key-art.jpg" alt="Hebrew Mahjong game board with Hebrew letter tiles" width="1200" height="675" loading="lazy" decoding="async" />
+        <div class="play-catalog-media">
+          <div class="play-catalog-art">
+            <img src="/images/play/hebrew-mahjong-key-art.jpg" alt="Hebrew Mahjong game board with Hebrew letter tiles" width="1200" height="675" loading="lazy" decoding="async" />
+          </div>
+          <div class="play-catalog-share"><ShareButtons url="https://hebrewedu.com/play/hebrew-mahjong/" text="Hebrew Mahjong: match Hebrew letters with their names, free in your browser" item="hebrew-mahjong" location="play_catalog" variant="menu" /></div>
         </div>
         <p class="home-eyebrow">Hebrew alphabet · Mahjong puzzle</p><h2 class="home-h2">Hebrew Mahjong</h2>
         <p>Match Hebrew letters with their names in a real Mahjong-style puzzle. Clear layered boards, hear recorded letter names, and practise all 22 letters at your own pace.</p>
@@ -81,8 +88,11 @@ const learningTopics = [
         </div>
       </article>
       <article class="play-card play-catalog-card">
-        <div class="play-catalog-art">
-          <img src="/images/play/hebrew-word-search-key-art.jpg" alt="Hebrew Word Search letter grid with highlighted found words" width="1200" height="675" loading="lazy" decoding="async" />
+        <div class="play-catalog-media">
+          <div class="play-catalog-art">
+            <img src="/images/play/hebrew-word-search-key-art.jpg" alt="Hebrew Word Search letter grid with highlighted found words" width="1200" height="675" loading="lazy" decoding="async" />
+          </div>
+          <div class="play-catalog-share"><ShareButtons url="https://hebrewedu.com/play/hebrew-word-search/" text="Hebrew Word Search: find real Hebrew words in a letter grid, free in your browser" item="hebrew-word-search" location="play_catalog" variant="menu" /></div>
         </div>
         <p class="home-eyebrow">Hebrew vocabulary · Word search puzzle</p><h2 class="home-h2">Hebrew Word Search</h2>
         <p>Find hidden Hebrew words in a letter grid. Learn 185 everyday words across 13 themes, with native-speaker audio and niqqud.</p>
@@ -93,8 +103,11 @@ const learningTopics = [
         </div>
       </article>
       <article class="play-card play-catalog-card">
-        <div class="play-catalog-art">
-          <img src="/images/play/hebrew-word-builder-key-art.jpg" alt="Hebrew Word Builder: sandstone letter tiles spelling a Hebrew word, with a fox and a mountain sunset" width="1200" height="675" loading="lazy" decoding="async" />
+        <div class="play-catalog-media">
+          <div class="play-catalog-art">
+            <img src="/images/play/hebrew-word-builder-key-art.jpg" alt="Hebrew Word Builder: sandstone letter tiles spelling a Hebrew word, with a fox and a mountain sunset" width="1200" height="675" loading="lazy" decoding="async" />
+          </div>
+          <div class="play-catalog-share"><ShareButtons url="https://hebrewedu.com/play/hebrew-word-builder/" text="Hebrew Word Builder: spell Hebrew words from shuffled letters, free in your browser" item="hebrew-word-builder" location="play_catalog" variant="menu" /></div>
         </div>
         <p class="home-eyebrow">Hebrew spelling · Letter tile puzzle</p><h2 class="home-h2">Hebrew Word Builder</h2>
         <p>Build Hebrew words from shuffled letter tiles, right to left. Practise spelling 184 everyday words across 13 themes, with native-speaker audio and niqqud.</p>
@@ -105,8 +118,11 @@ const learningTopics = [
         </div>
       </article>
       <article class="play-card play-catalog-card">
-        <div class="play-catalog-art">
-          <img src="/images/play/hebrew-crossword-key-art.jpg" alt="Hebrew Crossword: stone letter tiles forming a mini Hebrew crossword, with a hoopoe in a sunlit Jerusalem courtyard" width="1200" height="675" loading="lazy" decoding="async" />
+        <div class="play-catalog-media">
+          <div class="play-catalog-art">
+            <img src="/images/play/hebrew-crossword-key-art.jpg" alt="Hebrew Crossword: stone letter tiles forming a mini Hebrew crossword, with a hoopoe in a sunlit Jerusalem courtyard" width="1200" height="675" loading="lazy" decoding="async" />
+          </div>
+          <div class="play-catalog-share"><ShareButtons url="https://hebrewedu.com/play/hebrew-crossword/" text="Hebrew Crossword: mini Hebrew crosswords with audio clues, free in your browser" item="hebrew-crossword" location="play_catalog" variant="menu" /></div>
         </div>
         <p class="home-eyebrow">Hebrew vocabulary · Mini crossword</p><h2 class="home-h2">Hebrew Crossword</h2>
         <p>Solve mini Hebrew crosswords: English clues with audio, Hebrew answers typed right to left on a built-in Hebrew keyboard.</p>
@@ -142,6 +158,14 @@ const learningTopics = [
   }
 
   .play-catalog-card { display: flex; flex-direction: column; }
+
+  .play-catalog-media { position: relative; }
+
+  .play-catalog-share {
+    position: absolute;
+    top: var(--space-xs-plus);
+    right: var(--space-xs-plus);
+  }
 
   .play-catalog-art {
     width: 100%;

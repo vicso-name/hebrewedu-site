@@ -9,6 +9,7 @@ import LearningMosaic, { type LearningItem } from '../../../components/play/Lear
 import CtaPanel from '../../../components/ui/CtaPanel.astro';
 import StoreButtons from '../../../components/ui/StoreButtons.astro';
 import KeyArt from '../../../components/play/KeyArt.astro';
+import ShareButtons from '../../../components/ui/ShareButtons.astro';
 import keyArt from '../../../assets/play/hebrew-crossword-key-art.jpg';
 import '../../../styles/home.css';
 import '../../../styles/play.css';
@@ -94,6 +95,7 @@ const schema = {
               <p class="home-lead">English clues with audio, Hebrew answers written right to left. Solve short crosswords built from 184 everyday words across 13 themes, with native-speaker audio and niqqud.</p>
               <a class="btn btn-primary play-launch" href="/play/hebrew-crossword/game/">Play Free Now</a>
               <p class="play-hero-note">No download, no account. Works on phone and computer, with a built-in Hebrew keyboard.</p>
+              <ShareButtons url="https://hebrewedu.com/play/hebrew-crossword/" text="Hebrew Crossword: mini Hebrew crosswords with audio clues, free in your browser" item="hebrew-crossword" location="hebrew_crossword_hero" />
             </div>
             <div class="play-hero-art"><KeyArt src={keyArt} alt="Hebrew Crossword: stone tiles forming a mini crossword of the Hebrew words for house and boy, with a hoopoe in a sunlit Jerusalem courtyard" loading="eager" sizes="(max-width: 900px) min(640px, 90vw), 46vw" /></div>
           </div>

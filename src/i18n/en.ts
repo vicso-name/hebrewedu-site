@@ -282,6 +282,15 @@ export const en: Dictionary = {
     later: 'Maybe later',
     close: 'Close',
   },
+  share: {
+    label: 'Share',
+    menu: 'Share this game',
+    facebook: 'Share on Facebook',
+    whatsapp: 'Share on WhatsApp',
+    telegram: 'Share on Telegram',
+    copyLink: 'Copy link',
+    copied: 'Link copied',
+  },
   notFound: {
     title: 'Page not found',
     description: 'This page does not exist or has moved. Pick up the Hebrew alphabet course, the phrase guide, the blog or the games from here.',
