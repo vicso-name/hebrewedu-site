@@ -1,6 +1,7 @@
 ---
 import Faq from '../../components/Faq.astro';
 import KeyArt from '../../components/play/KeyArt.astro';
+import alefBetRushKeyArt from '../../assets/play/alef-bet-rush-key-art.png';
 import Layout from '../../layouts/Layout.astro';
 import Nav from '../../components/Nav.astro';
 import Footer from '../../components/Footer.astro';
@@ -58,7 +59,7 @@ const learningTopics = [
     </div></div></section>
     <Section surface="soft" class="play-hub-games"><div class="play-catalog">
       <article class="play-card play-catalog-card">
-        <div class="play-catalog-art"><KeyArt alt="" fit="cover" sizes="(max-width: 900px) min(640px, 90vw), (max-width: 1280px) 42vw, 420px" /></div>
+        <div class="play-catalog-art"><KeyArt src={alefBetRushKeyArt} alt="Alef Bet Rush: a rocket flies between floating islands carved with Hebrew letters" fit="cover" sizes="(max-width: 900px) min(640px, 90vw), (max-width: 1280px) 42vw, 420px" /></div>
         <p class="home-eyebrow">Hebrew alphabet · Free browser game</p><h2 class="home-h2">Alef Bet Rush</h2>
         <p>Learn and recognise all 22 Hebrew letters through 24 missions across 8 planets, with native Hebrew letter-name audio.</p>
         <p>Learn, Recognize, Rush and Review: meet the letters, recall their shapes, and revisit what needs more practice.</p>

@@ -8,6 +8,8 @@ import FeatureGrid, { type FeatureItem } from '../../../components/ui/FeatureGri
 import LearningMosaic, { type LearningItem } from '../../../components/play/LearningMosaic.astro';
 import CtaPanel from '../../../components/ui/CtaPanel.astro';
 import StoreButtons from '../../../components/ui/StoreButtons.astro';
+import KeyArt from '../../../components/play/KeyArt.astro';
+import keyArt from '../../../assets/play/alef-bet-rush-key-art.png';
 import '../../../styles/home.css';
 import '../../../styles/play.css';
 const learningStages = [
@@ -51,11 +53,14 @@ const schema = {
       <section class="play-hero">
         <div class="container">
           <nav class="play-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/play/">Play</a> / Alef Bet Rush</nav>
-          <div class="play-copy">
-            <p class="home-eyebrow">Hebrew alphabet game</p>
-            <h1 class="home-h1">Alef Bet Rush: Free Hebrew Alphabet Game</h1>
-            <p class="home-lead">Learn all 22 Hebrew letters through a space adventure with native Hebrew letter-name audio. Start with the first letters, practise recognising their shapes, and return to the ones that need another look. Play free in your browser, with no account required.</p>
-            <a class="btn btn-primary play-launch" href="/play/alef-bet-rush/game/">Play Now</a>
+          <div class="play-hero-grid">
+            <div class="play-copy">
+              <p class="home-eyebrow">Hebrew alphabet game</p>
+              <h1 class="home-h1">Alef Bet Rush: Free Hebrew Alphabet Game</h1>
+              <p class="home-lead">Learn all 22 Hebrew letters through a space adventure with native Hebrew letter-name audio. Start with the first letters, practise recognising their shapes, and return to the ones that need another look. Play free in your browser, with no account required.</p>
+              <a class="btn btn-primary play-launch" href="/play/alef-bet-rush/game/">Play Now</a>
+            </div>
+            <div class="play-hero-art"><KeyArt src={keyArt} alt="Alef Bet Rush: a rocket flies between floating islands carved with Hebrew letters, from Alef to He" loading="eager" sizes="(max-width: 900px) min(640px, 90vw), 46vw" /></div>
           </div>
         </div>
       </section>

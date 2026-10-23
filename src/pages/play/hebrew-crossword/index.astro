@@ -8,6 +8,8 @@ import FeatureGrid, { type FeatureItem } from '../../../components/ui/FeatureGri
 import LearningMosaic, { type LearningItem } from '../../../components/play/LearningMosaic.astro';
 import CtaPanel from '../../../components/ui/CtaPanel.astro';
 import StoreButtons from '../../../components/ui/StoreButtons.astro';
+import KeyArt from '../../../components/play/KeyArt.astro';
+import keyArt from '../../../assets/play/hebrew-crossword-key-art.jpg';
 import '../../../styles/home.css';
 import '../../../styles/play.css';
 
@@ -77,7 +79,7 @@ const schema = {
   ],
 };
 ---
-<Layout title="Hebrew Crossword – Free Mini Crossword Puzzles Online" description="Solve mini Hebrew crosswords: English clues with audio, Hebrew answers typed right to left. 184 everyday words in 13 themes. Free, no sign-up." schema={schema}>
+<Layout title="Hebrew Crossword – Free Mini Crossword Puzzles Online" description="Solve mini Hebrew crosswords: English clues with audio, Hebrew answers typed right to left. 184 everyday words in 13 themes. Free, no sign-up." schema={schema} image="/images/play/hebrew-crossword-og.jpg">
   <link slot="head" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" />
   <div class="home-page play-page">
     <Nav />
@@ -85,12 +87,15 @@ const schema = {
       <section class="play-hero">
         <div class="container">
           <nav class="play-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/play/">Play</a> / Hebrew Crossword</nav>
-          <div class="play-copy">
-            <p class="home-eyebrow">Hebrew crossword puzzle</p>
-            <h1 class="home-h1">Hebrew Crossword: Mini Puzzles for Hebrew Learners</h1>
-            <p class="home-lead">English clues with audio, Hebrew answers written right to left. Solve short crosswords built from 184 everyday words across 13 themes, with native-speaker audio and niqqud.</p>
-            <a class="btn btn-primary play-launch" href="/play/hebrew-crossword/game/">Play Free Now</a>
-            <p class="play-hero-note">No download, no account. Works on phone and computer, with a built-in Hebrew keyboard.</p>
+          <div class="play-hero-grid">
+            <div class="play-copy">
+              <p class="home-eyebrow">Hebrew crossword puzzle</p>
+              <h1 class="home-h1">Hebrew Crossword: Mini Puzzles for Hebrew Learners</h1>
+              <p class="home-lead">English clues with audio, Hebrew answers written right to left. Solve short crosswords built from 184 everyday words across 13 themes, with native-speaker audio and niqqud.</p>
+              <a class="btn btn-primary play-launch" href="/play/hebrew-crossword/game/">Play Free Now</a>
+              <p class="play-hero-note">No download, no account. Works on phone and computer, with a built-in Hebrew keyboard.</p>
+            </div>
+            <div class="play-hero-art"><KeyArt src={keyArt} alt="Hebrew Crossword: stone tiles forming a mini crossword of the Hebrew words for house and boy, with a hoopoe in a sunlit Jerusalem courtyard" loading="eager" sizes="(max-width: 900px) min(640px, 90vw), 46vw" /></div>
           </div>
         </div>
       </section>

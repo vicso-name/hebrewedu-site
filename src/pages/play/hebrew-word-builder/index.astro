@@ -8,6 +8,8 @@ import FeatureGrid, { type FeatureItem } from '../../../components/ui/FeatureGri
 import LearningMosaic, { type LearningItem } from '../../../components/play/LearningMosaic.astro';
 import CtaPanel from '../../../components/ui/CtaPanel.astro';
 import StoreButtons from '../../../components/ui/StoreButtons.astro';
+import KeyArt from '../../../components/play/KeyArt.astro';
+import keyArt from '../../../assets/play/hebrew-word-builder-key-art.jpg';
 import '../../../styles/home.css';
 import '../../../styles/play.css';
 
@@ -76,7 +78,7 @@ const schema = {
   ],
 };
 ---
-<Layout title="Hebrew Word Builder – Free Hebrew Spelling Game Online" description="Build Hebrew words from shuffled letters. Practise spelling 184 everyday words right to left, with native audio and niqqud. Free, no sign-up." schema={schema}>
+<Layout title="Hebrew Word Builder – Free Hebrew Spelling Game Online" description="Build Hebrew words from shuffled letters. Practise spelling 184 everyday words right to left, with native audio and niqqud. Free, no sign-up." schema={schema} image="/images/play/hebrew-word-builder-og.jpg">
   <link slot="head" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" />
   <div class="home-page play-page">
     <Nav />
@@ -84,12 +86,15 @@ const schema = {
       <section class="play-hero">
         <div class="container">
           <nav class="play-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/play/">Play</a> / Hebrew Word Builder</nav>
-          <div class="play-copy">
-            <p class="home-eyebrow">Hebrew spelling game</p>
-            <h1 class="home-h1">Hebrew Word Builder: Spell Hebrew Words Right to Left</h1>
-            <p class="home-lead">See the English, hear the word, then build its Hebrew spelling from shuffled letter tiles. Practise 184 everyday words across 13 themes, with native-speaker audio and niqqud.</p>
-            <a class="btn btn-primary play-launch" href="/play/hebrew-word-builder/game/">Play Free Now</a>
-            <p class="play-hero-note">No download, no account. Works on phone and computer.</p>
+          <div class="play-hero-grid">
+            <div class="play-copy">
+              <p class="home-eyebrow">Hebrew spelling game</p>
+              <h1 class="home-h1">Hebrew Word Builder: Spell Hebrew Words Right to Left</h1>
+              <p class="home-lead">See the English, hear the word, then build its Hebrew spelling from shuffled letter tiles. Practise 184 everyday words across 13 themes, with native-speaker audio and niqqud.</p>
+              <a class="btn btn-primary play-launch" href="/play/hebrew-word-builder/game/">Play Free Now</a>
+              <p class="play-hero-note">No download, no account. Works on phone and computer.</p>
+            </div>
+            <div class="play-hero-art"><KeyArt src={keyArt} alt="Hebrew Word Builder: sandstone letter tiles spelling the Hebrew word for house, right to left, with a fox at a mountain sunset" loading="eager" sizes="(max-width: 900px) min(640px, 90vw), 46vw" /></div>
           </div>
         </div>
       </section>

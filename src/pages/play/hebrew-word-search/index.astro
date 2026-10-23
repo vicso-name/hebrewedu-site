@@ -8,6 +8,8 @@ import FeatureGrid, { type FeatureItem } from '../../../components/ui/FeatureGri
 import LearningMosaic, { type LearningItem } from '../../../components/play/LearningMosaic.astro';
 import CtaPanel from '../../../components/ui/CtaPanel.astro';
 import StoreButtons from '../../../components/ui/StoreButtons.astro';
+import KeyArt from '../../../components/play/KeyArt.astro';
+import keyArt from '../../../assets/play/hebrew-word-search-key-art.jpg';
 import '../../../styles/home.css';
 import '../../../styles/play.css';
 
@@ -76,7 +78,7 @@ const schema = {
   ],
 };
 ---
-<Layout title="Hebrew Word Search – Free Hebrew Vocabulary Game Online" description="Find hidden Hebrew words in a letter grid. Learn 185 everyday words across 13 themes with native-speaker audio and niqqud. Free, no sign-up." schema={schema}>
+<Layout title="Hebrew Word Search – Free Hebrew Vocabulary Game Online" description="Find hidden Hebrew words in a letter grid. Learn 185 everyday words across 13 themes with native-speaker audio and niqqud. Free, no sign-up." schema={schema} image="/images/play/hebrew-word-search-og.jpg">
   <link slot="head" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" />
   <div class="home-page play-page">
     <Nav />
@@ -84,12 +86,15 @@ const schema = {
       <section class="play-hero">
         <div class="container">
           <nav class="play-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/play/">Play</a> / Hebrew Word Search</nav>
-          <div class="play-copy">
-            <p class="home-eyebrow">Hebrew vocabulary game</p>
-            <h1 class="home-h1">Hebrew Word Search: Find Hidden Hebrew Words</h1>
-            <p class="home-lead">A calm word search where every hidden word is real Hebrew vocabulary. Learn 185 everyday words across 13 themes, with native-speaker audio and niqqud.</p>
-            <a class="btn btn-primary play-launch" href="/play/hebrew-word-search/game/">Play Free Now</a>
-            <p class="play-hero-note">No download, no account. Works on phone and computer.</p>
+          <div class="play-hero-grid">
+            <div class="play-copy">
+              <p class="home-eyebrow">Hebrew vocabulary game</p>
+              <h1 class="home-h1">Hebrew Word Search: Find Hidden Hebrew Words</h1>
+              <p class="home-lead">A calm word search where every hidden word is real Hebrew vocabulary. Learn 185 everyday words across 13 themes, with native-speaker audio and niqqud.</p>
+              <a class="btn btn-primary play-launch" href="/play/hebrew-word-search/game/">Play Free Now</a>
+              <p class="play-hero-note">No download, no account. Works on phone and computer.</p>
+            </div>
+            <div class="play-hero-art"><KeyArt src={keyArt} alt="Hebrew Word Search: a grid of Hebrew letters with one word highlighted, watched by a puppy, a kitten, a bird and an elephant" loading="eager" sizes="(max-width: 900px) min(640px, 90vw), 46vw" /></div>
           </div>
         </div>
       </section>
