@@ -1,0 +1,5 @@
+timestamp,endpoint,params_summary,cost_usd,cache_file
+2026-10-23T12:46:49.620Z,/v3/keywords_data/google_ads/search_volume/live,45 keywords US/en,0.09,64ff430a4c73fc9b.json
+2026-10-23T12:46:59.124Z,/v3/dataforseo_labs/google/keyword_suggestions/live,suggestions "hebrew game" limit 100 US/en,0,failed 40200
+2026-10-23T12:46:59.197Z,/v3/dataforseo_labs/google/keyword_suggestions/live,suggestions "hebrew games" limit 100 US/en,0,failed 40200
+2026-10-23T12:46:59.319Z,/v3/dataforseo_labs/google/keyword_suggestions/live,suggestions "aleph bet game" limit 100 US/en,0,failed 40200
