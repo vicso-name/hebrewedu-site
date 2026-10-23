@@ -1,9 +1,7 @@
 ---
 title: "The Hebrew Alphabet: A Complete Guide to All 22 Letters"
-# Owner exception: this post keeps the brand suffix until end of October 2026;
-# every other blog title dropped it (docs/I18N.md "Known gaps").
-seoTitle: "The Hebrew Alphabet: A Complete Guide to All 22 Letters | HebrewEdu Blog"
-description: "Everything you need to know about the Hebrew alphabet — letter shapes, names, sounds, and practical tips for learning Aleph Bet from scratch."
+seoTitle: "Hebrew Alphabet: A Complete Guide to All 22 Letters"
+description: "The Hebrew alphabet has 22 letters. See each letter's shape, name and sound, the five final forms, nikud vowels and tips to learn the Aleph Bet."
 pubDate: 2025-07-01
 updatedDate: 2026-10-10
 author: "HebrewEdu Team"

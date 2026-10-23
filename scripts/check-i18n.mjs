@@ -199,23 +199,16 @@ const BRAND_SUFFIX = /\s[|–—-]\s*HebrewEdu(\s+Blog)?\s*$/;
 // ranking page's <title> is an SEO decision, not a lint fix — tracked for the
 // owner, see docs/I18N.md.
 //
-// The blog-wide "… | HebrewEdu Blog" convention is gone (the FR-blog
-// infrastructure step dropped it from the shared template, from the
-// hand-written seoTitles and from the listing), so only the one post the owner
-// held back is still listed here.
-const BRAND_SUFFIX_ALLOWLIST = new Map([
-  ['/blog/hebrew-alphabet-complete-guide/', 'owner decision: this post keeps the brand suffix until end of October 2026'],
-  ['/play/', 'games hub — pre-existing, pending an owner SEO decision'],
-  ['/play/alef-bet-rush/', 'game page — pre-existing, pending an owner SEO decision'],
-]);
+// Empty: the blog-wide "… | HebrewEdu Blog" convention is gone, and the
+// alphabet guide, /play/ and /play/alef-bet-rush/ dropped theirs in the
+// owner-approved October 2026 SEO pass.
+const BRAND_SUFFIX_ALLOWLIST = new Map([]);
 
 // Per-URL, not per-prefix: dropping the brand suffix brought every blog title
 // but one under 60, and gave every post exactly one <h1>, so the blog now
 // passes the h1 rule outright and needs no length exemption beyond these rows.
 // A FR post gets no exemption at all — FR titles are written to the limit.
-const TITLE_LENGTH_ALLOWLIST = new Map([
-  ['/blog/hebrew-alphabet-complete-guide/', 'owner-held brand suffix (above) is what pushes it to 72; the title itself is 55'],
-]);
+const TITLE_LENGTH_ALLOWLIST = new Map([]);
 // Meta descriptions a few characters over, from before this guardrail existed.
 // Trimming a ranking post's description is an SEO edit, not a lint fix.
 const DESCRIPTION_LENGTH_ALLOWLIST = new Map([
