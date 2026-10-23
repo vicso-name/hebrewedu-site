@@ -37,25 +37,27 @@ export async function balanceUsd() {
 
 const csvEscape = (v) => (/[",\n]/.test(v) ? `"${String(v).replace(/"/g, '""')}"` : String(v));
 
-async function logSpend({ endpoint, paramsSummary, costUsd, note }) {
+async function logSpend(ledger, { endpoint, paramsSummary, costUsd, note }) {
   const row = [new Date().toISOString(), endpoint, paramsSummary, costUsd.toFixed(4), note];
-  await appendFile(LEDGER, row.map(csvEscape).join(',') + '\n');
+  await appendFile(ledger, row.map(csvEscape).join(',') + '\n');
 }
 
 export class SpendCapExceeded extends Error {}
 
 /**
- * POSTs `body` to `endpoint`, serving from cache when possible.
+ * POSTs `body` to `endpoint`, serving from cache when possible. `cacheDir` and
+ * `ledger` default to the FR research; `spentUsd` carries spend already made
+ * under the same cap by another provider.
  * `estimateCost(data)` returns the USD price of a live call from its response,
  * so the ledger records the published-price estimate for what was returned.
  */
-export function createCaller({ capUsd, onSpend }) {
-  let spent = 0;
+export function createCaller({ capUsd, onSpend, cacheDir = CACHE_DIR, ledger = LEDGER, spentUsd = 0 }) {
+  let spent = spentUsd;
   return {
     get spent() { return spent; },
     async call(endpoint, body, { note = '', paramsSummary = JSON.stringify(body), estimateCost }) {
-      await mkdir(CACHE_DIR, { recursive: true });
-      const path = resolve(CACHE_DIR, `${cacheKey(endpoint, body)}.json`);
+      await mkdir(cacheDir, { recursive: true });
+      const path = resolve(cacheDir, `${cacheKey(endpoint, body)}.json`);
       try {
         const hit = JSON.parse(await readFile(path, 'utf8'));
         return { data: hit.data, cached: true, cost: 0 };
@@ -83,7 +85,7 @@ export function createCaller({ capUsd, onSpend }) {
       const cost = estimateCost.price(json.data);
       spent += cost;
       await writeFile(path, JSON.stringify(json, null, 1));
-      await logSpend({ endpoint, paramsSummary, costUsd: cost, note });
+      await logSpend(ledger, { endpoint, paramsSummary, costUsd: cost, note });
       onSpend?.(endpoint, cost, spent);
       return { data: json.data, cached: false, cost };
     },

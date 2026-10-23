@@ -1,0 +1,660 @@
+[
+  {
+    "seed": "hebrew game",
+    "keyword": "hebrew game",
+    "volume": 320,
+    "kd": 2,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew game",
+    "keyword": "game in hebrew",
+    "volume": 320,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew game",
+    "keyword": "hebrew letters game",
+    "volume": 70,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew game",
+    "keyword": "hebrew alphabet game",
+    "volume": 70,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew game",
+    "keyword": "learn hebrew game",
+    "volume": 30,
+    "kd": 4,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew game",
+    "keyword": "learn hebrew alphabet game",
+    "volume": 20,
+    "kd": 1,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew game",
+    "keyword": "learn the hebrew alphabet game",
+    "volume": 20,
+    "kd": 1,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew game",
+    "keyword": "learn hebrew letters game",
+    "volume": 20,
+    "kd": 1,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew game",
+    "keyword": "game of thrones in hebrew",
+    "volume": 20,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew game",
+    "keyword": "hebrew card game",
+    "volume": 10,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew game",
+    "keyword": "hebrew typing game",
+    "volume": 10,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew game",
+    "keyword": "wordle hebrew game",
+    "volume": 10,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew game",
+    "keyword": "hebrew memory game",
+    "volume": 10,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew game",
+    "keyword": "hebrew matching game",
+    "volume": 10,
+    "kd": 21,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew game",
+    "keyword": "italam hebrew game",
+    "volume": 10,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew game",
+    "keyword": "game of thrones hebrew subtitles",
+    "volume": 10,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew game",
+    "keyword": "biblical games game theory and the hebrew bible",
+    "volume": 10,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew game",
+    "keyword": "hebrew alphabet matching game",
+    "volume": 10,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew game",
+    "keyword": "gamba hebrew game",
+    "volume": 10,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew game",
+    "keyword": "squid game hebrew",
+    "volume": 10,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew game",
+    "keyword": "learn hebrew vowels game",
+    "volume": 10,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew game",
+    "keyword": "hebrew letter matching game",
+    "volume": 0,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew game",
+    "keyword": "hebrew scrabble game",
+    "volume": 0,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew game",
+    "keyword": "monopoly game in hebrew",
+    "volume": 0,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew game",
+    "keyword": "3 hebrew boys game",
+    "volume": 0,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew game",
+    "keyword": "hebrew grammar game",
+    "volume": 0,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew game",
+    "keyword": "hebrew color game",
+    "volume": 0,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew game",
+    "keyword": "hebrew vowels game",
+    "volume": 0,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew game",
+    "keyword": "hebrew verb conjugation game",
+    "volume": 0,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew game",
+    "keyword": "monopoly jerusalem edition board game in hebrew and english",
+    "volume": 0,
+    "kd": 0,
+    "intent": "transactional"
+  },
+  {
+    "seed": "hebrew game",
+    "keyword": "hebrew counting game",
+    "volume": 0,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew game",
+    "keyword": "matching game hebrew",
+    "volume": 0,
+    "kd": 21,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew game",
+    "keyword": "learn hebrew video game",
+    "volume": 0,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew game",
+    "keyword": "hebrew reading game",
+    "volume": 0,
+    "kd": 21,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew game",
+    "keyword": "hebrew game app",
+    "volume": 0,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew game",
+    "keyword": "hebrew vocabulary game",
+    "volume": 0,
+    "kd": 42,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew game",
+    "keyword": "memory game in hebrew",
+    "volume": 0,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew game",
+    "keyword": "hebrew match game",
+    "volume": 0,
+    "kd": 21,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "games in hebrew",
+    "volume": 320,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "hebrew games",
+    "volume": 320,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "hebrew language games",
+    "volume": 320,
+    "kd": 2,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "hebrew board games",
+    "volume": 210,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "hebrew letter games",
+    "volume": 70,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "hebrew alphabet games",
+    "volume": 70,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "wordwall hebrew games",
+    "volume": 50,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "hebrew games online",
+    "volume": 40,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "hebrew language learning games",
+    "volume": 40,
+    "kd": 8,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "learning hebrew games",
+    "volume": 40,
+    "kd": 4,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "online hebrew games",
+    "volume": 40,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "hebrew online games",
+    "volume": 40,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "learn hebrew games",
+    "volume": 30,
+    "kd": 5,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "hebrew learning games",
+    "volume": 30,
+    "kd": 4,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "hebrew video games",
+    "volume": 20,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "video games in hebrew",
+    "volume": 20,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "hebrew alphabet learning games",
+    "volume": 20,
+    "kd": 1,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "hebrew reading games",
+    "volume": 20,
+    "kd": 21,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "free hebrew games",
+    "volume": 20,
+    "kd": 21,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "interactive hebrew games",
+    "volume": 10,
+    "kd": 2,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "hebrew learning games free",
+    "volume": 10,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "hebrew practice games",
+    "volume": 10,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "hebrew games for zoom",
+    "volume": 10,
+    "kd": 13,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "ancient hebrew games",
+    "volume": 10,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "yandex games hebrew",
+    "volume": 10,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "hebrew alphabet games online",
+    "volume": 10,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "hebrew games for the classroom",
+    "volume": 10,
+    "kd": 14,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "hebrew aleph bet games",
+    "volume": 10,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "hebrew vocab games",
+    "volume": 10,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "online hebrew learning games",
+    "volume": 10,
+    "kd": 0,
+    "intent": "commercial"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "hebrew alef bet games",
+    "volume": 10,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "free hebrew games online",
+    "volume": 10,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "hebrew classroom games",
+    "volume": 10,
+    "kd": 14,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "games to learn hebrew",
+    "volume": 10,
+    "kd": 4,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "ariot hebrew games",
+    "volume": 10,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "hebrew games for beginners",
+    "volume": 10,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "hebrew vocabulary games",
+    "volume": 10,
+    "kd": 42,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "hebrew typing games",
+    "volume": 10,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "online hebrew reading games",
+    "volume": 10,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "board games in hebrew",
+    "volume": 10,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "learn to read hebrew games",
+    "volume": 10,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "hebrew games printable",
+    "volume": 10,
+    "kd": 13,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "learn hebrew online games",
+    "volume": 10,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "biblical games game theory and the hebrew bible",
+    "volume": 10,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "hebrew word games",
+    "volume": 10,
+    "kd": 44,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "fun hebrew games",
+    "volume": 10,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "hebrew games online free",
+    "volume": 10,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "free online hebrew games",
+    "volume": 10,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "hebrew reading games online",
+    "volume": 10,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "hebrew games",
+    "keyword": "hebrew counting games",
+    "volume": 0,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "aleph bet game",
+    "keyword": "aleph bet game",
+    "volume": 50,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "aleph bet game",
+    "keyword": "aleph bet game online",
+    "volume": 10,
+    "kd": 23,
+    "intent": "transactional"
+  },
+  {
+    "seed": "aleph bet game",
+    "keyword": "aleph bet matching game",
+    "volume": 10,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "aleph bet game",
+    "keyword": "aleph bet review game",
+    "volume": 0,
+    "kd": 0,
+    "intent": "informational"
+  },
+  {
+    "seed": "aleph bet game",
+    "keyword": "aleph bet memory game online",
+    "volume": 0,
+    "kd": 0,
+    "intent": "transactional"
+  },
+  {
+    "seed": "aleph bet game",
+    "keyword": "aleph bet matching game online",
+    "volume": 0,
+    "kd": 0,
+    "intent": "commercial"
+  }
+]
