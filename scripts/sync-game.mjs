@@ -44,7 +44,8 @@ async function validate(root, slug) {
     }
     if (/\.(?:js|css)$/i.test(path)) {
       const content = await readFile(path, 'utf8');
-      for (const match of content.matchAll(/["'`](\.?\/?assets\/[A-Za-z0-9_./-]+)["'`]/g)) await check(match[1], resolve(root, 'index.html'));
+      // A literal followed by `:` is an object key (e.g. Vite's import.meta.glob map of source paths), not a URL.
+      for (const match of content.matchAll(/["'`](\.?\/?assets\/[A-Za-z0-9_./-]+)["'`](?!\s*:)/g)) await check(match[1], resolve(root, 'index.html'));
       for (const match of (/\.css$/i.test(path) ? content : "").matchAll(/url\(\s*["']?([^\s)'" ]+)/g)) await check(match[1], path);
     }
   }
