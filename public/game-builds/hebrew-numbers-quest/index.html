@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="robots" content="noindex, follow" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#3b2a6e" />
+    <title>Hebrew Numbers Quest</title>
+    <style>:root{--boot-bg:#3b2a6e;--boot-text:#fff;--boot-text-muted:#e3d7f7;--boot-surface:#2b1d4f;--boot-surface-raised:#3e2a6b;--boot-disabled:#4a3b6b;--boot-rim:#7a5ab8;--boot-accent:#ffc93c;--boot-accent-lo:#f0a01e;--boot-accent-text:#2e1600;--boot-deep:#1e1236;--boot-badge:#120a22;--boot-street:#d9905a;--boot-street-hi:#efae6e;--boot-street-dk:#b06a3e;--boot-street-line:#8e4e2e;--boot-tile:max(32px, 6.25vh)}html,body,#game-root{background:var(--boot-bg);width:100%;height:100%;margin:0;overflow:hidden}html,body{overscroll-behavior:none;touch-action:manipulation}body{color:var(--boot-text);font-family:Rubik,Arial,Helvetica,sans-serif}canvas{display:block}#boot-loader{z-index:10;background:var(--boot-bg);opacity:1;flex-direction:column;justify-content:center;align-items:center;transition:opacity .25s;display:flex;position:fixed;inset:0}#boot-loader[data-state=ready]{opacity:0;pointer-events:none}#boot-loader{--boot-progress:0;overflow:hidden}#boot-loader .boot-sky{object-fit:cover;width:100%;height:100%;position:absolute;inset:0}#boot-loader .boot-sun{left:62%;bottom:calc(var(--boot-tile) * 1.45 + 10vh);width:min(46vh,340px);position:absolute;transform:translate(-50%)}#boot-loader .boot-skyline{left:0;bottom:calc(var(--boot-tile) * 1.45);width:max(100%, calc(var(--boot-tile) * 32));height:calc(var(--boot-tile) * 12);object-fit:cover;object-position:left bottom;position:absolute}#boot-loader .boot-street{height:calc(var(--boot-tile) * 1.45);border-top:3px solid var(--boot-street-line);background:linear-gradient(var(--boot-street-hi), var(--boot-street-hi)) top / 100% 5px no-repeat, repeating-linear-gradient(90deg, transparent 0 calc(var(--boot-tile) - 1px), var(--boot-street-dk) calc(var(--boot-tile) - 1px) var(--boot-tile)), repeating-linear-gradient(180deg, transparent 0 calc(var(--boot-tile) / 2 - 1px), var(--boot-street-dk) calc(var(--boot-tile) / 2 - 1px) calc(var(--boot-tile) / 2)), var(--boot-street);position:absolute;bottom:0;left:0;right:0}#boot-progress{padding-bottom:calc(var(--boot-tile) * 1.45);flex-direction:column;align-items:center;gap:min(4vh,28px);display:flex;position:relative}.boot-logo{object-fit:contain;max-width:84vw;height:min(43vh,330px);display:block}.boot-bar{border:2px solid var(--boot-rim);background:var(--boot-deep);border-radius:999px;width:clamp(240px,45vw,620px);height:clamp(10px,3vh,16px);margin-top:min(9vh,64px);position:relative}.boot-bar-fill{width:calc(var(--boot-progress) * 100%);border-radius:inherit;background:linear-gradient(var(--boot-accent), var(--boot-accent-lo));transition:width .2s ease-out;position:absolute;inset:0 auto 0 0}.boot-hero{left:calc(var(--boot-progress) * 100% - 47px);width:80px;height:104px;transition:left .2s ease-out;position:absolute;bottom:calc(100% - 4px);overflow:hidden}.boot-hero img{width:2996px;max-width:none;height:104px;animation:.57s steps(8,end) infinite boot-hero-run;display:block}@keyframes boot-hero-run{0%{transform:translate(-486px)}to{transform:translate(-1134px)}}.boot-status{background:color-mix(in srgb, var(--boot-deep) 80%, transparent);color:var(--boot-text);font-variant-numeric:tabular-nums;border-radius:999px;margin:0;padding:6px 16px;font:700 16px/22px Rubik,Arial,Helvetica,sans-serif}@media (max-height:360px){.boot-hero{transform-origin:47px 100%;transform:scale(.8)}}#boot-error{flex-direction:column;align-items:center;gap:14px;display:none;position:relative}#boot-error p{color:var(--boot-text);text-align:center;margin:0}#boot-retry{border:1px solid var(--boot-accent);background:var(--boot-accent);min-height:44px;color:var(--boot-accent-text);cursor:pointer;border-radius:10px;padding:10px 22px;font:700 16px Arial,Helvetica,sans-serif}#boot-loader[data-state=error] #boot-progress{display:none}#boot-loader[data-state=error] #boot-error{display:flex}#rotate-overlay{z-index:15;background:var(--boot-bg);color:var(--boot-text);display:none;position:fixed;inset:0;overflow:hidden}@media (orientation:portrait) and (pointer:coarse){#rotate-overlay{display:block}}#rotate-overlay .rotate-sky{width:100%;height:100%;position:absolute;inset:0}#rotate-overlay .rotate-sun{width:300px;height:300px;position:absolute;bottom:60px;left:calc(55% - 150px)}#rotate-overlay .rotate-skyline{width:220%;position:absolute;bottom:-40px;left:-50%}#rotate-overlay .rotate-stack{padding:max(70px, env(safe-area-inset-top)) 24px 24px;flex-direction:column;align-items:center;gap:50px;display:flex;position:relative}#rotate-overlay .rotate-logo{box-sizing:border-box;width:min(100%,420px);padding:0 16px}#rotate-overlay .rotate-art{width:230px;height:230px;margin-bottom:-20px}#rotate-overlay .rotate-panel{box-sizing:border-box;text-align:center;border:2px solid var(--boot-rim);background:linear-gradient(180deg, var(--boot-surface-raised), var(--boot-surface));border-radius:16px;gap:4px;width:100%;max-width:420px;padding:14px 18px;display:grid}#rotate-overlay .rotate-title{margin:0;font:800 22px/28px Rubik,Arial,Helvetica,sans-serif}#rotate-overlay .rotate-body{color:var(--boot-text-muted);margin:0;font:400 16px/22px Rubik,Arial,Helvetica,sans-serif}@media (max-height:700px){#rotate-overlay .rotate-stack{padding-top:max(34px, env(safe-area-inset-top));gap:20px}#rotate-overlay .rotate-art{width:170px;height:170px;margin-bottom:-6px}}@media (prefers-reduced-motion:reduce){.boot-hero img{animation:none}.boot-bar-fill,.boot-hero{transition:none}}</style>
+    <script type="module" crossorigin src="./assets/index-lwRIfkF5.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-IthYfvYB.css">
+  </head>
+  <body>
+    <main id="game-root" aria-label="HebrewEdu learning game"></main>
+    <div id="boot-loader" role="status" aria-live="polite" data-state="loading">
+      <img class="boot-sky" src="./assets/layer-0-sky-CU5paDyO.png" alt="" />
+      <img class="boot-sun" src="./assets/sun-CNWKWzhs.png" alt="" />
+      <img class="boot-skyline" src="./assets/layer-3-skyline-CBowNqhZ.png" alt="" />
+      <div class="boot-street" aria-hidden="true"></div>
+      <div id="boot-progress">
+        <img class="boot-logo" src="./assets/logo-BRHQUyV4.png" alt="Hebrew Numbers Quest" />
+        <div class="boot-bar" aria-hidden="true">
+          <div class="boot-bar-fill"></div>
+          <div class="boot-hero"><img src="./assets/hero-girl-BG1amoPq.png" alt="" /></div>
+        </div>
+        <p class="boot-status">Loading… <span id="boot-percent">0%</span></p>
+      </div>
+      <div id="boot-error">
+        <p>Couldn't load the game</p>
+        <button id="boot-retry" type="button">Try again</button>
+      </div>
+    </div>
+    <div id="rotate-overlay" role="alertdialog" aria-labelledby="rotate-title" aria-describedby="rotate-body">
+      <img class="rotate-sky" src="./assets/layer-0-sky-CU5paDyO.png" alt="" />
+      <img class="rotate-sun" src="./assets/sun-CNWKWzhs.png" alt="" />
+      <img class="rotate-skyline" src="./assets/layer-3-skyline-CBowNqhZ.png" alt="" />
+      <div class="rotate-stack">
+        <img class="rotate-logo" src="./assets/logo-BcC4Kvsl.svg" alt="Hebrew Numbers Quest" />
+        <svg class="rotate-art" viewBox="0 0 220 220" role="img" aria-label="A phone turning from portrait to landscape">
+          <circle cx="110" cy="110" r="100" fill="#1e1236" opacity=".55"></circle>
+          <g transform="rotate(-30 110 110)" opacity=".45"><rect x="80" y="45" width="60" height="110" rx="12" fill="none" stroke="#ffffff" stroke-width="5" stroke-dasharray="10 8"></rect></g>
+          <g><rect x="55" y="80" width="110" height="60" rx="12" fill="#3e2a6b" stroke="#ffffff" stroke-width="6"></rect><rect x="68" y="90" width="84" height="40" rx="5" fill="#ffc93c"></rect><circle cx="160" cy="110" r="3" fill="#ffffff"></circle></g>
+          <path d="M40,150 A80,80 0 0 1 60,55" fill="none" stroke="#ffc93c" stroke-width="7" stroke-linecap="round"></path>
+          <path d="M48,44 L62,52 L52,66" fill="none" stroke="#ffc93c" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+        <div class="rotate-panel">
+          <p id="rotate-title" class="rotate-title">Rotate your phone</p>
+          <p id="rotate-body" class="rotate-body">This game plays sideways.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

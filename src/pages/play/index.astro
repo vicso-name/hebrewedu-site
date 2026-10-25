@@ -3,6 +3,7 @@ import Faq from '../../components/Faq.astro';
 import KeyArt from '../../components/play/KeyArt.astro';
 import ShareButtons from '../../components/ui/ShareButtons.astro';
 import alefBetRushKeyArt from '../../assets/play/alef-bet-rush-key-art.png';
+import hebrewNumbersQuestKeyArt from '../../assets/play/hebrew-numbers-quest-key-art.jpg';
 import Layout from '../../layouts/Layout.astro';
 import Nav from '../../components/Nav.astro';
 import Footer from '../../components/Footer.astro';
@@ -46,17 +47,19 @@ const learningTopics = [
       { text: 'Hebrew Word Builder', href: '/play/hebrew-word-builder/' },
       ' to spell them right to left, and ',
       { text: 'Hebrew Crossword', href: '/play/hebrew-crossword/' },
-      ' to write them from memory.',
+      ' to write them from memory. For numbers, ',
+      { text: 'Hebrew Numbers Quest', href: '/play/hebrew-numbers-quest/' },
+      ' teaches 0 to 20.',
     ],
   },
 ] satisfies [LearningItem, LearningItem, LearningItem, LearningItem];
 ---
-<Layout title="Free Hebrew Games Online: Learn Hebrew by Playing" description="Play free Hebrew games online: learn the Alef Bet, match letters, then find and spell real Hebrew words. Native audio, no sign-up, phone or computer." schema={schema}>
+<Layout title="Free Hebrew Games Online: Learn Hebrew by Playing" description="Play free Hebrew games online: learn the Alef Bet, match letters, find and spell real Hebrew words, and count to 20. With audio, no sign-up." schema={schema}>
   <link slot="head" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" />
   <div class="home-page play-page"><Nav /><main>
     <section class="play-hero"><div class="container"><div class="play-copy play-hub-copy">
       <p class="home-eyebrow">Learn Hebrew by playing</p><h1 class="home-h1">Free Hebrew Games for Beginners</h1>
-      <p class="home-lead">Five short browser games that take you from the Hebrew alphabet to your first real words. Start with the Alef Bet, then find, spell and write everyday Hebrew vocabulary, all with native audio.</p>
+      <p class="home-lead">Six short browser games that take you from the Hebrew alphabet to your first real words and numbers. Start with the Alef Bet, then find, spell and write everyday Hebrew vocabulary, and count from 0 to 20, all with Hebrew audio.</p>
     </div></div></section>
     <Section surface="soft" class="play-hub-games"><div class="play-catalog">
       <article class="play-card play-catalog-card">
@@ -132,12 +135,25 @@ const learningTopics = [
           <a class="btn btn-primary" href="/play/hebrew-crossword/game/">Play Now</a>
         </div>
       </article>
+      <article class="play-card play-catalog-card">
+        <div class="play-catalog-media">
+          <div class="play-catalog-art"><KeyArt src={hebrewNumbersQuestKeyArt} alt="Hebrew Numbers Quest: a girl jumps to bump a glowing number block 3 in a market street at sunset" fit="cover" sizes="(max-width: 900px) min(640px, 90vw), (max-width: 1280px) 42vw, 420px" /></div>
+          <div class="play-catalog-share"><ShareButtons url="https://hebrewedu.com/play/hebrew-numbers-quest/" text="Hebrew Numbers Quest: learn Hebrew numbers 0–20 in a free platformer" item="hebrew-numbers-quest" location="play_catalog" variant="menu" /></div>
+        </div>
+        <p class="home-eyebrow">Hebrew numbers · Platformer</p><h2 class="home-h2">Hebrew Numbers Quest</h2>
+        <p>Run and jump through an ancient city and learn the Hebrew numbers 0–20. Bump number blocks to see and hear each number, with spoken Hebrew audio and niqqud.</p>
+        <p>Open stone gates by picking the right number, by ear, by reading or by counting. Wrong answers never cost a shield.</p>
+        <div class="play-catalog-cta">
+          <a class="btn btn-outline" href="/play/hebrew-numbers-quest/">Read More</a>
+          <a class="btn btn-primary" href="/play/hebrew-numbers-quest/game/">Play Now</a>
+        </div>
+      </article>
     </div></Section>
     <Section>
       <LearningMosaic items={learningTopics} />
     </Section>
     <Faq title="Frequently Asked Questions" items={[
-      { q: 'Are these Hebrew games free?', a: 'Yes. Alef Bet Rush, Hebrew Mahjong, Hebrew Word Search, Hebrew Word Builder and Hebrew Crossword are all free to play in your browser, with no account required.' },
+      { q: 'Are these Hebrew games free?', a: 'Yes. Alef Bet Rush, Hebrew Mahjong, Hebrew Word Search, Hebrew Word Builder, Hebrew Crossword and Hebrew Numbers Quest are all free to play in your browser, with no account required.' },
       { q: 'Which game should beginners start with?', a: '<a href="/play/alef-bet-rush/">Alef Bet Rush</a> gives you a guided introduction to each letter before practice, while <a href="/play/hebrew-mahjong/">Hebrew Mahjong</a> leans on matching and recognition across a broader board. Either is a reasonable starting point; try both and see which style you enjoy more. Once you know the letters, <a href="/play/hebrew-word-search/">Hebrew Word Search</a> and <a href="/play/hebrew-word-builder/">Hebrew Word Builder</a> move on to real words.' },
       { q: 'Do games replace a Hebrew course?', a: 'Games help you practise a specific skill. Combine them with structured lessons and reading for a broader learning path.' },
     ]} />

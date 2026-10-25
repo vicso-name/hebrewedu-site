@@ -1,0 +1,172 @@
+---
+import Faq from '../../../components/Faq.astro';
+import Layout from '../../../layouts/Layout.astro';
+import Nav from '../../../components/Nav.astro';
+import Footer from '../../../components/Footer.astro';
+import Section from '../../../components/ui/Section.astro';
+import FeatureGrid, { type FeatureItem } from '../../../components/ui/FeatureGrid.astro';
+import LearningMosaic, { type LearningItem } from '../../../components/play/LearningMosaic.astro';
+import CtaPanel from '../../../components/ui/CtaPanel.astro';
+import StoreButtons from '../../../components/ui/StoreButtons.astro';
+import KeyArt from '../../../components/play/KeyArt.astro';
+import ShareButtons from '../../../components/ui/ShareButtons.astro';
+import keyArt from '../../../assets/play/hebrew-numbers-quest-key-art.jpg';
+import '../../../styles/home.css';
+import '../../../styles/play.css';
+
+const howItWorks = [
+  { icon: 'target', title: 'Bump a block, hear the number', description: 'Jump under a golden number block: it shows the digit and the Hebrew word with full niqqud, and you hear it spoken. Each level meets up to three new numbers and reviews earlier ones.' },
+  { icon: 'book', title: 'Open the gates', description: 'A stone gate blocks the path and asks a question: a number you hear, a Hebrew word you read, or a picture of pomegranates to count. Bump the block with the right digit and the gate slides open.' },
+  { icon: 'repeat', title: 'Prove it at the city gate', description: 'Each district ends with a gate quiz: a friendly guardian asks five questions, and every right answer opens one lock. Answers you miss come back later in the quiz.' },
+] satisfies FeatureItem[];
+
+const whyItWorks = [
+  {
+    title: 'Meet It, Then Recall It',
+    description: ['Number blocks introduce a number with its digit, spelling and sound. A few steps later a gate asks for it back, so you retrieve the number instead of just seeing it again.'],
+  },
+  {
+    title: 'Three Ways to Ask',
+    description: ['Gates ask by ear, by the written word and by counting objects. Knowing the Hebrew word for three means hearing it, reading it and matching it to three things, not only one of them.'],
+  },
+  {
+    title: 'Wrong Answers Cost Nothing',
+    description: ['A wrong answer never costs a shield. The block thuds, the right one glows and its word is spoken, and you try again. Shields are only for the jumping part: pits, barrels, a market goose and falling pots.'],
+  },
+  {
+    title: 'Tricky Numbers Side by Side',
+    description: ['The wrong answers on a gate are the numbers you are most likely to mix up: three and thirteen, numbers that sound alike, and numbers you have confused before. You learn the difference instead of guessing from a short list.'],
+  },
+] satisfies [LearningItem, LearningItem, LearningItem, LearningItem];
+
+const url = 'https://hebrewedu.com/play/hebrew-numbers-quest/';
+const playUrl = 'https://hebrewedu.com/play/';
+
+const faqItems = [
+  { q: 'Is Hebrew Numbers Quest free?', a: 'Yes. It runs in your browser with no account, download or payment. The shekels you collect are only for stars; there is no shop.' },
+  { q: 'Which Hebrew numbers does it teach?', a: 'The numbers 0 to 20, in the counting form used when you count out loud: <span lang="he" dir="rtl">אַחַת, שְׁתַּיִם, שָׁלוֹשׁ</span> and so on. Every number is shown as a digit and as a Hebrew word with full niqqud, and is spoken.' },
+  { q: 'Why does the game say Hebrew numbers have two genders?', a: 'Hebrew numbers have a feminine and a masculine form, chosen to match the noun you are counting. When you count on their own, Hebrew uses the feminine forms, so that is the set this game teaches.' },
+  { q: 'Do I need to read Hebrew?', a: 'No. Every number comes with a digit and audio, and audio and picture gates need no reading. Gates that show a written word are easier if you know the letters; <a href="/play/alef-bet-rush/">Alef Bet Rush</a> teaches them.' },
+  { q: 'Does it work on a phone?', a: 'Yes, in landscape: turn your phone sideways and use the on-screen arrows and the Jump button. On a computer, play with the arrow keys or A and D, and Space to jump.' },
+  { q: 'Is the audio recorded by a native speaker?', a: 'No. The numbers are read by a synthesized Hebrew voice, one clip per number, in the counting forms the game teaches.' },
+];
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    { '@type': 'WebPage', '@id': url, url, name: 'Hebrew Numbers Quest: Learn Hebrew Numbers 0–20 by Playing' },
+    {
+      '@type': ['VideoGame', 'WebApplication'],
+      name: 'Hebrew Numbers Quest',
+      url,
+      applicationCategory: 'EducationalApplication',
+      operatingSystem: 'Web',
+      isAccessibleForFree: true,
+      educationalLevel: 'Beginner',
+      inLanguage: 'en',
+      offers: { '@type': 'Offer', price: 0, priceCurrency: 'USD' },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: ['Home', 'Play', 'Hebrew Numbers Quest'].map((name, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name,
+        item: ['https://hebrewedu.com/', playUrl, url][i],
+      })),
+    },
+  ],
+};
+---
+<Layout title="Hebrew Numbers Game: Learn 0–20 in a Free Platformer" description="Run, jump and bump blocks through an ancient city to learn Hebrew numbers 0–20 with spoken Hebrew audio. A free platformer, no sign-up." schema={schema} image="/images/play/hebrew-numbers-quest-og.jpg">
+  <link slot="head" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" />
+  <div class="home-page play-page">
+    <Nav />
+    <main>
+      <section class="play-hero">
+        <div class="container">
+          <nav class="play-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/play/">Play</a> / Hebrew Numbers Quest</nav>
+          <div class="play-hero-grid">
+            <div class="play-copy">
+              <p class="home-eyebrow">Hebrew numbers game</p>
+              <h1 class="home-h1">Hebrew Numbers Quest: Learn Hebrew Numbers 0–20 by Playing</h1>
+              <p class="home-lead">Run and jump through a golden-hour ancient city, bump number blocks to hear each number in Hebrew, and open stone gates by choosing the right one. Two districts, eight levels and a gate quiz for each.</p>
+              <a class="btn btn-primary play-launch" href="/play/hebrew-numbers-quest/game/">Play Free Now</a>
+              <p class="play-hero-note">No download, no account. Plays on a computer, or on a phone held sideways.</p>
+              <ShareButtons url="https://hebrewedu.com/play/hebrew-numbers-quest/" text="Hebrew Numbers Quest: learn Hebrew numbers 0–20 in a free platformer" item="hebrew-numbers-quest" location="hebrew_numbers_quest_hero" />
+            </div>
+            <div class="play-hero-art"><KeyArt src={keyArt} alt="Hebrew Numbers Quest: a girl jumps to bump a glowing number block 3, with the Hebrew word for three above it, in a market street at sunset" loading="eager" sizes="(max-width: 900px) min(640px, 90vw), 46vw" /></div>
+          </div>
+        </div>
+      </section>
+
+      <Section surface="soft">
+        <div class="play-section">
+          <h2 class="home-h2">A Hebrew Numbers Game You Play Like a Platformer</h2>
+          <p>Hebrew Numbers Quest is a free hebrew numbers game you play online. You choose a hero, run through a market and over the rooftops, and learn the Hebrew numbers from 0 to 20 along the way. A level takes two or three minutes, so you can play one between other things.</p>
+          <p>Every number appears as a digit and as a Hebrew word with full niqqud, and is spoken aloud. Collect shekels, reach checkpoints and earn up to three stars per level.</p>
+        </div>
+        <h3 class="play-subsection-title">How Hebrew Numbers Quest Works</h3>
+        <FeatureGrid items={howItWorks} headingLevel="h4" />
+      </Section>
+
+      <Section>
+        <h2 class="home-h2 play-why-heading">Why It Works</h2>
+        <LearningMosaic items={whyItWorks} />
+      </Section>
+
+      <Section surface="soft">
+        <div class="play-section">
+          <h2 class="home-h2">What You'll Learn</h2>
+          <p>The Market teaches 0 to 10 and Rooftops &amp; Walls teaches 11 to 20, four levels each, and you open the second district by passing the first one's gate quiz. Finished levels can be replayed for stars, and each world result shows which numbers you have mastered and which to practise.</p>
+          <p><strong>The game teaches the counting form of each number</strong>, the feminine form Hebrew uses when you count. The masculine forms used with some nouns, and numbers above 20, are not covered yet; continue with them in the HebrewEdu app.</p>
+        </div>
+      </Section>
+
+      <Section>
+        <div class="play-section">
+          <h2 class="home-h2">Who It's For</h2>
+          <p>Hebrew Numbers Quest is for adult and teen beginners who want the numbers to stick, and for children playing with a parent. You don't need to read Hebrew to start, because every number has a digit and audio. To learn the letters themselves, play <a href="/play/alef-bet-rush/">Alef Bet Rush</a>, then move on to words with <a href="/play/hebrew-word-search/">Hebrew Word Search</a>.</p>
+        </div>
+      </Section>
+
+      <Faq title="Frequently Asked Questions" items={faqItems} />
+
+      <CtaPanel compact>
+        <h2 class="home-h2">Continue Learning Hebrew</h2>
+        <p class="home-lead">After the numbers, continue with vocabulary, grammar and beginner reading in the HebrewEdu app.</p>
+        <StoreButtons location="hebrew_numbers_quest_continue" />
+      </CtaPanel>
+    </main>
+    <Footer />
+  </div>
+</Layout>
+
+<style>
+  .play-subsection-title {
+    margin-top: var(--space-lg);
+    margin-bottom: var(--space-md);
+    font-family: var(--font-display);
+    font-size: clamp(1.75rem, 2.2vw, 2rem);
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: var(--home-text-primary);
+  }
+
+  .play-why-heading {
+    margin-bottom: var(--space-md);
+  }
+
+  .play-launch {
+    min-height: 56px;
+    padding-inline: var(--space-md);
+    justify-content: center;
+  }
+
+  .play-hero-note {
+    margin-top: var(--space-xs-plus);
+    font-size: 0.9375rem;
+    color: var(--home-text-tertiary);
+  }
+</style>
