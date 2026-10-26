@@ -152,6 +152,10 @@ Tet (ט) is a plain [t], as in "too," and in standard Modern Hebrew it sounds ex
 
 → [Practice Tet in the Hebrew Alphabet Course](/learn/hebrew-alphabet/tet/)
 
+Yod (י), also spelled Yud, is one of the smallest letters and does two jobs: as a consonant it is [y], as in "yes," in יָד [yad], "hand"; after a Hiriq it helps spell the vowel [i], as in בִּי [bi]. It looks like a short Vav (ו) that stops halfway up the line.
+
+→ [Practice Yod in the Hebrew Alphabet Course](/learn/hebrew-alphabet/yod/)
+
 ## The Five Final Letters
 
 Five Hebrew letters have a different written form when they appear at the **end of a word**. These are called *sofit* forms (סופית — “final”). The shape change is different for each pair.

@@ -1,0 +1,471 @@
+{
+  "id": "yod",
+  "sourceId": 10,
+  "order": 10,
+  "glyph": "י",
+  "locale": "en",
+  "title": "Yod Hebrew Letter (י): Sound & Words",
+  "description": "Learn the Hebrew letter Yod (י), also spelled Yud: its [y] sound, how it helps spell the vowel [i], words like יָד (hand), plus interactive practice.",
+  "status": "local-review-only",
+  "normalizationVersion": 1,
+  "provenance": {
+    "source": "https://api.hebrewedu.com/api/lessons/10/?lang=en",
+    "responseDate": "2026-10-19T14:27:07.223Z",
+    "sha256": "33ef4ff050d4c9cbc1d0a01fd5c975155e596b240b8167d14d6e3dd53c3fa29b"
+  },
+  "editorialIssues": [],
+  "blocks": [
+    {
+      "id": "yod-block-1",
+      "sourceIndex": 0,
+      "text": "Yod Hebrew Letter (י): Sound, Words & Practice",
+      "reviewFlags": [],
+      "type": "MAIN_TITLE"
+    },
+    {
+      "id": "yod-block-2",
+      "sourceIndex": 1,
+      "text": "Yud (י) is the tenth letter of the Hebrew alphabet. As a consonant, it sounds like y in the English word 'yes'. Raise the middle of your tongue towards the roof of your mouth, leaving space for the air to flow. In this course, y is the reading guide for this sound.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "yod-block-3",
+      "sourceIndex": 2,
+      "text": "Yud has a small written form and can work in two ways. As a consonant, it represents [y], as in יָד [yad]. It can also help spell a vowel. For example, in בִּי [bi], the dot under Bet (Hiriq) and the following Yud represent [i], like ee in English 'see'; there is no separate [y] sound. In both practice words below, Yud is pronounced as a consonant.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "yod-block-4",
+      "sourceIndex": 3,
+      "text": "Words to Practice:",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "yod-block-5",
+      "sourceIndex": 4,
+      "text": "hand; arm",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "יָד",
+      "transcription": "yad"
+    },
+    {
+      "id": "yod-block-6",
+      "sourceIndex": 5,
+      "text": "The word יָד [yad] means 'hand' or 'arm' and has one syllable. It consists of Yud (י) and Dalet (ד). Kamatz Gadol under Yud (יָ) represents [a], giving [ya]. Dalet at the end of the word adds [d]. Read the sounds together: [yad].",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "yod-block-7",
+      "sourceIndex": 6,
+      "text": "alive; living",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "חַי",
+      "transcription": "chay"
+    },
+    {
+      "id": "yod-block-8",
+      "sourceIndex": 7,
+      "text": "The adjective חַי [chay] means 'alive' or 'living' in the masculine singular. It has one syllable. Chet (ח) gives the sound written ch in this course, as in German 'Bach' or Scottish 'loch'. Patah under Chet (חַ) adds [a]. Yud at the end of the word adds the [y] glide: read ay smoothly, like English 'eye', to make [chay].",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "yod-block-9",
+      "sourceIndex": 8,
+      "text": "Conclusions",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "yod-block-10",
+      "sourceIndex": 9,
+      "text": "You have learned Yud (י) and practised two words: יָד [yad] and חַי [chay]. In both words, Yud represents its consonant sound. Remember that Yud can also help spell vowels in other words. Now use the exercises to practise reading and review earlier letters.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yod-exercise-1",
+      "sourceId": "1742226699535",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "What sound does Yud (י) represent as a consonant, as in יָד?",
+      "explanation": "As a consonant, Yud gives [y], like y in English 'yes'. In יָד, it combines with Kamatz Gadol to form [ya].",
+      "options": [
+        {
+          "id": "yod-exercise-1-option-1",
+          "label": "[y]"
+        },
+        {
+          "id": "yod-exercise-1-option-2",
+          "label": "[i]"
+        },
+        {
+          "id": "yod-exercise-1-option-3",
+          "label": "[s]"
+        }
+      ],
+      "correctOptionId": "yod-exercise-1-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "yod-exercise-2",
+      "sourceId": "1742226699536",
+      "type": "TRUE_FALSE",
+      "prompt": "The letter Yud (י) is the largest letter in the Hebrew alphabet.",
+      "explanation": "Yud (י) is one of the smallest letters in the Hebrew alphabet.",
+      "options": [
+        {
+          "id": "yod-exercise-2-option-1",
+          "label": "True"
+        },
+        {
+          "id": "yod-exercise-2-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "yod-exercise-2-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "yod-exercise-3",
+      "sourceId": "1742226699537",
+      "type": "MATCH_PAIRS",
+      "prompt": "Match the Hebrew consonant letters with their sounds.",
+      "explanation": "Bet with Dagesh (בּ) represents [b], Dalet (ד) gives [d], and consonantal Yud (י) gives [y], as in 'yes'.",
+      "pairs": [
+        {
+          "id": "yod-exercise-3-pair-1",
+          "left": "ד",
+          "right": "[d]"
+        },
+        {
+          "id": "yod-exercise-3-pair-2",
+          "left": "י",
+          "right": "[y]"
+        },
+        {
+          "id": "yod-exercise-3-pair-3",
+          "left": "בּ",
+          "right": "[b]"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "yod-exercise-4",
+      "sourceId": "1742226699538",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "How is the word יָד pronounced?",
+      "explanation": "יָד is read [yad] in one syllable and means 'hand' or 'arm'.",
+      "options": [
+        {
+          "id": "yod-exercise-4-option-1",
+          "label": "[yad]"
+        },
+        {
+          "id": "yod-exercise-4-option-2",
+          "label": "[yam]"
+        },
+        {
+          "id": "yod-exercise-4-option-3",
+          "label": "[dam]"
+        },
+        {
+          "id": "yod-exercise-4-option-4",
+          "label": "[bad]"
+        }
+      ],
+      "correctOptionId": "yod-exercise-4-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "yod-exercise-5",
+      "sourceId": "1742226699539",
+      "type": "TRUE_FALSE",
+      "prompt": "Yud (י) must be pronounced [y] in every Hebrew word.",
+      "explanation": "Yud can also help spell a vowel. In בִּי [bi], the dot under Bet (Hiriq) and the following Yud represent [i], with no separate [y].",
+      "options": [
+        {
+          "id": "yod-exercise-5-option-1",
+          "label": "True"
+        },
+        {
+          "id": "yod-exercise-5-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "yod-exercise-5-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "yod-exercise-6",
+      "sourceId": "1742226699540",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "What sound does the Patah vowel (ַ) under Yud (י) add?",
+      "explanation": "Patah represents [a]. Under consonantal Yud, יַ is read [ya].",
+      "options": [
+        {
+          "id": "yod-exercise-6-option-1",
+          "label": "[i]"
+        },
+        {
+          "id": "yod-exercise-6-option-2",
+          "label": "[a]"
+        },
+        {
+          "id": "yod-exercise-6-option-3",
+          "label": "[o]"
+        }
+      ],
+      "correctOptionId": "yod-exercise-6-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "yod-exercise-7",
+      "sourceId": "1742226699541",
+      "type": "MATCH_PAIRS",
+      "prompt": "Match the Hebrew words with their meanings.",
+      "explanation": "חַי means 'alive', טוֹב means 'good', and אָבַד is a past-tense form meaning 'was lost'.",
+      "pairs": [
+        {
+          "id": "yod-exercise-7-pair-1",
+          "left": "חַי",
+          "right": "alive"
+        },
+        {
+          "id": "yod-exercise-7-pair-2",
+          "left": "טוֹב",
+          "right": "good"
+        },
+        {
+          "id": "yod-exercise-7-pair-3",
+          "left": "אָבַד",
+          "right": "was lost"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "yod-exercise-8",
+      "sourceId": "1742226699542",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "How is the word 'חַי' pronounced?",
+      "explanation": "חַי [chay] has one syllable and means 'alive' or 'living'. Read ay like English 'eye'; ch is the sound in German 'Bach'.",
+      "options": [
+        {
+          "id": "yod-exercise-8-option-1",
+          "label": "[gay]"
+        },
+        {
+          "id": "yod-exercise-8-option-2",
+          "label": "[chay]"
+        },
+        {
+          "id": "yod-exercise-8-option-3",
+          "label": "[gau]"
+        },
+        {
+          "id": "yod-exercise-8-option-4",
+          "label": "[haym]"
+        }
+      ],
+      "correctOptionId": "yod-exercise-8-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "yod-exercise-9",
+      "sourceId": "1742226699543",
+      "type": "TRUE_FALSE",
+      "prompt": "Does the word 'חַי' consist of three letters: Chet (ח), Yud (י), and Aleph (א)?",
+      "explanation": "חַי consists of only two letters: Chet (ח) and Yud (י).",
+      "options": [
+        {
+          "id": "yod-exercise-9-option-1",
+          "label": "True"
+        },
+        {
+          "id": "yod-exercise-9-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "yod-exercise-9-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "yod-exercise-10",
+      "sourceId": "1742226699544",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "What does the adjective חַי [chay] mean?",
+      "explanation": "חַי [chay] means 'alive' or 'living' in the masculine singular.",
+      "options": [
+        {
+          "id": "yod-exercise-10-option-1",
+          "label": "alive"
+        },
+        {
+          "id": "yod-exercise-10-option-2",
+          "label": "dead"
+        },
+        {
+          "id": "yod-exercise-10-option-3",
+          "label": "in love"
+        }
+      ],
+      "correctOptionId": "yod-exercise-10-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "yod-exercise-11",
+      "sourceId": "1742226699545",
+      "type": "MATCH_PAIRS",
+      "prompt": "Match the Hebrew words with their transcriptions.",
+      "explanation": "The Latin transcriptions show how to read the words. In יָד [yad], Yud gives [y], as in English 'yes'.",
+      "pairs": [
+        {
+          "id": "yod-exercise-11-pair-1",
+          "left": "יָד",
+          "right": "yad"
+        },
+        {
+          "id": "yod-exercise-11-pair-2",
+          "left": "טוֹב",
+          "right": "tov"
+        },
+        {
+          "id": "yod-exercise-11-pair-3",
+          "left": "אָבַד",
+          "right": "avad"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "yod-exercise-12",
+      "sourceId": "1742226699546",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "How is the word 'אָבַד' pronounced?",
+      "explanation": "אָבַד is read [a-vad] in two syllables and means 'he/it was lost'.",
+      "options": [
+        {
+          "id": "yod-exercise-12-option-1",
+          "label": "[a-vad]"
+        },
+        {
+          "id": "yod-exercise-12-option-2",
+          "label": "[o-vad]"
+        },
+        {
+          "id": "yod-exercise-12-option-3",
+          "label": "[u-val]"
+        },
+        {
+          "id": "yod-exercise-12-option-4",
+          "label": "[e-vad]"
+        }
+      ],
+      "correctOptionId": "yod-exercise-12-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "yod-exercise-13",
+      "sourceId": "1742226699547",
+      "type": "TRUE_FALSE",
+      "prompt": "The letter Hey (הָ) with Kamatz Gadol is pronounced [ha].",
+      "explanation": "Kamatz Gadol represents [a]. With Hey [h], as in English 'hat', הָ is read [ha].",
+      "options": [
+        {
+          "id": "yod-exercise-13-option-1",
+          "label": "True"
+        },
+        {
+          "id": "yod-exercise-13-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "yod-exercise-13-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "yod-exercise-14",
+      "sourceId": "1742226699548",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "How do you pronounce Yud (יָ) with Kamatz Gadol?",
+      "explanation": "Yud gives [y], as in English 'yes', and Kamatz Gadol represents [a]. Together, יָ is read [ya] in one syllable.",
+      "options": [
+        {
+          "id": "yod-exercise-14-option-1",
+          "label": "[ba]"
+        },
+        {
+          "id": "yod-exercise-14-option-2",
+          "label": "[ia]"
+        },
+        {
+          "id": "yod-exercise-14-option-3",
+          "label": "[ya]"
+        },
+        {
+          "id": "yod-exercise-14-option-4",
+          "label": "[hu]"
+        }
+      ],
+      "correctOptionId": "yod-exercise-14-option-3",
+      "reviewFlags": []
+    },
+    {
+      "id": "yod-exercise-15",
+      "sourceId": "1742226699549",
+      "type": "MATCH_PAIRS",
+      "prompt": "Match each Hebrew letter with its pronunciation when combined with Kamatz.",
+      "explanation": "In these examples, Kamatz Gadol represents [a]: זָ is [za], יָ is [ya], and בָּ is [ba].",
+      "pairs": [
+        {
+          "id": "yod-exercise-15-pair-1",
+          "left": "זָ",
+          "right": "[za]"
+        },
+        {
+          "id": "yod-exercise-15-pair-2",
+          "left": "יָ",
+          "right": "[ya]"
+        },
+        {
+          "id": "yod-exercise-15-pair-3",
+          "left": "בָּ",
+          "right": "[ba]"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "yod-exercise-16",
+      "sourceId": "1742226699550",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "What does the Patah under the Chet in 'חַי' contribute?",
+      "explanation": "Patah represents [a]. With Chet, חַ is read [cha]; Yud at the end of the word completes חַי [chay].",
+      "options": [
+        {
+          "id": "yod-exercise-16-option-1",
+          "label": "[a]"
+        },
+        {
+          "id": "yod-exercise-16-option-2",
+          "label": "[i]"
+        },
+        {
+          "id": "yod-exercise-16-option-3",
+          "label": "[o]"
+        }
+      ],
+      "correctOptionId": "yod-exercise-16-option-1",
+      "reviewFlags": []
+    }
+  ]
+}

@@ -21,9 +21,9 @@ test('explicit curriculum releases only owner-approved Aleph among 22 verified i
   const identities = JSON.parse(await readFile(new URL('./fixtures/alphabet-identities.json', import.meta.url)));
   assert.deepEqual(courseManifest.lessons.map(l => [l.sourceId,l.order,l.letter,l.slug]), identities);
   assert.equal(courseManifest.lessons.filter(l => l.sourceImported).length, 22);
-  assert.equal(courseManifest.lessons.filter(l => l.published).length, 9);
-  assert.equal(curriculum().filter(l => l.available).length, 9);
-  assert.ok(courseManifest.lessons.slice(9).every(l => !l.published && !l.editorialApproved && l.publishedAt === null));
+  assert.equal(courseManifest.lessons.filter(l => l.published).length, 10);
+  assert.equal(curriculum().filter(l => l.available).length, 10);
+  assert.ok(courseManifest.lessons.slice(10).every(l => !l.published && !l.editorialApproved && l.publishedAt === null));
   assert.equal(courseManifest.hub.publishedAt, '2026-10-11');
   assert.equal(courseManifest.lessons[0].publishedAt, '2026-10-11');
   assert.equal(courseManifest.lessons[1].publishedAt, '2026-10-14');
@@ -34,8 +34,9 @@ test('explicit curriculum releases only owner-approved Aleph among 22 verified i
   assert.equal(courseManifest.lessons[6].publishedAt, '2026-10-20');
   assert.equal(courseManifest.lessons[7].publishedAt, '2026-10-23');
   assert.equal(courseManifest.lessons[8].publishedAt, '2026-10-26');
+  assert.equal(courseManifest.lessons[9].publishedAt, '2026-10-26');
   const preview = curriculum(true);
-  assert.equal(preview.filter(l => l.available).length, 9);
+  assert.equal(preview.filter(l => l.available).length, 10);
   assert.equal(preview[0].href, '/learn/hebrew-alphabet/aleph/');
   assert.equal(preview[1].href, '/learn/hebrew-alphabet/bet/');
   assert.equal(preview[2].href, '/learn/hebrew-alphabet/gimel/');
@@ -45,7 +46,8 @@ test('explicit curriculum releases only owner-approved Aleph among 22 verified i
   assert.equal(preview[6].href, '/learn/hebrew-alphabet/zayin/');
   assert.equal(preview[7].href, '/learn/hebrew-alphabet/chet/');
   assert.equal(preview[8].href, '/learn/hebrew-alphabet/tet/');
-  assert.ok(preview.slice(9).every(l => l.href === null));
+  assert.equal(preview[9].href, '/learn/hebrew-alphabet/yod/');
+  assert.ok(preview.slice(10).every(l => l.href === null));
   assert.equal(hubEnabled(), true);
   assert.equal(hubEnabled(false, draft()), false);
   assert.equal(lessonEnabled('bet', true), true);
@@ -57,9 +59,9 @@ test('no preview flag can create sitemap entries or public Course claims', () =>
   assert.equal(localCoursePreview(false, { HEBREWEDU_LOCAL_COURSE_PREVIEW: '1' }), true);
   assert.equal(localCoursePreview(false, { HEBREWEDU_LOCAL_LESSON_POC: '1' }), true);
   assert.deepEqual(courseSitemapEntries(draft()), []);
-  // aleph..tet are now published in FR too (the FR backfill plus zayin's,
-  // chet's and tet's own same-cadence FR publishes), alongside their EN routes.
-  assert.deepEqual(courseSitemapEntries().map(x => x.url), ['/learn/hebrew-alphabet/', '/learn/hebrew-alphabet/aleph/', '/learn/hebrew-alphabet/bet/', '/learn/hebrew-alphabet/gimel/', '/learn/hebrew-alphabet/dalet/', '/learn/hebrew-alphabet/he/', '/learn/hebrew-alphabet/vav/', '/learn/hebrew-alphabet/zayin/', '/learn/hebrew-alphabet/chet/', '/learn/hebrew-alphabet/tet/', '/fr/apprendre/alphabet-hebreu/aleph/', '/fr/apprendre/alphabet-hebreu/bet/', '/fr/apprendre/alphabet-hebreu/gimel/', '/fr/apprendre/alphabet-hebreu/dalet/', '/fr/apprendre/alphabet-hebreu/he/', '/fr/apprendre/alphabet-hebreu/vav/', '/fr/apprendre/alphabet-hebreu/zayin/', '/fr/apprendre/alphabet-hebreu/chet/', '/fr/apprendre/alphabet-hebreu/tet/']);
+  // aleph..yod are now published in FR too (the FR backfill plus zayin's,
+  // chet's, tet's and yod's own same-cadence FR publishes), alongside their EN routes.
+  assert.deepEqual(courseSitemapEntries().map(x => x.url), ['/learn/hebrew-alphabet/', '/learn/hebrew-alphabet/aleph/', '/learn/hebrew-alphabet/bet/', '/learn/hebrew-alphabet/gimel/', '/learn/hebrew-alphabet/dalet/', '/learn/hebrew-alphabet/he/', '/learn/hebrew-alphabet/vav/', '/learn/hebrew-alphabet/zayin/', '/learn/hebrew-alphabet/chet/', '/learn/hebrew-alphabet/tet/', '/learn/hebrew-alphabet/yod/', '/fr/apprendre/alphabet-hebreu/aleph/', '/fr/apprendre/alphabet-hebreu/bet/', '/fr/apprendre/alphabet-hebreu/gimel/', '/fr/apprendre/alphabet-hebreu/dalet/', '/fr/apprendre/alphabet-hebreu/he/', '/fr/apprendre/alphabet-hebreu/vav/', '/fr/apprendre/alphabet-hebreu/zayin/', '/fr/apprendre/alphabet-hebreu/chet/', '/fr/apprendre/alphabet-hebreu/tet/', '/fr/apprendre/alphabet-hebreu/yod/']);
   const schema = courseSchema(draft());
   assert.equal(schema['@type'], 'WebPage');
   assert.equal(schema.url, 'https://hebrewedu.com/learn/hebrew-alphabet/');
@@ -75,13 +77,13 @@ test('publication fails closed without independent editorial approval and implem
   assert.equal(validatePublicationManifest(value), value);
   assert.equal(lessonEnabled('aleph', false, value), true);
   assert.deepEqual(courseSitemapEntries(value).map(x => x.url), ['/learn/hebrew-alphabet/', '/learn/hebrew-alphabet/aleph/']);
-  // lessons[1]..[8] (bet, gimel, dalet, he, vav, zayin, chet, tet) are
+  // lessons[1]..[9] (bet, gimel, dalet, he, vav, zayin, chet, tet, yod) are
   // themselves implemented and preview-available by this point (see
   // alphabet-course.json) — exercise the "no implemented route" case on
-  // lessons[9] (yod), which still has no src/content/lessons/yod.json.
-  value.lessons[9].editorialApproved = true; value.lessons[9].published = true; value.lessons[9].publishedAt = '2026-10-11';
+  // lessons[10] (kaf), which still has no src/content/lessons/kaf.json.
+  value.lessons[10].editorialApproved = true; value.lessons[10].published = true; value.lessons[10].publishedAt = '2026-10-11';
   assert.throws(() => validatePublicationManifest(value), /implementation/);
-  value.lessons[9].webImplemented = true;
+  value.lessons[10].webImplemented = true;
   assert.throws(() => validatePublicationManifest(value), /No implemented route/);
 });
 test('later approved launch structured data describes only released modules', () => {
