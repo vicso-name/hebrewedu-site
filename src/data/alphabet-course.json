@@ -11,7 +11,7 @@
     {
       "sourceId": 1,
       "order": 1,
-      "letter": "א",
+      "letter": "\u05d0",
       "slug": "aleph",
       "name": "Aleph",
       "sourceImported": true,
@@ -34,7 +34,7 @@
     {
       "sourceId": 2,
       "order": 2,
-      "letter": "ב",
+      "letter": "\u05d1",
       "slug": "bet",
       "name": "Bet",
       "sourceImported": true,
@@ -57,7 +57,7 @@
     {
       "sourceId": 3,
       "order": 3,
-      "letter": "ג",
+      "letter": "\u05d2",
       "slug": "gimel",
       "name": "Gimel",
       "sourceImported": true,
@@ -80,7 +80,7 @@
     {
       "sourceId": 4,
       "order": 4,
-      "letter": "ד",
+      "letter": "\u05d3",
       "slug": "dalet",
       "name": "Dalet",
       "sourceImported": true,
@@ -103,7 +103,7 @@
     {
       "sourceId": 5,
       "order": 5,
-      "letter": "ה",
+      "letter": "\u05d4",
       "slug": "he",
       "name": "He",
       "sourceImported": true,
@@ -126,7 +126,7 @@
     {
       "sourceId": 6,
       "order": 6,
-      "letter": "ו",
+      "letter": "\u05d5",
       "slug": "vav",
       "name": "Vav",
       "sourceImported": true,
@@ -149,7 +149,7 @@
     {
       "sourceId": 7,
       "order": 7,
-      "letter": "ז",
+      "letter": "\u05d6",
       "slug": "zayin",
       "name": "Zayin",
       "sourceImported": true,
@@ -172,7 +172,7 @@
     {
       "sourceId": 8,
       "order": 8,
-      "letter": "ח",
+      "letter": "\u05d7",
       "slug": "chet",
       "name": "Chet",
       "sourceImported": true,
@@ -195,22 +195,22 @@
     {
       "sourceId": 9,
       "order": 9,
-      "letter": "ט",
+      "letter": "\u05d8",
       "slug": "tet",
       "name": "Tet",
       "sourceImported": true,
-      "webImplemented": false,
-      "previewAvailable": false,
-      "editorialApproved": false,
-      "published": false,
-      "publishedAt": null,
+      "webImplemented": true,
+      "previewAvailable": true,
+      "editorialApproved": true,
+      "published": true,
+      "publishedAt": "2026-10-26",
       "locales": {
         "fr": {
-          "webImplemented": false,
-          "previewAvailable": false,
-          "editorialApproved": false,
-          "published": false,
-          "publishedAt": null,
+          "webImplemented": true,
+          "previewAvailable": true,
+          "editorialApproved": true,
+          "published": true,
+          "publishedAt": "2026-10-26",
           "backfill": false
         }
       }
@@ -218,7 +218,7 @@
     {
       "sourceId": 10,
       "order": 10,
-      "letter": "י",
+      "letter": "\u05d9",
       "slug": "yod",
       "name": "Yod",
       "sourceImported": true,
@@ -241,7 +241,7 @@
     {
       "sourceId": 11,
       "order": 11,
-      "letter": "כ",
+      "letter": "\u05db",
       "slug": "kaf",
       "name": "Kaf",
       "sourceImported": true,
@@ -264,7 +264,7 @@
     {
       "sourceId": 12,
       "order": 12,
-      "letter": "ל",
+      "letter": "\u05dc",
       "slug": "lamed",
       "name": "Lamed",
       "sourceImported": true,
@@ -287,7 +287,7 @@
     {
       "sourceId": 13,
       "order": 13,
-      "letter": "מ",
+      "letter": "\u05de",
       "slug": "mem",
       "name": "Mem",
       "sourceImported": true,
@@ -310,7 +310,7 @@
     {
       "sourceId": 14,
       "order": 14,
-      "letter": "נ",
+      "letter": "\u05e0",
       "slug": "nun",
       "name": "Nun",
       "sourceImported": true,
@@ -333,7 +333,7 @@
     {
       "sourceId": 15,
       "order": 15,
-      "letter": "ס",
+      "letter": "\u05e1",
       "slug": "samekh",
       "name": "Samekh",
       "sourceImported": true,
@@ -356,7 +356,7 @@
     {
       "sourceId": 16,
       "order": 16,
-      "letter": "ע",
+      "letter": "\u05e2",
       "slug": "ayin",
       "name": "Ayin",
       "sourceImported": true,
@@ -379,7 +379,7 @@
     {
       "sourceId": 17,
       "order": 17,
-      "letter": "פ",
+      "letter": "\u05e4",
       "slug": "pe",
       "name": "Pe",
       "sourceImported": true,
@@ -402,7 +402,7 @@
     {
       "sourceId": 18,
       "order": 18,
-      "letter": "צ",
+      "letter": "\u05e6",
       "slug": "tsadi",
       "name": "Tsadi",
       "sourceImported": true,
@@ -425,7 +425,7 @@
     {
       "sourceId": 19,
       "order": 19,
-      "letter": "ק",
+      "letter": "\u05e7",
       "slug": "qof",
       "name": "Qof",
       "sourceImported": true,
@@ -448,7 +448,7 @@
     {
       "sourceId": 20,
       "order": 20,
-      "letter": "ר",
+      "letter": "\u05e8",
       "slug": "resh",
       "name": "Resh",
       "sourceImported": true,
@@ -471,7 +471,7 @@
     {
       "sourceId": 21,
       "order": 21,
-      "letter": "ש",
+      "letter": "\u05e9",
       "slug": "shin",
       "name": "Shin",
       "sourceImported": true,
@@ -494,7 +494,7 @@
     {
       "sourceId": 22,
       "order": 22,
-      "letter": "ת",
+      "letter": "\u05ea",
       "slug": "tav",
       "name": "Tav",
       "sourceImported": true,

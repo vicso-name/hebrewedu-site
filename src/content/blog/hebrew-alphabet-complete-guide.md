@@ -148,6 +148,10 @@ Chet (ח) is often the first sound English speakers have to practise: in modern 
 
 → [Practice Chet in the Hebrew Alphabet Course](/learn/hebrew-alphabet/chet/)
 
+Tet (ט) is a plain [t], as in "too," and in standard Modern Hebrew it sounds exactly like Tav (ת), so you learn which of the two a word uses from its spelling. It begins טוֹב [tov], "good," as in the greeting "boker tov."
+
+→ [Practice Tet in the Hebrew Alphabet Course](/learn/hebrew-alphabet/tet/)
+
 ## The Five Final Letters
 
 Five Hebrew letters have a different written form when they appear at the **end of a word**. These are called *sofit* forms (סופית — “final”). The shape change is different for each pair.

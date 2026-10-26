@@ -17,11 +17,12 @@ Kaf's own lesson (lesson 11, slug `kaf`) already gets this right — every
 occurrence below is in a *different* letter's lesson, where a review
 word or a letter's own vocabulary word happens to contain Het or Khaf.
 
-Chet (lesson 8) already has a local, lesson-specific fix in
-`src/data/lessons/fr/chet.json` (via two new `contentOverrides` paths —
-see `docs/LESSON_PIPELINE.md`) so it can publish without waiting on an
-admin fix. Once the admin source is corrected, re-run
-`node scripts/normalize-lesson.mjs chet --locale fr --dry-run` — any
+Chet (lesson 8) and Tet (lesson 9) already have local, lesson-specific
+fixes in `src/data/lessons/fr/chet.json` and `src/data/lessons/fr/tet.json`
+(via two new `contentOverrides` paths — see `docs/LESSON_PIPELINE.md`) so
+they can publish without waiting on an admin fix. Once the admin source is
+corrected, re-run
+`node scripts/normalize-lesson.mjs <slug> --locale fr --dry-run` — any
 override whose value now equals the source will emit a "redundant
 override" warning (see below); remove those entries.
 
@@ -55,8 +56,10 @@ override" warning (see below); remove those entries.
 | Where | Field | Current | Proposed |
 |---|---|---|---|
 | block#6 (WORD_EXAMPLE בֶּטַח) | transcription | `betach` | `betakh` |
-| block#7 (BOLD_TEXT, explains בֶּטַח) | content | `tach` (in `bé-tach`) | `takh` (`bé-takh`) |
-| exercise#1742224380227 | choices[0], choices[3] | `[ba-tach]`, `[bi-tach]` | `[ba-takh]`, `[bi-takh]` |
+| block#7 (BOLD_TEXT, explains בֶּטַח) | content | `bé-tach`, `BÉ-tach`, `[tach]`, `betach`, "ch désigne" | `bé-takh`, `BÉ-takh`, `[takh]`, `betakh`, "kh désigne" |
+| block#9 (SIMPLE_TEXT, closing recap) | content | `[bé-tach]` | `[bé-takh]` |
+| exercise#1742224380222 | content | `[bé-tach]` | `[bé-takh]` |
+| exercise#1742224380227 | choices[0..3], correctAnswer, tip | `[ba-tach]`, `[bé-tach]`, `[bi-tach]`, `BÉ-tach`, "Le ch final" | `[ba-takh]`, `[bé-takh]`, `[bi-takh]`, `BÉ-takh`, "Le kh à la fin" |
 
 ## Yod (lesson 10, slug `yod`) — word חַי (vivant/alive)
 

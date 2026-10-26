@@ -79,6 +79,14 @@ letter shapes, so "Final Chet" reads as a form Chet doesn't have. Say "<Letter>
 at the end of the word" instead (owner decision, Chet review 2026-10-23).
 Keep "final" for the five letters that really have a final form.
 
+## Tips never open with "Correct!"
+
+An exercise's explanation (`tip`) is shown after every answer, right or
+wrong (`Practice.astro`), so it must not open with a verdict ("Correct!",
+"Right!", "Exactly!") that contradicts a learner who just answered wrong.
+Drop the verdict and keep the explanation itself (owner decision, Tet
+review 2026-10-26).
+
 ## Title pattern
 
 Lesson title tags follow `<Letter> Hebrew Letter (<glyph>): <topic>` —

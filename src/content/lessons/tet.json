@@ -1,0 +1,381 @@
+{
+  "id": "tet",
+  "sourceId": 9,
+  "order": 9,
+  "glyph": "ט",
+  "locale": "en",
+  "title": "Tet Hebrew Letter (ט): Sound & Words",
+  "description": "Learn the Hebrew letter Tet (ט): its [t] sound, its traditional link to טוֹב (good), words like בֶּטַח (sure), plus interactive practice.",
+  "status": "local-review-only",
+  "normalizationVersion": 1,
+  "provenance": {
+    "source": "https://api.hebrewedu.com/api/lessons/9/?lang=en",
+    "responseDate": "2026-10-19T14:27:06.854Z",
+    "sha256": "2fba3be74b09890b299fcd696cc511c3404bc1f5293011f11f8e8fd0410b9899"
+  },
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Optional practice refinement",
+      "detail": "The 'good' word-recognition distractor שלוֹם uses letters (Shin, Lamed, final Mem) not introduced in this lesson. Beginner scaffolding can be improved separately from the approved source synchronization."
+    }
+  ],
+  "blocks": [
+    {
+      "id": "tet-block-1",
+      "sourceIndex": 0,
+      "text": "Tet Hebrew Letter (ט): Sound, Words & Practice",
+      "reviewFlags": [],
+      "type": "MAIN_TITLE"
+    },
+    {
+      "id": "tet-block-2",
+      "sourceIndex": 1,
+      "text": "The letter Tet (ט) is the ninth letter of the Hebrew alphabet. It is pronounced like the [t] in the English word 'too.' To produce this sound, place the tip of your tongue against the roof of your mouth just behind your upper front teeth, then release the air.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "tet-block-3",
+      "sourceIndex": 2,
+      "text": "Tet (ט) begins the word טוֹב [tov], meaning 'good.' A traditional interpretation in the Talmud (Bava Kamma 55a) associates Tet with goodness through this word. You can use this association to remember the letter and the word. When reading, Tet represents the sound [t].",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "tet-block-4",
+      "sourceIndex": 3,
+      "text": "Words to Practice:",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "tet-block-5",
+      "sourceIndex": 4,
+      "text": "good",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "טוֹב",
+      "transcription": "tov"
+    },
+    {
+      "id": "tet-block-6",
+      "sourceIndex": 5,
+      "text": "The word טוֹב [tov] means 'good' and has one syllable. Tet (ט) gives [t]. Vav with Holam Male (וֹ) represents the vowel [o]; it does not add [v] in this word. Bet at the end of the word has no Dagesh (ב), so it gives [v]. Read the sounds together: [tov].",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "tet-block-7",
+      "sourceIndex": 6,
+      "text": "sure; of course",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "בֶּטַח",
+      "transcription": "betach"
+    },
+    {
+      "id": "tet-block-8",
+      "sourceIndex": 7,
+      "text": "As a reply in conversation, בֶּטַח [be-tach] means 'sure' or 'of course.' In a sentence expressing an assumption, it can also mean 'probably.' The word has two syllables, with stress on the first: BE-tach. Bet with Dagesh (בּ) gives [b], and Segol beneath it adds [e]. Tet with Patah (טַ) gives [ta]. Chet at the end of the word (ח) adds [ch] to complete the second syllable [tach]. Here, ch represents the sound in German 'Bach' or Scottish 'loch'.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "tet-block-9",
+      "sourceIndex": 8,
+      "text": "Conclusions",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "tet-block-10",
+      "sourceIndex": 9,
+      "text": "You have learned Tet (ט) and practised טוֹב [tov] and בֶּטַח [be-tach]. Remember that וֹ represents [o] in טוֹב; Bet at the end of the word, without Dagesh, provides [v]. If Segol or Patah still feels tricky, revisit the earlier lessons, then practise with the exercises below.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "tet-exercise-1",
+      "sourceId": "1742224380219",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "How is the Hebrew letter Tet (ט) pronounced?",
+      "explanation": "Tet (ט) represents [t], like the first sound in English 'too'.",
+      "options": [
+        {
+          "id": "tet-exercise-1-option-1",
+          "label": "[t]"
+        },
+        {
+          "id": "tet-exercise-1-option-2",
+          "label": "[d]"
+        },
+        {
+          "id": "tet-exercise-1-option-3",
+          "label": "[s]"
+        }
+      ],
+      "correctOptionId": "tet-exercise-1-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "tet-exercise-2",
+      "sourceId": "1742224380220",
+      "type": "TRUE_FALSE",
+      "prompt": "Does the Hebrew word טוֹב [tov] mean 'bad'?",
+      "explanation": "טוֹב [tov] means 'good.' You can hear it in 'boker tov', meaning 'good morning'.",
+      "options": [
+        {
+          "id": "tet-exercise-2-option-1",
+          "label": "True"
+        },
+        {
+          "id": "tet-exercise-2-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "tet-exercise-2-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "tet-exercise-3",
+      "sourceId": "1742224380221",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Which idea is Tet (ט) associated with in the traditional interpretation described in this lesson?",
+      "explanation": "Tet begins טוֹב [tov], meaning 'good.' This word explains the association with goodness in the interpretation described above.",
+      "options": [
+        {
+          "id": "tet-exercise-3-option-1",
+          "label": "Silence"
+        },
+        {
+          "id": "tet-exercise-3-option-2",
+          "label": "War"
+        },
+        {
+          "id": "tet-exercise-3-option-3",
+          "label": "Good"
+        },
+        {
+          "id": "tet-exercise-3-option-4",
+          "label": "Chaos"
+        }
+      ],
+      "correctOptionId": "tet-exercise-3-option-3",
+      "reviewFlags": []
+    },
+    {
+      "id": "tet-exercise-4",
+      "sourceId": "1742224380222",
+      "type": "TRUE_FALSE",
+      "prompt": "Does the word בֶּטַח [be-tach] consist of the letters Bet, Tet, and Chet?",
+      "explanation": "בֶּטַח consists of Bet (ב), Tet (ט), and Chet (ח). In conversation, it can be used as a reply meaning 'sure' or 'of course'.",
+      "options": [
+        {
+          "id": "tet-exercise-4-option-1",
+          "label": "True"
+        },
+        {
+          "id": "tet-exercise-4-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "tet-exercise-4-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "tet-exercise-5",
+      "sourceId": "1742224380223",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "What sound does the Segol vowel add under the letter Bet?",
+      "explanation": "Segol (בֶ) represents [e], close to the vowel in English 'bet'. With a Dagesh in Bet, בֶּ is read [be].",
+      "options": [
+        {
+          "id": "tet-exercise-5-option-1",
+          "label": "[e]"
+        },
+        {
+          "id": "tet-exercise-5-option-2",
+          "label": "[a]"
+        },
+        {
+          "id": "tet-exercise-5-option-3",
+          "label": "[o]"
+        }
+      ],
+      "correctOptionId": "tet-exercise-5-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "tet-exercise-6",
+      "sourceId": "1742224380224",
+      "type": "TRUE_FALSE",
+      "prompt": "Does the letter Vav (וֹ) in 'טוֹב' contribute the [o] sound?",
+      "explanation": "The combination וֹ is called Holam Male and represents [o]. In טוֹב, this Vav is a vowel marker; Bet at the end of the word, without Dagesh, gives [v].",
+      "options": [
+        {
+          "id": "tet-exercise-6-option-1",
+          "label": "True"
+        },
+        {
+          "id": "tet-exercise-6-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "tet-exercise-6-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "tet-exercise-7",
+      "sourceId": "1742224380225",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "What is the name of the vowel mark above the letter Vav (ו) in 'טוֹב'?",
+      "explanation": "Holam is a dot above a letter that represents [o]. In טוֹב, it appears with Vav as Holam Male (וֹ).",
+      "options": [
+        {
+          "id": "tet-exercise-7-option-1",
+          "label": "Kamatz"
+        },
+        {
+          "id": "tet-exercise-7-option-2",
+          "label": "Holam"
+        },
+        {
+          "id": "tet-exercise-7-option-3",
+          "label": "Shuruk"
+        },
+        {
+          "id": "tet-exercise-7-option-4",
+          "label": "Segol"
+        }
+      ],
+      "correctOptionId": "tet-exercise-7-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "tet-exercise-8",
+      "sourceId": "1742224380226",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "What is the correct pronunciation of the letter Dalet (ד)?",
+      "explanation": "Dalet (ד) is pronounced as [d], similar to the English 'D' in 'door'.",
+      "options": [
+        {
+          "id": "tet-exercise-8-option-1",
+          "label": "[d]"
+        },
+        {
+          "id": "tet-exercise-8-option-2",
+          "label": "[t]"
+        },
+        {
+          "id": "tet-exercise-8-option-3",
+          "label": "[s]"
+        }
+      ],
+      "correctOptionId": "tet-exercise-8-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "tet-exercise-9",
+      "sourceId": "1742224380227",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "How do you pronounce the Hebrew word 'בֶּטַח'?",
+      "explanation": "Read בֶּטַח in two syllables: [be-tach], with stress on the first, BE-tach. The ch at the end represents the Chet sound; it adds no extra syllable.",
+      "options": [
+        {
+          "id": "tet-exercise-9-option-1",
+          "label": "[ba-tach]"
+        },
+        {
+          "id": "tet-exercise-9-option-2",
+          "label": "[be-tach]"
+        },
+        {
+          "id": "tet-exercise-9-option-3",
+          "label": "[bu-mag]"
+        },
+        {
+          "id": "tet-exercise-9-option-4",
+          "label": "[bi-tach]"
+        }
+      ],
+      "correctOptionId": "tet-exercise-9-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "tet-exercise-10",
+      "sourceId": "1742224380228",
+      "type": "MATCH_PAIRS",
+      "prompt": "Match each letter with Kamatz to its reading.",
+      "explanation": "In these examples, Kamatz Gadol represents [a]: טָ is [ta], גָ is [ga], and בָּ is [ba]. The dot inside Bet (Dagesh) makes it [b].",
+      "pairs": [
+        {
+          "id": "tet-exercise-10-pair-1",
+          "left": "גָ",
+          "right": "[ga]"
+        },
+        {
+          "id": "tet-exercise-10-pair-2",
+          "left": "טָ",
+          "right": "[ta]"
+        },
+        {
+          "id": "tet-exercise-10-pair-3",
+          "left": "בָּ",
+          "right": "[ba]"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "tet-exercise-11",
+      "sourceId": "1742224380229",
+      "type": "TRUE_FALSE",
+      "prompt": "Is Tet (ט) the ninth letter of the Hebrew alphabet?",
+      "explanation": "Tet (ט) is the 9th letter in the Hebrew alphabet.",
+      "options": [
+        {
+          "id": "tet-exercise-11-option-1",
+          "label": "True"
+        },
+        {
+          "id": "tet-exercise-11-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "tet-exercise-11-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "tet-exercise-12",
+      "sourceId": "1742224380230",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Which Hebrew word means 'good'?",
+      "explanation": "טוֹב [tov] means 'good.' It appears in 'boker tov', meaning 'good morning'.",
+      "options": [
+        {
+          "id": "tet-exercise-12-option-1",
+          "label": "טוֹב"
+        },
+        {
+          "id": "tet-exercise-12-option-2",
+          "label": "בֶּטַח"
+        },
+        {
+          "id": "tet-exercise-12-option-3",
+          "label": "חג"
+        },
+        {
+          "id": "tet-exercise-12-option-4",
+          "label": "שלוֹם"
+        }
+      ],
+      "correctOptionId": "tet-exercise-12-option-1",
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    }
+  ]
+}

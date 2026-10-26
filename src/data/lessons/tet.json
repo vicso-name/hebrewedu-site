@@ -1,0 +1,81 @@
+{
+  "slug": "tet",
+  "title": "Tet Hebrew Letter (ט): Sound & Words",
+  "description": "Learn the Hebrew letter Tet (ט): its [t] sound, its traditional link to טוֹב (good), words like בֶּטַח (sure), plus interactive practice.",
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Optional practice refinement",
+      "detail": "The 'good' word-recognition distractor שלוֹם uses letters (Shin, Lamed, final Mem) not introduced in this lesson. Beginner scaffolding can be improved separately from the approved source synchronization."
+    }
+  ],
+  "illustrations": {},
+  "blockFlags": {},
+  "exerciseFlags": {
+    "12": [
+      "unintroduced-letters"
+    ]
+  },
+  "contentOverrides": {
+    "blocks": {
+      "0": "Tet Hebrew Letter (ט): Sound, Words & Practice",
+      "5": "The word טוֹב [tov] means 'good' and has one syllable. Tet (ט) gives [t]. Vav with Holam Male (וֹ) represents the vowel [o]; it does not add [v] in this word. Bet at the end of the word has no Dagesh (ב), so it gives [v]. Read the sounds together: [tov].",
+      "7": "As a reply in conversation, בֶּטַח [be-tach] means 'sure' or 'of course.' In a sentence expressing an assumption, it can also mean 'probably.' The word has two syllables, with stress on the first: BE-tach. Bet with Dagesh (בּ) gives [b], and Segol beneath it adds [e]. Tet with Patah (טַ) gives [ta]. Chet at the end of the word (ח) adds [ch] to complete the second syllable [tach]. Here, ch represents the sound in German 'Bach' or Scottish 'loch'.",
+      "9": "You have learned Tet (ט) and practised טוֹב [tov] and בֶּטַח [be-tach]. Remember that וֹ represents [o] in טוֹב; Bet at the end of the word, without Dagesh, provides [v]. If Segol or Patah still feels tricky, revisit the earlier lessons, then practise with the exercises below."
+    },
+    "exercises": {
+      "5": {
+        "tip": "The combination וֹ is called Holam Male and represents [o]. In טוֹב, this Vav is a vowel marker; Bet at the end of the word, without Dagesh, gives [v]."
+      },
+      "8": {
+        "tip": "Read בֶּטַח in two syllables: [be-tach], with stress on the first, BE-tach. The ch at the end represents the Chet sound; it adds no extra syllable."
+      },
+      "10": {
+        "tip": "Tet (ט) is the 9th letter in the Hebrew alphabet."
+      }
+    }
+  },
+  "stageMap": {
+    "theory": [
+      0,
+      1,
+      2
+    ],
+    "examples": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "copy": {
+    "theory": {
+      "heading": "Meet Tet",
+      "intro": "The ninth letter of the <a href=\"/blog/hebrew-alphabet-complete-guide/\">Hebrew alphabet</a>. Tet makes a plain [t] sound, as in “too,” and it begins the word for “good,” which you’ll hear in the greeting “boker tov.” In Modern Hebrew, Tet sounds exactly like Tav (<bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ת</bdi>), the last letter of the alphabet, so you have to learn which of the two each word is spelled with.",
+      "objectivesHeading": "What you’ll learn",
+      "objectives": [
+        "Recognize Tet: <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ט</bdi>.",
+        "Hear its [t] sound, as in “too.”",
+        "Read Tet in real words like <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">טוֹב</bdi> (good)."
+      ],
+      "secondSectionHeading": "How Tet sounds",
+      "thirdSectionHeading": "Tet and the word for “good”"
+    },
+    "examples": {
+      "heading": "Tet in real words",
+      "intro": "See Tet in two new Hebrew words, and review the Holam Male, Segol and Patah vowel marks from earlier letters."
+    }
+  },
+  "holdOuts": {
+    "blocks": [],
+    "exercises": []
+  },
+  "source": {
+    "rawSnapshotPath": ".local/alphabet-course-imports/v1/2026-10-19T14-27-01-990Z-cc446f/raw/lesson-9.raw.json",
+    "sha256": "2fba3be74b09890b299fcd696cc511c3404bc1f5293011f11f8e8fd0410b9899",
+    "responseDate": "2026-10-19T14:27:06.854Z"
+  }
+}
