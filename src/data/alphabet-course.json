@@ -222,18 +222,18 @@
       "slug": "yod",
       "name": "Yod",
       "sourceImported": true,
-      "webImplemented": false,
-      "previewAvailable": false,
-      "editorialApproved": false,
-      "published": false,
-      "publishedAt": null,
+      "webImplemented": true,
+      "previewAvailable": true,
+      "editorialApproved": true,
+      "published": true,
+      "publishedAt": "2026-10-26",
       "locales": {
         "fr": {
-          "webImplemented": false,
-          "previewAvailable": false,
-          "editorialApproved": false,
-          "published": false,
-          "publishedAt": null,
+          "webImplemented": true,
+          "previewAvailable": true,
+          "editorialApproved": true,
+          "published": true,
+          "publishedAt": "2026-10-26",
           "backfill": false
         }
       }

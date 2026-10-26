@@ -87,6 +87,16 @@ wrong (`Practice.astro`), so it must not open with a verdict ("Correct!",
 Drop the verdict and keep the explanation itself (owner decision, Tet
 review 2026-10-26).
 
+## App spelling vs SEO spelling of a letter name
+
+When the raw source spells a letter's name differently from the course's
+slug/hub/primary-keyword spelling (Yud vs Yod), the title, H1, meta and
+hand-written `copy.*` use the SEO spelling, and the first mention in
+`copy.theory.intro` names the other one once ("Yod, also spelled Yud (the
+spelling used in this lesson)"). Source blocks and exercises keep the app
+spelling — don't override them for this alone (owner decision, Yod review
+2026-10-26; mirrors the FR "first mention, both spellings" rule).
+
 ## Title pattern
 
 Lesson title tags follow `<Letter> Hebrew Letter (<glyph>): <topic>` —

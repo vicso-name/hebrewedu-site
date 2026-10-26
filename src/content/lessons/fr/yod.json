@@ -1,0 +1,477 @@
+{
+  "id": "yod",
+  "sourceId": 10,
+  "order": 10,
+  "glyph": "י",
+  "locale": "fr",
+  "title": "Yod (י) : lettre hébraïque, son et exemples",
+  "description": "Apprends la lettre hébraïque Yod (י) : son son [y], son rôle pour noter la voyelle [i] et des mots comme יָד (main), avec des exercices interactifs.",
+  "status": "local-review-only",
+  "normalizationVersion": 1,
+  "provenance": {
+    "source": "https://api.hebrewedu.com/api/lessons/10/?lang=fr",
+    "responseDate": "2026-10-19T14:27:23.247Z",
+    "sha256": "9a0436242e461666606b37d13a82e8c0b444ae3cdd41f6ee62f6fdfa82c3b6ae"
+  },
+  "editorialIssues": [
+    {
+      "id": "fr-transliteration-kh",
+      "summary": "« ch » remplacé par « kh » pour le son guttural de Het",
+      "detail": "La source brute FR transcrit le son guttural de Het dans חַי avec « ch » (chay, [cha]), ce qui se lit [ʃ] en français, contraire à la règle de transliteration FR (docs/hebrew-alphabet-editorial-rules.fr.md : « kh » pour le son guttural, jamais « ch »). Corrigé via contentOverrides.blocks (blocs 7 et 9), contentOverrides.transcriptions (le WORD_EXAMPLE 6), contentOverrides.choices et contentOverrides.exercises (questions 8, 10 et 16), comme pour Het et Tet."
+    }
+  ],
+  "blocks": [
+    {
+      "id": "yod-block-1",
+      "sourceIndex": 0,
+      "text": "Yod (י) : lettre hébraïque, son et exemples",
+      "reviewFlags": [],
+      "type": "MAIN_TITLE"
+    },
+    {
+      "id": "yod-block-2",
+      "sourceIndex": 1,
+      "text": "Le Yod (י) est la dixième lettre de l'alphabet hébreu. Quand il sert de consonne, il se prononce comme le y de « yeux » ou de « yoga ». Rapproche le milieu de la langue du palais en laissant passer l'air. Dans cette leçon, la transcription y représente ce son.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "yod-block-3",
+      "sourceIndex": 2,
+      "text": "Le Yod a une petite forme écrite et peut jouer deux rôles. Comme consonne, il représente [y], par exemple dans יָד [yad]. Il peut aussi aider à noter une voyelle. Dans בִּי [bi], le point sous le Beit (Hiriq) et le Yod qui suit notent [i], comme le i de « ici », sans son [y] supplémentaire. Dans les deux mots à pratiquer ci-dessous, le Yod est une consonne.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "yod-block-4",
+      "sourceIndex": 3,
+      "text": "Mots à pratiquer :",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "yod-block-5",
+      "sourceIndex": 4,
+      "text": "main",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "יָד",
+      "transcription": "yad"
+    },
+    {
+      "id": "yod-block-6",
+      "sourceIndex": 5,
+      "text": "Le mot יָד [yad] signifie « main » ou « bras », selon le contexte, et se lit en une seule syllabe. Il est composé du Yod (י) et du Dalet (ד). Le Kamats Gadol sous le Yod (יָ) représente [a], ce qui donne [ya]. Le Dalet en fin de mot ajoute [d]. Prononce bien ce dernier son et lis le mot en entier : [yad].",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "yod-block-7",
+      "sourceIndex": 6,
+      "text": "vivant",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "חַי",
+      "transcription": "khay"
+    },
+    {
+      "id": "yod-block-8",
+      "sourceIndex": 7,
+      "text": "L'adjectif חַי [khay] signifie « vivant », au masculin singulier. Il se lit en une seule syllabe. Dans la transcription khay, kh représente le son du ch allemand de « Bach », différent du ch français de « chat ». Le Patah sous le Het (חַ) ajoute [a]. Le Yod en fin de mot complète le mot : enchaîne la fin ay comme dans « aïe », d'un seul mouvement, pour lire [khay].",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "yod-block-9",
+      "sourceIndex": 8,
+      "text": "À retenir",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "yod-block-10",
+      "sourceIndex": 9,
+      "text": "Tu connais maintenant le Yod (י) et les mots יָד [yad] et חַי [khay]. Dans ces deux mots, le Yod est une consonne. Dans d'autres mots, il peut aider à noter une voyelle. Passe aux exercices pour pratiquer la lecture et revoir les lettres déjà apprises.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yod-exercise-1",
+      "sourceId": "1742226699535",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Quel son le Yod (י) représente-t-il comme consonne, par exemple dans יָד ?",
+      "explanation": "Comme consonne, le Yod donne [y], comme le y de « yeux ». Avec le Kamats Gadol, יָ se lit [ya].",
+      "options": [
+        {
+          "id": "yod-exercise-1-option-1",
+          "label": "[y]"
+        },
+        {
+          "id": "yod-exercise-1-option-2",
+          "label": "[i]"
+        },
+        {
+          "id": "yod-exercise-1-option-3",
+          "label": "[s]"
+        }
+      ],
+      "correctOptionId": "yod-exercise-1-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "yod-exercise-2",
+      "sourceId": "1742226699536",
+      "type": "TRUE_FALSE",
+      "prompt": "Le Yod (י) est la plus grande lettre de l'alphabet hébreu.",
+      "explanation": "Le Yod (י) est en réalité l'une des plus petites lettres de l'alphabet hébreu.",
+      "options": [
+        {
+          "id": "yod-exercise-2-option-1",
+          "label": "True"
+        },
+        {
+          "id": "yod-exercise-2-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "yod-exercise-2-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "yod-exercise-3",
+      "sourceId": "1742226699537",
+      "type": "MATCH_PAIRS",
+      "prompt": "Associe ces lettres consonnes aux sons correspondants.",
+      "explanation": "Le Dalet (ד) donne [d], le Yod (י) donne [y] comme dans « yeux », et le Beit avec Dagesh (בּ) donne [b].",
+      "pairs": [
+        {
+          "id": "yod-exercise-3-pair-1",
+          "left": "ד",
+          "right": "[d]"
+        },
+        {
+          "id": "yod-exercise-3-pair-2",
+          "left": "י",
+          "right": "[y]"
+        },
+        {
+          "id": "yod-exercise-3-pair-3",
+          "left": "בּ",
+          "right": "[b]"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "yod-exercise-4",
+      "sourceId": "1742226699538",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Comment se prononce le mot יָד ?",
+      "explanation": "יָד se lit [yad] en une seule syllabe et signifie « main » ou « bras ». Le [d] en fin de mot se prononce.",
+      "options": [
+        {
+          "id": "yod-exercise-4-option-1",
+          "label": "[yad]"
+        },
+        {
+          "id": "yod-exercise-4-option-2",
+          "label": "[yam]"
+        },
+        {
+          "id": "yod-exercise-4-option-3",
+          "label": "[dam]"
+        },
+        {
+          "id": "yod-exercise-4-option-4",
+          "label": "[bad]"
+        }
+      ],
+      "correctOptionId": "yod-exercise-4-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "yod-exercise-5",
+      "sourceId": "1742226699539",
+      "type": "TRUE_FALSE",
+      "prompt": "Le Yod (י) doit toujours se prononcer [y] dans un mot hébreu.",
+      "explanation": "Le Yod peut aussi aider à noter une voyelle. Dans בִּי [bi], le point sous le Beit (Hiriq) et le Yod qui suit notent [i], sans son [y] supplémentaire.",
+      "options": [
+        {
+          "id": "yod-exercise-5-option-1",
+          "label": "True"
+        },
+        {
+          "id": "yod-exercise-5-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "yod-exercise-5-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "yod-exercise-6",
+      "sourceId": "1742226699540",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Quel son le Patah (ַ) sous le Yod (י) ajoute-t-il ?",
+      "explanation": "Le Patah représente [a]. Sous un Yod consonne, יַ se lit [ya].",
+      "options": [
+        {
+          "id": "yod-exercise-6-option-1",
+          "label": "[i]"
+        },
+        {
+          "id": "yod-exercise-6-option-2",
+          "label": "[a]"
+        },
+        {
+          "id": "yod-exercise-6-option-3",
+          "label": "[o]"
+        }
+      ],
+      "correctOptionId": "yod-exercise-6-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "yod-exercise-7",
+      "sourceId": "1742226699541",
+      "type": "MATCH_PAIRS",
+      "prompt": "Associe chaque mot hébraïque à sa signification.",
+      "explanation": "חַי signifie « vivant », טוֹב signifie « bon » et אָבַד signifie « il s'est perdu » : ce dernier mot est une forme verbale au passé.",
+      "pairs": [
+        {
+          "id": "yod-exercise-7-pair-1",
+          "left": "חַי",
+          "right": "vivant"
+        },
+        {
+          "id": "yod-exercise-7-pair-2",
+          "left": "טוֹב",
+          "right": "bon"
+        },
+        {
+          "id": "yod-exercise-7-pair-3",
+          "left": "אָבַד",
+          "right": "s'est perdu"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "yod-exercise-8",
+      "sourceId": "1742226699542",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Comment se prononce le mot « חַי » ?",
+      "explanation": "חַי [khay] signifie « vivant » et se lit en une seule syllabe. Le kh correspond au ch de l'allemand « Bach » ; la fin ay se prononce comme « aïe ».",
+      "options": [
+        {
+          "id": "yod-exercise-8-option-1",
+          "label": "[gay]"
+        },
+        {
+          "id": "yod-exercise-8-option-2",
+          "label": "[khay]"
+        },
+        {
+          "id": "yod-exercise-8-option-3",
+          "label": "[gaou]"
+        },
+        {
+          "id": "yod-exercise-8-option-4",
+          "label": "[haym]"
+        }
+      ],
+      "correctOptionId": "yod-exercise-8-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "yod-exercise-9",
+      "sourceId": "1742226699543",
+      "type": "TRUE_FALSE",
+      "prompt": "Le mot « חַי » est-il composé de trois lettres : Het (ח), Yod (י) et Alef (א) ?",
+      "explanation": "« חַי » ne contient que deux lettres : Het (ח) et Yod (י).",
+      "options": [
+        {
+          "id": "yod-exercise-9-option-1",
+          "label": "True"
+        },
+        {
+          "id": "yod-exercise-9-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "yod-exercise-9-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "yod-exercise-10",
+      "sourceId": "1742226699544",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Que signifie l'adjectif חַי [khay] ?",
+      "explanation": "חַי [khay] signifie « vivant », au masculin singulier.",
+      "options": [
+        {
+          "id": "yod-exercise-10-option-1",
+          "label": "vivant"
+        },
+        {
+          "id": "yod-exercise-10-option-2",
+          "label": "mort"
+        },
+        {
+          "id": "yod-exercise-10-option-3",
+          "label": "amoureux"
+        }
+      ],
+      "correctOptionId": "yod-exercise-10-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "yod-exercise-11",
+      "sourceId": "1742226699545",
+      "type": "MATCH_PAIRS",
+      "prompt": "Associe chaque mot hébraïque à sa transcription.",
+      "explanation": "Les transcriptions latines indiquent comment lire les mots. Dans יָד [yad], le Yod donne [y], comme dans « yeux ».",
+      "pairs": [
+        {
+          "id": "yod-exercise-11-pair-1",
+          "left": "יָד",
+          "right": "yad"
+        },
+        {
+          "id": "yod-exercise-11-pair-2",
+          "left": "טוֹב",
+          "right": "tov"
+        },
+        {
+          "id": "yod-exercise-11-pair-3",
+          "left": "אָבַד",
+          "right": "avad"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "yod-exercise-12",
+      "sourceId": "1742226699546",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Comment se prononce le mot « אָבַד » ?",
+      "explanation": "אָבַד se lit [a-vad], en deux syllabes, et signifie « il s'est perdu » ou « il a disparu ». Le [d] en fin de mot se prononce.",
+      "options": [
+        {
+          "id": "yod-exercise-12-option-1",
+          "label": "[a-vad]"
+        },
+        {
+          "id": "yod-exercise-12-option-2",
+          "label": "[o-vad]"
+        },
+        {
+          "id": "yod-exercise-12-option-3",
+          "label": "[ou-val]"
+        },
+        {
+          "id": "yod-exercise-12-option-4",
+          "label": "[é-vad]"
+        }
+      ],
+      "correctOptionId": "yod-exercise-12-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "yod-exercise-13",
+      "sourceId": "1742226699547",
+      "type": "TRUE_FALSE",
+      "prompt": "La lettre Hé (הָ) avec un Kamats Gadol se prononce [ha].",
+      "explanation": "Le Hé produit ici un souffle [h], et le Kamats Gadol représente [a]. Ensemble, הָ se lit [ha].",
+      "options": [
+        {
+          "id": "yod-exercise-13-option-1",
+          "label": "True"
+        },
+        {
+          "id": "yod-exercise-13-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "yod-exercise-13-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "yod-exercise-14",
+      "sourceId": "1742226699548",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Comment se prononce le Yod (יָ) avec un Kamats Gadol ?",
+      "explanation": "Le Yod donne [y], comme dans « yeux », et le Kamats Gadol représente [a]. Ensemble, יָ se lit [ya] en une seule syllabe.",
+      "options": [
+        {
+          "id": "yod-exercise-14-option-1",
+          "label": "[ba]"
+        },
+        {
+          "id": "yod-exercise-14-option-2",
+          "label": "[ia]"
+        },
+        {
+          "id": "yod-exercise-14-option-3",
+          "label": "[ya]"
+        },
+        {
+          "id": "yod-exercise-14-option-4",
+          "label": "[hu]"
+        }
+      ],
+      "correctOptionId": "yod-exercise-14-option-3",
+      "reviewFlags": []
+    },
+    {
+      "id": "yod-exercise-15",
+      "sourceId": "1742226699549",
+      "type": "MATCH_PAIRS",
+      "prompt": "Associe chaque lettre hébraïque à sa prononciation avec le Kamats.",
+      "explanation": "Dans ces exemples, le Kamats Gadol représente [a] : זָ se lit [za], יָ se lit [ya] et בָּ se lit [ba]. Le [y] est le son du y dans « yeux ».",
+      "pairs": [
+        {
+          "id": "yod-exercise-15-pair-1",
+          "left": "זָ",
+          "right": "[za]"
+        },
+        {
+          "id": "yod-exercise-15-pair-2",
+          "left": "יָ",
+          "right": "[ya]"
+        },
+        {
+          "id": "yod-exercise-15-pair-3",
+          "left": "בָּ",
+          "right": "[ba]"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "yod-exercise-16",
+      "sourceId": "1742226699550",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Quel son le Patah sous le Het dans « חַי » apporte-t-il ?",
+      "explanation": "Le Patah représente [a]. Avec le Het, חַ se lit [kha] ; le Yod en fin de mot complète חַי [khay], en une seule syllabe.",
+      "options": [
+        {
+          "id": "yod-exercise-16-option-1",
+          "label": "[a]"
+        },
+        {
+          "id": "yod-exercise-16-option-2",
+          "label": "[i]"
+        },
+        {
+          "id": "yod-exercise-16-option-3",
+          "label": "[o]"
+        }
+      ],
+      "correctOptionId": "yod-exercise-16-option-1",
+      "reviewFlags": []
+    }
+  ]
+}

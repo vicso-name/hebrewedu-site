@@ -17,8 +17,9 @@ Kaf's own lesson (lesson 11, slug `kaf`) already gets this right — every
 occurrence below is in a *different* letter's lesson, where a review
 word or a letter's own vocabulary word happens to contain Het or Khaf.
 
-Chet (lesson 8) and Tet (lesson 9) already have local, lesson-specific
-fixes in `src/data/lessons/fr/chet.json` and `src/data/lessons/fr/tet.json`
+Chet (lesson 8), Tet (lesson 9) and Yod (lesson 10) already have local,
+lesson-specific fixes in `src/data/lessons/fr/chet.json`,
+`src/data/lessons/fr/tet.json` and `src/data/lessons/fr/yod.json`
 (via two new `contentOverrides` paths — see `docs/LESSON_PIPELINE.md`) so
 they can publish without waiting on an admin fix. Once the admin source is
 corrected, re-run
@@ -66,9 +67,9 @@ override" warning (see below); remove those entries.
 | Where | Field | Current | Proposed |
 |---|---|---|---|
 | block#6 (WORD_EXAMPLE חַי) | transcription | `chay` | `khay` |
-| block#7 (BOLD_TEXT, explains חַי) | content | `chay` (×2) | `khay` |
+| block#7 (BOLD_TEXT, explains חַי) | content | `[chay]` (×2), `chay`, "ch représente" | `[khay]`, `khay`, "kh représente" |
 | block#9 (SIMPLE_TEXT, closing recap) | content | `chay` | `khay` |
-| exercise#1742226699542 | tip, choices[1], correctAnswer | `chay` / `[chay]` | `khay` / `[khay]` |
+| exercise#1742226699542 | tip, choices[1], correctAnswer | `[chay]`, "Le ch est celui de" | `[khay]`, "Le kh correspond au ch de" |
 | exercise#1742226699544 | content, tip | `chay` | `khay` |
 | exercise#1742226699550 | tip | `cha`, `chay` | `kha`, `khay` |
 

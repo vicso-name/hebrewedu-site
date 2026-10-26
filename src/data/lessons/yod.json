@@ -1,0 +1,68 @@
+{
+  "slug": "yod",
+  "title": "Yod Hebrew Letter (י): Sound & Words",
+  "description": "Learn the Hebrew letter Yod (י), also spelled Yud: its [y] sound, how it helps spell the vowel [i], words like יָד (hand), plus interactive practice.",
+  "editorialIssues": [],
+  "illustrations": {},
+  "blockFlags": {},
+  "exerciseFlags": {},
+  "contentOverrides": {
+    "blocks": {
+      "0": "Yod Hebrew Letter (י): Sound, Words & Practice",
+      "2": "Yud has a small written form and can work in two ways. As a consonant, it represents [y], as in יָד [yad]. It can also help spell a vowel. For example, in בִּי [bi], the dot under Bet (Hiriq) and the following Yud represent [i], like ee in English 'see'; there is no separate [y] sound. In both practice words below, Yud is pronounced as a consonant.",
+      "5": "The word יָד [yad] means 'hand' or 'arm' and has one syllable. It consists of Yud (י) and Dalet (ד). Kamatz Gadol under Yud (יָ) represents [a], giving [ya]. Dalet at the end of the word adds [d]. Read the sounds together: [yad].",
+      "7": "The adjective חַי [chay] means 'alive' or 'living' in the masculine singular. It has one syllable. Chet (ח) gives the sound written ch in this course, as in German 'Bach' or Scottish 'loch'. Patah under Chet (חַ) adds [a]. Yud at the end of the word adds the [y] glide: read ay smoothly, like English 'eye', to make [chay]."
+    },
+    "exercises": {
+      "4": {
+        "tip": "Yud can also help spell a vowel. In בִּי [bi], the dot under Bet (Hiriq) and the following Yud represent [i], with no separate [y]."
+      },
+      "15": {
+        "tip": "Patah represents [a]. With Chet, חַ is read [cha]; Yud at the end of the word completes חַי [chay]."
+      }
+    }
+  },
+  "stageMap": {
+    "theory": [
+      0,
+      1,
+      2
+    ],
+    "examples": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "copy": {
+    "theory": {
+      "heading": "Meet Yod",
+      "intro": "The tenth letter of the <a href=\"/blog/hebrew-alphabet-complete-guide/\">Hebrew alphabet</a>. Yod, also spelled Yud (the spelling used in this lesson), is one of the smallest Hebrew letters, and it does two jobs: as a consonant it makes a [y] sound, as in “yes,” and it can also help spell the vowel [i]. It looks like a short Vav (<bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ו</bdi>) that stops halfway, hanging near the top of the line.",
+      "objectivesHeading": "What you’ll learn",
+      "objectives": [
+        "Recognize Yod: <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">י</bdi>.",
+        "Hear its consonant [y] sound, as in “yes.”",
+        "Read Yod in real words like <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">יָד</bdi> (hand), and notice when it helps spell a vowel."
+      ],
+      "secondSectionHeading": "How Yod sounds",
+      "thirdSectionHeading": "Two jobs for Yod"
+    },
+    "examples": {
+      "heading": "Yod in real words",
+      "intro": "See Yod in two new Hebrew words, and review the Kamatz Gadol and Patah vowel marks from earlier letters."
+    }
+  },
+  "holdOuts": {
+    "blocks": [],
+    "exercises": []
+  },
+  "source": {
+    "rawSnapshotPath": ".local/alphabet-course-imports/v1/2026-10-19T14-27-01-990Z-cc446f/raw/lesson-10.raw.json",
+    "sha256": "33ef4ff050d4c9cbc1d0a01fd5c975155e596b240b8167d14d6e3dd53c3fa29b",
+    "responseDate": "2026-10-19T14:27:07.223Z"
+  }
+}
