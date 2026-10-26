@@ -1,0 +1,386 @@
+{
+  "id": "tet",
+  "sourceId": 9,
+  "order": 9,
+  "glyph": "ט",
+  "locale": "fr",
+  "title": "Teth (ט) : lettre hébraïque, son et exemples",
+  "description": "Apprends la lettre hébraïque Teth (ט) et son son [t], son lien avec טוֹב (bon) et des mots comme בֶּטַח (bien sûr), avec des exercices interactifs.",
+  "status": "local-review-only",
+  "normalizationVersion": 1,
+  "provenance": {
+    "source": "https://api.hebrewedu.com/api/lessons/9/?lang=fr",
+    "responseDate": "2026-10-19T14:27:22.966Z",
+    "sha256": "fc1ea0aef0197eff9bf497a3af3170768e505c78089b6c0d31d6691831c0e567"
+  },
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Affinage optionnel des exercices",
+      "detail": "Le distracteur שלוֹם de la question « bon » utilise des lettres (Shin, Lamed, Mem final) non encore introduites dans cette leçon. Le guidage pour débutants pourra être amélioré séparément de la synchronisation avec la source approuvée."
+    },
+    {
+      "id": "fr-transliteration-kh",
+      "summary": "« ch » remplacé par « kh » pour le son guttural de Het",
+      "detail": "La source brute FR transcrit le son guttural de Het dans בֶּטַח avec « ch » (betach, bé-tach), ce qui se lit [ʃ] en français, contraire à la règle de transliteration FR (docs/hebrew-alphabet-editorial-rules.fr.md : « kh » pour le son guttural, jamais « ch »). Corrigé via contentOverrides.blocks (blocs 7 et 9), contentOverrides.transcriptions (le WORD_EXAMPLE 6), contentOverrides.choices et contentOverrides.exercises (questions 4 et 9), comme pour Het."
+    }
+  ],
+  "blocks": [
+    {
+      "id": "tet-block-1",
+      "sourceIndex": 0,
+      "text": "Teth (ט) : lettre hébraïque, son et exemples",
+      "reviewFlags": [],
+      "type": "MAIN_TITLE"
+    },
+    {
+      "id": "tet-block-2",
+      "sourceIndex": 1,
+      "text": "Tet (ט) est la neuvième lettre de l'alphabet hébreu. Elle se prononce comme le [t] en français — la pointe de la langue touche le palais juste derrière les dents du haut, puis l'air est relâché.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "tet-block-3",
+      "sourceIndex": 2,
+      "text": "Tet (ט) est la première lettre du mot טוֹב [tov], qui signifie « bon » ou « bien ». Une interprétation traditionnelle du Talmud (Bava Kamma 55a) associe Tet à la bonté à travers ce mot. Cette association peut t'aider à retenir la lettre et le mot. Quand tu lis, Tet représente le son [t].",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "tet-block-4",
+      "sourceIndex": 3,
+      "text": "Mots à pratiquer :",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "tet-block-5",
+      "sourceIndex": 4,
+      "text": "bon ; bien",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "טוֹב",
+      "transcription": "tov"
+    },
+    {
+      "id": "tet-block-6",
+      "sourceIndex": 5,
+      "text": "Le mot טוֹב [tov] signifie « bon » ou « bien » et se prononce en une seule syllabe. Tet (ט) donne [t]. Le Vav avec Holam Malé (וֹ) représente la voyelle [o]. Le Beit en fin de mot, sans Dagesh (ב), donne [v]. Lis ces sons ensemble : [tov].",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "tet-block-7",
+      "sourceIndex": 6,
+      "text": "bien sûr",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "בֶּטַח",
+      "transcription": "betakh"
+    },
+    {
+      "id": "tet-block-8",
+      "sourceIndex": 7,
+      "text": "Dans une réponse, בֶּטַח [bé-takh] signifie « bien sûr ». Dans une phrase qui exprime une supposition, il peut aussi signifier « probablement ». Le mot a deux syllabes, avec l'accent sur la première : BÉ-takh. Le Dagesh dans le Beit (בּ) indique ici le son [b], et le Ségol sous la lettre ajoute [e], proche du é de « été ». Le Tet avec Patah (טַ) donne [ta]. Le Het en fin de mot (ח) complète la seconde syllabe [takh]. Dans la transcription betakh, kh désigne le son du ch allemand de « Bach », différent du ch français de « chat ».",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "tet-block-9",
+      "sourceIndex": 8,
+      "text": "Ce qu'on retient",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "tet-block-10",
+      "sourceIndex": 9,
+      "text": "Tu as découvert Tet (ט) et les mots טוֹב [tov] et בֶּטַח [bé-takh]. Dans טוֹב, וֹ représente [o], et le Beit en fin de mot, sans Dagesh, donne [v]. Si le Ségol ou le Patah te semblent encore flous, revois les leçons précédentes, puis passe aux exercices.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "tet-exercise-1",
+      "sourceId": "1742224380219",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Comment se prononce la lettre hébraïque Tet (ט) ?",
+      "explanation": "Tet (ט) représente [t], comme le premier son de « tout ».",
+      "options": [
+        {
+          "id": "tet-exercise-1-option-1",
+          "label": "[t]"
+        },
+        {
+          "id": "tet-exercise-1-option-2",
+          "label": "[d]"
+        },
+        {
+          "id": "tet-exercise-1-option-3",
+          "label": "[s]"
+        }
+      ],
+      "correctOptionId": "tet-exercise-1-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "tet-exercise-2",
+      "sourceId": "1742224380220",
+      "type": "TRUE_FALSE",
+      "prompt": "Le mot hébreu « טוֹב » (tov) signifie-t-il « mauvais » ?",
+      "explanation": "טוֹב [tov] signifie « bon ». On le retrouve dans « boker tov », une salutation du matin qui correspond à « bonjour ».",
+      "options": [
+        {
+          "id": "tet-exercise-2-option-1",
+          "label": "True"
+        },
+        {
+          "id": "tet-exercise-2-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "tet-exercise-2-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "tet-exercise-3",
+      "sourceId": "1742224380221",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "À quelle idée Tet (ט) est-elle associée dans l'interprétation traditionnelle présentée dans cette leçon ?",
+      "explanation": "Tet est la première lettre de טוֹב [tov], qui signifie « bon » ou « bien ». Ce mot explique l'association avec le bien dans l'interprétation présentée plus haut.",
+      "options": [
+        {
+          "id": "tet-exercise-3-option-1",
+          "label": "Le silence"
+        },
+        {
+          "id": "tet-exercise-3-option-2",
+          "label": "La guerre"
+        },
+        {
+          "id": "tet-exercise-3-option-3",
+          "label": "Le bien"
+        },
+        {
+          "id": "tet-exercise-3-option-4",
+          "label": "Le chaos"
+        }
+      ],
+      "correctOptionId": "tet-exercise-3-option-3",
+      "reviewFlags": []
+    },
+    {
+      "id": "tet-exercise-4",
+      "sourceId": "1742224380222",
+      "type": "TRUE_FALSE",
+      "prompt": "Le mot בֶּטַח [bé-takh] est-il formé des lettres Beit, Tet et Het ?",
+      "explanation": "בֶּטַח est composé de Beit (ב), Tet (ט) et Het (ח). Dans une réponse, il peut signifier « bien sûr ».",
+      "options": [
+        {
+          "id": "tet-exercise-4-option-1",
+          "label": "True"
+        },
+        {
+          "id": "tet-exercise-4-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "tet-exercise-4-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "tet-exercise-5",
+      "sourceId": "1742224380223",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Quel son le Ségol ajoute-t-il sous la lettre Beit ?",
+      "explanation": "Le Ségol représente [e], proche du é de « été ». Avec un Dagesh dans le Beit, בֶּ se lit [bé].",
+      "options": [
+        {
+          "id": "tet-exercise-5-option-1",
+          "label": "[e]"
+        },
+        {
+          "id": "tet-exercise-5-option-2",
+          "label": "[a]"
+        },
+        {
+          "id": "tet-exercise-5-option-3",
+          "label": "[o]"
+        }
+      ],
+      "correctOptionId": "tet-exercise-5-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "tet-exercise-6",
+      "sourceId": "1742224380224",
+      "type": "TRUE_FALSE",
+      "prompt": "La lettre Vav (וֹ) dans « טוֹב » produit-elle le son [o] ?",
+      "explanation": "L'ensemble וֹ s'appelle Holam Malé et représente [o]. Dans טוֹב, le Vav sert de support à cette voyelle ; c'est le Beit en fin de mot, sans Dagesh, qui donne [v].",
+      "options": [
+        {
+          "id": "tet-exercise-6-option-1",
+          "label": "True"
+        },
+        {
+          "id": "tet-exercise-6-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "tet-exercise-6-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "tet-exercise-7",
+      "sourceId": "1742224380225",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Quel est le nom du signe vocalique placé au-dessus du Vav (ו) dans « טוֹב » ?",
+      "explanation": "Le Holam est un point au-dessus d'une lettre et représente [o]. Dans טוֹב, il est associé au Vav : l'ensemble וֹ s'appelle Holam Malé.",
+      "options": [
+        {
+          "id": "tet-exercise-7-option-1",
+          "label": "Kamats"
+        },
+        {
+          "id": "tet-exercise-7-option-2",
+          "label": "Holam"
+        },
+        {
+          "id": "tet-exercise-7-option-3",
+          "label": "Shourouk"
+        },
+        {
+          "id": "tet-exercise-7-option-4",
+          "label": "Ségol"
+        }
+      ],
+      "correctOptionId": "tet-exercise-7-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "tet-exercise-8",
+      "sourceId": "1742224380226",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Comment se prononce la lettre Dalet (ד) ?",
+      "explanation": "Dalet (ד) se prononce [d], comme dans « dos » ou « dire ».",
+      "options": [
+        {
+          "id": "tet-exercise-8-option-1",
+          "label": "[d]"
+        },
+        {
+          "id": "tet-exercise-8-option-2",
+          "label": "[t]"
+        },
+        {
+          "id": "tet-exercise-8-option-3",
+          "label": "[s]"
+        }
+      ],
+      "correctOptionId": "tet-exercise-8-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "tet-exercise-9",
+      "sourceId": "1742224380227",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Comment prononce-t-on le mot hébreu « בֶּטַח » ?",
+      "explanation": "Lis בֶּטַח en deux syllabes : [bé-takh], avec l'accent sur la première, BÉ-takh. Le kh à la fin représente le son du Het, comme le ch allemand de « Bach » ; il ne forme pas une syllabe supplémentaire.",
+      "options": [
+        {
+          "id": "tet-exercise-9-option-1",
+          "label": "[ba-takh]"
+        },
+        {
+          "id": "tet-exercise-9-option-2",
+          "label": "[bé-takh]"
+        },
+        {
+          "id": "tet-exercise-9-option-3",
+          "label": "[bou-mag]"
+        },
+        {
+          "id": "tet-exercise-9-option-4",
+          "label": "[bi-takh]"
+        }
+      ],
+      "correctOptionId": "tet-exercise-9-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "tet-exercise-10",
+      "sourceId": "1742224380228",
+      "type": "MATCH_PAIRS",
+      "prompt": "Associe chaque lettre portant un Kamats à sa prononciation.",
+      "explanation": "Dans ces exemples, le Kamats Gadol représente [a] : גָ se lit [ga], טָ se lit [ta] et בָּ se lit [ba]. Le point dans le Beit (Dagesh) indique le son [b].",
+      "pairs": [
+        {
+          "id": "tet-exercise-10-pair-1",
+          "left": "גָ",
+          "right": "[ga]"
+        },
+        {
+          "id": "tet-exercise-10-pair-2",
+          "left": "טָ",
+          "right": "[ta]"
+        },
+        {
+          "id": "tet-exercise-10-pair-3",
+          "left": "בָּ",
+          "right": "[ba]"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "tet-exercise-11",
+      "sourceId": "1742224380229",
+      "type": "TRUE_FALSE",
+      "prompt": "Tet (ט) est-elle la neuvième lettre de l'alphabet hébreu ?",
+      "explanation": "Tet (ט) est bien la 9e lettre de l'alphabet hébreu.",
+      "options": [
+        {
+          "id": "tet-exercise-11-option-1",
+          "label": "True"
+        },
+        {
+          "id": "tet-exercise-11-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "tet-exercise-11-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "tet-exercise-12",
+      "sourceId": "1742224380230",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Quel mot hébreu signifie « bon » ?",
+      "explanation": "« טוֹב » (tov) signifie « bon ». On l'entend dans des formules comme « Boker Tov » (Bonjour).",
+      "options": [
+        {
+          "id": "tet-exercise-12-option-1",
+          "label": "טוֹב"
+        },
+        {
+          "id": "tet-exercise-12-option-2",
+          "label": "בֶּטַח"
+        },
+        {
+          "id": "tet-exercise-12-option-3",
+          "label": "חג"
+        },
+        {
+          "id": "tet-exercise-12-option-4",
+          "label": "שלוֹם"
+        }
+      ],
+      "correctOptionId": "tet-exercise-12-option-1",
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    }
+  ]
+}

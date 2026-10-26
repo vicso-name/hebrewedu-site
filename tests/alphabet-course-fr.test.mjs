@@ -18,11 +18,11 @@ import assert from 'node:assert/strict';
 
 const FR_CONTENT_DIR = fileURLToPath(new URL('../src/content/lessons/fr/', import.meta.url));
 // 'yod' has no real FR fixture — kept only as a placeholder slug for the
-// "has a route but no webImplemented flag" case below; 'tet' is deliberately
+// "has a route but no webImplemented flag" case below; 'kaf' is deliberately
 // left out of this list so it stays the "no FR route at all" baseline. 'chet'
-// is no longer a placeholder here — it has a real FR fixture and is
-// published in both locales, like aleph..zayin above.
-const FIXTURE_SLUGS = ['aleph', 'bet', 'gimel', 'dalet', 'he', 'vav', 'zayin', 'chet', 'yod'];
+// and 'tet' are no longer placeholders here — they have real FR fixtures and
+// are published in both locales, like aleph..zayin above.
+const FIXTURE_SLUGS = ['aleph', 'bet', 'gimel', 'dalet', 'he', 'vav', 'zayin', 'chet', 'tet', 'yod'];
 mkdirSync(FR_CONTENT_DIR, { recursive: true });
 const createdFixtures = FIXTURE_SLUGS
   .map(slug => `${FR_CONTENT_DIR}${slug}.json`)
@@ -45,14 +45,14 @@ const draft = () => {
 };
 
 test('a lesson with no locales map, or an all-false locales.fr, behaves exactly as before for non-en locales', () => {
-  // aleph..chet all have real FR fixtures and webImplemented/previewAvailable
-  // flipped as of this checkout — use a still-untouched lesson (tet) for the
+  // aleph..tet all have real FR fixtures and webImplemented/previewAvailable
+  // flipped as of this checkout — use a still-untouched lesson (kaf) for the
   // "nothing implemented yet" baseline instead.
-  assert.equal(lessonEnabled('tet', false, courseManifest, 'fr'), false);
-  assert.equal(lessonEnabled('tet', true, courseManifest, 'fr'), false);
+  assert.equal(lessonEnabled('kaf', false, courseManifest, 'fr'), false);
+  assert.equal(lessonEnabled('kaf', true, courseManifest, 'fr'), false);
   // Scaffolded locales.fr (all false) on every not-yet-backfilled lesson in
   // src/data/alphabet-course.json must behave the same as no locales map at all.
-  const notYetBackfilled = courseManifest.lessons.filter(l => !['aleph', 'bet', 'gimel', 'dalet', 'he', 'vav', 'zayin', 'chet'].includes(l.slug));
+  const notYetBackfilled = courseManifest.lessons.filter(l => !['aleph', 'bet', 'gimel', 'dalet', 'he', 'vav', 'zayin', 'chet', 'tet'].includes(l.slug));
   assert.ok(notYetBackfilled.every(l => l.locales?.fr && Object.values(l.locales.fr).every(v => v === false || v === null)));
   assert.doesNotThrow(() => validatePublicationManifest(courseManifest));
 });
@@ -71,16 +71,16 @@ test('FR cannot publish ahead of its EN lesson, even with a real FR route and fu
 test('FR publication needs its own implemented route, independent of whether EN has one', () => {
   const value = draft();
   Object.assign(value.lessons[0], { editorialApproved: true, published: true, publishedAt: '2026-10-11' });
-  // tet (lessons[8]) has an EN route but no FR fixture at all (not in this
-  // file's FIXTURE_SLUGS) — flipping FR webImplemented for it must fail closed
-  // on the route check.
-  const tet = value.lessons.find(l => l.slug === 'tet');
-  tet.locales.fr.webImplemented = true;
-  assert.throws(() => validatePublicationManifest(value), /No implemented FR route for tet/);
-  tet.locales.fr.webImplemented = false;
+  // kaf (lessons[10]) has no FR fixture at all (not in this file's
+  // FIXTURE_SLUGS) — flipping FR webImplemented for it must fail closed on the
+  // route check.
+  const kaf = value.lessons.find(l => l.slug === 'kaf');
+  kaf.locales.fr.webImplemented = true;
+  assert.throws(() => validatePublicationManifest(value), /No implemented FR route for kaf/);
+  kaf.locales.fr.webImplemented = false;
   // yod *does* have an FR fixture route here (this file's placeholder) but no
   // webImplemented flag of its own — previewAvailable without webImplemented is
-  // still rejected, same rule as EN's own. (aleph..chet are excluded from this
+  // still rejected, same rule as EN's own. (aleph..tet are excluded from this
   // check since they already have webImplemented: true in the real manifest.)
   const yod = value.lessons.find(l => l.slug === 'yod');
   yod.locales.fr.previewAvailable = true;

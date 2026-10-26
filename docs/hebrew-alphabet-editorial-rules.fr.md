@@ -29,6 +29,12 @@ FR raw source and FR copy exactly as written in the EN file:
   of language.
 - **Never use tokenized source audio URLs** — a source-media rule,
   independent of language.
+- **"Final" means a final form, not word-final position** — a fact about
+  the course's teaching of the five final forms, so "le Het final" / "le
+  Beit final" for a letter that merely ends the word becomes "en fin de mot"
+  (applied since Tet).
+- **Tips never open with "Correct!"** — the explanation shows after a wrong
+  answer too, so the French "Exact !" / "Bravo !" is dropped the same way.
 - **`contentOverrides.exercises` cannot patch `MATCH_PAIRS` pairs data** —
   a pipeline/schema constraint (`docs/LESSON_PIPELINE.md`), not a wording
   rule; a French `MATCH_PAIRS` violation needs the same holdout treatment.
