@@ -131,6 +131,14 @@ using the FR search spelling above, ≤60 chars, no brand suffix (same
 exemples`. The H1 may extend this the same way EN's does, via
 `contentOverrides.blocks["0"]`, not the lesson-level `title`.
 
+### Vowel-length disclaimers rule out both sides
+
+A disclaimer may stay (EN "Vowel length" rule), but it must not rule out only
+one side: "n'exige pas de voyelle brève" reads as a hint that the vowel is
+long. Say "Aucune durée particulière n'est exigée pour la voyelle" instead,
+the same meaning as EN's "no special vowel length is required" (owner
+decision, Lamed review 2026-10-27).
+
 ### French transliteration conventions
 
 Hebrew transcription in FR copy follows French phonetic spelling, not

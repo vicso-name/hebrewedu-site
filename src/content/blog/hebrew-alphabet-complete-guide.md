@@ -160,6 +160,10 @@ Kaf (כ) has two sounds: with a dagesh, כּ is [k], as in "kite"; without it, �
 
 → [Practice Kaf in the Hebrew Alphabet Course](/learn/hebrew-alphabet/kaf/)
 
+Lamed (ל) is a plain [l], as in "leaf," in לֵב [lev], "heart." It is the tallest Hebrew letter, its top stroke rising above the line, and at the start of a word it can be a prefix meaning "to" or "for," as in לְדָוִד [le-da-vid], "to David."
+
+→ [Practice Lamed in the Hebrew Alphabet Course](/learn/hebrew-alphabet/lamed/)
+
 ## The Five Final Letters
 
 Five Hebrew letters have a different written form when they appear at the **end of a word**. These are called *sofit* forms (סופית — “final”). The shape change is different for each pair.

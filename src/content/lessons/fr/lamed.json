@@ -1,0 +1,529 @@
+{
+  "id": "lamed",
+  "sourceId": 12,
+  "order": 12,
+  "glyph": "ל",
+  "locale": "fr",
+  "title": "Lamed (ל) : lettre hébraïque, son et exemples",
+  "description": "Apprends la lettre hébraïque Lamed (ל) : son son [l], son rôle de préfixe (« à », « pour ») et des mots comme לֵב (cœur), avec des exercices interactifs.",
+  "status": "local-review-only",
+  "normalizationVersion": 1,
+  "provenance": {
+    "source": "https://api.hebrewedu.com/api/lessons/12/?lang=fr",
+    "responseDate": "2026-10-19T14:27:23.860Z",
+    "sha256": "006b880f0e0da4bc31d64ef3de4bd07b4b30513b282a090238684244812ae228"
+  },
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Affinage optionnel des exercices",
+      "detail": "L'exercice d'association lettre-son associe נ à [n] ; le Noun n'est introduit qu'à la leçon 14. Le guidage pour débutants pourra être amélioré séparément de la synchronisation avec la source approuvée."
+    },
+    {
+      "id": "fr-transliteration-ou",
+      "summary": "« u » remplacé par « ou » pour le son [u]",
+      "detail": "La source brute FR transcrit le son [u] de לוּלָאָה par « u » (lula'a, [lu-la-a]) ainsi que « [kub] » (question 4), et propose « [u] » parmi les choix de la question 15, contraire à la règle de transcription FR (docs/hebrew-alphabet-editorial-rules.fr.md : « ou » pour [u]). Corrigé via contentOverrides.transcriptions (bloc 10), contentOverrides.choices et contentOverrides.exercises (questions 4, 12 et 15)."
+    }
+  ],
+  "blocks": [
+    {
+      "id": "lamed-block-1",
+      "sourceIndex": 0,
+      "text": "Lamed (ל) : lettre hébraïque, son et exemples",
+      "reviewFlags": [],
+      "type": "MAIN_TITLE"
+    },
+    {
+      "id": "lamed-block-2",
+      "sourceIndex": 1,
+      "text": "Lamed (ל) est la douzième lettre de l'alphabet hébreu. En hébreu moderne, elle se prononce [l], comme le l de « lion ». Tu connais maintenant plus de la moitié des 22 lettres de l'alphabet hébreu !",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "lamed-block-4",
+      "sourceIndex": 3,
+      "text": "Mots à pratiquer :",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "lamed-block-5",
+      "sourceIndex": 4,
+      "text": "cœur",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "לֵב",
+      "transcription": "lev"
+    },
+    {
+      "id": "lamed-block-6",
+      "sourceIndex": 5,
+      "text": "Le mot hébreu לֵב [lev] signifie « cœur ». Il est composé de deux lettres : Lamed (ל) et Beit (ב). Lamed donne [l]. Ici, Beit n'a pas de dagesh, le point à l'intérieur de la lettre, et donne [v], comme dans « ville ». Le Tséré, les deux points sous Lamed, représente [e], une voyelle proche du « è » de « mère ». Ce e ne se lit pas comme le e muet de « le ». Lis le mot en une seule syllabe : [lev]. Dans un texte avec des signes de prononciation, בּ avec un dagesh donne [b], tandis que ב sans dagesh donne [v]. Dans l'écriture courante sans ces signes, il faut connaître le mot pour choisir le bon son.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "lamed-block-7",
+      "sourceIndex": 6,
+      "text": "garçon",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "יֶלֶד",
+      "transcription": "yeled"
+    },
+    {
+      "id": "lamed-block-8",
+      "sourceIndex": 7,
+      "text": "Le mot hébreu יֶלֶד [yeled] signifie « garçon » ou « enfant de sexe masculin ». Il comporte trois lettres : Yod (י), Lamed (ל) et Dalet (ד). Les deux Ségols, les signes à trois points sous Yod et Lamed, représentent chacun [e], proche du « è » de « mère ». Lis [ye-led] en deux syllabes, en accentuant la première. Le [d] en fin de mot termine la seconde syllabe ; il ne forme pas une syllabe à lui seul. Ici, y se prononce comme le y de « yeux ». Révise aussi לֶחֶם [lekhem], « pain » : [le-khem], avec l'accent sur la première syllabe. kh représente un seul son produit à l'arrière de la bouche, comme le ch allemand de « Bach », différent du ch français de « chat ».",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "lamed-block-9",
+      "sourceIndex": 8,
+      "text": "Entraînement à la lecture",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "lamed-block-11",
+      "sourceIndex": 10,
+      "text": "boucle",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "לוּלָאָה",
+      "transcription": "loula'a"
+    },
+    {
+      "id": "lamed-block-12",
+      "sourceIndex": 11,
+      "text": "il s'est perdu",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "אָבַד",
+      "transcription": "avad"
+    },
+    {
+      "id": "lamed-block-13",
+      "sourceIndex": 12,
+      "text": "ours",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "דּוֹב",
+      "transcription": "dov"
+    },
+    {
+      "id": "lamed-block-14",
+      "sourceIndex": 13,
+      "text": "nuit",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "לַיְלָה",
+      "transcription": "layla"
+    },
+    {
+      "id": "lamed-block-15",
+      "sourceIndex": 14,
+      "text": "au fait",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "אַגַּב",
+      "transcription": "agav"
+    },
+    {
+      "id": "lamed-block-16",
+      "sourceIndex": 15,
+      "text": "Ce qu'on retient",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "lamed-block-17",
+      "sourceIndex": 16,
+      "text": "Bravo ! Tu viens d'apprendre la douzième lettre de l'alphabet hébreu. Prends le temps de revoir ce que tu as vu — avancer à ton rythme vaut mieux que de se précipiter. Continue comme ça !",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "lamed-exercise-1",
+      "sourceId": "1742226982590",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Comment se prononce la lettre Lamed (ל) en hébreu moderne ?",
+      "explanation": "Lamed (ל) se prononce [l], comme dans « lion ».",
+      "options": [
+        {
+          "id": "lamed-exercise-1-option-1",
+          "label": "[r]"
+        },
+        {
+          "id": "lamed-exercise-1-option-2",
+          "label": "[l]"
+        },
+        {
+          "id": "lamed-exercise-1-option-3",
+          "label": "[k]"
+        }
+      ],
+      "correctOptionId": "lamed-exercise-1-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "lamed-exercise-2",
+      "sourceId": "1742226982591",
+      "type": "TRUE_FALSE",
+      "prompt": "Lamed (ל) est-elle la douzième lettre de l'alphabet hébreu ?",
+      "explanation": "Lamed (ל) est bien la 12ᵉ lettre de l'alphabet hébreu.",
+      "options": [
+        {
+          "id": "lamed-exercise-2-option-1",
+          "label": "True"
+        },
+        {
+          "id": "lamed-exercise-2-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "lamed-exercise-2-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "lamed-exercise-3",
+      "sourceId": "1742226982592",
+      "type": "MATCH_PAIRS",
+      "prompt": "Associe chaque lettre hébraïque au son correspondant.",
+      "explanation": "Lamed (ל) donne [l], Noun (נ) donne [n] et Beit avec un dagesh (בּ) donne [b].",
+      "pairs": [
+        {
+          "id": "lamed-exercise-3-pair-1",
+          "left": "ל",
+          "right": "[l]"
+        },
+        {
+          "id": "lamed-exercise-3-pair-2",
+          "left": "נ",
+          "right": "[n]"
+        },
+        {
+          "id": "lamed-exercise-3-pair-3",
+          "left": "בּ",
+          "right": "[b]"
+        }
+      ],
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    },
+    {
+      "id": "lamed-exercise-4",
+      "sourceId": "1742226982593",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Comment se prononce le mot « לֵב » ?",
+      "explanation": "לֵב se lit [lev], en une seule syllabe, et signifie « cœur ». Le e est proche du « è » de « mère » ; le [v] en fin de mot se prononce.",
+      "options": [
+        {
+          "id": "lamed-exercise-4-option-1",
+          "label": "[lov]"
+        },
+        {
+          "id": "lamed-exercise-4-option-2",
+          "label": "[lev]"
+        },
+        {
+          "id": "lamed-exercise-4-option-3",
+          "label": "[kov]"
+        },
+        {
+          "id": "lamed-exercise-4-option-4",
+          "label": "[koub]"
+        }
+      ],
+      "correctOptionId": "lamed-exercise-4-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "lamed-exercise-5",
+      "sourceId": "1742226982594",
+      "type": "TRUE_FALSE",
+      "prompt": "Lamed (ל) peut-elle s'utiliser comme préfixe pour indiquer une direction ?",
+      "explanation": "En hébreu, ל placé devant un mot signifie souvent « à » ou « vers ».",
+      "options": [
+        {
+          "id": "lamed-exercise-5-option-1",
+          "label": "True"
+        },
+        {
+          "id": "lamed-exercise-5-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "lamed-exercise-5-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "lamed-exercise-6",
+      "sourceId": "1742226982595",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Quel son représente le Tséré, le signe à deux points sous Lamed dans לֵב ?",
+      "explanation": "Le Tséré représente [e], proche du « è » de « mère ». Avec Lamed, לֵ se lit [le], sans e muet.",
+      "options": [
+        {
+          "id": "lamed-exercise-6-option-1",
+          "label": "[e]"
+        },
+        {
+          "id": "lamed-exercise-6-option-2",
+          "label": "[i]"
+        },
+        {
+          "id": "lamed-exercise-6-option-3",
+          "label": "[o]"
+        }
+      ],
+      "correctOptionId": "lamed-exercise-6-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "lamed-exercise-7",
+      "sourceId": "1742226982596",
+      "type": "MATCH_PAIRS",
+      "prompt": "Associe chaque mot hébreu à sa signification.",
+      "explanation": "יֶלֶד signifie « garçon », לֶחֶם « pain » et לַיְלָה « nuit ».",
+      "pairs": [
+        {
+          "id": "lamed-exercise-7-pair-1",
+          "left": "יֶלֶד",
+          "right": "garçon"
+        },
+        {
+          "id": "lamed-exercise-7-pair-2",
+          "left": "לֶחֶם",
+          "right": "pain"
+        },
+        {
+          "id": "lamed-exercise-7-pair-3",
+          "left": "לַיְלָה",
+          "right": "nuit"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "lamed-exercise-8",
+      "sourceId": "1742226982597",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Comment se prononce le mot « יֶלֶד » ?",
+      "explanation": "יֶלֶד se lit [ye-led], en accentuant la première syllabe, et signifie « garçon ». Le y se prononce comme dans « yeux », et le [d] en fin de mot se prononce.",
+      "options": [
+        {
+          "id": "lamed-exercise-8-option-1",
+          "label": "[ba-get]"
+        },
+        {
+          "id": "lamed-exercise-8-option-2",
+          "label": "[ye-led]"
+        },
+        {
+          "id": "lamed-exercise-8-option-3",
+          "label": "[ma-lad]"
+        },
+        {
+          "id": "lamed-exercise-8-option-4",
+          "label": "[ya-lad]"
+        }
+      ],
+      "correctOptionId": "lamed-exercise-8-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "lamed-exercise-9",
+      "sourceId": "1742226982598",
+      "type": "TRUE_FALSE",
+      "prompt": "Le mot « יֶלֶד » est-il composé de quatre lettres : Yod (י), Lamed (ל), Alef (א) et Dalet (ד) ?",
+      "explanation": "יֶלֶד ne contient que trois lettres : י, ל et ד.",
+      "options": [
+        {
+          "id": "lamed-exercise-9-option-1",
+          "label": "True"
+        },
+        {
+          "id": "lamed-exercise-9-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "lamed-exercise-9-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "lamed-exercise-10",
+      "sourceId": "1742226982599",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Que signifie le mot « לַיְלָה » ?",
+      "explanation": "לַיְלָה signifie « nuit ».",
+      "options": [
+        {
+          "id": "lamed-exercise-10-option-1",
+          "label": "nuit"
+        },
+        {
+          "id": "lamed-exercise-10-option-2",
+          "label": "rêve"
+        },
+        {
+          "id": "lamed-exercise-10-option-3",
+          "label": "coucher de soleil"
+        }
+      ],
+      "correctOptionId": "lamed-exercise-10-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "lamed-exercise-11",
+      "sourceId": "1742226982600",
+      "type": "MATCH_PAIRS",
+      "prompt": "Associe chaque mot hébreu à sa transcription.",
+      "explanation": "לֵב [lev] a une syllabe. לֶחֶם [le-khem] et לַיְלָה [lay-la] en ont deux, avec l’accent sur la première. kh représente le ch allemand de « Bach », pas le ch français de « chat ».",
+      "pairs": [
+        {
+          "id": "lamed-exercise-11-pair-1",
+          "left": "לֵב",
+          "right": "lev"
+        },
+        {
+          "id": "lamed-exercise-11-pair-2",
+          "left": "לֶחֶם",
+          "right": "lekhem"
+        },
+        {
+          "id": "lamed-exercise-11-pair-3",
+          "left": "לַיְלָה",
+          "right": "layla"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "lamed-exercise-12",
+      "sourceId": "1742226982601",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Comment se prononce le mot « לוּלָאָה » ?",
+      "explanation": "לוּלָאָה se lit [lou-la-a], avec l’accent sur le dernier [a]. Dans [loula'a], l’apostrophe sépare les deux dernières syllabes vocaliques. Le mot signifie « boucle ».",
+      "options": [
+        {
+          "id": "lamed-exercise-12-option-1",
+          "label": "[lou-la-a]"
+        },
+        {
+          "id": "lamed-exercise-12-option-2",
+          "label": "[lay-la]"
+        },
+        {
+          "id": "lamed-exercise-12-option-3",
+          "label": "[li-ya]"
+        },
+        {
+          "id": "lamed-exercise-12-option-4",
+          "label": "[may-la]"
+        }
+      ],
+      "correctOptionId": "lamed-exercise-12-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "lamed-exercise-13",
+      "sourceId": "1742226982602",
+      "type": "TRUE_FALSE",
+      "prompt": "La lettre Beit (ב) dans (לֵב) se prononce-t-elle [v] ?",
+      "explanation": "Dans le mot avec ses signes de prononciation לֵב, Beit ne porte pas de dagesh et se lit [v], comme dans « ville ».",
+      "options": [
+        {
+          "id": "lamed-exercise-13-option-1",
+          "label": "True"
+        },
+        {
+          "id": "lamed-exercise-13-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "lamed-exercise-13-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "lamed-exercise-14",
+      "sourceId": "1742226982603",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Que signifie le mot « לֵב » ?",
+      "explanation": "לֵב signifie « cœur ».",
+      "options": [
+        {
+          "id": "lamed-exercise-14-option-1",
+          "label": "cœur"
+        },
+        {
+          "id": "lamed-exercise-14-option-2",
+          "label": "cerveau"
+        },
+        {
+          "id": "lamed-exercise-14-option-3",
+          "label": "amour"
+        },
+        {
+          "id": "lamed-exercise-14-option-4",
+          "label": "main"
+        }
+      ],
+      "correctOptionId": "lamed-exercise-14-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "lamed-exercise-15",
+      "sourceId": "1742226982604",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Quel son le Ségol placé sous Yod dans « יֶלֶד » apporte-t-il à la prononciation ?",
+      "explanation": "Le Ségol représente [e], proche du « è » de « mère ». יֶ se lit [ye], avec y comme dans « yeux » ; le e ne se lit pas comme un e muet.",
+      "options": [
+        {
+          "id": "lamed-exercise-15-option-1",
+          "label": "[e]"
+        },
+        {
+          "id": "lamed-exercise-15-option-2",
+          "label": "[i]"
+        },
+        {
+          "id": "lamed-exercise-15-option-3",
+          "label": "[ou]"
+        }
+      ],
+      "correctOptionId": "lamed-exercise-15-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "lamed-exercise-16",
+      "sourceId": "1742226982605",
+      "type": "MATCH_PAIRS",
+      "prompt": "Associe chaque lettre hébraïque à sa prononciation combinée avec le Patah.",
+      "explanation": "Le Patah représente [a], comme dans « patte ». Lis טַ [ta], יַ [ya] et גַּ [ga]. Le y se prononce comme dans « yeux », et le g comme dans « gare ». Aucune durée particulière n’est exigée pour la voyelle.",
+      "pairs": [
+        {
+          "id": "lamed-exercise-16-pair-1",
+          "left": "טַ",
+          "right": "[ta]"
+        },
+        {
+          "id": "lamed-exercise-16-pair-2",
+          "left": "יַ",
+          "right": "[ya]"
+        },
+        {
+          "id": "lamed-exercise-16-pair-3",
+          "left": "גַּ",
+          "right": "[ga]"
+        }
+      ],
+      "reviewFlags": []
+    }
+  ]
+}
