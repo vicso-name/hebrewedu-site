@@ -17,12 +17,12 @@ import test, { after } from 'node:test';
 import assert from 'node:assert/strict';
 
 const FR_CONTENT_DIR = fileURLToPath(new URL('../src/content/lessons/fr/', import.meta.url));
-// 'lamed' has no real FR fixture — kept only as a placeholder slug for the
-// "has a route but no webImplemented flag" case below; 'mem' is deliberately
+// 'mem' has no real FR fixture — kept only as a placeholder slug for the
+// "has a route but no webImplemented flag" case below; 'nun' is deliberately
 // left out of this list so it stays the "no FR route at all" baseline. 'chet',
-// 'tet', 'yod' and 'kaf' are no longer placeholders here — they have real FR
-// fixtures and are implemented in both locales, like aleph..zayin above.
-const FIXTURE_SLUGS = ['aleph', 'bet', 'gimel', 'dalet', 'he', 'vav', 'zayin', 'chet', 'tet', 'yod', 'kaf', 'lamed'];
+// 'tet', 'yod', 'kaf' and 'lamed' are no longer placeholders here — they have
+// real FR fixtures and are implemented in both locales, like aleph..zayin above.
+const FIXTURE_SLUGS = ['aleph', 'bet', 'gimel', 'dalet', 'he', 'vav', 'zayin', 'chet', 'tet', 'yod', 'kaf', 'lamed', 'mem'];
 mkdirSync(FR_CONTENT_DIR, { recursive: true });
 const createdFixtures = FIXTURE_SLUGS
   .map(slug => `${FR_CONTENT_DIR}${slug}.json`)
@@ -45,14 +45,14 @@ const draft = () => {
 };
 
 test('a lesson with no locales map, or an all-false locales.fr, behaves exactly as before for non-en locales', () => {
-  // aleph..kaf all have real FR fixtures and webImplemented/previewAvailable
-  // flipped as of this checkout — use a still-untouched lesson (mem) for the
+  // aleph..lamed all have real FR fixtures and webImplemented/previewAvailable
+  // flipped as of this checkout — use a still-untouched lesson (nun) for the
   // "nothing implemented yet" baseline instead.
-  assert.equal(lessonEnabled('mem', false, courseManifest, 'fr'), false);
-  assert.equal(lessonEnabled('mem', true, courseManifest, 'fr'), false);
+  assert.equal(lessonEnabled('nun', false, courseManifest, 'fr'), false);
+  assert.equal(lessonEnabled('nun', true, courseManifest, 'fr'), false);
   // Scaffolded locales.fr (all false) on every not-yet-backfilled lesson in
   // src/data/alphabet-course.json must behave the same as no locales map at all.
-  const notYetBackfilled = courseManifest.lessons.filter(l => !['aleph', 'bet', 'gimel', 'dalet', 'he', 'vav', 'zayin', 'chet', 'tet', 'yod', 'kaf'].includes(l.slug));
+  const notYetBackfilled = courseManifest.lessons.filter(l => !['aleph', 'bet', 'gimel', 'dalet', 'he', 'vav', 'zayin', 'chet', 'tet', 'yod', 'kaf', 'lamed'].includes(l.slug));
   assert.ok(notYetBackfilled.every(l => l.locales?.fr && Object.values(l.locales.fr).every(v => v === false || v === null)));
   assert.doesNotThrow(() => validatePublicationManifest(courseManifest));
 });
@@ -71,19 +71,19 @@ test('FR cannot publish ahead of its EN lesson, even with a real FR route and fu
 test('FR publication needs its own implemented route, independent of whether EN has one', () => {
   const value = draft();
   Object.assign(value.lessons[0], { editorialApproved: true, published: true, publishedAt: '2026-10-11' });
-  // mem (lessons[12]) has no FR fixture at all (not in this file's
+  // nun (lessons[13]) has no FR fixture at all (not in this file's
   // FIXTURE_SLUGS) — flipping FR webImplemented for it must fail closed on the
   // route check.
-  const mem = value.lessons.find(l => l.slug === 'mem');
-  mem.locales.fr.webImplemented = true;
-  assert.throws(() => validatePublicationManifest(value), /No implemented FR route for mem/);
-  mem.locales.fr.webImplemented = false;
-  // lamed *does* have an FR fixture route here (this file's placeholder) but no
+  const nun = value.lessons.find(l => l.slug === 'nun');
+  nun.locales.fr.webImplemented = true;
+  assert.throws(() => validatePublicationManifest(value), /No implemented FR route for nun/);
+  nun.locales.fr.webImplemented = false;
+  // mem *does* have an FR fixture route here (this file's placeholder) but no
   // webImplemented flag of its own — previewAvailable without webImplemented is
-  // still rejected, same rule as EN's own. (aleph..kaf are excluded from this
+  // still rejected, same rule as EN's own. (aleph..lamed are excluded from this
   // check since they already have webImplemented: true in the real manifest.)
-  const lamed = value.lessons.find(l => l.slug === 'lamed');
-  lamed.locales.fr.previewAvailable = true;
+  const mem = value.lessons.find(l => l.slug === 'mem');
+  mem.locales.fr.previewAvailable = true;
   assert.throws(() => validatePublicationManifest(value), /FR preview requires an implemented route/);
 });
 

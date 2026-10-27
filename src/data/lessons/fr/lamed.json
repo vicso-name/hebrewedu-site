@@ -1,0 +1,130 @@
+{
+  "slug": "lamed",
+  "title": "Lamed (ל) : lettre hébraïque, son et exemples",
+  "description": "Apprends la lettre hébraïque Lamed (ל) : son son [l], son rôle de préfixe (« à », « pour ») et des mots comme לֵב (cœur), avec des exercices interactifs.",
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Affinage optionnel des exercices",
+      "detail": "L'exercice d'association lettre-son associe נ à [n] ; le Noun n'est introduit qu'à la leçon 14. Le guidage pour débutants pourra être amélioré séparément de la synchronisation avec la source approuvée."
+    },
+    {
+      "id": "fr-transliteration-ou",
+      "summary": "« u » remplacé par « ou » pour le son [u]",
+      "detail": "La source brute FR transcrit le son [u] de לוּלָאָה par « u » (lula'a, [lu-la-a]) ainsi que « [kub] » (question 4), et propose « [u] » parmi les choix de la question 15, contraire à la règle de transcription FR (docs/hebrew-alphabet-editorial-rules.fr.md : « ou » pour [u]). Corrigé via contentOverrides.transcriptions (bloc 10), contentOverrides.choices et contentOverrides.exercises (questions 4, 12 et 15)."
+    }
+  ],
+  "illustrations": {},
+  "blockFlags": {},
+  "exerciseFlags": {
+    "3": [
+      "unintroduced-letters"
+    ]
+  },
+  "contentOverrides": {
+    "blocks": {
+      "0": "Lamed (ל) : lettre hébraïque, son et exemples",
+      "7": "Le mot hébreu יֶלֶד [yeled] signifie « garçon » ou « enfant de sexe masculin ». Il comporte trois lettres : Yod (י), Lamed (ל) et Dalet (ד). Les deux Ségols, les signes à trois points sous Yod et Lamed, représentent chacun [e], proche du « è » de « mère ». Lis [ye-led] en deux syllabes, en accentuant la première. Le [d] en fin de mot termine la seconde syllabe ; il ne forme pas une syllabe à lui seul. Ici, y se prononce comme le y de « yeux ». Révise aussi לֶחֶם [lekhem], « pain » : [le-khem], avec l'accent sur la première syllabe. kh représente un seul son produit à l'arrière de la bouche, comme le ch allemand de « Bach », différent du ch français de « chat »."
+    },
+    "transcriptions": {
+      "10": "loula'a"
+    },
+    "choices": {
+      "3": [
+        "[lov]",
+        "[lev]",
+        "[kov]",
+        "[koub]"
+      ],
+      "11": [
+        "[lou-la-a]",
+        "[lay-la]",
+        "[li-ya]",
+        "[may-la]"
+      ],
+      "14": [
+        "[e]",
+        "[i]",
+        "[ou]"
+      ]
+    },
+    "exercises": {
+      "1": {
+        "tip": "Lamed (ל) est bien la 12ᵉ lettre de l'alphabet hébreu."
+      },
+      "3": {
+        "tip": "לֵב se lit [lev], en une seule syllabe, et signifie « cœur ». Le e est proche du « è » de « mère » ; le [v] en fin de mot se prononce."
+      },
+      "6": {
+        "tip": "יֶלֶד signifie « garçon », לֶחֶם « pain » et לַיְלָה « nuit »."
+      },
+      "7": {
+        "tip": "יֶלֶד se lit [ye-led], en accentuant la première syllabe, et signifie « garçon ». Le y se prononce comme dans « yeux », et le [d] en fin de mot se prononce."
+      },
+      "11": {
+        "tip": "לוּלָאָה se lit [lou-la-a], avec l’accent sur le dernier [a]. Dans [loula'a], l’apostrophe sépare les deux dernières syllabes vocaliques. Le mot signifie « boucle ».",
+        "correctAnswer": "[lou-la-a]"
+      },
+      "15": {
+        "tip": "Le Patah représente [a], comme dans « patte ». Lis טַ [ta], יַ [ya] et גַּ [ga]. Le y se prononce comme dans « yeux », et le g comme dans « gare ». Aucune durée particulière n’est exigée pour la voyelle."
+      }
+    }
+  },
+  "stageMap": {
+    "theory": [
+      0,
+      1
+    ],
+    "examples": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  "copy": {
+    "theory": {
+      "heading": "Découvre Lamed",
+      "intro": "La douzième lettre de l'alphabet hébreu. Lamed se prononce [l], comme dans « lion », et c'est la plus haute des lettres hébraïques : son trait monte au-dessus de la ligne. Placée au début d'un mot, elle peut aussi servir de préfixe signifiant « à », « vers » ou « pour », comme dans <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">לְדָוִד</bdi> [le-da-vid], « à David ».",
+      "objectivesHeading": "Ce que tu vas apprendre",
+      "objectives": [
+        "Reconnaître Lamed : <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ל</bdi>, la plus haute des lettres hébraïques.",
+        "Entendre son son [l], comme dans « lion ».",
+        "Lire Lamed dans de vrais mots comme <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">לֵב</bdi> (cœur) et <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">יֶלֶד</bdi> (garçon)."
+      ],
+      "secondSectionHeading": "Comment se prononce Lamed",
+      "thirdSectionHeading": "Lamed comme préfixe"
+    },
+    "examples": {
+      "heading": "Lamed dans de vrais mots",
+      "intro": "Découvre Lamed dans deux nouveaux mots, puis cinq mots d'entraînement à la lecture. Lis chacun à voix haute : les transcriptions latines sont des aides à la lecture, pas l'alphabet phonétique international (API)."
+    }
+  },
+  "holdOuts": {
+    "blocks": [
+      {
+        "sourceIndex": 2,
+        "reason": "Type de bloc d'étude STRIPED_BLOCK non pris en charge (Lamed comme préfixe « à », « vers », « pour », לְדָוִד) — reconnu par le contrat source, mais StudyBlock.astro n'a pas de rendu pour STRIPED_BLOCK. Le sens du préfixe est repris dans copy.theory.intro et dans l'explication de la question 5."
+      },
+      {
+        "sourceIndex": 9,
+        "reason": "SUBTITLE utilisé comme paragraphe de consigne (« appuie sur le bouton lecture ») : la leçon web n'a pas d'audio (l'audio source n'est jamais repris), la consigne y est donc fausse, et la phrase s'afficherait comme un titre. La remarque « aides à la lecture, pas l'API » est reprise dans copy.examples.intro ; la remarque sur u/ou devient sans objet après la correction « ou »."
+      }
+    ],
+    "exercises": []
+  },
+  "source": {
+    "rawSnapshotPath": ".local/alphabet-course-imports/v1/2026-10-19T14-27-18-905Z-bdf614-fr/raw/lesson-12.raw.json",
+    "sha256": "006b880f0e0da4bc31d64ef3de4bd07b4b30513b282a090238684244812ae228",
+    "responseDate": "2026-10-19T14:27:23.860Z"
+  }
+}

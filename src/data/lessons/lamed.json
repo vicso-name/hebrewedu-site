@@ -1,0 +1,89 @@
+{
+  "slug": "lamed",
+  "title": "Lamed Hebrew Letter (ל): Sound & Words",
+  "description": "Learn the Hebrew letter Lamed (ל), the tallest Hebrew letter: its [l] sound, its prefix meaning “to” or “for,” words like לֵב (heart), plus practice.",
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Optional practice refinement",
+      "detail": "The letter-sound matching exercise pairs נ with [n]; Nun is not introduced until lesson 14. Beginner scaffolding can be improved separately from the approved source synchronization."
+    }
+  ],
+  "illustrations": {},
+  "blockFlags": {},
+  "exerciseFlags": {
+    "3": [
+      "unintroduced-letters"
+    ]
+  },
+  "contentOverrides": {
+    "blocks": {
+      "0": "Lamed Hebrew Letter (ל): Sound, Words & Practice"
+    },
+    "exercises": {
+      "1": {
+        "tip": "Lamed (ל) is the 12th letter in the Hebrew alphabet."
+      },
+      "6": {
+        "tip": "יֶלֶד means 'boy', לֶחֶם means 'bread', and לַיְלָה means 'night'."
+      }
+    }
+  },
+  "stageMap": {
+    "theory": [
+      0,
+      1
+    ],
+    "examples": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  "copy": {
+    "theory": {
+      "heading": "Meet Lamed",
+      "intro": "The twelfth letter of the <a href=\"/blog/hebrew-alphabet-complete-guide/\">Hebrew alphabet</a>. Lamed makes a plain [l] sound, as in “leaf,” and it is the tallest Hebrew letter: its top stroke rises above the line. At the start of a word, Lamed can also be a prefix meaning “to” or “for,” as in <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">לְדָוִד</bdi> [le-da-vid], “to David.”",
+      "objectivesHeading": "What you’ll learn",
+      "objectives": [
+        "Recognize Lamed: <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ל</bdi>, the tallest Hebrew letter.",
+        "Hear its [l] sound, as in “leaf.”",
+        "Read Lamed in real words like <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">לֵב</bdi> (heart) and <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">יֶלֶד</bdi> (boy)."
+      ],
+      "secondSectionHeading": "How Lamed sounds",
+      "thirdSectionHeading": "Lamed as a prefix"
+    },
+    "examples": {
+      "heading": "Lamed in real words",
+      "intro": "See Lamed in two new words, then five reading-practice words. Read each one aloud; the Latin transcriptions are reading aids, not IPA."
+    }
+  },
+  "holdOuts": {
+    "blocks": [
+      {
+        "sourceIndex": 2,
+        "reason": "Unsupported STRIPED_BLOCK study block type (Lamed as the prefix \"to\"/\"for\", לְדָוִד) — recognized by the source contract, but StudyBlock.astro has no STRIPED_BLOCK renderer. The prefix meaning is carried by copy.theory.intro and exercise 5's tip."
+      },
+      {
+        "sourceIndex": 9,
+        "reason": "SUBTITLE used as an instruction paragraph that tells the learner to \"hit the play button\" — the web lesson has no audio (source audio is never carried through), so the instruction is false here, and the sentence would render as a heading. Its \"reading aids, not IPA\" note moved to copy.examples.intro."
+      }
+    ],
+    "exercises": []
+  },
+  "source": {
+    "rawSnapshotPath": ".local/alphabet-course-imports/v1/2026-10-19T14-27-01-990Z-cc446f/raw/lesson-12.raw.json",
+    "sha256": "239f767aed61efa3a3b7fc17ad7a3bd9c1206f0138c2ba342b2388586cb147be",
+    "responseDate": "2026-10-19T14:27:07.823Z"
+  }
+}
