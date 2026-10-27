@@ -1,0 +1,534 @@
+{
+  "id": "kaf",
+  "sourceId": 11,
+  "order": 11,
+  "glyph": "כ",
+  "locale": "fr",
+  "title": "Kaf (כ) : lettre hébraïque, son et exemples",
+  "description": "Apprends la lettre hébraïque Kaf (כ) : ses sons [k] et [kh], sa forme finale ך et des mots comme כּוֹכָב (étoile), avec des exercices interactifs.",
+  "status": "local-review-only",
+  "normalizationVersion": 1,
+  "provenance": {
+    "source": "https://api.hebrewedu.com/api/lessons/11/?lang=fr",
+    "responseDate": "2026-10-19T14:27:23.532Z",
+    "sha256": "582e896742943a152bb26870904712a8b3064f627e028000a16411ce416321a9"
+  },
+  "editorialIssues": [],
+  "blocks": [
+    {
+      "id": "kaf-block-1",
+      "sourceIndex": 0,
+      "text": "Kaf (כ) : lettre hébraïque, son et exemples",
+      "reviewFlags": [],
+      "type": "MAIN_TITLE"
+    },
+    {
+      "id": "kaf-block-2",
+      "sourceIndex": 1,
+      "text": "Le Kaf (כ) est la onzième lettre de l'alphabet hébreu. Dans un texte avec des signes de prononciation, le Kaf avec un dagesh (כּ), le point à l'intérieur de la lettre, se prononce [k], comme dans « kilo ». Pour produire ce son, bloque brièvement l'air avec l'arrière de la langue contre le palais mou, puis relâche-le. Sans dagesh, כ se prononce [kh], comme expliqué plus bas.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "kaf-block-3",
+      "sourceIndex": 2,
+      "text": "Cinq lettres hébraïques ont une forme particulière en fin de mot : כ/ך, מ/ם, נ/ן, פ/ף et צ/ץ. Ce sont les formes finales, ou formes « sofit » (סופית). Le mot « sofit » signifie « finale ».",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "kaf-block-4",
+      "sourceIndex": 3,
+      "text": "Le Kaf final (ך) s’écrit uniquement à la fin d’un mot. Sans dagesh, il représente le son kh, comme ch dans le mot allemand « Bach ».",
+      "reviewFlags": [],
+      "type": "TEXT_IMAGE",
+      "illustration": {
+        "glyph": "ך",
+        "label": "Kaf Sofit",
+        "equivalent": "Kaf final : Kaf dont le trait descend sous la ligne, écrit uniquement en fin de mot.",
+        "mediaStatus": "withheld-pending-review"
+      }
+    },
+    {
+      "id": "kaf-block-5",
+      "sourceIndex": 4,
+      "text": "En écriture d'imprimerie hébraïque, le Kaf (כ) ressemble à un « C » à l'envers. En fin de mot, il prend la forme finale ך, appelée Kaf Sofit, avec un trait qui descend sous la ligne. Cette forme indique la position de la lettre dans le mot ; elle ne détermine pas à elle seule la prononciation. Dans כָּךְ, présenté plus bas, ך n'a pas de dagesh et se prononce [kh].",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "kaf-block-6",
+      "sourceIndex": 5,
+      "text": "Une lettre, deux sons",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "kaf-block-7",
+      "sourceIndex": 6,
+      "text": "Le point à l’intérieur du Kaf (כּ) s’appelle le dagesh. Dans les textes avec signes vocaliques, כּ représente [k], comme dans « café » ; כ sans dagesh représente kh, comme ch dans l’allemand « Bach ».",
+      "reviewFlags": [],
+      "type": "TEXT_IMAGE",
+      "illustration": {
+        "glyph": "כּ",
+        "label": "Kaf avec Dagesh",
+        "equivalent": "Kaf avec un point (dagesh) au centre, prononcé [k]. Sans ce point, le Kaf se prononce [kh].",
+        "mediaStatus": "withheld-pending-review"
+      }
+    },
+    {
+      "id": "kaf-block-8",
+      "sourceIndex": 7,
+      "text": "Dans un texte avec des signes de prononciation, le Kaf avec un dagesh (כּ) se prononce [k], comme dans « kilo ». Sans dagesh, כ se prononce [kh] : l'air passe de façon continue à l'arrière de la bouche, comme pour le « ch » du mot allemand « Bach ». Ici, kh représente un seul son, différent du « ch » français de « chat » ; il ne faut pas prononcer [k] puis [h]. Dans la prononciation moderne courante enseignée ici, la lettre Het (ח) a aussi ce son [kh]. Les transcriptions latines servent d'aides à la lecture ; elles ne suivent pas l'alphabet phonétique international (API). Dans l'écriture hébraïque courante, ces signes sont souvent omis : il faut alors connaître le mot pour choisir la bonne prononciation.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "kaf-block-9",
+      "sourceIndex": 8,
+      "text": "Mots à pratiquer :",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "kaf-block-10",
+      "sourceIndex": 9,
+      "text": "étoile",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "כּוֹכָב",
+      "transcription": "kokhav"
+    },
+    {
+      "id": "kaf-block-11",
+      "sourceIndex": 10,
+      "text": "Le mot hébreu כּוֹכָב [kokhav] signifie « étoile ». Il comporte quatre lettres : כ, ו, כ et ב. Lis-le en deux syllabes, [ko-khav], en accentuant la seconde. Le premier Kaf porte un dagesh et donne [k] ; le Vav avec un holam (וֹ) représente [o], sans son [v] séparé ; le second Kaf n'a pas de dagesh et donne [kh] ; le Beit sans dagesh donne [v], comme dans « ville ».",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "kaf-block-12",
+      "sourceIndex": 11,
+      "text": "force ; puissance",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "כּוֹחַ",
+      "transcription": "koakh"
+    },
+    {
+      "id": "kaf-block-13",
+      "sourceIndex": 12,
+      "text": "Le mot hébreu כּוֹחַ [koakh] signifie « force » ou « puissance », selon le contexte. Avec cette orthographe, il comporte trois lettres : Kaf (כ), Vav (ו) et Het (ח). Le Kaf avec un dagesh donne [k], et le Vav avec un holam (וֹ) représente [o]. Le patah sous le Het en fin de mot se prononce avant la consonne : [a], comme dans « patte », puis [kh]. On l'appelle un « patah furtif ». Lis le mot [ko-akh], en accentuant la première syllabe.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "kaf-block-14",
+      "sourceIndex": 13,
+      "text": "ainsi ; de cette façon",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "כָּךְ",
+      "transcription": "kakh"
+    },
+    {
+      "id": "kaf-block-15",
+      "sourceIndex": 14,
+      "text": "Le mot hébreu כָּךְ [kakh] signifie « ainsi » ou « de cette façon ». Il comporte deux lettres : Kaf (כ) et Kaf Sofit (ך). Le premier Kaf porte un dagesh et donne [k]. Le Kamats Gadol placé dessous donne [a], comme dans « patte » ; il n'est pas nécessaire d'allonger cette voyelle en hébreu moderne. Le Kaf Sofit n'a pas de dagesh et donne [kh]. Son sheva est muet ici : le mot n'a donc qu'une syllabe. Pour les exercices, révise aussi le Ségol : il donne [e], un son proche du « è » français de « mère ». Dans ces transcriptions, e n'est pas le e muet de « le ». Ainsi, כֶּ se lit [ke], בֶּ se lit [be] et יֶ se lit [ye], avec y comme dans « yeux », et non comme le u de « lune ».",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "kaf-block-16",
+      "sourceIndex": 15,
+      "text": "À retenir",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "kaf-block-17",
+      "sourceIndex": 16,
+      "text": "Dans cette leçon, tu as découvert le Kaf (כ) : dans un texte avec des signes de prononciation, כּ se lit [k] et כ sans dagesh se lit [kh]. Tu as aussi appris sa forme finale ך et pratiqué les mots כּוֹכָב, כּוֹחַ et כָּךְ. Entraîne-toi avec les exercices pour revoir ces sons, ces écritures et ces significations.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "kaf-exercise-1",
+      "sourceId": "1742226816215",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Comment se prononce le Kaf (כּ) avec un Dagesh ?",
+      "explanation": "Le Kaf (כּ) avec un Dagesh se prononce [k], comme dans « kilo ».",
+      "options": [
+        {
+          "id": "kaf-exercise-1-option-1",
+          "label": "[k]"
+        },
+        {
+          "id": "kaf-exercise-1-option-2",
+          "label": "[g]"
+        },
+        {
+          "id": "kaf-exercise-1-option-3",
+          "label": "[kh]"
+        }
+      ],
+      "correctOptionId": "kaf-exercise-1-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "kaf-exercise-2",
+      "sourceId": "1742226816216",
+      "type": "TRUE_FALSE",
+      "prompt": "Le Kaf (כ) est-il la douzième lettre de l'alphabet hébreu ?",
+      "explanation": "Le Kaf (כ) est en réalité la onzième lettre de l'alphabet hébreu.",
+      "options": [
+        {
+          "id": "kaf-exercise-2-option-1",
+          "label": "True"
+        },
+        {
+          "id": "kaf-exercise-2-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "kaf-exercise-2-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "kaf-exercise-3",
+      "sourceId": "1742226816217",
+      "type": "MATCH_PAIRS",
+      "prompt": "Associe chaque lettre hébraïque au son correspondant.",
+      "explanation": "Observe le dagesh : בּ se lit [b], tandis que ב sans dagesh se lit [v]. ג se lit [g], comme dans « gare ».",
+      "pairs": [
+        {
+          "id": "kaf-exercise-3-pair-1",
+          "left": "ב",
+          "right": "[v]"
+        },
+        {
+          "id": "kaf-exercise-3-pair-2",
+          "left": "ג",
+          "right": "[g]"
+        },
+        {
+          "id": "kaf-exercise-3-pair-3",
+          "left": "בּ",
+          "right": "[b]"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "kaf-exercise-4",
+      "sourceId": "1742226816218",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Comment se prononce le mot « כּוֹכָב » ?",
+      "explanation": "Lis כּוֹכָב [ko-khav], en accentuant la seconde syllabe. Le mot signifie « étoile » : כּ donne [k], כ donne [kh] et ב donne [v].",
+      "options": [
+        {
+          "id": "kaf-exercise-4-option-1",
+          "label": "[ko-khav]"
+        },
+        {
+          "id": "kaf-exercise-4-option-2",
+          "label": "[ko-kav]"
+        },
+        {
+          "id": "kaf-exercise-4-option-3",
+          "label": "[ko-khaf]"
+        },
+        {
+          "id": "kaf-exercise-4-option-4",
+          "label": "[kho-khav]"
+        }
+      ],
+      "correctOptionId": "kaf-exercise-4-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "kaf-exercise-5",
+      "sourceId": "1742226816219",
+      "type": "TRUE_FALSE",
+      "prompt": "La forme finale du Kaf s'appelle-t-elle « Kaf Sofit » ?",
+      "explanation": "Le Kaf Sofit (ך) est la forme finale du Kaf, utilisée en fin de mot.",
+      "options": [
+        {
+          "id": "kaf-exercise-5-option-1",
+          "label": "True"
+        },
+        {
+          "id": "kaf-exercise-5-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "kaf-exercise-5-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "kaf-exercise-6",
+      "sourceId": "1742226816220",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Comment se prononce le Kaf Sofit (ךְ) dans le mot כָּךְ ?",
+      "explanation": "Dans כָּךְ, le Kaf Sofit n'a pas de dagesh et se prononce [kh]. Le sheva est muet ici.",
+      "options": [
+        {
+          "id": "kaf-exercise-6-option-1",
+          "label": "[g]"
+        },
+        {
+          "id": "kaf-exercise-6-option-2",
+          "label": "[kh]"
+        },
+        {
+          "id": "kaf-exercise-6-option-3",
+          "label": "[k]"
+        }
+      ],
+      "correctOptionId": "kaf-exercise-6-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "kaf-exercise-7",
+      "sourceId": "1742226816221",
+      "type": "MATCH_PAIRS",
+      "prompt": "Associe chaque mot hébreu à sa signification.",
+      "explanation": "כָּךְ signifie « ainsi » ou « de cette façon » ; כּוֹחַ peut signifier « force » ou « puissance » ; כּוֹכָב signifie « étoile ».",
+      "pairs": [
+        {
+          "id": "kaf-exercise-7-pair-1",
+          "left": "כָּךְ",
+          "right": "ainsi"
+        },
+        {
+          "id": "kaf-exercise-7-pair-2",
+          "left": "כּוֹחַ",
+          "right": "force"
+        },
+        {
+          "id": "kaf-exercise-7-pair-3",
+          "left": "כּוֹכָב",
+          "right": "étoile"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "kaf-exercise-8",
+      "sourceId": "1742226816222",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Que signifie « Sofit » en hébreu ?",
+      "explanation": "Dans « Kaf Sofit », le mot « sofit » (סופית) signifie « finale » : la forme de la lettre utilisée en fin de mot.",
+      "options": [
+        {
+          "id": "kaf-exercise-8-option-1",
+          "label": "Début"
+        },
+        {
+          "id": "kaf-exercise-8-option-2",
+          "label": "Milieu"
+        },
+        {
+          "id": "kaf-exercise-8-option-3",
+          "label": "Finale"
+        },
+        {
+          "id": "kaf-exercise-8-option-4",
+          "label": "Aucun"
+        }
+      ],
+      "correctOptionId": "kaf-exercise-8-option-3",
+      "reviewFlags": []
+    },
+    {
+      "id": "kaf-exercise-9",
+      "sourceId": "1742226816223",
+      "type": "TRUE_FALSE",
+      "prompt": "Le Kaf avec un dagesh (כּ) se prononce-t-il [k], comme dans « kilo » ?",
+      "explanation": "Dans un texte avec des signes de prononciation, le dagesh distingue כּ [k] de כ [kh].",
+      "options": [
+        {
+          "id": "kaf-exercise-9-option-1",
+          "label": "True"
+        },
+        {
+          "id": "kaf-exercise-9-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "kaf-exercise-9-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "kaf-exercise-10",
+      "sourceId": "1742226816224",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Quel son le Kamats Gadol sous le premier Kaf de כָּךְ apporte-t-il ?",
+      "explanation": "Le Kamats Gadol sous le premier Kaf donne [a], comme dans « patte » : כָּ se lit [ka]. L'hébreu moderne n'exige pas de voyelle longue ici.",
+      "options": [
+        {
+          "id": "kaf-exercise-10-option-1",
+          "label": "[a]"
+        },
+        {
+          "id": "kaf-exercise-10-option-2",
+          "label": "[i]"
+        },
+        {
+          "id": "kaf-exercise-10-option-3",
+          "label": "[o]"
+        }
+      ],
+      "correctOptionId": "kaf-exercise-10-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "kaf-exercise-11",
+      "sourceId": "1742226816225",
+      "type": "MATCH_PAIRS",
+      "prompt": "Associe chaque lettre au son correspondant.",
+      "explanation": "Dans ces formes avec des signes de prononciation, כּ donne [k], כ sans dagesh donne [kh] et בּ donne [b].",
+      "pairs": [
+        {
+          "id": "kaf-exercise-11-pair-1",
+          "left": "כ",
+          "right": "[kh]"
+        },
+        {
+          "id": "kaf-exercise-11-pair-2",
+          "left": "בּ",
+          "right": "[b]"
+        },
+        {
+          "id": "kaf-exercise-11-pair-3",
+          "left": "כּ",
+          "right": "[k]"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "kaf-exercise-12",
+      "sourceId": "1742226816226",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Quelle est la traduction du mot « כּוֹחַ » ?",
+      "explanation": "כּוֹחַ peut signifier « force » ou « puissance ». Parmi les réponses proposées ici, « force » est la bonne.",
+      "options": [
+        {
+          "id": "kaf-exercise-12-option-1",
+          "label": "force"
+        },
+        {
+          "id": "kaf-exercise-12-option-2",
+          "label": "amour"
+        },
+        {
+          "id": "kaf-exercise-12-option-3",
+          "label": "eau"
+        },
+        {
+          "id": "kaf-exercise-12-option-4",
+          "label": "son"
+        }
+      ],
+      "correctOptionId": "kaf-exercise-12-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "kaf-exercise-13",
+      "sourceId": "1742226816227",
+      "type": "TRUE_FALSE",
+      "prompt": "Le Kaf Sofit (ךְ) dans כָּךְ représente-t-il le son [kh] ?",
+      "explanation": "כָּךְ se lit [kakh] : כּ donne [k] et ך sans dagesh donne [kh]. Le sheva final est muet ici.",
+      "options": [
+        {
+          "id": "kaf-exercise-13-option-1",
+          "label": "True"
+        },
+        {
+          "id": "kaf-exercise-13-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "kaf-exercise-13-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "kaf-exercise-14",
+      "sourceId": "1742226816228",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Quelle est la traduction de כּוֹחַ ?",
+      "explanation": "כּוֹחַ peut signifier « puissance » ou « force ». Parmi les réponses proposées ici, « puissance » est la bonne.",
+      "options": [
+        {
+          "id": "kaf-exercise-14-option-1",
+          "label": "puissance"
+        },
+        {
+          "id": "kaf-exercise-14-option-2",
+          "label": "feu"
+        },
+        {
+          "id": "kaf-exercise-14-option-3",
+          "label": "lumière"
+        },
+        {
+          "id": "kaf-exercise-14-option-4",
+          "label": "vent"
+        }
+      ],
+      "correctOptionId": "kaf-exercise-14-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "kaf-exercise-15",
+      "sourceId": "1742226816229",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Quel son le Ségol sous le Kaf (כֶ) apporte-t-il ?",
+      "explanation": "Le Ségol donne [e], un son proche du « è » de « mère ». Dans כֶ, כ donne [kh] et le Ségol ajoute [e] : cet ensemble se lit [khe]. Le e de la transcription ne se lit pas comme le e muet de « le ».",
+      "options": [
+        {
+          "id": "kaf-exercise-15-option-1",
+          "label": "[ou]"
+        },
+        {
+          "id": "kaf-exercise-15-option-2",
+          "label": "[e]"
+        },
+        {
+          "id": "kaf-exercise-15-option-3",
+          "label": "[a]"
+        }
+      ],
+      "correctOptionId": "kaf-exercise-15-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "kaf-exercise-16",
+      "sourceId": "1742226816230",
+      "type": "MATCH_PAIRS",
+      "prompt": "Associe chaque lettre portant un Ségol à sa prononciation.",
+      "explanation": "Le Ségol est déjà écrit sous chaque lettre et donne [e], proche du « è » de « mère ». Lis יֶ [ye], avec y comme dans « yeux », בֶּ [be] et כֶּ [ke]. Il ne faut pas lire y comme le u de « lune », ni e comme un e muet.",
+      "pairs": [
+        {
+          "id": "kaf-exercise-16-pair-1",
+          "left": "יֶ",
+          "right": "[ye]"
+        },
+        {
+          "id": "kaf-exercise-16-pair-2",
+          "left": "בֶּ",
+          "right": "[be]"
+        },
+        {
+          "id": "kaf-exercise-16-pair-3",
+          "left": "כֶּ",
+          "right": "[ke]"
+        }
+      ],
+      "reviewFlags": []
+    }
+  ]
+}

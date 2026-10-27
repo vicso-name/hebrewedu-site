@@ -1,0 +1,534 @@
+{
+  "id": "kaf",
+  "sourceId": 11,
+  "order": 11,
+  "glyph": "כ",
+  "locale": "en",
+  "title": "Kaf Hebrew Letter (כ): Kaf, Khaf & Final Kaf",
+  "description": "Learn the Hebrew letter Kaf (כ): its [k] sound, its [kh] sound (Khaf or Chaf), final Kaf (ך), words like כּוֹכָב (star), plus interactive practice.",
+  "status": "local-review-only",
+  "normalizationVersion": 1,
+  "provenance": {
+    "source": "https://api.hebrewedu.com/api/lessons/11/?lang=en",
+    "responseDate": "2026-10-19T14:27:07.526Z",
+    "sha256": "2307a9b005846c8f4bdc271796c109f60f5ad0f81334a2836da7a4cade9412dc"
+  },
+  "editorialIssues": [],
+  "blocks": [
+    {
+      "id": "kaf-block-1",
+      "sourceIndex": 0,
+      "text": "Kaf Hebrew Letter (כ): Kaf, Khaf, Final Kaf & Practice",
+      "reviewFlags": [],
+      "type": "MAIN_TITLE"
+    },
+    {
+      "id": "kaf-block-2",
+      "sourceIndex": 1,
+      "text": "Kaf (כ) is the eleventh letter of the Hebrew alphabet. In text with pronunciation marks, Kaf with a dagesh (כּ), the dot inside the letter, is pronounced [k], as in the English word 'kite'. To make [k], briefly block the airflow with the back of your tongue against the soft palate, then release it. Kaf without a dagesh (כ) is pronounced [kh], as explained below.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "kaf-block-3",
+      "sourceIndex": 2,
+      "text": "Today, you'll learn about 'sofit' (סופית), meaning 'final'. Five Hebrew letters have a different written form at the end of a word: כ/ך, מ/ם, נ/ן, פ/ף, and צ/ץ. These are called final, or 'sofit', forms.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "kaf-block-4",
+      "sourceIndex": 3,
+      "text": "Kaf Sofit (ך) is written only at the end of a word. Without a dagesh, it represents the kh sound, as in Scottish “loch”.",
+      "reviewFlags": [],
+      "type": "TEXT_IMAGE",
+      "illustration": {
+        "glyph": "ך",
+        "label": "Kaf Sofit",
+        "equivalent": "Final Kaf: Kaf with its stroke extended below the line, written only at the end of a word.",
+        "mediaStatus": "withheld-pending-review"
+      }
+    },
+    {
+      "id": "kaf-block-5",
+      "sourceIndex": 4,
+      "text": "In Hebrew print, Kaf (כ) resembles a backward English letter C. At the end of a word, it has a final form called 'Final Kaf' or 'Kaf Sofit' (ך), with a stroke extending below the line. The final shape marks the letter's position in the word; it does not itself determine the sound. In the word כָּךְ below, ך has no dagesh and is pronounced [kh].",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "kaf-block-6",
+      "sourceIndex": 5,
+      "text": "One Letter, Two Sounds",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "kaf-block-7",
+      "sourceIndex": 6,
+      "text": "The dot inside Kaf (כּ) is called a dagesh. In texts with vowel points, כּ represents [k], as in “kite”, while כ without a dagesh represents kh, as in Scottish “loch”.",
+      "reviewFlags": [],
+      "type": "TEXT_IMAGE",
+      "illustration": {
+        "glyph": "כּ",
+        "label": "Kaf with Dagesh",
+        "equivalent": "Kaf with a dot (dagesh) in its center, pronounced [k]. Without the dot, Kaf is pronounced [kh].",
+        "mediaStatus": "withheld-pending-review"
+      }
+    },
+    {
+      "id": "kaf-block-8",
+      "sourceIndex": 7,
+      "text": "In text with pronunciation marks, Kaf with a dagesh (כּ) is pronounced [k], as in 'king'. Without a dagesh, כ is pronounced [kh], a continuous sound made at the back of the mouth, similar to the 'ch' in German 'Bach'. In the common modern pronunciation taught here, Chet (ח), written [ch] in the Chet lesson, also has this [kh] sound. Here, kh represents one consonant, not [k] followed by [h]. The Latin transcriptions in this lesson are reading aids, not IPA. In ordinary Hebrew writing, pronunciation marks are often omitted, so you need to know the word to choose the right sound.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "kaf-block-9",
+      "sourceIndex": 8,
+      "text": "Words to Practice:",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "kaf-block-10",
+      "sourceIndex": 9,
+      "text": "star",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "כּוֹכָב",
+      "transcription": "kokhav"
+    },
+    {
+      "id": "kaf-block-11",
+      "sourceIndex": 10,
+      "text": "The Hebrew word כּוֹכָב [kokhav] means 'star'. It has four letters: כ, ו, כ, and ב. Read it in two syllables, [ko-khav], with the stress on the second syllable. The first Kaf has a dagesh and gives [k]; Vav with holam (וֹ) represents [o], with no separate [v] sound; the second Kaf has no dagesh and gives [kh]; and Bet without a dagesh gives [v].",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "kaf-block-12",
+      "sourceIndex": 11,
+      "text": "force; power; strength",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "כּוֹחַ",
+      "transcription": "koakh"
+    },
+    {
+      "id": "kaf-block-13",
+      "sourceIndex": 12,
+      "text": "The Hebrew word כּוֹחַ [koakh] means 'force', 'power', or 'strength', depending on context. In this spelling it has three letters: Kaf (כ), Vav (ו), and Chet (ח). Kaf with a dagesh gives [k], and Vav with holam (וֹ) represents [o]. The patah under the Chet at the end of the word is pronounced before the consonant: [a] then [kh]. This is called a 'furtive patah'. Read the word [ko-akh], with the stress on the first syllable.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "kaf-block-14",
+      "sourceIndex": 13,
+      "text": "in this way; so",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "כָּךְ",
+      "transcription": "kakh"
+    },
+    {
+      "id": "kaf-block-15",
+      "sourceIndex": 14,
+      "text": "The Hebrew word כָּךְ [kakh] means 'in this way' or 'so'. It has two letters: Kaf (כ) and Final Kaf (ך). The first Kaf has a dagesh and gives [k]. The Kamatz Gadol beneath it gives [a]; you do not need to make this vowel long in modern Hebrew. The Final Kaf has no dagesh and gives [kh]. Its sheva is silent here, so the word has one syllable. For the exercises, also review Segol: it gives [e], roughly like the vowel in English 'bet'. Thus כֶּ is [ke], בֶּ is [be], and יֶ is [ye], with y as in 'yes'.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "kaf-block-16",
+      "sourceIndex": 15,
+      "text": "Conclusions",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "kaf-block-17",
+      "sourceIndex": 16,
+      "text": "In this lesson, you explored Kaf (כ): כּ is read [k], and כ without a dagesh is read [kh] in text with pronunciation marks. You also learned its final form, ך, and practiced כּוֹכָב, כּוֹחַ, and כָּךְ. Use the exercises to review these sounds, spellings, and meanings.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "kaf-exercise-1",
+      "sourceId": "1742226816215",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "What is the pronunciation of the letter Kaf (כּ) with a dagesh inside?",
+      "explanation": "Kaf (כּ) with a dagesh is pronounced as [k], like in 'kite'.",
+      "options": [
+        {
+          "id": "kaf-exercise-1-option-1",
+          "label": "[k]"
+        },
+        {
+          "id": "kaf-exercise-1-option-2",
+          "label": "[g]"
+        },
+        {
+          "id": "kaf-exercise-1-option-3",
+          "label": "[kh]"
+        }
+      ],
+      "correctOptionId": "kaf-exercise-1-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "kaf-exercise-2",
+      "sourceId": "1742226816216",
+      "type": "TRUE_FALSE",
+      "prompt": "Is Kaf (כ) the twelfth letter in the Hebrew alphabet?",
+      "explanation": "Kaf (כ) is actually the 11th letter in the Hebrew alphabet.",
+      "options": [
+        {
+          "id": "kaf-exercise-2-option-1",
+          "label": "True"
+        },
+        {
+          "id": "kaf-exercise-2-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "kaf-exercise-2-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "kaf-exercise-3",
+      "sourceId": "1742226816217",
+      "type": "MATCH_PAIRS",
+      "prompt": "Match the Hebrew letters to their corresponding sounds.",
+      "explanation": "Look at the dagesh: בּ is [b], while ב without a dagesh is [v]. ג is [g], as in 'go'.",
+      "pairs": [
+        {
+          "id": "kaf-exercise-3-pair-1",
+          "left": "ב",
+          "right": "[v]"
+        },
+        {
+          "id": "kaf-exercise-3-pair-2",
+          "left": "ג",
+          "right": "[g]"
+        },
+        {
+          "id": "kaf-exercise-3-pair-3",
+          "left": "בּ",
+          "right": "[b]"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "kaf-exercise-4",
+      "sourceId": "1742226816218",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "How is the word 'כּוֹכָב' pronounced?",
+      "explanation": "Read כּוֹכָב as [ko-khav], with the stress on the second syllable. It means 'star': כּ gives [k], כ gives [kh], and ב gives [v].",
+      "options": [
+        {
+          "id": "kaf-exercise-4-option-1",
+          "label": "[ko-khav]"
+        },
+        {
+          "id": "kaf-exercise-4-option-2",
+          "label": "[ko-kav]"
+        },
+        {
+          "id": "kaf-exercise-4-option-3",
+          "label": "[ko-khaf]"
+        },
+        {
+          "id": "kaf-exercise-4-option-4",
+          "label": "[kho-khav]"
+        }
+      ],
+      "correctOptionId": "kaf-exercise-4-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "kaf-exercise-5",
+      "sourceId": "1742226816219",
+      "type": "TRUE_FALSE",
+      "prompt": "Is the final form of Kaf called 'Kaf-Sofit'?",
+      "explanation": "Kaf-Sofit (ך) is the final form of Kaf, used at the end of words.",
+      "options": [
+        {
+          "id": "kaf-exercise-5-option-1",
+          "label": "True"
+        },
+        {
+          "id": "kaf-exercise-5-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "kaf-exercise-5-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "kaf-exercise-6",
+      "sourceId": "1742226816220",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "How is Final Kaf (ךְ) pronounced in the word כָּךְ?",
+      "explanation": "In כָּךְ, Final Kaf has no dagesh and is pronounced [kh]. The sheva is silent here.",
+      "options": [
+        {
+          "id": "kaf-exercise-6-option-1",
+          "label": "[g]"
+        },
+        {
+          "id": "kaf-exercise-6-option-2",
+          "label": "[kh]"
+        },
+        {
+          "id": "kaf-exercise-6-option-3",
+          "label": "[k]"
+        }
+      ],
+      "correctOptionId": "kaf-exercise-6-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "kaf-exercise-7",
+      "sourceId": "1742226816221",
+      "type": "MATCH_PAIRS",
+      "prompt": "Match the Hebrew words with their meanings.",
+      "explanation": "כָּךְ means 'so' or 'in this way'; כּוֹחַ can mean 'strength', 'power', or 'force'; כּוֹכָב means 'star'.",
+      "pairs": [
+        {
+          "id": "kaf-exercise-7-pair-1",
+          "left": "כָּךְ",
+          "right": "so"
+        },
+        {
+          "id": "kaf-exercise-7-pair-2",
+          "left": "כּוֹחַ",
+          "right": "strength"
+        },
+        {
+          "id": "kaf-exercise-7-pair-3",
+          "left": "כּוֹכָב",
+          "right": "star"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "kaf-exercise-8",
+      "sourceId": "1742226816222",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "What does 'Sofit' mean in Hebrew?",
+      "explanation": "In the name Kaf Sofit, 'sofit' (סופית) means 'final': the form used at the end of a word.",
+      "options": [
+        {
+          "id": "kaf-exercise-8-option-1",
+          "label": "Beginning"
+        },
+        {
+          "id": "kaf-exercise-8-option-2",
+          "label": "Middle"
+        },
+        {
+          "id": "kaf-exercise-8-option-3",
+          "label": "Final"
+        },
+        {
+          "id": "kaf-exercise-8-option-4",
+          "label": "None"
+        }
+      ],
+      "correctOptionId": "kaf-exercise-8-option-3",
+      "reviewFlags": []
+    },
+    {
+      "id": "kaf-exercise-9",
+      "sourceId": "1742226816223",
+      "type": "TRUE_FALSE",
+      "prompt": "Is Kaf with a dagesh (כּ) pronounced [k], as in 'kite'?",
+      "explanation": "In text with pronunciation marks, the dagesh tells כּ [k] apart from כ [kh].",
+      "options": [
+        {
+          "id": "kaf-exercise-9-option-1",
+          "label": "True"
+        },
+        {
+          "id": "kaf-exercise-9-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "kaf-exercise-9-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "kaf-exercise-10",
+      "sourceId": "1742226816224",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "What sound does the Kamatz Gadol under the first Kaf in (כָּךְ) contribute?",
+      "explanation": "Kamatz Gadol under the first Kaf gives [a], so כָּ is [ka]. Modern Hebrew does not require a long [a] here.",
+      "options": [
+        {
+          "id": "kaf-exercise-10-option-1",
+          "label": "[a]"
+        },
+        {
+          "id": "kaf-exercise-10-option-2",
+          "label": "[i]"
+        },
+        {
+          "id": "kaf-exercise-10-option-3",
+          "label": "[o]"
+        }
+      ],
+      "correctOptionId": "kaf-exercise-10-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "kaf-exercise-11",
+      "sourceId": "1742226816225",
+      "type": "MATCH_PAIRS",
+      "prompt": "Match the letters to their correct sounds.",
+      "explanation": "In these marked forms, כּ gives [k], כ without a dagesh gives [kh], and בּ gives [b].",
+      "pairs": [
+        {
+          "id": "kaf-exercise-11-pair-1",
+          "left": "כ",
+          "right": "[kh]"
+        },
+        {
+          "id": "kaf-exercise-11-pair-2",
+          "left": "בּ",
+          "right": "[b]"
+        },
+        {
+          "id": "kaf-exercise-11-pair-3",
+          "left": "כּ",
+          "right": "[k]"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "kaf-exercise-12",
+      "sourceId": "1742226816226",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "How do you translate the word כּוֹחַ into English?",
+      "explanation": "כּוֹחַ can mean 'force', 'power', or 'strength'. Of the options here, 'force' is correct.",
+      "options": [
+        {
+          "id": "kaf-exercise-12-option-1",
+          "label": "force"
+        },
+        {
+          "id": "kaf-exercise-12-option-2",
+          "label": "love"
+        },
+        {
+          "id": "kaf-exercise-12-option-3",
+          "label": "water"
+        },
+        {
+          "id": "kaf-exercise-12-option-4",
+          "label": "sound"
+        }
+      ],
+      "correctOptionId": "kaf-exercise-12-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "kaf-exercise-13",
+      "sourceId": "1742226816227",
+      "type": "TRUE_FALSE",
+      "prompt": "Does Final Kaf (ךְ) in כָּךְ represent the [kh] sound?",
+      "explanation": "כָּךְ is [kakh]: כּ gives [k], and ך without a dagesh gives [kh]. The final sheva is silent.",
+      "options": [
+        {
+          "id": "kaf-exercise-13-option-1",
+          "label": "True"
+        },
+        {
+          "id": "kaf-exercise-13-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "kaf-exercise-13-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "kaf-exercise-14",
+      "sourceId": "1742226816228",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "What is the English translation of כּוֹחַ?",
+      "explanation": "כּוֹחַ can mean 'power', 'strength', or 'force'. Of the options here, 'power' is correct.",
+      "options": [
+        {
+          "id": "kaf-exercise-14-option-1",
+          "label": "power"
+        },
+        {
+          "id": "kaf-exercise-14-option-2",
+          "label": "fire"
+        },
+        {
+          "id": "kaf-exercise-14-option-3",
+          "label": "light"
+        },
+        {
+          "id": "kaf-exercise-14-option-4",
+          "label": "wind"
+        }
+      ],
+      "correctOptionId": "kaf-exercise-14-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "kaf-exercise-15",
+      "sourceId": "1742226816229",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "What sound does the Segol under Kaf (כֶ) contribute to pronunciation?",
+      "explanation": "Segol gives [e], roughly like the vowel in English 'bet'. In כֶ, כ gives [kh] and Segol adds [e], making [khe].",
+      "options": [
+        {
+          "id": "kaf-exercise-15-option-1",
+          "label": "[u]"
+        },
+        {
+          "id": "kaf-exercise-15-option-2",
+          "label": "[e]"
+        },
+        {
+          "id": "kaf-exercise-15-option-3",
+          "label": "[a]"
+        }
+      ],
+      "correctOptionId": "kaf-exercise-15-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "kaf-exercise-16",
+      "sourceId": "1742226816230",
+      "type": "MATCH_PAIRS",
+      "prompt": "Match each Hebrew letter with Segol to its pronunciation.",
+      "explanation": "Segol is already written under each letter and gives [e]. Read יֶ as [ye] (y as in 'yes'), בֶּ as [be], and כֶּ as [ke].",
+      "pairs": [
+        {
+          "id": "kaf-exercise-16-pair-1",
+          "left": "יֶ",
+          "right": "[ye]"
+        },
+        {
+          "id": "kaf-exercise-16-pair-2",
+          "left": "בֶּ",
+          "right": "[be]"
+        },
+        {
+          "id": "kaf-exercise-16-pair-3",
+          "left": "כֶּ",
+          "right": "[ke]"
+        }
+      ],
+      "reviewFlags": []
+    }
+  ]
+}
