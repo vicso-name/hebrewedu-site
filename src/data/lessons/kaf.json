@@ -1,0 +1,86 @@
+{
+  "slug": "kaf",
+  "title": "Kaf Hebrew Letter (כ): Kaf, Khaf & Final Kaf",
+  "description": "Learn the Hebrew letter Kaf (כ): its [k] sound, its [kh] sound (Khaf or Chaf), final Kaf (ך), words like כּוֹכָב (star), plus interactive practice.",
+  "editorialIssues": [],
+  "illustrations": {
+    "3": {
+      "glyph": "ך",
+      "label": "Kaf Sofit",
+      "equivalent": "Final Kaf: Kaf with its stroke extended below the line, written only at the end of a word."
+    },
+    "6": {
+      "glyph": "כּ",
+      "label": "Kaf with Dagesh",
+      "equivalent": "Kaf with a dot (dagesh) in its center, pronounced [k]. Without the dot, Kaf is pronounced [kh]."
+    }
+  },
+  "blockFlags": {},
+  "exerciseFlags": {},
+  "contentOverrides": {
+    "blocks": {
+      "0": "Kaf Hebrew Letter (כ): Kaf, Khaf, Final Kaf & Practice",
+      "7": "In text with pronunciation marks, Kaf with a dagesh (כּ) is pronounced [k], as in 'king'. Without a dagesh, כ is pronounced [kh], a continuous sound made at the back of the mouth, similar to the 'ch' in German 'Bach'. In the common modern pronunciation taught here, Chet (ח), written [ch] in the Chet lesson, also has this [kh] sound. Here, kh represents one consonant, not [k] followed by [h]. The Latin transcriptions in this lesson are reading aids, not IPA. In ordinary Hebrew writing, pronunciation marks are often omitted, so you need to know the word to choose the right sound.",
+      "12": "The Hebrew word כּוֹחַ [koakh] means 'force', 'power', or 'strength', depending on context. In this spelling it has three letters: Kaf (כ), Vav (ו), and Chet (ח). Kaf with a dagesh gives [k], and Vav with holam (וֹ) represents [o]. The patah under the Chet at the end of the word is pronounced before the consonant: [a] then [kh]. This is called a 'furtive patah'. Read the word [ko-akh], with the stress on the first syllable.",
+      "13": "in this way; so"
+    },
+    "exercises": {
+      "8": {
+        "tip": "In text with pronunciation marks, the dagesh tells כּ [k] apart from כ [kh]."
+      },
+      "12": {
+        "tip": "כָּךְ is [kakh]: כּ gives [k], and ך without a dagesh gives [kh]. The final sheva is silent."
+      }
+    }
+  },
+  "stageMap": {
+    "theory": [
+      0,
+      1,
+      2
+    ],
+    "examples": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  "copy": {
+    "theory": {
+      "heading": "Meet Kaf",
+      "intro": "The eleventh letter of the <a href=\"/blog/hebrew-alphabet-complete-guide/\">Hebrew alphabet</a>. Kaf can make two sounds: with a dot inside (a dagesh) it is [k], as in “kite”; without the dot it is [kh], as in German “Bach,” and is often called Khaf (also spelled Chaf). Kaf is also the first of the five letters with a final form, written only at the end of a word.",
+      "objectivesHeading": "What you’ll learn",
+      "objectives": [
+        "Recognize Kaf: <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">כ</bdi>, and its final form, <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ך</bdi>.",
+        "Tell Kaf with a dagesh (<bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">כּ</bdi>, [k]) apart from Kaf without one (<bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">כ</bdi>, [kh]).",
+        "Read both sounds in real words like <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">כּוֹכָב</bdi> (star)."
+      ],
+      "secondSectionHeading": "How Kaf sounds",
+      "thirdSectionHeading": "Five letters with final forms"
+    },
+    "examples": {
+      "heading": "Kaf in real words",
+      "intro": "See Kaf’s final form, compare Kaf with and without a dagesh, then read three new words that use both sounds. Review the Segol vowel mark before the practice."
+    }
+  },
+  "holdOuts": {
+    "blocks": [],
+    "exercises": []
+  },
+  "source": {
+    "rawSnapshotPath": ".local/alphabet-course-imports/v1/2026-10-19T14-27-01-990Z-cc446f/raw/lesson-11.raw.json",
+    "sha256": "2307a9b005846c8f4bdc271796c109f60f5ad0f81334a2836da7a4cade9412dc",
+    "responseDate": "2026-10-19T14:27:07.526Z"
+  }
+}

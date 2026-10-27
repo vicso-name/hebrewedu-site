@@ -156,6 +156,10 @@ Yod (י), also spelled Yud, is one of the smallest letters and does two jobs: as
 
 → [Practice Yod in the Hebrew Alphabet Course](/learn/hebrew-alphabet/yod/)
 
+Kaf (כ) has two sounds: with a dagesh, כּ is [k], as in "kite"; without it, כ is [kh] (often called Khaf or Chaf), as in כּוֹכָב [kokhav], "star". It is also the first of the five letters with a final form, ך, written only at the end of a word.
+
+→ [Practice Kaf in the Hebrew Alphabet Course](/learn/hebrew-alphabet/kaf/)
+
 ## The Five Final Letters
 
 Five Hebrew letters have a different written form when they appear at the **end of a word**. These are called *sofit* forms (סופית — “final”). The shape change is different for each pair.

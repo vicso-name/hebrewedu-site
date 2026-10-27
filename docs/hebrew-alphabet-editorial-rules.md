@@ -97,6 +97,17 @@ spelling used in this lesson)"). Source blocks and exercises keep the app
 spelling — don't override them for this alone (owner decision, Yod review
 2026-10-26; mirrors the FR "first mention, both spellings" rule).
 
+## One sound, two transcriptions across lessons
+
+When a lesson's source transcribes a sound differently from an earlier
+lesson (Kaf writes the Chet sound [kh]; the Chet, Tet and Yod lessons write
+it [ch]), keep the lesson's own transcriptions — they are consistent inside
+it — and bridge the two once, where the lesson names the other letter
+("Chet (ח), written [ch] in the Chet lesson, also has this [kh] sound").
+Don't rewrite every transcription to match the other lesson (owner
+decision, Kaf review 2026-10-27). FR already uses `kh` everywhere, so this
+doesn't arise there.
+
 ## Title pattern
 
 Lesson title tags follow `<Letter> Hebrew Letter (<glyph>): <topic>` —

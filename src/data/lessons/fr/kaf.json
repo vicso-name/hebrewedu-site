@@ -1,0 +1,87 @@
+{
+  "slug": "kaf",
+  "title": "Kaf (כ) : lettre hébraïque, son et exemples",
+  "description": "Apprends la lettre hébraïque Kaf (כ) : ses sons [k] et [kh], sa forme finale ך et des mots comme כּוֹכָב (étoile), avec des exercices interactifs.",
+  "editorialIssues": [],
+  "illustrations": {
+    "3": {
+      "glyph": "ך",
+      "label": "Kaf Sofit",
+      "equivalent": "Kaf final : Kaf dont le trait descend sous la ligne, écrit uniquement en fin de mot."
+    },
+    "6": {
+      "glyph": "כּ",
+      "label": "Kaf avec Dagesh",
+      "equivalent": "Kaf avec un point (dagesh) au centre, prononcé [k]. Sans ce point, le Kaf se prononce [kh]."
+    }
+  },
+  "blockFlags": {},
+  "exerciseFlags": {},
+  "contentOverrides": {
+    "blocks": {
+      "0": "Kaf (כ) : lettre hébraïque, son et exemples",
+      "3": "Le Kaf final (ך) s’écrit uniquement à la fin d’un mot. Sans dagesh, il représente le son kh, comme ch dans le mot allemand « Bach ».",
+      "6": "Le point à l’intérieur du Kaf (כּ) s’appelle le dagesh. Dans les textes avec signes vocaliques, כּ représente [k], comme dans « café » ; כ sans dagesh représente kh, comme ch dans l’allemand « Bach ».",
+      "12": "Le mot hébreu כּוֹחַ [koakh] signifie « force » ou « puissance », selon le contexte. Avec cette orthographe, il comporte trois lettres : Kaf (כ), Vav (ו) et Het (ח). Le Kaf avec un dagesh donne [k], et le Vav avec un holam (וֹ) représente [o]. Le patah sous le Het en fin de mot se prononce avant la consonne : [a], comme dans « patte », puis [kh]. On l'appelle un « patah furtif ». Lis le mot [ko-akh], en accentuant la première syllabe.",
+      "13": "ainsi ; de cette façon"
+    },
+    "exercises": {
+      "8": {
+        "tip": "Dans un texte avec des signes de prononciation, le dagesh distingue כּ [k] de כ [kh]."
+      },
+      "12": {
+        "tip": "כָּךְ se lit [kakh] : כּ donne [k] et ך sans dagesh donne [kh]. Le sheva final est muet ici."
+      }
+    }
+  },
+  "stageMap": {
+    "theory": [
+      0,
+      1,
+      2
+    ],
+    "examples": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  "copy": {
+    "theory": {
+      "heading": "Découvre Kaf",
+      "intro": "La onzième lettre de l'alphabet hébreu. Le Kaf peut se prononcer de deux façons : avec un point à l'intérieur (le dagesh), il se lit [k], comme dans « kilo » ; sans ce point, il se lit [kh], comme le ch de l'allemand « Bach ». C'est aussi la première des cinq lettres qui ont une forme finale, utilisée uniquement en fin de mot.",
+      "objectivesHeading": "Ce que tu vas apprendre",
+      "objectives": [
+        "Reconnaître Kaf : <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">כ</bdi>, et sa forme finale, <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ך</bdi>.",
+        "Distinguer Kaf avec un dagesh (<bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">כּ</bdi>, [k]) de Kaf sans dagesh (<bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">כ</bdi>, [kh]).",
+        "Lire les deux sons dans de vrais mots comme <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">כּוֹכָב</bdi> (étoile)."
+      ],
+      "secondSectionHeading": "Comment se prononce Kaf",
+      "thirdSectionHeading": "Cinq lettres à forme finale"
+    },
+    "examples": {
+      "heading": "Kaf dans de vrais mots",
+      "intro": "Observe la forme finale du Kaf, compare le Kaf avec et sans dagesh, puis lis trois nouveaux mots qui utilisent les deux sons. Révise aussi le signe vocalique Ségol avant les exercices."
+    }
+  },
+  "holdOuts": {
+    "blocks": [],
+    "exercises": []
+  },
+  "source": {
+    "rawSnapshotPath": ".local/alphabet-course-imports/v1/2026-10-19T14-27-18-905Z-bdf614-fr/raw/lesson-11.raw.json",
+    "sha256": "582e896742943a152bb26870904712a8b3064f627e028000a16411ce416321a9",
+    "responseDate": "2026-10-19T14:27:23.532Z"
+  }
+}
