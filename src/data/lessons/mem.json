@@ -1,0 +1,100 @@
+{
+  "slug": "mem",
+  "title": "Mem Hebrew Letter (מ): Sound & Final Mem (Mem Sofit)",
+  "description": "Learn the Hebrew letter Mem (מ): its [m] sound, its final form Mem Sofit (ם), words like מַיִם (water) and לֶחֶם (bread), plus interactive practice.",
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Optional practice refinement",
+      "detail": "The letter-sound matching exercise pairs נ with [n]; Nun is not introduced until lesson 14. Beginner scaffolding can be improved separately from the approved source synchronization."
+    }
+  ],
+  "illustrations": {
+    "2": {
+      "glyph": "ם",
+      "label": "Mem Sofit",
+      "equivalent": "Final Mem: Mem closed at the bottom into a square shape, used at the end of a word."
+    }
+  },
+  "blockFlags": {},
+  "exerciseFlags": {
+    "3": [
+      "unintroduced-letters"
+    ]
+  },
+  "contentOverrides": {
+    "blocks": {
+      "0": "Mem Hebrew Letter (מ): Sound, Final Mem & Practice",
+      "2": "Mem Sofit (ם) is the final form of Mem (מ). In ordinary modern Hebrew writing, use מ at the beginning or in the middle of a word and ם at the end. The shape changes, but both forms have the same [m] sound.",
+      "6": "The Hebrew word מַיִם [mayim] means 'water'. It has three letters: Mem (מ), Yud (י), and Mem Sofit (ם). Patah under the first Mem represents [a], giving [ma]. Yud represents [y], like the y in 'yes', and the hirik beneath it represents [i], like the vowel in English 'see'; no special vowel length is required. Final Mem adds [m]. Read the word in two syllables, [ma-yim], with the stress on the first syllable; the final [m] is not a separate syllable.",
+      "8": "The Hebrew word מַה [ma] means 'what'. It consists of Mem (מ) and Hey (ה). Patah under Mem represents [a], giving [ma]. Hey at the end of the word has no separate [h] sound here. Read the whole word as one syllable: [ma].",
+      "10": "The Hebrew word לַמָּה [lama] means 'why'. It consists of Lamed (ל), Mem (מ), and Hey (ה). Patah under Lamed represents [a], giving [la]. Kamatz under Mem also represents [a] here, giving [ma]. The dagesh in Mem does not require a doubled [m] in this modern reading, and Hey at the end of the word has no separate [h] sound here. Read [la-ma] in two syllables, with the stress on the first.",
+      "12": "The Hebrew word לֶחֶם [lekhem] means 'bread'. It has three letters: Lamed (ל), Chet (ח), and Mem Sofit (ם). Each Segol represents [e]. Lamed gives [l], and Chet, written [ch] in the Chet lesson, gives the sound written kh here, similar to the ch in German 'Bach' or Scottish 'loch'. In the common modern pronunciation taught here, kh represents one consonant, not [k] followed by [h]. Final Mem adds [m]. Read the word in two syllables, [le-khem], with the stress on the first; the final [m] is not a separate syllable."
+    },
+    "exercises": {
+      "4": {
+        "content": "Mem Sofit (ם) has a different sound from Mem (מ).",
+        "tip": "Mem Sofit (ם) changes shape, but it keeps the same [m] sound as Mem (מ).",
+        "correctAnswer": "false"
+      },
+      "5": {
+        "tip": "לַמָּה is read [la-ma], with the stress on the first syllable, and means 'why'. Hey at the end of the word has no separate [h] sound here."
+      },
+      "6": {
+        "tip": "לֶחֶם means 'bread', מַיִם means 'water', and לַמָּה means 'why'."
+      }
+    }
+  },
+  "stageMap": {
+    "theory": [
+      0,
+      1,
+      2
+    ],
+    "examples": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  "copy": {
+    "theory": {
+      "heading": "Meet Mem",
+      "intro": "The thirteenth letter of the <a href=\"/blog/hebrew-alphabet-complete-guide/\">Hebrew alphabet</a>. Mem makes a plain [m] sound, as in “mother.” It is one of the five letters with a final form: at the end of a word, Mem is written as Mem Sofit (<bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ם</bdi>), a closed shape with the same [m] sound.",
+      "objectivesHeading": "What you’ll learn",
+      "objectives": [
+        "Recognize Mem: <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">מ</bdi>, and its final form, <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ם</bdi>.",
+        "Hear its [m] sound, as in “mother.”",
+        "Read Mem in real words like <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">מַיִם</bdi> (water) and <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">לֶחֶם</bdi> (bread)."
+      ],
+      "secondSectionHeading": "How Mem sounds",
+      "thirdSectionHeading": "Mem’s final form"
+    },
+    "examples": {
+      "heading": "Mem in real words",
+      "intro": "Read four words with Mem and Mem Sofit aloud. The Latin transcriptions are reading aids, not IPA; hyphens separate syllables."
+    }
+  },
+  "holdOuts": {
+    "blocks": [
+      {
+        "sourceIndex": 3,
+        "reason": "Unsupported STRIPED_BLOCK study block type (Mem Sofit as the final form of Mem, same [m] sound; transcription note) — recognized by the source contract, but StudyBlock.astro has no STRIPED_BLOCK renderer. Its Mem Sofit sentences now fill block 2's empty TEXT_IMAGE text (contentOverrides.blocks[\"2\"]); its \"reading aids, not IPA\" note moved to copy.examples.intro."
+      }
+    ],
+    "exercises": []
+  },
+  "source": {
+    "rawSnapshotPath": ".local/alphabet-course-imports/v1/2026-10-19T14-27-01-990Z-cc446f/raw/lesson-13.raw.json",
+    "sha256": "2c9ab22c639be7d708dacad1c2bbd4549aad9c1a70953dcb2ab7be9ba545bd38",
+    "responseDate": "2026-10-19T14:27:08.122Z"
+  }
+}

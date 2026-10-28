@@ -1,0 +1,530 @@
+{
+  "id": "mem",
+  "sourceId": 13,
+  "order": 13,
+  "glyph": "מ",
+  "locale": "fr",
+  "title": "Mem (מ) : lettre hébraïque, son et exemples",
+  "description": "Apprends la lettre hébraïque Mem (מ) : son son [m], sa forme finale Mem Sofit (ם) et des mots comme מַיִם (eau) ou לֶחֶם (pain), avec des exercices.",
+  "status": "local-review-only",
+  "normalizationVersion": 1,
+  "provenance": {
+    "source": "https://api.hebrewedu.com/api/lessons/13/?lang=fr",
+    "responseDate": "2026-10-19T14:27:24.147Z",
+    "sha256": "61ee1dd2e38d444f9257a25212fa7176ac5ed03cbfdbc169c74a66652b565f00"
+  },
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Affinage optionnel des exercices",
+      "detail": "L'exercice d'association lettre-son associe נ à [n] ; le Noun n'est introduit qu'à la leçon 14. Le guidage pour débutants pourra être amélioré séparément de la synchronisation avec la source approuvée."
+    },
+    {
+      "id": "fr-transliteration-ou",
+      "summary": "« u » remplacé par « ou » pour le son [u]",
+      "detail": "La source brute FR propose « [u-val] » parmi les choix de la question 11, contraire à la règle de transcription FR (docs/hebrew-alphabet-editorial-rules.fr.md : « ou » pour [u]). Corrigé via contentOverrides.choices."
+    }
+  ],
+  "blocks": [
+    {
+      "id": "mem-block-1",
+      "sourceIndex": 0,
+      "text": "Mem (מ) : lettre hébraïque, son et exemples",
+      "reviewFlags": [],
+      "type": "MAIN_TITLE"
+    },
+    {
+      "id": "mem-block-2",
+      "sourceIndex": 1,
+      "text": "Mem (מ) est la treizième lettre de l'alphabet hébreu. C'est une consonne qui se prononce [m]. Mem fait partie des cinq lettres hébraïques qui ont une forme finale : le Mem Sofit (ם).",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "mem-block-3",
+      "sourceIndex": 2,
+      "text": "Mem Sofit (ם) est la forme finale de Mem (מ). Dans l'écriture courante de l'hébreu moderne, on utilise מ au début ou à l'intérieur d'un mot, et ם à la fin. La forme change, mais le son reste [m].",
+      "reviewFlags": [],
+      "type": "TEXT_IMAGE",
+      "illustration": {
+        "glyph": "ם",
+        "label": "Mem Sofit",
+        "equivalent": "Mem final : un Mem fermé en bas, de forme carrée, employé en fin de mot.",
+        "mediaStatus": "withheld-pending-review"
+      }
+    },
+    {
+      "id": "mem-block-5",
+      "sourceIndex": 4,
+      "text": "Mots à travailler :",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "mem-block-6",
+      "sourceIndex": 5,
+      "text": "eau",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "מַיִם",
+      "transcription": "mayim"
+    },
+    {
+      "id": "mem-block-7",
+      "sourceIndex": 6,
+      "text": "Le mot מַיִם [mayim] signifie « eau ». Il est composé de trois lettres : Mem (מ), Yod (י) et Mem Sofit (ם). Le Patah sous le premier Mem représente [a], ce qui donne [ma]. Le Yod représente [y], comme le y de « yoga », et le Hiriq placé dessous représente [i], comme le i de « lit », sans imposer une durée particulière. Le Mem final ajoute [m]. Lis le mot en deux syllabes, [ma-yim], en accentuant la première. Le [m] en fin de mot ne constitue pas une syllabe à lui seul.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "mem-block-8",
+      "sourceIndex": 7,
+      "text": "quoi / que",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "מַה",
+      "transcription": "ma"
+    },
+    {
+      "id": "mem-block-9",
+      "sourceIndex": 8,
+      "text": "Le mot מַה [ma] signifie « quoi » ou « que ». Il est composé de deux lettres : Mem (מ) et Hé (ה). Le Patah sous Mem représente [a], ce qui donne [ma]. Dans ce mot, le Hé, à la fin, n'a pas de son [h] distinct. Le mot entier se prononce en une seule syllabe : [ma].",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "mem-block-10",
+      "sourceIndex": 9,
+      "text": "pourquoi",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "לַמָּה",
+      "transcription": "lama"
+    },
+    {
+      "id": "mem-block-11",
+      "sourceIndex": 10,
+      "text": "Le mot לַמָּה [lama] signifie « pourquoi ». Il est composé de trois lettres : Lamed (ל), Mem (מ) et Hé (ה). Le Patah sous Lamed représente [a], ce qui donne [la]. Le Kamats sous Mem représente lui aussi [a] ici, ce qui donne [ma]. Dans la prononciation moderne enseignée ici, le Dagesh de Mem n'impose pas de doubler le son [m]. Le Hé, à la fin du mot, n'a pas de son [h] distinct ici. Lis [la-ma] en deux syllabes, en accentuant la première.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "mem-block-12",
+      "sourceIndex": 11,
+      "text": "pain",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "לֶחֶם",
+      "transcription": "lekhem"
+    },
+    {
+      "id": "mem-block-13",
+      "sourceIndex": 12,
+      "text": "Le mot לֶחֶם [lekhem] signifie « pain ». Il est composé de trois lettres : Lamed (ל), Het (ח) et Mem Sofit (ם). Chaque Ségol représente [e], comme le è de « père ». Lamed donne [l]. Dans la prononciation moderne courante enseignée ici, Het donne le son noté kh, proche du ch allemand dans « Bach ». kh représente un seul son, et non [k] suivi de [h] ; il ne se lit pas comme le ch français de « chat ». Le Mem final ajoute [m]. Lis [le-khem] en deux syllabes, en accentuant la première. Le [m] en fin de mot ne constitue pas une syllabe à lui seul.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "mem-block-14",
+      "sourceIndex": 13,
+      "text": "Ce qu'on a vu",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "mem-block-15",
+      "sourceIndex": 14,
+      "text": "Tu viens d'apprendre la lettre Mem (מ). Tu as aussi enrichi ton vocabulaire avec de nouveaux mots. N'oublie pas : Mem a une forme finale, le Mem Sofit (ם). Pour les exercices, revois aussi אָבַד [a-vad], « il s'est perdu » : c'est une forme verbale au passé, avec l'accent sur la deuxième syllabe. Place maintenant à la pratique !",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "mem-exercise-1",
+      "sourceId": "1742227089034",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Quel son produit la lettre hébraïque Mem ?",
+      "explanation": "Mem (מ) se prononce [m].",
+      "options": [
+        {
+          "id": "mem-exercise-1-option-1",
+          "label": "[p]"
+        },
+        {
+          "id": "mem-exercise-1-option-2",
+          "label": "[m]"
+        },
+        {
+          "id": "mem-exercise-1-option-3",
+          "label": "[t]"
+        }
+      ],
+      "correctOptionId": "mem-exercise-1-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "mem-exercise-2",
+      "sourceId": "1742227089035",
+      "type": "TRUE_FALSE",
+      "prompt": "Dans l'écriture courante de l'hébreu moderne, Mem Sofit (ם) s'utilise uniquement en fin de mot.",
+      "explanation": "Dans l'écriture courante de l'hébreu moderne, on emploie מ au début ou à l'intérieur d'un mot, et sa forme finale ם à la fin.",
+      "options": [
+        {
+          "id": "mem-exercise-2-option-1",
+          "label": "True"
+        },
+        {
+          "id": "mem-exercise-2-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "mem-exercise-2-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "mem-exercise-3",
+      "sourceId": "1742227089036",
+      "type": "MATCH_PAIRS",
+      "prompt": "Associe chaque lettre hébraïque au son correspondant.",
+      "explanation": "Mem (מ) donne [m], Noun (נ) donne [n] et Bet avec un Dagesh (בּ) donne [b].",
+      "pairs": [
+        {
+          "id": "mem-exercise-3-pair-1",
+          "left": "מ",
+          "right": "[m]"
+        },
+        {
+          "id": "mem-exercise-3-pair-2",
+          "left": "נ",
+          "right": "[n]"
+        },
+        {
+          "id": "mem-exercise-3-pair-3",
+          "left": "בּ",
+          "right": "[b]"
+        }
+      ],
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    },
+    {
+      "id": "mem-exercise-4",
+      "sourceId": "1742227089037",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Comment se prononce le mot מַיִם ?",
+      "explanation": "מַיִם se lit [ma-yim], en accentuant la première syllabe, et signifie « eau ». y se lit comme le y de « yoga » et i comme le i de « lit ».",
+      "options": [
+        {
+          "id": "mem-exercise-4-option-1",
+          "label": "[ma-yim]"
+        },
+        {
+          "id": "mem-exercise-4-option-2",
+          "label": "[mo-yim]"
+        },
+        {
+          "id": "mem-exercise-4-option-3",
+          "label": "[mi-ya]"
+        },
+        {
+          "id": "mem-exercise-4-option-4",
+          "label": "[ma-ma]"
+        }
+      ],
+      "correctOptionId": "mem-exercise-4-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "mem-exercise-5",
+      "sourceId": "1742227089038",
+      "type": "TRUE_FALSE",
+      "prompt": "Le Mem Sofit (ם) n'a pas le même son que le Mem (מ).",
+      "explanation": "Le Mem Sofit (ם) change de forme, mais garde le même son [m] que le Mem (מ).",
+      "options": [
+        {
+          "id": "mem-exercise-5-option-1",
+          "label": "True"
+        },
+        {
+          "id": "mem-exercise-5-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "mem-exercise-5-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "mem-exercise-6",
+      "sourceId": "1742227089039",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Comment se prononce le mot לַמָּה ?",
+      "explanation": "לַמָּה se lit [la-ma], en accentuant la première syllabe, et signifie « pourquoi ». Le Hé, à la fin du mot, n'a pas de son [h] distinct ici.",
+      "options": [
+        {
+          "id": "mem-exercise-6-option-1",
+          "label": "[la-da]"
+        },
+        {
+          "id": "mem-exercise-6-option-2",
+          "label": "[la-ha]"
+        },
+        {
+          "id": "mem-exercise-6-option-3",
+          "label": "[la-ma]"
+        }
+      ],
+      "correctOptionId": "mem-exercise-6-option-3",
+      "reviewFlags": []
+    },
+    {
+      "id": "mem-exercise-7",
+      "sourceId": "1742227089040",
+      "type": "MATCH_PAIRS",
+      "prompt": "Associe chaque mot hébreu à sa signification.",
+      "explanation": "לֶחֶם signifie « pain », מַיִם « eau » et לַמָּה « pourquoi ».",
+      "pairs": [
+        {
+          "id": "mem-exercise-7-pair-1",
+          "left": "לֶחֶם",
+          "right": "pain"
+        },
+        {
+          "id": "mem-exercise-7-pair-2",
+          "left": "מַיִם",
+          "right": "eau"
+        },
+        {
+          "id": "mem-exercise-7-pair-3",
+          "left": "לַמָּה",
+          "right": "pourquoi"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "mem-exercise-8",
+      "sourceId": "1742227089041",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Que signifie le mot לֶחֶם ?",
+      "explanation": "לֶחֶם signifie « pain ».",
+      "options": [
+        {
+          "id": "mem-exercise-8-option-1",
+          "label": "pain"
+        },
+        {
+          "id": "mem-exercise-8-option-2",
+          "label": "vent"
+        },
+        {
+          "id": "mem-exercise-8-option-3",
+          "label": "feu"
+        },
+        {
+          "id": "mem-exercise-8-option-4",
+          "label": "pierre"
+        }
+      ],
+      "correctOptionId": "mem-exercise-8-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "mem-exercise-9",
+      "sourceId": "1742227089042",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Que signifie le mot מַה ?",
+      "explanation": "מַה signifie « quoi » ou « que » en hébreu.",
+      "options": [
+        {
+          "id": "mem-exercise-9-option-1",
+          "label": "quoi"
+        },
+        {
+          "id": "mem-exercise-9-option-2",
+          "label": "quand"
+        },
+        {
+          "id": "mem-exercise-9-option-3",
+          "label": "pourquoi"
+        }
+      ],
+      "correctOptionId": "mem-exercise-9-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "mem-exercise-10",
+      "sourceId": "1742227089043",
+      "type": "MATCH_PAIRS",
+      "prompt": "Associe chaque mot hébreu à sa transcription.",
+      "explanation": "Lis לֶחֶם [le-khem], מַיִם [ma-yim] et לַמָּה [la-ma] en accentuant la première syllabe. e se lit comme le è de « père » ; kh représente un seul son, proche du ch allemand dans « Bach », et y se lit comme le y de « yoga ».",
+      "pairs": [
+        {
+          "id": "mem-exercise-10-pair-1",
+          "left": "לֶחֶם",
+          "right": "lekhem"
+        },
+        {
+          "id": "mem-exercise-10-pair-2",
+          "left": "מַיִם",
+          "right": "mayim"
+        },
+        {
+          "id": "mem-exercise-10-pair-3",
+          "left": "לַמָּה",
+          "right": "lama"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "mem-exercise-11",
+      "sourceId": "1742227089044",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Comment se prononce le mot אָבַד ?",
+      "explanation": "אָבַד se lit [a-vad], en accentuant la deuxième syllabe. C'est une forme verbale au passé qui signifie « il s'est perdu ». Le [d] en fin de mot termine la deuxième syllabe.",
+      "options": [
+        {
+          "id": "mem-exercise-11-option-1",
+          "label": "[a-vad]"
+        },
+        {
+          "id": "mem-exercise-11-option-2",
+          "label": "[o-vad]"
+        },
+        {
+          "id": "mem-exercise-11-option-3",
+          "label": "[ou-val]"
+        },
+        {
+          "id": "mem-exercise-11-option-4",
+          "label": "[e-vad]"
+        }
+      ],
+      "correctOptionId": "mem-exercise-11-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "mem-exercise-12",
+      "sourceId": "1742227089045",
+      "type": "TRUE_FALSE",
+      "prompt": "Mem avec un Patah (מַ) se prononce [ma].",
+      "explanation": "Le Patah sous Mem représente [a] ; l'ensemble מַ se lit [ma]. Il n'est pas nécessaire de raccourcir ni d'allonger spécialement la voyelle.",
+      "options": [
+        {
+          "id": "mem-exercise-12-option-1",
+          "label": "True"
+        },
+        {
+          "id": "mem-exercise-12-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "mem-exercise-12-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "mem-exercise-13",
+      "sourceId": "1742227089046",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Que signifie le mot מַיִם ?",
+      "explanation": "מַיִם signifie « eau ».",
+      "options": [
+        {
+          "id": "mem-exercise-13-option-1",
+          "label": "eau"
+        },
+        {
+          "id": "mem-exercise-13-option-2",
+          "label": "rivière"
+        },
+        {
+          "id": "mem-exercise-13-option-3",
+          "label": "lait"
+        },
+        {
+          "id": "mem-exercise-13-option-4",
+          "label": "huile"
+        }
+      ],
+      "correctOptionId": "mem-exercise-13-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "mem-exercise-14",
+      "sourceId": "1742227089047",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Quelle voyelle le Patah sous Mem (מַ) représente-t-il ?",
+      "explanation": "Le Patah représente la voyelle [a]. Avec Mem, מַ se lit [ma] ; la question porte uniquement sur la voyelle.",
+      "options": [
+        {
+          "id": "mem-exercise-14-option-1",
+          "label": "[e]"
+        },
+        {
+          "id": "mem-exercise-14-option-2",
+          "label": "[i]"
+        },
+        {
+          "id": "mem-exercise-14-option-3",
+          "label": "[a]"
+        }
+      ],
+      "correctOptionId": "mem-exercise-14-option-3",
+      "reviewFlags": []
+    },
+    {
+      "id": "mem-exercise-15",
+      "sourceId": "1742227089048",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Que signifie le mot לַמָּה ?",
+      "explanation": "לַמָּה signifie « pourquoi » en hébreu.",
+      "options": [
+        {
+          "id": "mem-exercise-15-option-1",
+          "label": "pourquoi"
+        },
+        {
+          "id": "mem-exercise-15-option-2",
+          "label": "qui"
+        },
+        {
+          "id": "mem-exercise-15-option-3",
+          "label": "quoi"
+        },
+        {
+          "id": "mem-exercise-15-option-4",
+          "label": "où"
+        }
+      ],
+      "correctOptionId": "mem-exercise-15-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "mem-exercise-16",
+      "sourceId": "1742227089049",
+      "type": "MATCH_PAIRS",
+      "prompt": "Associe chaque lettre hébraïque à sa prononciation avec le Patah.",
+      "explanation": "Le Patah représente [a]. Lis זַ [za], יַ [ya] et מַ [ma]. Ici, y se lit comme le y de « yoga » ; aucune durée particulière n'est imposée à la voyelle.",
+      "pairs": [
+        {
+          "id": "mem-exercise-16-pair-1",
+          "left": "זַ",
+          "right": "[za]"
+        },
+        {
+          "id": "mem-exercise-16-pair-2",
+          "left": "יַ",
+          "right": "[ya]"
+        },
+        {
+          "id": "mem-exercise-16-pair-3",
+          "left": "מַ",
+          "right": "[ma]"
+        }
+      ],
+      "reviewFlags": []
+    }
+  ]
+}

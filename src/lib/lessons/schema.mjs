@@ -17,7 +17,12 @@ export const recognizedExerciseTypes = exerciseTypes;
 const strictRenderedBlock = type => z.object({
   type: z.literal(type),
   ...(type === 'MAIN_TITLE' ? { title: text } : {}),
-  ...(['SIMPLE_TEXT', 'BOLD_TEXT', 'SUBTITLE', 'TEXT_IMAGE'].includes(type) ? { content: text } : {}),
+  ...(['SIMPLE_TEXT', 'BOLD_TEXT', 'SUBTITLE'].includes(type) ? { content: text } : {}),
+  // A TEXT_IMAGE may arrive with an empty body and only a caption (the audit's
+  // EMPTY_IMAGE_BODY_WITH_CAPTION, e.g. Mem/Nun Sofit). The raw shape accepts it;
+  // the normalized block's non-empty `text` still fails closed unless the letter's
+  // data file supplies contentOverrides.blocks text or holds the block out.
+  ...(type === 'TEXT_IMAGE' ? { content: z.string() } : {}),
   ...(type === 'TEXT_IMAGE' ? { description: z.string(), imageUrl: z.string().url() } : {}),
   ...(type === 'WORD_EXAMPLE' ? { word: text, transcription: text, translation: text, audioUrl: z.string().url() } : {}),
 }).strict();

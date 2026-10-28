@@ -123,6 +123,11 @@ first place (a different source text can simply avoid the problem EN had to
 fix), there is nothing to mirror; note that in the FR review doc rather
 than inventing a correction with no underlying defect.
 
+**Letter names are masculine.** Use "le Mem", "le Mem Sofit", "le Mem final",
+the same as "le Kaf", "le Yod" and "le Hé", even where the raw source writes
+"la Mem". This follows French dictionary usage and keeps a lesson consistent
+with itself (owner decision, Mem review 2026-10-28).
+
 ### FR title pattern
 
 `<Lettre> (<glyph>) : lettre hébraïque, son et exemples` — keyword-first
