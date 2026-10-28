@@ -164,6 +164,10 @@ Lamed (ל) is a plain [l], as in "leaf," in לֵב [lev], "heart." It is the tal
 
 → [Practice Lamed in the Hebrew Alphabet Course](/learn/hebrew-alphabet/lamed/)
 
+Mem (מ) is a plain [m], as in "mother," in מַיִם [mayim], "water." It is one of the five letters with a final form: at the end of a word it is written ם (Mem Sofit), a closed shape with the same [m] sound.
+
+→ [Practice Mem in the Hebrew Alphabet Course](/learn/hebrew-alphabet/mem/)
+
 ## The Five Final Letters
 
 Five Hebrew letters have a different written form when they appear at the **end of a word**. These are called *sofit* forms (סופית — “final”). The shape change is different for each pair.

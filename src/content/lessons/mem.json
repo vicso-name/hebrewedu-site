@@ -1,0 +1,525 @@
+{
+  "id": "mem",
+  "sourceId": 13,
+  "order": 13,
+  "glyph": "מ",
+  "locale": "en",
+  "title": "Mem Hebrew Letter (מ): Sound & Final Mem (Mem Sofit)",
+  "description": "Learn the Hebrew letter Mem (מ): its [m] sound, its final form Mem Sofit (ם), words like מַיִם (water) and לֶחֶם (bread), plus interactive practice.",
+  "status": "local-review-only",
+  "normalizationVersion": 1,
+  "provenance": {
+    "source": "https://api.hebrewedu.com/api/lessons/13/?lang=en",
+    "responseDate": "2026-10-19T14:27:08.122Z",
+    "sha256": "2c9ab22c639be7d708dacad1c2bbd4549aad9c1a70953dcb2ab7be9ba545bd38"
+  },
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Optional practice refinement",
+      "detail": "The letter-sound matching exercise pairs נ with [n]; Nun is not introduced until lesson 14. Beginner scaffolding can be improved separately from the approved source synchronization."
+    }
+  ],
+  "blocks": [
+    {
+      "id": "mem-block-1",
+      "sourceIndex": 0,
+      "text": "Mem Hebrew Letter (מ): Sound, Final Mem & Practice",
+      "reviewFlags": [],
+      "type": "MAIN_TITLE"
+    },
+    {
+      "id": "mem-block-2",
+      "sourceIndex": 1,
+      "text": "Mem (מ) is the thirteenth letter of the Hebrew alphabet. It is a consonant, pronounced like the [m] in the English word 'mother.' Mem is one of five Hebrew letters that have a final form, known as Mem Sofit (ם).",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "mem-block-3",
+      "sourceIndex": 2,
+      "text": "Mem Sofit (ם) is the final form of Mem (מ). In ordinary modern Hebrew writing, use מ at the beginning or in the middle of a word and ם at the end. The shape changes, but both forms have the same [m] sound.",
+      "reviewFlags": [],
+      "type": "TEXT_IMAGE",
+      "illustration": {
+        "glyph": "ם",
+        "label": "Mem Sofit",
+        "equivalent": "Final Mem: Mem closed at the bottom into a square shape, used at the end of a word.",
+        "mediaStatus": "withheld-pending-review"
+      }
+    },
+    {
+      "id": "mem-block-5",
+      "sourceIndex": 4,
+      "text": "Words to Practice:",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "mem-block-6",
+      "sourceIndex": 5,
+      "text": "water",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "מַיִם",
+      "transcription": "mayim"
+    },
+    {
+      "id": "mem-block-7",
+      "sourceIndex": 6,
+      "text": "The Hebrew word מַיִם [mayim] means 'water'. It has three letters: Mem (מ), Yud (י), and Mem Sofit (ם). Patah under the first Mem represents [a], giving [ma]. Yud represents [y], like the y in 'yes', and the hirik beneath it represents [i], like the vowel in English 'see'; no special vowel length is required. Final Mem adds [m]. Read the word in two syllables, [ma-yim], with the stress on the first syllable; the final [m] is not a separate syllable.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "mem-block-8",
+      "sourceIndex": 7,
+      "text": "what",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "מַה",
+      "transcription": "ma"
+    },
+    {
+      "id": "mem-block-9",
+      "sourceIndex": 8,
+      "text": "The Hebrew word מַה [ma] means 'what'. It consists of Mem (מ) and Hey (ה). Patah under Mem represents [a], giving [ma]. Hey at the end of the word has no separate [h] sound here. Read the whole word as one syllable: [ma].",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "mem-block-10",
+      "sourceIndex": 9,
+      "text": "why",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "לַמָּה",
+      "transcription": "lama"
+    },
+    {
+      "id": "mem-block-11",
+      "sourceIndex": 10,
+      "text": "The Hebrew word לַמָּה [lama] means 'why'. It consists of Lamed (ל), Mem (מ), and Hey (ה). Patah under Lamed represents [a], giving [la]. Kamatz under Mem also represents [a] here, giving [ma]. The dagesh in Mem does not require a doubled [m] in this modern reading, and Hey at the end of the word has no separate [h] sound here. Read [la-ma] in two syllables, with the stress on the first.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "mem-block-12",
+      "sourceIndex": 11,
+      "text": "bread",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "לֶחֶם",
+      "transcription": "lekhem"
+    },
+    {
+      "id": "mem-block-13",
+      "sourceIndex": 12,
+      "text": "The Hebrew word לֶחֶם [lekhem] means 'bread'. It has three letters: Lamed (ל), Chet (ח), and Mem Sofit (ם). Each Segol represents [e]. Lamed gives [l], and Chet, written [ch] in the Chet lesson, gives the sound written kh here, similar to the ch in German 'Bach' or Scottish 'loch'. In the common modern pronunciation taught here, kh represents one consonant, not [k] followed by [h]. Final Mem adds [m]. Read the word in two syllables, [le-khem], with the stress on the first; the final [m] is not a separate syllable.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "mem-block-14",
+      "sourceIndex": 13,
+      "text": "Conclusions",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "mem-block-15",
+      "sourceIndex": 14,
+      "text": "Today, you’ve learned another letter of the Hebrew alphabet: the elegant letter Mem (מ). As always, you’ve expanded your vocabulary with new examples. Remember, this letter also has a final form—Mem Sofit (ם). For the exercises, also review אָבַד [a-vad], 'he/it was lost', with the stress on the second syllable. To reinforce your understanding, let’s dive into some exercises!",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "mem-exercise-1",
+      "sourceId": "1742227089034",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "What is the sound of the Hebrew letter Mem?",
+      "explanation": "Mem (מ) is pronounced as [m], like in 'mother'.",
+      "options": [
+        {
+          "id": "mem-exercise-1-option-1",
+          "label": "[p]"
+        },
+        {
+          "id": "mem-exercise-1-option-2",
+          "label": "[m]"
+        },
+        {
+          "id": "mem-exercise-1-option-3",
+          "label": "[t]"
+        }
+      ],
+      "correctOptionId": "mem-exercise-1-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "mem-exercise-2",
+      "sourceId": "1742227089035",
+      "type": "TRUE_FALSE",
+      "prompt": "In ordinary modern Hebrew writing, Mem Sofit (ם) is used only at the end of a word.",
+      "explanation": "In ordinary modern Hebrew writing, מ is used at the beginning or in the middle of a word, and its final form ם is used at the end.",
+      "options": [
+        {
+          "id": "mem-exercise-2-option-1",
+          "label": "True"
+        },
+        {
+          "id": "mem-exercise-2-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "mem-exercise-2-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "mem-exercise-3",
+      "sourceId": "1742227089036",
+      "type": "MATCH_PAIRS",
+      "prompt": "Match the Hebrew letters to their corresponding sounds.",
+      "explanation": "Bet with a dagesh (בּ) gives [b], Mem (מ) gives [m], and Nun (נ) gives [n].",
+      "pairs": [
+        {
+          "id": "mem-exercise-3-pair-1",
+          "left": "מ",
+          "right": "[m]"
+        },
+        {
+          "id": "mem-exercise-3-pair-2",
+          "left": "נ",
+          "right": "[n]"
+        },
+        {
+          "id": "mem-exercise-3-pair-3",
+          "left": "בּ",
+          "right": "[b]"
+        }
+      ],
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    },
+    {
+      "id": "mem-exercise-4",
+      "sourceId": "1742227089037",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "How is the word 'מַיִם' pronounced?",
+      "explanation": "מַיִם is read [ma-yim], with the stress on the first syllable, and means 'water'. Here, y sounds like the y in 'yes', and i represents the vowel in 'see'.",
+      "options": [
+        {
+          "id": "mem-exercise-4-option-1",
+          "label": "[ma-yim]"
+        },
+        {
+          "id": "mem-exercise-4-option-2",
+          "label": "[mo-yim]"
+        },
+        {
+          "id": "mem-exercise-4-option-3",
+          "label": "[mi-ya]"
+        },
+        {
+          "id": "mem-exercise-4-option-4",
+          "label": "[ma-ma]"
+        }
+      ],
+      "correctOptionId": "mem-exercise-4-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "mem-exercise-5",
+      "sourceId": "1742227089038",
+      "type": "TRUE_FALSE",
+      "prompt": "Mem Sofit (ם) has a different sound from Mem (מ).",
+      "explanation": "Mem Sofit (ם) changes shape, but it keeps the same [m] sound as Mem (מ).",
+      "options": [
+        {
+          "id": "mem-exercise-5-option-1",
+          "label": "True"
+        },
+        {
+          "id": "mem-exercise-5-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "mem-exercise-5-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "mem-exercise-6",
+      "sourceId": "1742227089039",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "How is the word 'לַמָּה' pronounced?",
+      "explanation": "לַמָּה is read [la-ma], with the stress on the first syllable, and means 'why'. Hey at the end of the word has no separate [h] sound here.",
+      "options": [
+        {
+          "id": "mem-exercise-6-option-1",
+          "label": "[la-da]"
+        },
+        {
+          "id": "mem-exercise-6-option-2",
+          "label": "[la-ha]"
+        },
+        {
+          "id": "mem-exercise-6-option-3",
+          "label": "[la-ma]"
+        }
+      ],
+      "correctOptionId": "mem-exercise-6-option-3",
+      "reviewFlags": []
+    },
+    {
+      "id": "mem-exercise-7",
+      "sourceId": "1742227089040",
+      "type": "MATCH_PAIRS",
+      "prompt": "Match the Hebrew words with their meanings.",
+      "explanation": "לֶחֶם means 'bread', מַיִם means 'water', and לַמָּה means 'why'.",
+      "pairs": [
+        {
+          "id": "mem-exercise-7-pair-1",
+          "left": "לֶחֶם",
+          "right": "bread"
+        },
+        {
+          "id": "mem-exercise-7-pair-2",
+          "left": "מַיִם",
+          "right": "water"
+        },
+        {
+          "id": "mem-exercise-7-pair-3",
+          "left": "לַמָּה",
+          "right": "why"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "mem-exercise-8",
+      "sourceId": "1742227089041",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "How do you translate the word 'לֶחֶם' into English?",
+      "explanation": "לֶחֶם means 'bread' in English.",
+      "options": [
+        {
+          "id": "mem-exercise-8-option-1",
+          "label": "bread"
+        },
+        {
+          "id": "mem-exercise-8-option-2",
+          "label": "wind"
+        },
+        {
+          "id": "mem-exercise-8-option-3",
+          "label": "fire"
+        },
+        {
+          "id": "mem-exercise-8-option-4",
+          "label": "stone"
+        }
+      ],
+      "correctOptionId": "mem-exercise-8-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "mem-exercise-9",
+      "sourceId": "1742227089042",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "What is the translation of the word 'מַה' into English?",
+      "explanation": "מַה means 'what' in Hebrew.",
+      "options": [
+        {
+          "id": "mem-exercise-9-option-1",
+          "label": "what"
+        },
+        {
+          "id": "mem-exercise-9-option-2",
+          "label": "when"
+        },
+        {
+          "id": "mem-exercise-9-option-3",
+          "label": "why"
+        }
+      ],
+      "correctOptionId": "mem-exercise-9-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "mem-exercise-10",
+      "sourceId": "1742227089043",
+      "type": "MATCH_PAIRS",
+      "prompt": "Match the Hebrew words with their transcriptions.",
+      "explanation": "Read לֶחֶם [le-khem], מַיִם [ma-yim], and לַמָּה [la-ma] with the stress on the first syllable. kh is one sound, like the ch in German 'Bach'; y sounds like the y in 'yes'.",
+      "pairs": [
+        {
+          "id": "mem-exercise-10-pair-1",
+          "left": "לֶחֶם",
+          "right": "lekhem"
+        },
+        {
+          "id": "mem-exercise-10-pair-2",
+          "left": "מַיִם",
+          "right": "mayim"
+        },
+        {
+          "id": "mem-exercise-10-pair-3",
+          "left": "לַמָּה",
+          "right": "lama"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "mem-exercise-11",
+      "sourceId": "1742227089044",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "How do you pronounce the word 'אָבַד'?",
+      "explanation": "אָבַד is read [a-vad], with the stress on the second syllable. It is a past-tense verb form meaning 'he/it was lost'. The final [d] ends the second syllable.",
+      "options": [
+        {
+          "id": "mem-exercise-11-option-1",
+          "label": "[a-vad]"
+        },
+        {
+          "id": "mem-exercise-11-option-2",
+          "label": "[o-vad]"
+        },
+        {
+          "id": "mem-exercise-11-option-3",
+          "label": "[u-val]"
+        },
+        {
+          "id": "mem-exercise-11-option-4",
+          "label": "[e-vad]"
+        }
+      ],
+      "correctOptionId": "mem-exercise-11-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "mem-exercise-12",
+      "sourceId": "1742227089045",
+      "type": "TRUE_FALSE",
+      "prompt": "When Mem (מַ) has a Patah, it is pronounced as [ma].",
+      "explanation": "Patah under Mem represents [a]; together, מַ is read [ma]. No special vowel length is required.",
+      "options": [
+        {
+          "id": "mem-exercise-12-option-1",
+          "label": "True"
+        },
+        {
+          "id": "mem-exercise-12-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "mem-exercise-12-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "mem-exercise-13",
+      "sourceId": "1742227089046",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "What is the English translation of (מַיִם)?",
+      "explanation": "מַיִם translates to 'water' in English.",
+      "options": [
+        {
+          "id": "mem-exercise-13-option-1",
+          "label": "water"
+        },
+        {
+          "id": "mem-exercise-13-option-2",
+          "label": "river"
+        },
+        {
+          "id": "mem-exercise-13-option-3",
+          "label": "milk"
+        },
+        {
+          "id": "mem-exercise-13-option-4",
+          "label": "oil"
+        }
+      ],
+      "correctOptionId": "mem-exercise-13-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "mem-exercise-14",
+      "sourceId": "1742227089047",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "What does the Patah under Mem (מַ) contribute to pronunciation?",
+      "explanation": "Patah represents the vowel [a]. With Mem, מַ is read [ma]; the question asks only about the vowel.",
+      "options": [
+        {
+          "id": "mem-exercise-14-option-1",
+          "label": "[e]"
+        },
+        {
+          "id": "mem-exercise-14-option-2",
+          "label": "[i]"
+        },
+        {
+          "id": "mem-exercise-14-option-3",
+          "label": "[a]"
+        }
+      ],
+      "correctOptionId": "mem-exercise-14-option-3",
+      "reviewFlags": []
+    },
+    {
+      "id": "mem-exercise-15",
+      "sourceId": "1742227089048",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "How do you translate the word 'לַמָּה'?",
+      "explanation": "לַמָּה means 'why' in Hebrew.",
+      "options": [
+        {
+          "id": "mem-exercise-15-option-1",
+          "label": "why"
+        },
+        {
+          "id": "mem-exercise-15-option-2",
+          "label": "who"
+        },
+        {
+          "id": "mem-exercise-15-option-3",
+          "label": "what"
+        },
+        {
+          "id": "mem-exercise-15-option-4",
+          "label": "where"
+        }
+      ],
+      "correctOptionId": "mem-exercise-15-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "mem-exercise-16",
+      "sourceId": "1742227089049",
+      "type": "MATCH_PAIRS",
+      "prompt": "Match each Hebrew letter with its pronunciation when combined with Patah.",
+      "explanation": "Patah represents [a]. Read זַ [za], יַ [ya], and מַ [ma]. Here, y sounds like the y in English 'yes'; no special vowel length is required.",
+      "pairs": [
+        {
+          "id": "mem-exercise-16-pair-1",
+          "left": "זַ",
+          "right": "[za]"
+        },
+        {
+          "id": "mem-exercise-16-pair-2",
+          "left": "יַ",
+          "right": "[ya]"
+        },
+        {
+          "id": "mem-exercise-16-pair-3",
+          "left": "מַ",
+          "right": "[ma]"
+        }
+      ],
+      "reviewFlags": []
+    }
+  ]
+}

@@ -87,6 +87,15 @@ test('invalid, unknown, duplicate and unmapped data fails closed', () => {
   const duplicate = copy(raw); duplicate.exercises[7].additionalData.choices[1] = 'פַּ';
   assert.throws(() => normalizeLesson(duplicate, alephIdentity, alephOverrides), /Equivalent normalized choices/);
 });
+test('an empty TEXT_IMAGE body parses but fails closed until an override supplies its text', () => {
+  const index = raw.studyMaterials.findIndex(block => block.type === 'TEXT_IMAGE');
+  const input = copy(raw); input.studyMaterials[index].content = '';
+  assert.doesNotThrow(() => rawLessonSchema.parse(input));
+  assert.throws(() => normalizeLesson(input, alephIdentity, alephOverrides));
+  const overrides = copy(alephOverrides);
+  overrides.contentOverrides = { ...overrides.contentOverrides, blocks: { ...overrides.contentOverrides?.blocks, [index]: 'Override text' } };
+  assert.equal(normalizeLesson(input, alephIdentity, overrides).blocks.find(block => block.sourceIndex === index).text, 'Override text');
+});
 test('normalized model contains no raw image URL, source scoring or raw answer field', () => {
   const serialized = JSON.stringify(lesson);
   for (const key of ['imageUrl', 'additionalData', 'correctAnswer', 'backblazeb2.com', 'score']) assert.equal(serialized.includes(key), false);

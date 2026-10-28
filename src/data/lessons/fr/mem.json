@@ -1,0 +1,118 @@
+{
+  "slug": "mem",
+  "title": "Mem (מ) : lettre hébraïque, son et exemples",
+  "description": "Apprends la lettre hébraïque Mem (מ) : son son [m], sa forme finale Mem Sofit (ם) et des mots comme מַיִם (eau) ou לֶחֶם (pain), avec des exercices.",
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Affinage optionnel des exercices",
+      "detail": "L'exercice d'association lettre-son associe נ à [n] ; le Noun n'est introduit qu'à la leçon 14. Le guidage pour débutants pourra être amélioré séparément de la synchronisation avec la source approuvée."
+    },
+    {
+      "id": "fr-transliteration-ou",
+      "summary": "« u » remplacé par « ou » pour le son [u]",
+      "detail": "La source brute FR propose « [u-val] » parmi les choix de la question 11, contraire à la règle de transcription FR (docs/hebrew-alphabet-editorial-rules.fr.md : « ou » pour [u]). Corrigé via contentOverrides.choices."
+    }
+  ],
+  "illustrations": {
+    "2": {
+      "glyph": "ם",
+      "label": "Mem Sofit",
+      "equivalent": "Mem final : un Mem fermé en bas, de forme carrée, employé en fin de mot."
+    }
+  },
+  "blockFlags": {},
+  "exerciseFlags": {
+    "3": [
+      "unintroduced-letters"
+    ]
+  },
+  "contentOverrides": {
+    "blocks": {
+      "0": "Mem (מ) : lettre hébraïque, son et exemples",
+      "1": "Mem (מ) est la treizième lettre de l'alphabet hébreu. C'est une consonne qui se prononce [m]. Mem fait partie des cinq lettres hébraïques qui ont une forme finale : le Mem Sofit (ם).",
+      "2": "Mem Sofit (ם) est la forme finale de Mem (מ). Dans l'écriture courante de l'hébreu moderne, on utilise מ au début ou à l'intérieur d'un mot, et ם à la fin. La forme change, mais le son reste [m].",
+      "6": "Le mot מַיִם [mayim] signifie « eau ». Il est composé de trois lettres : Mem (מ), Yod (י) et Mem Sofit (ם). Le Patah sous le premier Mem représente [a], ce qui donne [ma]. Le Yod représente [y], comme le y de « yoga », et le Hiriq placé dessous représente [i], comme le i de « lit », sans imposer une durée particulière. Le Mem final ajoute [m]. Lis le mot en deux syllabes, [ma-yim], en accentuant la première. Le [m] en fin de mot ne constitue pas une syllabe à lui seul.",
+      "8": "Le mot מַה [ma] signifie « quoi » ou « que ». Il est composé de deux lettres : Mem (מ) et Hé (ה). Le Patah sous Mem représente [a], ce qui donne [ma]. Dans ce mot, le Hé, à la fin, n'a pas de son [h] distinct. Le mot entier se prononce en une seule syllabe : [ma].",
+      "10": "Le mot לַמָּה [lama] signifie « pourquoi ». Il est composé de trois lettres : Lamed (ל), Mem (מ) et Hé (ה). Le Patah sous Lamed représente [a], ce qui donne [la]. Le Kamats sous Mem représente lui aussi [a] ici, ce qui donne [ma]. Dans la prononciation moderne enseignée ici, le Dagesh de Mem n'impose pas de doubler le son [m]. Le Hé, à la fin du mot, n'a pas de son [h] distinct ici. Lis [la-ma] en deux syllabes, en accentuant la première.",
+      "12": "Le mot לֶחֶם [lekhem] signifie « pain ». Il est composé de trois lettres : Lamed (ל), Het (ח) et Mem Sofit (ם). Chaque Ségol représente [e], comme le è de « père ». Lamed donne [l]. Dans la prononciation moderne courante enseignée ici, Het donne le son noté kh, proche du ch allemand dans « Bach ». kh représente un seul son, et non [k] suivi de [h] ; il ne se lit pas comme le ch français de « chat ». Le Mem final ajoute [m]. Lis [le-khem] en deux syllabes, en accentuant la première. Le [m] en fin de mot ne constitue pas une syllabe à lui seul.",
+      "14": "Tu viens d'apprendre la lettre Mem (מ). Tu as aussi enrichi ton vocabulaire avec de nouveaux mots. N'oublie pas : Mem a une forme finale, le Mem Sofit (ם). Pour les exercices, revois aussi אָבַד [a-vad], « il s'est perdu » : c'est une forme verbale au passé, avec l'accent sur la deuxième syllabe. Place maintenant à la pratique !"
+    },
+    "choices": {
+      "10": [
+        "[a-vad]",
+        "[o-vad]",
+        "[ou-val]",
+        "[e-vad]"
+      ]
+    },
+    "exercises": {
+      "4": {
+        "content": "Le Mem Sofit (ם) n'a pas le même son que le Mem (מ).",
+        "tip": "Le Mem Sofit (ם) change de forme, mais garde le même son [m] que le Mem (מ).",
+        "correctAnswer": "false"
+      },
+      "5": {
+        "tip": "לַמָּה se lit [la-ma], en accentuant la première syllabe, et signifie « pourquoi ». Le Hé, à la fin du mot, n'a pas de son [h] distinct ici."
+      },
+      "6": {
+        "tip": "לֶחֶם signifie « pain », מַיִם « eau » et לַמָּה « pourquoi »."
+      },
+      "10": {
+        "tip": "אָבַד se lit [a-vad], en accentuant la deuxième syllabe. C'est une forme verbale au passé qui signifie « il s'est perdu ». Le [d] en fin de mot termine la deuxième syllabe."
+      }
+    }
+  },
+  "stageMap": {
+    "theory": [
+      0,
+      1,
+      2
+    ],
+    "examples": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  "copy": {
+    "theory": {
+      "heading": "Découvre Mem",
+      "intro": "La treizième lettre de l'alphabet hébreu. Mem se prononce [m], comme dans « maman ». C'est l'une des cinq lettres qui ont une forme finale : en fin de mot, Mem s'écrit Mem Sofit (<bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ם</bdi>), une forme fermée qui garde le même son [m].",
+      "objectivesHeading": "Ce que tu vas apprendre",
+      "objectives": [
+        "Reconnaître Mem : <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">מ</bdi>, et sa forme finale, <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ם</bdi>.",
+        "Entendre son son [m], comme dans « maman ».",
+        "Lire Mem dans de vrais mots comme <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">מַיִם</bdi> (eau) et <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">לֶחֶם</bdi> (pain)."
+      ],
+      "secondSectionHeading": "Comment se prononce Mem",
+      "thirdSectionHeading": "La forme finale de Mem"
+    },
+    "examples": {
+      "heading": "Mem dans de vrais mots",
+      "intro": "Lis à voix haute quatre mots avec Mem et Mem Sofit. Les transcriptions latines sont des aides à la lecture, pas l'alphabet phonétique international (API) ; les traits d'union séparent les syllabes."
+    }
+  },
+  "holdOuts": {
+    "blocks": [
+      {
+        "sourceIndex": 3,
+        "reason": "Type de bloc d'étude STRIPED_BLOCK non pris en charge (Mem Sofit, forme finale de Mem, même son [m] ; conventions de transcription) — reconnu par le contrat source, mais StudyBlock.astro n'a pas de rendu pour STRIPED_BLOCK. Ses phrases sur le Mem Sofit remplissent le texte vide du TEXT_IMAGE du bloc 2 (contentOverrides.blocks[\"2\"]) ; la remarque « aides à la lecture, pas l'API » est reprise dans copy.examples.intro, et les repères y/i/e figurent déjà dans les blocs 6 et 12 ; le repère u/ou devient sans objet après la correction « [ou-val] »."
+      }
+    ],
+    "exercises": []
+  },
+  "source": {
+    "rawSnapshotPath": ".local/alphabet-course-imports/v1/2026-10-19T14-27-18-905Z-bdf614-fr/raw/lesson-13.raw.json",
+    "sha256": "61ee1dd2e38d444f9257a25212fa7176ac5ed03cbfdbc169c74a66652b565f00",
+    "responseDate": "2026-10-19T14:27:24.147Z"
+  }
+}

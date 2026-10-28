@@ -28,6 +28,20 @@ baked into the pairs themselves rather than the prompt/tip, there is no
 in-place fix: hold the exercise out instead of republishing the claim (see
 Gimel's Q12).
 
+A length disclaimer must rule out both sides: "without requiring a long
+vowel" reads as a hint that the vowel is short. Say "no special vowel
+length is required" instead (owner decision, Mem review 2026-10-28;
+mirrors the FR Lamed rule).
+
+## Empty image body
+
+A `TEXT_IMAGE` whose raw body is empty and carries only a caption (Mem
+Sofit, Nun Sofit) parses, but its normalized block fails closed until the
+data file supplies its text (`contentOverrides.blocks`) or holds it out.
+Fill it with the source's own sentences about that image, e.g. a held-out
+`STRIPED_BLOCK`'s text, rather than new wording (owner decision, Mem review
+2026-10-28).
+
 ## No absolute "always/never" pronunciation rules without the known exception
 
 Don't state a pronunciation rule as universal ("always," "never") if a
