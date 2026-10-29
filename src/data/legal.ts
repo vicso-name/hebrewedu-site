@@ -1,7 +1,7 @@
 // Real "Last updated" dates of the legal documents (ISO, UTC). Shown on the
 // pages themselves and used as their sitemap lastmod, so the two cannot drift.
 export const legalUpdated = {
-  privacy: '2026-09-30',
+  privacy: '2026-10-29',
   terms:   '2026-09-25',
 };
 
