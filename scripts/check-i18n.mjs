@@ -45,6 +45,7 @@ const SKIP_EXACT = new Set([
   '/play/hebrew-word-builder/game/',
   '/play/hebrew-crossword/game/',
   '/play/hebrew-numbers-quest/game/',
+  '/play/hebrew-falafel-stand/game/',
   '/404',
 ]);
 
