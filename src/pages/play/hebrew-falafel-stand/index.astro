@@ -1,0 +1,172 @@
+---
+import Faq from '../../../components/Faq.astro';
+import Layout from '../../../layouts/Layout.astro';
+import Nav from '../../../components/Nav.astro';
+import Footer from '../../../components/Footer.astro';
+import Section from '../../../components/ui/Section.astro';
+import FeatureGrid, { type FeatureItem } from '../../../components/ui/FeatureGrid.astro';
+import LearningMosaic, { type LearningItem } from '../../../components/play/LearningMosaic.astro';
+import CtaPanel from '../../../components/ui/CtaPanel.astro';
+import StoreButtons from '../../../components/ui/StoreButtons.astro';
+import KeyArt from '../../../components/play/KeyArt.astro';
+import ShareButtons from '../../../components/ui/ShareButtons.astro';
+import keyArt from '../../../assets/play/hebrew-falafel-stand-key-art.jpg';
+import '../../../styles/home.css';
+import '../../../styles/play.css';
+
+const howItWorks = [
+  { icon: 'target', title: 'Listen to the order', description: 'A customer walks up and orders out loud in Hebrew. Replay it as often as you like, or open the words if you get stuck.' },
+  { icon: 'book', title: 'Build it on the plate', description: 'Choose the bread, then tap the fillings, chips and drinks. Tile labels fade as you learn each word, so your ear does more of the work.' },
+  { icon: 'repeat', title: 'Ring the bell', description: 'A right order makes a happy customer. A wrong one gets a spoken correction, the wrong item is marked, and you fix the plate and serve again.' },
+] satisfies FeatureItem[];
+
+const whyItWorks = [
+  {
+    title: 'The Order Arrives by Ear',
+    description: ['Each order is heard first, so you cannot solve it by reading. You answer with an action, by building what you understood, and there is no list of options to guess from.'],
+  },
+  {
+    title: 'Small Words Change the Order',
+    description: ['With or without, small or large, one portion or three: a single word changes the plate. That trains you to catch the short words that are easy to miss in real speech.'],
+  },
+  {
+    title: 'Mistakes Come Back',
+    description: ['Items you miss return in later orders of the same day, and a right answer counts most when you get it on the first serve without opening the words.'],
+  },
+  {
+    title: 'Eight Customers, Many Voices',
+    description: ['Women and men, young and old, each with a voice of their own. You learn to follow the same words from different speakers, not one voice you have memorised.'],
+  },
+] satisfies [LearningItem, LearningItem, LearningItem, LearningItem];
+
+const url = 'https://hebrewedu.com/play/hebrew-falafel-stand/';
+const playUrl = 'https://hebrewedu.com/play/';
+
+const faqItems = [
+  { q: 'Is Hebrew Falafel Stand free?', a: 'Yes. It runs in your browser with no account, download or payment.' },
+  { q: 'What Hebrew does it teach?', a: 'Short spoken food orders: fillings, drinks and sides, with and without, also, portions, sizes, and polite phrases such as <span lang="he" dir="rtl">אֶפְשָׁר</span> and <span lang="he" dir="rtl">בְּבַקָּשָׁה</span>. Each new word has a card with niqqud, English and audio.' },
+  { q: 'Do I need to read Hebrew?', a: 'No. Orders are spoken, and tiles have pictures, with labels while a word is new. To learn the letters themselves, try <a href="/play/alef-bet-rush/">Alef Bet Rush</a>.' },
+  { q: 'Can I lose?', a: 'No. There are no lives and no timer, and a wrong order simply gets a correction so you can serve it again. Stars show how well a day went.' },
+  { q: 'Does it work on a phone?', a: 'Yes. Hold your phone upright and tap the tiles. On a computer, click them. Turn your sound on, because the orders are spoken.' },
+  { q: 'Is the audio recorded by a native speaker?', a: 'No. The customers are synthesized Hebrew voices, each matched to the gender of the character.' },
+];
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    { '@type': 'WebPage', '@id': url, url, name: 'Hebrew Falafel Stand: A Free Hebrew Listening Game' },
+    {
+      '@type': ['VideoGame', 'WebApplication'],
+      name: 'Hebrew Falafel Stand',
+      url,
+      applicationCategory: 'EducationalApplication',
+      operatingSystem: 'Web',
+      isAccessibleForFree: true,
+      educationalLevel: 'Beginner',
+      inLanguage: 'en',
+      offers: { '@type': 'Offer', price: 0, priceCurrency: 'USD' },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: ['Home', 'Play', 'Hebrew Falafel Stand'].map((name, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name,
+        item: ['https://hebrewedu.com/', playUrl, url][i],
+      })),
+    },
+  ],
+};
+---
+<Layout title="Hebrew Listening Game: Run a Free Falafel Stand" description="Run a falafel stand and learn spoken Hebrew: listen to each order, build it and ring the bell. A free listening game with Hebrew audio, no sign-up." schema={schema} image="/images/play/hebrew-falafel-stand-og.jpg">
+  <link slot="head" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" />
+  <div class="home-page play-page">
+    <Nav />
+    <main>
+      <section class="play-hero">
+        <div class="container">
+          <nav class="play-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/play/">Play</a> / Hebrew Falafel Stand</nav>
+          <div class="play-hero-grid">
+            <div class="play-copy">
+              <p class="home-eyebrow">Hebrew listening game</p>
+              <h1 class="home-h1">Hebrew Falafel Stand: A Free Hebrew Listening Game</h1>
+              <p class="home-lead">Customers order out loud in Hebrew at your falafel stand. Listen, build the order and ring the bell, from the market to the beach. Ten stops and 82 spoken orders from eight customers.</p>
+              <a class="btn btn-primary play-launch" href="/play/hebrew-falafel-stand/game/">Play Free Now</a>
+              <p class="play-hero-note">No download, no account. Plays on a phone or a computer, with sound on.</p>
+              <ShareButtons url="https://hebrewedu.com/play/hebrew-falafel-stand/" text="Hebrew Falafel Stand: a free Hebrew listening game" item="hebrew-falafel-stand" location="hebrew_falafel_stand_hero" />
+            </div>
+            <div class="play-hero-art"><KeyArt src={keyArt} alt="Hebrew Falafel Stand: a cheerful falafel in a chef's hat at a market counter with a pita, hummus, fries, lemonade and a service bell" loading="eager" sizes="(max-width: 900px) min(640px, 90vw), 46vw" /></div>
+          </div>
+        </div>
+      </section>
+
+      <Section surface="soft">
+        <div class="play-section">
+          <h2 class="home-h2">A Hebrew Listening Game You Play With Your Ears</h2>
+          <p>Hebrew Falafel Stand is a free Hebrew listening game you play online. You run a small stand, customers order in Hebrew, and you make what you heard. A day takes two or three minutes, so you can play one between other things.</p>
+          <p>Every new word gets a card with niqqud, English and audio before you hear it in an order. Earn up to three stars for each stop on the map.</p>
+        </div>
+        <h3 class="play-subsection-title">How Hebrew Falafel Stand Works</h3>
+        <FeatureGrid items={howItWorks} headingLevel="h4" />
+      </Section>
+
+      <Section>
+        <h2 class="home-h2 play-why-heading">Why It Works</h2>
+        <LearningMosaic items={whyItWorks} />
+      </Section>
+
+      <Section surface="soft">
+        <div class="play-section">
+          <h2 class="home-h2">What You'll Learn</h2>
+          <p>The Market teaches the stand itself: pita and laffa, falafel, hummus and fried eggplant, tahini, salad, pickles and amba, plus <span lang="he" dir="rtl">עִם</span> (with) and <span lang="he" dir="rtl">בְּלִי</span> (without). The Beach adds water, lemonade and chips, portions, small and large, and polite phrases. Each world has four days and a Rush Hour that brings it all together.</p>
+          <p><strong>The game trains understanding, not speaking.</strong> The words are the 27 on its word cards, in short orders. For reading, grammar and wider vocabulary, continue in the HebrewEdu app.</p>
+        </div>
+      </Section>
+
+      <Section>
+        <div class="play-section">
+          <h2 class="home-h2">Who It's For</h2>
+          <p>Hebrew Falafel Stand is for adult and teen beginners who can follow Hebrew on the page but struggle to catch it by ear, and for children playing with a parent. You don't need to read Hebrew to start. For a wider plan, see our guide to <a href="/blog/best-hebrew-listening-practice/">Hebrew listening practice</a>, and for numbers try <a href="/play/hebrew-numbers-quest/">Hebrew Numbers Quest</a>.</p>
+        </div>
+      </Section>
+
+      <Faq title="Frequently Asked Questions" items={faqItems} />
+
+      <CtaPanel compact>
+        <h2 class="home-h2">Continue Learning Hebrew</h2>
+        <p class="home-lead">After the stand, continue with reading, vocabulary and grammar in the HebrewEdu app.</p>
+        <StoreButtons location="hebrew_falafel_stand_continue" />
+      </CtaPanel>
+    </main>
+    <Footer />
+  </div>
+</Layout>
+
+<style>
+  .play-subsection-title {
+    margin-top: var(--space-lg);
+    margin-bottom: var(--space-md);
+    font-family: var(--font-display);
+    font-size: clamp(1.75rem, 2.2vw, 2rem);
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: var(--home-text-primary);
+  }
+
+  .play-why-heading {
+    margin-bottom: var(--space-md);
+  }
+
+  .play-launch {
+    min-height: 56px;
+    padding-inline: var(--space-md);
+    justify-content: center;
+  }
+
+  .play-hero-note {
+    margin-top: var(--space-xs-plus);
+    font-size: 0.9375rem;
+    color: var(--home-text-tertiary);
+  }
+</style>
