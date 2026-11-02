@@ -85,6 +85,14 @@ already drops all raw media fields, but a `WORD_EXAMPLE` block whose
 only point is to attach that audio should be held out rather than
 republished without it.
 
+## No audio instructions
+
+The web lesson has no audio (source audio is never carried through), so
+there is no play button. Drop a source instruction to press play or to
+compare your reading with a recording, and keep the rest of the block
+("Read each word aloud."). Hold the block out if the instruction is all it
+says (owner decision, Nun review 2026-11-02; Lamed precedent).
+
 ## "Final" means a final form, not word-final position
 
 Don't write "final <Letter>" for a letter that merely sits at the end of a

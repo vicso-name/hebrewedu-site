@@ -1,0 +1,109 @@
+{
+  "slug": "nun",
+  "title": "Noun (נ) : lettre hébraïque, son et exemples",
+  "description": "Apprends la lettre hébraïque Noun (נ) : son son [n], sa forme finale Noun Sofit (ן), des mots comme גַּן (jardin) ou נָא (s'il te plaît) et des exercices.",
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Affinage optionnel des exercices",
+      "detail": "L'exercice d'association lettre-son associe ת à [t] ; le Tav n'est introduit qu'à la leçon 22. Le guidage pour débutants pourra être amélioré séparément de la synchronisation avec la source approuvée."
+    }
+  ],
+  "illustrations": {
+    "2": {
+      "glyph": "ן",
+      "label": "Noun Sofit",
+      "equivalent": "Noun final : un Noun allongé en un long trait droit qui descend sous la ligne, employé en fin de mot."
+    }
+  },
+  "blockFlags": {},
+  "exerciseFlags": {
+    "3": [
+      "unintroduced-letters"
+    ]
+  },
+  "contentOverrides": {
+    "blocks": {
+      "0": "Noun (נ) : lettre hébraïque, son et exemples",
+      "2": "Noun Sofit (ן) est la forme finale de la lettre Noun (נ). Dans l'écriture hébraïque moderne courante, on utilise ן à la fin d'un mot et נ au début ou au milieu.",
+      "5": "Le Noun Sofit (ן) a une forme différente du Noun ordinaire (נ), mais les deux formes représentent le même son [n]. Seules cinq lettres hébraïques ont une forme finale particulière. Les transcriptions de cette leçon sont des aides à la lecture, pas des notations de l'alphabet phonétique international (API). Ici, a se lit comme dans « patte », e comme è dans « père » et i comme dans « lit ». Le Patah et le Kamats Gadol se prononcent tous les deux [a] dans l'hébreu moderne enseigné ici : il n'est pas nécessaire d'allonger l'un par rapport à l'autre.",
+      "12": "Le mot hébreu « נָאֶה » [na-e] signifie « beau ». Il s'agit ici du masculin singulier. Il est composé de trois lettres : Noun (נ), Alef (א) et Hé (ה). Noun avec un Kamats Gadol donne [na]. Le Ségol sous Alef donne une deuxième syllabe [e], avec le son è de « père ». Dans ce mot, le Hé, à la fin, ne produit pas de son [h] distinct. Prononce [na-e] en deux syllabes, avec l'accent tonique sur la seconde, e. Dans la transcription na'e, l'apostrophe sépare les deux voyelles.",
+      "14": "Lis chaque mot à voix haute. אָמֵן se lit [a-men], avec l'accent tonique sur men ; מַיִם se lit [ma-yim], avec l'accent sur ma ; נַחַל se lit [na-khal], avec l'accent sur na ; דָּג se lit [dag], en une seule syllabe ; לַיְלָה se lit [lay-la], avec l'accent sur lay. Ici, y se lit comme dans « yoga ». Dans la prononciation moderne courante enseignée ici, kh représente un seul son, proche du ch allemand dans « Bach », et non du ch français dans « chat ». Dans gan et amen, prononce le n en fin de mot : les suites an et en ne se lisent pas comme des voyelles nasales françaises.",
+      "20": "En résumé"
+    },
+    "exercises": {
+      "1": {
+        "tip": "Dans l'écriture hébraïque moderne courante, le Noun Sofit (ן), forme finale du Noun (נ), n'apparaît qu'en fin de mot."
+      },
+      "3": {
+        "tip": "גַּן se prononce [gan], en une syllabe, avec un a oral et un n audible en fin de mot. Il signifie « jardin »."
+      },
+      "4": {
+        "content": "Le Noun Sofit (ן) se prononce différemment du Noun ordinaire (נ).",
+        "tip": "Le Noun Sofit (ן) et le Noun (נ) se prononcent tous les deux [n]."
+      },
+      "11": {
+        "tip": "אָמֵן se lit [a-men], avec l'accent sur la seconde syllabe, men. Le e se lit comme è et le n en fin de mot se prononce. Le mot signifie « amen »."
+      }
+    }
+  },
+  "stageMap": {
+    "theory": [
+      0,
+      1,
+      2
+    ],
+    "examples": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  "copy": {
+    "theory": {
+      "heading": "Découvre Noun",
+      "intro": "La quatorzième lettre de l'alphabet hébreu. Noun se prononce [n], comme dans « nuit ». C'est l'une des cinq lettres qui ont une forme finale : en fin de mot, Noun s'écrit Noun Sofit (<bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ן</bdi>), un long trait droit qui descend sous la ligne et garde le même son [n].",
+      "objectivesHeading": "Ce que tu vas apprendre",
+      "objectives": [
+        "Reconnaître Noun : <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">נ</bdi>, et sa forme finale, <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ן</bdi>.",
+        "Entendre son son [n], comme dans « nuit ».",
+        "Lire Noun dans de vrais mots comme <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">גַּן</bdi> (jardin) et <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">נָא</bdi> (s'il te plaît)."
+      ],
+      "secondSectionHeading": "Comment se prononce Noun",
+      "thirdSectionHeading": "La forme finale de Noun"
+    },
+    "examples": {
+      "heading": "Noun dans de vrais mots",
+      "intro": "Revois l'essentiel sur le Noun Sofit, puis lis à voix haute trois nouveaux mots avec Noun et cinq mots d'entraînement à la lecture. Dans les transcriptions, les traits d'union séparent les syllabes."
+    }
+  },
+  "holdOuts": {
+    "blocks": [
+      {
+        "sourceIndex": 3,
+        "reason": "Texte déplacé, pas supprimé : ses deux phrases sur le Noun Sofit remplissent le texte vide du TEXT_IMAGE du bloc 2 (contentOverrides.blocks[\"2\"]), selon la règle « Empty image body » ; garder aussi le bloc 3 répéterait les mêmes phrases dans l'étape théorie."
+      }
+    ],
+    "exercises": []
+  },
+  "source": {
+    "rawSnapshotPath": ".local/alphabet-course-imports/v1/2026-10-19T14-27-18-905Z-bdf614-fr/raw/lesson-14.raw.json",
+    "sha256": "df077b1257214d13abeaa5fcb296193c0c1eca41fe3e93aa2ad68cbe37a0df60",
+    "responseDate": "2026-10-19T14:27:24.618Z"
+  }
+}

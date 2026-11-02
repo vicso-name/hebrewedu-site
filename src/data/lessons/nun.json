@@ -1,0 +1,97 @@
+{
+  "slug": "nun",
+  "title": "Nun Hebrew Letter (נ): Sound & Final Nun (Nun Sofit)",
+  "description": "Learn the Hebrew letter Nun (נ): its [n] sound, its final form Nun Sofit (ן), words like גַּן (garden) and נָא (please), plus interactive practice.",
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Optional practice refinement",
+      "detail": "The letter-sound matching exercise pairs ת with [t]; Tav is not introduced until lesson 22. Beginner scaffolding can be improved separately from the approved source synchronization."
+    }
+  ],
+  "illustrations": {
+    "2": {
+      "glyph": "ן",
+      "label": "Nun Sofit",
+      "equivalent": "Final Nun: Nun stretched into a long straight stroke that drops below the line, used at the end of a word."
+    }
+  },
+  "blockFlags": {},
+  "exerciseFlags": {
+    "3": [
+      "unintroduced-letters"
+    ]
+  },
+  "contentOverrides": {
+    "blocks": {
+      "0": "Nun Hebrew Letter (נ): Sound, Final Nun & Practice",
+      "2": "Nun Sofit (ן) is the final form of the Hebrew letter Nun (נ). In ordinary modern Hebrew writing, use ן at the end of a word and נ at the beginning or in the middle.",
+      "12": "The Hebrew word 'נָאֶה' [na-e] means 'handsome' or 'good-looking.' This is the masculine singular form. It consists of three letters: Nun (נ), Alef (א), and Hey (ה). Nun with Kamatz Gadol gives [na]. The Segol under Alef gives [e] as a separate second syllable; Hey at the end of the word has no separate [h] sound here. Say [na-e] with the stress on the second syllable, e. In the spelling na'e, the apostrophe separates the two vowels.",
+      "14": "Read each word aloud. אָמֵן is [a-men], with stress on men; מַיִם is [ma-yim], with stress on ma; נַחַל is [na-khal], with stress on na; דָּג is [dag], one syllable; and לַיְלָה is [lay-la], with stress on lay. Here y is like the 'y' in 'yes.' In the common modern pronunciation taught here, kh represents one sound, like the 'ch' in Scottish 'loch' or German 'Bach,' not the English 'ch' in 'chair.'"
+    },
+    "exercises": {
+      "1": {
+        "tip": "In ordinary modern Hebrew writing, Nun Sofit (ן), the final form of Nun (נ), appears only at the end of a word."
+      }
+    }
+  },
+  "stageMap": {
+    "theory": [
+      0,
+      1,
+      2
+    ],
+    "examples": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  "copy": {
+    "theory": {
+      "heading": "Meet Nun",
+      "intro": "The fourteenth letter of the <a href=\"/blog/hebrew-alphabet-complete-guide/\">Hebrew alphabet</a>. Nun makes a plain [n] sound, as in “never.” It is one of the five letters with a final form: at the end of a word, Nun is written as Nun Sofit (<bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ן</bdi>), a long straight stroke that drops below the line, with the same [n] sound.",
+      "objectivesHeading": "What you’ll learn",
+      "objectives": [
+        "Recognize Nun: <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">נ</bdi>, and its final form, <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ן</bdi>.",
+        "Hear its [n] sound, as in “never.”",
+        "Read Nun in real words like <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">גַּן</bdi> (garden) and <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">נָא</bdi> (please)."
+      ],
+      "secondSectionHeading": "How Nun sounds",
+      "thirdSectionHeading": "Nun’s final form"
+    },
+    "examples": {
+      "heading": "Nun in real words",
+      "intro": "Review the key takeaway about Nun Sofit, then read three new words with Nun and five reading-practice words aloud. Hyphens in the transcriptions separate syllables."
+    }
+  },
+  "holdOuts": {
+    "blocks": [
+      {
+        "sourceIndex": 3,
+        "reason": "Text moved, not dropped: its two Nun Sofit sentences fill block 2's empty TEXT_IMAGE text (contentOverrides.blocks[\"2\"]), per the \"Empty image body\" rule; keeping block 3 as well would print the same sentences twice in the theory step."
+      }
+    ],
+    "exercises": []
+  },
+  "source": {
+    "rawSnapshotPath": ".local/alphabet-course-imports/v1/2026-10-19T14-27-01-990Z-cc446f/raw/lesson-14.raw.json",
+    "sha256": "f4c8027b2bceefeb3e207083c0d49aa3bada0223ed4610f7181bbc563bf18581",
+    "responseDate": "2026-10-19T14:27:08.430Z"
+  }
+}
