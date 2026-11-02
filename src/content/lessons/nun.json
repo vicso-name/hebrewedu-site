@@ -1,0 +1,549 @@
+{
+  "id": "nun",
+  "sourceId": 14,
+  "order": 14,
+  "glyph": "נ",
+  "locale": "en",
+  "title": "Nun Hebrew Letter (נ): Sound & Final Nun (Nun Sofit)",
+  "description": "Learn the Hebrew letter Nun (נ): its [n] sound, its final form Nun Sofit (ן), words like גַּן (garden) and נָא (please), plus interactive practice.",
+  "status": "local-review-only",
+  "normalizationVersion": 1,
+  "provenance": {
+    "source": "https://api.hebrewedu.com/api/lessons/14/?lang=en",
+    "responseDate": "2026-10-19T14:27:08.430Z",
+    "sha256": "f4c8027b2bceefeb3e207083c0d49aa3bada0223ed4610f7181bbc563bf18581"
+  },
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Optional practice refinement",
+      "detail": "The letter-sound matching exercise pairs ת with [t]; Tav is not introduced until lesson 22. Beginner scaffolding can be improved separately from the approved source synchronization."
+    }
+  ],
+  "blocks": [
+    {
+      "id": "nun-block-1",
+      "sourceIndex": 0,
+      "text": "Nun Hebrew Letter (נ): Sound, Final Nun & Practice",
+      "reviewFlags": [],
+      "type": "MAIN_TITLE"
+    },
+    {
+      "id": "nun-block-2",
+      "sourceIndex": 1,
+      "text": "Nun (נ) is the fourteenth letter of the Hebrew alphabet. It is pronounced [n], like the 'n' in the English word 'never.' To make this sound, touch the tip of your tongue to the ridge just behind your upper front teeth and let air flow through your nose. Nun is one of five Hebrew letters that have a final form, known as Nun Sofit (ן).",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "nun-block-3",
+      "sourceIndex": 2,
+      "text": "Nun Sofit (ן) is the final form of the Hebrew letter Nun (נ). In ordinary modern Hebrew writing, use ן at the end of a word and נ at the beginning or in the middle.",
+      "reviewFlags": [],
+      "type": "TEXT_IMAGE",
+      "illustration": {
+        "glyph": "ן",
+        "label": "Nun Sofit",
+        "equivalent": "Final Nun: Nun stretched into a long straight stroke that drops below the line, used at the end of a word.",
+        "mediaStatus": "withheld-pending-review"
+      }
+    },
+    {
+      "id": "nun-block-5",
+      "sourceIndex": 4,
+      "text": "Key Takeaway",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "nun-block-6",
+      "sourceIndex": 5,
+      "text": "Even though Nun Sofit (ן) looks different from regular Nun (נ), both forms represent the same [n] sound. Only five Hebrew letters have a special final form. The Latin spellings in this lesson are reading aids, not IPA. In these spellings, a is like the vowel in 'father,' e is like the vowel in 'bed,' and i is like the vowel in 'see.' Patah and Kamatz Gadol both represent [a] in the modern pronunciation taught here; you do not need to make one longer than the other.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "nun-block-7",
+      "sourceIndex": 6,
+      "text": "Words to Practice:",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "nun-block-8",
+      "sourceIndex": 7,
+      "text": "garden",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "גַּן",
+      "transcription": "gan"
+    },
+    {
+      "id": "nun-block-9",
+      "sourceIndex": 8,
+      "text": "The Hebrew word 'גַּן' [gan] means 'garden' or 'park.' It consists of two letters: Gimel (גּ) and Nun Sofit (ן). Gimel with Patah is pronounced [ga], and Nun Sofit adds the final [n]. The whole word [gan] has one syllable; do not add a vowel after the final [n].",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "nun-block-10",
+      "sourceIndex": 9,
+      "text": "please",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "נָא",
+      "transcription": "na"
+    },
+    {
+      "id": "nun-block-11",
+      "sourceIndex": 10,
+      "text": "The Hebrew word 'נָא' [na] means 'please.' It is often used in formal requests and on signs. נָא consists of two letters: Nun (נ) and Alef (א). Nun with Kamatz Gadol is pronounced [na]. Alef has no separate sound in this word, so 'נָא' is pronounced [na] in one syllable.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "nun-block-12",
+      "sourceIndex": 11,
+      "text": "handsome",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "נָאֶה",
+      "transcription": "na'e"
+    },
+    {
+      "id": "nun-block-13",
+      "sourceIndex": 12,
+      "text": "The Hebrew word 'נָאֶה' [na-e] means 'handsome' or 'good-looking.' This is the masculine singular form. It consists of three letters: Nun (נ), Alef (א), and Hey (ה). Nun with Kamatz Gadol gives [na]. The Segol under Alef gives [e] as a separate second syllable; Hey at the end of the word has no separate [h] sound here. Say [na-e] with the stress on the second syllable, e. In the spelling na'e, the apostrophe separates the two vowels.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "nun-block-14",
+      "sourceIndex": 13,
+      "text": "Reading Practice",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "nun-block-15",
+      "sourceIndex": 14,
+      "text": "Read each word aloud. אָמֵן is [a-men], with stress on men; מַיִם is [ma-yim], with stress on ma; נַחַל is [na-khal], with stress on na; דָּג is [dag], one syllable; and לַיְלָה is [lay-la], with stress on lay. Here y is like the 'y' in 'yes.' In the common modern pronunciation taught here, kh represents one sound, like the 'ch' in Scottish 'loch' or German 'Bach,' not the English 'ch' in 'chair.'",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "nun-block-16",
+      "sourceIndex": 15,
+      "text": "amen",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "אָמֵן",
+      "transcription": "amen"
+    },
+    {
+      "id": "nun-block-17",
+      "sourceIndex": 16,
+      "text": "water",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "מַיִם",
+      "transcription": "mayim"
+    },
+    {
+      "id": "nun-block-18",
+      "sourceIndex": 17,
+      "text": "stream",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "נַחַל",
+      "transcription": "nakhal"
+    },
+    {
+      "id": "nun-block-19",
+      "sourceIndex": 18,
+      "text": "fish",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "דָּג",
+      "transcription": "dag"
+    },
+    {
+      "id": "nun-block-20",
+      "sourceIndex": 19,
+      "text": "night",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "לַיְלָה",
+      "transcription": "layla"
+    },
+    {
+      "id": "nun-block-21",
+      "sourceIndex": 20,
+      "text": "Conclusions",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "nun-block-22",
+      "sourceIndex": 21,
+      "text": "You have learned Nun (נ), its final form ן, and some new Hebrew words. Review the explanations, read the words aloud, and practice distinguishing נ from ן before moving on to the exercises.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "nun-exercise-1",
+      "sourceId": "1742227232525",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "What is the sound of the Hebrew letter Nun (נ)?",
+      "explanation": "Nun (נ) is pronounced as [n], like in 'never'.",
+      "options": [
+        {
+          "id": "nun-exercise-1-option-1",
+          "label": "[s]"
+        },
+        {
+          "id": "nun-exercise-1-option-2",
+          "label": "[n]"
+        },
+        {
+          "id": "nun-exercise-1-option-3",
+          "label": "[r]"
+        }
+      ],
+      "correctOptionId": "nun-exercise-1-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "nun-exercise-2",
+      "sourceId": "1742227232526",
+      "type": "TRUE_FALSE",
+      "prompt": "In ordinary modern Hebrew writing, Nun Sofit (ן) is used only at the end of a word.",
+      "explanation": "In ordinary modern Hebrew writing, Nun Sofit (ן), the final form of Nun (נ), appears only at the end of a word.",
+      "options": [
+        {
+          "id": "nun-exercise-2-option-1",
+          "label": "True"
+        },
+        {
+          "id": "nun-exercise-2-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "nun-exercise-2-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "nun-exercise-3",
+      "sourceId": "1742227232527",
+      "type": "MATCH_PAIRS",
+      "prompt": "Match the Hebrew letters to their corresponding sounds.",
+      "explanation": "In these pairs, Mem (מ) is [m], Nun (נ) is [n], and Tav (ת) is [t].",
+      "pairs": [
+        {
+          "id": "nun-exercise-3-pair-1",
+          "left": "מ",
+          "right": "[m]"
+        },
+        {
+          "id": "nun-exercise-3-pair-2",
+          "left": "נ",
+          "right": "[n]"
+        },
+        {
+          "id": "nun-exercise-3-pair-3",
+          "left": "ת",
+          "right": "[t]"
+        }
+      ],
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    },
+    {
+      "id": "nun-exercise-4",
+      "sourceId": "1742227232528",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "How is the word 'גַּן' pronounced?",
+      "explanation": "גַּן is pronounced [gan] in one syllable and means 'garden'.",
+      "options": [
+        {
+          "id": "nun-exercise-4-option-1",
+          "label": "[gan]"
+        },
+        {
+          "id": "nun-exercise-4-option-2",
+          "label": "[ban]"
+        },
+        {
+          "id": "nun-exercise-4-option-3",
+          "label": "[khan]"
+        },
+        {
+          "id": "nun-exercise-4-option-4",
+          "label": "[nam]"
+        }
+      ],
+      "correctOptionId": "nun-exercise-4-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "nun-exercise-5",
+      "sourceId": "1742227232529",
+      "type": "TRUE_FALSE",
+      "prompt": "Nun Sofit (ן) has a different pronunciation from regular Nun (נ).",
+      "explanation": "Nun Sofit (ן) and Nun (נ) both represent [n].",
+      "options": [
+        {
+          "id": "nun-exercise-5-option-1",
+          "label": "True"
+        },
+        {
+          "id": "nun-exercise-5-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "nun-exercise-5-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "nun-exercise-6",
+      "sourceId": "1742227232530",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "How is the word 'נָא' pronounced?",
+      "explanation": "נָא is pronounced as [na] and means 'please'.",
+      "options": [
+        {
+          "id": "nun-exercise-6-option-1",
+          "label": "[na]"
+        },
+        {
+          "id": "nun-exercise-6-option-2",
+          "label": "[ba]"
+        },
+        {
+          "id": "nun-exercise-6-option-3",
+          "label": "[la]"
+        }
+      ],
+      "correctOptionId": "nun-exercise-6-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "nun-exercise-7",
+      "sourceId": "1742227232531",
+      "type": "MATCH_PAIRS",
+      "prompt": "Match the Hebrew words with their meanings.",
+      "explanation": "גַּן is 'garden,' נָא is 'please,' and נַחַל is 'stream.'",
+      "pairs": [
+        {
+          "id": "nun-exercise-7-pair-1",
+          "left": "נָא",
+          "right": "please"
+        },
+        {
+          "id": "nun-exercise-7-pair-2",
+          "left": "גַּן",
+          "right": "garden"
+        },
+        {
+          "id": "nun-exercise-7-pair-3",
+          "left": "נַחַל",
+          "right": "stream"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "nun-exercise-8",
+      "sourceId": "1742227232532",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "How do you translate the word 'נָאֶה' into English?",
+      "explanation": "נָאֶה means 'handsome' in English.",
+      "options": [
+        {
+          "id": "nun-exercise-8-option-1",
+          "label": "handsome"
+        },
+        {
+          "id": "nun-exercise-8-option-2",
+          "label": "when"
+        },
+        {
+          "id": "nun-exercise-8-option-3",
+          "label": "why"
+        },
+        {
+          "id": "nun-exercise-8-option-4",
+          "label": "cold"
+        }
+      ],
+      "correctOptionId": "nun-exercise-8-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "nun-exercise-9",
+      "sourceId": "1742227232533",
+      "type": "TRUE_FALSE",
+      "prompt": "The letter Alef (א) in 'נָא' is silent.",
+      "explanation": "Alef (א) does not have its own sound in this word.",
+      "options": [
+        {
+          "id": "nun-exercise-9-option-1",
+          "label": "True"
+        },
+        {
+          "id": "nun-exercise-9-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "nun-exercise-9-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "nun-exercise-10",
+      "sourceId": "1742227232534",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "What is the translation of the word 'נָא' into English?",
+      "explanation": "נָא means 'please' in Hebrew.",
+      "options": [
+        {
+          "id": "nun-exercise-10-option-1",
+          "label": "where"
+        },
+        {
+          "id": "nun-exercise-10-option-2",
+          "label": "please"
+        },
+        {
+          "id": "nun-exercise-10-option-3",
+          "label": "when"
+        }
+      ],
+      "correctOptionId": "nun-exercise-10-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "nun-exercise-11",
+      "sourceId": "1742227232535",
+      "type": "MATCH_PAIRS",
+      "prompt": "Match the Hebrew words with their transcription.",
+      "explanation": "gan has one syllable; nakhal is [na-khal], with stress on na; na'e is [na-e], with stress on e.",
+      "pairs": [
+        {
+          "id": "nun-exercise-11-pair-1",
+          "left": "גַּן",
+          "right": "gan"
+        },
+        {
+          "id": "nun-exercise-11-pair-2",
+          "left": "נַחַל",
+          "right": "nakhal"
+        },
+        {
+          "id": "nun-exercise-11-pair-3",
+          "left": "נָאֶה",
+          "right": "na'e"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "nun-exercise-12",
+      "sourceId": "1742227232536",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "How do you pronounce the word 'אָמֵן'?",
+      "explanation": "אָמֵן is [a-men], with stress on the second syllable, men, and means 'amen'.",
+      "options": [
+        {
+          "id": "nun-exercise-12-option-1",
+          "label": "[a-men]"
+        },
+        {
+          "id": "nun-exercise-12-option-2",
+          "label": "[o-men]"
+        },
+        {
+          "id": "nun-exercise-12-option-3",
+          "label": "[u-men]"
+        },
+        {
+          "id": "nun-exercise-12-option-4",
+          "label": "[e-men]"
+        }
+      ],
+      "correctOptionId": "nun-exercise-12-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "nun-exercise-13",
+      "sourceId": "1742227232537",
+      "type": "TRUE_FALSE",
+      "prompt": "When Nun (נַ) has a Patah, it is pronounced as [na].",
+      "explanation": "Patah represents [a], so Nun with Patah (נַ) is pronounced [na].",
+      "options": [
+        {
+          "id": "nun-exercise-13-option-1",
+          "label": "True"
+        },
+        {
+          "id": "nun-exercise-13-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "nun-exercise-13-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "nun-exercise-14",
+      "sourceId": "1742227232538",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "What is the English translation of (נַחַל)?",
+      "explanation": "נַחַל translates to 'stream' in English.",
+      "options": [
+        {
+          "id": "nun-exercise-14-option-1",
+          "label": "stream"
+        },
+        {
+          "id": "nun-exercise-14-option-2",
+          "label": "desert"
+        },
+        {
+          "id": "nun-exercise-14-option-3",
+          "label": "mountain"
+        },
+        {
+          "id": "nun-exercise-14-option-4",
+          "label": "lake"
+        }
+      ],
+      "correctOptionId": "nun-exercise-14-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "nun-exercise-15",
+      "sourceId": "1742227232539",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "What does the Patah under Nun (נַ) contribute to pronunciation?",
+      "explanation": "Patah adds the vowel [a]; together with Nun, נַ is pronounced [na].",
+      "options": [
+        {
+          "id": "nun-exercise-15-option-1",
+          "label": "[a]"
+        },
+        {
+          "id": "nun-exercise-15-option-2",
+          "label": "[i]"
+        },
+        {
+          "id": "nun-exercise-15-option-3",
+          "label": "[u]"
+        }
+      ],
+      "correctOptionId": "nun-exercise-15-option-1",
+      "reviewFlags": []
+    }
+  ]
+}

@@ -168,6 +168,10 @@ Mem (מ) is a plain [m], as in "mother," in מַיִם [mayim], "water." It is o
 
 → [Practice Mem in the Hebrew Alphabet Course](/learn/hebrew-alphabet/mem/)
 
+Nun (נ) is a plain [n], as in "never," in גַּן [gan], "garden." It is one of the five letters with a final form: at the end of a word it is written ן (Nun Sofit), a long straight stroke that drops below the line, with the same [n] sound.
+
+→ [Practice Nun in the Hebrew Alphabet Course](/learn/hebrew-alphabet/nun/)
+
 ## The Five Final Letters
 
 Five Hebrew letters have a different written form when they appear at the **end of a word**. These are called *sofit* forms (סופית — “final”). The shape change is different for each pair.

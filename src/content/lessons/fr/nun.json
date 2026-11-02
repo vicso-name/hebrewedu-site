@@ -1,0 +1,549 @@
+{
+  "id": "nun",
+  "sourceId": 14,
+  "order": 14,
+  "glyph": "נ",
+  "locale": "fr",
+  "title": "Noun (נ) : lettre hébraïque, son et exemples",
+  "description": "Apprends la lettre hébraïque Noun (נ) : son son [n], sa forme finale Noun Sofit (ן), des mots comme גַּן (jardin) ou נָא (s'il te plaît) et des exercices.",
+  "status": "local-review-only",
+  "normalizationVersion": 1,
+  "provenance": {
+    "source": "https://api.hebrewedu.com/api/lessons/14/?lang=fr",
+    "responseDate": "2026-10-19T14:27:24.618Z",
+    "sha256": "df077b1257214d13abeaa5fcb296193c0c1eca41fe3e93aa2ad68cbe37a0df60"
+  },
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Affinage optionnel des exercices",
+      "detail": "L'exercice d'association lettre-son associe ת à [t] ; le Tav n'est introduit qu'à la leçon 22. Le guidage pour débutants pourra être amélioré séparément de la synchronisation avec la source approuvée."
+    }
+  ],
+  "blocks": [
+    {
+      "id": "nun-block-1",
+      "sourceIndex": 0,
+      "text": "Noun (נ) : lettre hébraïque, son et exemples",
+      "reviewFlags": [],
+      "type": "MAIN_TITLE"
+    },
+    {
+      "id": "nun-block-2",
+      "sourceIndex": 1,
+      "text": "Noun (נ) est la quatorzième lettre de l'alphabet hébreu. Elle se prononce [n], comme le n de « nuit ». Pour produire ce son, place la pointe de la langue juste derrière les dents du haut et laisse l'air passer par le nez. Noun fait partie des cinq lettres hébraïques qui ont une forme finale : Noun Sofit (ן).",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "nun-block-3",
+      "sourceIndex": 2,
+      "text": "Noun Sofit (ן) est la forme finale de la lettre Noun (נ). Dans l'écriture hébraïque moderne courante, on utilise ן à la fin d'un mot et נ au début ou au milieu.",
+      "reviewFlags": [],
+      "type": "TEXT_IMAGE",
+      "illustration": {
+        "glyph": "ן",
+        "label": "Noun Sofit",
+        "equivalent": "Noun final : un Noun allongé en un long trait droit qui descend sous la ligne, employé en fin de mot.",
+        "mediaStatus": "withheld-pending-review"
+      }
+    },
+    {
+      "id": "nun-block-5",
+      "sourceIndex": 4,
+      "text": "À retenir",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "nun-block-6",
+      "sourceIndex": 5,
+      "text": "Le Noun Sofit (ן) a une forme différente du Noun ordinaire (נ), mais les deux formes représentent le même son [n]. Seules cinq lettres hébraïques ont une forme finale particulière. Les transcriptions de cette leçon sont des aides à la lecture, pas des notations de l'alphabet phonétique international (API). Ici, a se lit comme dans « patte », e comme è dans « père » et i comme dans « lit ». Le Patah et le Kamats Gadol se prononcent tous les deux [a] dans l'hébreu moderne enseigné ici : il n'est pas nécessaire d'allonger l'un par rapport à l'autre.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "nun-block-7",
+      "sourceIndex": 6,
+      "text": "Mots à pratiquer :",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "nun-block-8",
+      "sourceIndex": 7,
+      "text": "jardin",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "גַּן",
+      "transcription": "gan"
+    },
+    {
+      "id": "nun-block-9",
+      "sourceIndex": 8,
+      "text": "Le mot hébreu « גַּן » [gan] signifie « jardin » ou « parc ». Il est composé de deux lettres : Guimel (גּ) et Noun Sofit (ן). Guimel avec un Patah se lit [ga], avec le g de « gare », puis Noun Sofit ajoute [n]. Le mot [gan] n'a qu'une syllabe : prononce un a oral suivi d'un n bien audible, sans ajouter de voyelle après le n. Ne lis pas an comme la voyelle nasale de « sans ».",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "nun-block-10",
+      "sourceIndex": 9,
+      "text": "s'il te plaît",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "נָא",
+      "transcription": "na"
+    },
+    {
+      "id": "nun-block-11",
+      "sourceIndex": 10,
+      "text": "Le mot hébreu « נָא » [na] signifie « s'il te plaît » ou « s'il vous plaît ». Il est souvent employé dans des demandes formelles et sur des panneaux. Il est composé de deux lettres : Noun (נ) et Alef (א). Noun avec un Kamats Gadol se lit [na]. Alef ne produit pas de son distinct dans ce mot. On prononce donc « נָא » [na], en une seule syllabe.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "nun-block-12",
+      "sourceIndex": 11,
+      "text": "beau",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "נָאֶה",
+      "transcription": "na'e"
+    },
+    {
+      "id": "nun-block-13",
+      "sourceIndex": 12,
+      "text": "Le mot hébreu « נָאֶה » [na-e] signifie « beau ». Il s'agit ici du masculin singulier. Il est composé de trois lettres : Noun (נ), Alef (א) et Hé (ה). Noun avec un Kamats Gadol donne [na]. Le Ségol sous Alef donne une deuxième syllabe [e], avec le son è de « père ». Dans ce mot, le Hé, à la fin, ne produit pas de son [h] distinct. Prononce [na-e] en deux syllabes, avec l'accent tonique sur la seconde, e. Dans la transcription na'e, l'apostrophe sépare les deux voyelles.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "nun-block-14",
+      "sourceIndex": 13,
+      "text": "Pratique de lecture",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "nun-block-15",
+      "sourceIndex": 14,
+      "text": "Lis chaque mot à voix haute. אָמֵן se lit [a-men], avec l'accent tonique sur men ; מַיִם se lit [ma-yim], avec l'accent sur ma ; נַחַל se lit [na-khal], avec l'accent sur na ; דָּג se lit [dag], en une seule syllabe ; לַיְלָה se lit [lay-la], avec l'accent sur lay. Ici, y se lit comme dans « yoga ». Dans la prononciation moderne courante enseignée ici, kh représente un seul son, proche du ch allemand dans « Bach », et non du ch français dans « chat ». Dans gan et amen, prononce le n en fin de mot : les suites an et en ne se lisent pas comme des voyelles nasales françaises.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "nun-block-16",
+      "sourceIndex": 15,
+      "text": "amen",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "אָמֵן",
+      "transcription": "amen"
+    },
+    {
+      "id": "nun-block-17",
+      "sourceIndex": 16,
+      "text": "eau",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "מַיִם",
+      "transcription": "mayim"
+    },
+    {
+      "id": "nun-block-18",
+      "sourceIndex": 17,
+      "text": "ruisseau",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "נַחַל",
+      "transcription": "nakhal"
+    },
+    {
+      "id": "nun-block-19",
+      "sourceIndex": 18,
+      "text": "poisson",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "דָּג",
+      "transcription": "dag"
+    },
+    {
+      "id": "nun-block-20",
+      "sourceIndex": 19,
+      "text": "nuit",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "לַיְלָה",
+      "transcription": "layla"
+    },
+    {
+      "id": "nun-block-21",
+      "sourceIndex": 20,
+      "text": "En résumé",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "nun-block-22",
+      "sourceIndex": 21,
+      "text": "Tu viens de découvrir la quatorzième lettre de l'alphabet hébreu et d'apprendre de nouveaux mots. Bravo pour ton travail ! L'aventure continue. Pour progresser, relis les explications de chaque leçon et entraîne-toi à lire les mots à voix haute.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "nun-exercise-1",
+      "sourceId": "1742227232525",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Quel son produit la lettre hébraïque Noun (נ) ?",
+      "explanation": "Noun (נ) se prononce [n], comme le n de « nuit ».",
+      "options": [
+        {
+          "id": "nun-exercise-1-option-1",
+          "label": "[s]"
+        },
+        {
+          "id": "nun-exercise-1-option-2",
+          "label": "[n]"
+        },
+        {
+          "id": "nun-exercise-1-option-3",
+          "label": "[r]"
+        }
+      ],
+      "correctOptionId": "nun-exercise-1-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "nun-exercise-2",
+      "sourceId": "1742227232526",
+      "type": "TRUE_FALSE",
+      "prompt": "Dans l'écriture hébraïque moderne courante, Noun Sofit (ן) s'utilise uniquement en fin de mot.",
+      "explanation": "Dans l'écriture hébraïque moderne courante, le Noun Sofit (ן), forme finale du Noun (נ), n'apparaît qu'en fin de mot.",
+      "options": [
+        {
+          "id": "nun-exercise-2-option-1",
+          "label": "True"
+        },
+        {
+          "id": "nun-exercise-2-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "nun-exercise-2-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "nun-exercise-3",
+      "sourceId": "1742227232527",
+      "type": "MATCH_PAIRS",
+      "prompt": "Associe chaque lettre hébraïque au son correspondant.",
+      "explanation": "Dans ces paires, Mem (מ) correspond à [m], Noun (נ) à [n] et Tav (ת) à [t].",
+      "pairs": [
+        {
+          "id": "nun-exercise-3-pair-1",
+          "left": "מ",
+          "right": "[m]"
+        },
+        {
+          "id": "nun-exercise-3-pair-2",
+          "left": "נ",
+          "right": "[n]"
+        },
+        {
+          "id": "nun-exercise-3-pair-3",
+          "left": "ת",
+          "right": "[t]"
+        }
+      ],
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    },
+    {
+      "id": "nun-exercise-4",
+      "sourceId": "1742227232528",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Comment prononce-t-on le mot « גַּן » ?",
+      "explanation": "גַּן se prononce [gan], en une syllabe, avec un a oral et un n audible en fin de mot. Il signifie « jardin ».",
+      "options": [
+        {
+          "id": "nun-exercise-4-option-1",
+          "label": "[gan]"
+        },
+        {
+          "id": "nun-exercise-4-option-2",
+          "label": "[ban]"
+        },
+        {
+          "id": "nun-exercise-4-option-3",
+          "label": "[khan]"
+        },
+        {
+          "id": "nun-exercise-4-option-4",
+          "label": "[nam]"
+        }
+      ],
+      "correctOptionId": "nun-exercise-4-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "nun-exercise-5",
+      "sourceId": "1742227232529",
+      "type": "TRUE_FALSE",
+      "prompt": "Le Noun Sofit (ן) se prononce différemment du Noun ordinaire (נ).",
+      "explanation": "Le Noun Sofit (ן) et le Noun (נ) se prononcent tous les deux [n].",
+      "options": [
+        {
+          "id": "nun-exercise-5-option-1",
+          "label": "True"
+        },
+        {
+          "id": "nun-exercise-5-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "nun-exercise-5-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "nun-exercise-6",
+      "sourceId": "1742227232530",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Comment prononce-t-on le mot « נָא » ?",
+      "explanation": "נָא se prononce [na] et signifie « s'il te plaît ».",
+      "options": [
+        {
+          "id": "nun-exercise-6-option-1",
+          "label": "[na]"
+        },
+        {
+          "id": "nun-exercise-6-option-2",
+          "label": "[ba]"
+        },
+        {
+          "id": "nun-exercise-6-option-3",
+          "label": "[la]"
+        }
+      ],
+      "correctOptionId": "nun-exercise-6-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "nun-exercise-7",
+      "sourceId": "1742227232531",
+      "type": "MATCH_PAIRS",
+      "prompt": "Associe chaque mot hébreu à sa signification.",
+      "explanation": "גַּן signifie « jardin », נָא signifie « s'il te plaît » et נַחַל signifie « ruisseau ».",
+      "pairs": [
+        {
+          "id": "nun-exercise-7-pair-1",
+          "left": "נָא",
+          "right": "s'il te plaît"
+        },
+        {
+          "id": "nun-exercise-7-pair-2",
+          "left": "גַּן",
+          "right": "jardin"
+        },
+        {
+          "id": "nun-exercise-7-pair-3",
+          "left": "נַחַל",
+          "right": "ruisseau"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "nun-exercise-8",
+      "sourceId": "1742227232532",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Quelle est la traduction du mot « נָאֶה » ?",
+      "explanation": "נָאֶה signifie « beau » : la forme présentée ici est au masculin singulier.",
+      "options": [
+        {
+          "id": "nun-exercise-8-option-1",
+          "label": "beau"
+        },
+        {
+          "id": "nun-exercise-8-option-2",
+          "label": "quand"
+        },
+        {
+          "id": "nun-exercise-8-option-3",
+          "label": "pourquoi"
+        },
+        {
+          "id": "nun-exercise-8-option-4",
+          "label": "froid"
+        }
+      ],
+      "correctOptionId": "nun-exercise-8-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "nun-exercise-9",
+      "sourceId": "1742227232533",
+      "type": "TRUE_FALSE",
+      "prompt": "La lettre Alef (א) dans « נָא » est muette.",
+      "explanation": "Dans ce mot, Alef (א) ne produit aucun son.",
+      "options": [
+        {
+          "id": "nun-exercise-9-option-1",
+          "label": "True"
+        },
+        {
+          "id": "nun-exercise-9-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "nun-exercise-9-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "nun-exercise-10",
+      "sourceId": "1742227232534",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Quelle est la traduction du mot « נָא » ?",
+      "explanation": "נָא signifie « s'il te plaît » en hébreu.",
+      "options": [
+        {
+          "id": "nun-exercise-10-option-1",
+          "label": "où"
+        },
+        {
+          "id": "nun-exercise-10-option-2",
+          "label": "s'il te plaît"
+        },
+        {
+          "id": "nun-exercise-10-option-3",
+          "label": "quand"
+        }
+      ],
+      "correctOptionId": "nun-exercise-10-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "nun-exercise-11",
+      "sourceId": "1742227232535",
+      "type": "MATCH_PAIRS",
+      "prompt": "Associe chaque mot hébreu à sa transcription.",
+      "explanation": "gan a une seule syllabe ; nakhal se lit [na-khal], avec l'accent sur na ; na'e se lit [na-e], avec l'accent sur e.",
+      "pairs": [
+        {
+          "id": "nun-exercise-11-pair-1",
+          "left": "גַּן",
+          "right": "gan"
+        },
+        {
+          "id": "nun-exercise-11-pair-2",
+          "left": "נַחַל",
+          "right": "nakhal"
+        },
+        {
+          "id": "nun-exercise-11-pair-3",
+          "left": "נָאֶה",
+          "right": "na'e"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "nun-exercise-12",
+      "sourceId": "1742227232536",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Comment prononce-t-on le mot « אָמֵן » ?",
+      "explanation": "אָמֵן se lit [a-men], avec l'accent sur la seconde syllabe, men. Le e se lit comme è et le n en fin de mot se prononce. Le mot signifie « amen ».",
+      "options": [
+        {
+          "id": "nun-exercise-12-option-1",
+          "label": "[a-men]"
+        },
+        {
+          "id": "nun-exercise-12-option-2",
+          "label": "[o-men]"
+        },
+        {
+          "id": "nun-exercise-12-option-3",
+          "label": "[ou-men]"
+        },
+        {
+          "id": "nun-exercise-12-option-4",
+          "label": "[e-men]"
+        }
+      ],
+      "correctOptionId": "nun-exercise-12-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "nun-exercise-13",
+      "sourceId": "1742227232537",
+      "type": "TRUE_FALSE",
+      "prompt": "Noun avec un Patah (נַ) se prononce [na].",
+      "explanation": "Le Patah représente la voyelle [a] : Noun avec un Patah (נַ) se prononce [na].",
+      "options": [
+        {
+          "id": "nun-exercise-13-option-1",
+          "label": "True"
+        },
+        {
+          "id": "nun-exercise-13-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "nun-exercise-13-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "nun-exercise-14",
+      "sourceId": "1742227232538",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Quelle est la traduction du mot « נַחַל » ?",
+      "explanation": "נַחַל signifie « ruisseau ».",
+      "options": [
+        {
+          "id": "nun-exercise-14-option-1",
+          "label": "ruisseau"
+        },
+        {
+          "id": "nun-exercise-14-option-2",
+          "label": "désert"
+        },
+        {
+          "id": "nun-exercise-14-option-3",
+          "label": "montagne"
+        },
+        {
+          "id": "nun-exercise-14-option-4",
+          "label": "lac"
+        }
+      ],
+      "correctOptionId": "nun-exercise-14-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "nun-exercise-15",
+      "sourceId": "1742227232539",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Quelle voyelle le Patah sous Noun (נַ) indique-t-il ?",
+      "explanation": "Le Patah indique la voyelle [a] ; avec Noun, נַ se prononce [na].",
+      "options": [
+        {
+          "id": "nun-exercise-15-option-1",
+          "label": "[a]"
+        },
+        {
+          "id": "nun-exercise-15-option-2",
+          "label": "[i]"
+        },
+        {
+          "id": "nun-exercise-15-option-3",
+          "label": "[ou]"
+        }
+      ],
+      "correctOptionId": "nun-exercise-15-option-1",
+      "reviewFlags": []
+    }
+  ]
+}

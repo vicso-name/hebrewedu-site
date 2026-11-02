@@ -29,6 +29,9 @@ FR raw source and FR copy exactly as written in the EN file:
   of language.
 - **Never use tokenized source audio URLs** — a source-media rule,
   independent of language.
+- **No audio instructions** — the web lesson has no audio in either
+  language, so "appuie sur le bouton lecture pour comparer…" is dropped the
+  same way as EN's "press play" (applied since Nun).
 - **"Final" means a final form, not word-final position** — a fact about
   the course's teaching of the five final forms, so "le Het final" / "le
   Beit final" for a letter that merely ends the word becomes "en fin de mot"
@@ -111,7 +114,9 @@ Aleph's meta description; applies to every FR lesson's SEO fields.)
 "À retenir" via `contentOverrides.blocks`. Leave other French closing
 headings a letter's own source already uses (e.g. "Ce qu'il faut retenir,"
 "Ce qu'on a appris") exactly as they are — only the literal "Conclusions"
-calque gets renamed.
+calque gets renamed. If "À retenir" is already a heading elsewhere in the same lesson (Nun's
+block 4), use "En résumé" instead, so one step never shows two identical
+headings (owner decision, Nun review 2026-11-02).
 
 **Vowel length mirrors the EN decision.** Whenever a length/duration
 statement about a vowel mark was removed or rewritten in the approved EN
