@@ -1,0 +1,19 @@
+timestamp,endpoint,params,cost_usd,note
+2026-11-03T11:26:20.265Z,/v1/seo/keywords/ideas,"ideas ""hebrew verb conjugation"" us/en",0.0400,verbs ideas seed hebrew verb conjugation
+2026-11-03T11:26:21.070Z,/v1/seo/keywords/ideas,"ideas ""hebrew verbs"" us/en",0.0500,verbs ideas seed hebrew verbs
+2026-11-03T11:26:21.284Z,/v1/seo/keywords/ideas,"ideas ""binyanim"" us/en",0.0400,verbs ideas seed binyanim
+2026-11-03T11:26:21.657Z,/v1/seo/keywords/ideas,"ideas ""hebrew conjugation"" us/en",0.0500,verbs ideas seed hebrew conjugation
+2026-11-03T11:26:22.005Z,/v1/seo/keywords/ideas,"ideas ""conjugaison hébreu"" fr/fr",0.0400,verbs ideas seed conjugaison hébreu
+2026-11-03T11:26:22.225Z,/v1/seo/keywords/ideas,"ideas ""verbes hébreux"" fr/fr",0.0300,verbs ideas seed verbes hébreux
+2026-11-03T11:26:22.428Z,/v1/seo/keywords/ideas,"ideas ""binyanim hébreu"" fr/fr",0.0300,verbs ideas seed binyanim hébreu
+2026-11-03T11:26:44.870Z,/v1/serp/google,"serp ""hebrew verb conjugation"" us depth 10",0.0100,verbs serp hebrew verb conjugation
+2026-11-03T11:26:52.186Z,/v1/serp/google,"serp ""hebrew verbs"" us depth 10",0.0100,verbs serp hebrew verbs
+2026-11-03T11:26:58.323Z,/v1/serp/google,"serp ""hebrew conjugation"" us depth 10",0.0100,verbs serp hebrew conjugation
+2026-11-03T11:27:05.585Z,/v1/serp/google,"serp ""hebrew verb conjugation chart"" us depth 10",0.0100,verbs serp hebrew verb conjugation chart
+2026-11-03T11:27:12.260Z,/v1/serp/google,"serp ""hebrew conjugation table"" us depth 10",0.0100,verbs serp hebrew conjugation table
+2026-11-03T11:27:18.665Z,/v1/serp/google,"serp ""binyanim"" us depth 10",0.0100,verbs serp binyanim
+2026-11-03T11:27:31.944Z,/v1/serp/google,"serp ""hebrew binyanim"" us depth 10",0.0100,verbs serp hebrew binyanim
+2026-11-03T11:27:39.394Z,/v1/serp/google,"serp ""hebrew verbs list"" us depth 10",0.0100,verbs serp hebrew verbs list
+2026-11-03T11:27:44.084Z,/v1/serp/google,"serp ""conjugaison hébreu"" fr depth 10",0.0100,verbs serp conjugaison hébreu
+2026-11-03T11:27:50.710Z,/v1/serp/google,"serp ""tableau de conjugaison hébreu"" fr depth 10",0.0100,verbs serp tableau de conjugaison hébreu
+2026-11-03T11:27:58.118Z,/v1/serp/google,"serp ""conjugaison en hébreu"" fr depth 10",0.0100,verbs serp conjugaison en hébreu

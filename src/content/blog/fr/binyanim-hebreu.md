@@ -75,6 +75,8 @@ Ne mémorise pas ce tableau tout de suite.
 
 Ce qui vaut la peine d'être remarqué, c'est la structure. Trois des sept sont des formes passives — elles reflètent des binyanim actifs. Un est réfléchi. Deux portent la majorité des verbes actifs que tu rencontreras dans l'hébreu de tous les jours : Pa'al et Pi'el.
 
+Quand tu voudras voir les modèles à l'œuvre, le [tableau de conjugaison hébreu](/fr/apprendre/conjugaison-hebreu/) conjugue un vrai verbe dans chaque binyan, côte à côte.
+
 ---
 
 ## Commence ici : Pa'al

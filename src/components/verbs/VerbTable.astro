@@ -1,0 +1,66 @@
+---
+// One free verb's full conjugation: header (headword, transliteration, meaning,
+// root, usage) and one table per tense. Rendered statically for every free verb;
+// the explorer client shows one at a time. Locked verbs never render here.
+import Transliteration from '../phrases/Transliteration.astro';
+import HebrewText from '../lessons/HebrewText.astro';
+import { binyanim, tenseRows, formPronouns } from '../../lib/hebrew-verbs.mjs';
+import { getDictionary, type Locale } from '../../i18n';
+
+interface Props {
+  verb: {
+    id: string;
+    binyan: string;
+    root: string;
+    he: string;
+    tr: Record<Locale, string>;
+    translit: Record<Locale, string>;
+    prep: Record<Locale | 'he', string>;
+    forms: Record<string, [string, string, string]>;
+  };
+  locale?: Locale;
+}
+const { verb, locale = 'en' } = Astro.props;
+const t = getDictionary(locale).verbs;
+const binyan = binyanim.find(b => b.id === verb.binyan)!;
+const tl = locale === 'fr' ? 2 : 1;
+const tenses = (Object.keys(tenseRows) as (keyof typeof tenseRows)[])
+  .map(tense => ({ tense, rows: tenseRows[tense].filter(key => verb.forms[key]) }))
+  .filter(({ rows }) => rows.length > 0);
+const passive = !verb.forms.imperative_ms;
+const titleId = `v-${verb.id}-title`;
+---
+<article class="verb-card" id={`v-${verb.id}`} data-verb-card={verb.id} style={`--b: ${binyan.color}`} aria-labelledby={titleId}>
+  <header class="verb-card-head">
+    <p class="verb-card-tags"><span class="verb-badge">{binyan.name} <bdi lang="he" dir="rtl">{binyan.he}</bdi></span><span class="verb-tag verb-tag--free">{t.freeTag}</span></p>
+    <h3 id={titleId} class="verb-card-title"><bdi lang="he" dir="rtl">{verb.he}</bdi></h3>
+    <p class="verb-card-tl" lang="he-Latn"><Transliteration text={verb.translit[locale]} /></p>
+    <p class="verb-card-tr">{verb.tr[locale]}</p>
+    <dl class="verb-card-meta">
+      <div><dt>{t.root}</dt><dd><bdi lang="he" dir="rtl" class="verb-root">{[...verb.root].join('־')}</bdi></dd></div>
+      <div><dt>{t.usage}</dt><dd><HebrewText text={verb.prep[locale]} /></dd></div>
+    </dl>
+  </header>
+  <div class="verb-tenses">
+    {tenses.map(({ tense, rows }) => (
+      <div class={`verb-tense verb-tense--${tense}`} role="group" aria-labelledby={`v-${verb.id}-${tense}`}>
+        <h4 id={`v-${verb.id}-${tense}`}>{t.tenses[tense]}</h4>
+        <table class="verb-forms">
+          <thead class="verbs-sr"><tr><th scope="col">{t.colPerson}</th><th scope="col">{t.colForm}</th></tr></thead>
+          <tbody>
+            {rows.map(key => {
+              const form = verb.forms[key];
+              return (
+                <tr>
+                  <th scope="row"><span class="verb-person">{t.persons[key]}</span><bdi lang="he" dir="rtl" class="verb-pron">{formPronouns[key]}</bdi></th>
+                  <td><bdi lang="he" dir="rtl" class="verb-form-he">{form[0]}</bdi><span class="verb-form-tl" lang="he-Latn">{form[tl]}</span></td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    ))}
+  </div>
+  {passive && <p class="verb-tense-note">{t.passiveNote}</p>}
+</article>

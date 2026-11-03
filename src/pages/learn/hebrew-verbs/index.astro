@@ -1,0 +1,12 @@
+---
+import VerbsPage from '../../../components/verbs/VerbsPage.astro';
+import '../../../styles/hebrew-verbs.css';
+
+const alternates = [
+  { hreflang: 'en', href: 'https://hebrewedu.com/learn/hebrew-verbs/' },
+  { hreflang: 'fr', href: 'https://hebrewedu.com/fr/apprendre/conjugaison-hebreu/' },
+  { hreflang: 'x-default', href: 'https://hebrewedu.com/learn/hebrew-verbs/' },
+];
+const langSwitch = { href: '/fr/apprendre/conjugaison-hebreu/' };
+---
+<VerbsPage locale="en" alternates={alternates} langSwitch={langSwitch} />

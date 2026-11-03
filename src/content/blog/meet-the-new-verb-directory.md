@@ -56,6 +56,8 @@ Not chaotic.
 Not intimidating.  
 Not buried inside grammar tables from 1997.
 
+Want a taste first? The free [Hebrew verb conjugation chart](/learn/hebrew-verbs/) on this site shows the seven binyanim and 30 verbs from the directory in full.
+
 Just clean, organized, practical Hebrew.
 
 Inside the new feature, you’ll find **334 essential Hebrew verbs** carefully structured for real learning and daily use.

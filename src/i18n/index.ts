@@ -78,12 +78,14 @@ export interface Dictionary {
     play: string;
     alphabetCourse: string;
     phrases: string;
+    verbs: string;
     blog: string;
   };
   footer: {
     play: string;
     blog: string;
     hebrewPhrases: string;
+    hebrewVerbs: string;
     terms: string;
     privacy: string;
     copyright: (year: number) => string;
@@ -306,6 +308,74 @@ export interface Dictionary {
       speaker: { male: string; female: string };
       addressee: { male: string; female: string };
     };
+  };
+  /** /learn/hebrew-verbs/ (VerbsPage.astro and its client explorer). Verb
+   *  headwords, translations and forms are data (src/data/hebrew-verbs.json),
+   *  never dictionary entries. `*Template` entries use {placeholder} tokens. */
+  verbs: {
+    title: string;
+    description: string;
+    breadcrumbHome: string;
+    breadcrumbPage: string;
+    eyebrow: string;
+    h1: string;
+    lead: string;
+    heroSearchLabel: string;
+    heroSearchButton: string;
+    heroSuggestLabel: string;
+    heroPopular: string;
+    /** Labels after the binyan, free-verb and app-verb counts. */
+    heroStats: [string, string, string];
+    rootsTitle: string;
+    rootsLead: string;
+    chartEyebrow: string;
+    chartH2: string;
+    chartLead: string;
+    chartCols: { binyan: string; meaning: string; past: string; present: string; future: string; infinitive: string };
+    chartCaption: string;
+    /** Link from a chart row to that example verb's full table. */
+    chartOpenTemplate: string;
+    noInfinitive: string;
+    roles: { paal: string; nifal: string; piel: string; pual: string; hifil: string; hufal: string; hitpael: string };
+    howEyebrow: string;
+    howH2: string;
+    howLead: string;
+    /** One card per step; the Hebrew examples come from the verb data (hebrew-verbs.mjs howExamples). */
+    howSteps: { title: string; body: string }[];
+    explorerEyebrow: string;
+    explorerH2: string;
+    explorerLead: string;
+    searchLabel: string;
+    searchPlaceholder: string;
+    filterLabel: string;
+    filterAll: string;
+    /** {shown} {free} */
+    countTemplate: string;
+    noResults: string;
+    listLabel: string;
+    freeTag: string;
+    appTag: string;
+    noScriptList: string;
+    root: string;
+    usage: string;
+    tenses: { present: string; past: string; future: string; imperative: string };
+    colPerson: string;
+    colForm: string;
+    persons: Record<string, string>;
+    passiveNote: string;
+    lockedTitle: string;
+    /** {verb} */
+    lockedTextTemplate: string;
+    /** {binyan} */
+    lockedMoreTemplate: string;
+    ctaEyebrow: string;
+    ctaH2: string;
+    ctaText: string;
+    faqTitle: string;
+    faq: { q: string; a: string }[];
+    keepLearningH2: string;
+    resources: { href: string; title: string; description: string }[];
+    sourceNote: string;
   };
   /** Blog chrome, rendered by the shared BlogIndexPage/BlogPostPage templates
    *  for both /blog/ and /fr/blog/. Article bodies are content (the `blog` /
