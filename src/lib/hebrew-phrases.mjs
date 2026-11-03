@@ -1,5 +1,5 @@
 import { createHash } from 'node:crypto';
-import { phraseGroups, phraseDialogues, phraseExercises, phraseQuestions, phraseReview, frPhraseExercises, frPhraseQuestions, phraseReviewFr } from '../data/hebrew-phrases.ts';
+import { phraseGroups, phraseDialogues, phraseExercises, phraseQuestions, phraseReview, frPhraseExercises, frPhraseQuestions, frExtraPhrases, phraseReviewFr } from '../data/hebrew-phrases.ts';
 
 export const phrasesPath = '/learn/hebrew-phrases/';
 export const phrasesTitle = 'Hebrew Phrases for Beginners: 30 Useful Phrases';
@@ -7,9 +7,10 @@ export const phrasesDescription = 'Learn 30 everyday Hebrew phrases with English
 export const phraseContentSha256 = createHash('sha256').update(JSON.stringify({ phraseGroups, phraseDialogues, phraseExercises, phraseQuestions })).digest('hex');
 
 export const phrasesPathFr = '/fr/apprendre/phrases-hebreu/';
-export const phrasesTitleFr = 'Phrases et expressions en hébreu pour débutants';
-export const phrasesDescriptionFr = "Apprends les phrases en hébreu essentielles : salutations, politesse, repas, achats et directions, avec transcription phonétique et dialogues.";
-export const frPhraseContentSha256 = createHash('sha256').update(JSON.stringify({ phraseGroups, phraseDialogues, frPhraseExercises, frPhraseQuestions })).digest('hex');
+// Retargeted 2026-11-03 at the page's GSC word-lookup queries (boker tov, merci, bonjour…).
+export const phrasesTitleFr = 'Bonjour, merci, boker tov en hébreu\u00A0: phrases + phonétique';
+export const phrasesDescriptionFr = "Boker tov = bonjour (le matin), toda raba = merci beaucoup, bevakacha = s'il te plaît. Phrases hébraïques essentielles avec phonétique et dialogues.";
+export const frPhraseContentSha256 = createHash('sha256').update(JSON.stringify({ phraseGroups, phraseDialogues, frPhraseExercises, frPhraseQuestions, frExtraPhrases })).digest('hex');
 
 function realDate(value) {
   return typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(value) && Number.isFinite(Date.parse(value)) && new Date(value).toISOString().slice(0, 10) === value && value <= new Date().toISOString().slice(0, 10);
