@@ -1,0 +1,493 @@
+{
+  "id": "samekh",
+  "sourceId": 15,
+  "order": 15,
+  "glyph": "ס",
+  "locale": "fr",
+  "title": "Samekh (ס) : lettre hébraïque, son et exemples",
+  "description": "Apprends la lettre hébraïque Samekh (ס) : son son [s], la différence avec Sin (שׂ), la voyelle Hiriq, des mots comme סוֹד (secret) et des exercices.",
+  "status": "local-review-only",
+  "normalizationVersion": 1,
+  "provenance": {
+    "source": "https://api.hebrewedu.com/api/lessons/15/?lang=fr",
+    "responseDate": "2026-10-19T14:27:24.890Z",
+    "sha256": "45e35b9f09a77c5d562271b9ad9830b0cb83dca79097c0906fa0f9afc15166cb"
+  },
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Affinage optionnel des exercices",
+      "detail": "L'exercice d'association lettre-son associe ת à [t] ; le Tav n'est introduit qu'à la leçon 22. Le guidage pour débutants pourra être amélioré séparément de la synchronisation avec la source approuvée."
+    },
+    {
+      "id": "fr-transliteration-ou",
+      "summary": "« u » remplacé par « ou » pour le son [u]",
+      "detail": "La source brute FR transcrit le son [u] de סִיבוּב par « u » (sivuv, [si-vuv]) et l'explique par une note sur les « cartes », alors que les choix des exercices écrivent déjà « ou » ([soud], [sou-biv], [ou]). Contraire à la règle de transcription FR (docs/hebrew-alphabet-editorial-rules.fr.md : « ou » pour [u]). Corrigé via contentOverrides.transcriptions (bloc 15), contentOverrides.blocks (blocs 3 et 16) et contentOverrides.exercises (question 14) ; la note devenue inutile est retirée du bloc 3."
+    }
+  ],
+  "blocks": [
+    {
+      "id": "samekh-block-1",
+      "sourceIndex": 0,
+      "text": "Samekh (ס) : lettre hébraïque, son et exemples",
+      "reviewFlags": [],
+      "type": "MAIN_TITLE"
+    },
+    {
+      "id": "samekh-block-2",
+      "sourceIndex": 1,
+      "text": "Samekh (ס) est la quinzième lettre de l'alphabet hébreu. Elle se prononce [s], comme dans « sol » ou « salade ». En hébreu moderne, Samekh et Sin (שׂ) ont le même son [s].",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "samekh-block-3",
+      "sourceIndex": 2,
+      "text": "Le niqqoud Hiriq",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "samekh-block-4",
+      "sourceIndex": 3,
+      "text": "Le Hiriq est un petit point placé sous une lettre. Il représente [i], comme le i de « lit ». Le Hiriq Haser s'écrit sans Yod servant à noter la voyelle ; le Hiriq Male s'écrit avec un tel Yod après la lettre qui porte le Hiriq. En hébreu moderne, les deux représentent le même son [i] : il n'est pas nécessaire de les distinguer par la durée de la voyelle. Les transcriptions entre crochets sont de simples aides à la lecture ; elles ne suivent pas l'alphabet phonétique international (API). Les traits d'union séparent les syllabes.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "samekh-block-5",
+      "sourceIndex": 4,
+      "text": "Ici, Alef porte un point sous la lettre : c'est le Hiriq. Aucun Yod ne suit pour noter la voyelle. Il s'agit donc d'un Hiriq Haser (« sans Yod »), comme dans אִ.",
+      "reviewFlags": [],
+      "type": "TEXT_IMAGE",
+      "illustration": {
+        "glyph": "אִ",
+        "label": "Hiriq Haser",
+        "equivalent": "Hiriq : un point sous la lettre, ici sous Alef, qui se lit [i]. Aucun Yod ne suit pour noter la voyelle : c'est un Hiriq Haser (« sans Yod »).",
+        "mediaStatus": "withheld-pending-review"
+      }
+    },
+    {
+      "id": "samekh-block-7",
+      "sourceIndex": 6,
+      "text": "Le mot אִשָּׁה [i-sha] signifie « femme » ou, selon le contexte, « épouse ». Lis-le en deux syllabes, en accentuant la seconde : sha. Alef (א) porte un Hiriq Haser, qui représente [i]. Shin (שׁ), reconnaissable à son point en haut à droite, porte un Kamats Gadol, qui donne [a], comme dans « patte ». L'ensemble se lit [sha] ; sh note ici le son du ch français de « chat ». Le point à l'intérieur de Shin est un dagesh ; il n'impose pas de doubler ce son dans la prononciation moderne courante. En fin de mot, le Hé (ה) est muet.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "samekh-block-8",
+      "sourceIndex": 7,
+      "text": "Dans le Hiriq Male (« avec Yod »), la lettre qui porte le Hiriq est suivie d'un Yod (י), comme dans שִׂי [si]. Ce Yod sert de « mère de lecture » : il aide à noter la voyelle [i] sans ajouter de son de consonne distinct.",
+      "reviewFlags": [],
+      "type": "TEXT_IMAGE",
+      "illustration": {
+        "glyph": "שִׂי",
+        "label": "Hiriq Male",
+        "equivalent": "Hiriq suivi d'un Yod muet qui note la voyelle, ici après Sin, qui se lit [si] : c'est un Hiriq Male (« avec Yod »).",
+        "mediaStatus": "withheld-pending-review"
+      }
+    },
+    {
+      "id": "samekh-block-10",
+      "sourceIndex": 9,
+      "text": "Le mot שִׂיחָה [si-kha] signifie « conversation ». Lis-le en deux syllabes, en accentuant la seconde : kha. Sin (שׂ), reconnaissable à son point en haut à gauche, porte un Hiriq Male : le point sous Sin et le Yod (י) qui suit représentent [i], ce qui donne [si]. Ici, Yod n'ajoute pas de son de consonne distinct. Het (ח), avec un Kamats Gadol, donne [kha]. Dans la prononciation moderne courante enseignée ici, kh représente un seul son produit à l'arrière de la bouche, proche du ch allemand de « Bach ». Il ne se lit pas comme le ch français de « chat ». En fin de mot, le Hé (ה) est muet.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "samekh-block-11",
+      "sourceIndex": 10,
+      "text": "Mots à pratiquer :",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "samekh-block-12",
+      "sourceIndex": 11,
+      "text": "autour",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "סָבִיב",
+      "transcription": "saviv"
+    },
+    {
+      "id": "samekh-block-13",
+      "sourceIndex": 12,
+      "text": "Le mot hébreu סָבִיב [sa-viv] signifie « autour ». Il comporte deux syllabes, avec l'accent sur la seconde : viv. Il est composé de quatre lettres : Samekh (ס), Beit (ב), Yod (י) et Beit (ב). Le Samekh, avec un Kamats Gadol, donne [sa]. Le premier Beit, avec un Hiriq Male, donne [vi] ; le Yod aide à noter la voyelle [i] sans se prononcer séparément. Les deux Beit sont sans dagesh et se prononcent [v], comme le v de « ville ». Le dernier [v] termine la seconde syllabe : il ne forme pas une syllabe à lui seul.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "samekh-block-14",
+      "sourceIndex": 13,
+      "text": "secret",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "סוֹד",
+      "transcription": "sod"
+    },
+    {
+      "id": "samekh-block-15",
+      "sourceIndex": 14,
+      "text": "Le mot hébreu סוֹד [sod] signifie « secret ». Il est composé de trois lettres : Samekh (ס), Vav (ו) et Dalet (ד). Samekh donne [s]. Vav avec Holam Male représente la voyelle [o], sans son [v] distinct. Dalet donne [d]. Lis le mot en une seule syllabe, [sod], en prononçant le d final.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "samekh-block-16",
+      "sourceIndex": 15,
+      "text": "rotation",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "סִיבוּב",
+      "transcription": "sivouv"
+    },
+    {
+      "id": "samekh-block-17",
+      "sourceIndex": 16,
+      "text": "Le mot hébreu סִיבוּב [si-vouv] signifie « rotation ». Lis-le en deux syllabes, en accentuant la seconde : vouv. Le mot est composé de cinq lettres : Samekh (ס), Yod (י), Beit (ב), Vav (ו) et Beit (ב). Samekh porte un Hiriq Male : le Yod aide à noter [i] sans ajouter de son de consonne distinct, ce qui donne [si]. Les deux Beit sont sans dagesh et se prononcent [v]. Vav avec Shourouk représente la voyelle [ou], sans son [v] distinct. Le premier Beit, le Shourouk et le dernier Beit forment ensemble la syllabe [vouv].",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "samekh-block-18",
+      "sourceIndex": 17,
+      "text": "À retenir",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "samekh-block-19",
+      "sourceIndex": 18,
+      "text": "Tu as découvert Samekh, les deux écritures du Hiriq et plusieurs nouveaux mots. Avant les exercices, retiens aussi סֵפֶר [se-fer], qui signifie « livre ». Il comporte deux syllabes, avec l'accent sur la première : se. Samekh porte un Tséré, et Pé sans dagesh donne [f] et porte un Ségol ; ces deux voyelles se lisent ici [e], proche du è de « père », et non comme le e muet de « le ». Resh donne [r]. Il ne reste plus qu'à consolider tout ça avec les exercices.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "samekh-exercise-1",
+      "sourceId": "1742227303443",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Quel son produit la lettre hébraïque Samekh (ס) ?",
+      "explanation": "Samekh (ס) se prononce [s], comme dans « soleil ».",
+      "options": [
+        {
+          "id": "samekh-exercise-1-option-1",
+          "label": "[r]"
+        },
+        {
+          "id": "samekh-exercise-1-option-2",
+          "label": "[m]"
+        },
+        {
+          "id": "samekh-exercise-1-option-3",
+          "label": "[s]"
+        }
+      ],
+      "correctOptionId": "samekh-exercise-1-option-3",
+      "reviewFlags": []
+    },
+    {
+      "id": "samekh-exercise-2",
+      "sourceId": "1742227303444",
+      "type": "TRUE_FALSE",
+      "prompt": "Le Hiriq peut s'écrire avec ou sans un Yod servant à noter la voyelle.",
+      "explanation": "Le Hiriq Male s'écrit avec un Yod servant à noter la voyelle ; le Hiriq Haser s'écrit sans ce Yod. Les deux représentent [i] en hébreu moderne.",
+      "options": [
+        {
+          "id": "samekh-exercise-2-option-1",
+          "label": "True"
+        },
+        {
+          "id": "samekh-exercise-2-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "samekh-exercise-2-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "samekh-exercise-3",
+      "sourceId": "1742227303445",
+      "type": "MATCH_PAIRS",
+      "prompt": "Associe chaque lettre hébraïque au son qu'elle représente.",
+      "explanation": "En hébreu moderne, Mem donne [m], Samekh donne [s] et Tav donne [t].",
+      "pairs": [
+        {
+          "id": "samekh-exercise-3-pair-1",
+          "left": "מ",
+          "right": "[m]"
+        },
+        {
+          "id": "samekh-exercise-3-pair-2",
+          "left": "ס",
+          "right": "[s]"
+        },
+        {
+          "id": "samekh-exercise-3-pair-3",
+          "left": "ת",
+          "right": "[t]"
+        }
+      ],
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    },
+    {
+      "id": "samekh-exercise-4",
+      "sourceId": "1742227303446",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Comment se prononce le mot « סוֹד » ?",
+      "explanation": "סוֹד se prononce [sod] et signifie « secret ».",
+      "options": [
+        {
+          "id": "samekh-exercise-4-option-1",
+          "label": "[sod]"
+        },
+        {
+          "id": "samekh-exercise-4-option-2",
+          "label": "[sad]"
+        },
+        {
+          "id": "samekh-exercise-4-option-3",
+          "label": "[soud]"
+        },
+        {
+          "id": "samekh-exercise-4-option-4",
+          "label": "[sed]"
+        }
+      ],
+      "correctOptionId": "samekh-exercise-4-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "samekh-exercise-5",
+      "sourceId": "1742227303447",
+      "type": "TRUE_FALSE",
+      "prompt": "Dans le Hiriq Male, un Yod suit la lettre qui porte le Hiriq et sert à noter la voyelle.",
+      "explanation": "Ici, Yod (י) aide à noter [i] sans ajouter de son de consonne distinct.",
+      "options": [
+        {
+          "id": "samekh-exercise-5-option-1",
+          "label": "True"
+        },
+        {
+          "id": "samekh-exercise-5-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "samekh-exercise-5-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "samekh-exercise-6",
+      "sourceId": "1742227303448",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Comment se prononce le mot « סָבִיב » ?",
+      "explanation": "סָבִיב se prononce [sa-viv], avec l'accent sur viv, et signifie « autour ».",
+      "options": [
+        {
+          "id": "samekh-exercise-6-option-1",
+          "label": "[sa-viv]"
+        },
+        {
+          "id": "samekh-exercise-6-option-2",
+          "label": "[so-bav]"
+        },
+        {
+          "id": "samekh-exercise-6-option-3",
+          "label": "[sou-biv]"
+        }
+      ],
+      "correctOptionId": "samekh-exercise-6-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "samekh-exercise-7",
+      "sourceId": "1742227303449",
+      "type": "MATCH_PAIRS",
+      "prompt": "Associe chaque mot hébreu à sa signification.",
+      "explanation": "סוֹד signifie « secret », סָבִיב signifie « autour » et סִיבוּב signifie « rotation ».",
+      "pairs": [
+        {
+          "id": "samekh-exercise-7-pair-1",
+          "left": "סוֹד",
+          "right": "secret"
+        },
+        {
+          "id": "samekh-exercise-7-pair-2",
+          "left": "סָבִיב",
+          "right": "autour"
+        },
+        {
+          "id": "samekh-exercise-7-pair-3",
+          "left": "סִיבוּב",
+          "right": "rotation"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "samekh-exercise-8",
+      "sourceId": "1742227303450",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Quelle est la traduction française du mot « סִיבוּב » ?",
+      "explanation": "סִיבוּב signifie « rotation ».",
+      "options": [
+        {
+          "id": "samekh-exercise-8-option-1",
+          "label": "rotation"
+        },
+        {
+          "id": "samekh-exercise-8-option-2",
+          "label": "arrêt"
+        },
+        {
+          "id": "samekh-exercise-8-option-3",
+          "label": "vitesse"
+        },
+        {
+          "id": "samekh-exercise-8-option-4",
+          "label": "sommeil"
+        }
+      ],
+      "correctOptionId": "samekh-exercise-8-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "samekh-exercise-9",
+      "sourceId": "1742227303451",
+      "type": "TRUE_FALSE",
+      "prompt": "Dans « סִיבוּב », la lettre Yod (י) se prononce comme une consonne [y] distincte.",
+      "explanation": "Dans סִיבוּב, Yod (י) fait partie du Hiriq Male : il aide à noter [i] et n'ajoute pas de son de consonne distinct.",
+      "options": [
+        {
+          "id": "samekh-exercise-9-option-1",
+          "label": "True"
+        },
+        {
+          "id": "samekh-exercise-9-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "samekh-exercise-9-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "samekh-exercise-10",
+      "sourceId": "1742227303452",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Quelle est la traduction française du mot « סֵפֶר » ?",
+      "explanation": "סֵפֶר [se-fer] signifie « livre ». L'accent porte sur la première syllabe : se.",
+      "options": [
+        {
+          "id": "samekh-exercise-10-option-1",
+          "label": "mot"
+        },
+        {
+          "id": "samekh-exercise-10-option-2",
+          "label": "livre"
+        },
+        {
+          "id": "samekh-exercise-10-option-3",
+          "label": "lettre"
+        }
+      ],
+      "correctOptionId": "samekh-exercise-10-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "samekh-exercise-11",
+      "sourceId": "1742227303453",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Quelle est la traduction française de « סוֹד » ?",
+      "explanation": "סוֹד signifie « secret ».",
+      "options": [
+        {
+          "id": "samekh-exercise-11-option-1",
+          "label": "secret"
+        },
+        {
+          "id": "samekh-exercise-11-option-2",
+          "label": "histoire"
+        },
+        {
+          "id": "samekh-exercise-11-option-3",
+          "label": "rêve"
+        },
+        {
+          "id": "samekh-exercise-11-option-4",
+          "label": "plan"
+        }
+      ],
+      "correctOptionId": "samekh-exercise-11-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "samekh-exercise-12",
+      "sourceId": "1742227303454",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Quelle voyelle le Patah représente-t-il dans סַ ?",
+      "explanation": "Le Patah est le petit trait sous Samekh dans סַ. Il représente [a], comme dans « patte » : l'ensemble se lit [sa]. Aucune durée particulière n'est exigée pour la voyelle.",
+      "options": [
+        {
+          "id": "samekh-exercise-12-option-1",
+          "label": "[a]"
+        },
+        {
+          "id": "samekh-exercise-12-option-2",
+          "label": "[i]"
+        },
+        {
+          "id": "samekh-exercise-12-option-3",
+          "label": "[ou]"
+        }
+      ],
+      "correctOptionId": "samekh-exercise-12-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "samekh-exercise-13",
+      "sourceId": "1742227303455",
+      "type": "TRUE_FALSE",
+      "prompt": "En hébreu moderne, Samekh (ס) et Sin (שׂ) produisent le même son.",
+      "explanation": "Samekh (ס) et Sin (שׂ) sont deux lettres distinctes, mais toutes deux se prononcent [s] en hébreu moderne.",
+      "options": [
+        {
+          "id": "samekh-exercise-13-option-1",
+          "label": "True"
+        },
+        {
+          "id": "samekh-exercise-13-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "samekh-exercise-13-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "samekh-exercise-14",
+      "sourceId": "1742227303456",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Comment dit-on « rotation » en hébreu ?",
+      "explanation": "« Rotation » se dit סִיבוּב [si-vouv], avec l'accent sur vouv.",
+      "options": [
+        {
+          "id": "samekh-exercise-14-option-1",
+          "label": "סִיבוּב"
+        },
+        {
+          "id": "samekh-exercise-14-option-2",
+          "label": "סוֹד"
+        },
+        {
+          "id": "samekh-exercise-14-option-3",
+          "label": "סֵפֶר"
+        }
+      ],
+      "correctOptionId": "samekh-exercise-14-option-1",
+      "reviewFlags": []
+    }
+  ]
+}

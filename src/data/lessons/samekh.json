@@ -1,0 +1,109 @@
+{
+  "slug": "samekh",
+  "title": "Samekh Hebrew Letter (ס): Sound, Sin & Hiriq",
+  "description": "Learn the Hebrew letter Samekh (ס), also spelled Samech: its [s] sound, how it compares with Sin (שׂ), the Hiriq vowel, and words like סוֹד (secret).",
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Optional practice refinement",
+      "detail": "The letter-sound matching exercise pairs ת with [t]; Tav is not introduced until lesson 22. Beginner scaffolding can be improved separately from the approved source synchronization."
+    }
+  ],
+  "illustrations": {
+    "4": {
+      "glyph": "אִ",
+      "label": "Hiriq Haser",
+      "equivalent": "Hiriq: a single dot below a letter, here under Alef, read [i]. No vowel-letter Yud follows it, so it is called Hiriq Haser ('without Yud')."
+    },
+    "7": {
+      "glyph": "שִׂי",
+      "label": "Hiriq Male",
+      "equivalent": "Hiriq followed by Yud as a silent vowel-letter, here after Sin, read [si]. It is called Hiriq Male ('with Yud')."
+    }
+  },
+  "blockFlags": {},
+  "exerciseFlags": {
+    "3": [
+      "unintroduced-letters"
+    ]
+  },
+  "contentOverrides": {
+    "blocks": {
+      "0": "Samekh Hebrew Letter (ס): Sound, Hiriq & Practice",
+      "3": "Hiriq is a vowel mark written as a single dot below a letter. It represents [i], like the vowel in English 'see'; no special vowel length is required. Hiriq Haser is written without a following vowel-letter Yud; Hiriq Male is written with one. Both represent the same [i] sound in Modern Hebrew. The distinction is in the spelling, not a required difference in vowel length. Square brackets in this lesson contain simple pronunciation guides, and hyphens separate syllables.",
+      "4": "Here the letter Alef carries Hiriq, a single dot underneath the letter. This is Hiriq Haser.",
+      "6": "אִשָּׁה [i-sha] means 'woman' and can also mean 'wife'. It has two syllables, with the stress on the second: sha. Alef (א) carries Hiriq Haser, giving [i]. Shin (שׁ), identified by its dot at the upper right, has Kamatz Gadol, giving [sha]. The dot inside Shin is a dagesh; it does not require a doubled [sh] in ordinary Modern Hebrew. Hey (ה) at the end of the word is silent.",
+      "9": "שִׂיחָה [si-kha] means 'conversation'. It has two syllables, with the stress on the second: kha. Sin (שׂ), identified by its dot at the upper left, has Hiriq Male: the dot below Sin and the following Yud (י) represent [i], giving [si]. Yud has no separate consonant sound here. Chet (ח), written [ch] in the Chet lesson, has Kamatz Gadol, giving [kha], and Hey (ה) at the end of the word is silent. In these pronunciation guides, kh represents one sound, commonly like the ch in Scottish 'loch', not the ch in English 'chair'.",
+      "16": "סִיבוּב [si-vuv] means 'rotation'. It has two syllables, with the stress on the second: vuv. Its five letters are Samekh (ס), Yud (י), Bet (ב), Vav (ו), and Bet (ב). Samekh has Hiriq Male, with Yud as a silent vowel-letter, giving [si]. Both Bet letters lack a dagesh and are pronounced [v]. Vav with Shuruk represents [u] without a separate [v] sound. Together, the first Bet, Shuruk, and second Bet form the syllable [vuv]."
+    },
+    "exercises": {
+      "8": {
+        "content": "The letter Yud (י) in 'סִיבוּב' is pronounced as a separate [y] consonant.",
+        "tip": "Yud (י) in סִיבוּב is part of Hiriq Male: it helps represent [i] and has no separate consonant sound.",
+        "correctAnswer": "false"
+      },
+      "11": {
+        "tip": "Patah is the line below Samekh in סַ. It represents [a], giving [sa]; no special vowel length is required."
+      }
+    }
+  },
+  "stageMap": {
+    "theory": [
+      0,
+      1
+    ],
+    "examples": [
+      2,
+      3,
+      4,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  "copy": {
+    "theory": {
+      "heading": "Meet Samekh",
+      "intro": "The fifteenth letter of the <a href=\"/blog/hebrew-alphabet-complete-guide/\">Hebrew alphabet</a>. Samekh, also spelled Samech, makes a plain [s] sound, as in “sit.” In Modern Hebrew, Sin (<bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">שׂ</bdi>) has the same [s] sound, so two different letters can spell it. This lesson also introduces Hiriq, the dot below a letter that marks the [i] vowel.",
+      "objectivesHeading": "What you’ll learn",
+      "objectives": [
+        "Recognize Samekh: <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ס</bdi>, and tell it apart from Sin, <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">שׂ</bdi>, which has the same [s] sound.",
+        "Read Hiriq, the dot below a letter for [i], with and without a following vowel-letter.",
+        "Read Samekh in real words like <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">סוֹד</bdi> (secret) and <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">סָבִיב</bdi> (around)."
+      ],
+      "secondSectionHeading": "How Samekh sounds",
+      "thirdSectionHeading": "Samekh and Sin"
+    },
+    "examples": {
+      "heading": "Samekh and Hiriq in real words",
+      "intro": "Learn the two spellings of Hiriq, then read three words with Samekh aloud and one more word for the exercises."
+    }
+  },
+  "holdOuts": {
+    "blocks": [
+      {
+        "sourceIndex": 5,
+        "reason": "Unsupported STRIPED_BLOCK study block type (the word אִשָּׁה on its own) — recognized by the source contract, but StudyBlock.astro has no STRIPED_BLOCK renderer. Nothing is lost: block 6 opens with the same word and its transcription."
+      },
+      {
+        "sourceIndex": 8,
+        "reason": "Unsupported STRIPED_BLOCK study block type (the word שִׂיחָה on its own) — recognized by the source contract, but StudyBlock.astro has no STRIPED_BLOCK renderer. Nothing is lost: block 9 opens with the same word and its transcription."
+      }
+    ],
+    "exercises": []
+  },
+  "source": {
+    "rawSnapshotPath": ".local/alphabet-course-imports/v1/2026-10-19T14-27-01-990Z-cc446f/raw/lesson-15.raw.json",
+    "sha256": "2ed9a95791826910d13cc9dca35323eadde338be9798fc162be462f95c25b5d6",
+    "responseDate": "2026-10-19T14:27:08.858Z"
+  }
+}

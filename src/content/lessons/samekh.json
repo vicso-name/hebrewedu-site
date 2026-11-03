@@ -1,0 +1,488 @@
+{
+  "id": "samekh",
+  "sourceId": 15,
+  "order": 15,
+  "glyph": "ס",
+  "locale": "en",
+  "title": "Samekh Hebrew Letter (ס): Sound, Sin & Hiriq",
+  "description": "Learn the Hebrew letter Samekh (ס), also spelled Samech: its [s] sound, how it compares with Sin (שׂ), the Hiriq vowel, and words like סוֹד (secret).",
+  "status": "local-review-only",
+  "normalizationVersion": 1,
+  "provenance": {
+    "source": "https://api.hebrewedu.com/api/lessons/15/?lang=en",
+    "responseDate": "2026-10-19T14:27:08.858Z",
+    "sha256": "2ed9a95791826910d13cc9dca35323eadde338be9798fc162be462f95c25b5d6"
+  },
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Optional practice refinement",
+      "detail": "The letter-sound matching exercise pairs ת with [t]; Tav is not introduced until lesson 22. Beginner scaffolding can be improved separately from the approved source synchronization."
+    }
+  ],
+  "blocks": [
+    {
+      "id": "samekh-block-1",
+      "sourceIndex": 0,
+      "text": "Samekh Hebrew Letter (ס): Sound, Hiriq & Practice",
+      "reviewFlags": [],
+      "type": "MAIN_TITLE"
+    },
+    {
+      "id": "samekh-block-2",
+      "sourceIndex": 1,
+      "text": "Samekh (ס) is the fifteenth letter of the Hebrew alphabet. It is pronounced [s], as in the English word 'sit'. In Modern Hebrew, Samekh and Sin (שׂ) have the same [s] sound.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "samekh-block-3",
+      "sourceIndex": 2,
+      "text": "Hiriq Nikkud",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "samekh-block-4",
+      "sourceIndex": 3,
+      "text": "Hiriq is a vowel mark written as a single dot below a letter. It represents [i], like the vowel in English 'see'; no special vowel length is required. Hiriq Haser is written without a following vowel-letter Yud; Hiriq Male is written with one. Both represent the same [i] sound in Modern Hebrew. The distinction is in the spelling, not a required difference in vowel length. Square brackets in this lesson contain simple pronunciation guides, and hyphens separate syllables.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "samekh-block-5",
+      "sourceIndex": 4,
+      "text": "Here the letter Alef carries Hiriq, a single dot underneath the letter. This is Hiriq Haser.",
+      "reviewFlags": [],
+      "type": "TEXT_IMAGE",
+      "illustration": {
+        "glyph": "אִ",
+        "label": "Hiriq Haser",
+        "equivalent": "Hiriq: a single dot below a letter, here under Alef, read [i]. No vowel-letter Yud follows it, so it is called Hiriq Haser ('without Yud').",
+        "mediaStatus": "withheld-pending-review"
+      }
+    },
+    {
+      "id": "samekh-block-7",
+      "sourceIndex": 6,
+      "text": "אִשָּׁה [i-sha] means 'woman' and can also mean 'wife'. It has two syllables, with the stress on the second: sha. Alef (א) carries Hiriq Haser, giving [i]. Shin (שׁ), identified by its dot at the upper right, has Kamatz Gadol, giving [sha]. The dot inside Shin is a dagesh; it does not require a doubled [sh] in ordinary Modern Hebrew. Hey (ה) at the end of the word is silent.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "samekh-block-8",
+      "sourceIndex": 7,
+      "text": "When Hiriq is Male, it is followed by the letter Yud, which serves as the 'mother of reading' and does not produce its own sound.",
+      "reviewFlags": [],
+      "type": "TEXT_IMAGE",
+      "illustration": {
+        "glyph": "שִׂי",
+        "label": "Hiriq Male",
+        "equivalent": "Hiriq followed by Yud as a silent vowel-letter, here after Sin, read [si]. It is called Hiriq Male ('with Yud').",
+        "mediaStatus": "withheld-pending-review"
+      }
+    },
+    {
+      "id": "samekh-block-10",
+      "sourceIndex": 9,
+      "text": "שִׂיחָה [si-kha] means 'conversation'. It has two syllables, with the stress on the second: kha. Sin (שׂ), identified by its dot at the upper left, has Hiriq Male: the dot below Sin and the following Yud (י) represent [i], giving [si]. Yud has no separate consonant sound here. Chet (ח), written [ch] in the Chet lesson, has Kamatz Gadol, giving [kha], and Hey (ה) at the end of the word is silent. In these pronunciation guides, kh represents one sound, commonly like the ch in Scottish 'loch', not the ch in English 'chair'.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "samekh-block-11",
+      "sourceIndex": 10,
+      "text": "Words to Practice:",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "samekh-block-12",
+      "sourceIndex": 11,
+      "text": "around",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "סָבִיב",
+      "transcription": "saviv"
+    },
+    {
+      "id": "samekh-block-13",
+      "sourceIndex": 12,
+      "text": "סָבִיב [sa-viv] means 'around'. It has two syllables, with the stress on the second: viv. Its four letters are Samekh (ס), Bet (ב), Yud (י), and Bet (ב). Samekh with Kamatz Gadol gives [sa]. The first Bet has Hiriq Male, with Yud as a silent vowel-letter, giving [vi]. Both Bet letters lack a dagesh and are pronounced [v]. The final [v] closes the second syllable; it is not a separate syllable.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "samekh-block-14",
+      "sourceIndex": 13,
+      "text": "secret",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "סוֹד",
+      "transcription": "sod"
+    },
+    {
+      "id": "samekh-block-15",
+      "sourceIndex": 14,
+      "text": "סוֹד [sod] means 'secret'. It consists of three letters: Samekh (ס), Vav (ו), and Dalet (ד). Samekh gives [s], Vav with Holam Male represents the vowel [o] without a separate [v] sound, and Dalet gives [d]. The word has one syllable: [sod].",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "samekh-block-16",
+      "sourceIndex": 15,
+      "text": "rotation",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "סִיבוּב",
+      "transcription": "sivuv"
+    },
+    {
+      "id": "samekh-block-17",
+      "sourceIndex": 16,
+      "text": "סִיבוּב [si-vuv] means 'rotation'. It has two syllables, with the stress on the second: vuv. Its five letters are Samekh (ס), Yud (י), Bet (ב), Vav (ו), and Bet (ב). Samekh has Hiriq Male, with Yud as a silent vowel-letter, giving [si]. Both Bet letters lack a dagesh and are pronounced [v]. Vav with Shuruk represents [u] without a separate [v] sound. Together, the first Bet, Shuruk, and second Bet form the syllable [vuv].",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "samekh-block-18",
+      "sourceIndex": 17,
+      "text": "Conclusions",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "samekh-block-19",
+      "sourceIndex": 18,
+      "text": "You have learned Samekh and the two spellings of Hiriq, and practiced several new words. One more word for the exercises is סֵפֶר [se-fer], meaning 'book'. It has two syllables, with the stress on the first: se. Samekh has Tzere [e], Pe without a dagesh is [f] and has Segol [e], and Resh is [r]. Now complete the exercises to review the lesson.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "samekh-exercise-1",
+      "sourceId": "1742227303443",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "What is the sound of the Hebrew letter Samekh (ס)?",
+      "explanation": "Samekh (ס) is pronounced as [s], like in 'sun'.",
+      "options": [
+        {
+          "id": "samekh-exercise-1-option-1",
+          "label": "[r]"
+        },
+        {
+          "id": "samekh-exercise-1-option-2",
+          "label": "[m]"
+        },
+        {
+          "id": "samekh-exercise-1-option-3",
+          "label": "[s]"
+        }
+      ],
+      "correctOptionId": "samekh-exercise-1-option-3",
+      "reviewFlags": []
+    },
+    {
+      "id": "samekh-exercise-2",
+      "sourceId": "1742227303444",
+      "type": "TRUE_FALSE",
+      "prompt": "Hiriq can be written with or without a following Yud used as a vowel-letter.",
+      "explanation": "Hiriq Male uses a vowel-letter Yud; Hiriq Haser does not. Both represent [i] in Modern Hebrew.",
+      "options": [
+        {
+          "id": "samekh-exercise-2-option-1",
+          "label": "True"
+        },
+        {
+          "id": "samekh-exercise-2-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "samekh-exercise-2-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "samekh-exercise-3",
+      "sourceId": "1742227303445",
+      "type": "MATCH_PAIRS",
+      "prompt": "Match the Hebrew letters to their corresponding sounds.",
+      "explanation": "Match Mem with [m], Samekh with [s], and Tav with [t] in Modern Hebrew.",
+      "pairs": [
+        {
+          "id": "samekh-exercise-3-pair-1",
+          "left": "מ",
+          "right": "[m]"
+        },
+        {
+          "id": "samekh-exercise-3-pair-2",
+          "left": "ס",
+          "right": "[s]"
+        },
+        {
+          "id": "samekh-exercise-3-pair-3",
+          "left": "ת",
+          "right": "[t]"
+        }
+      ],
+      "reviewFlags": [
+        "unintroduced-letters"
+      ]
+    },
+    {
+      "id": "samekh-exercise-4",
+      "sourceId": "1742227303446",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "How is the word 'סוֹד' pronounced?",
+      "explanation": "סוֹד is pronounced as [sod] and means 'secret'.",
+      "options": [
+        {
+          "id": "samekh-exercise-4-option-1",
+          "label": "[sod]"
+        },
+        {
+          "id": "samekh-exercise-4-option-2",
+          "label": "[sad]"
+        },
+        {
+          "id": "samekh-exercise-4-option-3",
+          "label": "[sud]"
+        },
+        {
+          "id": "samekh-exercise-4-option-4",
+          "label": "[sed]"
+        }
+      ],
+      "correctOptionId": "samekh-exercise-4-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "samekh-exercise-5",
+      "sourceId": "1742227303447",
+      "type": "TRUE_FALSE",
+      "prompt": "In Hiriq Male, Yud follows the Hiriq-marked letter and serves as a vowel-letter.",
+      "explanation": "Yud (י) helps represent [i] here and has no separate consonant sound.",
+      "options": [
+        {
+          "id": "samekh-exercise-5-option-1",
+          "label": "True"
+        },
+        {
+          "id": "samekh-exercise-5-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "samekh-exercise-5-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "samekh-exercise-6",
+      "sourceId": "1742227303448",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "How is the word 'סָבִיב' pronounced?",
+      "explanation": "סָבִיב is pronounced [sa-viv], with the stress on viv, and means 'around'.",
+      "options": [
+        {
+          "id": "samekh-exercise-6-option-1",
+          "label": "[sa-viv]"
+        },
+        {
+          "id": "samekh-exercise-6-option-2",
+          "label": "[so-bav]"
+        },
+        {
+          "id": "samekh-exercise-6-option-3",
+          "label": "[su-biv]"
+        }
+      ],
+      "correctOptionId": "samekh-exercise-6-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "samekh-exercise-7",
+      "sourceId": "1742227303449",
+      "type": "MATCH_PAIRS",
+      "prompt": "Match the Hebrew words with their meanings.",
+      "explanation": "סוֹד means 'secret', סָבִיב means 'around', and סִיבוּב means 'rotation'.",
+      "pairs": [
+        {
+          "id": "samekh-exercise-7-pair-1",
+          "left": "סוֹד",
+          "right": "secret"
+        },
+        {
+          "id": "samekh-exercise-7-pair-2",
+          "left": "סָבִיב",
+          "right": "around"
+        },
+        {
+          "id": "samekh-exercise-7-pair-3",
+          "left": "סִיבוּב",
+          "right": "rotation"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "samekh-exercise-8",
+      "sourceId": "1742227303450",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "How do you translate the word 'סִיבוּב' into English?",
+      "explanation": "סִיבוּב means 'rotation' in English.",
+      "options": [
+        {
+          "id": "samekh-exercise-8-option-1",
+          "label": "rotation"
+        },
+        {
+          "id": "samekh-exercise-8-option-2",
+          "label": "stop"
+        },
+        {
+          "id": "samekh-exercise-8-option-3",
+          "label": "speed"
+        },
+        {
+          "id": "samekh-exercise-8-option-4",
+          "label": "sleep"
+        }
+      ],
+      "correctOptionId": "samekh-exercise-8-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "samekh-exercise-9",
+      "sourceId": "1742227303451",
+      "type": "TRUE_FALSE",
+      "prompt": "The letter Yud (י) in 'סִיבוּב' is pronounced as a separate [y] consonant.",
+      "explanation": "Yud (י) in סִיבוּב is part of Hiriq Male: it helps represent [i] and has no separate consonant sound.",
+      "options": [
+        {
+          "id": "samekh-exercise-9-option-1",
+          "label": "True"
+        },
+        {
+          "id": "samekh-exercise-9-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "samekh-exercise-9-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "samekh-exercise-10",
+      "sourceId": "1742227303452",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "What is the translation of the word 'סֵפֶר' into English?",
+      "explanation": "סֵפֶר [se-fer] means 'book', with the stress on se.",
+      "options": [
+        {
+          "id": "samekh-exercise-10-option-1",
+          "label": "word"
+        },
+        {
+          "id": "samekh-exercise-10-option-2",
+          "label": "book"
+        },
+        {
+          "id": "samekh-exercise-10-option-3",
+          "label": "letter"
+        }
+      ],
+      "correctOptionId": "samekh-exercise-10-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "samekh-exercise-11",
+      "sourceId": "1742227303453",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "What is the English translation of 'סוֹד'?",
+      "explanation": "סוֹד translates to 'secret' in English.",
+      "options": [
+        {
+          "id": "samekh-exercise-11-option-1",
+          "label": "secret"
+        },
+        {
+          "id": "samekh-exercise-11-option-2",
+          "label": "story"
+        },
+        {
+          "id": "samekh-exercise-11-option-3",
+          "label": "dream"
+        },
+        {
+          "id": "samekh-exercise-11-option-4",
+          "label": "plan"
+        }
+      ],
+      "correctOptionId": "samekh-exercise-11-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "samekh-exercise-12",
+      "sourceId": "1742227303454",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Which vowel sound does Patah represent in סַ?",
+      "explanation": "Patah is the line below Samekh in סַ. It represents [a], giving [sa]; no special vowel length is required.",
+      "options": [
+        {
+          "id": "samekh-exercise-12-option-1",
+          "label": "[a]"
+        },
+        {
+          "id": "samekh-exercise-12-option-2",
+          "label": "[i]"
+        },
+        {
+          "id": "samekh-exercise-12-option-3",
+          "label": "[u]"
+        }
+      ],
+      "correctOptionId": "samekh-exercise-12-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "samekh-exercise-13",
+      "sourceId": "1742227303455",
+      "type": "TRUE_FALSE",
+      "prompt": "In Modern Hebrew, Samekh (ס) and Sin (שׂ) produce the same sound.",
+      "explanation": "Samekh (ס) and Sin (שׂ) are different letters, but both are pronounced [s] in Modern Hebrew.",
+      "options": [
+        {
+          "id": "samekh-exercise-13-option-1",
+          "label": "True"
+        },
+        {
+          "id": "samekh-exercise-13-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "samekh-exercise-13-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "samekh-exercise-14",
+      "sourceId": "1742227303456",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "How do you translate the word 'rotation' into Hebrew?",
+      "explanation": "סִיבוּב means 'rotation' in Hebrew.",
+      "options": [
+        {
+          "id": "samekh-exercise-14-option-1",
+          "label": "סִיבוּב"
+        },
+        {
+          "id": "samekh-exercise-14-option-2",
+          "label": "סוֹד"
+        },
+        {
+          "id": "samekh-exercise-14-option-3",
+          "label": "סֵפֶר"
+        }
+      ],
+      "correctOptionId": "samekh-exercise-14-option-1",
+      "reviewFlags": []
+    }
+  ]
+}
