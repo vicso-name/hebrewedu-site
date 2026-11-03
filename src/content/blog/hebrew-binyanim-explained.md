@@ -76,6 +76,8 @@ Don't memorize this table right now.
 
 What's worth noticing is the structure. Three of the seven are passive forms — they mirror active Binyanim. One is reflexive. Two carry most of the active verbs you'll encounter in everyday Hebrew: Pa'al and Pi'el.
 
+When you do want to see the patterns at work, the [Hebrew verb conjugation chart](/learn/hebrew-verbs/) conjugates one real verb in each binyan, side by side.
+
 ---
 
 ## Start Here: Pa'al

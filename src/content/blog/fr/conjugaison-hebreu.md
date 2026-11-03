@@ -1,7 +1,8 @@
 ---
-title: "Conjugaison hébreu : 334 verbes classés par binyan"
-description: "Conjugaison hébreu : 334 verbes classés par binyan, avec nikoud complet et toutes les formes, enfin clairs et faciles à chercher."
+title: "Répertoire de verbes hébreux : 334 verbes classés par binyan"
+description: "Le répertoire de verbes d'Alef-Bet Tutor : 334 verbes hébreux classés par binyan, avec nikoud complet et toutes les formes, faciles à chercher."
 pubDate: 2026-10-19
+updatedDate: 2026-11-03
 author: "HebrewEdu Team"
 category: "Nouveautés"
 categoryKey: "productUpdates"
@@ -54,6 +55,8 @@ On est très fiers de lancer le tout nouveau **répertoire de verbes** — un sy
 Pas chaotique.
 Pas intimidant.
 Pas enterré dans des tableaux de grammaire d'un autre temps.
+
+Envie d'essayer d'abord ? Le [tableau de conjugaison hébreu](/fr/apprendre/conjugaison-hebreu/) gratuit du site montre les sept binyanim et 30 verbes du répertoire en entier.
 
 Juste de l'hébreu propre, organisé, pratique.
 

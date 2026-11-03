@@ -1,0 +1,7781 @@
+{
+ "source": {
+  "file": "hebrew_verbs_multilang.json",
+  "sha256": "ec2b5fa4a3943a752227cd5212ff3fc3eef1155511e877ed69752154936347fa",
+  "count": 334
+ },
+ "free": [
+  "likhtov",
+  "lilmod",
+  "leekhol",
+  "lalekhet",
+  "lirot",
+  "lirtsot",
+  "ledaber",
+  "lelamed",
+  "leshalem",
+  "lekhakot",
+  "lekabel",
+  "lehatkhil",
+  "lehavin",
+  "lehazmin",
+  "lehasbir",
+  "lehagia",
+  "lehitkasher",
+  "lehitamen",
+  "lehishtamesh",
+  "lehistakel",
+  "lehikatev",
+  "lehikanes",
+  "lehipagesh",
+  "lehishaer",
+  "dubar",
+  "shuna",
+  "mula",
+  "nusa",
+  "huvan",
+  "hukhlat"
+ ],
+ "verbs": [
+  {
+   "id": "leekhol",
+   "binyan": "paal",
+   "root": "אכל",
+   "he": "לֶאֱכֹל",
+   "tr": {
+    "en": "eat",
+    "fr": "manger"
+   },
+   "free": true,
+   "prep": {
+    "he": "את",
+    "en": "direct object (accusative marker את)",
+    "fr": "COD (marqueur accusatif את)"
+   },
+   "forms": {
+    "present_ms": [
+     "אוֹכֵל",
+     "okhel",
+     "okhel"
+    ],
+    "present_fs": [
+     "אוֹכֶלֶת",
+     "okhelet",
+     "okhelet"
+    ],
+    "present_mp": [
+     "אוֹכְלִים",
+     "okhlim",
+     "okhlim"
+    ],
+    "present_fp": [
+     "אוֹכְלוֹת",
+     "okhlot",
+     "okhlot"
+    ],
+    "past_1s": [
+     "אָכַלְתִּי",
+     "akhalti",
+     "akhalti"
+    ],
+    "past_1p": [
+     "אָכַלְנוּ",
+     "akhalnu",
+     "akhalnou"
+    ],
+    "past_2ms": [
+     "אָכַלְתָּ",
+     "akhalta",
+     "akhalta"
+    ],
+    "past_2fs": [
+     "אָכַלְתְּ",
+     "akhalt",
+     "akhalt"
+    ],
+    "past_2mp": [
+     "אֲכַלְתֶּם",
+     "akhaltem",
+     "akhaltem"
+    ],
+    "past_2fp": [
+     "אֲכַלְתֶּן",
+     "akhalten",
+     "akhalten"
+    ],
+    "past_3ms": [
+     "אָכַל",
+     "akhal",
+     "akhal"
+    ],
+    "past_3fs": [
+     "אָכְלָה",
+     "akhla",
+     "akhla"
+    ],
+    "past_3pl": [
+     "אָכְלוּ",
+     "akhlu",
+     "akhlou"
+    ],
+    "future_1s": [
+     "אֹכַל",
+     "okhal",
+     "okhal"
+    ],
+    "future_1p": [
+     "נֹאכַל",
+     "nokhal",
+     "nokhal"
+    ],
+    "future_2ms": [
+     "תֹּאכַל",
+     "tokhal",
+     "tokhal"
+    ],
+    "future_2fs": [
+     "תֹּאכְלִי",
+     "tokhli",
+     "tokhli"
+    ],
+    "future_2mp": [
+     "תֹּאכְלוּ",
+     "tokhlu",
+     "tokhlou"
+    ],
+    "future_2fp": [
+     "תֹּאכַלְנָה",
+     "tokhalna",
+     "tokhalna"
+    ],
+    "future_3ms": [
+     "יֹאכַל",
+     "yokhal",
+     "yokhal"
+    ],
+    "future_3fs": [
+     "תֹּאכַל",
+     "tokhal",
+     "tokhal"
+    ],
+    "future_3mp": [
+     "יֹאכְלוּ",
+     "yokhlu",
+     "yokhlou"
+    ],
+    "future_3fp": [
+     "תֹּאכַלְנָה",
+     "tokhalna",
+     "tokhalna"
+    ],
+    "imperative_ms": [
+     "אֱכֹל",
+     "ekhol",
+     "ekhol"
+    ],
+    "imperative_fs": [
+     "אִכְלִי",
+     "ikhli",
+     "ikhli"
+    ],
+    "imperative_mp": [
+     "אִכְלוּ",
+     "ikhlu",
+     "ikhlou"
+    ],
+    "imperative_fp": [
+     "אֱכֹלְנָה",
+     "ekholna",
+     "ekholna"
+    ],
+    "infinitive": [
+     "לֶאֱכֹל",
+     "leekhol",
+     "leekhol"
+    ]
+   },
+   "translit": {
+    "en": "leekhol",
+    "fr": "leekhol"
+   }
+  },
+  {
+   "id": "lehasbir",
+   "binyan": "hifil",
+   "root": "סבר",
+   "he": "לְהַסְבִּיר",
+   "tr": {
+    "en": "explain",
+    "fr": "expliquer"
+   },
+   "free": true,
+   "prep": {
+    "he": "את (something), ל (to)",
+    "en": "direct object (את, something) + ל (to someone)",
+    "fr": "COD (את, quelque chose) + COI — à + personne (ל)"
+   },
+   "forms": {
+    "present_ms": [
+     "מַסְבִּיר",
+     "masbir",
+     "masbir"
+    ],
+    "present_fs": [
+     "מַסְבִּירָה",
+     "masbira",
+     "masbira"
+    ],
+    "present_mp": [
+     "מַסְבִּירִים",
+     "masbirim",
+     "masbirim"
+    ],
+    "present_fp": [
+     "מַסְבִּירוֹת",
+     "masbirot",
+     "masbirot"
+    ],
+    "past_1s": [
+     "הִסְבַּרְתִּי",
+     "hisbarti",
+     "hisbarti"
+    ],
+    "past_1p": [
+     "הִסְבַּרְנוּ",
+     "hisbarnu",
+     "hisbarnou"
+    ],
+    "past_2ms": [
+     "הִסְבַּרְתָּ",
+     "hisbarta",
+     "hisbarta"
+    ],
+    "past_2fs": [
+     "הִסְבַּרְתְּ",
+     "hisbart",
+     "hisbart"
+    ],
+    "past_2mp": [
+     "הִסְבַּרְתֶּם",
+     "hisbartem",
+     "hisbartem"
+    ],
+    "past_2fp": [
+     "הִסְבַּרְתֶּן",
+     "hisbarten",
+     "hisbarten"
+    ],
+    "past_3ms": [
+     "הִסְבִּיר",
+     "hisbir",
+     "hisbir"
+    ],
+    "past_3fs": [
+     "הִסְבִּירָה",
+     "hisbira",
+     "hisbira"
+    ],
+    "past_3pl": [
+     "הִסְבִּירוּ",
+     "hisbiru",
+     "hisbirou"
+    ],
+    "future_1s": [
+     "אַסְבִּיר",
+     "asbir",
+     "asbir"
+    ],
+    "future_1p": [
+     "נַסְבִּיר",
+     "nasbir",
+     "nasbir"
+    ],
+    "future_2ms": [
+     "תַּסְבִּיר",
+     "tasbir",
+     "tasbir"
+    ],
+    "future_2fs": [
+     "תַּסְבִּירִי",
+     "tasbiri",
+     "tasbiri"
+    ],
+    "future_2mp": [
+     "תַּסְבִּירוּ",
+     "tasbiru",
+     "tasbirou"
+    ],
+    "future_2fp": [
+     "תַּסְבֵּרְנָה",
+     "tasberna",
+     "tasberna"
+    ],
+    "future_3ms": [
+     "יַסְבִּיר",
+     "yasbir",
+     "yasbir"
+    ],
+    "future_3fs": [
+     "תַּסְבִּיר",
+     "tasbir",
+     "tasbir"
+    ],
+    "future_3mp": [
+     "יַסְבִּירוּ",
+     "yasbiru",
+     "yasbirou"
+    ],
+    "future_3fp": [
+     "תַּסְבֵּרְנָה",
+     "tasberna",
+     "tasberna"
+    ],
+    "imperative_ms": [
+     "הַסְבֵּר",
+     "hasber",
+     "hasber"
+    ],
+    "imperative_fs": [
+     "הַסְבִּירִי",
+     "hasbiri",
+     "hasbiri"
+    ],
+    "imperative_mp": [
+     "הַסְבִּירוּ",
+     "hasbiru",
+     "hasbirou"
+    ],
+    "imperative_fp": [
+     "הַסְבֵּרְנָה",
+     "hasberna",
+     "hasberna"
+    ],
+    "infinitive": [
+     "לְהַסְבִּיר",
+     "lehasbir",
+     "lehasbir"
+    ]
+   },
+   "translit": {
+    "en": "lehasbir",
+    "fr": "lehasbir"
+   }
+  },
+  {
+   "id": "ledaber",
+   "binyan": "piel",
+   "root": "דבר",
+   "he": "לְדַבֵּר",
+   "tr": {
+    "en": "speak, talk",
+    "fr": "parler, discuter"
+   },
+   "free": true,
+   "prep": {
+    "he": "",
+    "en": "no direct object (intransitive); optionally עם (with) or על (about)",
+    "fr": "aucun complément (intransitif) ; éventuellement עם (avec) ou על (au sujet de)"
+   },
+   "forms": {
+    "present_ms": [
+     "מְדַבֵּר",
+     "medaber",
+     "medaber"
+    ],
+    "present_fs": [
+     "מְדַבֶּרֶת",
+     "medaberet",
+     "medaberet"
+    ],
+    "present_mp": [
+     "מְדַבְּרִים",
+     "medabrim",
+     "medabrim"
+    ],
+    "present_fp": [
+     "מְדַבְּרוֹת",
+     "medabrot",
+     "medabrot"
+    ],
+    "past_1s": [
+     "דִּבַּרְתִּי",
+     "dibarti",
+     "dibarti"
+    ],
+    "past_1p": [
+     "דִּבַּרְנוּ",
+     "dibarnu",
+     "dibarnou"
+    ],
+    "past_2ms": [
+     "דִּבַּרְתָּ",
+     "dibarta",
+     "dibarta"
+    ],
+    "past_2fs": [
+     "דִּבַּרְתְּ",
+     "dibart",
+     "dibart"
+    ],
+    "past_2mp": [
+     "דִּבַּרְתֶּם",
+     "dibartem",
+     "dibartem"
+    ],
+    "past_2fp": [
+     "דִּבַּרְתֶּן",
+     "dibarten",
+     "dibarten"
+    ],
+    "past_3ms": [
+     "דִּבֵּר",
+     "diber",
+     "diber"
+    ],
+    "past_3fs": [
+     "דִּבְּרָה",
+     "dibra",
+     "dibra"
+    ],
+    "past_3pl": [
+     "דִּבְּרוּ",
+     "dibru",
+     "dibrou"
+    ],
+    "future_1s": [
+     "אֲדַבֵּר",
+     "adaber",
+     "adaber"
+    ],
+    "future_1p": [
+     "נְדַבֵּר",
+     "nedaber",
+     "nedaber"
+    ],
+    "future_2ms": [
+     "תְּדַבֵּר",
+     "tedaber",
+     "tedaber"
+    ],
+    "future_2fs": [
+     "תְּדַבְּרִי",
+     "tedabri",
+     "tedabri"
+    ],
+    "future_2mp": [
+     "תְּדַבְּרוּ",
+     "tedabru",
+     "tedabrou"
+    ],
+    "future_2fp": [
+     "תְּדַבֵּרְנָה",
+     "tedaberna",
+     "tedaberna"
+    ],
+    "future_3ms": [
+     "יְדַבֵּר",
+     "yedaber",
+     "yedaber"
+    ],
+    "future_3fs": [
+     "תְּדַבֵּר",
+     "tedaber",
+     "tedaber"
+    ],
+    "future_3mp": [
+     "יְדַבְּרוּ",
+     "yedabru",
+     "yedabrou"
+    ],
+    "future_3fp": [
+     "תְּדַבֵּרְנָה",
+     "tedaberna",
+     "tedaberna"
+    ],
+    "imperative_ms": [
+     "דַּבֵּר",
+     "daber",
+     "daber"
+    ],
+    "imperative_fs": [
+     "דַּבְּרִי",
+     "dabri",
+     "dabri"
+    ],
+    "imperative_mp": [
+     "דַּבְּרוּ",
+     "dabru",
+     "dabrou"
+    ],
+    "imperative_fp": [
+     "דַּבֵּרְנָה",
+     "daberna",
+     "daberna"
+    ],
+    "infinitive": [
+     "לְדַבֵּר",
+     "ledaber",
+     "ledaber"
+    ]
+   },
+   "translit": {
+    "en": "ledaber",
+    "fr": "ledaber"
+   }
+  },
+  {
+   "id": "lirot",
+   "binyan": "paal",
+   "root": "ראה",
+   "he": "לִרְאוֹת",
+   "tr": {
+    "en": "see",
+    "fr": "voir"
+   },
+   "free": true,
+   "prep": {
+    "he": "",
+    "en": "direct object (no preposition)",
+    "fr": "COD (sans préposition)"
+   },
+   "forms": {
+    "present_ms": [
+     "רוֹאֶה",
+     "ro'e",
+     "ro'e"
+    ],
+    "present_fs": [
+     "רוֹאָה",
+     "ro'a",
+     "ro'a"
+    ],
+    "present_mp": [
+     "רוֹאִים",
+     "ro'im",
+     "ro'im"
+    ],
+    "present_fp": [
+     "רוֹאוֹת",
+     "ro'ot",
+     "ro'ot"
+    ],
+    "past_1s": [
+     "רָאִיתִי",
+     "ra'iti",
+     "ra'iti"
+    ],
+    "past_1p": [
+     "רָאִינוּ",
+     "ra'inu",
+     "ra'inou"
+    ],
+    "past_2ms": [
+     "רָאִיתָ",
+     "ra'ita",
+     "ra'ita"
+    ],
+    "past_2fs": [
+     "רָאִית",
+     "ra'it",
+     "ra'it"
+    ],
+    "past_2mp": [
+     "רְאִיתֶם",
+     "re'item",
+     "re'item"
+    ],
+    "past_2fp": [
+     "רְאִיתֶן",
+     "re'iten",
+     "re'iten"
+    ],
+    "past_3ms": [
+     "רָאָה",
+     "ra'a",
+     "ra'a"
+    ],
+    "past_3fs": [
+     "רָאֲתָה",
+     "ra'ata",
+     "ra'ata"
+    ],
+    "past_3pl": [
+     "רָאוּ",
+     "ra'u",
+     "ra'ou"
+    ],
+    "future_1s": [
+     "אֶרְאֶה",
+     "er'e",
+     "er'e"
+    ],
+    "future_1p": [
+     "נִרְאֶה",
+     "nir'e",
+     "nir'e"
+    ],
+    "future_2ms": [
+     "תִּרְאֶה",
+     "tir'e",
+     "tir'e"
+    ],
+    "future_2fs": [
+     "תִּרְאִי",
+     "tir'i",
+     "tir'i"
+    ],
+    "future_2mp": [
+     "תִּרְאוּ",
+     "tir'u",
+     "tir'ou"
+    ],
+    "future_2fp": [
+     "תִּרְאֶינָה",
+     "tir'ena",
+     "tir'ena"
+    ],
+    "future_3ms": [
+     "יִרְאֶה",
+     "yir'e",
+     "yir'e"
+    ],
+    "future_3fs": [
+     "תִּרְאֶה",
+     "tir'e",
+     "tir'e"
+    ],
+    "future_3mp": [
+     "יִרְאוּ",
+     "yir'u",
+     "yir'ou"
+    ],
+    "future_3fp": [
+     "תִּרְאֶינָה",
+     "tir'ena",
+     "tir'ena"
+    ],
+    "imperative_ms": [
+     "רְאֵה",
+     "re'e",
+     "re'e"
+    ],
+    "imperative_fs": [
+     "רְאִי",
+     "re'i",
+     "re'i"
+    ],
+    "imperative_mp": [
+     "רְאוּ",
+     "re'u",
+     "re'ou"
+    ],
+    "imperative_fp": [
+     "רְאֶינָה",
+     "re'ena",
+     "re'ena"
+    ],
+    "infinitive": [
+     "לִרְאוֹת",
+     "lir'ot",
+     "lir'ot"
+    ]
+   },
+   "translit": {
+    "en": "lir'ot",
+    "fr": "lir'ot"
+   }
+  },
+  {
+   "id": "lalekhet",
+   "binyan": "paal",
+   "root": "הלך",
+   "he": "לָלֶכֶת",
+   "tr": {
+    "en": "go / walk",
+    "fr": "aller / marcher"
+   },
+   "free": true,
+   "prep": {
+    "he": "",
+    "en": "no object; optional direction with ל/אל (to) or ב (in/through)",
+    "fr": "aucun complément ; direction facultative avec ל/אל (vers) ou ב (dans/à travers)"
+   },
+   "forms": {
+    "present_ms": [
+     "הוֹלֵךְ",
+     "holekh",
+     "holekh"
+    ],
+    "present_fs": [
+     "הוֹלֶכֶת",
+     "holekhet",
+     "holekhet"
+    ],
+    "present_mp": [
+     "הוֹלְכִים",
+     "holkhim",
+     "holkhim"
+    ],
+    "present_fp": [
+     "הוֹלְכוֹת",
+     "holkhot",
+     "holkhot"
+    ],
+    "past_1s": [
+     "הָלַכְתִּי",
+     "halakhti",
+     "halakhti"
+    ],
+    "past_1p": [
+     "הָלַכְנוּ",
+     "halakhnu",
+     "halakhnou"
+    ],
+    "past_2ms": [
+     "הָלַכְתָּ",
+     "halakhta",
+     "halakhta"
+    ],
+    "past_2fs": [
+     "הָלַכְתְּ",
+     "halakht",
+     "halakht"
+    ],
+    "past_2mp": [
+     "הֲלַכְתֶּם",
+     "halakhtem",
+     "halakhtem"
+    ],
+    "past_2fp": [
+     "הֲלַכְתֶּן",
+     "halakhten",
+     "halakhten"
+    ],
+    "past_3ms": [
+     "הָלַךְ",
+     "halakh",
+     "halakh"
+    ],
+    "past_3fs": [
+     "הָלְכָה",
+     "halkha",
+     "halkha"
+    ],
+    "past_3pl": [
+     "הָלְכוּ",
+     "halkhu",
+     "halkhou"
+    ],
+    "future_1s": [
+     "אֵלֵךְ",
+     "elekh",
+     "elekh"
+    ],
+    "future_1p": [
+     "נֵלֵךְ",
+     "nelekh",
+     "nelekh"
+    ],
+    "future_2ms": [
+     "תֵּלֵךְ",
+     "telekh",
+     "telekh"
+    ],
+    "future_2fs": [
+     "תֵּלְכִי",
+     "telkhi",
+     "telkhi"
+    ],
+    "future_2mp": [
+     "תֵּלְכוּ",
+     "telkhu",
+     "telkhou"
+    ],
+    "future_2fp": [
+     "תֵּלֵכְנָה",
+     "telekhna",
+     "telekhna"
+    ],
+    "future_3ms": [
+     "יֵלֵךְ",
+     "yelekh",
+     "yelekh"
+    ],
+    "future_3fs": [
+     "תֵּלֵךְ",
+     "telekh",
+     "telekh"
+    ],
+    "future_3mp": [
+     "יֵלְכוּ",
+     "yelkhu",
+     "yelkhou"
+    ],
+    "future_3fp": [
+     "תֵּלֵכְנָה",
+     "telekhna",
+     "telekhna"
+    ],
+    "imperative_ms": [
+     "לֵךְ",
+     "lekh",
+     "lekh"
+    ],
+    "imperative_fs": [
+     "לְכִי",
+     "lekhi",
+     "lekhi"
+    ],
+    "imperative_mp": [
+     "לְכוּ",
+     "lekhu",
+     "lekhou"
+    ],
+    "imperative_fp": [
+     "לֵכְנָה",
+     "lekhna",
+     "lekhna"
+    ],
+    "infinitive": [
+     "לָלֶכֶת",
+     "lalekhet",
+     "lalekhet"
+    ]
+   },
+   "translit": {
+    "en": "lalekhet",
+    "fr": "lalekhet"
+   }
+  },
+  {
+   "id": "likhtov",
+   "binyan": "paal",
+   "root": "כתב",
+   "he": "לִכְתֹּב",
+   "tr": {
+    "en": "write",
+    "fr": "écrire"
+   },
+   "free": true,
+   "prep": {
+    "he": "את",
+    "en": "direct object with את (accusative marker)",
+    "fr": "COD avec את (marqueur accusatif)"
+   },
+   "forms": {
+    "present_ms": [
+     "כּוֹתֵב",
+     "kotev",
+     "kotev"
+    ],
+    "present_fs": [
+     "כּוֹתֶבֶת",
+     "kotevet",
+     "kotevet"
+    ],
+    "present_mp": [
+     "כּוֹתְבִים",
+     "kotvim",
+     "kotvim"
+    ],
+    "present_fp": [
+     "כּוֹתְבוֹת",
+     "kotvot",
+     "kotvot"
+    ],
+    "past_1s": [
+     "כָּתַבְתִּי",
+     "katavti",
+     "katavti"
+    ],
+    "past_1p": [
+     "כָּתַבְנוּ",
+     "katavnu",
+     "katavnou"
+    ],
+    "past_2ms": [
+     "כָּתַבְתָּ",
+     "katavta",
+     "katavta"
+    ],
+    "past_2fs": [
+     "כָּתַבְתְּ",
+     "katavt",
+     "katavt"
+    ],
+    "past_2mp": [
+     "כְּתַבְתֶּם",
+     "ketavtem",
+     "ketavtem"
+    ],
+    "past_2fp": [
+     "כְּתַבְתֶּן",
+     "ketavten",
+     "ketavten"
+    ],
+    "past_3ms": [
+     "כָּתַב",
+     "katav",
+     "katav"
+    ],
+    "past_3fs": [
+     "כָּתְבָה",
+     "katva",
+     "katva"
+    ],
+    "past_3pl": [
+     "כָּתְבוּ",
+     "katvu",
+     "katvou"
+    ],
+    "future_1s": [
+     "אֶכְתֹּב",
+     "ekhtov",
+     "ekhtov"
+    ],
+    "future_1p": [
+     "נִכְתֹּב",
+     "nikhtov",
+     "nikhtov"
+    ],
+    "future_2ms": [
+     "תִּכְתֹּב",
+     "tikhtov",
+     "tikhtov"
+    ],
+    "future_2fs": [
+     "תִּכְתְּבִי",
+     "tikhtevi",
+     "tikhtevi"
+    ],
+    "future_2mp": [
+     "תִּכְתְּבוּ",
+     "tikhtevu",
+     "tikhtevou"
+    ],
+    "future_2fp": [
+     "תִּכְתֹּבְנָה",
+     "tikhtovna",
+     "tikhtovna"
+    ],
+    "future_3ms": [
+     "יִכְתֹּב",
+     "yikhtov",
+     "yikhtov"
+    ],
+    "future_3fs": [
+     "תִּכְתֹּב",
+     "tikhtov",
+     "tikhtov"
+    ],
+    "future_3mp": [
+     "יִכְתְּבוּ",
+     "yikhtevu",
+     "yikhtevou"
+    ],
+    "future_3fp": [
+     "תִּכְתֹּבְנָה",
+     "tikhtovna",
+     "tikhtovna"
+    ],
+    "imperative_ms": [
+     "כְּתֹב",
+     "ktov",
+     "ktov"
+    ],
+    "imperative_fs": [
+     "כִּתְבִי",
+     "kitvi",
+     "kitvi"
+    ],
+    "imperative_mp": [
+     "כִּתְבוּ",
+     "kitvu",
+     "kitvou"
+    ],
+    "imperative_fp": [
+     "כְּתֹבְנָה",
+     "ktovna",
+     "ktovna"
+    ],
+    "infinitive": [
+     "לִכְתֹּב",
+     "likhtov",
+     "likhtov"
+    ]
+   },
+   "translit": {
+    "en": "likhtov",
+    "fr": "likhtov"
+   }
+  },
+  {
+   "id": "lekhakot",
+   "binyan": "piel",
+   "root": "חכה",
+   "he": "לְחַכּוֹת",
+   "tr": {
+    "en": "wait",
+    "fr": "attendre"
+   },
+   "free": true,
+   "prep": {
+    "he": "ל, ש",
+    "en": "ל + person/thing awaited; ש + clause",
+    "fr": "COI — ל + personne/chose attendue ; ש + proposition"
+   },
+   "forms": {
+    "present_ms": [
+     "מְחַכֶּה",
+     "mekhake",
+     "mekhake"
+    ],
+    "present_fs": [
+     "מְחַכָּה",
+     "mekhaka",
+     "mekhaka"
+    ],
+    "present_mp": [
+     "מְחַכִּים",
+     "mekhakim",
+     "mekhakim"
+    ],
+    "present_fp": [
+     "מְחַכּוֹת",
+     "mekhakot",
+     "mekhakot"
+    ],
+    "past_1s": [
+     "חִכִּיתִי",
+     "khikiti",
+     "khikiti"
+    ],
+    "past_1p": [
+     "חִכִּינוּ",
+     "khikinu",
+     "khikinou"
+    ],
+    "past_2ms": [
+     "חִכִּיתָ",
+     "khikita",
+     "khikita"
+    ],
+    "past_2fs": [
+     "חִכִּית",
+     "khikit",
+     "khikit"
+    ],
+    "past_2mp": [
+     "חִכִּיתֶם",
+     "khikitem",
+     "khikitem"
+    ],
+    "past_2fp": [
+     "חִכִּיתֶן",
+     "khikiten",
+     "khikiten"
+    ],
+    "past_3ms": [
+     "חִכָּה",
+     "khika",
+     "khika"
+    ],
+    "past_3fs": [
+     "חִכְּתָה",
+     "khiketa",
+     "khiketa"
+    ],
+    "past_3pl": [
+     "חִכּוּ",
+     "khiku",
+     "khikou"
+    ],
+    "future_1s": [
+     "אֲחַכֶּה",
+     "akhake",
+     "akhake"
+    ],
+    "future_1p": [
+     "נְחַכֶּה",
+     "nekhake",
+     "nekhake"
+    ],
+    "future_2ms": [
+     "תְּחַכֶּה",
+     "tekhake",
+     "tekhake"
+    ],
+    "future_2fs": [
+     "תְּחַכִּי",
+     "tekhaki",
+     "tekhaki"
+    ],
+    "future_2mp": [
+     "תְּחַכּוּ",
+     "tekhaku",
+     "tekhakou"
+    ],
+    "future_2fp": [
+     "תְּחַכֶּינָה",
+     "tekhakeyna",
+     "tekhakeyna"
+    ],
+    "future_3ms": [
+     "יְחַכֶּה",
+     "yekhake",
+     "yekhake"
+    ],
+    "future_3fs": [
+     "תְּחַכֶּה",
+     "tekhake",
+     "tekhake"
+    ],
+    "future_3mp": [
+     "יְחַכּוּ",
+     "yekhaku",
+     "yekhakou"
+    ],
+    "future_3fp": [
+     "תְּחַכֶּינָה",
+     "tekhakeyna",
+     "tekhakeyna"
+    ],
+    "imperative_ms": [
+     "חַכֵּה",
+     "khake",
+     "khake"
+    ],
+    "imperative_fs": [
+     "חַכִּי",
+     "khaki",
+     "khaki"
+    ],
+    "imperative_mp": [
+     "חַכּוּ",
+     "khaku",
+     "khakou"
+    ],
+    "imperative_fp": [
+     "חַכֶּינָה",
+     "khakeyna",
+     "khakeyna"
+    ],
+    "infinitive": [
+     "לְחַכּוֹת",
+     "lekhakot",
+     "lekhakot"
+    ]
+   },
+   "translit": {
+    "en": "lekhakot",
+    "fr": "lekhakot"
+   }
+  },
+  {
+   "id": "lavo",
+   "binyan": "paal",
+   "root": "בוא",
+   "he": "לָבוֹא",
+   "tr": {
+    "en": "come",
+    "fr": "venir"
+   }
+  },
+  {
+   "id": "leehov",
+   "binyan": "paal",
+   "root": "אהב",
+   "he": "לֶאֱהֹב",
+   "tr": {
+    "en": "love",
+    "fr": "aimer"
+   }
+  },
+  {
+   "id": "lishtot",
+   "binyan": "paal",
+   "root": "שתה",
+   "he": "לִשְׁתֹּת",
+   "tr": {
+    "en": "drink",
+    "fr": "boire"
+   }
+  },
+  {
+   "id": "likro",
+   "binyan": "paal",
+   "root": "קרא",
+   "he": "לִקְרֹא",
+   "tr": {
+    "en": "read, call",
+    "fr": "lire, appeler"
+   }
+  },
+  {
+   "id": "lirtsot",
+   "binyan": "paal",
+   "root": "רצה",
+   "he": "לִרְצוֹת",
+   "tr": {
+    "en": "want",
+    "fr": "vouloir"
+   },
+   "free": true,
+   "prep": {
+    "he": "",
+    "en": "no preposition (takes direct object or infinitive complement)",
+    "fr": "aucune préposition (COD ou complément à l’infinitif)"
+   },
+   "forms": {
+    "present_ms": [
+     "רוֹצֶה",
+     "rotse",
+     "rotse"
+    ],
+    "present_fs": [
+     "רוֹצָה",
+     "rotsa",
+     "rotsa"
+    ],
+    "present_mp": [
+     "רוֹצִים",
+     "rotsim",
+     "rotsim"
+    ],
+    "present_fp": [
+     "רוֹצוֹת",
+     "rotsot",
+     "rotsot"
+    ],
+    "past_1s": [
+     "רָצִיתִי",
+     "ratsiti",
+     "ratsiti"
+    ],
+    "past_1p": [
+     "רָצִינוּ",
+     "ratsinu",
+     "ratsinou"
+    ],
+    "past_2ms": [
+     "רָצִיתָ",
+     "ratsita",
+     "ratsita"
+    ],
+    "past_2fs": [
+     "רָצִית",
+     "ratsit",
+     "ratsit"
+    ],
+    "past_2mp": [
+     "רְצִיתֶם",
+     "retsitem",
+     "retsitem"
+    ],
+    "past_2fp": [
+     "רְצִיתֶן",
+     "retsiten",
+     "retsiten"
+    ],
+    "past_3ms": [
+     "רָצָה",
+     "ratsa",
+     "ratsa"
+    ],
+    "past_3fs": [
+     "רָצְתָה",
+     "ratsta",
+     "ratsta"
+    ],
+    "past_3pl": [
+     "רָצוּ",
+     "ratsu",
+     "ratsou"
+    ],
+    "future_1s": [
+     "אֶרְצֶה",
+     "ertse",
+     "ertse"
+    ],
+    "future_1p": [
+     "נִרְצֶה",
+     "nirtse",
+     "nirtse"
+    ],
+    "future_2ms": [
+     "תִּרְצֶה",
+     "tirtse",
+     "tirtse"
+    ],
+    "future_2fs": [
+     "תִּרְצִי",
+     "tirtsi",
+     "tirtsi"
+    ],
+    "future_2mp": [
+     "תִּרְצוּ",
+     "tirtsu",
+     "tirtsou"
+    ],
+    "future_2fp": [
+     "תִּרְצֶינָה",
+     "tirtseyna",
+     "tirtseyna"
+    ],
+    "future_3ms": [
+     "יִרְצֶה",
+     "yirtse",
+     "yirtse"
+    ],
+    "future_3fs": [
+     "תִּרְצֶה",
+     "tirtse",
+     "tirtse"
+    ],
+    "future_3mp": [
+     "יִרְצוּ",
+     "yirtsu",
+     "yirtsou"
+    ],
+    "future_3fp": [
+     "תִּרְצֶינָה",
+     "tirtseyna",
+     "tirtseyna"
+    ],
+    "imperative_ms": [
+     "רְצֵה",
+     "retse",
+     "retse"
+    ],
+    "imperative_fs": [
+     "רְצִי",
+     "retsi",
+     "retsi"
+    ],
+    "imperative_mp": [
+     "רְצוּ",
+     "retsu",
+     "retsou"
+    ],
+    "imperative_fp": [
+     "רְצֶינָה",
+     "retseyna",
+     "retseyna"
+    ],
+    "infinitive": [
+     "לִרְצוֹת",
+     "lirtsot",
+     "lirtsot"
+    ]
+   },
+   "translit": {
+    "en": "lirtsot",
+    "fr": "lirtsot"
+   }
+  },
+  {
+   "id": "levashel",
+   "binyan": "piel",
+   "root": "בשל",
+   "he": "לְבַשֵּׁל",
+   "tr": {
+    "en": "cook",
+    "fr": "cuisiner / cuire"
+   }
+  },
+  {
+   "id": "leefot",
+   "binyan": "paal",
+   "root": "אפה",
+   "he": "לֶאֱפוֹת",
+   "tr": {
+    "en": "bake",
+    "fr": "cuire au four"
+   }
+  },
+  {
+   "id": "lilbosh",
+   "binyan": "paal",
+   "root": "לבש",
+   "he": "לִלְבֹּשׁ",
+   "tr": {
+    "en": "wear",
+    "fr": "porter"
+   }
+  },
+  {
+   "id": "linol",
+   "binyan": "paal",
+   "root": "נעל",
+   "he": "לִנְעֹל",
+   "tr": {
+    "en": "wear shoes",
+    "fr": "porter des chaussures"
+   }
+  },
+  {
+   "id": "lakhbosh",
+   "binyan": "paal",
+   "root": "חבש",
+   "he": "לַחְבֹּשׁ",
+   "tr": {
+    "en": "wear hat",
+    "fr": "porter un chapeau"
+   }
+  },
+  {
+   "id": "laanod",
+   "binyan": "paal",
+   "root": "ענד",
+   "he": "לַעֲנֹד",
+   "tr": {
+    "en": "wear ring",
+    "fr": "porter une bague"
+   }
+  },
+  {
+   "id": "lasim",
+   "binyan": "paal",
+   "root": "שים",
+   "he": "לָשִׂים",
+   "tr": {
+    "en": "put",
+    "fr": "mettre / poser"
+   }
+  },
+  {
+   "id": "leharkiv",
+   "binyan": "hifil",
+   "root": "רכב",
+   "he": "לְהַרְכִּיב",
+   "tr": {
+    "en": "wear glasses",
+    "fr": "porter des lunettes"
+   }
+  },
+  {
+   "id": "ligrov",
+   "binyan": "paal",
+   "root": "גרב",
+   "he": "לִגְרֹב",
+   "tr": {
+    "en": "wear socks",
+    "fr": "porter des chaussettes"
+   }
+  },
+  {
+   "id": "litsboa",
+   "binyan": "paal",
+   "root": "צבע",
+   "he": "לִצְבֹּעַ",
+   "tr": {
+    "en": "paint",
+    "fr": "peindre"
+   }
+  },
+  {
+   "id": "lispor",
+   "binyan": "paal",
+   "root": "ספר",
+   "he": "לִסְפֹּר",
+   "tr": {
+    "en": "count",
+    "fr": "compter"
+   }
+  },
+  {
+   "id": "lishol",
+   "binyan": "paal",
+   "root": "שאל",
+   "he": "לִשְׁאֹל",
+   "tr": {
+    "en": "ask",
+    "fr": "demander"
+   }
+  },
+  {
+   "id": "laanot",
+   "binyan": "paal",
+   "root": "ענה",
+   "he": "לַעֲנוֹת",
+   "tr": {
+    "en": "answer",
+    "fr": "répondre"
+   }
+  },
+  {
+   "id": "lilmod",
+   "binyan": "paal",
+   "root": "למד",
+   "he": "לִלְמֹד",
+   "tr": {
+    "en": "learn, study",
+    "fr": "apprendre, étudier"
+   },
+   "free": true,
+   "prep": {
+    "he": "את",
+    "en": "את + direct object",
+    "fr": "COD avec את"
+   },
+   "forms": {
+    "present_ms": [
+     "לוֹמֵד",
+     "lomed",
+     "lomed"
+    ],
+    "present_fs": [
+     "לוֹמֶדֶת",
+     "lomedet",
+     "lomedet"
+    ],
+    "present_mp": [
+     "לוֹמְדִים",
+     "lomdim",
+     "lomdim"
+    ],
+    "present_fp": [
+     "לוֹמְדוֹת",
+     "lomdot",
+     "lomdot"
+    ],
+    "past_1s": [
+     "לָמַדְתִּי",
+     "lamadti",
+     "lamadti"
+    ],
+    "past_1p": [
+     "לָמַדְנוּ",
+     "lamadnu",
+     "lamadnou"
+    ],
+    "past_2ms": [
+     "לָמַדְתָּ",
+     "lamadta",
+     "lamadta"
+    ],
+    "past_2fs": [
+     "לָמַדְתְּ",
+     "lamadt",
+     "lamadt"
+    ],
+    "past_2mp": [
+     "לְמַדְתֶּם",
+     "lemadtem",
+     "lemadtem"
+    ],
+    "past_2fp": [
+     "לְמַדְתֶּן",
+     "lemadten",
+     "lemadten"
+    ],
+    "past_3ms": [
+     "לָמַד",
+     "lamad",
+     "lamad"
+    ],
+    "past_3fs": [
+     "לָמְדָה",
+     "lamda",
+     "lamda"
+    ],
+    "past_3pl": [
+     "לָמְדוּ",
+     "lamdu",
+     "lamdou"
+    ],
+    "future_1s": [
+     "אֶלְמַד",
+     "elmad",
+     "elmad"
+    ],
+    "future_1p": [
+     "נִלְמַד",
+     "nilmad",
+     "nilmad"
+    ],
+    "future_2ms": [
+     "תִּלְמַד",
+     "tilmad",
+     "tilmad"
+    ],
+    "future_2fs": [
+     "תִּלְמְדִי",
+     "tilmedi",
+     "tilmedi"
+    ],
+    "future_2mp": [
+     "תִּלְמְדוּ",
+     "tilmedu",
+     "tilmedou"
+    ],
+    "future_2fp": [
+     "תִּלְמַדְנָה",
+     "tilmadna",
+     "tilmadna"
+    ],
+    "future_3ms": [
+     "יִלְמַד",
+     "yilmad",
+     "yilmad"
+    ],
+    "future_3fs": [
+     "תִּלְמַד",
+     "tilmad",
+     "tilmad"
+    ],
+    "future_3mp": [
+     "יִלְמְדוּ",
+     "yilmedu",
+     "yilmedou"
+    ],
+    "future_3fp": [
+     "תִּלְמַדְנָה",
+     "tilmadna",
+     "tilmadna"
+    ],
+    "imperative_ms": [
+     "לְמַד",
+     "lemad",
+     "lemad"
+    ],
+    "imperative_fs": [
+     "לִמְדִי",
+     "limdi",
+     "limdi"
+    ],
+    "imperative_mp": [
+     "לִמְדוּ",
+     "limdu",
+     "limdou"
+    ],
+    "imperative_fp": [
+     "לְמַדְנָה",
+     "lemadna",
+     "lemadna"
+    ],
+    "infinitive": [
+     "לִלְמֹד",
+     "lilmod",
+     "lilmod"
+    ]
+   },
+   "translit": {
+    "en": "lilmod",
+    "fr": "lilmod"
+   }
+  },
+  {
+   "id": "lelamed",
+   "binyan": "piel",
+   "root": "למד",
+   "he": "לְלַמֵּד",
+   "tr": {
+    "en": "teach",
+    "fr": "enseigner"
+   },
+   "free": true,
+   "prep": {
+    "he": "את",
+    "en": "את + direct object",
+    "fr": "COD avec את"
+   },
+   "forms": {
+    "present_ms": [
+     "מְלַמֵּד",
+     "melamed",
+     "melamed"
+    ],
+    "present_fs": [
+     "מְלַמֶּדֶת",
+     "melamedet",
+     "melamedet"
+    ],
+    "present_mp": [
+     "מְלַמְּדִים",
+     "melamdim",
+     "melamdim"
+    ],
+    "present_fp": [
+     "מְלַמְּדוֹת",
+     "melamdot",
+     "melamdot"
+    ],
+    "past_1s": [
+     "לִמַּדְתִּי",
+     "limadti",
+     "limadti"
+    ],
+    "past_1p": [
+     "לִמַּדְנוּ",
+     "limadnu",
+     "limadnou"
+    ],
+    "past_2ms": [
+     "לִמַּדְתָּ",
+     "limadta",
+     "limadta"
+    ],
+    "past_2fs": [
+     "לִמַּדְתְּ",
+     "limadt",
+     "limadt"
+    ],
+    "past_2mp": [
+     "לִמַּדְתֶּם",
+     "limadtem",
+     "limadtem"
+    ],
+    "past_2fp": [
+     "לִמַּדְתֶּן",
+     "limadten",
+     "limadten"
+    ],
+    "past_3ms": [
+     "לִמֵּד",
+     "limed",
+     "limed"
+    ],
+    "past_3fs": [
+     "לִמְּדָה",
+     "limda",
+     "limda"
+    ],
+    "past_3pl": [
+     "לִמְּדוּ",
+     "limdu",
+     "limdou"
+    ],
+    "future_1s": [
+     "אֲלַמֵּד",
+     "alamed",
+     "alamed"
+    ],
+    "future_1p": [
+     "נְלַמֵּד",
+     "nelamed",
+     "nelamed"
+    ],
+    "future_2ms": [
+     "תְּלַמֵּד",
+     "telamed",
+     "telamed"
+    ],
+    "future_2fs": [
+     "תְּלַמְּדִי",
+     "telamdi",
+     "telamdi"
+    ],
+    "future_2mp": [
+     "תְּלַמְּדוּ",
+     "telamdu",
+     "telamdou"
+    ],
+    "future_2fp": [
+     "תְּלַמֵּדְנָה",
+     "telamedna",
+     "telamedna"
+    ],
+    "future_3ms": [
+     "יְלַמֵּד",
+     "yelamed",
+     "yelamed"
+    ],
+    "future_3fs": [
+     "תְּלַמֵּד",
+     "telamed",
+     "telamed"
+    ],
+    "future_3mp": [
+     "יְלַמְּדוּ",
+     "yelamdu",
+     "yelamdou"
+    ],
+    "future_3fp": [
+     "תְּלַמֵּדְנָה",
+     "telamedna",
+     "telamedna"
+    ],
+    "imperative_ms": [
+     "לַמֵּד",
+     "lamed",
+     "lamed"
+    ],
+    "imperative_fs": [
+     "לַמְּדִי",
+     "lamdi",
+     "lamdi"
+    ],
+    "imperative_mp": [
+     "לַמְּדוּ",
+     "lamdu",
+     "lamdou"
+    ],
+    "imperative_fp": [
+     "לַמֵּדְנָה",
+     "lamedna",
+     "lamedna"
+    ],
+    "infinitive": [
+     "לְלַמֵּד",
+     "lelamed",
+     "lelamed"
+    ]
+   },
+   "translit": {
+    "en": "lelamed",
+    "fr": "lelamed"
+   }
+  },
+  {
+   "id": "letargel",
+   "binyan": "piel",
+   "root": "תרגל",
+   "he": "לְתַרְגֵּל",
+   "tr": {
+    "en": "practice",
+    "fr": "pratiquer, s’entraîner à"
+   }
+  },
+  {
+   "id": "letayel",
+   "binyan": "piel",
+   "root": "טיל",
+   "he": "לְטַיֵּל",
+   "tr": {
+    "en": "travel",
+    "fr": "voyager / se promener"
+   }
+  },
+  {
+   "id": "lirkov",
+   "binyan": "paal",
+   "root": "רכב",
+   "he": "לִרְכֹּב",
+   "tr": {
+    "en": "ride",
+    "fr": "monter (à cheval/vélo), rouler"
+   }
+  },
+  {
+   "id": "linhog",
+   "binyan": "paal",
+   "root": "נהג",
+   "he": "לִנְהֹג",
+   "tr": {
+    "en": "drive",
+    "fr": "conduire"
+   }
+  },
+  {
+   "id": "lashut",
+   "binyan": "paal",
+   "root": "שוט",
+   "he": "לָשׁוּט",
+   "tr": {
+    "en": "sail",
+    "fr": "naviguer"
+   }
+  },
+  {
+   "id": "latus",
+   "binyan": "paal",
+   "root": "טוס",
+   "he": "לָטוּס",
+   "tr": {
+    "en": "fly",
+    "fr": "voler"
+   }
+  },
+  {
+   "id": "linsoa",
+   "binyan": "paal",
+   "root": "נסע",
+   "he": "לִנְסֹעַ",
+   "tr": {
+    "en": "ride in",
+    "fr": "voyager, rouler"
+   }
+  },
+  {
+   "id": "lehaflig",
+   "binyan": "hifil",
+   "root": "פלג",
+   "he": "לְהַפְלִיג",
+   "tr": {
+    "en": "sail",
+    "fr": "naviguer, prendre la mer"
+   }
+  },
+  {
+   "id": "liskhot",
+   "binyan": "paal",
+   "root": "שחה",
+   "he": "לִשְׂחוֹת",
+   "tr": {
+    "en": "swim",
+    "fr": "nager"
+   }
+  },
+  {
+   "id": "lomar",
+   "binyan": "paal",
+   "root": "אמר",
+   "he": "לוֹמַר",
+   "tr": {
+    "en": "tell (info) (present, past), say",
+    "fr": "dire"
+   }
+  },
+  {
+   "id": "lagaat",
+   "binyan": "paal",
+   "root": "נגע",
+   "he": "לָגַעַת",
+   "tr": {
+    "en": "touch",
+    "fr": "toucher"
+   }
+  },
+  {
+   "id": "lishon",
+   "binyan": "paal",
+   "root": "ישן",
+   "he": "לִישֹׁן",
+   "tr": {
+    "en": "sleep",
+    "fr": "dormir"
+   }
+  },
+  {
+   "id": "lishmoa",
+   "binyan": "paal",
+   "root": "שמע",
+   "he": "לִשְׁמֹעַ",
+   "tr": {
+    "en": "hear",
+    "fr": "entendre"
+   }
+  },
+  {
+   "id": "laavod",
+   "binyan": "paal",
+   "root": "עבד",
+   "he": "לַעֲבֹד",
+   "tr": {
+    "en": "work",
+    "fr": "travailler"
+   }
+  },
+  {
+   "id": "limtso",
+   "binyan": "paal",
+   "root": "מצא",
+   "he": "לִמְצֹא",
+   "tr": {
+    "en": "find",
+    "fr": "trouver"
+   }
+  },
+  {
+   "id": "laasot",
+   "binyan": "paal",
+   "root": "עשה",
+   "he": "לַעֲשׂוֹת",
+   "tr": {
+    "en": "do",
+    "fr": "faire"
+   }
+  },
+  {
+   "id": "litmokh",
+   "binyan": "paal",
+   "root": "תמך",
+   "he": "לִתְמֹךְ",
+   "tr": {
+    "en": "support",
+    "fr": "soutenir"
+   }
+  },
+  {
+   "id": "lakakhat",
+   "binyan": "paal",
+   "root": "לקח",
+   "he": "לָקַחַת",
+   "tr": {
+    "en": "take",
+    "fr": "prendre"
+   }
+  },
+  {
+   "id": "ladaat",
+   "binyan": "paal",
+   "root": "ידע",
+   "he": "לָדַעַת",
+   "tr": {
+    "en": "know",
+    "fr": "savoir"
+   }
+  },
+  {
+   "id": "limkor",
+   "binyan": "paal",
+   "root": "מכר",
+   "he": "לִמְכֹּר",
+   "tr": {
+    "en": "sell",
+    "fr": "vendre"
+   }
+  },
+  {
+   "id": "liknot",
+   "binyan": "paal",
+   "root": "קנה",
+   "he": "לִקְנוֹת",
+   "tr": {
+    "en": "buy",
+    "fr": "acheter"
+   }
+  },
+  {
+   "id": "lirshom",
+   "binyan": "paal",
+   "root": "רשם",
+   "he": "לִרְשֹׁם",
+   "tr": {
+    "en": "write down",
+    "fr": "noter, inscrire"
+   }
+  },
+  {
+   "id": "likhov",
+   "binyan": "paal",
+   "root": "כאב",
+   "he": "לִכְאֹב",
+   "tr": {
+    "en": "hurt",
+    "fr": "faire mal"
+   }
+  },
+  {
+   "id": "liftoakh",
+   "binyan": "paal",
+   "root": "פתח",
+   "he": "לִפְתֹּחַ",
+   "tr": {
+    "en": "open",
+    "fr": "ouvrir"
+   }
+  },
+  {
+   "id": "latet",
+   "binyan": "paal",
+   "root": "נתן",
+   "he": "לָתֵת",
+   "tr": {
+    "en": "give",
+    "fr": "donner"
+   }
+  },
+  {
+   "id": "lisgor",
+   "binyan": "paal",
+   "root": "סגר",
+   "he": "לִסְגֹּר",
+   "tr": {
+    "en": "close",
+    "fr": "fermer"
+   }
+  },
+  {
+   "id": "likhos",
+   "binyan": "paal",
+   "root": "כעס",
+   "he": "לִכְעֹס",
+   "tr": {
+    "en": "angry",
+    "fr": "se fâcher, être en colère"
+   }
+  },
+  {
+   "id": "lishmor",
+   "binyan": "paal",
+   "root": "שמר",
+   "he": "לִשְׁמֹר",
+   "tr": {
+    "en": "keep, guard",
+    "fr": "garder, protéger"
+   }
+  },
+  {
+   "id": "lakhshov",
+   "binyan": "paal",
+   "root": "חשב",
+   "he": "לַחְשֹׁב",
+   "tr": {
+    "en": "think",
+    "fr": "penser, croire"
+   }
+  },
+  {
+   "id": "lakhazor",
+   "binyan": "paal",
+   "root": "חזר",
+   "he": "לַחֲזֹר",
+   "tr": {
+    "en": "return, repeat",
+    "fr": "revenir, répéter"
+   }
+  },
+  {
+   "id": "lizkor",
+   "binyan": "paal",
+   "root": "זכר",
+   "he": "לִזְכֹּר",
+   "tr": {
+    "en": "remember",
+    "fr": "se rappeler"
+   }
+  },
+  {
+   "id": "laruts",
+   "binyan": "paal",
+   "root": "רוץ",
+   "he": "לָרוּץ",
+   "tr": {
+    "en": "run",
+    "fr": "courir"
+   }
+  },
+  {
+   "id": "likhlol",
+   "binyan": "paal",
+   "root": "כלל",
+   "he": "לִכְלֹל",
+   "tr": {
+    "en": "include",
+    "fr": "inclure"
+   }
+  },
+  {
+   "id": "lanuakh",
+   "binyan": "paal",
+   "root": "נוח",
+   "he": "לָנוּחַ",
+   "tr": {
+    "en": "rest",
+    "fr": "se reposer"
+   }
+  },
+  {
+   "id": "lashir",
+   "binyan": "paal",
+   "root": "שיר",
+   "he": "לָשִׁיר",
+   "tr": {
+    "en": "sing",
+    "fr": "chanter"
+   }
+  },
+  {
+   "id": "lirkod",
+   "binyan": "paal",
+   "root": "רקד",
+   "he": "לִרְקֹד",
+   "tr": {
+    "en": "dance",
+    "fr": "danser"
+   }
+  },
+  {
+   "id": "laazor",
+   "binyan": "paal",
+   "root": "עזר",
+   "he": "לַעֲזֹר",
+   "tr": {
+    "en": "help",
+    "fr": "aider"
+   }
+  },
+  {
+   "id": "lisno",
+   "binyan": "paal",
+   "root": "שנא",
+   "he": "לִשְׂנֹא",
+   "tr": {
+    "en": "hate",
+    "fr": "détester"
+   }
+  },
+  {
+   "id": "laazov",
+   "binyan": "paal",
+   "root": "עזב",
+   "he": "לַעֲזֹב",
+   "tr": {
+    "en": "leave",
+    "fr": "laisser / quitter / partir"
+   }
+  },
+  {
+   "id": "lishkol",
+   "binyan": "paal",
+   "root": "שקל",
+   "he": "לִשְׁקֹל",
+   "tr": {
+    "en": "consider",
+    "fr": "considérer"
+   }
+  },
+  {
+   "id": "lakhtom",
+   "binyan": "paal",
+   "root": "חתם",
+   "he": "לַחְתֹּם",
+   "tr": {
+    "en": "sign",
+    "fr": "signer"
+   }
+  },
+  {
+   "id": "laamod",
+   "binyan": "paal",
+   "root": "עמד",
+   "he": "לַעֲמֹד",
+   "tr": {
+    "en": "stand",
+    "fr": "se tenir debout"
+   }
+  },
+  {
+   "id": "lashevet",
+   "binyan": "paal",
+   "root": "ישב",
+   "he": "לָשֶׁבֶת",
+   "tr": {
+    "en": "sit",
+    "fr": "s’asseoir"
+   }
+  },
+  {
+   "id": "lishkoakh",
+   "binyan": "paal",
+   "root": "שכח",
+   "he": "לִשְׁכֹּחַ",
+   "tr": {
+    "en": "forget",
+    "fr": "oublier"
+   }
+  },
+  {
+   "id": "lakhtok",
+   "binyan": "paal",
+   "root": "חתך",
+   "he": "לַחְתֹּךְ",
+   "tr": {
+    "en": "cut",
+    "fr": "couper"
+   }
+  },
+  {
+   "id": "litsor",
+   "binyan": "paal",
+   "root": "יצר",
+   "he": "לִיצֹר",
+   "tr": {
+    "en": "create",
+    "fr": "créer"
+   }
+  },
+  {
+   "id": "ligdol",
+   "binyan": "paal",
+   "root": "גדל",
+   "he": "לִגְדֹּל",
+   "tr": {
+    "en": "grow",
+    "fr": "grandir"
+   }
+  },
+  {
+   "id": "livhot",
+   "binyan": "paal",
+   "root": "בהה",
+   "he": "לִבְהוֹת",
+   "tr": {
+    "en": "stare",
+    "fr": "fixer du regard"
+   }
+  },
+  {
+   "id": "livdok",
+   "binyan": "paal",
+   "root": "בדק",
+   "he": "לִבְדֹּק",
+   "tr": {
+    "en": "check",
+    "fr": "vérifier"
+   }
+  },
+  {
+   "id": "lishloakh",
+   "binyan": "paal",
+   "root": "שלח",
+   "he": "לִשְׁלֹחַ",
+   "tr": {
+    "en": "send",
+    "fr": "envoyer"
+   }
+  },
+  {
+   "id": "liskor",
+   "binyan": "paal",
+   "root": "שכר",
+   "he": "לִשְׂכֹּר",
+   "tr": {
+    "en": "rent",
+    "fr": "louer"
+   }
+  },
+  {
+   "id": "latset",
+   "binyan": "paal",
+   "root": "יצא",
+   "he": "לָצֵאת",
+   "tr": {
+    "en": "go out",
+    "fr": "sortir"
+   }
+  },
+  {
+   "id": "litspot",
+   "binyan": "paal",
+   "root": "צפה",
+   "he": "לִצְפּוֹת",
+   "tr": {
+    "en": "watch",
+    "fr": "regarder"
+   }
+  },
+  {
+   "id": "lehakir",
+   "binyan": "hifil",
+   "root": "נכר",
+   "he": "לְהַכִּיר",
+   "tr": {
+    "en": "know",
+    "fr": "connaître"
+   }
+  },
+  {
+   "id": "lahafokh",
+   "binyan": "paal",
+   "root": "הפך",
+   "he": "לַהֲפֹךְ",
+   "tr": {
+    "en": "become",
+    "fr": "devenir"
+   }
+  },
+  {
+   "id": "lishbor",
+   "binyan": "paal",
+   "root": "שבר",
+   "he": "לִשְׁבֹּר",
+   "tr": {
+    "en": "break",
+    "fr": "casser"
+   }
+  },
+  {
+   "id": "lignov",
+   "binyan": "paal",
+   "root": "גנב",
+   "he": "לִגְנֹב",
+   "tr": {
+    "en": "steal",
+    "fr": "voler"
+   }
+  },
+  {
+   "id": "livroakh",
+   "binyan": "paal",
+   "root": "ברח",
+   "he": "לִבְרֹחַ",
+   "tr": {
+    "en": "run away",
+    "fr": "s’enfuir"
+   }
+  },
+  {
+   "id": "lvakesh",
+   "binyan": "piel",
+   "root": "בקש",
+   "he": "לְבַקֵּשׁ",
+   "tr": {
+    "en": "ask for",
+    "fr": "demander"
+   }
+  },
+  {
+   "id": "leshalem",
+   "binyan": "piel",
+   "root": "שלם",
+   "he": "לְשַׁלֵּם",
+   "tr": {
+    "en": "pay",
+    "fr": "payer"
+   },
+   "free": true,
+   "prep": {
+    "he": "to ל, for על",
+    "en": "ל + recipient (to whom); על + item paid for (for what)",
+    "fr": "COI avec ל pour le destinataire ; על + ce qui est payé"
+   },
+   "forms": {
+    "present_ms": [
+     "מְשַׁלֵּם",
+     "meshalem",
+     "mechalem"
+    ],
+    "present_fs": [
+     "מְשַׁלֶּמֶת",
+     "meshalemet",
+     "mechalemet"
+    ],
+    "present_mp": [
+     "מְשַׁלְּמִים",
+     "meshalmim",
+     "mechalmim"
+    ],
+    "present_fp": [
+     "מְשַׁלְּמוֹת",
+     "meshalmot",
+     "mechalmot"
+    ],
+    "past_1s": [
+     "שִׁלַּמְתִּי",
+     "shilamti",
+     "chilamti"
+    ],
+    "past_1p": [
+     "שִׁלַּמְנוּ",
+     "shilamnu",
+     "chilamnou"
+    ],
+    "past_2ms": [
+     "שִׁלַּמְתָּ",
+     "shilamta",
+     "chilamta"
+    ],
+    "past_2fs": [
+     "שִׁלַּמְתְּ",
+     "shilamt",
+     "chilamt"
+    ],
+    "past_2mp": [
+     "שִׁלַּמְתֶּם",
+     "shilamtem",
+     "chilamtem"
+    ],
+    "past_2fp": [
+     "שִׁלַּמְתֶּן",
+     "shilamten",
+     "chilamten"
+    ],
+    "past_3ms": [
+     "שִׁלֵּם",
+     "shilem",
+     "chilem"
+    ],
+    "past_3fs": [
+     "שִׁלְּמָה",
+     "shilma",
+     "chilma"
+    ],
+    "past_3pl": [
+     "שִׁלְּמוּ",
+     "shilmu",
+     "chilmou"
+    ],
+    "future_1s": [
+     "אֲשַׁלֵּם",
+     "ashalem",
+     "achalem"
+    ],
+    "future_1p": [
+     "נְשַׁלֵּם",
+     "neshalem",
+     "nechalem"
+    ],
+    "future_2ms": [
+     "תְּשַׁלֵּם",
+     "teshalem",
+     "techalem"
+    ],
+    "future_2fs": [
+     "תְּשַׁלְּמִי",
+     "teshalmi",
+     "techalmi"
+    ],
+    "future_2mp": [
+     "תְּשַׁלְּמוּ",
+     "teshalmu",
+     "techalmou"
+    ],
+    "future_2fp": [
+     "תְּשַׁלֵּמְנָה",
+     "teshalemna",
+     "techalemna"
+    ],
+    "future_3ms": [
+     "יְשַׁלֵּם",
+     "yeshalem",
+     "yechalem"
+    ],
+    "future_3fs": [
+     "תְּשַׁלֵּם",
+     "teshalem",
+     "techalem"
+    ],
+    "future_3mp": [
+     "יְשַׁלְּמוּ",
+     "yeshalmu",
+     "yechalmou"
+    ],
+    "future_3fp": [
+     "תְּשַׁלֵּמְנָה",
+     "teshalemna",
+     "techalemna"
+    ],
+    "imperative_ms": [
+     "שַׁלֵּם",
+     "shalem",
+     "chalem"
+    ],
+    "imperative_fs": [
+     "שַׁלְּמִי",
+     "shalmi",
+     "chalmi"
+    ],
+    "imperative_mp": [
+     "שַׁלְּמוּ",
+     "shalmu",
+     "chalmou"
+    ],
+    "imperative_fp": [
+     "שַׁלֵּמְנָה",
+     "shalemna",
+     "chalemna"
+    ],
+    "infinitive": [
+     "לְשַׁלֵּם",
+     "leshalem",
+     "lechalem"
+    ]
+   },
+   "translit": {
+    "en": "leshalem",
+    "fr": "lechalem"
+   }
+  },
+  {
+   "id": "lefaspes",
+   "binyan": "piel",
+   "root": "פספס",
+   "he": "לְפַסְפֵס",
+   "tr": {
+    "en": "miss",
+    "fr": "rater"
+   }
+  },
+  {
+   "id": "lesakhek",
+   "binyan": "piel",
+   "root": "שחק",
+   "he": "לְשַׂחֵק",
+   "tr": {
+    "en": "act, play",
+    "fr": "jouer, interpréter"
+   }
+  },
+  {
+   "id": "lesaper",
+   "binyan": "piel",
+   "root": "ספר",
+   "he": "לְסַפֵּר",
+   "tr": {
+    "en": "tell (story)",
+    "fr": "raconter"
+   }
+  },
+  {
+   "id": "leatsev",
+   "binyan": "piel",
+   "root": "עצב",
+   "he": "לְעַצֵּב",
+   "tr": {
+    "en": "design",
+    "fr": "concevoir"
+   }
+  },
+  {
+   "id": "leshanot",
+   "binyan": "piel",
+   "root": "שנה",
+   "he": "לְשַׁנּוֹת",
+   "tr": {
+    "en": "change",
+    "fr": "changer"
+   }
+  },
+  {
+   "id": "lenasot",
+   "binyan": "piel",
+   "root": "נסה",
+   "he": "לְנַסּוֹת",
+   "tr": {
+    "en": "try",
+    "fr": "essayer"
+   }
+  },
+  {
+   "id": "lekavot",
+   "binyan": "piel",
+   "root": "קוה",
+   "he": "לְקַוּוֹת",
+   "tr": {
+    "en": "hope",
+    "fr": "espérer"
+   }
+  },
+  {
+   "id": "lekhappes",
+   "binyan": "piel",
+   "root": "חפש",
+   "he": "לְחַפֵּשׂ",
+   "tr": {
+    "en": "search",
+    "fr": "chercher"
+   }
+  },
+  {
+   "id": "legadel",
+   "binyan": "piel",
+   "root": "גדל",
+   "he": "לְגַדֵּל",
+   "tr": {
+    "en": "grow",
+    "fr": "élever"
+   }
+  },
+  {
+   "id": "lesamen",
+   "binyan": "piel",
+   "root": "סמן",
+   "he": "לְסַמֵּן",
+   "tr": {
+    "en": "ב mark, ל signal",
+    "fr": "marquer / signaler"
+   }
+  },
+  {
+   "id": "leakhel",
+   "binyan": "piel",
+   "root": "אחל",
+   "he": "לְאַחֵל",
+   "tr": {
+    "en": "wish",
+    "fr": "souhaiter"
+   }
+  },
+  {
+   "id": "learbev",
+   "binyan": "piel",
+   "root": "ערבב",
+   "he": "לְעַרְבֵּב",
+   "tr": {
+    "en": "mix",
+    "fr": "mélanger"
+   }
+  },
+  {
+   "id": "lekhabbed",
+   "binyan": "piel",
+   "root": "כבד",
+   "he": "לְכַבֵּד",
+   "tr": {
+    "en": "respect",
+    "fr": "respecter"
+   }
+  },
+  {
+   "id": "lesader",
+   "binyan": "piel",
+   "root": "סדר",
+   "he": "לְסַדֵּר",
+   "tr": {
+    "en": "organize",
+    "fr": "organiser"
+   }
+  },
+  {
+   "id": "leyabesh",
+   "binyan": "piel",
+   "root": "יבש",
+   "he": "לְיַבֵּשׁ",
+   "tr": {
+    "en": "dry",
+    "fr": "sécher"
+   }
+  },
+  {
+   "id": "leyabbe",
+   "binyan": "piel",
+   "root": "יבא",
+   "he": "לְיַבֵּא",
+   "tr": {
+    "en": "import",
+    "fr": "importer"
+   }
+  },
+  {
+   "id": "lekhamem",
+   "binyan": "piel",
+   "root": "חמם",
+   "he": "לְחַמֵּם",
+   "tr": {
+    "en": "heat",
+    "fr": "chauffer"
+   }
+  },
+  {
+   "id": "lemale",
+   "binyan": "piel",
+   "root": "מלא",
+   "he": "לְמַלֵּא",
+   "tr": {
+    "en": "fill",
+    "fr": "remplir"
+   }
+  },
+  {
+   "id": "levazbez",
+   "binyan": "piel",
+   "root": "בזבז",
+   "he": "לְבַזְבֵּז",
+   "tr": {
+    "en": "waste",
+    "fr": "gaspiller"
+   }
+  },
+  {
+   "id": "levaker",
+   "binyan": "piel",
+   "root": "בקר",
+   "he": "לְבַקֵּר",
+   "tr": {
+    "en": "visit ב criticize את",
+    "fr": "rendre visite / critiquer"
+   }
+  },
+  {
+   "id": "lekabel",
+   "binyan": "piel",
+   "root": "קבל",
+   "he": "לְקַבֵּל",
+   "tr": {
+    "en": "receive",
+    "fr": "recevoir"
+   },
+   "free": true,
+   "prep": {
+    "he": "",
+    "en": "direct object (no preposition)",
+    "fr": "COD, sans préposition"
+   },
+   "forms": {
+    "present_ms": [
+     "מְקַבֵּל",
+     "mekabel",
+     "mekabel"
+    ],
+    "present_fs": [
+     "מְקַבֶּלֶת",
+     "mekabelet",
+     "mekabelet"
+    ],
+    "present_mp": [
+     "מְקַבְּלִים",
+     "mekab'lim",
+     "mekab'lim"
+    ],
+    "present_fp": [
+     "מְקַבְּלוֹת",
+     "mekab'lot",
+     "mekab'lot"
+    ],
+    "past_1s": [
+     "קִבַּלְתִּי",
+     "kibalti",
+     "kibalti"
+    ],
+    "past_1p": [
+     "קִבַּלְנוּ",
+     "kibalnu",
+     "kibalnou"
+    ],
+    "past_2ms": [
+     "קִבַּלְתָּ",
+     "kibalta",
+     "kibalta"
+    ],
+    "past_2fs": [
+     "קִבַּלְתְּ",
+     "kibalt",
+     "kibalt"
+    ],
+    "past_2mp": [
+     "קִבַּלְתֶּם",
+     "kibaltem",
+     "kibaltem"
+    ],
+    "past_2fp": [
+     "קִבַּלְתֶּן",
+     "kibalten",
+     "kibalten"
+    ],
+    "past_3ms": [
+     "קִבֵּל",
+     "kibel",
+     "kibel"
+    ],
+    "past_3fs": [
+     "קִבְּלָה",
+     "kib'la",
+     "kib'la"
+    ],
+    "past_3pl": [
+     "קִבְּלוּ",
+     "kib'lu",
+     "kib'lou"
+    ],
+    "future_1s": [
+     "אֲקַבֵּל",
+     "akabel",
+     "akabel"
+    ],
+    "future_1p": [
+     "נְקַבֵּל",
+     "nekabel",
+     "nekabel"
+    ],
+    "future_2ms": [
+     "תְּקַבֵּל",
+     "tekabel",
+     "tekabel"
+    ],
+    "future_2fs": [
+     "תְּקַבְּלִי",
+     "tekab'li",
+     "tekab'li"
+    ],
+    "future_2mp": [
+     "תְּקַבְּלוּ",
+     "tekab'lu",
+     "tekab'lou"
+    ],
+    "future_2fp": [
+     "תְּקַבֵּלְנָה",
+     "tekabelna",
+     "tekabelna"
+    ],
+    "future_3ms": [
+     "יְקַבֵּל",
+     "yekabel",
+     "yekabel"
+    ],
+    "future_3fs": [
+     "תְּקַבֵּל",
+     "tekabel",
+     "tekabel"
+    ],
+    "future_3mp": [
+     "יְקַבְּלוּ",
+     "yekab'lu",
+     "yekab'lou"
+    ],
+    "future_3fp": [
+     "תְּקַבֵּלְנָה",
+     "tekabelna",
+     "tekabelna"
+    ],
+    "imperative_ms": [
+     "קַבֵּל",
+     "kabel",
+     "kabel"
+    ],
+    "imperative_fs": [
+     "קַבְּלִי",
+     "kab'li",
+     "kab'li"
+    ],
+    "imperative_mp": [
+     "קַבְּלוּ",
+     "kab'lu",
+     "kab'lou"
+    ],
+    "imperative_fp": [
+     "קַבֵּלְנָה",
+     "kabelna",
+     "kabelna"
+    ],
+    "infinitive": [
+     "לְקַבֵּל",
+     "lekabel",
+     "lekabel"
+    ]
+   },
+   "translit": {
+    "en": "lekabel",
+    "fr": "lekabel"
+   }
+  },
+  {
+   "id": "lerakhem",
+   "binyan": "piel",
+   "root": "רחם",
+   "he": "לְרַחֵם",
+   "tr": {
+    "en": "pity",
+    "fr": "avoir pitié"
+   }
+  },
+  {
+   "id": "lekane",
+   "binyan": "piel",
+   "root": "קנא",
+   "he": "לְקַנֵּא",
+   "tr": {
+    "en": "feel jealous",
+    "fr": "être jaloux"
+   }
+  },
+  {
+   "id": "letapes",
+   "binyan": "piel",
+   "root": "טפס",
+   "he": "לְטַפֵּס",
+   "tr": {
+    "en": "climb",
+    "fr": "grimper"
+   }
+  },
+  {
+   "id": "lenatseakh",
+   "binyan": "piel",
+   "root": "נצח",
+   "he": "לְנַצֵּחַ",
+   "tr": {
+    "en": "win",
+    "fr": "vaincre"
+   }
+  },
+  {
+   "id": "leamen",
+   "binyan": "piel",
+   "root": "אמן",
+   "he": "לְאַמֵּן",
+   "tr": {
+    "en": "train",
+    "fr": "entraîner / former"
+   }
+  },
+  {
+   "id": "leshakker",
+   "binyan": "piel",
+   "root": "שקר",
+   "he": "לְשַׁקֵּר",
+   "tr": {
+    "en": "lie",
+    "fr": "mentir"
+   }
+  },
+  {
+   "id": "leakher",
+   "binyan": "piel",
+   "root": "אחר",
+   "he": "לְאַחֵר",
+   "tr": {
+    "en": "late",
+    "fr": "être en retard / tarder"
+   }
+  },
+  {
+   "id": "lesapek",
+   "binyan": "piel",
+   "root": "ספק",
+   "he": "לְסַפֵּק",
+   "tr": {
+    "en": "satisfy",
+    "fr": "satisfaire"
+   }
+  },
+  {
+   "id": "lesayem",
+   "binyan": "piel",
+   "root": "סים",
+   "he": "לְסַיֵּם",
+   "tr": {
+    "en": "finish",
+    "fr": "finir / terminer"
+   }
+  },
+  {
+   "id": "leshakhnea",
+   "binyan": "piel",
+   "root": "שכנע",
+   "he": "לְשַׁכְנֵעַ",
+   "tr": {
+    "en": "convince",
+    "fr": "convaincre"
+   }
+  },
+  {
+   "id": "leabed",
+   "binyan": "piel",
+   "root": "אבד",
+   "he": "לְאַבֵּד",
+   "tr": {
+    "en": "lose",
+    "fr": "perdre"
+   }
+  },
+  {
+   "id": "letsalem",
+   "binyan": "piel",
+   "root": "צלם",
+   "he": "לְצַלֵּם",
+   "tr": {
+    "en": "photograph",
+    "fr": "photographier"
+   }
+  },
+  {
+   "id": "leamets",
+   "binyan": "piel",
+   "root": "אמץ",
+   "he": "לְאַמֵּץ",
+   "tr": {
+    "en": "adopt",
+    "fr": "adopter"
+   }
+  },
+  {
+   "id": "lefakhed",
+   "binyan": "piel",
+   "root": "פחד",
+   "he": "לְפַחֵד",
+   "tr": {
+    "en": "scared of מ that ש",
+    "fr": "avoir peur / craindre"
+   }
+  },
+  {
+   "id": "leasher",
+   "binyan": "piel",
+   "root": "אשר",
+   "he": "לְאַשֵּׁר",
+   "tr": {
+    "en": "approve",
+    "fr": "approuver"
+   }
+  },
+  {
+   "id": "legalot",
+   "binyan": "piel",
+   "root": "גלה",
+   "he": "לְגַלּוֹת",
+   "tr": {
+    "en": "discover",
+    "fr": "découvrir"
+   }
+  },
+  {
+   "id": "legaleakh",
+   "binyan": "piel",
+   "root": "גלח",
+   "he": "לְגַלֵּחַ",
+   "tr": {
+    "en": "shave",
+    "fr": "raser / se raser"
+   }
+  },
+  {
+   "id": "lekhadesh",
+   "binyan": "piel",
+   "root": "חדש",
+   "he": "לְחַדֵּשׁ",
+   "tr": {
+    "en": "renew",
+    "fr": "renouveler"
+   }
+  },
+  {
+   "id": "levarekh",
+   "binyan": "piel",
+   "root": "ברך",
+   "he": "לְבָרֵךְ",
+   "tr": {
+    "en": "bless, greet",
+    "fr": "bénir, saluer"
+   }
+  },
+  {
+   "id": "letaer",
+   "binyan": "piel",
+   "root": "תאר",
+   "he": "לְתָאֵר",
+   "tr": {
+    "en": "describe",
+    "fr": "décrire"
+   }
+  },
+  {
+   "id": "letaken",
+   "binyan": "piel",
+   "root": "תקן",
+   "he": "לְתַקֵּן",
+   "tr": {
+    "en": "repair",
+    "fr": "réparer"
+   }
+  },
+  {
+   "id": "lihyot",
+   "binyan": "paal",
+   "root": "היה",
+   "he": "לִהְיוֹת",
+   "tr": {
+    "en": "be",
+    "fr": "être"
+   }
+  },
+  {
+   "id": "lehakshiv",
+   "binyan": "hifil",
+   "root": "קשב",
+   "he": "לְהַקְשִׁיב",
+   "tr": {
+    "en": "listen",
+    "fr": "écouter"
+   }
+  },
+  {
+   "id": "leharot",
+   "binyan": "hifil",
+   "root": "ראה",
+   "he": "לְהַרְאוֹת",
+   "tr": {
+    "en": "show",
+    "fr": "montrer"
+   }
+  },
+  {
+   "id": "lehaazin",
+   "binyan": "hifil",
+   "root": "אזן",
+   "he": "לְהַאֲזִין",
+   "tr": {
+    "en": "listen to music",
+    "fr": "écouter (de la musique, etc.)"
+   }
+  },
+  {
+   "id": "lehatsia",
+   "binyan": "hifil",
+   "root": "יצע",
+   "he": "לְהַצִּיעַ",
+   "tr": {
+    "en": "suggest",
+    "fr": "suggérer / proposer"
+   }
+  },
+  {
+   "id": "lehargish",
+   "binyan": "hifil",
+   "root": "רגש",
+   "he": "לְהַרְגִּישׁ",
+   "tr": {
+    "en": "feel",
+    "fr": "sentir / ressentir"
+   }
+  },
+  {
+   "id": "lehakhin",
+   "binyan": "hifil",
+   "root": "כון",
+   "he": "לְהָכִין",
+   "tr": {
+    "en": "make",
+    "fr": "préparer"
+   }
+  },
+  {
+   "id": "lehaamin",
+   "binyan": "hifil",
+   "root": "אמן",
+   "he": "לְהַאֲמִין",
+   "tr": {
+    "en": "believe",
+    "fr": "croire"
+   }
+  },
+  {
+   "id": "lehaskim",
+   "binyan": "hifil",
+   "root": "סכם",
+   "he": "לְהַסְכִּים",
+   "tr": {
+    "en": "agree",
+    "fr": "être d’accord / accepter"
+   }
+  },
+  {
+   "id": "lehatkhil",
+   "binyan": "hifil",
+   "root": "תחל",
+   "he": "לְהַתְחִיל",
+   "tr": {
+    "en": "start",
+    "fr": "commencer"
+   },
+   "free": true,
+   "prep": {
+    "he": "",
+    "en": "direct object or no object",
+    "fr": "COD ou aucun complément"
+   },
+   "forms": {
+    "present_ms": [
+     "מַתְחִיל",
+     "matkhil",
+     "matkhil"
+    ],
+    "present_fs": [
+     "מַתְחִילָה",
+     "matkhila",
+     "matkhila"
+    ],
+    "present_mp": [
+     "מַתְחִילִים",
+     "matkhilim",
+     "matkhilim"
+    ],
+    "present_fp": [
+     "מַתְחִילוֹת",
+     "matkhilot",
+     "matkhilot"
+    ],
+    "past_1s": [
+     "הִתְחַלְתִּי",
+     "hitkhalti",
+     "hitkhalti"
+    ],
+    "past_1p": [
+     "הִתְחַלְנוּ",
+     "hitkhalnu",
+     "hitkhalnou"
+    ],
+    "past_2ms": [
+     "הִתְחַלְתָּ",
+     "hitkhalta",
+     "hitkhalta"
+    ],
+    "past_2fs": [
+     "הִתְחַלְתְּ",
+     "hitkhalt",
+     "hitkhalt"
+    ],
+    "past_2mp": [
+     "הִתְחַלְתֶּם",
+     "hitkhaltem",
+     "hitkhaltem"
+    ],
+    "past_2fp": [
+     "הִתְחַלְתֶּן",
+     "hitkhalten",
+     "hitkhalten"
+    ],
+    "past_3ms": [
+     "הִתְחִיל",
+     "hitkhil",
+     "hitkhil"
+    ],
+    "past_3fs": [
+     "הִתְחִילָה",
+     "hitkhila",
+     "hitkhila"
+    ],
+    "past_3pl": [
+     "הִתְחִילוּ",
+     "hitkhilu",
+     "hitkhilou"
+    ],
+    "future_1s": [
+     "אַתְחִיל",
+     "atkhil",
+     "atkhil"
+    ],
+    "future_1p": [
+     "נַתְחִיל",
+     "natkhil",
+     "natkhil"
+    ],
+    "future_2ms": [
+     "תַּתְחִיל",
+     "tatkhil",
+     "tatkhil"
+    ],
+    "future_2fs": [
+     "תַּתְחִילִי",
+     "tatkhili",
+     "tatkhili"
+    ],
+    "future_2mp": [
+     "תַּתְחִילוּ",
+     "tatkhilu",
+     "tatkhilou"
+    ],
+    "future_2fp": [
+     "תַּתְחֵלְנָה",
+     "tatkhelna",
+     "tatkhelna"
+    ],
+    "future_3ms": [
+     "יַתְחִיל",
+     "yatkhil",
+     "yatkhil"
+    ],
+    "future_3fs": [
+     "תַּתְחִיל",
+     "tatkhil",
+     "tatkhil"
+    ],
+    "future_3mp": [
+     "יַתְחִילוּ",
+     "yatkhilu",
+     "yatkhilou"
+    ],
+    "future_3fp": [
+     "תַּתְחֵלְנָה",
+     "tatkhelna",
+     "tatkhelna"
+    ],
+    "imperative_ms": [
+     "הַתְחֵל",
+     "hatkhel",
+     "hatkhel"
+    ],
+    "imperative_fs": [
+     "הַתְחִילִי",
+     "hatkhili",
+     "hatkhili"
+    ],
+    "imperative_mp": [
+     "הַתְחִילוּ",
+     "hatkhilu",
+     "hatkhilou"
+    ],
+    "imperative_fp": [
+     "הַתְחֵלְנָה",
+     "hatkhelna",
+     "hatkhelna"
+    ],
+    "infinitive": [
+     "לְהַתְחִיל",
+     "lehatkhil",
+     "lehatkhil"
+    ]
+   },
+   "translit": {
+    "en": "lehatkhil",
+    "fr": "lehatkhil"
+   }
+  },
+  {
+   "id": "lehagia",
+   "binyan": "hifil",
+   "root": "נגע",
+   "he": "לְהַגִּיעַ",
+   "tr": {
+    "en": "arrive",
+    "fr": "arriver"
+   },
+   "free": true,
+   "prep": {
+    "he": "",
+    "en": "no object (intransitive); with ל = arrive at",
+    "fr": "aucun complément (intransitif) ; avec ל = arriver à"
+   },
+   "forms": {
+    "present_ms": [
+     "מַגִּיעַ",
+     "magia",
+     "maguia"
+    ],
+    "present_fs": [
+     "מַגִּיעָה",
+     "magi'a",
+     "magui'a"
+    ],
+    "present_mp": [
+     "מַגִּיעִים",
+     "magiim",
+     "maguiim"
+    ],
+    "present_fp": [
+     "מַגִּיעוֹת",
+     "magiot",
+     "maguiot"
+    ],
+    "past_1s": [
+     "הִגַּעְתִּי",
+     "higati",
+     "higati"
+    ],
+    "past_1p": [
+     "הִגַּעְנוּ",
+     "higanu",
+     "higanou"
+    ],
+    "past_2ms": [
+     "הִגַּעְתָּ",
+     "higata",
+     "higata"
+    ],
+    "past_2fs": [
+     "הִגַּעְתְּ",
+     "higat",
+     "higat"
+    ],
+    "past_2mp": [
+     "הִגַּעְתֶּם",
+     "higatem",
+     "higatem"
+    ],
+    "past_2fp": [
+     "הִגַּעְתֶּן",
+     "higaten",
+     "higaten"
+    ],
+    "past_3ms": [
+     "הִגִּיעַ",
+     "higia",
+     "higuia"
+    ],
+    "past_3fs": [
+     "הִגִּיעָה",
+     "higi'a",
+     "higui'a"
+    ],
+    "past_3pl": [
+     "הִגִּיעוּ",
+     "higiu",
+     "higuiou"
+    ],
+    "future_1s": [
+     "אַגִּיעַ",
+     "agia",
+     "aguia"
+    ],
+    "future_1p": [
+     "נַגִּיעַ",
+     "nagia",
+     "naguia"
+    ],
+    "future_2ms": [
+     "תַּגִּיעַ",
+     "tagia",
+     "taguia"
+    ],
+    "future_2fs": [
+     "תַּגִּיעִי",
+     "tagii",
+     "taguii"
+    ],
+    "future_2mp": [
+     "תַּגִּיעוּ",
+     "tagiu",
+     "taguiou"
+    ],
+    "future_2fp": [
+     "תַּגַּעְנָה",
+     "tagana",
+     "tagana"
+    ],
+    "future_3ms": [
+     "יַגִּיעַ",
+     "yagia",
+     "yaguia"
+    ],
+    "future_3fs": [
+     "תַּגִּיעַ",
+     "tagia",
+     "taguia"
+    ],
+    "future_3mp": [
+     "יַגִּיעוּ",
+     "yagiu",
+     "yaguiou"
+    ],
+    "future_3fp": [
+     "תַּגַּעְנָה",
+     "tagana",
+     "tagana"
+    ],
+    "imperative_ms": [
+     "הַגַּע",
+     "haga",
+     "haga"
+    ],
+    "imperative_fs": [
+     "הַגִּיעִי",
+     "hagii",
+     "haguii"
+    ],
+    "imperative_mp": [
+     "הַגִּיעוּ",
+     "hagiu",
+     "haguiou"
+    ],
+    "imperative_fp": [
+     "הַגַּעְנָה",
+     "hagana",
+     "hagana"
+    ],
+    "infinitive": [
+     "לְהַגִּיעַ",
+     "lehagia",
+     "lehaguia"
+    ]
+   },
+   "translit": {
+    "en": "lehagia",
+    "fr": "lehaguia"
+   }
+  },
+  {
+   "id": "lehodot",
+   "binyan": "hifil",
+   "root": "ידה",
+   "he": "לְהוֹדוֹת",
+   "tr": {
+    "en": "thank",
+    "fr": "remercier"
+   }
+  },
+  {
+   "id": "lehaavir",
+   "binyan": "hifil",
+   "root": "עבר",
+   "he": "לְהַעֲבִיר",
+   "tr": {
+    "en": "pass",
+    "fr": "transmettre / déplacer"
+   }
+  },
+  {
+   "id": "lehatsliakh",
+   "binyan": "hifil",
+   "root": "צלח",
+   "he": "לְהַצְלִיחַ",
+   "tr": {
+    "en": "succeed",
+    "fr": "réussir"
+   }
+  },
+  {
+   "id": "lehakhzir",
+   "binyan": "hifil",
+   "root": "חזר",
+   "he": "לְהַחְזִיר",
+   "tr": {
+    "en": "return, repeat",
+    "fr": "rendre, répéter"
+   }
+  },
+  {
+   "id": "lehashig",
+   "binyan": "hifil",
+   "root": "נשג",
+   "he": "לְהַשִּׂיג",
+   "tr": {
+    "en": "get, achieve",
+    "fr": "obtenir / atteindre"
+   }
+  },
+  {
+   "id": "lehaskir",
+   "binyan": "hifil",
+   "root": "שכר",
+   "he": "לְהַשְׂכִּיר",
+   "tr": {
+    "en": "rent out",
+    "fr": "louer (donner en location)"
+   }
+  },
+  {
+   "id": "lehamlits",
+   "binyan": "hifil",
+   "root": "מלץ",
+   "he": "לְהַמְלִיץ",
+   "tr": {
+    "en": "recommend",
+    "fr": "recommander"
+   }
+  },
+  {
+   "id": "lekhakhzik",
+   "binyan": "hifil",
+   "root": "חזק",
+   "he": "לְהַחְזִיק",
+   "tr": {
+    "en": "hold",
+    "fr": "tenir / retenir"
+   }
+  },
+  {
+   "id": "lehapik",
+   "binyan": "hifil",
+   "root": "נפק",
+   "he": "לְהַפִּיק",
+   "tr": {
+    "en": "produce",
+    "fr": "produire / tourner (un film) / extraire"
+   }
+  },
+  {
+   "id": "lehaniakh",
+   "binyan": "hifil",
+   "root": "נוח",
+   "he": "לְהָנִיחַ",
+   "tr": {
+    "en": "put, assume",
+    "fr": "poser, supposer"
+   }
+  },
+  {
+   "id": "lehofia",
+   "binyan": "hifil",
+   "root": "יפע",
+   "he": "לְהוֹפִיעַ",
+   "tr": {
+    "en": "perform",
+    "fr": "se produire (sur scène) / apparaître"
+   }
+  },
+  {
+   "id": "lehosif",
+   "binyan": "hifil",
+   "root": "יסף",
+   "he": "לְהוֹסִיף",
+   "tr": {
+    "en": "add",
+    "fr": "ajouter"
+   }
+  },
+  {
+   "id": "lehagish",
+   "binyan": "hifil",
+   "root": "נגש",
+   "he": "לְהַגִּישׁ",
+   "tr": {
+    "en": "serve, submit",
+    "fr": "servir, soumettre"
+   }
+  },
+  {
+   "id": "lehamshikh",
+   "binyan": "hifil",
+   "root": "משך",
+   "he": "לְהַמְשִׁיךְ",
+   "tr": {
+    "en": "continue",
+    "fr": "continuer"
+   }
+  },
+  {
+   "id": "lehatsig",
+   "binyan": "hifil",
+   "root": "יצג",
+   "he": "לְהַצִּיג",
+   "tr": {
+    "en": "present, introduce",
+    "fr": "présenter, introduire"
+   }
+  },
+  {
+   "id": "lehakriz",
+   "binyan": "hifil",
+   "root": "כרז",
+   "he": "לְהַכְרִיז",
+   "tr": {
+    "en": "announce",
+    "fr": "annoncer"
+   }
+  },
+  {
+   "id": "lehazmin",
+   "binyan": "hifil",
+   "root": "זמן",
+   "he": "לְהַזְמִין",
+   "tr": {
+    "en": "invite, order",
+    "fr": "inviter, commander"
+   },
+   "free": true,
+   "prep": {
+    "he": "את (someone), ל (to)",
+    "en": "direct object (את + person or thing), ל + recipient/destination",
+    "fr": "COD (את + personne ou chose), ל + destinataire/destination"
+   },
+   "forms": {
+    "present_ms": [
+     "מַזְמִין",
+     "mazmin",
+     "mazmin"
+    ],
+    "present_fs": [
+     "מַזְמִינָה",
+     "mazmina",
+     "mazmina"
+    ],
+    "present_mp": [
+     "מַזְמִינִים",
+     "mazminim",
+     "mazminim"
+    ],
+    "present_fp": [
+     "מַזְמִינוֹת",
+     "mazminot",
+     "mazminot"
+    ],
+    "past_1s": [
+     "הִזְמַנְתִּי",
+     "hizmanti",
+     "hizmanti"
+    ],
+    "past_1p": [
+     "הִזְמַנּוּ",
+     "hizmanu",
+     "hizmanou"
+    ],
+    "past_2ms": [
+     "הִזְמַנְתָּ",
+     "hizmanta",
+     "hizmanta"
+    ],
+    "past_2fs": [
+     "הִזְמַנְתְּ",
+     "hizmant",
+     "hizmant"
+    ],
+    "past_2mp": [
+     "הִזְמַנְתֶּם",
+     "hizmantem",
+     "hizmantem"
+    ],
+    "past_2fp": [
+     "הִזְמַנְתֶּן",
+     "hizmanten",
+     "hizmanten"
+    ],
+    "past_3ms": [
+     "הִזְמִין",
+     "hizmin",
+     "hizmin"
+    ],
+    "past_3fs": [
+     "הִזְמִינָה",
+     "hizmina",
+     "hizmina"
+    ],
+    "past_3pl": [
+     "הִזְמִינוּ",
+     "hizminu",
+     "hizminou"
+    ],
+    "future_1s": [
+     "אַזְמִין",
+     "azmin",
+     "azmin"
+    ],
+    "future_1p": [
+     "נַזְמִין",
+     "nazmin",
+     "nazmin"
+    ],
+    "future_2ms": [
+     "תַּזְמִין",
+     "tazmin",
+     "tazmin"
+    ],
+    "future_2fs": [
+     "תַּזְמִינִי",
+     "tazmini",
+     "tazmini"
+    ],
+    "future_2mp": [
+     "תַּזְמִינוּ",
+     "tazminu",
+     "tazminou"
+    ],
+    "future_2fp": [
+     "תַּזְמֵנָּה",
+     "tazmena",
+     "tazmena"
+    ],
+    "future_3ms": [
+     "יַזְמִין",
+     "yazmin",
+     "yazmin"
+    ],
+    "future_3fs": [
+     "תַּזְמִין",
+     "tazmin",
+     "tazmin"
+    ],
+    "future_3mp": [
+     "יַזְמִינוּ",
+     "yazminu",
+     "yazminou"
+    ],
+    "future_3fp": [
+     "תַּזְמֵנָּה",
+     "tazmena",
+     "tazmena"
+    ],
+    "imperative_ms": [
+     "הַזְמֵן",
+     "hazmen",
+     "hazmen"
+    ],
+    "imperative_fs": [
+     "הַזְמִינִי",
+     "hazmini",
+     "hazmini"
+    ],
+    "imperative_mp": [
+     "הַזְמִינוּ",
+     "hazminu",
+     "hazminou"
+    ],
+    "imperative_fp": [
+     "הַזְמֵנָּה",
+     "hazmena",
+     "hazmena"
+    ],
+    "infinitive": [
+     "לְהַזְמִין",
+     "lehazmin",
+     "lehazmin"
+    ]
+   },
+   "translit": {
+    "en": "lehazmin",
+    "fr": "lehazmin"
+   }
+  },
+  {
+   "id": "leharshot",
+   "binyan": "hifil",
+   "root": "רשה",
+   "he": "לְהַרְשׁוֹת",
+   "tr": {
+    "en": "allow",
+    "fr": "permettre / autoriser"
+   }
+  },
+  {
+   "id": "lehazkir",
+   "binyan": "hifil",
+   "root": "זכר",
+   "he": "לְהַזְכִּיר",
+   "tr": {
+    "en": "remind",
+    "fr": "rappeler"
+   }
+  },
+  {
+   "id": "lehaadif",
+   "binyan": "hifil",
+   "root": "עדף",
+   "he": "לְהַעֲדִיף",
+   "tr": {
+    "en": "prefer",
+    "fr": "préférer"
+   }
+  },
+  {
+   "id": "lehatim",
+   "binyan": "hifil",
+   "root": "תאם",
+   "he": "לְהַתְאִים",
+   "tr": {
+    "en": "fit, suit",
+    "fr": "convenir, correspondre"
+   }
+  },
+  {
+   "id": "lekhakhlit",
+   "binyan": "hifil",
+   "root": "חלט",
+   "he": "לְהַחְלִיט",
+   "tr": {
+    "en": "decide",
+    "fr": "décider"
+   }
+  },
+  {
+   "id": "lehavin",
+   "binyan": "hifil",
+   "root": "בין",
+   "he": "לְהָבִין",
+   "tr": {
+    "en": "understand",
+    "fr": "comprendre"
+   },
+   "free": true,
+   "prep": {
+    "he": "",
+    "en": "direct object (no preposition)",
+    "fr": "COD"
+   },
+   "forms": {
+    "present_ms": [
+     "מֵבִין",
+     "mevin",
+     "mevin"
+    ],
+    "present_fs": [
+     "מְבִינָה",
+     "mevina",
+     "mevina"
+    ],
+    "present_mp": [
+     "מְבִינִים",
+     "mevinim",
+     "mevinim"
+    ],
+    "present_fp": [
+     "מְבִינוֹת",
+     "mevinot",
+     "mevinot"
+    ],
+    "past_1s": [
+     "הֵבַנְתִּי",
+     "hevanti",
+     "hevanti"
+    ],
+    "past_1p": [
+     "הֵבַנּוּ",
+     "hevanu",
+     "hevanou"
+    ],
+    "past_2ms": [
+     "הֵבַנְתָּ",
+     "hevanta",
+     "hevanta"
+    ],
+    "past_2fs": [
+     "הֵבַנְתְּ",
+     "hevant",
+     "hevant"
+    ],
+    "past_2mp": [
+     "הֲבַנְתֶּם",
+     "havantem",
+     "havantem"
+    ],
+    "past_2fp": [
+     "הֲבַנְתֶּן",
+     "havanten",
+     "havanten"
+    ],
+    "past_3ms": [
+     "הֵבִין",
+     "hevin",
+     "hevin"
+    ],
+    "past_3fs": [
+     "הֵבִינָה",
+     "hevina",
+     "hevina"
+    ],
+    "past_3pl": [
+     "הֵבִינוּ",
+     "hevinu",
+     "hevinou"
+    ],
+    "future_1s": [
+     "אָבִין",
+     "avin",
+     "avin"
+    ],
+    "future_1p": [
+     "נָבִין",
+     "navin",
+     "navin"
+    ],
+    "future_2ms": [
+     "תָּבִין",
+     "tavin",
+     "tavin"
+    ],
+    "future_2fs": [
+     "תָּבִינִי",
+     "tavini",
+     "tavini"
+    ],
+    "future_2mp": [
+     "תָּבִינוּ",
+     "tavinu",
+     "tavinou"
+    ],
+    "future_2fp": [
+     "תָּבֵנָּה",
+     "tavena",
+     "tavena"
+    ],
+    "future_3ms": [
+     "יָבִין",
+     "yavin",
+     "yavin"
+    ],
+    "future_3fs": [
+     "תָּבִין",
+     "tavin",
+     "tavin"
+    ],
+    "future_3mp": [
+     "יָבִינוּ",
+     "yavinu",
+     "yavinou"
+    ],
+    "future_3fp": [
+     "תָּבֵנָּה",
+     "tavena",
+     "tavena"
+    ],
+    "imperative_ms": [
+     "הָבֵן",
+     "haven",
+     "haven"
+    ],
+    "imperative_fs": [
+     "הָבִינִי",
+     "havini",
+     "havini"
+    ],
+    "imperative_mp": [
+     "הָבִינוּ",
+     "havinu",
+     "havinou"
+    ],
+    "imperative_fp": [
+     "הָבֵנָּה",
+     "havena",
+     "havena"
+    ],
+    "infinitive": [
+     "לְהָבִין",
+     "lehavin",
+     "lehavin"
+    ]
+   },
+   "translit": {
+    "en": "lehavin",
+    "fr": "lehavin"
+   }
+  },
+  {
+   "id": "lehakhil",
+   "binyan": "hifil",
+   "root": "כול",
+   "he": "לְהָכִיל",
+   "tr": {
+    "en": "contain",
+    "fr": "contenir"
+   }
+  },
+  {
+   "id": "lehakhalif",
+   "binyan": "hifil",
+   "root": "חלף",
+   "he": "לְהַחֲלִיף",
+   "tr": {
+    "en": "replace",
+    "fr": "remplacer"
+   }
+  },
+  {
+   "id": "lehaarikh",
+   "binyan": "hifil",
+   "root": "ערך",
+   "he": "לְהַעֲרִיךְ",
+   "tr": {
+    "en": "appreciate",
+    "fr": "apprécier"
+   }
+  },
+  {
+   "id": "lehavi",
+   "binyan": "hifil",
+   "root": "בוא",
+   "he": "לְהָבִיא",
+   "tr": {
+    "en": "bring",
+    "fr": "apporter"
+   }
+  },
+  {
+   "id": "lehagid",
+   "binyan": "hifil",
+   "root": "נגד",
+   "he": "לְהַגִּיד",
+   "tr": {
+    "en": "tell (info) (future, imp, inf)",
+    "fr": "dire, informer (futur, impératif, inf.)"
+   }
+  },
+  {
+   "id": "lagur",
+   "binyan": "paal",
+   "root": "גור",
+   "he": "לָגוּר",
+   "tr": {
+    "en": "live (location)",
+    "fr": "habiter (lieu)"
+   }
+  },
+  {
+   "id": "lisbol",
+   "binyan": "paal",
+   "root": "סבל",
+   "he": "לִסְבֹּל",
+   "tr": {
+    "en": "suffer",
+    "fr": "souffrir"
+   }
+  },
+  {
+   "id": "limno",
+   "binyan": "paal",
+   "root": "מנע",
+   "he": "לִמְנֹעַ",
+   "tr": {
+    "en": "prevent",
+    "fr": "empêcher"
+   }
+  },
+  {
+   "id": "letsayyer",
+   "binyan": "piel",
+   "root": "ציר",
+   "he": "לְצַיֵּר",
+   "tr": {
+    "en": "draw",
+    "fr": "dessiner"
+   }
+  },
+  {
+   "id": "lehashpia",
+   "binyan": "hifil",
+   "root": "שפע",
+   "he": "לְהַשְׁפִּיעַ",
+   "tr": {
+    "en": "influence",
+    "fr": "influencer"
+   }
+  },
+  {
+   "id": "lehagdil",
+   "binyan": "hifil",
+   "root": "גדל",
+   "he": "לְהַגְדִּיל",
+   "tr": {
+    "en": "increase",
+    "fr": "augmenter"
+   }
+  },
+  {
+   "id": "leshaper",
+   "binyan": "piel",
+   "root": "שפר",
+   "he": "לְשַׁפֵּר",
+   "tr": {
+    "en": "improve",
+    "fr": "améliorer"
+   }
+  },
+  {
+   "id": "lehagdir",
+   "binyan": "hifil",
+   "root": "גדר",
+   "he": "לְהַגְדִּיר",
+   "tr": {
+    "en": "define",
+    "fr": "définir"
+   }
+  },
+  {
+   "id": "lekhasot",
+   "binyan": "piel",
+   "root": "כסה",
+   "he": "לְכַסּוֹת",
+   "tr": {
+    "en": "cover",
+    "fr": "couvrir"
+   }
+  },
+  {
+   "id": "leafsher",
+   "binyan": "piel",
+   "root": "אפשר",
+   "he": "לְאַפְשֵׁר",
+   "tr": {
+    "en": "allow",
+    "fr": "permettre"
+   }
+  },
+  {
+   "id": "lefatteakh",
+   "binyan": "piel",
+   "root": "פתח",
+   "he": "לְפַתֵּחַ",
+   "tr": {
+    "en": "develop",
+    "fr": "développer"
+   }
+  },
+  {
+   "id": "lamut",
+   "binyan": "paal",
+   "root": "מות",
+   "he": "לָמוּת",
+   "tr": {
+    "en": "die",
+    "fr": "mourir"
+   }
+  },
+  {
+   "id": "lehagiv",
+   "binyan": "hifil",
+   "root": "גוב",
+   "he": "לְהָגִיב",
+   "tr": {
+    "en": "respond, react",
+    "fr": "répondre, réagir"
+   }
+  },
+  {
+   "id": "lehafsid",
+   "binyan": "hifil",
+   "root": "פסד",
+   "he": "לְהַפְסִיד",
+   "tr": {
+    "en": "lose",
+    "fr": "perdre"
+   }
+  },
+  {
+   "id": "lehishtamesh",
+   "binyan": "hitpael",
+   "root": "שמש",
+   "he": "לְהִשְׁתַּמֵּשׁ",
+   "tr": {
+    "en": "use",
+    "fr": "utiliser"
+   },
+   "free": true,
+   "prep": {
+    "he": "ב",
+    "en": "ב + instrument / object used",
+    "fr": "ב + instrument/objet utilisé"
+   },
+   "forms": {
+    "present_ms": [
+     "מִשְׁתַּמֵּשׁ",
+     "mishtamesh",
+     "michtamech"
+    ],
+    "present_fs": [
+     "מִשְׁתַּמֶּשֶׁת",
+     "mishtameshet",
+     "michtamechet"
+    ],
+    "present_mp": [
+     "מִשְׁתַּמְּשִׁים",
+     "mishtamshim",
+     "michtamchim"
+    ],
+    "present_fp": [
+     "מִשְׁתַּמְּשׁוֹת",
+     "mishtamshot",
+     "michtamchot"
+    ],
+    "past_1s": [
+     "הִשְׁתַּמַּשְׁתִּי",
+     "hishtamashti",
+     "hichtamachti"
+    ],
+    "past_1p": [
+     "הִשְׁתַּמַּשְׁנוּ",
+     "hishtamashnu",
+     "hichtamachnou"
+    ],
+    "past_2ms": [
+     "הִשְׁתַּמַּשְׁתָּ",
+     "hishtamashta",
+     "hichtamachta"
+    ],
+    "past_2fs": [
+     "הִשְׁתַּמַּשְׁתְּ",
+     "hishtamasht",
+     "hichtamacht"
+    ],
+    "past_2mp": [
+     "הִשְׁתַּמַּשְׁתֶּם",
+     "hishtamashtem",
+     "hichtamachtem"
+    ],
+    "past_2fp": [
+     "הִשְׁתַּמַּשְׁתֶּן",
+     "hishtamashten",
+     "hichtamachten"
+    ],
+    "past_3ms": [
+     "הִשְׁתַּמֵּשׁ",
+     "hishtamesh",
+     "hichtamech"
+    ],
+    "past_3fs": [
+     "הִשְׁתַּמְּשָׁה",
+     "hishtamsha",
+     "hichtamcha"
+    ],
+    "past_3pl": [
+     "הִשְׁתַּמְּשׁוּ",
+     "hishtamshu",
+     "hichtamchou"
+    ],
+    "future_1s": [
+     "אֶשְׁתַּמֵּשׁ",
+     "eshtamesh",
+     "echtamech"
+    ],
+    "future_1p": [
+     "נִשְׁתַּמֵּשׁ",
+     "nishtamesh",
+     "nichtamech"
+    ],
+    "future_2ms": [
+     "תִּשְׁתַּמֵּשׁ",
+     "tishtamesh",
+     "tichtamech"
+    ],
+    "future_2fs": [
+     "תִּשְׁתַּמְּשִׁי",
+     "tishtamshi",
+     "tichtamchi"
+    ],
+    "future_2mp": [
+     "תִּשְׁתַּמְּשׁוּ",
+     "tishtamshu",
+     "tichtamchou"
+    ],
+    "future_2fp": [
+     "תִּשְׁתַּמֵּשְׁנָה",
+     "tishtameshna",
+     "tichtamechna"
+    ],
+    "future_3ms": [
+     "יִשְׁתַּמֵּשׁ",
+     "yishtamesh",
+     "yichtamech"
+    ],
+    "future_3fs": [
+     "תִּשְׁתַּמֵּשׁ",
+     "tishtamesh",
+     "tichtamech"
+    ],
+    "future_3mp": [
+     "יִשְׁתַּמְּשׁוּ",
+     "yishtamshu",
+     "yichtamchou"
+    ],
+    "future_3fp": [
+     "תִּשְׁתַּמֵּשְׁנָה",
+     "tishtameshna",
+     "tichtamechna"
+    ],
+    "imperative_ms": [
+     "הִשְׁתַּמֵּשׁ",
+     "hishtamesh",
+     "hichtamech"
+    ],
+    "imperative_fs": [
+     "הִשְׁתַּמְּשִׁי",
+     "hishtamshi",
+     "hichtamchi"
+    ],
+    "imperative_mp": [
+     "הִשְׁתַּמְּשׁוּ",
+     "hishtamshu",
+     "hichtamchou"
+    ],
+    "imperative_fp": [
+     "הִשְׁתַּמֵּשְׁנָה",
+     "hishtameshna",
+     "hichtamechna"
+    ],
+    "infinitive": [
+     "לְהִשְׁתַּמֵּשׁ",
+     "lehishtamesh",
+     "lehichtamech"
+    ]
+   },
+   "translit": {
+    "en": "lehishtamesh",
+    "fr": "lehichtamech"
+   }
+  },
+  {
+   "id": "lehitoshesh",
+   "binyan": "hitpael",
+   "root": "אשש",
+   "he": "לְהִתְאוֹשֵׁשׁ",
+   "tr": {
+    "en": "recover",
+    "fr": "récupérer"
+   }
+  },
+  {
+   "id": "lifgosh",
+   "binyan": "paal",
+   "root": "פגש",
+   "he": "לִפְגֹּשׁ",
+   "tr": {
+    "en": "meet",
+    "fr": "rencontrer"
+   }
+  },
+  {
+   "id": "laatsor",
+   "binyan": "paal",
+   "root": "עצר",
+   "he": "לַעֲצֹר",
+   "tr": {
+    "en": "stop",
+    "fr": "arrêter"
+   }
+  },
+  {
+   "id": "lehishaer",
+   "binyan": "nifal",
+   "root": "שאר",
+   "he": "לְהִשָּׁאֵר",
+   "tr": {
+    "en": "stay, remain",
+    "fr": "rester, demeurer"
+   },
+   "free": true,
+   "prep": {
+    "he": "",
+    "en": "no object (intransitive)",
+    "fr": "aucun complément (intransitif)"
+   },
+   "forms": {
+    "present_ms": [
+     "נִשְׁאָר",
+     "nish'ar",
+     "nich'ar"
+    ],
+    "present_fs": [
+     "נִשְׁאֶרֶת",
+     "nish'eret",
+     "nich'eret"
+    ],
+    "present_mp": [
+     "נִשְׁאָרִים",
+     "nish'arim",
+     "nich'arim"
+    ],
+    "present_fp": [
+     "נִשְׁאָרוֹת",
+     "nish'arot",
+     "nich'arot"
+    ],
+    "past_1s": [
+     "נִשְׁאַרְתִּי",
+     "nish'arti",
+     "nich'arti"
+    ],
+    "past_1p": [
+     "נִשְׁאַרְנוּ",
+     "nish'arnu",
+     "nich'arnou"
+    ],
+    "past_2ms": [
+     "נִשְׁאַרְתָּ",
+     "nish'arta",
+     "nich'arta"
+    ],
+    "past_2fs": [
+     "נִשְׁאַרְתְּ",
+     "nish'art",
+     "nich'art"
+    ],
+    "past_2mp": [
+     "נִשְׁאַרְתֶּם",
+     "nish'artem",
+     "nich'artem"
+    ],
+    "past_2fp": [
+     "נִשְׁאַרְתֶּן",
+     "nish'arten",
+     "nich'arten"
+    ],
+    "past_3ms": [
+     "נִשְׁאַר",
+     "nish'ar",
+     "nich'ar"
+    ],
+    "past_3fs": [
+     "נִשְׁאֲרָה",
+     "nish'ara",
+     "nich'ara"
+    ],
+    "past_3pl": [
+     "נִשְׁאֲרוּ",
+     "nish'aru",
+     "nich'arou"
+    ],
+    "future_1s": [
+     "אֶשָּׁאֵר",
+     "esha'er",
+     "echa'er"
+    ],
+    "future_1p": [
+     "נִשָּׁאֵר",
+     "nisha'er",
+     "nicha'er"
+    ],
+    "future_2ms": [
+     "תִּשָּׁאֵר",
+     "tisha'er",
+     "ticha'er"
+    ],
+    "future_2fs": [
+     "תִּשָּׁאֲרִי",
+     "tisha'ari",
+     "ticha'ari"
+    ],
+    "future_2mp": [
+     "תִּשָּׁאֲרוּ",
+     "tisha'aru",
+     "ticha'arou"
+    ],
+    "future_2fp": [
+     "תִּשָּׁאֵרְנָה",
+     "tisha'erna",
+     "ticha'erna"
+    ],
+    "future_3ms": [
+     "יִשָּׁאֵר",
+     "yisha'er",
+     "yicha'er"
+    ],
+    "future_3fs": [
+     "תִּשָּׁאֵר",
+     "tisha'er",
+     "ticha'er"
+    ],
+    "future_3mp": [
+     "יִשָּׁאֲרוּ",
+     "yisha'aru",
+     "yicha'arou"
+    ],
+    "future_3fp": [
+     "תִּשָּׁאֵרְנָה",
+     "tisha'erna",
+     "ticha'erna"
+    ],
+    "imperative_ms": [
+     "הִשָּׁאֵר",
+     "hisha'er",
+     "hicha'er"
+    ],
+    "imperative_fs": [
+     "הִשָּׁאֲרִי",
+     "hisha'ari",
+     "hicha'ari"
+    ],
+    "imperative_mp": [
+     "הִשָּׁאֲרוּ",
+     "hisha'aru",
+     "hicha'arou"
+    ],
+    "imperative_fp": [
+     "הִשָּׁאֵרְנָה",
+     "hisha'erna",
+     "hicha'erna"
+    ],
+    "infinitive": [
+     "לְהִשָּׁאֵר",
+     "lehisha'er",
+     "lehicha'er"
+    ]
+   },
+   "translit": {
+    "en": "lehisha'er",
+    "fr": "lehicha'er"
+   }
+  },
+  {
+   "id": "livnot",
+   "binyan": "paal",
+   "root": "בנה",
+   "he": "לִבְנוֹת",
+   "tr": {
+    "en": "build",
+    "fr": "construire"
+   }
+  },
+  {
+   "id": "lehiggarem",
+   "binyan": "nifal",
+   "root": "גרם",
+   "he": "לְהִגָּרֵם",
+   "tr": {
+    "en": "caused by",
+    "fr": "être causé par"
+   }
+  },
+  {
+   "id": "lehakhmits",
+   "binyan": "hifil",
+   "root": "חמץ",
+   "he": "לְהַחְמִיץ",
+   "tr": {
+    "en": "miss",
+    "fr": "rater"
+   }
+  },
+  {
+   "id": "lipol",
+   "binyan": "paal",
+   "root": "נפל",
+   "he": "לִפֹּל",
+   "tr": {
+    "en": "fall",
+    "fr": "tomber"
+   }
+  },
+  {
+   "id": "likpots",
+   "binyan": "paal",
+   "root": "קפץ",
+   "he": "לִקְפֹּץ",
+   "tr": {
+    "en": "jump",
+    "fr": "sauter"
+   }
+  },
+  {
+   "id": "lehitkaleakh",
+   "binyan": "hitpael",
+   "root": "קלח",
+   "he": "לְהִתְקַלֵּחַ",
+   "tr": {
+    "en": "shower",
+    "fr": "se doucher"
+   }
+  },
+  {
+   "id": "lehitgaleakh",
+   "binyan": "hitpael",
+   "root": "גלח",
+   "he": "לְהִתְגַּלֵּחַ",
+   "tr": {
+    "en": "shave",
+    "fr": "se raser"
+   }
+  },
+  {
+   "id": "lehistaper",
+   "binyan": "hitpael",
+   "root": "ספר",
+   "he": "לְהִסְתַּפֵּר",
+   "tr": {
+    "en": "get haircut",
+    "fr": "se faire couper les cheveux"
+   }
+  },
+  {
+   "id": "lehistakel",
+   "binyan": "hitpael",
+   "root": "סכל",
+   "he": "לְהִסְתַּכֵּל",
+   "tr": {
+    "en": "look",
+    "fr": "regarder"
+   },
+   "free": true,
+   "prep": {
+    "he": "על",
+    "en": "על + object (at/on something)",
+    "fr": "על + objet (sur/vers quelque chose)"
+   },
+   "forms": {
+    "present_ms": [
+     "מִסְתַּכֵּל",
+     "mistakel",
+     "mistakel"
+    ],
+    "present_fs": [
+     "מִסְתַּכֶּלֶת",
+     "mistakelet",
+     "mistakelet"
+    ],
+    "present_mp": [
+     "מִסְתַּכְּלִים",
+     "mistaklim",
+     "mistaklim"
+    ],
+    "present_fp": [
+     "מִסְתַּכְּלוֹת",
+     "mistaklot",
+     "mistaklot"
+    ],
+    "past_1s": [
+     "הִסְתַּכַּלְתִּי",
+     "histakalti",
+     "histakalti"
+    ],
+    "past_1p": [
+     "הִסְתַּכַּלְנוּ",
+     "histakalnu",
+     "histakalnou"
+    ],
+    "past_2ms": [
+     "הִסְתַּכַּלְתָּ",
+     "histakalta",
+     "histakalta"
+    ],
+    "past_2fs": [
+     "הִסְתַּכַּלְתְּ",
+     "histakalt",
+     "histakalt"
+    ],
+    "past_2mp": [
+     "הִסְתַּכַּלְתֶּם",
+     "histakaltem",
+     "histakaltem"
+    ],
+    "past_2fp": [
+     "הִסְתַּכַּלְתֶּן",
+     "histakalten",
+     "histakalten"
+    ],
+    "past_3ms": [
+     "הִסְתַּכֵּל",
+     "histakel",
+     "histakel"
+    ],
+    "past_3fs": [
+     "הִסְתַּכְּלָה",
+     "histakla",
+     "histakla"
+    ],
+    "past_3pl": [
+     "הִסְתַּכְּלוּ",
+     "histaklu",
+     "histaklou"
+    ],
+    "future_1s": [
+     "אֶסְתַּכֵּל",
+     "estakel",
+     "estakel"
+    ],
+    "future_1p": [
+     "נִסְתַּכֵּל",
+     "nistakel",
+     "nistakel"
+    ],
+    "future_2ms": [
+     "תִּסְתַּכֵּל",
+     "tistakel",
+     "tistakel"
+    ],
+    "future_2fs": [
+     "תִּסְתַּכְּלִי",
+     "tistakli",
+     "tistakli"
+    ],
+    "future_2mp": [
+     "תִּסְתַּכְּלוּ",
+     "tistaklu",
+     "tistaklou"
+    ],
+    "future_2fp": [
+     "תִּסְתַּכֵּלְנָה",
+     "tistakelna",
+     "tistakelna"
+    ],
+    "future_3ms": [
+     "יִסְתַּכֵּל",
+     "yistakel",
+     "yistakel"
+    ],
+    "future_3fs": [
+     "תִּסְתַּכֵּל",
+     "tistakel",
+     "tistakel"
+    ],
+    "future_3mp": [
+     "יִסְתַּכְּלוּ",
+     "yistaklu",
+     "yistaklou"
+    ],
+    "future_3fp": [
+     "תִּסְתַּכֵּלְנָה",
+     "tistakelna",
+     "tistakelna"
+    ],
+    "imperative_ms": [
+     "הִסְתַּכֵּל",
+     "histakel",
+     "histakel"
+    ],
+    "imperative_fs": [
+     "הִסְתַּכְּלִי",
+     "histakli",
+     "histakli"
+    ],
+    "imperative_mp": [
+     "הִסְתַּכְּלוּ",
+     "histaklu",
+     "histaklou"
+    ],
+    "imperative_fp": [
+     "הִסְתַּכֵּלְנָה",
+     "histakelna",
+     "histakelna"
+    ],
+    "infinitive": [
+     "לְהִסְתַּכֵּל",
+     "lehistakel",
+     "lehistakel"
+    ]
+   },
+   "translit": {
+    "en": "lehistakel",
+    "fr": "lehistakel"
+   }
+  },
+  {
+   "id": "lehitkasher",
+   "binyan": "hitpael",
+   "root": "קשר",
+   "he": "לְהִתְקַשֵּׁר",
+   "tr": {
+    "en": "call",
+    "fr": "appeler"
+   },
+   "free": true,
+   "prep": {
+    "he": "אל / ל",
+    "en": "אל/ל + person (to someone)",
+    "fr": "vers quelqu’un (אל / ל)"
+   },
+   "forms": {
+    "present_ms": [
+     "מִתְקַשֵּׁר",
+     "mitkasher",
+     "mitkacher"
+    ],
+    "present_fs": [
+     "מִתְקַשֶּׁרֶת",
+     "mitkasheret",
+     "mitkacheret"
+    ],
+    "present_mp": [
+     "מִתְקַשְּׁרִים",
+     "mitkashrim",
+     "mitkachrim"
+    ],
+    "present_fp": [
+     "מִתְקַשְּׁרוֹת",
+     "mitkashrot",
+     "mitkachrot"
+    ],
+    "past_1s": [
+     "הִתְקַשַּׁרְתִּי",
+     "hitkasharti",
+     "hitkacharti"
+    ],
+    "past_1p": [
+     "הִתְקַשַּׁרְנוּ",
+     "hitkasharnu",
+     "hitkacharnou"
+    ],
+    "past_2ms": [
+     "הִתְקַשַּׁרְתָּ",
+     "hitkasharta",
+     "hitkacharta"
+    ],
+    "past_2fs": [
+     "הִתְקַשַּׁרְתְּ",
+     "hitkashart",
+     "hitkachart"
+    ],
+    "past_2mp": [
+     "הִתְקַשַּׁרְתֶּם",
+     "hitkashartem",
+     "hitkachartem"
+    ],
+    "past_2fp": [
+     "הִתְקַשַּׁרְתֶּן",
+     "hitkasharten",
+     "hitkacharten"
+    ],
+    "past_3ms": [
+     "הִתְקַשֵּׁר",
+     "hitkasher",
+     "hitkacher"
+    ],
+    "past_3fs": [
+     "הִתְקַשְּׁרָה",
+     "hitkashra",
+     "hitkachra"
+    ],
+    "past_3pl": [
+     "הִתְקַשְּׁרוּ",
+     "hitkashru",
+     "hitkachrou"
+    ],
+    "future_1s": [
+     "אֶתְקַשֵּׁר",
+     "etkasher",
+     "etkacher"
+    ],
+    "future_1p": [
+     "נִתְקַשֵּׁר",
+     "nitkasher",
+     "nitkacher"
+    ],
+    "future_2ms": [
+     "תִּתְקַשֵּׁר",
+     "titkasher",
+     "titkacher"
+    ],
+    "future_2fs": [
+     "תִּתְקַשְּׁרִי",
+     "titkashri",
+     "titkachri"
+    ],
+    "future_2mp": [
+     "תִּתְקַשְּׁרוּ",
+     "titkashru",
+     "titkachrou"
+    ],
+    "future_2fp": [
+     "תִּתְקַשֵּׁרְנָה",
+     "titkasherna",
+     "titkacherna"
+    ],
+    "future_3ms": [
+     "יִתְקַשֵּׁר",
+     "yitkasher",
+     "yitkacher"
+    ],
+    "future_3fs": [
+     "תִּתְקַשֵּׁר",
+     "titkasher",
+     "titkacher"
+    ],
+    "future_3mp": [
+     "יִתְקַשְּׁרוּ",
+     "yitkashru",
+     "yitkachrou"
+    ],
+    "future_3fp": [
+     "תִּתְקַשֵּׁרְנָה",
+     "titkasherna",
+     "titkacherna"
+    ],
+    "imperative_ms": [
+     "הִתְקַשֵּׁר",
+     "hitkasher",
+     "hitkacher"
+    ],
+    "imperative_fs": [
+     "הִתְקַשְּׁרִי",
+     "hitkashri",
+     "hitkachri"
+    ],
+    "imperative_mp": [
+     "הִתְקַשְּׁרוּ",
+     "hitkashru",
+     "hitkachrou"
+    ],
+    "imperative_fp": [
+     "הִתְקַשֵּׁרְנָה",
+     "hitkasherna",
+     "hitkacherna"
+    ],
+    "infinitive": [
+     "לְהִתְקַשֵּׁר",
+     "lehitkasher",
+     "lehitkacher"
+    ]
+   },
+   "translit": {
+    "en": "lehitkasher",
+    "fr": "lehitkacher"
+   }
+  },
+  {
+   "id": "lehitchazek",
+   "binyan": "hitpael",
+   "root": "חזק",
+   "he": "לְהִתְחַזֵּק",
+   "tr": {
+    "en": "get stronger",
+    "fr": "se renforcer"
+   }
+  },
+  {
+   "id": "lehitamen",
+   "binyan": "hitpael",
+   "root": "אמן",
+   "he": "לְהִתְאַמֵּן",
+   "tr": {
+    "en": "train, practice",
+    "fr": "s’entraîner, pratiquer"
+   },
+   "free": true,
+   "prep": {
+    "he": "",
+    "en": "no object (intransitive)",
+    "fr": "aucun complément (intransitif)"
+   },
+   "forms": {
+    "present_ms": [
+     "מִתְאַמֵּן",
+     "mit'amen",
+     "mit'amen"
+    ],
+    "present_fs": [
+     "מִתְאַמֶּנֶת",
+     "mit'amenet",
+     "mit'amenet"
+    ],
+    "present_mp": [
+     "מִתְאַמְּנִים",
+     "mit'amnim",
+     "mit'amnim"
+    ],
+    "present_fp": [
+     "מִתְאַמְּנוֹת",
+     "mit'amnot",
+     "mit'amnot"
+    ],
+    "past_1s": [
+     "הִתְאַמַּנְתִּי",
+     "hit'amanti",
+     "hit'amanti"
+    ],
+    "past_1p": [
+     "הִתְאַמַּנּוּ",
+     "hit'amanu",
+     "hit'amanou"
+    ],
+    "past_2ms": [
+     "הִתְאַמַּנְתָּ",
+     "hit'amanta",
+     "hit'amanta"
+    ],
+    "past_2fs": [
+     "הִתְאַמַּנְתְּ",
+     "hit'amant",
+     "hit'amant"
+    ],
+    "past_2mp": [
+     "הִתְאַמַּנְתֶּם",
+     "hit'amantem",
+     "hit'amantem"
+    ],
+    "past_2fp": [
+     "הִתְאַמַּנְתֶּן",
+     "hit'amanten",
+     "hit'amanten"
+    ],
+    "past_3ms": [
+     "הִתְאַמֵּן",
+     "hit'amen",
+     "hit'amen"
+    ],
+    "past_3fs": [
+     "הִתְאַמְּנָה",
+     "hit'amna",
+     "hit'amna"
+    ],
+    "past_3pl": [
+     "הִתְאַמְּנוּ",
+     "hit'amnu",
+     "hit'amnou"
+    ],
+    "future_1s": [
+     "אֶתְאַמֵּן",
+     "et'amen",
+     "et'amen"
+    ],
+    "future_1p": [
+     "נִתְאַמֵּן",
+     "nit'amen",
+     "nit'amen"
+    ],
+    "future_2ms": [
+     "תִּתְאַמֵּן",
+     "tit'amen",
+     "tit'amen"
+    ],
+    "future_2fs": [
+     "תִּתְאַמְּנִי",
+     "tit'amni",
+     "tit'amni"
+    ],
+    "future_2mp": [
+     "תִּתְאַמְּנוּ",
+     "tit'amnu",
+     "tit'amnou"
+    ],
+    "future_2fp": [
+     "תִּתְאַמֵּנָּה",
+     "tit'amena",
+     "tit'amena"
+    ],
+    "future_3ms": [
+     "יִתְאַמֵּן",
+     "yit'amen",
+     "yit'amen"
+    ],
+    "future_3fs": [
+     "תִּתְאַמֵּן",
+     "tit'amen",
+     "tit'amen"
+    ],
+    "future_3mp": [
+     "יִתְאַמְּנוּ",
+     "yit'amnu",
+     "yit'amnou"
+    ],
+    "future_3fp": [
+     "תִּתְאַמֵּנָּה",
+     "tit'amena",
+     "tit'amena"
+    ],
+    "imperative_ms": [
+     "הִתְאַמֵּן",
+     "hit'amen",
+     "hit'amen"
+    ],
+    "imperative_fs": [
+     "הִתְאַמְּנִי",
+     "hit'amni",
+     "hit'amni"
+    ],
+    "imperative_mp": [
+     "הִתְאַמְּנוּ",
+     "hit'amnu",
+     "hit'amnou"
+    ],
+    "imperative_fp": [
+     "הִתְאַמֵּנָּה",
+     "hit'amena",
+     "hit'amena"
+    ],
+    "infinitive": [
+     "לְהִתְאַמֵּן",
+     "lehit'amen",
+     "lehit'amen"
+    ]
+   },
+   "translit": {
+    "en": "lehit'amen",
+    "fr": "lehit'amen"
+   }
+  },
+  {
+   "id": "lehitkarev",
+   "binyan": "hitpael",
+   "root": "קרב",
+   "he": "לְהִתְקָרֵב",
+   "tr": {
+    "en": "get closer",
+    "fr": "se rapprocher"
+   }
+  },
+  {
+   "id": "lehitchanek",
+   "binyan": "hitpael",
+   "root": "חנך",
+   "he": "לְהִתְחַנֵּךְ",
+   "tr": {
+    "en": "get educated",
+    "fr": "se former"
+   }
+  },
+  {
+   "id": "lehitkhanen",
+   "binyan": "hitpael",
+   "root": "חנן",
+   "he": "לְהִתְחַנֵּן",
+   "tr": {
+    "en": "beg",
+    "fr": "supplier"
+   }
+  },
+  {
+   "id": "lehitgaber",
+   "binyan": "hitpael",
+   "root": "גבר",
+   "he": "לְהִתְגַּבֵּר",
+   "tr": {
+    "en": "overcome",
+    "fr": "surmonter"
+   }
+  },
+  {
+   "id": "lehistayyem",
+   "binyan": "hitpael",
+   "root": "סים",
+   "he": "לְהִסְתַּיֵּם",
+   "tr": {
+    "en": "end",
+    "fr": "se terminer"
+   }
+  },
+  {
+   "id": "lehitgagea",
+   "binyan": "hitpael",
+   "root": "געגע",
+   "he": "לְהִתְגַּעְגֵּעַ",
+   "tr": {
+    "en": "miss",
+    "fr": "regretter"
+   }
+  },
+  {
+   "id": "lehistovev",
+   "binyan": "hitpael",
+   "root": "סבב",
+   "he": "לְהִסְתּוֹבֵב",
+   "tr": {
+    "en": "turn around",
+    "fr": "se retourner"
+   }
+  },
+  {
+   "id": "lehitkarer",
+   "binyan": "hitpael",
+   "root": "קרר",
+   "he": "לְהִתְקָרֵר",
+   "tr": {
+    "en": "get cool",
+    "fr": "se refroidir"
+   }
+  },
+  {
+   "id": "lehitkhamem",
+   "binyan": "hitpael",
+   "root": "חמם",
+   "he": "לְהִתְחַמֵּם",
+   "tr": {
+    "en": "get hot",
+    "fr": "se réchauffer"
+   }
+  },
+  {
+   "id": "lehizdaken",
+   "binyan": "hitpael",
+   "root": "זקן",
+   "he": "לְהִזְדַּקֵּן",
+   "tr": {
+    "en": "get old",
+    "fr": "vieillir"
+   }
+  },
+  {
+   "id": "lehitkhabe",
+   "binyan": "hitpael",
+   "root": "חבא",
+   "he": "לְהִתְחַבֵּא",
+   "tr": {
+    "en": "hide",
+    "fr": "se cacher"
+   }
+  },
+  {
+   "id": "lehishtaker",
+   "binyan": "hitpael",
+   "root": "שכר",
+   "he": "לְהִשְׁתַּכֵּר",
+   "tr": {
+    "en": "get drunk",
+    "fr": "s’enivrer"
+   }
+  },
+  {
+   "id": "lehishtannot",
+   "binyan": "hitpael",
+   "root": "שנה",
+   "he": "לְהִשְׁתַּנּוֹת",
+   "tr": {
+    "en": "change oneself",
+    "fr": "se transformer"
+   }
+  },
+  {
+   "id": "lehitakhad",
+   "binyan": "hitpael",
+   "root": "אחד",
+   "he": "להתאחד",
+   "tr": {
+    "en": "unite",
+    "fr": "s’unir"
+   }
+  },
+  {
+   "id": "lehitkhaber",
+   "binyan": "hitpael",
+   "root": "חבר",
+   "he": "לְהִתְחַבֵּר",
+   "tr": {
+    "en": "connect",
+    "fr": "se connecter"
+   }
+  },
+  {
+   "id": "lehitnattek",
+   "binyan": "hitpael",
+   "root": "נתק",
+   "he": "להתנתק",
+   "tr": {
+    "en": "disconnect",
+    "fr": "se déconnecter"
+   }
+  },
+  {
+   "id": "lehityaets",
+   "binyan": "hitpael",
+   "root": "יעצ",
+   "he": "לְהִתְיַעֵץ",
+   "tr": {
+    "en": "consult with",
+    "fr": "se consulter"
+   }
+  },
+  {
+   "id": "lehitkonen",
+   "binyan": "hitpael",
+   "root": "כון",
+   "he": "לְהִתְכּוֹנֵן",
+   "tr": {
+    "en": "prepare",
+    "fr": "se préparer"
+   }
+  },
+  {
+   "id": "lehitstaref",
+   "binyan": "hitpael",
+   "root": "צרף",
+   "he": "לְהִצְטָרֵף",
+   "tr": {
+    "en": "join",
+    "fr": "se joindre"
+   }
+  },
+  {
+   "id": "lehitmoded",
+   "binyan": "hitpael",
+   "root": "מדד",
+   "he": "לְהִתְמוֹדֵד",
+   "tr": {
+    "en": "cope",
+    "fr": "faire face"
+   }
+  },
+  {
+   "id": "lehitalem",
+   "binyan": "hitpael",
+   "root": "עלם",
+   "he": "להתעלם",
+   "tr": {
+    "en": "ignore",
+    "fr": "ignorer"
+   }
+  },
+  {
+   "id": "lehitpalel",
+   "binyan": "hitpael",
+   "root": "פלל",
+   "he": "לְהִתְפַּלֵּל",
+   "tr": {
+    "en": "pray",
+    "fr": "prier"
+   }
+  },
+  {
+   "id": "lehitnatsel",
+   "binyan": "hitpael",
+   "root": "נצל",
+   "he": "לְהִתְנַצֵּל",
+   "tr": {
+    "en": "apologize",
+    "fr": "s’excuser"
+   }
+  },
+  {
+   "id": "lehitbalbel",
+   "binyan": "hitpael",
+   "root": "בלבל",
+   "he": "לְהִתְבַּלְבֵּל",
+   "tr": {
+    "en": "get confused",
+    "fr": "s’embrouiller"
+   }
+  },
+  {
+   "id": "lehitamel",
+   "binyan": "hitpael",
+   "root": "עמל",
+   "he": "לְהִתְעַמֵּל",
+   "tr": {
+    "en": "exercise",
+    "fr": "faire de la gymnastique"
+   }
+  },
+  {
+   "id": "livkhor",
+   "binyan": "paal",
+   "root": "בחר",
+   "he": "לִבְחֹר",
+   "tr": {
+    "en": "choose",
+    "fr": "choisir / élire"
+   }
+  },
+  {
+   "id": "leheraot",
+   "binyan": "nifal",
+   "root": "ראה",
+   "he": "לְהֵרָאוֹת",
+   "tr": {
+    "en": "looks",
+    "fr": "paraître / sembler / apparaître"
+   }
+  },
+  {
+   "id": "lehikasheyl",
+   "binyan": "nifal",
+   "root": "כשל",
+   "he": "לְהִכָּשֵׁל",
+   "tr": {
+    "en": "fail",
+    "fr": "échouer / rater / trébucher"
+   }
+  },
+  {
+   "id": "lehigamer",
+   "binyan": "nifal",
+   "root": "גמר",
+   "he": "לְהִגָּמֵר",
+   "tr": {
+    "en": "end",
+    "fr": "se terminer / s’achever"
+   }
+  },
+  {
+   "id": "lehikanes",
+   "binyan": "nifal",
+   "root": "כנס",
+   "he": "לְהִכָּנֵס",
+   "tr": {
+    "en": "enter",
+    "fr": "entrer / pénétrer"
+   },
+   "free": true,
+   "prep": {
+    "he": "ל",
+    "en": "ל + destination (into/to a place)",
+    "fr": "COI — ל + destination (dans/vers un lieu)"
+   },
+   "forms": {
+    "present_ms": [
+     "נִכְנָס",
+     "nikhnas",
+     "nikhnas"
+    ],
+    "present_fs": [
+     "נִכְנֶסֶת",
+     "nikhneset",
+     "nikhneset"
+    ],
+    "present_mp": [
+     "נִכְנָסִים",
+     "nikhnasim",
+     "nikhnasim"
+    ],
+    "present_fp": [
+     "נִכְנָסוֹת",
+     "nikhnasot",
+     "nikhnasot"
+    ],
+    "past_1s": [
+     "נִכְנַסְתִּי",
+     "nikhnasti",
+     "nikhnasti"
+    ],
+    "past_1p": [
+     "נִכְנַסְנוּ",
+     "nikhnasnu",
+     "nikhnasnou"
+    ],
+    "past_2ms": [
+     "נִכְנַסְתָּ",
+     "nikhnasta",
+     "nikhnasta"
+    ],
+    "past_2fs": [
+     "נִכְנַסְתְּ",
+     "nikhnast",
+     "nikhnast"
+    ],
+    "past_2mp": [
+     "נִכְנַסְתֶּם",
+     "nikhnastem",
+     "nikhnastem"
+    ],
+    "past_2fp": [
+     "נִכְנַסְתֶּן",
+     "nikhnasten",
+     "nikhnasten"
+    ],
+    "past_3ms": [
+     "נִכְנַס",
+     "nikhnas",
+     "nikhnas"
+    ],
+    "past_3fs": [
+     "נִכְנְסָה",
+     "nikhnesa",
+     "nikhnesa"
+    ],
+    "past_3pl": [
+     "נִכְנְסוּ",
+     "nikhnesu",
+     "nikhnesou"
+    ],
+    "future_1s": [
+     "אֶכָּנֵס",
+     "ekanes",
+     "ekanes"
+    ],
+    "future_1p": [
+     "נִכָּנֵס",
+     "nikanes",
+     "nikanes"
+    ],
+    "future_2ms": [
+     "תִּכָּנֵס",
+     "tikanes",
+     "tikanes"
+    ],
+    "future_2fs": [
+     "תִּכָּנְסִי",
+     "tikansi",
+     "tikansi"
+    ],
+    "future_2mp": [
+     "תִּכָּנְסוּ",
+     "tikansu",
+     "tikansou"
+    ],
+    "future_2fp": [
+     "תִּכָּנֵסְנָה",
+     "tikanesna",
+     "tikanesna"
+    ],
+    "future_3ms": [
+     "יִכָּנֵס",
+     "yikanes",
+     "yikanes"
+    ],
+    "future_3fs": [
+     "תִּכָּנֵס",
+     "tikanes",
+     "tikanes"
+    ],
+    "future_3mp": [
+     "יִכָּנְסוּ",
+     "yikansu",
+     "yikansou"
+    ],
+    "future_3fp": [
+     "תִּכָּנֵסְנָה",
+     "tikanesna",
+     "tikanesna"
+    ],
+    "imperative_ms": [
+     "הִכָּנֵס",
+     "hikanes",
+     "hikanes"
+    ],
+    "imperative_fs": [
+     "הִכָּנְסִי",
+     "hikansi",
+     "hikansi"
+    ],
+    "imperative_mp": [
+     "הִכָּנְסוּ",
+     "hikansu",
+     "hikansou"
+    ],
+    "imperative_fp": [
+     "הִכָּנֵסְנָה",
+     "hikanesna",
+     "hikanesna"
+    ],
+    "infinitive": [
+     "לְהִכָּנֵס",
+     "lehikanes",
+     "lehikanes"
+    ]
+   },
+   "translit": {
+    "en": "lehikanes",
+    "fr": "lehikanes"
+   }
+  },
+  {
+   "id": "lehishama",
+   "binyan": "nifal",
+   "root": "שמע",
+   "he": "לְהִשָּׁמַע",
+   "tr": {
+    "en": "heard",
+    "fr": "être entendu / se faire entendre"
+   }
+  },
+  {
+   "id": "lehisager",
+   "binyan": "nifal",
+   "root": "סגר",
+   "he": "לְהִסָּגֵר",
+   "tr": {
+    "en": "closed",
+    "fr": "se fermer / être fermé"
+   }
+  },
+  {
+   "id": "lehippateakh",
+   "binyan": "nifal",
+   "root": "פתח",
+   "he": "לְהִפָּתֵחַ",
+   "tr": {
+    "en": "is opened",
+    "fr": "s’ouvrir / être ouvert"
+   }
+  },
+  {
+   "id": "leheakhel",
+   "binyan": "nifal",
+   "root": "אכל",
+   "he": "לְהֵאָכֵל",
+   "tr": {
+    "en": "eaten",
+    "fr": "être mangé / se manger"
+   }
+  },
+  {
+   "id": "lehikatev",
+   "binyan": "nifal",
+   "root": "כתב",
+   "he": "לְהִכָּתֵב",
+   "tr": {
+    "en": "be written",
+    "fr": "être écrit / s’écrire"
+   },
+   "free": true,
+   "prep": {
+    "he": "",
+    "en": "no object (passive)",
+    "fr": "aucun complément (passif)"
+   },
+   "forms": {
+    "present_ms": [
+     "נִכְתָּב",
+     "nikhtav",
+     "nikhtav"
+    ],
+    "present_fs": [
+     "נִכְתֶּבֶת",
+     "nikhtevet",
+     "nikhtevet"
+    ],
+    "present_mp": [
+     "נִכְתָּבִים",
+     "nikhtavim",
+     "nikhtavim"
+    ],
+    "present_fp": [
+     "נִכְתָּבוֹת",
+     "nikhtavot",
+     "nikhtavot"
+    ],
+    "past_1s": [
+     "נִכְתַּבְתִּי",
+     "nikhtavti",
+     "nikhtavti"
+    ],
+    "past_1p": [
+     "נִכְתַּבְנוּ",
+     "nikhtavnu",
+     "nikhtavnou"
+    ],
+    "past_2ms": [
+     "נִכְתַּבְתָּ",
+     "nikhtavta",
+     "nikhtavta"
+    ],
+    "past_2fs": [
+     "נִכְתַּבְתְּ",
+     "nikhtavt",
+     "nikhtavt"
+    ],
+    "past_2mp": [
+     "נִכְתַּבְתֶּם",
+     "nikhtavtem",
+     "nikhtavtem"
+    ],
+    "past_2fp": [
+     "נִכְתַּבְתֶּן",
+     "nikhtavten",
+     "nikhtavten"
+    ],
+    "past_3ms": [
+     "נִכְתַּב",
+     "nikhtav",
+     "nikhtav"
+    ],
+    "past_3fs": [
+     "נִכְתְּבָה",
+     "nikhteva",
+     "nikhteva"
+    ],
+    "past_3pl": [
+     "נִכְתְּבוּ",
+     "nikhtevu",
+     "nikhtevou"
+    ],
+    "future_1s": [
+     "אֶכָּתֵב",
+     "ekatev",
+     "ekatev"
+    ],
+    "future_1p": [
+     "נִכָּתֵב",
+     "nikatev",
+     "nikatev"
+    ],
+    "future_2ms": [
+     "תִּכָּתֵב",
+     "tikatev",
+     "tikatev"
+    ],
+    "future_2fs": [
+     "תִּכָּתְבִי",
+     "tikatvi",
+     "tikatvi"
+    ],
+    "future_2mp": [
+     "תִּכָּתְבוּ",
+     "tikatvu",
+     "tikatvou"
+    ],
+    "future_2fp": [
+     "תִּכָּתֵבְנָה",
+     "tikatevna",
+     "tikatevna"
+    ],
+    "future_3ms": [
+     "יִכָּתֵב",
+     "yikatev",
+     "yikatev"
+    ],
+    "future_3fs": [
+     "תִּכָּתֵב",
+     "tikatev",
+     "tikatev"
+    ],
+    "future_3mp": [
+     "יִכָּתְבוּ",
+     "yikatvu",
+     "yikatvou"
+    ],
+    "future_3fp": [
+     "תִּכָּתֵבְנָה",
+     "tikatevna",
+     "tikatevna"
+    ],
+    "imperative_ms": [
+     "הִכָּתֵב",
+     "hikatev",
+     "hikatev"
+    ],
+    "imperative_fs": [
+     "הִכָּתְבִי",
+     "hikatvi",
+     "hikatvi"
+    ],
+    "imperative_mp": [
+     "הִכָּתְבוּ",
+     "hikatvu",
+     "hikatvou"
+    ],
+    "imperative_fp": [
+     "הִכָּתֵבְנָה",
+     "hikatevna",
+     "hikatevna"
+    ],
+    "infinitive": [
+     "לְהִכָּתֵב",
+     "lehikatev",
+     "lehikatev"
+    ]
+   },
+   "translit": {
+    "en": "lehikatev",
+    "fr": "lehikatev"
+   }
+  },
+  {
+   "id": "lehikare",
+   "binyan": "nifal",
+   "root": "קרא",
+   "he": "לְהִקָּרֵא",
+   "tr": {
+    "en": "read, called",
+    "fr": "se lire, s’appeler"
+   }
+  },
+  {
+   "id": "lehipagesh",
+   "binyan": "nifal",
+   "root": "פגש",
+   "he": "לְהִפָּגֵשׁ",
+   "tr": {
+    "en": "meet",
+    "fr": "se rencontrer"
+   },
+   "free": true,
+   "prep": {
+    "he": "עם",
+    "en": "עם + person (with)",
+    "fr": "עם + personne (avec)"
+   },
+   "forms": {
+    "present_ms": [
+     "נִפְגָּשׁ",
+     "nifgash",
+     "nifgach"
+    ],
+    "present_fs": [
+     "נִפְגֶּשֶׁת",
+     "nifgeshet",
+     "nifguechet"
+    ],
+    "present_mp": [
+     "נִפְגָּשִׁים",
+     "nifgashim",
+     "nifgachim"
+    ],
+    "present_fp": [
+     "נִפְגָּשׁוֹת",
+     "nifgashot",
+     "nifgachot"
+    ],
+    "past_1s": [
+     "נִפְגַּשְׁתִּי",
+     "nifgashti",
+     "nifgachti"
+    ],
+    "past_1p": [
+     "נִפְגַּשְׁנוּ",
+     "nifgashnu",
+     "nifgachnou"
+    ],
+    "past_2ms": [
+     "נִפְגַּשְׁתָּ",
+     "nifgashta",
+     "nifgachta"
+    ],
+    "past_2fs": [
+     "נִפְגַּשְׁתְּ",
+     "nifgasht",
+     "nifgacht"
+    ],
+    "past_2mp": [
+     "נִפְגַּשְׁתֶּם",
+     "nifgashtem",
+     "nifgachtem"
+    ],
+    "past_2fp": [
+     "נִפְגַּשְׁתֶּן",
+     "nifgashten",
+     "nifgachten"
+    ],
+    "past_3ms": [
+     "נִפְגַּשׁ",
+     "nifgash",
+     "nifgach"
+    ],
+    "past_3fs": [
+     "נִפְגְּשָׁה",
+     "nifgesha",
+     "nifguecha"
+    ],
+    "past_3pl": [
+     "נִפְגְּשׁוּ",
+     "nifgeshu",
+     "nifguechou"
+    ],
+    "future_1s": [
+     "אֶפָּגֵשׁ",
+     "epagesh",
+     "epaguech"
+    ],
+    "future_1p": [
+     "נִפָּגֵשׁ",
+     "nipagesh",
+     "nipaguech"
+    ],
+    "future_2ms": [
+     "תִּפָּגֵשׁ",
+     "tipagesh",
+     "tipaguech"
+    ],
+    "future_2fs": [
+     "תִּפָּגְשִׁי",
+     "tipagshi",
+     "tipagchi"
+    ],
+    "future_2mp": [
+     "תִּפָּגְשׁוּ",
+     "tipagshu",
+     "tipagchou"
+    ],
+    "future_2fp": [
+     "תִּפָּגֵשְׁנָה",
+     "tipageshna",
+     "tipaguechna"
+    ],
+    "future_3ms": [
+     "יִפָּגֵשׁ",
+     "yipagesh",
+     "yipaguech"
+    ],
+    "future_3fs": [
+     "תִּפָּגֵשׁ",
+     "tipagesh",
+     "tipaguech"
+    ],
+    "future_3mp": [
+     "יִפָּגְשׁוּ",
+     "yipagshu",
+     "yipagchou"
+    ],
+    "future_3fp": [
+     "תִּפָּגֵשְׁנָה",
+     "tipageshna",
+     "tipaguechna"
+    ],
+    "imperative_ms": [
+     "הִפָּגֵשׁ",
+     "hipagesh",
+     "hipaguech"
+    ],
+    "imperative_fs": [
+     "הִפָּגְשִׁי",
+     "hipagshi",
+     "hipagchi"
+    ],
+    "imperative_mp": [
+     "הִפָּגְשׁוּ",
+     "hipagshu",
+     "hipagchou"
+    ],
+    "imperative_fp": [
+     "הִפָּגֵשְׁנָה",
+     "hipageshna",
+     "hipaguechna"
+    ],
+    "infinitive": [
+     "לְהִפָּגֵשׁ",
+     "lehipagesh",
+     "lehipaguech"
+    ]
+   },
+   "translit": {
+    "en": "lehipagesh",
+    "fr": "lehipaguech"
+   }
+  },
+  {
+   "id": "lehishael",
+   "binyan": "nifal",
+   "root": "שאל",
+   "he": "לְהִשָּׁאֵל",
+   "tr": {
+    "en": "asked",
+    "fr": "être demandé / se faire demander"
+   }
+  },
+  {
+   "id": "leheasot",
+   "binyan": "nifal",
+   "root": "עשה",
+   "he": "לְהֵעָשׂוֹת",
+   "tr": {
+    "en": "done",
+    "fr": "être fait / se faire"
+   }
+  },
+  {
+   "id": "lehinnaten",
+   "binyan": "nifal",
+   "root": "נתן",
+   "he": "לְהִנָּתֵן",
+   "tr": {
+    "en": "given",
+    "fr": "être donné / se donner"
+   }
+  },
+  {
+   "id": "lehealem",
+   "binyan": "nifal",
+   "root": "עלם",
+   "he": "לְהֵעָלֵם",
+   "tr": {
+    "en": "disappear",
+    "fr": "disparaître / s’évanouir"
+   }
+  },
+  {
+   "id": "lehipared",
+   "binyan": "nifal",
+   "root": "פרד",
+   "he": "לְהִפָּרֵד",
+   "tr": {
+    "en": "break up, part",
+    "fr": "se séparer, rompre"
+   }
+  },
+  {
+   "id": "lehisaref",
+   "binyan": "nifal",
+   "root": "שרף",
+   "he": "לְהִשָּׂרֵף",
+   "tr": {
+    "en": "burnt",
+    "fr": "brûler / être brûlé"
+   }
+  },
+  {
+   "id": "lehishaleakh",
+   "binyan": "nifal",
+   "root": "שלח",
+   "he": "לְהִשָּׁלֵחַ",
+   "tr": {
+    "en": "sent",
+    "fr": "être envoyé / expédié"
+   }
+  },
+  {
+   "id": "lehifpaga",
+   "binyan": "nifal",
+   "root": "פגע",
+   "he": "לְהִפָּגַע",
+   "tr": {
+    "en": "hurt",
+    "fr": "être blessé / être touché"
+   }
+  },
+  {
+   "id": "leheyamer",
+   "binyan": "nifal",
+   "root": "אמר",
+   "he": "לְהֵאָמֵר",
+   "tr": {
+    "en": "said",
+    "fr": "être dit / se dire"
+   }
+  },
+  {
+   "id": "lehehanot",
+   "binyan": "nifal",
+   "root": "הנה",
+   "he": "לֵהָנוֹת",
+   "tr": {
+    "en": "have fun, enjoy",
+    "fr": "s’amuser, profiter"
+   }
+  },
+  {
+   "id": "lehitpotsets",
+   "binyan": "hitpael",
+   "root": "פצץ",
+   "he": "לְהִתְפּוֹצֵץ",
+   "tr": {
+    "en": "explode",
+    "fr": "exploser"
+   }
+  },
+  {
+   "id": "lehitkhaten",
+   "binyan": "hitpael",
+   "root": "חתן",
+   "he": "להתחתן",
+   "tr": {
+    "en": "get married",
+    "fr": "se marier"
+   }
+  },
+  {
+   "id": "lehitlonen",
+   "binyan": "hitpael",
+   "root": "לון",
+   "he": "לְהִתְלוֹנֵן",
+   "tr": {
+    "en": "complain",
+    "fr": "se plaindre"
+   }
+  },
+  {
+   "id": "lehitpashet",
+   "binyan": "hitpael",
+   "root": "פשט",
+   "he": "לְהִתְפַּשֵּׁט",
+   "tr": {
+    "en": "get undressed",
+    "fr": "se déshabiller"
+   }
+  },
+  {
+   "id": "lehitrakhets",
+   "binyan": "hitpael",
+   "root": "רחץ",
+   "he": "לְהִתְרַחֵץ",
+   "tr": {
+    "en": "wash oneself, bathe",
+    "fr": "se laver, se baigner"
+   }
+  },
+  {
+   "id": "lehapsik",
+   "binyan": "hifil",
+   "root": "פסק",
+   "he": "לְהַפְסִיק",
+   "tr": {
+    "en": "stop",
+    "fr": "arrêter"
+   }
+  },
+  {
+   "id": "lehitnaddev",
+   "binyan": "hitpael",
+   "root": "נדב",
+   "he": "לְהִתְנַדֵּב",
+   "tr": {
+    "en": "volunteer",
+    "fr": "se porter volontaire / faire du bénévolat"
+   }
+  },
+  {
+   "id": "lehitallel",
+   "binyan": "hitpael",
+   "root": "עלל",
+   "he": "לְהִתְעַלֵּל",
+   "tr": {
+    "en": "abuse",
+    "fr": "maltraiter / brutaliser"
+   }
+  },
+  {
+   "id": "laredet",
+   "binyan": "paal",
+   "root": "ירד",
+   "he": "לָרֶדֶת",
+   "tr": {
+    "en": "go down",
+    "fr": "descendre"
+   }
+  },
+  {
+   "id": "lehitstaer",
+   "binyan": "hitpael",
+   "root": "צער",
+   "he": "לְהִצְטַעֵר",
+   "tr": {
+    "en": "be sorry",
+    "fr": "être désolé / regretter"
+   }
+  },
+  {
+   "id": "lehielav",
+   "binyan": "nifal",
+   "root": "עלב",
+   "he": "לְהֵעָלֵב",
+   "tr": {
+    "en": "get offended",
+    "fr": "se vexer / s’offenser"
+   }
+  },
+  {
+   "id": "lenashek",
+   "binyan": "piel",
+   "root": "נשק",
+   "he": "לְנַשֵּׁק",
+   "tr": {
+    "en": "kiss",
+    "fr": "embrasser"
+   }
+  },
+  {
+   "id": "lekhabbek",
+   "binyan": "piel",
+   "root": "חבק",
+   "he": "לְחַבֵּק",
+   "tr": {
+    "en": "hug",
+    "fr": "serrer dans ses bras / étreindre"
+   }
+  },
+  {
+   "id": "lenakhem",
+   "binyan": "piel",
+   "root": "נחם",
+   "he": "לְנַחֵם",
+   "tr": {
+    "en": "comfort",
+    "fr": "consoler"
+   }
+  },
+  {
+   "id": "livkot",
+   "binyan": "paal",
+   "root": "בכה",
+   "he": "לִבְכּוֹת",
+   "tr": {
+    "en": "cry",
+    "fr": "pleurer"
+   }
+  },
+  {
+   "id": "lehitlahev",
+   "binyan": "hitpael",
+   "root": "להב",
+   "he": "להתלהב",
+   "tr": {
+    "en": "enthusiastic, excited",
+    "fr": "s’enthousiasmer, s’exciter"
+   }
+  },
+  {
+   "id": "lehaarits",
+   "binyan": "hifil",
+   "root": "ערץ",
+   "he": "לְהַעֲרִיץ",
+   "tr": {
+    "en": "adore, admire",
+    "fr": "adorer, admirer"
+   }
+  },
+  {
+   "id": "bushal",
+   "binyan": "pual",
+   "root": "בשל",
+   "he": "בושל",
+   "tr": {
+    "en": "cooked",
+    "fr": "être cuit / être cuisiné"
+   }
+  },
+  {
+   "id": "lehakbil",
+   "binyan": "hifil",
+   "root": "קבל",
+   "he": "לְהַקְבִּיל",
+   "tr": {
+    "en": "parallel, equivalent",
+    "fr": "comparer, mettre en parallèle"
+   }
+  },
+  {
+   "id": "nusa",
+   "binyan": "pual",
+   "root": "נסה",
+   "he": "נֻסָּה",
+   "tr": {
+    "en": "be tried, be tested",
+    "fr": "être testé / être éprouvé"
+   },
+   "free": true,
+   "prep": {
+    "he": "",
+    "en": "no object (passive)",
+    "fr": "aucun complément (passif)"
+   },
+   "forms": {
+    "present_ms": [
+     "מְנֻסֶּה",
+     "menuse",
+     "menouse"
+    ],
+    "present_fs": [
+     "מְנֻסָּה",
+     "menusa",
+     "menousa"
+    ],
+    "present_mp": [
+     "מְנֻסִּים",
+     "menusim",
+     "menousim"
+    ],
+    "present_fp": [
+     "מְנֻסּוֹת",
+     "menusot",
+     "menousot"
+    ],
+    "past_1s": [
+     "נֻסֵּיתִי",
+     "nuseyti",
+     "nouseyti"
+    ],
+    "past_1p": [
+     "נֻסֵּינוּ",
+     "nuseynu",
+     "nouseynou"
+    ],
+    "past_2ms": [
+     "נֻסֵּיתָ",
+     "nuseyta",
+     "nouseyta"
+    ],
+    "past_2fs": [
+     "נֻסֵּית",
+     "nuseyt",
+     "nouseyt"
+    ],
+    "past_2mp": [
+     "נֻסֵּיתֶם",
+     "nuseytem",
+     "nouseytem"
+    ],
+    "past_2fp": [
+     "נֻסֵּיתֶן",
+     "nuseyten",
+     "nouseyten"
+    ],
+    "past_3ms": [
+     "נֻסָּה",
+     "nusa",
+     "nousa"
+    ],
+    "past_3fs": [
+     "נֻסְּתָה",
+     "nusta",
+     "nousta"
+    ],
+    "past_3pl": [
+     "נֻסּוּ",
+     "nusu",
+     "nousou"
+    ],
+    "future_1s": [
+     "אֲנֻסֶּה",
+     "anuse",
+     "anouse"
+    ],
+    "future_1p": [
+     "נְנֻסֶּה",
+     "nenuse",
+     "nenouse"
+    ],
+    "future_2ms": [
+     "תְּנֻסֶּה",
+     "tenuse",
+     "tenouse"
+    ],
+    "future_2fs": [
+     "תְּנֻסִּי",
+     "tenusi",
+     "tenousi"
+    ],
+    "future_2mp": [
+     "תְּנֻסּוּ",
+     "tenusu",
+     "tenousou"
+    ],
+    "future_2fp": [
+     "תְּנֻסֶּינָה",
+     "tenuseyna",
+     "tenouseyna"
+    ],
+    "future_3ms": [
+     "יְנֻסֶּה",
+     "yenuse",
+     "yenouse"
+    ],
+    "future_3fs": [
+     "תְּנֻסֶּה",
+     "tenuse",
+     "tenouse"
+    ],
+    "future_3mp": [
+     "יְנֻסּוּ",
+     "yenusu",
+     "yenousou"
+    ],
+    "future_3fp": [
+     "תְּנֻסֶּינָה",
+     "tenuseyna",
+     "tenouseyna"
+    ]
+   },
+   "translit": {
+    "en": "nusa",
+    "fr": "nousa"
+   }
+  },
+  {
+   "id": "vorbav",
+   "binyan": "pual",
+   "root": "ערבב",
+   "he": "עורבב",
+   "tr": {
+    "en": "is mixed",
+    "fr": "être mélangé"
+   }
+  },
+  {
+   "id": "vuzbaz",
+   "binyan": "pual",
+   "root": "בזבז",
+   "he": "בוזבז",
+   "tr": {
+    "en": "is wasted",
+    "fr": "être gaspillé"
+   }
+  },
+  {
+   "id": "shuna",
+   "binyan": "pual",
+   "root": "שנה",
+   "he": "שֻׁנָּה",
+   "tr": {
+    "en": "be changed",
+    "fr": "être changé"
+   },
+   "free": true,
+   "prep": {
+    "he": "",
+    "en": "no object (passive)",
+    "fr": "aucun complément (passif)"
+   },
+   "forms": {
+    "present_ms": [
+     "מְשֻׁנֶּה",
+     "meshune",
+     "mechoune"
+    ],
+    "present_fs": [
+     "מְשֻׁנָּה",
+     "meshuna",
+     "mechouna"
+    ],
+    "present_mp": [
+     "מְשֻׁנִּים",
+     "meshunim",
+     "mechounim"
+    ],
+    "present_fp": [
+     "מְשֻׁנּוֹת",
+     "meshunot",
+     "mechounot"
+    ],
+    "past_1s": [
+     "שֻׁנֵּיתִי",
+     "shuneyti",
+     "chouneyti"
+    ],
+    "past_1p": [
+     "שֻׁנֵּינוּ",
+     "shuneynu",
+     "chouneynou"
+    ],
+    "past_2ms": [
+     "שֻׁנֵּיתָ",
+     "shuneyta",
+     "chouneyta"
+    ],
+    "past_2fs": [
+     "שֻׁנֵּית",
+     "shuneyt",
+     "chouneyt"
+    ],
+    "past_2mp": [
+     "שֻׁנֵּיתֶם",
+     "shuneytem",
+     "chouneytem"
+    ],
+    "past_2fp": [
+     "שֻׁנֵּיתֶן",
+     "shuneyten",
+     "chouneyten"
+    ],
+    "past_3ms": [
+     "שֻׁנָּה",
+     "shuna",
+     "chouna"
+    ],
+    "past_3fs": [
+     "שֻׁנְּתָה",
+     "shunta",
+     "chounta"
+    ],
+    "past_3pl": [
+     "שֻׁנּוּ",
+     "shunu",
+     "chounou"
+    ],
+    "future_1s": [
+     "אֲשֻׁנֶּה",
+     "ashune",
+     "achoune"
+    ],
+    "future_1p": [
+     "נְשֻׁנֶּה",
+     "neshune",
+     "nechoune"
+    ],
+    "future_2ms": [
+     "תְּשֻׁנֶּה",
+     "teshune",
+     "techoune"
+    ],
+    "future_2fs": [
+     "תְּשֻׁנִּי",
+     "teshuni",
+     "techouni"
+    ],
+    "future_2mp": [
+     "תְּשֻׁנּוּ",
+     "teshunu",
+     "techounou"
+    ],
+    "future_2fp": [
+     "תְּשֻׁנֶּינָה",
+     "teshuneyna",
+     "techouneyna"
+    ],
+    "future_3ms": [
+     "יְשֻׁנֶּה",
+     "yeshune",
+     "yechoune"
+    ],
+    "future_3fs": [
+     "תְּשֻׁנֶּה",
+     "teshune",
+     "techoune"
+    ],
+    "future_3mp": [
+     "יְשֻׁנּוּ",
+     "yeshunu",
+     "yechounou"
+    ],
+    "future_3fp": [
+     "תְּשֻׁנֶּינָה",
+     "teshuneyna",
+     "techouneyna"
+    ]
+   },
+   "translit": {
+    "en": "shuna",
+    "fr": "chouna"
+   }
+  },
+  {
+   "id": "dubar",
+   "binyan": "pual",
+   "root": "דבר",
+   "he": "דֻּבַּר",
+   "tr": {
+    "en": "be spoken",
+    "fr": "être dit / être discuté"
+   },
+   "free": true,
+   "prep": {
+    "he": "",
+    "en": "no object (passive)",
+    "fr": "aucun complément (passif)"
+   },
+   "forms": {
+    "present_ms": [
+     "מְדֻבָּר",
+     "medubar",
+     "medoubar"
+    ],
+    "present_fs": [
+     "מְדֻבֶּרֶת",
+     "meduberet",
+     "medouberet"
+    ],
+    "present_mp": [
+     "מְדֻבָּרִים",
+     "medubarim",
+     "medoubarim"
+    ],
+    "present_fp": [
+     "מְדֻבָּרוֹת",
+     "medubarot",
+     "medoubarot"
+    ],
+    "past_1s": [
+     "דֻּבַּרְתִּי",
+     "dubarti",
+     "doubarti"
+    ],
+    "past_1p": [
+     "דֻּבַּרְנוּ",
+     "dubarnu",
+     "doubarnou"
+    ],
+    "past_2ms": [
+     "דֻּבַּרְתָּ",
+     "dubarta",
+     "doubarta"
+    ],
+    "past_2fs": [
+     "דֻּבַּרְתְּ",
+     "dubart",
+     "doubart"
+    ],
+    "past_2mp": [
+     "דֻּבַּרְתֶּם",
+     "dubartem",
+     "doubartem"
+    ],
+    "past_2fp": [
+     "דֻּבַּרְתֶּן",
+     "dubarten",
+     "doubarten"
+    ],
+    "past_3ms": [
+     "דֻּבַּר",
+     "dubar",
+     "doubar"
+    ],
+    "past_3fs": [
+     "דֻּבְּרָה",
+     "dubra",
+     "doubra"
+    ],
+    "past_3pl": [
+     "דֻּבְּרוּ",
+     "dubru",
+     "doubrou"
+    ],
+    "future_1s": [
+     "אֲדֻבַּר",
+     "adubar",
+     "adoubar"
+    ],
+    "future_1p": [
+     "נְדֻבַּר",
+     "nedubar",
+     "nedoubar"
+    ],
+    "future_2ms": [
+     "תְּדֻבַּר",
+     "tedubar",
+     "tedoubar"
+    ],
+    "future_2fs": [
+     "תְּדֻבְּרִי",
+     "tedubri",
+     "tedoubri"
+    ],
+    "future_2mp": [
+     "תְּדֻבְּרוּ",
+     "tedubru",
+     "tedoubrou"
+    ],
+    "future_2fp": [
+     "תְּדֻבַּרְנָה",
+     "tedubarna",
+     "tedoubarna"
+    ],
+    "future_3ms": [
+     "יְדֻבַּר",
+     "yedubar",
+     "yedoubar"
+    ],
+    "future_3fs": [
+     "תְּדֻבַּר",
+     "tedubar",
+     "tedoubar"
+    ],
+    "future_3mp": [
+     "יְדֻבְּרוּ",
+     "yedubru",
+     "yedoubrou"
+    ],
+    "future_3fp": [
+     "תְּדֻבַּרְנָה",
+     "tedubarna",
+     "tedoubarna"
+    ]
+   },
+   "translit": {
+    "en": "dubar",
+    "fr": "doubar"
+   }
+  },
+  {
+   "id": "suyam",
+   "binyan": "pual",
+   "root": "סים",
+   "he": "סוים",
+   "tr": {
+    "en": "is finished",
+    "fr": "être terminé"
+   }
+  },
+  {
+   "id": "shukha",
+   "binyan": "pual",
+   "root": "שכנע",
+   "he": "שוכנע",
+   "tr": {
+    "en": "is convinced",
+    "fr": "être convaincu"
+   }
+  },
+  {
+   "id": "shutaf",
+   "binyan": "pual",
+   "root": "שתף",
+   "he": "שותף",
+   "tr": {
+    "en": "is included",
+    "fr": "être inclus / être impliqué"
+   }
+  },
+  {
+   "id": "kubal",
+   "binyan": "pual",
+   "root": "קבל",
+   "he": "קובל",
+   "tr": {
+    "en": "is received",
+    "fr": "être reçu"
+   }
+  },
+  {
+   "id": "sudar",
+   "binyan": "pual",
+   "root": "סדר",
+   "he": "סודר",
+   "tr": {
+    "en": "is organized",
+    "fr": "être organisé"
+   }
+  },
+  {
+   "id": "mula",
+   "binyan": "pual",
+   "root": "מלא",
+   "he": "מֻלָּא",
+   "tr": {
+    "en": "be filled",
+    "fr": "être rempli"
+   },
+   "free": true,
+   "prep": {
+    "he": "ב",
+    "en": "ב + substance (filled with)",
+    "fr": "ב + substance (rempli de)"
+   },
+   "forms": {
+    "present_ms": [
+     "מְמֻלָּא",
+     "memula",
+     "memoula"
+    ],
+    "present_fs": [
+     "מְמֻלֵּאת",
+     "memule'et",
+     "memoule'et"
+    ],
+    "present_mp": [
+     "מְמֻלָּאִים",
+     "memula'im",
+     "memoula'im"
+    ],
+    "present_fp": [
+     "מְמֻלָּאוֹת",
+     "memula'ot",
+     "memoula'ot"
+    ],
+    "past_1s": [
+     "מֻלֵּאתִי",
+     "mule'ti",
+     "moule'ti"
+    ],
+    "past_1p": [
+     "מֻלֵּאנוּ",
+     "mule'nu",
+     "moule'nou"
+    ],
+    "past_2ms": [
+     "מֻלֵּאתָ",
+     "mule'ta",
+     "moule'ta"
+    ],
+    "past_2fs": [
+     "מֻלֵּאת",
+     "mule't",
+     "moule't"
+    ],
+    "past_2mp": [
+     "מֻלֵּאתֶם",
+     "mule'tem",
+     "moule'tem"
+    ],
+    "past_2fp": [
+     "מֻלֵּאתֶן",
+     "mule'ten",
+     "moule'ten"
+    ],
+    "past_3ms": [
+     "מֻלָּא",
+     "mula",
+     "moula"
+    ],
+    "past_3fs": [
+     "מֻלְּאָה",
+     "mul'a",
+     "moul'a"
+    ],
+    "past_3pl": [
+     "מֻלְּאוּ",
+     "mul'u",
+     "moul'ou"
+    ],
+    "future_1s": [
+     "אֲמֻלָּא",
+     "amula",
+     "amoula"
+    ],
+    "future_1p": [
+     "נְמֻלָּא",
+     "nemula",
+     "nemoula"
+    ],
+    "future_2ms": [
+     "תְּמֻלָּא",
+     "temula",
+     "temoula"
+    ],
+    "future_2fs": [
+     "תְּמֻלְּאִי",
+     "temul'i",
+     "temoul'i"
+    ],
+    "future_2mp": [
+     "תְּמֻלְּאוּ",
+     "temul'u",
+     "temoul'ou"
+    ],
+    "future_2fp": [
+     "תְּמֻלֶּאנָה",
+     "temule'na",
+     "temoule'na"
+    ],
+    "future_3ms": [
+     "יְמֻלָּא",
+     "yemula",
+     "yemoula"
+    ],
+    "future_3fs": [
+     "תְּמֻלָּא",
+     "temula",
+     "temoula"
+    ],
+    "future_3mp": [
+     "יְמֻלְּאוּ",
+     "yemul'u",
+     "yemoul'ou"
+    ],
+    "future_3fp": [
+     "תְּמֻלֶּאנָה",
+     "temule'na",
+     "temoule'na"
+    ]
+   },
+   "translit": {
+    "en": "mula",
+    "fr": "moula"
+   }
+  },
+  {
+   "id": "huvan",
+   "binyan": "hufal",
+   "root": "בין",
+   "he": "הוּבַן",
+   "tr": {
+    "en": "be understood",
+    "fr": "être compris"
+   },
+   "free": true,
+   "prep": {
+    "he": "",
+    "en": "no object (passive)",
+    "fr": "aucun complément (passif)"
+   },
+   "forms": {
+    "present_ms": [
+     "מוּבָן",
+     "muvan",
+     "mouvan"
+    ],
+    "present_fs": [
+     "מוּבֶנֶת",
+     "muvenet",
+     "mouvenet"
+    ],
+    "present_mp": [
+     "מוּבָנִים",
+     "muvanim",
+     "mouvanim"
+    ],
+    "present_fp": [
+     "מוּבָנוֹת",
+     "muvanot",
+     "mouvanot"
+    ],
+    "past_1s": [
+     "הוּבַנְתִּי",
+     "huvanti",
+     "houvanti"
+    ],
+    "past_1p": [
+     "הוּבַנּוּ",
+     "huvanu",
+     "houvanou"
+    ],
+    "past_2ms": [
+     "הוּבַנְתָּ",
+     "huvanta",
+     "houvanta"
+    ],
+    "past_2fs": [
+     "הוּבַנְתְּ",
+     "huvant",
+     "houvant"
+    ],
+    "past_2mp": [
+     "הוּבַנְתֶּם",
+     "huvantem",
+     "houvantem"
+    ],
+    "past_2fp": [
+     "הוּבַנְתֶּן",
+     "huvanten",
+     "houvanten"
+    ],
+    "past_3ms": [
+     "הוּבַן",
+     "huvan",
+     "houvan"
+    ],
+    "past_3fs": [
+     "הוּבְנָה",
+     "huvna",
+     "houvna"
+    ],
+    "past_3pl": [
+     "הוּבְנוּ",
+     "huvnu",
+     "houvnou"
+    ],
+    "future_1s": [
+     "אוּבַן",
+     "uvan",
+     "ouvan"
+    ],
+    "future_1p": [
+     "נוּבַן",
+     "nuvan",
+     "nouvan"
+    ],
+    "future_2ms": [
+     "תּוּבַן",
+     "tuvan",
+     "touvan"
+    ],
+    "future_2fs": [
+     "תּוּבְנִי",
+     "tuvni",
+     "touvni"
+    ],
+    "future_2mp": [
+     "תּוּבְנוּ",
+     "tuvnu",
+     "touvnou"
+    ],
+    "future_2fp": [
+     "תּוּבַנָּה",
+     "tuvanna",
+     "touvanna"
+    ],
+    "future_3ms": [
+     "יוּבַן",
+     "yuvan",
+     "youvan"
+    ],
+    "future_3fs": [
+     "תּוּבַן",
+     "tuvan",
+     "touvan"
+    ],
+    "future_3mp": [
+     "יוּבְנוּ",
+     "yuvnu",
+     "youvnou"
+    ],
+    "future_3fp": [
+     "תּוּבַנָּה",
+     "tuvanna",
+     "touvanna"
+    ]
+   },
+   "translit": {
+    "en": "huvan",
+    "fr": "houvan"
+   }
+  },
+  {
+   "id": "hokhlaf",
+   "binyan": "hufal",
+   "root": "חלף",
+   "he": "הוחלף",
+   "tr": {
+    "en": "is replaced",
+    "fr": "être remplacé"
+   }
+  },
+  {
+   "id": "horkav",
+   "binyan": "hufal",
+   "root": "רכב",
+   "he": "הורכב",
+   "tr": {
+    "en": "complicated, composed",
+    "fr": "compliqué, composé"
+   }
+  },
+  {
+   "id": "huzman",
+   "binyan": "hufal",
+   "root": "זמן",
+   "he": "הוזמן",
+   "tr": {
+    "en": "is invited",
+    "fr": "être invité"
+   }
+  },
+  {
+   "id": "lehafria",
+   "binyan": "hifil",
+   "root": "פרע",
+   "he": "לְהַפְרִיעַ",
+   "tr": {
+    "en": "disturb",
+    "fr": "déranger"
+   }
+  },
+  {
+   "id": "hufra",
+   "binyan": "hufal",
+   "root": "פרע",
+   "he": "הופרע",
+   "tr": {
+    "en": "is disturbed",
+    "fr": "être dérangé / être perturbé"
+   }
+  },
+  {
+   "id": "lehagbil",
+   "binyan": "hifil",
+   "root": "גבל",
+   "he": "לְהַגְבִּיל",
+   "tr": {
+    "en": "restrict, limit",
+    "fr": "restreindre, limiter"
+   }
+  },
+  {
+   "id": "hugbal",
+   "binyan": "hufal",
+   "root": "גבל",
+   "he": "הוגבל",
+   "tr": {
+    "en": "is restricted, is limited",
+    "fr": "être restreint, être limité"
+   }
+  },
+  {
+   "id": "hukhlat",
+   "binyan": "hufal",
+   "root": "חלט",
+   "he": "הֻחְלַט",
+   "tr": {
+    "en": "be decided",
+    "fr": "être décidé"
+   },
+   "free": true,
+   "prep": {
+    "he": "",
+    "en": "no object (passive)",
+    "fr": "aucun complément (passif)"
+   },
+   "forms": {
+    "present_ms": [
+     "מֻחְלָט",
+     "mukhlat",
+     "moukhlat"
+    ],
+    "present_fs": [
+     "מֻחְלֶטֶת",
+     "mukhletet",
+     "moukhletet"
+    ],
+    "present_mp": [
+     "מֻחְלָטִים",
+     "mukhlatim",
+     "moukhlatim"
+    ],
+    "present_fp": [
+     "מֻחְלָטוֹת",
+     "mukhlatot",
+     "moukhlatot"
+    ],
+    "past_1s": [
+     "הֻחְלַטְתִּי",
+     "hukhlatti",
+     "houkhlatti"
+    ],
+    "past_1p": [
+     "הֻחְלַטְנוּ",
+     "hukhlatnu",
+     "houkhlatnou"
+    ],
+    "past_2ms": [
+     "הֻחְלַטְתָּ",
+     "hukhlatta",
+     "houkhlatta"
+    ],
+    "past_2fs": [
+     "הֻחְלַטְתְּ",
+     "hukhlatt",
+     "houkhlatt"
+    ],
+    "past_2mp": [
+     "הֻחְלַטְתֶּם",
+     "hukhlattem",
+     "houkhlattem"
+    ],
+    "past_2fp": [
+     "הֻחְלַטְתֶּן",
+     "hukhlatten",
+     "houkhlatten"
+    ],
+    "past_3ms": [
+     "הֻחְלַט",
+     "hukhlat",
+     "houkhlat"
+    ],
+    "past_3fs": [
+     "הֻחְלְטָה",
+     "hukhleta",
+     "houkhleta"
+    ],
+    "past_3pl": [
+     "הֻחְלְטוּ",
+     "hukhletu",
+     "houkhletou"
+    ],
+    "future_1s": [
+     "אֻחְלַט",
+     "ukhlat",
+     "oukhlat"
+    ],
+    "future_1p": [
+     "נֻחְלַט",
+     "nukhlat",
+     "noukhlat"
+    ],
+    "future_2ms": [
+     "תֻּחְלַט",
+     "tukhlat",
+     "toukhlat"
+    ],
+    "future_2fs": [
+     "תֻּחְלְטִי",
+     "tukhleti",
+     "toukhleti"
+    ],
+    "future_2mp": [
+     "תֻּחְלְטוּ",
+     "tukhletu",
+     "toukhletou"
+    ],
+    "future_2fp": [
+     "תֻּחְלַטְנָה",
+     "tukhlatna",
+     "toukhlatna"
+    ],
+    "future_3ms": [
+     "יֻחְלַט",
+     "yukhlat",
+     "youkhlat"
+    ],
+    "future_3fs": [
+     "תֻּחְלַט",
+     "tukhlat",
+     "toukhlat"
+    ],
+    "future_3mp": [
+     "יֻחְלְטוּ",
+     "yukhletu",
+     "youkhletou"
+    ],
+    "future_3fp": [
+     "תֻּחְלַטְנָה",
+     "tukhlatna",
+     "toukhlatna"
+    ]
+   },
+   "translit": {
+    "en": "hukhlat",
+    "fr": "houkhlat"
+   }
+  },
+  {
+   "id": "hushpa",
+   "binyan": "hufal",
+   "root": "שפע",
+   "he": "הושפע",
+   "tr": {
+    "en": "is influenced",
+    "fr": "être influencé"
+   }
+  },
+  {
+   "id": "lehadig",
+   "binyan": "hifil",
+   "root": "דאג",
+   "he": "לְהַדְאִיג",
+   "tr": {
+    "en": "worry",
+    "fr": "inquiéter / tracasser"
+   }
+  },
+  {
+   "id": "hudoag",
+   "binyan": "hufal",
+   "root": "דאג",
+   "he": "הודאג",
+   "tr": {
+    "en": "is worried",
+    "fr": "être inquiété / être troublé"
+   }
+  },
+  {
+   "id": "hutaam",
+   "binyan": "hufal",
+   "root": "תאם",
+   "he": "הותאם",
+   "tr": {
+    "en": "is fitted",
+    "fr": "être adapté / être ajusté / être accordé"
+   }
+  },
+  {
+   "id": "husbar",
+   "binyan": "hufal",
+   "root": "סבר",
+   "he": "הוסבר",
+   "tr": {
+    "en": "is explained",
+    "fr": "être expliqué / être clarifié"
+   }
+  },
+  {
+   "id": "ledakke",
+   "binyan": "piel",
+   "root": "דכא",
+   "he": "לְדַכֵּא",
+   "tr": {
+    "en": "oppress, cause depression",
+    "fr": "opprimer, provoquer une dépression"
+   }
+  },
+  {
+   "id": "dukka",
+   "binyan": "pual",
+   "root": "דכא",
+   "he": "דֻּכָּא",
+   "tr": {
+    "en": "is oppressed, is depressed",
+    "fr": "être opprimé, être déprimé"
+   }
+  },
+  {
+   "id": "ushar",
+   "binyan": "pual",
+   "root": "אשר",
+   "he": "אושר",
+   "tr": {
+    "en": "is approved",
+    "fr": "être approuvé"
+   }
+  },
+  {
+   "id": "nushak",
+   "binyan": "pual",
+   "root": "נשק",
+   "he": "נושק",
+   "tr": {
+    "en": "is kissed",
+    "fr": "être embrassé"
+   }
+  },
+  {
+   "id": "nukham",
+   "binyan": "pual",
+   "root": "נחם",
+   "he": "נוחם",
+   "tr": {
+    "en": "is comforted",
+    "fr": "être réconforté"
+   }
+  },
+  {
+   "id": "khubak",
+   "binyan": "pual",
+   "root": "חבק",
+   "he": "חובק",
+   "tr": {
+    "en": "is hugged",
+    "fr": "être enlacé"
+   }
+  },
+  {
+   "id": "leshaamem",
+   "binyan": "piel",
+   "root": "שעמם",
+   "he": "לשעמם",
+   "tr": {
+    "en": "bore",
+    "fr": "ennuyer"
+   }
+  },
+  {
+   "id": "shoamem",
+   "binyan": "pual",
+   "root": "שעמם",
+   "he": "שועמם",
+   "tr": {
+    "en": "is bored",
+    "fr": "s’ennuyer"
+   }
+  },
+  {
+   "id": "lidkhot",
+   "binyan": "paal",
+   "root": "דחה",
+   "he": "לִדְחוֹת",
+   "tr": {
+    "en": "reject",
+    "fr": "rejeter / refuser / reporter"
+   }
+  },
+  {
+   "id": "lehitnashek",
+   "binyan": "hitpael",
+   "root": "נשק",
+   "he": "לְהִתְנַשֵּׁק",
+   "tr": {
+    "en": "kiss with",
+    "fr": "s’embrasser"
+   }
+  },
+  {
+   "id": "lehitchabek",
+   "binyan": "hitpael",
+   "root": "חבק",
+   "he": "להתחבק",
+   "tr": {
+    "en": "hug with",
+    "fr": "s’enlacer"
+   }
+  },
+  {
+   "id": "lehaftia",
+   "binyan": "hifil",
+   "root": "פתע",
+   "he": "לְהַפְתִּיעַ",
+   "tr": {
+    "en": "surprise",
+    "fr": "surprendre / étonner"
+   }
+  },
+  {
+   "id": "hufta",
+   "binyan": "hufal",
+   "root": "פתע",
+   "he": "הופתע",
+   "tr": {
+    "en": "is surprised",
+    "fr": "être surpris / être pris au dépourvu"
+   }
+  },
+  {
+   "id": "letsapot",
+   "binyan": "piel",
+   "root": "צפה",
+   "he": "לְצַפּוֹת",
+   "tr": {
+    "en": "expect",
+    "fr": "attendre / compter sur"
+   }
+  },
+  {
+   "id": "tsufeh",
+   "binyan": "pual",
+   "root": "צפה",
+   "he": "צופה",
+   "tr": {
+    "en": "is expected",
+    "fr": "être attendu / être prévu"
+   }
+  },
+  {
+   "id": "lehavikh",
+   "binyan": "hifil",
+   "root": "בוך",
+   "he": "להביך",
+   "tr": {
+    "en": "embarass",
+    "fr": "embarrasser / déconcerter"
+   }
+  },
+  {
+   "id": "lehizaker",
+   "binyan": "nifal",
+   "root": "זכר",
+   "he": "לְהִזָּכֵר",
+   "tr": {
+    "en": "is remembered",
+    "fr": "se souvenir / revenir à la mémoire"
+   }
+  },
+  {
+   "id": "ligmor",
+   "binyan": "paal",
+   "root": "גמר",
+   "he": "לִגְמֹר",
+   "tr": {
+    "en": "finish",
+    "fr": "finir / terminer"
+   }
+  },
+  {
+   "id": "likhshol",
+   "binyan": "paal",
+   "root": "כשל",
+   "he": "לִכְשֹׁל",
+   "tr": {
+    "en": "fail",
+    "fr": "échouer / rater"
+   }
+  },
+  {
+   "id": "lihyotyakhol",
+   "binyan": "paal",
+   "root": "יכל",
+   "he": "לִהְיוֹת יָכוֹל",
+   "tr": {
+    "en": "can",
+    "fr": "pouvoir"
+   }
+  },
+  {
+   "id": "lithot",
+   "binyan": "paal",
+   "root": "תהה",
+   "he": "לִתְהוֹת",
+   "tr": {
+    "en": "wonder",
+    "fr": "s’étonner / s’interroger / réfléchir"
+   }
+  },
+  {
+   "id": "lehavia",
+   "binyan": "hifil",
+   "root": "נבע",
+   "he": "להביע",
+   "tr": {
+    "en": "express",
+    "fr": "exprimer"
+   }
+  },
+  {
+   "id": "litot",
+   "binyan": "paal",
+   "root": "טעה",
+   "he": "לִטְעוֹת",
+   "tr": {
+    "en": "mistake",
+    "fr": "se tromper / s’égarer"
+   }
+  },
+  {
+   "id": "likhyot",
+   "binyan": "paal",
+   "root": "חיה",
+   "he": "לִחְיוֹת",
+   "tr": {
+    "en": "live",
+    "fr": "vivre"
+   }
+  },
+  {
+   "id": "lekhalets",
+   "binyan": "piel",
+   "root": "חלץ",
+   "he": "לחלץ",
+   "tr": {
+    "en": "extract",
+    "fr": "extraire"
+   }
+  },
+  {
+   "id": "lilkod",
+   "binyan": "paal",
+   "root": "לכד",
+   "he": "לִלְכֹּד",
+   "tr": {
+    "en": "trap",
+    "fr": "piéger / capturer"
+   }
+  },
+  {
+   "id": "levatsea",
+   "binyan": "piel",
+   "root": "בצע",
+   "he": "לְבַצֵּעַ",
+   "tr": {
+    "en": "perform",
+    "fr": "exécuter / accomplir"
+   }
+  },
+  {
+   "id": "lehitalef",
+   "binyan": "hitpael",
+   "root": "עלף",
+   "he": "לְהִתְעַלֵּף",
+   "tr": {
+    "en": "faint",
+    "fr": "s’évanouir / perdre connaissance"
+   }
+  },
+  {
+   "id": "lehitcashmel",
+   "binyan": "hitpael",
+   "root": "חשמל",
+   "he": "לְהִתְחַשְׁמֵל",
+   "tr": {
+    "en": "get electrocuted",
+    "fr": "s’électrocuter / recevoir une décharge électrique"
+   }
+  },
+  {
+   "id": "litboa",
+   "binyan": "paal",
+   "root": "טבע",
+   "he": "לִטְבֹּעַ",
+   "tr": {
+    "en": "drown",
+    "fr": "se noyer / couler"
+   }
+  },
+  {
+   "id": "lehiaved",
+   "binyan": "nifal",
+   "root": "אבד",
+   "he": "לְהֵאָבֵד",
+   "tr": {
+    "en": "is lost",
+    "fr": "se perdre / disparaître"
+   }
+  },
+  {
+   "id": "leevod",
+   "binyan": "paal",
+   "root": "אבד",
+   "he": "לֶאֱבֹד",
+   "tr": {
+    "en": "lost",
+    "fr": "se perdre / disparaître / périr"
+   }
+  },
+  {
+   "id": "lehatsiv",
+   "binyan": "hifil",
+   "root": "יצב",
+   "he": "להציב",
+   "tr": {
+    "en": "set up, position",
+    "fr": "installer, positionner"
+   }
+  },
+  {
+   "id": "litkof",
+   "binyan": "paal",
+   "root": "תקף",
+   "he": "לִתְקֹף",
+   "tr": {
+    "en": "attack",
+    "fr": "attaquer"
+   }
+  },
+  {
+   "id": "lehirashem",
+   "binyan": "nifal",
+   "root": "רשם",
+   "he": "לְהֵרָשֵׁם",
+   "tr": {
+    "en": "is recorded",
+    "fr": "s’inscrire / être enregistré"
+   }
+  },
+  {
+   "id": "hugash",
+   "binyan": "hufal",
+   "root": "נגש",
+   "he": "הוגש",
+   "tr": {
+    "en": "is filed",
+    "fr": "être déposé / être soumis"
+   }
+  },
+  {
+   "id": "lehanif",
+   "binyan": "hifil",
+   "root": "נוף",
+   "he": "להניף",
+   "tr": {
+    "en": "raise a flag",
+    "fr": "hisser un drapeau / agiter"
+   }
+  },
+  {
+   "id": "lehikhtem",
+   "binyan": "nifal",
+   "root": "חתם",
+   "he": "לְהֵחָתֵם",
+   "tr": {
+    "en": "is signed",
+    "fr": "être signé / s’inscrire"
+   }
+  },
+  {
+   "id": "lehimmakhek",
+   "binyan": "nifal",
+   "root": "מחק",
+   "he": "לְהִמָּחֵק",
+   "tr": {
+    "en": "is erased",
+    "fr": "s’effacer / être effacé / être supprimé"
+   }
+  },
+  {
+   "id": "lezahot",
+   "binyan": "piel",
+   "root": "זהה",
+   "he": "לְזַהוֹת",
+   "tr": {
+    "en": "recognize",
+    "fr": "reconnaître / identifier"
+   }
+  },
+  {
+   "id": "laalot",
+   "binyan": "paal",
+   "root": "עלה",
+   "he": "לַעֲלוֹת",
+   "tr": {
+    "en": "rise",
+    "fr": "monter / s’élever"
+   }
+  },
+  {
+   "id": "hufkar",
+   "binyan": "hufal",
+   "root": "פקר",
+   "he": "הופקר",
+   "tr": {
+    "en": "is abandoned",
+    "fr": "être abandonné / être délaissé"
+   }
+  },
+  {
+   "id": "lehitkhasen",
+   "binyan": "hitpael",
+   "root": "חסן",
+   "he": "להתחסן",
+   "tr": {
+    "en": "get vaccinated",
+    "fr": "se faire vacciner / se vacciner"
+   }
+  }
+ ]
+}

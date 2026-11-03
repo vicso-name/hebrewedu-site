@@ -1,0 +1,14 @@
+---
+import VerbsPage from '../../../../components/verbs/VerbsPage.astro';
+import '../../../../styles/hebrew-verbs.css';
+
+// FR counterpart of /learn/hebrew-verbs/: same template, same verbs, FR
+// translations and transliterations from the app data.
+const alternates = [
+  { hreflang: 'en', href: 'https://hebrewedu.com/learn/hebrew-verbs/' },
+  { hreflang: 'fr', href: 'https://hebrewedu.com/fr/apprendre/conjugaison-hebreu/' },
+  { hreflang: 'x-default', href: 'https://hebrewedu.com/learn/hebrew-verbs/' },
+];
+const langSwitch = { href: '/learn/hebrew-verbs/' };
+---
+<VerbsPage locale="fr" alternates={alternates} langSwitch={langSwitch} />

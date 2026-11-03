@@ -95,6 +95,13 @@ of a shared block.
   no-JS fallback is the same `<details class="fallback-answer">` pattern
   other exercises use, revealing the full left/right key.
 
+## Verbs
+
+- **`src/components/verbs/VerbTable.astro`** — one verb's full conjugation
+  table (header + one table per tense). Props: `verb` (a free entry of
+  `src/data/hebrew-verbs.json`), `locale?`. Only free verbs have forms to
+  render; see `docs/VERBS.md` before showing verb data anywhere else.
+
 ## Product / marketing
 
 - **`src/components/ui/StoreButtons.astro`** — App Store / Google Play

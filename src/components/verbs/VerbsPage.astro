@@ -1,0 +1,203 @@
+---
+// Shared verb-tool template for /learn/hebrew-verbs/ (locale="en") and
+// /fr/apprendre/conjugaison-hebreu/ (locale="fr"): hero, binyan chart, verb lookup,
+// app CTA, FAQ, keep learning. Free verbs render in full; every other verb is a
+// headword in the client index with a locked card that points to the app
+// (docs/VERBS.md).
+import Layout from '../../layouts/Layout.astro';
+import Section from '../ui/Section.astro';
+import CtaPanel from '../ui/CtaPanel.astro';
+import StoreButtons from '../ui/StoreButtons.astro';
+import Faq from '../Faq.astro';
+import VerbTable from './VerbTable.astro';
+import HebrewText from '../lessons/HebrewText.astro';
+import { binyanim, rootPairs, heroPopular, howExamples, freeVerbs, appVerbCount, verbById, verbIndex, verbsSchema } from '../../lib/hebrew-verbs.mjs';
+import { fillTemplate } from '../../lib/lessons/practice-client';
+import { getDictionary, type Locale, type Alternate } from '../../i18n';
+
+interface Props {
+  locale?: Locale;
+  alternates: Alternate[];
+  langSwitch?: { href: string };
+}
+const { locale = 'en', alternates, langSwitch } = Astro.props;
+const dict = getDictionary(locale);
+const t = dict.verbs;
+const tl = locale === 'fr' ? 2 : 1;
+const binyanName = Object.fromEntries(binyanim.map(b => [b.id, b.name]));
+const binyanColor = Object.fromEntries(binyanim.map(b => [b.id, b.color]));
+const chartKeys = ['past_3ms', 'present_ms', 'future_3ms', 'infinitive'] as const;
+const chartCol = { past_3ms: t.chartCols.past, present_ms: t.chartCols.present, future_3ms: t.chartCols.future, infinitive: t.chartCols.infinitive };
+const schema = verbsSchema(locale, { title: t.title, description: t.description, home: t.breadcrumbHome, page: t.breadcrumbPage });
+
+// Client strings travel as one data attribute (docs/I18N.md: client modules
+// never carry a language of their own).
+const clientStrings = JSON.stringify({
+  count: t.countTemplate, noResults: t.noResults, freeTag: t.freeTag, appTag: t.appTag,
+  lockedText: t.lockedTextTemplate, lockedMore: t.lockedMoreTemplate, binyanName, binyanColor,
+});
+const index = JSON.stringify(verbIndex(locale)).replace(/</g, '\\u003c');
+const appIcon = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><rect x="6" y="2" width="12" height="20" rx="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10.5 18h3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>';
+const searchIcon = '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="m20 20-4.35-4.35M17 10.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0Z"/></svg>';
+---
+<Layout pageClass="verbs-page" mainId="verbs-content" title={t.title} description={t.description} schema={schema} locale={locale} alternates={alternates} langSwitch={langSwitch}>
+  <Section class="verbs-hero" aria-labelledby="verbs-title">
+    <nav class="verbs-breadcrumbs" aria-label={dict.common.aria.breadcrumb}><ol><li><a href={locale === 'fr' ? '/fr/' : '/'}>{t.breadcrumbHome}</a></li><li aria-current="page">{t.breadcrumbPage}</li></ol></nav>
+    <div class="verbs-hero-layout">
+      <header>
+        <p class="verbs-eyebrow">{t.eyebrow}</p>
+        <h1 id="verbs-title">{t.h1}</h1>
+        <p class="verbs-lead">{t.lead}</p>
+        <form class="verbs-hero-search" role="search" data-verbs-hero-search hidden>
+          <label for="verbs-hero-q">{t.heroSearchLabel}</label>
+          <div class="verbs-hero-field">
+            <Fragment set:html={searchIcon} />
+            <input id="verbs-hero-q" type="search" placeholder={t.searchPlaceholder} dir="auto" autocomplete="off" spellcheck="false" enterkeyhint="search" />
+            <button type="submit" class="btn verbs-primary">{t.heroSearchButton}</button>
+          </div>
+          <ul class="verbs-suggest" aria-label={t.heroSuggestLabel} data-verbs-suggest hidden></ul>
+        </form>
+        <div class="verbs-popular">
+          <span>{t.heroPopular}</span>
+          <ul>
+            {heroPopular.map(id => {
+              const verb = verbById(id);
+              return <li><a href={`#v-${id}`} data-verb-link={id} style={`--b: ${binyanColor[verb.binyan]}`}><bdi lang="he" dir="rtl">{verb.he}</bdi><span>{verb.tr[locale].split(/[,/]/)[0].trim()}</span></a></li>;
+            })}
+          </ul>
+        </div>
+        <ul class="verbs-stats">
+          {[[binyanim.length, '#binyanim'], [freeVerbs.length, '#verbs'], [appVerbCount, '#verbs-app']].map(([n, href], i) => (
+            <li><a href={href}><strong>{n}</strong><span>{t.heroStats[i]}</span></a></li>
+          ))}
+        </ul>
+      </header>
+      <aside class="verbs-roots" aria-labelledby="verbs-roots-title">
+        <p id="verbs-roots-title" class="verbs-roots-title">{t.rootsTitle}</p>
+        <p class="verbs-roots-lead">{t.rootsLead}</p>
+        <ul class="verbs-roots-list">
+          {rootPairs.map(pair => (
+            <li>
+              <bdi lang="he" dir="rtl" class="verbs-root">{pair.root}</bdi>
+              <ul class="verbs-root-verbs">
+                {pair.ids.map(id => {
+                  const verb = verbById(id);
+                  return <li><a href={`#v-${id}`} data-verb-link={id} style={`--b: ${binyanColor[verb.binyan]}`}><span class="verbs-root-binyan">{binyanName[verb.binyan]}</span><bdi lang="he" dir="rtl" class="verbs-root-he">{verb.he}</bdi><span class="verbs-root-tr">{verb.tr[locale]}</span></a></li>;
+                })}
+              </ul>
+            </li>
+          ))}
+        </ul>
+      </aside>
+    </div>
+  </Section>
+
+  <Section surface="soft" id="binyanim">
+    <div class="verbs-section-heading"><p class="verbs-eyebrow">{t.chartEyebrow}</p><h2 class="display-md">{t.chartH2}</h2><p>{t.chartLead}</p></div>
+    <table class="verbs-chart">
+      <caption class="verbs-sr">{t.chartCaption}</caption>
+      <thead><tr><th scope="col">{t.chartCols.binyan}</th><th scope="col">{t.chartCols.meaning}</th>{chartKeys.map(key => <th scope="col">{chartCol[key]}</th>)}</tr></thead>
+      <tbody>
+        {binyanim.map(b => {
+          const verb = verbById(b.example);
+          return (
+            <tr style={`--b: ${b.color}`}>
+              <th scope="row"><span class="verbs-chart-name">{b.name}</span><bdi lang="he" dir="rtl" class="verbs-chart-pattern">{b.he}</bdi></th>
+              <td class="verbs-chart-role"><span>{t.roles[b.id as keyof typeof t.roles]}</span><a href={`#v-${verb.id}`} data-verb-link={verb.id}>{fillTemplate(t.chartOpenTemplate, { verb: verb.tr[locale] })} <span aria-hidden="true">→</span></a></td>
+              {chartKeys.map(key => {
+                const form = verb.forms[key];
+                return <td class="verbs-chart-form" data-label={chartCol[key]}>{form
+                  ? <><bdi lang="he" dir="rtl" class="verbs-chart-he">{form[0]}</bdi><span class="verbs-chart-tl" lang="he-Latn">{form[tl]}</span></>
+                  : <span class="verbs-chart-none">{t.noInfinitive}</span>}</td>;
+              })}
+            </tr>
+          );
+        })}
+      </tbody>
+    </table>
+  </Section>
+
+  <Section id="verbs">
+    <div class="verbs-section-heading"><p class="verbs-eyebrow">{t.explorerEyebrow}</p><h2 class="display-md">{t.explorerH2}</h2><p>{t.explorerLead}</p></div>
+    <div class="verbs-explorer" data-verbs-explorer data-strings={clientStrings} data-default={binyanim[0].example}>
+      <div class="verbs-finder">
+        <form class="verbs-search" role="search" data-verbs-js hidden>
+          <label for="verbs-q">{t.searchLabel}</label>
+          <input id="verbs-q" type="search" placeholder={t.searchPlaceholder} dir="auto" autocomplete="off" spellcheck="false" data-verbs-q />
+        </form>
+        <div class="verbs-filters" role="group" aria-label={t.filterLabel} data-verbs-js hidden>
+          <button type="button" class="verbs-filter" aria-pressed="true" data-binyan="">{t.filterAll}</button>
+          {binyanim.map(b => <button type="button" class="verbs-filter" aria-pressed="false" data-binyan={b.id} style={`--b: ${b.color}`}>{b.name}</button>)}
+        </div>
+        <p class="verbs-count" aria-live="polite" data-verbs-count data-verbs-js hidden></p>
+        <p class="verbs-list-label" data-verbs-nojs>{t.noScriptList}</p>
+        <ul class="verbs-list" aria-label={t.listLabel} data-verbs-list>
+          {freeVerbs.map(verb => (
+            <li><a class="verbs-item" href={`#v-${verb.id}`} style={`--b: ${binyanColor[verb.binyan]}`}><span class="verbs-item-dot" aria-hidden="true"></span><bdi lang="he" dir="rtl" class="verbs-item-he">{verb.he}</bdi><span class="verbs-item-tr">{verb.tr[locale]}</span><span class="verbs-item-tag verbs-item-tag--free">{t.freeTag}</span></a></li>
+          ))}
+        </ul>
+      </div>
+      <div class="verbs-detail" data-verbs-detail tabindex="-1">
+        {freeVerbs.map(verb => <VerbTable verb={verb} locale={locale} />)}
+        <article class="verb-card verb-card--locked" data-verb-locked aria-labelledby="verb-locked-title" hidden>
+          <header class="verb-card-head">
+            <p class="verb-card-tags"><span class="verb-badge" data-locked-binyan></span><span class="verb-tag verb-tag--app">{t.appTag}</span></p>
+            <h3 id="verb-locked-title" class="verb-card-title"><bdi lang="he" dir="rtl" data-locked-he></bdi></h3>
+            <p class="verb-card-tr" data-locked-tr></p>
+            <dl class="verb-card-meta"><div><dt>{t.root}</dt><dd><bdi lang="he" dir="rtl" class="verb-root" data-locked-root></bdi></dd></div></dl>
+          </header>
+          <div class="verb-locked-body">
+            <div class="verb-skeleton" aria-hidden="true">
+              {[4, 9, 10, 4].map(rows => <div class="verb-skeleton-block"><span class="verb-skeleton-h"></span>{Array.from({ length: rows }, () => <span class="verb-skeleton-row"></span>)}</div>)}
+            </div>
+            <div class="verb-locked-panel">
+              <span class="verb-locked-icon" aria-hidden="true"><Fragment set:html={appIcon} /></span>
+              <p class="verb-locked-title">{t.lockedTitle}</p>
+              <p class="verb-locked-text" data-locked-text></p>
+              <StoreButtons location="hebrew_verbs_locked" height={44} locale={locale} />
+              <p class="verb-locked-more" data-locked-more-label></p>
+              <ul class="verb-locked-links" data-locked-more></ul>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+    <script type="application/json" data-verbs-index set:html={index} />
+  </Section>
+
+  <Section surface="soft" id="how-it-works">
+    <div class="verbs-section-heading"><p class="verbs-eyebrow">{t.howEyebrow}</p><h2 class="display-md">{t.howH2}</h2><p><HebrewText text={t.howLead} /></p></div>
+    <ol class="verbs-how">
+      {t.howSteps.map((step, i) => (
+        <li>
+          <h3>{step.title}</h3>
+          <p><HebrewText text={step.body} /></p>
+          <ul class="verbs-how-forms">
+            {howExamples[i].map(([id, key]) => {
+              const form = verbById(id).forms[key];
+              return <li><bdi lang="he" dir="rtl" class="verbs-how-he">{form[0]}</bdi><span class="verbs-how-tl" lang="he-Latn">{form[tl]}</span></li>;
+            })}
+          </ul>
+        </li>
+      ))}
+    </ol>
+  </Section>
+
+  <CtaPanel id="verbs-app" compact>
+    <p class="verbs-eyebrow">{t.ctaEyebrow}</p><h2 class="display-md">{t.ctaH2}</h2>
+    <p>{t.ctaText}</p>
+    <StoreButtons location="hebrew_verbs_cta" height={48} locale={locale} />
+  </CtaPanel>
+
+  <Faq id="questions" title={t.faqTitle} items={t.faq} />
+
+  <Section id="keep-learning">
+    <div class="verbs-section-heading"><h2 class="display-md">{t.keepLearningH2}</h2></div>
+    <ul class="verbs-resources" role="list">{t.resources.map(resource => <li><h3><a href={resource.href}>{resource.title} <span aria-hidden="true">→</span></a></h3><p>{resource.description}</p></li>)}</ul>
+    <p class="verbs-source">{t.sourceNote}</p>
+  </Section>
+</Layout>
+<script>
+  import { initVerbExplorer } from '../../lib/verbs/explorer-client';
+  document.querySelectorAll<HTMLElement>('[data-verbs-explorer]').forEach(initVerbExplorer);
+</script>

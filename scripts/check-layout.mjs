@@ -67,6 +67,9 @@ const LAYOUT_WRAPPERS = [
   // src/pages/fr/blog/{[...index],[slug]}.astro render through them).
   'components/blog/BlogIndexPage.astro',
   'components/blog/BlogPostPage.astro',
+  // Verb conjugation tool: src/pages/learn/hebrew-verbs/ and
+  // src/pages/fr/apprendre/conjugaison-hebreu/ render through it.
+  'components/verbs/VerbsPage.astro',
 ];
 
 const pagesDir = resolve(srcDir, 'pages');

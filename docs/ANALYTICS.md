@@ -78,6 +78,7 @@ All go through `track(event, params)`:
 | `practice_start` | `letter` | `practice-client.ts`, first time the Practice stage is shown |
 | `lesson_complete` | `letter`, `score`, `total` | `practice-client.ts`, first time the Results stage is shown (`score`/`total` = correct / available questions) |
 | `phrases_practice_complete` | `score` | `phrases/practice-client.ts`, once every phrase question has been checked |
+| `verb_view` | `verb` (id, e.g. `likhtov`), `binyan`, `locked` | `verbs/explorer-client.ts`, each time a reader opens a verb on the verb tool (not the default one shown on load) — docs/VERBS.md |
 | `game_open` | `game` | Inline script on each `/play/<game>/game/` player page |
 | `game_start`, `round_start`, `round_complete`, `game_over`, `store_popup_shown` | `game_id`, plus whatever scalar params the game sent | Game iframe message, relayed by `attachGameMessageListener` |
 | `google_play_click` / `app_store_click` (from a game) | `source: "game"`, `game_id`, plus other scalar params | Game iframe `store_click` message, remapped by `attachGameMessageListener` to the existing store CTA events |
