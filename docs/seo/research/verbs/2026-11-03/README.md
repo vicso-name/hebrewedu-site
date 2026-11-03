@@ -60,5 +60,5 @@ same group), tableau de conjugaison hébreu 70, tableau conjugaison hébreu 10.
   PDFs ranking in every chart SERP.
 - Per-verb pages (“to be hebrew conjugation” 50, to want/drink/live/go/come/read
   10 each) — only worth it for free verbs, and would need their own design.
-- The EN binyanim post's primary is still `hebrew grammar for beginners` (10/mo);
-  `binyanim` (140) would be the stronger primary.
+- ~~The EN binyanim post's primary is still `hebrew grammar for beginners`~~ —
+  done 2026-11-03, `binyanim` is now its primary (`../../binyanim/2026-11-03/`).

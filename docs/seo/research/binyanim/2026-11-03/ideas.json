@@ -1,0 +1,1703 @@
+[
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "la piel habito",
+    "volume": 9900,
+    "kd": 12,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "la piel que habito",
+    "volume": 9900,
+    "kd": 10,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "la piel en la que habito",
+    "volume": 9900,
+    "kd": 10,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "la piel que habitas",
+    "volume": 9900,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "piel",
+    "volume": 6600,
+    "kd": 2,
+    "cpc": 2.31,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "alergia en piel",
+    "volume": 6600,
+    "kd": 10,
+    "cpc": 1.82,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "hongo piel",
+    "volume": 5400,
+    "kd": 0,
+    "cpc": 0.4,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "alergias piel",
+    "volume": 5400,
+    "kd": 2,
+    "cpc": 2.06,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "alergias en la piel",
+    "volume": 5400,
+    "kd": 10,
+    "cpc": 2.06,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "hongos piel",
+    "volume": 5400,
+    "kd": 0,
+    "cpc": 0.4,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "alergia de la piel",
+    "volume": 5400,
+    "kd": 10,
+    "cpc": 2.06,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "alergia piel",
+    "volume": 5400,
+    "kd": 10,
+    "cpc": 2.06,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "piel alérgica",
+    "volume": 5400,
+    "kd": 10,
+    "cpc": 2.06,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "hongos en la piel",
+    "volume": 5400,
+    "kd": 0,
+    "cpc": 0.4,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "alergias de la piel",
+    "volume": 5400,
+    "kd": 2,
+    "cpc": 2.06,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "hongo en la piel",
+    "volume": 5400,
+    "kd": 0,
+    "cpc": 0.4,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "honguitos en la piel",
+    "volume": 5400,
+    "kd": 0,
+    "cpc": 0.4,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "cancer de piel",
+    "volume": 5400,
+    "kd": 9,
+    "cpc": 3.26,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "alergia en la piel",
+    "volume": 5400,
+    "kd": 10,
+    "cpc": 2.06,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "manchas en la piel blancas",
+    "volume": 4400,
+    "kd": 0,
+    "cpc": 7.26,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "manchas blancas en la piel",
+    "volume": 4400,
+    "kd": 0,
+    "cpc": 7.26,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "piel con manchas blancas",
+    "volume": 4400,
+    "kd": 0,
+    "cpc": 7.26,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "manchas piel blancas",
+    "volume": 4400,
+    "kd": 0,
+    "cpc": 7.26,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "mancha en la piel blanca",
+    "volume": 4400,
+    "kd": 0,
+    "cpc": 7.26,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "piel canela",
+    "volume": 4400,
+    "kd": 14,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "crema.para hongos en la piel",
+    "volume": 3600,
+    "kd": 0,
+    "cpc": 0.37,
+    "intent": "transactional"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "crema para hongo en la piel",
+    "volume": 3600,
+    "kd": 0,
+    "cpc": 0.37,
+    "intent": "transactional"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "cremas para la alergia en la piel",
+    "volume": 3600,
+    "kd": 0,
+    "cpc": 0.58,
+    "intent": "transactional"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "crema para alergia en la piel",
+    "volume": 3600,
+    "kd": 0,
+    "cpc": 0.58,
+    "intent": "transactional"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "nacido en la piel",
+    "volume": 3600,
+    "kd": 0,
+    "cpc": 2.76,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "crema para la piel alergica",
+    "volume": 3600,
+    "kd": 0,
+    "cpc": 0.58,
+    "intent": "transactional"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "crema para alergias en la piel",
+    "volume": 3600,
+    "kd": 0,
+    "cpc": 0.58,
+    "intent": "transactional"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "nacidos en la piel",
+    "volume": 3600,
+    "kd": 0,
+    "cpc": 2.76,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "crema para la piel alergia",
+    "volume": 3600,
+    "kd": 0,
+    "cpc": 0.58,
+    "intent": "transactional"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "crema para la alergia en la piel",
+    "volume": 3600,
+    "kd": 0,
+    "cpc": 0.58,
+    "intent": "transactional"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "cremas para alergia en la piel",
+    "volume": 3600,
+    "kd": 0,
+    "cpc": 0.58,
+    "intent": "commercial"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "cremas para alergias en la piel",
+    "volume": 3600,
+    "kd": 0,
+    "cpc": 0.58,
+    "intent": "transactional"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "cremas para hongo en la piel",
+    "volume": 3600,
+    "kd": 0,
+    "cpc": 0.37,
+    "intent": "commercial"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "cremas para hongos en la piel",
+    "volume": 3600,
+    "kd": 0,
+    "cpc": 0.37,
+    "intent": "transactional"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "crema para hongos en la piel",
+    "volume": 3600,
+    "kd": 0,
+    "cpc": 0.37,
+    "intent": "transactional"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "empeine piel",
+    "volume": 2900,
+    "kd": 0,
+    "cpc": 0.98,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "tiña piel",
+    "volume": 2900,
+    "kd": 0,
+    "cpc": 0.44,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "ronchas en la piel",
+    "volume": 2900,
+    "kd": 3,
+    "cpc": 3.6,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "roncha en la piel",
+    "volume": 2900,
+    "kd": 3,
+    "cpc": 3.6,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "mezquinos en la piel",
+    "volume": 2900,
+    "kd": 0,
+    "cpc": 0.58,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "herpes en la piel",
+    "volume": 2900,
+    "kd": 11,
+    "cpc": 0.81,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "tina piel",
+    "volume": 2900,
+    "kd": 0,
+    "cpc": 0.44,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "empeines en la piel",
+    "volume": 2900,
+    "kd": 0,
+    "cpc": 2.14,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "mezquino en la piel",
+    "volume": 2900,
+    "kd": 0,
+    "cpc": 0.58,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "piel",
+    "keyword": "piel de sapo",
+    "volume": 2900,
+    "kd": 0,
+    "cpc": 0.13,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hifil",
+    "keyword": "hifil",
+    "volume": 30,
+    "kd": 22,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hifil",
+    "keyword": "hifil hebrew",
+    "volume": 30,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hifil",
+    "keyword": "hifil verbs",
+    "volume": 20,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hifil",
+    "keyword": "hifil verbs hebrew",
+    "volume": 10,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hifil",
+    "keyword": "hifil biblical hebrew",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hifil",
+    "keyword": "hifil tense",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hifil",
+    "keyword": "binyan hifil",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hifil",
+    "keyword": "hebrew verbs hifil",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hifil",
+    "keyword": "hifil meme",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hifil",
+    "keyword": "hifil imperative",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "transactional"
+  },
+  {
+    "market": "us",
+    "seed": "hifil",
+    "keyword": "hifil meaning",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hifil",
+    "keyword": "hifil conjugation",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hifil",
+    "keyword": "hifil verb in hebrew",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hitpael",
+    "keyword": "hitpael",
+    "volume": 40,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hitpael",
+    "keyword": "hitpael verbs",
+    "volume": 10,
+    "kd": 42,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hitpael",
+    "keyword": "hitpael in hebrew",
+    "volume": 10,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hitpael",
+    "keyword": "hitpael meaning",
+    "volume": 10,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hitpael",
+    "keyword": "hitpael wikipedia",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "navigational"
+  },
+  {
+    "market": "us",
+    "seed": "hitpael",
+    "keyword": "binyan hitpael",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hitpael",
+    "keyword": "hitpael conjugation",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "nifal",
+    "keyword": "nifal",
+    "volume": 70,
+    "kd": 22,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "nifal",
+    "keyword": "nifal meaning",
+    "volume": 10,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "nifal",
+    "keyword": "nifal verbs",
+    "volume": 10,
+    "kd": 43,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "nifal",
+    "keyword": "nifal infinity",
+    "volume": 10,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "nifal",
+    "keyword": "binyan nifal",
+    "volume": 10,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "nifal",
+    "keyword": "nifal name meaning",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "nifal",
+    "keyword": "list of nifal verbs",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "nifal",
+    "keyword": "hebrew nifal verbs",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "nifal",
+    "keyword": "binyan nifal hebrew",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "nifal",
+    "keyword": "hebrew nifal",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "nifal",
+    "keyword": "nifal stem",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "nifal",
+    "keyword": "nifal perfect",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "nifal",
+    "keyword": "nifal hebrew meaning",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "sunil paal",
+    "volume": 4400,
+    "kd": 34,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "paal",
+    "volume": 1600,
+    "kd": 27,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "nuna paal",
+    "volume": 880,
+    "kd": 0,
+    "cpc": 2.39,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "paal dabba",
+    "volume": 590,
+    "kd": 6,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "nuna paal travel crib",
+    "volume": 390,
+    "kd": 0,
+    "cpc": 3.78,
+    "intent": "transactional"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "paal ai",
+    "volume": 320,
+    "kd": 33,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "paal program",
+    "volume": 320,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "nuna paal playard",
+    "volume": 320,
+    "kd": 0,
+    "cpc": 2.31,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "poly paal",
+    "volume": 260,
+    "kd": 7,
+    "cpc": 0,
+    "intent": "transactional"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "paruthi paal",
+    "volume": 260,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "paal payasam",
+    "volume": 210,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "thengai paal sadam",
+    "volume": 140,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "paal--knorr synthesis",
+    "volume": 140,
+    "kd": 16,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "paal knorr",
+    "volume": 140,
+    "kd": 14,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "paal-knorr synthesis",
+    "volume": 140,
+    "kd": 14,
+    "cpc": 0,
+    "intent": "transactional"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "recipe for paal payasam",
+    "volume": 140,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "santa ana paal",
+    "volume": 140,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "paal knorr synthesis",
+    "volume": 140,
+    "kd": 10,
+    "cpc": 0,
+    "intent": "transactional"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "kenneth paal",
+    "volume": 140,
+    "kd": 5,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "paal world",
+    "volume": 140,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "paal kibsgaard",
+    "volume": 140,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "paal kozhukattai",
+    "volume": 140,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "paal kappa",
+    "volume": 140,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "paal payasam recipe",
+    "volume": 110,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "paal parotta",
+    "volume": 110,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "paal crypto",
+    "volume": 110,
+    "kd": 20,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "semiya paal payasam",
+    "volume": 90,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "paal kappa recipe",
+    "volume": 90,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "paal pages",
+    "volume": 90,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "nuna paal sheets",
+    "volume": 90,
+    "kd": 0,
+    "cpc": 1.84,
+    "intent": "transactional"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "nuna paal sheet",
+    "volume": 90,
+    "kd": 0,
+    "cpc": 2.2,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "nuna paal pack and play",
+    "volume": 70,
+    "kd": 0,
+    "cpc": 2.24,
+    "intent": "transactional"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "paal appam",
+    "volume": 70,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "paal kolukattai recipe",
+    "volume": 50,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "paal--knorr pyrrole synthesis",
+    "volume": 50,
+    "kd": 38,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "paal-knorr synthesis of pyrrole",
+    "volume": 50,
+    "kd": 9,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "paal knorr pyrrole synthesis",
+    "volume": 50,
+    "kd": 12,
+    "cpc": 0,
+    "intent": "transactional"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "paal ai crypto",
+    "volume": 50,
+    "kd": 17,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "paal kozhukattai recipe",
+    "volume": 50,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "badam paal",
+    "volume": 50,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "paal--knorr synthesis of pyrrole",
+    "volume": 50,
+    "kd": 38,
+    "cpc": 0,
+    "intent": "transactional"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "de paal",
+    "volume": 50,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "camping de paal",
+    "volume": 50,
+    "kd": 0,
+    "cpc": 0.1,
+    "intent": "navigational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "de paal camping",
+    "volume": 50,
+    "kd": 0,
+    "cpc": 0.1,
+    "intent": "navigational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "quorum paal",
+    "volume": 50,
+    "kd": 0,
+    "cpc": 0.07,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "paal knorr synthesis of pyrrole",
+    "volume": 50,
+    "kd": 10,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "paal-knorr pyrrole synthesis",
+    "volume": 50,
+    "kd": 12,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "thengai paal rasam",
+    "volume": 40,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "nibeditaa paal",
+    "volume": 40,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "paal",
+    "keyword": "sukku paal",
+    "volume": 40,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew verb patterns",
+    "keyword": "hebrew verb patterns",
+    "volume": 10,
+    "kd": 0,
+    "cpc": 9.64,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew verb patterns",
+    "keyword": "7 hebrew verb patterns",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "hebrew roots movement",
+    "volume": 1000,
+    "kd": 3,
+    "cpc": 3.91,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "hebrew roots",
+    "volume": 720,
+    "kd": 2,
+    "cpc": 1.63,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "hebrew roots bible",
+    "volume": 320,
+    "kd": 21,
+    "cpc": 0.65,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "roots of hebrew words",
+    "volume": 260,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "hebrew word roots",
+    "volume": 260,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "roots in hebrew",
+    "volume": 260,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "hebrew roots words",
+    "volume": 260,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "hebrew roots churches near me",
+    "volume": 170,
+    "kd": 0,
+    "cpc": 2.29,
+    "intent": "navigational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "hebrew roots church near me",
+    "volume": 170,
+    "kd": 0,
+    "cpc": 2.29,
+    "intent": "navigational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "what is the hebrew roots movement",
+    "volume": 140,
+    "kd": 16,
+    "cpc": 0.2,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "what is hebrew roots movement",
+    "volume": 140,
+    "kd": 16,
+    "cpc": 0.2,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "why i left the hebrew roots movement",
+    "volume": 90,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "hebrew roots university",
+    "volume": 70,
+    "kd": 47,
+    "cpc": 0,
+    "intent": "navigational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "hebrew word for roots",
+    "volume": 50,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "hebrew roots dictionary",
+    "volume": 50,
+    "kd": 0,
+    "cpc": 0.22,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "hebrew word roots dictionary",
+    "volume": 50,
+    "kd": 0,
+    "cpc": 0.22,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "what is hebrew roots",
+    "volume": 50,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "hebrew roots churches",
+    "volume": 40,
+    "kd": 1,
+    "cpc": 0.08,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "hebrew roots movement cult",
+    "volume": 40,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "hebrew roots congregations",
+    "volume": 40,
+    "kd": 0,
+    "cpc": 0.08,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "hebrew roots church",
+    "volume": 40,
+    "kd": 0,
+    "cpc": 0.08,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "hebrew roots cult",
+    "volume": 30,
+    "kd": 0,
+    "cpc": 0.09,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "hebrew roots christian",
+    "volume": 30,
+    "kd": 5,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "hebrew roots of christianity",
+    "volume": 30,
+    "kd": 5,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "hebrew roots congregation near me",
+    "volume": 30,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "navigational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "hebrew roots fellowship near me",
+    "volume": 30,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "navigational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "the hebrew roots movement",
+    "volume": 30,
+    "kd": 0,
+    "cpc": 0.06,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "hebrew roots christianity",
+    "volume": 30,
+    "kd": 7,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "hebrew roots near me",
+    "volume": 30,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "commercial"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "hebrew roots vs messianic judaism",
+    "volume": 20,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "who started the hebrew roots movement",
+    "volume": 20,
+    "kd": 3,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "hebrew roots movement beliefs",
+    "volume": 20,
+    "kd": 40,
+    "cpc": 0.03,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "when did the hebrew roots movement start",
+    "volume": 20,
+    "kd": 3,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "difference between messianic and hebrew roots",
+    "volume": 20,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "hebrew roots ministries",
+    "volume": 20,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "navigational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "hebrew roots movement near me",
+    "volume": 20,
+    "kd": 45,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "hebrew roots ministry",
+    "volume": 20,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "navigational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "hebrew two letter roots",
+    "volume": 10,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "answers in genesis hebrew roots",
+    "volume": 10,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "hebrew roots movement vs messianic judaism",
+    "volume": 10,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "hebrew roots language",
+    "volume": 10,
+    "kd": 45,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "hebrew verb roots",
+    "volume": 10,
+    "kd": 28,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "hebrew roots movement critique",
+    "volume": 10,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "hebrew roots georgia",
+    "volume": 10,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "hebrew roots calendar",
+    "volume": 10,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "hebrew roots heresy",
+    "volume": 10,
+    "kd": 16,
+    "cpc": 0.01,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "rico cortes hebrew roots",
+    "volume": 10,
+    "kd": 11,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "hebrew roots movement polygamy",
+    "volume": 10,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "hebrew roots mom",
+    "volume": 10,
+    "kd": 3,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "us",
+    "seed": "hebrew roots",
+    "keyword": "119 ministries hebrew roots movement",
+    "volume": 10,
+    "kd": 19,
+    "cpc": 0,
+    "intent": "navigational"
+  },
+  {
+    "market": "fr",
+    "seed": "grammaire hébraïque",
+    "keyword": "grammaire hébraïque",
+    "volume": 10,
+    "kd": 51,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "fr",
+    "seed": "grammaire hébraïque",
+    "keyword": "grammaire hébraïque pdf",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "fr",
+    "seed": "grammaire hébraïque",
+    "keyword": "grammaire hébraïque en ligne",
+    "volume": 0,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  },
+  {
+    "market": "fr",
+    "seed": "racine hébraïque",
+    "keyword": "racine hébraïque",
+    "volume": 10,
+    "kd": 0,
+    "cpc": 0,
+    "intent": "informational"
+  }
+]
