@@ -1,0 +1,173 @@
+---
+import Faq from '../../../components/Faq.astro';
+import Layout from '../../../layouts/Layout.astro';
+import Nav from '../../../components/Nav.astro';
+import Footer from '../../../components/Footer.astro';
+import Section from '../../../components/ui/Section.astro';
+import FeatureGrid, { type FeatureItem } from '../../../components/ui/FeatureGrid.astro';
+import LearningMosaic, { type LearningItem } from '../../../components/play/LearningMosaic.astro';
+import CtaPanel from '../../../components/ui/CtaPanel.astro';
+import StoreButtons from '../../../components/ui/StoreButtons.astro';
+import KeyArt from '../../../components/play/KeyArt.astro';
+import ShareButtons from '../../../components/ui/ShareButtons.astro';
+import keyArt from '../../../assets/play/hebrew-shalom-city-key-art.jpg';
+import '../../../styles/home.css';
+import '../../../styles/play.css';
+
+const howItWorks = [
+  { icon: 'target', title: 'Walk and collect the words', description: 'Each street is one short conversation. Walk from stop to stop, meet the neighbours and pick up its words one by one, with Mitzi the cat explaining the tricky ones.' },
+  { icon: 'book', title: 'Pass three quick trials', description: 'Put the words of a line in order, catch what a line means when you hear it, then pick the right reply in the form that fits you.' },
+  { icon: 'repeat', title: 'Keep the phrase', description: 'Every finished conversation goes into your phrasebook. Mistakes come back in a review walk at the end of each district.' },
+] satisfies FeatureItem[];
+
+const whyItWorks = [
+  {
+    title: 'Whole Conversations, Not Word Lists',
+    description: ['Each street teaches a question together with its usual answer, so you learn what to say back, not just what a word means.'],
+  },
+  {
+    title: 'Hebrew Changes With Who Is Talking',
+    description: ['Choose Maya or Itai. Hebrew speaks to a woman and to a man differently, and every line in the game follows your pick, so you learn the forms you will actually use.'],
+  },
+  {
+    title: 'Every Conversation Spoken Aloud',
+    description: ['The lines in each conversation and its trials are spoken in Hebrew audio, with a woman’s or a man’s voice to match the speaker. One trial plays a line with no text at all, so your ear does the work.'],
+  },
+  {
+    title: 'No Way to Fail',
+    description: ['A wrong answer shows and plays the right one with a one-line reason, and the phrase comes back later for review. There are no lives, no timer and no score to lose.'],
+  },
+] satisfies [LearningItem, LearningItem, LearningItem, LearningItem];
+
+const url = 'https://hebrewedu.com/play/hebrew-shalom-city/';
+const playUrl = 'https://hebrewedu.com/play/';
+
+const faqItems = [
+  { q: 'Is Shalom City free?', a: 'Yes. It runs in your browser with no account, download or payment.' },
+  { q: 'What Hebrew does it teach?', a: 'Fourteen everyday beginner conversations. On the streets you greet people with <span lang="he" dir="rtl">שָׁלוֹם, מָה נִשְׁמָע?</span>, say your name and where you are from, and swap phone numbers. In the café you order a <span lang="he" dir="rtl">קָפֶה הָפוּךְ</span>, ask the price and ask for the bill: <span lang="he" dir="rtl">אֶפְשָׁר חֶשְׁבּוֹן, בְּבַקָּשָׁה?</span>' },
+  { q: 'Do I need to read Hebrew?', a: 'It helps to know some letters. Every line has niqqud and a transliteration on the streets. The review walks leave the transliteration out. To learn the letters themselves, try <a href="/play/alef-bet-rush/">Alef Bet Rush</a>.' },
+  { q: 'Why choose a hero?', a: 'Hebrew addresses a man and a woman differently, and you describe yourself in your own gender form too. Pick Maya or Itai and the whole game follows that choice. You can switch from the map at any time without losing your stars.' },
+  { q: 'Does it check my pronunciation?', a: 'No. The game does not listen to you. It trains understanding, word order and choosing the right reply. An optional Say it yourself step gives you a pause to speak aloud, then plays the line.' },
+  { q: 'Is the audio recorded by a native speaker?', a: 'No. The voices are synthesized Hebrew, a woman’s and a man’s voice matched to whoever is speaking.' },
+];
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    { '@type': 'WebPage', '@id': url, url, name: 'Shalom City: A Free Hebrew Phrases Game' },
+    {
+      '@type': ['VideoGame', 'WebApplication'],
+      name: 'Shalom City',
+      url,
+      applicationCategory: 'EducationalApplication',
+      operatingSystem: 'Web',
+      isAccessibleForFree: true,
+      educationalLevel: 'Beginner',
+      inLanguage: 'en',
+      offers: { '@type': 'Offer', price: 0, priceCurrency: 'USD' },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: ['Home', 'Play', 'Shalom City'].map((name, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name,
+        item: ['https://hebrewedu.com/', playUrl, url][i],
+      })),
+    },
+  ],
+};
+---
+<Layout title="Hebrew Phrases Game: Free Beginner Conversations" description="Walk Shalom City and learn real Hebrew conversations: greet, introduce yourself and order coffee. A free Hebrew phrases game with audio, no sign-up." schema={schema} image="/images/play/hebrew-shalom-city-og.jpg">
+  <link slot="head" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" />
+  <div class="home-page play-page">
+    <Nav />
+    <main>
+      <section class="play-hero">
+        <div class="container">
+          <nav class="play-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/play/">Play</a> / Shalom City</nav>
+          <div class="play-hero-grid">
+            <div class="play-copy">
+              <p class="home-eyebrow">Hebrew phrases game</p>
+              <h1 class="home-h1">Shalom City: A Free Hebrew Phrases Game</h1>
+              <p class="home-lead">Walk a sunny Israeli city, meet its people and learn one real conversation on every street. Fourteen everyday conversations in two districts, from your first <span lang="he" dir="rtl">שָׁלוֹם</span> to paying the bill at the café.</p>
+              <a class="btn btn-primary play-launch" href="/play/hebrew-shalom-city/game/">Play Free Now</a>
+              <p class="play-hero-note">No download, no account. Plays on a phone or a computer, with sound on.</p>
+              <ShareButtons url="https://hebrewedu.com/play/hebrew-shalom-city/" text="Shalom City: a free Hebrew phrases game" item="hebrew-shalom-city" location="hebrew_shalom_city_hero" />
+            </div>
+            <div class="play-hero-art"><KeyArt src={keyArt} alt="Shalom City: Maya and Itai wave hello on a sunny Tel Aviv boulevard, with Mitzi the cat at their feet and a speech bubble saying shalom" loading="eager" sizes="(max-width: 900px) min(640px, 90vw), 46vw" /></div>
+          </div>
+        </div>
+      </section>
+
+      <Section surface="soft">
+        <div class="play-section">
+          <h2 class="home-h2">Hebrew Conversation Practice, One Street at a Time</h2>
+          <p>Shalom City is a free Hebrew phrases game you play online. Each street is a short conversation with one of the neighbours: you collect its words on a walk, then show you understood it in three quick trials. A street takes two or three minutes.</p>
+          <p>Every finished conversation lands in your phrasebook, and each district ends with a review walk that brings back what you missed. Earn up to three stars on every street.</p>
+        </div>
+        <h3 class="play-subsection-title">How Shalom City Works</h3>
+        <FeatureGrid items={howItWorks} headingLevel="h4" />
+      </Section>
+
+      <Section>
+        <h2 class="home-h2 play-why-heading">Why It Works</h2>
+        <LearningMosaic items={whyItWorks} />
+      </Section>
+
+      <Section surface="soft">
+        <div class="play-section">
+          <h2 class="home-h2">What You'll Learn</h2>
+          <p><strong>Getting to know you</strong>, the first district, has seven streets: greeting someone, saying your name with <span lang="he" dir="rtl">קוֹרְאִים לִי</span>, saying where you are from (pick your own country), whether you speak Hebrew, where you live, your phone number, and saying goodbye.</p>
+          <p><strong>The Café</strong> has seven more: asking for the menu, ordering a coffee, asking the price, asking whether they have cake, with or without sugar, sitting down or taking it away, and asking for the bill.</p>
+          <p><strong>The game trains understanding and choosing what to say, not pronunciation.</strong> For more everyday expressions, see our list of <a href="/learn/hebrew-phrases/">common Hebrew phrases</a>, and for reading, grammar and wider vocabulary, continue in the HebrewEdu app.</p>
+        </div>
+      </Section>
+
+      <Section>
+        <div class="play-section">
+          <h2 class="home-h2">Who It's For</h2>
+          <p>Shalom City is for adult and teen beginners in their first weeks of Hebrew, including ulpan students who want to practise basic Hebrew conversation between classes. If you can read a few letters with niqqud, or follow a transliteration, you can start. To train your ear first, try <a href="/play/hebrew-falafel-stand/">Hebrew Falafel Stand</a>, and for numbers try <a href="/play/hebrew-numbers-quest/">Hebrew Numbers Quest</a>.</p>
+        </div>
+      </Section>
+
+      <Faq title="Frequently Asked Questions" items={faqItems} />
+
+      <CtaPanel compact>
+        <h2 class="home-h2">Continue Learning Hebrew</h2>
+        <p class="home-lead">After Shalom City, continue with reading, vocabulary and grammar in the HebrewEdu app.</p>
+        <StoreButtons location="hebrew_shalom_city_continue" />
+      </CtaPanel>
+    </main>
+    <Footer />
+  </div>
+</Layout>
+
+<style>
+  .play-subsection-title {
+    margin-top: var(--space-lg);
+    margin-bottom: var(--space-md);
+    font-family: var(--font-display);
+    font-size: clamp(1.75rem, 2.2vw, 2rem);
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: var(--home-text-primary);
+  }
+
+  .play-why-heading {
+    margin-bottom: var(--space-md);
+  }
+
+  .play-launch {
+    min-height: 56px;
+    padding-inline: var(--space-md);
+    justify-content: center;
+  }
+
+  .play-hero-note {
+    margin-top: var(--space-xs-plus);
+    font-size: 0.9375rem;
+    color: var(--home-text-tertiary);
+  }
+</style>
