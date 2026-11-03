@@ -1,0 +1,12 @@
+---
+import CursivePage from '../../../components/cursive/CursivePage.astro';
+import '../../../styles/hebrew-cursive.css';
+
+const alternates = [
+  { hreflang: 'en', href: 'https://hebrewedu.com/learn/hebrew-cursive/' },
+  { hreflang: 'fr', href: 'https://hebrewedu.com/fr/apprendre/hebreu-cursif/' },
+  { hreflang: 'x-default', href: 'https://hebrewedu.com/learn/hebrew-cursive/' },
+];
+const langSwitch = { href: '/fr/apprendre/hebreu-cursif/' };
+---
+<CursivePage locale="en" alternates={alternates} langSwitch={langSwitch} />

@@ -3,6 +3,7 @@ import { site } from '../data/site';
 import { coursePath, hubEnabled, localCoursePreview } from '../lib/alphabet-course.mjs';
 import { phrasesPath, phrasesPathFr, phrasesPublishedFr } from '../lib/hebrew-phrases.mjs';
 import { verbsPath, verbsPathFr } from '../lib/hebrew-verbs.mjs';
+import { cursivePath, cursivePathFr } from '../lib/hebrew-cursive.mjs';
 import { getDictionary, type Locale } from '../i18n';
 import { blogPath } from '../lib/blog';
 import LangSwitch from './LangSwitch.astro';
@@ -17,18 +18,19 @@ const { locale = 'en', langSwitch } = Astro.props;
 const t = getDictionary(locale);
 
 const showCourse = hubEnabled(localCoursePreview(import.meta.env.DEV));
-// FR mirrors the EN nav items (play/games, alphabet course, phrases, verbs, blog); /play/
+// FR mirrors the EN nav items (play/games, alphabet course, phrases, verbs, cursive, blog); /play/
 // is an English-only destination, so it's labeled as such rather than translated.
 // The FR blog has its own posts now (src/content/blog/fr/), so it links to
 // /fr/blog/ like the EN nav links to /blog/. Phrases only appears once the FR
-// phrases page is actually published.
+// phrases page is actually published. Like EN, FR reaches home via the logo:
+// a Home link no longer fits next to six sections.
 const links = locale === 'fr'
   ? [
-      { label: t.nav.home, href: '/fr/' },
       { label: t.nav.alphabetCourse, href: '/fr/apprendre/alphabet-hebreu/' },
       { label: t.common.gamesEnLabel, href: '/play/' },
       ...(phrasesPublishedFr() ? [{ label: t.nav.phrases, href: phrasesPathFr }] : []),
       { label: t.nav.verbs, href: verbsPathFr },
+      { label: t.nav.cursive, href: cursivePathFr },
       { label: t.nav.blog, href: blogPath('fr') },
     ]
   : [
@@ -36,6 +38,7 @@ const links = locale === 'fr'
       ...(showCourse ? [{ label: t.nav.alphabetCourse, href: coursePath }] : []),
       { label: t.nav.phrases, href: phrasesPath },
       { label: t.nav.verbs,   href: verbsPath   },
+      { label: t.nav.cursive, href: cursivePath },
       { label: t.nav.blog,    href: '/blog/'    },
     ];
 const ctaHref = locale === 'fr' ? '/fr/#download' : site.appDownloadUrl;
@@ -70,7 +73,7 @@ const homeHref = locale === 'fr' ? '/fr/' : '/';
       aria-label={t.common.openMenu}
       aria-expanded="false"
       aria-controls="nav-mobile"
-      data-desktop-breakpoint={showCourse ? '1201' : '769'}
+      data-desktop-breakpoint={showCourse ? '1281' : '769'}
       data-open-label={t.common.openMenu}
       data-close-label={t.common.closeMenu}
     >
@@ -272,9 +275,9 @@ const homeHref = locale === 'fr' ? '/fr/' : '/';
   .nav-mobile { display: none; }
 }
 
-/* Allow space for the course and verbs entries without compressing tablet
-   navigation: the FR row (six links) needs about 1160px. */
-@media (min-width: 769px) and (max-width: 1200px) {
+/* Allow space for the course, verbs and cursive entries without compressing
+   tablet navigation: the FR row (six links) needs about 1220px. */
+@media (min-width: 769px) and (max-width: 1280px) {
   .course-nav .nav-links, .course-nav .nav-cta, .course-nav .nav-lang-slot { display: none; }
   .course-nav .nav-burger { display: flex; }
   .nav-mobile.course-nav:not([hidden]) { display: block; }

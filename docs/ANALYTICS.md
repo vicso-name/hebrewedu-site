@@ -79,6 +79,11 @@ All go through `track(event, params)`:
 | `lesson_complete` | `letter`, `score`, `total` | `practice-client.ts`, first time the Results stage is shown (`score`/`total` = correct / available questions) |
 | `phrases_practice_complete` | `score` | `phrases/practice-client.ts`, once every phrase question has been checked |
 | `verb_view` | `verb` (id, e.g. `likhtov`), `binyan`, `locked` | `verbs/explorer-client.ts`, each time a reader opens a verb on the verb tool (not the default one shown on load) — docs/VERBS.md |
+| `cursive_convert` | `length` (letters typed, never the text) | `cursive/cursive-client.ts`, 1.5 s after the reader stops typing a new word in the cursive converter |
+| `cursive_example` | `index` (position of the example word) | `cursive/cursive-client.ts`, an example word chip in the converter |
+| `cursive_copy_link`, `cursive_download` | `cursive_download`: `length` | `cursive/cursive-client.ts`, "Copy link" / "Save as image" |
+| `cursive_trace` | `letter` (id, e.g. `kaf-final`) | `cursive/cursive-client.ts`, first stroke on a letter in the tracer |
+| `cursive_print` | `sheet` (`letters`, `word` or `chart`) | `cursive/cursive-client.ts`, a printable sheet button |
 | `game_open` | `game` | Inline script on each `/play/<game>/game/` player page |
 | `game_start`, `round_start`, `round_complete`, `game_over`, `store_popup_shown` | `game_id`, plus whatever scalar params the game sent | Game iframe message, relayed by `attachGameMessageListener` |
 | `google_play_click` / `app_store_click` (from a game) | `source: "game"`, `game_id`, plus other scalar params | Game iframe `store_click` message, remapped by `attachGameMessageListener` to the existing store CTA events |

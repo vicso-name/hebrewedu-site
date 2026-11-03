@@ -79,6 +79,7 @@ export interface Dictionary {
     alphabetCourse: string;
     phrases: string;
     verbs: string;
+    cursive: string;
     blog: string;
   };
   footer: {
@@ -86,6 +87,7 @@ export interface Dictionary {
     blog: string;
     hebrewPhrases: string;
     hebrewVerbs: string;
+    hebrewCursive: string;
     terms: string;
     privacy: string;
     copyright: (year: number) => string;
@@ -376,6 +378,84 @@ export interface Dictionary {
     keepLearningH2: string;
     resources: { href: string; title: string; description: string }[];
     sourceNote: string;
+  };
+  /** /learn/hebrew-cursive/ (CursivePage.astro and its client, cursive-client.ts).
+   *  Letters, pairs and example words are data (src/lib/hebrew-cursive.mjs);
+   *  `pairTips` and `examples` follow that module's order. `*Template` entries
+   *  use {placeholder} tokens. */
+  cursive: {
+    title: string;
+    description: string;
+    breadcrumbHome: string;
+    breadcrumbPage: string;
+    /** WebApplication name in the page's JSON-LD. */
+    appName: string;
+    eyebrow: string;
+    h1: string;
+    lead: string;
+    examplesLabel: string;
+    /** Short gloss per example word. */
+    examples: string[];
+    outputLabel: string;
+    printLabel: string;
+    inputLabel: string;
+    inputPlaceholder: string;
+    /** Shown when the input holds Latin letters. */
+    latinHint: string;
+    padLabel: string;
+    padSpace: string;
+    padBackspace: string;
+    copyLink: string;
+    linkCopied: string;
+    download: string;
+    /** File name (no extension) of the saved image. */
+    downloadFile: string;
+    breakdownTitle: string;
+    /** {name} */
+    finalTemplate: string;
+    chartEyebrow: string;
+    chartH2: string;
+    chartLead: string;
+    /** {name}: accessible label of a chart card, which opens the tracer. */
+    chartPracticeTemplate: string;
+    pairsEyebrow: string;
+    pairsH2: string;
+    pairsLead: string;
+    pairTips: string[];
+    howEyebrow: string;
+    howH2: string;
+    howSteps: { title: string; body: string }[];
+    practiceEyebrow: string;
+    practiceH2: string;
+    practiceLead: string;
+    practicePickLabel: string;
+    /** {name} */
+    practiceCanvasTemplate: string;
+    practiceClear: string;
+    practicePrev: string;
+    practiceNext: string;
+    practiceModel: string;
+    /** {name} */
+    practiceLessonTemplate: string;
+    practiceNoScript: string;
+    sheetsH3: string;
+    sheetsLead: string;
+    sheetAll: string;
+    sheetWord: string;
+    sheetChart: string;
+    /** Heading printed on the sheets. */
+    sheetTitle: string;
+    sheetChartTitle: string;
+    sheetFooter: string;
+    ctaEyebrow: string;
+    ctaH2: string;
+    ctaText: string;
+    faqTitle: string;
+    faq: { q: string; a: string }[];
+    keepLearningH2: string;
+    resources: { href: string; title: string; description: string }[];
+    /** {link}: the font credit, a link to the font's repository. */
+    fontNote: string;
   };
   /** Blog chrome, rendered by the shared BlogIndexPage/BlogPostPage templates
    *  for both /blog/ and /fr/blog/. Article bodies are content (the `blog` /

@@ -10,6 +10,18 @@
   unicode-range: U+0307-0308, U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
 }
 
+/* Hebrew cursive (ktav yad) for /learn/hebrew-cursive/: Gveret Levin by
+   AlefAlefAlef, SIL OFL 1.1 (../assets/fonts/gveret-levin-OFL.txt). Hebrew
+   range only, so Latin text set in --font-hebrew-cursive falls back. */
+@font-face {
+  font-family: 'Hebrew Cursive';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../assets/fonts/gveret-levin-regular.woff2') format('woff2');
+  unicode-range: U+0590-05FF, U+FB1D-FB4F;
+}
+
 :root {
   /* Brand */
   --brand:       #6366F1;
@@ -39,6 +51,7 @@
   --font-display: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-body:    'DM Sans', sans-serif;
   --font-hebrew:  'Hebrew Rubik', 'Arial Hebrew', Arial, sans-serif;
+  --font-hebrew-cursive: 'Hebrew Cursive', 'Hebrew Rubik', 'Arial Hebrew', sans-serif;
 
   /* Spacing scale */
   --space-2xs:     0.25rem; /* 4px — fine step the scale lacked (PhraseCard panel) */

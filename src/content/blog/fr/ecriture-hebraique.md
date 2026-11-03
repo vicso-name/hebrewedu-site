@@ -181,6 +181,8 @@ En général, la meilleure approche est :
 - lire de courtes notes informelles,
 - et construire petit à petit de la familiarité.
 
+Le [convertisseur d'hébreu cursif](/fr/apprendre/hebreu-cursif/) fait la comparaison pour toi : tape n'importe quel mot pour le voir en cursif au-dessus de l'imprimé, regarde [les lettres cursives qui se ressemblent](/fr/apprendre/hebreu-cursif/#look-alike), et imprime une fiche de tracé quand tu veux t'entraîner sur papier.
+
 Les enfants apprennent cela par répétition, sur plusieurs années.
 
 Les apprenants adultes peuvent s'adapter étonnamment vite, une fois qu'ils arrêtent d'attendre une perfection immédiate.
