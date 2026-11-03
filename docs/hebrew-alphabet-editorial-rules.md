@@ -93,6 +93,14 @@ compare your reading with a recording, and keep the rest of the block
 ("Read each word aloud."). Hold the block out if the instruction is all it
 says (owner decision, Nun review 2026-11-02; Lamed precedent).
 
+## No app-screen references
+
+The web lesson withholds source images and shows a mark card instead, so a
+source sentence that points at the app's picture ("On this screen you
+see…", "In the picture…") is rewritten to point at the card ("Here the
+letter Alef carries Hiriq…"). Keep the rest of the sentence (owner decision,
+Samekh review 2026-11-03).
+
 ## "Final" means a final form, not word-final position
 
 Don't write "final <Letter>" for a letter that merely sits at the end of a

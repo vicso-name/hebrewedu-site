@@ -172,6 +172,10 @@ Nun (נ) is a plain [n], as in "never," in גַּן [gan], "garden." It is one o
 
 → [Practice Nun in the Hebrew Alphabet Course](/learn/hebrew-alphabet/nun/)
 
+Samech (ס), also spelled Samekh, is a plain [s], as in "sit," in סוֹד [sod], "secret." In Modern Hebrew, Sin (שׂ) has the same [s] sound, so two different letters can spell it.
+
+→ [Practice Samekh in the Hebrew Alphabet Course](/learn/hebrew-alphabet/samekh/)
+
 ## The Five Final Letters
 
 Five Hebrew letters have a different written form when they appear at the **end of a word**. These are called *sofit* forms (סופית — “final”). The shape change is different for each pair.

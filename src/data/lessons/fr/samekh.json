@@ -1,0 +1,121 @@
+{
+  "slug": "samekh",
+  "title": "Samekh (ס) : lettre hébraïque, son et exemples",
+  "description": "Apprends la lettre hébraïque Samekh (ס) : son son [s], la différence avec Sin (שׂ), la voyelle Hiriq, des mots comme סוֹד (secret) et des exercices.",
+  "editorialIssues": [
+    {
+      "id": "unintroduced-letters",
+      "summary": "Affinage optionnel des exercices",
+      "detail": "L'exercice d'association lettre-son associe ת à [t] ; le Tav n'est introduit qu'à la leçon 22. Le guidage pour débutants pourra être amélioré séparément de la synchronisation avec la source approuvée."
+    },
+    {
+      "id": "fr-transliteration-ou",
+      "summary": "« u » remplacé par « ou » pour le son [u]",
+      "detail": "La source brute FR transcrit le son [u] de סִיבוּב par « u » (sivuv, [si-vuv]) et l'explique par une note sur les « cartes », alors que les choix des exercices écrivent déjà « ou » ([soud], [sou-biv], [ou]). Contraire à la règle de transcription FR (docs/hebrew-alphabet-editorial-rules.fr.md : « ou » pour [u]). Corrigé via contentOverrides.transcriptions (bloc 15), contentOverrides.blocks (blocs 3 et 16) et contentOverrides.exercises (question 14) ; la note devenue inutile est retirée du bloc 3."
+    }
+  ],
+  "illustrations": {
+    "4": {
+      "glyph": "אִ",
+      "label": "Hiriq Haser",
+      "equivalent": "Hiriq : un point sous la lettre, ici sous Alef, qui se lit [i]. Aucun Yod ne suit pour noter la voyelle : c'est un Hiriq Haser (« sans Yod »)."
+    },
+    "7": {
+      "glyph": "שִׂי",
+      "label": "Hiriq Male",
+      "equivalent": "Hiriq suivi d'un Yod muet qui note la voyelle, ici après Sin, qui se lit [si] : c'est un Hiriq Male (« avec Yod »)."
+    }
+  },
+  "blockFlags": {},
+  "exerciseFlags": {
+    "3": [
+      "unintroduced-letters"
+    ]
+  },
+  "contentOverrides": {
+    "blocks": {
+      "0": "Samekh (ס) : lettre hébraïque, son et exemples",
+      "3": "Le Hiriq est un petit point placé sous une lettre. Il représente [i], comme le i de « lit ». Le Hiriq Haser s'écrit sans Yod servant à noter la voyelle ; le Hiriq Male s'écrit avec un tel Yod après la lettre qui porte le Hiriq. En hébreu moderne, les deux représentent le même son [i] : il n'est pas nécessaire de les distinguer par la durée de la voyelle. Les transcriptions entre crochets sont de simples aides à la lecture ; elles ne suivent pas l'alphabet phonétique international (API). Les traits d'union séparent les syllabes.",
+      "4": "Ici, Alef porte un point sous la lettre : c'est le Hiriq. Aucun Yod ne suit pour noter la voyelle. Il s'agit donc d'un Hiriq Haser (« sans Yod »), comme dans אִ.",
+      "6": "Le mot אִשָּׁה [i-sha] signifie « femme » ou, selon le contexte, « épouse ». Lis-le en deux syllabes, en accentuant la seconde : sha. Alef (א) porte un Hiriq Haser, qui représente [i]. Shin (שׁ), reconnaissable à son point en haut à droite, porte un Kamats Gadol, qui donne [a], comme dans « patte ». L'ensemble se lit [sha] ; sh note ici le son du ch français de « chat ». Le point à l'intérieur de Shin est un dagesh ; il n'impose pas de doubler ce son dans la prononciation moderne courante. En fin de mot, le Hé (ה) est muet.",
+      "9": "Le mot שִׂיחָה [si-kha] signifie « conversation ». Lis-le en deux syllabes, en accentuant la seconde : kha. Sin (שׂ), reconnaissable à son point en haut à gauche, porte un Hiriq Male : le point sous Sin et le Yod (י) qui suit représentent [i], ce qui donne [si]. Ici, Yod n'ajoute pas de son de consonne distinct. Het (ח), avec un Kamats Gadol, donne [kha]. Dans la prononciation moderne courante enseignée ici, kh représente un seul son produit à l'arrière de la bouche, proche du ch allemand de « Bach ». Il ne se lit pas comme le ch français de « chat ». En fin de mot, le Hé (ה) est muet.",
+      "16": "Le mot hébreu סִיבוּב [si-vouv] signifie « rotation ». Lis-le en deux syllabes, en accentuant la seconde : vouv. Le mot est composé de cinq lettres : Samekh (ס), Yod (י), Beit (ב), Vav (ו) et Beit (ב). Samekh porte un Hiriq Male : le Yod aide à noter [i] sans ajouter de son de consonne distinct, ce qui donne [si]. Les deux Beit sont sans dagesh et se prononcent [v]. Vav avec Shourouk représente la voyelle [ou], sans son [v] distinct. Le premier Beit, le Shourouk et le dernier Beit forment ensemble la syllabe [vouv].",
+      "17": "À retenir"
+    },
+    "transcriptions": {
+      "15": "sivouv"
+    },
+    "exercises": {
+      "8": {
+        "content": "Dans « סִיבוּב », la lettre Yod (י) se prononce comme une consonne [y] distincte.",
+        "tip": "Dans סִיבוּב, Yod (י) fait partie du Hiriq Male : il aide à noter [i] et n'ajoute pas de son de consonne distinct.",
+        "correctAnswer": "false"
+      },
+      "11": {
+        "tip": "Le Patah est le petit trait sous Samekh dans סַ. Il représente [a], comme dans « patte » : l'ensemble se lit [sa]. Aucune durée particulière n'est exigée pour la voyelle."
+      },
+      "13": {
+        "tip": "« Rotation » se dit סִיבוּב [si-vouv], avec l'accent sur vouv."
+      }
+    }
+  },
+  "stageMap": {
+    "theory": [
+      0,
+      1
+    ],
+    "examples": [
+      2,
+      3,
+      4,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  "copy": {
+    "theory": {
+      "heading": "Découvre Samekh",
+      "intro": "La quinzième lettre de l'alphabet hébreu. Samekh se prononce [s], comme dans « sol ». En hébreu moderne, Sin (<bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">שׂ</bdi>) a le même son [s] : deux lettres différentes peuvent donc l'écrire. Cette leçon présente aussi le Hiriq, le point placé sous une lettre pour noter la voyelle [i].",
+      "objectivesHeading": "Ce que tu vas apprendre",
+      "objectives": [
+        "Reconnaître Samekh : <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ס</bdi>, et le distinguer de Sin, <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">שׂ</bdi>, qui a le même son [s].",
+        "Lire le Hiriq, le point sous une lettre qui note [i], avec ou sans Yod après la lettre.",
+        "Lire Samekh dans de vrais mots comme <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">סוֹד</bdi> (secret) et <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">סָבִיב</bdi> (autour)."
+      ],
+      "secondSectionHeading": "Comment se prononce Samekh",
+      "thirdSectionHeading": "Samekh et Sin"
+    },
+    "examples": {
+      "heading": "Samekh et le Hiriq dans de vrais mots",
+      "intro": "Découvre les deux écritures du Hiriq, puis lis à voix haute trois mots avec Samekh et retiens un dernier mot pour les exercices."
+    }
+  },
+  "holdOuts": {
+    "blocks": [
+      {
+        "sourceIndex": 5,
+        "reason": "Type de bloc d'étude STRIPED_BLOCK non pris en charge (le mot אִשָּׁה seul) — reconnu par le contrat source, mais StudyBlock.astro n'a pas de rendu pour STRIPED_BLOCK. Rien n'est perdu : le bloc 6 commence par le même mot et sa transcription."
+      },
+      {
+        "sourceIndex": 8,
+        "reason": "Type de bloc d'étude STRIPED_BLOCK non pris en charge (le mot שִׂיחָה seul) — reconnu par le contrat source, mais StudyBlock.astro n'a pas de rendu pour STRIPED_BLOCK. Rien n'est perdu : le bloc 9 commence par le même mot et sa transcription."
+      }
+    ],
+    "exercises": []
+  },
+  "source": {
+    "rawSnapshotPath": ".local/alphabet-course-imports/v1/2026-10-19T14-27-18-905Z-bdf614-fr/raw/lesson-15.raw.json",
+    "sha256": "45e35b9f09a77c5d562271b9ad9830b0cb83dca79097c0906fa0f9afc15166cb",
+    "responseDate": "2026-10-19T14:27:24.890Z"
+  }
+}

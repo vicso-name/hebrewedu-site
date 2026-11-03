@@ -32,6 +32,9 @@ FR raw source and FR copy exactly as written in the EN file:
 - **No audio instructions** — the web lesson has no audio in either
   language, so "appuie sur le bouton lecture pour comparer…" is dropped the
   same way as EN's "press play" (applied since Nun).
+- **No app-screen references** — the web lesson withholds source images,
+  so "Sur l'image, …" becomes "Ici, …" the same way as EN's "On this
+  screen" (applied since Samekh).
 - **"Final" means a final form, not word-final position** — a fact about
   the course's teaching of the five final forms, so "le Het final" / "le
   Beit final" for a letter that merely ends the word becomes "en fin de mot"
