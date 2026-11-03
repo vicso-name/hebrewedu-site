@@ -76,6 +76,14 @@
 .phrases-deck .pc { max-width: none; box-shadow: var(--shadow-sm); }
 .phrases-deck-list > li:first-child .pc { box-shadow: var(--shadow-md); }
 
+/* Hero: FR quick answers under the H1 */
+.phrases-quick { max-width: 53ch; margin-top: var(--space-md); padding: var(--space-sm) var(--space-sm-plus); background: var(--brand-light); border: 1px solid var(--brand-line); border-radius: var(--r-md); }
+.phrases-quick-title { font-family: var(--font-display); font-size: 1rem; font-weight: 700; line-height: 1.4; margin-bottom: var(--space-xs); }
+.phrases-quick-list { list-style: none; display: grid; gap: var(--space-xs); }
+.phrases-quick-list li { font-size: .9375rem; line-height: 1.5; color: var(--ink-mid); }
+.phrases-quick-he { font-family: var(--font-hebrew); font-size: 1.125rem; color: var(--ink); unicode-bidi: isolate; }
+@media (max-width: 639px) { .phrases-quick { padding: var(--space-xs-plus) var(--space-sm); } }
+
 /* Guide: anatomy of one real PhraseCard (option G-B) */
 .phrases-anatomy { display: grid; grid-template-columns: minmax(0, 432px) minmax(0, 1fr); gap: var(--space-xl); align-items: start; }
 .phrases-anatomy-card .pc { max-width: none; }

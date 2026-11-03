@@ -175,6 +175,29 @@ export const phraseGroups: PhraseGroup[] = [
   },
 ];
 
+// FR-only additions (2026-11-03), matched to the FR page's GSC queries (shavua tov,
+// ma nichma, comment ça va, je m'appelle…). Kept out of phraseGroups so the EN page
+// and its phraseReview SHA are untouched; PhrasesPage.astro appends them to their
+// group on the FR page only, and frPhraseContentSha256 hashes them.
+// "Je m'appelle" is kor'im li… (lit. "they call me", same form for any speaker):
+// "ani kore li" is not idiomatic Hebrew for introducing yourself.
+const frOnlyNote = 'FR-only phrase; EN fields are not rendered.';
+export const frExtraPhrases: Record<string, Phrase[]> = {
+  greetings: [
+    { id: 'how-are-you-casual', meaning: 'How are you? / What’s up?', usage: 'Casual greeting question.', genderNote: unchanged, variants: same('מַה נִּשְׁמָע?', 'ma nishma'), references: ['teachme'], referenceNote: frOnlyNote,
+      fr: { heading: 'Ma nichma ? — ça va ? / quoi de neuf ?', meaning: 'Ça va ? / quoi de neuf ?', usage: 'La façon la plus courante de demander « comment ça va ? » entre amis, collègues ou voisins. Réponds avec ani beseder ou simplement beseder.', genderNote: unchangedFr, variants: frSame(same('מַה נִּשְׁמָע?', 'ma nishma'), 'ma nichma') } },
+    { id: 'how-are-you', meaning: 'How are you?', usage: 'Ask one person how they are.', genderNote: 'The ending changes with the person addressed.', variants: paired('addressee', ['מַה שְּׁלוֹמְךָ?', 'ma shlomkha'], ['מַה שְּׁלוֹמֵךְ?', 'ma shlomekh']), references: ['teachme'], referenceNote: frOnlyNote,
+      fr: { heading: 'Ma chlomkha / ma chlomekh ? — comment vas-tu ?', meaning: 'Comment vas-tu ?', usage: 'Une façon un peu plus soignée que ma nichma de demander à quelqu’un comment ça va. Choisis la forme selon la personne à qui tu parles.', genderNote: "La terminaison change selon la personne à qui l'on s'adresse, pas selon qui parle.",
+        variants: frPaired(paired('addressee', ['מַה שְּׁלוֹמְךָ?', 'ma shlomkha'], ['מַה שְּׁלוֹמֵךְ?', 'ma shlomekh']), 'ma chlomkha', 'ma chlomekh') } },
+    { id: 'good-week', meaning: 'Have a good week', usage: 'Said after Shabbat ends.', genderNote: unchanged, variants: same('שָׁבוּעַ טוֹב', 'shavua tov'), references: ['teachme'], referenceNote: frOnlyNote,
+      fr: { heading: 'Shavua tov — bonne semaine', meaning: 'Bonne semaine', usage: 'Se dit le samedi soir, à la fin du chabbat, et le dimanche, quand la semaine israélienne commence.', genderNote: unchangedFr, variants: frSame(same('שָׁבוּעַ טוֹב', 'shavua tov'), 'chavoua tov') } },
+    { id: 'good-night', meaning: 'Good night', usage: 'Said when leaving in the evening or going to bed.', genderNote: unchanged, variants: same('לַיְלָה טוֹב', 'layla tov'), references: ['omniglot'], referenceNote: frOnlyNote,
+      fr: { heading: 'Laïla tov — bonne nuit', meaning: 'Bonne nuit', usage: 'Dis-le en partant tard le soir ou avant d’aller dormir. Pour saluer le soir en arrivant, dis plutôt erev tov.', genderNote: unchangedFr, variants: frSame(same('לַיְלָה טוֹב', 'layla tov'), 'laïla tov') } },
+    { id: 'they-call-me', meaning: 'My name is… (lit. they call me…)', usage: 'Everyday way to give your name.', genderNote: unchanged, variants: same('קוֹרְאִים לִי…', "kor'im li…"), references: ['teachme'], referenceNote: frOnlyNote,
+      fr: { heading: "Kor'im li… — je m'appelle…", meaning: "Je m'appelle…", usage: "La façon la plus courante de dire ton prénom, mot à mot « on m'appelle… ». Ajoute ton prénom après l'expression ; ne prononce pas les points de suspension.", genderNote: 'La forme est la même pour un homme et pour une femme.', variants: frSame(same('קוֹרְאִים לִי…', "kor'im li…"), "kor'im li…") } },
+  ],
+};
+
 export const phrases = phraseGroups.flatMap(group => group.phrases);
 
 export function phraseVariant(phraseId: string, variantId = 'same'): PhraseVariant {
@@ -186,7 +209,7 @@ export function phraseVariant(phraseId: string, variantId = 'same'): PhraseVaria
 /** FR counterpart of phraseVariant — same lookup, but returns the phrase's FR variant
  *  (French transliteration, and for speak-english/speak-french, French-localized Hebrew). */
 export function phraseVariantFr(phraseId: string, variantId = 'same'): PhraseVariant {
-  const phrase = phrases.find(p => p.id === phraseId);
+  const phrase = [...phrases, ...Object.values(frExtraPhrases).flat()].find(p => p.id === phraseId);
   const variant = phrase?.fr?.variants.find(item => item.id === variantId);
   if (!variant) throw new Error(`Unknown FR phrase variant: ${phraseId}/${variantId}`);
   return variant;
@@ -251,13 +274,19 @@ export const phraseQuestions = [
   { question: 'When do I need a different gender form?', answer: 'Look at the label on the card. “Speaker” means the form follows the person saying the phrase. “Addressee” means it follows the person being spoken to. The examples that address someone use singular forms.' },
 ];
 
-// FR FAQ: real FR queries from docs/seo/research/fr/PHRASES_FR.md, tu register.
+// FR FAQ: question wording matches the page's GSC queries (2026-11-03 rewrite), tu
+// register. Answers may carry inline HTML (<bdi> for Hebrew); Faq.astro strips tags
+// for the FAQPage JSON-LD, so the schema text matches the visible answer.
+const he = (text: string) => `<bdi lang="he" dir="rtl">${text}</bdi>`;
 export const frPhraseQuestions = [
-  { question: 'Comment dit-on bonjour en hébreu ?', answer: 'Utilise chalom pour une salutation simple, à tout moment de la journée, ou boker tov le matin et erev tov le soir.' },
-  { question: 'Que signifie « boker tov » ?', answer: 'Boker tov veut dire « bonjour », au sens propre « bon matin ». Utilise-le pour saluer quelqu’un en début de journée.' },
-  { question: 'Quelle est la différence entre « toda » et « toda raba » ?', answer: 'Toda veut dire « merci » ; toda raba veut dire « merci beaucoup », pour un remerciement plus appuyé.' },
+  { question: 'Que veut dire boker tov ?', answer: `Boker tov (${he('בֹּקֶר טוֹב')}) veut dire « bonjour » le matin ; mot à mot, « bon matin ». Utilise-le pour saluer quelqu’un en début de journée. Pour répondre, tu peux redire boker tov.` },
+  { question: 'Comment dire merci en hébreu ?', answer: `Merci se dit toda (${he('תּוֹדָה')}). Pour un remerciement plus appuyé, dis toda raba (${he('תּוֹדָה רַבָּה')}), « merci beaucoup ». On te répondra souvent bevakacha, « de rien ».` },
+  { question: 'Que signifie bevakacha ?', answer: `Bevakacha (${he('בְּבַקָּשָׁה')}), aussi écrit bevakasha, veut dire « s’il te plaît » ou « s’il vous plaît ». En réponse à un merci, il veut dire « de rien » ; en tendant quelque chose, « voilà ».` },
+  { question: 'Comment dire bonjour en hébreu ?', answer: `Le plus simple est chalom (${he('שָׁלוֹם')}), qu’on écrit aussi shalom : il s’utilise à toute heure et veut aussi dire « au revoir ». Le matin, dis plutôt boker tov, et le soir erev tov, « bonsoir ».` },
+  { question: 'Comment dit-on « comment ça va » en hébreu ?', answer: `La formule la plus courante est ma nichma ? (${he('מַה נִּשְׁמָע')}), entre amis comme entre collègues. Un peu plus soigné : ma chlomkha ? à un homme, ma chlomekh ? à une femme. Pour répondre « ça va », dis ani beseder.` },
+  { question: 'Comment dire au revoir en hébreu ?', answer: `Dis lehitra’ot (${he('לְהִתְרָאוֹת')}), qui veut dire « au revoir » ou « à bientôt ». Chalom fonctionne aussi pour se dire au revoir. Tard le soir, tu peux dire laïla tov, « bonne nuit ».` },
+  { question: 'Comment dire « je m’appelle » en hébreu ?', answer: `Dis kor’im li… (${he('קוֹרְאִים לִי')}) suivi de ton prénom ; mot à mot, « on m’appelle ». La forme est la même pour un homme et pour une femme. Plus formel, chmi… (${he('שְׁמִי')}) veut dire « mon nom est… ».` },
   { question: 'Que signifie « mazel tov » ?', answer: 'Mazel tov veut dire littéralement « bonne étoile » et sert à féliciter quelqu’un, par exemple pour une naissance, un mariage ou une réussite. Ce n’est pas l’une des expressions enseignées sur cette page, mais tu la croiseras souvent.' },
-  { question: 'Comment dit-on « au revoir » en hébreu ?', answer: 'Utilise lehitra’ot, qui veut dire « à bientôt ». Chalom fonctionne aussi bien pour se saluer que pour se dire au revoir.' },
   { question: 'Par où commencer pour apprendre l’hébreu ?', answer: 'Commence par l’alphabet hébreu et sa prononciation, puis ajoute du vocabulaire utile comme ces expressions. Construis ensuite progressivement la grammaire et la lecture.' },
 ];
 
@@ -283,13 +312,16 @@ export const phraseReview = {
 // FR release gate — independent of phraseReview so a future EN content edit and an FR
 // edit are each re-approved on their own terms, same precedent as alphabet-course.json's
 // per-locale `locales.fr` block.
+// 2026-11-03: re-approved for the SEO update (frExtraPhrases, rewritten
+// frPhraseQuestions) requested by the product owner; Hebrew AI-reviewed, no
+// native-speaker check.
 export const phraseReviewFr = {
   editorialApproved: true,
   reviewer: 'Viktor (product owner)' as string | null,
   qualification: 'Product owner editorial approval; FR localization checked against docs/seo/research/fr/PHRASES_FR.md and phrases-fr-review.md. No external native-speaker sign-off.' as string | null,
-  reviewedAt: '2026-10-19' as string | null,
-  approvedContentSha256: 'dd141dc70a5e3545fbbe80c01e17e5919df078148595ec940db907105fde815c' as string | null,
+  reviewedAt: '2026-11-03' as string | null,
+  approvedContentSha256: '859fe9e031df606a952c7b099ed1f4789a22461c897f28dc1316ed61ae01c8bf' as string | null,
   published: true,
-  publishedAt: '2026-10-19' as string | null,
+  publishedAt: '2026-11-03' as string | null,
   backfill: true,
 };

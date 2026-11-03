@@ -17,7 +17,7 @@ import HebrewText from '../lessons/HebrewText.astro';
 import Transliteration from './Transliteration.astro';
 import {
   phraseGroups, phrases, phraseDialogues, phraseQuestions, frPhraseQuestions,
-  phraseExercises, frPhraseExercises, phraseVariant, phraseVariantFr, phraseReview, phraseReviewFr,
+  phraseExercises, frPhraseExercises, frExtraPhrases, phraseVariant, phraseVariantFr, phraseReview, phraseReviewFr,
 } from '../../data/hebrew-phrases';
 import { getDictionary, type Locale, type Alternate } from '../../i18n';
 import { localizeTypography } from '../../lib/fr-typography.mjs';
@@ -42,7 +42,9 @@ const phraseById = (id: string) => fr(phrases.find(phrase => phrase.id === id)!)
 const rawVariant = isFr ? phraseVariantFr : phraseVariant;
 const getVariant = (phraseId: string, variantId: string) => fr(rawVariant(phraseId, variantId));
 const faqItems = fr(isFr ? frPhraseQuestions : phraseQuestions);
-const groups = fr(phraseGroups);
+// FR appends its FR-only phrases (frExtraPhrases) to their group; EN renders phraseGroups as-is.
+const groups = fr(isFr ? phraseGroups.map(g => ({ ...g, phrases: [...g.phrases, ...(frExtraPhrases[g.id] ?? [])] })) : phraseGroups);
+const phraseCount = groups.reduce((n, g) => n + g.phrases.length, 0);
 const dialogues = fr(phraseDialogues);
 const exercises = fr(isFr ? frPhraseExercises : phraseExercises);
 const review = isFr ? phraseReviewFr : phraseReview;
@@ -66,7 +68,18 @@ const t = fr(isFr
       preview: 'Aperçu éditorial local · La relecture par un locuteur natif est en attente. Cette page est exclue du build de production.',
       eyebrowHero: "Un peu d'hébreu pour le quotidien",
       h1: 'Apprends les phrases en hébreu du quotidien',
-      lead: "Dis bonjour. Commande un café. Demande un peu d'aide. Commence avec 30 expressions pratiques en hébreu moderne, avec leur sens en français et leur prononciation.",
+      lead: `Bonjour, merci, boker tov, toda raba, bevakacha : commence avec ${phraseCount} expressions pratiques en hébreu moderne, avec leur sens en français et leur prononciation.`,
+      quickTitle: 'Réponses rapides',
+      // Quick answers under the H1, matched to the page's GSC lookups. Hebrew and
+      // phonetics come from the phrase data (phraseVariantFr); only the meaning is here.
+      quickAnswers: [
+        { id: 'good-morning', meaning: 'Bonjour, le matin ; mot à mot « bon matin ».' },
+        { id: 'thank-you-very-much', meaning: 'Merci beaucoup ; toda seul veut dire « merci ».' },
+        { id: 'please', meaning: "S'il te plaît, ou « de rien » après un merci (aussi écrit bevakasha)." },
+        { id: 'hello', meaning: 'Bonjour et au revoir, à toute heure (aussi écrit shalom).' },
+        { id: 'goodbye', meaning: 'Au revoir, à bientôt.' },
+        { id: 'how-are-you-casual', meaning: 'Ça va ? La façon courante de demander « comment ça va ».' },
+      ],
       explorePhrases: 'Explorer les expressions', tryPractice: 'Essayer un exercice rapide',
       heroMeta: ['5 situations du quotidien', 'Gratuit ici', 'Aucune installation nécessaire'],
       deckAria: 'Trois salutations pour commencer',
@@ -81,7 +94,7 @@ const t = fr(isFr
         { h3: "Note d'usage", p: 'La situation à laquelle correspond la phrase, pour savoir quand l’utiliser.' },
         { h3: 'Dit par / Dit à', p: '« Dit par » est la personne qui dit la phrase ; « Dit à » est la personne à qui tu t’adresses. Ces exemples s’adressent à une seule personne.' },
       ],
-      phrasesEyebrow: '30 expressions. Plein de petits débuts.',
+      phrasesEyebrow: `${phraseCount} expressions. Plein de petits débuts.`,
       phrasesH2: 'Phrases en hébreu du quotidien',
       phrasesLead: 'Choisis une situation et apprends quelques phrases que tu pourras utiliser.',
       midAppLabel: 'Construis une pratique régulière de l’hébreu',
@@ -158,6 +171,13 @@ const anatomyPhraseId = isFr ? 'water-please' : 'coffee-please';
             <p class="phrases-eyebrow">{t.eyebrowHero}</p>
             <h1 id="phrases-title">{t.h1}</h1>
             <p class="phrases-lead">{t.lead}</p>
+            {isFr && <div class="phrases-quick" role="region" aria-labelledby="phrases-quick-title">
+              <h2 id="phrases-quick-title" class="phrases-quick-title">{t.quickTitle}</h2>
+              <ul class="phrases-quick-list">{t.quickAnswers.map(item => {
+                const variant = getVariant(item.id, 'same');
+                return <li><bdi class="phrases-quick-he" lang="he" dir="rtl"><HebrewText text={variant.hebrew} /></bdi> <span aria-hidden="true">·</span> <span lang="he-Latn"><Transliteration text={variant.transliteration} /></span> <span aria-hidden="true">·</span> {item.meaning}</li>;
+              })}</ul>
+            </div>}
             <div class="phrases-hero-actions"><a href="#phrases" class="btn phrases-primary">{t.explorePhrases} <span aria-hidden="true">↓</span></a><a href="#practice" class="btn phrases-secondary">{t.tryPractice}</a></div>
             <p class="phrases-hero-meta">{t.heroMeta[0]} <span aria-hidden="true">·</span> {t.heroMeta[1]} <span aria-hidden="true">·</span> {t.heroMeta[2]}</p>
           </header>
