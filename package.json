@@ -17,6 +17,7 @@
     "sync:hebrew-crossword": "node scripts/sync-game.mjs hebrew-crossword",
     "sync:hebrew-numbers-quest": "node scripts/sync-game.mjs hebrew-numbers-quest",
     "sync:hebrew-falafel-stand": "node scripts/sync-game.mjs hebrew-falafel-stand",
+    "sync:hebrew-shalom-city": "node scripts/sync-game.mjs hebrew-shalom-city",
     "test:game-messages": "node scripts/test-game-messages.mjs",
     "seo:build": "node scripts/seo/build-core.mjs"
   },

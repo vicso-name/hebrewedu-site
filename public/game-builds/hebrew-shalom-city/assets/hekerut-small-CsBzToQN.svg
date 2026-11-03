@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="312" viewBox="0 0 320 312">
+<rect width="320" height="312" fill="#F3EEE4"/>
+<rect x="0" y="0" width="28" height="312" fill="#8EC3E8"/>
+<path d="M4.9 32.8 q4.9 -4.9 9.8 0 t9.8 0 M3.3 103.3 q4.9 -4.9 9.8 0 t9.8 0 M4.9 173.8 q4.9 -4.9 9.8 0 t9.8 0 M3.3 244.4 q4.9 -4.9 9.8 0 t9.8 0" stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.8" stroke-linecap="round"/>
+<rect x="28" y="0" width="10" height="312" fill="#F1E2C2"/>
+<path d="M38 64 H320" stroke="#E0D6C4" stroke-width="15" stroke-linecap="butt" fill="none"/>
+<path d="M38 64 H320" stroke="#FFFFFF" stroke-width="9" stroke-linecap="butt" fill="none"/>
+<path d="M170 0 V64" stroke="#E0D6C4" stroke-width="13" stroke-linecap="butt" fill="none"/>
+<path d="M170 0 V64" stroke="#FFFFFF" stroke-width="7" stroke-linecap="butt" fill="none"/>
+<path d="M50 312 L320 140" stroke="#E0D6C4" stroke-width="19" stroke-linecap="round" fill="none"/>
+<path d="M50 312 L320 140" stroke="#FFFFFF" stroke-width="13" stroke-linecap="round" fill="none"/>
+<g stroke="#22304A" stroke-width="2">
+<rect x="52" y="20" width="86" height="34" rx="3" fill="#FFFFFF"/>
+<rect x="49.6" y="16" width="90.8" height="5.6" rx="2" fill="#F7F3EC"/>
+<rect x="56.8" y="26.4" width="76.4" height="4.8" rx="2" fill="#2D4E7E" stroke="none"/>
+<rect x="52" y="36" width="86" height="7.2" rx="3.6" fill="#F7F3EC"/>
+<rect x="56.8" y="47.2" width="76.4" height="4.8" rx="2" fill="#2D4E7E" stroke="none"/>
+<rect x="91" y="42.8" width="8" height="11.2" rx="3.2" fill="#1E4FA8"/>
+</g>
+<g stroke="#22304A" stroke-width="2">
+<rect x="236" y="22" width="44" height="32" rx="3" fill="#FFFFFF"/>
+<rect x="233.6" y="18" width="48.8" height="5.6" rx="2" fill="#F7F3EC"/>
+<rect x="240.8" y="28.4" width="34.4" height="4.8" rx="2" fill="#2D4E7E" stroke="none"/>
+<rect x="240.8" y="39.6" width="34.4" height="4.8" rx="2" fill="#2D4E7E" stroke="none"/>
+<rect x="254" y="42.8" width="8" height="11.2" rx="3.2" fill="#1E4FA8"/>
+</g>
+<path d="M268 252 C253 252.7 210 256.7 178 256 C146 255.3 84 258.7 76 248 C68 237.3 106.3 202.3 130 192 C153.7 181.7 192 192.3 218 186 C244 179.7 286 164 286 154 C286 144 246.3 130.3 218 126 C189.7 121.7 127.3 135.7 116 128 C104.7 120.3 141 90.7 150 80 C159 69.3 166.7 77.3 170 64 C173.3 50.7 170 10.7 170 0" stroke="#1E4FA8" stroke-width="3.5" stroke-dasharray="2 8" stroke-linecap="round" fill="none" opacity="0.55"/>
+</svg>

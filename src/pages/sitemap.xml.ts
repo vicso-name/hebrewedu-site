@@ -65,6 +65,7 @@ export const GET: APIRoute = async () => {
     { url: '/play/hebrew-crossword/', priority: '0.9', changefreq: 'monthly', lastmod: pageUpdatedDates['/play/hebrew-crossword/'] },
     { url: '/play/hebrew-numbers-quest/', priority: '0.9', changefreq: 'monthly', lastmod: pageUpdatedDates['/play/hebrew-numbers-quest/'] },
     { url: '/play/hebrew-falafel-stand/', priority: '0.9', changefreq: 'monthly', lastmod: pageUpdatedDates['/play/hebrew-falafel-stand/'] },
+    { url: '/play/hebrew-shalom-city/', priority: '0.9', changefreq: 'monthly', lastmod: pageUpdatedDates['/play/hebrew-shalom-city/'] },
     {
       url: '/',
       priority: '1.0',
