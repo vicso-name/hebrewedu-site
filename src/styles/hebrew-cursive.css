@@ -1,0 +1,182 @@
+/* /learn/hebrew-cursive/ and /fr/apprendre/hebreu-cursif/ (CursivePage.astro).
+   Cursive glyphs use --font-hebrew-cursive (Gveret Levin, global.css); print
+   glyphs and every other Hebrew run stay on --font-hebrew. `[hidden]` is the
+   last rule in this file, so it wins over any display set above. */
+.cursive-page {
+  --home-surface-white: var(--white);
+  --home-surface-soft: var(--surface-soft);
+  --home-radius-sm: var(--r-md);
+  --home-radius-lg: var(--r-xl);
+  --home-stack: var(--space-sm);
+  --trace-h: clamp(16rem, 38vw, 22rem);
+  color: var(--ink);
+  background: var(--white);
+}
+.cursive-page [id] { scroll-margin-top: 88px; }
+.cursive-page :focus-visible { outline: 3px solid var(--brand-dark); outline-offset: 3px; }
+.cursive-page main p, .cursive-page main li { overflow-wrap: anywhere; }
+.cursive-page h2, .cursive-page h3 { text-wrap: balance; }
+.cursive-page [lang="he"] { font-family: var(--font-hebrew); letter-spacing: normal; }
+
+/* Hero */
+.cursive-breadcrumbs { margin-bottom: calc(var(--space-sm) * 2); font-size: .875rem; color: var(--ink-light); }
+.cursive-breadcrumbs ol { display: flex; flex-wrap: wrap; align-items: center; list-style: none; gap: var(--space-2xs); }
+.cursive-breadcrumbs a { display: inline-flex; align-items: center; min-height: 44px; padding-right: var(--space-xs); text-decoration: underline; text-underline-offset: .2em; }
+.cursive-breadcrumbs li + li::before { content: '/'; margin-inline: var(--space-xs); color: var(--ink-light); }
+/* Desktop: intro and example words left, converter right. Narrow screens put
+   the converter straight under the intro and the examples below it, so the
+   tool is on the first screen. */
+.cursive-hero-layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr); grid-template-areas: "intro tool" "examples tool"; grid-template-rows: auto 1fr; column-gap: clamp(var(--space-lg), 5vw, var(--space-xl)); align-items: start; }
+.cursive-intro { grid-area: intro; }
+.cursive-tool { grid-area: tool; }
+.cursive-examples { grid-area: examples; }
+.cursive-eyebrow { font-size: .8125rem; font-weight: 700; color: var(--brand-dark); letter-spacing: .035em; margin-bottom: var(--space-xs-plus); }
+.cursive-hero h1 { font-family: var(--font-display); font-weight: 800; font-size: clamp(2.15rem, 4.5vw, 3.5rem); line-height: 1.13; letter-spacing: -.03em; max-width: 16ch; }
+.cursive-lead { color: var(--ink-mid); max-width: 52ch; font-size: 1.125rem; line-height: 1.65; margin-top: var(--space-sm-plus); }
+
+.cursive-examples { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-xs); margin-top: var(--space-md); font-size: .9375rem; color: var(--ink-mid); }
+.cursive-examples ul { display: flex; flex-wrap: wrap; gap: var(--space-xs); list-style: none; }
+.cursive-examples a { display: inline-flex; align-items: center; gap: var(--space-xs); min-height: 44px; padding: 0 var(--space-xs-plus); color: var(--ink); text-decoration: none; background: var(--white); border: 1px solid var(--border-dark); border-radius: var(--r-full); transition: border-color .15s ease, background-color .15s ease; }
+.cursive-examples a:hover { border-color: var(--brand); background: var(--brand-light); }
+.cursive-page .cursive-examples bdi { font-family: var(--font-hebrew-cursive); font-size: 1.375rem; line-height: 1; }
+.cursive-examples a span { font-weight: 500; color: var(--ink-mid); }
+
+/* Converter: the cursive display on top, the field and letter pad below,
+   like a calculator, so on a phone the result never scrolls away. */
+.cursive-tool { display: grid; gap: var(--space-sm); padding: var(--space-md); background: var(--white); border: 1px solid var(--brand-line); border-radius: var(--r-xl); box-shadow: var(--shadow-md); }
+/* The cursive word sits on a ruled sheet: --rule-base and --rule-mid are the
+   baseline and body line (about .58em above it) as fractions of one 1.5em
+   line box, measured in the browser for Gveret Levin. They repeat per line,
+   so a word that wraps stays on the lines. */
+.cursive-display { display: grid; gap: var(--space-sm); padding: var(--space-sm); background: var(--surface-soft); border-radius: var(--r-lg); }
+.cursive-display-label { justify-self: start; display: inline-flex; align-items: center; padding: var(--space-2xs) var(--space-xs-plus); font-size: .875rem; font-weight: 700; line-height: 1.3; color: var(--ink-mid); background: var(--white); border: 1px solid var(--border); border-radius: var(--r-full); }
+.cursive-stage .cursive-display-label, .cursive-print-row .cursive-display-label { background: var(--surface-soft); border-color: transparent; }
+.cursive-stage { display: grid; gap: var(--space-xs); padding: var(--space-sm) var(--space-sm) 0; background: var(--white); border: 1px solid var(--border); border-radius: var(--r-lg); box-shadow: var(--shadow-sm); }
+.cursive-page .cursive-output {
+  --rule-base: 62.7%;
+  --rule-mid: 24%;
+  min-height: 1.5em; padding-inline: var(--space-xs); font-family: var(--font-hebrew-cursive); font-size: clamp(3.25rem, 8vw, 5.25rem); line-height: 1.5; text-align: center; color: var(--ink);
+  background-image:
+    linear-gradient(to bottom, transparent calc(var(--rule-base) - 2px), var(--brand-line) calc(var(--rule-base) - 2px), var(--brand-line) var(--rule-base), transparent var(--rule-base)),
+    linear-gradient(to bottom, transparent calc(var(--rule-mid) - 1px), var(--surface) calc(var(--rule-mid) - 1px), var(--surface) var(--rule-mid), transparent var(--rule-mid));
+  background-size: 100% 1.5em;
+}
+.cursive-print-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--space-xs) var(--space-sm); padding: var(--space-xs) var(--space-sm) var(--space-xs) var(--space-xs); background: var(--white); border: 1px solid var(--border); border-radius: var(--r-md); }
+/* Hebrew Rubik's line box keeps room for descenders few letters use, so the
+   word reads high; .1em down puts its letters on the row's centre line. */
+.cursive-print { min-height: 1.3em; font-size: clamp(1.625rem, 3.5vw, 2rem); font-weight: 500; line-height: 1.3; color: var(--ink); transform: translateY(.1em); }
+.cursive-actions { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: var(--space-xs); }
+.cursive-action { display: inline-flex; align-items: center; justify-content: center; gap: var(--space-xs); min-height: 44px; min-width: 44px; padding: 0 var(--space-sm-plus); font: inherit; font-size: .9375rem; font-weight: 600; color: var(--ink); background: var(--white); border: 1px solid var(--border-dark); border-radius: var(--r-full); cursor: pointer; transition: border-color .15s ease, background-color .15s ease, box-shadow .15s ease; }
+.cursive-action:hover { border-color: var(--brand); background: var(--brand-light); }
+.cursive-action-primary { color: var(--brand-dark); border-color: var(--brand); }
+.cursive-status { flex-basis: 100%; min-height: 1.25rem; font-size: .8125rem; font-weight: 600; text-align: center; color: var(--emerald); }
+
+.cursive-input label { display: block; margin-bottom: var(--space-xs); font-size: .9375rem; font-weight: 700; }
+.cursive-input input { width: 100%; min-height: 52px; padding: 0 var(--space-sm); font-family: var(--font-hebrew); font-size: 1.375rem; color: var(--ink); background: var(--white); border: 2px solid var(--brand-line); border-radius: var(--r-md); transition: border-color .15s ease, box-shadow .15s ease; }
+.cursive-input input:focus { border-color: var(--brand-dark); box-shadow: 0 0 0 4px var(--brand-light); outline: none; }
+.cursive-hint { margin-top: var(--space-xs); padding: var(--space-xs) var(--space-sm); font-size: .875rem; color: var(--ink-mid); background: var(--amber-bg); border-radius: var(--r-md); }
+
+.cursive-pad { display: grid; grid-template-columns: repeat(9, minmax(0, 1fr)); gap: var(--space-2xs); direction: rtl; }
+.cursive-pad button { display: grid; place-items: center; min-height: 44px; padding: 0; font: inherit; font-size: .875rem; font-weight: 600; color: var(--ink); background: var(--surface-soft); border: 1px solid var(--border); border-radius: var(--r-sm); cursor: pointer; transition: background-color .1s ease; }
+.cursive-pad button:hover { background: var(--brand-light); }
+.cursive-pad button:active { background: var(--brand-line); }
+.cursive-pad span { font-size: 1.25rem; }
+.cursive-pad-space { grid-column: span 7; }
+.cursive-pad-back { grid-column: span 2; }
+
+.cursive-breakdown { display: grid; gap: var(--space-xs); }
+.cursive-tiles { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--space-xs); list-style: none; direction: rtl; }
+.cursive-tiles li { display: grid; justify-items: center; min-width: 5rem; padding: var(--space-xs) var(--space-xs) var(--space-2xs); background: var(--white); border: 1px solid var(--border); border-radius: var(--r-md); box-shadow: var(--shadow-sm); direction: ltr; }
+.cursive-page .cursive-tile-glyph { font-family: var(--font-hebrew-cursive); font-size: 2.5rem; line-height: 1.3; color: var(--ink); }
+.cursive-tile-print { justify-self: stretch; padding-top: var(--space-2xs); font-size: 1.125rem; text-align: center; color: var(--ink-mid); border-top: 1px dashed var(--border); }
+.cursive-tile-name { font-size: .8125rem; color: var(--ink-light); }
+
+.cursive-section-heading { max-width: var(--w-narrow); margin-bottom: var(--space-md); }
+.cursive-section-heading > p:last-child { margin-top: var(--space-xs-plus); color: var(--ink-mid); font-size: 1.0625rem; }
+
+/* Chart: alphabet order runs right to left, as on an Israeli classroom wall. */
+.cursive-chart { display: grid; grid-template-columns: repeat(9, minmax(0, 1fr)); gap: var(--space-xs); list-style: none; direction: rtl; }
+.cursive-chart a { display: grid; justify-items: center; height: 100%; padding: var(--space-xs) var(--space-2xs); color: var(--ink); text-decoration: none; background: var(--white); border: 1px solid var(--border); border-radius: var(--r-lg); direction: ltr; transition: border-color .15s ease, box-shadow .15s ease; }
+.cursive-chart a:hover { border-color: var(--brand); box-shadow: var(--shadow-card-hover); }
+.cursive-chart a.is-final { background: var(--brand-light); border-color: var(--brand-line); }
+.cursive-page .cursive-chart-glyph { font-family: var(--font-hebrew-cursive); font-size: clamp(2.25rem, 4vw, 3.25rem); line-height: 1.7; }
+.cursive-chart-print { font-size: 1.25rem; line-height: 1.4; color: var(--ink-mid); }
+.cursive-chart-name { font-size: .75rem; line-height: 1.3; text-align: center; color: var(--ink-light); }
+
+/* Look-alike pairs */
+.cursive-pairs { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--space-md); list-style: none; }
+.cursive-pairs > li { display: grid; align-content: start; gap: var(--space-xs); padding: var(--space-md); background: var(--white); border: 1px solid var(--border); border-radius: var(--r-lg); }
+.cursive-pair { display: flex; justify-content: center; gap: var(--space-md); direction: rtl; }
+.cursive-pair figure { display: grid; justify-items: center; direction: ltr; }
+.cursive-page .cursive-pair-glyph { font-family: var(--font-hebrew-cursive); font-size: 3.5rem; line-height: 1.4; }
+.cursive-pair figcaption { font-size: .8125rem; color: var(--ink-light); }
+.cursive-pairs p { color: var(--ink-mid); font-size: .9375rem; }
+
+/* How it works */
+.cursive-how { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--space-md); list-style: none; counter-reset: how; }
+.cursive-how > li { display: flex; flex-direction: column; gap: var(--space-xs); padding: var(--space-md); background: var(--white); border: 1px solid var(--border); border-radius: var(--r-lg); counter-increment: how; }
+.cursive-how h3 { font-family: var(--font-display); font-size: 1.125rem; font-weight: 800; }
+.cursive-how h3::before { content: counter(how); display: inline-grid; place-items: center; width: 1.75rem; height: 1.75rem; margin-right: var(--space-xs); font-size: .875rem; color: var(--brand-dark); background: var(--brand-light); border-radius: 50%; }
+.cursive-how p { color: var(--ink-mid); font-size: .9375rem; }
+
+/* Practice */
+.cursive-practice { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: var(--space-md) var(--space-lg); align-items: start; }
+.cursive-picker { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(27, minmax(0, 1fr)); gap: var(--space-2xs); direction: rtl; }
+.cursive-picker button { display: grid; place-items: center; min-height: 44px; padding: 0; font: inherit; color: var(--ink); background: var(--white); border: 1px solid var(--border-dark); border-radius: var(--r-sm); cursor: pointer; }
+.cursive-picker button span { font-size: 1.25rem; line-height: 1; }
+.cursive-picker button[aria-pressed="true"] { color: var(--white); background: var(--brand-dark); border-color: var(--brand-dark); }
+.cursive-trace { position: relative; height: var(--trace-h); overflow: hidden; background: var(--surface-soft); border: 2px dashed var(--border-dark); border-radius: var(--r-lg); }
+.cursive-page .cursive-trace-model { position: absolute; inset: 0; display: grid; place-items: center; font-family: var(--font-hebrew-cursive); font-size: calc(var(--trace-h) * .62); line-height: 1; color: var(--border-dark); user-select: none; pointer-events: none; }
+/* With JS, cursive-client.ts draws the model and the writing lines on the
+   guide canvas (baseline-exact, whatever the browser does with font metrics)
+   and hides the static model above. --trace-line is the lines' color. */
+.cursive-trace-guide { position: absolute; inset: 0; width: 100%; height: 100%; color: var(--border-dark); --trace-line: var(--brand-line); pointer-events: none; }
+.cursive-trace-canvas { position: absolute; inset: 0; width: 100%; height: 100%; color: var(--brand-dark); touch-action: none; cursor: crosshair; }
+.cursive-trace-controls { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-xs); margin-top: var(--space-sm); }
+.cursive-trace-name { min-width: 7rem; font-weight: 700; text-align: center; }
+.cursive-model-toggle { display: inline-flex; align-items: center; gap: var(--space-xs); min-height: 44px; font-size: .875rem; color: var(--ink-mid); cursor: pointer; }
+.cursive-model-toggle input { width: 1.125rem; height: 1.125rem; accent-color: var(--brand-dark); }
+.cursive-trace-lesson { margin-top: var(--space-xs); }
+.cursive-trace-lesson a { display: inline-flex; align-items: center; min-height: 44px; color: var(--brand-dark); font-weight: 600; text-decoration: underline; text-underline-offset: .2em; }
+.cursive-noscript { margin-top: var(--space-sm); color: var(--ink-mid); font-size: .9375rem; }
+.cursive-sheets { padding: var(--space-md); background: var(--brand-light); border: 1px solid var(--brand-line); border-radius: var(--r-xl); }
+.cursive-sheets h3 { font-family: var(--font-display); font-size: 1.25rem; font-weight: 800; }
+.cursive-sheets p { margin-top: var(--space-2xs); color: var(--ink-mid); }
+.cursive-sheet-buttons { display: grid; gap: var(--space-xs); margin-top: var(--space-sm); }
+.cursive-page .cursive-primary { background: var(--brand-dark); color: var(--white); min-height: 48px; font-weight: 600; box-shadow: none; }
+.cursive-page .cursive-secondary { background: var(--white); color: var(--ink); min-height: 48px; font-weight: 600; border: 1px solid var(--border-dark); box-shadow: none; }
+
+/* Keep learning */
+.cursive-resources { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-md); list-style: none; }
+.cursive-resources li { border-top: 1px solid var(--border); padding-top: var(--space-sm); }
+.cursive-resources h3 { font-size: 1.125rem; line-height: 1.5; }
+.cursive-resources a { display: inline-block; min-height: 44px; color: var(--brand-dark); text-decoration: underline; text-underline-offset: .2em; }
+.cursive-resources p { color: var(--ink-mid); }
+.cursive-source { font-size: .875rem; color: var(--ink-light); margin-top: var(--space-lg); }
+.cursive-source a { color: inherit; text-decoration: underline; text-underline-offset: .2em; }
+
+@media (max-width: 1100px) {
+  .cursive-chart { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .cursive-picker { grid-template-columns: repeat(9, minmax(0, 1fr)); }
+  .cursive-pairs, .cursive-how { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 899px) {
+  .cursive-practice, .cursive-resources { grid-template-columns: 1fr; }
+  .cursive-hero-layout { grid-template-columns: minmax(0, 1fr); grid-template-areas: "intro" "tool" "examples"; grid-template-rows: none; row-gap: var(--space-md); }
+  .cursive-page .cursive-examples { margin-top: 0; }
+}
+@media (max-width: 639px) {
+  .cursive-lead { font-size: 1.0625rem; }
+  .cursive-tool { padding: var(--space-sm); margin-inline: calc(var(--space-xs) * -1); }
+  .cursive-display { padding: var(--space-xs); gap: var(--space-xs-plus); }
+  .cursive-stage { padding: var(--space-xs-plus) var(--space-xs) 0; }
+  .cursive-chart { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .cursive-pairs, .cursive-how { grid-template-columns: 1fr; }
+  .cursive-tiles li { min-width: 4rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .cursive-examples a, .cursive-action, .cursive-input input, .cursive-pad button, .cursive-chart a { transition: none; }
+}
+
+/* Last on purpose: beats every `.cursive-page .x { display: … }` above. */
+.cursive-page [hidden] { display: none; }

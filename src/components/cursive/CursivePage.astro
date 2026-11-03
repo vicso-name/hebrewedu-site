@@ -1,0 +1,192 @@
+---
+// Shared cursive-tool template for /learn/hebrew-cursive/ (locale="en") and
+// /fr/apprendre/hebreu-cursif/ (locale="fr"): converter, cursive chart,
+// look-alike pairs, how it works, tracing practice and printable sheets, app
+// CTA, FAQ, keep learning. Everything renders without JS (the converter shows
+// its default word, the tracer its model letter); cursive-client.ts adds
+// typing, the letter pad, sharing, saving, tracing and printing.
+import Layout from '../../layouts/Layout.astro';
+import Section from '../ui/Section.astro';
+import CtaPanel from '../ui/CtaPanel.astro';
+import StoreButtons from '../ui/StoreButtons.astro';
+import Faq from '../Faq.astro';
+import HebrewText from '../lessons/HebrewText.astro';
+import fontUrl from '../../assets/fonts/gveret-levin-regular.woff2?url';
+import { cursiveLetters, cursiveExamples, cursiveDefault, lookAlikePairs, enLetterNames, letterName, lessonHref, cursiveSchema } from '../../lib/hebrew-cursive.mjs';
+import { frLetterNames } from '../../i18n/fr-letters';
+import { getDictionary, type Locale, type Alternate } from '../../i18n';
+
+interface Props {
+  locale?: Locale;
+  alternates: Alternate[];
+  langSwitch?: { href: string };
+}
+const { locale = 'en', alternates, langSwitch } = Astro.props;
+const dict = getDictionary(locale);
+const t = dict.cursive;
+const names = locale === 'fr' ? frLetterNames : enLetterNames;
+const letters = cursiveLetters.map(l => ({ ...l, name: letterName(l, names, t.finalTemplate), href: lessonHref(l, locale) }));
+const byHe = Object.fromEntries(letters.map(l => [l.he, l]));
+const fill = (template: string, values: Record<string, string>) => template.replace(/\{(\w+)\}/g, (_, key) => values[key] ?? '');
+const schema = cursiveSchema(locale, { title: t.title, description: t.description, home: t.breadcrumbHome, page: t.breadcrumbPage, appName: t.appName });
+
+// Letters of the default word, once each, for the static "letter by letter" row.
+const defaultTiles = [...new Set([...cursiveDefault].filter(ch => byHe[ch]))].map(ch => byHe[ch]);
+const firstLetter = letters[0];
+
+// Client strings travel as one data attribute (docs/I18N.md: client modules
+// never carry a language of their own).
+const clientStrings = JSON.stringify({
+  linkCopied: t.linkCopied, downloadFile: t.downloadFile, canvasTemplate: t.practiceCanvasTemplate,
+  lessonTemplate: t.practiceLessonTemplate, sheetTitle: t.sheetTitle, sheetChartTitle: t.sheetChartTitle,
+  sheetFooter: t.sheetFooter, lang: locale, font: fontUrl,
+  letters: letters.map(l => ({ id: l.id, he: l.he, name: l.name, href: l.href })),
+});
+const fontLink = '<a href="https://github.com/AlefAlefAlef/gveret-levin" rel="noopener">Gveret Levin</a>';
+const backspaceIcon = '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M9 5h11v14H9l-6-7 6-7Z"/><path stroke="currentColor" stroke-width="2" stroke-linecap="round" d="m12 9 5 6m0-6-5 6"/></svg>';
+const linkIcon = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M10 14a4 4 0 0 0 5.66 0l3-3a4 4 0 0 0-5.66-5.66l-1 1M14 10a4 4 0 0 0-5.66 0l-3 3a4 4 0 0 0 5.66 5.66l1-1"/></svg>';
+const imageIcon = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 4v11m0 0-4-4m4 4 4-4M5 19h14"/></svg>';
+---
+<Layout pageClass="cursive-page" mainId="cursive-content" title={t.title} description={t.description} schema={schema} locale={locale} alternates={alternates} langSwitch={langSwitch}>
+  <Section class="cursive-hero" aria-labelledby="cursive-title">
+    <nav class="cursive-breadcrumbs" aria-label={dict.common.aria.breadcrumb}><ol><li><a href={locale === 'fr' ? '/fr/' : '/'}>{t.breadcrumbHome}</a></li><li aria-current="page">{t.breadcrumbPage}</li></ol></nav>
+    <div class="cursive-hero-layout" data-cursive-strings={clientStrings}>
+      <header class="cursive-intro">
+        <p class="cursive-eyebrow">{t.eyebrow}</p>
+        <h1 id="cursive-title">{t.h1}</h1>
+        <p class="cursive-lead">{t.lead}</p>
+      </header>
+      <div class="cursive-examples">
+        <span>{t.examplesLabel}</span>
+        <ul>
+          {cursiveExamples.map((word, i) => (
+            <li><a href={`?text=${encodeURIComponent(word)}#converter`} data-cursive-example={word}><bdi lang="he" dir="rtl">{word}</bdi><span>{t.examples[i]}</span></a></li>
+          ))}
+        </ul>
+      </div>
+
+      <div class="cursive-tool" id="converter">
+        <div class="cursive-display">
+          <div class="cursive-stage">
+            <p class="cursive-display-label">{t.outputLabel}</p>
+            <p class="cursive-output" lang="he" dir="rtl" aria-live="polite" data-cursive-output>{cursiveDefault}</p>
+          </div>
+          <div class="cursive-print-row">
+            <p class="cursive-display-label">{t.printLabel}</p>
+            <p class="cursive-print" lang="he" dir="rtl" data-cursive-print>{cursiveDefault}</p>
+          </div>
+          <div class="cursive-breakdown">
+            <p class="cursive-display-label">{t.breakdownTitle}</p>
+            <ol class="cursive-tiles" data-cursive-breakdown>
+              {defaultTiles.map(l => <li><span class="cursive-tile-glyph" lang="he">{l.he}</span><span class="cursive-tile-print" lang="he">{l.he}</span><span class="cursive-tile-name">{l.name}</span></li>)}
+            </ol>
+          </div>
+          <div class="cursive-actions" data-cursive-js hidden>
+            <button type="button" class="cursive-action" data-cursive-copy><Fragment set:html={linkIcon} />{t.copyLink}</button>
+            <button type="button" class="cursive-action cursive-action-primary" data-cursive-download><Fragment set:html={imageIcon} />{t.download}</button>
+            <span class="cursive-status" role="status" data-cursive-status></span>
+          </div>
+        </div>
+        <form class="cursive-input" data-cursive-form>
+          <label for="cursive-q">{t.inputLabel}</label>
+          <input id="cursive-q" name="text" type="text" lang="he" dir="rtl" value={cursiveDefault} placeholder={t.inputPlaceholder} maxlength="40" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="done" data-cursive-input />
+          <p class="cursive-hint" data-cursive-hint hidden>{t.latinHint}</p>
+        </form>
+        <div class="cursive-pad" role="group" aria-label={t.padLabel} data-cursive-js hidden>
+          {letters.map(l => <button type="button" data-cursive-key={l.he} aria-label={l.name}><span lang="he">{l.he}</span></button>)}
+          <button type="button" class="cursive-pad-space" data-cursive-key=" ">{t.padSpace}</button>
+          <button type="button" class="cursive-pad-back" data-cursive-back aria-label={t.padBackspace}><Fragment set:html={backspaceIcon} /></button>
+        </div>
+      </div>
+    </div>
+  </Section>
+
+  <Section surface="soft" id="alphabet">
+    <div class="cursive-section-heading"><p class="cursive-eyebrow">{t.chartEyebrow}</p><h2 class="display-md">{t.chartH2}</h2><p>{t.chartLead}</p></div>
+    <ol class="cursive-chart">
+      {letters.map((l, i) => (
+        <li><a href="#practice" data-cursive-practice={i} aria-label={fill(t.chartPracticeTemplate, { name: l.name })} class:list={[{ 'is-final': l.final }]}>
+          <span class="cursive-chart-glyph" lang="he" aria-hidden="true">{l.he}</span>
+          <span class="cursive-chart-print" lang="he" aria-hidden="true">{l.he}</span>
+          <span class="cursive-chart-name" aria-hidden="true">{l.name}</span>
+        </a></li>
+      ))}
+    </ol>
+  </Section>
+
+  <Section id="look-alike">
+    <div class="cursive-section-heading"><p class="cursive-eyebrow">{t.pairsEyebrow}</p><h2 class="display-md">{t.pairsH2}</h2><p>{t.pairsLead}</p></div>
+    <ul class="cursive-pairs">
+      {lookAlikePairs.map((pair, i) => (
+        <li>
+          <div class="cursive-pair">
+            {pair.map(p => { const l = letters.find(x => x.id === p.id)!; return (
+              <figure><span class="cursive-pair-glyph" lang="he">{l.he}</span><figcaption><bdi lang="he" dir="rtl">{l.he}</bdi> {l.name}</figcaption></figure>
+            ); })}
+          </div>
+          <p><HebrewText text={t.pairTips[i]} /></p>
+        </li>
+      ))}
+    </ul>
+  </Section>
+
+  <Section surface="soft" id="how-it-works">
+    <div class="cursive-section-heading"><p class="cursive-eyebrow">{t.howEyebrow}</p><h2 class="display-md">{t.howH2}</h2></div>
+    <ol class="cursive-how">
+      {t.howSteps.map(step => <li><h3>{step.title}</h3><p><HebrewText text={step.body} /></p></li>)}
+    </ol>
+  </Section>
+
+  <Section id="practice">
+    <div class="cursive-section-heading"><p class="cursive-eyebrow">{t.practiceEyebrow}</p><h2 class="display-md">{t.practiceH2}</h2><p>{t.practiceLead}</p></div>
+    <div class="cursive-practice" data-cursive-trainer>
+      <div class="cursive-picker" role="group" aria-label={t.practicePickLabel} data-cursive-js hidden>
+        {letters.map((l, i) => <button type="button" data-cursive-pick={i} aria-pressed={i === 0 ? 'true' : 'false'} aria-label={l.name}><span lang="he">{l.he}</span></button>)}
+      </div>
+      <div class="cursive-trace-wrap">
+        <div class="cursive-trace">
+          <span class="cursive-trace-model" lang="he" aria-hidden="true" data-cursive-model>{firstLetter.he}</span>
+          <canvas class="cursive-trace-guide" aria-hidden="true" data-cursive-guide></canvas>
+          <canvas class="cursive-trace-canvas" role="img" aria-label={fill(t.practiceCanvasTemplate, { name: firstLetter.name })} data-cursive-canvas></canvas>
+        </div>
+        <div class="cursive-trace-controls" data-cursive-js hidden>
+          <button type="button" class="cursive-action" data-cursive-prev aria-label={t.practicePrev}><span aria-hidden="true">←</span></button>
+          <p class="cursive-trace-name" aria-live="polite" data-cursive-trace-name>{firstLetter.name}</p>
+          <button type="button" class="cursive-action" data-cursive-next aria-label={t.practiceNext}><span aria-hidden="true">→</span></button>
+          <button type="button" class="cursive-action" data-cursive-clear>{t.practiceClear}</button>
+          <label class="cursive-model-toggle"><input type="checkbox" checked data-cursive-model-toggle /> {t.practiceModel}</label>
+        </div>
+        <p class="cursive-trace-lesson"><a href={firstLetter.href ?? '#'} data-cursive-lesson hidden={!firstLetter.href}>{fill(t.practiceLessonTemplate, { name: firstLetter.name })} <span aria-hidden="true">→</span></a></p>
+        <p class="cursive-noscript" data-cursive-nojs>{t.practiceNoScript}</p>
+      </div>
+      <div class="cursive-sheets">
+        <h3>{t.sheetsH3}</h3>
+        <p>{t.sheetsLead}</p>
+        <div class="cursive-sheet-buttons" data-cursive-js hidden>
+          <button type="button" class="btn cursive-primary" data-cursive-sheet="letters">{t.sheetAll}</button>
+          <button type="button" class="btn cursive-secondary" data-cursive-sheet="word">{t.sheetWord}</button>
+          <button type="button" class="btn cursive-secondary" data-cursive-sheet="chart">{t.sheetChart}</button>
+        </div>
+      </div>
+    </div>
+  </Section>
+
+  <CtaPanel id="cursive-app" compact>
+    <p class="cursive-eyebrow">{t.ctaEyebrow}</p><h2 class="display-md">{t.ctaH2}</h2>
+    <p>{t.ctaText}</p>
+    <StoreButtons location="hebrew_cursive_cta" height={48} locale={locale} />
+  </CtaPanel>
+
+  <Faq id="questions" title={t.faqTitle} items={t.faq} />
+
+  <Section id="keep-learning">
+    <div class="cursive-section-heading"><h2 class="display-md">{t.keepLearningH2}</h2></div>
+    <ul class="cursive-resources" role="list">{t.resources.map(resource => <li><h3><a href={resource.href}>{resource.title} <span aria-hidden="true">→</span></a></h3><p>{resource.description}</p></li>)}</ul>
+    <p class="cursive-source" set:html={fill(t.fontNote, { link: fontLink })}></p>
+  </Section>
+</Layout>
+<script>
+  import { initCursivePage } from '../../lib/cursive/cursive-client';
+  const root = document.querySelector<HTMLElement>('[data-cursive-strings]');
+  if (root) initCursivePage(root);
+</script>

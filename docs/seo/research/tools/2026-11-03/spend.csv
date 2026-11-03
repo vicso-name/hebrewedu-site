@@ -1,0 +1,26 @@
+timestamp,endpoint,params,cost_usd,note
+2026-11-03T14:30:30.157Z,/v1/seo/keywords/overview,overview 121 keywords us,0.0700,tools overview us
+2026-11-03T14:30:30.615Z,/v1/seo/keywords/overview,overview 24 keywords fr,0.0400,tools overview fr
+2026-11-03T14:31:11.904Z,/v1/seo/keywords/ideas,"ideas ""hebrew transliteration"" us",0.0500,tools ideas seed hebrew transliteration
+2026-11-03T14:31:12.573Z,/v1/seo/keywords/ideas,"ideas ""hebrew cursive"" us",0.0500,tools ideas seed hebrew cursive
+2026-11-03T14:31:12.862Z,/v1/seo/keywords/ideas,"ideas ""hebrew numbers"" us",0.0500,tools ideas seed hebrew numbers
+2026-11-03T14:31:13.233Z,/v1/seo/keywords/ideas,"ideas ""hebrew keyboard"" us",0.0500,tools ideas seed hebrew keyboard
+2026-11-03T14:31:41.770Z,/v1/serp/google,"serp ""hebrew transliteration"" us depth 10",0.0100,tools serp hebrew transliteration
+2026-11-03T14:31:50.161Z,/v1/serp/google,"serp ""hebrew transliteration english"" us depth 10",0.0100,tools serp hebrew transliteration english
+2026-11-03T14:31:54.715Z,/v1/serp/google,"serp ""transliteration from english to hebrew"" us depth 10",0.0100,tools serp transliteration from english to hebrew
+2026-11-03T14:32:03.063Z,/v1/serp/google,"serp ""hebrew to english transliteration"" us depth 10",0.0100,tools serp hebrew to english transliteration
+2026-11-03T14:32:11.356Z,/v1/serp/google,"serp ""hebrew cursive"" us depth 10",0.0100,tools serp hebrew cursive
+2026-11-03T14:32:15.925Z,/v1/serp/google,"serp ""hebrew cursive alphabet"" us depth 10",0.0100,tools serp hebrew cursive alphabet
+2026-11-03T14:32:23.010Z,/v1/serp/google,"serp ""hebrew cursive handwriting"" us depth 10",0.0100,tools serp hebrew cursive handwriting
+2026-11-03T14:32:28.221Z,/v1/serp/google,"serp ""mazel tov in hebrew cursive"" us depth 10",0.0100,tools serp mazel tov in hebrew cursive
+2026-11-03T14:32:32.448Z,/v1/serp/google,"serp ""hebrew numbers"" us depth 10",0.0100,tools serp hebrew numbers
+2026-11-03T14:32:37.950Z,/v1/serp/google,"serp ""hebrew numbers 1-10"" us depth 10",0.0100,tools serp hebrew numbers 1-10
+2026-11-03T14:32:43.574Z,/v1/serp/google,"serp ""hebrew letters as numbers"" us depth 10",0.0100,tools serp hebrew letters as numbers
+2026-11-03T14:32:49.089Z,/v1/serp/google,"serp ""hebrew keyboard"" us depth 10",0.0100,tools serp hebrew keyboard
+2026-11-03T14:32:55.895Z,/v1/serp/google,"serp ""hebrew keyboard online"" us depth 10",0.0100,tools serp hebrew keyboard online
+2026-11-03T14:33:00.795Z,/v1/serp/google,"serp ""hebrew vowels"" us depth 10",0.0100,tools serp hebrew vowels
+2026-11-03T14:33:07.822Z,/v1/serp/google,"serp ""hebrew birthday calculator"" us depth 10",0.0100,tools serp hebrew birthday calculator
+2026-11-03T14:33:13.193Z,/v1/serp/google,"serp ""clavier hébreu"" fr depth 10",0.0100,tools serp clavier hébreu
+2026-11-03T14:33:17.502Z,/v1/serp/google,"serp ""prénom en hébreu"" fr depth 10",0.0100,tools serp prénom en hébreu
+2026-11-03T14:33:35.789Z,/v1/serp/google,"serp ""chiffres en hébreu"" fr depth 10",0.0100,tools serp chiffres en hébreu
+2026-11-03T14:33:40.113Z,/v1/serp/google,"serp ""hébreu cursif"" fr depth 10",0.0100,tools serp hébreu cursif

@@ -6,6 +6,7 @@ import { pageUpdatedDates } from '../data/page-updates';
 import { courseSitemapEntries } from '../lib/alphabet-course.mjs';
 import { phrasesSitemapEntries, phrasesSitemapEntriesFr } from '../lib/hebrew-phrases.mjs';
 import { verbsSitemapEntries } from '../lib/hebrew-verbs.mjs';
+import { cursiveSitemapEntries } from '../lib/hebrew-cursive.mjs';
 
 const SITE = 'https://hebrewedu.com';
 
@@ -138,7 +139,7 @@ export const GET: APIRoute = async () => {
   }));
 
   // Preview flags never affect indexing; only the explicit approved release manifest does.
-  const allPages = [...staticPages, ...frBlogListing, ...blogPages, ...blogPagesFr, ...courseSitemapEntries(), ...phrasesSitemapEntries(), ...phrasesSitemapEntriesFr(), ...verbsSitemapEntries()];
+  const allPages = [...staticPages, ...frBlogListing, ...blogPages, ...blogPagesFr, ...courseSitemapEntries(), ...phrasesSitemapEntries(), ...phrasesSitemapEntriesFr(), ...verbsSitemapEntries(), ...cursiveSitemapEntries()];
   for (const page of allPages) {
     if (page.lastmod !== undefined) validateLastmod(page.lastmod);
   }

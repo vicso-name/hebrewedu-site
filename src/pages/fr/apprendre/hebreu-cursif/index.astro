@@ -1,0 +1,14 @@
+---
+import CursivePage from '../../../../components/cursive/CursivePage.astro';
+import '../../../../styles/hebrew-cursive.css';
+
+// FR counterpart of /learn/hebrew-cursive/: same template, same letters, FR
+// letter names (src/i18n/fr-letters.ts) and copy.
+const alternates = [
+  { hreflang: 'en', href: 'https://hebrewedu.com/learn/hebrew-cursive/' },
+  { hreflang: 'fr', href: 'https://hebrewedu.com/fr/apprendre/hebreu-cursif/' },
+  { hreflang: 'x-default', href: 'https://hebrewedu.com/learn/hebrew-cursive/' },
+];
+const langSwitch = { href: '/learn/hebrew-cursive/' };
+---
+<CursivePage locale="fr" alternates={alternates} langSwitch={langSwitch} />

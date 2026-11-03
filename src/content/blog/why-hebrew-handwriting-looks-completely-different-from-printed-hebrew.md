@@ -186,6 +186,8 @@ Usually the best approach is:
 - reading short casual notes,
 - and gradually building familiarity.
 
+The [Hebrew cursive converter](/learn/hebrew-cursive/) does the comparing for you: type any word to see it in cursive above print, check the [cursive letters that look alike](/learn/hebrew-cursive/#look-alike), and print a tracing sheet when you want to practise on paper.
+
 Children learn this through repetition over years.
 
 Adult learners can adapt surprisingly quickly once they stop expecting instant perfection.

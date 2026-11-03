@@ -70,6 +70,9 @@ const LAYOUT_WRAPPERS = [
   // Verb conjugation tool: src/pages/learn/hebrew-verbs/ and
   // src/pages/fr/apprendre/conjugaison-hebreu/ render through it.
   'components/verbs/VerbsPage.astro',
+  // Hebrew cursive tool: src/pages/learn/hebrew-cursive/ and
+  // src/pages/fr/apprendre/hebreu-cursif/ render through it.
+  'components/cursive/CursivePage.astro',
 ];
 
 const pagesDir = resolve(srcDir, 'pages');
