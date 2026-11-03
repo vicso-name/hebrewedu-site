@@ -1,0 +1,15 @@
+timestamp,endpoint,params,cost_usd,note
+2026-11-03T14:00:38.514Z,/v1/seo/keywords/ideas,"ideas ""piel"" us/en",0.0500,binyanim ideas seed piel
+2026-11-03T14:00:38.870Z,/v1/seo/keywords/ideas,"ideas ""hifil"" us/en",0.0400,binyanim ideas seed hifil
+2026-11-03T14:00:39.088Z,/v1/seo/keywords/ideas,"ideas ""hitpael"" us/en",0.0400,binyanim ideas seed hitpael
+2026-11-03T14:00:39.516Z,/v1/seo/keywords/ideas,"ideas ""nifal"" us/en",0.0400,binyanim ideas seed nifal
+2026-11-03T14:00:40.006Z,/v1/seo/keywords/ideas,"ideas ""paal"" us/en",0.0500,binyanim ideas seed paal
+2026-11-03T14:00:40.212Z,/v1/seo/keywords/ideas,"ideas ""hebrew verb patterns"" us/en",0.0400,binyanim ideas seed hebrew verb patterns
+2026-11-03T14:00:40.923Z,/v1/seo/keywords/ideas,"ideas ""hebrew roots"" us/en",0.0500,binyanim ideas seed hebrew roots
+2026-11-03T14:00:41.283Z,/v1/seo/keywords/ideas,"ideas ""grammaire hébraïque"" fr/fr",0.0400,binyanim ideas seed grammaire hébraïque
+2026-11-03T14:00:41.511Z,/v1/seo/keywords/ideas,"ideas ""racine hébraïque"" fr/fr",0.0400,binyanim ideas seed racine hébraïque
+2026-11-03T14:01:11.911Z,/v1/serp/google,"serp ""nifal"" us depth 10",0.0100,binyanim serp nifal
+2026-11-03T14:01:19.823Z,/v1/serp/google,"serp ""hitpael"" us depth 10",0.0100,binyanim serp hitpael
+2026-11-03T14:01:24.945Z,/v1/serp/google,"serp ""hifil hebrew"" us depth 10",0.0100,binyanim serp hifil hebrew
+2026-11-03T14:01:31.546Z,/v1/serp/google,"serp ""hebrew word roots"" us depth 10",0.0100,binyanim serp hebrew word roots
+2026-11-03T14:01:36.229Z,/v1/serp/google,"serp ""binyanim"" fr depth 10",0.0100,binyanim serp binyanim
