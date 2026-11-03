@@ -76,13 +76,25 @@
 .phrases-deck .pc { max-width: none; box-shadow: var(--shadow-sm); }
 .phrases-deck-list > li:first-child .pc { box-shadow: var(--shadow-md); }
 
-/* Hero: FR quick answers under the H1 */
-.phrases-quick { max-width: 53ch; margin-top: var(--space-md); padding: var(--space-sm) var(--space-sm-plus); background: var(--brand-light); border: 1px solid var(--brand-line); border-radius: var(--r-md); }
-.phrases-quick-title { font-family: var(--font-display); font-size: 1rem; font-weight: 700; line-height: 1.4; margin-bottom: var(--space-xs); }
-.phrases-quick-list { list-style: none; display: grid; gap: var(--space-xs); }
-.phrases-quick-list li { font-size: .9375rem; line-height: 1.5; color: var(--ink-mid); }
-.phrases-quick-he { font-family: var(--font-hebrew); font-size: 1.125rem; color: var(--ink); unicode-bidi: isolate; }
-@media (max-width: 639px) { .phrases-quick { padding: var(--space-xs-plus) var(--space-sm); } }
+/* Hero: quick answers under the H1 — a compact glossary card: a tinted title
+   band, then one row per phrase (Hebrew over phonetics | bold gloss over note).
+   Rows share the list's two columns via subgrid so every meaning starts at the
+   same x; below 480px each row stacks. */
+.phrases-quick { max-width: 36rem; margin-top: var(--space-md); background: var(--white); border: 1px solid var(--border); border-radius: var(--r-lg); box-shadow: var(--shadow-sm); overflow: hidden; }
+.phrases-quick-title { padding: var(--space-xs-plus) var(--space-sm-plus); background: var(--brand-light); border-bottom: 1px solid var(--brand-line); font-size: .8125rem; font-weight: 700; line-height: 1.4; letter-spacing: .035em; color: var(--brand-dark); }
+.phrases-quick-list { list-style: none; display: grid; grid-template-columns: max-content minmax(0, 1fr); column-gap: var(--space-md); padding-inline: var(--space-sm-plus); }
+.phrases-quick-list li { display: grid; grid-column: 1 / -1; grid-template-columns: subgrid; align-items: baseline; padding-block: var(--space-xs-plus); }
+.phrases-quick-list li + li { border-top: 1px solid var(--border); }
+.phrases-quick-term { display: flex; flex-direction: column; align-items: flex-start; }
+.phrases-quick-he { font-family: var(--font-hebrew); font-size: 1.25rem; font-weight: 500; line-height: 1.5; color: var(--ink); unicode-bidi: isolate; }
+.phrases-quick-tr { font-size: .8125rem; line-height: 1.4; }
+.phrases-quick-gloss { display: block; font-family: var(--font-display); font-size: .9375rem; font-weight: 700; line-height: 1.5; color: var(--ink); }
+.phrases-quick-note { display: block; font-size: .875rem; line-height: 1.5; color: var(--ink-mid); }
+@media (max-width: 479px) {
+  .phrases-quick-title { padding-inline: var(--space-sm); }
+  .phrases-quick-list { grid-template-columns: minmax(0, 1fr); padding-inline: var(--space-sm); }
+  .phrases-quick-term { flex-direction: row; flex-wrap: wrap; align-items: baseline; column-gap: var(--space-xs); }
+}
 
 /* Guide: anatomy of one real PhraseCard (option G-B) */
 .phrases-anatomy { display: grid; grid-template-columns: minmax(0, 432px) minmax(0, 1fr); gap: var(--space-xl); align-items: start; }

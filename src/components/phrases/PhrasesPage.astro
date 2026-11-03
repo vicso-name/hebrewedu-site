@@ -71,14 +71,14 @@ const t = fr(isFr
       lead: `Bonjour, merci, boker tov, toda raba, bevakacha : commence avec ${phraseCount} expressions pratiques en hébreu moderne, avec leur sens en français et leur prononciation.`,
       quickTitle: 'Réponses rapides',
       // Quick answers under the H1, matched to the page's GSC lookups. Hebrew and
-      // phonetics come from the phrase data (phraseVariantFr); only the meaning is here.
+      // phonetics come from the phrase data (phraseVariantFr); only the gloss and note are here.
       quickAnswers: [
-        { id: 'good-morning', meaning: 'Bonjour, le matin ; mot à mot « bon matin ».' },
-        { id: 'thank-you-very-much', meaning: 'Merci beaucoup ; toda seul veut dire « merci ».' },
-        { id: 'please', meaning: "S'il te plaît, ou « de rien » après un merci (aussi écrit bevakasha)." },
-        { id: 'hello', meaning: 'Bonjour et au revoir, à toute heure (aussi écrit shalom).' },
-        { id: 'goodbye', meaning: 'Au revoir, à bientôt.' },
-        { id: 'how-are-you-casual', meaning: 'Ça va ? La façon courante de demander « comment ça va ».' },
+        { id: 'good-morning', gloss: 'Bonjour, le matin', note: 'Mot à mot « bon matin ».' },
+        { id: 'thank-you-very-much', gloss: 'Merci beaucoup', note: 'Toda seul veut dire « merci ».' },
+        { id: 'please', gloss: "S'il te plaît", note: 'Ou « de rien » après un merci (aussi écrit bevakasha).' },
+        { id: 'hello', gloss: 'Bonjour et au revoir', note: 'À toute heure (aussi écrit shalom).' },
+        { id: 'goodbye', gloss: 'Au revoir', note: 'À bientôt.' },
+        { id: 'how-are-you-casual', gloss: 'Ça va ?', note: 'La façon courante de demander « comment ça va ».' },
       ],
       explorePhrases: 'Explorer les expressions', tryPractice: 'Essayer un exercice rapide',
       heroMeta: ['5 situations du quotidien', 'Gratuit ici', 'Aucune installation nécessaire'],
@@ -122,6 +122,16 @@ const t = fr(isFr
       eyebrowHero: 'A little Hebrew for everyday life',
       h1: 'Useful Hebrew Phrases for Beginners',
       lead: 'Say hello. Order a coffee. Ask for a little help. Start with 30 practical Modern Hebrew expressions, with English meanings and pronunciation support.',
+      quickTitle: 'Quick answers',
+      // Same block as FR, drawn from the EN phrase set (ma nishma is FR-only).
+      quickAnswers: [
+        { id: 'hello', gloss: 'Hello and goodbye', note: 'Works at any time of day.' },
+        { id: 'good-morning', gloss: 'Good morning', note: 'Boker means “morning”, tov means “good”.' },
+        { id: 'thank-you-very-much', gloss: 'Thank you very much', note: 'Toda on its own means “thank you”.' },
+        { id: 'please', gloss: 'Please', note: 'Also “you’re welcome” in reply to thanks.' },
+        { id: 'goodbye', gloss: 'Goodbye, see you', note: 'For leaving, not for a first greeting.' },
+        { id: 'excuse-me', gloss: 'Excuse me, sorry', note: 'To get someone’s attention or apologize for a small slip.' },
+      ],
       explorePhrases: 'Explore the phrases', tryPractice: 'Try a quick practice',
       heroMeta: ['5 everyday situations', 'Free to use here', 'No installation needed'],
       deckAria: 'Three greetings to start with',
@@ -171,13 +181,13 @@ const anatomyPhraseId = isFr ? 'water-please' : 'coffee-please';
             <p class="phrases-eyebrow">{t.eyebrowHero}</p>
             <h1 id="phrases-title">{t.h1}</h1>
             <p class="phrases-lead">{t.lead}</p>
-            {isFr && <div class="phrases-quick" role="region" aria-labelledby="phrases-quick-title">
+            <div class="phrases-quick" role="region" aria-labelledby="phrases-quick-title">
               <h2 id="phrases-quick-title" class="phrases-quick-title">{t.quickTitle}</h2>
               <ul class="phrases-quick-list">{t.quickAnswers.map(item => {
                 const variant = getVariant(item.id, 'same');
-                return <li><bdi class="phrases-quick-he" lang="he" dir="rtl"><HebrewText text={variant.hebrew} /></bdi> <span aria-hidden="true">·</span> <span lang="he-Latn"><Transliteration text={variant.transliteration} /></span> <span aria-hidden="true">·</span> {item.meaning}</li>;
+                return <li><span class="phrases-quick-term"><bdi class="phrases-quick-he" lang="he" dir="rtl"><HebrewText text={variant.hebrew} /></bdi> <span class="phrases-quick-tr" lang="he-Latn"><Transliteration text={variant.transliteration} /></span></span> <span class="phrases-quick-def"><strong class="phrases-quick-gloss">{item.gloss}</strong> <span class="phrases-quick-note">{item.note}</span></span></li>;
               })}</ul>
-            </div>}
+            </div>
             <div class="phrases-hero-actions"><a href="#phrases" class="btn phrases-primary">{t.explorePhrases} <span aria-hidden="true">↓</span></a><a href="#practice" class="btn phrases-secondary">{t.tryPractice}</a></div>
             <p class="phrases-hero-meta">{t.heroMeta[0]} <span aria-hidden="true">·</span> {t.heroMeta[1]} <span aria-hidden="true">·</span> {t.heroMeta[2]}</p>
           </header>
