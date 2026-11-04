@@ -117,6 +117,11 @@ wrong (`Practice.astro`), so it must not open with a verdict ("Correct!",
 Drop the verdict and keep the explanation itself (owner decision, Tet
 review 2026-10-26).
 
+"Yes," is a verdict too and is dropped (Lamed). "True." or "False." at the
+start of a True/False tip stays: it states the answer key, not a judgement
+of the learner, so it never contradicts a wrong answer (owner decision, Ayin
+review 2026-11-04).
+
 ## App spelling vs SEO spelling of a letter name
 
 When the raw source spells a letter's name differently from the course's

@@ -83,7 +83,7 @@ const initialMeter = fill(p.meterTemplate, { answered: 0, total: availableCount 
       <details class="fallback-answer" data-fallback-answer><summary>{p.sourceAnswerSummary}</summary><ul class="match-pairs-answer-key">{exercise.pairs.map(pair => <li><HebrewText text={fr(pair.left)} /> {p.pairMatches} <HebrewText text={fr(pair.right)} /></li>)}</ul><p><HebrewText text={fr(exerciseExplanation(exercise, blocks))} /></p></details>
       </> : <>
       <fieldset><legend><HebrewText text={fr(exercise.prompt)} /></legend>
-        <div class:list={['answer-options', { 'answer-grid': exercise.type === 'MULTIPLE_CHOICE_GRID', 'answer-boolean': exercise.type === 'TRUE_FALSE' }]}>
+        <div class:list={['answer-options', { 'answer-grid': exercise.type === 'MULTIPLE_CHOICE_GRID' && exercise.options.length === 4, 'answer-boolean': exercise.type === 'TRUE_FALSE' }]}>
           {exercise.options.map(option => <label class="answer-option" for={option.id}><input type="radio" name={exercise.id} id={option.id} value={option.id} required aria-describedby={`${exercise.id}-feedback`} /><span class:list={{ 'glyph-option': /^[\u0590-\u05FF]+$/u.test(option.label) }}><HebrewText text={fr(optionLabel(exercise.type, option.label))} /></span></label>)}
         </div>
       </fieldset>

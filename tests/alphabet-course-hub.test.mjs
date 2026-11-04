@@ -21,9 +21,9 @@ test('explicit curriculum releases only owner-approved Aleph among 22 verified i
   const identities = JSON.parse(await readFile(new URL('./fixtures/alphabet-identities.json', import.meta.url)));
   assert.deepEqual(courseManifest.lessons.map(l => [l.sourceId,l.order,l.letter,l.slug]), identities);
   assert.equal(courseManifest.lessons.filter(l => l.sourceImported).length, 22);
-  assert.equal(courseManifest.lessons.filter(l => l.published).length, 15);
-  assert.equal(curriculum().filter(l => l.available).length, 15);
-  assert.ok(courseManifest.lessons.slice(15).every(l => !l.published && !l.editorialApproved && l.publishedAt === null));
+  assert.equal(courseManifest.lessons.filter(l => l.published).length, 16);
+  assert.equal(curriculum().filter(l => l.available).length, 16);
+  assert.ok(courseManifest.lessons.slice(16).every(l => !l.published && !l.editorialApproved && l.publishedAt === null));
   assert.equal(courseManifest.hub.publishedAt, '2026-10-11');
   assert.equal(courseManifest.lessons[0].publishedAt, '2026-10-11');
   assert.equal(courseManifest.lessons[1].publishedAt, '2026-10-14');
@@ -40,8 +40,9 @@ test('explicit curriculum releases only owner-approved Aleph among 22 verified i
   assert.equal(courseManifest.lessons[12].publishedAt, '2026-10-28');
   assert.equal(courseManifest.lessons[13].publishedAt, '2026-11-02');
   assert.equal(courseManifest.lessons[14].publishedAt, '2026-11-03');
+  assert.equal(courseManifest.lessons[15].publishedAt, '2026-11-04');
   const preview = curriculum(true);
-  assert.equal(preview.filter(l => l.available).length, 15);
+  assert.equal(preview.filter(l => l.available).length, 16);
   assert.equal(preview[0].href, '/learn/hebrew-alphabet/aleph/');
   assert.equal(preview[1].href, '/learn/hebrew-alphabet/bet/');
   assert.equal(preview[2].href, '/learn/hebrew-alphabet/gimel/');
@@ -57,7 +58,8 @@ test('explicit curriculum releases only owner-approved Aleph among 22 verified i
   assert.equal(preview[12].href, '/learn/hebrew-alphabet/mem/');
   assert.equal(preview[13].href, '/learn/hebrew-alphabet/nun/');
   assert.equal(preview[14].href, '/learn/hebrew-alphabet/samekh/');
-  assert.ok(preview.slice(15).every(l => l.href === null));
+  assert.equal(preview[15].href, '/learn/hebrew-alphabet/ayin/');
+  assert.ok(preview.slice(16).every(l => l.href === null));
   assert.equal(hubEnabled(), true);
   assert.equal(hubEnabled(false, draft()), false);
   assert.equal(lessonEnabled('bet', true), true);
@@ -69,9 +71,9 @@ test('no preview flag can create sitemap entries or public Course claims', () =>
   assert.equal(localCoursePreview(false, { HEBREWEDU_LOCAL_COURSE_PREVIEW: '1' }), true);
   assert.equal(localCoursePreview(false, { HEBREWEDU_LOCAL_LESSON_POC: '1' }), true);
   assert.deepEqual(courseSitemapEntries(draft()), []);
-  // aleph..samekh are now published in FR too (the FR backfill plus zayin's,
-  // chet's, tet's, yod's, kaf's, lamed's, mem's, nun's and samekh's own same-cadence FR publishes), alongside their EN routes.
-  assert.deepEqual(courseSitemapEntries().map(x => x.url), ['/learn/hebrew-alphabet/', '/learn/hebrew-alphabet/aleph/', '/learn/hebrew-alphabet/bet/', '/learn/hebrew-alphabet/gimel/', '/learn/hebrew-alphabet/dalet/', '/learn/hebrew-alphabet/he/', '/learn/hebrew-alphabet/vav/', '/learn/hebrew-alphabet/zayin/', '/learn/hebrew-alphabet/chet/', '/learn/hebrew-alphabet/tet/', '/learn/hebrew-alphabet/yod/', '/learn/hebrew-alphabet/kaf/', '/learn/hebrew-alphabet/lamed/', '/learn/hebrew-alphabet/mem/', '/learn/hebrew-alphabet/nun/', '/learn/hebrew-alphabet/samekh/', '/fr/apprendre/alphabet-hebreu/aleph/', '/fr/apprendre/alphabet-hebreu/bet/', '/fr/apprendre/alphabet-hebreu/gimel/', '/fr/apprendre/alphabet-hebreu/dalet/', '/fr/apprendre/alphabet-hebreu/he/', '/fr/apprendre/alphabet-hebreu/vav/', '/fr/apprendre/alphabet-hebreu/zayin/', '/fr/apprendre/alphabet-hebreu/chet/', '/fr/apprendre/alphabet-hebreu/tet/', '/fr/apprendre/alphabet-hebreu/yod/', '/fr/apprendre/alphabet-hebreu/kaf/', '/fr/apprendre/alphabet-hebreu/lamed/', '/fr/apprendre/alphabet-hebreu/mem/', '/fr/apprendre/alphabet-hebreu/nun/', '/fr/apprendre/alphabet-hebreu/samekh/']);
+  // aleph..ayin are now published in FR too (the FR backfill plus zayin's,
+  // chet's, tet's, yod's, kaf's, lamed's, mem's, nun's, samekh's and ayin's own same-cadence FR publishes), alongside their EN routes.
+  assert.deepEqual(courseSitemapEntries().map(x => x.url), ['/learn/hebrew-alphabet/', '/learn/hebrew-alphabet/aleph/', '/learn/hebrew-alphabet/bet/', '/learn/hebrew-alphabet/gimel/', '/learn/hebrew-alphabet/dalet/', '/learn/hebrew-alphabet/he/', '/learn/hebrew-alphabet/vav/', '/learn/hebrew-alphabet/zayin/', '/learn/hebrew-alphabet/chet/', '/learn/hebrew-alphabet/tet/', '/learn/hebrew-alphabet/yod/', '/learn/hebrew-alphabet/kaf/', '/learn/hebrew-alphabet/lamed/', '/learn/hebrew-alphabet/mem/', '/learn/hebrew-alphabet/nun/', '/learn/hebrew-alphabet/samekh/', '/learn/hebrew-alphabet/ayin/', '/fr/apprendre/alphabet-hebreu/aleph/', '/fr/apprendre/alphabet-hebreu/bet/', '/fr/apprendre/alphabet-hebreu/gimel/', '/fr/apprendre/alphabet-hebreu/dalet/', '/fr/apprendre/alphabet-hebreu/he/', '/fr/apprendre/alphabet-hebreu/vav/', '/fr/apprendre/alphabet-hebreu/zayin/', '/fr/apprendre/alphabet-hebreu/chet/', '/fr/apprendre/alphabet-hebreu/tet/', '/fr/apprendre/alphabet-hebreu/yod/', '/fr/apprendre/alphabet-hebreu/kaf/', '/fr/apprendre/alphabet-hebreu/lamed/', '/fr/apprendre/alphabet-hebreu/mem/', '/fr/apprendre/alphabet-hebreu/nun/', '/fr/apprendre/alphabet-hebreu/samekh/', '/fr/apprendre/alphabet-hebreu/ayin/']);
   const schema = courseSchema(draft());
   assert.equal(schema['@type'], 'WebPage');
   assert.equal(schema.url, 'https://hebrewedu.com/learn/hebrew-alphabet/');
@@ -87,13 +89,13 @@ test('publication fails closed without independent editorial approval and implem
   assert.equal(validatePublicationManifest(value), value);
   assert.equal(lessonEnabled('aleph', false, value), true);
   assert.deepEqual(courseSitemapEntries(value).map(x => x.url), ['/learn/hebrew-alphabet/', '/learn/hebrew-alphabet/aleph/']);
-  // lessons[1]..[14] (bet, gimel, dalet, he, vav, zayin, chet, tet, yod, kaf,
-  // lamed, mem, nun, samekh) are themselves implemented and preview-available by this point (see
+  // lessons[1]..[15] (bet, gimel, dalet, he, vav, zayin, chet, tet, yod, kaf,
+  // lamed, mem, nun, samekh, ayin) are themselves implemented and preview-available by this point (see
   // alphabet-course.json) — exercise the "no implemented route" case on
-  // lessons[15] (ayin), which still has no src/content/lessons/ayin.json.
-  value.lessons[15].editorialApproved = true; value.lessons[15].published = true; value.lessons[15].publishedAt = '2026-10-11';
+  // lessons[16] (pe), which still has no src/content/lessons/pe.json.
+  value.lessons[16].editorialApproved = true; value.lessons[16].published = true; value.lessons[16].publishedAt = '2026-10-11';
   assert.throws(() => validatePublicationManifest(value), /implementation/);
-  value.lessons[15].webImplemented = true;
+  value.lessons[16].webImplemented = true;
   assert.throws(() => validatePublicationManifest(value), /No implemented route/);
 });
 test('later approved launch structured data describes only released modules', () => {

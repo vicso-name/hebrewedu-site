@@ -150,8 +150,8 @@ export function auditLesson(raw, listing, identity) {
       const matches = typeof data.correctAnswer === 'string' ? normalized.reduce((out, choice, option) => choice === normalizeHebrew(data.correctAnswer) ? [...out, option] : out, []) : [];
       if (matches.length !== 1) error('ANSWER_NOT_UNIQUE_CHOICE', `${path}.additionalData.correctAnswer`, 'Answer must map to exactly one normalized choice', { answer: data.correctAnswer, choices });
       else answerPositions.push({ index: i, position: matches[0] + 1 });
-      const expected = exercise.type === 'MULTIPLE_CHOICE_COLUMN' ? 3 : 4;
-      if (choices.length !== expected) review('NON_POC_CHOICE_COUNT', path, 'Valid source choice count needs generalization beyond the fixed Aleph contract', { observed: choices.length, alephExpected: expected });
+      const expected = exercise.type === 'MULTIPLE_CHOICE_COLUMN' ? [3] : [3, 4];
+      if (!expected.includes(choices.length)) review('NON_POC_CHOICE_COUNT', path, 'Valid source choice count needs generalization beyond the supported renderer contract', { observed: choices.length, supported: expected });
       // Check only explicit glyph-identification prompts; pronunciation is editorial, not auto-corrected.
       const marks = [['hataf patah', '\u05B2'], ['kamatz', '\u05B8'], ['patah', '\u05B7'], ['tsere', '\u05B5'], ['segol', '\u05B6'], ['kubutz', '\u05BB']];
       if (/which.*(?:marked|mark|with|contains)/i.test(exercise.content) && normalized.every(choice => /^[\u0590-\u05FF]+$/u.test(choice)) && matches.length === 1) {

@@ -1,0 +1,538 @@
+{
+  "id": "ayin",
+  "sourceId": 16,
+  "order": 16,
+  "glyph": "ע",
+  "locale": "en",
+  "title": "Ayin Hebrew Letter (ע): Sound, Pronunciation & Words",
+  "description": "Learn the Hebrew letter Ayin (ע): why it usually adds no consonant sound in modern Israeli Hebrew, like Aleph, plus words like עַיִן (eye) and practice.",
+  "status": "local-review-only",
+  "normalizationVersion": 1,
+  "provenance": {
+    "source": "https://api.hebrewedu.com/api/lessons/16/?lang=en",
+    "responseDate": "2026-10-19T14:27:09.153Z",
+    "sha256": "1aabe9e486abc62d4327038eb0c117343ae97467578d349ec1068893b2783401"
+  },
+  "editorialIssues": [],
+  "blocks": [
+    {
+      "id": "ayin-block-1",
+      "sourceIndex": 0,
+      "text": "Ayin Hebrew Letter (ע): Sound, Words & Practice",
+      "reviewFlags": [],
+      "type": "MAIN_TITLE"
+    },
+    {
+      "id": "ayin-block-2",
+      "sourceIndex": 1,
+      "text": "Ayin (ע) is the sixteenth letter of the Hebrew alphabet. In the common modern Israeli pronunciation taught here, it usually has no separate consonant sound. Pronounce the vowel written with it. Some speakers may use a brief catch in the throat, like the break in 'uh-oh'. Some speakers, especially in Mizrahi varieties of Hebrew, pronounce Ayin as a sound made deep in the throat. These are different pronunciations of the same letter.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "ayin-block-3",
+      "sourceIndex": 2,
+      "text": "The Hebrew word 'עַיִן' [a-yin] means 'eye'. It has two syllables, with stress on the first, a. The Latin transcriptions in this lesson are reading aids, not IPA. Hyphens separate syllables, and y sounds like the y in 'yes'. For the vowels, use a as in 'father', e as in 'bed', i as in 'see', o as in 'more' without an r, and u as in 'food'. These are approximate guides: keep each vowel clear and avoid an English-style glide. Vowel length does not distinguish the vowels taught here.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "ayin-block-4",
+      "sourceIndex": 3,
+      "text": "Words to Practice:",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "ayin-block-5",
+      "sourceIndex": 4,
+      "text": "angry",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "כּוֹעֵס",
+      "transcription": "ko-es"
+    },
+    {
+      "id": "ayin-block-6",
+      "sourceIndex": 5,
+      "text": "The Hebrew word 'כּוֹעֵס' [ko-es] means 'angry'. This is the masculine singular form, as in 'he is angry'. It consists of four letters: Kaf (כּ), Vav (ו), Ayin (ע), and Samekh (ס). Kaf with a dagesh gives [k]. Holam Male (וֹ) represents [o], with no separate [v]. The vowel under Ayin is Tzere (ֵ), two dots side by side, giving [e] here; it is not Segol (ֶ), which has three dots. In the pronunciation taught here, Ayin adds no separate consonant sound. Samekh gives the final [s]. Read [ko-es] in two syllables, with stress on es; keep the o and e separate.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "ayin-block-7",
+      "sourceIndex": 6,
+      "text": "eye",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "עַיִן",
+      "transcription": "ayin"
+    },
+    {
+      "id": "ayin-block-8",
+      "sourceIndex": 7,
+      "text": "The Hebrew word 'עַיִן' [a-yin] means 'eye'. It consists of three letters: Ayin (ע), Yud (י), and Nun Sofit (ן). In the pronunciation taught here, Ayin adds no separate consonant sound, and Patah beneath it gives [a]. Yud is the consonant [y], as in 'yes'; Hiriq beneath it gives [i]. Nun Sofit adds [n], which ends the second syllable. Read [a-yin] in two syllables, with stress on the first, a. Do not add a vowel after the final n.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "ayin-block-9",
+      "sourceIndex": 8,
+      "text": "cake",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "עוּגָה",
+      "transcription": "uga"
+    },
+    {
+      "id": "ayin-block-10",
+      "sourceIndex": 9,
+      "text": "The Hebrew word 'עוּגָה' [u-ga] means 'cake'. It consists of four letters: Ayin (ע), Vav (ו), Gimel (ג), and Hey (ה). In the pronunciation taught here, Ayin adds no separate consonant sound. Shuruk (וּ), Vav with a dot inside, represents [u], with no separate [v]. Gimel with Kamatz Gadol gives [ga]. Hey (ה) at the end of the word has no separate [h] sound here. Read [u-ga] in two syllables, with stress on ga.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "ayin-block-11",
+      "sourceIndex": 10,
+      "text": "Reading Practice",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "ayin-block-12",
+      "sourceIndex": 11,
+      "text": "Read each word aloud. In the exercises, you will also review נָא [na], 'please', often used in formal requests and on signs, and נַחַל [na-khal], 'stream' or 'brook', with stress on na. Here kh represents one consonant sound, like the 'ch' in Scottish 'loch' or German 'Bach', not the English 'ch' in 'chair'.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "ayin-block-13",
+      "sourceIndex": 12,
+      "text": "garden",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "גַּן",
+      "transcription": "gan"
+    },
+    {
+      "id": "ayin-block-14",
+      "sourceIndex": 13,
+      "text": "he/it was lost",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "אָבַד",
+      "transcription": "avad"
+    },
+    {
+      "id": "ayin-block-15",
+      "sourceIndex": 14,
+      "text": "rotation",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "סִיבוּב",
+      "transcription": "sivuv"
+    },
+    {
+      "id": "ayin-block-16",
+      "sourceIndex": 15,
+      "text": "hand; arm",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "יָד",
+      "transcription": "yad"
+    },
+    {
+      "id": "ayin-block-17",
+      "sourceIndex": 16,
+      "text": "good",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "טוֹב",
+      "transcription": "tov"
+    },
+    {
+      "id": "ayin-block-18",
+      "sourceIndex": 17,
+      "text": "Conclusions",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "ayin-block-19",
+      "sourceIndex": 18,
+      "text": "Step by step, you are getting closer to mastering the Hebrew alphabet. The sixteenth letter is now behind you! Stay persistent and dedicate enough time to the theoretical material. If needed, review what you've learned. Strengthen your understanding through practice exercises.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ayin-exercise-1",
+      "sourceId": "1742225632172",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "In the common modern pronunciation taught here, how is Ayin (ע) usually pronounced?",
+      "explanation": "Ayin usually adds no separate consonant sound in this pronunciation. Pronounce the vowel written with it; other speakers may pronounce Ayin differently.",
+      "options": [
+        {
+          "id": "ayin-exercise-1-option-1",
+          "label": "It has a guttural sound"
+        },
+        {
+          "id": "ayin-exercise-1-option-2",
+          "label": "It is silent"
+        },
+        {
+          "id": "ayin-exercise-1-option-3",
+          "label": "It is pronounced like [a]"
+        }
+      ],
+      "correctOptionId": "ayin-exercise-1-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "ayin-exercise-2",
+      "sourceId": "1742225632173",
+      "type": "MATCH_PAIRS",
+      "prompt": "Match the Hebrew words with their meanings.",
+      "explanation": "גַּן means 'garden'; נָא means 'please'; נַחַל means 'stream' or 'brook'.",
+      "pairs": [
+        {
+          "id": "ayin-exercise-2-pair-1",
+          "left": "נָא",
+          "right": "please"
+        },
+        {
+          "id": "ayin-exercise-2-pair-2",
+          "left": "גַּן",
+          "right": "garden"
+        },
+        {
+          "id": "ayin-exercise-2-pair-3",
+          "left": "נַחַל",
+          "right": "stream"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "ayin-exercise-3",
+      "sourceId": "1742225632174",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Select the letter Ayin.",
+      "explanation": "Ayin (ע) is the 16th letter of the Hebrew alphabet.",
+      "options": [
+        {
+          "id": "ayin-exercise-3-option-1",
+          "label": "ו"
+        },
+        {
+          "id": "ayin-exercise-3-option-2",
+          "label": "ך"
+        },
+        {
+          "id": "ayin-exercise-3-option-3",
+          "label": "ע"
+        }
+      ],
+      "correctOptionId": "ayin-exercise-3-option-3",
+      "reviewFlags": []
+    },
+    {
+      "id": "ayin-exercise-4",
+      "sourceId": "1742225632175",
+      "type": "MATCH_PAIRS",
+      "prompt": "Match each pointed Ayin with its vowel sound.",
+      "explanation": "In the pronunciation taught here, Ayin adds no separate consonant: Hiriq gives [i], Segol gives [e], and Patah gives [a].",
+      "pairs": [
+        {
+          "id": "ayin-exercise-4-pair-1",
+          "left": "עִ",
+          "right": "[ i ]"
+        },
+        {
+          "id": "ayin-exercise-4-pair-2",
+          "left": "עֶ",
+          "right": "[ e ]"
+        },
+        {
+          "id": "ayin-exercise-4-pair-3",
+          "left": "עַ",
+          "right": "[ a ]"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "ayin-exercise-5",
+      "sourceId": "1742225632176",
+      "type": "TRUE_FALSE",
+      "prompt": "The word ( עַיִן ) means 'eye' in English.",
+      "explanation": "עַיִן is the Hebrew word for 'eye'.",
+      "options": [
+        {
+          "id": "ayin-exercise-5-option-1",
+          "label": "True"
+        },
+        {
+          "id": "ayin-exercise-5-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "ayin-exercise-5-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "ayin-exercise-6",
+      "sourceId": "1742225632177",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "What is the translation of the word ( עוּגָה )?",
+      "explanation": "עוּגָה [u-ga] means 'cake'. Stress the second syllable, ga.",
+      "options": [
+        {
+          "id": "ayin-exercise-6-option-1",
+          "label": "cake"
+        },
+        {
+          "id": "ayin-exercise-6-option-2",
+          "label": "bread"
+        },
+        {
+          "id": "ayin-exercise-6-option-3",
+          "label": "pie"
+        }
+      ],
+      "correctOptionId": "ayin-exercise-6-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "ayin-exercise-7",
+      "sourceId": "1742225632178",
+      "type": "MATCH_PAIRS",
+      "prompt": "Match the Hebrew words with their meanings.",
+      "explanation": "עַיִן means 'eye'; עוּגָה means 'cake'; כּוֹעֵס means 'angry'.",
+      "pairs": [
+        {
+          "id": "ayin-exercise-7-pair-1",
+          "left": "עַיִן",
+          "right": "eye"
+        },
+        {
+          "id": "ayin-exercise-7-pair-2",
+          "left": "עוּגָה",
+          "right": "cake"
+        },
+        {
+          "id": "ayin-exercise-7-pair-3",
+          "left": "כּוֹעֵס",
+          "right": "angry"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "ayin-exercise-8",
+      "sourceId": "1742225632179",
+      "type": "TRUE_FALSE",
+      "prompt": "In the common modern pronunciation taught here, Ayin (ע) always adds a consonant sound of its own.",
+      "explanation": "False. In this pronunciation, Ayin adds no separate consonant sound. Pronounce the vowel written with it. Some other speakers use a sound made deep in the throat.",
+      "options": [
+        {
+          "id": "ayin-exercise-8-option-1",
+          "label": "True"
+        },
+        {
+          "id": "ayin-exercise-8-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "ayin-exercise-8-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "ayin-exercise-9",
+      "sourceId": "1742225632180",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "How do you pronounce the word ( עַיִן )?",
+      "explanation": "עַיִן is [a-yin], two syllables with stress on a, and means 'eye'. The final n ends the second syllable.",
+      "options": [
+        {
+          "id": "ayin-exercise-9-option-1",
+          "label": "[ a-yin ]"
+        },
+        {
+          "id": "ayin-exercise-9-option-2",
+          "label": "[ o-yin ]"
+        },
+        {
+          "id": "ayin-exercise-9-option-3",
+          "label": "[ a-yim ]"
+        }
+      ],
+      "correctOptionId": "ayin-exercise-9-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "ayin-exercise-10",
+      "sourceId": "1742225632181",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "What vowel sound does Patah under Ayin (עַ) indicate?",
+      "explanation": "Patah represents [a], as in father. Modern Hebrew does not require a short-versus-long vowel distinction here.",
+      "options": [
+        {
+          "id": "ayin-exercise-10-option-1",
+          "label": "[ a ]"
+        },
+        {
+          "id": "ayin-exercise-10-option-2",
+          "label": "[ e ]"
+        },
+        {
+          "id": "ayin-exercise-10-option-3",
+          "label": "[ i ]"
+        },
+        {
+          "id": "ayin-exercise-10-option-4",
+          "label": "[ u ]"
+        }
+      ],
+      "correctOptionId": "ayin-exercise-10-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "ayin-exercise-11",
+      "sourceId": "1742225632182",
+      "type": "MATCH_PAIRS",
+      "prompt": "Match the Hebrew vowels with their sounds.",
+      "explanation": "Hiriq represents [i], Patah [a], and Segol [e]. These vowel signs do not change the identity of the letter.",
+      "pairs": [
+        {
+          "id": "ayin-exercise-11-pair-1",
+          "left": "Hiriq",
+          "right": "[ i ]"
+        },
+        {
+          "id": "ayin-exercise-11-pair-2",
+          "left": "Patah",
+          "right": "[ a ]"
+        },
+        {
+          "id": "ayin-exercise-11-pair-3",
+          "left": "Segol",
+          "right": "[ e ]"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "ayin-exercise-12",
+      "sourceId": "1742225632183",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "How do you pronounce the word ( כּוֹעֵס )?",
+      "explanation": "כּוֹעֵס is [ko-es], two syllables with stress on es, and means 'angry'. Tzere under Ayin gives [e].",
+      "options": [
+        {
+          "id": "ayin-exercise-12-option-1",
+          "label": "[ ko-es ]"
+        },
+        {
+          "id": "ayin-exercise-12-option-2",
+          "label": "[ bo-es ]"
+        },
+        {
+          "id": "ayin-exercise-12-option-3",
+          "label": "[ lo-es ]"
+        }
+      ],
+      "correctOptionId": "ayin-exercise-12-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "ayin-exercise-13",
+      "sourceId": "1742225632184",
+      "type": "TRUE_FALSE",
+      "prompt": "The letter Vav (וּ) in ( עוּגָה ) has a Shuruk vowel and produces the [ u ] sound.",
+      "explanation": "Shuruk (וּ) represents the [ u ] sound.",
+      "options": [
+        {
+          "id": "ayin-exercise-13-option-1",
+          "label": "True"
+        },
+        {
+          "id": "ayin-exercise-13-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "ayin-exercise-13-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "ayin-exercise-14",
+      "sourceId": "1742225632185",
+      "type": "TRUE_FALSE",
+      "prompt": "Some speakers of modern Hebrew pronounce Ayin (ע) as a sound made deep in the throat.",
+      "explanation": "True. Some speakers, especially in Mizrahi varieties of Hebrew, retain this pronunciation. In the common modern pronunciation taught here, Ayin usually has no separate consonant sound.",
+      "options": [
+        {
+          "id": "ayin-exercise-14-option-1",
+          "label": "True"
+        },
+        {
+          "id": "ayin-exercise-14-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "ayin-exercise-14-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "ayin-exercise-15",
+      "sourceId": "1742225632186",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "What vowel sound does Segol under Ayin (עֶ) indicate in the pronunciation taught here?",
+      "explanation": "Segol is the three-dot sign beneath Ayin and represents [e], as in bed. It is different in shape from the two dots of Tzere in כּוֹעֵס.",
+      "options": [
+        {
+          "id": "ayin-exercise-15-option-1",
+          "label": "[ a ]"
+        },
+        {
+          "id": "ayin-exercise-15-option-2",
+          "label": "[ e ]"
+        },
+        {
+          "id": "ayin-exercise-15-option-3",
+          "label": "[ u ]"
+        },
+        {
+          "id": "ayin-exercise-15-option-4",
+          "label": "[ y ]"
+        }
+      ],
+      "correctOptionId": "ayin-exercise-15-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "ayin-exercise-16",
+      "sourceId": "1742225632187",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "What vowel sound does Hiriq under Ayin (עִ) indicate in the pronunciation taught here?",
+      "explanation": "Hiriq (עִ) produces the [ i ] sound.",
+      "options": [
+        {
+          "id": "ayin-exercise-16-option-1",
+          "label": "[ e ]"
+        },
+        {
+          "id": "ayin-exercise-16-option-2",
+          "label": "[ i ]"
+        },
+        {
+          "id": "ayin-exercise-16-option-3",
+          "label": "[ o ]"
+        }
+      ],
+      "correctOptionId": "ayin-exercise-16-option-2",
+      "reviewFlags": []
+    }
+  ]
+}
