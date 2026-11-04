@@ -48,6 +48,7 @@
 .pc:hover { border-color: var(--border-dark); box-shadow: var(--shadow-card-hover); }
 .pc :focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
 .pc-panel { position: relative; display: grid; grid-template-columns: 1fr; align-items: center; gap: var(--space-xs-plus); min-height: 96px; padding: var(--space-sm); background: var(--surface-soft); border-radius: var(--r-md); overflow: hidden; }
+.pc-panel--say { grid-template-columns: auto minmax(0, 1fr); }
 .pc-heb { min-width: 0; text-align: right; }
 .pc-he { margin: 0; font-family: var(--font-hebrew); font-weight: 500; font-size: 32px; line-height: 48px; color: var(--ink); text-wrap: balance; overflow-wrap: anywhere; }
 .pc--long .pc-he { font-size: 26px; line-height: 40px; }
@@ -83,9 +84,10 @@
 .phrases-quick { max-width: 36rem; margin-top: var(--space-md); background: var(--white); border: 1px solid var(--border); border-radius: var(--r-lg); box-shadow: var(--shadow-sm); overflow: hidden; }
 .phrases-quick-title { padding: var(--space-xs-plus) var(--space-sm-plus); background: var(--brand-light); border-bottom: 1px solid var(--brand-line); font-size: .8125rem; font-weight: 700; line-height: 1.4; letter-spacing: .035em; color: var(--brand-dark); }
 .phrases-quick-list { list-style: none; display: grid; grid-template-columns: max-content minmax(0, 1fr); column-gap: var(--space-md); padding-inline: var(--space-sm-plus); }
-.phrases-quick-list li { display: grid; grid-column: 1 / -1; grid-template-columns: subgrid; align-items: baseline; padding-block: var(--space-xs-plus); }
+.phrases-quick-list li { display: grid; grid-column: 1 / -1; grid-template-columns: subgrid; align-items: center; padding-block: var(--space-xs-plus); }
 .phrases-quick-list li + li { border-top: 1px solid var(--border); }
-.phrases-quick-term { display: flex; flex-direction: column; align-items: flex-start; }
+.phrases-quick-term { display: flex; align-items: center; gap: var(--space-xs-plus); }
+.phrases-quick-words { display: flex; flex-direction: column; align-items: flex-start; }
 .phrases-quick-he { font-family: var(--font-hebrew); font-size: 1.25rem; font-weight: 500; line-height: 1.5; color: var(--ink); unicode-bidi: isolate; }
 .phrases-quick-tr { font-size: .8125rem; line-height: 1.4; }
 .phrases-quick-gloss { display: block; font-family: var(--font-display); font-size: .9375rem; font-weight: 700; line-height: 1.5; color: var(--ink); }
@@ -93,7 +95,7 @@
 @media (max-width: 479px) {
   .phrases-quick-title { padding-inline: var(--space-sm); }
   .phrases-quick-list { grid-template-columns: minmax(0, 1fr); padding-inline: var(--space-sm); }
-  .phrases-quick-term { flex-direction: row; flex-wrap: wrap; align-items: baseline; column-gap: var(--space-xs); }
+  .phrases-quick-words { flex-direction: row; flex-wrap: wrap; align-items: baseline; column-gap: var(--space-xs); }
 }
 
 /* Guide: anatomy of one real PhraseCard (option G-B) */
@@ -113,7 +115,7 @@
 .phrases-anatomy:has(li:nth-child(4):hover) .pc-note,
 .phrases-anatomy:has(li:nth-child(5):hover) .pc-vars { outline: 2px dashed var(--brand-dark); outline-offset: 4px; border-radius: 4px; }
 
-.phrase-hebrew-line { margin-top: calc(var(--space-xs) * .3); }
+.phrase-hebrew-line { display: flex; align-items: center; gap: var(--space-xs-plus); margin-top: calc(var(--space-xs) * .3); }
 .phrase-transliteration { color: var(--ink-mid); font-size: 1rem; line-height: 1.6; }
 .phrase-form-label { color: var(--brand-dark); font-size: .8125rem; font-weight: 600; }
 .phrase-usage { margin-top: var(--space-sm); color: var(--ink-mid); line-height: 1.65; }

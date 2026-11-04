@@ -307,6 +307,7 @@ export const en: Dictionary = {
   phrases: {
     saidBy: 'Said by',
     saidTo: 'Said to',
+    listen: 'Listen',
     variantToggle: {
       speaker: { male: 'Man', female: 'Woman' },
       addressee: { male: 'Man', female: 'Woman' },

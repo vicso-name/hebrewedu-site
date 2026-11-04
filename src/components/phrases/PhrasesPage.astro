@@ -15,6 +15,8 @@ import SituationTiles from './SituationTiles.astro';
 import PhrasePractice from './PhrasePractice.astro';
 import HebrewText from '../lessons/HebrewText.astro';
 import Transliteration from './Transliteration.astro';
+import SayButton from './SayButton.astro';
+import { phraseAudio, dialogueAudio } from '../../lib/phrases/audio';
 import {
   phraseGroups, phrases, phraseDialogues, phraseQuestions, frPhraseQuestions,
   phraseExercises, frPhraseExercises, frExtraPhrases, phraseVariant, phraseVariantFr, phraseReview, phraseReviewFr,
@@ -185,7 +187,7 @@ const anatomyPhraseId = isFr ? 'water-please' : 'coffee-please';
               <h2 id="phrases-quick-title" class="phrases-quick-title">{t.quickTitle}</h2>
               <ul class="phrases-quick-list">{t.quickAnswers.map(item => {
                 const variant = getVariant(item.id, 'same');
-                return <li><span class="phrases-quick-term"><bdi class="phrases-quick-he" lang="he" dir="rtl"><HebrewText text={variant.hebrew} /></bdi> <span class="phrases-quick-tr" lang="he-Latn"><Transliteration text={variant.transliteration} /></span></span> <span class="phrases-quick-def"><strong class="phrases-quick-gloss">{item.gloss}</strong> <span class="phrases-quick-note">{item.note}</span></span></li>;
+                return <li><span class="phrases-quick-term"><SayButton src={phraseAudio(item.id, variant)} phraseId={item.id} size="sm" locale={locale} /><span class="phrases-quick-words"><bdi class="phrases-quick-he" lang="he" dir="rtl"><HebrewText text={variant.hebrew} /></bdi> <span class="phrases-quick-tr" lang="he-Latn"><Transliteration text={variant.transliteration} /></span></span></span> <span class="phrases-quick-def"><strong class="phrases-quick-gloss">{item.gloss}</strong> <span class="phrases-quick-note">{item.note}</span></span></li>;
               })}</ul>
             </div>
             <div class="phrases-hero-actions"><a href="#phrases" class="btn phrases-primary">{t.explorePhrases} <span aria-hidden="true">↓</span></a><a href="#practice" class="btn phrases-secondary">{t.tryPractice}</a></div>
@@ -229,9 +231,9 @@ const anatomyPhraseId = isFr ? 'water-please' : 'coffee-please';
         <div class="phrases-section-heading"><p class="phrases-eyebrow">{t.examplesEyebrow}</p><h2 class="display-md">{t.examplesH2}</h2><p>{t.examplesLead}</p></div>
         <div class="phrase-dialogues">{dialogues.map(dialogue => <div class="phrase-dialogue" data-phrase-dialogue={dialogue.id}>
           <h3>{isFr ? dialogue.frTitle : dialogue.title}</h3><p class="phrase-dialogue-setting">{isFr ? dialogue.frSetting : dialogue.setting}</p>
-          <ol>{dialogue.turns.map(turn => {
+          <ol>{dialogue.turns.map((turn, turnIndex) => {
             const variant = getVariant(turn.phraseId, turn.variantId);
-            return <li><p class="phrase-form-label">{isFr ? turn.frRole : turn.role}</p><p class="phrase-hebrew-line"><bdi class="phrases-hebrew" lang="he" dir="rtl"><HebrewText text={variant.hebrew} /></bdi></p><p class="phrase-transliteration" lang="he-Latn" dir="ltr"><Transliteration text={variant.transliteration} /></p><p>{isFr ? turn.frTranslation : turn.translation}</p></li>;
+            return <li><p class="phrase-form-label">{isFr ? turn.frRole : turn.role}</p><p class="phrase-hebrew-line"><SayButton src={dialogueAudio(turnIndex, variant.hebrew)} phraseId={turn.phraseId} size="sm" locale={locale} /><bdi class="phrases-hebrew" lang="he" dir="rtl"><HebrewText text={variant.hebrew} /></bdi></p><p class="phrase-transliteration" lang="he-Latn" dir="ltr"><Transliteration text={variant.transliteration} /></p><p>{isFr ? turn.frTranslation : turn.translation}</p></li>;
           })}</ol>
         </div>)}</div>
       </Section>

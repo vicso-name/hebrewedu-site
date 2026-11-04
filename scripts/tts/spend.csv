@@ -1,0 +1,43 @@
+timestamp,endpoint,voice,text,characters,est_usd_upper_bound
+2026-11-04T08:32:56,texttospeech.synthesize_speech,he-IL-Wavenet-C,שָׁלוֹם,7,0.000112
+2026-11-04T08:32:57,texttospeech.synthesize_speech,he-IL-Wavenet-B,בֹּקֶר טוֹב,11,0.000176
+2026-11-04T08:32:57,texttospeech.synthesize_speech,he-IL-Wavenet-C,עֶרֶב טוֹב,10,0.000160
+2026-11-04T08:32:57,texttospeech.synthesize_speech,he-IL-Wavenet-B,לְהִתְרָאוֹת,12,0.000192
+2026-11-04T08:32:58,texttospeech.synthesize_speech,he-IL-Wavenet-C,שְׁמִי,6,0.000096
+2026-11-04T08:32:58,texttospeech.synthesize_speech,he-IL-Wavenet-B,אֵיךְ קוֹרְאִים לְךָ?,21,0.000336
+2026-11-04T08:32:59,texttospeech.synthesize_speech,he-IL-Wavenet-B,אֵיךְ קוֹרְאִים לָךְ?,21,0.000336
+2026-11-04T08:32:59,texttospeech.synthesize_speech,he-IL-Wavenet-C,תּוֹדָה,7,0.000112
+2026-11-04T08:33:00,texttospeech.synthesize_speech,he-IL-Wavenet-B,בְּבַקָּשָׁה,12,0.000192
+2026-11-04T08:33:00,texttospeech.synthesize_speech,he-IL-Wavenet-C,סְלִיחָה,8,0.000128
+2026-11-04T08:33:00,texttospeech.synthesize_speech,he-IL-Wavenet-B,כֵּן,4,0.000064
+2026-11-04T08:33:01,texttospeech.synthesize_speech,he-IL-Wavenet-C,לֹא,3,0.000048
+2026-11-04T08:33:01,texttospeech.synthesize_speech,he-IL-Wavenet-B,אֲנִי בְּסֵדֶר,14,0.000224
+2026-11-04T08:33:01,texttospeech.synthesize_speech,he-IL-Wavenet-C,"אֶפְשָׁר מַיִם, בְּבַקָּשָׁה?",29,0.000464
+2026-11-04T08:33:02,texttospeech.synthesize_speech,he-IL-Wavenet-B,"אֲנִי רוֹצֶה קָפֶה, בְּבַקָּשָׁה.",33,0.000528
+2026-11-04T08:33:02,texttospeech.synthesize_speech,he-IL-Wavenet-C,"אֲנִי רוֹצָה קָפֶה, בְּבַקָּשָׁה.",33,0.000528
+2026-11-04T08:33:03,texttospeech.synthesize_speech,he-IL-Wavenet-B,"חֶשְׁבּוֹן, בְּבַקָּשָׁה.",25,0.000400
+2026-11-04T08:33:03,texttospeech.synthesize_speech,he-IL-Wavenet-C,"בְּלִי חָלָב, בְּבַקָּשָׁה.",27,0.000432
+2026-11-04T08:33:04,texttospeech.synthesize_speech,he-IL-Wavenet-B,תּוֹדָה רַבָּה,14,0.000224
+2026-11-04T08:33:04,texttospeech.synthesize_speech,he-IL-Wavenet-B,יֵשׁ לְךָ אֶת זֶה?,18,0.000288
+2026-11-04T08:33:04,texttospeech.synthesize_speech,he-IL-Wavenet-B,יֵשׁ לָךְ אֶת זֶה?,18,0.000288
+2026-11-04T08:33:05,texttospeech.synthesize_speech,he-IL-Wavenet-C,אֶפְשָׁר מִדָּה אַחֶרֶת?,24,0.000384
+2026-11-04T08:33:05,texttospeech.synthesize_speech,he-IL-Wavenet-B,אֶפְשָׁר לְשַׁלֵּם בְּאַשְׁרַאי?,32,0.000512
+2026-11-04T08:33:06,texttospeech.synthesize_speech,he-IL-Wavenet-C,אֶפְשָׁר לְשַׁלֵּם בִּמְזֻמָּן?,31,0.000496
+2026-11-04T08:33:06,texttospeech.synthesize_speech,he-IL-Wavenet-B,"לֹא, תּוֹדָה.",13,0.000208
+2026-11-04T08:33:06,texttospeech.synthesize_speech,he-IL-Wavenet-C,אֵיפֹה הַשֵּׁרוּתִים?,21,0.000336
+2026-11-04T08:33:07,texttospeech.synthesize_speech,he-IL-Wavenet-B,"אֶפְשָׁר עֶזְרָה, בְּבַקָּשָׁה?",31,0.000496
+2026-11-04T08:33:07,texttospeech.synthesize_speech,he-IL-Wavenet-B,אֲנִי לֹא מֵבִין.,17,0.000272
+2026-11-04T08:33:08,texttospeech.synthesize_speech,he-IL-Wavenet-C,אֲנִי לֹא מְבִינָה.,19,0.000304
+2026-11-04T08:33:08,texttospeech.synthesize_speech,he-IL-Wavenet-B,אַתָּה יָכוֹל לַחֲזֹר עַל זֶה?,30,0.000480
+2026-11-04T08:33:08,texttospeech.synthesize_speech,he-IL-Wavenet-B,אַתְּ יְכוֹלָה לַחֲזֹר עַל זֶה?,31,0.000496
+2026-11-04T08:33:09,texttospeech.synthesize_speech,he-IL-Wavenet-C,אֶפְשָׁר לְדַבֵּר יוֹתֵר לְאַט?,31,0.000496
+2026-11-04T08:33:09,texttospeech.synthesize_speech,he-IL-Wavenet-B,אַתָּה מְדַבֵּר אַנְגְּלִית?,28,0.000448
+2026-11-04T08:33:09,texttospeech.synthesize_speech,he-IL-Wavenet-B,אַתְּ מְדַבֶּרֶת אַנְגְּלִית?,29,0.000464
+2026-11-04T08:33:10,texttospeech.synthesize_speech,he-IL-Wavenet-B,אַתָּה מְדַבֵּר צָרְפָתִית?,27,0.000432
+2026-11-04T08:33:10,texttospeech.synthesize_speech,he-IL-Wavenet-B,אַתְּ מְדַבֶּרֶת צָרְפָתִית?,28,0.000448
+2026-11-04T08:33:11,texttospeech.synthesize_speech,he-IL-Wavenet-C,מַה נִּשְׁמָע?,14,0.000224
+2026-11-04T08:33:11,texttospeech.synthesize_speech,he-IL-Wavenet-B,מַה שְּׁלוֹמְךָ?,16,0.000256
+2026-11-04T08:33:11,texttospeech.synthesize_speech,he-IL-Wavenet-B,מַה שְּׁלוֹמֵךְ?,16,0.000256
+2026-11-04T08:33:12,texttospeech.synthesize_speech,he-IL-Wavenet-C,שָׁבוּעַ טוֹב,13,0.000208
+2026-11-04T08:33:12,texttospeech.synthesize_speech,he-IL-Wavenet-B,לַיְלָה טוֹב,12,0.000192
+2026-11-04T08:33:13,texttospeech.synthesize_speech,he-IL-Wavenet-C,קוֹרְאִים לִי,13,0.000208

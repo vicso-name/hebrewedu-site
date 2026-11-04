@@ -1,0 +1,448 @@
+{
+ "note": "Hebrew lines of the phrases page, written by scripts/tts/phrases-manifest.mjs from src/data/hebrew-phrases.ts (do not edit by hand). `text` is the line as the page shows it (the lookup key with `gender`); `say` is what TTS reads. Voices are the ones approved for Shalom City.",
+ "voices": {
+  "male": "he-IL-Wavenet-B",
+  "female": "he-IL-Wavenet-C"
+ },
+ "rate": 0.9,
+ "clips": [
+  {
+   "file": "f-192522cb0e.mp3",
+   "gender": "female",
+   "text": "שָׁלוֹם",
+   "say": "שָׁלוֹם",
+   "uses": [
+    "en.hello.same",
+    "fr.hello.same",
+    "en.morning-dialogue.1",
+    "fr.morning-dialogue.1"
+   ]
+  },
+  {
+   "file": "m-c968fb09f5.mp3",
+   "gender": "male",
+   "text": "בֹּקֶר טוֹב",
+   "say": "בֹּקֶר טוֹב",
+   "uses": [
+    "en.good-morning.same",
+    "fr.good-morning.same",
+    "en.morning-dialogue.2",
+    "fr.morning-dialogue.2"
+   ]
+  },
+  {
+   "file": "f-9881393250.mp3",
+   "gender": "female",
+   "text": "עֶרֶב טוֹב",
+   "say": "עֶרֶב טוֹב",
+   "uses": [
+    "en.good-evening.same",
+    "fr.good-evening.same"
+   ]
+  },
+  {
+   "file": "m-16e52c045f.mp3",
+   "gender": "male",
+   "text": "לְהִתְרָאוֹת",
+   "say": "לְהִתְרָאוֹת",
+   "uses": [
+    "en.goodbye.same",
+    "fr.goodbye.same"
+   ]
+  },
+  {
+   "file": "f-953e4ee0be.mp3",
+   "gender": "female",
+   "text": "שְׁמִי…",
+   "say": "שְׁמִי",
+   "uses": [
+    "en.my-name.same",
+    "fr.my-name.same"
+   ]
+  },
+  {
+   "file": "m-bf89b94407.mp3",
+   "gender": "male",
+   "text": "אֵיךְ קוֹרְאִים לְךָ?",
+   "say": "אֵיךְ קוֹרְאִים לְךָ?",
+   "uses": [
+    "en.your-name.male",
+    "fr.your-name.male"
+   ]
+  },
+  {
+   "file": "m-9b7024035d.mp3",
+   "gender": "male",
+   "text": "אֵיךְ קוֹרְאִים לָךְ?",
+   "say": "אֵיךְ קוֹרְאִים לָךְ?",
+   "uses": [
+    "en.your-name.female",
+    "fr.your-name.female"
+   ]
+  },
+  {
+   "file": "f-e32256a912.mp3",
+   "gender": "female",
+   "text": "תּוֹדָה",
+   "say": "תּוֹדָה",
+   "uses": [
+    "en.thank-you.same",
+    "fr.thank-you.same"
+   ]
+  },
+  {
+   "file": "m-e13835bd52.mp3",
+   "gender": "male",
+   "text": "בְּבַקָּשָׁה",
+   "say": "בְּבַקָּשָׁה",
+   "uses": [
+    "en.please.same",
+    "fr.please.same",
+    "en.cafe-dialogue.2",
+    "fr.cafe-dialogue.2"
+   ]
+  },
+  {
+   "file": "f-2b392c6acd.mp3",
+   "gender": "female",
+   "text": "סְלִיחָה",
+   "say": "סְלִיחָה",
+   "uses": [
+    "en.excuse-me.same",
+    "fr.excuse-me.same"
+   ]
+  },
+  {
+   "file": "m-d36ed3d62d.mp3",
+   "gender": "male",
+   "text": "כֵּן",
+   "say": "כֵּן",
+   "uses": [
+    "en.yes.same",
+    "fr.yes.same"
+   ]
+  },
+  {
+   "file": "f-9c9fd42f00.mp3",
+   "gender": "female",
+   "text": "לֹא",
+   "say": "לֹא",
+   "uses": [
+    "en.no.same",
+    "fr.no.same"
+   ]
+  },
+  {
+   "file": "m-6e5987f7a5.mp3",
+   "gender": "male",
+   "text": "אֲנִי בְּסֵדֶר",
+   "say": "אֲנִי בְּסֵדֶר",
+   "uses": [
+    "en.im-fine.same",
+    "fr.im-fine.same"
+   ]
+  },
+  {
+   "file": "f-e96fd038d0.mp3",
+   "gender": "female",
+   "text": "אֶפְשָׁר מַיִם, בְּבַקָּשָׁה?",
+   "say": "אֶפְשָׁר מַיִם, בְּבַקָּשָׁה?",
+   "uses": [
+    "en.water-please.same",
+    "fr.water-please.same"
+   ]
+  },
+  {
+   "file": "m-00e5c51fcf.mp3",
+   "gender": "male",
+   "text": "אֲנִי רוֹצֶה קָפֶה, בְּבַקָּשָׁה.",
+   "say": "אֲנִי רוֹצֶה קָפֶה, בְּבַקָּשָׁה.",
+   "uses": [
+    "en.coffee-please.male",
+    "fr.coffee-please.male"
+   ]
+  },
+  {
+   "file": "f-ca641a2f41.mp3",
+   "gender": "female",
+   "text": "אֲנִי רוֹצָה קָפֶה, בְּבַקָּשָׁה.",
+   "say": "אֲנִי רוֹצָה קָפֶה, בְּבַקָּשָׁה.",
+   "uses": [
+    "en.coffee-please.female",
+    "fr.coffee-please.female",
+    "en.cafe-dialogue.1",
+    "fr.cafe-dialogue.1"
+   ]
+  },
+  {
+   "file": "f-832eb330e5.mp3",
+   "gender": "female",
+   "text": "אֶפְשָׁר תַּפְרִיט, בְּבַקָּשָׁה?",
+   "say": "אֶפְשָׁר תַּפְרִיט, בְּבַקָּשָׁה?",
+   "uses": [
+    "en.menu-please.same",
+    "fr.menu-please.same"
+   ]
+  },
+  {
+   "file": "m-adb78676c7.mp3",
+   "gender": "male",
+   "text": "חֶשְׁבּוֹן, בְּבַקָּשָׁה.",
+   "say": "חֶשְׁבּוֹן, בְּבַקָּשָׁה.",
+   "uses": [
+    "en.bill-please.same",
+    "fr.bill-please.same"
+   ]
+  },
+  {
+   "file": "f-d7d794ddf7.mp3",
+   "gender": "female",
+   "text": "בְּלִי חָלָב, בְּבַקָּשָׁה.",
+   "say": "בְּלִי חָלָב, בְּבַקָּשָׁה.",
+   "uses": [
+    "en.without-milk.same",
+    "fr.without-milk.same"
+   ]
+  },
+  {
+   "file": "m-a50f4c95d5.mp3",
+   "gender": "male",
+   "text": "תּוֹדָה רַבָּה",
+   "say": "תּוֹדָה רַבָּה",
+   "uses": [
+    "en.thank-you-very-much.same",
+    "fr.thank-you-very-much.same"
+   ]
+  },
+  {
+   "file": "f-15577eefde.mp3",
+   "gender": "female",
+   "text": "כַּמָּה זֶה עוֹלֶה?",
+   "say": "כַּמָּה זֶה עוֹלֶה?",
+   "uses": [
+    "en.how-much.same",
+    "fr.how-much.same"
+   ]
+  },
+  {
+   "file": "m-287a039cc9.mp3",
+   "gender": "male",
+   "text": "יֵשׁ לְךָ אֶת זֶה?",
+   "say": "יֵשׁ לְךָ אֶת זֶה?",
+   "uses": [
+    "en.do-you-have-this.male",
+    "fr.do-you-have-this.male"
+   ]
+  },
+  {
+   "file": "m-6398be11f2.mp3",
+   "gender": "male",
+   "text": "יֵשׁ לָךְ אֶת זֶה?",
+   "say": "יֵשׁ לָךְ אֶת זֶה?",
+   "uses": [
+    "en.do-you-have-this.female",
+    "fr.do-you-have-this.female"
+   ]
+  },
+  {
+   "file": "f-ab2dd34e60.mp3",
+   "gender": "female",
+   "text": "אֶפְשָׁר מִדָּה אַחֶרֶת?",
+   "say": "אֶפְשָׁר מִדָּה אַחֶרֶת?",
+   "uses": [
+    "en.another-size.same",
+    "fr.another-size.same"
+   ]
+  },
+  {
+   "file": "m-54d54b4860.mp3",
+   "gender": "male",
+   "text": "אֶפְשָׁר לְשַׁלֵּם בְּאַשְׁרַאי?",
+   "say": "אֶפְשָׁר לְשַׁלֵּם בְּאַשְׁרַאי?",
+   "uses": [
+    "en.pay-by-card.same",
+    "fr.pay-by-card.same"
+   ]
+  },
+  {
+   "file": "f-0c7f3d65c4.mp3",
+   "gender": "female",
+   "text": "אֶפְשָׁר לְשַׁלֵּם בִּמְזֻמָּן?",
+   "say": "אֶפְשָׁר לְשַׁלֵּם בִּמְזֻמָּן?",
+   "uses": [
+    "en.pay-cash.same",
+    "fr.pay-cash.same"
+   ]
+  },
+  {
+   "file": "m-986ec5909f.mp3",
+   "gender": "male",
+   "text": "לֹא, תּוֹדָה.",
+   "say": "לֹא, תּוֹדָה.",
+   "uses": [
+    "en.no-thank-you.same",
+    "fr.no-thank-you.same"
+   ]
+  },
+  {
+   "file": "f-c646c72f33.mp3",
+   "gender": "female",
+   "text": "אֵיפֹה הַשֵּׁרוּתִים?",
+   "say": "אֵיפֹה הַשֵּׁרוּתִים?",
+   "uses": [
+    "en.where-bathroom.same",
+    "fr.where-bathroom.same"
+   ]
+  },
+  {
+   "file": "m-cb17ad3c31.mp3",
+   "gender": "male",
+   "text": "אֶפְשָׁר עֶזְרָה, בְּבַקָּשָׁה?",
+   "say": "אֶפְשָׁר עֶזְרָה, בְּבַקָּשָׁה?",
+   "uses": [
+    "en.help-please.same",
+    "fr.help-please.same"
+   ]
+  },
+  {
+   "file": "m-257d4fcd8b.mp3",
+   "gender": "male",
+   "text": "אֲנִי לֹא מֵבִין.",
+   "say": "אֲנִי לֹא מֵבִין.",
+   "uses": [
+    "en.dont-understand.male",
+    "fr.dont-understand.male"
+   ]
+  },
+  {
+   "file": "f-f3ba1e7093.mp3",
+   "gender": "female",
+   "text": "אֲנִי לֹא מְבִינָה.",
+   "say": "אֲנִי לֹא מְבִינָה.",
+   "uses": [
+    "en.dont-understand.female",
+    "fr.dont-understand.female"
+   ]
+  },
+  {
+   "file": "m-192e4dc2bf.mp3",
+   "gender": "male",
+   "text": "אַתָּה יָכוֹל לַחֲזֹר עַל זֶה?",
+   "say": "אַתָּה יָכוֹל לַחֲזֹר עַל זֶה?",
+   "uses": [
+    "en.repeat-please.male",
+    "fr.repeat-please.male"
+   ]
+  },
+  {
+   "file": "m-e1e08e4889.mp3",
+   "gender": "male",
+   "text": "אַתְּ יְכוֹלָה לַחֲזֹר עַל זֶה?",
+   "say": "אַתְּ יְכוֹלָה לַחֲזֹר עַל זֶה?",
+   "uses": [
+    "en.repeat-please.female",
+    "fr.repeat-please.female"
+   ]
+  },
+  {
+   "file": "f-4b539539fb.mp3",
+   "gender": "female",
+   "text": "אֶפְשָׁר לְדַבֵּר יוֹתֵר לְאַט?",
+   "say": "אֶפְשָׁר לְדַבֵּר יוֹתֵר לְאַט?",
+   "uses": [
+    "en.more-slowly.same",
+    "fr.more-slowly.same"
+   ]
+  },
+  {
+   "file": "m-e58655dedb.mp3",
+   "gender": "male",
+   "text": "אַתָּה מְדַבֵּר אַנְגְּלִית?",
+   "say": "אַתָּה מְדַבֵּר אַנְגְּלִית?",
+   "uses": [
+    "en.speak-english.male"
+   ]
+  },
+  {
+   "file": "m-4f1ef6822a.mp3",
+   "gender": "male",
+   "text": "אַתְּ מְדַבֶּרֶת אַנְגְּלִית?",
+   "say": "אַתְּ מְדַבֶּרֶת אַנְגְּלִית?",
+   "uses": [
+    "en.speak-english.female"
+   ]
+  },
+  {
+   "file": "m-0158817e97.mp3",
+   "gender": "male",
+   "text": "אַתָּה מְדַבֵּר צָרְפָתִית?",
+   "say": "אַתָּה מְדַבֵּר צָרְפָתִית?",
+   "uses": [
+    "fr.speak-english.male"
+   ]
+  },
+  {
+   "file": "m-227cc0a281.mp3",
+   "gender": "male",
+   "text": "אַתְּ מְדַבֶּרֶת צָרְפָתִית?",
+   "say": "אַתְּ מְדַבֶּרֶת צָרְפָתִית?",
+   "uses": [
+    "fr.speak-english.female"
+   ]
+  },
+  {
+   "file": "f-57a43df726.mp3",
+   "gender": "female",
+   "text": "מַה נִּשְׁמָע?",
+   "say": "מַה נִּשְׁמָע?",
+   "uses": [
+    "fr.how-are-you-casual.same"
+   ]
+  },
+  {
+   "file": "m-d0f84b94f5.mp3",
+   "gender": "male",
+   "text": "מַה שְּׁלוֹמְךָ?",
+   "say": "מַה שְּׁלוֹמְךָ?",
+   "uses": [
+    "fr.how-are-you.male"
+   ]
+  },
+  {
+   "file": "m-db0c9a21dd.mp3",
+   "gender": "male",
+   "text": "מַה שְּׁלוֹמֵךְ?",
+   "say": "מַה שְּׁלוֹמֵךְ?",
+   "uses": [
+    "fr.how-are-you.female"
+   ]
+  },
+  {
+   "file": "f-209affb44f.mp3",
+   "gender": "female",
+   "text": "שָׁבוּעַ טוֹב",
+   "say": "שָׁבוּעַ טוֹב",
+   "uses": [
+    "fr.good-week.same"
+   ]
+  },
+  {
+   "file": "m-215bd316ef.mp3",
+   "gender": "male",
+   "text": "לַיְלָה טוֹב",
+   "say": "לַיְלָה טוֹב",
+   "uses": [
+    "fr.good-night.same"
+   ]
+  },
+  {
+   "file": "f-af6ad30b90.mp3",
+   "gender": "female",
+   "text": "קוֹרְאִים לִי…",
+   "say": "קוֹרְאִים לִי",
+   "uses": [
+    "fr.they-call-me.same"
+   ]
+  }
+ ]
+}

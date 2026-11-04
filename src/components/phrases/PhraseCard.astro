@@ -3,6 +3,8 @@ import type { Phrase } from '../../data/hebrew-phrases';
 import { getDictionary, type Locale } from '../../i18n';
 import HebrewText from '../lessons/HebrewText.astro';
 import Transliteration from './Transliteration.astro';
+import SayButton from './SayButton.astro';
+import { phraseAudio } from '../../lib/phrases/audio';
 
 interface Props {
   phrase: Phrase;
@@ -38,12 +40,17 @@ const defaultVariant = variants[0];
 const hebrewLetterCount = (text: string) => (text.match(/[א-ת]/g) ?? []).length;
 const isLong = hebrewLetterCount(defaultVariant.hebrew) >= 18;
 
+// Audio clip per form; a phrase with no generated clip (e.g. a lesson's
+// WORD_EXAMPLE card) gets no play button. See src/lib/phrases/voices.mjs.
+const audio = variants.map((variant) => phraseAudio(phrase.id, variant));
+
 const dataForms = hasVariants
-  ? JSON.stringify({ m: [variants[0].hebrew, variants[0].transliteration], f: [variants[1].hebrew, variants[1].transliteration] })
+  ? JSON.stringify({ m: [variants[0].hebrew, variants[0].transliteration, audio[0] ?? ''], f: [variants[1].hebrew, variants[1].transliteration, audio[1] ?? ''] })
   : undefined;
 ---
 <article class={`pc${isLong ? ' pc--long' : ''}`} id={id} role="listitem" data-forms={dataForms}>
-  <div class="pc-panel">
+  <div class={`pc-panel${audio[0] ? ' pc-panel--say' : ''}`}>
+    <SayButton src={audio[0]} phraseId={phrase.id} locale={locale} />
     <div class="pc-heb" aria-live="polite">
       <p class="pc-he" lang="he" dir="rtl"><HebrewText text={defaultVariant.hebrew} /></p>
       <p class="pc-tr" lang="he-Latn"><Transliteration text={defaultVariant.transliteration} /></p>
@@ -67,10 +74,11 @@ const dataForms = hasVariants
   function initSeg(seg: HTMLElement) {
     const card = seg.closest<HTMLElement>('.pc');
     if (!card || !card.dataset.forms) return;
-    const forms: Record<string, [string, string]> = JSON.parse(card.dataset.forms);
+    const forms: Record<string, [string, string, string]> = JSON.parse(card.dataset.forms);
     const groups = Array.from(card.querySelectorAll<HTMLElement>('[role="radiogroup"]'));
     const heEl = card.querySelector<HTMLElement>('.pc-he');
     const trEl = card.querySelector<HTMLElement>('.pc-tr .translit-t');
+    const sayEl = card.querySelector<HTMLButtonElement>('button[data-say]');
 
     function update() {
       const key = groups.map((g) => g.querySelector<HTMLElement>('[aria-checked="true"]')?.dataset.v ?? '').join('');
@@ -78,6 +86,7 @@ const dataForms = hasVariants
       if (!form || !heEl || !trEl) return;
       heEl.textContent = form[0];
       trEl.textContent = form[1];
+      if (sayEl && form[2]) sayEl.dataset.say = form[2];
     }
 
     groups.forEach((group) => {
