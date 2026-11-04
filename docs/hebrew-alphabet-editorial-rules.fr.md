@@ -41,7 +41,8 @@ FR raw source and FR copy exactly as written in the EN file:
   (applied since Tet).
 - **Tips never open with "Correct!"** — the explanation shows after a wrong
   answer too, so the French "Exact !" / "Bravo !" is dropped the same way,
-  and so is "Oui,". "Vrai." / "Faux." stating the answer key stays (Ayin).
+  and so are "Oui," and "Non.". "Vrai." / "Faux." stating the answer key
+  stays (Ayin, Pe).
 - **`contentOverrides.exercises` cannot patch `MATCH_PAIRS` pairs data** —
   a pipeline/schema constraint (`docs/LESSON_PIPELINE.md`), not a wording
   rule; a French `MATCH_PAIRS` violation needs the same holdout treatment.

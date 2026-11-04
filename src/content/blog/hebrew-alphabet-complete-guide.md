@@ -180,6 +180,10 @@ Ayin (ע) usually adds no consonant sound of its own in the common modern Israel
 
 → [Practice Ayin in the Hebrew Alphabet Course](/learn/hebrew-alphabet/ayin/)
 
+Pe (פ), also spelled Pey, has two sounds: with a dot inside (a dagesh) it is [p], as in פֶּה [pe], "mouth"; without the dot it is [f] and is often called Fe, as in יָפָה [ya-fa], "beautiful." At the end of a word it is written ף (final Pe), usually pronounced [f].
+
+→ [Practice Pe in the Hebrew Alphabet Course](/learn/hebrew-alphabet/pe/)
+
 ## The Five Final Letters
 
 Five Hebrew letters have a different written form when they appear at the **end of a word**. These are called *sofit* forms (סופית — “final”). The shape change is different for each pair.

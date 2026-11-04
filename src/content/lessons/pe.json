@@ -1,0 +1,562 @@
+{
+  "id": "pe",
+  "sourceId": 17,
+  "order": 17,
+  "glyph": "פ",
+  "locale": "en",
+  "title": "Pe Hebrew Letter (פ): Pe, Fe & Final Pe",
+  "description": "Learn the Hebrew letter Pe (פ), also spelled Pey: its [p] sound with a dagesh, its [f] sound (Fe), final Pe (ף), words like פֶּה (mouth) and practice.",
+  "status": "local-review-only",
+  "normalizationVersion": 1,
+  "provenance": {
+    "source": "https://api.hebrewedu.com/api/lessons/17/?lang=en",
+    "responseDate": "2026-10-19T14:27:09.505Z",
+    "sha256": "076922f39fa8e8eb7ce8d84c55f64ccbda9835bf2101172f1538bff0ba01cd28"
+  },
+  "editorialIssues": [],
+  "blocks": [
+    {
+      "id": "pe-block-1",
+      "sourceIndex": 0,
+      "text": "Pe Hebrew Letter (פ): Pe, Fe, Final Pe & Practice",
+      "reviewFlags": [],
+      "type": "MAIN_TITLE"
+    },
+    {
+      "id": "pe-block-2",
+      "sourceIndex": 1,
+      "text": "Pey (פ) is the seventeenth letter of the Hebrew alphabet. In text with vowel points, פּ with a dagesh (the dot inside) is pronounced [p], like 'p' in 'pot'; פ without a dagesh is pronounced [f], like 'f' in 'fun'. Pey is one of five Hebrew letters with a regular form (פ) and a final form (ף), called Fey Sofit.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "pe-block-3",
+      "sourceIndex": 2,
+      "text": "The Hebrew word 'פֶּה' [pe] means 'mouth'. The pronunciation guides in this lesson are learning aids, not IPA. They use a roughly as in 'father', e as in 'bet', and y as in 'yes'. Keep the e in [pe] steady, without adding a y sound. Hyphens show syllable breaks.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "pe-block-4",
+      "sourceIndex": 3,
+      "text": "One Letter, Two Sounds",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "pe-block-5",
+      "sourceIndex": 4,
+      "text": "In modern Hebrew, Bet, Kaf, and Pey each have two pronunciations distinguished by a dagesh in text with vowel points. For Pey, פּ represents [p] and פ represents [f]. These are two different consonant sounds; the dot does not mean that you should pronounce a doubled consonant.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "pe-block-6",
+      "sourceIndex": 5,
+      "text": "Fey (פ), without a dagesh, is pronounced [f], like 'f' in 'fun'.",
+      "reviewFlags": [],
+      "type": "TEXT_IMAGE",
+      "illustration": {
+        "glyph": "פ",
+        "label": "Fey (Pey without Dagesh)",
+        "equivalent": "Pey without a dot (dagesh) in its center, pronounced [f]. This form is called Fey.",
+        "mediaStatus": "withheld-pending-review"
+      }
+    },
+    {
+      "id": "pe-block-8",
+      "sourceIndex": 7,
+      "text": "The Hebrew word 'שָׂפָה' [sa-fa] means 'language'. The first letter is Sin (שׂ), with a dot on the upper left, giving [s]. Its Kamatz Gadol gives [a], making [sa]. Pey (פ) without a dagesh gives [f], and its Kamatz Gadol gives [a], making [fa]. Hey (ה) at the end of the word is silent here. Say two syllables, sa-fa, with the stress on fa.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "pe-block-9",
+      "sourceIndex": 8,
+      "text": "Pey (פּ), with a dagesh, is pronounced [p], like 'p' in 'pot'.",
+      "reviewFlags": [],
+      "type": "TEXT_IMAGE",
+      "illustration": {
+        "glyph": "פּ",
+        "label": "Pey with Dagesh",
+        "equivalent": "Pey with a dot (dagesh) in its center, pronounced [p]. Without the dot, it is pronounced [f].",
+        "mediaStatus": "withheld-pending-review"
+      }
+    },
+    {
+      "id": "pe-block-11",
+      "sourceIndex": 10,
+      "text": "The Hebrew word 'פּוֹעַל' [po-al] means 'verb', a word for an action or state. Pey (פּ) has a dagesh and gives [p]. Holam Male (וֹ) supplies [o], without a separate v sound. Ayin (ע) has a Patah, giving [a]. In the common modern pronunciation used here, Ayin has no separate consonant sound; some speakers pronounce it as a throat consonant. Lamed (ל) gives [l]. Say two syllables, po-al, with the stress on po; keep o and a separate.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "pe-block-12",
+      "sourceIndex": 11,
+      "text": "Ordinary Hebrew writing usually omits vowel points and the dagesh. In that writing, פ can stand for [p] or [f]: you learn the pronunciation with the word and use context to identify it. In the pointed examples in this lesson, the presence or absence of a dagesh shows which sound to use.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "pe-block-13",
+      "sourceIndex": 12,
+      "text": "Fey Sofit (ף) is the final form of Pey. In the words in this lesson, it appears at the end and represents [f].",
+      "reviewFlags": [],
+      "type": "TEXT_IMAGE",
+      "illustration": {
+        "glyph": "ף",
+        "label": "Fey Sofit",
+        "equivalent": "Final Pey: Pey with its stroke extended below the line, written at the end of a word and pronounced [f].",
+        "mediaStatus": "withheld-pending-review"
+      }
+    },
+    {
+      "id": "pe-block-14",
+      "sourceIndex": 13,
+      "text": "Fey Sofit (ף) is the final form of Pey and represents [f], as in אַף [af], 'nose'. In the words in this lesson, the regular form פ appears at the beginning or in the middle, and the final form ף appears at the end. 'Sofit' means 'final'.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "pe-block-15",
+      "sourceIndex": 14,
+      "text": "Words to Practice:",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "pe-block-16",
+      "sourceIndex": 15,
+      "text": "mouth",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "פֶּה",
+      "transcription": "pe"
+    },
+    {
+      "id": "pe-block-17",
+      "sourceIndex": 16,
+      "text": "The Hebrew word 'פֶּה' [pe] means 'mouth'. It has two letters: Pey (פּ) and Hey (ה). The dagesh gives Pey its [p] sound, and the Segol (ֶ) beneath it gives [e]. Hey at the end of the word is silent here. Say pe as one syllable.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "pe-block-18",
+      "sourceIndex": 17,
+      "text": "beautiful",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "יָפָה",
+      "transcription": "yafa"
+    },
+    {
+      "id": "pe-block-19",
+      "sourceIndex": 18,
+      "text": "The Hebrew word 'יָפָה' [ya-fa] means 'beautiful' in the feminine singular, used with a feminine singular noun or to describe a woman or girl. It has three letters: Yud (י), Pey (פ), and Hey (ה). Yud gives [y], as in 'yes', and its Kamatz Gadol gives [a], making [ya]. Pey has no dagesh, so it gives [f]; its Kamatz Gadol gives [a], making [fa]. Hey at the end of the word is silent here. Say two syllables, ya-fa, with the stress on fa.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "pe-block-20",
+      "sourceIndex": 19,
+      "text": "nose",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "אַף",
+      "transcription": "af"
+    },
+    {
+      "id": "pe-block-21",
+      "sourceIndex": 20,
+      "text": "The Hebrew word 'אַף' [af] means 'nose'. It has two letters: Alef (א) and Fey Sofit (ף). The Patah (ַ) beneath Alef gives [a], and Fey Sofit gives [f]. Say af as one syllable.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "pe-block-22",
+      "sourceIndex": 21,
+      "text": "Conclusions",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "pe-block-23",
+      "sourceIndex": 22,
+      "text": "Let’s review what we’ve covered. In text with vowel points, Pey with a dagesh (פּ) represents [p], and Fey without a dagesh (פ) represents [f]. The final form ף, called Fey Sofit, represents [f] at the end of a word. You’ve practised these sounds in several words. Now, take a quick test to check your understanding!",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "pe-exercise-1",
+      "sourceId": "1742225742307",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "How is the letter Pey (פּ) pronounced?",
+      "explanation": "Pey (פּ) with a dagesh is pronounced as [ p ].",
+      "options": [
+        {
+          "id": "pe-exercise-1-option-1",
+          "label": "[ p ]"
+        },
+        {
+          "id": "pe-exercise-1-option-2",
+          "label": "[ f ]"
+        },
+        {
+          "id": "pe-exercise-1-option-3",
+          "label": "[ b ]"
+        },
+        {
+          "id": "pe-exercise-1-option-4",
+          "label": "[ m ]"
+        }
+      ],
+      "correctOptionId": "pe-exercise-1-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "pe-exercise-2",
+      "sourceId": "1742225742308",
+      "type": "TRUE_FALSE",
+      "prompt": "In text with vowel points, Fey without a dagesh (פ) and Fey Sofit (ף) both represent [f].",
+      "explanation": "Both represent [f]; ף is the final form. Pey with a dagesh (פּ) represents [p].",
+      "options": [
+        {
+          "id": "pe-exercise-2-option-1",
+          "label": "True"
+        },
+        {
+          "id": "pe-exercise-2-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "pe-exercise-2-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "pe-exercise-3",
+      "sourceId": "1742225742309",
+      "type": "MATCH_PAIRS",
+      "prompt": "Match each letter form to its pronunciation in text with vowel points.",
+      "explanation": "Pey with a dagesh (פּ) represents [p]. Fey without a dagesh (פ) and Fey Sofit (ף) represent [f].",
+      "pairs": [
+        {
+          "id": "pe-exercise-3-pair-1",
+          "left": "ף",
+          "right": "[ f ] final"
+        },
+        {
+          "id": "pe-exercise-3-pair-2",
+          "left": "פ",
+          "right": "[ f ] regular"
+        },
+        {
+          "id": "pe-exercise-3-pair-3",
+          "left": "פּ",
+          "right": "[ p ]"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "pe-exercise-4",
+      "sourceId": "1742225742310",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "What does 'Sofit' mean in Hebrew?",
+      "explanation": "'Sofit' means 'final' and is used for letters that change shape at the end of words.",
+      "options": [
+        {
+          "id": "pe-exercise-4-option-1",
+          "label": "Beginning form"
+        },
+        {
+          "id": "pe-exercise-4-option-2",
+          "label": "Middle form"
+        },
+        {
+          "id": "pe-exercise-4-option-3",
+          "label": "Final form"
+        }
+      ],
+      "correctOptionId": "pe-exercise-4-option-3",
+      "reviewFlags": []
+    },
+    {
+      "id": "pe-exercise-5",
+      "sourceId": "1742225742311",
+      "type": "TRUE_FALSE",
+      "prompt": "The final form of Pey that represents [f] is called Fey Sofit (ף).",
+      "explanation": "Fey Sofit (ף) represents [f] and is used at the end of words, as in אַף [af], 'nose'.",
+      "options": [
+        {
+          "id": "pe-exercise-5-option-1",
+          "label": "True"
+        },
+        {
+          "id": "pe-exercise-5-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "pe-exercise-5-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "pe-exercise-6",
+      "sourceId": "1742225742312",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "How is the letter Fey Sofit (ף) pronounced?",
+      "explanation": "Fey Sofit (ף) is pronounced the same as Fey (פ) – as [ f ].",
+      "options": [
+        {
+          "id": "pe-exercise-6-option-1",
+          "label": "[ s ]"
+        },
+        {
+          "id": "pe-exercise-6-option-2",
+          "label": "[ f ]"
+        },
+        {
+          "id": "pe-exercise-6-option-3",
+          "label": "[ t ]"
+        },
+        {
+          "id": "pe-exercise-6-option-4",
+          "label": "[ k ]"
+        }
+      ],
+      "correctOptionId": "pe-exercise-6-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "pe-exercise-7",
+      "sourceId": "1742225742313",
+      "type": "MATCH_PAIRS",
+      "prompt": "Match the words to their translations.",
+      "explanation": "אַף means 'nose', פֶּה means 'mouth', and יָפָה means 'beautiful' in the feminine singular.",
+      "pairs": [
+        {
+          "id": "pe-exercise-7-pair-1",
+          "left": "אַף",
+          "right": "nose"
+        },
+        {
+          "id": "pe-exercise-7-pair-2",
+          "left": "פֶּה",
+          "right": "mouth"
+        },
+        {
+          "id": "pe-exercise-7-pair-3",
+          "left": "יָפָה",
+          "right": "beautiful"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "pe-exercise-8",
+      "sourceId": "1742225742314",
+      "type": "TRUE_FALSE",
+      "prompt": "Pey with a dagesh (פּ) is pronounced as [ p ], like in 'pot'.",
+      "explanation": "Pey (פּ) with a dagesh has a hard [ p ] sound.",
+      "options": [
+        {
+          "id": "pe-exercise-8-option-1",
+          "label": "True"
+        },
+        {
+          "id": "pe-exercise-8-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "pe-exercise-8-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "pe-exercise-9",
+      "sourceId": "1742225742315",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "What is the correct pronunciation of 'פֶּה'?",
+      "explanation": "פֶּה is pronounced [ pe ], meaning 'mouth'.",
+      "options": [
+        {
+          "id": "pe-exercise-9-option-1",
+          "label": "[ pe ]"
+        },
+        {
+          "id": "pe-exercise-9-option-2",
+          "label": "[ pa ]"
+        },
+        {
+          "id": "pe-exercise-9-option-3",
+          "label": "[ po ]"
+        },
+        {
+          "id": "pe-exercise-9-option-4",
+          "label": "[ pi ]"
+        }
+      ],
+      "correctOptionId": "pe-exercise-9-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "pe-exercise-10",
+      "sourceId": "1742225742316",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "What vowel sound does the Kamatz Gadol beneath Pey (פָּ) represent?",
+      "explanation": "Kamatz Gadol represents [a], roughly as in 'father'. With Pey (פּ), it makes [pa]; no special vowel length is required.",
+      "options": [
+        {
+          "id": "pe-exercise-10-option-1",
+          "label": "[ o ]"
+        },
+        {
+          "id": "pe-exercise-10-option-2",
+          "label": "[ e ]"
+        },
+        {
+          "id": "pe-exercise-10-option-3",
+          "label": "[ a ]"
+        }
+      ],
+      "correctOptionId": "pe-exercise-10-option-3",
+      "reviewFlags": []
+    },
+    {
+      "id": "pe-exercise-11",
+      "sourceId": "1742225742317",
+      "type": "TRUE_FALSE",
+      "prompt": "The letter Hey (ה) at the end of a word is usually silent.",
+      "explanation": "In most cases, Hey (ה) at the end of a word is silent.",
+      "options": [
+        {
+          "id": "pe-exercise-11-option-1",
+          "label": "True"
+        },
+        {
+          "id": "pe-exercise-11-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "pe-exercise-11-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "pe-exercise-12",
+      "sourceId": "1742225742318",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "How is the word (אַף) pronounced?",
+      "explanation": "אַף is pronounced as [ af ] and means 'nose'.",
+      "options": [
+        {
+          "id": "pe-exercise-12-option-1",
+          "label": "[ af ]"
+        },
+        {
+          "id": "pe-exercise-12-option-2",
+          "label": "[ saf ]"
+        },
+        {
+          "id": "pe-exercise-12-option-3",
+          "label": "[ sof ]"
+        },
+        {
+          "id": "pe-exercise-12-option-4",
+          "label": "[ paf ]"
+        }
+      ],
+      "correctOptionId": "pe-exercise-12-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "pe-exercise-13",
+      "sourceId": "1742225742319",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Which option shows a letter with a Patah vowel sign?",
+      "explanation": "Patah is a small horizontal line beneath a letter and represents [a]. In ordinary modern Hebrew, Patah and Kamatz Gadol both represent [a], without a required difference in length.",
+      "options": [
+        {
+          "id": "pe-exercise-13-option-1",
+          "label": "אַ"
+        },
+        {
+          "id": "pe-exercise-13-option-2",
+          "label": "פֶּ"
+        },
+        {
+          "id": "pe-exercise-13-option-3",
+          "label": "ף"
+        }
+      ],
+      "correctOptionId": "pe-exercise-13-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "pe-exercise-14",
+      "sourceId": "1742225742320",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "How do you translate the word (אַף) into English?",
+      "explanation": "אַף (af) means 'nose' in English.",
+      "options": [
+        {
+          "id": "pe-exercise-14-option-1",
+          "label": "nose"
+        },
+        {
+          "id": "pe-exercise-14-option-2",
+          "label": "eye"
+        },
+        {
+          "id": "pe-exercise-14-option-3",
+          "label": "arm"
+        }
+      ],
+      "correctOptionId": "pe-exercise-14-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "pe-exercise-15",
+      "sourceId": "1742225742321",
+      "type": "MATCH_PAIRS",
+      "prompt": "Match the English words to their Hebrew translations.",
+      "explanation": "'Nose' is אַף, 'mouth' is פֶּה, and 'beautiful' in the feminine singular is יָפָה.",
+      "pairs": [
+        {
+          "id": "pe-exercise-15-pair-1",
+          "left": "nose",
+          "right": "אַף"
+        },
+        {
+          "id": "pe-exercise-15-pair-2",
+          "left": "mouth",
+          "right": "פֶּה"
+        },
+        {
+          "id": "pe-exercise-15-pair-3",
+          "left": "beautiful",
+          "right": "יָפָה"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "pe-exercise-16",
+      "sourceId": "1742225742322",
+      "type": "TRUE_FALSE",
+      "prompt": "In text with vowel points, Fey Sofit (ף) and Fey without a dagesh (פ) represent different sounds.",
+      "explanation": "Both represent [f]. Adding a dagesh to the regular form gives פּ, pronounced [p].",
+      "options": [
+        {
+          "id": "pe-exercise-16-option-1",
+          "label": "True"
+        },
+        {
+          "id": "pe-exercise-16-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "pe-exercise-16-option-2",
+      "reviewFlags": []
+    }
+  ]
+}
