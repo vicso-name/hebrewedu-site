@@ -1,0 +1,114 @@
+{
+  "slug": "ayin",
+  "title": "Ayin (ע) : lettre hébraïque, son et exemples",
+  "description": "Apprends la lettre hébraïque Ayin (ע) : sa prononciation, souvent sans consonne comme Aleph, des mots comme עַיִן (œil) et des exercices.",
+  "editorialIssues": [
+    {
+      "id": "fr-transliteration-ou",
+      "summary": "« u » remplacé par « ou » pour le son [u]",
+      "detail": "La source brute FR transcrit le son [u] par « u » (uga, [u-ga], sivuv) et l'explique par une note du bloc 2 (« u du ou de « roue » »). Contraire à la règle de transcription FR (docs/hebrew-alphabet-editorial-rules.fr.md : « ou » pour [u]). Corrigé via contentOverrides.transcriptions (blocs 8 et 14), contentOverrides.blocks (blocs 2 et 9), contentOverrides.exercises (questions 6 et 13) et contentOverrides.choices (questions 10 et 15). Les paires d'association ne contiennent pas [u]."
+    }
+  ],
+  "illustrations": {},
+  "blockFlags": {},
+  "exerciseFlags": {},
+  "contentOverrides": {
+    "blocks": {
+      "0": "Ayin (ע) : lettre hébraïque, son et exemples",
+      "1": "Ayin (ע) est la seizième lettre de l’alphabet hébreu. Dans la prononciation israélienne la plus courante présentée ici, il n’ajoute pas de consonne distincte : on prononce la voyelle qui lui est associée. Certains locuteurs produisent une petite interruption de la voix entre deux voyelles (un coup de glotte). D’autres, notamment dans certaines variétés mizrahies de l’hébreu, prononcent Ayin avec un son guttural, formé au fond de la gorge. Ce sont différentes prononciations de la même lettre.",
+      "2": "Le mot hébreu « עַיִן » [a-yin] signifie « œil ». Lis-le en deux syllabes, en accentuant la première : a. Les transcriptions entre crochets sont des aides à la lecture, pas une transcription en alphabet phonétique international (API) ; les traits d’union séparent les syllabes. Dans cette leçon, y se prononce comme le y de « yoga ». Pour les voyelles, a se rapproche du a de « patte », e du è de « père », i du i de « lit », o du o de « mot » et ou du ou de « roue ». Ces exemples sont des approximations. Prononce chaque voyelle clairement, sans la faire glisser vers une autre ; en hébreu moderne, il n’est pas nécessaire d’opposer des voyelles brèves et longues.",
+      "9": "Le mot hébreu « עוּגָה » [ou-ga] signifie « gâteau ». Il comporte quatre lettres : Ayin (ע), Vav (ו), Guimel (ג) et Hé (ה). Dans la prononciation présentée ici, Ayin n’ajoute pas de consonne distincte. Le Shourouk (וּ), un point placé dans Vav, représente [ou], comme le ou de « roue », sans consonne [v]. Guimel avec un Kamats Gadol représente [ga] ; le g se prononce comme dans « gare ». En fin de mot, le Hé ne se prononce pas ici. Lis [ou-ga] en deux syllabes, avec l’accent tonique sur la seconde, ga.",
+      "11": "Prononce chaque mot à voix haute. Dans les exercices, tu reverras aussi נָא [na], « s’il te plaît », souvent utilisé dans les demandes formelles et sur les panneaux, et נַחַל [na-khal], « ruisseau », avec l’accent tonique sur na. Ici, kh représente un seul son produit au fond de la bouche, proche du ch allemand de « Bach » ou de la jota espagnole ; ce n’est pas le ch français de « chat »."
+    },
+    "transcriptions": {
+      "8": "ouga",
+      "14": "sivouv"
+    },
+    "choices": {
+      "0": [
+        "Il se prononce toujours avec un son guttural",
+        "Il n’a pas de son consonantique propre",
+        "Il se prononce [a]"
+      ],
+      "9": [
+        "[ a ]",
+        "[ e ]",
+        "[ i ]",
+        "[ ou ]"
+      ],
+      "14": [
+        "[ a ]",
+        "[ e ]",
+        "[ ou ]",
+        "[ y ]"
+      ]
+    },
+    "exercises": {
+      "0": {
+        "correctAnswer": "Il n’a pas de son consonantique propre"
+      },
+      "4": {
+        "tip": "עַיִן est le mot hébreu pour « œil »."
+      },
+      "5": {
+        "tip": "עוּגָה [ou-ga] signifie « gâteau ». L’accent tonique porte sur ga."
+      },
+      "12": {
+        "content": "Le Vav (וּ) dans ( עוּגָה ) porte un Shourouk et produit le son [ou].",
+        "tip": "Le Shourouk (וּ) représente [ou], comme le ou de « roue », sans consonne [v] distincte."
+      }
+    }
+  },
+  "stageMap": {
+    "theory": [
+      0,
+      1,
+      2
+    ],
+    "examples": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  "copy": {
+    "theory": {
+      "heading": "Découvre Ayin",
+      "intro": "La seizième lettre de l'alphabet hébreu. Dans la prononciation israélienne la plus courante présentée ici, Ayin n'ajoute généralement pas de consonne propre, comme <a href=\"/fr/apprendre/alphabet-hebreu/aleph/\">Aleph (<bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">א</bdi>)</a> : tu prononces simplement la voyelle qui l'accompagne. Certains locuteurs, notamment mizrahis, le prononcent au fond de la gorge. Son nom, <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">עַיִן</bdi>, est aussi le mot hébreu pour « œil ».",
+      "objectivesHeading": "Ce que tu vas apprendre",
+      "objectives": [
+        "Reconnaître Ayin : <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ע</bdi>.",
+        "Lire Ayin avec la voyelle qui l'accompagne, et connaître les autres prononciations que tu peux entendre.",
+        "Lire Ayin dans de vrais mots comme <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">עַיִן</bdi> (œil) et <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">עוּגָה</bdi> (gâteau)."
+      ],
+      "secondSectionHeading": "Comment se prononce Ayin",
+      "thirdSectionHeading": "Ayin et le mot « œil »"
+    },
+    "examples": {
+      "heading": "Ayin dans de vrais mots",
+      "intro": "Lis trois mots avec Ayin et découvre comment chacun se prononce, puis lis à voix haute cinq autres mots pour t'entraîner à la lecture."
+    }
+  },
+  "holdOuts": {
+    "blocks": [],
+    "exercises": []
+  },
+  "source": {
+    "rawSnapshotPath": ".local/alphabet-course-imports/v1/2026-10-19T14-27-18-905Z-bdf614-fr/raw/lesson-16.raw.json",
+    "sha256": "03f129be73e3a6b319a2ac9d19f75e8f8e0750de9c58328681f0ddca6a696d80",
+    "responseDate": "2026-10-19T14:27:25.193Z"
+  }
+}

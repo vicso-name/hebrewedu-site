@@ -81,8 +81,10 @@ test('empty placeholders block content; caption-only images are explicitly flagg
 
 test('variable grid counts are retained, not forced into Aleph four-choice schema', () => {
   const raw=source();raw.exercises[0]={...raw.exercises[0],type:'MULTIPLE_CHOICE_GRID',additionalData:{choices:['a','b','c'],correctAnswer:'b'}};
-  const result=audit(raw);assert.equal(result.structurallyValid,true);assert.equal(result.rendererCompatible,false);
+  const result=audit(raw);assert.equal(result.structurallyValid,true);assert.equal(result.rendererCompatible,true);
   assert.equal(privateNormalizedLesson(raw,identity,{}).exercises[0].options.length,3);
+  raw.exercises[0].additionalData={choices:['a','b','c','d','e'],correctAnswer:'b'};
+  assert.equal(audit(raw).rendererCompatible,false);
 });
 
 test('normalization preserves niqqud, source URLs and input; invalid Unicode is flagged', () => {

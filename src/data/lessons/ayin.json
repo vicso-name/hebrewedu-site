@@ -1,0 +1,73 @@
+{
+  "slug": "ayin",
+  "title": "Ayin Hebrew Letter (ע): Sound, Pronunciation & Words",
+  "description": "Learn the Hebrew letter Ayin (ע): why it usually adds no consonant sound in modern Israeli Hebrew, like Aleph, plus words like עַיִן (eye) and practice.",
+  "editorialIssues": [],
+  "illustrations": {},
+  "blockFlags": {},
+  "exerciseFlags": {},
+  "contentOverrides": {
+    "blocks": {
+      "0": "Ayin Hebrew Letter (ע): Sound, Words & Practice",
+      "9": "The Hebrew word 'עוּגָה' [u-ga] means 'cake'. It consists of four letters: Ayin (ע), Vav (ו), Gimel (ג), and Hey (ה). In the pronunciation taught here, Ayin adds no separate consonant sound. Shuruk (וּ), Vav with a dot inside, represents [u], with no separate [v]. Gimel with Kamatz Gadol gives [ga]. Hey (ה) at the end of the word has no separate [h] sound here. Read [u-ga] in two syllables, with stress on ga.",
+      "11": "Read each word aloud. In the exercises, you will also review נָא [na], 'please', often used in formal requests and on signs, and נַחַל [na-khal], 'stream' or 'brook', with stress on na. Here kh represents one consonant sound, like the 'ch' in Scottish 'loch' or German 'Bach', not the English 'ch' in 'chair'."
+    },
+    "exercises": {
+      "4": {
+        "tip": "עַיִן is the Hebrew word for 'eye'."
+      }
+    }
+  },
+  "stageMap": {
+    "theory": [
+      0,
+      1,
+      2
+    ],
+    "examples": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  "copy": {
+    "theory": {
+      "heading": "Meet Ayin",
+      "intro": "The sixteenth letter of the <a href=\"/blog/hebrew-alphabet-complete-guide/\">Hebrew alphabet</a>. In the common modern Israeli pronunciation taught here, Ayin usually adds no consonant sound of its own, just like <a href=\"/learn/hebrew-alphabet/aleph/\">Aleph (<bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">א</bdi>)</a>: you pronounce the vowel written with it. Some speakers, especially in Mizrahi Hebrew, pronounce it deep in the throat. Its name, <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">עַיִן</bdi>, is also the Hebrew word for “eye.”",
+      "objectivesHeading": "What you’ll learn",
+      "objectives": [
+        "Recognize Ayin: <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ע</bdi>.",
+        "Read Ayin with the vowel written with it, and know the other pronunciations you may hear.",
+        "Read Ayin in real words like <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">עַיִן</bdi> (eye) and <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">עוּגָה</bdi> (cake)."
+      ],
+      "secondSectionHeading": "How Ayin sounds",
+      "thirdSectionHeading": "Ayin and the word for “eye”"
+    },
+    "examples": {
+      "heading": "Ayin in real words",
+      "intro": "Read three words with Ayin and see how each one is pronounced, then read five more words aloud for reading practice."
+    }
+  },
+  "holdOuts": {
+    "blocks": [],
+    "exercises": []
+  },
+  "source": {
+    "rawSnapshotPath": ".local/alphabet-course-imports/v1/2026-10-19T14-27-01-990Z-cc446f/raw/lesson-16.raw.json",
+    "sha256": "1aabe9e486abc62d4327038eb0c117343ae97467578d349ec1068893b2783401",
+    "responseDate": "2026-10-19T14:27:09.153Z"
+  }
+}

@@ -176,6 +176,10 @@ Samech (ס), also spelled Samekh, is a plain [s], as in "sit," in סוֹד [sod]
 
 → [Practice Samekh in the Hebrew Alphabet Course](/learn/hebrew-alphabet/samekh/)
 
+Ayin (ע) usually adds no consonant sound of its own in the common modern Israeli pronunciation, just like Aleph: you pronounce the vowel written with it, as in עַיִן [a-yin], "eye." Some speakers, especially in Mizrahi Hebrew, pronounce it deep in the throat.
+
+→ [Practice Ayin in the Hebrew Alphabet Course](/learn/hebrew-alphabet/ayin/)
+
 ## The Five Final Letters
 
 Five Hebrew letters have a different written form when they appear at the **end of a word**. These are called *sofit* forms (סופית — “final”). The shape change is different for each pair.

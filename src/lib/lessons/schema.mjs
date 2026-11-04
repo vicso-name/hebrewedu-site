@@ -40,7 +40,9 @@ const strictRenderedExercise = type => z.object({
     ? z.object({ correctAnswer: z.enum(['true', 'false']) }).strict()
     : type === 'MATCH_PAIRS'
     ? z.object({ pairs: z.record(text, text).refine(pairs => Object.keys(pairs).length >= 2, 'At least two pairs are required') }).strict()
-    : z.object({ choices: z.array(text).length(type === 'MULTIPLE_CHOICE_COLUMN' ? 3 : 4), correctAnswer: text }).strict(),
+    // A grid holds 4 choices, or 3 in some later lessons' sources (Ayin onward);
+    // Practice.astro lays a 3-choice grid out as a single column.
+    : z.object({ choices: type === 'MULTIPLE_CHOICE_COLUMN' ? z.array(text).length(3) : z.array(text).min(3).max(4), correctAnswer: text }).strict(),
 }).strict();
 const passthroughRecognizedExercise = type => z.object({ id: text, type: z.literal(type) }).passthrough();
 const rawExercise = z.discriminatedUnion('type', [
@@ -82,8 +84,8 @@ const choiceExercise = z.object({
   if (new Set(ids).size !== ids.length) ctx.addIssue({ code: 'custom', message: 'Duplicate option IDs' });
   if (new Set(item.options.map(option => option.label)).size !== ids.length) ctx.addIssue({ code: 'custom', message: 'Equivalent normalized choices' });
   if (!ids.includes(item.correctOptionId)) ctx.addIssue({ code: 'custom', message: 'Answer must map to an option ID' });
-  const expected = item.type === 'TRUE_FALSE' ? 2 : item.type === 'MULTIPLE_CHOICE_COLUMN' ? 3 : 4;
-  if (ids.length !== expected) ctx.addIssue({ code: 'custom', message: 'Incorrect option count for exercise type' });
+  const expected = item.type === 'TRUE_FALSE' ? [2] : item.type === 'MULTIPLE_CHOICE_COLUMN' ? [3] : [3, 4];
+  if (!expected.includes(ids.length)) ctx.addIssue({ code: 'custom', message: 'Incorrect option count for exercise type' });
   if (item.type === 'TRUE_FALSE' && (item.options[0].label !== 'True' || item.options[1].label !== 'False')) {
     ctx.addIssue({ code: 'custom', message: 'True/false options must be explicit' });
   }
