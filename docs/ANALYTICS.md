@@ -78,6 +78,7 @@ All go through `track(event, params)`:
 | `practice_start` | `letter` | `practice-client.ts`, first time the Practice stage is shown |
 | `lesson_complete` | `letter`, `score`, `total` | `practice-client.ts`, first time the Results stage is shown (`score`/`total` = correct / available questions) |
 | `phrases_practice_complete` | `score` | `phrases/practice-client.ts`, once every phrase question has been checked |
+| `phrase_audio_play` | `phrase` (phrase id, e.g. `good-morning`) | `phrases/audio-client.ts`, each tap on a phrases-page play button that starts a clip |
 | `verb_view` | `verb` (id, e.g. `likhtov`), `binyan`, `locked` | `verbs/explorer-client.ts`, each time a reader opens a verb on the verb tool (not the default one shown on load) — docs/VERBS.md |
 | `cursive_convert` | `length` (letters typed, never the text) | `cursive/cursive-client.ts`, 1.5 s after the reader stops typing a new word in the cursive converter |
 | `cursive_example` | `index` (position of the example word) | `cursive/cursive-client.ts`, an example word chip in the converter |

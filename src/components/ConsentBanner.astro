@@ -22,7 +22,7 @@ const privacyHref = locale === 'fr' ? '/fr/confidentialite/' : '/website-privacy
     </p>
     <div class="consent-banner-actions">
       <button type="button" class="consent-banner-btn" data-consent-choice="denied">{t.consent.decline}</button>
-      <button type="button" class="consent-banner-btn" data-consent-choice="granted">{t.consent.accept}</button>
+      <button type="button" class="consent-banner-btn consent-banner-btn--accept" data-consent-choice="granted">{t.consent.accept}</button>
     </div>
   </div>
 </div>
@@ -76,10 +76,13 @@ const privacyHref = locale === 'fr' ? '/fr/confidentialite/' : '/website-privacy
   border: 1px solid var(--border-dark);
   border-radius: var(--r-full);
   cursor: pointer;
-  transition: background 0.15s, border-color 0.15s;
+  transition: background 0.15s, border-color 0.15s, box-shadow 0.15s;
 }
 .consent-banner-btn:hover { background: var(--surface-soft); border-color: var(--ink-subtle); }
 .consent-banner-btn:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
+/* Accept is the primary action: filled brand button, Decline stays outlined. */
+.consent-banner-btn--accept { color: var(--white); background: var(--brand-dark); border-color: var(--brand-dark); }
+.consent-banner-btn--accept:hover { background: var(--brand-dark); border-color: var(--brand-dark); box-shadow: 0 6px 20px rgba(99,102,241,.45); }
 @keyframes consent-fade { from { opacity: 0; } }
 @keyframes consent-rise { from { opacity: 0; transform: translateY(16px); } }
 @media (prefers-reduced-motion: reduce) {

@@ -1,0 +1,46 @@
+---
+// Round "listen" button for a Hebrew line on the phrases page. Renders
+// nothing when the line has no clip (src undefined), so a card or turn
+// without audio just shows no button. Playback: src/lib/phrases/audio-client.ts.
+import { getDictionary, type Locale } from '../../i18n';
+
+interface Props {
+  /** Clip URL (src/lib/phrases/audio.ts). */
+  src?: string;
+  /** Phrase id, sent with the phrase_audio_play event. */
+  phraseId: string;
+  size?: 'md' | 'sm';
+  locale?: Locale;
+}
+const { src, phraseId, size = 'md', locale = 'en' } = Astro.props;
+const label = getDictionary(locale).phrases.listen;
+---
+{src && <button type="button" class={`say say--${size}`} data-say={src} data-say-id={phraseId} aria-label={label} title={label}>
+  <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+    <path class="say-speaker" d="M4 9.5h3.2L12 5.5v13l-4.8-4H4z" />
+    <path class="say-wave say-wave--1" d="M15.2 9.2a4 4 0 0 1 0 5.6" />
+    <path class="say-wave say-wave--2" d="M17.8 6.6a7.7 7.7 0 0 1 0 10.8" />
+  </svg>
+</button>}
+<script>
+  import { initSayButtons } from '../../lib/phrases/audio-client';
+  initSayButtons();
+</script>
+<style>
+  .say { flex: none; display: inline-grid; place-items: center; width: 44px; height: 44px; padding: 0; border: 1px solid var(--brand-line); border-radius: var(--r-full); background: var(--white); color: var(--brand-dark); cursor: pointer; transition: background-color .15s ease, color .15s ease, border-color .15s ease; }
+  .say--sm { width: 36px; height: 36px; }
+  .say--sm svg { width: 20px; height: 20px; }
+  .say:hover { background: var(--brand-light); border-color: var(--brand-dark); }
+  .say:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+  .say.is-playing { background: var(--brand-dark); border-color: var(--brand-dark); color: var(--white); }
+  .say svg { display: block; }
+  .say-speaker { fill: currentColor; }
+  .say-wave { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; }
+  .say.is-playing .say-wave { animation: say-pulse 0.9s ease-in-out infinite; }
+  .say.is-playing .say-wave--2 { animation-delay: .15s; }
+  @keyframes say-pulse { 50% { opacity: .25; } }
+  @media (prefers-reduced-motion: reduce) {
+    .say { transition: none; }
+    .say.is-playing .say-wave { animation: none; }
+  }
+</style>

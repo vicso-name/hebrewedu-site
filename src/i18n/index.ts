@@ -306,6 +306,8 @@ export interface Dictionary {
   phrases: {
     saidBy: string;
     saidTo: string;
+    /** Play button on a Hebrew line (SayButton.astro): aria-label and tooltip. */
+    listen: string;
     variantToggle: {
       speaker: { male: string; female: string };
       addressee: { male: string; female: string };
