@@ -383,18 +383,18 @@
       "slug": "pe",
       "name": "Pe",
       "sourceImported": true,
-      "webImplemented": false,
-      "previewAvailable": false,
-      "editorialApproved": false,
-      "published": false,
-      "publishedAt": null,
+      "webImplemented": true,
+      "previewAvailable": true,
+      "editorialApproved": true,
+      "published": true,
+      "publishedAt": "2026-11-04",
       "locales": {
         "fr": {
-          "webImplemented": false,
-          "previewAvailable": false,
-          "editorialApproved": false,
-          "published": false,
-          "publishedAt": null,
+          "webImplemented": true,
+          "previewAvailable": true,
+          "editorialApproved": true,
+          "published": true,
+          "publishedAt": "2026-11-04",
           "backfill": false
         }
       }

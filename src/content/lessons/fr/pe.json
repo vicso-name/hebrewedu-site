@@ -1,0 +1,562 @@
+{
+  "id": "pe",
+  "sourceId": 17,
+  "order": 17,
+  "glyph": "פ",
+  "locale": "fr",
+  "title": "Pé (פ) : lettre hébraïque, son et exemples",
+  "description": "Apprends la lettre hébraïque Pé (פ) : le son [p] avec un dagesh, le son [f] (Fé), la forme finale ף, des mots comme פֶּה (bouche) et des exercices.",
+  "status": "local-review-only",
+  "normalizationVersion": 1,
+  "provenance": {
+    "source": "https://api.hebrewedu.com/api/lessons/17/?lang=fr",
+    "responseDate": "2026-10-19T14:27:25.482Z",
+    "sha256": "292e636941984232aefa1305558beb160372183cdbfea7875fbec0739c649093"
+  },
+  "editorialIssues": [],
+  "blocks": [
+    {
+      "id": "pe-block-1",
+      "sourceIndex": 0,
+      "text": "Pé (פ) : lettre hébraïque, son et exemples",
+      "reviewFlags": [],
+      "type": "MAIN_TITLE"
+    },
+    {
+      "id": "pe-block-2",
+      "sourceIndex": 1,
+      "text": "Pé (פ) est la dix-septième lettre de l’alphabet hébreu. Dans les textes vocalisés, Pé avec un dagesh (פּ, point au centre) se prononce [p], comme le « p » de « papa » ; sans dagesh (פ), il se prononce [f], comme le « f » de « farine ». Cette lettre a aussi une forme finale, Fé Sofit (ף), utilisée en fin de mot.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "pe-block-3",
+      "sourceIndex": 2,
+      "text": "Le mot hébreu פֶּה [pe] signifie « bouche ». Les indications entre crochets sont des aides à la prononciation, pas une transcription en API. Dans cette leçon, [a] se rapproche du « a » français, [o] du « o », et [e] du « é » ; [p] et [f] se prononcent comme en français. Le trait d’union sépare les syllabes. Dans [pe], prononce le « é » sans ajouter de son y.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "pe-block-4",
+      "sourceIndex": 3,
+      "text": "Une lettre, deux sons",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "pe-block-5",
+      "sourceIndex": 4,
+      "text": "En hébreu moderne, les lettres ב, כ et פ peuvent avoir deux prononciations dans les textes vocalisés. Pour Pé, le dagesh distingue פּ [p] de פ [f]. Il ne signifie pas que la consonne doit être prononcée deux fois.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "pe-block-6",
+      "sourceIndex": 5,
+      "text": "Fé (פ), sans dagesh, se prononce [f], comme le « f » de « farine ».",
+      "reviewFlags": [],
+      "type": "TEXT_IMAGE",
+      "illustration": {
+        "glyph": "פ",
+        "label": "Fé (Pé sans dagesh)",
+        "equivalent": "Pé sans point (dagesh) au centre, prononcé [f]. Cette forme s’appelle Fé.",
+        "mediaStatus": "withheld-pending-review"
+      }
+    },
+    {
+      "id": "pe-block-8",
+      "sourceIndex": 7,
+      "text": "Le mot hébreu שָׂפָה [sa-fa] signifie « langue ». Le point en haut à gauche de שׂ indique le son [s] ; avec le kamats, il forme [sa]. Pé, sans dagesh, se prononce [f] ; avec le kamats, il forme [fa]. En fin de mot, le Hé est muet ici. Prononce deux syllabes, sa-fa, en accentuant fa.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "pe-block-9",
+      "sourceIndex": 8,
+      "text": "Pé (פּ), avec un dagesh, se prononce [p], comme le « p » de « papa ».",
+      "reviewFlags": [],
+      "type": "TEXT_IMAGE",
+      "illustration": {
+        "glyph": "פּ",
+        "label": "Pé avec dagesh",
+        "equivalent": "Pé avec un point (dagesh) au centre, prononcé [p]. Sans ce point, le Pé se prononce [f].",
+        "mediaStatus": "withheld-pending-review"
+      }
+    },
+    {
+      "id": "pe-block-11",
+      "sourceIndex": 10,
+      "text": "Le mot hébreu פּוֹעַל [po-al] signifie « verbe ». Pé (פּ) porte un dagesh et se prononce [p]. Le holam malé (וֹ) donne le son [o], sans son v séparé. Ayin (ע), ici sans consonne audible, porte un patah qui donne [a] ; certains locuteurs prononcent toutefois Ayin comme une consonne gutturale. Lamed (ל) donne [l]. Prononce deux syllabes, po-al, en accentuant po et en gardant o et a distincts.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "pe-block-12",
+      "sourceIndex": 11,
+      "text": "Dans l’écriture hébraïque courante, les signes vocaliques et le dagesh sont généralement omis. Sans dagesh visible, פ peut donc correspondre à [p] ou à [f] : on apprend sa prononciation avec le mot et on s’aide du contexte. Dans les exemples vocalisés de cette leçon, le dagesh indique le son [p] ; son absence indique [f].",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "pe-block-13",
+      "sourceIndex": 12,
+      "text": "Fé Sofit (ף) est la forme finale de Pé. Dans les mots de cette leçon, elle apparaît à la fin et se prononce [f].",
+      "reviewFlags": [],
+      "type": "TEXT_IMAGE",
+      "illustration": {
+        "glyph": "ף",
+        "label": "Fé Sofit",
+        "equivalent": "Pé final : Pé dont le trait descend sous la ligne, écrit en fin de mot et prononcé [f].",
+        "mediaStatus": "withheld-pending-review"
+      }
+    },
+    {
+      "id": "pe-block-14",
+      "sourceIndex": 13,
+      "text": "Fé Sofit (ף) est la forme finale de Pé et se prononce [f], comme dans אַף [af], « nez ». Dans les mots de cette leçon, פ apparaît au début ou au milieu, tandis que ף apparaît à la fin. Sofit signifie « finale ».",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "pe-block-15",
+      "sourceIndex": 14,
+      "text": "Mots à pratiquer :",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "pe-block-16",
+      "sourceIndex": 15,
+      "text": "bouche",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "פֶּה",
+      "transcription": "pe"
+    },
+    {
+      "id": "pe-block-17",
+      "sourceIndex": 16,
+      "text": "Le mot hébreu פֶּה [pe] signifie « bouche ». Il comporte deux lettres : Pé (פּ) et Hé (ה). Le dagesh donne à Pé le son [p], et le ségol (ֶ) sous Pé donne [e]. En fin de mot, le Hé est muet. Prononce pe en une syllabe.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "pe-block-18",
+      "sourceIndex": 17,
+      "text": "belle",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "יָפָה",
+      "transcription": "yafa"
+    },
+    {
+      "id": "pe-block-19",
+      "sourceIndex": 18,
+      "text": "Le mot hébreu יָפָה [ya-fa] signifie « belle » au féminin singulier : il s’accorde avec un nom féminin singulier et peut décrire une femme ou une fille. Il comporte trois lettres : Yod (י), Pé (פ) et Hé (ה). Yod se prononce [y], comme le y de « yeux » ; son kamats donne [a], soit [ya]. Pé n’a pas de dagesh : il se prononce [f] ; son kamats donne [a], soit [fa]. En fin de mot, le Hé est muet. Prononce deux syllabes, ya-fa, en accentuant fa.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "pe-block-20",
+      "sourceIndex": 19,
+      "text": "nez",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "אַף",
+      "transcription": "af"
+    },
+    {
+      "id": "pe-block-21",
+      "sourceIndex": 20,
+      "text": "Le mot hébreu אַף [af] signifie « nez ». Il comporte deux lettres : Alef (א) et Fé Sofit (ף). Le patah (ַ) sous Alef donne [a] ; Fé Sofit donne [f]. Prononce af en une syllabe.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "pe-block-22",
+      "sourceIndex": 21,
+      "text": "Pour conclure",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "pe-block-23",
+      "sourceIndex": 22,
+      "text": "Récapitulons. Dans les textes vocalisés, Pé avec un dagesh (פּ) se prononce [p], et Fé sans dagesh (פ) se prononce [f]. La forme finale ף, appelée Fé Sofit, se prononce [f] en fin de mot. Tu as rencontré ces sons dans plusieurs mots. À toi de jouer : fais le quiz pour vérifier ce que tu as retenu !",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "pe-exercise-1",
+      "sourceId": "1742225742307",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Comment se prononce la lettre Pé (פּ) ?",
+      "explanation": "Pé (פּ), avec un dagesh, se prononce [p], comme le « p » de « papa ».",
+      "options": [
+        {
+          "id": "pe-exercise-1-option-1",
+          "label": "[ p ]"
+        },
+        {
+          "id": "pe-exercise-1-option-2",
+          "label": "[ f ]"
+        },
+        {
+          "id": "pe-exercise-1-option-3",
+          "label": "[ b ]"
+        },
+        {
+          "id": "pe-exercise-1-option-4",
+          "label": "[ m ]"
+        }
+      ],
+      "correctOptionId": "pe-exercise-1-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "pe-exercise-2",
+      "sourceId": "1742225742308",
+      "type": "TRUE_FALSE",
+      "prompt": "Dans un texte vocalisé, Fé sans dagesh (פ) et Fé Sofit (ף) se prononcent tous deux [f].",
+      "explanation": "Tous deux se prononcent [f] ; ף est la forme finale. Pé avec un dagesh (פּ) se prononce [p].",
+      "options": [
+        {
+          "id": "pe-exercise-2-option-1",
+          "label": "True"
+        },
+        {
+          "id": "pe-exercise-2-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "pe-exercise-2-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "pe-exercise-3",
+      "sourceId": "1742225742309",
+      "type": "MATCH_PAIRS",
+      "prompt": "Associe chaque forme de lettre à sa prononciation dans un texte vocalisé.",
+      "explanation": "Pé avec un dagesh (פּ) se prononce [p]. Fé sans dagesh (פ) et Fé Sofit (ף) se prononcent [f].",
+      "pairs": [
+        {
+          "id": "pe-exercise-3-pair-1",
+          "left": "ף",
+          "right": "[ f ] finale"
+        },
+        {
+          "id": "pe-exercise-3-pair-2",
+          "left": "פ",
+          "right": "[ f ] sans dagesh"
+        },
+        {
+          "id": "pe-exercise-3-pair-3",
+          "left": "פּ",
+          "right": "[ p ] avec dagesh"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "pe-exercise-4",
+      "sourceId": "1742225742310",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Que signifie « Sofit » en hébreu ?",
+      "explanation": "Sofit signifie « finale » : certaines lettres ont une forme particulière en fin de mot.",
+      "options": [
+        {
+          "id": "pe-exercise-4-option-1",
+          "label": "Forme initiale"
+        },
+        {
+          "id": "pe-exercise-4-option-2",
+          "label": "Forme médiane"
+        },
+        {
+          "id": "pe-exercise-4-option-3",
+          "label": "Forme finale"
+        }
+      ],
+      "correctOptionId": "pe-exercise-4-option-3",
+      "reviewFlags": []
+    },
+    {
+      "id": "pe-exercise-5",
+      "sourceId": "1742225742311",
+      "type": "TRUE_FALSE",
+      "prompt": "La forme finale de Pé qui se prononce [f] s’appelle Fé Sofit (ף).",
+      "explanation": "Fé Sofit (ף) se prononce [f] et s’emploie en fin de mot, comme dans אַף [af], « nez ».",
+      "options": [
+        {
+          "id": "pe-exercise-5-option-1",
+          "label": "True"
+        },
+        {
+          "id": "pe-exercise-5-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "pe-exercise-5-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "pe-exercise-6",
+      "sourceId": "1742225742312",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Comment se prononce Fé Sofit (ף) ?",
+      "explanation": "Fé Sofit (ף) se prononce comme Fé sans dagesh (פ) : [f].",
+      "options": [
+        {
+          "id": "pe-exercise-6-option-1",
+          "label": "[ s ]"
+        },
+        {
+          "id": "pe-exercise-6-option-2",
+          "label": "[ f ]"
+        },
+        {
+          "id": "pe-exercise-6-option-3",
+          "label": "[ t ]"
+        },
+        {
+          "id": "pe-exercise-6-option-4",
+          "label": "[ k ]"
+        }
+      ],
+      "correctOptionId": "pe-exercise-6-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "pe-exercise-7",
+      "sourceId": "1742225742313",
+      "type": "MATCH_PAIRS",
+      "prompt": "Associe chaque mot hébreu à sa traduction.",
+      "explanation": "אַף signifie « nez », פֶּה « bouche » et יָפָה « belle » au féminin singulier.",
+      "pairs": [
+        {
+          "id": "pe-exercise-7-pair-1",
+          "left": "אַף",
+          "right": "nez"
+        },
+        {
+          "id": "pe-exercise-7-pair-2",
+          "left": "פֶּה",
+          "right": "bouche"
+        },
+        {
+          "id": "pe-exercise-7-pair-3",
+          "left": "יָפָה",
+          "right": "belle"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "pe-exercise-8",
+      "sourceId": "1742225742314",
+      "type": "TRUE_FALSE",
+      "prompt": "Pé avec un dagesh (פּ) se prononce [p].",
+      "explanation": "Le dagesh sur Pé (פּ) indique le son [p].",
+      "options": [
+        {
+          "id": "pe-exercise-8-option-1",
+          "label": "True"
+        },
+        {
+          "id": "pe-exercise-8-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "pe-exercise-8-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "pe-exercise-9",
+      "sourceId": "1742225742315",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Comment se prononce פֶּה ?",
+      "explanation": "פֶּה se prononce [pe] et signifie « bouche ». Prononce [pe] en une seule syllabe.",
+      "options": [
+        {
+          "id": "pe-exercise-9-option-1",
+          "label": "[ pe ]"
+        },
+        {
+          "id": "pe-exercise-9-option-2",
+          "label": "[ pa ]"
+        },
+        {
+          "id": "pe-exercise-9-option-3",
+          "label": "[ po ]"
+        },
+        {
+          "id": "pe-exercise-9-option-4",
+          "label": "[ pi ]"
+        }
+      ],
+      "correctOptionId": "pe-exercise-9-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "pe-exercise-10",
+      "sourceId": "1742225742316",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Quel son représente le Kamats Gadol (ָ) dans Pé (פָּ) ?",
+      "explanation": "Le Kamats Gadol sous Pé représente [a], proche du « a » français ; il forme [pa]. En hébreu moderne, aucune différence de longueur n’est obligatoire.",
+      "options": [
+        {
+          "id": "pe-exercise-10-option-1",
+          "label": "[ o ]"
+        },
+        {
+          "id": "pe-exercise-10-option-2",
+          "label": "[ e ]"
+        },
+        {
+          "id": "pe-exercise-10-option-3",
+          "label": "[ a ]"
+        }
+      ],
+      "correctOptionId": "pe-exercise-10-option-3",
+      "reviewFlags": []
+    },
+    {
+      "id": "pe-exercise-11",
+      "sourceId": "1742225742317",
+      "type": "TRUE_FALSE",
+      "prompt": "La lettre Hé (ה) en fin de mot est généralement muette.",
+      "explanation": "Dans la plupart des cas, le Hé en fin de mot ne se prononce pas ; il est muet dans פֶּה, יָפָה et שָׂפָה.",
+      "options": [
+        {
+          "id": "pe-exercise-11-option-1",
+          "label": "True"
+        },
+        {
+          "id": "pe-exercise-11-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "pe-exercise-11-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "pe-exercise-12",
+      "sourceId": "1742225742318",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Comment se prononce אַף ?",
+      "explanation": "אַף se prononce [af] en une syllabe et signifie « nez ».",
+      "options": [
+        {
+          "id": "pe-exercise-12-option-1",
+          "label": "[ af ]"
+        },
+        {
+          "id": "pe-exercise-12-option-2",
+          "label": "[ saf ]"
+        },
+        {
+          "id": "pe-exercise-12-option-3",
+          "label": "[ sof ]"
+        },
+        {
+          "id": "pe-exercise-12-option-4",
+          "label": "[ paf ]"
+        }
+      ],
+      "correctOptionId": "pe-exercise-12-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "pe-exercise-13",
+      "sourceId": "1742225742319",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "Quelle lettre hébraïque porte un signe vocalique Patah ?",
+      "explanation": "Le patah est le petit trait horizontal sous une lettre ; il représente [a].",
+      "options": [
+        {
+          "id": "pe-exercise-13-option-1",
+          "label": "אַ"
+        },
+        {
+          "id": "pe-exercise-13-option-2",
+          "label": "פֶּ"
+        },
+        {
+          "id": "pe-exercise-13-option-3",
+          "label": "ף"
+        }
+      ],
+      "correctOptionId": "pe-exercise-13-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "pe-exercise-14",
+      "sourceId": "1742225742320",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "Que signifie אַף ?",
+      "explanation": "אַף [af] signifie « nez ».",
+      "options": [
+        {
+          "id": "pe-exercise-14-option-1",
+          "label": "nez"
+        },
+        {
+          "id": "pe-exercise-14-option-2",
+          "label": "œil"
+        },
+        {
+          "id": "pe-exercise-14-option-3",
+          "label": "bras"
+        }
+      ],
+      "correctOptionId": "pe-exercise-14-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "pe-exercise-15",
+      "sourceId": "1742225742321",
+      "type": "MATCH_PAIRS",
+      "prompt": "Associe chaque mot français à son équivalent hébreu.",
+      "explanation": "« Nez » correspond à אַף, « bouche » à פֶּה et « belle » (féminin singulier) à יָפָה.",
+      "pairs": [
+        {
+          "id": "pe-exercise-15-pair-1",
+          "left": "nez",
+          "right": "אַף"
+        },
+        {
+          "id": "pe-exercise-15-pair-2",
+          "left": "belle",
+          "right": "יָפָה"
+        },
+        {
+          "id": "pe-exercise-15-pair-3",
+          "left": "bouche",
+          "right": "פֶּה"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "pe-exercise-16",
+      "sourceId": "1742225742322",
+      "type": "TRUE_FALSE",
+      "prompt": "En texte vocalisé, Fé Sofit (ף) et Fé sans dagesh (פ) représentent des sons différents.",
+      "explanation": "Tous deux se prononcent [f]. Avec un dagesh, Pé (פּ) se prononce [p].",
+      "options": [
+        {
+          "id": "pe-exercise-16-option-1",
+          "label": "True"
+        },
+        {
+          "id": "pe-exercise-16-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "pe-exercise-16-option-2",
+      "reviewFlags": []
+    }
+  ]
+}
