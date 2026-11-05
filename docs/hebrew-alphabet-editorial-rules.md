@@ -42,6 +42,14 @@ Fill it with the source's own sentences about that image, e.g. a held-out
 `STRIPED_BLOCK`'s text, rather than new wording (owner decision, Mem review
 2026-10-28).
 
+## Held-out block that the lesson points back to
+
+When a held-out block (an unsupported `STRIPED_BLOCK` pronunciation key, say)
+is what another block or tip refers to ("explained above"), or carries a note
+the lesson needs, move that block's own sentence into the block that relies on
+it instead of writing new wording, and drop the dangling reference (owner
+decision, Tsadi review 2026-11-05; same idea as "Empty image body").
+
 ## No absolute "always/never" pronunciation rules without the known exception
 
 Don't state a pronunciation rule as universal ("always," "never") if a

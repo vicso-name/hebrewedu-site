@@ -406,18 +406,18 @@
       "slug": "tsadi",
       "name": "Tsadi",
       "sourceImported": true,
-      "webImplemented": false,
-      "previewAvailable": false,
-      "editorialApproved": false,
-      "published": false,
-      "publishedAt": null,
+      "webImplemented": true,
+      "previewAvailable": true,
+      "editorialApproved": true,
+      "published": true,
+      "publishedAt": "2026-11-05",
       "locales": {
         "fr": {
-          "webImplemented": false,
-          "previewAvailable": false,
-          "editorialApproved": false,
-          "published": false,
-          "publishedAt": null,
+          "webImplemented": true,
+          "previewAvailable": true,
+          "editorialApproved": true,
+          "published": true,
+          "publishedAt": "2026-11-05",
           "backfill": false
         }
       }

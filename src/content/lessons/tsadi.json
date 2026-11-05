@@ -1,0 +1,518 @@
+{
+  "id": "tsadi",
+  "sourceId": 18,
+  "order": 18,
+  "glyph": "צ",
+  "locale": "en",
+  "title": "Tsadi Hebrew Letter (צ): Tzaddi, Sound & Final Tsadi",
+  "description": "Learn the Hebrew letter Tsadi (צ), also spelled Tzaddi or Tsade: its [ts] sound, final Tsadi (ץ), words like צֵל (shadow) and interactive practice.",
+  "status": "local-review-only",
+  "normalizationVersion": 1,
+  "provenance": {
+    "source": "https://api.hebrewedu.com/api/lessons/18/?lang=en",
+    "responseDate": "2026-10-19T14:27:09.788Z",
+    "sha256": "cb4d2d0de661f3c47dbee3567b806595ad93f6489e553d078c5ec7eab9319974"
+  },
+  "editorialIssues": [],
+  "blocks": [
+    {
+      "id": "tsadi-block-1",
+      "sourceIndex": 0,
+      "text": "Tsadi Hebrew Letter (צ): Sound, Final Tsadi & Practice",
+      "reviewFlags": [],
+      "type": "MAIN_TITLE"
+    },
+    {
+      "id": "tsadi-block-2",
+      "sourceIndex": 1,
+      "text": "Tsadi (צ) is the eighteenth letter of the Hebrew alphabet. In modern Hebrew, it represents [ts], like the joined ts sound in English 'cats'. Tsadi has two written forms: the regular form צ and the final form ץ, called Tsadi Sofit. They are forms of the same letter, not two separate letters of the alphabet.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "tsadi-block-4",
+      "sourceIndex": 3,
+      "text": "Tsadi Sofit (ץ) is the final form of Tsadi. It represents the same [ts] sound as צ, like ts in 'cats'.",
+      "reviewFlags": [],
+      "type": "TEXT_IMAGE",
+      "illustration": {
+        "glyph": "ץ",
+        "label": "Tsadi Sofit",
+        "equivalent": "Final Tsadi: Tsadi with its stem extended straight down below the line, written at the end of a word and pronounced [ts].",
+        "mediaStatus": "withheld-pending-review"
+      }
+    },
+    {
+      "id": "tsadi-block-5",
+      "sourceIndex": 4,
+      "text": "In ordinary Hebrew words, the regular form צ appears at the beginning or in the middle, and Tsadi Sofit (ץ) appears at the end. 'Sofit' means 'final'. Both forms represent [ts]. A dagesh in Tsadi does not require a doubled consonant in ordinary modern Hebrew.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "tsadi-block-6",
+      "sourceIndex": 5,
+      "text": "Words to Practice:",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "tsadi-block-7",
+      "sourceIndex": 6,
+      "text": "hunting",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "צַיִד",
+      "transcription": "tsayid"
+    },
+    {
+      "id": "tsadi-block-8",
+      "sourceIndex": 7,
+      "text": "The Hebrew word 'צַיִד' [tsa-yid] means 'hunting'. It has three letters: Tsadi (צ), Yud (י), and Dalet (ד). The Patah (ַ) beneath Tsadi gives [a], making [tsa]. Yud with a Hiriq (ִ) gives [yi], and Dalet closes the second syllable with [d]. Say two syllables, tsa-yid, with the stress on tsa. Do not add a vowel after the final d.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "tsadi-block-9",
+      "sourceIndex": 8,
+      "text": "shadow",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "צֵל",
+      "transcription": "tsel"
+    },
+    {
+      "id": "tsadi-block-10",
+      "sourceIndex": 9,
+      "text": "The Hebrew word 'צֵל' [tsel] means 'shadow'. It has two letters: Tsadi (צ) and Lamed (ל). The Tsere (ֵ) beneath Tsadi gives [e], and Lamed gives [l]. Say tsel as one syllable, with a steady e; no special vowel length is required.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "tsadi-block-11",
+      "sourceIndex": 10,
+      "text": "object",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "חֵפֶץ",
+      "transcription": "chefets"
+    },
+    {
+      "id": "tsadi-block-12",
+      "sourceIndex": 11,
+      "text": "The Hebrew word 'חֵפֶץ' [che-fets] means 'object', a physical thing. It has three letters: Chet (ח), Pey (פ), and Tsadi Sofit (ץ). Chet with a Tsere gives [che], with the throaty ch of 'loch'. Pey without a dagesh gives [f], and its Segol (ֶ) gives [e]. Tsadi Sofit gives the final [ts]. Say two syllables, che-fets, with the stress on che. Both vowels are [e]; the different vowel signs do not require a difference in length in modern Hebrew.",
+      "reviewFlags": [],
+      "type": "BOLD_TEXT"
+    },
+    {
+      "id": "tsadi-block-13",
+      "sourceIndex": 12,
+      "text": "Reading Practice",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "tsadi-block-14",
+      "sourceIndex": 13,
+      "text": "Read each word aloud. גַּן [gan], 'garden', has one syllable. בִּטָּחוֹן [bi-ta-chon], 'security', has three syllables, with the stress on chon; the dagesh in Tet does not require a doubled t in modern Hebrew. מְהֵרָה [me-he-ra], 'quickly', is a literary word: in this careful reading, the initial Sheva is read as e, giving three syllables with the stress on ra; a reduced two-syllable reading, [mhe-ra], is also used. אָבַד [a-vad] means 'he/it was lost', a past-tense verb form; it has two syllables, with the stress on vad. פּוֹעַל [po-al] means 'verb' in grammar; it has two syllables, with the stress on po. Keep o and a separate. Also review חֶבֶל [che-vel], 'rope': two syllables, with the stress on che. In חֶבֶל, Bet without a dagesh gives [v].",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    },
+    {
+      "id": "tsadi-block-15",
+      "sourceIndex": 14,
+      "text": "garden",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "גַּן",
+      "transcription": "gan"
+    },
+    {
+      "id": "tsadi-block-16",
+      "sourceIndex": 15,
+      "text": "security",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "בִּטָּחוֹן",
+      "transcription": "bitachon"
+    },
+    {
+      "id": "tsadi-block-17",
+      "sourceIndex": 16,
+      "text": "quickly (literary)",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "מְהֵרָה",
+      "transcription": "mehera"
+    },
+    {
+      "id": "tsadi-block-18",
+      "sourceIndex": 17,
+      "text": "he/it was lost",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "אָבַד",
+      "transcription": "avad"
+    },
+    {
+      "id": "tsadi-block-19",
+      "sourceIndex": 18,
+      "text": "verb (grammar)",
+      "reviewFlags": [],
+      "type": "WORD_EXAMPLE",
+      "word": "פּוֹעַל",
+      "transcription": "poal"
+    },
+    {
+      "id": "tsadi-block-20",
+      "sourceIndex": 19,
+      "text": "Conclusions",
+      "reviewFlags": [],
+      "type": "SUBTITLE"
+    },
+    {
+      "id": "tsadi-block-21",
+      "sourceIndex": 20,
+      "text": "You have practised Tsadi (צ), the eighteenth letter, and its final form, Tsadi Sofit (ץ). Both represent [ts], like ts in 'cats'. Tsadi is the last of the five letters with a final form in alphabetical order. Now test your reading and understanding of the words in this lesson.",
+      "reviewFlags": [],
+      "type": "SIMPLE_TEXT"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "tsadi-exercise-1",
+      "sourceId": "1742225842269",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "What sound does the letter Tsadi (צ) make?",
+      "explanation": "Think of the joined ts sound at the end of 'cats'.",
+      "options": [
+        {
+          "id": "tsadi-exercise-1-option-1",
+          "label": "[ s ]"
+        },
+        {
+          "id": "tsadi-exercise-1-option-2",
+          "label": "[ ts ]"
+        },
+        {
+          "id": "tsadi-exercise-1-option-3",
+          "label": "[ z ]"
+        },
+        {
+          "id": "tsadi-exercise-1-option-4",
+          "label": "[ sh ]"
+        }
+      ],
+      "correctOptionId": "tsadi-exercise-1-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "tsadi-exercise-2",
+      "sourceId": "1742225842270",
+      "type": "TRUE_FALSE",
+      "prompt": "The letter Tsadi (צ) has a final form called Tsadi Sofit (ץ).",
+      "explanation": "Tsadi Sofit (ץ) is the final form of the same letter, Tsadi (צ).",
+      "options": [
+        {
+          "id": "tsadi-exercise-2-option-1",
+          "label": "True"
+        },
+        {
+          "id": "tsadi-exercise-2-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "tsadi-exercise-2-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "tsadi-exercise-3",
+      "sourceId": "1742225842271",
+      "type": "MATCH_PAIRS",
+      "prompt": "Match the Hebrew words with their English meanings.",
+      "explanation": "צֵל [tsel] means 'shadow'; חֵפֶץ [che-fets] means 'object'; צַיִד [tsa-yid] means 'hunting'.",
+      "pairs": [
+        {
+          "id": "tsadi-exercise-3-pair-1",
+          "left": "צֵל",
+          "right": "shadow"
+        },
+        {
+          "id": "tsadi-exercise-3-pair-2",
+          "left": "חֵפֶץ",
+          "right": "object"
+        },
+        {
+          "id": "tsadi-exercise-3-pair-3",
+          "left": "צַיִד",
+          "right": "hunting"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "tsadi-exercise-4",
+      "sourceId": "1742225842272",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "How many forms of Tsadi are used in ordinary Hebrew words?",
+      "explanation": "Tsadi has two forms: the regular form (צ) and the final form (ץ).",
+      "options": [
+        {
+          "id": "tsadi-exercise-4-option-1",
+          "label": "Four"
+        },
+        {
+          "id": "tsadi-exercise-4-option-2",
+          "label": "Two"
+        },
+        {
+          "id": "tsadi-exercise-4-option-3",
+          "label": "Seven"
+        }
+      ],
+      "correctOptionId": "tsadi-exercise-4-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "tsadi-exercise-5",
+      "sourceId": "1742225842273",
+      "type": "TRUE_FALSE",
+      "prompt": "In ordinary Hebrew words, Tsadi Sofit (ץ) can appear in the middle of a word.",
+      "explanation": "Use the regular form צ in the middle and Tsadi Sofit (ץ) at the end.",
+      "options": [
+        {
+          "id": "tsadi-exercise-5-option-1",
+          "label": "True"
+        },
+        {
+          "id": "tsadi-exercise-5-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "tsadi-exercise-5-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "tsadi-exercise-6",
+      "sourceId": "1742225842274",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "How is the word 'צַיִד' pronounced?",
+      "explanation": "צַיִד is [tsa-yid], 'hunting': two syllables, with the stress on tsa. The final d belongs to yid.",
+      "options": [
+        {
+          "id": "tsadi-exercise-6-option-1",
+          "label": "[ tsa-yid ]"
+        },
+        {
+          "id": "tsadi-exercise-6-option-2",
+          "label": "[ tsi-yid ]"
+        },
+        {
+          "id": "tsadi-exercise-6-option-3",
+          "label": "[ za-yid ]"
+        }
+      ],
+      "correctOptionId": "tsadi-exercise-6-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "tsadi-exercise-7",
+      "sourceId": "1742225842275",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "What vowel sound does Segol (ֶ) represent in צֶ?",
+      "explanation": "Segol represents [e], roughly as in 'bet'. With Tsadi [ts], it makes [tse].",
+      "options": [
+        {
+          "id": "tsadi-exercise-7-option-1",
+          "label": "[ a ]"
+        },
+        {
+          "id": "tsadi-exercise-7-option-2",
+          "label": "[ i ]"
+        },
+        {
+          "id": "tsadi-exercise-7-option-3",
+          "label": "[ e ]"
+        }
+      ],
+      "correctOptionId": "tsadi-exercise-7-option-3",
+      "reviewFlags": []
+    },
+    {
+      "id": "tsadi-exercise-8",
+      "sourceId": "1742225842276",
+      "type": "TRUE_FALSE",
+      "prompt": "Tsadi Sofit (ץ) is pronounced differently from the regular Tsadi (צ).",
+      "explanation": "Both forms represent [ts], like ts in 'cats'.",
+      "options": [
+        {
+          "id": "tsadi-exercise-8-option-1",
+          "label": "True"
+        },
+        {
+          "id": "tsadi-exercise-8-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "tsadi-exercise-8-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "tsadi-exercise-9",
+      "sourceId": "1742225842277",
+      "type": "MATCH_PAIRS",
+      "prompt": "Match the English words with their Hebrew equivalents.",
+      "explanation": "חֶבֶל means 'rope', צֵל means 'shadow', and פּוֹעַל means 'verb' in grammar.",
+      "pairs": [
+        {
+          "id": "tsadi-exercise-9-pair-1",
+          "left": "rope",
+          "right": "חֶבֶל"
+        },
+        {
+          "id": "tsadi-exercise-9-pair-2",
+          "left": "verb",
+          "right": "פּוֹעַל"
+        },
+        {
+          "id": "tsadi-exercise-9-pair-3",
+          "left": "shadow",
+          "right": "צֵל"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "tsadi-exercise-10",
+      "sourceId": "1742225842278",
+      "type": "MULTIPLE_CHOICE_GRID",
+      "prompt": "What is the meaning of the Hebrew word חֵפֶץ?",
+      "explanation": "חֵפֶץ [che-fets] means 'object', a physical thing. Stress the first syllable, che.",
+      "options": [
+        {
+          "id": "tsadi-exercise-10-option-1",
+          "label": "book"
+        },
+        {
+          "id": "tsadi-exercise-10-option-2",
+          "label": "object"
+        },
+        {
+          "id": "tsadi-exercise-10-option-3",
+          "label": "tree"
+        }
+      ],
+      "correctOptionId": "tsadi-exercise-10-option-2",
+      "reviewFlags": []
+    },
+    {
+      "id": "tsadi-exercise-11",
+      "sourceId": "1742225842279",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "How is the word פּוֹעַל pronounced?",
+      "explanation": "פּוֹעַל [po-al] means 'verb' in grammar. Say two syllables, with the stress on po; keep o and a separate.",
+      "options": [
+        {
+          "id": "tsadi-exercise-11-option-1",
+          "label": "[ po-al ]"
+        },
+        {
+          "id": "tsadi-exercise-11-option-2",
+          "label": "[ fo-il ]"
+        },
+        {
+          "id": "tsadi-exercise-11-option-3",
+          "label": "[ fu-al ]"
+        }
+      ],
+      "correctOptionId": "tsadi-exercise-11-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "tsadi-exercise-12",
+      "sourceId": "1742225842280",
+      "type": "TRUE_FALSE",
+      "prompt": "In ordinary Hebrew words, Tsadi Sofit (ץ) is used only at the end of a word.",
+      "explanation": "Tsadi Sofit (ץ) is the final form; the regular form צ is used at the beginning or in the middle.",
+      "options": [
+        {
+          "id": "tsadi-exercise-12-option-1",
+          "label": "True"
+        },
+        {
+          "id": "tsadi-exercise-12-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "tsadi-exercise-12-option-1",
+      "reviewFlags": []
+    },
+    {
+      "id": "tsadi-exercise-13",
+      "sourceId": "1742225842281",
+      "type": "MULTIPLE_CHOICE_COLUMN",
+      "prompt": "How is the word חֶבֶל pronounced?",
+      "explanation": "חֶבֶל [che-vel] means 'rope'. Say two syllables, with the stress on che; ch is the throaty sound in 'loch'.",
+      "options": [
+        {
+          "id": "tsadi-exercise-13-option-1",
+          "label": "[ cha-val ]"
+        },
+        {
+          "id": "tsadi-exercise-13-option-2",
+          "label": "[ ho-val ]"
+        },
+        {
+          "id": "tsadi-exercise-13-option-3",
+          "label": "[ che-vel ]"
+        }
+      ],
+      "correctOptionId": "tsadi-exercise-13-option-3",
+      "reviewFlags": []
+    },
+    {
+      "id": "tsadi-exercise-14",
+      "sourceId": "1742225842282",
+      "type": "MATCH_PAIRS",
+      "prompt": "Match each letter form to its sound and, for Tsadi, its position in a word.",
+      "explanation": "In text with vowel points, פ without a dagesh represents [f]. Both צ and ץ represent [ts]; regular צ appears at the beginning or in the middle, and final ץ at the end.",
+      "pairs": [
+        {
+          "id": "tsadi-exercise-14-pair-1",
+          "left": "פ",
+          "right": "[ f ]"
+        },
+        {
+          "id": "tsadi-exercise-14-pair-2",
+          "left": "ץ",
+          "right": "[ ts ] final"
+        },
+        {
+          "id": "tsadi-exercise-14-pair-3",
+          "left": "צ",
+          "right": "[ ts ] regular"
+        }
+      ],
+      "reviewFlags": []
+    },
+    {
+      "id": "tsadi-exercise-15",
+      "sourceId": "1742225842283",
+      "type": "TRUE_FALSE",
+      "prompt": "In ordinary modern Hebrew, Tsadi is pronounced [ts] without a required doubling.",
+      "explanation": "A dagesh in Tsadi does not require you to pronounce a doubled consonant in ordinary modern Hebrew.",
+      "options": [
+        {
+          "id": "tsadi-exercise-15-option-1",
+          "label": "True"
+        },
+        {
+          "id": "tsadi-exercise-15-option-2",
+          "label": "False"
+        }
+      ],
+      "correctOptionId": "tsadi-exercise-15-option-1",
+      "reviewFlags": []
+    }
+  ]
+}

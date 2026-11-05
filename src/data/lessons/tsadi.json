@@ -1,0 +1,97 @@
+{
+  "slug": "tsadi",
+  "title": "Tsadi Hebrew Letter (צ): Tzaddi, Sound & Final Tsadi",
+  "description": "Learn the Hebrew letter Tsadi (צ), also spelled Tzaddi or Tsade: its [ts] sound, final Tsadi (ץ), words like צֵל (shadow) and interactive practice.",
+  "editorialIssues": [],
+  "illustrations": {
+    "3": {
+      "glyph": "ץ",
+      "label": "Tsadi Sofit",
+      "equivalent": "Final Tsadi: Tsadi with its stem extended straight down below the line, written at the end of a word and pronounced [ts]."
+    }
+  },
+  "blockFlags": {},
+  "exerciseFlags": {},
+  "contentOverrides": {
+    "blocks": {
+      "0": "Tsadi Hebrew Letter (צ): Sound, Final Tsadi & Practice",
+      "9": "The Hebrew word 'צֵל' [tsel] means 'shadow'. It has two letters: Tsadi (צ) and Lamed (ל). The Tsere (ֵ) beneath Tsadi gives [e], and Lamed gives [l]. Say tsel as one syllable, with a steady e; no special vowel length is required.",
+      "13": "Read each word aloud. גַּן [gan], 'garden', has one syllable. בִּטָּחוֹן [bi-ta-chon], 'security', has three syllables, with the stress on chon; the dagesh in Tet does not require a doubled t in modern Hebrew. מְהֵרָה [me-he-ra], 'quickly', is a literary word: in this careful reading, the initial Sheva is read as e, giving three syllables with the stress on ra; a reduced two-syllable reading, [mhe-ra], is also used. אָבַד [a-vad] means 'he/it was lost', a past-tense verb form; it has two syllables, with the stress on vad. פּוֹעַל [po-al] means 'verb' in grammar; it has two syllables, with the stress on po. Keep o and a separate. Also review חֶבֶל [che-vel], 'rope': two syllables, with the stress on che. In חֶבֶל, Bet without a dagesh gives [v]."
+    },
+    "exercises": {
+      "1": {
+        "tip": "Tsadi Sofit (ץ) is the final form of the same letter, Tsadi (צ)."
+      },
+      "4": {
+        "tip": "Use the regular form צ in the middle and Tsadi Sofit (ץ) at the end."
+      },
+      "7": {
+        "tip": "Both forms represent [ts], like ts in 'cats'."
+      },
+      "11": {
+        "tip": "Tsadi Sofit (ץ) is the final form; the regular form צ is used at the beginning or in the middle."
+      },
+      "14": {
+        "tip": "A dagesh in Tsadi does not require you to pronounce a doubled consonant in ordinary modern Hebrew."
+      }
+    }
+  },
+  "stageMap": {
+    "theory": [
+      0,
+      1,
+      3
+    ],
+    "examples": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  "copy": {
+    "theory": {
+      "heading": "Meet Tsadi",
+      "intro": "The eighteenth letter of the <a href=\"/blog/hebrew-alphabet-complete-guide/\">Hebrew alphabet</a>. Tsadi, also spelled Tzaddi, Tzadi or Tsade, makes a [ts] sound, as in “cats.” It is the last of the five letters with a final form: at the end of a word, Tsadi is written as Tsadi Sofit (<bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ץ</bdi>), with the same [ts] sound.",
+      "objectivesHeading": "What you’ll learn",
+      "objectives": [
+        "Recognize Tsadi: <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">צ</bdi>, and its final form, <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ץ</bdi>.",
+        "Hear its [ts] sound, as in “cats.”",
+        "Read Tsadi in real words like <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">צֵל</bdi> (shadow) and <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">חֵפֶץ</bdi> (object)."
+      ],
+      "secondSectionHeading": "How Tsadi sounds",
+      "thirdSectionHeading": "Tsadi’s final form"
+    },
+    "examples": {
+      "heading": "Tsadi in real words",
+      "intro": "See where each form of Tsadi goes, then read three words with Tsadi and five reading-practice words aloud. Hyphens in the transcriptions separate syllables."
+    }
+  },
+  "holdOuts": {
+    "blocks": [
+      {
+        "sourceIndex": 2,
+        "reason": "Unsupported STRIPED_BLOCK study block type (the lesson's pronunciation key) — recognized by the source contract, but StudyBlock.astro has no STRIPED_BLOCK renderer. The one note the lesson relies on, ch as the throaty sound in 'loch', is repeated in block 11 and in exercise 13's tip; ts as in 'cats' is in blocks 1, 3 and 20."
+      }
+    ],
+    "exercises": []
+  },
+  "source": {
+    "rawSnapshotPath": ".local/alphabet-course-imports/v1/2026-10-19T14-27-01-990Z-cc446f/raw/lesson-18.raw.json",
+    "sha256": "cb4d2d0de661f3c47dbee3567b806595ad93f6489e553d078c5ec7eab9319974",
+    "responseDate": "2026-10-19T14:27:09.788Z"
+  }
+}
