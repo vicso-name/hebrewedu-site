@@ -56,7 +56,7 @@ const availabilityText = first ? t.hub.availability : t.hub.noLessonsYet;
             <h1 id="course-title">{t.hub.title}</h1>
             <p class="course-lead">{t.hub.lead}</p>
             <div class="course-start">
-              {first && <a class="btn course-primary" href={first.href}>{t.hub.startLearning} <span aria-hidden="true">→</span></a>}
+              {first && <a class="btn course-primary" href={first.href}>{t.hub.startLearning}</a>}
               <a class="course-secondary" href="#curriculum">{t.hub.exploreCurriculum}</a>
             </div>
             <p class="course-availability">{availabilityText}</p>
