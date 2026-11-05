@@ -1,0 +1,137 @@
+{
+  "slug": "tsadi",
+  "title": "Tsadi (צ) : lettre hébraïque, son et exemples",
+  "description": "Apprends la lettre hébraïque Tsadi (צ) : son son [ts], sa forme finale ץ (Tsadi Sofit), des mots comme צֵל (ombre) et des exercices.",
+  "editorialIssues": [
+    {
+      "id": "fr-transliteration-kh",
+      "summary": "« ch » remplacé par « kh » pour le son guttural",
+      "detail": "La source brute FR transcrit le son guttural de Het (ח) par « ch » (chefets, [che-fets], bitachon, [bi-ta-chon], [che-vel], choix [ cha-val ] et [ che-vel ]) et renvoie, pour l'expliquer, au bloc 2, retiré de la leçon web. Contraire à la règle de transcription FR (docs/hebrew-alphabet-editorial-rules.fr.md : « kh », jamais « ch », pour ce son). Corrigé via contentOverrides.transcriptions (blocs 10 et 15), contentOverrides.blocks (blocs 11 et 13), contentOverrides.exercises (questions 3, 10 et 13) et contentOverrides.choices (question 13) ; le bloc 11 explique désormais kh lui-même, avec la phrase du bloc 2. Les paires d'association ne contiennent pas ce son."
+    },
+    {
+      "id": "fr-transliteration-ou",
+      "summary": "« u » remplacé par « ou » pour le son [u]",
+      "detail": "Le distracteur « [ fu-al ] » de la question 11 note le son [u] par « u ». Contraire à la règle de transcription FR (docs/hebrew-alphabet-editorial-rules.fr.md : « ou » pour [u]). Corrigé via contentOverrides.choices (question 11) : « [ fou-al ] » ; la bonne réponse « [ po-al ] » ne change pas."
+    }
+  ],
+  "illustrations": {
+    "3": {
+      "glyph": "ץ",
+      "label": "Tsadi Sofit",
+      "equivalent": "Tsadi final : Tsadi dont le trait descend tout droit sous la ligne, écrit en fin de mot et prononcé [ts]."
+    }
+  },
+  "blockFlags": {},
+  "exerciseFlags": {},
+  "contentOverrides": {
+    "blocks": {
+      "0": "Tsadi (צ) : lettre hébraïque, son et exemples",
+      "1": "Tsadi (צ) est la dix-huitième lettre de l’alphabet hébreu. En hébreu moderne, il se prononce [ts], comme ts dans « tsar ». Il possède deux formes écrites : la forme normale צ et la forme finale ץ, appelée Tsadi Sofit. Ce sont deux formes de la même lettre, pas deux lettres distinctes de l’alphabet.",
+      "9": "Le mot צֵל [tsel] signifie « ombre ». Il comporte deux lettres : Tsadi (צ) et Lamed (ל). Le tséré (ֵ) sous Tsadi donne [e], puis Lamed donne [l]. Prononce tsel en une seule syllabe, avec un e bien audible. Aucune durée particulière n’est exigée pour la voyelle.",
+      "11": "Le mot חֵפֶץ [khe-fets] signifie « objet », au sens d’une chose matérielle. Il comporte trois lettres : Het (ח), Pé (פ) et Tsadi Sofit (ץ). Het avec un tséré donne [khe] : kh représente un son guttural, un frottement au fond de la bouche, comme le ch du mot écossais « loch » ; ce n’est pas le ch français de « chat ». Pé sans dagesh donne [f] ; son ségol (ֶ) donne [e]. Tsadi Sofit donne le [ts] final. Prononce deux syllabes, khe-fets, en mettant l’accent sur khe. Les deux voyelles se lisent [e] ; les deux signes différents n’imposent pas de différence de longueur en hébreu moderne.",
+      "13": "Lis chaque mot à voix haute. גַּן [gan], « jardin », a une seule syllabe. בִּטָּחוֹן [bi-ta-khon], « sécurité », a trois syllabes : commence par bi et mets l’accent sur khon. Devant n, garde les voyelles a et o orales et prononce aussi le n, notamment dans gan et khon. Le dagesh dans Tet n’impose pas un t doublé en hébreu moderne. מְהֵרָה [me-he-ra] signifie « rapidement » dans un registre littéraire. Dans cette lecture soignée, le sheva initial se lit e : tu prononces trois syllabes et tu accentues ra. Fais aussi entendre le h comme un souffle. Une lecture réduite à deux syllabes, [mhe-ra], existe également, avec l’accent sur ra. אָבַד [a-vad] signifie « il s’est perdu » : c’est une forme verbale au passé, pas un adjectif. Prononce deux syllabes et accentue vad. פּוֹעַל [po-al] signifie « verbe » en grammaire : prononce deux syllabes, accentue po et garde o et a distincts. Révise aussi חֶבֶל [khe-vel], « corde » : deux syllabes, avec l’accent sur khe. Dans ce mot, Bet sans dagesh donne [v].",
+      "19": "À retenir"
+    },
+    "transcriptions": {
+      "10": "khefets",
+      "15": "bitakhon"
+    },
+    "choices": {
+      "10": [
+        "[ po-al ]",
+        "[ fo-il ]",
+        "[ fou-al ]"
+      ],
+      "12": [
+        "[ kha-val ]",
+        "[ ho-val ]",
+        "[ khe-vel ]"
+      ]
+    },
+    "exercises": {
+      "1": {
+        "tip": "Tsadi Sofit (ץ) est la forme finale de la même lettre, Tsadi (צ)."
+      },
+      "2": {
+        "tip": "צֵל [tsel] signifie « ombre », חֵפֶץ [khe-fets] signifie « objet » et צַיִד [tsa-yid] signifie « chasse »."
+      },
+      "4": {
+        "tip": "Utilise la forme normale צ au milieu du mot et Tsadi Sofit (ץ) à la fin."
+      },
+      "7": {
+        "tip": "Les deux formes représentent [ts], comme ts dans « tsar »."
+      },
+      "9": {
+        "tip": "חֵפֶץ [khe-fets] signifie « objet », au sens d’une chose matérielle. Mets l’accent sur la première syllabe, khe."
+      },
+      "11": {
+        "tip": "Tsadi Sofit (ץ) est la forme finale ; utilise la forme normale צ au début ou au milieu du mot."
+      },
+      "12": {
+        "correctAnswer": "[ khe-vel ]",
+        "tip": "חֶבֶל [khe-vel] signifie « corde ». Prononce deux syllabes, avec l’accent sur khe. Le kh représente un son guttural, produit au fond de la bouche."
+      },
+      "14": {
+        "tip": "Un dagesh dans Tsadi ne t’oblige pas à doubler cette consonne en hébreu moderne courant."
+      }
+    }
+  },
+  "stageMap": {
+    "theory": [
+      0,
+      1,
+      3
+    ],
+    "examples": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  "copy": {
+    "theory": {
+      "heading": "Découvre Tsadi",
+      "intro": "La dix-huitième lettre de l'alphabet hébreu. Tsadi se prononce [ts], comme dans « tsar ». C'est la dernière des cinq lettres qui ont une forme finale : en fin de mot, il s'écrit Tsadi Sofit (<bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ץ</bdi>), avec le même son [ts].",
+      "objectivesHeading": "Ce que tu vas apprendre",
+      "objectives": [
+        "Reconnaître Tsadi : <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">צ</bdi>, et sa forme finale, <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">ץ</bdi>.",
+        "Entendre son son [ts], comme dans « tsar ».",
+        "Lire Tsadi dans de vrais mots comme <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">צֵל</bdi> (ombre) et <bdi class=\"hebrew\" lang=\"he\" dir=\"rtl\">חֵפֶץ</bdi> (objet)."
+      ],
+      "secondSectionHeading": "Comment se prononce Tsadi",
+      "thirdSectionHeading": "La forme finale de Tsadi"
+    },
+    "examples": {
+      "heading": "Tsadi dans de vrais mots",
+      "intro": "Vois où s'écrit chaque forme de Tsadi, puis lis à voix haute trois mots avec Tsadi et cinq autres mots pour t'entraîner à la lecture. Les traits d'union séparent les syllabes."
+    }
+  },
+  "holdOuts": {
+    "blocks": [
+      {
+        "sourceIndex": 2,
+        "reason": "Type de bloc STRIPED_BLOCK non pris en charge (la clé de prononciation de la leçon) : reconnu par le contrat source, mais StudyBlock.astro n'a pas de rendu STRIPED_BLOCK. Ce dont la leçon a besoin est repris ailleurs : l'explication du son guttural kh dans le bloc 11, la remarque sur les voyelles orales devant n dans le bloc 13, ts comme dans « tsar » dans les blocs 1, 3 et 20."
+      }
+    ],
+    "exercises": []
+  },
+  "source": {
+    "rawSnapshotPath": ".local/alphabet-course-imports/v1/2026-10-19T14-27-18-905Z-bdf614-fr/raw/lesson-18.raw.json",
+    "sha256": "8e8fb17430b49187881f992217a27eb130e5eb458e8be4abbf53b546add0c5d9",
+    "responseDate": "2026-10-19T14:27:25.761Z"
+  }
+}

@@ -43,6 +43,9 @@ FR raw source and FR copy exactly as written in the EN file:
   answer too, so the French "Exact !" / "Bravo !" is dropped the same way,
   and so are "Oui," and "Non.". "Vrai." / "Faux." stating the answer key
   stays (Ayin, Pe).
+- **Held-out block that the lesson points back to** — "le ch guttural
+  expliqué plus haut" pointing at a held-out key block gets that block's own
+  sentence moved in, the same way as EN (Tsadi).
 - **`contentOverrides.exercises` cannot patch `MATCH_PAIRS` pairs data** —
   a pipeline/schema constraint (`docs/LESSON_PIPELINE.md`), not a wording
   rule; a French `MATCH_PAIRS` violation needs the same holdout treatment.

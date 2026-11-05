@@ -184,6 +184,10 @@ Pe (פ), also spelled Pey, has two sounds: with a dot inside (a dagesh) it is [p
 
 → [Practice Pe in the Hebrew Alphabet Course](/learn/hebrew-alphabet/pe/)
 
+Tzadi (צ), also spelled Tsadi, is a [ts] sound, as in "cats," in צֵל [tsel], "shadow." It is the last of the five letters with a final form: at the end of a word it is written ץ (Tsadi Sofit), with the same [ts] sound.
+
+→ [Practice Tsadi in the Hebrew Alphabet Course](/learn/hebrew-alphabet/tsadi/)
+
 ## The Five Final Letters
 
 Five Hebrew letters have a different written form when they appear at the **end of a word**. These are called *sofit* forms (סופית — “final”). The shape change is different for each pair.

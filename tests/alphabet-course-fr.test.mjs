@@ -17,12 +17,12 @@ import test, { after } from 'node:test';
 import assert from 'node:assert/strict';
 
 const FR_CONTENT_DIR = fileURLToPath(new URL('../src/content/lessons/fr/', import.meta.url));
-// 'tsadi' has no real FR fixture — kept only as a placeholder slug for the
-// "has a route but no webImplemented flag" case below; 'qof' is deliberately
+// 'qof' has no real FR fixture — kept only as a placeholder slug for the
+// "has a route but no webImplemented flag" case below; 'resh' is deliberately
 // left out of this list so it stays the "no FR route at all" baseline. 'chet',
-// 'tet', 'yod', 'kaf', 'lamed', 'mem', 'nun', 'samekh', 'ayin' and 'pe' are no longer placeholders here — they have
+// 'tet', 'yod', 'kaf', 'lamed', 'mem', 'nun', 'samekh', 'ayin', 'pe' and 'tsadi' are no longer placeholders here — they have
 // real FR fixtures and are implemented in both locales, like aleph..zayin above.
-const FIXTURE_SLUGS = ['aleph', 'bet', 'gimel', 'dalet', 'he', 'vav', 'zayin', 'chet', 'tet', 'yod', 'kaf', 'lamed', 'mem', 'nun', 'samekh', 'ayin', 'pe', 'tsadi'];
+const FIXTURE_SLUGS = ['aleph', 'bet', 'gimel', 'dalet', 'he', 'vav', 'zayin', 'chet', 'tet', 'yod', 'kaf', 'lamed', 'mem', 'nun', 'samekh', 'ayin', 'pe', 'tsadi', 'qof'];
 mkdirSync(FR_CONTENT_DIR, { recursive: true });
 const createdFixtures = FIXTURE_SLUGS
   .map(slug => `${FR_CONTENT_DIR}${slug}.json`)
@@ -45,14 +45,14 @@ const draft = () => {
 };
 
 test('a lesson with no locales map, or an all-false locales.fr, behaves exactly as before for non-en locales', () => {
-  // aleph..pe all have real FR fixtures and webImplemented/previewAvailable
-  // flipped as of this checkout — use a still-untouched lesson (qof) for the
+  // aleph..tsadi all have real FR fixtures and webImplemented/previewAvailable
+  // flipped as of this checkout — use a still-untouched lesson (resh) for the
   // "nothing implemented yet" baseline instead.
-  assert.equal(lessonEnabled('qof', false, courseManifest, 'fr'), false);
-  assert.equal(lessonEnabled('qof', true, courseManifest, 'fr'), false);
+  assert.equal(lessonEnabled('resh', false, courseManifest, 'fr'), false);
+  assert.equal(lessonEnabled('resh', true, courseManifest, 'fr'), false);
   // Scaffolded locales.fr (all false) on every not-yet-backfilled lesson in
   // src/data/alphabet-course.json must behave the same as no locales map at all.
-  const notYetBackfilled = courseManifest.lessons.filter(l => !['aleph', 'bet', 'gimel', 'dalet', 'he', 'vav', 'zayin', 'chet', 'tet', 'yod', 'kaf', 'lamed', 'mem', 'nun', 'samekh', 'ayin', 'pe'].includes(l.slug));
+  const notYetBackfilled = courseManifest.lessons.filter(l => !['aleph', 'bet', 'gimel', 'dalet', 'he', 'vav', 'zayin', 'chet', 'tet', 'yod', 'kaf', 'lamed', 'mem', 'nun', 'samekh', 'ayin', 'pe', 'tsadi'].includes(l.slug));
   assert.ok(notYetBackfilled.every(l => l.locales?.fr && Object.values(l.locales.fr).every(v => v === false || v === null)));
   assert.doesNotThrow(() => validatePublicationManifest(courseManifest));
 });
@@ -71,19 +71,19 @@ test('FR cannot publish ahead of its EN lesson, even with a real FR route and fu
 test('FR publication needs its own implemented route, independent of whether EN has one', () => {
   const value = draft();
   Object.assign(value.lessons[0], { editorialApproved: true, published: true, publishedAt: '2026-10-11' });
-  // qof (lessons[18]) has no FR fixture at all (not in this file's
+  // resh (lessons[19]) has no FR fixture at all (not in this file's
   // FIXTURE_SLUGS) — flipping FR webImplemented for it must fail closed on the
   // route check.
-  const qof = value.lessons.find(l => l.slug === 'qof');
-  qof.locales.fr.webImplemented = true;
-  assert.throws(() => validatePublicationManifest(value), /No implemented FR route for qof/);
-  qof.locales.fr.webImplemented = false;
-  // tsadi *does* have an FR fixture route here (this file's placeholder) but no
+  const resh = value.lessons.find(l => l.slug === 'resh');
+  resh.locales.fr.webImplemented = true;
+  assert.throws(() => validatePublicationManifest(value), /No implemented FR route for resh/);
+  resh.locales.fr.webImplemented = false;
+  // qof *does* have an FR fixture route here (this file's placeholder) but no
   // webImplemented flag of its own — previewAvailable without webImplemented is
-  // still rejected, same rule as EN's own. (aleph..pe are excluded from this
+  // still rejected, same rule as EN's own. (aleph..tsadi are excluded from this
   // check since they already have webImplemented: true in the real manifest.)
-  const tsadi = value.lessons.find(l => l.slug === 'tsadi');
-  tsadi.locales.fr.previewAvailable = true;
+  const qof = value.lessons.find(l => l.slug === 'qof');
+  qof.locales.fr.previewAvailable = true;
   assert.throws(() => validatePublicationManifest(value), /FR preview requires an implemented route/);
 });
 
