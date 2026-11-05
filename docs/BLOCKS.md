@@ -34,6 +34,15 @@ of a shared block.
   mosaic of topic cards with optional inline links in the description.
   Props: `items: [LearningItem, LearningItem, LearningItem, LearningItem]`
   where `LearningItem = { title: string; description: (string | { text, href })[] }`.
+- **`src/components/play/GamesCarousel.astro`** — scroll-snapped strip of
+  every game, in learning order, each card linking to the game's landing
+  page (never `/game/`). Props: `locale?`. Games and their key art come
+  from `src/data/games.ts`; names, skill tags and blurbs from the
+  dictionaries' `games` section (on FR each card link carries
+  `(en anglais)`, since every game page is English-only). Works as a plain
+  swipe/scroll strip without JS; the script adds prev/next buttons, a
+  progress bar and edge fades. Renders no heading — the caller supplies
+  it. A new game = one entry in `games.ts` + `games.items` in `en.ts`/`fr.ts`.
 - **`src/components/ui/FeatureGrid.astro`** — icon + title + description
   grid ("how it works" steps). Props: `items: FeatureItem[]` where
   `FeatureItem = { icon: 'layers'|'target'|'repeat'|'book'|'bolt'; title; description }`,

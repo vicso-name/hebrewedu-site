@@ -9,6 +9,8 @@
 // each checked against the same interface, and TypeScript's excess-property
 // check on object literals makes a missing or extra key a type error.
 
+import type { GameSlug } from '../data/games';
+
 export type Locale = 'en' | 'fr';
 
 export interface StageCopy {
@@ -21,6 +23,15 @@ export interface ResourceLink {
   label: string;
   tag: string;
   text: string;
+}
+
+/** One game card in GamesCarousel.astro (keyed by GameSlug in src/data/games.ts). */
+export interface GameCopy {
+  /** The game's name — a brand name, the same in every locale. */
+  name: string;
+  /** Short skill label, e.g. "Alphabet". */
+  tag: string;
+  blurb: string;
 }
 
 export interface FeatureCopy {
@@ -207,6 +218,20 @@ export interface Dictionary {
     keepLearningEyebrow: string;
     appTitle: string;
     appText: string;
+  };
+  /** GamesCarousel.astro: the scrollable strip of every game's landing page. */
+  games: {
+    eyebrow: string;
+    title: string;
+    text: string;
+    /** Accessible name of the card list. */
+    listLabel: string;
+    prev: string;
+    next: string;
+    /** Visual "explore" cue on each card (the card's title is the link). */
+    cta: string;
+    allGames: string;
+    items: Record<GameSlug, GameCopy>;
   };
   /** The full homepage (src/pages/index.astro + src/components/home/*), rendered
    *  by the shared HomePage.astro for both / and /fr/ (Stage B rework). */

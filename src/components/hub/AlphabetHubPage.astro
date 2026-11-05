@@ -11,6 +11,7 @@ import Nav from '../Nav.astro';
 import Footer from '../Footer.astro';
 import Section from '../ui/Section.astro';
 import LearningMosaic, { type LearningItem } from '../play/LearningMosaic.astro';
+import GamesCarousel from '../play/GamesCarousel.astro';
 import StoreButtons from '../ui/StoreButtons.astro';
 import { getDictionary, type Locale, type Alternate } from '../../i18n';
 import '../../styles/alphabet-course.css';
@@ -63,9 +64,10 @@ const availabilityText = first ? t.hub.availability : t.hub.noLessonsYet;
           <aside class="course-first-card" aria-labelledby="first-lesson-title">
             <p class="course-eyebrow">{t.hub.firstLessonEyebrow}</p>
             <div class="course-letter-surface"><bdi class="course-hebrew" lang="he" dir="rtl">א</bdi></div>
-            <h2 id="first-lesson-title">{t.hub.meetAleph}</h2>
+            <h2 id="first-lesson-title">{first ? <a href={first.href}>{t.hub.meetAleph}</a> : t.hub.meetAleph}</h2>
             <p>{t.hub.firstLessonText}</p>
             <p class="course-first-meta">{t.hub.firstLessonMeta}</p>
+            <span class="course-first-path" aria-hidden="true">{letters.map((letter, index) => <span class:list={[{ 'is-current': index === 0, 'is-open': index > 0 && letter.available }]} />)}</span>
           </aside>
         </div>
       </Section>
@@ -79,6 +81,10 @@ const availabilityText = first ? t.hub.availability : t.hub.noLessonsYet;
         </ol>
       </Section>
       <slot name="afterCurriculum" />
+      <Section surface="white" aria-labelledby="games-title">
+        <div class="course-section-heading"><p class="course-eyebrow">{t.games.eyebrow}</p><h2 id="games-title">{t.games.title}</h2><p>{t.games.text}</p></div>
+        <GamesCarousel locale={locale} />
+      </Section>
       <Section surface="white">
         <div class="course-section-heading"><p class="course-eyebrow">{t.hub.howEyebrow}</p><h2 id="how-title">{t.hub.howTitle}</h2><p>{t.hub.howText}</p></div>
         <LearningMosaic items={stages} />

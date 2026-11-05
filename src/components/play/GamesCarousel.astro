@@ -1,0 +1,353 @@
+---
+// Horizontal, scroll-snapped strip of every game (src/data/games.ts), each
+// card linking to the game's landing page (never straight into /game/).
+// Native scrolling does the work — swipe, trackpad, Shift+wheel, and Tab
+// (focus scrolls a card into view) all function without JavaScript. The
+// script only adds prev/next buttons, a progress bar and edge fades.
+// Heading copy is the caller's job; this renders the strip and its controls.
+import KeyArt from './KeyArt.astro';
+import { games } from '../../data/games';
+import { getDictionary, type Locale } from '../../i18n';
+
+interface Props {
+  locale?: Locale;
+}
+const { locale = 'en' } = Astro.props;
+const t = getDictionary(locale);
+const copy = t.games;
+// Every game landing page is English-only, so on FR each card's link says so.
+const enOnly = t.common.enOnlySuffix;
+---
+<div class="gc" data-games-carousel>
+  <ul class="gc-track" aria-label={copy.listLabel} data-gc-track>
+    {games.map((game, index) => {
+      const item = copy.items[game.slug];
+      return (
+        <li class:list={['gc-slide', `gc-slide--${game.accent}`]}>
+          <article class="gc-card">
+            <div class="gc-media">
+              <div class="gc-art"><KeyArt src={game.keyArt} alt="" fit="cover" sizes="(max-width: 600px) 80vw, (max-width: 900px) 44vw, 360px" /></div>
+              <span class="gc-num" aria-hidden="true">{String(index + 1).padStart(2, '0')}</span>
+            </div>
+            <div class="gc-body">
+              <p class="gc-tag">{item.tag}</p>
+              <h3 class="gc-title"><a href={game.href}>{item.name}{enOnly && <span class="gc-en">{enOnly}</span>}</a></h3>
+              <p class="gc-blurb">{item.blurb}</p>
+              <span class="gc-cta" aria-hidden="true">{copy.cta} <span class="gc-cta-arrow">→</span></span>
+            </div>
+          </article>
+        </li>
+      );
+    })}
+  </ul>
+  <div class="gc-controls">
+    <div class="gc-progress" aria-hidden="true"><span class="gc-progress-thumb"></span></div>
+    <a class="gc-all" href="/play/">{copy.allGames} <span aria-hidden="true">→</span></a>
+    <div class="gc-buttons">
+      <button type="button" class="gc-btn" data-gc-dir="-1" aria-label={copy.prev} disabled>
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" /></svg>
+      </button>
+      <button type="button" class="gc-btn" data-gc-dir="1" aria-label={copy.next}>
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" /></svg>
+      </button>
+    </div>
+  </div>
+</div>
+
+<script>
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  for (const root of document.querySelectorAll<HTMLElement>('[data-games-carousel]')) {
+    const track = root.querySelector<HTMLElement>('[data-gc-track]');
+    const buttons = root.querySelectorAll<HTMLButtonElement>('[data-gc-dir]');
+    if (!track) continue;
+
+    const update = () => {
+      const max = track.scrollWidth - track.clientWidth;
+      const pos = Math.min(Math.max(track.scrollLeft, 0), max);
+      const atStart = pos <= 2;
+      const atEnd = pos >= max - 2;
+      root.classList.toggle('is-static', max <= 2);
+      root.classList.toggle('is-start', atStart);
+      root.classList.toggle('is-end', atEnd);
+      buttons.forEach(button => {
+        button.disabled = button.dataset.gcDir === '-1' ? atStart : atEnd;
+      });
+      root.style.setProperty('--gc-thumb', String(track.clientWidth / track.scrollWidth));
+      root.style.setProperty('--gc-pos', String(max > 0 ? pos / max : 0));
+    };
+
+    // One click pages by the cards that are fully visible (at least one).
+    const step = () => {
+      const slide = track.querySelector<HTMLElement>('.gc-slide');
+      if (!slide) return track.clientWidth;
+      const gap = parseFloat(getComputedStyle(track).columnGap) || 0;
+      const width = slide.getBoundingClientRect().width + gap;
+      return Math.max(1, Math.floor((track.clientWidth + gap) / width)) * width;
+    };
+
+    buttons.forEach(button => {
+      button.addEventListener('click', () => {
+        track.scrollBy({ left: Number(button.dataset.gcDir) * step(), behavior: reduceMotion.matches ? 'auto' : 'smooth' });
+      });
+    });
+    // Mouse drag-to-swipe (touch and trackpads already scroll natively).
+    // Snapping is off while the pointer drives scrollLeft, then the strip
+    // settles on the card nearest to where the fling would have carried it.
+    // A drag never counts as a click on the card link under the pointer.
+    let drag: { id: number; x: number; left: number; lastX: number; lastT: number; v: number; moved: boolean } | null = null;
+    let swallowClick = false;
+    const settle = (velocity: number) => {
+      const max = track.scrollWidth - track.clientWidth;
+      const pad = parseFloat(getComputedStyle(track).scrollPaddingLeft) || 0;
+      const projected = track.scrollLeft - velocity * 220;
+      const targets = [...track.querySelectorAll<HTMLElement>('.gc-slide')].map(slide => Math.min(max, Math.max(0, slide.offsetLeft - pad)));
+      const target = targets.reduce((best, t) => (Math.abs(t - projected) < Math.abs(best - projected) ? t : best), 0);
+      root.classList.add('is-settling');
+      const done = () => root.classList.remove('is-settling');
+      track.addEventListener('scrollend', done, { once: true });
+      window.setTimeout(done, 700);
+      track.scrollTo({ left: target, behavior: reduceMotion.matches ? 'auto' : 'smooth' });
+    };
+    track.addEventListener('pointerdown', event => {
+      swallowClick = false;
+      if (event.pointerType !== 'mouse' || event.button !== 0 || root.classList.contains('is-static')) return;
+      drag = { id: event.pointerId, x: event.clientX, left: track.scrollLeft, lastX: event.clientX, lastT: event.timeStamp, v: 0, moved: false };
+    });
+    track.addEventListener('pointermove', event => {
+      if (!drag || event.pointerId !== drag.id) return;
+      const dx = event.clientX - drag.x;
+      if (!drag.moved) {
+        if (Math.abs(dx) < 6) return;
+        drag.moved = true;
+        track.setPointerCapture(event.pointerId);
+        root.classList.add('is-dragging');
+      }
+      const dt = event.timeStamp - drag.lastT;
+      if (dt > 0) drag.v = (event.clientX - drag.lastX) / dt;
+      drag.lastX = event.clientX;
+      drag.lastT = event.timeStamp;
+      track.scrollLeft = drag.left - dx;
+    });
+    const endDrag = (event: PointerEvent) => {
+      if (!drag || event.pointerId !== drag.id) return;
+      const { moved, v } = drag;
+      drag = null;
+      if (!moved) return;
+      swallowClick = true;
+      root.classList.remove('is-dragging');
+      settle(v);
+    };
+    track.addEventListener('pointerup', endDrag);
+    track.addEventListener('pointercancel', endDrag);
+    track.addEventListener('click', event => {
+      if (!swallowClick) return;
+      swallowClick = false;
+      event.preventDefault();
+      event.stopPropagation();
+    }, true);
+    // Links and images are natively draggable; that would cancel the swipe.
+    track.addEventListener('dragstart', event => event.preventDefault());
+
+    track.addEventListener('scroll', update, { passive: true });
+    new ResizeObserver(update).observe(track);
+    root.classList.add('is-ready');
+    update();
+  }
+</script>
+
+<style>
+  .gc {
+    --gc-gap: var(--space-md);
+    --gc-thumb: 1;
+    --gc-pos: 0;
+  }
+  .gc-slide--indigo { --accent: #4F46E5; --tint: #EEF0FF; }
+  .gc-slide--emerald { --accent: #166F54; --tint: #E6F4EE; }
+  .gc-slide--amber { --accent: #B45309; --tint: #FEF3E2; }
+  .gc-slide--coral { --accent: #B5473D; --tint: #FCEDEB; }
+  .gc-slide--plum { --accent: #8B3A9E; --tint: #F6ECF8; }
+
+  /* The track bleeds a little past its box (negative margin + matching
+     padding) so a lifted card's shadow isn't clipped by the scroll area. */
+  .gc-track {
+    position: relative; /* offsetParent for the drag-settle targets */
+    display: flex;
+    gap: var(--gc-gap);
+    list-style: none;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    padding: var(--space-xs) var(--space-xs) var(--space-md);
+    margin: calc(var(--space-xs) * -1) calc(var(--space-xs) * -1) calc(var(--space-md) * -1);
+    scroll-padding-inline: var(--space-xs);
+  }
+  .gc-track::-webkit-scrollbar { display: none; }
+  /* Mouse swipe: the script drives scrollLeft directly, so snapping and
+     smooth scrolling pause until the strip has settled on a card. */
+  .gc.is-ready:not(.is-static) .gc-track { cursor: grab; }
+  .gc.is-dragging .gc-track, .gc.is-settling .gc-track { scroll-snap-type: none; scroll-behavior: auto; }
+  .gc.is-dragging .gc-track, .gc.is-dragging .gc-track :global(*) { cursor: grabbing; user-select: none; }
+  /* Edge fades hint that there is more to scroll; only once JS knows where we are. */
+  .gc.is-ready:not(.is-static):not(.is-end) .gc-track { mask-image: linear-gradient(to right, #000 calc(100% - 72px), transparent); }
+  .gc.is-ready:not(.is-static):not(.is-start):not(.is-end) .gc-track { mask-image: linear-gradient(to right, transparent, #000 48px, #000 calc(100% - 72px), transparent); }
+  .gc.is-ready.is-end:not(.is-static):not(.is-start) .gc-track { mask-image: linear-gradient(to right, transparent, #000 48px); }
+
+  .gc-slide {
+    flex: 0 0 calc((100% - 3 * var(--gc-gap)) / 3.3);
+    min-width: 0;
+    scroll-snap-align: start;
+    display: flex;
+  }
+  .gc-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--r-lg);
+    padding: var(--space-xs-plus);
+    transition: transform .25s ease, border-color .25s ease, box-shadow .25s ease;
+  }
+  /* The step badge straddles the art's bottom edge, outside the art's
+     overflow clip, so it never covers the key art's own logo or icons. */
+  .gc-media { position: relative; }
+  .gc-art {
+    border-radius: var(--r-md);
+    overflow: hidden;
+    background: var(--tint);
+  }
+  .gc-art :global(img) { border-radius: 0; transition: transform .45s ease; }
+  .gc-num {
+    position: absolute;
+    right: var(--space-sm);
+    bottom: calc(var(--space-sm) * -1.125);
+    display: grid;
+    place-items: center;
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: var(--r-full);
+    background: var(--accent);
+    color: var(--white);
+    font-family: var(--font-display);
+    font-size: .8125rem;
+    font-weight: 700;
+    box-shadow: 0 0 0 3px var(--white);
+  }
+  .gc-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: var(--space-sm) var(--space-xs) var(--space-xs);
+  }
+  .gc-tag {
+    align-self: flex-start;
+    font-size: .6875rem;
+    font-weight: 600;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    color: var(--accent);
+    background: var(--tint);
+    padding: var(--space-2xs) var(--space-xs);
+    border-radius: var(--r-full);
+  }
+  .gc-title {
+    font-family: var(--font-display);
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-block: var(--space-xs-plus) var(--space-xs);
+  }
+  .gc-title a { color: var(--ink); text-decoration: none; }
+  /* The title link covers the whole card. */
+  .gc-title a::after { content: ""; position: absolute; inset: 0; border-radius: inherit; }
+  .gc-title a:focus-visible { outline: none; }
+  .gc-en { font-size: .8125rem; font-weight: 500; color: var(--ink-light); }
+  .gc-blurb { color: var(--ink-mid); font-size: .875rem; line-height: 1.55; }
+  .gc-cta {
+    margin-block-start: auto;
+    padding-block-start: var(--space-sm);
+    color: var(--accent);
+    font-size: .875rem;
+    font-weight: 600;
+  }
+  .gc-cta-arrow { display: inline-block; transition: transform .25s ease; }
+
+  .gc-card:hover, .gc-card:has(a:focus-visible) {
+    transform: translateY(-4px);
+    border-color: var(--accent);
+    box-shadow: 0 16px 32px -16px color-mix(in srgb, var(--accent) 55%, transparent), 0 2px 6px rgba(31, 41, 55, .05);
+  }
+  .gc-card:has(a:focus-visible) { outline: 3px solid var(--brand-dark); outline-offset: 3px; }
+  .gc-card:hover .gc-art :global(img), .gc-card:has(a:focus-visible) .gc-art :global(img) { transform: scale(1.06); }
+  .gc-card:hover .gc-cta-arrow, .gc-card:has(a:focus-visible) .gc-cta-arrow { transform: translateX(4px); }
+
+  .gc-controls {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    margin-block-start: var(--space-md);
+  }
+  .gc-progress {
+    position: relative;
+    flex: 1;
+    height: 4px;
+    border-radius: var(--r-full);
+    background: var(--border);
+    overflow: hidden;
+    visibility: hidden;
+  }
+  .gc-progress-thumb {
+    position: absolute;
+    inset-block: 0;
+    left: 0;
+    width: calc(var(--gc-thumb) * 100%);
+    border-radius: inherit;
+    background: var(--brand);
+    transform: translateX(calc(var(--gc-pos) * (1 / var(--gc-thumb) - 1) * 100%));
+  }
+  .gc-all {
+    margin-inline-start: auto;
+    font-size: .875rem;
+    font-weight: 600;
+    color: var(--brand-dark);
+    white-space: nowrap;
+  }
+  .gc-all:hover { text-decoration: underline; text-underline-offset: .25em; }
+  .gc-buttons { display: none; gap: var(--space-xs); }
+  .gc-btn {
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: var(--r-full);
+    border: 1px solid var(--border-dark);
+    background: var(--white);
+    color: var(--ink);
+    cursor: pointer;
+    transition: background-color .2s ease, border-color .2s ease, color .2s ease;
+  }
+  .gc-btn:hover:not(:disabled) { background: var(--brand-dark); border-color: var(--brand-dark); color: var(--white); }
+  .gc-btn:disabled { opacity: .35; cursor: default; }
+  .gc.is-ready:not(.is-static) .gc-buttons { display: flex; }
+  .gc.is-ready:not(.is-static) .gc-progress { visibility: visible; }
+
+  @media (max-width: 900px) {
+    .gc-slide { flex-basis: calc((100% - var(--gc-gap)) / 2.2); }
+  }
+  @media (max-width: 600px) {
+    .gc { --gc-gap: var(--space-sm); }
+    .gc-slide { flex-basis: 80%; }
+    .gc-controls { gap: var(--space-sm); flex-wrap: wrap; }
+    .gc-progress { flex-basis: 100%; order: -1; }
+    .gc-all { margin-inline-start: 0; }
+    .gc-buttons { margin-inline-start: auto; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .gc-track { scroll-behavior: auto; }
+    .gc-card, .gc-art :global(img), .gc-cta-arrow, .gc-btn { transition: none; }
+    .gc-card:hover, .gc-card:has(a:focus-visible), .gc-card:hover .gc-art :global(img), .gc-card:has(a:focus-visible) .gc-art :global(img), .gc-card:hover .gc-cta-arrow, .gc-card:has(a:focus-visible) .gc-cta-arrow { transform: none; }
+  }
+</style>

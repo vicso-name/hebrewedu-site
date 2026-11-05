@@ -15,7 +15,7 @@
 .course-skip { position: fixed; top: -100px; left: 1rem; z-index: 500; background: var(--white); padding: .75rem 1rem; border-radius: var(--r-sm); }
 .course-skip:focus { top: 1rem; }
 .course-eyebrow { font-size: .75rem; font-weight: 500; letter-spacing: .07em; color: var(--ink-light); line-height: 1.5; }
-.course-hero { display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(0, 1fr); align-items: center; gap: clamp(2rem, 5vw, 4rem); }
+.course-hero { isolation: isolate; display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(0, 1fr); align-items: center; gap: clamp(2rem, 5vw, 4rem); }
 .course-hero h1 { font-family: var(--font-display); font-size: clamp(2.1rem, 4vw, 3.2rem); font-weight: 700; line-height: 1.12; letter-spacing: -.02em; margin-block: .875rem 1.25rem; max-width: 18ch; }
 .course-lead { font-size: 1.0625rem; color: var(--ink-mid); max-width: 49ch; }
 .course-start { display: flex; align-items: center; flex-wrap: wrap; gap: 1rem 1.5rem; margin-block: 1.5rem 1rem; }
@@ -23,9 +23,9 @@
 .course-primary:hover { background: var(--brand-dark); }
 .course-secondary { color: var(--ink-mid); text-decoration: underline; text-underline-offset: .25em; font-size: .875rem; padding-block: .5rem; }
 .course-availability { color: var(--ink-light); font-size: .8125rem; }
-.course-first-card { background: var(--white); border: 1px solid var(--border); border-radius: var(--r-lg); padding: 1.5rem; box-shadow: var(--shadow-sm); }
-.course-letter-surface { background: var(--course-soft); border-radius: var(--r-md); text-align: center; margin-block: 1rem; }
-.course-letter-surface .course-hebrew { display: block; font-size: 5.5rem; line-height: 1.5; padding-block: .125rem .5rem; }
+.course-first-card { --first-ink: #166F54; position: relative; background: var(--white); border: 1px solid var(--border); border-radius: var(--r-lg); padding: var(--space-md); box-shadow: var(--shadow-md); top: 0; transition: top .25s ease, border-color .25s ease, box-shadow .25s ease; }
+.course-letter-surface { border: 1px solid var(--border); border-radius: var(--r-md); text-align: center; margin-block: var(--space-sm); overflow: hidden; }
+.course-letter-surface .course-hebrew { display: block; color: var(--ink); font-size: 5.5rem; line-height: 1; padding-block: .38em .22em; transition: transform .3s ease; }
 .course-hub h2 { font-family: var(--font-display); font-size: 1.8rem; line-height: 1.25; font-weight: 700; }
 .course-hub h3 { font-family: var(--font-display); font-size: 1.05rem; line-height: 1.4; font-weight: 600; }
 .course-first-card h2 { font-size: 1.375rem; }
@@ -35,16 +35,16 @@
 .course-section-heading { margin-block-end: var(--space-md); max-width: 640px; }
 .course-section-heading h2 { margin-block: .5rem .65rem; }
 .course-section-heading > p:last-child { color: var(--ink-mid); font-size: .9375rem; }
-.course-curriculum { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: .75rem; list-style: none; }
-.course-letter-card { min-width: 0; background: var(--white); border: 1px solid var(--border); border-radius: var(--r-md); }
-.course-letter-card > a, .course-letter-card > div { display: flex; flex-direction: column; height: 100%; align-items: center; padding: .875rem .5rem 1rem; }
-.course-letter-order { font-size: .6875rem; color: var(--ink-light); }
-.course-letter-card .course-hebrew { width: 100%; text-align: center; background: var(--course-soft); border-radius: var(--r-sm); font-size: 2.65rem; line-height: 1.65; margin-block: .5rem .625rem; }
-.course-letter-status { color: var(--ink-light); font-size: .75rem; margin-block-start: .5rem; }
-.course-letter-available { border-color: var(--border-dark); }
-.course-letter-available a { border-radius: var(--r-md); }
-.course-letter-available a:hover { background: var(--course-soft); }
-.course-letter-available .course-letter-status { color: var(--ink); font-weight: 600; }
+.course-curriculum { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: var(--space-xs-plus); list-style: none; }
+.course-letter-card { --accent: #4F46E5; --tint: #EEF0FF; min-width: 0; position: relative; background: var(--white); border: 1px solid var(--border); border-radius: var(--r-lg); transition: transform .22s ease, border-color .22s ease, box-shadow .22s ease; }
+.course-letter-card:nth-child(5n+2) { --accent: #B5473D; --tint: #FCEDEB; }
+.course-letter-card:nth-child(5n+3) { --accent: #166F54; --tint: #E6F4EE; }
+.course-letter-card:nth-child(5n+4) { --accent: #8B3A9E; --tint: #F6ECF8; }
+.course-letter-card:nth-child(5n+5) { --accent: #B45309; --tint: #FEF3E2; }
+.course-letter-card > a, .course-letter-card > div { display: flex; flex-direction: column; height: 100%; align-items: center; padding: var(--space-xs-plus) var(--space-xs-plus) var(--space-sm); border-radius: inherit; }
+.course-letter-order { font-size: .6875rem; font-weight: 600; letter-spacing: .02em; color: var(--ink-light); padding: var(--space-2xs) var(--space-xs); border-radius: var(--r-full); }
+.course-letter-card .course-hebrew { width: 100%; text-align: center; border-radius: var(--r-md); font-size: 2.65rem; line-height: 1.65; margin-block: var(--space-xs) var(--space-xs-plus); }
+.course-letter-status { color: var(--ink-light); font-size: .75rem; margin-block-start: var(--space-xs); }
 .course-resource p { color: var(--ink-mid); font-size: .875rem; margin-block-start: .5rem; }
 .course-resources { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
 .course-resource { display: block; background: var(--white); border: 1px solid var(--border); padding: 1.25rem; border-radius: var(--r-md); }
@@ -65,7 +65,7 @@
   .course-secondary { text-align: center; }
   .course-first-card { display: grid; grid-template-columns: 88px minmax(0, 1fr); gap: .25rem 1rem; padding: 1rem; }
   .course-first-card > .course-eyebrow { grid-column: 2; }
-  .course-letter-surface { grid-column: 1; grid-row: 1 / 5; margin: 0; align-self: center; }
+  .course-letter-surface { grid-column: 1; grid-row: 1 / 6; margin: 0; align-self: center; }
   .course-letter-surface .course-hebrew { font-size: 3.5rem; }
   .course-first-card h2, .course-first-card > p { grid-column: 2; }
   .course-hub h2 { font-size: 1.5rem; }
@@ -78,4 +78,58 @@
   /* Bound gutters by viewport width so the enlarged wordmark and menu both fit. */
   .course-hub .nav-inner.container { gap: .25rem; padding-inline: min(1.5rem, 5vw); }
 }
-@media (prefers-reduced-motion: reduce) { .course-hub .btn { transition: none; } }
+/* Curriculum grid: each open lesson gets one of five accents (the same family
+   as the LearningMosaic markers). A 5-step cycle over a 6/4/2-column grid
+   lays the colours out diagonally instead of in vertical stripes. Every
+   accent keeps >= 4.5:1 for small text on white and on its own tint. */
+/* Open lesson: accent label and letter; hover/focus lifts the card and
+   tints its border and shadow with the accent. */
+.course-letter-available .course-letter-order { color: var(--accent); background: var(--tint); }
+.course-letter-available .course-hebrew { color: var(--accent); }
+.course-letter-available .course-letter-status { color: var(--accent); font-weight: 600; }
+.course-letter-status > span { display: inline-block; transition: transform .22s ease; }
+.course-letter-available:hover, .course-letter-available:focus-within { transform: translateY(-4px); border-color: var(--accent); box-shadow: 0 14px 28px -14px color-mix(in srgb, var(--accent) 55%, transparent), 0 2px 6px rgba(31, 41, 55, .05); }
+.course-letter-available:hover .course-letter-status > span, .course-letter-available:focus-within .course-letter-status > span { transform: translateX(4px); }
+/* Not yet open: dashed outline and an outlined letter, so it reads as
+   "still to unlock" rather than as a disabled grey block. */
+.course-letter-card:not(.course-letter-available) { border-style: dashed; border-color: var(--border-dark); background: var(--surface-soft); }
+.course-letter-card:not(.course-letter-available) .course-hebrew { color: transparent; -webkit-text-stroke: 1.25px var(--ink-light); }
+.course-letter-card:not(.course-letter-available) h3 { color: var(--ink-mid); }
+.course-letter-card:not(.course-letter-available) .course-letter-status { padding: var(--space-2xs) var(--space-xs); border: 1px dashed var(--border-dark); border-radius: var(--r-full); background: var(--white); }
+/* First-lesson card: a plain outlined Aleph tile, a deck of the
+   next lessons (coral, lavender) fanned behind it, and a 22-step
+   path. The title link stretches over the whole card. The hover lift uses
+   `top`, not `transform`: a transform would make the card its own stacking
+   context and paint the z-index:-1 deck layers over its white background. */
+.course-first-card::before, .course-first-card::after { content: ""; position: absolute; inset: 0; z-index: -1; border-radius: inherit; transition: transform .3s ease; }
+.course-first-card::before { background: #FCEDEB; border: 1px solid #F3D3CE; transform: rotate(4deg) translate(10px, 4px); }
+.course-first-card::after { background: #EEF0FF; border: 1px solid #D9DCFB; transform: rotate(-3deg) translate(-8px, 8px); }
+.course-first-card > .course-eyebrow { display: inline-block; padding: var(--space-2xs) var(--space-xs); border-radius: var(--r-full); background: color-mix(in srgb, var(--emerald) 14%, var(--white)); color: var(--first-ink); font-weight: 600; }
+.course-first-card h2 a { color: inherit; text-decoration: none; }
+.course-first-card h2 a::after { content: ""; position: absolute; inset: 0; border-radius: inherit; }
+.course-first-card h2 a:focus-visible { outline: none; }
+.course-first-card:has(h2 a:focus-visible) { outline: 3px solid var(--brand-dark); outline-offset: 4px; }
+.course-first-card:has(h2 a):hover, .course-first-card:has(h2 a:focus-visible) { top: -4px; border-color: var(--emerald); box-shadow: 0 18px 36px -16px rgba(16, 185, 129, .45), 0 2px 6px rgba(31, 41, 55, .05); }
+.course-first-card:has(h2 a):hover::before, .course-first-card:has(h2 a:focus-visible)::before { transform: rotate(7deg) translate(18px, 6px); }
+.course-first-card:has(h2 a):hover::after, .course-first-card:has(h2 a:focus-visible)::after { transform: rotate(-6deg) translate(-16px, 10px); }
+.course-first-card:has(h2 a):hover .course-letter-surface .course-hebrew { transform: scale(1.08); }
+.course-first-path { display: flex; gap: 3px; margin-block-start: var(--space-xs-plus); }
+.course-first-path > span { flex: 1; height: 6px; border-radius: var(--r-full); background: var(--border); }
+.course-first-path > .is-open { background: color-mix(in srgb, var(--emerald) 30%, var(--white)); }
+.course-first-path > .is-current { background: var(--first-ink); }
+/* Narrow screens: keep the deck inside the card's width (no sideways fan),
+   so the rotated layers never cause horizontal scroll. */
+@media (max-width: 900px) {
+  .course-first-card::before, .course-first-card:has(h2 a):hover::before, .course-first-card:has(h2 a:focus-visible)::before { inset: 0 var(--space-sm); transform: rotate(2deg) translateY(8px); }
+  .course-first-card::after, .course-first-card:has(h2 a):hover::after, .course-first-card:has(h2 a:focus-visible)::after { inset: 0 var(--space-md); transform: rotate(-1.5deg) translateY(14px); }
+}
+@media (max-width: 600px) {
+  .course-first-card > .course-eyebrow { justify-self: start; }
+  .course-first-path { grid-column: 2; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .course-hub .btn, .course-letter-card, .course-letter-status > span, .course-first-card, .course-first-card::before, .course-first-card::after, .course-letter-surface .course-hebrew { transition: none; }
+  .course-first-card:has(h2 a):hover, .course-first-card:has(h2 a:focus-visible) { top: 0; }
+  .course-first-card:has(h2 a):hover .course-letter-surface .course-hebrew { transform: none; }
+  .course-letter-available:hover, .course-letter-available:focus-within, .course-letter-available:hover .course-letter-status > span, .course-letter-available:focus-within .course-letter-status > span { transform: none; }
+}
